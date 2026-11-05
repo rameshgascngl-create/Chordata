@@ -18,6 +18,7 @@ import androidx.test.platform.app.InstrumentationRegistry
 import android.graphics.Bitmap
 import android.content.ContentValues
 import android.provider.MediaStore
+import `in`.gasc.zoology.chordata.data.ContentRepository
 import org.junit.Rule
 import org.junit.Test
 
@@ -149,6 +150,56 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("figure-image-scoliodon-external").performClick()
         rule.onNodeWithText("மூடுக").assertIsDisplayed()
         captureQaScreen("scoliodon-zoom-ta-200")
+    }
+
+    private fun verifyProvisionalExternalFigureLocation(search: String, figureId: String) {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput(search)
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("figure-image-" + figureId).assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithText("Next ›").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("figure-image-" + figureId).assertIsDisplayed()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithText("Next ›").performClick()
+        rule.onNodeWithTag("figure-image-" + figureId).assertDoesNotExist()
+    }
+
+    @Test fun pigeonFigureOnlyAppearsOnExternalMorphologyLesson() {
+        verifyProvisionalExternalFigureLocation("Columba", "columba-external")
+    }
+
+    @Test fun rabbitFigureOnlyAppearsOnExternalMorphologyLesson() {
+        verifyProvisionalExternalFigureLocation("Rabbit", "rabbit-external")
+    }
+
+    @Test fun all64FigureSlotsAreMappedToActualSectionsInApk() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val topicById = pack.topics.associateBy { it.id }
+        val raw = context.assets.open("figure_slots.json")
+            .bufferedReader(Charsets.UTF_8).use { it.readText() }
+        val slots = org.json.JSONObject(raw).getJSONArray("slots")
+        org.junit.Assert.assertEquals(64, slots.length())
+        val visited = mutableSetOf<String>()
+        var draftLinks = 0
+        for (i in 0 until slots.length()) {
+            val slot = slots.getJSONObject(i)
+            val id = slot.getString("id")
+            check(visited.add(id)) { "Duplicate diagram slot" }
+            val topic = requireNotNull(topicById[slot.getString("topicId")])
+            check(id in topic.diagramIds)
+            val page = slot.getInt("page")
+            check(page in 1..topic.sections.size)
+            check(topic.sections[page - 1].key == slot.getString("sectionKey"))
+            check(slot.getString("captionEn").isNotBlank())
+            check(slot.getString("captionTa").isNotBlank())
+            if (!slot.isNull("provisionalFigureId")) draftLinks++
+        }
+        org.junit.Assert.assertEquals(pack.topics.flatMap { it.diagramIds }.toSet(), visited)
+        org.junit.Assert.assertEquals(3, draftLinks)
     }
 
 }
