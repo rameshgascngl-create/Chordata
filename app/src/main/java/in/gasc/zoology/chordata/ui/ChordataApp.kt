@@ -406,13 +406,15 @@ private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
 }
 
 @Composable
-fun ErrorContent(message: String) {
+fun ErrorContent(message: String, lang: ReadingLanguage) {
     MaterialTheme(colorScheme = scheme) {
         Column(Modifier.fillMaxSize().padding(24.dp),
             verticalArrangement = Arrangement.Center) {
-            Text("Offline content unavailable", fontSize = 22.sp, fontWeight = FontWeight.Bold)
-            Text(message, color = mutetext)
-            Text("The app will not substitute incomplete or unverified lessons.", color = accent)
+            Text(loc(lang, "Offline content unavailable", "இணையமற்ற பாட உள்ளடக்கம் கிடைக்கவில்லை"),
+                fontSize = 22.sp, fontWeight = FontWeight.Bold)
+            Text(loc(lang, message, "பாடத் தரவைக் திறக்க இயலவில்லை."), color = mutetext)
+            Text(loc(lang, "The app will not substitute incomplete or unverified lessons.",
+                "சரிபார்க்கப்படாத பாடங்கள் மாற்றாக வழங்கப்படமாட்டா."), color = accent)
         }
     }
 }
