@@ -20,11 +20,21 @@ jobs:
         run: |
           python3 -m pip install --disable-pip-version-check Pillow==11.3.0
           python3 scripts/build_qa_plates.py
-      - name: Upload provisional offline PNG assets
+      - name: Acquire original sources with creator and licence metadata
+        run: python3 scripts/fetch_licensed_commons.py
+      - name: Stage owner-credited PNG reference assets and exact section mappings
+        run: python3 scripts/stage_credited_references.py
+      - name: Audit credited image integrity and all 64 placements
+        run: python3 scripts/audit_figure_placement.py
+      - name: Upload all offline QA figure assets and provenance metadata
         uses: actions/upload-artifact@v4
         with:
           name: Chordata_QA_Source_Figures
-          path: app/src/main/assets/figures/
+          path: |
+            app/src/main/assets/figures/
+            app/src/main/assets/figures.json
+            app/src/main/assets/figure_slots.json
+            app/src/main/assets/source_reference_credits.json
           if-no-files-found: error
           retention-days: 7
 
@@ -40,7 +50,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: Chordata_QA_Source_Figures
-          path: app/src/main/assets/figures/
+          path: app/src/main/assets/
       - name: Audit all 64 figure-to-lesson assignments and verify PNG hashes
         run: python3 scripts/audit_figure_placement.py
       - uses: actions/setup-java@v4
@@ -87,7 +97,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: Chordata_QA_Source_Figures
-          path: app/src/main/assets/figures/
+          path: app/src/main/assets/
       - name: Audit all 64 figure-to-lesson assignments and verify PNG hashes
         run: python3 scripts/audit_figure_placement.py
       - uses: actions/setup-java@v4

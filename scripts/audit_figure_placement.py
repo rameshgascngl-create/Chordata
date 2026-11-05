@@ -55,10 +55,10 @@ def main():
     require(isinstance(provisional, list), "provisional figure register invalid")
     require(len({f["id"] for f in provisional}) == len(provisional),
             "duplicate provisional figure IDs")
-    require(len(provisional) == 3, "QA build must not claim extra approved figures")
+    require(len(provisional) == 8, "QA build must contain exactly 3 original + 5 credited images")
     provisional_by_id = {f["id"]: f for f in provisional}
     draft_slots = [s for s in slots if s.get("provisionalFigureId")]
-    require(len(draft_slots) == 3, "expected three explicitly mapped provisional illustrations")
+    require(len(draft_slots) == 8, "expected eight explicitly mapped reference illustrations")
     require({s["provisionalFigureId"] for s in draft_slots} == set(provisional_by_id),
             "provisional illustration not linked to exactly one diagram slot")
     for slot in draft_slots:
@@ -85,13 +85,24 @@ def main():
         require(width >= 1200 and height >= 600, "figure too small: " + name)
         expected_digest = hashes[figure["id"]]["sha256"]
         require(hashlib.sha256(data).hexdigest() == expected_digest, "figure checksum mismatch")
-        require(figure.get("author") and figure.get("license", "").startswith("Provisional QA artwork"),
-                "provenance not marked provisional: " + figure["id"])
+        is_original = figure["id"] in ("scoliodon-external", "columba-external", "rabbit-external")
+        if is_original:
+            require(figure.get("author") and figure.get("license", "").startswith("Provisional QA artwork"),
+                    "original QA figure wrongly credited: " + figure["id"])
+        else:
+            require(figure["id"].startswith("commons-") and figure.get("origin") == "Wikimedia Commons",
+                    "source figure missing Commons provenance: " + figure["id"])
+            require(figure.get("sourceUrl", "").startswith("https://commons.wikimedia.org/wiki/File:"),
+                    "source image lacks exact owner file page: " + figure["id"])
+            require(figure.get("licenseUrl", "").startswith("https://creativecommons.org/"),
+                    "source image lacks licence URL: " + figure["id"])
+            require(figure.get("reviewStatus") == "REFERENCE_SOURCE_AWAITING_ACADEMIC_REVIEW",
+                    "unreviewed figure misrepresented: " + figure["id"])
     unit_counts = Counter(s["topicId"].split("-")[0] for s in slots)
     print("PASS: 64/64 figure slots have unique exact lesson-page assignments")
-    print("PASS: 3/3 provisional PNG images present, correctly placed and hash verified")
+    print("PASS: 8/8 PNG image assets correctly placed, PNG/hash checked (3 original QA + 5 credited sources)")
     print("PASS: overview contains no figure slot; bilingual captions exist for all slots")
-    print("PENDING: 64/64 academically approved labelled plates; 61 have no draft image")
+    print("PENDING: 64/64 scientifically approved plates; 56 have no reference image, 8 references unapproved")
     print("BY UNIT:", dict(sorted(unit_counts.items())))
 
 

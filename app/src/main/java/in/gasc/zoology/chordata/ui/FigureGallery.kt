@@ -25,7 +25,8 @@ import org.json.JSONArray
 
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
-    val captionEn: String, val captionTa: String, val author: String, val licence: String
+    val captionEn: String, val captionTa: String, val author: String, val licence: String,
+    val sourceUrl: String, val licenceUrl: String, val modifications: String
 )
 
 private data class DiagramSlot(
@@ -45,7 +46,10 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     Plate(entry.getString("id"), entry.getString("topicId"),
                         entry.getInt("page"), entry.getString("file"),
                         entry.getString("captionEn"), entry.getString("captionTa"),
-                        entry.getString("author"), entry.getString("license"))
+                        entry.getString("author"), entry.getString("license"),
+                        entry.optString("sourceUrl", ""),
+                        entry.optString("licenseUrl", ""),
+                        entry.optString("modifications", ""))
                 }
             }
         }.getOrDefault(emptyList())
@@ -120,18 +124,33 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 var zoomed by remember(plate.id) { mutableStateOf(false) }
                 Card(modifier = Modifier.fillMaxWidth().testTag("figure-" + plate.id)) {
                     Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text(if (lang == ReadingLanguage.TA) "ஆதாரப் படம் · சோதனைப் பதிப்பு"
-                            else "Reference figure · QA draft",
+                        Text(if (plate.sourceUrl.isNotEmpty())
+                            (if (lang == ReadingLanguage.TA)
+                                "பட உரிமையாளர் குறிப்பிடப்பட்ட ஆதாரம் · அறிவியல் ஒப்புதல் நிலுவை"
+                             else "Source-credited reference · anatomical approval pending")
+                            else (if (lang == ReadingLanguage.TA)
+                                "தற்காலிகக் கோட்டோவியம் · அறிவியல் ஒப்புதல் நிலுவை"
+                             else "Provisional outline · anatomical approval pending"),
                             fontWeight = FontWeight.SemiBold)
                         Image(bitmap = bitmap, contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
                             contentScale = ContentScale.Fit,
                             modifier = Modifier.fillMaxWidth().heightIn(min = 170.dp, max = 340.dp)
                                 .clickable { zoomed = true }.testTag("figure-image-" + plate.id))
                         Text(if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
-                        Text(if (lang == ReadingLanguage.TA)
-                            "மூலம்: Chordata QA project · கணினி உதவியுடன் உருவாக்கப்பட்ட தற்காலிகக் கோட்டோவியம் · அறிவியல் மதிப்பாய்வு நிலுவையில் உள்ளது"
-                            else "Source: " + plate.author + " · " + plate.licence,
-                            style = MaterialTheme.typography.labelSmall)
+                        Text(
+                            if (lang == ReadingLanguage.TA)
+                                "பட உரிமையாளர்: " + plate.author + " · உரிமம்: " + plate.licence
+                            else "Image creator: " + plate.author + " · Licence: " + plate.licence,
+                            style = MaterialTheme.typography.labelSmall
+                        )
+                        if (plate.sourceUrl.isNotEmpty()) {
+                            Text(
+                                if (lang == ReadingLanguage.TA)
+                                    "மூலம்: Wikimedia Commons · மாற்றங்கள்: " + plate.modifications
+                                else "Source: Wikimedia Commons · Changes: " + plate.modifications,
+                                style = MaterialTheme.typography.labelSmall
+                            )
+                        }
                         Text(if (lang == ReadingLanguage.TA) "பெரிதாக்கப் படத்தைத் தொடுக" else "Tap image to enlarge",
                             style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
                     }
