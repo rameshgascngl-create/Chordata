@@ -1,0 +1,51 @@
+[
+  {
+    "id": "scoliodon-external",
+    "file": "scoliodon_external.png",
+    "size": 15686,
+    "sha256": "843daf52bf31d90423fe0f5d0ec742f55fbaf54209dceb73ecb404468570280e",
+    "status": "PROVISIONAL"
+  },
+  {
+    "id": "columba-external",
+    "file": "columba_external.png",
+    "size": 17041,
+    "sha256": "808c8eb68a32b62f070c7bc67ea333d281deba4d01b1d0f7c908add04fe34fe4",
+    "status": "PROVISIONAL"
+  },
+  {
+    "id": "rabbit-external",
+    "file": "rabbit_external.png",
+    "size": 25879,
+    "sha256": "1149528779f8a8d2b5ecc88434e3b213f519867fbb0547c9c2ca9b0d7baf44b4",
+    "status": "PROVISIONAL"
+  },
+  {
+    "id": "commons-lancelet-labelled",
+    "file": "lancelet_labelled.png",
+    "size": 190016,
+    "sha256": "21f7854c2376e1f1c5c9dfa5b52929ba1500f1d8981034c0ec7806c21f8019df",
+    "status": "LICENSED_SOURCE_REFERENCE_NOT_ACADEMICALLY_APPROVED"
+  },
+  {
+    "id": "commons-bird-respiration",
+    "file": "bird_respiration.png",
+    "size": 468674,
+    "sha256": "5547df1620a23c1abb44de63d98879871be79d0b5d1bcef69690532aff08e8d7",
+    "status": "LICENSED_SOURCE_REFERENCE_NOT_ACADEMICALLY_APPROVED"
+  },
+  {
+    "id": "commons-pigeon-skeleton",
+    "file": "pigeon_skeleton.png",
+    "size": 3867697,
+    "sha256": "4d538dcfae108ed4f6528ebe4fd9135f88d9ce70c01f525cc96355fe41263796",
+    "status": "LICENSED_SOURCE_REFERENCE_NOT_ACADEMICALLY_APPROVED"
+  },
+  {
+    "id": "commons-rabbit-skeleton",
+    "file": "rabbit_skeleton.png",
+    "size": 2458825,
+    "sha256": "c641be07637df450e9afb01bb8afe2cc3c2d4af24f981a9285cb59cc867dd45d",
+    "status": "LICENSED_SOURCE_REFERENCE_NOT_ACADEMICALLY_APPROVED"
+  }
+]

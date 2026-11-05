@@ -50,7 +50,7 @@
       "captionEn": "Branchiostoma external anatomy",
       "captionTa": "பிராங்கியோஸ்டோமாவின் புற அமைப்பு",
       "status": "PENDING",
-      "provisionalFigureId": null
+      "provisionalFigureId": "commons-lancelet-labelled"
     },
     {
       "id": "u1-vertebrata-characters-vertebrate-anatomy",
@@ -460,7 +460,7 @@
       "captionEn": "Pigeon endoskeleton and flight adaptations",
       "captionTa": "புறாவின் உள் எலும்புக்கூடும் பறத்தல் தகவமைப்புகளும்",
       "status": "PENDING",
-      "provisionalFigureId": null
+      "provisionalFigureId": "commons-pigeon-skeleton"
     },
     {
       "id": "u5-columba-urinogenital",
@@ -510,7 +510,7 @@
       "captionEn": "Bird lungs and air sacs",
       "captionTa": "பறவைகளின் நுரையீரலும் காற்றுப்பைகளும்",
       "status": "PENDING",
-      "provisionalFigureId": null
+      "provisionalFigureId": "commons-bird-respiration"
     },
     {
       "id": "u5-bird-migration-flyway-stopovers",
@@ -550,7 +550,7 @@
       "captionEn": "Rabbit endoskeleton",
       "captionTa": "முயலின் உள் எலும்புக்கூடு",
       "status": "PENDING",
-      "provisionalFigureId": null
+      "provisionalFigureId": "commons-rabbit-skeleton"
     },
     {
       "id": "u5-rabbit-excretory-system",
