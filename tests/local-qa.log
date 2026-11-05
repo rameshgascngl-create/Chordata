@@ -1,0 +1,6 @@
+PASS: untouched 5-unit content SHA-256 d667b88a049f6e2bde3ac37da52216d408ca9efb91f4486feb4ac7d19027092f
+PASS: 39 topics, 127 sections, 117 quizzes, 64 unsupplied figure references
+PASS: native-only source; no Internet permission; no backup/cleartext
+PASS: page progression, scroll reset, saved navigation state hooks present
+PASS: 24 Kotlin core assertions
+PASS: Android XML files well-formed

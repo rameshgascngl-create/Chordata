@@ -1,0 +1,452 @@
+
+> chordata-content-pack@0.1.0 test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: buildPack merges unit files in numerical order
+ok 1 - buildPack merges unit files in numerical order
+  ---
+  duration_ms: 6.095426
+  type: 'test'
+  ...
+# Subtest: buildPack throws listing all validation errors for a broken unit
+ok 2 - buildPack throws listing all validation errors for a broken unit
+  ---
+  duration_ms: 1.668976
+  type: 'test'
+  ...
+# Subtest: BOM at start of hand-edited input tolerated
+ok 3 - BOM at start of hand-edited input tolerated
+  ---
+  duration_ms: 1.268992
+  type: 'test'
+  ...
+# Subtest: writePack preserves Tamil Unicode and does not add BOM
+ok 4 - writePack preserves Tamil Unicode and does not add BOM
+  ---
+  duration_ms: 1.184425
+  type: 'test'
+  ...
+# Subtest: CLI rejects a broken unit with status 1 and diagnostic text
+ok 5 - CLI rejects a broken unit with status 1 and diagnostic text
+  ---
+  duration_ms: 43.659126
+  type: 'test'
+  ...
+# Subtest: complete-production gate rejects a two-unit draft
+ok 6 - complete-production gate rejects a two-unit draft
+  ---
+  duration_ms: 3.008304
+  type: 'test'
+  ...
+# Subtest: complete-production CLI returns failure on partial content
+ok 7 - complete-production CLI returns failure on partial content
+  ---
+  duration_ms: 50.942933
+  type: 'test'
+  ...
+# Subtest: complete-production gate passes full 39-topic source pack
+ok 8 - complete-production gate passes full 39-topic source pack
+  ---
+  duration_ms: 6.281797
+  type: 'test'
+  ...
+# Subtest: complete-production CLI passes built five-unit pack
+ok 9 - complete-production CLI passes built five-unit pack
+  ---
+  duration_ms: 45.837294
+  type: 'test'
+  ...
+# Subtest: diagram list preserves unit and topic order
+ok 10 - diagram list preserves unit and topic order
+  ---
+  duration_ms: 1.731519
+  type: 'test'
+  ...
+# Subtest: topics without diagram IDs contribute nothing
+ok 11 - topics without diagram IDs contribute nothing
+  ---
+  duration_ms: 0.921158
+  type: 'test'
+  ...
+# Subtest: every required figure has a pending manifest entry in the correct topic
+ok 12 - every required figure has a pending manifest entry in the correct topic
+  ---
+  duration_ms: 1.641564
+  type: 'test'
+  ...
+# Subtest: release gate blocks unverified figure rights and absent assets
+ok 13 - release gate blocks unverified figure rights and absent assets
+  ---
+  duration_ms: 5.163712
+  type: 'test'
+  ...
+# Subtest: release gate rejects missing and duplicate diagram manifest records
+ok 14 - release gate rejects missing and duplicate diagram manifest records
+  ---
+  duration_ms: 4.099608
+  type: 'test'
+  ...
+# Subtest: release CLI returns blocking status until independent sign-off
+ok 15 - release CLI returns blocking status until independent sign-off
+  ---
+  duration_ms: 71.354361
+  type: 'test'
+  ...
+# Subtest: asset checksum detects changed SVG in a synthetic approved fixture
+ok 16 - asset checksum detects changed SVG in a synthetic approved fixture
+  ---
+  duration_ms: 26.480653
+  type: 'test'
+  ...
+# Subtest: bilingual review preview lists all units, titles and correct answer options
+ok 17 - bilingual review preview lists all units, titles and correct answer options
+  ---
+  duration_ms: 17.434314
+  type: 'test'
+  ...
+# Subtest: Unit 1 has all syllabus topics in prescribed order
+ok 18 - Unit 1 has all syllabus topics in prescribed order
+  ---
+  duration_ms: 1.522274
+  type: 'test'
+  ...
+# Subtest: Unit 2 has all syllabus topics in prescribed order
+ok 19 - Unit 2 has all syllabus topics in prescribed order
+  ---
+  duration_ms: 0.117848
+  type: 'test'
+  ...
+# Subtest: Unit 3 has all syllabus topics in prescribed order
+ok 20 - Unit 3 has all syllabus topics in prescribed order
+  ---
+  duration_ms: 0.161493
+  type: 'test'
+  ...
+# Subtest: Unit 4 has all syllabus topics in prescribed order
+ok 21 - Unit 4 has all syllabus topics in prescribed order
+  ---
+  duration_ms: 0.09959
+  type: 'test'
+  ...
+# Subtest: Unit 5 has all syllabus topics in prescribed order
+ok 22 - Unit 5 has all syllabus topics in prescribed order
+  ---
+  duration_ms: 0.12625
+  type: 'test'
+  ...
+# Subtest: all five type studies contain their required sections
+ok 23 - all five type studies contain their required sections
+  ---
+  duration_ms: 0.313112
+  type: 'test'
+  ...
+# Subtest: full pack contains 39 authored topics and at least 117 distinct bilingual MCQs
+ok 24 - full pack contains 39 authored topics and at least 117 distinct bilingual MCQs
+  ---
+  duration_ms: 0.806145
+  type: 'test'
+  ...
+# Subtest: complete five-unit content passes syllabus-aware validation
+ok 25 - complete five-unit content passes syllabus-aware validation
+  ---
+  duration_ms: 4.384648
+  type: 'test'
+  ...
+# Subtest: explicit safety and taxonomic safeguards are retained
+ok 26 - explicit safety and taxonomic safeguards are retained
+  ---
+  duration_ms: 0.594937
+  type: 'test'
+  ...
+# Subtest: answer keys are not concentrated in a single option letter
+ok 27 - answer keys are not concentrated in a single option letter
+  ---
+  duration_ms: 0.565702
+  type: 'test'
+  ...
+# Subtest: valid fixture has no errors
+ok 28 - valid fixture has no errors
+  ---
+  duration_ms: 3.17854
+  type: 'test'
+  ...
+# Subtest: missing schemaVersion is reported
+ok 29 - missing schemaVersion is reported
+  ---
+  duration_ms: 0.647085
+  type: 'test'
+  ...
+# Subtest: unknown unit id is reported
+ok 30 - unknown unit id is reported
+  ---
+  duration_ms: 0.262005
+  type: 'test'
+  ...
+# Subtest: duplicate topic ids are reported
+ok 31 - duplicate topic ids are reported
+  ---
+  duration_ms: 0.602057
+  type: 'test'
+  ...
+# Subtest: duplicate section keys within topic reported
+ok 32 - duplicate section keys within topic reported
+  ---
+  duration_ms: 0.337769
+  type: 'test'
+  ...
+# Subtest: section key not kebab-case is reported
+ok 33 - section key not kebab-case is reported
+  ---
+  duration_ms: 0.27884
+  type: 'test'
+  ...
+# Subtest: fewer than 3 quiz items is reported
+ok 34 - fewer than 3 quiz items is reported
+  ---
+  duration_ms: 0.256977
+  type: 'test'
+  ...
+# Subtest: options count other than 4 is reported
+ok 35 - options count other than 4 is reported
+  ---
+  duration_ms: 0.321534
+  type: 'test'
+  ...
+# Subtest: correctIndex -1 rejected
+ok 36 - correctIndex -1 rejected
+  ---
+  duration_ms: 0.498832
+  type: 'test'
+  ...
+# Subtest: correctIndex 4 rejected
+ok 37 - correctIndex 4 rejected
+  ---
+  duration_ms: 0.431169
+  type: 'test'
+  ...
+# Subtest: correctIndex 1.5 rejected
+ok 38 - correctIndex 1.5 rejected
+  ---
+  duration_ms: 0.271659
+  type: 'test'
+  ...
+# Subtest: duplicate English options rejected
+ok 39 - duplicate English options rejected
+  ---
+  duration_ms: 0.227553
+  type: 'test'
+  ...
+# Subtest: duplicate Tamil options rejected
+ok 40 - duplicate Tamil options rejected
+  ---
+  duration_ms: 0.383618
+  type: 'test'
+  ...
+# Subtest: heading placeholder "" rejected
+ok 41 - heading placeholder "" rejected
+  ---
+  duration_ms: 0.257659
+  type: 'test'
+  ...
+# Subtest: heading placeholder "   " rejected
+ok 42 - heading placeholder "   " rejected
+  ---
+  duration_ms: 0.16586
+  type: 'test'
+  ...
+# Subtest: heading placeholder "TBD" rejected
+ok 43 - heading placeholder "TBD" rejected
+  ---
+  duration_ms: 0.259401
+  type: 'test'
+  ...
+# Subtest: heading placeholder "TODO later" rejected
+ok 44 - heading placeholder "TODO later" rejected
+  ---
+  duration_ms: 0.159851
+  type: 'test'
+  ...
+# Subtest: heading placeholder "Lorem ipsum" rejected
+ok 45 - heading placeholder "Lorem ipsum" rejected
+  ---
+  duration_ms: 0.151158
+  type: 'test'
+  ...
+# Subtest: short English body rejected
+ok 46 - short English body rejected
+  ---
+  duration_ms: 0.3115
+  type: 'test'
+  ...
+# Subtest: short Tamil body rejected
+ok 47 - short Tamil body rejected
+  ---
+  duration_ms: 0.235404
+  type: 'test'
+  ...
+# Subtest: Tamil-free title rejected
+ok 48 - Tamil-free title rejected
+  ---
+  duration_ms: 0.224389
+  type: 'test'
+  ...
+# Subtest: Tamil title may include English in brackets
+ok 49 - Tamil title may include English in brackets
+  ---
+  duration_ms: 0.150958
+  type: 'test'
+  ...
+# Subtest: quiz option Tamil-free text allowed
+ok 50 - quiz option Tamil-free text allowed
+  ---
+  duration_ms: 0.133892
+  type: 'test'
+  ...
+# Subtest: Tamil script checked: title
+ok 51 - Tamil script checked: title
+  ---
+  duration_ms: 0.221724
+  type: 'test'
+  ...
+# Subtest: Tamil script checked: heading
+ok 52 - Tamil script checked: heading
+  ---
+  duration_ms: 0.240142
+  type: 'test'
+  ...
+# Subtest: Tamil script checked: body
+ok 53 - Tamil script checked: body
+  ---
+  duration_ms: 0.285581
+  type: 'test'
+  ...
+# Subtest: Tamil script checked: question
+ok 54 - Tamil script checked: question
+  ---
+  duration_ms: 0.180462
+  type: 'test'
+  ...
+# Subtest: Tamil script checked: explanation
+ok 55 - Tamil script checked: explanation
+  ---
+  duration_ms: 0.287403
+  type: 'test'
+  ...
+# Subtest: missing syllabus topic reported
+ok 56 - missing syllabus topic reported
+  ---
+  duration_ms: 0.68958
+  type: 'test'
+  ...
+# Subtest: extra topic not in syllabus reported
+ok 57 - extra topic not in syllabus reported
+  ---
+  duration_ms: 0.363428
+  type: 'test'
+  ...
+# Subtest: required section key reported
+ok 58 - required section key reported
+  ---
+  duration_ms: 0.340002
+  type: 'test'
+  ...
+# Subtest: onlyUnits prevents absent unit failures
+ok 59 - onlyUnits prevents absent unit failures
+  ---
+  duration_ms: 0.19249
+  type: 'test'
+  ...
+# Subtest: without onlyUnits all five units required
+ok 60 - without onlyUnits all five units required
+  ---
+  duration_ms: 0.230117
+  type: 'test'
+  ...
+# Subtest: out-of-order syllabus topics reported
+ok 61 - out-of-order syllabus topics reported
+  ---
+  duration_ms: 0.340563
+  type: 'test'
+  ...
+# Subtest: actual syllabus has 39 unique topic IDs with correct prefixes
+ok 62 - actual syllabus has 39 unique topic IDs with correct prefixes
+  ---
+  duration_ms: 0.371931
+  type: 'test'
+  ...
+# Subtest: invalid diagram id ../x
+ok 63 - invalid diagram id ../x
+  ---
+  duration_ms: 0.24599
+  type: 'test'
+  ...
+# Subtest: invalid diagram id a/b
+ok 64 - invalid diagram id a/b
+  ---
+  duration_ms: 0.503899
+  type: 'test'
+  ...
+# Subtest: invalid diagram id A-b
+ok 65 - invalid diagram id A-b
+  ---
+  duration_ms: 1.278046
+  type: 'test'
+  ...
+# Subtest: duplicate diagram ids detected
+ok 66 - duplicate diagram ids detected
+  ---
+  duration_ms: 0.379382
+  type: 'test'
+  ...
+# Subtest: missing diagram file reported
+ok 67 - missing diagram file reported
+  ---
+  duration_ms: 0.511911
+  type: 'test'
+  ...
+# Subtest: empty SVG rejected
+ok 68 - empty SVG rejected
+  ---
+  duration_ms: 0.459483
+  type: 'test'
+  ...
+# Subtest: non-SVG rejected
+ok 69 - non-SVG rejected
+  ---
+  duration_ms: 1.036893
+  type: 'test'
+  ...
+# Subtest: valid SVG resolves
+ok 70 - valid SVG resolves
+  ---
+  duration_ms: 0.308365
+  type: 'test'
+  ...
+# Subtest: on-disk valid pack fixture passes
+ok 71 - on-disk valid pack fixture passes
+  ---
+  duration_ms: 0.455637
+  type: 'test'
+  ...
+# Subtest: credit must match the required attribution line
+ok 72 - credit must match the required attribution line
+  ---
+  duration_ms: 0.323077
+  type: 'test'
+  ...
+# Subtest: unsafe SVG script and external href attributes are rejected
+ok 73 - unsafe SVG script and external href attributes are rejected
+  ---
+  duration_ms: 1.71899
+  type: 'test'
+  ...
+1..73
+# tests 73
+# suites 0
+# pass 73
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 302.345742
