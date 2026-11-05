@@ -21,7 +21,7 @@ data class ContentPack(val schemaVersion: Int, val credit: String, val units: Li
     fun findTopic(id: String): LessonTopic? = topics.firstOrNull { it.id == id }
 }
 
-enum class ReadingLanguage { EN, TA, BOTH }
+enum class ReadingLanguage { EN, TA }
 
 object LearningLogic {
     /** 0 = chapter overview; 1..sections.size = individual section; last = quiz. */
