@@ -9,13 +9,38 @@ on:
   pull_request:
 
 jobs:
+  prepare-figures:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare source-attributed offline PNG plates once
+        run: |
+          python3 -m pip install --disable-pip-version-check Pillow==11.3.0
+          python3 scripts/prepare_commons_plates.py
+      - name: Upload checked offline figure assets
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_QA_Source_Figures
+          path: app/src/main/assets/figures/
+          if-no-files-found: error
+          retention-days: 7
+
   native-qa:
+    needs: prepare-figures
     runs-on: ubuntu-latest
     timeout-minutes: 40
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v4
+      - name: Restore identical QA figure assets
+        uses: actions/download-artifact@v4
+        with:
+          name: Chordata_QA_Source_Figures
+          path: app/src/main/assets/figures/
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -36,10 +61,6 @@ jobs:
           "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
       - name: Compile native Kotlin before external figure acquisition
         run: gradle --no-daemon :app:compileDebugKotlin
-      - name: Prepare source-attributed offline PNG plates
-        run: |
-          python3 -m pip install --disable-pip-version-check Pillow==11.3.0
-          python3 scripts/prepare_commons_plates.py
       - name: Validate immutable content
         run: python3 scripts/audit_content.py
       - name: Build debug APK
@@ -53,12 +74,18 @@ jobs:
           retention-days: 7
 
   android-instrumentation:
+    needs: prepare-figures
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v4
+      - name: Restore identical QA figure assets
+        uses: actions/download-artifact@v4
+        with:
+          name: Chordata_QA_Source_Figures
+          path: app/src/main/assets/figures/
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -79,10 +106,6 @@ jobs:
           "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
       - name: Compile native Kotlin before external figure acquisition
         run: gradle --no-daemon :app:compileDebugKotlin
-      - name: Prepare source-attributed offline PNG plates
-        run: |
-          python3 -m pip install --disable-pip-version-check Pillow==11.3.0
-          python3 scripts/prepare_commons_plates.py
       - name: Enable KVM
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=android_kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
