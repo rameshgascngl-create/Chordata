@@ -59,12 +59,21 @@ jobs:
           test -x "$SDKMANAGER"
           printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+      - name: Audit exact lesson/page figure placement and PNG integrity
+        run: python3 scripts/audit_figure_placements.py --check-png --out build/figure-placement-audit.json
       - name: Compile native Kotlin before external figure acquisition
         run: gradle --no-daemon :app:compileDebugKotlin
       - name: Validate immutable content
         run: python3 scripts/audit_content.py
       - name: Build debug APK
         run: gradle --no-daemon :app:assembleDebug
+      - name: Upload figure placement audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Figure_Placement_Audit
+          path: build/figure-placement-audit.json
+          if-no-files-found: error
+          retention-days: 14
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
@@ -104,6 +113,8 @@ jobs:
           test -x "$SDKMANAGER"
           printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+      - name: Audit exact lesson/page figure placement and PNG integrity
+        run: python3 scripts/audit_figure_placements.py --check-png --out build/figure-placement-audit.json
       - name: Compile native Kotlin before external figure acquisition
         run: gradle --no-daemon :app:compileDebugKotlin
       - name: Enable KVM
@@ -130,5 +141,6 @@ jobs:
             build/qa-screenshots/
             app/build/outputs/androidTest-results/connected/
             app/build/reports/androidTests/connected/
+            build/figure-placement-audit.json
           if-no-files-found: warn
           retention-days: 14

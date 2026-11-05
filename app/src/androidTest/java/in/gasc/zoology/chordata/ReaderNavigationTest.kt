@@ -11,6 +11,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performScrollToIndex
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.graphics.asAndroidBitmap
@@ -22,6 +23,24 @@ import org.junit.Rule
 import org.junit.Test
 
 class ReaderNavigationTest {
+    @Test fun missingAnatomicalPlateAppearsOnlyOnRelevantSection() {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("figure-pending-u2-scoliodon-digestive-labelled").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithText("Next ›").performClick()
+        rule.onNodeWithTag("figure-pending-u2-scoliodon-digestive-labelled").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithText("Next ›").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(2)
+        rule.onNodeWithTag("figure-pending-u2-scoliodon-digestive-labelled")
+            .performScrollTo().assertIsDisplayed()
+        rule.onNodeWithTag("figure-image-scoliodon-external").assertDoesNotExist()
+    }
+
+
     @Test fun tamilCompactHeaderFitsAndBackWorks() {
         rule.onNodeWithText("தமிழ்").performClick()
         rule.onNodeWithText("200%").performClick()
@@ -69,7 +88,11 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("figure-image-scoliodon-external").assertDoesNotExist()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithText("Next ›").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(2)
+        rule.onNodeWithTag("figure-image-scoliodon-external").performScrollTo()
         rule.onNodeWithTag("figure-image-scoliodon-external").performClick()
         rule.onNodeWithText("Close").assertIsDisplayed()
     }
@@ -137,7 +160,11 @@ class ReaderNavigationTest {
         rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
+        rule.onNodeWithTag("figure-image-scoliodon-external").assertDoesNotExist()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithText("அடுத்து ›").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(2)
+        rule.onNodeWithTag("figure-image-scoliodon-external").performScrollTo()
         rule.onNodeWithTag("figure-image-scoliodon-external").assertIsDisplayed()
         captureQaScreen("scoliodon-figure-ta-200")
         rule.onNodeWithTag("figure-image-scoliodon-external").performClick()
