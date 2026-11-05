@@ -4,35 +4,35 @@
     "topicId": "u2-scoliodon",
     "page": 1,
     "file": "scoliodon_external.png",
-    "captionEn": "Milk shark external form: historical 1909 species illustration (not an organ-system diagram).",
-    "captionTa": "பால்சுறாவின் புறத்தோற்றம்: 1909-ஆம் ஆண்டின் பழைய அறிவியல் வரைபடம் (உறுப்பு மண்டலப் படம் அல்ல).",
-    "author": "D. S. Jordan and R. E. Richardson (1909)",
-    "license": "Public domain",
-    "commonsFile": "Scoliodon walbeehmi by jordan and richardson.png",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scoliodon_walbeehmi_by_jordan_and_richardson.png"
+    "captionEn": "Scoliodon external morphology (schematic line drawing; not a specimen photograph)",
+    "captionTa": "சுறாவின் புறத்தோற்றம் (தற்காலிகக் கோட்டோவியம்; உண்மையான மாதிரிப் படம் அல்ல)",
+    "author": "Chordata QA project — computer-assisted original line drawing",
+    "license": "Provisional QA artwork; scientific illustration review pending",
+    "commonsFile": null,
+    "sourceUrl": ""
   },
   {
     "id": "columba-external",
     "topicId": "u5-columba",
     "page": 1,
     "file": "columba_external.png",
-    "captionEn": "Rock dove (Columba livia): historical external appearance reference; review of diagnostic details pending.",
-    "captionTa": "மாடப்புறா (Columba livia): வரலாற்றுச் சிறப்புடைய புறத்தோற்ற ஆதாரப் படம்; நுண்விவரச் சரிபார்ப்பு நிலுவையில் உள்ளது.",
-    "author": "Naumann, Naturgeschichte der Vögel Mitteleuropas (1897)",
-    "license": "Public domain",
-    "commonsFile": "Columba livia by Naumann.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columba_livia_by_Naumann.jpg"
+    "captionEn": "Pigeon external morphology (schematic line drawing; not a labelled organ-system diagram)",
+    "captionTa": "புறாவின் புறத்தோற்றம் (தற்காலிகக் கோட்டோவியம்; உறுப்பு மண்டலப் படம் அல்ல)",
+    "author": "Chordata QA project — computer-assisted original line drawing",
+    "license": "Provisional QA artwork; scientific illustration review pending",
+    "commonsFile": null,
+    "sourceUrl": ""
   },
   {
     "id": "rabbit-external",
     "topicId": "u5-rabbit",
     "page": 1,
     "file": "rabbit_external.png",
-    "captionEn": "Rabbit: public-domain historical external reference, not a labelled organ-system plate.",
-    "captionTa": "முயல்: பொதுக் கள உரிமையிலுள்ள பழைய புறத்தோற்ற ஆதாரப் படம்; பெயரிடப்பட்ட உறுப்பு மண்டலப் படம் அல்ல.",
-    "author": "Ward, Lock & Tyler, publisher (1869)",
-    "license": "Public domain",
-    "commonsFile": "Rabbit Drawing (1).jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rabbit_Drawing_(1).jpg"
+    "captionEn": "Rabbit external morphology (schematic line drawing; not a labelled organ-system diagram)",
+    "captionTa": "முயலின் புறத்தோற்றம் (தற்காலிகக் கோட்டோவியம்; உறுப்பு மண்டலப் படம் அல்ல)",
+    "author": "Chordata QA project — computer-assisted original line drawing",
+    "license": "Provisional QA artwork; scientific illustration review pending",
+    "commonsFile": null,
+    "sourceUrl": ""
   }
 ]
