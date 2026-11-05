@@ -55,10 +55,10 @@ def main():
     require(isinstance(provisional, list), "provisional figure register invalid")
     require(len({f["id"] for f in provisional}) == len(provisional),
             "duplicate provisional figure IDs")
-    require(len(provisional) == 8, "QA build must contain exactly 3 original + 5 credited images")
+    require(len(provisional) == 7, "QA build must contain exactly 3 original + 4 credited images")
     provisional_by_id = {f["id"]: f for f in provisional}
     draft_slots = [s for s in slots if s.get("provisionalFigureId")]
-    require(len(draft_slots) == 8, "expected eight explicitly mapped reference illustrations")
+    require(len(draft_slots) == 7, "expected seven explicitly mapped reference illustrations")
     require({s["provisionalFigureId"] for s in draft_slots} == set(provisional_by_id),
             "provisional illustration not linked to exactly one diagram slot")
     for slot in draft_slots:
@@ -100,9 +100,9 @@ def main():
                     "unreviewed figure misrepresented: " + figure["id"])
     unit_counts = Counter(s["topicId"].split("-")[0] for s in slots)
     print("PASS: 64/64 figure slots have unique exact lesson-page assignments")
-    print("PASS: 8/8 PNG image assets correctly placed, PNG/hash checked (3 original QA + 5 credited sources)")
+    print("PASS: 7/7 PNG image assets correctly placed, PNG/hash checked (3 original QA + 4 credited sources)")
     print("PASS: overview contains no figure slot; bilingual captions exist for all slots")
-    print("PENDING: 64/64 scientifically approved plates; 56 have no reference image, 8 references unapproved")
+    print("PENDING: 64/64 scientifically approved plates; 57 have no reference image, 7 references unapproved")
     print("BY UNIT:", dict(sorted(unit_counts.items())))
 
 

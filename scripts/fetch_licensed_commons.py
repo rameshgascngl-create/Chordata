@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 records=json.loads((ROOT/'docs/research/credited_image_sources.json').read_text(encoding='utf-8'))['sources']
 by_id={r['id']:r for r in records}
-SELECTED=['lancelet-labelled','frog-arteries','bird-respiration','pigeon-skeleton','rabbit-skeleton']
+SELECTED=['lancelet-labelled','bird-respiration','pigeon-skeleton','rabbit-skeleton']
 DEST=ROOT/'build/commons_image_intake'
 OUT=DEST/'figures'
 OUT.mkdir(parents=True,exist_ok=True)

@@ -16,7 +16,7 @@ original=read(ASSET/"figures.json")
 hashes=read(FIGDIR/"source-hashes.json")
 reference=read(ROOT/"docs/research/credited_image_sources.json")["sources"]
 refs={r["id"]:r for r in reference}
-expected={"lancelet-labelled","frog-arteries","bird-respiration","pigeon-skeleton","rabbit-skeleton"}
+expected={"lancelet-labelled","bird-respiration","pigeon-skeleton","rabbit-skeleton"}
 assert {r["id"] for r in records}==expected
 assert len(original)==3 and len(hashes)==3
 slotById={x["id"]:x for x in slots["slots"]}
@@ -50,10 +50,10 @@ for r in records:
     hashes.append({"id":figId,"file":filename,"size":len(data),"sha256":r["sha256"],
                    "status":"LICENSED_SOURCE_REFERENCE_NOT_ACADEMICALLY_APPROVED"})
     print("STAGED",figId,"topic",slot["topicId"],"page",slot["page"],"owner",r["creator"])
-assert len(original)==8 and len(hashes)==8
-assert len([s for s in slots["slots"] if s["provisionalFigureId"]])==8
+assert len(original)==7 and len(hashes)==7
+assert len([s for s in slots["slots"] if s["provisionalFigureId"]])==7
 write(ASSET/"figure_slots.json",slots)
 write(ASSET/"figures.json",original)
 write(FIGDIR/"source-hashes.json",hashes)
 shutil.copy2(INTAKE/"SOURCE_CREDITS.json",ASSET/"source_reference_credits.json")
-print("PASS 8 offline PNGs staged, 5 licensed references credited, 64 slots still PENDING")
+print("PASS 7 offline PNGs staged, 4 licensed references credited, 64 slots still PENDING")

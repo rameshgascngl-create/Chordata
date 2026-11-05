@@ -27,10 +27,10 @@ class ReaderNavigationTest {
     @Test fun creditedReferenceAssetsAreBundledAndMappedCorrectly() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val images = org.json.JSONArray(context.assets.open("figures.json").bufferedReader().use { it.readText() })
-        org.junit.Assert.assertEquals(8, images.length())
+        org.junit.Assert.assertEquals(7, images.length())
         val sourced = (0 until images.length()).map { images.getJSONObject(it) }
             .filter { it.optString("sourceUrl").startsWith("https://commons.wikimedia.org/wiki/File:") }
-        org.junit.Assert.assertEquals(5, sourced.size)
+        org.junit.Assert.assertEquals(4, sourced.size)
         for (plate in sourced) {
             org.junit.Assert.assertTrue(plate.getString("author").isNotBlank())
             org.junit.Assert.assertTrue(plate.getString("license").isNotBlank())
@@ -219,7 +219,7 @@ class ReaderNavigationTest {
             if (!slot.isNull("provisionalFigureId")) draftLinks++
         }
         org.junit.Assert.assertEquals(pack.topics.flatMap { it.diagramIds }.toSet(), visited)
-        org.junit.Assert.assertEquals(8, draftLinks)
+        org.junit.Assert.assertEquals(7, draftLinks)
     }
 
 }
