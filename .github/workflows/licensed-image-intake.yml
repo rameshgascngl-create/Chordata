@@ -1,0 +1,33 @@
+name: Chordata licensed-source image intake (research only)
+on:
+  workflow_dispatch:
+  push:
+    branches: ["native/qa-credited-sources-20261105"]
+    paths:
+      - "scripts/fetch_licensed_commons.py"
+      - ".github/workflows/licensed-image-intake.yml"
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned image decoder
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Validate credited image metadata before retrieval
+        run: python scripts/validate_credited_sources.py
+      - name: Fetch fixed licensed Commons originals and create credited PNG derivatives
+        run: python scripts/fetch_licensed_commons.py
+      - name: Upload images and owner-licence manifests
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Licensed_Commons_Research_PNGs
+          path: build/commons_image_intake/
+          if-no-files-found: error
+          retention-days: 14
