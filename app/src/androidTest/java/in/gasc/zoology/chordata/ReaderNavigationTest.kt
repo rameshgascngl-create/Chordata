@@ -17,7 +17,14 @@ import org.junit.Test
 class ReaderNavigationTest {
     @get:Rule val rule = createAndroidComposeRule<MainActivity>()
 
+    private fun selectEnglish() {
+        val english = rule.onAllNodesWithText("English")
+        if (english.fetchSemanticsNodes().isNotEmpty()) english.onFirst().performClick()
+        else rule.onNodeWithText("ஆங்கிலம்").performClick()
+    }
+
     @Test fun opensFirstChapterAndAdvancesToLesson() {
+        selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
         rule.onAllNodesWithText("Origin of Chordata").onFirst().assertIsDisplayed()
@@ -31,6 +38,7 @@ class ReaderNavigationTest {
     }
 
     @Test fun canSwitchTamilAndIncreaseTextSize() {
+        selectEnglish()
         rule.onNodeWithText("தமிழ்").performClick()
         rule.onNodeWithText("200%").performClick()
         rule.onNodeWithText("The Chordata Fieldbook").assertDoesNotExist()
@@ -39,6 +47,7 @@ class ReaderNavigationTest {
         rule.onNodeWithText("முதுகுநாணிகளின் தோற்றம்").assertIsDisplayed()
     }
     @Test fun englishReferenceFigureOpensNativeZoom() {
+        selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
