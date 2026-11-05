@@ -16,8 +16,8 @@ import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.graphics.asAndroidBitmap
 import androidx.test.platform.app.InstrumentationRegistry
 import android.graphics.Bitmap
-import java.io.File
-import java.io.FileOutputStream
+import android.content.ContentValues
+import android.provider.MediaStore
 import org.junit.Rule
 import org.junit.Test
 
@@ -63,19 +63,35 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Close").assertIsDisplayed()
     }
     /**
-     * Emulator evidence is written to app-specific external files so the CI job
+     * Emulator evidence is written to MediaStore Pictures so the CI job
      * can extract the exact English/Tamil screen shown by Compose.
      */
     private fun captureQaScreen(name: String) {
         require(Regex("[a-z0-9-]+").matches(name))
         rule.waitForIdle()
+        // MediaStore survives Android Gradle's post-test package uninstall.
+        // getExternalFilesDir() does not, so adb pull after connectedAndroidTest failed.
         val context = InstrumentationRegistry.getInstrumentation().targetContext
-        val external = requireNotNull(context.getExternalFilesDir(null))
-        val folder = File(external, "qa-screenshots")
-        check(folder.isDirectory || folder.mkdirs())
-        val bitmap = rule.onRoot().captureToImage().asAndroidBitmap()
-        FileOutputStream(File(folder, "$name.png")).use { stream ->
-            check(bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream))
+        val resolver = context.contentResolver
+        val values = ContentValues().apply {
+            put(MediaStore.Images.Media.DISPLAY_NAME, "$name.png")
+            put(MediaStore.Images.Media.MIME_TYPE, "image/png")
+            put(MediaStore.Images.Media.RELATIVE_PATH, "Pictures/ChordataQA/")
+            put(MediaStore.Images.Media.IS_PENDING, 1)
+        }
+        val uri = requireNotNull(resolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values)) {
+            "Unable to create screenshot media entry"
+        }
+        try {
+            val bitmap = rule.onRoot().captureToImage().asAndroidBitmap()
+            requireNotNull(resolver.openOutputStream(uri)).use { stream ->
+                check(bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream))
+            }
+            val completed = ContentValues().apply { put(MediaStore.Images.Media.IS_PENDING, 0) }
+            check(resolver.update(uri, completed, null, null) > 0)
+        } catch (failure: Throwable) {
+            resolver.delete(uri, null, null)
+            throw failure
         }
     }
 
