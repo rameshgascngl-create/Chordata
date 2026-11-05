@@ -23,6 +23,33 @@ import org.junit.Rule
 import org.junit.Test
 
 class ReaderNavigationTest {
+    @Test fun columbaExternalImageAppearsOnlyOnExternalLesson() {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput("Columba livia")
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("figure-image-columba-external").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithText("Next ›").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(2)
+        rule.onNodeWithTag("figure-image-columba-external").performScrollTo().assertIsDisplayed()
+        captureQaScreen("columba-figure-en-100")
+    }
+
+    @Test fun rabbitExternalImageAppearsOnlyOnExternalLesson() {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput("Type study: Rabbit")
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("figure-image-rabbit-external").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithText("Next ›").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(2)
+        rule.onNodeWithTag("figure-image-rabbit-external").performScrollTo().assertIsDisplayed()
+        captureQaScreen("rabbit-figure-en-100")
+    }
+
+
     @Test fun missingAnatomicalPlateAppearsOnlyOnRelevantSection() {
         selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
@@ -67,11 +94,8 @@ class ReaderNavigationTest {
         rule.onAllNodesWithText("Origin of Chordata").onFirst().assertIsDisplayed()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
         rule.onNodeWithText("Next ›").performClick()
-        rule.waitUntil(timeoutMillis = 5_000) {
-            runCatching { rule.onNodeWithText("Deuterostome ancestry").isDisplayed() }
-                .getOrDefault(false)
-        }
-        rule.onNodeWithText("Deuterostome ancestry").assertIsDisplayed()
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("Deuterostome ancestry")
+        captureQaScreen("origin-first-lesson-en-100")
     }
 
     @Test fun canSwitchTamilAndIncreaseTextSize() {
