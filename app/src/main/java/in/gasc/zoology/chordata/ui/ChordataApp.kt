@@ -283,7 +283,9 @@ private fun ListingPage(pack: ContentPack, tab: String, query: String, onQuery: 
 private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLanguage, scale: Float,
     page: Int, onPage: (Int) -> Unit, onNextTopic: () -> Unit,
     onComplete: () -> Unit, completed: Boolean, store: ProgressStore) {
-    val listState = rememberLazyListState()
+    // Recreate the list position for each lesson page. This avoids briefly showing
+    // the previous page's bottom before a LaunchedEffect scroll can execute.
+    val listState = key(topic.id, page) { rememberLazyListState() }
     LaunchedEffect(topic.id, page) { listState.scrollToItem(0) }
     val finalPage = LearningLogic.lastPage(topic)
     LazyColumn(state = listState, modifier = Modifier.fillMaxSize().testTag("lesson-reader-list"),
