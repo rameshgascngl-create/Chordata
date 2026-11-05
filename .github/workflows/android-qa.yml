@@ -16,11 +16,11 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Prepare source-attributed offline PNG plates once
+      - name: Prepare original provisional offline PNG plates without remote access
         run: |
           python3 -m pip install --disable-pip-version-check Pillow==11.3.0
-          python3 scripts/prepare_commons_plates.py
-      - name: Upload checked offline figure assets
+          python3 scripts/build_qa_plates.py
+      - name: Upload provisional offline PNG assets
         uses: actions/upload-artifact@v4
         with:
           name: Chordata_QA_Source_Figures
