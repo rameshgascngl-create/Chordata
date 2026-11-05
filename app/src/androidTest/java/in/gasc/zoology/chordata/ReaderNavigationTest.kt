@@ -4,6 +4,7 @@ import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onFirst
+import androidx.compose.ui.test.isDisplayed
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.onNodeWithTag
@@ -20,6 +21,10 @@ class ReaderNavigationTest {
         rule.onAllNodesWithText("Origin of Chordata").onFirst().assertIsDisplayed()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
         rule.onNodeWithText("Next ›").performClick()
+        rule.waitUntil(timeoutMillis = 5_000) {
+            runCatching { rule.onNodeWithText("Deuterostome ancestry").isDisplayed() }
+                .getOrDefault(false)
+        }
         rule.onNodeWithText("Deuterostome ancestry").assertIsDisplayed()
     }
 
