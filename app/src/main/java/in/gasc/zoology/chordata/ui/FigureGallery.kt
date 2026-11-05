@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -37,6 +38,7 @@ private data class DiagramSlot(
 @Composable
 internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, requestedCount: Int = 0) {
     val context = LocalContext.current
+    val uriHandler = LocalUriHandler.current
     val plates = remember(context) {
         runCatching {
             val raw = context.assets.open("figures.json").bufferedReader().use { it.readText() }
@@ -107,6 +109,13 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             )
         }
         relevant.filter { it.id in matchingDraftIds }.forEach { plate ->
+            val untranslatedEnglishPlate = plate.id in setOf(
+                "commons-lancelet-labelled", "commons-bird-respiration"
+            )
+            if (lang == ReadingLanguage.TA && untranslatedEnglishPlate) {
+                Text("இந்த ஆதாரப் படத்தின் தமிழ்ப் பெயரிடப்பட்ட பதிப்பு மதிப்பாய்வில் உள்ளது.",
+                    modifier = Modifier.testTag("tamil-label-review-" + plate.id))
+            } else {
             val bitmap = remember(context, plate.filename) {
                 runCatching {
                     context.assets.open("figures/" + plate.filename).use { stream ->
@@ -146,10 +155,22 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                         if (plate.sourceUrl.isNotEmpty()) {
                             Text(
                                 if (lang == ReadingLanguage.TA)
-                                    "மூலம்: Wikimedia Commons · மாற்றங்கள்: " + plate.modifications
+                                    "மூலம்: Wikimedia Commons · PNG மாற்றம்; பட அளவு சரிசெய்தல்"
                                 else "Source: Wikimedia Commons · Changes: " + plate.modifications,
                                 style = MaterialTheme.typography.labelSmall
                             )
+                            TextButton(
+                                onClick = { uriHandler.openUri(plate.sourceUrl) },
+                                modifier = Modifier.testTag("figure-source-link-" + plate.id)
+                            ) {
+                                Text(if (lang == ReadingLanguage.TA)
+                                    "படத்தின் மூலப் பக்கமும் உரிமையாளரும்"
+                                    else "Original image and creator")
+                            }
+                            TextButton(onClick = { uriHandler.openUri(plate.licenceUrl) }) {
+                                Text(if (lang == ReadingLanguage.TA)
+                                    "பயன்பாட்டு உரிம விவரங்கள்" else "Image reuse licence")
+                            }
                         }
                         Text(if (lang == ReadingLanguage.TA) "பெரிதாக்கப் படத்தைத் தொடுக" else "Tap image to enlarge",
                             style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
@@ -185,6 +206,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                         }
                     }
                 }
+            }
             }
         }
         if (page > 0 && pageSlots.isNotEmpty()) {

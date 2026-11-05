@@ -16,15 +16,7 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Prepare original provisional offline PNG plates without remote access
-        run: |
-          python3 -m pip install --disable-pip-version-check Pillow==11.3.0
-          python3 scripts/build_qa_plates.py
-      - name: Acquire original sources with creator and licence metadata
-        run: python3 scripts/fetch_licensed_commons.py
-      - name: Stage owner-credited PNG reference assets and exact section mappings
-        run: python3 scripts/stage_credited_references.py
-      - name: Audit credited image integrity and all 64 placements
+      - name: Verify seven committed offline PNGs and owner-licence evidence
         run: python3 scripts/audit_figure_placement.py
       - name: Upload all offline QA figure assets and provenance metadata
         uses: actions/upload-artifact@v4

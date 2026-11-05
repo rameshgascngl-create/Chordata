@@ -1,0 +1,68 @@
+name: Stage licensed Commons source PNGs for offline Chordata
+on:
+  push:
+    branches: ["stage/commons-image-assets-20261106"]
+    paths: [".github/workflows/stage-commons-images.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  stage-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install fixed image decoder
+        run: python -m pip install Pillow==11.3.0
+      - name: Retrieve already verified Commons images and credit manifest
+        uses: actions/download-artifact@v4
+        with:
+          repository: rameshgascngl-create/Chordata
+          run-id: 42074521085
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: Chordata_Licensed_Commons_Research_PNGs
+          path: build/commons_image_intake/
+      - name: Verify previously captured owner, licence and PNG checksums
+        run: |
+          python scripts/validate_credited_sources.py
+          python - <<'PY'
+          import json,hashlib,pathlib
+          root=pathlib.Path("build/commons_image_intake")
+          sources=json.loads((root/"SOURCE_CREDITS.json").read_text(encoding="utf-8"))["sources"]
+          assert len(sources)==4
+          for source in sources:
+              p=root/"figures"/source["localFile"]
+              assert p.is_file() and hashlib.sha256(p.read_bytes()).hexdigest()==source["sha256"]
+              assert source["reviewStatus"]=="SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW"
+          print("PASS: 4 credited reference originals and derived PNG hashes verified")
+          PY
+      - name: Stage original QA outlines plus credited published sources
+        run: |
+          python scripts/build_qa_plates.py
+          python scripts/stage_credited_references.py
+          python scripts/audit_figure_placement.py
+      - name: Commit the seven offline images and source-rights inventory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/figures app/src/main/assets/figure_slots.json app/src/main/assets/figures.json app/src/main/assets/source_reference_credits.json
+          git diff --cached --stat
+          git diff --cached --quiet && { echo "No staged assets"; exit 1; }
+          git commit -m "assets(qa): four Commons references, owner credits, and 64 page mappings"
+          git push origin HEAD:stage/commons-image-assets-20261106
+      - name: Upload source-credit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Offline_Licensed_Stage_Evidence
+          path: |
+            build/commons_image_intake/SOURCE_CREDITS.json
+            build/commons_image_intake/SOURCE_CREDITS.md
+          if-no-files-found: warn
+          retention-days: 14
