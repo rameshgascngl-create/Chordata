@@ -82,10 +82,9 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                 TopAppBar(
                     title = {
                         Column {
-                            Text(if (currentTopic == null) "CHORDATA  ·  ATLAS" else "CHORDATA",
+                            Text(if (lang == ReadingLanguage.TA) "முதுகுநாணிகள்" else "CHORDATA",
                                 style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                            Text(if (currentTopic == null) "B.Sc. Zoology • Offline" else
-                                currentTopic.title.en,
+                            Text(if (currentTopic == null) (if (lang == ReadingLanguage.TA) "இளநிலை விலங்கியல் · இணையமின்றி" else "B.Sc. Zoology · Offline") else (if (lang == ReadingLanguage.TA) currentTopic.title.ta else currentTopic.title.en),
                                 maxLines = 1, overflow = TextOverflow.Ellipsis,
                                 style = MaterialTheme.typography.labelSmall, color = mutetext)
                         }
