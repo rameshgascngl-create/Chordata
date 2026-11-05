@@ -7,7 +7,7 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PACK = ROOT / 'app/src/main/assets/chordata_content.json'
-EXPECTED_SHA = 'd667b88a049f6e2bde3ac37da52216d408ca9efb91f4486feb4ac7d19027092f'
+EXPECTED_SHA = 'cef71d0c6d1e85b60c3c94f84790fbd0e93bd7b90c9891571cd03be9693df0e9'
 raw = PACK.read_bytes()
 assert hashlib.sha256(raw).hexdigest() == EXPECTED_SHA, 'Input course pack changed without review'
 data = json.loads(raw)
@@ -36,7 +36,7 @@ assert 'http://' not in all_kt and 'https://' not in all_kt
 assert 'scrollToItem(0)' in all_kt, 'Page-to-top navigation regression'
 assert 'onPage(page + 1)' in all_kt, 'Page progression regression'
 assert 'rememberSaveable' in all_kt, 'Process state recovery missing'
-print('PASS: untouched 5-unit content SHA-256', EXPECTED_SHA)
-print('PASS: 39 topics, 127 sections, 117 quizzes, 64 unsupplied figure references')
+print('PASS: reviewed 5-unit Tamil-corrected content SHA-256', EXPECTED_SHA)
+print('PASS: 39 topics, 127 sections, 117 quizzes, 64 diagram references, three provisional external figures')
 print('PASS: native-only source; no Internet permission; no backup/cleartext')
 print('PASS: page progression, scroll reset, saved navigation state hooks present')
