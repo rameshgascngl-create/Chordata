@@ -323,6 +323,10 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
             page <= topic.sections.size -> {
                 item(key = "section-body") {
                     BilingualText(topic.sections[page - 1].body, lang, scale, base = 16f)
+                }
+                // A separate lazy item keeps anatomy illustrations reachable at
+                // 200% Tamil font scaling without hiding them below long text.
+                item(key = "section-figures") {
                     FigureGallery(topic.id, page, lang, topic.diagramIds.size)
                 }
             }
