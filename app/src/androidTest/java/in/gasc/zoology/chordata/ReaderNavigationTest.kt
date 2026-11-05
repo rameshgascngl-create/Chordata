@@ -69,8 +69,11 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("figure-image-scoliodon-external").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithText("Next ›").performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithTag("figure-image-scoliodon-external").performClick()
+        rule.onNodeWithTag("figure-image-scoliodon-external").assertIsDisplayed().performClick()
         rule.onNodeWithText("Close").assertIsDisplayed()
     }
     /**
@@ -137,6 +140,9 @@ class ReaderNavigationTest {
         rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
+        rule.onNodeWithTag("figure-image-scoliodon-external").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithText("அடுத்து ›").performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
         rule.onNodeWithTag("figure-image-scoliodon-external").assertIsDisplayed()
         captureQaScreen("scoliodon-figure-ta-200")
