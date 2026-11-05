@@ -292,7 +292,8 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                 modifier = Modifier.fillMaxWidth().padding(top = 7.dp))
         }
         item(key = "heading") {
-            BilingualText(LearningLogic.title(topic, page), lang, scale, base = 20f, bold = true)
+            BilingualText(LearningLogic.title(topic, page), lang, scale,
+                modifier = Modifier.testTag("lesson-page-heading"), base = 20f, bold = true)
         }
         when {
             page == 0 -> {

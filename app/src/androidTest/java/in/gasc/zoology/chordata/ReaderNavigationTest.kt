@@ -1,6 +1,7 @@
 package `in`.gasc.zoology.chordata
 
 import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
@@ -43,7 +44,7 @@ class ReaderNavigationTest {
         rule.onNodeWithText("The Chordata Fieldbook").assertDoesNotExist()
         rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
         rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
-        rule.onNodeWithText("முதுகுநாணிகளின் தோற்றம்").assertIsDisplayed()
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("முதுகுநாணிகளின் தோற்றம்")
     }
     @Test fun englishReferenceFigureOpensNativeZoom() {
         selectEnglish()
