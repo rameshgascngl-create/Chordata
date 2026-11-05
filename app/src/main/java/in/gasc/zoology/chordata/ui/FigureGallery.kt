@@ -85,8 +85,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
         if (page == 0 && requestedCount > 0) {
             Text(
                 if (lang == ReadingLanguage.TA)
-                    "இந்தப் பாடத்தில் " + topicSlots.size + " வரைபடங்கள் திட்டமிடப்பட்டுள்ளன. ஒப்புதல் பெற்ற உடற்கூறியல் வரைபடங்கள் இன்னும் சேர்க்கப்படவில்லை. வரைபடங்கள் உரிய பாடப் பக்கங்களில் மட்டுமே காட்டப்படும்."
-                else "This chapter has " + topicSlots.size + " planned diagrams. No anatomical plate is academically approved yet. Available draft drawings appear only in the relevant lesson sections.",
+                    "இந்தப் பாடத்தில் " + topicSlots.size + (if (topicSlots.size == 1) " வரைபடம்" else " வரைபடங்கள்") + " திட்டமிடப்பட்டுள்ளன. ஒப்புதல் பெற்ற உடற்கூறியல் வரைபடங்கள் இன்னும் சேர்க்கப்படவில்லை. வரைபடங்கள் உரிய பாடப் பக்கங்களில் மட்டுமே காட்டப்படும்."
+                else "This chapter has " + topicSlots.size + (if (topicSlots.size == 1) " planned diagram." else " planned diagrams.") + " No anatomical plate is academically approved yet. Available draft drawings appear only in the relevant lesson sections.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.testTag("figure-overview-status")
@@ -128,7 +128,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             modifier = Modifier.fillMaxWidth().heightIn(min = 170.dp, max = 340.dp)
                                 .clickable { zoomed = true }.testTag("figure-image-" + plate.id))
                         Text(if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
-                        Text(if (lang == ReadingLanguage.TA) "மூலம்: " + plate.author + " · " + plate.licence
+                        Text(if (lang == ReadingLanguage.TA)
+                            "மூலம்: Chordata QA project · கணினி உதவியுடன் உருவாக்கப்பட்ட தற்காலிகக் கோட்டோவியம் · அறிவியல் மதிப்பாய்வு நிலுவையில் உள்ளது"
                             else "Source: " + plate.author + " · " + plate.licence,
                             style = MaterialTheme.typography.labelSmall)
                         Text(if (lang == ReadingLanguage.TA) "பெரிதாக்கப் படத்தைத் தொடுக" else "Tap image to enlarge",
