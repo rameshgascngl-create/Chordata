@@ -37,6 +37,8 @@ private val accent = Color(0xFFB25721)
 private val scheme = lightColorScheme(primary = teal, secondary = accent,
     background = Color(0xFFF7FAFA), surface = Color.White, onSurface = ink)
 
+private fun loc(lang: ReadingLanguage, en: String, ta: String): String = if (lang == ReadingLanguage.TA) ta else en
+
 private data class BottomDestination(val tab: String, val label: String, val tamil: String)
 private val destinations = listOf(
     BottomDestination("home", "Home", "முகப்பு"),
@@ -91,7 +93,7 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                     },
                     navigationIcon = {
                         if (currentTopic != null) TextButton(onClick = { selectedTopicId = "" }) {
-                            Text("‹ Back", fontSize = 15.sp)
+                            Text(loc(lang, "‹ Back", "‹ பின்செல்"), fontSize = 15.sp)
                         }
                     },
                     actions = {
@@ -99,7 +101,7 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                             IconButton(onClick = { updateBookmarks(currentTopic.id) },
                                 modifier = Modifier.size(48.dp)) {
                                 Icon(Icons.Default.Bookmark, contentDescription = if (currentTopic.id in bookmarks)
-                                    "Remove bookmark" else "Save bookmark",
+                                    loc(lang, "Remove bookmark", "சேமிப்பிலிருந்து நீக்கு") else loc(lang, "Save bookmark", "பாடத்தைச் சேமி"),
                                     tint = if (currentTopic.id in bookmarks) accent else mutetext)
                             }
                         }
@@ -155,17 +157,13 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
 @Composable
 private fun BilingualText(value: Bilingual, lang: ReadingLanguage, scale: Float,
     modifier: Modifier = Modifier, base: Float = 16f, bold: Boolean = false) {
-    Column(modifier, verticalArrangement = Arrangement.spacedBy(5.dp)) {
-        if (lang != ReadingLanguage.TA) {
-            Text(value.en, fontSize = (base * scale).sp, lineHeight = (base * scale * 1.48f).sp,
-                fontWeight = if (bold) FontWeight.SemiBold else FontWeight.Normal)
-        }
-        if (lang != ReadingLanguage.EN) {
-            Text(value.ta, fontSize = (base * scale).sp, lineHeight = (base * scale * 1.55f).sp,
-                fontWeight = if (bold) FontWeight.SemiBold else FontWeight.Normal,
-                color = if (lang == ReadingLanguage.BOTH) teal else ink)
-        }
-    }
+    Text(
+        if (lang == ReadingLanguage.TA) value.ta else value.en,
+        modifier = modifier,
+        fontSize = (base * scale).sp,
+        lineHeight = (base * scale * if (lang == ReadingLanguage.TA) 1.55f else 1.48f).sp,
+        fontWeight = if (bold) FontWeight.SemiBold else FontWeight.Normal
+    )
 }
 
 @Composable
@@ -176,34 +174,31 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
         item {
             ElevatedCard(colors = CardDefaults.elevatedCardColors(containerColor = teal)) {
                 Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(9.dp)) {
-                    Text("The Chordata Fieldbook", color = Color.White, fontWeight = FontWeight.Bold,
-                        fontSize = 22.sp)
-                    Text("முதுகுநாணிகள் கற்றல் களஞ்சியம்", color = Color.White, fontSize = 18.sp)
-                    Text("Five units · 39 topics · 117 questions", color = Color.White)
+                    Text(loc(lang, "The Chordata Fieldbook", "முதுகுநாணிகள் கற்றல் களஞ்சியம்"), color = Color.White, fontWeight = FontWeight.Bold, fontSize = 22.sp)
+                    Text(loc(lang, "Five units · 39 topics · 117 questions", "ஐந்து அலகுகள் · 39 பாடங்கள் · 117 வினாக்கள்"), color = Color.White)
                     LinearProgressIndicator(progress = { completed.size.toFloat() / pack.topics.size },
                         color = Color(0xFFF5CF6A), trackColor = Color(0xFF59948E),
                         modifier = Modifier.fillMaxWidth().height(6.dp))
-                    Text("${completed.size} of ${pack.topics.size} topics completed",
+                    Text(loc(lang, "${completed.size} of ${pack.topics.size} topics completed", "${pack.topics.size} பாடங்களில் ${completed.size} முடிக்கப்பட்டுள்ளன"),
                         color = Color.White)
                     Button(onClick = onBrowse, colors = ButtonDefaults.buttonColors(containerColor = Color.White,
-                        contentColor = teal)) { Text("Explore all lessons") }
+                        contentColor = teal)) { Text(loc(lang, "Explore all lessons", "அனைத்துப் பாடங்களையும் காண்க")) }
                 }
             }
         }
         item {
-            Text("Reading language  /  மொழி", style = MaterialTheme.typography.titleSmall)
+            Text(loc(lang, "Reading language", "பயிற்றுமொழி"), style = MaterialTheme.typography.titleSmall)
             Spacer(Modifier.height(6.dp))
             Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.fillMaxWidth()) {
                 ReadingLanguage.entries.forEach { option ->
                     FilterChip(selected = option == lang, onClick = { onLanguage(option) },
                         label = { Text(when (option) {
-                            ReadingLanguage.EN -> "English"
+                            ReadingLanguage.EN -> loc(lang, "English", "ஆங்கிலம்")
                             ReadingLanguage.TA -> "தமிழ்"
-                            ReadingLanguage.BOTH -> "Both"
-                        }, fontSize = 12.sp) })
+                                                    }, fontSize = 12.sp) })
                 }
             }
-            Text("Text magnification  /  எழுத்தளவு", style = MaterialTheme.typography.titleSmall)
+            Text(loc(lang, "Text magnification", "எழுத்தளவு"), style = MaterialTheme.typography.titleSmall)
             Column {
                 listOf(listOf(1f, 1.25f), listOf(1.5f, 2f)).forEach { sizes ->
                     Row(horizontalArrangement = Arrangement.spacedBy(7.dp)) {
@@ -215,24 +210,24 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
                 }
             }
         }
-        item { Text("Syllabus units", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold) }
+        item { Text(loc(lang, "Syllabus units", "பாடத்திட்ட அலகுகள்"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold) }
         items(pack.units, key = { it.id }) { unit ->
             Card(onClick = { onOpen(unit.topics.first().id) },
                 colors = CardDefaults.cardColors(containerColor = Color.White)) {
                 Column(Modifier.padding(16.dp).fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     BilingualText(unit.title, lang, scale, base = 15f, bold = true)
-                    Text("${unit.topics.size} topics · ${unit.topics.count { it.id in completed }} completed",
+                    Text(loc(lang, "${unit.topics.size} topics · ${unit.topics.count { it.id in completed }} completed", "${unit.topics.size} பாடங்கள் · ${unit.topics.count { it.id in completed }} முடிக்கப்பட்டவை"),
                         color = mutetext)
-                    Text("Open first topic  ›", color = teal, fontWeight = FontWeight.SemiBold)
+                    Text(loc(lang, "Open first topic ›", "முதல் பாடத்திற்குச் செல்க ›"), color = teal, fontWeight = FontWeight.SemiBold)
                 }
             }
         }
         item {
-            Text("Figures: 64 awaiting verification · No unapproved images inserted.",
+            Text(loc(lang, "Three reference illustrations are available in English and Tamil. Additional anatomical plates remain under review.", "மூன்று ஆதார வரைபடங்கள் தமிழ், ஆங்கிலப் பதிப்புகளில் உள்ளன. பிற உடற்கூறியல் படங்கள் சரிபார்ப்பில் உள்ளன."),
                 style = MaterialTheme.typography.bodySmall, color = mutetext)
-            Text("${bookmarks.size} bookmarked chapters · progress stored on this device",
+            Text(loc(lang, "${bookmarks.size} bookmarked chapters · progress stored on this device", "${bookmarks.size} சேமித்த பாடங்கள் · கற்றல் முன்னேற்றம் இக்கருவியில் சேமிக்கப்படுகிறது"),
                 style = MaterialTheme.typography.bodySmall, color = mutetext)
-            Text(pack.credit, style = MaterialTheme.typography.labelSmall, color = mutetext)
+            Text(loc(lang, pack.credit, "விலங்கியல் துறை, அரசு கலை மற்றும் அறிவியல் கல்லூரி, நாகர்கோவில் · உருவாக்கம்: இரா. ரமேஷ்"), style = MaterialTheme.typography.labelSmall, color = mutetext)
         }
     }
 }
@@ -248,28 +243,28 @@ private fun ListingPage(pack: ContentPack, tab: String, query: String, onQuery: 
     LazyColumn(contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(11.dp)) {
         item {
             Text(when (tab) {
-                "practice" -> "Practice bank / வினாப்பயிற்சி"
-                "saved" -> "Bookmarks / சேமித்த பாடங்கள்"
-                else -> "All lessons / அனைத்துப் பாடங்கள்"
+                "practice" -> loc(lang, "Practice bank", "வினாப்பயிற்சி")
+                "saved" -> loc(lang, "Bookmarks", "சேமித்த பாடங்கள்")
+                else -> loc(lang, "All lessons", "அனைத்துப் பாடங்கள்")
             }, fontSize = 22.sp, fontWeight = FontWeight.Bold)
         }
         item {
             OutlinedTextField(query, onQuery,
-                label = { Text("Search in English or Tamil") }, singleLine = true,
-                modifier = Modifier.fillMaxWidth())
+                label = { Text(loc(lang, "Search lessons", "பாடங்களைத் தேடுக")) }, singleLine = true,
+                modifier = Modifier.fillMaxWidth().testTag("lesson-search"))
         }
         if (displayed.isEmpty()) item {
-            Text("No matching topics. / பொருந்தும் பாடங்கள் இல்லை.", color = mutetext)
+            Text(loc(lang, "No matching topics.", "பொருந்தும் பாடங்கள் இல்லை."), color = mutetext)
         }
         items(displayed, key = { it.id }) { topic ->
             Card(onClick = { onOpen(topic.id) },
                 colors = CardDefaults.cardColors(containerColor = Color.White)) {
                 Column(Modifier.fillMaxWidth().padding(15.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
                     BilingualText(topic.title, lang, scale, base = 15f, bold = true)
-                    Text("${topic.sections.size} lessons · ${topic.quiz.size} questions" +
-                        if (topic.id in completed) " · ✓ Complete" else "",
+                    Text(loc(lang, "${topic.sections.size} lessons · ${topic.quiz.size} questions", "${topic.sections.size} பகுதிகள் · ${topic.quiz.size} வினாக்கள்") +
+                        if (topic.id in completed) loc(lang, " · ✓ Complete", " · ✓ முடிந்தது") else "",
                         color = mutetext, fontSize = 12.sp)
-                    Text(if (tab == "practice") "Open quiz  ›" else "Read chapter  ›",
+                    Text(if (tab == "practice") loc(lang, "Open quiz ›", "வினாப்பயிற்சிக்குச் செல்க ›") else loc(lang, "Read chapter ›", "பாடத்தைப் படிக்க ›"),
                         color = teal, fontWeight = FontWeight.SemiBold)
                 }
             }
@@ -291,7 +286,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
         contentPadding = PaddingValues(horizontal = 16.dp, vertical = 15.dp),
         verticalArrangement = Arrangement.spacedBy(15.dp)) {
         item(key = "breadcrumbs") {
-            Text("${topic.id.uppercase()}  •  PAGE ${page + 1} OF ${finalPage + 1}",
+            Text(loc(lang, "PAGE ${page + 1} OF ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"),
                 color = teal, fontSize = 12.sp, fontWeight = FontWeight.Bold)
             LinearProgressIndicator(progress = { (page + 1f) / (finalPage + 1f) },
                 modifier = Modifier.fillMaxWidth().padding(top = 7.dp))
@@ -304,33 +299,23 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                 item {
                     Card(colors = CardDefaults.cardColors(containerColor = pale)) {
                         Column(Modifier.fillMaxWidth().padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Text("Chapter outline  /  பாட அமைப்பு", fontWeight = FontWeight.Bold,
+                            Text(loc(lang, "Chapter outline", "பாட அமைப்பு"), fontWeight = FontWeight.Bold,
                                 color = teal)
                             topic.sections.forEachIndexed { i, section ->
                                 Text("${i + 1}. ${if (lang == ReadingLanguage.TA) section.heading.ta else section.heading.en}",
                                     fontSize = (14f * scale).sp, lineHeight = (21f * scale).sp)
                             }
-                            Text("Quiz: ${topic.quiz.size} questions", color = mutetext)
+                            Text(loc(lang, "Quiz: ${topic.quiz.size} questions", "வினாப்பயிற்சி: ${topic.quiz.size} வினாக்கள்"), color = mutetext)
                         }
                     }
                 }
-                item {
-                    if (topic.diagramIds.isNotEmpty()) {
-                        Card(colors = CardDefaults.cardColors(containerColor = Color(0xFFFFF5E8))) {
-                            Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                                Text("Illustrations pending approval / படங்களுக்கான ஒப்புதல் நிலுவையில் உள்ளது",
-                                    fontWeight = FontWeight.Bold, color = accent)
-                                Text("${topic.diagramIds.size} diagram references. Only approved, attributed, scientifically reviewed plates will be displayed.",
-                                    color = mutetext)
-                                topic.diagramIds.forEach { id -> Text("• $id", color = mutetext, fontSize = 12.sp) }
-                            }
-                        }
-                    }
-                }
+                item(key = "intro-figures") { FigureGallery(topic.id, 0, lang, topic.diagramIds.size) }
+
             }
             page <= topic.sections.size -> {
                 item(key = "section-body") {
                     BilingualText(topic.sections[page - 1].body, lang, scale, base = 16f)
+                    FigureGallery(topic.id, page, lang, topic.diagramIds.size)
                 }
             }
             else -> {
@@ -345,14 +330,14 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
             Row(modifier = Modifier.fillMaxWidth().padding(top = 12.dp),
                 horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
                 OutlinedButton(onClick = { onPage(LearningLogic.pageBefore(page)) },
-                    enabled = page > 0) { Text("‹ Prev") }
-                Text("${page + 1} / ${finalPage + 1}", fontWeight = FontWeight.SemiBold)
+                    enabled = page > 0) { Text(loc(lang, "‹ Previous", "‹ முந்தையது")) }
+                Text(loc(lang, "${page + 1} / ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"), fontWeight = FontWeight.SemiBold)
                 Button(onClick = { if (page < finalPage) onPage(page + 1) else onNextTopic() },
                     enabled = page < finalPage || LearningLogic.nextTopic(pack, topic.id) != null) {
-                    Text(if (page < finalPage) "Next ›" else "Next topic ›")
+                    Text(if (page < finalPage) loc(lang, "Next ›", "அடுத்து ›") else loc(lang, "Next topic ›", "அடுத்த பாடம் ›"))
                 }
             }
-            if (completed) Text("✓ Chapter completed", color = teal,
+            if (completed) Text(loc(lang, "✓ Chapter completed", "✓ பாடம் முடிக்கப்பட்டது"), color = teal,
                 modifier = Modifier.padding(top = 10.dp))
         }
     }
@@ -373,7 +358,7 @@ private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
         topic.quiz.forEachIndexed { index, question ->
             Card(colors = CardDefaults.cardColors(containerColor = Color.White)) {
                 Column(Modifier.fillMaxWidth().padding(14.dp), verticalArrangement = Arrangement.spacedBy(11.dp)) {
-                    Text("QUESTION ${index + 1} / ${topic.quiz.size}", fontSize = 12.sp,
+                    Text(loc(lang, "QUESTION ${index + 1} / ${topic.quiz.size}", "வினா ${index + 1} / ${topic.quiz.size}"), fontSize = 12.sp,
                         color = teal, fontWeight = FontWeight.Bold)
                     BilingualText(question.question, lang, scale, base = 16f, bold = true)
                     question.options.forEachIndexed { optionIndex, option ->
@@ -390,8 +375,8 @@ private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
                     }
                     if (submitted) {
                         HorizontalDivider()
-                        Text(if (answers[index] == question.correctIndex) "✓ Correct / சரி" else
-                            "Correct option: ${question.correctIndex + 1} / சரியான விடை: ${question.correctIndex + 1}",
+                        Text(if (answers[index] == question.correctIndex) loc(lang, "✓ Correct", "✓ சரி") else
+                            loc(lang, "Correct option: ${question.correctIndex + 1}", "சரியான விடை: ${question.correctIndex + 1}"),
                             color = if (answers[index] == question.correctIndex) teal else accent,
                             fontWeight = FontWeight.Bold)
                         BilingualText(question.explanation, lang, scale, base = 14f)
@@ -406,16 +391,16 @@ private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
                 store.saveQuizScore(topic.id, score)
                 onComplete()
             }, enabled = answers.all { it in 0..3 }, modifier = Modifier.fillMaxWidth()) {
-                Text("Submit answers  /  விடைகளைச் சமர்ப்பி")
+                Text(loc(lang, "Submit answers", "விடைகளைச் சமர்ப்பி"))
             }
         } else {
             val score = LearningLogic.score(answers.toList(), topic.quiz)
-            Text("Score: $score / ${topic.quiz.size}", fontSize = 19.sp, fontWeight = FontWeight.Bold,
+            Text(loc(lang, "Score: $score / ${topic.quiz.size}", "மதிப்பெண்: $score / ${topic.quiz.size}"), fontSize = 19.sp, fontWeight = FontWeight.Bold,
                 color = teal)
             OutlinedButton(onClick = {
                 answers.indices.forEach { answers[it] = -1 }
                 submitted = false
-            }) { Text("Try again / மீண்டும் முயற்சி") }
+            }) { Text(loc(lang, "Try again", "மீண்டும் முயற்சி")) }
         }
     }
 }
