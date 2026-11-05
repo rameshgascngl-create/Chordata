@@ -117,4 +117,18 @@ jobs:
           arch: x86_64
           target: google_apis
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim
-          script: gradle --no-daemon :app:connectedDebugAndroidTest
+          script: |
+            gradle --no-daemon :app:connectedDebugAndroidTest
+            mkdir -p build/qa-screenshots
+            adb pull /sdcard/Android/data/in.gasc.zoology.chordata/files/qa-screenshots build/qa-screenshots
+      - name: Upload emulator screenshot and instrumented test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Emulator_QA_Evidence
+          path: |
+            build/qa-screenshots/
+            app/build/outputs/androidTest-results/connected/
+            app/build/reports/androidTests/connected/
+          if-no-files-found: warn
+          retention-days: 14

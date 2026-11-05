@@ -11,6 +11,14 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performScrollToIndex
+import androidx.compose.ui.test.assertDoesNotExist
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.graphics.asAndroidBitmap
+import androidx.test.platform.app.InstrumentationRegistry
+import android.graphics.Bitmap
+import java.io.File
+import java.io.FileOutputStream
 import org.junit.Rule
 import org.junit.Test
 
@@ -55,4 +63,60 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("figure-image-scoliodon-external").performClick()
         rule.onNodeWithText("Close").assertIsDisplayed()
     }
+    /**
+     * Emulator evidence is written to app-specific external files so the CI job
+     * can extract the exact English/Tamil screen shown by Compose.
+     */
+    private fun captureQaScreen(name: String) {
+        require(Regex("[a-z0-9-]+").matches(name))
+        rule.waitForIdle()
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val external = requireNotNull(context.getExternalFilesDir(null))
+        val folder = File(external, "qa-screenshots")
+        check(folder.isDirectory || folder.mkdirs())
+        val bitmap = rule.onRoot().captureToImage().asAndroidBitmap()
+        FileOutputStream(File(folder, "$name.png")).use { stream ->
+            check(bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream))
+        }
+    }
+
+    @Test fun englishReaderIsExclusiveAtNormalScale() {
+        selectEnglish()
+        rule.onNodeWithText("The Chordata Fieldbook").assertIsDisplayed()
+        rule.onNodeWithText("முதுகுநாணிகள் கற்றல் களஞ்சியம்").assertDoesNotExist()
+        captureQaScreen("home-en-100")
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("Origin of Chordata")
+        rule.onNodeWithText("பாட அமைப்பு").assertDoesNotExist()
+        captureQaScreen("origin-overview-en-100")
+    }
+
+    @Test fun tamilReaderIsExclusiveAt200Percent() {
+        rule.onNodeWithText("தமிழ்").performClick()
+        rule.onNodeWithText("200%").performClick()
+        rule.onNodeWithText("The Chordata Fieldbook").assertDoesNotExist()
+        rule.onNodeWithText("முதுகுநாணிகள் கற்றல் களஞ்சியம்").assertIsDisplayed()
+        captureQaScreen("home-ta-200")
+        rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
+        rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("முதுகுநாணிகளின் தோற்றம்")
+        rule.onNodeWithText("Chapter outline").assertDoesNotExist()
+        captureQaScreen("origin-overview-ta-200")
+    }
+
+    @Test fun tamilFigureOpensNativeZoomAt200Percent() {
+        rule.onNodeWithText("தமிழ்").performClick()
+        rule.onNodeWithText("200%").performClick()
+        rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
+        rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("figure-image-scoliodon-external").assertIsDisplayed()
+        captureQaScreen("scoliodon-figure-ta-200")
+        rule.onNodeWithTag("figure-image-scoliodon-external").performClick()
+        rule.onNodeWithText("மூடுக").assertIsDisplayed()
+        captureQaScreen("scoliodon-zoom-ta-200")
+    }
+
 }
