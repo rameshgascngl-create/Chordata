@@ -41,6 +41,8 @@ jobs:
         with:
           name: Chordata_QA_Source_Figures
           path: app/src/main/assets/figures/
+      - name: Audit all 64 figure-to-lesson assignments and verify PNG hashes
+        run: python3 scripts/audit_figure_placement.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -86,6 +88,8 @@ jobs:
         with:
           name: Chordata_QA_Source_Figures
           path: app/src/main/assets/figures/
+      - name: Audit all 64 figure-to-lesson assignments and verify PNG hashes
+        run: python3 scripts/audit_figure_placement.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
