@@ -1,4 +1,7 @@
 name: Chordata Native QA Debug APK
+concurrency:
+  group: chordata-qa-${{ github.ref }}
+  cancel-in-progress: true
 on:
   workflow_dispatch:
   push:
