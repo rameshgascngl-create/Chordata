@@ -28,6 +28,11 @@ private data class Plate(
     val captionEn: String, val captionTa: String, val author: String, val licence: String
 )
 
+private data class DiagramSlot(
+    val id: String, val topicId: String, val page: Int,
+    val captionEn: String, val captionTa: String, val provisionalFigureId: String?
+)
+
 @Composable
 internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, requestedCount: Int = 0) {
     val context = LocalContext.current
@@ -45,19 +50,59 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             }
         }.getOrDefault(emptyList())
     }
-    // Overview previews first lesson's figure; lesson page contains its real placement.
-    val relevant = plates.filter { it.topicId == topicId && (it.page == page || (page == 0 && it.page == 1)) }
+    val allSlots: List<DiagramSlot>? = remember(context) {
+        runCatching {
+            val raw = context.assets.open("figure_slots.json")
+                .bufferedReader(Charsets.UTF_8).use { it.readText() }
+            val array = org.json.JSONObject(raw).getJSONArray("slots")
+            (0 until array.length()).map { index ->
+                array.getJSONObject(index).let { entry ->
+                    DiagramSlot(entry.getString("id"), entry.getString("topicId"),
+                        entry.getInt("page"), entry.getString("captionEn"),
+                        entry.getString("captionTa"),
+                        if (entry.isNull("provisionalFigureId")) null
+                        else entry.getString("provisionalFigureId"))
+                }
+            }
+        }.getOrNull()
+    }
+    // On the chapter overview, show only the status; a figure belongs to
+    // exactly one section page, never to both the overview and the section.
+    val topicSlots = allSlots?.filter { it.topicId == topicId }.orEmpty()
+    val pageSlots = if (page > 0) topicSlots.filter { it.page == page } else emptyList()
+    val relevant = if (page > 0) plates.filter { it.topicId == topicId && it.page == page }
+                   else emptyList()
+    val matchingDraftIds = pageSlots.mapNotNull { it.provisionalFigureId }.toSet()
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        if (page == 0 && requestedCount > relevant.size) {
+        if (allSlots == null) {
             Text(
-                if (lang == ReadingLanguage.TA)
-                    "மேலும் " + (requestedCount - relevant.size) + " உடற்கூறியல் வரைபடங்கள் தயாரிப்பில் உள்ளன."
-                else (requestedCount - relevant.size).toString() + " further anatomical diagrams await review.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
+                if (lang == ReadingLanguage.TA) "வரைபட இருப்பிடப் பதிவேடு கிடைக்கவில்லை."
+                else "Diagram placement register unavailable.",
+                modifier = Modifier.testTag("figure-register-error"),
+                color = MaterialTheme.colorScheme.error
             )
         }
-        relevant.forEach { plate ->
+        if (page == 0 && requestedCount > 0) {
+            Text(
+                if (lang == ReadingLanguage.TA)
+                    "இந்தப் பாடத்தில் " + topicSlots.size + " வரைபடங்கள் திட்டமிடப்பட்டுள்ளன. ஒப்புதல் பெற்ற உடற்கூறியல் வரைபடங்கள் இன்னும் சேர்க்கப்படவில்லை. வரைபடங்கள் உரிய பாடப் பக்கங்களில் மட்டுமே காட்டப்படும்."
+                else "This chapter has " + topicSlots.size + " planned diagrams. No anatomical plate is academically approved yet. Available draft drawings appear only in the relevant lesson sections.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.testTag("figure-overview-status")
+            )
+        }
+        val unexpected = relevant.filter { it.id !in matchingDraftIds }
+        if (unexpected.isNotEmpty()) {
+            Text(
+                if (lang == ReadingLanguage.TA)
+                    "படத்திற்கும் பாடப்பகுதிக்கும் பொருத்தமின்மை கண்டறியப்பட்டது."
+                else "Figure-to-lesson placement mismatch detected.",
+                color = MaterialTheme.colorScheme.error,
+                modifier = Modifier.testTag("figure-placement-error")
+            )
+        }
+        relevant.filter { it.id in matchingDraftIds }.forEach { plate ->
             val bitmap = remember(context, plate.filename) {
                 runCatching {
                     context.assets.open("figures/" + plate.filename).use { stream ->
@@ -119,6 +164,33 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             }
                         }
                     }
+                }
+            }
+        }
+        if (page > 0 && pageSlots.isNotEmpty()) {
+            Card(
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant
+                ),
+                modifier = Modifier.fillMaxWidth().testTag("figure-pending-page")
+            ) {
+                Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(
+                        if (lang == ReadingLanguage.TA) "சரிபார்ப்பிலுள்ள வரைபடங்கள்"
+                        else "Scientific diagrams awaiting approval",
+                        fontWeight = FontWeight.SemiBold
+                    )
+                    pageSlots.forEach { slot ->
+                        Text("• " + if (lang == ReadingLanguage.TA) slot.captionTa else slot.captionEn,
+                            style = MaterialTheme.typography.bodySmall)
+                    }
+                    Text(
+                        if (lang == ReadingLanguage.TA)
+                            "தற்காலிகக் கோட்டோவியங்கள் பெயரிடப்பட்ட உடற்கூறியல் வரைபடங்களுக்கு மாற்றாகாது."
+                        else "Provisional outline drawings do not replace labelled anatomical plates.",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
                 }
             }
         }
