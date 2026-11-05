@@ -12,6 +12,8 @@ import json
 from pathlib import Path
 from urllib.parse import quote
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
+import time
 
 from PIL import Image, ImageOps
 
@@ -30,10 +32,29 @@ def main() -> None:
         assert record["license"] == "Public domain", record["id"]
         assert record["sourceUrl"].startswith("https://commons.wikimedia.org/wiki/File:")
         name = record["commonsFile"]
-        url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/" + quote(name, safe="")
-        request = Request(url, headers={"User-Agent":"ChordataEducationalQA/0.2 (college teaching source-attribution)", "Accept":"image/*"})
-        with urlopen(request, timeout=60) as response:
-            data = response.read(MAX_BYTES + 1)
+        normalized = name.replace(" ", "_")
+        digest = hashlib.md5(normalized.encode("utf-8")).hexdigest()
+        direct = "https://upload.wikimedia.org/wikipedia/commons/" + digest[0] + "/" + digest[:2] + "/" + quote(normalized, safe="")
+        redirect = "https://commons.wikimedia.org/wiki/Special:Redirect/file/" + quote(name, safe="")
+        data = None
+        last_error = None
+        for attempt in range(6):
+            url = direct if attempt % 2 == 0 else redirect
+            request = Request(url, headers={
+                "User-Agent": "ChordataQA/0.2 (academic teaching; public-domain reference)",
+                "Accept": "image/png,image/jpeg,image/*"
+            })
+            try:
+                with urlopen(request, timeout=60) as response:
+                    data = response.read(MAX_BYTES + 1)
+                break
+            except HTTPError as exc:
+                last_error = exc
+                if exc.code not in (429, 500, 502, 503, 504):
+                    raise
+                time.sleep(4 * (attempt + 1))
+        if data is None:
+            raise RuntimeError("Source image fetch failed after six attempts: " + name) from last_error
         if not 1000 < len(data) <= MAX_BYTES:
             raise RuntimeError("Source image size invalid: " + name)
         image = Image.open(io.BytesIO(data))
