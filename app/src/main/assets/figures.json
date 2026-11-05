@@ -9,7 +9,8 @@
     "author": "Chordata QA project — computer-assisted original line drawing",
     "license": "Provisional QA artwork; scientific illustration review pending",
     "commonsFile": null,
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "diagramId": "u2-scoliodon-external-labelled"
   },
   {
     "id": "columba-external",
@@ -21,7 +22,8 @@
     "author": "Chordata QA project — computer-assisted original line drawing",
     "license": "Provisional QA artwork; scientific illustration review pending",
     "commonsFile": null,
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "diagramId": "u5-columba-external"
   },
   {
     "id": "rabbit-external",
@@ -33,6 +35,7 @@
     "author": "Chordata QA project — computer-assisted original line drawing",
     "license": "Provisional QA artwork; scientific illustration review pending",
     "commonsFile": null,
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "diagramId": "u5-rabbit-external"
   }
 ]

@@ -1,0 +1,514 @@
+[
+  {
+    "diagramId": "u1-origin-deuterostome-relationships",
+    "topicId": "u1-origin",
+    "page": 1,
+    "sectionKey": "deuterostome-ancestry",
+    "titleEn": "Deuterostome ancestry",
+    "titleTa": "இரண்டாம் வாயின உயிரிகளின் பரிணாம உறவு"
+  },
+  {
+    "diagramId": "u1-general-characters-five-chordate-characters",
+    "topicId": "u1-general-characters",
+    "page": 1,
+    "sectionKey": "diagnostic-features",
+    "titleEn": "Diagnostic characters",
+    "titleTa": "அடையாளம் காண உதவும் பண்புகள்"
+  },
+  {
+    "diagramId": "u1-hemichordata-balanoglossus-external",
+    "topicId": "u1-hemichordata",
+    "page": 1,
+    "sectionKey": "body-plan",
+    "titleEn": "Body plan of Balanoglossus",
+    "titleTa": "பாலனோக்ளாசஸின் உடலமைப்பு"
+  },
+  {
+    "diagramId": "u1-urochordata-ascidia-larva-adult",
+    "topicId": "u1-urochordata",
+    "page": 1,
+    "sectionKey": "tadpole-larva",
+    "titleEn": "Ascidian tadpole larva",
+    "titleTa": "ஆசிடியாவின் தலைப்பிரட்டை போன்ற இளர்வி"
+  },
+  {
+    "diagramId": "u1-cephalochordata-branchiostoma-labelled",
+    "topicId": "u1-cephalochordata",
+    "page": 1,
+    "sectionKey": "external-anatomy",
+    "titleEn": "External features of Amphioxus",
+    "titleTa": "ஆம்பியாக்சஸின் புறத்தோற்றம்"
+  },
+  {
+    "diagramId": "u1-vertebrata-characters-vertebrate-anatomy",
+    "topicId": "u1-vertebrata-characters",
+    "page": 2,
+    "sectionKey": "organ-systems",
+    "titleEn": "Integration of organ systems",
+    "titleTa": "உறுப்பு மண்டலங்களின் ஒருங்கிணைவு"
+  },
+  {
+    "diagramId": "u1-vertebrata-classification-vertebrate-phylogeny",
+    "topicId": "u1-vertebrata-classification",
+    "page": 2,
+    "sectionKey": "modern-system",
+    "titleEn": "Phylogenetic qualifications",
+    "titleTa": "பரிணாம வகைப்பாட்டின் விளக்கங்கள்"
+  },
+  {
+    "diagramId": "u1-agnatha-petromyzon-adult-larva",
+    "topicId": "u1-agnatha",
+    "page": 1,
+    "sectionKey": "lamprey-anatomy",
+    "titleEn": "Adult lamprey organisation",
+    "titleTa": "வளர்ந்த லாம்ப்ரேயின் உடலமைப்பு"
+  },
+  {
+    "diagramId": "u2-pisces-classification-fish-groups",
+    "topicId": "u2-pisces-classification",
+    "page": 2,
+    "sectionKey": "major-groups",
+    "titleEn": "Cartilaginous and bony fishes",
+    "titleTa": "குருத்தெலும்பு மீன்களும் எலும்பு மீன்களும்"
+  },
+  {
+    "diagramId": "u2-scoliodon-external-labelled",
+    "topicId": "u2-scoliodon",
+    "page": 1,
+    "sectionKey": "external-features",
+    "titleEn": "External features",
+    "titleTa": "புறத்தோற்றப் பண்புகள்"
+  },
+  {
+    "diagramId": "u2-scoliodon-digestive-labelled",
+    "topicId": "u2-scoliodon",
+    "page": 2,
+    "sectionKey": "digestive-system",
+    "titleEn": "Digestive system",
+    "titleTa": "செரிமான மண்டலம்"
+  },
+  {
+    "diagramId": "u2-scoliodon-gills-labelled",
+    "topicId": "u2-scoliodon",
+    "page": 3,
+    "sectionKey": "respiratory-system",
+    "titleEn": "Respiratory system",
+    "titleTa": "சுவாச மண்டலம்"
+  },
+  {
+    "diagramId": "u2-scoliodon-brain-labelled",
+    "topicId": "u2-scoliodon",
+    "page": 4,
+    "sectionKey": "brain",
+    "titleEn": "Brain",
+    "titleTa": "மூளை"
+  },
+  {
+    "diagramId": "u2-scoliodon-sense-organs-labelled",
+    "topicId": "u2-scoliodon",
+    "page": 5,
+    "sectionKey": "sense-organs",
+    "titleEn": "Sense organs",
+    "titleTa": "உணர்வுறுப்புகள்"
+  },
+  {
+    "diagramId": "u2-dipnoi-lungfish-comparison",
+    "topicId": "u2-dipnoi",
+    "page": 2,
+    "sectionKey": "adaptations",
+    "titleEn": "Survival in seasonal waters",
+    "titleTa": "பருவகால நீர்நிலைகளில் தகவமைப்புகள்"
+  },
+  {
+    "diagramId": "u2-scales-fins-scale-types-labelled",
+    "topicId": "u2-scales-fins",
+    "page": 1,
+    "sectionKey": "scale-types",
+    "titleEn": "Types of scales",
+    "titleTa": "செதில்களின் முக்கிய வகைகள்"
+  },
+  {
+    "diagramId": "u2-scales-fins-fins-labelled",
+    "topicId": "u2-scales-fins",
+    "page": 2,
+    "sectionKey": "paired-fins",
+    "titleEn": "Paired and median fins",
+    "titleTa": "இணைத் துடுப்புகளும் நடுத்துடுப்புகளும்"
+  },
+  {
+    "diagramId": "u2-accessory-respiration-accessory-organs-comparison",
+    "topicId": "u2-accessory-respiration",
+    "page": 2,
+    "sectionKey": "named-examples",
+    "titleEn": "Examples with structures",
+    "titleTa": "உறுப்புகளுடன் இணைந்த எடுத்துக்காட்டுகள்"
+  },
+  {
+    "diagramId": "u2-parental-care-parental-care-comparison",
+    "topicId": "u2-parental-care",
+    "page": 2,
+    "sectionKey": "examples",
+    "titleEn": "Representative examples",
+    "titleTa": "முக்கிய எடுத்துக்காட்டுகள்"
+  },
+  {
+    "diagramId": "u2-migration-migration-cycle",
+    "topicId": "u2-migration",
+    "page": 1,
+    "sectionKey": "migration-types",
+    "titleEn": "Types of migration",
+    "titleTa": "இடப்பெயர்ச்சியின் முக்கிய வகைகள்"
+  },
+  {
+    "diagramId": "u2-economic-importance-fishery-value-chain",
+    "topicId": "u2-economic-importance",
+    "page": 1,
+    "sectionKey": "nutrition-livelihood",
+    "titleEn": "Food and livelihoods",
+    "titleTa": "உணவும் வாழ்வாதாரமும்"
+  },
+  {
+    "diagramId": "u3-amphibia-classification-living-orders",
+    "topicId": "u3-amphibia-classification",
+    "page": 2,
+    "sectionKey": "living-orders",
+    "titleEn": "Three living orders",
+    "titleTa": "தற்போது வாழும் மூன்று வரிசைகள்"
+  },
+  {
+    "diagramId": "u3-amphibia-classification-life-cycle",
+    "topicId": "u3-amphibia-classification",
+    "page": 3,
+    "sectionKey": "reproduction-ecology",
+    "titleEn": "Reproduction and ecological roles",
+    "titleTa": "இனப்பெருக்கமும் சூழலியல் பங்கும்"
+  },
+  {
+    "diagramId": "u3-origin-devonian-transition",
+    "topicId": "u3-origin",
+    "page": 1,
+    "sectionKey": "devonian-transition",
+    "titleEn": "The Devonian transition",
+    "titleTa": "டெவோனியக் கால மாற்றம்"
+  },
+  {
+    "diagramId": "u3-rana-external",
+    "topicId": "u3-rana",
+    "page": 1,
+    "sectionKey": "external-features",
+    "titleEn": "External features and identification",
+    "titleTa": "வெளிப்புறத் தோற்றமும் அடையாளப் பண்புகளும்"
+  },
+  {
+    "diagramId": "u3-rana-respiration",
+    "topicId": "u3-rana",
+    "page": 3,
+    "sectionKey": "respiratory-system",
+    "titleEn": "Respiratory system",
+    "titleTa": "சுவாச மண்டலம்"
+  },
+  {
+    "diagramId": "u3-rana-arterial-system",
+    "topicId": "u3-rana",
+    "page": 4,
+    "sectionKey": "arterial-system",
+    "titleEn": "Arterial system",
+    "titleTa": "தமனி மண்டலம்"
+  },
+  {
+    "diagramId": "u3-rana-brain",
+    "topicId": "u3-rana",
+    "page": 5,
+    "sectionKey": "brain",
+    "titleEn": "Brain and major divisions",
+    "titleTa": "மூளையின் முக்கியப் பகுதிகள்"
+  },
+  {
+    "diagramId": "u3-adaptive-features-comparative-body-plans",
+    "topicId": "u3-adaptive-features",
+    "page": 1,
+    "sectionKey": "anura",
+    "titleEn": "Anura: jumping and swimming",
+    "titleTa": "அனூரா: தாவுதலும் நீந்துதலும்"
+  },
+  {
+    "diagramId": "u3-neoteny-axolotl-development",
+    "topicId": "u3-neoteny",
+    "page": 2,
+    "sectionKey": "axolotl",
+    "titleEn": "Axolotl as an example",
+    "titleTa": "ஆக்சலாட்டில் எடுத்துக்காட்டு"
+  },
+  {
+    "diagramId": "u3-parental-care-parental-care-comparison",
+    "topicId": "u3-parental-care",
+    "page": 2,
+    "sectionKey": "frog-examples",
+    "titleEn": "Frog examples",
+    "titleTa": "தவளைகளில் எடுத்துக்காட்டுகள்"
+  },
+  {
+    "diagramId": "u4-reptilia-classification-living-reptile-orders",
+    "topicId": "u4-reptilia-classification",
+    "page": 2,
+    "sectionKey": "living-orders",
+    "titleEn": "Living reptile orders",
+    "titleTa": "தற்போது வாழும் ஊர்வன வரிசைகள்"
+  },
+  {
+    "diagramId": "u4-calotes-external",
+    "topicId": "u4-calotes",
+    "page": 1,
+    "sectionKey": "external-features",
+    "titleEn": "External morphology",
+    "titleTa": "வெளிப்புற உடலமைப்பு"
+  },
+  {
+    "diagramId": "u4-calotes-digestive-system",
+    "topicId": "u4-calotes",
+    "page": 2,
+    "sectionKey": "digestive-system",
+    "titleEn": "Digestive tract and glands",
+    "titleTa": "செரிமானப் பாதையும் சுரப்பிகளும்"
+  },
+  {
+    "diagramId": "u4-calotes-respiratory-system",
+    "topicId": "u4-calotes",
+    "page": 3,
+    "sectionKey": "respiratory-system",
+    "titleEn": "Respiratory system",
+    "titleTa": "சுவாச மண்டலம்"
+  },
+  {
+    "diagramId": "u4-calotes-arterial-system",
+    "topicId": "u4-calotes",
+    "page": 4,
+    "sectionKey": "arterial-system",
+    "titleEn": "Cardiac and arterial circulation",
+    "titleTa": "இதயமும் தமனி இரத்த ஓட்டமும்"
+  },
+  {
+    "diagramId": "u4-calotes-brain",
+    "topicId": "u4-calotes",
+    "page": 5,
+    "sectionKey": "brain",
+    "titleEn": "Brain and sensory integration",
+    "titleTa": "மூளையும் உணர்வு ஒருங்கிணைப்பும்"
+  },
+  {
+    "diagramId": "u4-origin-extinct-amniote-phylogeny",
+    "topicId": "u4-origin-extinct",
+    "page": 1,
+    "sectionKey": "origin-of-amniotes",
+    "titleEn": "Origin of amniotes",
+    "titleTa": "அம்னியோட்டா உயிரிகளின் தோற்றம்"
+  },
+  {
+    "diagramId": "u4-origin-extinct-extinct-groups",
+    "topicId": "u4-origin-extinct",
+    "page": 2,
+    "sectionKey": "extinct-lineages",
+    "titleEn": "Major extinct groups",
+    "titleTa": "அழிந்த முக்கியக் குழுக்கள்"
+  },
+  {
+    "diagramId": "u4-snakes-india-big-four-identification",
+    "topicId": "u4-snakes-india",
+    "page": 2,
+    "sectionKey": "big-four",
+    "titleEn": "Four medically important Indian snakes",
+    "titleTa": "இந்தியாவின் முக்கிய நான்கு விஷப் பாம்புகள்"
+  },
+  {
+    "diagramId": "u4-poison-apparatus-venom-apparatus",
+    "topicId": "u4-poison-apparatus",
+    "page": 1,
+    "sectionKey": "venom-apparatus",
+    "titleEn": "Venom gland, duct and fangs",
+    "titleTa": "விஷச் சுரப்பி, குழாய் மற்றும் விஷப்பற்கள்"
+  },
+  {
+    "diagramId": "u4-poison-apparatus-first-aid-flowchart",
+    "topicId": "u4-poison-apparatus",
+    "page": 3,
+    "sectionKey": "evidence-based-first-aid",
+    "titleEn": "Evidence-based first aid and hospital referral",
+    "titleTa": "ஆதார அடிப்படையிலான முதலுதவியும் மருத்துவமனை அனுப்புதலும்"
+  },
+  {
+    "diagramId": "u4-skull-temporal-skull-types",
+    "topicId": "u4-skull",
+    "page": 1,
+    "sectionKey": "temporal-fenestrae",
+    "titleEn": "Temporal openings in the skull",
+    "titleTa": "தலையோட்டின் பக்கத் திறப்புகள்"
+  },
+  {
+    "diagramId": "u5-aves-classification-bird-lineages",
+    "topicId": "u5-aves-classification",
+    "page": 2,
+    "sectionKey": "modern-classification",
+    "titleEn": "Important living bird groups",
+    "titleTa": "தற்போதுள்ள முக்கியப் பறவைக் குழுக்கள்"
+  },
+  {
+    "diagramId": "u5-columba-external",
+    "topicId": "u5-columba",
+    "page": 1,
+    "sectionKey": "external-features",
+    "titleEn": "External features of the rock pigeon",
+    "titleTa": "புறாவின் வெளிப்புற உடலமைப்பு"
+  },
+  {
+    "diagramId": "u5-columba-endoskeleton",
+    "topicId": "u5-columba",
+    "page": 2,
+    "sectionKey": "endoskeleton",
+    "titleEn": "Endoskeleton and flight adaptations",
+    "titleTa": "உள் எலும்புக்கூடும் பறத்தல் தகவமைப்பும்"
+  },
+  {
+    "diagramId": "u5-columba-urinogenital",
+    "topicId": "u5-columba",
+    "page": 3,
+    "sectionKey": "urinogenital-system",
+    "titleEn": "Urinary and reproductive systems",
+    "titleTa": "சிறுநீர் மற்றும் இனப்பெருக்க மண்டலங்கள்"
+  },
+  {
+    "diagramId": "u5-columba-sense-organs",
+    "topicId": "u5-columba",
+    "page": 4,
+    "sectionKey": "sense-organs",
+    "titleEn": "Sense organs and orientation",
+    "titleTa": "உணர்வு உறுப்புகளும் திசையறிதலும்"
+  },
+  {
+    "diagramId": "u5-flight-adaptations-wing-aerodynamics",
+    "topicId": "u5-flight-adaptations",
+    "page": 1,
+    "sectionKey": "wing-aerodynamics",
+    "titleEn": "Wings, lift and control",
+    "titleTa": "இறக்கைகள், தூக்கு விசை மற்றும் கட்டுப்பாடு"
+  },
+  {
+    "diagramId": "u5-flight-adaptations-flight-muscles",
+    "topicId": "u5-flight-adaptations",
+    "page": 2,
+    "sectionKey": "muscles-skeleton",
+    "titleEn": "Skeletal and muscular adaptations",
+    "titleTa": "எலும்பு மற்றும் தசைத் தகவமைப்புகள்"
+  },
+  {
+    "diagramId": "u5-flight-adaptations-avian-lung",
+    "topicId": "u5-flight-adaptations",
+    "page": 3,
+    "sectionKey": "respiration-metabolism",
+    "titleEn": "Respiration and energy supply",
+    "titleTa": "சுவாசமும் ஆற்றல் வழங்கலும்"
+  },
+  {
+    "diagramId": "u5-bird-migration-flyway-stopovers",
+    "topicId": "u5-bird-migration",
+    "page": 1,
+    "sectionKey": "migration-patterns",
+    "titleEn": "Seasonal migration patterns",
+    "titleTa": "பருவகால வலசை முறைகள்"
+  },
+  {
+    "diagramId": "u5-mammalia-classification-mammal-lineages",
+    "topicId": "u5-mammalia-classification",
+    "page": 2,
+    "sectionKey": "living-mammal-lineages",
+    "titleEn": "Monotremes, marsupials and placentals",
+    "titleTa": "மோனோட்ரீம்கள், மார்சுபியல்கள் மற்றும் பிளாசென்டல்கள்"
+  },
+  {
+    "diagramId": "u5-rabbit-external",
+    "topicId": "u5-rabbit",
+    "page": 1,
+    "sectionKey": "external-features",
+    "titleEn": "External features",
+    "titleTa": "வெளிப்புற உடலமைப்பு"
+  },
+  {
+    "diagramId": "u5-rabbit-endoskeleton",
+    "topicId": "u5-rabbit",
+    "page": 2,
+    "sectionKey": "endoskeleton",
+    "titleEn": "Endoskeleton and locomotion",
+    "titleTa": "உள் எலும்புக்கூடும் இடப்பெயர்ச்சியும்"
+  },
+  {
+    "diagramId": "u5-rabbit-excretory-system",
+    "topicId": "u5-rabbit",
+    "page": 3,
+    "sectionKey": "excretory-system",
+    "titleEn": "Excretory system",
+    "titleTa": "கழிவுநீக்க மண்டலம்"
+  },
+  {
+    "diagramId": "u5-rabbit-brain",
+    "topicId": "u5-rabbit",
+    "page": 4,
+    "sectionKey": "brain",
+    "titleEn": "Brain and nervous coordination",
+    "titleTa": "மூளையும் நரம்பு ஒருங்கிணைப்பும்"
+  },
+  {
+    "diagramId": "u5-rabbit-sense-organs",
+    "topicId": "u5-rabbit",
+    "page": 5,
+    "sectionKey": "sense-organs",
+    "titleEn": "Vision, hearing and touch",
+    "titleTa": "பார்வை, செவிப்புலன் மற்றும் தொடு உணர்வு"
+  },
+  {
+    "diagramId": "u5-egg-laying-mammals-monotreme-reproduction",
+    "topicId": "u5-egg-laying-mammals",
+    "page": 1,
+    "sectionKey": "monotreme-identity",
+    "titleEn": "Monotreme identity and examples",
+    "titleTa": "மோனோட்ரீம்களின் அடையாளமும் எடுத்துக்காட்டுகளும்"
+  },
+  {
+    "diagramId": "u5-marsupials-marsupial-life-history",
+    "topicId": "u5-marsupials",
+    "page": 1,
+    "sectionKey": "reproductive-pattern",
+    "titleEn": "Early birth and further development",
+    "titleTa": "முன்கூட்டிய பிறப்பும் தொடர்ந்த வளர்ச்சியும்"
+  },
+  {
+    "diagramId": "u5-flying-mammals-bat-wing-glider-comparison",
+    "topicId": "u5-flying-mammals",
+    "page": 1,
+    "sectionKey": "bats-true-flight",
+    "titleEn": "Bats as powered fliers",
+    "titleTa": "உந்துவிசையுடன் பறக்கும் வௌவால்கள்"
+  },
+  {
+    "diagramId": "u5-aquatic-mammals-aquatic-mammal-groups",
+    "topicId": "u5-aquatic-mammals",
+    "page": 1,
+    "sectionKey": "marine-lineages",
+    "titleEn": "Independent aquatic mammal lineages",
+    "titleTa": "தனித்த நீர்வாழ் பாலூட்டிக் கிளைகள்"
+  },
+  {
+    "diagramId": "u5-dentition-human-rabbit-dental-formula",
+    "topicId": "u5-dentition",
+    "page": 3,
+    "sectionKey": "dental-formula",
+    "titleEn": "Dental formulae and examples",
+    "titleTa": "பல் வாய்ப்பாடுகளும் எடுத்துக்காட்டுகளும்"
+  },
+  {
+    "diagramId": "u5-dentition-tooth-types",
+    "topicId": "u5-dentition",
+    "page": 1,
+    "sectionKey": "tooth-types",
+    "titleEn": "Types and attachment of teeth",
+    "titleTa": "பற்களின் வகைகளும் பதிதலும்"
+  }
+]
