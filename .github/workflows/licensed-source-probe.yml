@@ -1,0 +1,24 @@
+name: Chordata licensed Commons assets network probe
+on:
+  push:
+    branches: ["native/qa-licensed-assets-20261106"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  licensed-image-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Download source-credited Wikimedia image probes
+        run: python3 scripts/probe_licensed_image_sources.py
+      - name: Upload download and checksum evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Licensed_Source_Probe
+          path: build/licensed-figure-probe/
+          if-no-files-found: warn
+          retention-days: 14
