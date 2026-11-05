@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
         val store = ProgressStore(this)
         setContent {
             if (result.isSuccess) ChordataApp(result.getOrThrow(), store)
-            else ErrorContent(result.exceptionOrNull()?.message ?: "Unable to load offline course")
+            else ErrorContent(result.exceptionOrNull()?.message ?: "Unable to load offline course", store.language())
         }
     }
 }
