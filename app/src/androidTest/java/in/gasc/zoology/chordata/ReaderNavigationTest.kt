@@ -22,6 +22,17 @@ import org.junit.Rule
 import org.junit.Test
 
 class ReaderNavigationTest {
+    @Test fun tamilCompactHeaderFitsAndBackWorks() {
+        rule.onNodeWithText("தமிழ்").performClick()
+        rule.onNodeWithText("200%").performClick()
+        rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
+        rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
+        rule.onNodeWithText("பாடம்").assertIsDisplayed()
+        rule.onNodeWithTag("lesson-back").assertIsDisplayed().performClick()
+        rule.onNodeWithText("அனைத்துப் பாடங்கள்").assertIsDisplayed()
+    }
+
+
     @get:Rule val rule = createAndroidComposeRule<MainActivity>()
 
     private fun selectEnglish() {

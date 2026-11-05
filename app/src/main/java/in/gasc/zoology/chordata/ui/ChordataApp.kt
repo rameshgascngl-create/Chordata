@@ -7,6 +7,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.School
@@ -84,7 +85,9 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                 TopAppBar(
                     title = {
                         Column {
-                            Text(if (lang == ReadingLanguage.TA) "முதுகுநாணிகள்" else "CHORDATA",
+                            Text(if (currentTopic != null) loc(lang, "Lesson", "பாடம்")
+                                 else loc(lang, "CHORDATA", "முதுகுநாணிகள்"),
+                                maxLines = 1, overflow = TextOverflow.Ellipsis,
                                 style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
                             Text(if (currentTopic == null) (if (lang == ReadingLanguage.TA) "இளநிலை விலங்கியல் · இணையமின்றி" else "B.Sc. Zoology · Offline") else (if (lang == ReadingLanguage.TA) currentTopic.title.ta else currentTopic.title.en),
                                 maxLines = 1, overflow = TextOverflow.Ellipsis,
@@ -92,8 +95,12 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                         }
                     },
                     navigationIcon = {
-                        if (currentTopic != null) TextButton(onClick = { selectedTopicId = "" }) {
-                            Text(loc(lang, "‹ Back", "‹ பின்செல்"), fontSize = 15.sp)
+                        if (currentTopic != null) IconButton(
+                            onClick = { selectedTopicId = "" },
+                            modifier = Modifier.size(48.dp).testTag("lesson-back")
+                        ) {
+                            Icon(Icons.Default.ArrowBack,
+                                contentDescription = loc(lang, "Back to lessons", "பாடங்களுக்குத் திரும்புக"))
                         }
                     },
                     actions = {
