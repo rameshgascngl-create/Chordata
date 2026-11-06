@@ -139,7 +139,17 @@ def main():
             suitability="HISTORICAL_ANATOMICAL_LINE_DRAWING",
             academicNotes=source["originalWork"]+"; labels and modern anatomical interpretation still awaiting independent Zoology/Tamil review.",
             reviewStatus="SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW")
-    write_json(ASSETS/"figures.json",manifest)
+    # Reconcile every imported reference image with its actual embedded filename.
+    # The previous manifest incorrectly retained old museum photo paths.
+    for entry in credits["sources"]:
+        matching=next(x for x in manifest if x["id"]=="commons-"+entry["id"])
+        entry.update(localFile=matching["file"],sourcePageUrl=matching["sourceUrl"],
+                     creator=matching["author"],license=matching["license"],
+                     licenseUrl=matching["licenseUrl"],modifications=matching["modifications"],
+                     sourceStatus="STAGED_OFFLINE_QA",embeddedInApk=True,
+                     academicStatus="PENDING",
+                     reviewStatus="SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW")
+        write_json(ASSETS/"figures.json",manifest)
     write_json(FIGS/"source-hashes.json",[hashmap[x["id"]] for x in manifest])
     write_json(ASSETS/"source_reference_credits.json",credits)
     images={p.name for p in FIGS.glob("*.png")}

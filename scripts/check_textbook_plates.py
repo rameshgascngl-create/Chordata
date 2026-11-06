@@ -17,4 +17,11 @@ for id,filename in (("commons-pigeon-skeleton","pigeon_endoskeleton_line_art.png
     assert w>=1200 and h>=600 and len(raw)>20000
     assert hashlib.sha256(raw).hexdigest()==hashes[id]["sha256"]
     assert not (root/"figures"/("pigeon_skeleton.png" if "pigeon" in id else "rabbit_skeleton.png")).exists()
-print("PASS: two museum photographs replaced with owner-credited historical line drawings in their exact lesson pages; academic approval still pending")
+credits=json.loads((root/"source_reference_credits.json").read_text(encoding="utf-8"))
+for entry in credits["sources"]:
+    fig=next(x for x in figures if x["id"]=="commons-"+entry["id"])
+    assert entry["localFile"]==fig["file"], "Credit filename mismatch"
+    assert entry["embeddedInApk"] is True and entry["sourceStatus"]=="STAGED_OFFLINE_QA"
+    assert entry["academicStatus"]=="PENDING" and entry["reviewStatus"]=="SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW"
+    assert entry["creator"]==fig["author"] and entry["sourcePageUrl"]==fig["sourceUrl"]
+print("PASS: two museum photographs replaced with owner-credited historical line drawings; 7/7 source credits and filenames reconciled, academic approval pending")

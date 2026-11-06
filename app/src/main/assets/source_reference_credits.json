@@ -12,8 +12,8 @@
       "academicNotes": "Labelled Branchiostoma external anatomy; preserve letter key and avoid inaccurate Tamil labels",
       "sourceSite": "Wikimedia Commons",
       "sourceVerifiedDate": "2026-11-05",
-      "sourceStatus": "FOUND_NOT_DOWNLOADED",
-      "embeddedInApk": false,
+      "sourceStatus": "STAGED_OFFLINE_QA",
+      "embeddedInApk": true,
       "attributionTemplate": "Amphioxus whole L.jpg — Jon Houseman; CC BY-SA 3.0; source: Wikimedia Commons; modifications: [state any crop/translation/PNG conversion]",
       "localFile": "lancelet_labelled.png",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Amphioxus_whole_L.jpg",
@@ -24,7 +24,8 @@
       "sha256": "21f7854c2376e1f1c5c9dfa5b52929ba1500f1d8981034c0ec7806c21f8019df",
       "modifications": "Converted to PNG, original aspect ratio retained",
       "bytes": 190016,
-      "reviewStatus": "SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW"
+      "reviewStatus": "SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW",
+      "academicStatus": "PENDING"
     },
     {
       "id": "bird-respiration",
@@ -38,8 +39,8 @@
       "academicNotes": "General avian respiratory anatomy including parabronchi, bronchi and air sacs",
       "sourceSite": "Wikimedia Commons",
       "sourceVerifiedDate": "2026-11-05",
-      "sourceStatus": "FOUND_NOT_DOWNLOADED",
-      "embeddedInApk": false,
+      "sourceStatus": "STAGED_OFFLINE_QA",
+      "embeddedInApk": true,
       "attributionTemplate": "Bird's respiratory system.jpg — Cruithne9; CC BY-SA 4.0; source: Wikimedia Commons; modifications: [state any crop/translation/PNG conversion]",
       "localFile": "bird_respiration.png",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bird%27s_respiratory_system.jpg",
@@ -50,7 +51,8 @@
       "sha256": "5547df1620a23c1abb44de63d98879871be79d0b5d1bcef69690532aff08e8d7",
       "modifications": "Converted to PNG, original aspect ratio retained",
       "bytes": 468674,
-      "reviewStatus": "SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW"
+      "reviewStatus": "SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW",
+      "academicStatus": "PENDING"
     },
     {
       "id": "pigeon-skeleton",
@@ -64,10 +66,10 @@
       "academicNotes": "Abbildungen von Vogel-Skeletten, plate XC (1879–1888), Columba livia; labels and modern anatomical interpretation still awaiting independent Zoology/Tamil review.",
       "sourceSite": "Wikimedia Commons",
       "sourceVerifiedDate": "2026-11-05",
-      "sourceStatus": "FOUND_NOT_DOWNLOADED",
-      "embeddedInApk": false,
+      "sourceStatus": "STAGED_OFFLINE_QA",
+      "embeddedInApk": true,
       "attributionTemplate": "Pigeon Skeleton.jpg — Joshbressers; CC0 1.0; source: Wikimedia Commons; modifications: [state any crop/translation/PNG conversion]",
-      "localFile": "pigeon_skeleton.png",
+      "localFile": "pigeon_endoskeleton_line_art.png",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Abbildungen_von_Vogel-Skeletten_(Tafel_XC)_(6981817141).jpg",
       "originalWidth": 1355,
       "originalHeight": 1782,
@@ -76,7 +78,8 @@
       "sha256": "15213b2c1423a5d1342f133e22f97cd41de94ddf030bf5c2e8ccbd891ed15130",
       "modifications": "Historical public-domain line engraving converted to greyscale PNG; faded-paper contrast adjusted; scaled for mobile readability",
       "bytes": 2507536,
-      "reviewStatus": "SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW"
+      "reviewStatus": "SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW",
+      "academicStatus": "PENDING"
     },
     {
       "id": "rabbit-skeleton",
@@ -90,10 +93,10 @@
       "academicNotes": "Traité d'anatomie comparée des animaux domestiques, 1890 — Oryctolagus cuniculus; labels and modern anatomical interpretation still awaiting independent Zoology/Tamil review.",
       "sourceSite": "Wikimedia Commons",
       "sourceVerifiedDate": "2026-11-05",
-      "sourceStatus": "FOUND_NOT_DOWNLOADED",
-      "embeddedInApk": false,
+      "sourceStatus": "STAGED_OFFLINE_QA",
+      "embeddedInApk": true,
       "attributionTemplate": "Rabbit skeleton at MAV-USP.jpg — Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva; CC BY-SA 4.0; source: Wikimedia Commons; modifications: [state any crop/translation/PNG conversion]",
-      "localFile": "rabbit_skeleton.png",
+      "localFile": "rabbit_endoskeleton_line_art.png",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/SqueletteLapinChauveau1990.JPG",
       "originalWidth": 1064,
       "originalHeight": 541,
@@ -102,7 +105,8 @@
       "sha256": "25a9d4a68486c54068caea46163d6007c1b0ca0b225f4915cf9a8ed5220939f9",
       "modifications": "Historical public-domain line engraving converted to greyscale PNG; faded-paper contrast adjusted; scaled for mobile readability",
       "bytes": 1170890,
-      "reviewStatus": "SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW"
+      "reviewStatus": "SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW",
+      "academicStatus": "PENDING"
     }
   ],
   "status": "QA_CANDIDATES_NOT_APPROVED"
