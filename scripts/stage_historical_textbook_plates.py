@@ -109,8 +109,14 @@ def main():
     for source in SOURCES:
         fig=figmap[source["id"]]
         credit=creditmap[source["referenceId"]]
-        assert fig["file"]==source["oldFile"]
         assert fig["topicId"] in ("u5-columba","u5-rabbit") and fig["page"]==2
+        if fig["file"]==source["filename"] and not (FIGS/source["oldFile"]).exists():
+            existing=(FIGS/source["filename"]).read_bytes()
+            assert existing[:8]==bytes.fromhex("89504e470d0a1a0a")
+            assert hashlib.sha256(existing).hexdigest()==hashmap[source["id"]]["sha256"]
+            print("ALREADY_STAGED",source["id"],"verified",source["filename"])
+            continue
+        assert fig["file"]==source["oldFile"]
         assert FIGS.joinpath(source["oldFile"]).exists()
         realurl,original,original_size=fetch(source)
         plate,orig,newsize=make_plate(original)
