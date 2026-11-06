@@ -36,16 +36,16 @@
   },
   {
     "id": "commons-pigeon-skeleton",
-    "file": "pigeon_skeleton.png",
-    "size": 3867697,
-    "sha256": "4d538dcfae108ed4f6528ebe4fd9135f88d9ce70c01f525cc96355fe41263796",
-    "status": "LICENSED_SOURCE_REFERENCE_NOT_ACADEMICALLY_APPROVED"
+    "file": "pigeon_endoskeleton_line_art.png",
+    "size": 2507536,
+    "sha256": "15213b2c1423a5d1342f133e22f97cd41de94ddf030bf5c2e8ccbd891ed15130",
+    "status": "HISTORICAL_LINE_DRAWING_AWAITING_ANATOMICAL_REVIEW"
   },
   {
     "id": "commons-rabbit-skeleton",
-    "file": "rabbit_skeleton.png",
-    "size": 2458825,
-    "sha256": "c641be07637df450e9afb01bb8afe2cc3c2d4af24f981a9285cb59cc867dd45d",
-    "status": "LICENSED_SOURCE_REFERENCE_NOT_ACADEMICALLY_APPROVED"
+    "file": "rabbit_endoskeleton_line_art.png",
+    "size": 1170890,
+    "sha256": "25a9d4a68486c54068caea46163d6007c1b0ca0b225f4915cf9a8ed5220939f9",
+    "status": "HISTORICAL_LINE_DRAWING_AWAITING_ANATOMICAL_REVIEW"
   }
 ]
