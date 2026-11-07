@@ -37,6 +37,7 @@ jobs:
           git add app/src/main/assets/source_reference_credits.json
           git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
           git add docs/CHORDATA_HISTORICAL_ANATOMY_BATCH2_QA.md
+          git add docs/qa-image-review/*.png
           if git diff --cached --quiet; then
             echo "Three anatomical replacements already current"
           else
