@@ -284,6 +284,19 @@ def main():
                 and all(item in figure.get("keyEn", "") for item in ("1 olfactory", "2 cerebral", "3 cerebellum", "4 spinal", "Lagomorpha")),
                 "rabbit dorsal/lateral original and public-domain historical source not reconciled"
             )
+        if figure["diagramId"] == "u5-flight-adaptations-flight-muscles" and figure.get("sourceUrl"):
+            require(
+                figure["lang"] == "en"
+                and figure.get("author", "").startswith("L. Shyamal (2012)")
+                and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Wing_Muscles,_color.svg"
+                and figure.get("license") == "CC BY-SA 2.5 Generic — derived PNG and annotations"
+                and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/2.5/"
+                and len(figure.get("sourceSha256", [])) == 1
+                and "2720px" in figure.get("modifications", "")
+                and all(word in figure.get("keyEn", "").lower() for word in
+                        ("pectoralis", "supracoracoideus", "coracoid", "furcula", "scapula")),
+                "avian flight-muscle anatomy attribution, CC BY-SA 2.5 share-alike, or key absent"
+            )
         if figure["diagramId"] in pencil_ids:
             if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
