@@ -294,7 +294,7 @@ def main():
                 and not figure.get("svgMaster")
                 and not figure.get("svgSha256")
                 and "Phrynoderma hexadactylum" in figure.get("scope", "")
-                and "NOT a labelled ventral dissection" in figure.get("scope", "")
+                and "not a labelled ventral dissection" in figure.get("scope", "").lower()
                 and "NO modern anatomical leader lines" in figure.get("keyEn", "")
                 and "no artwork newly drawn" in figure.get("modifications", "")
                 and figure.get("visualReview") == "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
