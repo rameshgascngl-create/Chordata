@@ -85,10 +85,18 @@ def download(source):
         if local_name in {"script", "foreignobject"}:
             raise ValueError("Active SVG element disallowed: " + local_name)
         if local_name == "image":
-            raise ValueError("Image-backed SVG disallowed: use vector anatomy")
+            embedded = [value for name, value in node.attrib.items()
+                        if name.split("}")[-1].lower() == "href"]
+            if len(embedded) != 1 or not embedded[0].startswith(("data:image/png;base64,", "data:image/jpeg;base64,")):
+                raise ValueError("Remote or unrecognised image in source SVG")
         for name, value in node.attrib.items():
-            if name.split("}")[-1].lower() == "href" and not value.startswith("#"):
-                raise ValueError("External SVG dependency disallowed in " + source["name"])
+            if name.split("}")[-1].lower() == "href":
+                internal = value.startswith("#")
+                embedded_image = (local_name == "image" and
+                                  value.startswith(("data:image/png;base64,", "data:image/jpeg;base64,"))
+                                  and len(value) < 120_000)
+                if not (internal or embedded_image):
+                    raise ValueError("External SVG dependency disallowed in " + source["name"])
         if local_name == "style" and node.text:
             css = node.text.lower()
             if "url(" in css or "@import" in css or "expression(" in css:
