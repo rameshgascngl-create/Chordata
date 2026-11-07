@@ -65,6 +65,9 @@ def original_qa():
 def main():
     historical,source_hash=source()
     lateral=original_qa()
+    # Preserve lateral structures, original leader anchors and orientation;
+    # omit redundant title/footer when embedding the old standalone plate.
+    lateral=lateral.crop((70,185,1730,1030))
     canvas=Image.new("RGB",(3360,1810),"#fffefa")
     d=ImageDraw.Draw(canvas)
     ink="#19333f"
