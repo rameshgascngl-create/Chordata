@@ -230,6 +230,26 @@ def main():
                     require(figure["author"] == "Chordata QA project — original numbered schematic",
                             "original plate creator attribution changed: " + name)
         if (figure["diagramId"] == "u2-scoliodon-brain-labelled"
+                and figure.get("sourceKind") == "AUTHENTIC_HISTORICAL_PNG_NOT_GENERATED"):
+            # A real PD primary-source picture, not a synthetic Scoliodon plate.
+            require(
+                figure.get("lang") == "en"
+                and figure.get("author") == "Gustav Theodor Fritsch (1878) — historical dogfish brain illustration"
+                and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Fritsch_dogfish_shark_brain.png"
+                and figure.get("sourceSha1") == "3ccf7de9b4ea765cb606d12f3996f08ca68738ad"
+                and figure.get("sourceSha256") == [figure["sha256"]]
+                and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/"
+                and figure.get("license", "").startswith("Public domain")
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256")
+                and figure.get("sourceKind") == "AUTHENTIC_HISTORICAL_PNG_NOT_GENERATED"
+                and figure.get("visualReview") == "SOURCED_COMPARATIVE_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
+                and "NOT Scoliodon" in figure.get("scope", "")
+                and "NOT milk shark" in figure.get("keyEn", "")
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                "historic PNG brain source/taxon/rights are not independently traceable"
+            )
+        if (figure["diagramId"] == "u2-scoliodon-brain-labelled"
                 and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
             require(
                 figure.get("lang") == "en"
