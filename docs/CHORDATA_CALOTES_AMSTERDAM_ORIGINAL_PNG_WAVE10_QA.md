@@ -14,3 +14,9 @@ No computer-generated, traced, drawn, stylised or upscaled anatomical illustrati
 Scientific scope: lateral external anatomy only. Note artist-curled tail; students must not mistake the curved pose for anatomical segmentation or a specialised organ. No stomach, skeletal system or internal anatomy are depicted. English/Tamil captions separate from original plate.
 
 Independent Zoology/Tamil reviews, phone-zoom and physical-device acceptance PENDING; production HOLD.
+
+## Committed original-artwork visual screening and final-source QA request
+
+The original Dutch-library image has been viewed independently in the Commons file preview. It is an archival zoological ink drawing, **not an AI-generated or geometric anatomical illustration**, with visible lateral body scales, spiny nuchal/dorsal crest, eye, clawed limbs and a coiled tail. The tail curl is the print's artistic pose and must not be confused with an anatomical coil. The copy contains no new or edited leader lines; old handwritten text and incidental source marks remain. The atlas uses the artwork strictly for **external morphology**, not internal organ placement.
+
+Source-hash, 64-slot and native Kotlin compilation checks passed in [Wave 10 staging run 42381010959](https://github.com/rameshgascngl-create/Chordata/actions/runs/42381010959), artwork commit `5b664534acfb2f4dbac14f1b733215e63278dd13`. This documentation-only QA commit causes the full Android instrumentation and gated debug APK pipeline to run on the **committed original PNG**. High-resolution source inspection, scientific/Tamil editorial reviews, device zoom and production acceptance remain pending.
