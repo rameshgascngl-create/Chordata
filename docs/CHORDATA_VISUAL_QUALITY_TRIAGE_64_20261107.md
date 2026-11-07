@@ -8,6 +8,7 @@
 - The displayed current figure is derived from the English or shared slot. Tamil alternative assets are retained but the Android gallery intentionally uses English-labelled diagrams in both language modes.
 - No figure is academically approved merely because source rights, SHA-256, Kotlin compilation or emulator navigation pass.
 - **Wave 1 staged two candidate replacements**: `u1-vertebrata-characters-vertebrate-anatomy` (the image reported by the user) and `u1-general-characters-five-chordate-characters`. This reduces the original 38 high-priority *unstaged* replacements to **36**, but **both replacements still require image legibility, scientific and Tamil editorial acceptance on a physical device**.
+- **Wave 2 staged a third candidate**: `u2-scoliodon-external-labelled` now uses the real historic species engraving from Müller & Henle (1838–1841), sourced from Wikimedia Commons public domain, including teeth and head insets. The drawing has been visually inspected and the 64-file audit passed; **35 of the initial 38 high-priority images still await replacement**. The new figure still lacks independent scientific/Tamil sign-offs and phone-scale legibility acceptance.
 
 | # | Figure ID | Triage | Main visual issue / next action | Source-credited at this QA triage checkpoint |
 |---|---|---|---|---|
