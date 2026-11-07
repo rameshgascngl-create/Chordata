@@ -1,0 +1,75 @@
+name: CHORDATA Wave 1 - five diagnostic chordate characters
+on:
+  push:
+    branches: ["qa/chordata-anatomy-visual-audit-wave1-20261107"]
+    paths:
+      - ".github/workflows/stage-five-chordate-features-wave1.yml"
+      - "scripts/stage_five_chordate_features_wave1.py"
+      - "scripts/audit_figure_placement.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned PNG/SVG rendering dependencies
+        run: python3 -m pip install Pillow==11.3.0 CairoSVG==2.8.2
+      - name: Render CC0 verified chordate feature anatomy as a high-resolution PNG
+        run: python3 scripts/stage_five_chordate_features_wave1.py
+      - name: Verify exact lesson slot and all 64 asset/provenance checks
+        run: bash scripts/qa_all.sh
+      - name: Commit only the provisional replacement on the isolated QA branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/chordate_features.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_FIVE_CHARACTERS_MICROVIPERA_QA.md
+          git add docs/qa-image-review/five_chordate_characters_review.png
+          if git diff --cached --quiet; then
+            echo "No source or diagram changes"
+          else
+            git diff --cached --stat
+            git commit -m "assets(qa): replace numbered-stick chordate characters with CC0 anatomical plate"
+            git push origin HEAD:qa/chordata-anatomy-visual-audit-wave1-20261107
+          fi
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Verify Android 37 SDK platform and tools
+        shell: bash
+        run: |
+          set -e
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile Kotlin without publishing an APK
+        run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Preserve visual review preview only
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Five_Chordate_Features_Wave1_Review
+          path: |
+            docs/qa-image-review/five_chordate_characters_review.png
+            docs/CHORDATA_FIVE_CHARACTERS_MICROVIPERA_QA.md
+          retention-days: 14
+          if-no-files-found: warn
