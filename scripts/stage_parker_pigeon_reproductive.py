@@ -61,6 +61,8 @@ def stage():
     overview = Image.open(BytesIO(rendered)).convert("RGB")
     if overview.size != (1800,1120):
         raise ValueError("Original comparison layout changed")
+    # Crop only duplicate title, retaining both species panels and the bottom note.
+    overview = overview.crop((75,210,1740,1050))
     out = Image.new("RGB", (3360,1900), "#fffefa")
     d = ImageDraw.Draw(out)
     ink = "#1b3440"
@@ -100,7 +102,7 @@ def stage():
         license=RIGHTS, licenseUrl=PDM, sourceUrl=PAGE,
         sourceSha256=[source_hash], originalSvgSha256=original_sha,
         sourceCaptionUrl=CAPTION,
-        modifications=("The original male/female diagram was rasterised from its retained SVG "
+        modifications=("The original male/female diagram was rasterised and cropped to anatomical panels from its retained SVG "
                        "master; a public-domain 1928 female pigeon drawing was separately "
                        "scaled without changing labels, and O/Od/V English key placed outside "
                        "historical ink; full composite saved as offline PNG."),
