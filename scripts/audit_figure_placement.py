@@ -168,6 +168,18 @@ def main():
                         "sourced lamprey artwork lacks both original licence/provenance records")
                 require(figure.get("modifications") and len(figure.get("sourceSha256", [])) == 2,
                         "lamprey derivative missing transformation and source checksums")
+            elif figure["diagramId"] == "u1-general-characters-five-chordate-characters" and figure.get("sourceUrl"):
+                require(
+                    figure.get("author") == "Microvipera (generalised chordate morphology); CHORDATA QA (layout)"
+                    and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:General_chordate_morphology.svg"
+                    and figure.get("license", "").startswith("CC0 1.0")
+                    and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/zero/1.0/"
+                    and len(figure.get("sourceSha256", [])) == 1
+                    and "embryo" in figure.get("keyEn", "")
+                    and "endostyle" in figure.get("keyEn", "").lower()
+                    and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING",
+                    "five hallmark Chordata structures lack original source/rights or life-stage caveat"
+                )
             elif figure["diagramId"] == "u1-hemichordata-balanoglossus-external" and figure.get("sourceUrl"):
                 require(
                     figure["author"] == "Unknown illustrator, New International Encyclopaedia (1905); CHORDATA QA (layout)"
