@@ -273,6 +273,23 @@ def main():
                 and all(item in figure.get("keyEn", "") for item in ("Male:", "Female:", "O:", "Od:", "V:")),
                 "pigeon male/female source provenance or O/Od/V key missing"
             )
+        if figure["diagramId"] == "u1-vertebrata-characters-vertebrate-anatomy":
+            require(
+                figure["lang"] == "en"
+                and figure.get("author") == "Chiswick Chap (vertebrate body plan); Uwe Gille (teleost organs); CHORDATA QA (layout)"
+                and figure.get("sourceUrls") == [
+                    "https://commons.wikimedia.org/wiki/File:Vertebrate_body_plan.svg",
+                    "https://commons.wikimedia.org/wiki/File:Fish-anatomy.svg"
+                ]
+                and figure.get("license") == "CC BY-SA 4.0 — composite derivative, both original artists credited"
+                and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/4.0/"
+                and len(figure.get("sourceSha256", [])) == 2
+                and len(figure.get("originalLicences", [])) == 2
+                and "NOT universal" in figure.get("keyEn", "")
+                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"
+                and not figure.get("svgMaster"),
+                "Vertebrata organ panel source, attribution, licence or caveat missing"
+            )
         if figure["diagramId"] in pencil_ids:
             if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
