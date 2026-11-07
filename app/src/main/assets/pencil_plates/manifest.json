@@ -605,26 +605,45 @@
       "figure": "vertebrate_organs",
       "lang": "en",
       "path": "pencil_plates/vertebrate_organs_en.png",
-      "sha256": "bd20ea80e69f22069064343895b61872a7cae00afc593213bdca6678dcc9c100",
-      "size": 166452,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "2b48882a0985459523b14030a7ee5f6c509830f6471d75f280df49166c25cf55",
+      "size": 568549,
+      "author": "Chiswick Chap (vertebrate body plan); Uwe Gille (teleost organs); CHORDATA QA (layout)",
+      "license": "CC BY-SA 4.0 — composite derivative, both original artists credited",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vertebrate_body_plan.svg",
       "referenceUrls": [
         "https://openstax.org/books/biology-2e/pages/29-1-chordates"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Spinal cord, heart, kidneys, respiration, digestion and paired sensory structures are integrated.",
-      "keyTa": "",
+      "modifications": "Rendered two independently attributed source SVGs into one high-resolution PNG teaching comparison; original source anatomy unmodified, separate English 1–11 teleost organ key added. Source SVGs are NOT packaged in the app. Composite offered under CC BY-SA 4.0.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "A: general vertebrate organisation. B: specialised teleost example: liver, stomach, intestine, heart, swim bladder, kidney, testis, ureter, sperm duct, urinary bladder and gills. The teleost arrangement is NOT universal across vertebrates.",
+      "keyTa": "A: முதுகெலும்பிகளின் பொதுவான உடலமைப்பு. B: எலும்பு மீனின் உடலுறுப்பு அமைப்பு — எடுத்துக்காட்டு மட்டும். இதன் செவுள்கள், இதயம், சிறுநீரகம், செரிமான உறுப்புகள் ஆகியவை அனைத்து முதுகெலும்பிகளையும் பிரதிநிதித்துவப்படுத்தாது.",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/vertebrate_organs_en.svg",
+      "visualReview": "REPLACED_VISUAL_QA_PENDING",
       "topicId": "u1-vertebrata-characters",
       "page": 2,
       "sectionKey": "organ-systems",
       "learningObjective": "Spinal cord, heart, kidneys, respiration, digestion and paired sensory structures are integrated.",
-      "svgSha256": "958b9412249024d1110d50fd91f60b015f14fa033bf8e395ef3091ee09fd7c57"
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Vertebrate_body_plan.svg",
+        "https://commons.wikimedia.org/wiki/File:Fish-anatomy.svg"
+      ],
+      "sourceSha256": [
+        "02c3fbbd9dd5653bac0c4495877411ceb85ace03e5582544a119c0fc80c37463",
+        "54bd1c4200af1bdaa315bb8830139b7587b8c7dcf364f6b22185e05abc108ebd"
+      ],
+      "originalLicences": [
+        {
+          "author": "Chiswick Chap",
+          "license": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "author": "Uwe Gille",
+          "license": "CC BY 2.5 (selected from multiple available original licences)",
+          "url": "https://creativecommons.org/licenses/by/2.5/"
+        }
+      ]
     },
     {
       "diagramId": "u2-pisces-classification-fish-groups",
