@@ -198,6 +198,17 @@ def main():
                     and "not all fishes" in figure.get("keyEn", ""),
                     "historical fish-fins key/source rights do not match original numbers"
                 )
+            elif figure["diagramId"] == "u5-rabbit-excretory-system" and figure.get("sourceUrl"):
+                require(
+                    figure["author"].startswith("J. Arthur Thomson, Outlines of Zoology (1916)")
+                    and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Image_from_page_743_of_%22Outlines_of_zoology%22_(1916)_(14597351000).jpg"
+                    and figure.get("license", "").startswith("Public domain")
+                    and len(figure.get("sourceSha256", [])) == 1
+                    and "Female" in figure.get("keyEn", "")
+                    and "vestibule" in figure.get("keyEn", "").lower()
+                    and "Male" in figure.get("keyEn", ""),
+                    "rabbit urinary plate must preserve male/female distinctions and 1916 rights"
+                )
             else:
                 require(figure["author"] == "Chordata QA project — original numbered schematic",
                         "original plate creator attribution changed: " + name)
