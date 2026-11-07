@@ -13,3 +13,9 @@ Anatomical references:
 - https://www.amnh.org/learn-teach/resources-for-learning/hall-of-ocean-life/water-vertebrates-breathing
 
 Biology/Tamil independent review and physical-device testing remain pending. English image labels shared in both reading modes. Production release HOLD.
+
+## Committed-image visual inspection (QA only)
+
+The committed 1200-pixel preview was inspected after the countercurrent-label spacing correction. The water-flow and blood-flow legends no longer overlap; panel B retains distinct septal partitions and panel A five external gill slits. This is **visual layout screening**, not independent species-level scientific review. The plate remains provisional until the separate Zoology and Tamil reviewers, accessibility inspection, and real-device examination sign off.
+
+This documentation commit triggers a new exact-source Android instrumentation and gated QA-APK workflow. The prior release artefact must not be presented as containing Wave 4 artwork.
