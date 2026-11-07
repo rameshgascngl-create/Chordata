@@ -6,10 +6,19 @@
       "figure": "branchiostoma",
       "lang": "en",
       "path": "pencil_plates/branchiostoma_en.png",
-      "sha256": "decf36ad91f0b3d49e4927de2bb8484d376eb05056bc54e50dadb5be16b95fd3",
-      "size": 1714196,
-      "author": "AI-generated original (ChatGPT ImageGen)",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+      "sha256": "68acc2123fa7f57c1eb82feba7bbc1d81f40faf9fc14c12f813be618845726e0",
+      "size": 3043246,
+      "author": "Hans Hillewaert — original 32-label Branchiostoma lanceolatum drawing",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "license": "CC BY-SA 4.0 (drawing and PNG adaptation)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Branchiostoma_anatomy.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceSha256": [
+        "14ea5573f3f5335d1390205108b9259defe56a43ff7291f0cd42b788d55b39c2"
+      ],
+      "modifications": "Full original annotated drawing converted from JPEG to lossless PNG with geometry and numerical labels unchanged; original is distributed under the same CC BY-SA 4.0 licence.",
+      "keyEn": "Numbers from the original (English): 1 Buccal cirrus; 2 Buccal cavity; 3 Wheel organ; 4 Velum; 5 Velar tentacle; 6 Pharynx; 7 Atrium; 8 Gill slit; 9 Endostyle; 10 Gill bar; 11 Ventral aorta; 12 Dorsal aorta; 13 Branchial skeleton; 14 Oesophagus; 15 Stomach; 16 Atriopore; 17 Hepatic caecum; 18 Iliocolon; 19 Intestine; 20 Anus; 21 Hatschek's pit; 22 Ocellus; 23 Rostrum; 24 Cerebral vesicle; 25 Nerve cord; 26 Notochord; 27 Myoseptum; 28 Myomere; 29 Caudal fin; 30 Ventral fin; 31 Metapleural fold; 32 Dorsal fin.",
+      "keyTa": "படத்திலுள்ள எண்களுக்கான விளக்கம் (ஆங்கிலத்தில்): 1 Buccal cirrus; 2 Buccal cavity; 3 Wheel organ; 4 Velum; 5 Velar tentacle; 6 Pharynx; 7 Atrium; 8 Gill slit; 9 Endostyle; 10 Gill bar; 11 Ventral aorta; 12 Dorsal aorta; 13 Branchial skeleton; 14 Oesophagus; 15 Stomach; 16 Atriopore; 17 Hepatic caecum; 18 Iliocolon; 19 Intestine; 20 Anus; 21 Hatschek's pit; 22 Ocellus; 23 Rostrum; 24 Cerebral vesicle; 25 Nerve cord; 26 Notochord; 27 Myoseptum; 28 Myomere; 29 Caudal fin; 30 Ventral fin; 31 Metapleural fold; 32 Dorsal fin."
     },
     {
       "diagramId": "u1-cephalochordata-branchiostoma-labelled",
