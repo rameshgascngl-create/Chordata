@@ -1,0 +1,85 @@
+name: Chordata sourced Balanoglossus external plate — isolated QA
+on:
+  push:
+    branches: ["qa/chordata-sourced-anatomy-20261107"]
+    paths:
+      - ".github/workflows/stage-source-balanoglossus.yml"
+      - "scripts/stage_public_domain_balanoglossus.py"
+      - "scripts/audit_figure_placement.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stage-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned image library
+        run: python -m pip install Pillow==11.3.0
+      - name: Download and extract 1905 public-domain Balanoglossus external illustration
+        run: python scripts/stage_public_domain_balanoglossus.py
+      - name: Validate every 64/64 slot, credits, integrity and unsigned review statuses
+        run: bash scripts/qa_all.sh
+      - name: Commit revised provisional anatomy plate, metadata and review register
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/balanoglossus_external.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_SOURCED_BALANOGLOSSUS_QA.md
+          git diff --cached --stat
+          if git diff --cached --quiet; then
+            echo "Source-derived plate already current; no new commit required"
+          else
+            git commit -m "assets(qa): integrate 1905 Balanoglossus external-morphology plate"
+            git push origin HEAD:qa/chordata-sourced-anatomy-20261107
+          fi
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
+      - name: Install Android SDK and verify API 37
+        shell: bash
+        run: |
+          set -e
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "${ANDROID_HOME}/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Build native QA APK with new credited lamprey plate
+        run: gradle --no-daemon :app:assembleDebug
+      - name: Check revised asset bytes in APK
+        run: python scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
+      - name: Upload built QA APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Sourced_Balanoglossus_QA_APK
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
+      - name: Upload the source drawing preview and rights evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Balanoglossus_Source_Review
+          path: |
+            build/sourced_morphology_qa/
+            docs/CHORDATA_SOURCED_BALANOGLOSSUS_QA.md
+          if-no-files-found: warn
+          retention-days: 14
