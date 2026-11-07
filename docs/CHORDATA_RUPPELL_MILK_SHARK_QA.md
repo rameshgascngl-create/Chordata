@@ -23,3 +23,9 @@ Changes: accurately cropped figure 4 only, preserved shape/proportions, resized 
 Research: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=160219 | https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=26421
 
 Visual approval, independent Zoology reviewer, Tamil editorial reviewer and physical-device acceptance: ALL PENDING. QA only; production on HOLD.
+
+## Commit-specific visual inspection (7 November 2026)
+
+The committed PNG preview was inspected at thumbnail scale. The full milk-shark body and fins are visible, and the modern identification key sits outside the historic plate. A small portion of the associated original dental inset is cut off at the upper-right crop boundary; this remains a legibility/presentation review item and is **not** a scientific acceptance decision. No other shark species from Plate XVIII is intentionally depicted as the lesson organism.
+
+Static integrity and native Kotlin compile gates passed on staging workflow 42356918377. A **separate GitHub Actions Android QA and emulator run must be green on the corrected artwork commit** before distributing a new QA APK; earlier Wave 2 APKs contain the scientifically mismatched spadenose image. No production release.
