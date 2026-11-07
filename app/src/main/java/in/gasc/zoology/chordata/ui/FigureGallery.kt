@@ -124,12 +124,20 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
     val pageSlots = if (page > 0) topicSlots.filter { it.page == page } else emptyList()
     val relevant = if (page > 0) plates.filter { it.topicId == topicId && it.page == page }
                    else emptyList()
+    val userRejectedSlots = pageSlots.filter { slot ->
+        val entry = pencilPlates[slot.id to "en"] ?: pencilPlates[slot.id to "shared"]
+        entry?.optString("visualReview") == "USER_REJECTED_REPLACEMENT_REQUIRED"
+    }
     val matchingDraftIds = pageSlots.mapNotNull { it.provisionalFigureId }.toSet()
     val pencilBySlot = pageSlots.mapNotNull { slot ->
         // English-labeled anatomical plates are intentionally shared across language
         // modes. The translated lesson narrative and caption remain language-specific.
         val entry = pencilPlates[slot.id to "en"] ?: pencilPlates[slot.id to "shared"]
             ?: return@mapNotNull null
+        // Rejected drawings must not appear as valid anatomical teaching plates.
+        // Keep the registered slot and caption visible in the pending section instead.
+        if (entry.optString("visualReview") == "USER_REJECTED_REPLACEMENT_REQUIRED")
+            return@mapNotNull null
         // Use the registered canonical asset path. Discarding the parent folder
         // previously concealed 25 incorrect `figures/` manifest entries.
         val assetPath = entry.getString("path")
@@ -159,6 +167,15 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
     val visiblePlates = pencilBySlot.map { it.second } +
         relevant.filter { it.id in matchingDraftIds && it.id !in replacedIds }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        if (userRejectedSlots.isNotEmpty()) {
+            Text(
+                if (lang == ReadingLanguage.TA)
+                    "இந்தப் பாடத்தின் உடற்கூறியல் வரைபடம் தரச் சரிபார்ப்பில் நிராகரிக்கப்பட்டதால் காட்டப்படவில்லை. சரியான மாற்றுப் படம் தேவை."
+                else "This anatomical illustration was rejected in quality review and is withheld. A scientifically checked replacement is required.",
+                modifier = Modifier.testTag("figure-rejected-quality"),
+                color = MaterialTheme.colorScheme.error
+            )
+        }
         if (allSlots == null) {
             Text(
                 if (lang == ReadingLanguage.TA) "வரைபட இருப்பிடப் பதிவேடு கிடைக்கவில்லை."
