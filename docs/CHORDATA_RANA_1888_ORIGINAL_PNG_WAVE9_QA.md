@@ -19,3 +19,9 @@ NO new drawing or generated artwork. Converted original published source to PNG 
 Pedagogical scope: clearly shows dorsal body contour, extended forefeet and the webbed hind feet; NOT a side or ventral anatomical plate and no modern labels. User requested authentic published art as PNG. The plate is a provisional figure for human acceptance, not a scientific-labelled line-drawing sign-off.
 
 Independent Zoology, Tamil editorial review, phone-scale inspection and physical-device acceptance are PENDING. Production release HOLD.
+
+## Exact-source visual and Android QA checkpoint
+
+The published historical plate was inspected at the source's visible dimensions before integration. It shows one intact adult frog in dorsal view with forelimb digits, distinct hind limbs and broad interdigital webbing; no artificially created anatomy appears. The original *Rana hexadactyla* identification corresponds to the modern *Phrynoderma hexadactylum* taxon per Amphibian Species of the World 6.2. The original source has no leader lines, side-view tympanum detail or ventral dissection; those must not be implied in the lesson caption.
+
+Source authenticity, 64-slot integrity and native Kotlin **staging** compilation passed in [Wave 9 workflow 42380283668](https://github.com/rameshgascngl-create/Chordata/actions/runs/42380283668). The committed figure changed the APK bytes, so previous Wave 8 emulator evidence is not valid for this exact image. This documentation-only commit triggers a dedicated **full Kotlin/emulator/package QA build** on the original PNG. Human scientific review, Tamil editorial review and real-device acceptance remain PENDING. Production HOLD.
