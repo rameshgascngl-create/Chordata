@@ -221,6 +221,26 @@ def main():
                     and "Male" in figure.get("keyEn", ""),
                     "rabbit urinary plate must preserve male/female distinctions and 1916 rights"
                 )
+            elif (figure["diagramId"] == "u1-urochordata-ascidia-larva-adult"
+                  and figure.get("sourceKind") == "AUTHENTIC_1905_PUBLISHED_PNG_NOT_DRAWN_FOR_APP"):
+                require(
+                    figure["lang"] == "shared"
+                    and figure["author"] == "Unknown illustrator, The New International Encyclopaedia (1905), Vol. 2; historical plate"
+                    and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:NIE_1905_Ascidians_and_balanoglossus.png"
+                    and figure.get("sourceImageUrl") == "https://upload.wikimedia.org/wikipedia/commons/3/39/NIE_1905_Ascidians_and_balanoglossus.png"
+                    and figure.get("sourceSha256") == [figure["sha256"]]
+                    and len(figure.get("sourceSha1", "")) == 40
+                    and figure.get("license", "").startswith("Public domain")
+                    and len(figure.get("referenceUrls", [])) == 3
+                    and figure.get("visualReview") == "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
+                    and "9–10" in figure.get("scope", "")
+                    and "BALANOGLOSSUS" in figure.get("keyEn", "")
+                    and "1905" in figure.get("modifications", "")
+                    and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                    and not figure.get("svgMaster")
+                    and not figure.get("svgSha256"),
+                    "Ascidian original published PNG/taxon/rights/provenance is not verified"
+                )
             else:
                 if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
                         and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
