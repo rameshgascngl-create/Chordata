@@ -1,0 +1,86 @@
+name: Chordata historical anatomy batch 2 — isolated QA
+on:
+  push:
+    branches: ["qa/chordata-textbook-plates-batch2-20261107"]
+    paths:
+      - ".github/workflows/stage-historical-batch2.yml"
+      - "scripts/stage_historical_anatomy_batch2.py"
+      - "scripts/audit_figure_placement.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install fixed image processing library
+        run: python -m pip install Pillow==11.3.0
+      - name: Stage historical skeleton engravings and frog dorsal brain
+        run: python3 scripts/stage_historical_anatomy_batch2.py
+      - name: Audit all 64 images, rights and reviewer statuses
+        run: bash scripts/qa_all.sh
+      - name: Commit three provisional teaching plates and metadata on QA only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/columba_skeleton_en.png
+          git add app/src/main/assets/pencil_plates/rabbit_skeleton_en.png
+          git add app/src/main/assets/pencil_plates/frog_brain_dorsal_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add app/src/main/assets/source_reference_credits.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_HISTORICAL_ANATOMY_BATCH2_QA.md
+          if git diff --cached --quiet; then
+            echo "Three anatomical replacements already current"
+          else
+            git diff --cached --stat
+            git commit -m "assets(qa): substitute frog brain and historical pigeon/rabbit skeletons"
+            git push origin HEAD:qa/chordata-textbook-plates-batch2-20261107
+          fi
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
+      - name: Install Android API 37 SDK
+        shell: bash
+        run: |
+          set -e
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Assemble native Android QA APK
+        run: gradle --no-daemon :app:assembleDebug
+      - name: Verify installed image bytes inside built APK
+        run: python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
+      - name: Publish debug QA APK, not production release
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Historical_Anatomy_Batch2_QA_APK
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
+      - name: Archive frog drawing preview
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Historical_Anatomy_Batch2_Review
+          path: |
+            build/sourced_morphology_qa/
+            docs/CHORDATA_HISTORICAL_ANATOMY_BATCH2_QA.md
+          if-no-files-found: warn
+          retention-days: 14
