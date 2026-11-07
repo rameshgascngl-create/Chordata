@@ -65,7 +65,8 @@ private data class Plate(
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
     val sourceUrl: String, val licenceUrl: String, val modifications: String,
     val assetDirectory: String = "figures",
-    val referenceOnly: Boolean = false
+    val referenceOnly: Boolean = false,
+    val secondarySourceUrl: String = ""
 )
 
 private data class DiagramSlot(
@@ -150,7 +151,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             licenceUrl = entry.optString("licenseUrl", ""),
             modifications = entry.optString("modifications", ""),
             assetDirectory = assetDirectory,
-            referenceOnly = true
+            referenceOnly = entry.optString("sourceUrl", "").isBlank(),
+            secondarySourceUrl = entry.optJSONArray("sourceUrls")?.optString(1) ?: ""
         )
     }
     val replacedIds = pencilBySlot.mapNotNull { it.first.provisionalFigureId }.toSet()
@@ -247,6 +249,13 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 else if (lang == ReadingLanguage.TA)
                                     "படத்தின் மூலப் பக்கமும் உரிமையாளரும்"
                                 else "Original image and creator")
+                            }
+                            if (plate.secondarySourceUrl.isNotEmpty()) {
+                                TextButton(onClick = { uriHandler.openUri(plate.secondarySourceUrl) }) {
+                                    Text(if (lang == ReadingLanguage.TA)
+                                        "இரண்டாவது பட மூலமும் உரிமையாளரும்"
+                                    else "Second original image and creator")
+                                }
                             }
                             if (!plate.referenceOnly && plate.licenceUrl.isNotEmpty()) {
                                 TextButton(onClick = { uriHandler.openUri(plate.licenceUrl) }) {
