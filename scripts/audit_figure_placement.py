@@ -285,6 +285,22 @@ def main():
                 and all(item in figure.get("keyEn", "") for item in ("Male:", "Female:", "O:", "Od:", "V:")),
                 "pigeon male/female source provenance or O/Od/V key missing"
             )
+        if (figure["diagramId"] == "u2-scoliodon-external-labelled"
+                and figure.get("sourceUrl")):
+            require(
+                figure["lang"] == "en"
+                and figure["author"] == "Johannes Muller and Friedrich Henle (1838-1841); CHORDATA QA (teaching layout)"
+                and figure["sourceUrl"] == "https://commons.wikimedia.org/wiki/File:Carcharias_laticaudus_by_muller_and_henle.png"
+                and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/"
+                and figure.get("license", "").startswith("Public domain")
+                and len(figure.get("sourceSha256", [])) == 1
+                and "five paired gill slits" in figure.get("keyEn", "")
+                and "Spiracles absent" in figure.get("keyEn", "")
+                and "cannot be verified" in figure.get("keyEn", "")
+                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"
+                and not figure.get("svgMaster"),
+                "new Scoliodon species plate: history, source integrity, or anatomical caveat absent"
+            )
         if figure["diagramId"] == "u1-vertebrata-characters-vertebrate-anatomy":
             require(
                 figure["lang"] == "en"
