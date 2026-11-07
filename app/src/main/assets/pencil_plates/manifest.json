@@ -141,13 +141,27 @@
       "figure": "shark_gill_flow",
       "lang": "shared",
       "path": "pencil_plates/shark_gill_flow.png",
-      "size": 14665,
-      "sha256": "2df65ff07a18ba37f84c15e8d1daf038adfd5f113283f5b718fbb77a5479c413",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 505704,
+      "sha256": "a70074de550cc2da381e1e1cedef659fa84c4bd7d8c5487bcbabdc139d652355",
+      "author": "CHORDATA QA — original programmatically drawn shark septal-gill anatomical plate",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Water flow: 1 Mouth → 2 Pharynx → 3 Across the gills → 4 Out through external gill slits. Enlarged views: 5 Gill arch · 6 Gill filaments · 7 Secondary lamellae on one filament (gas-exchange surfaces).",
-      "keyTa": "நீரோட்டம்: 1 வாய் → 2 தொண்டை → 3 செவுள்களின் வழியே → 4 புறச் செவுள் பிளவுகள் வழியாக வெளியேற்றம். பெரிதாக்கிய பகுதிகள்: 5 செவுள் வளைவு · 6 செவுள் இழைகள் · 7 ஓர் இழையில் உள்ள இரண்டாம் நிலைச் சுவாசத் தகடுகள் (வாயுப் பரிமாற்றப் பரப்புகள்).",
-      "referenceUrl": "https://dlnr.hawaii.gov/sharks/anatomy/gills-respiration/"
+      "keyEn": "Sharks have five pairs of external gill slits. Water enters via the mouth and pharynx, passes over gill filament secondary lamellae supported by interbranchial septa and exits individual external slits. The gill arch supports hemibranchs; blood and water flow in opposite directions across lamellar exchange surfaces. This is a generalised schematic, not a histological section; sharks lack the bony operculum of teleosts.",
+      "keyTa": "சுறாக்களில் ஐந்து இணை வெளிச் செவுள் பிளவுகள் உள்ளன. வாயின் வழியாக உள்நுழையும் நீர் தொண்டைப் பகுதியிலிருந்து செவுள் இழைகளின் இரண்டாம் நிலைச் சுவாசத் தகடுகளின் மேல் செல்கிறது. செவுள் இடைச்சுவர்கள் செவுள் இழைகளைத் தாங்குகின்றன. நீரோட்டமும் இரத்த ஓட்டமும் எதிரெதிர்த் திசைகளில் நடைபெறுவதால் வாயுப் பரிமாற்றம் திறம்பட நடைபெறுகிறது. இது விளக்கக் கோட்டோவியம்; எலும்புமீன்களின் எலும்பாலான செவுள் மூடி இச்சுறாவில் இல்லை.",
+      "referenceUrl": "https://doi.org/10.1152/physrev.00050.2003",
+      "topicId": "u2-scoliodon",
+      "page": 3,
+      "sectionKey": "respiratory-system",
+      "learningObjective": "Explain septal-gill anatomy, interbranchial septa, secondary lamellae and pharynx-to-gill-slit water flow.",
+      "license": "Original CHORDATA QA illustration (source references cited; no figures copied)",
+      "referenceUrls": [
+        "https://doi.org/10.1152/physrev.00050.2003",
+        "https://doi.org/10.1002/jez.10124",
+        "https://dlnr.hawaii.gov/sharks/anatomy/gills-respiration/"
+      ],
+      "svgMaster": "docs/original_plate_svg/scoliodon_septal_gill_structure_en.svg",
+      "svgSha256": "156a0f1340d1aac3f6f7abcebfdf1594ff2404d8816d0090cad23c1b9f59731a",
+      "modifications": "Original vector construction rendered to PNG at 3200 × 2380. Four linked views: external five-gill-slit head, one septal gill-pouch cross-section, filament/secondary lamellae with countercurrent arrows, and explanatory key. Scientific reference drawings not reproduced.",
+      "visualReview": "REPLACED_VISUAL_QA_PENDING"
     },
     {
       "diagramId": "u1-urochordata-ascidia-larva-adult",
