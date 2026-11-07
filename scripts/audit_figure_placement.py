@@ -306,7 +306,7 @@ def main():
                 and "interbranchial septa" in figure.get("keyEn", "")
                 and "secondary lamellae" in figure.get("keyEn", "")
                 and "opposite directions" in figure.get("keyEn", "")
-                and "no bony operculum" in figure.get("keyEn", "")
+                and "lack the bony operculum" in figure.get("keyEn", "")
                 and len(figure.get("referenceUrls", [])) == 3
                 and not figure.get("sourceUrl"),
                 "septal-gill original image provenance/anatomical key or SVG mismatch"
