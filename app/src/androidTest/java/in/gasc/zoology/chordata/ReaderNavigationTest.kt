@@ -91,23 +91,47 @@ class ReaderNavigationTest {
         }
     }
 
-    /** The gallery uses a small preview without changing the stored original. */
+    /**
+     * The preview must remain bounded, while the pinch-zoom bitmap must be
+     * the exact, unscaled asset in the APK. Artwork is intentionally replaced
+     * during QA: source image dimensions are NOT fixed constants.
+     */
     @Test fun lessonPreviewIsBoundedAndZoomAssetIsFullResolution() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
-        val filename = "frog_arterial_system_en.png"
-        val preview = requireNotNull(decodePlateBitmap(
-            context, "pencil_plates", filename, maxLongestEdgePx = 1200))
-        val original = requireNotNull(decodePlateBitmap(
-            context, "pencil_plates", filename))
-        try {
-            org.junit.Assert.assertTrue(preview.width <= 1200)
-            org.junit.Assert.assertTrue(preview.height <= 1200)
-            org.junit.Assert.assertEquals(1800, original.width)
-            org.junit.Assert.assertEquals(1120, original.height)
-            org.junit.Assert.assertTrue(preview.byteCount < original.byteCount)
-        } finally {
-            preview.recycle()
-            original.recycle()
+        val upgraded = listOf(
+            "frog_arterial_system_en.png",
+            "rana_respiration_en.png",
+            "fish_scale_types.png"
+        )
+        for (filename in upgraded) {
+            val path = "pencil_plates/$filename"
+            val bounds = android.graphics.BitmapFactory.Options().apply {
+                inJustDecodeBounds = true
+            }
+            context.assets.open(path).use { stream ->
+                android.graphics.BitmapFactory.decodeStream(stream, null, bounds)
+            }
+            org.junit.Assert.assertTrue("No bitmap bounds: $path",
+                bounds.outWidth >= 1200 && bounds.outHeight >= 600)
+
+            val preview = requireNotNull(decodePlateBitmap(
+                context, "pencil_plates", filename, maxLongestEdgePx = 1200))
+            val zoom = requireNotNull(decodePlateBitmap(
+                context, "pencil_plates", filename))
+            try {
+                org.junit.Assert.assertTrue("Unbounded preview: $path",
+                    maxOf(preview.width, preview.height) <= 1200)
+                org.junit.Assert.assertEquals("Zoom width was downsampled: $path",
+                    bounds.outWidth, zoom.width)
+                org.junit.Assert.assertEquals("Zoom height was downsampled: $path",
+                    bounds.outHeight, zoom.height)
+                org.junit.Assert.assertTrue("Preview is not smaller than zoom: $path",
+                    preview.width.toLong() * preview.height <
+                        zoom.width.toLong() * zoom.height)
+            } finally {
+                preview.recycle()
+                zoom.recycle()
+            }
         }
     }
 
