@@ -18,3 +18,9 @@ PNG SHA-256: 49d7897c2fe5e413bd49ae6f36ceccc798beca1dc3631be233eb94a72ac7201a
 Image creator: CHORDATA QA — original reference-guided shark dorsal brain reconstruction
 Rights: original QA project illustration; no external copyrighted source figure reproduced.
 Editorial and visual status: PROVISIONAL, not independently accepted. Review label target placement at phone-scale and Tamil textbook terms separately. Production HOLD.
+
+## Committed-image visual screening and exact-source build checkpoint
+
+The committed 1200-pixel preview was inspected after GitHub Actions rendered it. The dorsal brain is continuous from paired olfactory bulbs via tracts to the cerebrum, short diencephalon, partly visible optic tectum, folded cerebellum, corpora restiformia, medulla and spinal cord. Source and image creator remain distinct from authentic Rhizoprionodon specimen photography. Fine print and exact label placements still require high-resolution/phone-scale independent inspection.
+
+The 64-slot source-integrity checks and native Kotlin staging compilation passed on GitHub Actions staging run 42373029096. This documentation-only commit requests an **exact revised-artwork** Android/emulator/QA-APK workflow; no previous Wave 5 APK is evidence for the new brain figure. All academic and physical-device approval remains pending.
