@@ -28,10 +28,10 @@ ID = "u1-agnatha-petromyzon-adult-larva"
 SOURCES = (
     {
         "name": "Adult lamprey",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Lamprey_illustration_side.png",
-        "page": "https://commons.wikimedia.org/wiki/File:Lamprey_illustration_side.png",
-        "size": (3816, 2368), "author": "LadyofHats",
-        "license": "Public domain — released by the illustrator, 2005",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Lamprey_anatomy.png",
+        "page": "https://commons.wikimedia.org/wiki/File:Lamprey_anatomy.png",
+        "size": (3864, 1116), "author": "LadyofHats",
+        "license": "CC0 1.0 — extracted from the public-domain LadyofHats illustration",
     },
     {
         "name": "Ammocoete larva",
@@ -81,10 +81,13 @@ def contain(image, box):
 
 def stage():
     (adult, adult_sha), (larva, larva_sha) = [fetch_image(s) for s in SOURCES]
-    # Remove the unrelated prey fish above the adult. Keep the actual external
-    # lamprey with its dorsal and caudal fins; published label lines are not
-    # used as a replacement for the separate, readable explanatory key.
-    adult = adult.crop((70, 1370, 3650, 2100))
+    # The separately published CC0 anatomy illustration is already extracted
+    # from the prey-fish composite and preserves all the anatomical leaders.
+    # Correct its sole non-standard printed term without covering anatomy:
+    # "buccal tunnel" is replaced by the conventional "buccal funnel".
+    adult_pen = ImageDraw.Draw(adult)
+    adult_pen.rectangle((0, 810, 760, 1000), fill="white")
+    adult_pen.text((76, 833), "Buccal funnel", font=font(61), fill="#161616")
     # The 1886 source also contains a detached mouth detail and typeset text.
     # Isolate the continuous larval body, not that separate inset.
     larva = larva.crop((125, 28, 920, 278))
@@ -124,7 +127,7 @@ def stage():
         sourceUrl=SOURCES[0]["page"], sourceUrls=[s["page"] for s in SOURCES],
         licenseUrl="https://creativecommons.org/publicdomain/mark/1.0/",
         sourceSha256=[adult_sha, larva_sha],
-        modifications=("Adult anatomy region isolated; historic larval body isolated; "
+        modifications=("CC0 standalone adult diagram used; buccal funnel term corrected; "
                        "both placed in a labelled comparison without proportional distortion."),
         keyEn=("A: adult lamprey (generalised external anatomy). B: ammocoete larva "
                "illustrated from L. fluviatilis. Different taxa; not to scale."),
@@ -163,8 +166,8 @@ def stage():
             for s, h in zip(SOURCES, (adult_sha, larva_sha))
         )
         + "\n\n## Alterations\n\n"
-        "Non-lamprey fish removed from the adult illustration; typesetting and "
-        "isolated mouth inset removed from the historical larval illustration. "
+        "Standalone adult-anatomy plate used; its non-standard buccal label "
+        "corrected to buccal funnel. Typesetting and isolated mouth inset removed "
         "Two source drawings were assembled on a new white two-panel teaching "
         "plate. Proportions were preserved within each source; panels are "
         "explicitly not to scale. No museum specimen photographs used.\n\n"
