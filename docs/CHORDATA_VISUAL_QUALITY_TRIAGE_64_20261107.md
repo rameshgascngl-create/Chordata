@@ -1,15 +1,15 @@
 # CHORDATA — 64-figure visual-quality triage (7 November 2026)
 
-**Source baseline:** tested Parker pigeon QA commit `8b1fbc5f50444d837c16da62c098a2b11d638325` (64 registered slots, 68 variants). This triage inspected the source PNG contact sheets at thumbnail scale and the user-supplied physical-device screenshot. It is **NOT** an independent Zoology scientific sign-off or a per-label detailed verification.
+**Source checkpoint:** tested Parker pigeon QA commit `8b1fbc5f50444d837c16da62c098a2b11d638325` (64 registered slots, 68 variants). This triage inspected the source PNG contact sheets at thumbnail scale and the user-supplied physical-device screenshot. It is **NOT** an independent Zoology scientific sign-off or a per-label detailed verification.
 
 **Definitions:** **REPLACE — high** = visually too schematic or unsuitable for the lesson objective; **REPLACE — review** = educational utility, topology, taxon or labelling needs improvements; **RETAIN — verify** = credible source drawing / adequate schematic pending separate scientific, Tamil and physical-device evaluation.
 
 - Initial visual triage: **38 high-priority replacements**, **9 further improvement candidates**, **17 retained provisionally for review**. These are screening priorities, *not* a grading of the scientific correctness of every label.
 - The displayed current figure is derived from the English or shared slot. Tamil alternative assets are retained but the Android gallery intentionally uses English-labelled diagrams in both language modes.
 - No figure is academically approved merely because source rights, SHA-256, Kotlin compilation or emulator navigation pass.
-- **Wave 1** addresses `u1-vertebrata-characters-vertebrate-anatomy`, where an unsatisfactory fish bubble diagram was shown in the user's screenshot. It remains subject to visual/device acceptance.
+- **Wave 1 staged two candidate replacements**: `u1-vertebrata-characters-vertebrate-anatomy` (the image reported by the user) and `u1-general-characters-five-chordate-characters`. This reduces the original 38 high-priority *unstaged* replacements to **36**, but **both replacements still require image legibility, scientific and Tamil editorial acceptance on a physical device**.
 
-| # | Figure ID | Triage | Main visual issue / next action | Source-credited artwork in baseline |
+| # | Figure ID | Triage | Main visual issue / next action | Source-credited at this QA triage checkpoint |
 |---|---|---|---|---|
 | 1 | `u1-cephalochordata-branchiostoma-labelled` | RETAIN — verify | Maintain source attribution; independent anatomical/diagram review pending | Yes |
 | 2 | `u5-flight-adaptations-avian-lung` | RETAIN — verify | Maintain source attribution; independent anatomical/diagram review pending | Yes |
