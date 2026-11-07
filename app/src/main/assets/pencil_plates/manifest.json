@@ -1282,27 +1282,29 @@
       "figure": "avian_flight_muscles",
       "lang": "en",
       "path": "pencil_plates/avian_flight_muscles_en.png",
-      "sha256": "923474ff690b938af73a746c41b5c6d293a50f1f4b1e553a54d192fc9768e1f5",
-      "size": 122373,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "e47d16c0228a5a8f859c855c800e9ae04161176a349d41dc83600ef41f0213d0",
+      "size": 424713,
+      "author": "L. Shyamal (2012), Wing Muscles, color.svg; CHORDATA QA (layout and explanatory key)",
+      "license": "CC BY-SA 2.5 Generic — derived PNG and annotations",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wing_Muscles,_color.svg",
       "referenceUrls": [
         "https://doi.org/10.1016/j.cub.2022.06.079",
         "https://doi.org/10.1111/jzo.13043"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Pectoralis lowers the wing; supracoracoideus tendon elevates it via triosseal canal.",
-      "keyTa": "",
+      "modifications": "Original L. Shyamal CC BY-SA 2.5 SVG converted to RGB PNG at 2720px width with white background; anatomy, English original labels, arrows and muscle geometry unchanged. Separate classroom caption added below source drawing; composite derivative retains CC BY-SA 2.5.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "The pectoralis powers the downstroke. Supracoracoideus contraction lifts the humerus through a tendon redirected around the shoulder/triosseal pulley. Coracoid, furcula, scapula and keel of sternum support flight musculature.",
+      "keyTa": "பெக்டோராலிஸ் தசை இறக்கையின் கீழ்நோக்கிய அசைவுக்கு உதவுகிறது. சுப்ராகோரக்காய்டியஸ் தசையின் தசைநாண் தோள்பகுதியில் திசைமாற்றப்பட்டு இறக்கையை மேலே உயர்த்துகிறது. படத்தினுள் ஆங்கிலப் பெயரிடல் மட்டும் உள்ளது.",
       "scope": "Exact registered lesson section; visual study aid only",
       "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/avian_flight_muscles_en.svg",
       "topicId": "u5-flight-adaptations",
       "page": 2,
       "sectionKey": "muscles-skeleton",
       "learningObjective": "Pectoralis lowers the wing; supracoracoideus tendon elevates it via triosseal canal.",
-      "svgSha256": "b3e7272fce9ad9e680f20b9f09a84658edc82eb6c375e4c2b2a0bdb54d784445"
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "sourceSha256": [
+        "28f7428ea6b4525afaee0a743d6f1cc5006cee0a4ae247101bd213215173eab6"
+      ]
     },
     {
       "diagramId": "u5-bird-migration-flyway-stopovers",
