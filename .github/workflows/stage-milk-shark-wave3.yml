@@ -4,6 +4,7 @@ on:
     branches: ["qa/chordata-milk-shark-taxonomy-fix-20261107"]
     paths:
       - "scripts/stage_ruppell_milk_shark_wave3.py"
+      - "scripts/audit_figure_placement.py"
       - ".github/workflows/stage-milk-shark-wave3.yml"
   workflow_dispatch:
 permissions:
