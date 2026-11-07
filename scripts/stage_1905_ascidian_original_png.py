@@ -22,6 +22,8 @@ BOOK="https://en.wikisource.org/wiki/The_New_International_Encyclop%C3%A6dia/Asc
 BIOLOGY="https://pmc.ncbi.nlm.nih.gov/articles/PMC7288498/"
 AUTHOR="Unknown illustrator, The New International Encyclopaedia (1905), Vol. 2; historical plate"
 OLD_SHA="abb83d6c457ce293edc3a59652e5ff8d2fdf084e8dd3acf70daa93dca4df4ce3"
+SOURCE_SHA1="7422e81e0c48f39abcddd87b3b979ac7a12b2b4f"
+SOURCE_SHA256="af4f986941cd3b9f65452bde00ef6974e2ce425c01e2d7a988f44986f01dfa00"
 
 def main():
     with urlopen(Request(SOURCE,headers={
@@ -35,6 +37,8 @@ def main():
         raise ValueError(f"Historic original image does not meet genuine-PNG source requirement: {img.format} {img.size} {len(raw)}")
     src_sha1=hashlib.sha1(raw).hexdigest()
     src_sha256=hashlib.sha256(raw).hexdigest()
+    if src_sha1 != SOURCE_SHA1 or src_sha256 != SOURCE_SHA256:
+        raise ValueError("Unmodified historical source PNG hash changed; refuse substitution")
     manifest=json.loads(MANIFEST.read_text(encoding="utf-8"))
     match=[x for x in manifest["figures"] if x["diagramId"]==ID and x["lang"]=="shared"]
     if len(match)!=1 or match[0]["path"]!="pencil_plates/ascidia_metamorphosis.png":
