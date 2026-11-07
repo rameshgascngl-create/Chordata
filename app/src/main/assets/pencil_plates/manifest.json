@@ -169,13 +169,33 @@
       "figure": "ascidia_metamorphosis",
       "lang": "shared",
       "path": "pencil_plates/ascidia_metamorphosis.png",
-      "size": 17464,
-      "sha256": "abb83d6c457ce293edc3a59652e5ff8d2fdf084e8dd3acf70daa93dca4df4ce3",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 1588328,
+      "sha256": "af4f986941cd3b9f65452bde00ef6974e2ce425c01e2d7a988f44986f01dfa00",
+      "author": "Unknown illustrator, The New International Encyclopaedia (1905), Vol. 2; historical plate",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Left to right: swimming tadpole larva → attachment and metamorphosis → sessile adult body plan. 1 Adhesive papillae · 2 Tail notochord · 3 Anterior attachment · 4 Tail resorption · 5 Oral siphon (water in) · 6 Atrial siphon (water out) · 7 Attached base.",
-      "keyTa": "இடமிருந்து வலமாக: நீந்தும் தலைப்பிரட்டை இளம் உயிரி → பற்றிக்கொள்ளுதலும் உருமாற்றமும் → நிலையாகப் பற்றிய முதிருயிரியின் உடலமைப்பு. 1 பற்றிக்கொள்ளும் குமிழ்கள் · 2 வாலின் முதுகுநாண் · 3 முன்முனையால் பற்றிக்கொள்ளுதல் · 4 வால் உட்கவரப்படுதல் · 5 வாய் நீர்க்குழல் (நீர் உள்ளே) · 6 ஏட்ரியல் நீர்க்குழல் (நீர் வெளியே) · 7 பற்றிய அடிப்பகுதி.",
-      "referenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7288498/"
+      "keyEn": "Original 1905 historical plate. Figure 1 = solitary adult ascidian; Figure 3 = internal anatomy of Clavellina; Figure 8a = swimming tadpole larva, 8b = recently attached larva, 8c = older attached stage, 8d = tail section with notochord. Figures 9–10 illustrate BALANOGLOSSUS, not Ascidia. Original historic labels, not a newly drawn or species-specific plate.",
+      "keyTa": "1905 ஆம் ஆண்டு வெளியான அசல் உடற்கூறியல் விளக்கப்படம். படம் 1: தனித்த அசிடியன் முதிருயிரி; படம் 3: கிளாவெலினாவின் உள்ளமைப்பு; படம் 8a: நீந்தும் தலைப்பிரட்டை இளர்வி; 8b: புதிதாகப் பற்றிய இளர்வி; 8c: வளர்ந்த பற்றிய நிலை; 8d: முதுகுநாண் கொண்ட வாலின் குறுக்குவெட்டு. படங்கள் 9–10 பலனோக்ளாசஸ்; அவை அசிடியன் அல்ல.",
+      "referenceUrl": "https://en.wikisource.org/wiki/The_New_International_Encyclop%C3%A6dia/Ascidian",
+      "license": "Public domain historical encyclopaedia illustration (published 1905); exact original scan",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIE_1905_Ascidians_and_balanoglossus.png",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/NIE_1905_Ascidians_and_balanoglossus.png",
+      "sourceSha1": "7422e81e0c48f39abcddd87b3b979ac7a12b2b4f",
+      "sourceSha256": [
+        "af4f986941cd3b9f65452bde00ef6974e2ce425c01e2d7a988f44986f01dfa00"
+      ],
+      "referenceUrls": [
+        "https://commons.wikimedia.org/wiki/File:NIE_1905_Ascidians_and_balanoglossus.png",
+        "https://en.wikisource.org/wiki/The_New_International_Encyclop%C3%A6dia/Ascidian",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7288498/"
+      ],
+      "modifications": "NONE — existing 1905 plate retained as original PNG bytes; no re-drawing, rasterization, vectorization, crops, overlays, generative AI or upscaling",
+      "sourceKind": "AUTHENTIC_1905_PUBLISHED_PNG_NOT_DRAWN_FOR_APP",
+      "scope": "Historical compound plate: ascidian adult forms (1–7), larval transformation (8a–d); separate Balanoglossus 9–10 is not an ascidian",
+      "visualReview": "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW",
+      "topicId": "u1-urochordata",
+      "page": 3,
+      "sectionKey": "retrogressive-metamorphosis"
     },
     {
       "diagramId": "u1-hemichordata-balanoglossus-external",
