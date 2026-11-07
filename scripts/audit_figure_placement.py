@@ -206,6 +206,17 @@ def main():
                 ,
                 "frog dorsal historical source/rights missing: " + name
             )
+        if (figure["diagramId"] == "u3-rana-arterial-system" and figure.get("sourceUrl")):
+            require(
+                figure["lang"] == "en"
+                and figure["author"].startswith("Alexander Ecker")
+                and figure.get("sourceUrl") == "https://www.gutenberg.org/cache/epub/77560/pg77560-images.html"
+                and figure.get("sourceImageUrl", "").startswith("https://www.gutenberg.org/")
+                and figure.get("license", "").startswith("Public domain")
+                and len(figure.get("sourceSha256", [])) == 1
+                and "Fig. 143" in figure.get("modifications", ""),
+                "Ecker fig. 143 arterial plate attribution or source image missing"
+            )
         if figure["diagramId"] in pencil_ids:
             if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
