@@ -788,27 +788,30 @@
       "figure": "frog_arterial_system",
       "lang": "en",
       "path": "pencil_plates/frog_arterial_system_en.png",
-      "sha256": "45c07af97905d1a764bbc16cd6923e4f0c02c0a0ee5974bb0e0ab9c946a3c05b",
-      "size": 144471,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "899fdfb9b260a20998ec8203e422685e9b42755ce9c94aba74b6106cd4cbb7ed",
+      "size": 474446,
+      "author": "Alexander Ecker, The Anatomy of the Frog (1889), English trans. George Haslam; CHORDATA QA (layout)",
+      "license": "Public domain — illustrated zoological text published 1889",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/77560/pg77560-images.html",
       "referenceUrls": [
         "https://readingroo.ms/7/7/5/6/77560/77560-h/77560-h.htm",
         "https://tnou.ac.in/NAAC/SSR/C1/1.1.5/MZON-P1.pdf"
       ],
-      "modifications": "Rebuilt as original topological schematic with bilateral/compartment relationships; no source images reproduced.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Bilateral carotid, systemic, and pulmocutaneous branches arise from the truncus; the systemic arches join into the dorsal aorta.",
-      "keyTa": "",
+      "modifications": "Isolated historically published Fig. 143, proportionally resized with Lanczos and placed alongside an English key; historical branching ink unchanged.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Carotid, systemic and pulmocutaneous arches in Rana esculenta; exact historical source diagram, not a modern medical protocol.",
+      "keyTa": "ராணா எஸ்குலென்டா: தலைத் தமனி வளைவு, உடல் தமனி வளைவு, நுரையீரல்-தோல் தமனி வளைவு; வரைபடத்தில் ஆங்கிலக் குறியீடுகள்.",
       "scope": "Exact registered lesson section; visual study aid only",
       "visualReview": "SCIENTIFIC_TOPOLOGY_REVISED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/frog_arterial_system_en.svg",
       "topicId": "u3-rana",
       "page": 4,
       "sectionKey": "arterial-system",
       "learningObjective": "Three arterial pairs leave the truncus and supply head, systemic tissues, lungs and skin.",
-      "svgSha256": "3bfd913462417e17c01c09bef69eac51e71315a45bb8cc792795b93adf05ba3b"
+      "licenseUrl": "https://www.gutenberg.org/policy/license.html",
+      "sourceImageUrl": "https://www.gutenberg.org/cache/epub/77560/images/fig_143.jpg",
+      "sourceSha256": [
+        "da91a6de90455f7239bca88e7afff6c92ba164cce3e486ce12822557a6603fec"
+      ]
     },
     {
       "diagramId": "u3-rana-brain",
