@@ -44,21 +44,38 @@ def fetch(url):
 def locate_img(html):
     soup=BeautifulSoup(html,"html.parser")
     candidates=[]
-    for textnode in soup.find_all(string=re.compile(r"Fig[.]?\s*143\b",re.I)):
-        node=textnode.parent
-        for _ in range(4):
-            if node is None: break
-            img=node.find("img")
-            if img and img.get("src"):
-                surrounding=node.get_text(" ",strip=True)
-                if "arterial system" in surrounding.lower() and "esculenta" in surrounding.lower():
-                    candidates.append((img.get("src"),surrounding[:240]))
+    # Gutenberg often places figure identifiers on anchors before the image,
+    # with the caption *outside* the same div. Prefer exact fig-143 anchors.
+    for tag in soup.find_all(True):
+        name=str(tag.get("id",""))+" "+str(tag.get("name",""))
+        if re.search(r"(?:fig|figure|i[_-]?)\s*[_-]?\s*143\b",name,re.I):
+            block=tag
+            for _ in range(3):
+                if block is None: break
+                img=block.find("img")
+                if img and img.get("src"):
+                    candidates.append(img.get("src"))
                     break
-            node=node.parent
+                block=block.parent
+            else:
+                img=tag.find_next("img") or tag.find_previous("img")
+                if img and img.get("src"): candidates.append(img.get("src"))
+    # If no HTML ID matches, use a fig-caption adjacent image, not the TOC.
+    if not candidates:
+        for t in soup.find_all(string=lambda x: x and
+                               "Schema of the arterial system" in x):
+            img=t.parent.find_previous("img")
+            if img and img.get("src"):
+                candidates.append(img.get("src"))
     candidates=list(dict.fromkeys(candidates))
     if len(candidates)!=1:
-        raise ValueError("Expected exactly one illustration connected to Ecker fig. 143, got "+repr(candidates))
-    return urljoin(PAGE,candidates[0][0]),candidates[0][1]
+        lower=html.lower()
+        offset=lower.rfind("schema of the arterial system")
+        context=html[max(0,offset-1500):offset+1500]
+        raise ValueError(
+            "Could not identify unique Gutenberg fig 143; candidates="
+            +repr(candidates)+"; caption HTML="+repr(context))
+    return urljoin(PAGE,candidates[0]),"Fig. 143: Schema of the arterial system of Rana esculenta."
 
 def font(size,bold=False):
     fn="DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
