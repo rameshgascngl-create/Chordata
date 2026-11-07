@@ -18,3 +18,9 @@ Modifications: JPEG-to-PNG lossless storage conversion, source pixels unchanged 
 Pedagogical limit: this is genuine natural-history exterior artwork of the rock dove, not a modern numbered anatomical line drawing. Some hind-toe detail is partly hidden by the perch. The caption explains the visible features but must not claim that every feature has a leader line.
 
 Independent Zoology/Tamil review, 100/200% phone-scale inspection, and physical-device acceptance PENDING. Production release HOLD.
+
+## Exact committed-artwork QA and visual limitations
+
+This report covers the **committed** 2,726 × 2,029 original Keulemans plate, not a synthetic source image. The source SHA-1 was matched against the Commons record before faithful JPEG-to-PNG conversion. The downloaded source is a legitimate 1873 natural-history exterior of *Columba livia*; however the historic colour plate has **no anatomical leader lines** and the toes/feet are **partly obscured by the rocky perch**. The separate English/Tamil teaching keys identify only visible features and disclose these limits. This is not yet an expert-approved textbook-labelled dissection.
+
+Wave 8 staging, 64-slot integrity and native Kotlin source compilation passed. This documentation-only commit triggers **exact revised-artwork** Android emulator tests and gated QA APK packaging. It does not change previously approved plates or the production branch. Scientific review, Tamil editor check and physical-device zoom remain pending; release remains HOLD.
