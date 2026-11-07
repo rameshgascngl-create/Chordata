@@ -40,7 +40,7 @@ def fetch_svg():
         raise ValueError("Source SVG size outside known range")
     low=raw.lower()
     if b"<svg" not in low[:3000] or any(term in low for term in [
-        b"<!doctype",b"<script",b"javascript:",b"@import",b"http://",b"<foreignobject"
+        b"<!doctype",b"<script",b"javascript:",b"@import",b"<foreignobject"
     ]):
         raise ValueError("Untrusted or unsupported active SVG content")
     return raw
