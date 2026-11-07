@@ -27,7 +27,7 @@ The user explicitly rejected the generated anatomical illustrations as unsuitabl
 ### Sources verified for anatomy and candidate historic reference
 - Gandhinagar Government College *Brain of Elasmobranchs (Scoliodon)* (teaching reference, **not licensed for in-app reproduction**): https://gcwgandhinagar.com/econtent/document/15878893641ZOOTC0201-%20Brain%20%20of%20scoliodon%20%281%29-1.pdf
 - UPRTOU UGZY-104, pp. 54 ff. (undivided cerebrum and Scoliodon structure, **not assumed licensed for reuse**): https://www.uprtou.ac.in/other_pdf/28062025_UGZY_104.pdf
-- Historic original research, *A New Cranial Nerve in Selachians* (1902), Plate V, Figure 9; taxon `Scoliodon terrae-novae` (Atlantic sharpnose; **not milk shark**): https://upload.wikimedia.org/wikipedia/commons/8/82/MBLWHOI_Library_%28IA_markanniversaryv00park%29.pdf
+- Historic original research by W. A. Locy, *A New Cranial Nerve in Selachians* (published 1903), Plate V, Figure 9; taxon `Scoliodon terrae-novae` (Atlantic sharpnose; **not milk shark**): https://upload.wikimedia.org/wikipedia/commons/8/82/MBLWHOI_Library_%28IA_markanniversaryv00park%29.pdf
 - Scoliodon taxon mismatch verified via Harvard MCZ revised identification: https://mczbase.mcz.harvard.edu/guid/MCZ:Ich:35209
 - Comparative neuroanatomy source only: https://anatomypubs.onlinelibrary.wiley.com/doi/full/10.1002/ar.25028
 
