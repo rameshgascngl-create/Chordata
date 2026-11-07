@@ -273,6 +273,34 @@ def main():
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                 "Columba authentic 1873 Keulemans PNG source/species/copyright/format check failed"
             )
+        if (figure["diagramId"] == "u3-rana-external"
+                and figure.get("sourceKind") == "AUTHENTIC_1888_MADRAS_RANA_HEXADACTYLA_PLATE_PNG"):
+            require(
+                figure.get("lang") == "en"
+                and figure.get("author", "").startswith("Edgar Thurston (1888")
+                and figure.get("sourceUrl") == (
+                    "https://commons.wikimedia.org/wiki/File:"
+                    "Catalogue_of_the_Batrachia_Salientia_and_Apoda_"
+                    "(frogs,_toads,_and_c%C2%BFcilians)"
+                    "_of_southern_India_(1888)_(20389957728).jpg"
+                )
+                and figure.get("sourceSha1") == "cfd4ad24cf279b08f99b1552892e5499fe5d99d5"
+                and len(figure.get("sourceSha256", [])) == 1
+                and figure.get("sourceFormat") == "JPEG"
+                and figure.get("installedFormat") == "PNG"
+                and figure.get("license", "").startswith("Public domain")
+                and figure.get("licenseUrl") == "https://www.biodiversitylibrary.org/bibliography/9107"
+                and len(figure.get("referenceUrls", [])) == 3
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256")
+                and "Phrynoderma hexadactylum" in figure.get("scope", "")
+                and "NOT a labelled ventral dissection" in figure.get("scope", "")
+                and "NO modern anatomical leader lines" in figure.get("keyEn", "")
+                and "no artwork newly drawn" in figure.get("modifications", "")
+                and figure.get("visualReview") == "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                "Rana historic 1888 original PNG source, modern taxon or rights check failed"
+            )
         if (figure["diagramId"] == "u2-scoliodon-brain-labelled"
                 and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
             require(
