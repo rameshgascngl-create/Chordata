@@ -141,8 +141,8 @@
       "figure": "shark_gill_flow",
       "lang": "shared",
       "path": "pencil_plates/shark_gill_flow.png",
-      "size": 443489,
-      "sha256": "52b597e3f2bb2d78c1bed8a7944811ecdf13d38756209fedb1636462a976f750",
+      "size": 442559,
+      "sha256": "675f497ab223df417274b8641bfc09b5a40729a4c74e419208bb08794353a90c",
       "author": "CHORDATA QA project — original vector shark septal-gill teaching schematic",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "Shark septal-gill overview: five gill slits, interbranchial septa, gill arches, hemibranchs, primary filaments, secondary lamellae, and conceptual countercurrent exchange. This is not species-specific dissection.",
@@ -161,7 +161,7 @@
       "sectionKey": "respiratory-system",
       "learningObjective": "Identify shark septal gill arches, interbranchial septa, hemibranchs, lamellae and pharynx-to-gill-slit water flow",
       "svgMaster": "docs/original_plate_svg/shark_septal_gills_en.svg",
-      "svgSha256": "51a7ba109bfa8856ed3500778d56be29db57efd97128a09340bcba22c17f0877",
+      "svgSha256": "930f7d9eaa57ab381ea3b20f299c1169b9cb9bda646cd3bb50e2479986a9e2e6",
       "visualReview": "REPLACED_VISUAL_QA_PENDING"
     },
     {

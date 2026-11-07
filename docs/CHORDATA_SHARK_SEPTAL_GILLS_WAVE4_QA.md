@@ -4,8 +4,8 @@ Diagram ID: u2-scoliodon-gills-labelled
 
 This original vector schematic is drawn by the CHORDATA QA project. It is not a copied figure, or a species-specific dissection. The detailed diagram depicts the five external gill slits, persistent interbranchial septa, gill arches, hemibranchs, primary filaments, secondary lamellae, and conceptual water/blood countercurrent flow. It does not map intralamellar microvasculature.
 
-Original SVG SHA-256: 51a7ba109bfa8856ed3500778d56be29db57efd97128a09340bcba22c17f0877
-PNG SHA-256: 52b597e3f2bb2d78c1bed8a7944811ecdf13d38756209fedb1636462a976f750
+Original SVG SHA-256: 930f7d9eaa57ab381ea3b20f299c1169b9cb9bda646cd3bb50e2479986a9e2e6
+PNG SHA-256: 675f497ab223df417274b8641bfc09b5a40729a4c74e419208bb08794353a90c
 
 Anatomical references:
 - https://dlnr.hawaii.gov/sharks/anatomy/gills-respiration/

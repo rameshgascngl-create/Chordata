@@ -130,9 +130,9 @@
 <line x1="304" y1="2064" x2="669" y2="2064" stroke="#1379a3" stroke-width="8" stroke-linecap="round"/>
 <polygon points="669,2064 649.0,2075.4 649.0,2052.6" fill="#1379a3"/>
 <text x="701" y="2078" fill="#1379a3" font-size="26" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Water direction</text>
-<line x1="1160" y1="2141" x2="791" y2="2141" stroke="#bd5363" stroke-width="8" stroke-linecap="round"/>
-<polygon points="791,2141 811.0,2129.6 811.0,2152.4" fill="#bd5363"/>
-<text x="303" y="2146" fill="#bd5363" font-size="27" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Blood in lamellae: countercurrent</text>
+<line x1="1238" y1="2141" x2="927" y2="2141" stroke="#bd5363" stroke-width="8" stroke-linecap="round"/>
+<polygon points="927,2141 947.0,2129.6 947.0,2152.4" fill="#bd5363"/>
+<text x="303" y="2146" fill="#bd5363" font-size="27" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Blood: countercurrent</text>
 <text x="1603" y="1678" fill="#203a4a" font-size="44" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">D  STRUCTURAL READING KEY</text>
 <ellipse cx="1645" cy="1737" rx="27" ry="27" fill="#e3eff4" stroke="#1379a3" stroke-width="3"/>
 <text x="1645" y="1750" fill="#1379a3" font-size="29" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="middle">1</text>
