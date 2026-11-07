@@ -120,13 +120,21 @@
       "figure": "chordate_features",
       "lang": "shared",
       "path": "pencil_plates/chordate_features.png",
-      "size": 13922,
-      "sha256": "380c81825a323e983ac3f9d3e62143fb2d0b87dcbca7d5de2487dab9c224cb03",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 526404,
+      "sha256": "8f0daae6d718061336c6d216c9a5b5ba5eaa0d30e62376c68dc7d286b2bbcaee",
+      "author": "Microvipera (generalised chordate morphology); CHORDATA QA (layout)",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "1 Dorsal hollow nerve cord · 2 Notochord · 3 Pharyngeal slits · 4 Endostyle (homologue of the vertebrate thyroid) · 5 Post-anal tail · 6 Anus",
-      "keyTa": "1 முதுகுப்புறக் குழல் நரம்பு வடம் · 2 முதுகுநாண் · 3 தொண்டைப் பிளவுகள் · 4 எண்டோஸ்டைல் (முதுகெலும்பிகளின் தைராய்டுக்கு ஒத்தமை உறுப்பு) · 5 மலவாய்க்குப் பின்புற வால் · 6 மலவாய்",
-      "referenceUrl": "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+      "keyEn": "Notochord; dorsal hollow nerve cord; pharyngeal slits; endostyle (homologue of thyroid gland); muscular post-anal tail. Characters may be present only in the larva or embryo.",
+      "keyTa": "முதுகுநாண்; முதுகுப்புறக் குழல் நரம்பு வடம்; தொண்டைப் பிளவுகள்; எண்டோஸ்டைல் (தைராய்டு சுரப்பியின் ஒத்தமை உறுப்பு); மலவாய்க்குப் பின்புறத் தசை வால். சில பண்புகள் கரு அல்லது இளவுயிரி நிலையில் மட்டுமே காணப்படலாம்.",
+      "referenceUrl": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "license": "CC0 1.0 — original artwork dedicated to public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:General_chordate_morphology.svg",
+      "sourceSha256": [
+        "ec14565da02733f6f39133a9203f4d23570ec6e20794b2a8726b9d949497c278"
+      ],
+      "modifications": "CC0 2025 vector morphology rendered at 2660px width into offline PNG with proportions and original anatomical mark-up intact; additional standalone five-feature key placed below.",
+      "visualReview": "REPLACED_VISUAL_QA_PENDING"
     },
     {
       "diagramId": "u2-scoliodon-gills-labelled",
