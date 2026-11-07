@@ -1,0 +1,78 @@
+name: CHORDATA Wave 5 — original Scoliodon-type digestive anatomy (isolated QA)
+on:
+  push:
+    branches: ["qa/chordata-digestive-wave5-20261107"]
+    paths:
+      - "scripts/stage_scoliodon_digestive_wave5.py"
+      - "scripts/audit_figure_placement.py"
+      - ".github/workflows/stage-scoliodon-digestive-wave5.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage-and-compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned original SVG rendering packages
+        run: python3 -m pip install CairoSVG==2.7.1 Pillow==11.3.0
+      - name: Generate original shark digestive plate and reset changed-image review
+        run: python3 scripts/stage_scoliodon_digestive_wave5.py
+      - name: Verify 64-slot integrity, attribution and science-review status
+        run: bash scripts/qa_all.sh
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Install verified Android SDK
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile native Kotlin against staged images
+        run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Commit validated gill drawing, source and reviewer ledger
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/scoliodon_digestive_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/original_plate_svg/scoliodon_digestive_anatomy_en.svg
+          git add docs/qa-image-review/scoliodon_digestive_wave5_review.png
+          git add docs/CHORDATA_SCOLIODON_DIGESTIVE_WAVE5_QA.md
+          git add docs/CHORDATA_VISUAL_QUALITY_TRIAGE_64_20261107.md
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace weak shark digestive flowchart with anatomical study plate"
+            git push origin HEAD:qa/chordata-digestive-wave5-20261107
+          else
+            echo "Original digestive system plate already staged"
+          fi
+      - name: Upload QA preview with academic provenance
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Wave5_Shark_Digestive_Visual_Review
+          path: |
+            docs/qa-image-review/scoliodon_digestive_wave5_review.png
+            docs/CHORDATA_SCOLIODON_DIGESTIVE_WAVE5_QA.md
+          if-no-files-found: warn
+          retention-days: 14

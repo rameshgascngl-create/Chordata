@@ -222,7 +222,23 @@ def main():
                     "rabbit urinary plate must preserve male/female distinctions and 1916 rights"
                 )
             else:
-                if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
+                if (figure["diagramId"] == "u2-scoliodon-digestive-labelled"
+                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
+            require(
+                figure["lang"] == "en"
+                and figure["author"] == "CHORDATA QA — original, reference-guided Scoliodon-type digestive anatomy plate"
+                and figure.get("sourceUrl", "") == ""
+                and figure.get("svgMaster") == "docs/original_plate_svg/scoliodon_digestive_anatomy_en.svg"
+                and len(figure.get("svgSha256", "")) == 64
+                and figure.get("size", 0) > 100000
+                and len(figure.get("referenceUrls", [])) == 4
+                and all(term in figure.get("keyEn", "").lower()
+                        for term in ("cardiac", "pyloric", "blind sac", "gallbladder",
+                                     "pancreas", "scroll", "rectal gland", "salt"))
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                "Scoliodon digestive plate missing expected anatomy/rights/SVG/review evidence"
+            )
+        if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
                         and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
                     require(figure["author"] == "CHORDATA QA project — original vector shark septal-gill teaching schematic",
                             "staged shark-gill original art has wrong creator attribution")
