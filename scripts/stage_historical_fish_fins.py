@@ -49,7 +49,7 @@ def main():
     im,source_hash=source()
     # Isolate the numbered fish but retain all 1–19 leader anchors.
     # The original typeset caption remains available from the credited source link.
-    fish=im.crop((27,4,1355,653))
+    fish=im.crop((27,4,1355,570))
     fish=ImageOps.autocontrast(ImageOps.grayscale(fish),cutoff=(2,2)).convert("RGB")
     plate=Image.new("RGB",(3200,1500),"#fffefa")
     d=ImageDraw.Draw(plate)
