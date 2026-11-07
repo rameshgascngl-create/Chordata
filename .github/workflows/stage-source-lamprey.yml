@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/stage-source-lamprey.yml"
       - "scripts/stage_public_domain_lamprey.py"
+      - "scripts/audit_figure_placement.py"
   workflow_dispatch:
 
 permissions:
