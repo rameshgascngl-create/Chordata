@@ -17,6 +17,12 @@ ledger_file=root/"docs/figure-coverage.tsv"
 report_file=root/"docs/CHORDATA_HISTORICAL_ANATOMY_BATCH2_QA.md"
 preview_dir=root/"build/sourced_morphology_qa"
 preview_dir.mkdir(parents=True,exist_ok=True)
+review_dir=root/"docs/qa-image-review"
+review_dir.mkdir(parents=True,exist_ok=True)
+def preview(png_path, outfile, max_side=980):
+    image=Image.open(png_path).convert("RGB")
+    image.thumbnail((max_side,max_side),Image.Resampling.LANCZOS)
+    image.save(review_dir/outfile,format="PNG",optimize=True)
 frog_url="https://upload.wikimedia.org/wikipedia/commons/b/bc/The_biology_of_the_frog_%281927%29_%2820356465586%29.jpg"
 frog_page="https://commons.wikimedia.org/wiki/File:The_biology_of_the_frog_(1927)_(20356465586).jpg"
 
@@ -45,6 +51,7 @@ for diagram, filename, ref_id, old_filename in [
     assert digest(original)==record["sha256"],"Unmodified legacy source required"
     assert original[:8]==bytes.fromhex("89504e470d0a1a0a")
     (assets/"pencil_plates"/filename).write_bytes(original)
+    preview(assets/"pencil_plates"/filename, filename.replace(".png","_review.png"))
     e=get_entry(manifest,diagram,filename)
     e.update(size=len(original),sha256=digest(original),
         author=record["creator"],license=record["license"],
@@ -94,6 +101,7 @@ frog_path=assets/"pencil_plates/frog_brain_dorsal_en.png"
 canvas.save(frog_path,format="PNG",optimize=True)
 data=frog_path.read_bytes()
 (preview_dir/"frog_brain_dorsal_qa.png").write_bytes(data)
+preview(frog_path,"frog_brain_dorsal_review.png")
 e=get_entry(manifest,"u3-rana-brain","frog_brain_dorsal_en.png")
 e.pop("svgMaster",None)
 e.pop("svgSha256",None)
