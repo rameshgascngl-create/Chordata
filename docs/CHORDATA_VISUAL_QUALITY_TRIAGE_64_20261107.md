@@ -80,3 +80,5 @@
 ## Release-control rule
 
 Do not promote any asset to **ACCEPTED** without a biology reviewer, a different Tamil reviewer, exact version SHA, correct owner/licence attribution, full-res legibility, and physical-device examination. Every image replacement must regenerate `docs/FIGURE_REVIEW_REGISTER_64.csv`, run the source/placement suite, then compile and pass Android instrumentation. Production is on **HOLD**.
+
+- **Wave 4 staged (provisional)**: original septal shark gill plate replaced the placeholder u2-scoliodon-gills-labelled. Now 34 of 38 initial high-priority replacement candidates remain unstaged. All figure approvals are pending.

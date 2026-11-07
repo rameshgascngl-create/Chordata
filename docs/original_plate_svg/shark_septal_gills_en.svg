@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="2380" viewBox="0 0 3200 2380">
+<rect x="0" y="0" width="3200" height="2380" rx="0" fill="#fcfaf6" stroke="none" stroke-width="2"/>
+<text x="94" y="120" fill="#203a4a" font-size="75" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">SHARK SEPTAL GILLS — STRUCTURE &amp; WATER FLOW</text>
+<text x="100" y="190" fill="#5b7080" font-size="38" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Requiem-shark model · original explanatory line art · English-labelled</text>
+<rect x="80" y="260" width="1440" height="780" rx="25" fill="white" stroke="#d4dee2" stroke-width="3"/>
+<rect x="1560" y="260" width="1560" height="1290" rx="25" fill="white" stroke="#d4dee2" stroke-width="3"/>
+<rect x="80" y="1080" width="1440" height="1160" rx="25" fill="white" stroke="#d4dee2" stroke-width="3"/>
+<rect x="1560" y="1590" width="1560" height="650" rx="25" fill="white" stroke="#d4dee2" stroke-width="3"/>
+<text x="122" y="337" fill="#203a4a" font-size="43" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">A  HEAD &amp; FIVE EXTERNAL GILL SLITS</text>
+<text x="123" y="396" fill="#5b7080" font-size="30" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Lateral view · simplified, not a dissection</text>
+<path d="M 205 674 C 254 584 410 503 613 478 C 800 459 1012 462 1425 507 L 1471 756 C 1212 751 1111 768 991 805 C 907 814 810 771 706 758 C 510 762 342 730 205 674 Z" fill="#c3d4cf" stroke="#203a4a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 206 674 C 274 641 346 644 387 655 C 441 668 497 678 545 677" fill="none" stroke="#638186" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 272 694 L 457 707" fill="none" stroke="#203a4a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="543" cy="580" rx="35" ry="27" fill="#f5f4ee" stroke="#203a4a" stroke-width="6"/>
+<ellipse cx="545" cy="583" rx="13" ry="13" fill="#203a4a" stroke="none" stroke-width="3"/>
+<path d="M 724 565 Q 702 627 716 700" fill="none" stroke="#203a4a" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 733 573 Q 722 629 725 694" fill="none" stroke="#829ba1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 776 567 Q 754 629 768 702" fill="none" stroke="#203a4a" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 785 575 Q 774 631 777 696" fill="none" stroke="#829ba1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 828 569 Q 806 631 820 704" fill="none" stroke="#203a4a" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 837 577 Q 826 633 829 698" fill="none" stroke="#829ba1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 880 571 Q 858 633 872 706" fill="none" stroke="#203a4a" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 889 579 Q 878 635 881 700" fill="none" stroke="#829ba1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 932 573 Q 910 635 924 708" fill="none" stroke="#203a4a" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 941 581 Q 930 637 933 702" fill="none" stroke="#829ba1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1021 719 Q 1094 785 1134 955 Q 1205 912 1192 829 Q 1172 770 1117 733 Z" fill="#98afb2" stroke="#203a4a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="793" y1="526" x2="800" y2="460" stroke="#203a4a" stroke-width="3" stroke-linecap="round"/>
+<text x="803" y="449" fill="#203a4a" font-size="31" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Five external slits</text>
+<line x1="540" y1="538" x2="514" y2="470" stroke="#203a4a" stroke-width="3" stroke-linecap="round"/>
+<text x="356" y="451" fill="#203a4a" font-size="29" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Lateral eye</text>
+<text x="128" y="991" fill="#5b7080" font-size="31" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Water exits separately; no bony operculum.</text>
+<text x="1600" y="339" fill="#203a4a" font-size="43" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">B  CUTAWAY · ONE GILL POUCH</text>
+<text x="1602" y="393" fill="#5b7080" font-size="29" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Generalised section; adjacent septa form a water chamber</text>
+<rect x="1617" y="477" width="211" height="815" rx="18" fill="#d9eef4" stroke="#9ac6d4" stroke-width="3"/>
+<text x="1723" y="606" fill="#1379a3" font-size="30" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="middle">PHARYNX</text>
+<text x="1723" y="652" fill="#1379a3" font-size="28" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="middle">water enters</text>
+<path d="M 1865 501 Q 1927 573 1917 704 Q 1911 836 1870 1000" fill="none" stroke="#6e888a" stroke-width="35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1915 539 C 2130 483 2465 504 2831 551 L 2881 600 C 2470 571 2130 570 1921 614 Z" fill="#aabfc0" stroke="#203a4a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1915 1032 C 2121 976 2460 988 2835 1033 L 2882 1094 C 2465 1064 2125 1060 1914 1106 Z" fill="#aabfc0" stroke="#203a4a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2881 467 Q 2933 544 2903 639" fill="none" stroke="#92abad" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2903 954 Q 2938 1043 2896 1174" fill="none" stroke="#92abad" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1970 590.0 Q 1985 655.0 1978 720.0" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1970 994.0 Q 1983 936.0 1977 875.0" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2023 586.6 Q 2038 651.6 2031 716.6" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2023 996.0 Q 2036 938.0 2030 877.0" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2076 583.4 Q 2091 648.4 2084 713.4" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2076 997.9 Q 2089 939.9 2083 878.9" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2129 580.4 Q 2144 645.4 2137 710.4" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2129 999.6 Q 2142 941.6 2136 880.6" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2182 577.8 Q 2197 642.8 2190 707.8" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2182 1001.2 Q 2195 943.2 2189 882.2" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2235 575.7 Q 2250 640.7 2243 705.7" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2235 1002.4 Q 2248 944.4 2242 883.4" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2288 574.2 Q 2303 639.2 2296 704.2" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2288 1003.3 Q 2301 945.3 2295 884.3" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2341 573.2 Q 2356 638.2 2349 703.2" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2341 1003.9 Q 2354 945.9 2348 884.9" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2394 573.0 Q 2409 638.0 2402 703.0" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2394 1004.0 Q 2407 946.0 2401 885.0" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2447 573.4 Q 2462 638.4 2455 703.4" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2447 1003.7 Q 2460 945.7 2454 884.7" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2500 574.5 Q 2515 639.5 2508 704.5" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2500 1003.1 Q 2513 945.1 2507 884.1" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2553 576.3 Q 2568 641.3 2561 706.3" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2553 1002.1 Q 2566 944.1 2560 883.1" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2606 578.5 Q 2621 643.5 2614 708.5" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2606 1000.8 Q 2619 942.8 2613 881.8" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2659 581.2 Q 2674 646.2 2667 711.2" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2659 999.2 Q 2672 941.2 2666 880.2" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2712 584.3 Q 2727 649.3 2720 714.3" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2712 997.3 Q 2725 939.3 2719 878.3" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2765 587.6 Q 2780 652.6 2773 717.6" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2765 995.4 Q 2778 937.4 2772 876.4" fill="none" stroke="#c46465" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1820" y1="767" x2="2821" y2="767" stroke="#1379a3" stroke-width="9" stroke-linecap="round"/>
+<polygon points="2821,767 2797.6,780.4 2797.6,753.6" fill="#1379a3"/>
+<line x1="1820" y1="814" x2="2821" y2="814" stroke="#1379a3" stroke-width="9" stroke-linecap="round"/>
+<polygon points="2821,814 2797.6,827.4 2797.6,800.6" fill="#1379a3"/>
+<line x1="1820" y1="861" x2="2821" y2="861" stroke="#1379a3" stroke-width="9" stroke-linecap="round"/>
+<polygon points="2821,861 2797.6,874.4 2797.6,847.6" fill="#1379a3"/>
+<text x="2150" y="467" fill="#203a4a" font-size="32" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Interbranchial septum</text>
+<line x1="2335" y1="475" x2="2380" y2="518" stroke="#5b7080" stroke-width="3" stroke-linecap="round"/>
+<text x="2056" y="1196" fill="#203a4a" font-size="30" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Gill filaments (hemibranchs)</text>
+<line x1="2290" y1="1165" x2="2300" y2="986" stroke="#5b7080" stroke-width="3" stroke-linecap="round"/>
+<text x="1647" y="1373" fill="#203a4a" font-size="30" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Gill arch (cartilage)</text>
+<line x1="1900" y1="1250" x2="1892" y2="1040" stroke="#5b7080" stroke-width="3" stroke-linecap="round"/>
+<text x="2950" y="790" fill="#203a4a" font-size="30" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">GILL</text>
+<text x="2950" y="829" fill="#203a4a" font-size="30" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">SLIT</text>
+<text x="1608" y="1474" fill="#1379a3" font-size="31" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Water: pharynx → filaments/lamellae → external slit</text>
+<text x="1608" y="1519" fill="#5b7080" font-size="28" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Interbranchial septa persist in sharks.</text>
+<text x="123" y="1160" fill="#203a4a" font-size="40" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">C  GILL FILAMENT &amp; SECONDARY LAMELLAE</text>
+<text x="123" y="1218" fill="#5b7080" font-size="29" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Diagrammatic enlargement of vascular gas-exchange surfaces</text>
+<path d="M 268 1670 Q 338 1560 478 1560 L 1208 1572 Q 1293 1578 1310 1632 Q 1242 1712 1100 1723 L 456 1725 Q 327 1728 268 1670 Z" fill="#efb6ad" stroke="#bd5363" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 420 1578 C 386 1508 385 1376 429 1320 C 473 1370 469 1509 437 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 420 1700 C 394 1762 386 1885 428 1928 C 469 1880 468 1763 438 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 471 1578 C 437 1508 436 1376 480 1320 C 524 1370 520 1509 488 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 471 1700 C 445 1762 437 1885 479 1928 C 520 1880 519 1763 489 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 522 1578 C 488 1508 487 1376 531 1320 C 575 1370 571 1509 539 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 522 1700 C 496 1762 488 1885 530 1928 C 571 1880 570 1763 540 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 573 1578 C 539 1508 538 1376 582 1320 C 626 1370 622 1509 590 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 573 1700 C 547 1762 539 1885 581 1928 C 622 1880 621 1763 591 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 624 1578 C 590 1508 589 1376 633 1320 C 677 1370 673 1509 641 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 624 1700 C 598 1762 590 1885 632 1928 C 673 1880 672 1763 642 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 675 1578 C 641 1508 640 1376 684 1320 C 728 1370 724 1509 692 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 675 1700 C 649 1762 641 1885 683 1928 C 724 1880 723 1763 693 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 726 1578 C 692 1508 691 1376 735 1320 C 779 1370 775 1509 743 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 726 1700 C 700 1762 692 1885 734 1928 C 775 1880 774 1763 744 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 777 1578 C 743 1508 742 1376 786 1320 C 830 1370 826 1509 794 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 777 1700 C 751 1762 743 1885 785 1928 C 826 1880 825 1763 795 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 828 1578 C 794 1508 793 1376 837 1320 C 881 1370 877 1509 845 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 828 1700 C 802 1762 794 1885 836 1928 C 877 1880 876 1763 846 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 879 1578 C 845 1508 844 1376 888 1320 C 932 1370 928 1509 896 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 879 1700 C 853 1762 845 1885 887 1928 C 928 1880 927 1763 897 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 930 1578 C 896 1508 895 1376 939 1320 C 983 1370 979 1509 947 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 930 1700 C 904 1762 896 1885 938 1928 C 979 1880 978 1763 948 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 981 1578 C 947 1508 946 1376 990 1320 C 1034 1370 1030 1509 998 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 981 1700 C 955 1762 947 1885 989 1928 C 1030 1880 1029 1763 999 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1032 1578 C 998 1508 997 1376 1041 1320 C 1085 1370 1081 1509 1049 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1032 1700 C 1006 1762 998 1885 1040 1928 C 1081 1880 1080 1763 1050 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1083 1578 C 1049 1508 1048 1376 1092 1320 C 1136 1370 1132 1509 1100 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1083 1700 C 1057 1762 1049 1885 1091 1928 C 1132 1880 1131 1763 1101 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1134 1578 C 1100 1508 1099 1376 1143 1320 C 1187 1370 1183 1509 1151 1584 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1134 1700 C 1108 1762 1100 1885 1142 1928 C 1183 1880 1182 1763 1152 1702 Z" fill="#f8d7cc" stroke="#bd5363" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="273" y1="1286" x2="1288" y2="1286" stroke="#1379a3" stroke-width="12" stroke-linecap="round"/>
+<polygon points="1288,1286 1257.6,1303.4 1257.6,1268.6" fill="#1379a3"/>
+<text x="284" y="1260" fill="#1379a3" font-size="30" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Water over lamellar surfaces</text>
+<text x="130" y="2004" fill="#203a4a" font-size="28" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Secondary lamellae</text>
+<line x1="505" y1="1986" x2="482" y2="1847" stroke="#203a4a" stroke-width="3" stroke-linecap="round"/>
+<text x="784" y="2004" fill="#203a4a" font-size="28" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Primary gill filament</text>
+<line x1="1110" y1="1979" x2="1140" y2="1711" stroke="#203a4a" stroke-width="3" stroke-linecap="round"/>
+<line x1="304" y1="2064" x2="669" y2="2064" stroke="#1379a3" stroke-width="8" stroke-linecap="round"/>
+<polygon points="669,2064 649.0,2075.4 649.0,2052.6" fill="#1379a3"/>
+<text x="701" y="2078" fill="#1379a3" font-size="26" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Water direction</text>
+<line x1="1160" y1="2141" x2="791" y2="2141" stroke="#bd5363" stroke-width="8" stroke-linecap="round"/>
+<polygon points="791,2141 811.0,2129.6 811.0,2152.4" fill="#bd5363"/>
+<text x="303" y="2146" fill="#bd5363" font-size="27" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Blood in lamellae: countercurrent</text>
+<text x="1603" y="1678" fill="#203a4a" font-size="44" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">D  STRUCTURAL READING KEY</text>
+<ellipse cx="1645" cy="1737" rx="27" ry="27" fill="#e3eff4" stroke="#1379a3" stroke-width="3"/>
+<text x="1645" y="1750" fill="#1379a3" font-size="29" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="middle">1</text>
+<text x="1704" y="1737" fill="#203a4a" font-size="34" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Gill arch</text>
+<text x="1704" y="1777" fill="#5b7080" font-size="28" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Cartilaginous support for the branchial apparatus.</text>
+<ellipse cx="1645" cy="1845" rx="27" ry="27" fill="#e3eff4" stroke="#1379a3" stroke-width="3"/>
+<text x="1645" y="1858" fill="#1379a3" font-size="29" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="middle">2</text>
+<text x="1704" y="1845" fill="#203a4a" font-size="34" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Interbranchial septum</text>
+<text x="1704" y="1885" fill="#5b7080" font-size="28" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Partition between adjacent branchial pouches.</text>
+<ellipse cx="1645" cy="1953" rx="27" ry="27" fill="#e3eff4" stroke="#1379a3" stroke-width="3"/>
+<text x="1645" y="1966" fill="#1379a3" font-size="29" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="middle">3</text>
+<text x="1704" y="1953" fill="#203a4a" font-size="34" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Hemibranch</text>
+<text x="1704" y="1993" fill="#5b7080" font-size="28" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Filaments on one side of a supporting gill arch.</text>
+<ellipse cx="1645" cy="2061" rx="27" ry="27" fill="#e3eff4" stroke="#1379a3" stroke-width="3"/>
+<text x="1645" y="2074" fill="#1379a3" font-size="29" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="middle">4</text>
+<text x="1704" y="2061" fill="#203a4a" font-size="34" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="start">Secondary lamellae</text>
+<text x="1704" y="2101" fill="#5b7080" font-size="28" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">Thin vascular surfaces for gas exchange.</text>
+<line x1="99" y1="2290" x2="3098" y2="2290" stroke="#d4dee2" stroke-width="3" stroke-linecap="round"/>
+<text x="107" y="2331" fill="#5b7080" font-size="27" font-family="DejaVu Sans, sans-serif" font-weight="400" text-anchor="start">ORIGINAL QA SCHEMATIC · not a specimen dissection or species-specific micrograph</text>
+<text x="3095" y="2331" fill="#5b7080" font-size="25" font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="end">u2-scoliodon-gills-labelled</text>
+</svg>
