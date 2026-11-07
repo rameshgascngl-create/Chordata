@@ -204,13 +204,20 @@
       "figure": "fish_scale_types",
       "lang": "shared",
       "path": "pencil_plates/fish_scale_types.png",
-      "size": 16180,
-      "sha256": "3eea7116ee8bc7f71dce394eeaa888ffe76dd5252cc64eac76690f524c25099a",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 1797043,
+      "sha256": "23043a42c60facb16479fc9da9d0d4d1faa7d2034fcd3322006b5cc8820dad02",
+      "author": "Jon Houseman (ganoid/cycloid/ctenoid); CHORDATA QA (original placoid section and layout)",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "1 Placoid: tooth-like denticle with a basal plate (side view). 2 Ganoid: thick, rhombic scale. 3 Cycloid: growth rings and a smooth posterior edge. 4 Ctenoid: comb-like projections (ctenii) along the posterior edge. Schematics are not to scale.",
-      "keyTa": "1 பிளாக்காய்டு: அடித்தட்டுடன் கூடிய பல் போன்ற செதில் (பக்கவாட்டுத் தோற்றம்). 2 கேனாய்டு: தடித்த சாய்சதுரச் செதில். 3 சைக்ளாய்டு: வளர்ச்சி வளையங்களும் வழுவழுப்பான பின்விளிம்பும். 4 டீனாய்டு: பின்விளிம்பில் சீப்புப் பற்கள் போன்ற நீட்சிகள். படங்கள் அளவுப்படி வரையப்படவில்லை.",
-      "referenceUrl": "https://govtmuseumchennai.org/uploads/topics/16528792835642.pdf"
+      "keyEn": "D Placoid: basal plate, dentine, pulp cavity and enameloid cap (original schematic, lateral section). A Ganoid: rhomboid interlocking scales. B Cycloid: smooth posterior edge. C Ctenoid: comb-like posterior projections. Not to scale.",
+      "keyTa": "D பிளாக்காய்டு: அடித்தட்டு, டென்டின், கூழ்க்குழி, எனாமலாய்டு மேலுறை. A கேனாய்டு; B சைக்ளாய்டு (வழுவழுப்பான பின்விளிம்பு); C டீனாய்டு (சீப்புப் பற்கள் போன்ற நீட்சிகள்). படங்கள் ஒரே அளவுகோலில் வரையப்படவில்லை.",
+      "referenceUrl": "https://govtmuseumchennai.org/uploads/topics/16528792835642.pdf",
+      "license": "CC BY-SA 3.0 Unported — composite derivative, source credited",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishscales.png",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceSha256": [
+        "0f45ad1d6b7cd69b800652215c2f23014f9423079accf952438adc39671ad489"
+      ],
+      "modifications": "Original Jon Houseman scale photograph/engraving panel proportionally upscaled and composed beside new CHORDATA QA placoid denticle section; no original scale letters A–C altered. Entire derivative available under CC BY-SA 3.0."
     },
     {
       "diagramId": "u2-scales-fins-fins-labelled",
