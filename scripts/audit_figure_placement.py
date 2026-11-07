@@ -261,6 +261,18 @@ def main():
                         ("Cutaneous", "Buccopharyngeal", "Pulmonary")),
                 "frog respiratory source or three gas-exchange modes missing"
             )
+        if figure["diagramId"] == "u5-columba-urinogenital" and figure.get("sourceUrl"):
+            require(
+                figure["lang"] == "en"
+                and figure.get("author") == "CHORDATA QA original comparative diagram; George Howard Parker (1928) female pigeon anatomy"
+                and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Creation_by_Evolution_(1928)_p037_reproductive_organs_of_a_female_pigeon.png"
+                and figure.get("license", "").startswith("Public domain")
+                and len(figure.get("sourceSha256", [])) == 1
+                and len(figure.get("originalSvgSha256", "")) == 64
+                and figure.get("sourceCaptionUrl") == "https://en.wikisource.org/wiki/Creation_by_Evolution/Vestigial_Organs"
+                and all(item in figure.get("keyEn", "") for item in ("Male:", "Female:", "O:", "Od:", "V:")),
+                "pigeon male/female source provenance or O/Od/V key missing"
+            )
         if figure["diagramId"] in pencil_ids:
             if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
