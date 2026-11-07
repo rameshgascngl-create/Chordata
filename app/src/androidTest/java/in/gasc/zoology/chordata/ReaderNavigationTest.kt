@@ -19,6 +19,7 @@ import android.graphics.Bitmap
 import android.content.ContentValues
 import android.provider.MediaStore
 import `in`.gasc.zoology.chordata.data.ContentRepository
+import `in`.gasc.zoology.chordata.ui.decodePlateBitmap
 import org.junit.Rule
 import org.junit.Test
 
@@ -40,6 +41,73 @@ class ReaderNavigationTest {
                 org.junit.Assert.assertTrue(bmp.width >= 400 && bmp.height >= 500)
                 bmp.recycle()
             }
+        }
+    }
+
+    /**
+     * Validate the exact assets shipped in the APK, not just the ZIP/source tree.
+     * Decode bounds only to keep peak memory low on API 24 devices.
+     * The scientific-review status must remain provisional.
+     */
+    @Test fun all64ProvisionalPlatesAreBundledAndDecode() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val raw = context.assets.open("pencil_plates/manifest.json")
+            .bufferedReader(Charsets.UTF_8).use { it.readText() }
+        val figures = org.json.JSONObject(raw).getJSONArray("figures")
+        org.junit.Assert.assertTrue(figures.length() >= 64)
+        val ids = mutableSetOf<String>()
+        val languages = mutableMapOf<String, MutableSet<String>>()
+        val variants = mutableSetOf<String>()
+        for (i in 0 until figures.length()) {
+            val entry = figures.getJSONObject(i)
+            val diagramId = entry.getString("diagramId")
+            val language = entry.getString("lang")
+            org.junit.Assert.assertTrue(language in setOf("en", "ta", "shared"))
+            org.junit.Assert.assertTrue("Duplicate figure variant: $diagramId / $language",
+                variants.add("$diagramId:$language"))
+            ids.add(diagramId)
+            languages.getOrPut(diagramId) { mutableSetOf() }.add(language)
+            org.junit.Assert.assertTrue(entry.getString("reviewStatus").startsWith("PROVISIONAL_"))
+            // Decode the *exact* path from the manifest. Deriving a basename would
+            // hide an obsolete or incorrectly nested directory entry.
+            val path = entry.getString("path")
+            org.junit.Assert.assertTrue("Noncanonical asset path: $path",
+                path.startsWith("pencil_plates/") && path.count { it == '/' } == 1 &&
+                    path.substringAfter('/').endsWith(".png"))
+            val options = android.graphics.BitmapFactory.Options().apply { inJustDecodeBounds = true }
+            context.assets.open(path).use { input ->
+                android.graphics.BitmapFactory.decodeStream(input, null, options)
+            }
+            org.junit.Assert.assertTrue("Image too small or invalid: $path",
+                options.outWidth >= 1200 && options.outHeight >= 600)
+        }
+        val pack = ContentRepository.load(context)
+        val requiredIds = pack.topics.flatMap { it.diagramIds }.toSet()
+        org.junit.Assert.assertEquals(64, requiredIds.size)
+        org.junit.Assert.assertEquals(requiredIds, ids)
+        for (id in requiredIds) {
+            org.junit.Assert.assertTrue("No English-labelled plate for: $id",
+                languages[id]?.any { it == "en" || it == "shared" } == true)
+        }
+    }
+
+    /** The gallery uses a small preview without changing the stored original. */
+    @Test fun lessonPreviewIsBoundedAndZoomAssetIsFullResolution() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val filename = "frog_arterial_system_en.png"
+        val preview = requireNotNull(decodePlateBitmap(
+            context, "pencil_plates", filename, maxLongestEdgePx = 1200))
+        val original = requireNotNull(decodePlateBitmap(
+            context, "pencil_plates", filename))
+        try {
+            org.junit.Assert.assertTrue(preview.width <= 1200)
+            org.junit.Assert.assertTrue(preview.height <= 1200)
+            org.junit.Assert.assertEquals(1800, original.width)
+            org.junit.Assert.assertEquals(1120, original.height)
+            org.junit.Assert.assertTrue(preview.byteCount < original.byteCount)
+        } finally {
+            preview.recycle()
+            original.recycle()
         }
     }
 
@@ -67,13 +135,31 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
         rule.onAllNodesWithText("Origin of Chordata").onFirst().assertIsDisplayed()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
         rule.onNodeWithText("Next ›").performClick()
         rule.waitUntil(timeoutMillis = 5_000) {
             runCatching { rule.onNodeWithText("Deuterostome ancestry").isDisplayed() }
                 .getOrDefault(false)
         }
         rule.onNodeWithText("Deuterostome ancestry").assertIsDisplayed()
+    }
+
+    @Test fun scoliodonBrainPlateIsReachableOnItsExactFourthSection() {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        // Overview has four lazy items, whereas each section has five.
+        for (section in 0 until 4) {
+            rule.onNodeWithTag("lesson-reader-list")
+                .performScrollToIndex(if (section == 0) 3 else 4)
+            rule.onNodeWithText("Next ›").performClick()
+        }
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("figure-image-u2-scoliodon-brain-labelled")
+            .assertIsDisplayed().performClick()
+        rule.onNodeWithText("Close").assertIsDisplayed()
+        captureQaScreen("scoliodon-brain-zoom-en-100")
     }
 
     @Test fun canSwitchTamilAndIncreaseTextSize() {
@@ -90,11 +176,11 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
-        rule.onNodeWithTag("figure-image-scoliodon-external").assertDoesNotExist()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
         rule.onNodeWithText("Next ›").performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithTag("figure-image-scoliodon-external").assertIsDisplayed().performClick()
+        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertIsDisplayed().performClick()
         rule.onNodeWithText("Close").assertIsDisplayed()
     }
     /**
@@ -161,13 +247,13 @@ class ReaderNavigationTest {
         rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
-        rule.onNodeWithTag("figure-image-scoliodon-external").assertDoesNotExist()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
         rule.onNodeWithText("அடுத்து ›").performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithTag("figure-image-scoliodon-external").assertIsDisplayed()
+        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertIsDisplayed()
         captureQaScreen("scoliodon-figure-ta-200")
-        rule.onNodeWithTag("figure-image-scoliodon-external").performClick()
+        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").performClick()
         rule.onNodeWithText("மூடுக").assertIsDisplayed()
         captureQaScreen("scoliodon-zoom-ta-200")
     }
@@ -178,7 +264,7 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("lesson-search").performTextInput(search)
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
         rule.onNodeWithTag("figure-image-" + figureId).assertDoesNotExist()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
         rule.onNodeWithText("Next ›").performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
         rule.onNodeWithTag("figure-image-" + figureId).assertIsDisplayed()
@@ -188,11 +274,11 @@ class ReaderNavigationTest {
     }
 
     @Test fun pigeonFigureOnlyAppearsOnExternalMorphologyLesson() {
-        verifyProvisionalExternalFigureLocation("Columba", "columba-external")
+        verifyProvisionalExternalFigureLocation("Columba", "u5-columba-external")
     }
 
     @Test fun rabbitFigureOnlyAppearsOnExternalMorphologyLesson() {
-        verifyProvisionalExternalFigureLocation("Rabbit", "rabbit-external")
+        verifyProvisionalExternalFigureLocation("Rabbit", "u5-rabbit-external")
     }
 
     @Test fun all64FigureSlotsAreMappedToActualSectionsInApk() {

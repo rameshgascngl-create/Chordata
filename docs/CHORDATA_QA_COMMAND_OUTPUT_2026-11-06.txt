@@ -1,0 +1,20 @@
+PASS: reviewed 5-unit Tamil-corrected content SHA-256 cef71d0c6d1e85b60c3c94f84790fbd0e93bd7b90c9891571cd03be9693df0e9
+PASS: 39 topics, 127 sections, 117 quizzes, 64 diagram references, three provisional external figures
+PASS: native-only source; no Internet permission; no backup/cleartext
+PASS: page progression, scroll reset, saved navigation state hooks present
+PASS: 35 PNG files verified across 32/64 lesson slots
+PASS: original bilingual variants retained; new English-labelled variants shared across reading languages
+PASS: 64/64 figure slots have unique exact lesson-page assignments
+PASS: 7/7 legacy PNG assets correctly placed, PNG/hash checked (3 original QA + 4 credited sources)
+PENDING: 0/64 academically approved, 32 pencil slots unfilled
+PASS: 64/64 figure slots have unique exact lesson-page assignments
+PASS: 7/7 PNG image assets correctly placed, PNG/hash checked (3 original QA + 4 credited sources)
+PASS: overview contains no figure slot; bilingual captions exist for all slots
+PENDING: 0/64 academically approved; 32 slots without pencil plates (legacy figure fallback may still exist)
+BY UNIT: {'u1': 8, 'u2': 13, 'u3': 10, 'u4': 12, 'u5': 21}
+PASS: 32/64 distinct lesson slots populated with registered provisional pencil drawings (32 remain)
+PASS: 36 manifest variants; all source files, 1200px sizes, SHA-256, and page/section links validated
+PASS: English diagram labels are used in both English and Tamil reading modes
+HOLD: no scientific approval and no device/emulator acceptance evidenced
+PASS: 24 Kotlin core assertions
+PASS: Android XML files well-formed

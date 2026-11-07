@@ -1,5 +1,7 @@
 package `in`.gasc.zoology.chordata.ui
 
+import android.content.Context
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -23,11 +25,47 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import `in`.gasc.zoology.chordata.domain.ReadingLanguage
 import org.json.JSONArray
+import org.json.JSONObject
+
+/**
+ * A bounded preview decode prevents full-size PNGs being allocated on every lesson
+ * page. The full original is decoded only while the pinch-zoom dialog is open.
+ * This does not resize or modify the bundled PNG artwork.
+ */
+internal fun decodePlateBitmap(
+    context: Context,
+    assetDirectory: String,
+    filename: String,
+    maxLongestEdgePx: Int? = null
+): Bitmap? {
+    val assetPath = "$assetDirectory/$filename"
+    val options = BitmapFactory.Options()
+    if (maxLongestEdgePx != null) {
+        require(maxLongestEdgePx > 0)
+        options.inJustDecodeBounds = true
+        context.assets.open(assetPath).use { input ->
+            BitmapFactory.decodeStream(input, null, options)
+        }
+        if (options.outWidth <= 0 || options.outHeight <= 0) return null
+        var sample = 1
+        while ((options.outWidth / sample > maxLongestEdgePx ||
+                    options.outHeight / sample > maxLongestEdgePx) && sample < 32) {
+            sample *= 2
+        }
+        options.inSampleSize = sample
+        options.inJustDecodeBounds = false
+    }
+    return context.assets.open(assetPath).use { input ->
+        BitmapFactory.decodeStream(input, null, options)
+    }
+}
 
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
-    val sourceUrl: String, val licenceUrl: String, val modifications: String
+    val sourceUrl: String, val licenceUrl: String, val modifications: String,
+    val assetDirectory: String = "figures",
+    val referenceOnly: Boolean = false
 )
 
 private data class DiagramSlot(
@@ -56,6 +94,13 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             }
         }.getOrDefault(emptyList())
     }
+    val pencilPlates = remember(context) {
+        val raw = context.assets.open("pencil_plates/manifest.json")
+            .bufferedReader(Charsets.UTF_8).use { it.readText() }
+        val entries = JSONObject(raw).getJSONArray("figures")
+        (0 until entries.length()).map { entries.getJSONObject(it) }
+            .associateBy { it.getString("diagramId") to it.getString("lang") }
+    }
     val allSlots: List<DiagramSlot>? = remember(context) {
         runCatching {
             val raw = context.assets.open("figure_slots.json")
@@ -79,6 +124,38 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
     val relevant = if (page > 0) plates.filter { it.topicId == topicId && it.page == page }
                    else emptyList()
     val matchingDraftIds = pageSlots.mapNotNull { it.provisionalFigureId }.toSet()
+    val pencilBySlot = pageSlots.mapNotNull { slot ->
+        // English-labeled anatomical plates are intentionally shared across language
+        // modes. The translated lesson narrative and caption remain language-specific.
+        val entry = pencilPlates[slot.id to "en"] ?: pencilPlates[slot.id to "shared"]
+            ?: return@mapNotNull null
+        // Use the registered canonical asset path. Discarding the parent folder
+        // previously concealed 25 incorrect `figures/` manifest entries.
+        val assetPath = entry.getString("path")
+        val assetDirectory = assetPath.substringBefore('/')
+        val filename = assetPath.substringAfter('/')
+        if (assetDirectory != "pencil_plates" || filename.contains('/') ||
+            filename.startsWith('.') || !filename.endsWith(".png")) return@mapNotNull null
+        slot to Plate(
+            id = slot.id, topicId = slot.topicId, page = slot.page,
+            filename = filename,
+            captionEn = listOf(slot.captionEn, entry.optString("keyEn")).filter { it.isNotBlank() }.joinToString("\n"),
+            captionTa = listOf(slot.captionTa, entry.optString("keyTa")).filter { it.isNotBlank() }.joinToString("\n"),
+            author = entry.getString("author"),
+            licence = entry.optString("license", ""),
+            sourceUrl = entry.optString("sourceUrl", "").ifBlank {
+                entry.optJSONArray("referenceUrls")?.optString(0)
+                    ?: entry.optString("referenceUrl", "")
+            },
+            licenceUrl = entry.optString("licenseUrl", ""),
+            modifications = entry.optString("modifications", ""),
+            assetDirectory = assetDirectory,
+            referenceOnly = true
+        )
+    }
+    val replacedIds = pencilBySlot.mapNotNull { it.first.provisionalFigureId }.toSet()
+    val visiblePlates = pencilBySlot.map { it.second } +
+        relevant.filter { it.id in matchingDraftIds && it.id !in replacedIds }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         if (allSlots == null) {
             Text(
@@ -108,19 +185,11 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 modifier = Modifier.testTag("figure-placement-error")
             )
         }
-        relevant.filter { it.id in matchingDraftIds }.forEach { plate ->
-            val untranslatedEnglishPlate = plate.id in setOf(
-                "commons-lancelet-labelled", "commons-bird-respiration"
-            )
-            if (lang == ReadingLanguage.TA && untranslatedEnglishPlate) {
-                Text("இந்த ஆதாரப் படத்தின் தமிழ்ப் பெயரிடப்பட்ட பதிப்பு மதிப்பாய்வில் உள்ளது.",
-                    modifier = Modifier.testTag("tamil-label-review-" + plate.id))
-            } else {
-            val bitmap = remember(context, plate.filename) {
+        visiblePlates.forEach { plate ->
+            val bitmap = remember(context, plate.assetDirectory, plate.filename) {
                 runCatching {
-                    context.assets.open("figures/" + plate.filename).use { stream ->
-                        BitmapFactory.decodeStream(stream)?.asImageBitmap()
-                    }
+                    decodePlateBitmap(context, plate.assetDirectory, plate.filename,
+                        maxLongestEdgePx = 1200)?.asImageBitmap()
                 }.getOrNull()
             }
             if (bitmap == null) {
@@ -133,7 +202,11 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 var zoomed by remember(plate.id) { mutableStateOf(false) }
                 Card(modifier = Modifier.fillMaxWidth().testTag("figure-" + plate.id)) {
                     Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text(if (plate.sourceUrl.isNotEmpty())
+                        Text(if (plate.assetDirectory == "pencil_plates")
+                            (if (lang == ReadingLanguage.TA)
+                                "வரைவுப் படம் · உடற்கூறியல் சரிபார்ப்பு நிலுவையில் உள்ளது"
+                             else "Draft anatomical plate · scientific review pending")
+                            else if (plate.sourceUrl.isNotEmpty())
                             (if (lang == ReadingLanguage.TA)
                                 "பட உரிமையாளர் குறிப்பிடப்பட்ட ஆதாரம் · அறிவியல் ஒப்புதல் நிலுவை"
                              else "Source-credited reference · anatomical approval pending")
@@ -148,28 +221,38 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                         Text(if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
                         Text(
                             if (lang == ReadingLanguage.TA)
-                                "பட உரிமையாளர்: " + plate.author + " · உரிமம்: " + plate.licence
-                            else "Image creator: " + plate.author + " · Licence: " + plate.licence,
+                                "படத்தை உருவாக்கியது: " + plate.author +
+                                    if (plate.licence.isEmpty()) "" else " · உரிமம்: " + plate.licence
+                            else "Image creator: " + plate.author +
+                                    if (plate.licence.isEmpty()) "" else " · Licence: " + plate.licence,
                             style = MaterialTheme.typography.labelSmall
                         )
                         if (plate.sourceUrl.isNotEmpty()) {
                             Text(
-                                if (lang == ReadingLanguage.TA)
-                                    "மூலம்: Wikimedia Commons · PNG மாற்றம்; பட அளவு சரிசெய்தல்"
-                                else "Source: Wikimedia Commons · Changes: " + plate.modifications,
+                                if (plate.referenceOnly)
+                                    if (lang == ReadingLanguage.TA)
+                                        "உடற்கூறியல் தகவல் ஆதாரம்; மூலப் படம் நகலெடுக்கப்படவில்லை."
+                                    else "Anatomical reference only; source image not reproduced."
+                                else if (lang == ReadingLanguage.TA)
+                                    "பட மூலம்: Wikimedia Commons · மாற்றங்கள்: " + plate.modifications
+                                else "Image source: Wikimedia Commons · Changes: " + plate.modifications,
                                 style = MaterialTheme.typography.labelSmall
                             )
                             TextButton(
                                 onClick = { uriHandler.openUri(plate.sourceUrl) },
                                 modifier = Modifier.testTag("figure-source-link-" + plate.id)
                             ) {
-                                Text(if (lang == ReadingLanguage.TA)
+                                Text(if (plate.referenceOnly)
+                                    if (lang == ReadingLanguage.TA) "உடற்கூறியல் ஆதாரம்" else "Anatomical reference"
+                                else if (lang == ReadingLanguage.TA)
                                     "படத்தின் மூலப் பக்கமும் உரிமையாளரும்"
-                                    else "Original image and creator")
+                                else "Original image and creator")
                             }
-                            TextButton(onClick = { uriHandler.openUri(plate.licenceUrl) }) {
-                                Text(if (lang == ReadingLanguage.TA)
-                                    "பயன்பாட்டு உரிம விவரங்கள்" else "Image reuse licence")
+                            if (!plate.referenceOnly && plate.licenceUrl.isNotEmpty()) {
+                                TextButton(onClick = { uriHandler.openUri(plate.licenceUrl) }) {
+                                    Text(if (lang == ReadingLanguage.TA)
+                                        "பயன்பாட்டு உரிம விவரங்கள்" else "Image reuse licence")
+                                }
                             }
                         }
                         Text(if (lang == ReadingLanguage.TA) "பெரிதாக்கப் படத்தைத் தொடுக" else "Tap image to enlarge",
@@ -177,8 +260,15 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     }
                 }
                 if (zoomed) {
-                    var scale by remember(plate.id) { mutableFloatStateOf(1f) }
-                    var offset by remember(plate.id) { mutableStateOf(Offset.Zero) }
+                    // Load the unmodified full-resolution image only inside the dialog.
+                    val fullImage = remember(context, plate.assetDirectory, plate.filename, zoomed) {
+                        runCatching {
+                            decodePlateBitmap(context, plate.assetDirectory, plate.filename)
+                                ?.asImageBitmap()
+                        }.getOrNull()
+                    }
+                    var scale by remember(plate.id, zoomed) { mutableFloatStateOf(1f) }
+                    var offset by remember(plate.id, zoomed) { mutableStateOf(Offset.Zero) }
                     val transforms = rememberTransformableState { zoomChange, panChange, _ ->
                         scale = (scale * zoomChange).coerceIn(1f, 5f)
                         offset = if (scale > 1f) offset + panChange else Offset.Zero
@@ -194,19 +284,26 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 }
                                 Box(Modifier.weight(1f).fillMaxWidth().transformable(transforms),
                                     contentAlignment = Alignment.Center) {
-                                    Image(bitmap, contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
-                                        contentScale = ContentScale.Fit,
-                                        modifier = Modifier.fillMaxSize().graphicsLayer {
-                                            scaleX = scale; scaleY = scale
-                                            translationX = offset.x; translationY = offset.y
-                                        })
+                                    if (fullImage == null) {
+                                        Text(if (lang == ReadingLanguage.TA)
+                                            "முழு அளவிலான படத்தைத் திறக்க இயலவில்லை."
+                                        else "Full-resolution image could not be opened.",
+                                            color = MaterialTheme.colorScheme.error)
+                                    } else {
+                                        Image(fullImage,
+                                            contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
+                                            contentScale = ContentScale.Fit,
+                                            modifier = Modifier.fillMaxSize().graphicsLayer {
+                                                scaleX = scale; scaleY = scale
+                                                translationX = offset.x; translationY = offset.y
+                                            })
+                                    }
                                 }
                                 Text(if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
                             }
                         }
                     }
                 }
-            }
             }
         }
         if (page > 0 && pageSlots.isNotEmpty()) {
@@ -228,8 +325,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     }
                     Text(
                         if (lang == ReadingLanguage.TA)
-                            "தற்காலிகக் கோட்டோவியங்கள் பெயரிடப்பட்ட உடற்கூறியல் வரைபடங்களுக்கு மாற்றாகாது."
-                        else "Provisional outline drawings do not replace labelled anatomical plates.",
+                            "இவை தற்காலிகப் படங்கள்; உடற்கூறியல் அமைப்பு, பெயரிடல், விகிதங்கள் ஆகியவற்றின் துல்லியம் சரிபார்க்கப்பட வேண்டும்."
+                        else "These figures are provisional: morphology, labelling and proportions require scientific verification.",
                         style = MaterialTheme.typography.labelSmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )

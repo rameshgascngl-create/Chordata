@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120"><rect width="1800" height="1120" fill="white"/>
+        <text x="70" y="85" font-family="DejaVu Sans" font-weight="bold" font-size="54" fill="#273944">Scoliodon brain — dorsal view</text>
+        <text x="72" y="130" font-family="DejaVu Sans" font-size="27" fill="#627780">Elasmobranch forebrain, optic regions and prominent cerebellum</text>
+        <line x1="70" y1="154" x2="1728" y2="154" stroke="#346b79" stroke-width="4"/>
+        <path d="M900 192 L900 940" stroke="#d2e0db" stroke-width="2" stroke-dasharray="10 8" fill="none"/>
+        <text x="886" y="198" text-anchor="end" font-family="DejaVu Sans" font-size="20" fill="#627780">ANTERIOR</text>
+        <path d="M900 966 L900 989" stroke="#346b79" stroke-width="4"/><path d="M900 997 l-9 -14 h18 z" fill="#346b79"/>
+        <text x="925" y="991" font-family="DejaVu Sans" font-size="20" fill="#627780">POSTERIOR</text>
+<path d="M852 358 Q855 330 880 320 L920 320 Q944 330 948 358 L940 485 Q901 514 860 485 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M848 360 Q836 313 800 280 L797 250" fill="none" stroke="#273944" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M932 360 Q920 313 1000 280 L1003 250" fill="none" stroke="#273944" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M748 209 Q727 194 708 217 Q694 246 726 266 Q758 273 775 250 Q788 225 748 209 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1052 209 Q1073 194 1092 217 Q1106 246 1074 266 Q1042 273 1025 250 Q1012 225 1052 209 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="726" y1="235" x2="780" y2="249" stroke="#627780" stroke-width="2" stroke-linecap="round"/>
+<line x1="1074" y1="235" x2="1020" y2="249" stroke="#627780" stroke-width="2" stroke-linecap="round"/>
+<ellipse cx="821" cy="545" rx="70" ry="60" fill="#d2e0db" stroke="#273944" stroke-width="4"/>
+<ellipse cx="979" cy="545" rx="70" ry="60" fill="#d2e0db" stroke="#273944" stroke-width="4"/>
+<path d="M856 474 Q900 443 943 474 L965 527 Q965 568 949 595 Q970 636 959 686 Q954 738 900 773 Q846 738 841 686 Q830 636 851 595 Q835 565 835 527 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="900" y1="497" x2="900" y2="755" stroke="#627780" stroke-width="2" stroke-linecap="round"/>
+<path d="M848 582 Q900 599 952 582" fill="none" stroke="#273944" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M848 657 Q900 674 952 657" fill="none" stroke="#273944" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M853 760 Q900 782 947 760 Q958 814 932 883 L920 927 L880 927 L868 883 Q842 814 853 760 Z" fill="#f0f4f1" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M892 783 L900 848 L908 783" fill="none" stroke="#273944" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M882 920 L881 973 Q900 984 919 973 L918 920" fill="#f0f4f1" stroke="#273944" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98" y="240" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Olfactory lobes</text>
+<line x1="583" y1="232" x2="670" y2="232" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="232" x2="738" y2="236" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="738" cy="236" r="5" fill="#346b79"/>
+<text x="98" y="360" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Olfactory peduncles</text>
+<line x1="583" y1="352" x2="670" y2="352" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="352" x2="826" y2="298" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="826" cy="298" r="5" fill="#346b79"/>
+<text x="98" y="475" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Cerebrum</text>
+<line x1="583" y1="467" x2="670" y2="467" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="467" x2="900" y2="419" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="900" cy="419" r="5" fill="#346b79"/>
+<text x="98" y="600" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Optic lobes (partly exposed)</text>
+<line x1="583" y1="592" x2="670" y2="592" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="592" x2="797" y2="539" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="797" cy="539" r="5" fill="#346b79"/>
+<text x="1275" y="606" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Cerebellum (enlarged)</text>
+<line x1="1250" y1="598" x2="1220" y2="598" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="598" x2="932" y2="665" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="932" cy="665" r="5" fill="#346b79"/>
+<text x="1275" y="790" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Medulla oblongata</text>
+<line x1="1250" y1="782" x2="1220" y2="782" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="782" x2="922" y2="844" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="922" cy="844" r="5" fill="#346b79"/>
+<text x="1275" y="923" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Spinal cord</text>
+<line x1="1250" y1="915" x2="1220" y2="915" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="915" x2="912" y2="954" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="912" cy="954" r="5" fill="#346b79"/>
+<text x="70" y="1050" font-family="DejaVu Sans" font-size="23" fill="#627780">Large olfactory organs and cerebellum distinguish this shark diagram from amphibian and reptile brains.</text><text x="70" y="1082" font-family="DejaVu Sans" font-size="19" fill="#627780">ORIGINAL EDUCATIONAL SCHEMATIC · NOT TO SCALE · SCIENTIFIC REVIEW PENDING</text></svg>

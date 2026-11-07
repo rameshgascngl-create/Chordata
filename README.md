@@ -13,12 +13,14 @@ This is a **genuinely native Kotlin/Jetpack Compose application**. It does not u
 - Unit V Aves and Mammalia: 11 topics
 - **Total: 39 topics, 127 bilingual sections, 117 explanatory MCQs, 64 figure IDs**.
 
-**The 64 referenced figures are NOT included** because the prior review identified missing asset, attribution, licence and scientific-accuracy decisions. The app explicitly displays a pending-illustration notice instead of presenting a fabricated plate.
+**All 64 registered lesson slots now contain PROVISIONAL offline artwork** (68 language-variant manifest entries referencing 67 distinct pencil-plate PNGs; seven legacy/reference PNGs remain bundled separately). The drawings are not academically certified, and the UI marks them as drafts. Presence/placement is not scientific approval.
+
+**Asset path integrity (7 November 2026):** All 68 pencil-plate variants use canonical `pencil_plates/<filename>.png` paths. The native gallery reads that registered directory directly; it does not silently replace a staging prefix. `scripts/audit_coverage_report.py`, the source audit and the assembled-APK audit reject mismatched paths. The 74 PNGs (67 pencil + seven legacy/reference) and all SVG masters retain their original bytes.
 
 ## Engineering features implemented
 
 - Native Compose Material 3 reader; no HTML/WebView shell.
-- English, Tamil and combined reading modes; custom 100%, 125%, 150%, 200% reading scale.
+- Separate English and Tamil lesson-reading modes; diagram labels intentionally remain in English on both pages, with language-specific captions; custom 100%, 125%, 150%, 200% reading scale.
 - Unit/chapter list, full-text bilingual lesson search, fixed bottom navigation.
 - Chapter **overview → individual sections → quiz**, with Previous/Next and next-chapter progression.
 - Every page change scrolls the lesson back to the top; Android Back returns to the chapter list.
@@ -36,14 +38,16 @@ Based on the published Android/Kotlin documentation as of 5 November 2026:
 - Kotlin Compose Compiler Gradle plugin `2.4.21`
 - Android `compileSdk=37`, `targetSdk=36`, `minSdk=24`
 - JDK 17 minimum
+- Hosted CI explicitly installs `platforms;android-37.0`; an idempotent compatibility guard checks `android.jar` and supplies the `android-37` alias only when missing. This addresses known runner path-resolution problems, not an Android compilation result.
 
 **Important:** The Android SDK, Gradle and Android dependency repositories are not available in this particular container. Consequently, the configuration **has not yet been confirmed by an Android compilation**. Android Studio/CI must resolve/verify the exact AGP/Kotlin/Compose combination and report compiler errors if any; do not treat a successful Kotlin-domain smoke test as a build pass.
 
 ## Test locally with available tooling
 
 ```bash
-python3 scripts/audit_content.py
-bash scripts/run_core_tests.sh
+bash scripts/qa_all.sh  # all 64 mapped figures, provenance, independent-review safeguards, Kotlin core checks
+python3 scripts/write_figure_review_register.py --check  # review-sheet integrity, no write
+python3 scripts/write_figure_review_register.py --release-check  # intentionally FAILS until 64 dual sign-offs
 ```
 
 The original content pack's Node suite is also in the uploaded HTML source project and has been rerun independently (73/73 pass). Native logic smoke tests pass 24 assertions. These do not exercise Android rendering.
@@ -52,11 +56,14 @@ The original content pack's Node suite is also in the uploaded HTML source proje
 
 1. Copy this entire project into a **new, isolated GitHub repository** or branch. Avoid using an INVERTEBRATA/Chordata production branch.
 2. Trigger `.github/workflows/android-qa.yml` using **Actions → Chordata Native QA Debug APK → Run workflow**.
-3. CI installs Android SDK 37, invokes `gradle :app:assembleDebug`, and uploads the `Chordata_Native_QA_Debug` artifact only if compilation succeeds.
-4. The second job runs Android instrumentation tests on an API 35 emulator. Review both jobs and capture screenshot/device evidence before installation or distribution.
-5. If building in Android Studio, use **Gradle 9.3.1** and **JDK 17** with Android SDK 37, then `gradle :app:assembleDebug`. The project omits a local Gradle wrapper because its files could not be generated/verified here. Generate the wrapper in a working Android development environment (`gradle wrapper --gradle-version 9.3.1`) if desired.
+3. CI checks the 64 provisional plates and hashes before compilation and then runs `gradle :app:assembleDebug`.
+4. **New APK gate:** `python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk` opens the assembled APK itself and verifies 80 essential asset members by SHA-256 (74 PNGs and six content/registry/credit files). Its self-test is also run before compilation.
+5. A separate instrumentation job runs on an API 35 emulator, repeats APK asset verification and extracts screenshots. Review compiler logs, instrumented tests and screenshots before considering an APK installable or scientifically approved.
+6. If building in Android Studio, use **Gradle 9.3.1** and **JDK 17** with Android SDK 37, then `gradle :app:assembleDebug`. The project omits a local Gradle wrapper because its files could not be generated/verified here. Generate the wrapper in a working Android development environment (`gradle wrapper --gradle-version 9.3.1`) if desired.
 
-There is **no signed APK** and no production-release certification in this deliverable.
+There is **no newly built APK** and no production-release certification in this deliverable. The source ZIP's PNGs must be transferred *as a complete set* to the QA branch; a partial text-only GitHub update is not a valid build candidate.
+
+**Sign-off integrity:** The 64-row review register now rejects invented/anonymous `ACCEPTED` statuses, missing review notes and the same person accepting both scientific and Tamil columns. Replacing a PNG revokes previous acceptance for that plate. Reviewer acceptance does **not** waive emulator, TalkBack, low-RAM and physical-device checks.
 
 ## Review gates (not waived by passing tests)
 

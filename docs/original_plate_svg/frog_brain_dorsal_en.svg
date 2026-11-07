@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120"><rect width="1800" height="1120" fill="white"/>
+        <text x="70" y="85" font-family="DejaVu Sans" font-weight="bold" font-size="54" fill="#273944">Adult frog brain — dorsal view</text>
+        <text x="72" y="130" font-family="DejaVu Sans" font-size="27" fill="#627780">Distinct paired cerebral hemispheres, large optic lobes and thin cerebellar band</text>
+        <line x1="70" y1="154" x2="1728" y2="154" stroke="#346b79" stroke-width="4"/>
+        <path d="M900 192 L900 940" stroke="#d2e0db" stroke-width="2" stroke-dasharray="10 8" fill="none"/>
+        <text x="886" y="198" text-anchor="end" font-family="DejaVu Sans" font-size="20" fill="#627780">ANTERIOR</text>
+        <path d="M900 966 L900 989" stroke="#346b79" stroke-width="4"/><path d="M900 997 l-9 -14 h18 z" fill="#346b79"/>
+        <text x="925" y="991" font-family="DejaVu Sans" font-size="20" fill="#627780">POSTERIOR</text>
+<path d="M865 287 Q900 260 935 287 L935 311 Q900 330 865 311 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="879" y1="286" x2="861" y2="245" stroke="#273944" stroke-width="5" stroke-linecap="round"/>
+<line x1="921" y1="286" x2="939" y2="245" stroke="#273944" stroke-width="5" stroke-linecap="round"/>
+<path d="M892 332 Q814 320 806 405 Q800 486 877 504 L895 492 Z" fill="#f0f4f1" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M908 332 Q986 320 994 405 Q1000 486 923 504 L905 492 Z" fill="#f0f4f1" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="900" y1="335" x2="900" y2="493" stroke="#627780" stroke-width="2" stroke-linecap="round"/>
+<path d="M879 498 Q900 493 921 498 L930 537 L900 562 L870 537 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="900" cy="520" rx="10" ry="10" fill="#d2e0db" stroke="#273944" stroke-width="3"/>
+<path d="M898 558 Q846 530 794 573 Q757 644 819 695 Q856 721 898 694 Z" fill="#d2e0db" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M902 558 Q954 530 1006 573 Q1043 644 981 695 Q944 721 902 694 Z" fill="#d2e0db" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M825 715 Q900 703 975 715 L971 738 Q900 758 829 738 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M831 744 Q900 758 969 744 Q987 797 960 854 Q935 909 916 925 L884 925 Q865 909 840 854 Q813 797 831 744 Z" fill="#f0f4f1" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M857 771 Q900 798 943 771 L934 857 Q900 882 866 857 Z" fill="none" stroke="#273944" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M883 920 L884 967 Q900 974 916 967 L917 920" fill="#f0f4f1" stroke="#273944" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98" y="287" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Olfactory lobes</text>
+<line x1="583" y1="279" x2="670" y2="279" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="279" x2="895" y2="298" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="895" cy="298" r="5" fill="#346b79"/>
+<text x="98" y="425" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Cerebral hemispheres</text>
+<line x1="583" y1="417" x2="670" y2="417" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="417" x2="849" y2="420" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="849" cy="420" r="5" fill="#346b79"/>
+<text x="98" y="536" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Diencephalon / pineal region</text>
+<line x1="583" y1="528" x2="670" y2="528" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="528" x2="900" y2="523" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="900" cy="523" r="5" fill="#346b79"/>
+<text x="1260" y="610" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Optic lobes</text>
+<line x1="1235" y1="602" x2="1220" y2="602" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="602" x2="968" y2="628" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="968" cy="628" r="5" fill="#346b79"/>
+<text x="1260" y="738" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Cerebellum (narrow band)</text>
+<line x1="1235" y1="730" x2="1220" y2="730" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="730" x2="945" y2="728" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="945" cy="728" r="5" fill="#346b79"/>
+<text x="1260" y="846" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Medulla oblongata</text>
+<line x1="1235" y1="838" x2="1220" y2="838" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="838" x2="943" y2="830" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="943" cy="830" r="5" fill="#346b79"/>
+<text x="1260" y="932" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Spinal cord</text>
+<line x1="1235" y1="924" x2="1220" y2="924" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="924" x2="908" y2="949" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="908" cy="949" r="5" fill="#346b79"/>
+<text x="70" y="1050" font-family="DejaVu Sans" font-size="23" fill="#627780">The optic lobes form a conspicuous midbrain pair; the cerebellum is a thin transverse ridge.</text><text x="70" y="1082" font-family="DejaVu Sans" font-size="19" fill="#627780">ORIGINAL EDUCATIONAL SCHEMATIC · NOT TO SCALE · SCIENTIFIC REVIEW PENDING</text></svg>

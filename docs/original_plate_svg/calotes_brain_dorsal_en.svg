@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120"><rect width="1800" height="1120" fill="white"/>
+        <text x="70" y="85" font-family="DejaVu Sans" font-weight="bold" font-size="54" fill="#273944">Calotes brain — dorsal view</text>
+        <text x="72" y="130" font-family="DejaVu Sans" font-size="27" fill="#627780">Reptilian forebrain expansion, optic lobes, cerebellar flap and medulla</text>
+        <line x1="70" y1="154" x2="1728" y2="154" stroke="#346b79" stroke-width="4"/>
+        <path d="M900 192 L900 940" stroke="#d2e0db" stroke-width="2" stroke-dasharray="10 8" fill="none"/>
+        <text x="886" y="198" text-anchor="end" font-family="DejaVu Sans" font-size="20" fill="#627780">ANTERIOR</text>
+        <path d="M900 966 L900 989" stroke="#346b79" stroke-width="4"/><path d="M900 997 l-9 -14 h18 z" fill="#346b79"/>
+        <text x="925" y="991" font-family="DejaVu Sans" font-size="20" fill="#627780">POSTERIOR</text>
+<ellipse cx="862" cy="278" rx="23" ry="38" fill="#e0eae6" stroke="#273944" stroke-width="4"/>
+<ellipse cx="938" cy="278" rx="23" ry="38" fill="#e0eae6" stroke="#273944" stroke-width="4"/>
+<path d="M856 312 Q840 350 837 379" fill="none" stroke="#273944" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M944 312 Q960 350 963 379" fill="none" stroke="#273944" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M884 374 Q814 335 780 399 Q758 457 790 539 Q826 578 887 553 Z" fill="#f0f4f1" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M916 374 Q986 335 1020 399 Q1042 457 1010 539 Q974 578 913 553 Z" fill="#f0f4f1" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="900" y1="371" x2="900" y2="551" stroke="#627780" stroke-width="2" stroke-linecap="round"/>
+<path d="M878 553 Q900 541 922 553 L925 594 Q900 617 875 594 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="900" cy="573" rx="9" ry="10" fill="#d2e0db" stroke="#273944" stroke-width="2"/>
+<path d="M896 607 Q841 575 805 616 Q784 667 824 712 Q855 733 896 712 Z" fill="#d2e0db" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M904 607 Q959 575 995 616 Q1016 667 976 712 Q945 733 904 712 Z" fill="#d2e0db" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M821 728 Q900 694 979 728 L965 751 Q900 735 835 751 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M848 754 Q900 770 952 754 L968 816 Q947 883 917 921 L883 921 Q853 883 832 816 Z" fill="#f0f4f1" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M866 789 Q900 800 934 789" fill="none" stroke="#273944" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M880 915 L882 963 Q900 972 918 963 L920 915" fill="#f0f4f1" stroke="#273944" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="98" y="283" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Olfactory bulbs</text>
+<line x1="583" y1="275" x2="670" y2="275" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="275" x2="862" y2="272" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="862" cy="272" r="5" fill="#346b79"/>
+<text x="98" y="372" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Olfactory peduncles</text>
+<line x1="583" y1="364" x2="670" y2="364" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="364" x2="844" y2="353" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="844" cy="353" r="5" fill="#346b79"/>
+<text x="98" y="479" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Cerebral hemispheres</text>
+<line x1="583" y1="471" x2="670" y2="471" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="471" x2="817" y2="458" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="817" cy="458" r="5" fill="#346b79"/>
+<text x="98" y="578" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Diencephalon / pineal region</text>
+<line x1="583" y1="570" x2="670" y2="570" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="670" y1="570" x2="900" y2="575" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="900" cy="575" r="5" fill="#346b79"/>
+<text x="1260" y="656" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Optic lobes</text>
+<line x1="1235" y1="648" x2="1220" y2="648" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="648" x2="967" y2="669" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="967" cy="669" r="5" fill="#346b79"/>
+<text x="1260" y="755" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Cerebellum (curved flap)</text>
+<line x1="1235" y1="747" x2="1220" y2="747" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="747" x2="936" y2="729" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="936" cy="729" r="5" fill="#346b79"/>
+<text x="1260" y="840" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Medulla oblongata</text>
+<line x1="1235" y1="832" x2="1220" y2="832" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="832" x2="935" y2="834" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="935" cy="834" r="5" fill="#346b79"/>
+<text x="1260" y="925" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Spinal cord</text>
+<line x1="1235" y1="917" x2="1220" y2="917" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<line x1="1220" y1="917" x2="905" y2="952" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
+<circle cx="905" cy="952" r="5" fill="#346b79"/>
+<text x="70" y="1050" font-family="DejaVu Sans" font-size="23" fill="#627780">Expanded paired hemispheres and a curved cerebellar flap contrast with the frog.</text><text x="70" y="1082" font-family="DejaVu Sans" font-size="19" fill="#627780">ORIGINAL EDUCATIONAL SCHEMATIC · NOT TO SCALE · SCIENTIFIC REVIEW PENDING</text></svg>

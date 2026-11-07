@@ -1,0 +1,4 @@
+# Preserve Markdown's deliberate hard line breaks (two trailing spaces).
+*.md whitespace=-blank-at-eol
+# The QA review spreadsheet is CSV with CRLF rows; CR is not trailing whitespace.
+*.csv whitespace=cr-at-eol

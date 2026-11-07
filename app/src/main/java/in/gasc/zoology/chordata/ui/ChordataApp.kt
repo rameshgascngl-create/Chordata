@@ -230,7 +230,7 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
             }
         }
         item {
-            Text(loc(lang, "Three reference illustrations are available in English and Tamil. Additional anatomical plates remain under review.", "மூன்று ஆதார வரைபடங்கள் தமிழ், ஆங்கிலப் பதிப்புகளில் உள்ளன. பிற உடற்கூறியல் படங்கள் சரிபார்ப்பில் உள்ளன."),
+            Text(loc(lang, "All 64 lesson-diagram slots contain provisional illustrations. Scientific review is still pending.", "பாடங்களுக்குரிய 64 வரைபடங்களும் தற்காலிக வடிவில் இணைக்கப்பட்டுள்ளன. அறிவியல் சரிபார்ப்பும் மொழித் திருத்தமும் நிலுவையில் உள்ளன."),
                 style = MaterialTheme.typography.bodySmall, color = mutetext)
             Text(loc(lang, "${bookmarks.size} bookmarked chapters · progress stored on this device", "${bookmarks.size} சேமித்த பாடங்கள் · கற்றல் முன்னேற்றம் இக்கருவியில் சேமிக்கப்படுகிறது"),
                 style = MaterialTheme.typography.bodySmall, color = mutetext)

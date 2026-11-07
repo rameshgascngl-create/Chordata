@@ -98,11 +98,81 @@ def main():
                     "source image lacks licence URL: " + figure["id"])
             require(figure.get("reviewStatus") == "REFERENCE_SOURCE_AWAITING_ACADEMIC_REVIEW",
                     "unreviewed figure misrepresented: " + figure["id"])
-    unit_counts = Counter(s["topicId"].split("-")[0] for s in slots)
+    pencil_dir = ASSETS / "pencil_plates"
+    manifest = read_json("pencil_plates/manifest.json")
+    require(manifest["status"] in ("QA_NOT_ACADEMICALLY_APPROVED", "PROVISIONAL_QA_NOT_ACADEMICALLY_APPROVED"), "pencil plate review status")
+    pencil_ids = {
+        "u1-cephalochordata-branchiostoma-labelled",
+        "u5-flight-adaptations-avian-lung",
+        "u5-columba-endoskeleton",
+        "u5-rabbit-endoskeleton",
+    }
+    shared_ids = {
+        "u5-egg-laying-mammals-monotreme-reproduction",
+        "u5-dentition-tooth-types",
+        "u5-dentition-human-rabbit-dental-formula",
+        "u5-rabbit-excretory-system",
+        "u1-origin-deuterostome-relationships",
+        "u1-vertebrata-classification-vertebrate-phylogeny",
+        "u3-amphibia-classification-life-cycle",
+        "u4-origin-extinct-amniote-phylogeny",
+        "u2-migration-migration-cycle",
+        "u4-skull-temporal-skull-types",
+        "u2-scales-fins-fins-labelled",
+        "u2-scales-fins-scale-types-labelled",
+        "u1-agnatha-petromyzon-adult-larva",
+        "u1-hemichordata-balanoglossus-external",
+        "u1-urochordata-ascidia-larva-adult",
+        "u1-general-characters-five-chordate-characters",
+        "u2-scoliodon-gills-labelled",
+    }
+    pairs = Counter((f["diagramId"], f["lang"]) for f in manifest["figures"])
+    require(all(n == 1 for n in pairs.values()), "duplicate diagram/language pairs")
+    original_required = (Counter((id, lang) for id in pencil_ids for lang in ("en", "ta"))
+                         + Counter((id, "shared") for id in shared_ids))
+    require(all(pairs[k] == n for k, n in original_required.items()),
+            "original validated source plates missing")
+    pending_ids = {slot["id"] for slot in slots if slot["status"] == "PENDING"}
+    filled_ids = {f["diagramId"] for f in manifest["figures"]}
+    require(filled_ids <= pending_ids, "pencil plates falsely academically approved")
+    require(filled_ids == {slot["id"] for slot in slots}, "registered anatomical sketch missing from lesson")
+    require(all("en" in {k[1] for k in pairs if k[0] == id} or
+                "shared" in {k[1] for k in pairs if k[0] == id}
+                for id in filled_ids), "no English/shared figure for a lesson")
+    pencil_names = {Path(f["path"]).name for f in manifest["figures"]}
+    require(pencil_names == {p.name for p in pencil_dir.glob("*.png")},
+            "pencil plate inventory mismatch, including unregistered files")
+    for figure in manifest["figures"]:
+        rel = Path(figure["path"])
+        require(not rel.is_absolute() and len(rel.parts) == 2 and
+                rel.parts[0] == "pencil_plates" and rel.name.endswith(".png"),
+                "noncanonical manifest path: " + figure["path"])
+        name = rel.name
+        raw = (ASSETS / rel).read_bytes()
+        require(raw.startswith(bytes.fromhex("89504e470d0a1a0a")) and len(raw) == figure["size"]
+                and hashlib.sha256(raw).hexdigest() == figure["sha256"],
+                "pencil plate file integrity mismatch: " + name)
+        require(figure["author"] and figure.get("reviewStatus", "").startswith("PROVISIONAL_"),
+                "pencil plate provenance or review status mismatch: " + name)
+        if figure["diagramId"] in shared_ids:
+            require(figure["lang"] == "shared" and
+                    all(figure.get(k) for k in ("keyEn", "keyTa", "referenceUrl")),
+                    "original bilingual numbered key/reference missing: " + name)
+            require(figure["author"] == "Chordata QA project — original numbered schematic",
+                    "original plate creator attribution changed: " + name)
+        if figure["diagramId"] in pencil_ids:
+            require(figure["author"] == "AI-generated original (ChatGPT ImageGen)",
+                    "original ImageGen plate creator attribution changed: " + name)
+        if figure.get("referenceUrls"):
+            require(all(u.startswith("https://") for u in figure["referenceUrls"]),
+                    "bad anatomical reference URL: " + name)
+    print(f"PASS: {len(pencil_names)} PNG files verified across {len(filled_ids)}/64 lesson slots")
+    print("PASS: original bilingual variants retained; new English-labelled variants shared across reading languages")
     print("PASS: 64/64 figure slots have unique exact lesson-page assignments")
-    print("PASS: 7/7 PNG image assets correctly placed, PNG/hash checked (3 original QA + 4 credited sources)")
+    print("PASS: 7/7 legacy PNG assets correctly placed, PNG/hash checked (3 original QA + 4 credited sources)")
+    print(f"PENDING: 0/64 academically approved; {64-len(filled_ids)} pencil slots unfilled")
+    unit_counts = Counter(s["topicId"].split("-")[0] for s in slots)
     print("PASS: overview contains no figure slot; bilingual captions exist for all slots")
-    print("PENDING: 64/64 scientifically approved plates; 57 have no reference image, 7 references unapproved")
     print("BY UNIT:", dict(sorted(unit_counts.items())))
 
 
