@@ -163,7 +163,7 @@ def main():
                         "source plate creator attribution changed: " + name)
                 require(figure.get("license", "").startswith("Public domain") and
                         figure.get("sourceUrls") == [
-                            "https://commons.wikimedia.org/wiki/File:Lamprey_illustration_side.png",
+                            "https://commons.wikimedia.org/wiki/File:Lamprey_anatomy.png",
                             "https://commons.wikimedia.org/wiki/File:FMIB_48179_Larval_Form_of_Petromyzon_branchialis,_Formerly_Known_as_Ammocoetes.jpeg"],
                         "sourced lamprey artwork lacks both original licence/provenance records")
                 require(figure.get("modifications") and len(figure.get("sourceSha256", [])) == 2,
