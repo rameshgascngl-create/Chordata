@@ -36,6 +36,9 @@ jobs:
                       assert str(dest) != "."
                       files.append((item, dest))
               for item, dest in files:
+                  if dest.parts[:2] == (".github", "workflows"):
+                      assert dest.read_bytes() == z.read(item), f"Workflow must be updated separately: {dest}"
+                      continue
                   dest.parent.mkdir(parents=True, exist_ok=True)
                   dest.write_bytes(z.read(item))
               print("Restored", len(files), "files without image conversion")
