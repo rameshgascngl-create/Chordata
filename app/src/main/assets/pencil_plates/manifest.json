@@ -501,21 +501,34 @@
       "figure": "rana_external",
       "lang": "en",
       "path": "pencil_plates/rana_external_en.png",
-      "sha256": "e229ab4b357e88208145c3b91ab0426b4de203455e716e39d32905ea917d303b",
-      "size": 75953,
-      "author": "CHORDATA QA — original computer-assisted anatomical schematic",
-      "license": "Original provisional project artwork; no third-party image reproduced",
-      "sourceUrl": "",
+      "sha256": "14aff74ada05aa6282f383a1de954f2c509939449d84c79b9014f61d62ce2940",
+      "size": 3825028,
+      "author": "Edgar Thurston (1888, editor and publisher of the Madras catalogue); original Plate III lithograph, individual lithographer not securely identified",
+      "license": "Public domain historical Madras lithograph (1888), faithful scanned original; BHL marks book NOT_IN_COPYRIGHT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catalogue_of_the_Batrachia_Salientia_and_Apoda_(frogs,_toads,_and_c%C2%BFcilians)_of_southern_India_(1888)_(20389957728).jpg",
       "referenceUrls": [
-        "https://amphibiansoftheworld.amnh.org/",
-        "https://jnanabhumi.ap.gov.in/Uploads/Materials/Zoology-I.pdf"
+        "https://commons.wikimedia.org/wiki/File:Catalogue_of_the_Batrachia_Salientia_and_Apoda_(frogs,_toads,_and_c%C2%BFcilians)_of_southern_India_(1888)_(20389957728).jpg",
+        "https://www.biodiversitylibrary.org/bibliography/9107",
+        "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Dicroglossidae/Dicroglossinae/Phrynoderma/Phrynoderma-hexadactylum"
       ],
-      "modifications": "Original diagram drawn programmatically with Pillow; English labels; PNG export.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "External nares, tympanum, moist skin, limbs and webbed hind feet; species-specific anatomy remains to be checked.",
-      "keyTa": "",
-      "scope": "Exact lesson section: external-features",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL"
+      "modifications": "Only pixel-preserving JPEG-to-PNG file-format conversion; no artwork newly drawn, AI generated, cropped, labelled, recoloured, traced or upscaled",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Original 1888 Madras Plate III of Rana hexadactyla, now Phrynoderma hexadactylum. Dorsal view of head and trunk, paired protruding eyes, forelimbs with unwebbed fingers, powerful hindlimbs and broad webbed hind feet. This historical plate has NO modern anatomical leader lines; mouth floor and ventral features are not shown.",
+      "keyTa": "1888 ஆம் ஆண்டின் சென்னை வெளியீட்டில் இடம் பெற்ற ரானா ஹெக்சாடாக்டைலா (தற்போதைய பெயர்: ப்ரைனோடெர்மா ஹெக்சாடாக்டைலம்) இனத்தின் அசல் விளக்கப்படம். முதுகுப்புறத் தோற்றத்தில் தலை, உடல், கண்கள், வலிமையான பின்னங்கால்கள் மற்றும் வலைச்சவ்வுள்ள பின்னங்கால் விரல்கள் காட்டப்பட்டுள்ளன. இது குறியீட்டுக் கோடுகள் சேர்க்கப்படாத வரலாற்று ஓவியம்; வயிற்றுப்புற உள்ளமைப்பு காட்டப்படவில்லை.",
+      "scope": "Exact green pond frog type-study species, 1888 Plate III Rana hexadactyla (currently Phrynoderma hexadactylum); dorsal external morphology only, not a labelled ventral dissection",
+      "visualReview": "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW",
+      "licenseUrl": "https://www.biodiversitylibrary.org/bibliography/9107",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Catalogue_of_the_Batrachia_Salientia_and_Apoda_%28frogs%2C_toads%2C_and_c%C2%BFcilians%29_of_southern_India_%281888%29_%2820389957728%29.jpg",
+      "sourceSha1": "cfd4ad24cf279b08f99b1552892e5499fe5d99d5",
+      "sourceSha256": [
+        "6e2c35e99d82a43c9989fe48b39eb0f6f5580717f049e8538217ba3bdc0e019e"
+      ],
+      "sourceFormat": "JPEG",
+      "installedFormat": "PNG",
+      "sourceKind": "AUTHENTIC_1888_MADRAS_RANA_HEXADACTYLA_PLATE_PNG",
+      "topicId": "u3-rana",
+      "page": 1,
+      "sectionKey": "external-features"
     },
     {
       "diagramId": "u3-rana-respiration",
