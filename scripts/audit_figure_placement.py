@@ -250,6 +250,29 @@ def main():
                 else:
                     require(figure["author"] == "Chordata QA project — original numbered schematic",
                             "original plate creator attribution changed: " + name)
+        if (figure["diagramId"] == "u5-columba-external"
+                and figure.get("sourceKind") == "AUTHENTIC_1873_ROCK_PIGEON_ZOOLOGICAL_PLATE_CONVERTED_TO_PNG"):
+            require(
+                figure.get("lang") == "en"
+                and figure.get("author") == "John Gerrard Keulemans (1842–1912); original Columba livia zoological plate (1873)"
+                and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Columba_livia_1873.jpg"
+                and figure.get("sourceImageUrl") == "https://upload.wikimedia.org/wikipedia/commons/6/62/Columba_livia_1873.jpg"
+                and figure.get("sourceSha1") == "d40aa5574cd7a2808cd3701c4bbc9c348df1b77a"
+                and len(figure.get("sourceSha256", [])) == 1
+                and figure.get("sourceFormat") == "JPEG"
+                and figure.get("installedFormat") == "PNG"
+                and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/"
+                and figure.get("license", "").startswith("Public domain")
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256")
+                and len(figure.get("referenceUrls", [])) == 2
+                and "Columba livia" in figure.get("scope", "")
+                and "partly hidden" in figure.get("keyEn", "")
+                and "JPEG-to-PNG" in figure.get("modifications", "")
+                and figure.get("visualReview") == "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                "Columba authentic 1873 Keulemans PNG source/species/copyright/format check failed"
+            )
         if (figure["diagramId"] == "u2-scoliodon-brain-labelled"
                 and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
             require(
