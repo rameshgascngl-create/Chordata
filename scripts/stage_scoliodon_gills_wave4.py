@@ -99,7 +99,7 @@ def draw():
  text(130,2004,"Secondary lamellae",28,True);line(505,1986,482,1847,INK,3)
  text(784,2004,"Primary gill filament",28,True);line(1110,1979,1140,1711,INK,3)
  arrow(304,2064,669,2064,BLUE,8,23);text(701,2078,"Water direction",26,True,BLUE)
- arrow(1160,2141,791,2141,RED,8,23);text(303,2146,"Blood in lamellae: countercurrent",27,True,RED)
+ arrow(1238,2141,927,2141,RED,8,23);text(303,2146,"Blood: countercurrent",27,True,RED)
  # D. Structural reading key.
  text(1603,1678,"D  STRUCTURAL READING KEY",44,True)
  legend=(("1","Gill arch","Cartilaginous support for the branchial apparatus."),
@@ -133,7 +133,7 @@ def main():
  if len(matches)!=1 or matches[0]["path"]!="pencil_plates/shark_gill_flow.png":
   raise ValueError("Gill diagram placement changed")
  entry=matches[0]
- if entry["sha256"] not in (OLD,image_sha):
+ if entry["sha256"] not in (OLD,"52b597e3f2bb2d78c1bed8a7944811ecdf13d38756209fedb1636462a976f750",image_sha):
   raise ValueError("Refusing to overwrite independently modified image")
  entry.update(
   author=AUTHOR,license="Original project illustration — scientific review pending",
@@ -175,10 +175,11 @@ def main():
   "Biology/Tamil independent review and physical-device testing remain pending. "
   "English image labels shared in both reading modes. Production release HOLD.\n",
   encoding="utf-8")
- with TRIAGE.open("a",encoding="utf-8") as f:
-  f.write("\n- **Wave 4 staged (provisional)**: original septal shark gill plate replaced "
-    "the placeholder u2-scoliodon-gills-labelled. Now 34 of 38 initial high-priority "
-    "replacement candidates remain unstaged. All figure approvals are pending.\n")
+ if "Wave 4 staged (provisional)" not in TRIAGE.read_text(encoding="utf-8"):
+  with TRIAGE.open("a",encoding="utf-8") as f:
+   f.write("\n- **Wave 4 staged (provisional)**: original septal shark gill plate replaced "
+     "the placeholder u2-scoliodon-gills-labelled. Now 34 of 38 initial high-priority "
+     "replacement candidates remain unstaged. All figure approvals are pending.\n")
  print("PASS original Scoliodon septal gills",len(raw),"bytes",image_sha)
 
 if __name__=="__main__":main()
