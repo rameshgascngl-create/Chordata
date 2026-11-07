@@ -178,6 +178,10 @@ def stage():
       "https://dlnr.hawaii.gov/sharks/anatomy/gills-respiration/"
     ]
     entry.update(
+        topicId="u2-scoliodon",
+        page=3,
+        sectionKey="respiratory-system",
+        learningObjective="Explain septal-gill anatomy, interbranchial septa, secondary lamellae and pharynx-to-gill-slit water flow.",
         author=author,
         size=len(raw),
         sha256=sha,
