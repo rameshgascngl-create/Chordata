@@ -273,6 +273,17 @@ def main():
                 and all(item in figure.get("keyEn", "") for item in ("Male:", "Female:", "O:", "Od:", "V:")),
                 "pigeon male/female source provenance or O/Od/V key missing"
             )
+        if figure["diagramId"] == "u5-rabbit-brain" and figure.get("sourceUrl"):
+            require(
+                figure["lang"] == "en"
+                and figure.get("author", "").startswith("CHORDATA QA original rabbit lateral schematic; unknown illustrator")
+                and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:PSM_V07_D065_Brain_of_rabbit.jpg"
+                and figure.get("license", "").startswith("Public domain")
+                and len(figure.get("sourceSha256", [])) == 1
+                and figure.get("originalBaselineSha256") == "1a71def6fdaeb113250b345f645b8f7751de5b10ba2343d296eaa9cb23174b48"
+                and all(item in figure.get("keyEn", "") for item in ("1 olfactory", "2 cerebral", "3 cerebellum", "4 spinal", "Lagomorpha")),
+                "rabbit dorsal/lateral original and public-domain historical source not reconciled"
+            )
         if figure["diagramId"] in pencil_ids:
             if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
