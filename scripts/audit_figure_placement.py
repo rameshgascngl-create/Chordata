@@ -222,7 +222,23 @@ def main():
                     "rabbit urinary plate must preserve male/female distinctions and 1916 rights"
                 )
             else:
-                if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
+                if (figure["diagramId"] == "u2-scoliodon-brain-labelled"
+                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
+            require(
+                figure.get("lang") == "en"
+                and figure.get("author") == "CHORDATA QA — original reference-guided shark dorsal brain reconstruction"
+                and figure.get("sourceUrl", "") == ""
+                and figure.get("svgMaster") == "docs/original_plate_svg/shark_brain_dorsal_en.svg"
+                and len(figure.get("svgSha256", "")) == 64
+                and figure.get("scope", "").startswith("Dorsal shark brain")
+                and all(term in figure.get("keyEn", "").lower() for term in
+                        ("olfactory sacs", "bilobed", "optic lobes", "cerebellum",
+                         "restiformia", "spinal cord"))
+                and len(figure.get("referenceUrls", [])) == 4
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                "Wave 6 dorsal brain scientific scope/provenance guard failed"
+            )
+        if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
                         and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
                     require(figure["author"] == "CHORDATA QA project — original vector shark septal-gill teaching schematic",
                             "staged shark-gill original art has wrong creator attribution")

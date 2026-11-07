@@ -1,0 +1,78 @@
+name: CHORDATA Wave 6 — original dorsal shark brain (isolated QA)
+on:
+  push:
+    branches: ["qa/chordata-scoliodon-brain-wave6-20261107"]
+    paths:
+      - "scripts/stage_scoliodon_brain_wave6.py"
+      - "scripts/audit_figure_placement.py"
+      - ".github/workflows/stage-scoliodon-brain-wave6.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage-and-compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned SVG/PIL renderer
+        run: python3 -m pip install CairoSVG==2.7.1 Pillow==11.3.0
+      - name: Draw dorsal brain, record exact provenance and reset image reviews
+        run: python3 scripts/stage_scoliodon_brain_wave6.py
+      - name: Strict audit all 64 figures and their SHA-256
+        run: bash scripts/qa_all.sh
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Install verified Android SDK
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile native Kotlin with proposed brain plate
+        run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Commit staged brain image, SVG, review report and integrity ledger
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/shark_brain_dorsal_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/original_plate_svg/shark_brain_dorsal_en.svg
+          git add docs/qa-image-review/shark_brain_dorsal_wave6_review.png
+          git add docs/CHORDATA_SCOLIODON_BRAIN_WAVE6_QA.md
+          git add docs/CHORDATA_VISUAL_QUALITY_TRIAGE_64_20261107.md
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace schematic Scoliodon brain with original dorsal anatomical reconstruction"
+            git push origin HEAD:qa/chordata-scoliodon-brain-wave6-20261107
+          else
+            echo "Wave 6 brain plate already staged"
+          fi
+      - name: Upload brain-review preview for independent assessment
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: CHORDATA_Wave6_Shark_Brain_Visual_Review
+          path: |
+            docs/qa-image-review/shark_brain_dorsal_wave6_review.png
+            docs/CHORDATA_SCOLIODON_BRAIN_WAVE6_QA.md
+          if-no-files-found: warn
+          retention-days: 14
