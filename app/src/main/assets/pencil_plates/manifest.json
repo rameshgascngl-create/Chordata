@@ -1191,19 +1191,19 @@
       "figure": "pigeon_urinogenital",
       "lang": "en",
       "path": "pencil_plates/pigeon_urinogenital_en.png",
-      "sha256": "8a4e2d7ca5751aba83101f3a667499f8f10e696d4086afd135db1fe14e8cfd33",
-      "size": 151670,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "d979e6762d232e5fdbbb2f31fcee813de505b236c32bb0d602134206f62043c4",
+      "size": 856834,
+      "author": "CHORDATA QA original comparative diagram; George Howard Parker (1928) female pigeon anatomy",
+      "license": "Public domain 1928 female source (Parker died 1955); original QA schematic retained",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Creation_by_Evolution_(1928)_p037_reproductive_organs_of_a_female_pigeon.png",
       "referenceUrls": [
         "https://www.kngac.ac.in/elearning-portal/ec/admin/contents/4_18K1B-CHAZ1_2020120708200484.pdf",
         "https://www.egyankosh.ac.in/bitstream/123456789/16528/1/Unit-9.pdf"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Males: paired testes; females: left ovary and oviduct; normally no urinary bladder.",
-      "keyTa": "",
+      "modifications": "The original male/female diagram was rasterised from its retained SVG master; a public-domain 1928 female pigeon drawing was separately scaled without changing labels, and O/Od/V English key placed outside historical ink; full composite saved as offline PNG.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Male: paired testes and vasa deferentia. Both sexes: paired kidneys and ureters, cloaca; no urinary bladder. Female: functional left ovary and left oviduct. Historical panel O: left ovary; Od: left oviduct; V: vestigial right oviduct.",
+      "keyTa": "ஆண்: இணை விரைகளும் விந்துக்குழாய்களும். பெண்: செயல்படும் இடது அண்டகமும் இடது அண்டநாளமும். இருபாலிலும் இணைச் சிறுநீரகங்களும் சிறுநீர்க்குழாய்களும் கழிவறையும் உள்ளன; சிறுநீர்ப்பை இல்லை. வரலாற்றுப் படத்தில் O இடது அண்டகம், Od இடது அண்டநாளம், V எச்சமான வலது அண்டநாளம்.",
       "scope": "Exact registered lesson section; visual study aid only",
       "visualReview": "SELF_INSPECTED_PROVISIONAL",
       "svgMaster": "docs/original_plate_svg/pigeon_urinogenital_en.svg",
@@ -1211,7 +1211,13 @@
       "page": 3,
       "sectionKey": "urinogenital-system",
       "learningObjective": "Males: paired testes; females: left ovary and oviduct; normally no urinary bladder.",
-      "svgSha256": "4e486701b9e7e3c78e420d55e6ded3ad6e3ffc4585a3602c54b107e4c26b2ea2"
+      "svgSha256": "4e486701b9e7e3c78e420d55e6ded3ad6e3ffc4585a3602c54b107e4c26b2ea2",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceSha256": [
+        "3052ee23c50367d642b2bdf815486b5a944844bb8dff24d7f653c7bf0e520c29"
+      ],
+      "originalSvgSha256": "4e486701b9e7e3c78e420d55e6ded3ad6e3ffc4585a3602c54b107e4c26b2ea2",
+      "sourceCaptionUrl": "https://en.wikisource.org/wiki/Creation_by_Evolution/Vestigial_Organs"
     },
     {
       "diagramId": "u5-columba-sense-organs",
