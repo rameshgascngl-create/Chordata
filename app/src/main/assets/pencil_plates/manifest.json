@@ -322,13 +322,20 @@
       "figure": "rabbit_urinary_tract",
       "lang": "shared",
       "path": "pencil_plates/rabbit_urinary_tract.png",
-      "size": 15168,
-      "sha256": "9363cdaac84b78a97e015c09d570e3c1f20ce1581b2924a74f7e87a953cd23b5",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 904949,
+      "sha256": "1fc63e0ed44b0d41b6cdb71b0dcb103e11680a4228a6d6deee1ead37d48d81f3",
+      "author": "J. Arthur Thomson, Outlines of Zoology (1916), Figs 393/394; original illustrator unidentified; CHORDATA QA layout",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Simplified dorsal projection, head end at top. 1 Left kidney (lower in schematic) · 2 Right kidney (higher in schematic) · 3 Ureter (one on each side) · 4 Urinary bladder · 5 Urethra. Urine flows from each kidney through its ureter to the bladder, then leaves through the urethra.",
-      "keyTa": "எளிமைப்படுத்தப்பட்ட முதுகுப்புறத் தோற்றம். தலைப்பகுதி மேலே. 1 இடது சிறுநீரகம் · 2 வலது சிறுநீரகம் · 3 சிறுநீர்க்குழாய் (ஒவ்வொரு பக்கத்திலும் ஒன்று) · 4 சிறுநீர்ப்பை · 5 சிறுநீர் வெளியேற்றுக் குழாய். ஒவ்வொரு சிறுநீரகத்திலிருந்தும் சிறுநீர்க்குழாய் வழியாகச் சிறுநீர் சிறுநீர்ப்பையை அடைகிறது. பின்னர் வெளியேற்றுக் குழாய் வழியாக வெளியேறுகிறது.",
-      "referenceUrl": "https://www.sunankalijaga.org/prosiding/index.php/icse/article/view/75"
+      "keyEn": "Male: A kidney, U ureter, Bl bladder, Ur urethra. Female: K kidney, U ureter, Bl bladder, Ve vestibule. Other structures in the historical source belong to the reproductive systems and are not urinary organs.",
+      "keyTa": "ஆண் முயல்: A சிறுநீரகம், U சிறுநீர்க்குழாய், Bl சிறுநீர்ப்பை, Ur சிறுநீர்ப்புறக்குழாய். பெண் முயல்: K சிறுநீரகம், U சிறுநீர்க்குழாய், Bl சிறுநீர்ப்பை, Ve முன்கூடம் (சிறுநீர்–இனப்பெருக்க வழி). மற்ற பகுதிகள் இனப்பெருக்க மண்டலத்தைச் சார்ந்தவை.",
+      "referenceUrl": "https://www.sunankalijaga.org/prosiding/index.php/icse/article/view/75",
+      "license": "Public domain — J. Arthur Thomson (died 1933), published 1916",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Image_from_page_743_of_%22Outlines_of_zoology%22_(1916)_(14597351000).jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceSha256": [
+        "6917a4f0f21f0c1e06afca173d2c13038a28b642ae82a097b0ad29792ae4fd0a"
+      ],
+      "modifications": "1916 Figs 393 and 394 separated at centre and proportionally scaled with contrast adjustment; English urinary-system key placed outside the historical ink. Both genders retained. Reproductive structures explicitly labelled as context."
     },
     {
       "diagramId": "u5-dentition-human-rabbit-dental-formula",
