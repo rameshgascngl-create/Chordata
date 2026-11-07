@@ -146,6 +146,8 @@ def main():
     "பிளவுகள், செவுள் வளைவுகள், இடைச்செவுள் தடுப்புகள், செவுள் இழைகள், "
     "இரண்டாம் நிலைச் செவுள் தகடுகள் ஆகியன. வாயுப் பரிமாற்றத்தில் "
     "எதிரோட்டம் நிகழ்கிறது. இது திட்ட விளக்கப்படம் மட்டுமே."),
+  topicId="u2-scoliodon",page=3,sectionKey="respiratory-system",
+  learningObjective="Identify shark septal gill arches, interbranchial septa, hemibranchs, lamellae and pharynx-to-gill-slit water flow",
   svgMaster="docs/original_plate_svg/shark_septal_gills_en.svg",svgSha256=svg_sha,
   size=len(raw),sha256=image_sha,visualReview="REPLACED_VISUAL_QA_PENDING",
   reviewStatus="PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING")
