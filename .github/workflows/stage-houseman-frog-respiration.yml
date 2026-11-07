@@ -1,0 +1,84 @@
+name: Chordata frog three respiratory modes — isolated QA
+on:
+  push:
+    branches: ["qa/chordata-fish-scales-anatomy-20261107"]
+    paths:
+      - ".github/workflows/stage-houseman-frog-respiration.yml"
+      - "scripts/stage_houseman_frog_respiration.py"
+      - "scripts/audit_figure_placement.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install reproducible image-processing dependency
+        run: python -m pip install Pillow==11.3.0
+      - name: Stage cited frog buccal pump and skin exchange figures
+        run: python3 scripts/stage_houseman_frog_respiration.py
+      - name: Validate 64 diagram mappings, source rights, hashes and reviewer records
+        run: bash scripts/qa_all.sh
+      - name: Commit staged figure, attribution and visual-review preview to QA branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/rana_respiration_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_FROG_RESPIRATION_SOURCE_QA.md
+          git add docs/qa-image-review/rana_respiration_review.png
+          if git diff --cached --quiet; then
+            echo "Frog respiratory teaching plate already current"
+          else
+            git diff --cached --stat
+            git commit -m "assets(qa): integrate credited frog respiration with three modes"
+            git push origin HEAD:qa/chordata-fish-scales-anatomy-20261107
+          fi
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Install Android API 37 SDK
+        shell: bash
+        run: |
+          set -e
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile Kotlin and build debug APK
+        run: gradle --no-daemon :app:assembleDebug
+      - name: Check packaged figure hashes against QA source
+        run: python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
+      - name: Publish inspectable Android QA APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Frog_Respiration_QA_APK
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
+      - name: Preserve visual review and attribution
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Frog_Respiration_Illustration_Review
+          path: |
+            docs/qa-image-review/rana_respiration_review.png
+            docs/CHORDATA_FROG_RESPIRATION_SOURCE_QA.md
+          if-no-files-found: warn
+          retention-days: 14
