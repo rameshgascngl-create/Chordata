@@ -285,6 +285,22 @@ def main():
                 and all(item in figure.get("keyEn", "") for item in ("Male:", "Female:", "O:", "Od:", "V:")),
                 "pigeon male/female source provenance or O/Od/V key missing"
             )
+        if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
+                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
+            require(
+                figure["lang"] == "shared"
+                and figure["author"] == "CHORDATA QA project — original vector shark septal-gill teaching schematic"
+                and figure.get("sourceUrl", "") == ""
+                and figure.get("svgMaster") == "docs/original_plate_svg/shark_septal_gills_en.svg"
+                and len(figure.get("svgSha256", "")) == 64
+                and all(term in figure.get("keyEn", "").lower()
+                        for term in ("interbranchial septa", "hemibranchs",
+                                     "secondary lamellae", "countercurrent"))
+                and len(figure.get("referenceUrls", [])) == 3
+                and all(u.startswith("https://") for u in figure.get("referenceUrls", []))
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                "original septal-gill plate lacks correct anatomy, SVG, references, or draft status"
+            )
         if (figure["diagramId"] == "u2-scoliodon-external-labelled"
                 and figure.get("sourceUrl")):
             # Guard against the previous scientific error: the historically
