@@ -55,16 +55,16 @@ assert 'fun all64FigureSlotsAreMappedToActualSectionsInApk()' in test_text
 assert 'fun scoliodonBrainPlateIsReachableOnItsExactFourthSection()' in test_text
 assert 'captureQaScreen("scoliodon-brain-zoom-en-100")' in test_text
 
-# Confirm that all three remote jobs fail before building an APK if any figure
-# asset, source hash or lesson mapping disappears.
-assert workflow.count('python3 scripts/audit_pencil_coverage.py') == 3
-assert workflow.count('python3 scripts/audit_coverage_report.py') == 3
-assert workflow.count('python3 scripts/audit_figure_placement.py') == 3
+# Confirm that all four remote jobs audit image source integrity before QA
+# publication; the fourth job is gated on compilation AND instrumentation.
+assert workflow.count('python3 scripts/audit_pencil_coverage.py') == 4
+assert workflow.count('python3 scripts/audit_coverage_report.py') == 4
+assert workflow.count('python3 scripts/audit_figure_placement.py') == 4
 assert 'python3 scripts/audit_android_qa_contract.py' in workflow
 assert 'python3 scripts/write_figure_review_register.py --check' in workflow
 assert 'python3 scripts/test_review_signoff_guards.py' in workflow
 assert 'app/src/main/assets/pencil_plates/' in workflow
-assert workflow.count('bash scripts/verify_sdk37_platform.sh') == 2, 'SDK37 compatibility gate missing from Android jobs'
+assert workflow.count('bash scripts/verify_sdk37_platform.sh') == 3, 'SDK37 compatibility gate missing from compile, emulator or gated publication'
 assert 'python3 scripts/test_sdk37_platform.py' in workflow
 assert 'python3 "$ROOT/scripts/test_sdk37_platform.py"' in qa_script
 assert 'context.assets.open(path)' in test_text, 'Instrumented tests must decode exact manifest path'
@@ -75,10 +75,15 @@ assert 'scripts/test_apk_source_fixture.py' in qa_script
 assert workflow.count('python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk') == 2
 assert 'scripts/audit_built_apk_assets.py" --self-test' in qa_script
 assert 'All 64 lesson-diagram slots contain provisional illustrations' in (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
+assert 'needs: [prepare-figures, native-qa, android-instrumentation]' in workflow, 'APK publication must depend on BOTH compilation and emulator instrumentation'
+assert "needs.native-qa.result == 'success' && needs.android-instrumentation.result == 'success'" in workflow, 'Final published APK must use explicit success gates'
+assert workflow.index('publish-tested-qa-apk:') > workflow.index('android-instrumentation:'), 'Final publication must occur after instrumentation job'
+assert 'Chordata_Parker_Pigeon_Tested_QA_APK' in workflow, 'Final QA artifact name missing'
+assert 'name: Chordata_Native_QA_Debug' not in workflow, 'Premature ungated APK upload still present'
 assert ':app:assembleDebug' in workflow
 assert ':app:connectedDebugAndroidTest' in workflow
 assert 'retention-days:' in workflow
 print('PASS: native QA contract — 64 slot IDs, 68 figure variants, actual Compose tags and screenshot test')
 print('PASS: English-labelled drawings shared across both languages; no stale literal figure selectors')
-print('PASS: all three CI jobs audit the full assets before compilation/emulation')
+print('PASS: four CI jobs audit the full assets; tested QA APK only published after emulator success')
 print('NOTE: static QA only; Android compilation and emulator results not certified')
