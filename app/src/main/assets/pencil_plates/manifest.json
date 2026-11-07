@@ -138,25 +138,25 @@
       "figure": "lamprey_adult_ammocoete",
       "lang": "shared",
       "path": "pencil_plates/lamprey_adult_ammocoete.png",
-      "size": 888136,
-      "sha256": "64b7f3c0064ef9257ce3a0607ec803b6469047d87cdbe7c634a01108845f5ecb",
+      "size": 834095,
+      "sha256": "d833b1aec9541f1c8649f460ebf3829da3a478e0d7b942794b591a190e5fb48f",
       "author": "LadyofHats (adult); H. G. Seeley, 1886 (larva); CHORDATA QA (layout)",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "A: adult lamprey (generalised external anatomy). B: ammocoete larva illustrated from L. fluviatilis. Different taxa; not to scale.",
       "keyTa": "A: வளர்ந்த லாம்ப்ரே மீன் (பொதுவான புற அமைப்பு). B: லாம்ப்ரே இளம் உயிரி (Lampetra fluviatilis). வெவ்வேறு உயிரினங்களின் படங்கள்; ஒரே அளவுகோல் அல்ல.",
       "referenceUrl": "https://publications.naturalengland.org.uk/file/112006",
       "license": "Public domain: LadyofHats dedication; Seeley 1886 / UW Image Bank",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamprey_illustration_side.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamprey_anatomy.png",
       "sourceUrls": [
-        "https://commons.wikimedia.org/wiki/File:Lamprey_illustration_side.png",
+        "https://commons.wikimedia.org/wiki/File:Lamprey_anatomy.png",
         "https://commons.wikimedia.org/wiki/File:FMIB_48179_Larval_Form_of_Petromyzon_branchialis,_Formerly_Known_as_Ammocoetes.jpeg"
       ],
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
       "sourceSha256": [
-        "5c1c27215dbbba5ebe508ee4bab30a424a0d3af48a67a582170d329490f40130",
+        "5f701d13c394e1f390bd14805d12021087b24208af60c5f5df175ded9a144199",
         "3ae97e5f6fb99394852164b8ae2a933999663136524c802338f83f50be0fc08e"
       ],
-      "modifications": "Adult anatomy region isolated; historic larval body isolated; both placed in a labelled comparison without proportional distortion."
+      "modifications": "CC0 standalone adult diagram used; buccal funnel term corrected; both placed in a labelled comparison without proportional distortion."
     },
     {
       "diagramId": "u2-scales-fins-scale-types-labelled",
