@@ -138,13 +138,25 @@
       "figure": "lamprey_adult_ammocoete",
       "lang": "shared",
       "path": "pencil_plates/lamprey_adult_ammocoete.png",
-      "size": 17916,
-      "sha256": "4f8c823caab9cb8a3e9c15e8f25dad626e3f35d4bc0f8959d9b55b9c3758695d",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 888136,
+      "sha256": "64b7f3c0064ef9257ce3a0607ec803b6469047d87cdbe7c634a01108845f5ecb",
+      "author": "LadyofHats (adult); H. G. Seeley, 1886 (larva); CHORDATA QA (layout)",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Lateral views, drawn at different scales. Upper: adult sea lamprey (Petromyzon marinus). 1 Oral disc · 2 Eye · 3 Seven external gill openings on the visible side · 4 First dorsal fin · 5 Second dorsal fin. Lower: ammocoete larva. 6 Oral hood · 7 Rudimentary eye beneath the skin (position indicated) · 8 Seven external gill openings on the visible side.",
-      "keyTa": "பக்கவாட்டுத் தோற்றங்கள். இரு படங்களின் அளவுகோல்கள் வேறுபட்டவை. மேல்: முதிர்ந்த கடல் லாம்ப்ரே (Petromyzon marinus). 1 வாய்வட்டு · 2 கண் · 3 தெரியும் பக்கத்தில் ஏழு புறச் செவுள் திறப்புகள் · 4 முதல் முதுகுத் துடுப்பு · 5 இரண்டாம் முதுகுத் துடுப்பு. கீழ்: அம்மோசீட் இளம் உயிரி. 6 வாய் மூடி · 7 தோலுக்கடியில் உள்ள வளர்ச்சி குறைந்த கண் (இடம் குறிக்கப்பட்டுள்ளது) · 8 தெரியும் பக்கத்தில் ஏழு புறச் செவுள் திறப்புகள்.",
-      "referenceUrl": "https://publications.naturalengland.org.uk/file/112006"
+      "keyEn": "A: adult lamprey (generalised external anatomy). B: ammocoete larva illustrated from L. fluviatilis. Different taxa; not to scale.",
+      "keyTa": "A: வளர்ந்த லாம்ப்ரே மீன் (பொதுவான புற அமைப்பு). B: லாம்ப்ரே இளம் உயிரி (Lampetra fluviatilis). வெவ்வேறு உயிரினங்களின் படங்கள்; ஒரே அளவுகோல் அல்ல.",
+      "referenceUrl": "https://publications.naturalengland.org.uk/file/112006",
+      "license": "Public domain: LadyofHats dedication; Seeley 1886 / UW Image Bank",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamprey_illustration_side.png",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Lamprey_illustration_side.png",
+        "https://commons.wikimedia.org/wiki/File:FMIB_48179_Larval_Form_of_Petromyzon_branchialis,_Formerly_Known_as_Ammocoetes.jpeg"
+      ],
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceSha256": [
+        "5c1c27215dbbba5ebe508ee4bab30a424a0d3af48a67a582170d329490f40130",
+        "3ae97e5f6fb99394852164b8ae2a933999663136524c802338f83f50be0fc08e"
+      ],
+      "modifications": "Adult anatomy region isolated; historic larval body isolated; both placed in a labelled comparison without proportional distortion."
     },
     {
       "diagramId": "u2-scales-fins-scale-types-labelled",
