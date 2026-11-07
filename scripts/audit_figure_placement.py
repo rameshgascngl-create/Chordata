@@ -327,6 +327,24 @@ def main():
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                 "Calotes historical source print taxon, original hash and PNG rights/provenance fail"
             )
+        # The generated Calotes brain remains an original AI image, not a
+        # published or independently validated species-specific atlas plate.
+        if figure["diagramId"] == "u4-calotes-brain":
+            require(
+                figure["lang"] == "en"
+                and figure.get("sourceKind") == "AI_GENERATED_ORIGINAL_QA_CANDIDATE"
+                and figure.get("sha256") == "a9d3136b213c96e62bc5cb45742474b325d9dbb8185502ed7e24bb1a4f3c3030"
+                and figure.get("size") == 1941016
+                and figure.get("installedFormat") == "PNG"
+                and figure.get("author", "").startswith("OpenAI ChatGPT image generation")
+                and figure.get("sourceUrl", "") == ""
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256")
+                and figure.get("visualReview") == "AI_GENERATED_CANDIDATE_PENDING_EXPERT_SCIENTIFIC_REVIEW"
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                and "NOT verified" in figure.get("keyEn", ""),
+                "Calotes AI PNG provenance, immutable SHA or pending approval status missing"
+            )
         if (figure["diagramId"] == "u2-scoliodon-brain-labelled"
                 and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
             require(
