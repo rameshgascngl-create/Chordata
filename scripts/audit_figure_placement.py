@@ -285,6 +285,26 @@ def main():
                 and all(item in figure.get("keyEn", "") for item in ("Male:", "Female:", "O:", "Od:", "V:")),
                 "pigeon male/female source provenance or O/Od/V key missing"
             )
+        if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
+                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
+            master = ROOT / "docs/original_plate_svg/scoliodon_septal_gill_structure_en.svg"
+            require(
+                figure["lang"] == "shared"
+                and figure["path"] == "pencil_plates/shark_gill_flow.png"
+                and figure["author"] == "CHORDATA QA — original programmatically drawn shark septal-gill anatomical plate"
+                and len(figure.get("svgSha256", "")) == 64
+                and master.is_file()
+                and hashlib.sha256(master.read_bytes()).hexdigest()
+                    == figure["svgSha256"]
+                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"
+                and "interbranchial septa" in figure.get("keyEn", "")
+                and "secondary lamellae" in figure.get("keyEn", "")
+                and "opposite directions" in figure.get("keyEn", "")
+                and "no bony operculum" in figure.get("keyEn", "")
+                and len(figure.get("referenceUrls", [])) == 3
+                and not figure.get("sourceUrl"),
+                "septal-gill original image provenance/anatomical key or SVG mismatch"
+            )
         if (figure["diagramId"] == "u2-scoliodon-external-labelled"
                 and figure.get("sourceUrl")):
             # Guard against the previous scientific error: the historically

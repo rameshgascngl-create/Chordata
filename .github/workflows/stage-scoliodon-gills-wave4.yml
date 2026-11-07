@@ -1,0 +1,76 @@
+name: CHORDATA Wave 4 — verified shark septal gill illustration
+on:
+  push:
+    branches: ["qa/chordata-scoliodon-septal-gills-wave4-20261107"]
+    paths:
+      - "scripts/generate_shark_gills_wave4.py"
+      - "scripts/audit_figure_placement.py"
+      - ".github/workflows/stage-scoliodon-gills-wave4.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned deterministic vector renderer
+        run: python3 -m pip install CairoSVG==2.7.1
+      - name: Draw original medically legible elasmobranch septal-gill PNG
+        run: python3 scripts/generate_shark_gills_wave4.py
+      - name: Verify 64 lesson slots, PNG SHA, provenance and registry
+        run: bash scripts/qa_all.sh
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Install SDK 37
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile native Kotlin with newly rendered figure
+        run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Commit only provisional figure and reviewer metadata
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/shark_gill_flow.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/original_plate_svg/scoliodon_septal_gill_structure_en.svg
+          git add docs/qa-image-review/scoliodon_gills_wave4_review.png
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_SCOLIODON_GILLS_WAVE4_QA.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace shark gill flowchart with annotated septal anatomy plate"
+            git push origin HEAD:qa/chordata-scoliodon-septal-gills-wave4-20261107
+          else
+            echo "Gill figure already staged, no content rewrite"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: CHORDATA_Wave4_Scoliodon_Gill_Review
+          path: |
+            docs/qa-image-review/scoliodon_gills_wave4_review.png
+            docs/CHORDATA_SCOLIODON_GILLS_WAVE4_QA.md
+          retention-days: 14
+          if-no-files-found: warn
