@@ -158,8 +158,19 @@ def main():
             require(figure["lang"] == "shared" and
                     all(figure.get(k) for k in ("keyEn", "keyTa", "referenceUrl")),
                     "original bilingual numbered key/reference missing: " + name)
-            require(figure["author"] == "Chordata QA project — original numbered schematic",
-                    "original plate creator attribution changed: " + name)
+            if figure["diagramId"] == "u1-agnatha-petromyzon-adult-larva" and figure.get("sourceUrl"):
+                require(figure["author"] == "LadyofHats (adult); H. G. Seeley, 1886 (larva); CHORDATA QA (layout)",
+                        "source plate creator attribution changed: " + name)
+                require(figure.get("license", "").startswith("Public domain") and
+                        figure.get("sourceUrls") == [
+                            "https://commons.wikimedia.org/wiki/File:Lamprey_illustration_side.png",
+                            "https://commons.wikimedia.org/wiki/File:FMIB_48179_Larval_Form_of_Petromyzon_branchialis,_Formerly_Known_as_Ammocoetes.jpeg"],
+                        "sourced lamprey artwork lacks both original licence/provenance records")
+                require(figure.get("modifications") and len(figure.get("sourceSha256", [])) == 2,
+                        "lamprey derivative missing transformation and source checksums")
+            else:
+                require(figure["author"] == "Chordata QA project — original numbered schematic",
+                        "original plate creator attribution changed: " + name)
         if figure["diagramId"] in pencil_ids:
             require(figure["author"] == "AI-generated original (ChatGPT ImageGen)",
                     "original ImageGen plate creator attribution changed: " + name)
