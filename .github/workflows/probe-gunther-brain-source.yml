@@ -1,0 +1,27 @@
+name: CHORDATA original 1880 Carcharias plate — high-resolution source probe
+on:
+  push:
+    branches: ["qa/chordata-original-png-intake-20261107"]
+    paths:
+      - "scripts/probe_gunther_1880_scan.py"
+      - ".github/workflows/probe-gunther-brain-source.yml"
+  workflow_dispatch:
+jobs:
+  historical-plate-inspection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install PyMuPDF==1.26.7
+      - name: Locate exact historic Carcharias plate from scanned book, no drawing
+        run: python3 scripts/probe_gunther_1880_scan.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Original_1880_Carcharias_Brain_Highres_Page
+          path: original_gunther_fig43_fullpage.png
+          if-no-files-found: warn
+          retention-days: 5
