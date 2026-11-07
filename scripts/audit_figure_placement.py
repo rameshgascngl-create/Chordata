@@ -321,7 +321,8 @@ def main():
                 and "Calotes versicolor" in figure.get("scope", "")
                 and "artistic pose" in figure.get("scope", "")
                 and "not a special anatomical organ" in figure.get("keyEn", "")
-                and "no artwork newly drawn" in figure.get("modifications", "").lower()
+                and "tiff-to-png" in figure.get("modifications", "").lower()
+                and "no ai" in figure.get("modifications", "").lower()
                 and figure.get("visualReview") == "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                 "Calotes historical source print taxon, original hash and PNG rights/provenance fail"
