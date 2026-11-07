@@ -168,6 +168,15 @@ def main():
                         "sourced lamprey artwork lacks both original licence/provenance records")
                 require(figure.get("modifications") and len(figure.get("sourceSha256", [])) == 2,
                         "lamprey derivative missing transformation and source checksums")
+            elif figure["diagramId"] == "u1-hemichordata-balanoglossus-external" and figure.get("sourceUrl"):
+                require(
+                    figure["author"] == "Unknown illustrator, New International Encyclopaedia (1905); CHORDATA QA (layout)"
+                    and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:NIE_1905_Ascidians_and_balanoglossus.png"
+                    and figure.get("license", "").startswith("Public domain")
+                    and len(figure.get("sourceSha256", [])) == 1
+                    and figure.get("modifications"),
+                    "Balanoglossus adapted plate lacks origin, public-domain status, or modification evidence"
+                )
             else:
                 require(figure["author"] == "Chordata QA project — original numbered schematic",
                         "original plate creator attribution changed: " + name)
