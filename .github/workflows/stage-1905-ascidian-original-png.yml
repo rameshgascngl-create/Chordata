@@ -1,0 +1,72 @@
+name: CHORDATA original published 1905 ascidian PNG intake (isolated QA)
+on:
+  push:
+    branches: ["qa/chordata-authentic-ascidian-png-20261107"]
+    paths:
+      - "scripts/stage_1905_ascidian_original_png.py"
+      - "scripts/audit_figure_placement.py"
+      - ".github/workflows/stage-1905-ascidian-original-png.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-audit-compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Verify source-authentic original PNG, preserve unaltered bytes
+        run: python3 scripts/stage_1905_ascidian_original_png.py
+      - name: Run 64-slot source, rights and review integrity gates
+        run: bash scripts/qa_all.sh
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Install Android 37 SDK
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile native Kotlin with original PNG asset
+        run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Commit historical PNG with source and reviewer reset
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/ascidia_metamorphosis.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_1905_ASCIDIAN_PUBLISHED_PNG_QA.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace drawn ascidian schematic with original 1905 published PNG"
+            git push origin HEAD:qa/chordata-authentic-ascidian-png-20261107
+          fi
+      - name: Upload ORIGINAL scan for human academic review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Original_1905_Ascidian_PNG
+          path: |
+            app/src/main/assets/pencil_plates/ascidia_metamorphosis.png
+            docs/CHORDATA_1905_ASCIDIAN_PUBLISHED_PNG_QA.md
+          if-no-files-found: warn
+          retention-days: 14
