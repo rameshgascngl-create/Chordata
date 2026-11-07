@@ -1,0 +1,24 @@
+name: CHORDATA source study — actual historic Carcharias brain plate
+on:
+  push:
+    branches: ["qa/chordata-original-png-intake-20261107"]
+    paths:
+      - "scripts/probe_gutenberg_1880_carcharias_brain.py"
+      - ".github/workflows/probe-historical-brain-png.yml"
+  workflow_dispatch:
+jobs:
+  source-probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install beautifulsoup4==4.13.4 Pillow==11.3.0
+      - name: Inspect true historical source art before any reuse
+        run: python3 scripts/probe_gutenberg_1880_carcharias_brain.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Genuine_1880_Carcharias_brain_fig43_source_probe
+          path: candidate_fig43_original.*
+          retention-days: 5
