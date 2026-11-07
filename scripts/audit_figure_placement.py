@@ -187,6 +187,17 @@ def main():
                     and all(term in figure.get("keyEn", "") for term in ("Placoid", "Ganoid", "Cycloid", "Ctenoid")),
                     "fish-scale plate missing rights, four types, or original Houseman source"
                 )
+            elif figure["diagramId"] == "u2-scales-fins-fins-labelled" and figure.get("sourceUrl"):
+                require(
+                    figure["author"].startswith("Unknown original illustrator (1898)")
+                    and "FMIB_47883_" in figure.get("sourceUrl", "")
+                    and figure.get("license", "").startswith("Public domain")
+                    and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/"
+                    and len(figure.get("sourceSha256", [])) == 1
+                    and all(str(i) in figure.get("keyEn", "") for i in range(1, 7))
+                    and "not all fishes" in figure.get("keyEn", ""),
+                    "historical fish-fins key/source rights do not match original numbers"
+                )
             else:
                 require(figure["author"] == "Chordata QA project — original numbered schematic",
                         "original plate creator attribution changed: " + name)
