@@ -16,8 +16,19 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Verify seven committed offline PNGs and owner-licence evidence
-        run: python3 scripts/audit_figure_placement.py
+      - name: Verify all 64 provisional plates, source hashes and lesson mapping
+        run: |
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_pencil_coverage.py
+          python3 scripts/audit_coverage_report.py
+          python3 scripts/audit_android_qa_contract.py
+          python3 scripts/audit_preview_bitmap_budget.py
+          python3 scripts/audit_built_apk_assets.py --self-test
+          python3 scripts/test_apk_source_fixture.py
+          python3 scripts/write_figure_review_register.py --check
+          python3 scripts/test_review_signoff_guards.py
+          python3 scripts/test_sdk37_platform.py
+          python3 scripts/test_git_sync_whitespace.py
       - name: Reject museum photographs and enforce exact line-art credit ownership
         run: python3 scripts/check_textbook_plates.py
       - name: Upload all offline QA figure assets and provenance metadata
@@ -26,6 +37,7 @@ jobs:
           name: Chordata_QA_Source_Figures
           path: |
             app/src/main/assets/figures/
+            app/src/main/assets/pencil_plates/
             app/src/main/assets/figures.json
             app/src/main/assets/figure_slots.json
             app/src/main/assets/source_reference_credits.json
@@ -45,8 +57,11 @@ jobs:
         with:
           name: Chordata_QA_Source_Figures
           path: app/src/main/assets/
-      - name: Audit all 64 figure-to-lesson assignments and verify PNG hashes
-        run: python3 scripts/audit_figure_placement.py
+      - name: Audit all 64 registered pencil plates, placements and hashes
+        run: |
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_pencil_coverage.py
+          python3 scripts/audit_coverage_report.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -65,12 +80,15 @@ jobs:
           test -x "$SDKMANAGER"
           printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
-      - name: Compile native Kotlin before external figure acquisition
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile native Kotlin with validated offline figures
         run: gradle --no-daemon :app:compileDebugKotlin
       - name: Validate immutable content
         run: python3 scripts/audit_content.py
       - name: Build debug APK
         run: gradle --no-daemon :app:assembleDebug
+      - name: Verify 64 diagrams and exact image hashes inside assembled APK
+        run: python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
@@ -92,8 +110,11 @@ jobs:
         with:
           name: Chordata_QA_Source_Figures
           path: app/src/main/assets/
-      - name: Audit all 64 figure-to-lesson assignments and verify PNG hashes
-        run: python3 scripts/audit_figure_placement.py
+      - name: Audit all 64 registered pencil plates, placements and hashes
+        run: |
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_pencil_coverage.py
+          python3 scripts/audit_coverage_report.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -112,7 +133,8 @@ jobs:
           test -x "$SDKMANAGER"
           printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
-      - name: Compile native Kotlin before external figure acquisition
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile native Kotlin with validated offline figures
         run: gradle --no-daemon :app:compileDebugKotlin
       - name: Enable KVM
         run: |
@@ -127,6 +149,7 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim
           script: |
             gradle --no-daemon :app:connectedDebugAndroidTest
+            python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
             mkdir -p build/qa-screenshots
             adb pull /sdcard/Pictures/ChordataQA build/qa-screenshots
       - name: Upload emulator screenshot and instrumented test evidence
