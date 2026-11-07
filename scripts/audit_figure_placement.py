@@ -177,6 +177,16 @@ def main():
                     and figure.get("modifications"),
                     "Balanoglossus adapted plate lacks origin, public-domain status, or modification evidence"
                 )
+            elif figure["diagramId"] == "u2-scales-fins-scale-types-labelled" and figure.get("sourceUrl"):
+                require(
+                    figure["author"] == "Jon Houseman (ganoid/cycloid/ctenoid); CHORDATA QA (original placoid section and layout)"
+                    and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Fishscales.png"
+                    and figure.get("license") == "CC BY-SA 3.0 Unported — composite derivative, source credited"
+                    and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/3.0/"
+                    and len(figure.get("sourceSha256", [])) == 1
+                    and all(term in figure.get("keyEn", "") for term in ("Placoid", "Ganoid", "Cycloid", "Ctenoid")),
+                    "fish-scale plate missing rights, four types, or original Houseman source"
+                )
             else:
                 require(figure["author"] == "Chordata QA project — original numbered schematic",
                         "original plate creator attribution changed: " + name)
