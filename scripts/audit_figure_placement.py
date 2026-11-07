@@ -222,8 +222,14 @@ def main():
                     "rabbit urinary plate must preserve male/female distinctions and 1916 rights"
                 )
             else:
-                require(figure["author"] == "Chordata QA project — original numbered schematic",
-                        "original plate creator attribution changed: " + name)
+                if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
+                        and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
+                    require(
+                        figure["author"] == "CHORDATA QA — original programmatically drawn shark septal-gill anatomical plate",
+                        "new original gill illustration attribution changed: " + name)
+                else:
+                    require(figure["author"] == "Chordata QA project — original numbered schematic",
+                            "original plate creator attribution changed: " + name)
         if (figure["diagramId"] in ("u5-columba-endoskeleton", "u5-rabbit-endoskeleton")
                 and figure["lang"] == "en" and figure.get("sourceUrl")):
             original_name = ("pigeon_endoskeleton_line_art.png"
