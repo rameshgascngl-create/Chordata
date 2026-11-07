@@ -125,13 +125,20 @@
       "figure": "balanoglossus_external",
       "lang": "shared",
       "path": "pencil_plates/balanoglossus_external.png",
-      "size": 17177,
-      "sha256": "8e6f453fec1510ca208ad732f97ec2d5e69cba5d15f83aee3e690ba356a85582",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 308562,
+      "sha256": "11ea82be48235c43a0a374ae210b31ded61061a9a998d14c897138edd81356df",
+      "author": "Unknown illustrator, New International Encyclopaedia (1905); CHORDATA QA (layout)",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Dorsal view, anterior at left. 1 Proboscis · 2 Collar · 3 Gill pores · 4 Genital wing · 5 Hepatic region · 6 Post-hepatic region · 7 Terminal anus · 8 Trunk.",
-      "keyTa": "முதுகுப்புறத் தோற்றம். முன்முனை இடப்புறம் உள்ளது. 1 துதிக்கை · 2 கழுத்துப்பட்டை · 3 செவுள் துளைகள் · 4 இனப்பெருக்கச் சிறகு · 5 கல்லீரல் பகுதி · 6 கல்லீரல் பகுதிக்குப் பின்புறம் · 7 பின்முனை மலவாய் · 8 உடற்பகுதி.",
-      "referenceUrl": "https://mlsu.ac.in/econtents/4190_practical-zoology-invertebrate.pdf"
+      "keyEn": "pr: proboscis; co: collar; br: branchial region; gen: genital ridges; hep: hepatic caeca region.",
+      "keyTa": "pr: துதிக்கை; co: கழுத்துப்பட்டை; br: செவுள் பகுதி; gen: இனப்பெருக்க மேடுகள்; hep: கல்லீரல் நீட்சிகள் உள்ள பகுதி.",
+      "referenceUrl": "https://mlsu.ac.in/econtents/4190_practical-zoology-invertebrate.pdf",
+      "license": "Public domain — New International Encyclopaedia, 1905",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIE_1905_Ascidians_and_balanoglossus.png",
+      "sourceSha256": [
+        "af4f986941cd3b9f65452bde00ef6974e2ce425c01e2d7a988f44986f01dfa00"
+      ],
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "modifications": "Isolated original figure 9, rotated without changing proportions, enlarged and separately keyed in English."
     },
     {
       "diagramId": "u1-agnatha-petromyzon-adult-larva",
