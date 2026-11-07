@@ -52,8 +52,17 @@ assert 'scripts/audit_android_qa_contract.py' in qa_script
 assert 'scripts/audit_preview_bitmap_budget.py' in qa_script
 assert 'fun all64ProvisionalPlatesAreBundledAndDecode()' in test_text
 assert 'fun all64FigureSlotsAreMappedToActualSectionsInApk()' in test_text
-assert 'fun scoliodonBrainPlateIsReachableOnItsExactFourthSection()' in test_text
-assert 'captureQaScreen("scoliodon-brain-zoom-en-100")' in test_text
+brain_entry = next(e for e in entries if e['diagramId'] == 'u2-scoliodon-brain-labelled' and e['lang'] == 'en')
+if brain_entry.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED':
+    # The user rejected this unscientific illustration; preserving a test
+    # requiring its display would silently defeat the quality-control gate.
+    assert 'fun rejectedScoliodonBrainIsWithheldOnItsExactFourthSection()' in test_text
+    assert 'captureQaScreen("scoliodon-brain-rejected-en-100")' in test_text
+    assert 'figure-rejected-quality' in gallery_text
+    assert 'USER_REJECTED_REPLACEMENT_REQUIRED' in gallery_text
+else:
+    assert 'fun scoliodonBrainPlateIsReachableOnItsExactFourthSection()' in test_text
+    assert 'captureQaScreen("scoliodon-brain-zoom-en-100")' in test_text
 
 # Confirm that all four remote jobs audit image source integrity before QA
 # publication; the fourth job is gated on compilation AND instrumentation.
