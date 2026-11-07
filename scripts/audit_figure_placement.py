@@ -181,8 +181,20 @@ def main():
                 require(figure["author"] == "Chordata QA project — original numbered schematic",
                         "original plate creator attribution changed: " + name)
         if figure["diagramId"] in pencil_ids:
-            require(figure["author"] == "AI-generated original (ChatGPT ImageGen)",
-                    "original ImageGen plate creator attribution changed: " + name)
+            if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
+                    and figure["lang"] == "en" and figure.get("sourceUrl")):
+                require(figure["author"] == "Hans Hillewaert — original 32-label Branchiostoma lanceolatum drawing"
+                        and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Branchiostoma_anatomy.jpg"
+                        and figure.get("license") == "CC BY-SA 4.0 (drawing and PNG adaptation)"
+                        and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/4.0/"
+                        and len(figure.get("sourceSha256", [])) == 1
+                        and figure.get("modifications"),
+                        "Branchiostoma original credit / ShareAlike / JPEG-to-PNG modification missing")
+                require(all(str(i) in figure.get("keyEn", "") for i in range(1, 33)),
+                        "Branchiostoma 32-part external anatomy key missing")
+            else:
+                require(figure["author"] == "AI-generated original (ChatGPT ImageGen)",
+                        "original ImageGen plate creator attribution changed: " + name)
         if figure.get("referenceUrls"):
             require(all(u.startswith("https://") for u in figure["referenceUrls"]),
                     "bad anatomical reference URL: " + name)
