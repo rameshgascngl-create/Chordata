@@ -222,7 +222,14 @@ def main():
                     "rabbit urinary plate must preserve male/female distinctions and 1916 rights"
                 )
             else:
-                if (figure["diagramId"] == "u2-scoliodon-digestive-labelled"
+                if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
+                        and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
+                    require(figure["author"] == "CHORDATA QA project — original vector shark septal-gill teaching schematic",
+                            "staged shark-gill original art has wrong creator attribution")
+                else:
+                    require(figure["author"] == "Chordata QA project — original numbered schematic",
+                            "original plate creator attribution changed: " + name)
+        if (figure["diagramId"] == "u2-scoliodon-digestive-labelled"
                 and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
             require(
                 figure["lang"] == "en"
@@ -238,13 +245,6 @@ def main():
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                 "Scoliodon digestive plate missing expected anatomy/rights/SVG/review evidence"
             )
-        if (figure["diagramId"] == "u2-scoliodon-gills-labelled"
-                        and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
-                    require(figure["author"] == "CHORDATA QA project — original vector shark septal-gill teaching schematic",
-                            "staged shark-gill original art has wrong creator attribution")
-                else:
-                    require(figure["author"] == "Chordata QA project — original numbered schematic",
-                            "original plate creator attribution changed: " + name)
         if (figure["diagramId"] in ("u5-columba-endoskeleton", "u5-rabbit-endoskeleton")
                 and figure["lang"] == "en" and figure.get("sourceUrl")):
             original_name = ("pigeon_endoskeleton_line_art.png"
