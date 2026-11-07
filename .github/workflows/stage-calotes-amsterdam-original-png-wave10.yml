@@ -1,0 +1,73 @@
+name: CHORDATA Wave 10 — real Amsterdam Calotes plate stored PNG
+on:
+  push:
+    branches: ["qa/chordata-original-calotes-png-wave10-20261107"]
+    paths:
+      - "scripts/stage_amsterdam_calotes_original_png_wave10.py"
+      - "scripts/audit_figure_placement.py"
+      - ".github/workflows/stage-calotes-amsterdam-original-png-wave10.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-validate-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Download authentic Amsterdam TIFF and preserve source pixels as PNG
+        run: python3 scripts/stage_amsterdam_calotes_original_png_wave10.py
+      - name: Run figure source, lesson placement, taxonomy and review checks
+        run: bash scripts/qa_all.sh
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Install Android SDK 37
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Kotlin compile with high-resolution original PNG
+        run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Commit only source-authenticated Calotes art and reviewer ledger
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/calotes_external_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_CALOTES_AMSTERDAM_ORIGINAL_PNG_WAVE10_QA.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace synthetic Calotes with original Amsterdam zoological PNG"
+            git push origin HEAD:qa/chordata-original-calotes-png-wave10-20261107
+          fi
+      - name: Upload original scientific plate for anatomical review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Original_Amsterdam_Calotes_versicolor_PNG
+          path: |
+            app/src/main/assets/pencil_plates/calotes_external_en.png
+            docs/CHORDATA_CALOTES_AMSTERDAM_ORIGINAL_PNG_WAVE10_QA.md
+          if-no-files-found: warn
+          retention-days: 14
