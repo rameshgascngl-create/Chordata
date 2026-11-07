@@ -249,6 +249,18 @@ def main():
                 and "Fig. 143" in figure.get("modifications", ""),
                 "Ecker fig. 143 arterial plate attribution or source image missing"
             )
+        if figure["diagramId"] == "u3-rana-respiration" and figure.get("sourceUrl"):
+            require(
+                figure["lang"] == "en"
+                and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Amph001B.png"
+                and figure["author"].startswith("Jon Houseman (frog buccal-pump sequence)")
+                and figure.get("license", "").startswith("CC BY-SA 3.0")
+                and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/3.0/"
+                and len(figure.get("sourceSha256", [])) == 1
+                and all(x in figure.get("keyEn", "") for x in
+                        ("Cutaneous", "Buccopharyngeal", "Pulmonary")),
+                "frog respiratory source or three gas-exchange modes missing"
+            )
         if figure["diagramId"] in pencil_ids:
             if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
