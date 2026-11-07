@@ -73,15 +73,26 @@ def download(source):
     if not (10_000 < len(data) < 120_000):
         raise ValueError("Unexpected Commons SVG byte length: " + source["name"])
     lowered = data.lower()
-    for fragment in [b"<!doctype", b"<!entity", b"<script", b"<foreignobject",
-                     b"javascript:", b"@import", b"<image", b"data:"]:
-        if fragment in lowered:
-            raise ValueError("Active or external SVG content disallowed: " + source["name"])
+    if b"<!doctype" in lowered or b"<!entity" in lowered:
+        raise ValueError("SVG DTD or entity declarations are unsupported")
     root = ET.fromstring(data)
     if not root.tag.endswith("}svg"):
         raise ValueError("Source is not namespaced SVG")
     if not root.attrib.get("viewBox") and not root.attrib.get("width"):
         raise ValueError("Source SVG has no geometry")
+    for node in root.iter():
+        local_name = node.tag.split("}")[-1].lower()
+        if local_name in {"script", "foreignobject"}:
+            raise ValueError("Active SVG element disallowed: " + local_name)
+        if local_name == "image":
+            raise ValueError("Image-backed SVG disallowed: use vector anatomy")
+        for name, value in node.attrib.items():
+            if name.split("}")[-1].lower() == "href" and not value.startswith("#"):
+                raise ValueError("External SVG dependency disallowed in " + source["name"])
+        if local_name == "style" and node.text:
+            css = node.text.lower()
+            if "url(" in css or "@import" in css or "expression(" in css:
+                raise ValueError("Untrusted SVG stylesheet reference")
     return data, sha256(data).hexdigest()
 
 def svg_to_image(data, width):
