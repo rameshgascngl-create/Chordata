@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/stage_1905_ascidian_original_png.py"
       - "scripts/audit_figure_placement.py"
+      - "scripts/audit_android_qa_contract.py"
       - ".github/workflows/stage-1905-ascidian-original-png.yml"
   workflow_dispatch:
 permissions:
