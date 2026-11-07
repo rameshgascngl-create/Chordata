@@ -525,20 +525,26 @@
       "figure": "rabbit_brain",
       "lang": "en",
       "path": "pencil_plates/rabbit_brain_en.png",
-      "sha256": "1a71def6fdaeb113250b345f645b8f7751de5b10ba2343d296eaa9cb23174b48",
-      "size": 69442,
-      "author": "CHORDATA QA — original computer-assisted anatomical schematic",
-      "license": "Original provisional project artwork; no third-party image reproduced",
-      "sourceUrl": "",
+      "sha256": "4ca7611ef8dad98396eeaba63ab91a6ed54ebe647bb9c5f97dc23cf1f7b761c6",
+      "size": 690964,
+      "author": "CHORDATA QA original rabbit lateral schematic; unknown illustrator, Popular Science Monthly (1875), dorsal view",
+      "license": "Public domain — 1875 anatomy figure; CHORDATA QA original schematic",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PSM_V07_D065_Brain_of_rabbit.jpg",
       "referenceUrls": [
         "https://openstax.org/books/biology-2e/pages/35-3-the-brain-and-spinal-cord"
       ],
-      "modifications": "Original diagram drawn programmatically with Pillow; English labels; PNG export.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Olfactory bulbs, cerebral hemispheres, cerebellum, medulla and spinal cord, in a generalised lateral schematic.",
-      "keyTa": "",
+      "modifications": "Original QA rabbit-brain lateral schematic restored byte-for-byte from pinned baseline commit; 1875 public-domain rabbit dorsal outline contrast adjusted and enlarged without distortion; modern English key placed outside historical ink. Historical misclassification 'rodent' and duplicated caption number explicitly corrected.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "A lateral: olfactory bulbs, hemispheres, cerebellum, medulla oblongata and spinal cord. B dorsal: 1 olfactory bulbs; 2 cerebral hemispheres; 3 cerebellum; 4 spinal cord. Modern classification: order Lagomorpha, NOT Rodentia.",
+      "keyTa": "A பக்கவாட்டுத் தோற்றம்: நுகர்ச்சிக் குமிழ்கள், பெருமூளை அரைக்கோளங்கள், சிறுமூளை, முகுளம், தண்டுவடம். B முதுகுப்புறத் தோற்றம்: 1 நுகர்ச்சிக் குமிழ்கள், 2 பெருமூளை அரைக்கோளங்கள், 3 சிறுமூளை, 4 தண்டுவடம். முயல் Lagomorpha வரிசையைச் சார்ந்தது.",
       "scope": "Exact lesson section: brain",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL"
+      "visualReview": "SELF_INSPECTED_PROVISIONAL",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceCaptionUrl": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_7/May_1875/Evolution_and_the_After-Life",
+      "sourceSha256": [
+        "aa5af0a1291c44be8d94b9692c7053d9eb9a6b96b37058a82c9b6e5e2160b279"
+      ],
+      "originalBaselineSha256": "1a71def6fdaeb113250b345f645b8f7751de5b10ba2343d296eaa9cb23174b48"
     },
     {
       "diagramId": "u5-flying-mammals-bat-wing-glider-comparison",
