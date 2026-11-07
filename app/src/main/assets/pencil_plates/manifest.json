@@ -479,21 +479,26 @@
       "figure": "rana_respiration",
       "lang": "en",
       "path": "pencil_plates/rana_respiration_en.png",
-      "sha256": "58157d037227cf9d06d4a7d4ddb686b80a4cd31cac37af0f009f3946ed240c03",
-      "size": 90504,
-      "author": "CHORDATA QA — original computer-assisted anatomical schematic",
-      "license": "Original provisional project artwork; no third-party image reproduced",
-      "sourceUrl": "",
+      "sha256": "99c7af022ef4ba7b00402f2eeb74e73f35de2771b5cc5babe2a344492c566804",
+      "size": 479751,
+      "author": "Jon Houseman (frog buccal-pump sequence); CHORDATA QA (cutaneous section and layout)",
+      "license": "CC BY-SA 3.0 Unported — adapted composite; source credited",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amph001B.png",
       "referenceUrls": [
-        "https://jnanabhumi.ap.gov.in/Uploads/Materials/Zoology-I.pdf",
-        "https://www.egyankosh.ac.in/bitstream/123456789/104742/1/Block-1.pdf"
+        "https://openstax.org/books/biology/pages/29-3-amphibians",
+        "https://openstax.org/books/biology-ap-courses/pages/30-1-systems-of-gas-exchange",
+        "https://bieap.apcfss.in/Uploads/Materials/Zoology-I.pdf"
       ],
-      "modifications": "Original diagram drawn programmatically with Pillow; English labels; PNG export.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Three adult respiratory surfaces; capillary and lung diagrams are simplified.",
-      "keyTa": "",
+      "modifications": "Original Jon Houseman frog breathing A–D PNG was enlarged preserving proportions and displayed beside new CHORDATA QA skin-capillary gas-exchange section and separate teaching key. No A–D phase functions invented. Composite distributed under CC BY-SA 3.0.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Cutaneous: moist skin/capillaries. Buccopharyngeal: vascular lining of mouth/pharynx. Pulmonary: lungs ventilated through buccal pressure pumping. Published A–D frames are not assigned individual inspiration/expiration phases.",
+      "keyTa": "தோல் வழிச் சுவாசம்: ஈரமான தோல், இரத்த நுண்குழாய்கள். வாய்த்தொண்டைச் சுவாசம்: இரத்தநாளங்கள் நிறைந்த ஈரமான உள்ளுறை. நுரையீரல் சுவாசம்: வாய்த்தொண்டை அழுத்தப்பம்பு இயக்கம். A–D படிநிலைகளுக்குத் துல்லியமான கட்டப்பெயர்கள் வழங்கப்படவில்லை.",
       "scope": "Exact lesson section: respiratory-system",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL"
+      "visualReview": "SELF_INSPECTED_PROVISIONAL",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceSha256": [
+        "30c42b65ea90f17df30d3b7cee0fb9017936285fbcba77feefdfdd1c6f0345ac"
+      ]
     },
     {
       "diagramId": "u4-calotes-external",
