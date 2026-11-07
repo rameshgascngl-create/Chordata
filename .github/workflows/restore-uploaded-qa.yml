@@ -1,0 +1,66 @@
+name: Restore uploaded CHORDATA QA source
+on:
+  push:
+    branches: ["native/qa-chordata-illustration-coverage"]
+    paths: [".github/workflows/restore-uploaded-qa.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: restore-chordata-qa
+  cancel-in-progress: false
+jobs:
+  restore:
+    if: github.ref == 'refs/heads/native/qa-chordata-illustration-coverage'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify archive and restore original image bytes
+        run: |
+          python3 - <<'PY'
+          import hashlib, pathlib, zipfile
+          archive = pathlib.Path("CHORDATA_64of64_Hardened_GitHub_Upload_QA_Source_20261107.zip")
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == "50918a3544e46b70de3174092942ec78085c2eb9bb00a7756897847a0e9e07c2", "Unexpected archive bytes"
+          with zipfile.ZipFile(archive) as z:
+              files = []
+              for item in z.infolist():
+                  p = pathlib.PurePosixPath(item.filename)
+                  assert p.parts[0] == "Chordata" and ".." not in p.parts
+                  assert not p.is_absolute() and ".git" not in p.parts
+                  assert not ((item.external_attr >> 16) & 0o170000 == 0o120000), "Symlink rejected"
+                  if not item.is_dir():
+                      dest = pathlib.Path(*p.parts[1:])
+                      assert str(dest) != "."
+                      files.append((item, dest))
+              for item, dest in files:
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  dest.write_bytes(z.read(item))
+              print("Restored", len(files), "files without image conversion")
+          PY
+      - name: Verify diagrams and preserved image credits
+        run: |
+          python3 scripts/audit_content.py
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_pencil_coverage.py
+          python3 scripts/audit_coverage_report.py
+          python3 scripts/audit_android_qa_contract.py
+          python3 scripts/audit_preview_bitmap_budget.py
+          python3 scripts/test_apk_source_fixture.py
+          python3 scripts/check_textbook_plates.py
+          python3 scripts/write_figure_review_register.py --check
+      - name: Commit complete source to QA branch only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "qa(chordata): restore 64-figure source preserving original pencil PNGs"
+            git push origin HEAD:refs/heads/native/qa-chordata-illustration-coverage
+          fi
+      - name: Start Android QA on restored source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run android-qa.yml --ref native/qa-chordata-illustration-coverage
