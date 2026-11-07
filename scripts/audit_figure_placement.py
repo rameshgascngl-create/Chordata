@@ -229,7 +229,8 @@ def main():
                     and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:NIE_1905_Ascidians_and_balanoglossus.png"
                     and figure.get("sourceImageUrl") == "https://upload.wikimedia.org/wikipedia/commons/3/39/NIE_1905_Ascidians_and_balanoglossus.png"
                     and figure.get("sourceSha256") == [figure["sha256"]]
-                    and len(figure.get("sourceSha1", "")) == 40
+                    and figure.get("sourceSha1") == "7422e81e0c48f39abcddd87b3b979ac7a12b2b4f"
+                    and figure.get("sha256") == "af4f986941cd3b9f65452bde00ef6974e2ce425c01e2d7a988f44986f01dfa00"
                     and figure.get("license", "").startswith("Public domain")
                     and len(figure.get("referenceUrls", [])) == 3
                     and figure.get("visualReview") == "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
