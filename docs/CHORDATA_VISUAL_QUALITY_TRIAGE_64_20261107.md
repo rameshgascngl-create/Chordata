@@ -84,3 +84,5 @@ Do not promote any asset to **ACCEPTED** without a biology reviewer, a different
 - **Wave 4 staged (provisional)**: original septal shark gill plate replaced the placeholder u2-scoliodon-gills-labelled. Now 34 of 38 initial high-priority replacement candidates remain unstaged. All figure approvals are pending.
 
 - **Wave 5 staged (provisional)**: `u2-scoliodon-digestive-labelled` original comparative digestive anatomy replaces a weak schematic, with J stomach, paired liver lobes, gallbladder, pancreas, scroll valve and salt-excreting rectal gland. Of 38 original high-priority candidates, five now have staged replacements and 33 remain unstaged; all revised figures remain academically unapproved.
+
+- **Wave 6 staged (provisional)**: `u2-scoliodon-brain-labelled` rebuilt as original reference-guided dorsal brain with separate sensory sacs and bulbs, smooth forebrain, folded cerebellum, partially exposed optic lobes and paired restiformia; **32 of the original 38 high-priority figures remain unstaged**. Biological and Tamil reviews/real-device QA pending.

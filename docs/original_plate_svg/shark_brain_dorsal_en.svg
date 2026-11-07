@@ -1,53 +1,135 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120"><rect width="1800" height="1120" fill="white"/>
-        <text x="70" y="85" font-family="DejaVu Sans" font-weight="bold" font-size="54" fill="#273944">Scoliodon brain — dorsal view</text>
-        <text x="72" y="130" font-family="DejaVu Sans" font-size="27" fill="#627780">Elasmobranch forebrain, optic regions and prominent cerebellum</text>
-        <line x1="70" y1="154" x2="1728" y2="154" stroke="#346b79" stroke-width="4"/>
-        <path d="M900 192 L900 940" stroke="#d2e0db" stroke-width="2" stroke-dasharray="10 8" fill="none"/>
-        <text x="886" y="198" text-anchor="end" font-family="DejaVu Sans" font-size="20" fill="#627780">ANTERIOR</text>
-        <path d="M900 966 L900 989" stroke="#346b79" stroke-width="4"/><path d="M900 997 l-9 -14 h18 z" fill="#346b79"/>
-        <text x="925" y="991" font-family="DejaVu Sans" font-size="20" fill="#627780">POSTERIOR</text>
-<path d="M852 358 Q855 330 880 320 L920 320 Q944 330 948 358 L940 485 Q901 514 860 485 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M848 360 Q836 313 800 280 L797 250" fill="none" stroke="#273944" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M932 360 Q920 313 1000 280 L1003 250" fill="none" stroke="#273944" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M748 209 Q727 194 708 217 Q694 246 726 266 Q758 273 775 250 Q788 225 748 209 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1052 209 Q1073 194 1092 217 Q1106 246 1074 266 Q1042 273 1025 250 Q1012 225 1052 209 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="726" y1="235" x2="780" y2="249" stroke="#627780" stroke-width="2" stroke-linecap="round"/>
-<line x1="1074" y1="235" x2="1020" y2="249" stroke="#627780" stroke-width="2" stroke-linecap="round"/>
-<ellipse cx="821" cy="545" rx="70" ry="60" fill="#d2e0db" stroke="#273944" stroke-width="4"/>
-<ellipse cx="979" cy="545" rx="70" ry="60" fill="#d2e0db" stroke="#273944" stroke-width="4"/>
-<path d="M856 474 Q900 443 943 474 L965 527 Q965 568 949 595 Q970 636 959 686 Q954 738 900 773 Q846 738 841 686 Q830 636 851 595 Q835 565 835 527 Z" fill="#e0eae6" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="900" y1="497" x2="900" y2="755" stroke="#627780" stroke-width="2" stroke-linecap="round"/>
-<path d="M848 582 Q900 599 952 582" fill="none" stroke="#273944" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M848 657 Q900 674 952 657" fill="none" stroke="#273944" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M853 760 Q900 782 947 760 Q958 814 932 883 L920 927 L880 927 L868 883 Q842 814 853 760 Z" fill="#f0f4f1" stroke="#273944" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M892 783 L900 848 L908 783" fill="none" stroke="#273944" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M882 920 L881 973 Q900 984 919 973 L918 920" fill="#f0f4f1" stroke="#273944" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="98" y="240" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Olfactory lobes</text>
-<line x1="583" y1="232" x2="670" y2="232" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<line x1="670" y1="232" x2="738" y2="236" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<circle cx="738" cy="236" r="5" fill="#346b79"/>
-<text x="98" y="360" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Olfactory peduncles</text>
-<line x1="583" y1="352" x2="670" y2="352" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<line x1="670" y1="352" x2="826" y2="298" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<circle cx="826" cy="298" r="5" fill="#346b79"/>
-<text x="98" y="475" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Cerebrum</text>
-<line x1="583" y1="467" x2="670" y2="467" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<line x1="670" y1="467" x2="900" y2="419" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<circle cx="900" cy="419" r="5" fill="#346b79"/>
-<text x="98" y="600" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Optic lobes (partly exposed)</text>
-<line x1="583" y1="592" x2="670" y2="592" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<line x1="670" y1="592" x2="797" y2="539" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<circle cx="797" cy="539" r="5" fill="#346b79"/>
-<text x="1275" y="606" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Cerebellum (enlarged)</text>
-<line x1="1250" y1="598" x2="1220" y2="598" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<line x1="1220" y1="598" x2="932" y2="665" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<circle cx="932" cy="665" r="5" fill="#346b79"/>
-<text x="1275" y="790" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Medulla oblongata</text>
-<line x1="1250" y1="782" x2="1220" y2="782" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<line x1="1220" y1="782" x2="922" y2="844" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<circle cx="922" cy="844" r="5" fill="#346b79"/>
-<text x="1275" y="923" fill="#273944" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Spinal cord</text>
-<line x1="1250" y1="915" x2="1220" y2="915" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<line x1="1220" y1="915" x2="912" y2="954" stroke="#346b79" stroke-width="2" stroke-linecap="round"/>
-<circle cx="912" cy="954" r="5" fill="#346b79"/>
-<text x="70" y="1050" font-family="DejaVu Sans" font-size="23" fill="#627780">Large olfactory organs and cerebellum distinguish this shark diagram from amphibian and reptile brains.</text><text x="70" y="1082" font-family="DejaVu Sans" font-size="19" fill="#627780">ORIGINAL EDUCATIONAL SCHEMATIC · NOT TO SCALE · SCIENTIFIC REVIEW PENDING</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="2400" viewBox="0 0 3200 2400">
+<rect x="0" y="0" width="3200" height="2400" rx="0" fill="#fbfaf6" stroke="none" stroke-width="2"/>
+<text x="100" y="118" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="70" font-weight="700" fill="#233943">SCOLIODON-TYPE SHARK BRAIN — DORSAL VIEW</text>
+<text x="102" y="185" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="33" font-weight="400" fill="#657b81">Original reference-guided anatomical reconstruction · rostrocaudal orientation · English labels</text>
+<line x1="100" y1="223" x2="3095" y2="223" stroke="#b9c6c4" stroke-width="3" stroke-linecap="round" />
+<rect x="80" y="273" width="3045" height="1942" rx="22" fill="#fffefb" stroke="#d1ddda" stroke-width="3"/>
+<path d="M 1178 482 C 1122 433 1082 434 1016 450 C 955 468 922 515 913 560 C 914 617 955 652 1016 652 C 1064 657 1118 630 1152 600 C 1217 644 1304 634 1321 587 C 1339 544 1274 498 1178 482 Z" fill="#e2e4d6" stroke="#33464a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 2010 482 C 2066 433 2106 434 2172 450 C 2233 468 2266 515 2275 560 C 2274 617 2233 652 2172 652 C 2124 657 2070 630 2036 600 C 1971 644 1884 634 1867 587 C 1849 544 1914 498 2010 482 Z" fill="#e2e4d6" stroke="#33464a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1061 483 q -50 13 -95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1044 505 q -50 13 -95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1029 527 q -50 13 -95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1019 549 q -50 13 -95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1016 571 q -50 13 -95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1019 593 q -50 13 -95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1029 615 q -50 13 -95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 2127 483 q 50 13 95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 2144 505 q 50 13 95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 2159 527 q 50 13 95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 2169 549 q 50 13 95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 2172 571 q 50 13 95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 2169 593 q 50 13 95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 2159 615 q 50 13 95 -2" fill="none" stroke="#8b9c91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1269 531 C 1300 506 1365 516 1405 550 Q 1395 599 1367 620 C 1325 626 1270 597 1269 531 Z" fill="#cbd6cb" stroke="#33464a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1919 531 C 1888 506 1823 516 1783 550 Q 1793 599 1821 620 C 1863 626 1918 597 1919 531 Z" fill="#cbd6cb" stroke="#33464a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1301 539 Q 1329 572 1359 540" fill="none" stroke="#8a9b91" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1303 579 Q 1329 590 1356 575" fill="none" stroke="#8a9b91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1831 539 Q 1859 572 1889 540" fill="none" stroke="#8a9b91" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1833 579 Q 1859 590 1886 575" fill="none" stroke="#8a9b91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1391 586 Q 1432 657 1457 755 Q 1470 801 1511 825" fill="none" stroke="#33464a" stroke-width="35" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1797 586 Q 1756 657 1731 755 Q 1718 801 1677 825" fill="none" stroke="#33464a" stroke-width="35" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1391 586 Q 1432 657 1457 755 Q 1470 801 1511 825" fill="none" stroke="#cdd8ce" stroke-width="23" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1797 586 Q 1756 657 1731 755 Q 1718 801 1677 825" fill="none" stroke="#cdd8ce" stroke-width="23" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1461 707 q -3 42 7 75" fill="none" stroke="#8ba197" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1727 707 q -3 42 7 75" fill="none" stroke="#8ba197" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1519 779 C 1484 763 1448 790 1432 838 C 1416 893 1444 1000 1460 1035 C 1495 1077 1566 1092 1617 1083 C 1695 1076 1745 1025 1755 958 Q 1773 865 1720 818 C 1677 772 1571 756 1519 779 Z" fill="#cbd6cb" stroke="#33464a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1504 828 Q 1472 882 1503 1004" fill="none" stroke="#9daf9d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1699 839 Q 1721 911 1685 1024" fill="none" stroke="#9daf9d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1496 854 q 26 -13 61 -3" fill="none" stroke="#b5c5b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1642 854 q 25 -8 55 5" fill="none" stroke="#b5c5b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1496 904 q 26 -13 61 -3" fill="none" stroke="#b5c5b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1642 904 q 25 -8 55 5" fill="none" stroke="#b5c5b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1496 953 q 26 -13 61 -3" fill="none" stroke="#b5c5b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1642 953 q 25 -8 55 5" fill="none" stroke="#b5c5b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1496 1004 q 26 -13 61 -3" fill="none" stroke="#b5c5b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1642 1004 q 25 -8 55 5" fill="none" stroke="#b5c5b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1515 1062 C 1537 1090 1548 1135 1550 1185 L 1647 1185 C 1644 1137 1664 1089 1682 1055 C 1623 1080 1554 1088 1515 1062 Z" fill="#d2e4df" stroke="#33464a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1598 1110 Q 1596 1051 1595 1013" fill="none" stroke="#33464a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1596" cy="999" rx="15" ry="24" fill="#edd1a9" stroke="#33464a" stroke-width="3" />
+<path d="M 1550 1157 C 1473 1118 1408 1158 1390 1230 C 1374 1296 1410 1358 1472 1352 C 1526 1343 1558 1302 1575 1247 Z" fill="#d2e4df" stroke="#33464a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1640 1157 C 1717 1118 1782 1158 1800 1230 C 1816 1296 1780 1358 1718 1352 C 1664 1343 1632 1302 1615 1247 Z" fill="#d2e4df" stroke="#33464a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1531 1223 Q 1491 1201 1453 1250 C 1431 1290 1445 1349 1453 1382 Q 1416 1430 1442 1492 C 1436 1566 1507 1659 1587 1680 C 1667 1659 1747 1585 1742 1493 Q 1775 1442 1733 1376 C 1757 1303 1705 1229 1655 1223 C 1601 1194 1553 1208 1531 1223 Z" fill="#e0cfb2" stroke="#33464a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1464 1366 Q 1384 1378 1387 1471 C 1400 1541 1433 1580 1460 1539" fill="#e0cfb2" stroke="#33464a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1725 1366 Q 1805 1378 1802 1471 C 1789 1541 1756 1580 1729 1539" fill="#e0cfb2" stroke="#33464a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1474 1297 Q 1520 1317 1589 1303 Q 1662 1277 1711 1298" fill="none" stroke="#987e58" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1481 1311 Q 1533 1335 1591 1317 Q 1658 1297 1704 1310" fill="none" stroke="#bbaa8b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1474 1360 Q 1520 1383 1589 1366 Q 1662 1337 1711 1361" fill="none" stroke="#987e58" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1481 1374 Q 1533 1401 1591 1380 Q 1658 1357 1704 1373" fill="none" stroke="#bbaa8b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1474 1435 Q 1520 1457 1589 1441 Q 1662 1413 1711 1436" fill="none" stroke="#987e58" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1481 1449 Q 1533 1475 1591 1455 Q 1658 1433 1704 1448" fill="none" stroke="#bbaa8b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1474 1517 Q 1520 1537 1589 1523 Q 1662 1497 1711 1518" fill="none" stroke="#987e58" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1481 1531 Q 1533 1555 1591 1537 Q 1658 1517 1704 1530" fill="none" stroke="#bbaa8b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1474 1594 Q 1520 1611 1589 1600 Q 1662 1577 1711 1595" fill="none" stroke="#987e58" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1481 1608 Q 1533 1629 1591 1614 Q 1658 1597 1704 1607" fill="none" stroke="#bbaa8b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1591 1250 Q 1571 1390 1593 1504 Q 1607 1598 1593 1641" fill="none" stroke="#987e58" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1467 1612 C 1408 1606 1389 1641 1392 1723 C 1401 1804 1442 1868 1488 1891 C 1507 1837 1512 1724 1467 1612 Z" fill="#d2e4df" stroke="#33464a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1718 1612 C 1777 1606 1796 1641 1793 1723 C 1784 1804 1743 1868 1697 1891 C 1678 1837 1673 1724 1718 1612 Z" fill="#d2e4df" stroke="#33464a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1450 1664 q 15 100 9 153" fill="none" stroke="#8ea79e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1735 1664 q -15 100 -9 153" fill="none" stroke="#8ea79e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1520 1677 C 1489 1700 1477 1739 1484 1806 C 1501 1889 1526 2000 1565 2090 L 1619 2090 C 1658 2000 1683 1889 1700 1806 C 1707 1739 1695 1700 1664 1677 C 1614 1698 1571 1698 1520 1677 Z" fill="#e6ebe4" stroke="#33464a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1541 1725 L 1592 1823 L 1643 1725 C 1621 1705 1564 1705 1541 1725 Z" fill="#f7f4e7" stroke="#4a666d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1592 1830 Q 1585 1936 1592 2048" fill="none" stroke="#839b92" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1510 1875 q 26 14 50 8" fill="none" stroke="#a9bdb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1674 1875 q -26 14 -50 8" fill="none" stroke="#a9bdb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1510 1935 q 26 14 50 8" fill="none" stroke="#a9bdb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1674 1935 q -26 14 -50 8" fill="none" stroke="#a9bdb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1510 2001 q 26 14 50 8" fill="none" stroke="#a9bdb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1674 2001 q -26 14 -50 8" fill="none" stroke="#a9bdb0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1566 2087 Q 1555 2170 1563 2207 L 1622 2207 Q 1628 2159 1618 2087 Z" fill="#e6ebe4" stroke="#33464a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1592 2095 L 1592 2197" fill="none" stroke="#8da399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1485 1738 q -44 12 -70 45" fill="none" stroke="#96876f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1699 1738 q 44 12 70 45" fill="none" stroke="#96876f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1485 1787 q -44 12 -70 45" fill="none" stroke="#96876f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1699 1787 q 44 12 70 45" fill="none" stroke="#96876f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1492 1853 q -44 12 -70 45" fill="none" stroke="#96876f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1692 1853 q 44 12 70 45" fill="none" stroke="#96876f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1492 1920 q -44 12 -70 45" fill="none" stroke="#96876f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1692 1920 q 44 12 70 45" fill="none" stroke="#96876f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 720 507 L 1070 507 L 1115 542" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1115" cy="542" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="148" y="500" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Olfactory sac</text>
+<text x="148" y="544" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Peripheral sensory epithelium</text>
+<path d="M 2500 602 L 2140 602 L 1857 564" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1857" cy="564" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="2520" y="595" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Olfactory bulb (bilobed)</text>
+<text x="2520" y="639" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Distinct from olfactory sac</text>
+<path d="M 720 756 L 1070 756 L 1444 736" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1444" cy="736" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="148" y="749" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Olfactory peduncle</text>
+<text x="148" y="793" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Olfactory tract to cerebrum</text>
+<path d="M 2500 930 L 2140 930 L 1709 935" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1709" cy="935" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="2520" y="923" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Cerebrum (telencephalon)</text>
+<text x="2520" y="967" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Smooth, massive forebrain</text>
+<path d="M 720 1091 L 1070 1091 L 1572 1164" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1572" cy="1164" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="148" y="1084" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Short diencephalon</text>
+<text x="148" y="1128" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Pineal stalk visible dorsally</text>
+<path d="M 2500 1199 L 2140 1199 L 1783 1263" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1783" cy="1263" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="2520" y="1192" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Optic lobe (part exposed)</text>
+<text x="2520" y="1236" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Optic tectum, partly concealed</text>
+<path d="M 720 1494 L 1070 1494 L 1490 1455" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1490" cy="1455" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="148" y="1487" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Folded cerebellum</text>
+<text x="148" y="1531" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Elongated and enlarged</text>
+<path d="M 2500 1692 L 2140 1692 L 1748 1760" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1748" cy="1760" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="2520" y="1685" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Corpus restiforme</text>
+<text x="2520" y="1729" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">One of paired lateral ridges</text>
+<path d="M 720 1864 L 1070 1864 L 1556 1893" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1556" cy="1893" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="148" y="1857" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Medulla oblongata</text>
+<text x="148" y="1901" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Dorsal hindbrain / 4th-ventricle region</text>
+<path d="M 2500 2077 L 2140 2077 L 1621 2146" fill="none" stroke="#69838a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="1621" cy="2146" rx="7" ry="7" fill="#365d6a" stroke="#365d6a" stroke-width="0" />
+<text x="2520" y="2070" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#233943">Spinal cord</text>
+<text x="2520" y="2114" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" font-weight="400" fill="#657b81">Continuous with medulla</text>
+<text x="1592" y="339" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="29" font-weight="700" fill="#657b81">ROSTRAL  /  ANTERIOR</text>
+<path d="M 1592 363 L 1592 424" fill="none" stroke="#657b81" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M 1592 363 l -16 22 h32 z" fill="#657b81" stroke="#657b81" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+<line x1="103" y1="2242" x2="3095" y2="2242" stroke="#b9c6c4" stroke-width="3" stroke-linecap="round" />
+<text x="107" y="2303" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="29" font-weight="700" fill="#657b81">DORSAL ASPECT ONLY · ORIGINAL ANATOMICAL RECONSTRUCTION · NOT SPECIMEN DISSECTION</text>
+<text x="106" y="2349" text-anchor="start" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="400" fill="#657b81">Shark-type comparison informed by Scoliodon teaching references; biology and label approval pending.</text>
+<text x="3088" y="2349" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="700" fill="#657b81">u2-scoliodon-brain-labelled</text>
+</svg>
