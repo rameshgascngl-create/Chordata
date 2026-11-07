@@ -122,11 +122,11 @@ def main():
     draw = ImageDraw.Draw(plate)
     ink = "#18313d"
     draw.text((110, 65), "Vertebrate body plan and integrated organ systems",font=font(77,True),fill=ink)
-    draw.text((115,170), "General organisation above; one teleost fish example below",font=font(40),fill="#49616c")
+    draw.text((115,170), "Fish-like axial model above; teleost internal anatomy below (taxon-specific)",font=font(40),fill="#49616c")
     draw.rounded_rectangle((86,266,3090,1157),radius=24,outline="#9eabb5",width=4,fill="white")
-    draw.text((140,309), "A  General vertebrate structural organisation",font=font(49,True),fill=ink)
+    draw.text((140,309), "A  Fish-like aquatic vertebrate body-plan model",font=font(49,True),fill=ink)
     plate.paste(broad,(230,435))
-    draw.text((160,1071), "Body-axis relationships are generalised; internal organ details differ across lineages.",font=font(34),fill="#435a65")
+    draw.text((160,1071), "Fish-like reference only: gills, fin musculature and tail shape are not universal.",font=font(34),fill="#435a65")
     draw.rounded_rectangle((86,1210,3090,2120),radius=24,outline="#9eabb5",width=4,fill="white")
     draw.text((135,1252), "B  Teleost fish — internal anatomy (example only)",font=font(47,True),fill=ink)
     plate.paste(teleost,(180,1370))
@@ -169,11 +169,11 @@ def main():
                        "PNG teaching comparison; original source anatomy unmodified, "
                        "separate English 1–11 teleost organ key added. Source SVGs "
                        "are NOT packaged in the app. Composite offered under CC BY-SA 4.0."),
-        keyEn=("A: general vertebrate organisation. B: specialised teleost example: "
+        keyEn=("A: aquatic fish-like vertebrate model. B: specialised teleost example: "
                "liver, stomach, intestine, heart, swim bladder, kidney, testis, "
                "ureter, sperm duct, urinary bladder and gills. "
                "The teleost arrangement is NOT universal across vertebrates."),
-        keyTa=("A: முதுகெலும்பிகளின் பொதுவான உடலமைப்பு. B: எலும்பு மீனின் "
+        keyTa=("A: மீனை ஒத்த நீர்வாழ் முதுகெலும்பியின் உடலமைப்பு. B: எலும்பு மீனின் "
                "உடலுறுப்பு அமைப்பு — எடுத்துக்காட்டு மட்டும். "
                "இதன் செவுள்கள், இதயம், சிறுநீரகம், செரிமான உறுப்புகள் ஆகியவை "
                "அனைத்து முதுகெலும்பிகளையும் பிரதிநிதித்துவப்படுத்தாது."),
@@ -205,7 +205,7 @@ def main():
           "PNG SHA-256: "+sha256(raw).hexdigest()+"; dimensions 3180 x 2260.\n\n"
           "**Biological caution:** B is a teleost, not a representative of all "
           "Vertebrata; swim bladders and gills are not universal vertebrate organs. "
-          "General plan A is separate from taxon-specific organ placement B.\n"
+          "Panel A also depicts a fish-like body plan; it is not a universal adult vertebrate. \n"
           "**Gates:** independent scientific and Tamil review, image readability "
           "and Android device tests still PENDING.\n",encoding="utf-8")
     print("PASS staged anatomy replacement:",ID,"bytes=",len(raw),"sha256=",sha256(raw).hexdigest())
