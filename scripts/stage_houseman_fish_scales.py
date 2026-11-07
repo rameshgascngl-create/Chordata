@@ -100,8 +100,8 @@ def main():
     out.paste(panel,(123,306))
     draw.rounded_rectangle((1290,280,3410,1550),radius=25,outline="#9badb5",width=4,fill="white")
     draw.text((1365,322),"A  Ganoid       B  Cycloid       C  Ctenoid",font=font(54,True),fill=ink)
-    resized=sourced.resize((1820,1247),Image.Resampling.LANCZOS)
-    out.paste(resized,(1420,405))
+    resized=sourced.resize((1700,1165),Image.Resampling.LANCZOS)
+    out.paste(resized,(1490,381))
     # Bottom line also prevents claiming the two panels show equal size.
     draw.text((120,1600),
               "Source A–C: Jon Houseman, CC BY-SA 3.0  |  D: original anatomical schematic  |  Not to scale",
