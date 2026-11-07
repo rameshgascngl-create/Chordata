@@ -85,17 +85,8 @@ jobs:
         run: gradle --no-daemon :app:compileDebugKotlin
       - name: Validate immutable content
         run: python3 scripts/audit_content.py
-      - name: Build debug APK
-        run: gradle --no-daemon :app:assembleDebug
-      - name: Verify 64 diagrams and exact image hashes inside assembled APK
-        run: python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
-      - name: Upload debug APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: Chordata_Native_QA_Debug
-          path: app/build/outputs/apk/debug/app-debug.apk
-          if-no-files-found: error
-          retention-days: 7
+      # An installable APK is NOT published here. Instrumentation runs in a
+      # separate required job; publication only occurs once both gates pass.
 
   android-instrumentation:
     needs: prepare-figures
@@ -162,4 +153,61 @@ jobs:
             app/build/outputs/androidTest-results/connected/
             app/build/reports/androidTests/connected/
           if-no-files-found: warn
+          retention-days: 14
+
+  publish-tested-qa-apk:
+    name: Publish QA APK only after native compilation and Android tests pass
+    needs: [prepare-figures, native-qa, android-instrumentation]
+    if: ${{ needs.native-qa.result == 'success' && needs.android-instrumentation.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify exact committed source and SHA
+        shell: bash
+        run: |
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          echo "Validated commit: $GITHUB_SHA"
+      - name: Restore exact audited source figures
+        uses: actions/download-artifact@v4
+        with:
+          name: Chordata_QA_Source_Figures
+          path: app/src/main/assets/
+      - name: Recheck 64 slots before final QA build
+        run: |
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_pencil_coverage.py
+          python3 scripts/audit_coverage_report.py
+          python3 scripts/write_figure_review_register.py --check
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
+      - name: Install Android SDK for validated QA assembly
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Build QA APK after all test gates pass
+        run: gradle --no-daemon :app:assembleDebug
+      - name: Verify committed figure hashes inside gated APK
+        run: python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
+      - name: Publish gated Parker pigeon QA APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Parker_Pigeon_Tested_QA_APK
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
           retention-days: 14
