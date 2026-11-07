@@ -758,13 +758,15 @@
       "keyEn": "Original Scoliodon-type shark brain (dorsal aspect): paired bilobed olfactory bulbs distinct from olfactory sacs; stout peduncles; smooth cerebrum; short diencephalon and pineal stalk; partly exposed optic lobes; enlarged folded cerebellum; paired corpora restiformia; medulla and spinal cord. Proportions illustrative, not species-specific dissection.",
       "keyTa": "சுறாவகை மூளையின் முதுகுப்புறத் தோற்றம்: மணநுகர்வுப் பைகள், இருமடிப்புடைய மணநுகர்வு முளைகள், மணநுகர்வுத் தண்டுகள், பெருமூளை, இடைமூளை, மேல்நிலை ஒளியுணர்வு மடல்கள், மடிப்புகளுள்ள சிறுமூளை, ரெஸ்டிஃபார்ம் உடல்கள், முகுளம் மற்றும் தண்டுவடம். இது விளக்கப் படம்; மாதிரி உடற்கூறு ஆய்வுப் படம் அல்ல.",
       "scope": "Dorsal shark brain explanatory reconstruction, not a dissected milk-shark specimen",
-      "visualReview": "REPLACED_VISUAL_QA_PENDING",
+      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
       "svgMaster": "docs/original_plate_svg/shark_brain_dorsal_en.svg",
       "topicId": "u2-scoliodon",
       "page": 4,
       "sectionKey": "brain",
       "learningObjective": "Locate paired olfactory bulbs and stalks, smooth telencephalon, pineal stalk, partly hidden optic lobes, folded cerebellum, corpora restiformia, medulla and cord",
-      "svgSha256": "97b4c0848cfda81fc3f0c8af731d4cd348aa788776db23a6e41773135da13be9"
+      "svgSha256": "97b4c0848cfda81fc3f0c8af731d4cd348aa788776db23a6e41773135da13be9",
+      "artworkDisposition": "REJECTED_FOR_TEACHING_VISUAL_QUALITY_NOT_SCIENTIFICALLY_ACCEPTED",
+      "reviewerNote": "User rejected synthetic/simplified appearance of current CHORDATA anatomical figures on 2026-11-07; this brain PNG must not be treated as accepted textbook artwork. Retain for audit only. Replacement needs authentic anatomical drawing, taxon-accurate provenance, and independent scientific and Tamil review."
     },
     {
       "diagramId": "u2-accessory-respiration-accessory-organs-comparison",
