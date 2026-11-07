@@ -287,19 +287,30 @@ def main():
             )
         if (figure["diagramId"] == "u2-scoliodon-external-labelled"
                 and figure.get("sourceUrl")):
+            # Guard against the previous scientific error: the historically
+            # mislabeled Scoliodon laticaudus is spadenose, not the milk
+            # shark covered by the S. sorrakowah type-study lesson.
             require(
                 figure["lang"] == "en"
-                and figure["author"] == "Johannes Muller and Friedrich Henle (1838-1841); CHORDATA QA (teaching layout)"
-                and figure["sourceUrl"] == "https://commons.wikimedia.org/wiki/File:Carcharias_laticaudus_by_muller_and_henle.png"
+                and figure["author"] == "Eduard Rüppell (1837) — historical plate; Field Museum Library/BHL scan; CHORDATA QA crop/layout"
+                and figure["sourceUrl"] == (
+                    "https://commons.wikimedia.org/wiki/File:"
+                    "Neue_Wirbelthiere_zu_der_Fauna_von_Abyssinien_geh%C3%B6rig_"
+                    "(Taf._18_Fig.1-4)_BHL37140507.jpg"
+                )
+                and figure.get("sourceSha1") == "884bc3fdcd1dcfe357c51e33f86ecd2a226a78d0"
                 and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/"
                 and figure.get("license", "").startswith("Public domain")
                 and len(figure.get("sourceSha256", [])) == 1
-                and "five paired gill slits" in figure.get("keyEn", "")
-                and "Spiracles absent" in figure.get("keyEn", "")
-                and "cannot be verified" in figure.get("keyEn", "")
+                and figure.get("taxon") == "Rhizoprionodon acutus (Rüppell, 1837)"
+                and figure.get("historicLessonName") == "Scoliodon sorrakowah"
+                and figure.get("historicalPlateFigure") == "Plate XVIII, Figure 4 only"
+                and "five pairs of gill slits" in figure.get("keyEn", "")
+                and "NOT Scoliodon laticaudus" in figure.get("keyEn", "")
+                and "Figure 4" in figure.get("modifications", "")
                 and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"
                 and not figure.get("svgMaster"),
-                "new Scoliodon species plate: history, source integrity, or anatomical caveat absent"
+                "milk-shark figure: wrong species, original scan, fig. 4 crop or rights"
             )
         if figure["diagramId"] == "u1-vertebrata-characters-vertebrate-anatomy":
             require(
