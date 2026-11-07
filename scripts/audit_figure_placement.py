@@ -267,7 +267,7 @@ def main():
                 and not figure.get("svgSha256")
                 and len(figure.get("referenceUrls", [])) == 2
                 and "Columba livia" in figure.get("scope", "")
-                and "partly hidden" in figure.get("keyEn", "")
+                and "partly obscured" in figure.get("keyEn", "")
                 and "JPEG-to-PNG" in figure.get("modifications", "")
                 and figure.get("visualReview") == "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
