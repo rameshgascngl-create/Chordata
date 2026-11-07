@@ -180,6 +180,32 @@ def main():
             else:
                 require(figure["author"] == "Chordata QA project — original numbered schematic",
                         "original plate creator attribution changed: " + name)
+        if (figure["diagramId"] in ("u5-columba-endoskeleton", "u5-rabbit-endoskeleton")
+                and figure["lang"] == "en" and figure.get("sourceUrl")):
+            original_name = ("pigeon_endoskeleton_line_art.png"
+                             if figure["diagramId"] == "u5-columba-endoskeleton"
+                             else "rabbit_endoskeleton_line_art.png")
+            original_bytes = (ASSETS / "figures" / original_name).read_bytes()
+            require(
+                hashlib.sha256(original_bytes).hexdigest() == figure.get("sourceAssetSha256")
+                and figure.get("sourceAsset") == "figures/" + original_name
+                and original_bytes == raw
+                and figure.get("license", "").startswith("Public domain")
+                and figure.get("sourceUrl", "").startswith("https://commons.wikimedia.org/wiki/File:")
+                and figure.get("modifications"),
+                "historical skeleton source bytes/rights/credits mismatch: " + name
+            )
+        if (figure["diagramId"] == "u3-rana-brain" and figure.get("sourceUrl")):
+            require(
+                figure["lang"] == "en" and figure.get("sourceUrl") ==
+                "https://commons.wikimedia.org/wiki/File:The_biology_of_the_frog_(1927)_(20356465586).jpg"
+                and "1927" in figure.get("author", "")
+                and figure.get("license", "").startswith("Public domain")
+                and len(figure.get("sourceSha256", [])) == 1
+                and figure.get("modifications")
+                ,
+                "frog dorsal historical source/rights missing: " + name
+            )
         if figure["diagramId"] in pencil_ids:
             if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
@@ -192,6 +218,10 @@ def main():
                         "Branchiostoma original credit / ShareAlike / JPEG-to-PNG modification missing")
                 require(all(str(i) in figure.get("keyEn", "") for i in range(1, 33)),
                         "Branchiostoma 32-part external anatomy key missing")
+            elif (figure["diagramId"] in ("u5-columba-endoskeleton", "u5-rabbit-endoskeleton")
+                    and figure["lang"] == "en" and figure.get("sourceUrl")):
+                require(figure["author"] != "AI-generated original (ChatGPT ImageGen)",
+                        "historical skeleton still incorrectly labelled ImageGen: " + name)
             else:
                 require(figure["author"] == "AI-generated original (ChatGPT ImageGen)",
                         "original ImageGen plate creator attribution changed: " + name)
