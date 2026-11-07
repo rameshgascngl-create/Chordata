@@ -224,13 +224,20 @@
       "figure": "fish_fin_positions",
       "lang": "shared",
       "path": "pencil_plates/fish_fin_positions.png",
-      "size": 15801,
-      "sha256": "610ac66ed1064feca4a882d0a5b0d5dfbffd19debfcb8742106bfd1c9c120667",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 2042805,
+      "sha256": "c8a9bfa56abb7235ab5989c2ef95f5690a741d24b18639ac0db65186c6067fc4",
+      "author": "Unknown original illustrator (1898), Oregon Fish and Game Protector; University of Washington Freshwater and Marine Image Bank; CHORDATA QA layout",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Generalised bony fish, viewed from the side. Median fins: 1 Dorsal · 2 Caudal · 3 Anal. Paired fins (one of each pair visible): 4 Pectoral · 5 Pelvic. Pelvic fin position varies among fishes.",
-      "keyTa": "எலும்பு மீனின் பொதுவான பக்கவாட்டுத் தோற்றம். நடுக்கோட்டுத் துடுப்புகள்: 1 முதுகுத் துடுப்பு · 2 வால் துடுப்பு · 3 மலவாய்த் துடுப்பு. இணைத் துடுப்புகள் (ஒவ்வோர் இணையிலும் ஒன்று தெரிகிறது): 4 மார்புத் துடுப்பு · 5 இடுப்புத் துடுப்பு. இடுப்புத் துடுப்பின் அமைவிடம் மீன் வகைகளுக்கு ஏற்ப மாறுபடும்.",
-      "referenceUrl": "https://www.visitflorida.com/travel-ideas/articles/florida-fishing-internal-and-external-anatomy-of-a-fish/"
+      "keyEn": "Original numerals: 1 dorsal, 2 adipose (not all fishes), 3 caudal, 4 anal = median fins. 5 pectoral and 6 pelvic = paired fins. Other numbers in the source indicate landmarks, jaws, operculum, lateral line and body measurements.",
+      "keyTa": "மூலப்பட எண்கள்: 1 முதுகுத் துடுப்பு, 2 கொழுப்புத் துடுப்பு (எல்லா மீன்களிலும் இல்லை), 3 வால் துடுப்பு, 4 மலவாய்த் துடுப்பு — நடுக்கோட்டுத் துடுப்புகள். 5 மார்புத் துடுப்பு, 6 இடுப்புத் துடுப்பு — இணைத் துடுப்புகள்.",
+      "referenceUrl": "https://www.visitflorida.com/travel-ideas/articles/florida-fishing-internal-and-external-anatomy-of-a-fish/",
+      "license": "Public domain — 1898 Oregon Fish and Game report, UW Freshwater and Marine Image Bank",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FMIB_47883_Figure_of_a_Fish,_Showing_the_Location_of_Parts_Usually_Referred_to_in_Desciption_-_1_Dorsal_fin;_2_Adipose_fin;_3_Caudal_fin;_4.jpeg",
+      "sourceSha256": [
+        "09d08ced51ad13c0545e59a9a86eb830b52ed8e3831151127f1a5deca04b3132"
+      ],
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "modifications": "Cropped original numbered fish from 1898 print, converted to greyscale/high contrast and enlarged proportionally. New English fin legend outside original engraving; original 1–19 anatomical leaders not modified."
     },
     {
       "diagramId": "u2-migration-migration-cycle",
