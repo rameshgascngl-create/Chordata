@@ -684,19 +684,20 @@
       "figure": "scoliodon_external_anatomy",
       "lang": "en",
       "path": "pencil_plates/scoliodon_external_anatomy_en.png",
-      "sha256": "b59c7c95fa45ff49363333414c875e82934303873d19227d581d6b4069892af5",
-      "size": 1681469,
-      "author": "Johannes Muller and Friedrich Henle (1838-1841); CHORDATA QA (teaching layout)",
-      "license": "Public domain, original Muller-Henle 1838-1841 plate",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carcharias_laticaudus_by_muller_and_henle.png",
+      "sha256": "f422a6fedf39b78c3c262eef521242b65e5a7c6c68b5e25869e557c33bfe48f7",
+      "size": 1102899,
+      "author": "Eduard Rüppell (1837) — historical plate; Field Museum Library/BHL scan; CHORDATA QA crop/layout",
+      "license": "Public domain — Rüppell 1837; faithful historical scan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neue_Wirbelthiere_zu_der_Fauna_von_Abyssinien_geh%C3%B6rig_(Taf._18_Fig.1-4)_BHL37140507.jpg",
       "referenceUrls": [
-        "https://commons.wikimedia.org/wiki/File:Carcharias_laticaudus_by_muller_and_henle.png",
-        "https://sharks.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?cat=TAB_DESCRIPTION&id=62733"
+        "https://commons.wikimedia.org/wiki/File:Neue_Wirbelthiere_zu_der_Fauna_von_Abyssinien_geh%C3%B6rig_(Taf._18_Fig.1-4)_BHL37140507.jpg",
+        "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=160219",
+        "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=26421"
       ],
-      "modifications": "Whole unaltered historical species engraving fitted proportionally to a white page; a modern identification key was placed outside the engraving, with no invented arrows or anatomical relabelling.",
+      "modifications": "Original full-page historic colour scan cropped to Plate XVIII Figure 4 (milk shark) only; proportional resizing, separate external English identification key; no organ anatomy invented.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Scoliodon laticaudus: depressed spade-shaped snout, small eyes, five paired gill slits, two dorsal fins, paired pectoral and pelvic fins, anal fin and heterocercal caudal fin. Spiracles absent. The ventral mouth cannot be verified from the lateral engraving alone.",
-      "keyTa": "Scoliodon laticaudus: அகன்ற தட்டையான முன்மூக்கு, சிறிய கண்கள், ஐந்து இணை செவுள் பிளவுகள், இரு முதுகுத் துடுப்புகள், மார்பு மற்றும் இடுப்புத் துடுப்புகள், மலவாய்த் துடுப்பு, சமமற்ற இருமடல் வால்துடுப்பு. பக்கத்தோற்றத்தில் கீழ்நோக்கிய வாய் தெளிவாகக் காணப்படாது.",
+      "keyEn": "Milk shark (Rhizoprionodon acutus): pointed snout, developed labial furrows, five pairs of gill slits, first dorsal near pectoral rear tips, smaller second dorsal, anal fin and heterocercal caudal fin. Historic Scoliodon sorrakowah is a synonym in this syllabus, NOT Scoliodon laticaudus.",
+      "keyTa": "பால் சுறா — Rhizoprionodon acutus. நீண்ட கூரிய முகப்பு, வாய்மூலை மடிப்புப் பள்ளங்கள், ஐந்து இணைச் செவுள் பிளவுகள், முதல் முதுகுத் துடுப்பு, சிறிய இரண்டாம் முதுகுத் துடுப்பு, குதத் துடுப்பு, சமச்சீரற்ற வால் துடுப்பு காணப்படும். பாடத்திட்டத்தின் Scoliodon sorrakowah என்னும் பழைய பெயர் இவ்வினத்தைக் குறிக்கிறது; Scoliodon laticaudus அல்ல.",
       "scope": "Exact registered lesson section; visual study aid only",
       "visualReview": "REPLACED_VISUAL_QA_PENDING",
       "topicId": "u2-scoliodon",
@@ -705,8 +706,12 @@
       "learningObjective": "Five gill slits, paired fins, ventral mouth and heterocercal caudal fin.",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
       "sourceSha256": [
-        "43eaa28735a7fc02feef5997be6410512c5f16253909c303cd79b70041f0ad4f"
-      ]
+        "14b4c88753fcb82c839252eb666fc662e41b13d293d221628a7b97c5374ace65"
+      ],
+      "sourceSha1": "884bc3fdcd1dcfe357c51e33f86ecd2a226a78d0",
+      "taxon": "Rhizoprionodon acutus (Rüppell, 1837)",
+      "historicLessonName": "Scoliodon sorrakowah",
+      "historicalPlateFigure": "Plate XVIII, Figure 4 only"
     },
     {
       "diagramId": "u2-scoliodon-brain-labelled",
