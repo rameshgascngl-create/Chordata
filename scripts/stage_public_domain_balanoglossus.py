@@ -58,8 +58,12 @@ def stage():
     # Figure 9 is at the lower right of the 1905 encyclopaedia plate.
     # Keep the entire proboscis/collar/trunk silhouette and its historical
     # abbreviations. Figure 10 (on the left) is excluded for science accuracy.
-    external = plate.crop((1250, 1390, 1488, 2380))
+    # The published engraving is a vertical figure near the page's right edge.
+    # Isolate the entire proboscis and posterior trunk, excluding annotation
+    # fragments and the adjacent (scientifically outdated) figure 10.
+    external = plate.crop((1320, 1220, 1488, 2387))
     external = external.rotate(90, expand=True)
+    external = ImageOps.expand(external, border=(75, 30, 75, 30), fill="white")
     output = Image.new("RGB", (2200, 1300), "#fffefa")
     draw = ImageDraw.Draw(output)
     draw.text((100, 65), "Balanoglossus — external morphology", font=ttf(66, True), fill="#162a35")
@@ -121,7 +125,7 @@ def stage():
         f"Creator: {CREATOR}. Copyright: {RIGHTS}.\n"
         f"Original downloaded PNG SHA-256: \`{original_sha}\`.\n"
         f"Adapted PNG SHA-256: \`{digest}\`.\n\n"
-        "Cropped **figure 9 only** from a larger multi-taxon original, rotated "
+        "Cropped **figure 9 only** from a larger multi-taxon original with padded ends, rotated "
         "anti-clockwise to put the proboscis at left, proportionally resized, "
         "and added a modern anatomical key. No original label is represented "
         "as an independent modern anatomical approval.\n\n"
