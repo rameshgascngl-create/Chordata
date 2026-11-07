@@ -222,6 +222,17 @@ def main():
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
                 require(figure["author"] != "AI-generated original (ChatGPT ImageGen)",
                         "historical skeleton still incorrectly labelled ImageGen: " + name)
+            elif (figure["diagramId"] == "u5-flight-adaptations-avian-lung"
+                  and figure["lang"] == "en" and figure.get("sourceUrl")):
+                require(
+                    figure["author"].startswith("L. Shyamal (2007")
+                    and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:BirdRespiration.svg"
+                    and figure.get("license", "").startswith("Public domain")
+                    and len(figure.get("sourceSha256", [])) == 1
+                    and "2400" in figure.get("modifications", "")
+                    and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/",
+                    "source-credited avian air-sac illustration lacks correct rights/metadata"
+                )
             else:
                 require(figure["author"] == "AI-generated original (ChatGPT ImageGen)",
                         "original ImageGen plate creator attribution changed: " + name)
