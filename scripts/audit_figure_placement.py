@@ -301,6 +301,31 @@ def main():
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                 "Rana historic 1888 original PNG source, modern taxon or rights check failed"
             )
+        if (figure["diagramId"] == "u4-calotes-external"
+                and figure.get("sourceKind") == "AUTHENTIC_AMSTERDAM_AGAMA_VERSICOLOR_TIFF_CONVERTED_PNG"):
+            require(
+                figure.get("lang") == "en"
+                and figure.get("author", "").startswith("Unknown historical engraver; Iconographia Zoologica")
+                and figure.get("sourceUrl", "").startswith(
+                    "https://commons.wikimedia.org/wiki/File:Agama_versicolor_-_1700-1880_-_Print_-"
+                )
+                and figure.get("sourceSha1") == "145231082cf3be25f56571dd7c7aa33e84274195"
+                and len(figure.get("sourceSha256", [])) == 1
+                and figure.get("sourceFormat") == "TIFF"
+                and figure.get("installedFormat") == "PNG"
+                and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/"
+                and figure.get("license", "").startswith("Public domain")
+                and len(figure.get("referenceUrls", [])) == 3
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256")
+                and "Calotes versicolor" in figure.get("scope", "")
+                and "artistic pose" in figure.get("scope", "")
+                and "not a special anatomical organ" in figure.get("keyEn", "")
+                and "no artwork newly drawn" in figure.get("modifications", "").lower()
+                and figure.get("visualReview") == "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW"
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                "Calotes historical source print taxon, original hash and PNG rights/provenance fail"
+            )
         if (figure["diagramId"] == "u2-scoliodon-brain-labelled"
                 and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
             require(
