@@ -35,10 +35,19 @@
       "figure": "avian_respiration",
       "lang": "en",
       "path": "pencil_plates/avian_respiration_en.png",
-      "sha256": "636a10215ff6dee91123ad353eb49cee91e4d3263a985b5c2227826c25a8a4df",
-      "size": 2017253,
-      "author": "AI-generated original (ChatGPT ImageGen)",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+      "sha256": "c3d43b9dbdf71d41b173d2543f4c51495b699ed2d96c3d2667370672c8bbacb5",
+      "size": 425289,
+      "author": "L. Shyamal (2007; updated 2012), after R. McNeill Alexander; CHORDATA QA (raster rendering)",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "license": "Public domain — dedicated by L. Shyamal",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BirdRespiration.svg",
+      "sourceSha256": [
+        "960ad855c8af70ca9b7da9b6e7e610024b342d0376a8f84d09a80ca3d9832618"
+      ],
+      "modifications": "Original publicly released vector rendered as a 2400-pixel-wide lossless PNG on white background; anatomy and labels unchanged; source SVG is not embedded in the Android APK.",
+      "keyEn": "Avian respiration: posterior air sacs, parabronchial lungs and anterior air sacs; fresh air traverses the parabronchi during both phases.",
+      "keyTa": "பறவைகளின் நுரையீரல் மற்றும் காற்றுப்பைகள்; ஆங்கிலப் படக்குறியீடுகள் மட்டும்."
     },
     {
       "diagramId": "u5-flight-adaptations-avian-lung",
