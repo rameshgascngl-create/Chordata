@@ -684,26 +684,29 @@
       "figure": "scoliodon_external_anatomy",
       "lang": "en",
       "path": "pencil_plates/scoliodon_external_anatomy_en.png",
-      "sha256": "34b69c0858f3788ee448990b6df9644d39d3448f564e624c9acc3237f1f49026",
-      "size": 146334,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "b59c7c95fa45ff49363333414c875e82934303873d19227d581d6b4069892af5",
+      "size": 1681469,
+      "author": "Johannes Muller and Friedrich Henle (1838-1841); CHORDATA QA (teaching layout)",
+      "license": "Public domain, original Muller-Henle 1838-1841 plate",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carcharias_laticaudus_by_muller_and_henle.png",
       "referenceUrls": [
-        "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        "https://commons.wikimedia.org/wiki/File:Carcharias_laticaudus_by_muller_and_henle.png",
+        "https://sharks.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?cat=TAB_DESCRIPTION&id=62733"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Five gill slits, paired fins, ventral mouth and heterocercal caudal fin.",
-      "keyTa": "",
+      "modifications": "Whole unaltered historical species engraving fitted proportionally to a white page; a modern identification key was placed outside the engraving, with no invented arrows or anatomical relabelling.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Scoliodon laticaudus: depressed spade-shaped snout, small eyes, five paired gill slits, two dorsal fins, paired pectoral and pelvic fins, anal fin and heterocercal caudal fin. Spiracles absent. The ventral mouth cannot be verified from the lateral engraving alone.",
+      "keyTa": "Scoliodon laticaudus: அகன்ற தட்டையான முன்மூக்கு, சிறிய கண்கள், ஐந்து இணை செவுள் பிளவுகள், இரு முதுகுத் துடுப்புகள், மார்பு மற்றும் இடுப்புத் துடுப்புகள், மலவாய்த் துடுப்பு, சமமற்ற இருமடல் வால்துடுப்பு. பக்கத்தோற்றத்தில் கீழ்நோக்கிய வாய் தெளிவாகக் காணப்படாது.",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/scoliodon_external_anatomy_en.svg",
+      "visualReview": "REPLACED_VISUAL_QA_PENDING",
       "topicId": "u2-scoliodon",
       "page": 1,
       "sectionKey": "external-features",
       "learningObjective": "Five gill slits, paired fins, ventral mouth and heterocercal caudal fin.",
-      "svgSha256": "422ed4c0466ae0522c1964891f006abfb0426efb2723134b74804b057b6c0b71"
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceSha256": [
+        "43eaa28735a7fc02feef5997be6410512c5f16253909c303cd79b70041f0ad4f"
+      ]
     },
     {
       "diagramId": "u2-scoliodon-brain-labelled",
