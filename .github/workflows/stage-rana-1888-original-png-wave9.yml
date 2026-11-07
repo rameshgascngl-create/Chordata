@@ -1,0 +1,74 @@
+name: CHORDATA Wave 9 — original 1888 Madras frog plate to PNG (isolated QA)
+on:
+  push:
+    branches: ["qa/chordata-original-rana-hexadactyla-png-wave9-20261107"]
+    paths:
+      - "scripts/stage_1888_rana_hexadactyla_png_wave9.py"
+      - "scripts/audit_figure_placement.py"
+      - ".github/workflows/stage-rana-1888-original-png-wave9.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-audit-and-compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PNG decoder only
+        run: python3 -m pip install Pillow==11.3.0
+      - name: Source-authentic historic plate with hash-verified pixel-preserving PNG conversion
+        run: python3 scripts/stage_1888_rana_hexadactyla_png_wave9.py
+      - name: Run all 64-slot figure/content/rights/coverage checks
+        run: bash scripts/qa_all.sh
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Install Android SDK 37
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile Kotlin app with new authentic frog plate
+        run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Commit only original PNG, rights and audit records
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/rana_external_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_RANA_1888_ORIGINAL_PNG_WAVE9_QA.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace drawn frog morphology with 1888 Madras specimen plate PNG"
+            git push origin HEAD:qa/chordata-original-rana-hexadactyla-png-wave9-20261107
+          fi
+      - name: Retain source for visual-review comparison
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Wave9_Original_1888_Madras_Green_Pond_Frog_PNG
+          path: |
+            app/src/main/assets/pencil_plates/rana_external_en.png
+            docs/CHORDATA_RANA_1888_ORIGINAL_PNG_WAVE9_QA.md
+          if-no-files-found: warn
+          retention-days: 14
