@@ -561,20 +561,34 @@
       "figure": "calotes_external",
       "lang": "en",
       "path": "pencil_plates/calotes_external_en.png",
-      "sha256": "7164c9593591d1279f32c26ef6d0b86603937479d3643c470b71fae5de958fb8",
-      "size": 69421,
-      "author": "CHORDATA QA — original computer-assisted anatomical schematic",
-      "license": "Original provisional project artwork; no third-party image reproduced",
-      "sourceUrl": "",
+      "sha256": "5fcd2cc2ae68d0adda0b406934a9c07aa857bd53dbda19d99abdb5ef0cc14a2f",
+      "size": 17019509,
+      "author": "Unknown historical engraver; Iconographia Zoologica, University of Amsterdam Special Collections, print dated only between 1700 and 1880",
+      "license": "Public domain original 18th–19th-century zoological print, faithful Amsterdam university scan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif",
       "referenceUrls": [
-        "https://animaldiversity.org/accounts/Calotes_versicolor/"
+        "https://commons.wikimedia.org/wiki/File:Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif",
+        "https://commons.wikimedia.org/wiki/Category:Calotes_s._str._in_Iconographia_Zoologica",
+        "https://reptile-database.reptarium.cz/species?genus=Calotes&species=versicolor"
       ],
-      "modifications": "Original diagram drawn programmatically with Pillow; English labels; PNG export.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Scaled integument, dorsal crest, tympanum, limb digits and long tail in lateral schematic view.",
-      "keyTa": "",
-      "scope": "Exact lesson section: external-features",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL"
+      "modifications": "Original print pixels preserved during TIFF-to-PNG conversion only; NO AI, vector, algorithmically drawn anatomy, crop, upscale or added leader labels",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Authentic historic print of Calotes versicolor, labelled Agama versicolor in the archive. Identify the elongated trunk, granular scales, pointed snout, exposed eye, dorsal and nuchal crest, four clawed limbs and long coiled tail. Tail curvature reflects the artist's composition, not a special anatomical organ. No internal anatomy is illustrated.",
+      "keyTa": "பல்கலைக்கழக அரியநூல் தொகுப்பில் உள்ள வரலாற்று ஓணான் (*Calotes versicolor*) ஓவியம்; பழைய பெயர் *Agama versicolor*. நீண்ட உடல், செதில்கள், கூரிய முகப்பு, கண், முதுகுப்புற முள் வரிசை, நகங்களுள்ள நான்கு கால்கள், நீண்ட வால் ஆகியவற்றைக் காணலாம். ஓவியத்தில் வால் வளைந்திருக்கிறது; இது தனி உடற்கூறு அமைப்பு அன்று. உள்ளுறுப்புகள் காட்டப்படவில்லை.",
+      "scope": "Historical external specimen rendering *Agama versicolor* = *Calotes versicolor*; lateral perspective with visible body scales, nuchal crest, clawed digits and elongated curled tail; tail curl is an artistic pose, not anatomical loop",
+      "visualReview": "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif",
+      "sourceSha1": "145231082cf3be25f56571dd7c7aa33e84274195",
+      "sourceSha256": [
+        "15c7ddc8ca17d7d7ff6cab28abf90f414c9978aba6f1f16587153d3338415826"
+      ],
+      "sourceFormat": "TIFF",
+      "installedFormat": "PNG",
+      "sourceKind": "AUTHENTIC_AMSTERDAM_AGAMA_VERSICOLOR_TIFF_CONVERTED_PNG",
+      "topicId": "u4-calotes",
+      "page": 1,
+      "sectionKey": "external-features"
     },
     {
       "diagramId": "u5-rabbit-brain",
