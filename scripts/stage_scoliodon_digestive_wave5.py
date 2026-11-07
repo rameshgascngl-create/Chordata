@@ -152,6 +152,10 @@ def stage(root,svg,png):
              sourceUrl='',referenceUrls=REFS,
              modifications='Entirely original line drawing; no third-party artwork copied or traced.',
              scope='Type study digestive-system; schematic organs, not a dissection',
+             topicId='u2-scoliodon',page=2,sectionKey='digestive-system',
+             learningObjective=('Identify the J-shaped cardiac and pyloric stomach, blind sac, '
+                                'liver lobes, gallbladder/bile duct, pancreas, scroll-valve intestine, '
+                                'rectum and salt-excreting rectal gland in a shark-type model'),
              keyEn=('J-shaped cardiac and pyloric stomach; blind sac; liver lobes, gallbladder and bile duct; '
                     'pancreas and duct to proximal intestine; scroll (spiral) valve; rectum and cloaca. '
                     'Rectal gland opens into rectum and excretes salt; it is NOT a digestive gland.'),
