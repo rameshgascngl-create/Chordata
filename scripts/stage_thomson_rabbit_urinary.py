@@ -68,7 +68,7 @@ def main():
     d.text((x+45,305),"Original anatomical labels",font=ft(54,True),fill=ink)
     d.text((x+50,400),"Male urinary route",font=ft(43,True),fill="#2b667e")
     y=475
-    for line in ["A  Kidney", "U  Ureter", "Bl  Urinary bladder", "Ur  Urethra"]:
+    for line in ["K  Kidney", "U  Ureter", "Bl  Urinary bladder", "Ur  Urethra"]:
         d.text((x+65,y),line,font=ft(41),fill=ink);y+=82
     d.line((x+48,805,3170,805),width=4,fill="#c1ccd1")
     d.text((x+50,850),"Female urinary route",font=ft(43,True),fill="#2b667e")
@@ -101,11 +101,11 @@ def main():
                        "scaled with contrast adjustment; English urinary-system key "
                        "placed outside the historical ink. Both genders retained. "
                        "Reproductive structures explicitly labelled as context."),
-        keyEn=("Male: A kidney, U ureter, Bl bladder, Ur urethra. "
+        keyEn=("Male: K kidney, U ureter, Bl bladder, Ur urethra. "
                "Female: K kidney, U ureter, Bl bladder, Ve vestibule. "
                "Other structures in the historical source belong to the "
                "reproductive systems and are not urinary organs."),
-        keyTa=("ஆண் முயல்: A சிறுநீரகம், U சிறுநீர்க்குழாய், Bl சிறுநீர்ப்பை, "
+        keyTa=("ஆண் முயல்: K சிறுநீரகம், U சிறுநீர்க்குழாய், Bl சிறுநீர்ப்பை, "
                "Ur சிறுநீர்ப்புறக்குழாய். பெண் முயல்: K சிறுநீரகம், U சிறுநீர்க்குழாய், "
                "Bl சிறுநீர்ப்பை, Ve முன்கூடம் (சிறுநீர்–இனப்பெருக்க வழி). "
                "மற்ற பகுதிகள் இனப்பெருக்க மண்டலத்தைச் சார்ந்தவை."),
