@@ -303,6 +303,33 @@ def main():
                         and not figure.get("svgSha256"),
                         "Wellcome teeth image rights, author, jaw labels or scientific scope are invalid"
                     )
+                elif (figure["diagramId"] == "u4-skull-temporal-skull-types"
+                      and figure.get("sourceKind") == "GADOW_1901_ORIGINAL_SKULL_FIG54_JPEG_TO_PNG"):
+                    require(
+                        figure.get("lang") == "shared"
+                        and figure.get("path") == "pencil_plates/temporal_fenestrae.png"
+                        and figure.get("author") == "Hans Gadow, Amphibia and Reptiles, The Cambridge Natural History, vol. VIII (1901), Fig. 54; individual original draughtsperson not established"
+                        and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Amphibia_and_reptiles_(1901)_(17979294289).jpg"
+                        and figure.get("sourceFormat") == "JPEG"
+                        and figure.get("installedFormat") == "PNG"
+                        and len(figure.get("sourceSha256", [])) == 1
+                        and len(figure.get("sourceSha1", "")) == 40
+                        and figure.get("license", "").startswith("Public domain")
+                        and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/"
+                        and figure.get("referenceUrl") == figure.get("sourceUrl")
+                        and figure.get("topicId") == "u4-skull"
+                        and figure.get("page") == 1
+                        and figure.get("sectionKey") == "temporal-fenestrae"
+                        and "turtles are nested within Diapsida" in figure.get("keyEn", "")
+                        and "A Elginia is a parareptile" in figure.get("keyEn", "")
+                        and "இன்றைய" in figure.get("keyTa", "")
+                        and "டையாப்சிட்" in figure.get("keyTa", "")
+                        and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                        and figure.get("visualReview") == "ORIGINAL_GADOW_1901_SKULL_PLATE_PENDING_EXPERT_TAXONOMY_REVIEW"
+                        and not figure.get("svgMaster")
+                        and not figure.get("svgSha256"),
+                        "Gadow Fig 54 original rights, taxonomy qualifications or exact skull lesson placement missing"
+                    )
                 else:
                     require(figure["author"] == "Chordata QA project — original numbered schematic",
                             "original plate creator attribution changed: " + name)
