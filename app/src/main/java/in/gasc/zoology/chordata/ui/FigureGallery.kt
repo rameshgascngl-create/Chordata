@@ -74,7 +74,7 @@ internal fun decodeFocusedHistoricalDogfishBrain(
     context: Context, assetDirectory: String, filename: String
 ): Bitmap? {
     context.assets.open("$assetDirectory/$filename").use { stream ->
-        val decoder = BitmapRegionDecoder.newInstance(stream, false)
+        val decoder = BitmapRegionDecoder.newInstance(stream, false) ?: return null
         return try {
             if (decoder.width != 1420 || decoder.height != 1010) null
             else decoder.decodeRegion(Rect(40, 35, 540, 976), BitmapFactory.Options())
