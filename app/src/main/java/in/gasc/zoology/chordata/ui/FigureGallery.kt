@@ -60,6 +60,20 @@ internal fun decodePlateBitmap(
     }
 }
 
+/**
+ * The credited 1878 dogfish comparative engraving occupies the left 500 x 941
+ * region of its 1420 x 1010 original-source canvas. The right region is a
+ * prose attribution panel, already exposed separately in FigureGallery.
+ *
+ * Display only: keep the original committed PNG, its SHA-256 and source credit
+ * untouched. Do not infer Scoliodon species identity from this crop.
+ */
+internal fun focusedHistoricalDogfishBrain(source: Bitmap, diagramId: String): Bitmap {
+    if (diagramId != "u2-scoliodon-brain-labelled" ||
+        source.width != 1420 || source.height != 1010) return source
+    return Bitmap.createBitmap(source, 40, 35, 500, 941)
+}
+
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
@@ -208,7 +222,9 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             val bitmap = remember(context, plate.assetDirectory, plate.filename) {
                 runCatching {
                     decodePlateBitmap(context, plate.assetDirectory, plate.filename,
-                        maxLongestEdgePx = 1200)?.asImageBitmap()
+                        maxLongestEdgePx =
+                            if (plate.id == "u2-scoliodon-brain-labelled") 1600 else 1200)
+                        ?.let { focusedHistoricalDogfishBrain(it, plate.id).asImageBitmap() }
                 }.getOrNull()
             }
             if (bitmap == null) {
@@ -235,7 +251,9 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             fontWeight = FontWeight.SemiBold)
                         Image(bitmap = bitmap, contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
                             contentScale = ContentScale.Fit,
-                            modifier = Modifier.fillMaxWidth().heightIn(min = 170.dp, max = 340.dp)
+                            modifier = Modifier.fillMaxWidth().heightIn(
+                                min = 170.dp,
+                                max = if (plate.id == "u2-scoliodon-brain-labelled") 540.dp else 340.dp)
                                 .clickable { zoomed = true }.testTag("figure-image-" + plate.id))
                         Text(if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
                         Text(
@@ -292,7 +310,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     val fullImage = remember(context, plate.assetDirectory, plate.filename, zoomed) {
                         runCatching {
                             decodePlateBitmap(context, plate.assetDirectory, plate.filename)
-                                ?.asImageBitmap()
+                                ?.let { focusedHistoricalDogfishBrain(it, plate.id).asImageBitmap() }
                         }.getOrNull()
                     }
                     var scale by remember(plate.id, zoomed) { mutableFloatStateOf(1f) }
