@@ -352,13 +352,34 @@
       "figure": "frog_metamorphosis",
       "lang": "shared",
       "path": "pencil_plates/frog_metamorphosis.png",
-      "size": 14767,
-      "sha256": "3394feff79971e0b57a9cb97a1a5bab45ff1ec03606b54a73cbbc57a7e626226",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 626684,
+      "sha256": "ef964ec0e3b79971779ce0ed14d64dc01c6166689b2a53765dc087f6a0420f4b",
+      "author": "The How and Why Library (1909), text by Eleanor Stackhouse Atkinson; original figure illustrator not independently identified",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Typical pond-breeding frog, schematic and not to scale. 1 Eggs · 2 Tadpole · 3 Hindlimbs develop · 4 Forelimbs emerge · 5 Froglet with a shortening tail · 6 Adult frog. Adults reproduce, beginning a new cycle.",
-      "keyTa": "குளத்தில் இனப்பெருக்கம் செய்யும் தவளையின் பொதுவான வாழ்க்கைச் சுழற்சி. படங்கள் அளவுப்படி வரையப்படவில்லை. 1 முட்டைகள் · 2 தலைப்பிரட்டை · 3 பின்னங்கால்கள் வளர்தல் · 4 முன்னங்கால்கள் வெளிப்படுதல் · 5 வால் சுருங்கும் இளம் தவளை · 6 முதிர்ந்த தவளை. இனப்பெருக்கத்தால் சுழற்சி மீண்டும் தொடங்குகிறது.",
-      "referenceUrl": "https://embryology.med.unsw.edu.au/embryology/index.php/Frog_Development"
+      "keyEn": "Original 1909 frog metamorphosis drawing (not to scale): 1 eggs attached to submerged vegetation; 2 and 2a hatchlings with external gills; 3 external gills no longer visible; 4 developed tadpole; 5 hindlimbs growing; 6 all four limbs visible; 7 tail being resorbed; 8 tailless adult frog. A typical frog example, NOT a universal pattern for all amphibians; source illustrator is unidentified.",
+      "keyTa": "1909 ஆம் ஆண்டின் தவளை உருமாற்றப் படம் (அளவுப்படி வரையப்படவில்லை): 1 நீர்த்தாவரத்தில் ஒட்டிய முட்டைகள்; 2, 2a வெளிச்செவுள்களுடன் வெளிவந்த தலைப்பிரட்டைகள்; 3 வெளிச்செவுள்கள் மறையும் நிலை; 4 வளர்ந்த தலைப்பிரட்டை; 5 பின்னங்கால்கள் வளர்தல்; 6 நான்கு கால்களும் தோன்றுதல்; 7 வால் படிப்படியாகச் சுருங்குதல்; 8 வாலற்ற முதிர்ந்த தவளை. இது தவளையின் பொதுவான வளர்ச்சி முறை மட்டுமே; எல்லா இருவாழ்விகளுக்கும் பொருந்தாது.",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/File:The_How_and_Why_Library_-_How_a_frog_grows.png",
+      "license": "Public domain — figure originally published in 1909; Wikimedia Commons public-domain record",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_How_and_Why_Library_-_How_a_frog_grows.png",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/The_How_and_Why_Library_-_How_a_frog_grows.png",
+      "sourceSha1": "cc105eba2138482f8d9024ba28e0f8bd09b96873",
+      "sourceSha256": [
+        "ef964ec0e3b79971779ce0ed14d64dc01c6166689b2a53765dc087f6a0420f4b"
+      ],
+      "sourceFormat": "PNG",
+      "installedFormat": "PNG",
+      "sourceKind": "ORIGINAL_1909_HOW_AND_WHY_FROG_LIFE_CYCLE_PNG",
+      "modifications": "No modifications; the original published PNG is stored byte-identically. English/Tamil explanations appear separately in lesson keys.",
+      "referenceUrls": [
+        "https://commons.wikimedia.org/wiki/File:The_How_and_Why_Library_-_How_a_frog_grows.png",
+        "https://en.wikisource.org/wiki/Page:How_and_Why_Library_187.jpg"
+      ],
+      "scope": "Published historical frog metamorphosis artwork, stages 1–8 with 2a; illustrative anuran development, not a universal Amphibia life history.",
+      "visualReview": "ORIGINAL_1909_PUBLISHED_FROG_LIFECYCLE_PENDING_EXPERT_REVIEW",
+      "topicId": "u3-amphibia-classification",
+      "page": 3,
+      "sectionKey": "reproduction-ecology"
     },
     {
       "diagramId": "u5-rabbit-excretory-system",
