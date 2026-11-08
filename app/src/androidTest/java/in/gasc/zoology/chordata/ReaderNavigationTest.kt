@@ -168,21 +168,25 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Deuterostome ancestry").assertIsDisplayed()
     }
 
-    @Test fun rejectedScoliodonBrainIsWithheldOnItsExactFourthSection() {
+    @Test fun scoliodonBrainPlateIsReachableOnItsExactFourthSection() {
         selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
-        // The fourth section still exists; its user-rejected figure is withheld.
+        // The previously rejected synthetic plate is replaced by a source-verified
+        // 1878 dogfish comparison; do not imply an exact Scoliodon dissection.
         for (section in 0 until 4) {
             rule.onNodeWithTag("lesson-reader-list")
                 .performScrollToIndex(if (section == 0) 3 else 4)
             rule.onNodeWithText("Next ›").performClick()
         }
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithTag("figure-rejected-quality").assertIsDisplayed()
-        rule.onNodeWithTag("figure-image-u2-scoliodon-brain-labelled").assertDoesNotExist()
-        captureQaScreen("scoliodon-brain-rejected-en-100")
+        rule.onNodeWithTag("figure-rejected-quality").assertDoesNotExist()
+        rule.onNodeWithTag("figure-image-u2-scoliodon-brain-labelled")
+            .assertIsDisplayed()
+            .performClick()
+        rule.onNodeWithText("Close").assertIsDisplayed()
+        captureQaScreen("scoliodon-brain-zoom-en-100")
     }
 
     @Test fun canSwitchTamilAndIncreaseTextSize() {
