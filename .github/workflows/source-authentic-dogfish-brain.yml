@@ -25,6 +25,7 @@ jobs:
       - run: python3 -m pip install Pillow==11.3.0
       - name: Verify 1878 source, preserve source anatomy pixels and install PNG
         run: python3 scripts/install_authentic_dogfish_brain.py
+      # The instrumentation source now expects an inspectable comparative plate.
       - name: Verify placement, integrity, provenance and reviewer register
         run: bash scripts/qa_all.sh
       - name: Commit original plate only on continuous QA branch
