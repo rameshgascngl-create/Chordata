@@ -136,7 +136,9 @@ jobs:
         with:
           api-level: 35
           arch: x86_64
-          target: google_apis
+          # Offline app requires no Google services. Stock AOSP avoids the
+          # Pixel Launcher ANR dialogs observed in captured QA zoom screens.
+          target: default
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim
           script: |
             gradle --no-daemon :app:connectedDebugAndroidTest

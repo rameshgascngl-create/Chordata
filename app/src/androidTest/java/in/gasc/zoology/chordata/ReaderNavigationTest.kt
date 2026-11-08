@@ -273,9 +273,30 @@ class ReaderNavigationTest {
      * Emulator evidence is written to MediaStore Pictures so the CI job
      * can extract the exact English/Tamil screen shown by Compose.
      */
+    /**
+     * A launcher or system ANR dialog can cover a Compose capture while all
+     * widget assertions still pass. Such screenshots are invalid QA evidence.
+     * UI Automation reads accessibility text directly; no image OCR is used.
+     */
+    private fun systemAnrDialogVisible(): Boolean {
+        val root = InstrumentationRegistry.getInstrumentation().uiAutomation.rootInActiveWindow
+            ?: return false
+        fun hasAnr(node: android.view.accessibility.AccessibilityNodeInfo?): Boolean {
+            if (node == null) return false
+            val text = (node.text?.toString().orEmpty() + " " +
+                node.contentDescription?.toString().orEmpty()).lowercase()
+            if ("isn't responding" in text || "not responding" in text) return true
+            return (0 until node.childCount).any { hasAnr(node.getChild(it)) }
+        }
+        return hasAnr(root)
+    }
+
     private fun captureQaScreen(name: String) {
         require(Regex("[a-z0-9-]+").matches(name))
         rule.waitForIdle()
+        check(!systemAnrDialogVisible()) {
+            "System/launcher ANR dialog visible; cannot certify screenshot $name"
+        }
         // MediaStore survives Android Gradle's post-test package uninstall.
         // getExternalFilesDir() does not, so adb pull after connectedAndroidTest failed.
         val context = InstrumentationRegistry.getInstrumentation().targetContext
@@ -291,6 +312,9 @@ class ReaderNavigationTest {
         }
         try {
             val bitmap = rule.onRoot().captureToImage().asAndroidBitmap()
+            check(!systemAnrDialogVisible()) {
+                "System/launcher ANR appeared during screenshot capture: $name"
+            }
             requireNotNull(resolver.openOutputStream(uri)).use { stream ->
                 check(bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream))
             }
