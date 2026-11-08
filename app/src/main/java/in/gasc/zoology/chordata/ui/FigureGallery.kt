@@ -351,7 +351,11 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             expanded?.asImageBitmap()
                         }.getOrNull()
                     }
-                    var scale by remember(plate.id, zoomed) { mutableFloatStateOf(1f) }
+                    var scale by remember(plate.id, zoomed) {
+                        // The tall historical dogfish engraving needs a wider initial
+                        // view on narrow handsets; pan and pinch remain available.
+                        mutableFloatStateOf(if (plate.id == "u2-scoliodon-brain-labelled") 1.25f else 1f)
+                    }
                     var offset by remember(plate.id, zoomed) { mutableStateOf(Offset.Zero) }
                     val transforms = rememberTransformableState { zoomChange, panChange, _ ->
                         scale = (scale * zoomChange).coerceIn(1f, 5f)
@@ -383,7 +387,15 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                             })
                                     }
                                 }
-                                Text(if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
+                                // The full image key remains in the lesson card.
+                                // Showing it again here previously compressed a tall
+                                // engraving into a tiny area on 320 px Android screens.
+                                Text(
+                                    (if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
+                                        .substringBefore('\n'),
+                                    maxLines = 2,
+                                    modifier = Modifier.testTag("figure-zoom-caption-" + plate.id)
+                                )
                             }
                         }
                     }

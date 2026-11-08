@@ -243,6 +243,8 @@ class ReaderNavigationTest {
             .assertIsDisplayed()
             .performClick()
         rule.onNodeWithText("Close").assertIsDisplayed()
+        rule.onNodeWithTag("figure-zoom-caption-u2-scoliodon-brain-labelled")
+            .assertTextEquals("Shark brain, dorsal view")
         captureQaScreen("scoliodon-brain-zoom-en-100")
     }
 
