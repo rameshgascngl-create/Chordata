@@ -3,7 +3,7 @@
 Scope: `u4-calotes`, page 2, `digestive-system`, registered ID `u4-calotes-digestive-system`.
 
 ## Disposition
-- Corrected the lesson's English and Tamil text to distinguish cardiac/pyloric stomach, duodenum, ileum, blind caecum, rectum, cloaca, liver, gall bladder, pancreas and bile duct.
+- Drafted a proposed English/Tamil correction (not applied to the app because of the immutable-course-pack gate) to distinguish cardiac/pyloric stomach, duodenum, ileum, blind caecum, rectum, cloaca, liver, gall bladder, pancreas and bile duct.
 - Existing `pencil_plates/calotes_digestive_en.png` is **unchanged**, original registered SHA-256 `4cf2bbbcbd3a7375b4649f3cebafc95a156d675a881e6765534521dadf5806fc`.
 - The image remains **PROVISIONAL**. This commit changes no figure manifest, artwork hash, reviewer approval or credits.
 - Candidate A, local original AI PNG (1024×1536): SHA-256 `c2718672545f26ae45dd96d966e3133fb9713cf55797e01fe617642ba9e0ff68`. Anatomical QA **NOT ACCEPTED** for direct integration: oral opening appears anthropomorphic and region proportions have not been verified.
@@ -22,4 +22,7 @@ Scope: `u4-calotes`, page 2, `digestive-system`, registered ID `u4-calotes-diges
 - Production: **HOLD**. No reviewer decision or image approval was inferred from automated QA.
 
 ## Build scope
-This text-only content change should be validated by the existing `android-qa.yml` workflow. The preceding QA APK built from `938487b7e48a1033d139615736175b0d248e30ec` and does **not** contain this lesson-text revision.
+The initial direct content edit failed immutable-source validation in workflow `42486002713` (native-qa: `Input course pack changed without review`); emulator instrumentation itself passed. A follow-up corrective commit restored the exact previous `chordata_content.json` blob. Proposed EN/TA wording is kept only under `docs/qa-edits/calotes_digestive_proposed.json`; it is NOT applied to the app. Do not change `EXPECTED_SHA` to silence the gate. Rebuild and validate the restored baseline before making any new APK claims.
+
+## Controlled course-pack-change gate
+Only after independent subject/Tamil reviews should an authorised new course-pack version be created with explicit changelog, justified immutable hash rebaseline and accompanying regression coverage. No reviewer approval is implied by this document.
