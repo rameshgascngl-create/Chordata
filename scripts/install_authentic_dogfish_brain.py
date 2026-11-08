@@ -7,6 +7,8 @@ This is NOT represented as an exact-species Scoliodon dissection.
 """
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
+from time import sleep
 from io import BytesIO
 import csv
 import hashlib
@@ -37,12 +39,30 @@ def label_font(size, bold=False):
     raise RuntimeError("Missing readable font for comparative QA caption panel")
 
 def main():
-    req=Request(SOURCE,headers={"User-Agent":"ChordataNativeAcademicQA/1.0 (historic-original-public-domain)","Accept":"image/png"})
-    with urlopen(req, timeout=110) as response:
-        raw=response.read(1800000)
+    addresses=[
+        SOURCE,
+        SOURCE+"?download=1",
+        "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fritsch_dogfish_shark_brain.png",
+        "https://upload.wikimedia.org/wikipedia/commons/9/99/Fritsch_dogfish_shark_brain.png?20261108"
+    ]
+    raw=None
+    failures=[]
+    for i,address in enumerate(addresses):
+        req=Request(address,headers={"User-Agent":"ChordataAcademicQA/1.1 (https://github.com/rameshgascngl-create/Chordata; historical source verification)","Accept":"image/png","Referer":"https://commons.wikimedia.org/"})
+        try:
+            with urlopen(req,timeout=70) as response:
+                candidate=response.read(1800000)
+            checksum=hashlib.sha1(candidate).hexdigest()
+            if len(candidate)==1414869 and checksum==EXPECTED_SHA1:
+                raw=candidate
+                break
+            failures.append("Source returned unexpected bytes at "+address+": "+str(len(candidate))+"/"+checksum)
+        except (HTTPError,URLError,TimeoutError) as e:
+            failures.append(address+": "+str(e))
+        sleep(min(2+4*i,15))
+    if raw is None:
+        raise RuntimeError("Original public-domain source could not be verified; no PNG has been changed. "+"; ".join(failures))
     sha1=hashlib.sha1(raw).hexdigest()
-    if len(raw)!=1414869 or sha1!=EXPECTED_SHA1:
-        raise RuntimeError("Fritsch historical PNG changed: source size/SHA-1 mismatch "+str(len(raw))+"/"+sha1)
     img=Image.open(BytesIO(raw));img.load()
     if img.format!="PNG" or img.size!=(500,941):
         raise RuntimeError(f"Fritsch original format/dimensions invalid {img.format} {img.size}")
