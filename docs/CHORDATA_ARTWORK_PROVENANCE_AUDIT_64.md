@@ -9,8 +9,8 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 ## Inventory
 
 - Computer-drawn vector exported as PNG: **24**
-- Source-credited artwork (still provisional): **19**
-- No authenticated external source (project-drawn/AI): **10**
+- Source-credited artwork (still provisional): **20**
+- No authenticated external source (project-drawn/AI): **9**
 - Source-based edited composite: **7**
 - AI-generated candidate: **4**
 
@@ -32,7 +32,7 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 | u2-scoliodon-gills-labelled | shark_gill_flow.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA project — original vector shark septal-gill teaching schematic |  |
 | u2-scoliodon-brain-labelled | shark_brain_dorsal_en.png | Source-credited artwork (still provisional) | HIGH | Gustav Theodor Fritsch (1838-1927), historical dogfish brain plate (1878); CHORDATA QA contextual panel only | https://commons.wikimedia.org/wiki/File:Fritsch_dogfish_shark_brain.png |
 | u2-scoliodon-sense-organs-labelled | shark_sensory_systems_en.png | No authenticated external source (project-drawn/AI) | HIGH | CHORDATA QA — original computer-assisted anatomical schematic |  |
-| u2-dipnoi-lungfish-comparison | dipnoi_lungfin_comparison_en.png | No authenticated external source (project-drawn/AI) | STANDARD | CHORDATA QA — original computer-assisted anatomical schematic |  |
+| u2-dipnoi-lungfish-comparison | dipnoi_lungfin_comparison_en.png | Source-credited artwork (still provisional) | STANDARD | David Starr Jordan (1907), J. Green (1902), unidentified 1909 artist; CHORDATA QA original-image layout | https://commons.wikimedia.org/wiki/File:FMIB_51710_Neoceratodus_forsteri_(Gunther)_Australia_Family_Ceratodontidae.jpeg |
 | u2-scales-fins-scale-types-labelled | fish_scale_types.png | Source-credited artwork (still provisional) | STANDARD | Jon Houseman (ganoid/cycloid/ctenoid); CHORDATA QA (original placoid section and layout) | https://commons.wikimedia.org/wiki/File:Fishscales.png |
 | u2-scales-fins-fins-labelled | fish_fin_positions.png | Source-credited artwork (still provisional) | STANDARD | Unknown original illustrator (1898), Oregon Fish and Game Protector; University of Washington Freshwater and Marine Image Bank; CHORDATA QA layout | https://commons.wikimedia.org/wiki/File:FMIB_47883_Figure_of_a_Fish,_Showing_the_Location_of_Parts_Usually_Referred_to_in_Desciption_-_1_Dorsal_fin;_2_Adipose_fin;_3_Caudal_fin;_4.jpeg |
 | u2-accessory-respiration-accessory-organs-comparison | fish_accessory_breathing_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |

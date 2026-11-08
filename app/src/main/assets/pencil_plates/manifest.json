@@ -689,20 +689,49 @@
       "figure": "dipnoi_lungfin_comparison",
       "lang": "en",
       "path": "pencil_plates/dipnoi_lungfin_comparison_en.png",
-      "sha256": "f1b60d3c8feadd6dfd1ec41d7327554b848c0163f816a690ce1c289d2b8b8917",
-      "size": 81759,
-      "author": "CHORDATA QA — original computer-assisted anatomical schematic",
-      "license": "Original provisional project artwork; no third-party image reproduced",
-      "sourceUrl": "",
+      "sha256": "1437c11f73c9ee05c0dec553eb9dd670181f6601d17b78796a6fdc6eaba14c31",
+      "size": 2035728,
+      "author": "David Starr Jordan (1907), J. Green (1902), unidentified 1909 artist; CHORDATA QA original-image layout",
+      "license": "Public domain historical zoological prints; FMIB/Commons provenance",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FMIB_51710_Neoceratodus_forsteri_(Gunther)_Australia_Family_Ceratodontidae.jpeg",
       "referenceUrls": [
-        "https://www.lkouniv.ac.in/site/writereaddata/siteContent/202004021912558038manoj_kumar_zool_Dipnoi_General_organization.pdf"
+        "https://commons.wikimedia.org/wiki/File:FMIB_51710_Neoceratodus_forsteri_(Gunther)_Australia_Family_Ceratodontidae.jpeg",
+        "https://commons.wikimedia.org/wiki/File:Protopterus_annectens_1902.jpg",
+        "https://commons.wikimedia.org/wiki/File:Lepidosiren_paradoxa1.jpg"
       ],
-      "modifications": "Original diagram drawn programmatically with Pillow; English labels; PNG export.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Lobed fin and paired-lung condition shown; Australian lungfish has one lung.",
-      "keyTa": "",
-      "scope": "Exact lesson section: affinities",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL"
+      "modifications": "Original historical plates pasted unscaled, with independent English heading and captions, into a 1710x1930 RGB PNG. No crop, vector art, AI, traced anatomy or resizing.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Source-drawn lungfish external anatomy: 1 Neoceratodus forsteri (Australian lungfish), broad paired lobed fins, one lung; 2 Protopterus annectens (African lungfish), filamentous paired fins, paired lungs; 3 Lepidosiren paradoxa (South American lungfish), female A and breeding male B, paired lungs. No lungs are directly depicted in these external views. Extant lungfish share an evolutionary ancestor with tetrapods; they are not direct living tetrapod ancestors.",
+      "keyTa": "மூன்று நுரையீரல் மீன் பேரினங்களின் புறத்தோற்ற ஒப்பீடு: 1 ஆஸ்திரேலிய நியோசெரட்டோடஸ் ஃபோர்ஸ்டெரை — அகன்ற மடல்துடுப்புகள், ஒரு நுரையீரல்; 2 ஆப்பிரிக்க புரோடாப்டெரஸ் அனெக்டென்ஸ் — நூல்போன்ற இணைத் துடுப்புகள், இரண்டு நுரையீரல்கள்; 3 தென் அமெரிக்க லெபிடோசைரன் பாரடாக்சா — பெண் A, இனப்பெருக்கக் கால ஆண் B, இரண்டு நுரையீரல்கள். இப்புறத்தோற்றப் படங்களில் நுரையீரல்கள் நேரடியாகக் காட்டப்படவில்லை. இன்றைய நுரையீரல் மீன்கள் நான்குகாலிகளின் நேரடி மூதாதைகள் அல்ல.",
+      "scope": "External morphological comparison of three extant Dipnoi genera. Lungs, internal gills and relationships are not visible in source artwork.",
+      "visualReview": "ORIGINAL_THREE_DIPNOI_HISTORICAL_ARTWORKS_PENDING_SCIENTIFIC_REVIEW",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:FMIB_51710_Neoceratodus_forsteri_(Gunther)_Australia_Family_Ceratodontidae.jpeg",
+        "https://commons.wikimedia.org/wiki/File:Protopterus_annectens_1902.jpg",
+        "https://commons.wikimedia.org/wiki/File:Lepidosiren_paradoxa1.jpg"
+      ],
+      "sourceImageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4f/FMIB_51710_Neoceratodus_forsteri_%28Gunther%29_Australia_Family_Ceratodontidae.jpeg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/54/Protopterus_annectens_1902.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Lepidosiren_paradoxa1.jpg"
+      ],
+      "sourceSha1s": [
+        "b74c9506cdf8ebf81baaaad128761e796474e76e",
+        "d286dab1d721c11dc3a102cd296ef3756513da34",
+        "eb416de08a884e66e162e20a3e75f36fb00f9f2d"
+      ],
+      "sourceSha256": [
+        "62762d47ca0f63842cfb30829c2155131f4009c1850a031ad9e051a4eca276a9",
+        "ab4bea56fd2971d1193c4c4d7511ba395382ddefb1c347460acbef7c6ae5e041",
+        "9f7cd8f2d9a603b58449fca1f17d9a6d53bfffd53cacc5a1c22b1b19c922cad0"
+      ],
+      "sourceFormat": "JPEG",
+      "installedFormat": "PNG",
+      "sourceKind": "ORIGINAL_THREE_HISTORIC_DIPNOI_ZOOLOGICAL_PLATES",
+      "topicId": "u2-dipnoi",
+      "page": 3,
+      "sectionKey": "affinities"
     },
     {
       "diagramId": "u2-scoliodon-digestive-labelled",
