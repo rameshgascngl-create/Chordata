@@ -43,6 +43,8 @@ jobs:
           if ! git diff --cached --quiet; then
             git diff --cached --stat
             git commit -m "assets(qa): replace drawn tooth diagram with credited Wellcome anatomical engraving"
+            git fetch origin qa/chordata-illustrations-continuous
+            git rebase origin/qa/chordata-illustrations-continuous
             git push origin HEAD:qa/chordata-illustrations-continuous
           fi
       - name: Archive QA plate and provenance
