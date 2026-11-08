@@ -160,10 +160,29 @@ class ReaderNavigationTest {
             selected("u5-flight-adaptations-avian-lung", en))
         org.junit.Assert.assertEquals("pencil_plates/columba_skeleton_en.png",
             selected("u5-columba-endoskeleton", en))
-        // Material errors are not green-ticked: they must not override the
-        // alternative, credited English anatomical plates.
+        // A held historical variant must use its credited English fallback.
+        // Once the exact corrected, green-ticked AI PNG is staged, the Tamil
+        // reader must use it instead; that transition cannot break QA.
+        val lanceletId = "u1-cephalochordata-branchiostoma-labelled"
+        val lanceletTamil = requireNotNull(byIdAndLanguage[lanceletId to "ta"])
+        val lanceletDecision = lanceletTamil.optString("aiQaIntegrationDecision")
+        if (lanceletDecision == "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE") {
+            org.junit.Assert.assertEquals("pencil_plates/branchiostoma_ta.png",
+                selected(lanceletId, ta))
+            org.junit.Assert.assertEquals(
+                "2fbd48be62b83309c87214492ea20dfea1995a3e624fca66c17ed995c95d9b1e",
+                lanceletTamil.getString("sha256"))
+            org.junit.Assert.assertEquals("PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                lanceletTamil.getString("reviewStatus"))
+        } else {
+            org.junit.Assert.assertEquals("HOLD_MATERIAL_ANATOMY_ERROR", lanceletDecision)
+            org.junit.Assert.assertEquals("pencil_plates/branchiostoma_en.png",
+                selected(lanceletId, ta))
+        }
         org.junit.Assert.assertEquals("pencil_plates/branchiostoma_en.png",
-            selected("u1-cephalochordata-branchiostoma-labelled", ta))
+            selected(lanceletId, en))
+        // Rabbit AI anatomy remains held until there is a separate reviewed
+        // exact-hash replacement. Never show the rejected Tamil image.
         org.junit.Assert.assertEquals("pencil_plates/rabbit_skeleton_en.png",
             selected("u5-rabbit-endoskeleton", ta))
         // Other already-approved AI PNGs remain accessible through shared/en.
