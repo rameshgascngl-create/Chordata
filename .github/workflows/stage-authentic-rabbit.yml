@@ -1,0 +1,136 @@
+name: CHORDATA continuous QA - authentic rabbit artwork
+
+on:
+  push:
+    branches: ["qa/chordata-illustrations-continuous"]
+    paths:
+      - ".github/workflows/stage-authentic-rabbit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  install-source-authenticated-rabbit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Validate Werner 1824 source and convert JPEG to PNG without resizing
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from io import BytesIO
+          from PIL import Image
+          import csv,hashlib,json,subprocess
+          root=Path.cwd()
+          assets=root/'app/src/main/assets'
+          manifest_path=assets/'pencil_plates/manifest.json'
+          figure_path=assets/'pencil_plates/rabbit_external_anatomy_en.png'
+          ledger_path=root/'docs/figure-coverage.tsv'
+          report=root/'docs/CHORDATA_WERNER_RABBIT_EXTERNAL_PNG_QA.md'
+          source='https://upload.wikimedia.org/wikipedia/commons/e/e5/Lepus_cuniculus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-%28white_background%29.jpg'
+          page='https://commons.wikimedia.org/wiki/File:Lepus_cuniculus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-(white_background).jpg'
+          expected_sha1='054ac53d870681e7f1ff17d2b60374d42770fdd6'
+          previous_sha='feefcaae873e56d254357e95df831916a1083d75284b11812807182523d4eded'
+          req=Request(source,headers={'User-Agent':'AcademicChordataQA/1.0 (authentic-scientific-artwork)','Accept':'image/jpeg'})
+          with urlopen(req,timeout=90) as response: raw=response.read(1000000)
+          if len(raw)!=368269 or hashlib.sha1(raw).hexdigest()!=expected_sha1:
+              raise RuntimeError('Original 1824 source bytes or SHA-1 changed: refuse intake')
+          original=Image.open(BytesIO(raw))
+          original.load()
+          if original.format!='JPEG' or original.size!=(1486,974):
+              raise RuntimeError('Expected original archival JPEG 1486x974')
+          original.convert('RGB').save(figure_path,format='PNG',compress_level=9,optimize=True)
+          png=figure_path.read_bytes()
+          digest=hashlib.sha256(png).hexdigest()
+          if not png.startswith(bytes.fromhex('89504e470d0a1a0a')): raise RuntimeError('Invalid PNG')
+          manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
+          entries=[e for e in manifest['figures'] if e.get('diagramId')=='u5-rabbit-external' and e.get('lang')=='en']
+          if len(entries)!=1 or entries[0]['path']!='pencil_plates/rabbit_external_anatomy_en.png':
+              raise RuntimeError('Wrong rabbit lesson section')
+          entry=entries[0]
+          if entry['sha256'] not in (previous_sha,digest):
+              raise RuntimeError('Rabbit PNG modified by another reviewer: refusing overwrite')
+          for k in ('svgMaster','svgSha256','artworkDisposition','reviewerNote'): entry.pop(k,None)
+          author='Jacques Christophe Werner (1798-1856), Histoire naturelle des mammiferes (1824); Commons extract'
+          entry.update({
+            'size':len(png),'sha256':digest,'author':author,
+            'license':'Public domain — Werner artwork published 1824; digitised Commons extract',
+            'licenseUrl':'https://creativecommons.org/publicdomain/mark/1.0/',
+            'sourceUrl':page,'sourceImageUrl':source,'sourceSha1':expected_sha1,
+            'sourceSha256':[hashlib.sha256(raw).hexdigest()],
+            'sourceFormat':'JPEG','installedFormat':'PNG',
+            'sourceKind':'VERIFIED_WERNER_1824_ORIGINAL_RABBIT_JPEG_TO_PNG',
+            'referenceUrls':[page],
+            'modifications':'Commons edition is white-background extract with altered orientation; this intake only converts source JPEG pixels to PNG, no further crop, resize, redraw, labels, vector or AI',
+            'scope':'Oryctolagus cuniculus external morphology in crouching side pose; no internal anatomy',
+            'keyEn':'1824 published rabbit portrait: observe large pinnae, lateral eye, fur, whiskers, muzzle, forelimbs, large hindquarters and short tail. The crouching pose obscures most of the hind feet and the cleft upper lip; do not infer their appearance from the picture.',
+            'keyTa':'1824 ஆம் ஆண்டில் வெளியிடப்பட்ட முயல் ஓவியம். பெரிய புறச்செவிகள், பக்கவாட்டுக் கண், உரோமம், தொடுவுணர் மீசைமுடிகள், முகப்பு, முன்னங்கால்கள், பெரிய பின்னுடற்பகுதி மற்றும் குட்டையான வால் ஆகியவற்றைக் காணலாம். அமர்ந்திருக்கும் தோற்றத்தால் பின்னங்காலின் பாதங்களும் பிளவுபட்ட மேல் உதடும் தெளிவாகத் தெரியவில்லை.',
+            'reviewStatus':'PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING',
+            'visualReview':'ORIGINAL_PUBLIC_DOMAIN_PNG_PENDING_EDITORIAL_DEVICE_REVIEW',
+            'topicId':'u5-rabbit','page':1,'sectionKey':'external-features'})
+          manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          with ledger_path.open(newline='',encoding='utf-8') as f:
+              reader=csv.DictReader(f,delimiter='\t')
+              cols,rows=reader.fieldnames,list(reader)
+          match=[r for r in rows if r['diagramId']=='u5-rabbit-external']
+          if len(match)!=1: raise RuntimeError('Rabbit ledger record absent/duplicated')
+          match[0]['author']=author
+          match[0]['referenceSources']=page
+          with ledger_path.open('w',newline='',encoding='utf-8') as f:
+              writer=csv.DictWriter(f,fieldnames=cols,delimiter='\t')
+              writer.writeheader(); writer.writerows(rows)
+          subprocess.run(['python3','scripts/write_figure_review_register.py'],check=True)
+          report.write_text(
+            '# CHORDATA QA — Werner European rabbit original printed illustration\n\n'
+            'Slot: u5-rabbit-external, Unit V page 1 (external-features).\n\n'
+            'Artist: Jacques Christophe Werner (1798–1856). Published 1824 in '
+            'Histoire naturelle des mammifères, vol. 4, edited by Frédéric Cuvier.\n'
+            'Source Commons: '+page+'\n'
+            'Copyright: Public domain mark, original 1824 illustration.\n'
+            'Species: Lepus cuniculus (historical) = Oryctolagus cuniculus (current).\n'
+            'The Commons edition is an already extracted/rotated white-background image. '
+            'Intake does not alter visual content, crop, upscale or draw anatomy. '
+            'This lesson illustrates only external morphology; no internal organs are shown.\n'
+            'Source JPEG 1486x974, 368269 bytes, SHA-1 '+expected_sha1+', SHA-256 '+hashlib.sha256(raw).hexdigest()+'.\n'
+            'Installed PNG 1486x974, '+str(len(png))+' bytes, SHA-256 '+digest+'.\n'
+            'Scientific review, Tamil editorial review, phone zoom and physical-device acceptance PENDING. '
+            'Production release HOLD.\n',encoding='utf-8')
+          print('PASS Werner 1824 sourced PNG',len(png),digest)
+          PY
+      - name: Verify anatomy placement, image integrity, bilingual keys and review sheet
+        run: bash scripts/qa_all.sh
+      - name: Commit verified PNG and related records on QA branch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/rabbit_external_anatomy_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_WERNER_RABBIT_EXTERNAL_PNG_QA.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): integrate verified Werner 1824 rabbit original PNG"
+            git push origin HEAD:qa/chordata-illustrations-continuous
+          fi
+      - name: Publish original PNG and source provenance for independent review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Authentic_Werner_Rabbit_Review_PNG
+          path: |
+            app/src/main/assets/pencil_plates/rabbit_external_anatomy_en.png
+            docs/CHORDATA_WERNER_RABBIT_EXTERNAL_PNG_QA.md
+          if-no-files-found: warn
+          retention-days: 14
