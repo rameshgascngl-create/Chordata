@@ -14,3 +14,7 @@ Installed PNG size 578729, SHA-256 3873ea66a86d85407e9a120f78b267c4b31f61b6ae59e
 CRITICAL SPECIES LIMITATION: these are original published generic bird illustrations; they are not confirmed Columba livia dissection plates. Bird eye structures include the pecten; inner-ear figure shows columella auris and labyrinthine canal structures. Eye and ear original symbols should be reviewed by a zoologist against the printed book caption. The original 1905 drawing predates current microscopic anatomy; do not teach it as a complete modern avian ear atlas.
 
 Independent scientific and Tamil review: PENDING. Physical device zoom and Android QA: PENDING. Production release: HOLD.
+
+## Android instrumentation and APK image acceptance
+
+This report-only commit triggers the gated native-Android QA workflow against the published 1905 bird-eye and inner-ear PNG already embedded on the continuous QA branch. The figure’s SHA-256, actual Compose lesson slot, English/Tamil reading mode, zoom and image decode remain subject to Android compilation and emulator checks. The source illustrations are generic avian comparative images and must never be attributed to an independently verified pigeon specimen. Independent zoology, Tamil editorial and physical-device approvals remain PENDING. Production release HOLD.
