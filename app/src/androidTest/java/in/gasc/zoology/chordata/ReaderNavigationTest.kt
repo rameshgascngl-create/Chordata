@@ -135,6 +135,44 @@ class ReaderNavigationTest {
         }
     }
 
+    @Test fun greenTickTamilAiVariantsAreSelectedButHeldOnesFallbackToEnglish() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val entries = org.json.JSONObject(
+            context.assets.open("pencil_plates/manifest.json")
+                .bufferedReader(Charsets.UTF_8).use { it.readText() }
+        ).getJSONArray("figures")
+        val byIdAndLanguage = (0 until entries.length()).map { entries.getJSONObject(it) }
+            .associateBy { it.getString("diagramId") to it.getString("lang") }
+
+        fun selected(diagramId: String, lang: `in`.gasc.zoology.chordata.domain.ReadingLanguage): String {
+            return requireNotNull(
+                `in`.gasc.zoology.chordata.ui.selectProvisionalPlate(byIdAndLanguage, diagramId, lang)
+            ).getString("path")
+        }
+
+        val ta = `in`.gasc.zoology.chordata.domain.ReadingLanguage.TA
+        val en = `in`.gasc.zoology.chordata.domain.ReadingLanguage.EN
+        org.junit.Assert.assertEquals("pencil_plates/avian_respiration_ta.png",
+            selected("u5-flight-adaptations-avian-lung", ta))
+        org.junit.Assert.assertEquals("pencil_plates/columba_skeleton_ta.png",
+            selected("u5-columba-endoskeleton", ta))
+        org.junit.Assert.assertEquals("pencil_plates/avian_respiration_en.png",
+            selected("u5-flight-adaptations-avian-lung", en))
+        org.junit.Assert.assertEquals("pencil_plates/columba_skeleton_en.png",
+            selected("u5-columba-endoskeleton", en))
+        // Material errors are not green-ticked: they must not override the
+        // alternative, credited English anatomical plates.
+        org.junit.Assert.assertEquals("pencil_plates/branchiostoma_en.png",
+            selected("u1-cephalochordata-branchiostoma-labelled", ta))
+        org.junit.Assert.assertEquals("pencil_plates/rabbit_skeleton_en.png",
+            selected("u5-rabbit-endoskeleton", ta))
+        // Other already-approved AI PNGs remain accessible through shared/en.
+        org.junit.Assert.assertEquals("pencil_plates/amphibian_orders.png",
+            selected("u3-amphibia-classification-living-orders", ta))
+        org.junit.Assert.assertEquals("pencil_plates/calotes_brain_dorsal_en.png",
+            selected("u4-calotes-brain", ta))
+    }
+
     @Test fun tamilCompactHeaderFitsAndBackWorks() {
         rule.onNodeWithText("தமிழ்").performClick()
         rule.onNodeWithText("200%").performClick()

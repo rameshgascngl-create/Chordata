@@ -36,9 +36,12 @@ assert by_id['u2-scoliodon-brain-labelled']['page'] == 4
 for id in ('u5-columba-external', 'u5-rabbit-external'):
     assert ('"' + id + '"') in test_text, 'Missing placement verification for ' + id
 
-# The English-labelled PNG variant deliberately appears in BOTH native reader
-# languages; captions and lesson text remain individually translated.
-assert 'pencilPlates[slot.id to "en"] ?: pencilPlates[slot.id to "shared"]' in gallery_text
+# English/shared variants remain the default in both native reader languages.
+# Only an explicitly green-ticked Tamil AI PNG may override that fallback in Tamil.
+assert 'val fallback = entries[diagramId to "en"] ?: entries[diagramId to "shared"]' in gallery_text
+assert 'entries[diagramId to "ta"]' in gallery_text
+assert 'GREEN_TICK_ALLOW_PROVISIONAL_QA_USE' in gallery_text
+assert 'selectProvisionalPlate(pencilPlates, slot.id, lang)' in gallery_text
 assert 'assetDirectory = assetDirectory' in gallery_text, 'Gallery must honour canonical manifest asset path'
 assert 'filename = entry.getString("path").substringAfterLast' not in gallery_text
 assert all(e['path'].startswith('pencil_plates/') and len(e['path'].split('/')) == 2 for e in entries), 'Manifest still contains staging aliases'
@@ -93,6 +96,6 @@ assert ':app:assembleDebug' in workflow
 assert ':app:connectedDebugAndroidTest' in workflow
 assert 'retention-days:' in workflow
 print('PASS: native QA contract — 64 slot IDs, 68 figure variants, actual Compose tags and screenshot test')
-print('PASS: English-labelled drawings shared across both languages; no stale literal figure selectors')
+print('PASS: green-ticked Tamil AI variants selectable; English/shared fallback preserved')
 print('PASS: four CI jobs audit the full assets; tested QA APK only published after emulator success')
 print('NOTE: static QA only; Android compilation and emulator results not certified')

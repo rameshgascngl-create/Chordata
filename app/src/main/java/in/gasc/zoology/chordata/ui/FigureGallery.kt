@@ -93,6 +93,26 @@ private data class Plate(
     val secondarySourceUrl: String = ""
 )
 
+/**
+ * Use a Tamil-labelled AI figure only when its exact PNG has received the
+ * user's green-tick permission for provisional QA use. Otherwise use the
+ * existing English/shared plate (including historical anatomy references).
+ * This is a display choice, never independent Biology/Tamil certification.
+ */
+internal fun selectProvisionalPlate(
+    entries: Map<Pair<String, String>, JSONObject>,
+    diagramId: String,
+    language: ReadingLanguage
+): JSONObject? {
+    val fallback = entries[diagramId to "en"] ?: entries[diagramId to "shared"]
+    val tamil = if (language == ReadingLanguage.TA) entries[diagramId to "ta"] else null
+    return tamil?.takeIf {
+        it.optString("aiQaIntegrationDecision") == "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE" &&
+            it.optString("reviewStatus").startsWith("PROVISIONAL_") &&
+            it.optString("visualReview") != "USER_REJECTED_REPLACEMENT_REQUIRED"
+    } ?: fallback
+}
+
 private data class DiagramSlot(
     val id: String, val topicId: String, val page: Int,
     val captionEn: String, val captionTa: String, val provisionalFigureId: String?
@@ -154,9 +174,9 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
     }
     val matchingDraftIds = pageSlots.mapNotNull { it.provisionalFigureId }.toSet()
     val pencilBySlot = pageSlots.mapNotNull { slot ->
-        // English-labeled anatomical plates are intentionally shared across language
-        // modes. The translated lesson narrative and caption remain language-specific.
-        val entry = pencilPlates[slot.id to "en"] ?: pencilPlates[slot.id to "shared"]
+        // English-labelled plates remain the default in both readers; a green-ticked
+        // Tamil AI PNG may be displayed on the Tamil page without requiring perfect art.
+        val entry = selectProvisionalPlate(pencilPlates, slot.id, lang)
             ?: return@mapNotNull null
         // Rejected drawings must not appear as valid anatomical teaching plates.
         // Keep the registered slot and caption visible in the pending section instead.
