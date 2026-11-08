@@ -13,3 +13,7 @@ Biology warning: historical Fig. 1 gilled aquatic, Fig. 2 metamorphosed terrestr
 No anatomy was redrawn and no artificial labels added. English labels in the source; English/Tamil explanatory keys are in separate lesson metadata.
 
 Independent scientific and Tamil review, zoom legibility on a physical phone, and the gated Android build remain PENDING. Production release HOLD.
+
+## Android asset integration verification
+
+The original 1905 published axolotl illustration has replaced the previous AI-generated figure at the registered Unit III axolotl lesson slot. This document-only commit triggers the native Android QA job using the exact stored 1487x1046 PNG, its SHA-256 and bilingual lesson metadata, requiring Kotlin compilation, Android emulator tests, bitmap/zoom checks and the final embedded APK image audit. Independent biological and Tamil editorial sign-off remains PENDING and production release stays HOLD.
