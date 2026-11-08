@@ -300,13 +300,36 @@
       "figure": "temporal_fenestrae",
       "lang": "shared",
       "path": "pencil_plates/temporal_fenestrae.png",
-      "size": 13301,
-      "sha256": "39dc897b5563216f6a44ecfde87da300c18cc05f5dd556964e73bf3792c8b274",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 2594595,
+      "sha256": "e8f29b8b0f579da071d2b401caa50b35ab08fee51ae30b7c03fc17d4f186e9c8",
+      "author": "Hans Gadow, Amphibia and Reptiles, The Cambridge Natural History, vol. VIII (1901), Fig. 54; individual original draughtsperson not established",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Idealised lateral skull views. The white opening is the eye socket. Shaded openings behind it are temporal fenestrae. 1 Anapsid pattern: none. 2 Synapsid pattern: one lower opening. 3 Diapsid pattern: one upper and one lower opening. These are structural patterns; living lineages can have modified skulls.",
-      "keyTa": "மண்டையோட்டின் எளிய பக்கவாட்டுத் தோற்றங்கள். வெள்ளைத் திறப்பு கண்குழி. அதன் பின்னால் நிறமிட்டவை மண்டையோட்டுப் பக்கவாட்டுத் திறப்புகள். 1 அனாப்சிட் அமைப்பு: திறப்பு இல்லை. 2 சினாப்சிட் அமைப்பு: கீழே ஒரு திறப்பு. 3 டையாப்சிட் அமைப்பு: மேலே ஒன்றும் கீழே ஒன்றுமாக இரு திறப்புகள். உயிர்வாழும் சில மரபுக்குழுக்களில் இவ்வமைப்பு மாறியிருக்கலாம்.",
-      "referenceUrl": "https://openstax.org/books/biology-2e/pages/29-4-reptiles"
+      "keyEn": "Authentic historical Fig. 54 (Gadow 1901), lateral skulls A–K. The orbit is O; openings and arches BEHIND the orbit are the temporal region. B Sphenodon, G Palaeohatteria and F crocodilian illustrate diapsid-related temporal construction. C Cynognathus, D Gordonia and E Dicynodon are synapsid examples, with temporal space below the skull roof. H Chelydra, I Chrysemys and K Cistudo depict turtle skulls with modified temporal roofing or emarginations; turtles are nested within Diapsida according to modern phylogeny, NOT surviving primitively anapsid reptiles. A Elginia is a parareptile, NOT a synapsid although grouped with 'Theromorpha' in this old book. Historical skulls are not an idealised one-to-one numerical anapsid/synapsid/diapsid sequence. Cross-check the original A–K labels and O (orbit) against Fig. 54 caption.",
+      "keyTa": "ஹான்ஸ் காடோவின் 1901 ஆம் ஆண்டின் 54-ஆம் படத்தில் A–K எனக் குறிக்கப்பட்ட பல்வேறு ஊர்வன மற்றும் சினாப்சிட் மண்டையோட்டுப் பக்கவாட்டுத் தோற்றங்கள் உள்ளன. O என்பது கண்குழி; அதன் பின்புறம் மண்டையோட்டுப் பக்கவாட்டுத் திறப்புகள் அமைந்துள்ளன. B ஸ்பீனோடான், G பாலியோஹட்டேரியா, F முதலை ஆகியவை டையாப்சிட் தொடர்புடைய மண்டையோட்டு அமைப்புகளைக் காட்டுகின்றன. C சைனோக்நாதஸ், D கோர்டோனியா, E டைசைனோடான் ஆகியவை சினாப்சிட் எடுத்துக்காட்டுகள். H, I, K ஆகியவை மாற்றமடைந்த பக்கவாட்டுப் பகுதிகளைக் கொண்ட ஆமை மண்டையோடுகள். இன்றைய பரிணாம ஆதாரங்களின்படி ஆமைகள் டையாப்சிட் மரபைச் சேர்ந்தவை; அவற்றை மாற்றமில்லாத மூதாதை அனாப்சிட்கள் எனக் கூறக் கூடாது. A எல்ஜினியா ஒரு பாராரெப்டைல்; பழைய நூலின் வகைப்பாட்டைப் பின்பற்றி அதை சினாப்சிட் எனக் கருதக் கூடாது. இப்பழைய படத்தின் வகைப்பாட்டுச் சொற்கள் நவீன பரிணாம மரபுவழியுடன் முற்றிலும் ஒத்திருக்காது.",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/File:Amphibia_and_reptiles_(1901)_(17979294289).jpg",
+      "license": "Public domain — original published 1901 natural-history skull engravings",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibia_and_reptiles_(1901)_(17979294289).jpg",
+      "sourceImageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Amphibia_and_reptiles_(1901)_(17979294289).jpg",
+      "sourceSha1": "6756aa6dcef62fefd30080ed9d3bc976c2876fb9",
+      "sourceSha256": [
+        "9ef4545c830ceb340383ee9412522e879a5c4c429476506c7eaaa8bdd32f5f0e"
+      ],
+      "sourceKind": "GADOW_1901_ORIGINAL_SKULL_FIG54_JPEG_TO_PNG",
+      "sourceFormat": "JPEG",
+      "installedFormat": "PNG",
+      "referenceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Amphibia_and_reptiles_(1901)_(17979294289).jpg",
+        "https://www.gutenberg.org/cache/epub/73885/pg73885-images.html",
+        "https://www.biodiversitylibrary.org/bibliography/12620",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3970585/"
+      ],
+      "modifications": "Authenticated original published Fig 54 scan, 1628x2136 JPEG decoded to RGB PNG at identical pixel dimensions, without crop, enlargement, artificial labels, traced or AI anatomy.",
+      "scope": "Published comparative skulls A–K illustrating temporal arches and foramina in historically assigned reptiles and synapsids. Includes Elginia, Sphenodon, Palaeohatteria, Cynognathus, Dicynodon, crocodilian and modern turtles, whose phylogenetic interpretation has changed since 1901.",
+      "visualReview": "ORIGINAL_GADOW_1901_SKULL_PLATE_PENDING_EXPERT_TAXONOMY_REVIEW",
+      "topicId": "u4-skull",
+      "page": 1,
+      "sectionKey": "temporal-fenestrae"
     },
     {
       "diagramId": "u4-origin-extinct-amniote-phylogeny",

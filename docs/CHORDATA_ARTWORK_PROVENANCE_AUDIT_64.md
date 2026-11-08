@@ -9,8 +9,8 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 ## Inventory
 
 - Computer-drawn vector exported as PNG: **24**
-- Source-credited artwork (still provisional): **21**
-- No authenticated external source (project-drawn/AI): **9**
+- Source-credited artwork (still provisional): **22**
+- No authenticated external source (project-drawn/AI): **8**
 - Source-based edited composite: **7**
 - AI-generated candidate: **3**
 
@@ -60,7 +60,7 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 | u4-snakes-india-big-four-identification | india_big_four_snakes_en.png | Computer-drawn vector exported as PNG | HIGH | CHORDATA QA — original vector anatomical schematic |  |
 | u4-poison-apparatus-venom-apparatus | snake_venom_delivery_en.png | Source-credited artwork (still provisional) | STANDARD | Edward Nicholson, Indian Snakes (1874), Plate III; original plate illustrator unidentified; Biodiversity Heritage Library scan | https://commons.wikimedia.org/wiki/File:Indian_snakes_(Plate_III)_BHL4390486.jpg |
 | u4-poison-apparatus-first-aid-flowchart | snakebite_first_aid_en.png | Computer-drawn vector exported as PNG | HIGH | CHORDATA QA — original vector anatomical schematic |  |
-| u4-skull-temporal-skull-types | temporal_fenestrae.png | No authenticated external source (project-drawn/AI) | STANDARD | Chordata QA project — original numbered schematic |  |
+| u4-skull-temporal-skull-types | temporal_fenestrae.png | Source-credited artwork (still provisional) | STANDARD | Hans Gadow, Amphibia and Reptiles, The Cambridge Natural History, vol. VIII (1901), Fig. 54; individual original draughtsperson not established | https://commons.wikimedia.org/wiki/File:Amphibia_and_reptiles_(1901)_(17979294289).jpg |
 | u5-aves-classification-bird-lineages | living_bird_phylogeny_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u5-columba-external | pigeon_external_anatomy_en.png | Source-credited artwork (still provisional) | STANDARD | John Gerrard Keulemans (1842–1912); original Columba livia zoological plate (1873) | https://commons.wikimedia.org/wiki/File:Columba_livia_1873.jpg |
 | u5-columba-endoskeleton | columba_skeleton_en.png | Source-credited artwork (still provisional) | STANDARD | Adolf Bernhard Meyer | https://commons.wikimedia.org/wiki/File:Abbildungen_von_Vogel-Skeletten_(Tafel_XC)_(6981817141).jpg |
