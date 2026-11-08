@@ -1,0 +1,51 @@
+name: CHORDATA continuous QA - sourced rabbit brain illustration
+on:
+  push:
+    branches: ["qa/chordata-illustrations-continuous"]
+    paths:
+      - "scripts/install_original_rabbit_brain.py"
+      - ".github/workflows/source-original-rabbit-brain.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-verified-intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Retrieve public-domain 1907 rabbit brain original and verify anatomy asset
+        run: python3 scripts/install_original_rabbit_brain.py
+      - name: Full 64-figure integrity, provenance, placement and review QA
+        run: bash scripts/qa_all.sh
+      - name: Commit sourced PNG and reviewed ledger on the existing QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/rabbit_brain_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_RABBIT_1907_BRAIN_ORIGINAL_QA.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace synthetic rabbit brain with original 1907 engraving"
+            git push origin HEAD:qa/chordata-illustrations-continuous
+          fi
+      - name: Publish original PNG and source metadata for independent review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Rabbit_Brain_Original_1907_QA
+          path: |
+            app/src/main/assets/pencil_plates/rabbit_brain_en.png
+            docs/CHORDATA_RABBIT_1907_BRAIN_ORIGINAL_QA.md
+          if-no-files-found: warn
+          retention-days: 14
