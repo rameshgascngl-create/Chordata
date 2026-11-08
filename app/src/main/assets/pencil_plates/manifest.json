@@ -28,7 +28,10 @@
       "sha256": "e1d8b5a749628f3c49cae235c5dd52649f44fa597eb86ca6ce43a8b7404a1e75",
       "size": 1715092,
       "author": "AI-generated original (ChatGPT ImageGen)",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "aiQaIntegrationDecision": "HOLD_MATERIAL_ANATOMY_ERROR",
+      "aiQaIntegrationNotes": "Two exaggerated gonads misrepresent the multiple serially arranged segmental gonads of Branchiostoma. Revise anatomy before a green tick; retain existing independent review gates.",
+      "aiQaDecisionBasis": "Exact committed artifact SHA-256 checked and artwork visually reviewed against comparative Zoology anatomy sources, 2026-11-08; not independent academic acceptance."
     },
     {
       "diagramId": "u5-flight-adaptations-avian-lung",
@@ -57,7 +60,10 @@
       "sha256": "e29ead970da9fd42aa067bb810ec414fd0e63a78f84ab6e0ea19b4f4673bee40",
       "size": 2015759,
       "author": "AI-generated original (ChatGPT ImageGen)",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
+      "aiQaIntegrationNotes": "Recognisable trachea, paired lungs and major air-sac groups. Schematic sac sizes and not the exact nine-sac arrangement; use for basic location only, not precise bronchial airflow or individual-sac counts.",
+      "aiQaDecisionBasis": "Exact committed artifact SHA-256 checked and artwork visually reviewed against comparative Zoology anatomy sources, 2026-11-08; not independent academic acceptance."
     },
     {
       "diagramId": "u5-columba-endoskeleton",
@@ -85,7 +91,10 @@
       "sha256": "358c4d80563995f9b48e744df6d5cd0d924b40ece64bba2d31eb0e59530a8760",
       "size": 1767926,
       "author": "AI-generated original (ChatGPT ImageGen)",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
+      "aiQaIntegrationNotes": "Essential wing, leg, trunk, skull, and keeled-sternum elements are identifiable. Slight proportion and joint simplifications and Tamil orthography await editorial checking; not measurement-grade.",
+      "aiQaDecisionBasis": "Exact committed artifact SHA-256 checked and artwork visually reviewed against comparative Zoology anatomy sources, 2026-11-08; not independent academic acceptance."
     },
     {
       "diagramId": "u5-rabbit-endoskeleton",
@@ -113,7 +122,10 @@
       "sha256": "e004bee33be5e6f5f47fdeb4e306bd1b0834d8a6cfc3c6ee5eee070e237a2cad",
       "size": 1825509,
       "author": "AI-generated original (ChatGPT ImageGen)",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "aiQaIntegrationDecision": "HOLD_MATERIAL_ANATOMY_ERROR",
+      "aiQaIntegrationNotes": "Rabbit tail/caudal skeletal proportions are exaggerated and not reliably rabbit-specific. Needs comparative skeleton correction before green tick.",
+      "aiQaDecisionBasis": "Exact committed artifact SHA-256 checked and artwork visually reviewed against comparative Zoology anatomy sources, 2026-11-08; not independent academic acceptance."
     },
     {
       "diagramId": "u1-general-characters-five-chordate-characters",

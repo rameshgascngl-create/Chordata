@@ -27,3 +27,24 @@ These are **three distinct PNGs across four registered figure slots**, already p
 - `Calotes` dorsal brain: Tamil Nadu government Higher Secondary Zoology Vol. I — https://www.tamildigitallibrary.in/admin/assets/book/TVA_BOK_0001362_Zoology.pdf
 
 **No image binaries, source credits, academic reviewer decisions, immutable lesson content or production branch were changed by this metadata-only acceptance checkpoint.**
+
+## Next batch of exact-PNG reviews (8 November 2026)
+
+These decisions apply to **Tamil image variants** only; their separately credited English PNG versions are unchanged. Source PNG checksums were confirmed inside the downloaded `CHORDATA_QA_Source_Figures` archive, not inferred from scaled screenshots.
+
+| Registered figure / image | SHA-256 | Decision | Scope and limitations |
+|---|---|---|---|
+| `u5-flight-adaptations-avian-lung` / `avian_respiration_ta.png` | `e29ead970da9fd42aa067bb810ec414fd0e63a78f84ab6e0ea19b4f4673bee40` | ✅ GREEN TICK | Recognisable trachea, paired lungs and major air-sac groups. Schematic sac sizes and not the exact nine-sac arrangement; use for basic location only, not precise bronchial airflow or individual-sac counts. |
+| `u5-columba-endoskeleton` / `columba_skeleton_ta.png` | `358c4d80563995f9b48e744df6d5cd0d924b40ece64bba2d31eb0e59530a8760` | ✅ GREEN TICK | Essential wing, leg, trunk, skull, and keeled-sternum elements are identifiable. Slight proportion and joint simplifications and Tamil orthography await editorial checking; not measurement-grade. |
+| `u1-cephalochordata-branchiostoma-labelled` / `branchiostoma_ta.png` | `e1d8b5a749628f3c49cae235c5dd52649f44fa597eb86ca6ce43a8b7404a1e75` | HOLD | Two exaggerated gonads misrepresent the multiple serially arranged segmental gonads of Branchiostoma. Revise anatomy before a green tick; retain existing independent review gates. |
+| `u5-rabbit-endoskeleton` / `rabbit_skeleton_ta.png` | `e004bee33be5e6f5f47fdeb4e306bd1b0834d8a6cfc3c6ee5eee070e237a2cad` | HOLD | Rabbit tail/caudal skeletal proportions are exaggerated and not reliably rabbit-specific. Needs comparative skeleton correction before green tick. |
+
+**Cumulative result:** five distinct AI PNGs with green ticks covering six manifest entries (two amphibian reuse slots, Calotes respiratory system, Calotes brain, and the two Tamil avian plates). Two Tamil AI plates are on hold for material anatomy issues. No AI-origin PNG bytes were edited. Green ticks expressly permit **provisional integration and display in QA builds**, without changing `reviewStatus` or independent scientific/Tamil approval, which remain pending. A held variant is not newly authorized by this policy; any preexisting provisional presence in the QA app is unchanged pending correction.
+
+**Review references (not reuse licences):**
+- Avian sac anatomy: https://pmc.ncbi.nlm.nih.gov/articles/PMC11864839/
+- Bird air-sac labelled reference: https://omeka.uottawa.ca/biodidac/items/show/5570
+- Branchiostoma gonads in serial arrangements: https://www.gutenberg.org/cache/epub/73702/pg73702-images.html
+- Rabbit vertebral regions: https://lifelib.info/en/biology/science_1/196.html
+
+**Provenance:** No external figure was copied; reviewed PNGs remain credited as generated with ChatGPT ImageGen.
