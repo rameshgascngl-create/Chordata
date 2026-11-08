@@ -1472,26 +1472,33 @@
       "figure": "rabbit_external_anatomy",
       "lang": "en",
       "path": "pencil_plates/rabbit_external_anatomy_en.png",
-      "sha256": "feefcaae873e56d254357e95df831916a1083d75284b11812807182523d4eded",
-      "size": 154955,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "9a5c6e1a7870bbebb42725604ce05d96820a5fc3ae35efdbe0970639609a0f7c",
+      "size": 1545073,
+      "author": "Jacques Christophe Werner (1798-1856), Histoire naturelle des mammiferes (1824); Commons extract",
+      "license": "Public domain — Werner artwork published 1824; digitised Commons extract",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lepus_cuniculus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-(white_background).jpg",
       "referenceUrls": [
-        "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        "https://commons.wikimedia.org/wiki/File:Lepus_cuniculus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-(white_background).jpg"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Pinna, large hindlimbs, vibrissae, fur, cleft upper lip and short tail.",
-      "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/rabbit_external_anatomy_en.svg",
+      "modifications": "Commons edition is white-background extract with altered orientation; this intake only converts source JPEG pixels to PNG, no further crop, resize, redraw, labels, vector or AI",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "1824 published rabbit portrait: observe large pinnae, lateral eye, fur, whiskers, muzzle, forelimbs, large hindquarters and short tail. The crouching pose obscures most of the hind feet and the cleft upper lip; do not infer their appearance from the picture.",
+      "keyTa": "1824 ஆம் ஆண்டில் வெளியிடப்பட்ட முயல் ஓவியம். பெரிய புறச்செவிகள், பக்கவாட்டுக் கண், உரோமம், தொடுவுணர் மீசைமுடிகள், முகப்பு, முன்னங்கால்கள், பெரிய பின்னுடற்பகுதி மற்றும் குட்டையான வால் ஆகியவற்றைக் காணலாம். அமர்ந்திருக்கும் தோற்றத்தால் பின்னங்காலின் பாதங்களும் பிளவுபட்ட மேல் உதடும் தெளிவாகத் தெரியவில்லை.",
+      "scope": "Oryctolagus cuniculus external morphology in crouching side pose; no internal anatomy",
+      "visualReview": "ORIGINAL_PUBLIC_DOMAIN_PNG_PENDING_EDITORIAL_DEVICE_REVIEW",
       "topicId": "u5-rabbit",
       "page": 1,
       "sectionKey": "external-features",
       "learningObjective": "Pinna, large hindlimbs, vibrissae, fur, cleft upper lip and short tail.",
-      "svgSha256": "8d3642c2a672f289855b11bfd0d92ffbbe061746f55362ba7d1c393d3283a5c9"
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Lepus_cuniculus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-%28white_background%29.jpg",
+      "sourceSha1": "054ac53d870681e7f1ff17d2b60374d42770fdd6",
+      "sourceSha256": [
+        "74c18a36f74e8b09d0ee61b4190976dedd807e46ce5b2dcad44fbce432f3385c"
+      ],
+      "sourceFormat": "JPEG",
+      "installedFormat": "PNG",
+      "sourceKind": "VERIFIED_WERNER_1824_ORIGINAL_RABBIT_JPEG_TO_PNG"
     },
     {
       "diagramId": "u5-rabbit-sense-organs",
