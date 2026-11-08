@@ -3,6 +3,8 @@ package `in`.gasc.zoology.chordata.ui
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.graphics.BitmapRegionDecoder
+import android.graphics.Rect
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.rememberTransformableState
@@ -61,17 +63,25 @@ internal fun decodePlateBitmap(
 }
 
 /**
- * The credited 1878 dogfish comparative engraving occupies the left 500 x 941
- * region of its 1420 x 1010 original-source canvas. The right region is a
- * prose attribution panel, already exposed separately in FigureGallery.
+ * Focus the credited 1878 comparative dogfish engraving without upscaling
+ * or changing the source PNG. The full original remains stored unchanged.
+ * Region decoding holds only 500 x 941 pixels (~1.8 MiB ARGB_8888), rather
+ * than decoding the 1420 x 1010 composite (~5.5 MiB).
  *
- * Display only: keep the original committed PNG, its SHA-256 and source credit
- * untouched. Do not infer Scoliodon species identity from this crop.
+ * The historical species was NOT confirmed as Scoliodon laticaudus.
  */
-internal fun focusedHistoricalDogfishBrain(source: Bitmap, diagramId: String): Bitmap {
-    if (diagramId != "u2-scoliodon-brain-labelled" ||
-        source.width != 1420 || source.height != 1010) return source
-    return Bitmap.createBitmap(source, 40, 35, 500, 941)
+internal fun decodeFocusedHistoricalDogfishBrain(
+    context: Context, assetDirectory: String, filename: String
+): Bitmap? {
+    context.assets.open("$assetDirectory/$filename").use { stream ->
+        val decoder = BitmapRegionDecoder.newInstance(stream, false)
+        return try {
+            if (decoder.width != 1420 || decoder.height != 1010) null
+            else decoder.decodeRegion(Rect(40, 35, 540, 976), BitmapFactory.Options())
+        } finally {
+            decoder.recycle()
+        }
+    }
 }
 
 private data class Plate(
@@ -221,10 +231,13 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
         visiblePlates.forEach { plate ->
             val bitmap = remember(context, plate.assetDirectory, plate.filename) {
                 runCatching {
-                    decodePlateBitmap(context, plate.assetDirectory, plate.filename,
-                        maxLongestEdgePx =
-                            if (plate.id == "u2-scoliodon-brain-labelled") 1600 else 1200)
-                        ?.let { focusedHistoricalDogfishBrain(it, plate.id).asImageBitmap() }
+                    val preview = if (plate.id == "u2-scoliodon-brain-labelled") {
+                        decodeFocusedHistoricalDogfishBrain(
+                            context, plate.assetDirectory, plate.filename)
+                    } else null
+                    (preview ?: decodePlateBitmap(
+                        context, plate.assetDirectory, plate.filename,
+                        maxLongestEdgePx = 1200))?.asImageBitmap()
                 }.getOrNull()
             }
             if (bitmap == null) {
@@ -309,8 +322,12 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     // Load the unmodified full-resolution image only inside the dialog.
                     val fullImage = remember(context, plate.assetDirectory, plate.filename, zoomed) {
                         runCatching {
-                            decodePlateBitmap(context, plate.assetDirectory, plate.filename)
-                                ?.let { focusedHistoricalDogfishBrain(it, plate.id).asImageBitmap() }
+                            val focused = if (plate.id == "u2-scoliodon-brain-labelled") {
+                                decodeFocusedHistoricalDogfishBrain(
+                                    context, plate.assetDirectory, plate.filename)
+                            } else null
+                            (focused ?: decodePlateBitmap(
+                                context, plate.assetDirectory, plate.filename))?.asImageBitmap()
                         }.getOrNull()
                     }
                     var scale by remember(plate.id, zoomed) { mutableFloatStateOf(1f) }
