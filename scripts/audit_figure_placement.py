@@ -275,6 +275,34 @@ def main():
                         and not figure.get("svgSha256"),
                         "1909 frog plate exact source hash, public-domain provenance, or scope differs"
                     )
+                elif (figure["diagramId"] == "u5-dentition-tooth-types"
+                      and figure.get("sourceKind") == "WELLCOME_TARDIEU_AUTHENTIC_ADULT_DENTITION_JPEG_TO_PNG"):
+                    require(
+                        figure.get("lang") == "shared"
+                        and figure.get("path") == "pencil_plates/human_tooth_types.png"
+                        and figure.get("author") == "A. Tardieu (historical engraving, as attributed by Wellcome Collection); Wellcome Collection (digitised image)"
+                        and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:The_incisors,_canines,_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg"
+                        and figure.get("sourceImageUrl") == "https://upload.wikimedia.org/wikipedia/commons/e/e3/The_incisors%2C_canines%2C_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg"
+                        and figure.get("sourceFormat") == "JPEG"
+                        and figure.get("installedFormat") == "PNG"
+                        and len(figure.get("sourceSha256",[])) == 1
+                        and len(figure.get("sourceSha1","")) == 40
+                        and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by/4.0/"
+                        and figure.get("license","").startswith("CC BY 4.0")
+                        and figure.get("referenceUrl") == figure.get("sourceUrl")
+                        and figure.get("topicId") == "u5-dentition"
+                        and figure.get("page") == 1
+                        and figure.get("sectionKey") == "tooth-types"
+                        and "not rabbit" in figure.get("keyEn","")
+                        and "முயலின் பற்கள் அல்ல" in figure.get("keyTa","")
+                        and "A upper-jaw" in figure.get("keyEn","")
+                        and "B lower-jaw" in figure.get("keyEn","")
+                        and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                        and figure.get("visualReview") == "AUTHENTIC_WELLCOME_TOOTH_PLATE_PENDING_EXPERT_REVIEW"
+                        and not figure.get("svgMaster")
+                        and not figure.get("svgSha256"),
+                        "Wellcome teeth image rights, author, jaw labels or scientific scope are invalid"
+                    )
                 else:
                     require(figure["author"] == "Chordata QA project — original numbered schematic",
                             "original plate creator attribution changed: " + name)

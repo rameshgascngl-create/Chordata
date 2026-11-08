@@ -1,0 +1,58 @@
+name: CHORDATA QA - authentic Wellcome dentition illustration
+on:
+  push:
+    branches: ["qa/chordata-illustrations-continuous"]
+    paths:
+      - "scripts/install_wellcome_tooth_types.py"
+      - "scripts/report_artwork_provenance.py"
+      - "scripts/audit_figure_placement.py"
+      - ".github/workflows/qa-authentic-dentition-intake.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-and-placement-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install decoder
+        run: python3 -m pip install Pillow==11.3.0
+      - name: Install exact 3540 pixel Wellcome engraving with CC BY 4.0 credit
+        run: python3 scripts/install_wellcome_tooth_types.py
+      - name: Complete historical-artwork and 64 figure placement QA
+        run: bash scripts/qa_all.sh
+      - name: Export full 64-figure source-authenticity inventory
+        run: python3 scripts/report_artwork_provenance.py
+      - name: Commit only the verified dental plate and its records
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/human_tooth_types.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_WELLCOME_DENTITION_ORIGINAL_QA.md
+          git add docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace drawn tooth diagram with credited Wellcome anatomical engraving"
+            git push origin HEAD:qa/chordata-illustrations-continuous
+          fi
+      - name: Archive QA plate and provenance
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Wellcome_Original_Dentition_QA
+          path: |
+            app/src/main/assets/pencil_plates/human_tooth_types.png
+            docs/CHORDATA_WELLCOME_DENTITION_ORIGINAL_QA.md
+            docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          if-no-files-found: warn
+          retention-days: 14
