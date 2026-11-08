@@ -14,3 +14,7 @@ The source PNG is installed byte-for-byte; no resizing, tracing, AI generation, 
 Scientific caveat: a typical frog, not all Amphibia. Original stages 1,2,2a,3,4,5,6,7,8 include external gills, hindlimbs before forelimbs and progressive tail resorption; egg positioning is a source-specific illustration, not universal.
 English labels inside the original are preserved; English and Tamil educational keys are separate from the image.
 Independent Zoology review, Tamil editorial decision, on-device visual zoom and final release approval remain PENDING. No production merge.
+
+## Rebuilt Android QA verification
+
+This report-only commit follows installation of the exact original 1909 PNG into the Unit III metamorphosis slot. It triggers the existing four-job native Android QA workflow on the updated asset commit, including source and hash integrity, Kotlin compilation, emulator instrumentation, and SHA verification inside the gated debug APK. The previous draft schematic is replaced. No academic approval is implied; independent scientific, Tamil, and physical-device reviews remain PENDING, and the production branch stays untouched.
