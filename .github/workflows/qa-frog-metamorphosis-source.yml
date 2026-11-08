@@ -1,0 +1,52 @@
+name: CHORDATA QA - verified 1909 frog metamorphosis PNG
+on:
+  push:
+    branches: ["qa/chordata-illustrations-continuous"]
+    paths:
+      - "scripts/install_historical_frog_metamorphosis.py"
+      - ".github/workflows/qa-frog-metamorphosis-source.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify-and-install-original:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install image decoder
+        run: python3 -m pip install Pillow==11.3.0
+      - name: Validate original 1909 source PNG and replace provisional drawing
+        run: python3 scripts/install_historical_frog_metamorphosis.py
+      - name: Run 64-figure placement, metadata, native and review checks
+        run: bash scripts/qa_all.sh
+      - name: Commit original PNG and its author/rights evidence on QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/frog_metamorphosis.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_FROG_METAMORPHOSIS_1909_PNG_QA.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): install public-domain 1909 frog metamorphosis PNG"
+            git push origin HEAD:qa/chordata-illustrations-continuous
+          fi
+      - name: Archive source PNG and provenance
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: CHORDATA_Frog_Metamorphosis_1909_Original_QA
+          path: |
+            app/src/main/assets/pencil_plates/frog_metamorphosis.png
+            docs/CHORDATA_FROG_METAMORPHOSIS_1909_PNG_QA.md
+          if-no-files-found: warn
+          retention-days: 14
