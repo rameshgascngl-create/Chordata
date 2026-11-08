@@ -1,0 +1,57 @@
+name: CHORDATA QA - original PLOS shark sensory systems
+on:
+  push:
+    branches: ["qa/chordata-illustrations-continuous"]
+    paths:
+      - "scripts/install_plos_shark_senses.py"
+      - ".github/workflows/qa-original-plos-shark-senses.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: chordata-peer-reviewed-shark-sensory
+  cancel-in-progress: false
+jobs:
+  verify-original-and-install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Verify PLOS 2012 figure and prepare scientifically attributed PNG
+        run: python3 scripts/install_plos_shark_senses.py
+      - name: Recheck exact 64-figure mapping, scientific content, rights and tests
+        run: bash scripts/qa_all.sh
+      - name: Refresh entire figure provenance inventory
+        run: python3 scripts/report_artwork_provenance.py
+      - name: Commit original research art and complete records only to QA
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/shark_sensory_systems_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_PLOS2012_ELASMOBRANCH_SENSORY_FIGURE_QA.md docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace drawn Scoliodon senses with published PLOS original"
+            git fetch origin qa/chordata-illustrations-continuous
+            git rebase origin/qa/chordata-illustrations-continuous
+            git push origin HEAD:qa/chordata-illustrations-continuous
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: CHORDATA_PLOS2012_Shark_Sensory_Research_Figure
+          path: |
+            app/src/main/assets/pencil_plates/shark_sensory_systems_en.png
+            docs/CHORDATA_PLOS2012_ELASMOBRANCH_SENSORY_FIGURE_QA.md
+          if-no-files-found: warn
+          retention-days: 14
