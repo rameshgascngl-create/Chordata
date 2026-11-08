@@ -8,8 +8,8 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 
 ## Inventory
 
-- Computer-drawn vector exported as PNG: **24**
-- Source-credited artwork (still provisional): **22**
+- Computer-drawn vector exported as PNG: **23**
+- Source-credited artwork (still provisional): **23**
 - No authenticated external source (project-drawn/AI): **8**
 - Source-based edited composite: **7**
 - AI-generated candidate: **3**
@@ -65,7 +65,7 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 | u5-columba-external | pigeon_external_anatomy_en.png | Source-credited artwork (still provisional) | STANDARD | John Gerrard Keulemans (1842–1912); original Columba livia zoological plate (1873) | https://commons.wikimedia.org/wiki/File:Columba_livia_1873.jpg |
 | u5-columba-endoskeleton | columba_skeleton_en.png | Source-credited artwork (still provisional) | STANDARD | Adolf Bernhard Meyer | https://commons.wikimedia.org/wiki/File:Abbildungen_von_Vogel-Skeletten_(Tafel_XC)_(6981817141).jpg |
 | u5-columba-urinogenital | pigeon_urinogenital_en.png | Source-based edited composite | HIGH | CHORDATA QA original comparative diagram; George Howard Parker (1928) female pigeon anatomy | https://commons.wikimedia.org/wiki/File:Creation_by_Evolution_(1928)_p037_reproductive_organs_of_a_female_pigeon.png |
-| u5-columba-sense-organs | pigeon_eye_ear_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
+| u5-columba-sense-organs | pigeon_eye_ear_en.png | Source-credited artwork (still provisional) | STANDARD | Original engraver not identified; The New International Encyclopaedia, vol. 3 (1905), bird anatomy article by Ernest Ingersoll | https://commons.wikimedia.org/wiki/File:NIE_1905_Bird_-_eye_structure.jpg |
 | u5-flight-adaptations-wing-aerodynamics | avian_aerofoil_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u5-flight-adaptations-flight-muscles | avian_flight_muscles_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u5-flight-adaptations-avian-lung | avian_respiration_en.png | Source-credited artwork (still provisional) | HIGH | L. Shyamal (2007; updated 2012), after R. McNeill Alexander; CHORDATA QA (raster rendering) | https://commons.wikimedia.org/wiki/File:BirdRespiration.svg |

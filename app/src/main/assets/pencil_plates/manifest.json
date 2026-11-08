@@ -1477,26 +1477,51 @@
       "figure": "pigeon_eye_ear",
       "lang": "en",
       "path": "pencil_plates/pigeon_eye_ear_en.png",
-      "sha256": "9b098710fd9ed904d3fe879b48e466df5c338fc66f02ea081563c489507be611",
-      "size": 154552,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "3873ea66a86d85407e9a120f78b267c4b31f61b6ae59e8a30f5c6408dcdf1a29",
+      "size": 578729,
+      "author": "Original engraver not identified; The New International Encyclopaedia, vol. 3 (1905), bird anatomy article by Ernest Ingersoll",
+      "license": "Public domain; two published bird-anatomy engravings from the New International Encyclopaedia (1905)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIE_1905_Bird_-_eye_structure.jpg",
       "referenceUrls": [
-        "https://www.kngac.ac.in/elearning-portal/ec/admin/contents/4_18K1B-CHAZ1_2020120708200484.pdf"
+        "https://commons.wikimedia.org/wiki/File:NIE_1905_Bird_-_eye_structure.jpg",
+        "https://commons.wikimedia.org/wiki/File:NIE_1905_Bird_-_anatomy.jpg"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Visual structures, middle-ear columella and inner-ear balance organs.",
-      "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/pigeon_eye_ear_en.svg",
+      "modifications": "Both public-domain 1905 anatomical JPEG scans placed at native pixel scale on 1600x1260 RGB PNG; bird inner ear isolated by documented x=490..1050, y=265..710 source crop of figure 12; captions only OUTSIDE art. No SVG drawing, anatomy redrawing, AI, or visual interpolation.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Original bird eye: P pecten oculi, L lens, C cornea, R retina and Sc sclera. Original inner ear Fig. 12 from the 1905 bird-anatomy plate: Co columella auris (the single middle-ear ossicle); H horizontal and S sagittal semicircular canals; L lagena. The original figure also marks adjacent skull bones. This is comparative avian anatomy, not a confirmed pigeon dissection. Modern descriptions distinguish the bird's uncoiled cochlear duct and vestibular apparatus.",
+      "keyTa": "1905 ஆம் ஆண்டின் பறவைப் புலனுறுப்பு உடற்கூறியல் ஓவியங்கள். கண்ணின் குறியீடுகள்: P — பெக்டென் ஓகுலை, L — விழிவில்லை, C — விழிவெண்படலத்தின் முன்பகுதியான கார்னியா, R — விழித்திரை, Sc — ஸ்கிளீரா. உட்செவியின் படம் 12: Co — ஒலியை கடத்தும் ஒற்றை நடுச்செவி எலும்பான கொலுமெல்லா ஆரிஸ்; H — கிடைமட்ட அரைவட்டக் குழாய்; S — செங்குத்து அரைவட்டக் குழாய்; L — லஜீனா. இவை பொதுவான பறவை உடற்கூறியல் படங்கள்; தனிப்பட்ட கொலும்பா லிவியா மாதிரியின் பிரித்தாய்வுப் படம் என உறுதிப்படுத்தப்படவில்லை.",
+      "scope": "Comparative avian transverse eye section and avian inner-ear anatomy including columella and vestibular canals. 1905 generalized BIRD figures, NOT verified Columba livia dissections.",
+      "visualReview": "ORIGINAL_1905_AVIAN_EYE_EAR_PENDING_ZOOLOGY_REVIEW",
       "topicId": "u5-columba",
       "page": 4,
       "sectionKey": "sense-organs",
       "learningObjective": "Visual structures, middle-ear columella and inner-ear balance organs.",
-      "svgSha256": "d0a2c8687d0f065500478376366371a45ec97cdf2d376f79b23c989b69a5db10"
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:NIE_1905_Bird_-_eye_structure.jpg",
+        "https://commons.wikimedia.org/wiki/File:NIE_1905_Bird_-_anatomy.jpg"
+      ],
+      "sourceImageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/fd/NIE_1905_Bird_-_eye_structure.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cf/NIE_1905_Bird_-_anatomy.jpg"
+      ],
+      "sourceSha1s": [
+        "3c842e74d14274e3e4a6405eb865f06cf170c13f",
+        "046dd4b576fe4fef09e82be84073b99d12e00633"
+      ],
+      "sourceSha256": [
+        "5f7e77e80d0332c013483a281b2b2a6ee3de1231f8fffcabd1e489de0db8f2a3",
+        "79c1b125538d44957336a9439e20a1f5bc25d97d37470f938523a00b1979d1f2"
+      ],
+      "sourceFormat": "JPEG",
+      "installedFormat": "PNG",
+      "sourceKind": "NIE1905_PUBLISHED_BIRD_EYE_AND_INNER_EAR_ORIGINAL_PNG",
+      "sourceCropRect": [
+        490,
+        265,
+        1050,
+        710
+      ]
     },
     {
       "diagramId": "u5-flight-adaptations-wing-aerodynamics",
