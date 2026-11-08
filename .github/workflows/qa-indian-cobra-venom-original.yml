@@ -1,0 +1,56 @@
+name: CHORDATA QA - original Indian cobra venom apparatus illustration
+on:
+  push:
+    branches: ["qa/chordata-illustrations-continuous"]
+    paths:
+      - "scripts/install_nicholson_cobra_venom_plate.py"
+      - ".github/workflows/qa-indian-cobra-venom-original.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify-and-integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Verify original 1874 Indian cobra anatomical source and install PNG
+        run: python3 scripts/install_nicholson_cobra_venom_plate.py
+      - name: Validate all 64 scientific lesson figure placements and sources
+        run: bash scripts/qa_all.sh
+      - name: Update 64-figure source audit
+        run: python3 scripts/report_artwork_provenance.py
+      - name: Commit authentic image and provenance on continuous QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/snake_venom_delivery_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_NICHOLSON_1874_COBRA_VENOM_PLATE_QA.md
+          git add docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): replace vector snake venom plate with Nicholson 1874 original"
+            git fetch origin qa/chordata-illustrations-continuous
+            git rebase origin/qa/chordata-illustrations-continuous
+            git push origin HEAD:qa/chordata-illustrations-continuous
+          fi
+      - name: Export authentic Indian cobra PNG and evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Original_Indian_Cobra_Venom_Anatomy_PNG
+          path: |
+            app/src/main/assets/pencil_plates/snake_venom_delivery_en.png
+            docs/CHORDATA_NICHOLSON_1874_COBRA_VENOM_PLATE_QA.md
+          if-no-files-found: warn
+          retention-days: 14
