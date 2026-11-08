@@ -501,7 +501,10 @@
       "modifications": "Generated for this lesson; lettered panels; selectable bilingual key supplied separately.",
       "scope": "Generalised adult comparative external morphology",
       "visualReview": "SELF_REVIEWED_PROVISIONAL",
-      "visualReviewNotes": "Full 1536x1024 image inspected: panels distinguish adult tailless anuran, tailed salamander, annulated limbless caecilian and head inset. Not accepted as species-specific anatomy. Independent review pending."
+      "visualReviewNotes": "Full 1536x1024 image inspected: panels distinguish adult tailless anuran, tailed salamander, annulated limbless caecilian and head inset. Not accepted as species-specific anatomy. Independent review pending.",
+      "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
+      "aiQaIntegrationNotes": "Adult forms correctly distinguish Anura, Caudata and Gymnophiona. Lettered fourth image is a caecilian head detail; illustrative and not to scale.",
+      "aiQaDecisionBasis": "Visual screening + relevant Zoology reference comparison, 2026-11-08; independent Biology/Tamil sign-off still pending"
     },
     {
       "diagramId": "u3-adaptive-features-comparative-body-plans",
@@ -520,7 +523,10 @@
       "modifications": "Generated for this lesson; lettered panels; selectable bilingual key supplied separately.",
       "scope": "Generalised adult comparative external morphology",
       "visualReview": "SELF_REVIEWED_PROVISIONAL",
-      "visualReviewNotes": "Full 1536x1024 image inspected: panels distinguish adult tailless anuran, tailed salamander, annulated limbless caecilian and head inset. Not accepted as species-specific anatomy. Independent review pending."
+      "visualReviewNotes": "Full 1536x1024 image inspected: panels distinguish adult tailless anuran, tailed salamander, annulated limbless caecilian and head inset. Not accepted as species-specific anatomy. Independent review pending.",
+      "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
+      "aiQaIntegrationNotes": "Same shared amphibian-orders PNG; generalised morphology is fit for provisional concept teaching, not species identification.",
+      "aiQaDecisionBasis": "Visual screening + relevant Zoology reference comparison, 2026-11-08; independent Biology/Tamil sign-off still pending"
     },
     {
       "diagramId": "u3-neoteny-axolotl-development",
@@ -1225,7 +1231,10 @@
       "learningObjective": "Locate glottis, larynx, trachea, short bronchi, right and left lung; distinguish septa from faveoli and explain rib-driven ventilation in lesson text.",
       "sourceKind": "OPENAI_IMAGEGEN_ORIGINAL_RASTER_QA_CANDIDATE",
       "sourceFormat": "AI-generated PNG",
-      "installedFormat": "PNG"
+      "installedFormat": "PNG",
+      "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
+      "aiQaIntegrationNotes": "Correct major airway sequence, paired lungs, larger right lung, internal septa and faveoli; stylised internal topology, not a dissection-accurate depiction.",
+      "aiQaDecisionBasis": "Visual screening + relevant Zoology reference comparison, 2026-11-08; independent Biology/Tamil sign-off still pending"
     },
     {
       "diagramId": "u4-calotes-arterial-system",
@@ -1279,7 +1288,10 @@
       "sectionKey": "brain",
       "learningObjective": "Forebrain, optic lobes, cerebellum, medulla and spinal cord.",
       "sourceKind": "AI_GENERATED_ORIGINAL_QA_CANDIDATE",
-      "installedFormat": "PNG"
+      "installedFormat": "PNG",
+      "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
+      "aiQaIntegrationNotes": "Main dorsal brain regions correctly identified at conceptual scale; omitted pineal/diencephalon details and simplified proportions need later review.",
+      "aiQaDecisionBasis": "Visual screening + relevant Zoology reference comparison, 2026-11-08; independent Biology/Tamil sign-off still pending"
     },
     {
       "diagramId": "u4-origin-extinct-extinct-groups",
