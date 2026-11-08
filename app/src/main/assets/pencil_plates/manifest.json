@@ -562,21 +562,35 @@
       "figure": "shark_sensory_systems",
       "lang": "en",
       "path": "pencil_plates/shark_sensory_systems_en.png",
-      "sha256": "869f266b9448e5a1821f6a7cbb1e193553f7237166c11e18367a057eeb033752",
-      "size": 73721,
-      "author": "CHORDATA QA — original computer-assisted anatomical schematic",
-      "license": "Original provisional project artwork; no third-party image reproduced",
-      "sourceUrl": "",
+      "sha256": "f4772942d441d02589425580a46a312900bd5b6f141cd36f09a8657f0e6e6d91",
+      "size": 2191813,
+      "author": "Marit Winther-Janson, Barbara E. Wueringer and Jamie E. Seymour (2012), PLOS ONE 7(11):e49857, original Fig. 2",
+      "license": "CC BY; 2012 PLOS ONE original research Figure 2, credited to Winther-Janson, Wueringer and Seymour",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3511481/figure/pone-0049857-g002/",
       "referenceUrls": [
-        "https://dlnr.hawaii.gov/sharks/about-sharks/senses/",
-        "https://australian.museum/publications/sharks/bodies-senses/"
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3511481/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3511481/figure/pone-0049857-g002/",
+        "https://doi.org/10.1371/journal.pone.0049857",
+        "https://dlnr.hawaii.gov/sharks/about-sharks/senses/"
       ],
-      "modifications": "Original diagram drawn programmatically with Pillow; English labels; PNG export.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Shark lateral line and ampullae are separate sensory modalities.",
-      "keyTa": "",
-      "scope": "Exact lesson section: sense-organs",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL"
+      "modifications": "Published full Fig. 2 reproduced pixel-identically in 1:1 scale on 3714x4181 RGB PNG, with separate English comparison notes to the RIGHT. Source artwork never cropped, rescaled, recoloured, recreated or AI-generated.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Original peer-reviewed 2012 anatomical Fig. 2 of the EPAULETTE SHARK Hemiscyllium ocellatum, not Scoliodon sorrakowah. Panel A maps mechanosensory lateral-line canals detecting water displacement; panel B maps electroreceptive ampullary pores sensing weak external bioelectric fields. C shows microscopic ampullary canal, bulb and nerve; D maps ampullary fields/clusters. These two sensory pathways are distinct. Do not transfer pore-field geometry or counts from Hemiscyllium to Scoliodon without species-specific evidence.",
+      "keyTa": "வின்தர்-யான்சன் குழுவினரின் 2012 ஆய்வுக் கட்டுரையில் உள்ள ஹெமிஸ்சிலியம் ஒசெல்லாட்டம் என்ற சுறா இனத்தின் ஒப்பீட்டு உடற்கூறியல் படம்; இது ஸ்கோலியோடான் வகைமாதிரிப் படம் அல்ல. A — நீரின் அசைவுகளை உணரும் பக்கக்கோட்டு மண்டலக் கால்வாய்கள் (இயந்திர உணர்தல்); B — மெல்லிய உயிர்மின்னியல் புலங்களை உணரும் லோரென்சினியின் ஆம்புலாக்களின் துளைகள் (மின்னுணர்தல்); C — ஆம்புலாக் கால்வாய், குமிழ் மற்றும் நரம்பின் நுண்ணோக்கித் தோற்றம்; D — துளைகளின் பரவலும் ஆம்புலாக்களின் குழுக்களும். இரண்டு உணர்வு மண்டலங்களின் பணிகளைக் குழப்பக் கூடாது. இந்தச் சுறாவின் துளை எண்ணிக்கையையும் இடஅமைப்பையும் ஸ்கோலியோடானுக்கு நேரடியாகப் பொருத்தக் கூடாது.",
+      "scope": "Research Fig. 2 of Hemiscyllium ocellatum, NOT Scoliodon: A lateral-line mechanosensory canal system, B electrosensory ampullary pores, C microscope ampullary structure, D ampullary fields/clusters.",
+      "visualReview": "PLOS2012_ORIGINAL_PEER_REVIEWED_COMPARATIVE_ANATOMY_PENDING_HUMAN_SIGNOFF",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceImageUrl": "https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0049857.g002",
+      "sourceSha1": "f895314cd287002daf3d7ef3729546c28186d6e8",
+      "sourceSha256": [
+        "297da5dbe1351012be4bbeb84b131779d62afed711544fc7499577118e256bfa"
+      ],
+      "sourceKind": "PLOS2012_ORIGINAL_EPAULETTE_SHARK_SENSORY_ANATOMY",
+      "sourceFormat": "PNG",
+      "installedFormat": "PNG",
+      "topicId": "u2-scoliodon",
+      "page": 5,
+      "sectionKey": "sense-organs"
     },
     {
       "diagramId": "u3-rana-external",
