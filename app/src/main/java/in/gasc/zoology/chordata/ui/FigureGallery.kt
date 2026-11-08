@@ -326,8 +326,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 decodeFocusedHistoricalDogfishBrain(
                                     context, plate.assetDirectory, plate.filename)
                             } else null
-                            (focused ?: decodePlateBitmap(
-                                context, plate.assetDirectory, plate.filename))?.asImageBitmap()
+                            (focused ?: decodePlateBitmap(context, plate.assetDirectory, plate.filename))
+                                ?.asImageBitmap()
                         }.getOrNull()
                     }
                     var scale by remember(plate.id, zoomed) { mutableFloatStateOf(1f) }
