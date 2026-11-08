@@ -8,8 +8,8 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 
 ## Inventory
 
-- Computer-drawn vector exported as PNG: **25**
-- Source-credited artwork (still provisional): **18**
+- Computer-drawn vector exported as PNG: **24**
+- Source-credited artwork (still provisional): **19**
 - No authenticated external source (project-drawn/AI): **10**
 - Source-based edited composite: **7**
 - AI-generated candidate: **4**
@@ -58,7 +58,7 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 | u4-origin-extinct-amniote-phylogeny | amniote_phylogeny.png | No authenticated external source (project-drawn/AI) | HIGH | Chordata QA project — original numbered schematic |  |
 | u4-origin-extinct-extinct-groups | extinct_reptile_lineages_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u4-snakes-india-big-four-identification | india_big_four_snakes_en.png | Computer-drawn vector exported as PNG | HIGH | CHORDATA QA — original vector anatomical schematic |  |
-| u4-poison-apparatus-venom-apparatus | snake_venom_delivery_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
+| u4-poison-apparatus-venom-apparatus | snake_venom_delivery_en.png | Source-credited artwork (still provisional) | STANDARD | Edward Nicholson, Indian Snakes (1874), Plate III; original plate illustrator unidentified; Biodiversity Heritage Library scan | https://commons.wikimedia.org/wiki/File:Indian_snakes_(Plate_III)_BHL4390486.jpg |
 | u4-poison-apparatus-first-aid-flowchart | snakebite_first_aid_en.png | Computer-drawn vector exported as PNG | HIGH | CHORDATA QA — original vector anatomical schematic |  |
 | u4-skull-temporal-skull-types | temporal_fenestrae.png | No authenticated external source (project-drawn/AI) | STANDARD | Chordata QA project — original numbered schematic |  |
 | u5-aves-classification-bird-lineages | living_bird_phylogeny_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
