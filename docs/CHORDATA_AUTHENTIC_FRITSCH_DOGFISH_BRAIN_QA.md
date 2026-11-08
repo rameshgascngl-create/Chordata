@@ -13,3 +13,7 @@ NO anatomy pixels have been altered, rescaled, traced or generated. The 500x941 
 CAUTION: This is dogfish comparative anatomy, not a confirmed Scoliodon dissection. The Commons category refers to a galeorhinid dogfish; the original source species and all structure labels require independent zoological verification. The learning objective is comparative brain organisation only; do not claim species-specific proportions.
 
 Human scientific approval PENDING; Tamil review PENDING; actual-device zoom PENDING. Production HOLD.
+
+## Immutable-asset Android verification
+
+The source-verified comparative PNG, updated manifest and reset reviewer decisions are now committed on the isolated QA branch. This documentation-only commit starts full Kotlin compilation, emulator instrumentation, screenshot evidence and bundled-PNG SHA verification against those exact committed bytes. The source is comparative dogfish anatomy and is not a verified Scoliodon species-specific dissection. Release approval remains PENDING.
