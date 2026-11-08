@@ -13,3 +13,7 @@ Modifications: format conversion ONLY; no image crop, scaling, annotation, AI ge
 
 Modern interpretation: B/G/F diapsid-related examples, C/D/E synapsids; H/I/K are turtles with modified temporal regions but turtle phylogeny is within Diapsida. A Elginia is a parareptile, not synapsid despite the original 'Theromorpha' grouping. This figure must not be presented as a simple universal numerical anapsid/synapsid/diapsid sequence.
 Scientific reviewer, independent Tamil reviewer, physical-device zoom, and production release PENDING.
+
+## Native Android verification for committed original figure
+
+The source-authenticated 1628×2136 PNG has been placed in the registered Unit IV skull-temporal section and committed before this QA-note-only change. GitHub Android QA must confirm the actual saved image SHA-256 in the APK, Kotlin compilation, emulator lesson navigation, and full-resolution zoom. No historical skull is used as proof that turtle crown-group ancestry is anapsid or that Elginia belongs to Synapsida. The source checks were green at image intake, but final Android compilation/emulator results and independent human scientific/Tamil decisions are separate gates. Production release is HOLD.
