@@ -11,3 +11,7 @@ All three public-domain historical anatomical illustrations are pasted 1:1, no A
 Installed 1710x1930 RGB PNG, 2035728 bytes, SHA-256 1437c11f73c9ee05c0dec553eb9dd670181f6601d17b78796a6fdc6eaba14c31.
 This is EXTERNAL morphology. Lungs are NOT depicted. Source C shows male and female, not developmental stages.
 Scientific, taxonomic, Tamil-editorial and physical-device approvals PENDING. Production release HOLD.
+
+## Android QA acceptance
+
+The three public-domain source drawings were validated and integrated at original pixel dimensions on the QA branch. This note-only commit triggers Kotlin/Compose compilation, Android emulator instrumentation, screenshot evidence and the manifest-hash audit on the exact saved native-app contents. The final QA APK must not be published unless all gated jobs pass. Scientific anatomy review, Tamil editorial sign-off and physical-device acceptance remain PENDING. Production remains HOLD.
