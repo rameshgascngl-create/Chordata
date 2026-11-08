@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/install_historical_frog_metamorphosis.py"
       - ".github/workflows/qa-frog-metamorphosis-source.yml"
+      - "scripts/audit_figure_placement.py"
   workflow_dispatch:
 permissions:
   contents: write

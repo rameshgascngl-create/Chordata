@@ -247,6 +247,34 @@ def main():
                         and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
                     require(figure["author"] == "CHORDATA QA project — original vector shark septal-gill teaching schematic",
                             "staged shark-gill original art has wrong creator attribution")
+                elif (figure["diagramId"] == "u3-amphibia-classification-life-cycle"
+                      and figure.get("sourceKind") == "ORIGINAL_1909_HOW_AND_WHY_FROG_LIFE_CYCLE_PNG"):
+                    require(
+                        figure.get("lang") == "shared"
+                        and figure.get("path") == "pencil_plates/frog_metamorphosis.png"
+                        and figure.get("author") == "The How and Why Library (1909), text by Eleanor Stackhouse Atkinson; original figure illustrator not independently identified"
+                        and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:The_How_and_Why_Library_-_How_a_frog_grows.png"
+                        and figure.get("sourceImageUrl") == "https://upload.wikimedia.org/wikipedia/commons/6/63/The_How_and_Why_Library_-_How_a_frog_grows.png"
+                        and figure.get("sourceSha1") == "cc105eba2138482f8d9024ba28e0f8bd09b96873"
+                        and figure.get("sha256") == "ef964ec0e3b79971779ce0ed14d64dc01c6166689b2a53765dc087f6a0420f4b"
+                        and figure.get("sourceSha256") == [figure.get("sha256")]
+                        and figure.get("size") == 626684
+                        and figure.get("sourceFormat") == "PNG"
+                        and figure.get("installedFormat") == "PNG"
+                        and figure.get("license", "").startswith("Public domain")
+                        and figure.get("licenseUrl") == "https://creativecommons.org/publicdomain/mark/1.0/"
+                        and figure.get("referenceUrl") == figure.get("sourceUrl")
+                        and figure.get("visualReview") == "ORIGINAL_1909_PUBLISHED_FROG_LIFECYCLE_PENDING_EXPERT_REVIEW"
+                        and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                        and figure.get("topicId") == "u3-amphibia-classification"
+                        and figure.get("page") == 3
+                        and figure.get("sectionKey") == "reproduction-ecology"
+                        and "NOT a universal pattern" in figure.get("keyEn", "")
+                        and "எல்லா இருவாழ்விகளுக்கும் பொருந்தாது" in figure.get("keyTa", "")
+                        and not figure.get("svgMaster")
+                        and not figure.get("svgSha256"),
+                        "1909 frog plate exact source hash, public-domain provenance, or scope differs"
+                    )
                 else:
                     require(figure["author"] == "Chordata QA project — original numbered schematic",
                             "original plate creator attribution changed: " + name)
