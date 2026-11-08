@@ -12,3 +12,7 @@ No anatomical redraw, crop, resizing, AI or graphic embellishment. Original prin
 Fig. 2 shows cobra poison gland; Fig. 6 cobra fang; Fig. 7 Daboia viper fang. The figure does NOT display the complete hinged-viper fang mechanism. Modern Indian first aid comes from separate clinical guidelines, not this historic image.
 
 Independent biological accuracy/legibility check, Tamil notes and physical-device zoom approval PENDING. Production HOLD.
+
+## Full native Android QA gate
+
+The authenticated Nicholson original and Wellcome Tardieu adult-dentition original are both in the committed continuous-branch assets. This documentation-only update starts the four-job native Android QA workflow against these exact image checksums and updated 64-slot audit. APK publication remains gated on Kotlin compilation, Android emulator instrumentation and packaged-PNG SHA verification. Human scientific, Tamil editorial and real-device approvals remain PENDING; production branch is unchanged.
