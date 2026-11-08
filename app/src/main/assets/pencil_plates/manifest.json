@@ -419,13 +419,34 @@
       "figure": "human_tooth_types",
       "lang": "shared",
       "path": "pencil_plates/human_tooth_types.png",
-      "size": 12325,
-      "sha256": "00f31052fbc9bc5bba7a7a19d99c77d7dd8dea6ccef3748ac759b8ade2543708",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 18917403,
+      "sha256": "f4769037610ed1ea2c9c19342d18d9805828976e8fcff8abf3fff61434e7c56c",
+      "author": "A. Tardieu (historical engraving, as attributed by Wellcome Collection); Wellcome Collection (digitised image)",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Representative adult human teeth, schematic and not to scale. 1 Incisor: straight cutting edge for biting. 2 Canine: pointed cusp for tearing. 3 Premolar: cusped crown for crushing. 4 Molar: broad, multi-cusped crown for grinding. Root number and shape vary among teeth.",
-      "keyTa": "முதிர்ந்த மனிதரின் பல் வகைகள். படங்கள் அளவுப்படி வரையப்படவில்லை. 1 வெட்டுப்பல்: உணவைக் கடித்து வெட்டும் விளிம்பு. 2 கோரைப்பல்: உணவைக் கிழிக்கும் கூர்முனை. 3 முன்கடைவாய்ப்பல்: உணவை நசுக்கும் மேற்பகுதி. 4 கடைவாய்ப்பல்: உணவை அரைக்க உதவும் அகன்ற, பல முனைகளைக் கொண்ட மேற்பகுதி. வேர்களின் எண்ணிக்கையும் வடிவமும் பற்களுக்கேற்ப மாறும்.",
-      "referenceUrl": "https://openstax.org/books/anatomy-and-physiology/pages/23-3-the-mouth-pharynx-and-esophagus"
+      "keyEn": "Original A. Tardieu engraving of adult HUMAN teeth (not rabbit): A upper-jaw teeth, B lower-jaw teeth; letter a = incisors (cutting), b = canine (grasping/tearing), c = smaller molars or premolars (crushing), d = large molars (grinding). Historical French engraving labels are retained, with this separate English key. Tooth roots and crown shapes vary by position and jaw; no absolute fixed number of roots should be inferred.",
+      "keyTa": "ஏ. டார்டியூவின் முதிர்ந்த மனிதரின் பற்களைக் காட்டும் வரலாற்று உடற்கூறியல் ஓவியம் (முயலின் பற்கள் அல்ல). A — மேல்தாடைப் பற்கள்; B — கீழ்த்தாடைப் பற்கள். a — வெட்டுப்பற்கள்; b — கோரைப்பல்; c — முன்கடைவாய்ப்பற்கள்; d — கடைவாய்ப்பற்கள். பற்களின் வெட்டுதல், பற்றுதல், நசுக்குதல், அரைத்தல் ஆகிய செயல்களை ஒப்பிடுக. பல் வேர்களின் எண்ணிக்கையும் வடிவமும் இடத்திற்கேற்ப மாறுபடும்.",
+      "referenceUrl": "https://commons.wikimedia.org/wiki/File:The_incisors,_canines,_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg",
+      "license": "CC BY 4.0 — image from Wellcome Collection, historical A. Tardieu engraving",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_incisors,_canines,_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/The_incisors%2C_canines%2C_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg",
+      "sourceSha1": "955cb1528337d7045057d0b737163bc852540ee4",
+      "sourceSha256": [
+        "8594592cc6550125df01c8067e0c6129640e7668387d44a8a50781c05783f5f8"
+      ],
+      "sourceKind": "WELLCOME_TARDIEU_AUTHENTIC_ADULT_DENTITION_JPEG_TO_PNG",
+      "sourceFormat": "JPEG",
+      "installedFormat": "PNG",
+      "modifications": "Original 3540x2316 Wellcome engraving decoded from JPEG and encoded as lossless RGB PNG; no cropping, resizing, overlays, tracing, AI or anatomical redrawing.",
+      "referenceUrls": [
+        "https://commons.wikimedia.org/wiki/File:The_incisors,_canines,_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg",
+        "https://wellcomecollection.org/works/yjyb4df5"
+      ],
+      "scope": "Authentic historical adult human dentition engraving, upper and lower teeth, four morphological classes. It does not depict rabbit dentition or rabbit peg teeth.",
+      "visualReview": "AUTHENTIC_WELLCOME_TOOTH_PLATE_PENDING_EXPERT_REVIEW",
+      "topicId": "u5-dentition",
+      "page": 1,
+      "sectionKey": "tooth-types"
     },
     {
       "diagramId": "u5-egg-laying-mammals-monotreme-reproduction",
