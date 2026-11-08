@@ -12,3 +12,7 @@ Installed PNG 3714x4181, bytes 2191813, SHA256 f4772942d441d02589425580a46a31290
 Source original is displayed at its native pixels, never cropped or enlarged. Added side panel only explains original A/B/C/D captions. Panels A and B DISTINCT: lateral-line mechanoreception vs electroreceptive ampullae. Panel C is original micrograph. D distinguishes pore fields and clusters.
 IMPORTANT: This is Hemiscyllium ocellatum, NOT Scoliodon. Species-specific counts or head geometry cannot be inferred for Scoliodon. Source is neither an AI illustration nor an original project vector drawing.
 Independent scientific and Tamil signoff PENDING, device zoom PENDING, production release HOLD.
+
+## Native Android QA reassembly
+
+This report-only change triggers the established four-job Android QA pipeline against the committed original 2012 PLOS figure. Source integrity, Kotlin compilation, Compose reader navigation, native zoom and embedded APK image hashes require independent CI success. This is comparison material from Hemiscyllium ocellatum, not a species-specific Scoliodon dissection. Scientific and Tamil reviewer approvals and physical-device acceptance remain PENDING; production branch unchanged.
