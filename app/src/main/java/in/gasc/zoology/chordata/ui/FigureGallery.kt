@@ -235,9 +235,10 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                         decodeFocusedHistoricalDogfishBrain(
                             context, plate.assetDirectory, plate.filename)
                     } else null
-                    (preview ?: decodePlateBitmap(
+                    val bounded = preview ?: decodePlateBitmap(
                         context, plate.assetDirectory, plate.filename,
-                        maxLongestEdgePx = 1200))?.asImageBitmap()
+                        maxLongestEdgePx = 1200)
+                    bounded?.asImageBitmap()
                 }.getOrNull()
             }
             if (bitmap == null) {
@@ -326,8 +327,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 decodeFocusedHistoricalDogfishBrain(
                                     context, plate.assetDirectory, plate.filename)
                             } else null
-                            (focused ?: decodePlateBitmap(context, plate.assetDirectory, plate.filename))
-                                ?.asImageBitmap()
+                            val expanded = focused ?: decodePlateBitmap(context, plate.assetDirectory, plate.filename)
+                            expanded?.asImageBitmap()
                         }.getOrNull()
                     }
                     var scale by remember(plate.id, zoomed) { mutableFloatStateOf(1f) }
