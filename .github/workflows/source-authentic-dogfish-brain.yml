@@ -1,0 +1,54 @@
+name: CHORDATA continuous QA - authentic dogfish brain
+
+on:
+  push:
+    branches: ["qa/chordata-illustrations-continuous"]
+    paths:
+      - "scripts/install_authentic_dogfish_brain.py"
+      - ".github/workflows/source-authentic-dogfish-brain.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  source-integrity-and-install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Verify 1878 source, preserve source anatomy pixels and install PNG
+        run: python3 scripts/install_authentic_dogfish_brain.py
+      - name: Verify placement, integrity, provenance and reviewer register
+        run: bash scripts/qa_all.sh
+      - name: Commit original plate only on continuous QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/shark_brain_dorsal_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/FIGURE_REVIEW_REGISTER_64.csv docs/figure-coverage.tsv
+          git add docs/CHORDATA_AUTHENTIC_FRITSCH_DOGFISH_BRAIN_QA.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): integrate authentic Fritsch dogfish comparative brain PNG"
+            git push origin HEAD:qa/chordata-illustrations-continuous
+          fi
+      - name: Archive source and scientific review documentation
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Fritsch_Dogfish_Brain_Original_PNG_QA
+          path: |
+            app/src/main/assets/pencil_plates/shark_brain_dorsal_en.png
+            docs/CHORDATA_AUTHENTIC_FRITSCH_DOGFISH_BRAIN_QA.md
+          if-no-files-found: warn
+          retention-days: 14
