@@ -253,8 +253,10 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                         "உடற்கூறியல் தகவல் ஆதாரம்; மூலப் படம் நகலெடுக்கப்படவில்லை."
                                     else "Anatomical reference only; source image not reproduced."
                                 else if (lang == ReadingLanguage.TA)
-                                    "பட மூலம்: Wikimedia Commons · மாற்றங்கள்: " + plate.modifications
-                                else "Image source: Wikimedia Commons · Changes: " + plate.modifications,
+                                    "பட மூலத் தளம்: " + plate.sourceUrl.substringAfter("://").substringBefore("/") +
+                                        " · செய்யப்பட்ட மாற்றங்கள்: " + plate.modifications
+                                else "Image source site: " + plate.sourceUrl.substringAfter("://").substringBefore("/") +
+                                        " · Changes: " + plate.modifications,
                                 style = MaterialTheme.typography.labelSmall
                             )
                             TextButton(
