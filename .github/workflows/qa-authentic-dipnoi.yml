@@ -1,0 +1,58 @@
+name: CHORDATA QA - authenticated three-genus Dipnoi PNG
+on:
+  push:
+    branches: ["qa/chordata-illustrations-continuous"]
+    paths:
+      - "scripts/install_historical_dipnoi.py"
+      - ".github/workflows/qa-authentic-dipnoi.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: chordata-dipnoi-original-intake
+  cancel-in-progress: false
+jobs:
+  verify-and-install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Verify source authenticity and install three original prints
+        run: python3 scripts/install_historical_dipnoi.py
+      - name: Check all 64 teaching figures, licences and review statuses
+        run: bash scripts/qa_all.sh
+      - name: Update image audit report
+        run: python3 scripts/report_artwork_provenance.py
+      - name: Commit source artwork only to continuous QA
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/dipnoi_lungfin_comparison_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_DIPNOI_AUTHENTIC_THREE_GENERA_PNG_QA.md
+          git add docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): install three original Dipnoi zoological prints"
+            git fetch origin qa/chordata-illustrations-continuous
+            git rebase origin/qa/chordata-illustrations-continuous
+            git push origin HEAD:qa/chordata-illustrations-continuous
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Chordata_Original_Dipnoi_Three_Genera_QA
+          path: |
+            app/src/main/assets/pencil_plates/dipnoi_lungfin_comparison_en.png
+            docs/CHORDATA_DIPNOI_AUTHENTIC_THREE_GENERA_PNG_QA.md
+          if-no-files-found: warn
+          retention-days: 14
