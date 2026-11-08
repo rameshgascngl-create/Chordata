@@ -9,10 +9,10 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 ## Inventory
 
 - Computer-drawn vector exported as PNG: **24**
-- Source-credited artwork (still provisional): **20**
+- Source-credited artwork (still provisional): **21**
 - No authenticated external source (project-drawn/AI): **9**
 - Source-based edited composite: **7**
-- AI-generated candidate: **4**
+- AI-generated candidate: **3**
 
 **64/64 placements have PNGs; 0/64 have independent dual academic signoff.**
 
@@ -47,7 +47,7 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 | u3-rana-arterial-system | frog_arterial_system_en.png | Source-based edited composite | HIGH | Alexander Ecker, The Anatomy of the Frog (1889), English trans. George Haslam; CHORDATA QA (layout) | https://www.gutenberg.org/cache/epub/77560/pg77560-images.html |
 | u3-rana-brain | frog_brain_dorsal_en.png | Source-based edited composite | HIGH | The biology of the frog, S. J. Holmes (1927), fig. 101 (after Newman and Parker & Parker); CHORDATA QA (layout) | https://commons.wikimedia.org/wiki/File:The_biology_of_the_frog_(1927)_(20356465586).jpg |
 | u3-adaptive-features-comparative-body-plans | amphibian_orders.png | AI-generated candidate | STANDARD | AI-generated original (ChatGPT ImageGen) |  |
-| u3-neoteny-axolotl-development | axolotl_neoteny_en.png | AI-generated candidate | STANDARD | AI-generated original (ChatGPT ImageGen) |  |
+| u3-neoteny-axolotl-development | axolotl_neoteny_en.png | Source-credited artwork (still provisional) | STANDARD | Unidentified historical illustrator, The New International Encyclopaedia (1905), vol. 2, after p. 330; published by Dodd, Mead & Co. | https://commons.wikimedia.org/wiki/File:NIE_1905_Axolotl.png |
 | u3-parental-care-parental-care-comparison | amphibian_parental_care_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u4-reptilia-classification-living-reptile-orders | living_reptile_groups_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u4-calotes-external | calotes_external_en.png | Source-credited artwork (still provisional) | STANDARD | Unknown historical engraver; Iconographia Zoologica, University of Amsterdam Special Collections, print dated only between 1700 and 1880 | https://commons.wikimedia.org/wiki/File:Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif |
