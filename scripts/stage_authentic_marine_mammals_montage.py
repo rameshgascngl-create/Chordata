@@ -184,10 +184,28 @@ def main():
     # Modifications stay local to the ephemeral CI runner until ALL audits pass.
     DEST.write_bytes(installed)
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    with LEDGER.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=columns, delimiter="\t")
-        writer.writeheader()
-        writer.writerows(rows)
+    # Preserve untouched ledger rows byte-for-byte. csv.DictWriter's default
+    # CRLF line endings would rewrite all 64 rows and fail git diff --check.
+    # Only the one registered row is permitted to change here.
+    original_ledger = LEDGER.read_bytes().decode("utf-8")
+    old_lines = original_ledger.splitlines(keepends=True)
+    amended = []
+    changed_rows = 0
+    for line in old_lines:
+        if line.startswith(ID + "\t"):
+            body = line.rstrip("\r\n")
+            ending = line[len(body):]
+            fields = body.split("\t")
+            if len(fields) != len(columns):
+                raise ValueError("Existing marine-mammal ledger row has invalid columns")
+            fields[columns.index("author")] = AUTHOR
+            fields[columns.index("referenceSources")] = hit[0]["referenceSources"]
+            line = "\t".join(fields) + ending
+            changed_rows += 1
+        amended.append(line)
+    if changed_rows != 1:
+        raise ValueError("Could not find the unique marine-mammal ledger row")
+    LEDGER.write_bytes("".join(amended).encode("utf-8"))
     subprocess.run(["python3", "scripts/write_figure_review_register.py"], cwd=ROOT, check=True)
 
     REPORT.write_text(
