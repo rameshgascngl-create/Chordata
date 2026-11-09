@@ -8,8 +8,8 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 
 ## Inventory
 
-- Source-credited artwork (still provisional): **25**
-- Computer-drawn vector exported as PNG: **20**
+- Source-credited artwork (still provisional): **26**
+- Computer-drawn vector exported as PNG: **19**
 - No authenticated external source (project-drawn/AI): **9**
 - Source-based edited composite: **7**
 - AI-generated candidate: **3**
@@ -57,7 +57,7 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 | u4-calotes-brain | calotes_brain_dorsal_en.png | AI-generated candidate | HIGH | OpenAI ChatGPT image generation — AI-assisted original QA illustration |  |
 | u4-origin-extinct-amniote-phylogeny | amniote_phylogeny.png | No authenticated external source (project-drawn/AI) | HIGH | Chordata QA project — original numbered schematic |  |
 | u4-origin-extinct-extinct-groups | extinct_reptile_lineages_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
-| u4-snakes-india-big-four-identification | india_big_four_snakes_en.png | Computer-drawn vector exported as PNG | HIGH | CHORDATA QA — original vector anatomical schematic |  |
+| u4-snakes-india-big-four-identification | india_big_four_snakes_en.png | Source-credited artwork (still provisional) | HIGH | CHORDATA QA (photo montage layout); originals by Holger Krisp, Raju Kidoor, Billyakhtar and Jnprasad2001 | https://commons.wikimedia.org/wiki/File:Naja-naja-kobra.jpg |
 | u4-poison-apparatus-venom-apparatus | snake_venom_delivery_en.png | Source-credited artwork (still provisional) | STANDARD | Edward Nicholson, Indian Snakes (1874), Plate III; original plate illustrator unidentified; Biodiversity Heritage Library scan | https://commons.wikimedia.org/wiki/File:Indian_snakes_(Plate_III)_BHL4390486.jpg |
 | u4-poison-apparatus-first-aid-flowchart | snakebite_first_aid_en.png | Computer-drawn vector exported as PNG | HIGH | CHORDATA QA — original vector anatomical schematic |  |
 | u4-skull-temporal-skull-types | temporal_fenestrae.png | Source-credited artwork (still provisional) | STANDARD | Hans Gadow, Amphibia and Reptiles, The Cambridge Natural History, vol. VIII (1901), Fig. 54; individual original draughtsperson not established | https://commons.wikimedia.org/wiki/File:Amphibia_and_reptiles_(1901)_(17979294289).jpg |
