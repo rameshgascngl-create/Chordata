@@ -300,7 +300,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 var zoomed by remember(plate.id) { mutableStateOf(false) }
                 Card(modifier = Modifier.fillMaxWidth().testTag("figure-" + plate.id)) {
                     Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text(if (plate.assetDirectory == "pencil_plates")
+                        Text(if (plate.assetDirectory == "pencil_plates" && plate.referenceOnly)
                             (if (lang == ReadingLanguage.TA)
                                 "வரைவுப் படம் · உடற்கூறியல் சரிபார்ப்பு நிலுவையில் உள்ளது"
                              else "Draft anatomical plate · scientific review pending")
