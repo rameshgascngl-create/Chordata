@@ -25,7 +25,7 @@ EXPECTED_SOURCES = (
     "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
 )
 EN = (
-    "medical emergency", "absence", "call emergency services",
+    "medical emergency", "absent", "call emergency services",
     "Immobilise the bitten limb", "non-constricting splint",
     "monitor breathing", "recovery position", "Do NOT apply a tight tourniquet",
     "cut or suck", "use ice", "herbal remedies", "Pressure-immobilisation",
