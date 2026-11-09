@@ -76,9 +76,9 @@ def validate(entry: dict, *, image: bytes, master: bytes) -> None:
     if not (key_en.startswith("Schematic") and
             "species-level confirmation" not in key_en and
             "species-validated" in key_en and
-            "NOT a validated dissection" in entry.get("scope", "")):
+            "not a validated dissection" in entry.get("scope", "")):
         reject("inaccurate species-specific dissection claim")
-    if "copyright" in entry.get("license", "").lower() and not entry.get("license"):
+    if not entry.get("license", "").startswith("Original CHORDATA QA artwork"): 
         reject("missing project artwork origin")
     if len(entry.get("referenceUrls", [])) < 3:
         reject("original anatomical research references missing")
@@ -100,7 +100,7 @@ def main() -> None:
         ("AI green tick", {"aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE"}),
         ("wrong lesson", {"page": 3}),
         ("false original credit", {"author": "AI-generated original"}),
-        ("lost Bengali/Tamil organ key", {"keyTa": "சுறா செரிமான மண்டலம்"}),
+        ("lost Tamil organ key", {"keyTa": "சுறா செரிமான மண்டலம்"}),
         ("lost bursa label", {"keyEn": figure["keyEn"].replace("bursa entiana", "small pouch")}),
     ]
     for name, edit in attacks:
