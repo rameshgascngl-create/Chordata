@@ -410,6 +410,37 @@ def main():
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                 "Calotes historical source print taxon, original hash and PNG rights/provenance fail"
             )
+        if figure["diagramId"] == "u5-aquatic-mammals-aquatic-mammal-groups":
+            # Source authenticity and the exact 2025 eight-photo composite
+            # are verified independently of the core manifest-to-PNG check.
+            # The 2x resized PNG must not be presented as newly detailed art.
+            credits = figure.get("componentCredits", [])
+            require(
+                figure.get("lang") == "en"
+                and figure.get("path") == "pencil_plates/aquatic_mammal_lineages_en.png"
+                and figure.get("sha256") == "c98fefac19cd2d473b3cabeb7313df1e43ccdce305be20702d9325d89f207da2"
+                and figure.get("size") == 5108443
+                and figure.get("sourceKind") == "AUTHENTIC_2025_EIGHT_MARINE_MAMMAL_PHOTOMONTAGE_SCALED_PNG"
+                and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Marine_mammals.png"
+                and figure.get("sourceSha1") == "14e680878f8b8e43c4772725a20fbc2c7387eb16"
+                and len(figure.get("sourceSha256", [])) == 1
+                and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/4.0/"
+                and figure.get("author", "").startswith("Готлиб XI (2025 marine-mammal photomontage)")
+                and figure.get("sourceOriginalDimensions") == "794x1305"
+                and figure.get("installedDimensions") == "1588x2610"
+                and len(credits) == 8
+                and all(c.get("creator") and c.get("license") and
+                        c.get("sourceUrl", "").startswith("https://commons.wikimedia.org/wiki/File:")
+                        for c in credits)
+                and "upscaling adds" in figure.get("modifications", "")
+                and "independently" in figure.get("keyEn", "")
+                and "பரிணாமக் கிளைவரைபடம் அன்று" in figure.get("keyTa", "")
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                and "PHONE_AND_HUMAN_QA_PENDING" in figure.get("visualReview", "")
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256"),
+                "marine mammal original photograph hashes/creator/licences or provisional review changed"
+            )
         # The generated Calotes brain remains an original AI image, not a
         # published or independently validated species-specific atlas plate.
         if figure["diagramId"] == "u4-calotes-brain":
