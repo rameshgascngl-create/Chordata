@@ -25,13 +25,22 @@
       "figure": "branchiostoma",
       "lang": "ta",
       "path": "pencil_plates/branchiostoma_ta.png",
-      "sha256": "e1d8b5a749628f3c49cae235c5dd52649f44fa597eb86ca6ce43a8b7404a1e75",
-      "size": 1715092,
-      "author": "AI-generated original (ChatGPT ImageGen)",
+      "sha256": "2fbd48be62b83309c87214492ea20dfea1995a3e624fca66c17ed995c95d9b1e",
+      "size": 1199846,
+      "author": "OpenAI ChatGPT ImageGen — original anatomical reconstruction, digitally labelled (2026-11-08)",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "aiQaIntegrationDecision": "HOLD_MATERIAL_ANATOMY_ERROR",
-      "aiQaIntegrationNotes": "Two exaggerated gonads misrepresent the multiple serially arranged segmental gonads of Branchiostoma. Revise anatomy before a green tick; retain existing independent review gates.",
-      "aiQaDecisionBasis": "Exact committed artifact SHA-256 checked and artwork visually reviewed against comparative Zoology anatomy sources, 2026-11-08; not independent academic acceptance."
+      "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
+      "aiQaIntegrationNotes": "Serial segmental gonads and basic lancelet anatomy shown; stylised, not a dissection.",
+      "aiQaDecisionBasis": "Exact PNG screened against anatomical references; user permits minor-error AI art in QA.",
+      "license": "Original AI-generated illustration; no third-party illustration copied",
+      "sourceUrl": "",
+      "referenceUrls": [
+        "https://www.gutenberg.org/cache/epub/73702/pg73702-images.html",
+        "https://doi.org/10.1080/00212210.1996.10688880"
+      ],
+      "modifications": "AI regeneration of serial gonads and essential chordate structures; English labels.",
+      "visualReview": "AI_GREEN_TICK_PROVISIONAL_NO_INDEPENDENT_SIGNOFF",
+      "keyTa": "முதுகுநாண்; முதுகு நரம்புக் குழாய்; தசைத்துண்டுகள்; தொண்டைச் செவுள் பிளவுகள்; தொடராக அமைந்த இனப்பெருக்கச் சுரப்பிகள்; ஏட்ரியத் துளை; குடல்; மலத்துளை. படத்தின் உறுப்புக் குறியீடுகள் ஆங்கிலத்தில் உள்ளன."
     },
     {
       "diagramId": "u5-flight-adaptations-avian-lung",
