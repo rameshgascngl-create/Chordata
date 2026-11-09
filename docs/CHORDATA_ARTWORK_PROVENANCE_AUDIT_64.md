@@ -8,8 +8,8 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 
 ## Inventory
 
-- Source-credited artwork (still provisional): **25**
-- Computer-drawn vector exported as PNG: **20**
+- Source-credited artwork (still provisional): **26**
+- Computer-drawn vector exported as PNG: **19**
 - No authenticated external source (project-drawn/AI): **9**
 - Source-based edited composite: **7**
 - AI-generated candidate: **3**
@@ -79,7 +79,7 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 | u5-egg-laying-mammals-monotreme-reproduction | platypus_reproduction.png | No authenticated external source (project-drawn/AI) | STANDARD | Chordata QA project — original numbered schematic |  |
 | u5-marsupials-marsupial-life-history | marsupial_life_cycle_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u5-flying-mammals-bat-wing-glider-comparison | bat_glider_comparison_en.png | No authenticated external source (project-drawn/AI) | STANDARD | CHORDATA QA — original computer-assisted anatomical schematic |  |
-| u5-aquatic-mammals-aquatic-mammal-groups | aquatic_mammal_lineages_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
+| u5-aquatic-mammals-aquatic-mammal-groups | aquatic_mammal_lineages_en.png | Source-credited artwork (still provisional) | STANDARD | Готлиб XI (2025 marine-mammal photomontage); eight original photographic creators individually credited | https://commons.wikimedia.org/wiki/File:Marine_mammals.png |
 | u5-dentition-human-rabbit-dental-formula | human_rabbit_dental_formula.png | No authenticated external source (project-drawn/AI) | HIGH | Chordata QA project — original numbered schematic |  |
 | u5-dentition-tooth-types | human_tooth_types.png | Source-credited artwork (still provisional) | STANDARD | A. Tardieu (historical engraving, as attributed by Wellcome Collection); Wellcome Collection (digitised image) | https://commons.wikimedia.org/wiki/File:The_incisors,_canines,_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg |
 

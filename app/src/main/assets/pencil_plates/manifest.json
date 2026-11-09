@@ -1819,26 +1819,110 @@
       "figure": "aquatic_mammal_lineages",
       "lang": "en",
       "path": "pencil_plates/aquatic_mammal_lineages_en.png",
-      "sha256": "a330620a0fb6d62fab65caf6c79fd50ee24a686c83bc3a49b034623bfbc987c3",
-      "size": 134847,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "c98fefac19cd2d473b3cabeb7313df1e43ccdce305be20702d9325d89f207da2",
+      "size": 5108443,
+      "author": "Готлиб XI (2025 marine-mammal photomontage); eight original photographic creators individually credited",
+      "license": "CC BY-SA 4.0 — original photographic montage; all eight component creators credited",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marine_mammals.png",
       "referenceUrls": [
-        "https://www.noaa.gov/education/resource-collections/marine-life/marine-mammals"
+        "https://commons.wikimedia.org/wiki/File:Marine_mammals.png",
+        "https://www.noaa.gov/education/resource-collections/marine-life/marine-mammals",
+        "https://commons.wikimedia.org/wiki/File:Ursus_maritimus_4_1996-08-04.jpg",
+        "https://commons.wikimedia.org/wiki/File:Kalan_(brownish).jpg",
+        "https://commons.wikimedia.org/wiki/File:7_Walross_1999.jpg",
+        "https://commons.wikimedia.org/wiki/File:Beardedseal2_cropped.jpg",
+        "https://commons.wikimedia.org/wiki/File:Trichechus_manatus,_NOAA.jpg",
+        "https://commons.wikimedia.org/wiki/File:Dugong_marsa_alam_egypt_2011.jpg",
+        "https://commons.wikimedia.org/wiki/File:Dolphin_(28425903296).jpg",
+        "https://commons.wikimedia.org/wiki/File:Humpback_Whale_fg1.jpg"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Streamlining arose repeatedly; aquatic mammals do not form one taxonomic order.",
-      "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/aquatic_mammal_lineages_en.svg",
+      "modifications": "Original eight photograph collage, its grid, colours, positions and photographs retained; image enlarged uniformly from 794x1305 to 1588x2610 pixels with Lanczos resampling only to meet existing Android minimum PNG width. The source photographic resolution is still 794x1305; upscaling adds NO genuine anatomical detail. No AI, tracing, cropping, redrawing or labels.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "PHOTO KEY: Row 1 polar bear (left), sea otter (right); row 2 walrus (left), bearded seal (right); row 3 West Indian manatee (left), dugong (right); row 4 dolphin (left), humpback whale (right). These examples represent distinct mammalian evolutionary branches: Cetacea, Sirenia and marine Carnivora (including pinnipeds). Polar bears are semi-aquatic marine-associated carnivorans, not obligate fully aquatic mammals. Similar streamlining evolved independently; this photo montage is NOT a taxonomic phylogenetic tree.",
+      "keyTa": "ஒளிப்பட விளக்கம்: முதல் வரிசை — இடது துருவக் கரடி, வலது கடல் நீர்நாய்; இரண்டாம் வரிசை — இடது வால்ரஸ், வலது தாடியுள்ள கடல் நாய்; மூன்றாம் வரிசை — இடது மானாட்டி, வலது கடற்பசு (டுகாங்); நான்காம் வரிசை — இடது டால்பின், வலது கூன்முதுகுத் திமிங்கிலம். Cetacea, Sirenia, Pinnipedia போன்ற குழுக்கள் ஒரே பரிணாமக் கிளையிலிருந்து தோன்றியவை அல்ல. நீர்வாழ்விற்கு ஏற்ற நெறிப்பட்ட உடலமைப்பு வெவ்வேறு பாலூட்டிகளிலும் தனித்தனியாக உருவாகியுள்ளது. துருவக் கரடி முற்றிலும் நீர்வாழ் உயிரினம் அன்று. இது பரிணாமக் கிளைவரைபடம் அன்று.",
+      "scope": "Eight authentic photographs illustrate convergent aquatic and semi-aquatic adaptations among Cetacea, Sirenia, pinnipeds and other carnivorans; not a complete phylogenetic or morphological atlas.",
+      "visualReview": "AUTHENTIC_MONTAGE_PROVISIONAL__SOURCE_RESOLUTION_794PX__PHONE_AND_HUMAN_QA_PENDING",
       "topicId": "u5-aquatic-mammals",
       "page": 1,
       "sectionKey": "marine-lineages",
-      "learningObjective": "Streamlining arose repeatedly; aquatic mammals do not form one taxonomic order.",
-      "svgSha256": "80bbfd94c5a4dbf6dcfc2e57337d949b07557057f41af9a7dffc09b9fe88e3e0"
+      "learningObjective": "Illustrate convergent aquatic adaptation in diverse mammalian lineages",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Marine_mammals.png",
+      "sourceSha1": "14e680878f8b8e43c4772725a20fbc2c7387eb16",
+      "sourceSha256": [
+        "1d341159bf5978e5dbb8e85ca8a22de3284f41dcc0aeeae6f16d432e34517d86"
+      ],
+      "sourceKind": "AUTHENTIC_2025_EIGHT_MARINE_MAMMAL_PHOTOMONTAGE_SCALED_PNG",
+      "sourceFormat": "PNG",
+      "installedFormat": "PNG",
+      "sourceOriginalDimensions": "794x1305",
+      "installedDimensions": "1588x2610",
+      "componentCredits": [
+        {
+          "position": "row 1 left",
+          "name": "Polar bear",
+          "taxon": "Ursus maritimus",
+          "creator": "Ansgar Walk",
+          "license": "CC BY-SA 2.5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ursus_maritimus_4_1996-08-04.jpg"
+        },
+        {
+          "position": "row 1 right",
+          "name": "Sea otter",
+          "taxon": "Enhydra lutris",
+          "creator": "Mike Baird",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kalan_(brownish).jpg"
+        },
+        {
+          "position": "row 2 left",
+          "name": "Walrus",
+          "taxon": "Odobenus rosmarus",
+          "creator": "Ansgar Walk",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:7_Walross_1999.jpg"
+        },
+        {
+          "position": "row 2 right",
+          "name": "Bearded seal",
+          "taxon": "Erignathus barbatus",
+          "creator": "Michael Haferkamp (Mikesegeln); crop by Abyssal",
+          "license": "CC BY-SA 3.0 / cropped derivative CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beardedseal2_cropped.jpg"
+        },
+        {
+          "position": "row 3 left",
+          "name": "West Indian manatee",
+          "taxon": "Trichechus manatus",
+          "creator": "NOAA",
+          "license": "US federal public domain",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trichechus_manatus,_NOAA.jpg"
+        },
+        {
+          "position": "row 3 right",
+          "name": "Dugong",
+          "taxon": "Dugong dugon",
+          "creator": "Camille Ménard",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dugong_marsa_alam_egypt_2011.jpg"
+        },
+        {
+          "position": "row 4 left",
+          "name": "Dolphin",
+          "taxon": "Cetacea — dolphin (species unspecified)",
+          "creator": "Gobierno CDMX",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolphin_(28425903296).jpg"
+        },
+        {
+          "position": "row 4 right",
+          "name": "Humpback whale",
+          "taxon": "Megaptera novaeangliae",
+          "creator": "Fritz Geller-Grimm",
+          "license": "CC BY-SA 2.5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humpback_Whale_fg1.jpg"
+        }
+      ]
     }
   ],
   "status": "PROVISIONAL_QA_NOT_ACADEMICALLY_APPROVED",
