@@ -166,8 +166,8 @@
       "sha256": "675f497ab223df417274b8641bfc09b5a40729a4c74e419208bb08794353a90c",
       "author": "CHORDATA QA project — original vector shark septal-gill teaching schematic",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Shark septal-gill overview: five gill slits, interbranchial septa, gill arches, hemibranchs, primary filaments, secondary lamellae, and conceptual countercurrent exchange. This is not species-specific dissection.",
-      "keyTa": "சுறாக்களின் இடைத்தடுப்புடைய செவுள்கள்: ஐந்து இணை வெளிப்புறச் செவுள் பிளவுகள், செவுள் வளைவுகள், இடைச்செவுள் தடுப்புகள், செவுள் இழைகள், இரண்டாம் நிலைச் செவுள் தகடுகள் ஆகியன. வாயுப் பரிமாற்றத்தில் எதிரோட்டம் நிகழ்கிறது. இது திட்ட விளக்கப்படம் மட்டுமே.",
+      "keyEn": "Comparative shark septal-gill schematic, NOT a species-verified dissection or photomicrograph. Five external gill slits open separately on each side; the historical milk shark (Scoliodon sorrakowah, now generally Rhizoprionodon acutus) lacks an external spiracle. The hyoid arch supports one posterior hemibranch; the first four branchial arches bear two hemibranchs each (four holobranchs); the fifth branchial arch is abranchial. Cartilaginous gill arches and gill rays support interbranchial septa that separate neighbouring gill pouches. Primary gill filaments bear capillary-rich secondary lamellae. Water passes from mouth through pharynx across the lamellae and out through separate gill slits; blood and water flow in opposite directions at the gas-exchange surfaces (countercurrent exchange). The cutaway represents ONE generalised gill pouch, not the entire five-pouch anatomy. Original illustrative topology remains provisional and is NOT accepted as specimen-specific histology.",
+      "keyTa": "இது குருத்தெலும்பு மீன்களின் செவுள் இடைத்தடுப்பு அமைப்பை விளக்கும் பொதுவான திட்டப்படம்; குறிப்பிட்ட ஸ்கோலியோடான் இனத்தின் உறுதிசெய்யப்பட்ட உடற்கூறாய்வுப் படமோ நுண்ணோக்கிப் படமோ அன்று. தலையின் இருபுறமும் தலா ஐந்து வெளிப்புறச் செவுள் பிளவுகள் தனித்தனியாகத் திறக்கின்றன. பாடத்திட்டத்தில் Scoliodon sorrakowah என்று அழைக்கப்பட்ட பால் சுறாவில் வெளிப்புற ஸ்பைரக்கிள் (spiracle) துளை இல்லை. ஹையாய்டு வளைவில் பின்புறப் பாதிச்செவுள் (hemibranch) மட்டும் உள்ளது. அடுத்த நான்கு செவுள் வளைவுகள் ஒவ்வொன்றும் இரு பாதிச்செவுள்களைக் கொண்ட முழுச்செவுளாக (holobranch) அமைந்துள்ளன; ஐந்தாவது செவுள் வளைவில் செவுள் இழைகள் இல்லை. குருத்தெலும்பாலான செவுள் வளைவுகளும் செவுள் கதிர்களும் செவுள் இடைத்தடுப்புகளைத் தாங்குகின்றன. முதன்மைச் செவுள் இழைகளில் இரத்தநுண்குழாய்கள் நிறைந்த இரண்டாம் நிலைச் செவுள் தகடுகள் உள்ளன. நீர் வாயிலிருந்து தொண்டை வழியாகச் செவுள் பைகளுக்குச் சென்று செவுள் தகடுகளைத் தாண்டி வெளிப்புறச் செவுள் பிளவுகள் வழியாக வெளியேறுகிறது; நீரோட்டத்திற்கும் இரத்த ஓட்டத்திற்கும் எதிர்திசைத் தொடர்பு (countercurrent exchange) காணப்படுகிறது. இங்குள்ள வெட்டுத் தோற்றம் ஒரு பொதுவான செவுள் பையை மட்டுமே விளக்குகிறது; ஐந்து செவுள் பைகளின் முழு அமைப்பைக் காட்டவில்லை. துல்லியமான உடற்கூறியல் மற்றும் தமிழ் மதிப்பீடுகள் நிலுவையில் உள்ளன.",
       "referenceUrl": "https://dlnr.hawaii.gov/sharks/anatomy/gills-respiration/",
       "license": "Original project illustration — scientific review pending",
       "sourceUrl": "",
@@ -183,7 +183,14 @@
       "learningObjective": "Identify shark septal gill arches, interbranchial septa, hemibranchs, lamellae and pharynx-to-gill-slit water flow",
       "svgMaster": "docs/original_plate_svg/shark_septal_gills_en.svg",
       "svgSha256": "930f7d9eaa57ab381ea3b20f299c1169b9cb9bda646cd3bb50e2479986a9e2e6",
-      "visualReview": "REPLACED_VISUAL_QA_PENDING"
+      "visualReview": "REPLACED_VISUAL_QA_PENDING",
+      "scope": "A generalised elasmobranch gill-pouch and lamellar-flow teaching schematic; not an actual Scoliodon milk-shark dissection, five-pouch anatomical map or species-specific histological section. Its current editable vector master and output PNG are preserved unchanged.",
+      "scientificEvidenceUrls": [
+        "https://journals.physiology.org/doi/10.1152/physrev.00050.2003",
+        "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=26425",
+        "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=160219",
+        "https://www.tandfonline.com/doi/full/10.1080/24750263.2025.2537751"
+      ]
     },
     {
       "diagramId": "u1-urochordata-ascidia-larva-adult",
