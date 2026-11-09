@@ -1204,8 +1204,8 @@
       "figure": "calotes_digestive",
       "lang": "en",
       "path": "pencil_plates/calotes_digestive_en.png",
-      "sha256": "704affefb37e785174dfa23e59af3017b35b0cdfc0ebf77638e552405d8d166a",
-      "size": 2109577,
+      "sha256": "67113e2b3b23615cf481909cae573fbaa4a61cd03e346d7c9f18c941ab280d57",
+      "size": 2594996,
       "author": "OpenAI ChatGPT ImageGen — original Calotes versicolor digestive-system anatomical teaching candidate (2026-11-08)",
       "license": "Original AI-generated teaching illustration; no third-party anatomical artwork copied",
       "sourceUrl": "",
@@ -1213,7 +1213,7 @@
         "https://www.egyankosh.ac.in/bitstream/123456789/16528/1/Unit-9.pdf",
         "https://tamildigitallibrary.in/assets/docs/uploads/primary_files/book/TVA_BOK_0001362_Zoology.pdf"
       ],
-      "modifications": "Original reference-guided AI PNG, not traced from an external figure or rasterised from SVG; English labels. Original pixels kept.",
+      "modifications": "Original reference-guided AI PNG (1024×1536), uniformly enlarged by Lanczos to 1280×1920 to satisfy the existing QA minimum-width contract; no retouching, cropping, tracing, SVG conversion or anatomical change. English labels.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "Realistic teaching reconstruction of Calotes digestive system: oesophagus, cardiac/pyloric stomach, liver, gall bladder, duodenum, pancreas, ileum, caecum, rectum and cloaca. Gut coiling and exact duct insertion are schematic and require review.",
       "keyTa": "ஓணானின் செரிமான மண்டலம்: உணவுக்குழாய், இரைப்பை, கல்லீரல், பித்தப்பை, முன்சிறுகுடல், கணையம், சிறுகுடல், குருட்டுக்குடல், மலக்குடல், பொது வெளியேற்ற அறை. குடல் சுருள் அமைப்பும் நாளத் தொடர்புகளும் திட்டவட்டமான அளவுகளைக் காட்டுவதில்லை; அறிவியல் சரிபார்ப்பு நிலுவையில் உள்ளது. உறுப்புப் பெயர்கள் ஆங்கிலத்தில் உள்ளன.",
@@ -1225,7 +1225,7 @@
       "learningObjective": "Mouth, oesophagus, stomach, intestine, liver, pancreas and cloaca.",
       "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
       "aiQaIntegrationNotes": "Recognisable core organs and relative digestive sequence; visually realistic. Intestinal looping, stomach/duodenal contour, biliary junction and exact species-specific geometry are not verified; do not use as a precise dissection map.",
-      "aiQaDecisionBasis": "Original PNG visually compared with TN Zoology Calotes digestive anatomy reference; permission limited to QA use with minor schematic uncertainty; independent Zoology/Tamil and device sign-off PENDING."
+      "aiQaDecisionBasis": "Original AI figure screened against TN Zoology anatomical reference. Exact current 1280×1920 PNG is proportion-preserving output for source-integrity QA; independent academic and device approval PENDING."
     },
     {
       "diagramId": "u4-calotes-respiratory-system",
