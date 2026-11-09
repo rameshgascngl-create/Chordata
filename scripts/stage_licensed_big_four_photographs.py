@@ -11,7 +11,7 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 from hashlib import sha1, sha256
 from io import BytesIO
-import json, subprocess, textwrap
+import json, subprocess
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -170,7 +170,7 @@ def main():
                "unknown snake or to judge whether a bite is dangerous. Do not approach snakes. "
                "Seek immediate professional medical care after any suspected snakebite."),
         keyTa=("இந்தியாவில் மரபாகக் குறிப்பிடப்படும் முக்கிய நச்சுப்பாம்புகளில் நான்கு: "
-               "மேல் இடது — நல்ல பாம்பு / இந்தியக் கண்ணாடி விரியன் (Naja naja); "
+               "மேல் இடது — இந்திய நாகப்பாம்பு (Naja naja); "
                "மேல் வலது — கட்டுவிரியன் (Bungarus caeruleus); "
                "கீழ் இடது — கண்ணாடி விரியன் (Daboia russelii); "
                "கீழ் வலது — சுருட்டை விரியன் (Echis carinatus). "
