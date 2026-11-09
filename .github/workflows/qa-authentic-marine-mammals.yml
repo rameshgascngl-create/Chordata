@@ -1,0 +1,78 @@
+name: CHORDATA QA - exact-source aquatic mammal photo plate
+on:
+  push:
+    branches: ["qa/chordata-authentic-aquatic-mammals-20261109"]
+    paths:
+      - "scripts/stage_authentic_marine_mammals_montage.py"
+      - ".github/workflows/qa-authentic-marine-mammals.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify-and-stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install exact image decoding dependency
+        run: python3 -m pip install Pillow==11.3.0
+      - name: Validate staging script syntax
+        run: python3 -m py_compile scripts/stage_authentic_marine_mammals_montage.py
+      - name: Obtain exact original licensed montage and stage one PNG only
+        run: python3 scripts/stage_authentic_marine_mammals_montage.py
+      - name: Recheck all existing 64 registered figures, credits and reviewer state
+        run: bash scripts/qa_all.sh
+      - name: Regenerate read-only 64-source provenance inventory
+        run: python3 scripts/report_artwork_provenance.py
+      - name: Verify only requested artwork and its provenance records changed
+        run: |
+          set -euo pipefail
+          git diff --check
+          python3 - <<'PY'
+          import subprocess
+          allowed={
+              "app/src/main/assets/pencil_plates/aquatic_mammal_lineages_en.png",
+              "app/src/main/assets/pencil_plates/manifest.json",
+              "docs/figure-coverage.tsv",
+              "docs/FIGURE_REVIEW_REGISTER_64.csv",
+              "docs/CHORDATA_AUTHENTIC_MARINE_MAMMALS_PHOTO_QA.md",
+              "docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md",
+          }
+          changed=set(subprocess.check_output(["git","diff","--name-only"],text=True).splitlines())
+          untracked=set(subprocess.check_output(["git","ls-files","--others","--exclude-standard"],text=True).splitlines())
+          unexpected=(changed|untracked)-allowed
+          if unexpected or not changed:
+              raise SystemExit("Unexpected change or no candidate image: "+str(sorted(unexpected)))
+          print("PASS restricted marine mammal asset scope",sorted(changed|untracked))
+          PY
+      - name: Commit newly validated plate ONLY on isolated QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/aquatic_mammal_lineages_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_AUTHENTIC_MARINE_MAMMALS_PHOTO_QA.md
+          git add docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          git diff --cached --check
+          test -n "$(git diff --cached --name-only)"
+          git commit -m "assets(qa): install licensed eight-photograph aquatic mammals PNG"
+          git push origin HEAD:qa/chordata-authentic-aquatic-mammals-20261109
+      - name: Archive artwork and attribution evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Marine_Mammals_Authentic_Image_QA
+          path: |
+            app/src/main/assets/pencil_plates/aquatic_mammal_lineages_en.png
+            docs/CHORDATA_AUTHENTIC_MARINE_MAMMALS_PHOTO_QA.md
+            docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          if-no-files-found: warn
+          retention-days: 14
