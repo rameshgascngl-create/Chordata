@@ -19,6 +19,8 @@ jobs:
       - name: Verify all 64 provisional plates, source hashes and lesson mapping
         run: |
           python3 scripts/audit_figure_placement.py
+          python3 scripts/test_scoliodon_digestive_science_gate.py
+          python3 scripts/test_calotes_arterial_species_evidence.py
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
           python3 scripts/audit_android_qa_contract.py
@@ -60,6 +62,8 @@ jobs:
       - name: Audit all 64 registered pencil plates, placements and hashes
         run: |
           python3 scripts/audit_figure_placement.py
+          python3 scripts/test_scoliodon_digestive_science_gate.py
+          python3 scripts/test_calotes_arterial_species_evidence.py
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
       - uses: actions/setup-java@v4
@@ -104,6 +108,8 @@ jobs:
       - name: Audit all 64 registered pencil plates, placements and hashes
         run: |
           python3 scripts/audit_figure_placement.py
+          python3 scripts/test_scoliodon_digestive_science_gate.py
+          python3 scripts/test_calotes_arterial_species_evidence.py
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
       - uses: actions/setup-java@v4
@@ -180,6 +186,8 @@ jobs:
       - name: Recheck 64 slots before final QA build
         run: |
           python3 scripts/audit_figure_placement.py
+          python3 scripts/test_scoliodon_digestive_science_gate.py
+          python3 scripts/test_calotes_arterial_species_evidence.py
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
           python3 scripts/write_figure_review_register.py --check
