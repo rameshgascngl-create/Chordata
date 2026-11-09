@@ -1178,26 +1178,75 @@
       "figure": "living_reptile_groups",
       "lang": "en",
       "path": "pencil_plates/living_reptile_groups_en.png",
-      "sha256": "04a4ac59719db220585ecb123da5c89ffecb4f46279fc2e2aefcd7ce7288243a",
-      "size": 85205,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "a579525fb44c8e12ef4d4127dc00be45502bfb85991d6814b408ff5d272159fd",
+      "size": 11444139,
+      "author": "Petter Bøckman (2012 reptile montage); component photographs by Mila Zinkova / Brocken Inaglory, TimVickers, Ester Inbar and Donald Macauley",
+      "license": "CC BY-SA 3.0 Unported — Petter Bøckman montage; individual photographer credits recorded",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Extant_reptilia.jpg",
       "referenceUrls": [
-        "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        "https://commons.wikimedia.org/wiki/File:Extant_reptilia.jpg",
+        "https://commons.wikimedia.org/wiki/File:Total_internal_reflection_of_Chelonia_mydas.jpg",
+        "https://commons.wikimedia.org/wiki/File:Sphenodon_punctatus_(2).jpg",
+        "https://commons.wikimedia.org/wiki/File:AgamaSinaita01_ST_10.jpg",
+        "https://commons.wikimedia.org/wiki/File:Flickr_-_don_macauley_-_Crocodile.jpg"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Testudines, Squamata, Rhynchocephalia and Crocodylia; birds belong within sauropsids.",
-      "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/living_reptile_groups_en.svg",
+      "modifications": "Original 2012 four-photo montage converted from source JPEG to RGB PNG with source pixel dimensions 3000x2355 and composite layout unchanged. No drawing, AI generation, cropping, labels, retouching or resampling.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Four living NON-AVIAN reptile lineages, clockwise from top left: Testudines (green sea turtle), Rhynchocephalia (tuatara), Crocodylia (crocodilian), Squamata (Sinai agama, lower left). Each photograph shows just one representative, NOT the whole diversity of its lineage; Squamata also includes snakes and amphisbaenians. The montage is NOT a phylogenetic tree or an anatomical dissection; birds are nested within the broader reptile/sauropsid evolutionary lineage.",
+      "keyTa": "தற்காலப் பறவையல்லாத ஊர்வனவற்றின் நான்கு முக்கிய மரபுவழிக் குழுக்கள்: மேல் இடது — பச்சைக் கடலாமை (Testudines); மேல் வலது — டுவாட்டாரா (Rhynchocephalia); கீழ் இடது — சினாய் அகாமா பல்லி (Squamata); கீழ் வலது — முதலை (Crocodylia). ஒவ்வொரு ஒளிப்படமும் அந்தக் குழுவின் ஓர் எடுத்துக்காட்டே; Squamata குழுவில் பாம்புகளும் பிற செதிலுடைய ஊர்வனவும் அடங்கும். இது பரிணாமக் கிளைவரைபடமோ உடற்கூறியல் துண்டாய்வுப் படமோ அன்று. பறவைகளும் பரந்த Sauropsida பரிணாம மரபில் அடங்குகின்றன.",
+      "scope": "Authenticated four-taxon natural-history photomontage for traditional non-avian reptile orders; does not itself establish phylogenetic branching or depict every member of Squamata.",
+      "visualReview": "AUTHENTIC_MONTAGE_SOURCE_VERIFIED__BIOLOGY_TAMIL_DEVICE_REVIEW_PENDING",
       "topicId": "u4-reptilia-classification",
       "page": 2,
       "sectionKey": "living-orders",
-      "learningObjective": "Testudines, Squamata, Rhynchocephalia and Crocodylia; birds belong within sauropsids.",
-      "svgSha256": "589338474474e46c7cce10032986c869b4c8994efb7b6bea2c120f9462f2d018"
+      "learningObjective": "Recognise Testudines, Rhynchocephalia, Squamata and Crocodylia in non-avian reptile diversity",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Extant_reptilia.jpg",
+      "sourceSha1": "bb98028bb492b30e0d2df2a50cb975d7df455377",
+      "sourceSha256": [
+        "75188d5a83f8e3a1b6c67b3f7f37960237213f2097878303c0688578a8248072"
+      ],
+      "sourceFormat": "JPEG",
+      "installedFormat": "PNG",
+      "sourceKind": "AUTHENTIC_2012_REPTILIA_FOUR_GROUPS_MONTAGE_JPEG_TO_PNG",
+      "componentCredits": [
+        {
+          "position": "upper left",
+          "group": "Testudines",
+          "species": "Chelonia mydas",
+          "creator": "Mila Zinkova (Wikimedia alias Brocken Inaglory)",
+          "url": "https://commons.wikimedia.org/wiki/File:Total_internal_reflection_of_Chelonia_mydas.jpg",
+          "license": "CC BY-SA 3.0 (among available licences)",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "position": "upper right",
+          "group": "Rhynchocephalia",
+          "species": "Sphenodon punctatus",
+          "creator": "TimVickers",
+          "url": "https://commons.wikimedia.org/wiki/File:Sphenodon_punctatus_(2).jpg",
+          "license": "Public domain — released by creator",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+        },
+        {
+          "position": "lower left",
+          "group": "Squamata",
+          "species": "Pseudotrapelus sinaitus (historically Agama sinaita)",
+          "creator": "Ester Inbar (ST)",
+          "url": "https://commons.wikimedia.org/wiki/File:AgamaSinaita01_ST_10.jpg",
+          "license": "Freely reusable with attribution (creator's explicit Commons permission)",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/File:AgamaSinaita01_ST_10.jpg"
+        },
+        {
+          "position": "lower right",
+          "group": "Crocodylia",
+          "species": "Crocodilian representative; exact species not asserted",
+          "creator": "Donald Macauley",
+          "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_don_macauley_-_Crocodile.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+        }
+      ]
     },
     {
       "diagramId": "u4-calotes-digestive-system",
