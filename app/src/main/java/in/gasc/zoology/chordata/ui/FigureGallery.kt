@@ -84,13 +84,19 @@ internal fun decodeFocusedHistoricalDogfishBrain(
     }
 }
 
+private data class PhotoSourceCredit(
+    val title: String, val creator: String, val sourceUrl: String,
+    val licence: String, val licenceUrl: String
+)
+
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
     val sourceUrl: String, val licenceUrl: String, val modifications: String,
     val assetDirectory: String = "figures",
     val referenceOnly: Boolean = false,
-    val secondarySourceUrl: String = ""
+    val secondarySourceUrl: String = "",
+    val individualPhotoCredits: List<PhotoSourceCredit> = emptyList()
 )
 
 /**
@@ -189,6 +195,28 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
         val filename = assetPath.substringAfter('/')
         if (assetDirectory != "pencil_plates" || filename.contains('/') ||
             filename.startsWith('.') || !filename.endsWith(".png")) return@mapNotNull null
+        // Both published composites (reptile representatives and India's Big Four)
+        // retain four distinct original creators and reuse licences. Each appears
+        // as a directly usable source + licence link in the gallery.
+        val credits = entry.optJSONArray("photoCredits") ?: entry.optJSONArray("componentCredits")
+        val individualPhotoCredits = credits?.let { originals ->
+            (0 until originals.length()).mapNotNull { index ->
+                val original = originals.optJSONObject(index) ?: return@mapNotNull null
+                val source = original.optString("sourceUrl").ifBlank { original.optString("url") }
+                val licenceLink = original.optString("sourceLicenseUrl")
+                    .ifBlank { original.optString("licenseUrl") }
+                val licenceName = original.optString("sourceLicense")
+                    .ifBlank { original.optString("license") }
+                if (!source.startsWith("https://commons.wikimedia.org/wiki/File:") ||
+                    !licenceLink.startsWith("https://")) return@mapNotNull null
+                PhotoSourceCredit(
+                    title = original.optString("name").ifBlank { original.optString("group") },
+                    creator = original.optString("creator"),
+                    sourceUrl = source, licence = licenceName,
+                    licenceUrl = licenceLink
+                )
+            }
+        } ?: emptyList()
         slot to Plate(
             id = slot.id, topicId = slot.topicId, page = slot.page,
             filename = filename,
@@ -204,7 +232,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             modifications = entry.optString("modifications", ""),
             assetDirectory = assetDirectory,
             referenceOnly = entry.optString("sourceUrl", "").isBlank(),
-            secondarySourceUrl = entry.optJSONArray("sourceUrls")?.optString(1) ?: ""
+            secondarySourceUrl = entry.optJSONArray("sourceUrls")?.optString(1) ?: "",
+            individualPhotoCredits = individualPhotoCredits
         )
     }
     val replacedIds = pencilBySlot.mapNotNull { it.first.provisionalFigureId }.toSet()
@@ -321,11 +350,42 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                     "படத்தின் மூலப் பக்கமும் உரிமையாளரும்"
                                 else "Original image and creator")
                             }
-                            if (plate.secondarySourceUrl.isNotEmpty()) {
+                            if (plate.secondarySourceUrl.isNotEmpty() &&
+                                plate.individualPhotoCredits.isEmpty()) {
                                 TextButton(onClick = { uriHandler.openUri(plate.secondarySourceUrl) }) {
                                     Text(if (lang == ReadingLanguage.TA)
                                         "இரண்டாவது பட மூலமும் உரிமையாளரும்"
                                     else "Second original image and creator")
+                                }
+                            }
+                            if (plate.individualPhotoCredits.isNotEmpty()) {
+                                Text(
+                                    if (lang == ReadingLanguage.TA)
+                                        "ஒவ்வொரு ஒளிப்படத்தின் மூலமும் தனித்தனி உரிமமும்"
+                                    else "Original photographs and individual licences",
+                                    fontWeight = FontWeight.SemiBold
+                                )
+                                plate.individualPhotoCredits.forEachIndexed { index, credit ->
+                                    Text(
+                                        "${index + 1}. ${credit.title} — ${credit.creator} · ${credit.licence}",
+                                        style = MaterialTheme.typography.labelSmall
+                                    )
+                                    TextButton(
+                                        onClick = { uriHandler.openUri(credit.sourceUrl) },
+                                        modifier = Modifier.testTag("figure-photo-source-${plate.id}-${index + 1}")
+                                    ) {
+                                        Text(if (lang == ReadingLanguage.TA)
+                                            "அசல் ஒளிப்படமும் ஆசிரியரும் — ${index + 1}"
+                                        else "Original photograph and creator — ${index + 1}")
+                                    }
+                                    TextButton(
+                                        onClick = { uriHandler.openUri(credit.licenceUrl) },
+                                        modifier = Modifier.testTag("figure-photo-licence-${plate.id}-${index + 1}")
+                                    ) {
+                                        Text(if (lang == ReadingLanguage.TA)
+                                            "ஒளிப்பட உரிமம் — ${index + 1}"
+                                        else "Photograph reuse licence — ${index + 1}")
+                                    }
                                 }
                             }
                             if (!plate.referenceOnly && plate.licenceUrl.isNotEmpty()) {
