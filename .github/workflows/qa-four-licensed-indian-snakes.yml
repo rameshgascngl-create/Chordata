@@ -1,0 +1,79 @@
+name: CHORDATA QA - source-authentic four Indian snake photographs
+on:
+  push:
+    branches: ["qa/chordata-big-four-authentic-photo-20261109"]
+    paths:
+      - "scripts/stage_licensed_big_four_photographs.py"
+      - ".github/workflows/qa-four-licensed-indian-snakes.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify-and-stage-four-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install audited image library
+        run: python3 -m pip install Pillow==11.3.0
+      - name: Check input script syntax
+        run: python3 -m py_compile scripts/stage_licensed_big_four_photographs.py
+      - name: Fetch original Commons photos, compose exact figure and register source checksums
+        run: python3 scripts/stage_licensed_big_four_photographs.py
+      - name: Enforce complete 64-figure source and scientific review QA gates
+        run: bash scripts/qa_all.sh
+      - name: Regenerate 64-slot source-provenance report
+        run: python3 scripts/report_artwork_provenance.py
+      - name: Confirm narrow figure-only patch and no accidental artwork edits
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          python3 - <<'PY'
+          import subprocess
+          allow={
+            "app/src/main/assets/pencil_plates/india_big_four_snakes_en.png",
+            "app/src/main/assets/pencil_plates/manifest.json",
+            "docs/figure-coverage.tsv",
+            "docs/FIGURE_REVIEW_REGISTER_64.csv",
+            "docs/CHORDATA_INDIAN_BIG_FOUR_ORIGINAL_PHOTO_QA.md",
+            "docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md",
+          }
+          changed=set(subprocess.check_output(["git","diff","--name-only"],text=True).splitlines())
+          untracked=set(subprocess.check_output(["git","ls-files","--others","--exclude-standard"],text=True).splitlines())
+          unexpected=(changed|untracked)-allow
+          if unexpected or not changed:
+              raise SystemExit("Unexpected/missing figure output: "+str(sorted(unexpected)))
+          print("PASS patch modifies only one registered figure and traceability records")
+          PY
+      - name: Commit source-verified four-photo asset ONLY to isolated QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/india_big_four_snakes_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_INDIAN_BIG_FOUR_ORIGINAL_PHOTO_QA.md
+          git add docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          git diff --cached --check
+          test -n "$(git diff --cached --name-only)"
+          git commit -m "assets(qa): replace Big Four sketches with four licensed photographs"
+          git push origin HEAD:qa/chordata-big-four-authentic-photo-20261109
+      - name: Preserve QA-only art and creator proof for inspection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Big_Four_Credited_Photo_QA
+          path: |
+            app/src/main/assets/pencil_plates/india_big_four_snakes_en.png
+            docs/CHORDATA_INDIAN_BIG_FOUR_ORIGINAL_PHOTO_QA.md
+            docs/CHORDATA_ARTWORK_PROVENANCE_AUDIT_64.md
+          if-no-files-found: warn
+          retention-days: 14
