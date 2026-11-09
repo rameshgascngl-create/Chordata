@@ -581,6 +581,49 @@ def main():
                 and not figure.get("svgMaster"),
                 "Vertebrata organ panel source, attribution, licence or caveat missing"
             )
+        if figure["diagramId"] == "u4-reptilia-classification-living-reptile-orders":
+            # Exact-source QA regression gate: preserve the authenticated four-photo
+            # Commons montage and all four original photographer credits.
+            # A new replacement requires deliberate new rights/hash review.
+            parts = figure.get("componentCredits", [])
+            require(
+                figure.get("lang") == "en"
+                and name == "living_reptile_groups_en.png"
+                and figure.get("sha256") == "a579525fb44c8e12ef4d4127dc00be45502bfb85991d6814b408ff5d272159fd"
+                and figure.get("size") == 11444139
+                and figure.get("sourceKind") == "AUTHENTIC_2012_REPTILIA_FOUR_GROUPS_MONTAGE_JPEG_TO_PNG"
+                and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Extant_reptilia.jpg"
+                and figure.get("sourceImageUrl") == "https://upload.wikimedia.org/wikipedia/commons/2/2c/Extant_reptilia.jpg"
+                and figure.get("sourceSha1") == "bb98028bb492b30e0d2df2a50cb975d7df455377"
+                and len(figure.get("sourceSha256", [])) == 1
+                and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/3.0/"
+                and figure.get("license", "").startswith("CC BY-SA 3.0")
+                and "Petter Bøckman" in figure.get("author", "")
+                and figure.get("sourceFormat") == "JPEG"
+                and figure.get("installedFormat") == "PNG"
+                and [(x.get("group"), x.get("creator")) for x in parts] == [
+                    ("Testudines", "Mila Zinkova (Wikimedia alias Brocken Inaglory)"),
+                    ("Rhynchocephalia", "TimVickers"),
+                    ("Squamata", "Ester Inbar (ST)"),
+                    ("Crocodylia", "Donald Macauley"),
+                ]
+                and all(x.get("url", "").startswith("https://commons.wikimedia.org/wiki/File:")
+                        and x.get("license") and x.get("licenseUrl", "").startswith("https://")
+                        for x in parts)
+                and len(figure.get("referenceUrls", [])) == 5
+                and all(group in figure.get("keyEn", "") for group in
+                        ("Testudines", "Rhynchocephalia", "Squamata", "Crocodylia"))
+                and all(group in figure.get("keyTa", "") for group in
+                        ("Testudines", "Rhynchocephalia", "Squamata", "Crocodylia"))
+                and "NOT a phylogenetic tree" in figure.get("keyEn", "")
+                and figure.get("topicId") == "u4-reptilia-classification"
+                and figure.get("page") == 2
+                and figure.get("sectionKey") == "living-orders"
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256"),
+                "Reptilia authentic collage exact-source, component rights, taxon labels or QA hold changed"
+            )
         if figure["diagramId"] in pencil_ids:
             if (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
