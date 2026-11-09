@@ -523,21 +523,29 @@ def main():
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                 "Wave 6 dorsal brain scientific scope/provenance guard failed"
             )
-        if (figure["diagramId"] == "u2-scoliodon-digestive-labelled"
-                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"):
+        if figure["diagramId"] == "u2-scoliodon-digestive-labelled":
+            # Unconditional exact-asset gate. Do NOT depend on visualReview for
+            # entering this branch: a changed review flag must never silently
+            # bypass provenance, image integrity and anatomical scope checks.
+            # Any genuinely corrected candidate requires a conscious update
+            # to this gate and separate, SHA-specific academic QA evidence.
             require(
                 figure["lang"] == "en"
-                and figure["author"] == "CHORDATA QA — original, reference-guided Scoliodon-type digestive anatomy plate"
+                and figure.get("path") == "pencil_plates/scoliodon_digestive_en.png"
+                and figure.get("sha256") == "57f1bd87ee5ea529eff8bec7ca5ac4a60c2dca1be6afb62daf52ba024741cf17"
+                and figure.get("size") == 581960
+                and figure.get("author") == "CHORDATA QA — original, reference-guided Scoliodon-type digestive anatomy plate"
                 and figure.get("sourceUrl", "") == ""
                 and figure.get("svgMaster") == "docs/original_plate_svg/scoliodon_digestive_anatomy_en.svg"
-                and len(figure.get("svgSha256", "")) == 64
-                and figure.get("size", 0) > 100000
+                and figure.get("svgSha256") == "4730126353f7c18a67cdf45f22ebee5e3669ae0745296d35c98db4735fbcd8bf"
                 and len(figure.get("referenceUrls", [])) == 4
                 and all(term in figure.get("keyEn", "").lower()
                         for term in ("cardiac", "pyloric", "blind sac", "gallbladder",
-                                     "pancreas", "scroll", "rectal gland", "salt"))
+                                     "pancreas", "scroll", "rectal gland", "salt",
+                                     "not a digestive gland"))
+                and figure.get("visualReview") == "REPLACED_VISUAL_QA_PENDING"
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-                "Scoliodon digestive plate missing expected anatomy/rights/SVG/review evidence"
+                "Scoliodon digestive PNG changed without exact provenance, pending review status and verified anatomical replacement gate"
             )
         if (figure["diagramId"] in ("u5-columba-endoskeleton", "u5-rabbit-endoskeleton")
                 and figure["lang"] == "en" and figure.get("sourceUrl")):
