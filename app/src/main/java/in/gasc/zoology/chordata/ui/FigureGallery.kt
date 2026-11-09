@@ -84,13 +84,18 @@ internal fun decodeFocusedHistoricalDogfishBrain(
     }
 }
 
+private data class FigureComponentCredit(
+    val name: String, val creator: String, val licence: String, val sourceUrl: String
+)
+
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
     val sourceUrl: String, val licenceUrl: String, val modifications: String,
     val assetDirectory: String = "figures",
     val referenceOnly: Boolean = false,
-    val secondarySourceUrl: String = ""
+    val secondarySourceUrl: String = "",
+    val componentCredits: List<FigureComponentCredit> = emptyList()
 )
 
 /**
@@ -204,7 +209,23 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             modifications = entry.optString("modifications", ""),
             assetDirectory = assetDirectory,
             referenceOnly = entry.optString("sourceUrl", "").isBlank(),
-            secondarySourceUrl = entry.optJSONArray("sourceUrls")?.optString(1) ?: ""
+            secondarySourceUrl = entry.optJSONArray("sourceUrls")?.optString(1) ?: "",
+            // Copyright attribution for every image within a licensed montage.
+            // This is displayed on the lesson page, not buried in the JSON.
+            componentCredits = entry.optJSONArray("componentCredits")?.let { items ->
+                (0 until items.length()).map { index ->
+                    items.getJSONObject(index).let { credit ->
+                        FigureComponentCredit(
+                            name = credit.optString("name").ifBlank { credit.optString("group") },
+                            creator = credit.optString("creator"),
+                            licence = credit.optString("license"),
+                            sourceUrl = credit.optString("sourceUrl").ifBlank {
+                                credit.optString("url")
+                            }
+                        )
+                    }
+                }
+            } ?: emptyList()
         )
     }
     val replacedIds = pencilBySlot.mapNotNull { it.first.provisionalFigureId }.toSet()
@@ -271,18 +292,27 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 var zoomed by remember(plate.id) { mutableStateOf(false) }
                 Card(modifier = Modifier.fillMaxWidth().testTag("figure-" + plate.id)) {
                     Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text(if (plate.assetDirectory == "pencil_plates")
-                            (if (lang == ReadingLanguage.TA)
-                                "வரைவுப் படம் · உடற்கூறியல் சரிபார்ப்பு நிலுவையில் உள்ளது"
-                             else "Draft anatomical plate · scientific review pending")
-                            else if (plate.sourceUrl.isNotEmpty())
-                            (if (lang == ReadingLanguage.TA)
-                                "பட உரிமையாளர் குறிப்பிடப்பட்ட ஆதாரம் · அறிவியல் ஒப்புதல் நிலுவை"
-                             else "Source-credited reference · anatomical approval pending")
-                            else (if (lang == ReadingLanguage.TA)
-                                "தற்காலிகக் கோட்டோவியம் · அறிவியல் ஒப்புதல் நிலுவை"
-                             else "Provisional outline · anatomical approval pending"),
-                            fontWeight = FontWeight.SemiBold)
+                        val sourceIsOriginal = plate.sourceUrl.isNotEmpty() && !plate.referenceOnly
+                        Text(
+                            if (plate.componentCredits.isNotEmpty()) {
+                                if (lang == ReadingLanguage.TA)
+                                    "மூல ஒளிப்படத் தொகுப்பு · அறிவியல் மதிப்பீடு நிலுவையில் உள்ளது"
+                                else "Source-credited photo montage · academic review pending"
+                            } else if (sourceIsOriginal) {
+                                if (lang == ReadingLanguage.TA)
+                                    "மூல ஆதாரப் படம் · அறிவியல் மதிப்பீடு நிலுவையில் உள்ளது"
+                                else "Original source illustration · academic review pending"
+                            } else if (plate.assetDirectory == "pencil_plates") {
+                                if (lang == ReadingLanguage.TA)
+                                    "வரைவுப் படம் · உடற்கூறியல் சரிபார்ப்பு நிலுவையில் உள்ளது"
+                                else "Draft anatomical plate · scientific review pending"
+                            } else {
+                                if (lang == ReadingLanguage.TA)
+                                    "தற்காலிகப் படம் · அறிவியல் மதிப்பீடு நிலுவையில் உள்ளது"
+                                else "Provisional illustration · academic review pending"
+                            },
+                            fontWeight = FontWeight.SemiBold
+                        )
                         Image(bitmap = bitmap, contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
                             contentScale = ContentScale.Fit,
                             modifier = Modifier.fillMaxWidth().heightIn(
@@ -298,6 +328,42 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                     if (plate.licence.isEmpty()) "" else " · Licence: " + plate.licence,
                             style = MaterialTheme.typography.labelSmall
                         )
+                        if (plate.componentCredits.isNotEmpty()) {
+                            var showComponentCredits by remember(plate.id) { mutableStateOf(false) }
+                            TextButton(
+                                onClick = { showComponentCredits = !showComponentCredits },
+                                modifier = Modifier.testTag("figure-component-credits-toggle-" + plate.id)
+                            ) {
+                                Text(
+                                    if (lang == ReadingLanguage.TA)
+                                        "ஒளிப்பட உரிமையாளர்கள் (" + plate.componentCredits.size + ")"
+                                    else "Original photograph credits (" + plate.componentCredits.size + ")"
+                                )
+                            }
+                            if (showComponentCredits) {
+                                Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                                    plate.componentCredits.forEachIndexed { index, credit ->
+                                        Text(
+                                            (index + 1).toString() + ". " + credit.name +
+                                                " · " + credit.creator + " · " + credit.licence,
+                                            style = MaterialTheme.typography.labelSmall
+                                        )
+                                        if (credit.sourceUrl.isNotEmpty()) {
+                                            TextButton(
+                                                onClick = { uriHandler.openUri(credit.sourceUrl) },
+                                                modifier = Modifier.testTag(
+                                                    "figure-component-credit-" + plate.id + "-" + index
+                                                )
+                                            ) {
+                                                Text(if (lang == ReadingLanguage.TA)
+                                                    "மூல ஒளிப்படமும் உரிமையாளரும்"
+                                                else "Original photo and creator")
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                         if (plate.sourceUrl.isNotEmpty()) {
                             Text(
                                 if (plate.referenceOnly)
