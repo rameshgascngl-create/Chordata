@@ -45,6 +45,51 @@ class ReaderNavigationTest {
     }
 
     /**
+     * A photo montage is not properly attributed merely because the composite
+     * has one licence line. Check every original photographer's credited page
+     * and licence inside the bundled Android manifest.
+     */
+    @Test fun bothCompositePhotographPlatesKeepAllFourOriginalCreatorsAndLicences() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val manifest = org.json.JSONObject(context.assets.open("pencil_plates/manifest.json")
+            .bufferedReader(Charsets.UTF_8).use { it.readText() }).getJSONArray("figures")
+        val targets = listOf(
+            Triple("u4-reptilia-classification-living-reptile-orders", "componentCredits", "url"),
+            Triple("u4-snakes-india-big-four-identification", "photoCredits", "sourceUrl")
+        )
+        for ((diagramId, creditKey, urlKey) in targets) {
+            val figure = (0 until manifest.length()).map { manifest.getJSONObject(it) }
+                .single { it.getString("diagramId") == diagramId }
+            org.junit.Assert.assertTrue(figure.getString("reviewStatus").startsWith("PROVISIONAL_"))
+            val credits = figure.getJSONArray(creditKey)
+            org.junit.Assert.assertEquals("$diagramId must retain all four original photos", 4, credits.length())
+            val creators = mutableSetOf<String>()
+            val sourcePages = mutableSetOf<String>()
+            for (index in 0 until credits.length()) {
+                val credit = credits.getJSONObject(index)
+                val creator = credit.getString("creator")
+                val url = credit.getString(urlKey)
+                val licence = credit.optString("sourceLicense").ifBlank {
+                    credit.optString("license")
+                }
+                val licenceUrl = credit.optString("sourceLicenseUrl").ifBlank {
+                    credit.optString("licenseUrl")
+                }
+                org.junit.Assert.assertTrue("Missing original creator for $diagramId", creator.isNotBlank())
+                org.junit.Assert.assertTrue("Invalid original photograph URL",
+                    url.startsWith("https://commons.wikimedia.org/wiki/File:"))
+                org.junit.Assert.assertTrue("Missing original photo licence", licence.isNotBlank())
+                org.junit.Assert.assertTrue("Missing individual licence URL",
+                    licenceUrl.startsWith("https://"))
+                org.junit.Assert.assertTrue("Repeated creator", creators.add(creator))
+                org.junit.Assert.assertTrue("Repeated original source", sourcePages.add(url))
+            }
+            org.junit.Assert.assertEquals(4, creators.size)
+            org.junit.Assert.assertEquals(4, sourcePages.size)
+        }
+    }
+
+    /**
      * Validate the exact assets shipped in the APK, not just the ZIP/source tree.
      * Decode bounds only to keep peak memory low on API 24 devices.
      * The scientific-review status must remain provisional.
