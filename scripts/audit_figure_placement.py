@@ -593,6 +593,23 @@ def main():
                         "Branchiostoma original credit / ShareAlike / JPEG-to-PNG modification missing")
                 require(all(str(i) in figure.get("keyEn", "") for i in range(1, 33)),
                         "Branchiostoma 32-part external anatomy key missing")
+            elif (figure["diagramId"] == "u1-cephalochordata-branchiostoma-labelled"
+                    and figure["lang"] == "ta"):
+                # The accepted corrected Tamil-variant PNG has a specific,
+                # truthful ImageGen creator rather than the historical generic
+                # project credit. Approval is SHA-specific and only provisional.
+                require(
+                    name == "branchiostoma_ta.png"
+                    and figure["sha256"] == "2fbd48be62b83309c87214492ea20dfea1995a3e624fca66c17ed995c95d9b1e"
+                    and figure["author"] == "OpenAI ChatGPT ImageGen — original anatomical reconstruction, digitally labelled (2026-11-08)"
+                    and figure.get("sourceUrl", "") == ""
+                    and figure.get("license") == "Original AI-generated illustration; no third-party illustration copied"
+                    and len(figure.get("referenceUrls", [])) == 2
+                    and figure.get("aiQaIntegrationDecision") == "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE"
+                    and figure.get("visualReview") == "AI_GREEN_TICK_PROVISIONAL_NO_INDEPENDENT_SIGNOFF"
+                    and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+                    "corrected Branchiostoma Tamil PNG attribution, hash or provisional QA decision changed"
+                )
             elif (figure["diagramId"] in ("u5-columba-endoskeleton", "u5-rabbit-endoskeleton")
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
                 require(figure["author"] != "AI-generated original (ChatGPT ImageGen)",
