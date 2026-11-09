@@ -581,6 +581,46 @@ def main():
                 and not figure.get("svgMaster"),
                 "Vertebrata organ panel source, attribution, licence or caveat missing"
             )
+        if figure["diagramId"] == "u4-snakes-india-big-four-identification":
+            # Four authentic live-animal photographs, each inventoried with
+            # the original creator, image page, usage licence and source hash.
+            # Do not silently revert to generic silhouettes or treat this
+            # classroom comparison as a snakebite identification guide.
+            photos = figure.get("photoCredits", [])
+            require(
+                figure.get("lang") == "en"
+                and name == "india_big_four_snakes_en.png"
+                and figure.get("sha256") == "e44f5599b87603cb856b97f2f7cab32c33067810db2e49204203e442d8828e9d"
+                and figure.get("size") == 5146094
+                and figure.get("sourceKind") == "AUTHENTIC_FOUR_SNAKE_PHOTO_MONTAGE__CC_BY_SA_4"
+                and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/4.0/"
+                and figure.get("license", "").startswith("CC BY-SA 4.0")
+                and figure.get("installedFormat") == "PNG"
+                and figure.get("sourceFormat") == "Four original Wikimedia Commons JPEG photographs"
+                and [(x.get("taxon"), x.get("creator"), x.get("sourceSha1")) for x in photos] == [
+                    ("Naja naja", "Holger Krisp", "3d281686dfa309cd438eee91750540c0f64b226b"),
+                    ("Bungarus caeruleus", "Raju Kidoor", "630871ba03d9a1bff99816d41fb9378c22304b61"),
+                    ("Daboia russelii", "Billyakhtar", "02aee36bc79062255af49295966ed5ef21c47530"),
+                    ("Echis carinatus", "Jnprasad2001", "fccd2726d43640d491bcd6d25b064c26d0634243"),
+                ]
+                and len(figure.get("sourceUrls", [])) == 4
+                and len(figure.get("sourceSha256", [])) == 4
+                and len(figure.get("referenceUrls", [])) == 6
+                and all(p.get("sourceUrl", "").startswith("https://commons.wikimedia.org/wiki/File:")
+                        and p.get("sourceLicenseUrl", "").startswith("https://creativecommons.org/")
+                        and p.get("sourceSha256")
+                        for p in photos)
+                and "NOT reliable identification criteria after a bite" in figure.get("keyEn", "")
+                and all(taxon in figure.get("keyTa", "") for taxon in
+                        ("Naja naja", "Bungarus caeruleus", "Daboia russelii", "Echis carinatus"))
+                and figure.get("topicId") == "u4-snakes-india"
+                and figure.get("page") == 2
+                and figure.get("sectionKey") == "big-four"
+                and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256"),
+                "Big Four photographed species/creator licences, exact PNG or non-clinical review caveat changed"
+            )
         if figure["diagramId"] == "u4-reptilia-classification-living-reptile-orders":
             # Exact-source QA regression gate: preserve the authenticated four-photo
             # Commons montage and all four original photographer credits.
