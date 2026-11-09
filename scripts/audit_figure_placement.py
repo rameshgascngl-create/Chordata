@@ -441,6 +441,54 @@ def main():
                 and not figure.get("svgSha256"),
                 "marine mammal original photograph hashes/creator/licences or provisional review changed"
             )
+        if figure["diagramId"] == "u4-snakes-india-big-four-identification":
+            # Four source photographs and credits are pinned independently of
+            # the ordinary installed-PNG hash check. A medical-safety caveat is
+            # mandatory; visual appearance is not a snakebite diagnosis.
+            component_credits = figure.get("componentCredits", [])
+            expected_photos = [
+                ("Indian cobra", "Naja naja", "Jayendra Chiplunkar", "CC BY-SA 3.0",
+                 "37c9c76be82a04cae18d32b3ffdd0731bf33be61acc628c7429ae1525a62d75d"),
+                ("Common krait", "Bungarus caeruleus", "Davidvraju", "CC BY-SA 4.0",
+                 "5096fa001300d46a2845f2a58eb4ab5b0a49cb0d0853857ddff29c9903c6d4ae"),
+                ("Russell's viper", "Daboia russelii", "StefanSTS", "CC BY-SA 3.0",
+                 "b353b9e1cf1bccb3c1e0286652e8616fae7140999433e84625c84f2527edf007"),
+                ("Saw-scaled viper", "Echis carinatus", "Dinesh Valke", "CC BY-SA 2.0",
+                 "35c645aab778280b69415f10a08aa0ed173b085494ae9527b10f6717d2836ddb"),
+            ]
+            require(
+                figure.get("path") == "pencil_plates/india_big_four_snakes_en.png"
+                and figure.get("lang") == "en"
+                and figure.get("sourceKind") == "LICENSED_FOUR_AUTHENTIC_INDIAN_SNAKES_2X2_PHOTO_COLLAGE"
+                and figure.get("sha256") == "91bff1445b017a99100b41ed969dc5a3496f23f2ec8a8fe1493d76b0f6029fe1"
+                and figure.get("size") == 6055173
+                and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/4.0/"
+                and figure.get("sourceSha256") == [e[4] for e in expected_photos]
+                and len(figure.get("sourceSha1", [])) == 4
+                and all(len(digest) == 40 for digest in figure.get("sourceSha1", []))
+                and len(component_credits) == len(expected_photos)
+                and all(
+                    (credit.get("name"), credit.get("taxon"),
+                     credit.get("creator"), credit.get("license"),
+                     credit.get("sourceSha256")) == expected
+                    and credit.get("sourceUrl", "").startswith(
+                        "https://commons.wikimedia.org/wiki/File:")
+                    and credit.get("licenseUrl", "").startswith(
+                        "https://creativecommons.org/licenses/by-sa/")
+                    for credit, expected in zip(component_credits, expected_photos)
+                )
+                and "MUST NOT" in figure.get("keyEn", "")
+                and "medical care" in figure.get("keyEn", "")
+                and all(term in figure.get("keyTa", "") for term in
+                        ("நாகப்பாம்பு", "கட்டுவிரியன்", "கண்ணாடி விரியன்",
+                         "சுருட்டை விரியன்", "மருத்துவ உதவி"))
+                and figure.get("reviewStatus") ==
+                    "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING"
+                and "REVIEW_PENDING" in figure.get("visualReview", "")
+                and not figure.get("svgMaster")
+                and not figure.get("svgSha256"),
+                "Big Four sourced PNG, photography credit, licence or snakebite warning changed"
+            )
         # The generated Calotes brain remains an original AI image, not a
         # published or independently validated species-specific atlas plate.
         if figure["diagramId"] == "u4-calotes-brain":
