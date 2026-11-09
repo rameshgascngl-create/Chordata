@@ -21,6 +21,7 @@ jobs:
           python3 scripts/audit_figure_placement.py
           python3 scripts/test_scoliodon_digestive_science_gate.py
           python3 scripts/test_calotes_arterial_species_evidence.py
+          python3 scripts/test_scoliodon_gill_qa_guard.py
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
           python3 scripts/audit_android_qa_contract.py
@@ -64,6 +65,7 @@ jobs:
           python3 scripts/audit_figure_placement.py
           python3 scripts/test_scoliodon_digestive_science_gate.py
           python3 scripts/test_calotes_arterial_species_evidence.py
+          python3 scripts/test_scoliodon_gill_qa_guard.py
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
       - uses: actions/setup-java@v4
@@ -110,6 +112,7 @@ jobs:
           python3 scripts/audit_figure_placement.py
           python3 scripts/test_scoliodon_digestive_science_gate.py
           python3 scripts/test_calotes_arterial_species_evidence.py
+          python3 scripts/test_scoliodon_gill_qa_guard.py
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
       - uses: actions/setup-java@v4
@@ -188,6 +191,7 @@ jobs:
           python3 scripts/audit_figure_placement.py
           python3 scripts/test_scoliodon_digestive_science_gate.py
           python3 scripts/test_calotes_arterial_species_evidence.py
+          python3 scripts/test_scoliodon_gill_qa_guard.py
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
           python3 scripts/write_figure_review_register.py --check
