@@ -1396,27 +1396,107 @@
       "figure": "india_big_four_snakes",
       "lang": "en",
       "path": "pencil_plates/india_big_four_snakes_en.png",
-      "sha256": "68fa916626a60be5bbfd62cc31b3d8f19534a6913eba12e64d12642c4f3f3edf",
-      "size": 116568,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "91bff1445b017a99100b41ed969dc5a3496f23f2ec8a8fe1493d76b0f6029fe1",
+      "size": 6055173,
+      "author": "Jayendra Chiplunkar; Davidvraju; StefanSTS; Dinesh Valke (original photos); CHORDATA QA (collage layout)",
+      "license": "CC BY-SA 4.0 montage layout; source photographs retain their respective CC BY-SA 3.0, 4.0, 3.0 and 2.0 licences",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Common_Indian_Cobra_or_Spectacled_Cobra_10.JPG",
       "referenceUrls": [
+        "https://commons.wikimedia.org/wiki/File:The_Common_Indian_Cobra_or_Spectacled_Cobra_10.JPG",
+        "https://commons.wikimedia.org/wiki/File:Common_krait.jpg",
+        "https://commons.wikimedia.org/wiki/File:20090613_Daboia_russelii_Russells_Viper_Kettenviper_Pune.jpg",
+        "https://commons.wikimedia.org/wiki/File:Indian_saw-scaled_viper_snake_(6156417004).jpg",
         "https://www.who.int/news-room/questions-and-answers/item/snakebite-envenoming",
         "https://ncdc.mohfw.gov.in/uploads/pdf/COH9.pdf"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Cobra, common krait, Russell’s viper and saw-scaled viper; other dangerous species occur.",
-      "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/india_big_four_snakes_en.svg",
+      "modifications": "Four original full-frame JPEG photographs from Commons downsampled proportionally and arranged as a labelled 2x2 photo comparison onto plain white cards. No crops, retouch, AI, copied textbook artwork or anatomical reconstruction. Original individual photos and licence links retained in expanded credits. The original project schematic remains archived in docs/original_plate_svg.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+      "keyEn": "Four photographed examples, in reading order: upper left Indian spectacled cobra (Naja naja); upper right common krait (Bungarus caeruleus); lower left Russell's viper (Daboia russelii); lower right saw-scaled viper (Echis carinatus). These are the traditionally named 'Big Four', NOT an exhaustive list of medically important Indian snakes. Photographs, colours, patterns and hood expansion MUST NOT be used to identify an unknown snake or to judge whether a bite is dangerous. Do not approach snakes. Seek immediate professional medical care after any suspected snakebite.",
+      "keyTa": "இந்தியாவில் மரபாகக் குறிப்பிடப்படும் முக்கிய நச்சுப்பாம்புகளில் நான்கு: மேல் இடது — இந்திய நாகப்பாம்பு (Naja naja); மேல் வலது — கட்டுவிரியன் (Bungarus caeruleus); கீழ் இடது — கண்ணாடி விரியன் (Daboia russelii); கீழ் வலது — சுருட்டை விரியன் (Echis carinatus). இவை மட்டுமே ஆபத்தான பாம்புகள் அல்ல. ஒளிப்படம், நிறம், உடல் வடிவம் அல்லது படக்குறிகளை வைத்து அறியாத பாம்பை அடையாளம் காணவோ, கடியின் ஆபத்தை மதிப்பிடவோ கூடாது. பாம்பை அணுக வேண்டாம்; பாம்புக்கடி சந்தேகப்பட்டால் உடனடியாக மருத்துவ உதவியை நாட வேண்டும்.",
+      "scope": "Authentic representative photographs of four medically important species only. Not a clinical snake-identification guide, not exhaustive, and not suitable for deciding treatment or handling of live snakes.",
+      "visualReview": "AUTHENTIC_FOUR_PHOTOS__SOURCE_CREDITS_VERIFIED__SCIENTIFIC_TAMIL_DEVICE_REVIEW_PENDING",
       "topicId": "u4-snakes-india",
       "page": 2,
       "sectionKey": "big-four",
-      "learningObjective": "Cobra, common krait, Russell’s viper and saw-scaled viper; other dangerous species occur.",
-      "svgSha256": "51e47b02c62745c11ec7605a92a73ac36773008fbc85b865b4dc45a5406fa155"
+      "learningObjective": "Recognise four traditionally listed Indian venomous snake species as photographic examples; understand that other species cause medically important bites.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceKind": "LICENSED_FOUR_AUTHENTIC_INDIAN_SNAKES_2X2_PHOTO_COLLAGE",
+      "sourceFormat": "Four original JPEGs",
+      "installedFormat": "PNG",
+      "sourceSha256": [
+        "37c9c76be82a04cae18d32b3ffdd0731bf33be61acc628c7429ae1525a62d75d",
+        "5096fa001300d46a2845f2a58eb4ab5b0a49cb0d0853857ddff29c9903c6d4ae",
+        "b353b9e1cf1bccb3c1e0286652e8616fae7140999433e84625c84f2527edf007",
+        "35c645aab778280b69415f10a08aa0ed173b085494ae9527b10f6717d2836ddb"
+      ],
+      "sourceSha1": [
+        "8ae76f6ab57ed7d3a0feb37a463432daca2e9e5f",
+        "51d24d5552d417f17c504d3c75dc1f082d42a824",
+        "da6c4cb38935c556baa0d710e2850e4181697912",
+        "c33aa4a3431f33e3a4f97941834ff2c6aed100da"
+      ],
+      "componentCredits": [
+        {
+          "name": "Indian cobra",
+          "taxon": "Naja naja",
+          "creator": "Jayendra Chiplunkar",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Common_Indian_Cobra_or_Spectacled_Cobra_10.JPG",
+          "pixels": [
+            3648,
+            2736
+          ],
+          "sourceSha1": "8ae76f6ab57ed7d3a0feb37a463432daca2e9e5f",
+          "sourceSha256": "37c9c76be82a04cae18d32b3ffdd0731bf33be61acc628c7429ae1525a62d75d",
+          "sourceByteLength": 1537690
+        },
+        {
+          "name": "Common krait",
+          "taxon": "Bungarus caeruleus",
+          "creator": "Davidvraju",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_krait.jpg",
+          "pixels": [
+            2193,
+            1466
+          ],
+          "sourceSha1": "51d24d5552d417f17c504d3c75dc1f082d42a824",
+          "sourceSha256": "5096fa001300d46a2845f2a58eb4ab5b0a49cb0d0853857ddff29c9903c6d4ae",
+          "sourceByteLength": 2628255
+        },
+        {
+          "name": "Russell's viper",
+          "taxon": "Daboia russelii",
+          "creator": "StefanSTS",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:20090613_Daboia_russelii_Russells_Viper_Kettenviper_Pune.jpg",
+          "pixels": [
+            1872,
+            2099
+          ],
+          "sourceSha1": "da6c4cb38935c556baa0d710e2850e4181697912",
+          "sourceSha256": "b353b9e1cf1bccb3c1e0286652e8616fae7140999433e84625c84f2527edf007",
+          "sourceByteLength": 2550393
+        },
+        {
+          "name": "Saw-scaled viper",
+          "taxon": "Echis carinatus",
+          "creator": "Dinesh Valke",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_saw-scaled_viper_snake_(6156417004).jpg",
+          "pixels": [
+            2048,
+            1536
+          ],
+          "sourceSha1": "c33aa4a3431f33e3a4f97941834ff2c6aed100da",
+          "sourceSha256": "35c645aab778280b69415f10a08aa0ed173b085494ae9527b10f6717d2836ddb",
+          "sourceByteLength": 1487133
+        }
+      ]
     },
     {
       "diagramId": "u4-poison-apparatus-venom-apparatus",
