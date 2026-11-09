@@ -1558,16 +1558,23 @@
       ],
       "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Immobilise, remove tight items and transport promptly; no tourniquets, incision or suction.",
-      "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
+      "keyEn": "Snakebite is a medical emergency, even when fang marks, pain or swelling are absent. Move clear of the snake without attempting capture; call emergency services and arrange immediate transfer to a hospital capable of managing snakebite. Keep the person calm, still and supported. Immobilise the bitten limb with a loose, non-constricting splint, remove rings, anklets, watches and tight clothing before swelling, and monitor breathing during transfer. If vomiting or reduced consciousness occurs but breathing is normal, protect the airway in the recovery position; seek immediate resuscitation support if breathing is impaired. Do NOT apply a tight tourniquet, cut or suck the wound, use ice, herbal remedies, electric shock, or delay treatment to identify the snake. Pressure-immobilisation bandaging is NOT universally appropriate for Indian snakebites; it is not a routine layperson instruction, because tissue-damaging venoms may be present. Hospital clinicians assess need for antivenom. This educational flowchart does not replace emergency medical protocols.",
+      "keyTa": "பாம்புக்கடி என்பது அவசர மருத்துவ நிலை. விஷப்பற் தடம், வலி அல்லது வீக்கம் தென்படாவிட்டாலும் ஆபத்து இல்லை என்று முடிவு செய்யக் கூடாது. பாம்பைப் பிடிக்க முயலாமல் பாதுகாப்பான இடத்திற்குச் சென்று, அவசர மருத்துவ உதவியை அழைத்து, பாம்புக்கடி சிகிச்சை வசதியுள்ள மருத்துவமனைக்கு உடனடியாகக் கொண்டு செல்ல ஏற்பாடு செய்ய வேண்டும். பாதிக்கப்பட்டவரை அமைதியாகவும் அசைவின்றியும் வைத்திருக்க வேண்டும். கடிபட்ட கை அல்லது காலை இறுக்கமில்லாத துணைக்கட்டையால் அசையாமல் தாங்கி, வீக்கத்திற்கு முன்னர் மோதிரம், வளையல், கொலுசு, கடிகாரம் மற்றும் இறுக்கமான உடைகளை அகற்ற வேண்டும். மருத்துவமனைக்குக் கொண்டு செல்லும்போது சுவாசத்தைக் கவனிக்க வேண்டும். வாந்தி எடுக்கும், ஆனால் சுவாசம் இயல்பாக உள்ள நபரை காற்றுப்பாதை அடைபடாதவாறு பாதுகாப்பான பக்கவாட்டுப் படுக்கை நிலையில் வைக்க வேண்டும். இறுக்கமான இரத்தத்தடுப்புக் கட்டு கட்டுதல், காயத்தை வெட்டுதல், விஷத்தை உறிஞ்சுதல், பனிக்கட்டி வைத்தல், மூலிகை மருந்து பயன்படுத்துதல் அல்லது பாம்பை அடையாளம் காணச் சிகிச்சையைத் தாமதப்படுத்துதல் ஆகியவை கூடாது. அழுத்தத்துடன் கூடிய அசைவுத்தடுப்புக் கட்டு இந்தியாவில் அனைத்து பாம்புக்கடிகளுக்கும் பொதுவான முதலுதவி முறை அன்று; திசுக்களைச் சேதப்படுத்தும் நஞ்சுகளால் அது ஆபத்தை அதிகரிக்கலாம். எதிர்நஞ்சு மருந்து தேவைப்படுமா என்பதை மருத்துவர் மதிப்பிடுவார். இவ்விளக்கப்படம் அவசர மருத்துவ வழிகாட்டுதலுக்கு மாற்றாகாது.",
+      "scope": "Source-reviewed, provisional educational first-aid flowchart for India. Emergency assessment is required after suspected snakebite regardless of symptoms. No instructions to catch or identify a snake, apply pressure-immobilisation universally, or self-administer antivenom.",
       "visualReview": "SELF_INSPECTED_PROVISIONAL",
       "svgMaster": "docs/original_plate_svg/snakebite_first_aid_en.svg",
       "topicId": "u4-poison-apparatus",
       "page": 3,
       "sectionKey": "evidence-based-first-aid",
       "learningObjective": "Immobilise, remove tight items and transport promptly; no tourniquets, incision or suction.",
-      "svgSha256": "ef08bed905d6616dd512011a212bbd3c1ef27c87605d53b482f20105fb4bbfa2"
+      "svgSha256": "ef08bed905d6616dd512011a212bbd3c1ef27c87605d53b482f20105fb4bbfa2",
+      "scientificEvidenceUrls": [
+        "https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment",
+        "https://www.who.int/news-room/questions-and-answers/item/snakebite-envenoming",
+        "https://www.ncdc.mohfw.gov.in/wp-content/uploads/2024/07/NATIONAL-ACTION-PLAN-FOR-PREVENTION-AND-CONTROL-OF-SNAKEBITE-ENVENOMING-NAPSE.pdf",
+        "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid%2C%20Resuscitation%20and%20Education%20Guidelines%202025.pdf"
+      ],
+      "editorialCaution": "Existing English PNG remains unchanged and is source-reviewed for basic first aid. Educational figures cannot cover individual clinical presentation, pressure-bandage exceptions or airway management. WHO and India NAPSE evidence must be rechecked before production release; no independent scientific/Tamil sign-off."
     },
     {
       "diagramId": "u5-aves-classification-bird-lineages",
