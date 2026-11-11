@@ -239,25 +239,6 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
                 }
             }
         }
-        if (remaining != null) {
-            item(key = "continue-reading") {
-                Card(onClick = { onOpen(remaining.id) },
-                    shape = RoundedCornerShape(14.dp),
-                    colors = CardDefaults.cardColors(containerColor = softAmber)) {
-                    Row(Modifier.fillMaxWidth().padding(horizontal = 14.dp, vertical = 11.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                            Text(loc(lang, "READ NEXT", "அடுத்துப் படிக்க"),
-                                color = accent, fontWeight = FontWeight.Bold, fontSize = 11.sp)
-                            BilingualText(remaining.title, lang, scale.coerceAtMost(1.3f),
-                                base = 14f, bold = true)
-                        }
-                        Text("›", color = teal, fontSize = 28.sp)
-                    }
-                }
-            }
-        }
         item(key = "reader-preferences") {
             Card(shape = RoundedCornerShape(14.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.White)) {
@@ -279,10 +260,37 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
                         horizontalArrangement = Arrangement.spacedBy(5.dp)) {
                         Text(loc(lang, "Text size", "எழுத்தளவு"), fontSize = 12.sp,
                             modifier = Modifier.width(76.dp), color = mutetext)
-                        listOf(1f, 1.25f, 1.5f, 2f).forEach { option ->
-                            FilterChip(selected = scale == option, onClick = { onScale(option) },
-                                label = { Text("${(option * 100).toInt()}%", fontSize = 11.sp) })
+                        Column(verticalArrangement = Arrangement.spacedBy(0.dp)) {
+                            listOf(listOf(1f, 1.25f), listOf(1.5f, 2f)).forEach { sizes ->
+                                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                                    sizes.forEach { option ->
+                                        FilterChip(selected = scale == option,
+                                            onClick = { onScale(option) },
+                                            label = { Text("${(option * 100).toInt()}%",
+                                                fontSize = 11.sp) })
+                                    }
+                                }
+                            }
                         }
+                    }
+                }
+            }
+        }
+        if (remaining != null) {
+            item(key = "continue-reading") {
+                Card(onClick = { onOpen(remaining.id) },
+                    shape = RoundedCornerShape(14.dp),
+                    colors = CardDefaults.cardColors(containerColor = softAmber)) {
+                    Row(Modifier.fillMaxWidth().padding(horizontal = 14.dp, vertical = 11.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
+                            Text(loc(lang, "READ NEXT", "அடுத்துப் படிக்க"),
+                                color = accent, fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                            BilingualText(remaining.title, lang, scale.coerceAtMost(1.3f),
+                                base = 14f, bold = true)
+                        }
+                        Text("›", color = teal, fontSize = 28.sp)
                     }
                 }
             }
