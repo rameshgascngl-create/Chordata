@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 1,
+  "status": "ADDITIONAL_TEACHING_POINTS_QA_REVIEW_PENDING",
+  "scope": "One pointwise expansion in each of 39 protected syllabus topics. Existing original lesson pages and original course text are unchanged.",
+  "sourceCourseSha256": "protected_by_scripts/audit_content.py",
+  "references": [
+    "https://openstax.org/books/biology-2e/pages/29-1-chordates",
+    "https://openstax.org/books/biology-2e/pages/29-2-fishes",
+    "https://openstax.org/books/biology-2e/pages/29-3-amphibians",
+    "https://openstax.org/books/biology-2e/pages/29-4-reptiles",
+    "https://openstax.org/books/biology-2e/pages/29-5-birds",
+    "https://openstax.org/books/biology-2e/pages/29-6-mammals",
+    "https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment"
+  ],
+  "sections": [
+    {
+      "topicId": "u1-origin",
+      "sectionKey": "deuterostome-ancestry",
+      "points": [
+        {
+          "en": "Chordates share a deuterostome ancestry with echinoderms and hemichordates; this relationship is established from comparative embryology and molecular evidence.",
+          "ta": "முதுகுநாணிகள், முட்தோலிகள் மற்றும் அரைமுதுகுநாணிகளுடன் இரண்டாம் வாயினப் பரிணாமத் தொடர்புடையவை. கருவியல் ஒப்பீடும் மூலக்கூறு ஆதாரங்களும் இத்தொடர்பை விளக்குகின்றன."
+        },
+        {
+          "en": "A deuterostome body plan includes characteristic patterns of early development, but no single embryological feature should be applied without exception to every species.",
+          "ta": "இரண்டாம் வாயின உயிரிகளின் தொடக்கக் கருவளர்ச்சியில் சில பொதுவான அமைப்புகள் காணப்படுகின்றன. எனினும் ஒரே கருவியல் பண்பு எல்லா இனங்களுக்கும் விதிவிலக்கின்றிப் பொருந்தாது."
+        },
+        {
+          "en": "Use a branching evolutionary tree: living echinoderms or hemichordates are relatives of chordates, not their direct living ancestors.",
+          "ta": "பரிணாம உறவை கிளைபிரியும் மரமாகக் காட்ட வேண்டும். இன்றைய முட்தோலிகளும் அரைமுதுகுநாணிகளும் முதுகுநாணிகளின் உறவுக் குழுக்கள்; நேரடி முன்னோர்கள் அல்ல."
+        }
+      ]
+    },
+    {
+      "topicId": "u1-general-characters",
+      "sectionKey": "diagnostic-features",
+      "points": [
+        {
+          "en": "The notochord is a flexible axial support located below the dorsal hollow nerve cord; it is present at least during embryonic life.",
+          "ta": "முதுகுநாண் உடலின் நீள அச்சில் ஆதரவளிக்கும் நெகிழ்வான அமைப்பு. அது முதுகுப்புறக் குழாய் நரம்புநாணுக்குக் கீழே அமைந்து, குறைந்தது கருவுநிலையில் காணப்படும்."
+        },
+        {
+          "en": "The five key chordate features are notochord, dorsal hollow nerve cord, pharyngeal openings, post-anal tail and endostyle or its thyroid homologue.",
+          "ta": "முதுகுநாண், முதுகுப்புறக் குழாய் நரம்புநாண், தொண்டைத் திறப்புகள், மலவாய்க்குப் பின்புற வால், எண்டோஸ்டைல் அல்லது அதற்கு ஒப்பான தைராய்டு ஆகியவை ஐந்து முக்கியப் பண்புகள்."
+        },
+        {
+          "en": "Adults may lose some embryonic characters; identify chordates by their developmental history rather than by adult appearance alone.",
+          "ta": "சில முதுகுநாணிப் பண்புகள் முதிர்ந்த நிலையில் மறையலாம். ஆகவே முதிர்ந்த உடலமைப்பை மட்டுமல்லாமல் கருவளர்ச்சிப் பண்புகளையும் அடிப்படையாகக் கொண்டு அடையாளம் காண வேண்டும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u1-hemichordata",
+      "sectionKey": "affinities",
+      "points": [
+        {
+          "en": "The anterior stomochord of Balanoglossus is a buccal diverticulum; it is not homologous to the true chordate notochord.",
+          "ta": "பலனோகிளாசஸின் முன்புற ஸ்டோமோகார்டு வாய்க்குழியுடன் தொடர்புடைய நீட்சி; அது முதுகுநாணிகளின் உண்மையான முதுகுநாணுக்கு ஒத்த தோற்ற உறுப்பு அல்ல."
+        },
+        {
+          "en": "The proboscis, collar and trunk define the three-part body of enteropneust hemichordates.",
+          "ta": "புரோபோசிஸ், காலர், உடற்பகுதி ஆகிய மூன்றும் எண்டெரோப்நியூஸ்டா அரைமுதுகுநாணிகளின் உடலைப் பிரிக்கின்றன."
+        },
+        {
+          "en": "Molecular phylogeny places hemichordates with echinoderms in Ambulacraria, a sister lineage to chordates among deuterostomes.",
+          "ta": "மூலக்கூறு மரபியல் ஆய்வுகளின்படி அரைமுதுகுநாணிகளும் முட்தோலிகளும் அம்புலக்ரேரியா குழுவைச் சேர்ந்தவை. இது முதுகுநாணிகளுக்கு நெருங்கிய உறவுக் கிளையாகும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u1-urochordata",
+      "sectionKey": "retrogressive-metamorphosis",
+      "points": [
+        {
+          "en": "An ascidian tadpole larva swims using its muscular tail, whose notochord and dorsal nerve cord reveal chordate affinity.",
+          "ta": "ஆசிடியாவின் தலைப்பிரட்டை போன்ற இளர்வி வாலின் தசை இயக்கத்தால் நீந்துகிறது. வாலிலுள்ள முதுகுநாணும் முதுகுப்புற நரம்புநாணும் அதன் முதுகுநாணித் தொடர்பைக் காட்டுகின்றன."
+        },
+        {
+          "en": "After attachment to a substratum, the larval tail is resorbed and the adult feeding apparatus develops.",
+          "ta": "இளர்வி அடிப்பரப்பில் ஒட்டிய பின்பு வால் உடலால் மீண்டும் உறிஞ்சப்படுகிறது; முதிர்ந்த உயிரியின் வடிகட்டி உணவூட்டும் அமைப்பு வளர்கிறது."
+        },
+        {
+          "en": "Retrogressive metamorphosis describes the loss of conspicuous larval chordate features, not evolutionary degeneration of the lineage.",
+          "ta": "பின்னோக்கி உருமாற்றம் என்பது இளர்வியில் தெளிவாக இருந்த முதுகுநாணிப் பண்புகள் முதிர்நிலையில் குறைவதைக் குறிக்கும்; உயிரினக் கிளையின் பரிணாமத் தாழ்வைக் குறிக்காது."
+        }
+      ]
+    },
+    {
+      "topicId": "u1-cephalochordata",
+      "sectionKey": "internal-organisation",
+      "points": [
+        {
+          "en": "In Branchiostoma the notochord extends anterior to the nerve cord, an important feature distinguishing lancelets from tunicates.",
+          "ta": "பிராங்கியோஸ்டோமாவில் முதுகுநாண் நரம்புநாணின் முன்புறம் வரை நீள்கிறது. இது லான்ஸ்லெட்டுகளை ட்யூனிகேட்டுகளிலிருந்து வேறுபடுத்தும் முக்கியப் பண்பாகும்."
+        },
+        {
+          "en": "Cilia move water through the pharyngeal openings; mucus from the endostyle traps suspended food.",
+          "ta": "தொண்டைத் திறப்புகள் வழியாக நீர் செல்ல சிலியா இயக்கம் உதவுகிறது. எண்டோஸ்டைலில் உருவாகும் சளி நீரில் மிதக்கும் உணவுத் துகள்களைப் பிடிக்கிறது."
+        },
+        {
+          "en": "Filtered water leaves the atrial cavity through the atriopore, whereas food passes towards the digestive tract.",
+          "ta": "வடிகட்டிய நீர் ஏட்ரியல் குழியிலிருந்து ஏட்ரியோபோர் வழியாக வெளியேறுகிறது; உணவுத் துகள்கள் செரிமானப் பாதையை நோக்கி நகர்த்தப்படுகின்றன."
+        }
+      ]
+    },
+    {
+      "topicId": "u1-vertebrata-characters",
+      "sectionKey": "head-skeleton",
+      "points": [
+        {
+          "en": "The cranium protects the brain and supports major sensory organs; the vertebral column provides axial support in most vertebrates.",
+          "ta": "தலையோடு மூளையைப் பாதுகாத்து முக்கியப் புலனுறுப்புகளுக்கு ஆதரவளிக்கிறது. பெரும்பாலான முதுகெலும்பிகளில் முதுகெலும்புத் தொடர் உடலின் நீள அச்சைத் தாங்குகிறது."
+        },
+        {
+          "en": "Neural crest cells contribute to several vertebrate head structures and peripheral nervous-system components.",
+          "ta": "நரம்புக் குழல் விளிம்புச் செல்கள் முதுகெலும்பிகளின் தலைப்பகுதி அமைப்புகளுக்கும் சுற்றுப்புற நரம்பு மண்டலத்தின் சில பகுதிகளுக்கும் பங்களிக்கின்றன."
+        },
+        {
+          "en": "Vertebral elements vary among lineages; the presence of a skull is especially useful when comparing jawless and jawed vertebrates.",
+          "ta": "முதுகெலும்பு உறுப்புகளின் அமைப்பு வெவ்வேறு குழுக்களில் மாறுபடுகிறது. தாடையற்ற மற்றும் தாடையுள்ள முதுகெலும்பிகளை ஒப்பிடும்போது தலையோடு முக்கியமானது."
+        }
+      ]
+    },
+    {
+      "topicId": "u1-vertebrata-classification",
+      "sectionKey": "modern-system",
+      "points": [
+        {
+          "en": "A traditional class-level chart is useful for examinations, but modern phylogeny represents common ancestry through nested clades.",
+          "ta": "மரபுவழி வகுப்பு அடிப்படையிலான அட்டவணைத் தேர்வுகளுக்குப் பயன்படும். ஆனால் நவீன பரிணாம வகைப்பாட்டில் பொதுமூதாதைத் தொடர்புகள் உட்படுத்தப்பட்ட கிளைக் குழுக்களாகக் காட்டப்படுகின்றன."
+        },
+        {
+          "en": "Ray-finned fishes and lobe-finned vertebrates are different evolutionary branches; tetrapods fall within the lobe-finned lineage.",
+          "ta": "கதிர்த்துடுப்புடைய மீன்களும் சதைத் துடுப்புடைய முதுகெலும்பிகளும் வேறு பரிணாமக் கிளைகள். நான்கு காலுடைய முதுகெலும்பிகள் சதைத் துடுப்பு மரபிற்குள் தோன்றியவை."
+        },
+        {
+          "en": "Birds are descendants of theropod dinosaurs, and mammals are a separate amniote lineage; do not draw a ladder from fishes to humans.",
+          "ta": "பறவைகள் தெரோபாட் டைனோசர்களின் வழித்தோன்றல்கள்; பாலூட்டிகள் அம்னியோட்டுகளின் வேறு கிளை. மீனிலிருந்து மனிதன் வரை நேரான முன்னேற்ற ஏணி வரையக் கூடாது."
+        }
+      ]
+    },
+    {
+      "topicId": "u1-agnatha",
+      "sectionKey": "ammocoetes",
+      "points": [
+        {
+          "en": "The ammocoete larva lives partly buried in freshwater sediments and obtains food by filtering suspended particles.",
+          "ta": "அம்மோகோயிட் இளர்வி நன்னீரின் அடித்தட்டு மணலில் பகுதியளவு புதைந்து வாழ்கிறது; நீரில் மிதக்கும் துகள்களை வடிகட்டி உணவாகப் பெறுகிறது."
+        },
+        {
+          "en": "Its oral hood and ciliated pharynx differ from the toothed suctorial disc of many adult lampreys.",
+          "ta": "இளர்வியின் வாய்மூடியும் சிலியா கொண்ட தொண்டையும், பல முதிர்ந்த லாம்ப்ரேக்களில் காணப்படும் பற்களுடன் கூடிய உறிஞ்சும் வாய்த்தட்டிலிருந்து வேறுபடுகின்றன."
+        },
+        {
+          "en": "During metamorphosis the eyes, oral apparatus and digestive functions undergo major changes.",
+          "ta": "உருமாற்றத்தின் போது கண்கள், வாயமைப்பு மற்றும் செரிமானச் செயல்பாடுகள் முக்கியமான மாற்றங்களை அடைகின்றன."
+        }
+      ]
+    },
+    {
+      "topicId": "u2-pisces-classification",
+      "sectionKey": "major-groups",
+      "points": [
+        {
+          "en": "Chondrichthyans have a predominantly cartilaginous endoskeleton and include sharks, rays and chimaeras.",
+          "ta": "காண்டிரிக்தீஸ் குழுவில் பெரும்பாலும் குருத்தெலும்பாலான அக எலும்புக்கூடு காணப்படும்; சுறாக்கள், திருக்கை மீன்கள், கைமீராக்கள் இதில் அடங்குகின்றன."
+        },
+        {
+          "en": "Osteichthyan lineages include ray-finned fishes and lobe-finned vertebrates; these groups differ in fin-support anatomy.",
+          "ta": "எலும்பு மீன் மரபுகளில் கதிர்த்துடுப்பு மற்றும் சதைத் துடுப்பு கிளைகள் உள்ளன. துடுப்புகளுக்கு ஆதரவளிக்கும் எலும்பு அமைப்பு இவற்றில் வேறுபடுகிறது."
+        },
+        {
+          "en": "Compare gill-cover arrangement, scale type, fin supports and reproductive variation rather than relying on one external character.",
+          "ta": "செவுள் மூடியமைப்பு, செதில்கள், துடுப்பு ஆதரவு மற்றும் இனப்பெருக்க வேறுபாடுகளைச் சேர்த்து ஒப்பிட வேண்டும்; ஒரே புறப்பண்பை மட்டும் நம்பக் கூடாது."
+        }
+      ]
+    },
+    {
+      "topicId": "u2-scoliodon",
+      "sectionKey": "digestive-system",
+      "points": [
+        {
+          "en": "Shark teeth are commonly replaced in succession, allowing worn functional teeth to be succeeded by newer teeth.",
+          "ta": "சுறாக்களின் செயல்படும் பற்கள் தேய்ந்தால் புதிய பற்கள் தொடர்ந்து மாற்றிக்கொள்கின்றன. இதனால் இரையைப் பிடிக்கும் திறன் பராமரிக்கப்படுகிறது."
+        },
+        {
+          "en": "The spiral fold of the intestine increases effective absorptive surface within a relatively short alimentary canal.",
+          "ta": "ஒப்பீட்டளவில் குறுகிய குடலுக்குள் உள்ள சுருள் மடிப்பு உறிஞ்சும் பரப்பளவை அதிகரிக்கிறது."
+        },
+        {
+          "en": "Distinguish the liver's digestive and metabolic functions from the rectal gland's role in salt balance in many marine sharks.",
+          "ta": "கல்லீரலின் செரிமான மற்றும் வளர்சிதை மாற்றச் செயல்பாடுகளை, பல கடல்வாழ் சுறாக்களில் உப்புச் சமநிலைக்கு உதவும் மலக்குடல் சுரப்பியிலிருந்து வேறுபடுத்திக் கற்றுக்கொள்ள வேண்டும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u2-dipnoi",
+      "sectionKey": "respiration",
+      "points": [
+        {
+          "en": "Living lungfishes possess lungs that supplement or, in some conditions, dominate gas exchange; the relative importance of gills varies among taxa.",
+          "ta": "தற்போது வாழும் நுரையீரல் மீன்களில் நுரையீரல்கள் வாயுப் பரிமாற்றத்தில் பங்கேற்கின்றன. சில சூழல்களில் அவை முக்கியப் பங்கு வகிக்கின்றன; செவுள்களின் பங்கு இனத்தின்படி மாறுபடும்."
+        },
+        {
+          "en": "African Protopterus and South American Lepidosiren can survive seasonal drying by aestivation; this behaviour is not universal in lungfishes.",
+          "ta": "ஆப்பிரிக்கப் புரோட்டாப்டெரஸ் மற்றும் தென் அமெரிக்க லெபிடோசைரன் வறட்சிக் காலத்தில் கோடை உறக்கநிலையில் உயிர்வாழ முடியும்; எல்லா நுரையீரல் மீன்களும் இவ்வாறு நடப்பதில்லை."
+        },
+        {
+          "en": "Australian Neoceratodus retains functional gills and a single lung, providing a useful comparison with other living lungfishes.",
+          "ta": "ஆஸ்திரேலிய நியோசெரட்டோடஸில் செயல்படும் செவுள்களும் ஓர் நுரையீரலும் உள்ளன. பிற நுரையீரல் மீன்களுடன் இதனை ஒப்பிடுவது பயனுள்ளதாகும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u2-scales-fins",
+      "sectionKey": "scale-types",
+      "points": [
+        {
+          "en": "Placoid denticles typify many cartilaginous fishes; their dentine and enamel-like covering differ from the layered scales of bony fishes.",
+          "ta": "பிளாகாய்டு தோல் பற்கள் பல குருத்தெலும்பு மீன்களின் பண்பாகும். அவற்றின் டென்டைன் மற்றும் மேலுறை, எலும்பு மீன்களின் அடுக்குச் செதில்களிலிருந்து வேறுபடுகின்றன."
+        },
+        {
+          "en": "Cycloid scales have a comparatively smooth posterior margin, whereas ctenoid scales bear comb-like projections.",
+          "ta": "சைக்ளாய்டு செதில்களின் பின்புற விளிம்பு ஒப்பீட்டளவில் மிருதுவானது; சீனாய்டு செதில்களில் சீப்புப் போன்ற சிறு நீட்சிகள் உள்ளன."
+        },
+        {
+          "en": "Identify scales from their actual surface structure; scale type alone does not determine a species or its evolutionary position.",
+          "ta": "செதிலின் மேற்பரப்பு அமைப்பைப் பார்த்தே வகையை அறிய வேண்டும். செதிலின் வகை மட்டும் ஒரு இனத்தையோ அதன் பரிணாம இடத்தையோ நிர்ணயிக்காது."
+        }
+      ]
+    },
+    {
+      "topicId": "u2-accessory-respiration",
+      "sectionKey": "named-examples",
+      "points": [
+        {
+          "en": "Clarias possesses specialised suprabranchial respiratory structures; these enable air breathing in oxygen-poor habitats.",
+          "ta": "கிளாரியஸ் மீனில் செவுளுக்கு மேலுள்ள சிறப்பு சுவாச அமைப்புகள் காணப்படுகின்றன. ஆக்சிஜன் குறைந்த நீரில் காற்றைச் சுவாசிக்க இவை உதவுகின்றன."
+        },
+        {
+          "en": "Anabas uses a vascular labyrinth organ in a suprabranchial chamber to extract oxygen from air.",
+          "ta": "அனபாஸ் மீன் செவுளுக்கு மேலுள்ள அறையிலுள்ள இரத்தநாளங்கள் நிறைந்த லாபிரிந்த் உறுப்பால் காற்றிலிருந்து ஆக்சிஜனைப் பெறுகிறது."
+        },
+        {
+          "en": "Accessory air breathing supplements normal aquatic respiration; species differ in how long they can remain outside water.",
+          "ta": "கூடுதல் காற்றுச் சுவாசம் இயல்பான நீர்ச் சுவாசத்திற்குத் துணையாக உள்ளது. நீருக்கு வெளியே உயிர்வாழும் காலம் இனத்தின்படி மாறுபடும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u2-parental-care",
+      "sectionKey": "examples",
+      "points": [
+        {
+          "en": "Male sticklebacks may build nests and defend eggs; nest construction and defence should be treated as distinct behaviours.",
+          "ta": "ஆண் ஸ்டிக்கில்பேக் மீன்கள் கூடு அமைத்து முட்டைகளைப் பாதுகாக்கலாம். கூடு அமைத்தலும் பாதுகாத்தலும் தனித்தனி நடத்தைகளாகக் கருதப்பட வேண்டும்."
+        },
+        {
+          "en": "Some cichlids protect eggs or young in their mouths, whereas male seahorses carry developing offspring in a brood pouch.",
+          "ta": "சில சிக்லிட் மீன்கள் முட்டைகளையோ குஞ்சுகளையோ வாயில் பாதுகாக்கின்றன; கடற்குதிரையின் ஆண் உயிரி வளர்கின்ற கருக்களை வயிற்றுப் பையில் தாங்குகிறது."
+        },
+        {
+          "en": "Parental investment may increase offspring survival but can reduce the parent's available feeding time or future reproduction.",
+          "ta": "பெற்றோர் பராமரிப்பு சந்ததிகளின் உயிர்வாழ்வை அதிகரிக்கலாம். ஆனால் பெற்றோர் உணவெடுக்கும் நேரத்தையோ அடுத்த இனப்பெருக்க வாய்ப்பையோ குறைக்கலாம்."
+        }
+      ]
+    },
+    {
+      "topicId": "u2-migration",
+      "sectionKey": "migration-types",
+      "points": [
+        {
+          "en": "Anadromous salmon migrate from the sea towards fresh water to reproduce; catadromous Anguilla eels migrate towards the sea for spawning.",
+          "ta": "அனாட்ரமஸ் சால்மன் இனங்கள் இனப்பெருக்கத்திற்காகக் கடலிலிருந்து நன்னீருக்குச் செல்கின்றன; கேட்டாட்ரமஸ் அங்குவில்லா விலாங்குகள் இனப்பெருக்கத்திற்குக் கடலை நோக்கிச் செல்கின்றன."
+        },
+        {
+          "en": "Potamodromous migration occurs within fresh water, while oceanodromous migration remains within marine waters.",
+          "ta": "போட்டாமோட்ரமஸ் இடப்பெயர்ச்சி நன்னீருக்குள்ளேயே நடைபெறுகிறது; ஓஷியானோட்ரமஸ் இடப்பெயர்ச்சி கடல்நீருக்குள் நடைபெறுகிறது."
+        },
+        {
+          "en": "Migration is linked to feeding, breeding and seasonal habitat use; a species may show more than one movement pattern.",
+          "ta": "உணவெடுத்தல், இனப்பெருக்கம் மற்றும் பருவகால வாழிடப் பயன்பாடு ஆகியவற்றுடன் இடப்பெயர்ச்சி தொடர்புடையது. ஒரே இனத்தில் பல்வேறு இயக்க முறைகள் இருக்கலாம்."
+        }
+      ]
+    },
+    {
+      "topicId": "u2-economic-importance",
+      "sectionKey": "sustainable-use",
+      "points": [
+        {
+          "en": "Sustainable fishery management considers recruitment, reproductive season, gear selectivity and protection of nursery habitats.",
+          "ta": "நிலைத்த மீன்வள மேலாண்மையில் புதிய மீன் சேர்க்கை, இனப்பெருக்கப் பருவம், வலைத் தேர்வு மற்றும் இளமீன் வளரும் வாழிடப் பாதுகாப்பு ஆகியவை கவனிக்கப்படுகின்றன."
+        },
+        {
+          "en": "Bycatch and habitat disturbance can affect non-target organisms, so total catch alone does not measure ecological sustainability.",
+          "ta": "தேவையற்ற பிற உயிரிகளின் பிடிப்பும் வாழிடச் சீர்குலைவும் சூழலமைப்பை பாதிக்கின்றன. மொத்த மீன்பிடி அளவு மட்டும் நிலைத்தன்மையின் அளவுகோல் அல்ல."
+        },
+        {
+          "en": "Compare nutritional benefits and local livelihoods with biodiversity conservation when evaluating aquaculture and capture fisheries.",
+          "ta": "மீன்வளர்ப்பையும் இயற்கைப் பிடிப்பு மீன்வளத்தையும் மதிப்பிடும்போது ஊட்டச்சத்து, உள்ளூர் வாழ்வாதாரம் மற்றும் உயிரினப் பல்வகைமைப் பாதுகாப்பை ஒப்பிட வேண்டும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u3-amphibia-classification",
+      "sectionKey": "living-orders",
+      "points": [
+        {
+          "en": "Anura includes adult frogs and toads without an external tail; Urodela contains salamanders and newts with a persistent tail.",
+          "ta": "அனூராவில் முதிர்ந்த நிலையில் வெளிப்புற வாலற்ற தவளைகளும் தேரைகளும் அடங்குகின்றன; யூரோடீலாவில் வால் தொடரும் சாலமாண்டர்களும் நியூட்டுகளும் உள்ளன."
+        },
+        {
+          "en": "Gymnophiona or Apoda includes limbless caecilians, many with annulated skin and sensory tentacles near the head.",
+          "ta": "ஜிம்னோஃபியோனா அல்லது அப்போடா குழுவில் காலற்ற சீசிலியன்கள் உள்ளன. பலவற்றில் வளைய மடிப்புகளுடைய தோலும் தலை அருகே உணர்வு நீட்சிகளும் காணப்படும்."
+        },
+        {
+          "en": "External fertilisation is common in frogs, but internal fertilisation and direct development occur in other amphibian lineages.",
+          "ta": "தவளைகளில் வெளிக்கருவுறுதல் பொதுவாகக் காணப்படும். பிற இருவாழ்விக் குழுக்களில் உட்கருவுறுதலும் நேரடி வளர்ச்சியும் இடம்பெறலாம்."
+        }
+      ]
+    },
+    {
+      "topicId": "u3-origin",
+      "sectionKey": "devonian-transition",
+      "points": [
+        {
+          "en": "Early tetrapod evolution involved a branching set of fish-like and limb-bearing forms rather than a single sudden move from water to land.",
+          "ta": "தொடக்க நான்குகால் உயிரிகளின் பரிணாமம் மீன் போன்ற வடிவங்களும் காலுடைய வடிவங்களும் கிளைபிரிந்து தோன்றிய நிகழ்வாகும்; நீரிலிருந்து நிலத்திற்கு ஒரே திடீர் மாற்றம் அல்ல."
+        },
+        {
+          "en": "Fossils such as Tiktaalik illuminate changes in the neck, skull and fin skeleton near the fish-to-tetrapod transition.",
+          "ta": "டிக்டாலிக் போன்ற புதைபடிவங்கள் மீனிலிருந்து நான்குகால் உயிரிகளுக்கான மாற்றக் காலத்தில் கழுத்து, தலையோடு மற்றும் துடுப்பு எலும்புகளின் மாற்றங்களை விளக்குகின்றன."
+        },
+        {
+          "en": "Developing weight-bearing limbs, air-breathing ability and new sensory functions occurred through different stages and lineages.",
+          "ta": "உடல் எடையைத் தாங்கும் கால்கள், காற்றுச் சுவாசம், புதிய புலனுணர்வு செயல்கள் ஆகியவை வெவ்வேறு கட்டங்களிலும் மரபுக் கிளைகளிலும் வளர்ந்தன."
+        }
+      ]
+    },
+    {
+      "topicId": "u3-rana",
+      "sectionKey": "respiratory-system",
+      "points": [
+        {
+          "en": "Adult frogs can exchange gases through vascular moist skin, buccopharyngeal lining and lungs; the relative contribution varies with conditions.",
+          "ta": "முதிர்ந்த தவளைகளில் இரத்தநாளங்கள் நிறைந்த ஈரத் தோல், வாய்த்தொண்டை உட்படலம் மற்றும் நுரையீரல்கள் வழியாக வாயுப் பரிமாற்றம் நடைபெறும். ஒவ்வொன்றின் பங்கு சூழ்நிலைக்கேற்ப மாறுகிறது."
+        },
+        {
+          "en": "Buccal pumping moves air into the lungs because frogs do not ventilate them with a mammalian-style diaphragm.",
+          "ta": "வாய்க்குழி உந்தி இயக்கம் காற்றை நுரையீரல்களுக்குள் செலுத்துகிறது. பாலூட்டிகளின் உதரவிதானம் போன்ற அமைப்பால் தவளைகள் நுரையீரலை இயக்குவதில்லை."
+        },
+        {
+          "en": "The gills of aquatic tadpoles should not be confused with the cutaneous and pulmonary respiration of the adult.",
+          "ta": "நீர்வாழ் தலைப்பிரட்டைகளின் செவுள் சுவாசத்தையும் முதிர்ந்த தவளையின் தோல் மற்றும் நுரையீரல் சுவாசத்தையும் வேறுபடுத்த வேண்டும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u3-adaptive-features",
+      "sectionKey": "apoda",
+      "points": [
+        {
+          "en": "Many caecilians burrow using a firm, compact skull and elongate, limbless body; visible body rings are not individual vertebrae.",
+          "ta": "பல சீசிலியன்கள் உறுதியான சிறிய தலையோடும் நீளமான காலற்ற உடலும் கொண்டு மண்தோண்டி நகர்கின்றன. உடலின் வளைய மடிப்புகள் ஒவ்வொன்றும் தனித்த முதுகெலும்புகள் அல்ல."
+        },
+        {
+          "en": "The chemosensory tentacle is positioned between the eye and nostril and helps locate prey in low-light environments.",
+          "ta": "வேதியுணர்வு நீட்சி கண் மற்றும் நாசித்துளைக்கு இடையில் அமைந்து குறைந்த வெளிச்சமுள்ள சூழலில் இரையை அறிய உதவுகிறது."
+        },
+        {
+          "en": "Some caecilians are aquatic, so adaptations must be related to the particular habitat rather than assigned to all Apoda.",
+          "ta": "சில சீசிலியன்கள் நீர்வாழ் உயிரிகளாகும். ஆகவே ஓர் இனத்தின் தகவமைப்பை அதன் வாழிடத்தோடு தொடர்புபடுத்த வேண்டும்; எல்லா அப்போடாவுக்கும் பொதுவாகக் கூறக் கூடாது."
+        }
+      ]
+    },
+    {
+      "topicId": "u3-neoteny",
+      "sectionKey": "definitions",
+      "points": [
+        {
+          "en": "Paedomorphosis is the occurrence of juvenile ancestral features in a sexually mature descendant; neoteny is a developmental mechanism that can produce it.",
+          "ta": "பாலியல் முதிர்ச்சியடைந்த உயிரியில் மூதாதையின் இளம்பருவப் பண்புகள் தொடர்வது பேடோமார்போசிஸ். இதனை உருவாக்கக்கூடிய வளர்ச்சி நேர மாற்ற முறைகளில் நியோட்டனி ஒன்றாகும்."
+        },
+        {
+          "en": "Neoteny involves slower somatic development relative to reproductive maturation; it must not be equated with all paedomorphic mechanisms.",
+          "ta": "இனப்பெருக்க முதிர்ச்சியுடன் ஒப்பிடும்போது உடல் வளர்ச்சி மெதுவாக நடைபெறுவது நியோட்டனி. பேடோமார்போசிஸின் எல்லா முறைகளையும் நியோட்டனி எனக் கூறக் கூடாது."
+        },
+        {
+          "en": "In axolotls, retention of external gills in mature animals demonstrates paedomorphosis; its expression depends on endocrine and genetic regulation.",
+          "ta": "ஆக்சலாட்டிலில் முதிர்ந்த நிலையிலும் வெளிச்செவுள்கள் தொடர்வது இளம்பருவப் பண்புநிலைப்பைக் காட்டுகிறது. இதன் வெளிப்பாடு ஹார்மோன் மற்றும் மரபியல் கட்டுப்பாடுகளுடன் தொடர்புடையது."
+        }
+      ]
+    },
+    {
+      "topicId": "u3-parental-care",
+      "sectionKey": "frog-examples",
+      "points": [
+        {
+          "en": "Some poison dart frogs transport tadpoles to small water bodies; parental care differs among species and sexes.",
+          "ta": "சில விஷ அம்புத் தவளைகள் தலைப்பிரட்டைகளைச் சிறிய நீர்நிலைகளுக்கு எடுத்துச் செல்கின்றன. பராமரிக்கும் பாலினமும் முறையும் இனத்தின்படி மாறுகின்றன."
+        },
+        {
+          "en": "Foam-nest builders protect eggs within a moist frothy matrix, reducing exposure to drying during early development.",
+          "ta": "நுரைக் கூடு அமைக்கும் தவளைகள் ஈரமான நுரைத் திரளில் முட்டைகளைப் பாதுகாக்கின்றன. இதனால் தொடக்க வளர்ச்சியில் முட்டைகள் உலர்ந்து போகும் அபாயம் குறைகிறது."
+        },
+        {
+          "en": "Direct-developing amphibians bypass a free-swimming tadpole stage; this strategy changes the habitat required for offspring development.",
+          "ta": "நேரடி வளர்ச்சியுள்ள இருவாழ்விகளில் தனியாக நீந்தும் தலைப்பிரட்டை நிலை இல்லை. இதனால் சந்ததிகளின் வளர்ச்சிக்கு வேண்டிய வாழிடத் தேவைகள் மாறுகின்றன."
+        }
+      ]
+    },
+    {
+      "topicId": "u4-reptilia-classification",
+      "sectionKey": "amniote-characters",
+      "points": [
+        {
+          "en": "The amnion cushions the developing embryo, the chorion supports exchange and the allantois participates in waste handling and gas exchange.",
+          "ta": "அம்னியன் வளரும் கருவைப் பாதுகாக்கிறது; கோரியன் பரிமாற்றத்தில் பங்கேற்கிறது; அல்லன்டாய்ஸ் கழிவு மேலாண்மை மற்றும் வாயுப் பரிமாற்றத்தில் உதவுகிறது."
+        },
+        {
+          "en": "Keratinised epidermal coverings reduce water loss, although the degree of scaling and skin organisation differs among reptilian lineages.",
+          "ta": "கெரட்டின் கொண்ட தோல் மேலுறை நீர் இழப்பைக் குறைக்கிறது. எனினும் செதில்களின் அளவும் தோலின் அமைப்பும் ஊர்வனக் குழுக்களில் வேறுபடுகின்றன."
+        },
+        {
+          "en": "Reptilian reproduction ranges from shelled eggs to live birth; a hard shell is not a universal diagnostic character.",
+          "ta": "ஊர்வனவற்றில் ஓடுடைய முட்டையிடுதல் முதல் உயிருடன் குட்டிகளை ஈனுதல் வரை இனப்பெருக்க முறைகள் காணப்படுகின்றன. கடின முட்டையோடு எல்லா ஊர்வனவற்றின் கட்டாயப் பண்பு அல்ல."
+        }
+      ]
+    },
+    {
+      "topicId": "u4-calotes",
+      "sectionKey": "arterial-system",
+      "points": [
+        {
+          "en": "The lizard ventricle has cavum arteriosum, cavum venosum and cavum pulmonale regions; these are functional subdivisions, not three separate ventricles.",
+          "ta": "பல்லியின் வென்ட்ரிக்கிளில் கேவம் ஆர்டீரியோசம், கேவம் வீனோசம், கேவம் பல்மோனாலே ஆகிய பகுதிகள் உள்ளன. இவை செயல்பாட்டுப் பிரிவுகள்; மூன்று தனி வென்ட்ரிக்கிள்கள் அல்ல."
+        },
+        {
+          "en": "The paired systemic arches contribute to the dorsal aorta, whereas the pulmonary pathway supplies the lungs for gas exchange.",
+          "ta": "இணையான இரண்டு உடல் பெருந்தமனி வளைவுகள் முதுகுப்புறப் பெருந்தமனிக்குப் பங்களிக்கின்றன; நுரையீரல் இரத்த ஓட்டப் பாதை வாயுப் பரிமாற்றத்திற்காக நுரையீரல்களை அடைகிறது."
+        },
+        {
+          "en": "When studying an arterial diagram, trace each vessel to its destination and check right–left orientation rather than memorising colour alone.",
+          "ta": "தமனிகள் பற்றிய படத்தைப் படிக்கும்போது ஒவ்வொரு இரத்தநாளமும் எங்கு செல்கிறது என்பதையும் வலது–இடது திசையையும் சரிபார்க்க வேண்டும்; நிறத்தை மட்டும் மனப்பாடம் செய்யக் கூடாது."
+        }
+      ]
+    },
+    {
+      "topicId": "u4-origin-extinct",
+      "sectionKey": "extinct-lineages",
+      "points": [
+        {
+          "en": "Non-avian dinosaurs, pterosaurs and marine ichthyosaurs represent different reptile branches; they should not be grouped as one anatomical type.",
+          "ta": "பறவையல்லாத டைனோசர்கள், ப்டீரோசார்கள், கடல்வாழ் இக்தியோசார்கள் ஆகியவை வெவ்வேறு ஊர்வன மரபுக் கிளைகள்; ஒரே உடலமைப்புக் குழுவாகக் கருதக் கூடாது."
+        },
+        {
+          "en": "Pterosaurs were powered fliers with a wing membrane supported mainly by an elongated fourth finger, unlike the feathered wings of birds.",
+          "ta": "ப்டீரோசார்கள் நீண்ட நான்காவது விரலால் தாங்கப்படும் சிறகுச் சவ்வைக் கொண்டு பறந்தன. இது பறவைகளின் இறகுள்ள சிறகிலிருந்து வேறுபடுகிறது."
+        },
+        {
+          "en": "Extinction dates and relationships must be inferred from stratigraphy and multiple fossil characters, not from body size or outward resemblance alone.",
+          "ta": "அழிவு காலங்களையும் பரிணாம உறவுகளையும் பாறையடுக்கியல் மற்றும் பல புதைபடிவப் பண்புகளின் அடிப்படையில் அறிய வேண்டும்; உடல் அளவு அல்லது தோற்ற ஒற்றுமை மட்டும் போதாது."
+        }
+      ]
+    },
+    {
+      "topicId": "u4-snakes-india",
+      "sectionKey": "big-four",
+      "points": [
+        {
+          "en": "The medically important 'Big Four' teaching group comprises Indian cobra, common krait, Russell's viper and saw-scaled viper.",
+          "ta": "இந்தியாவில் மருத்துவ முக்கியத்துவமுள்ள ‘முக்கிய நான்கு’ பாம்புகள் நாகம், கட்டுவிரியன், கண்ணாடிவிரியன் மற்றும் சுருட்டைவிரியன் ஆகும்."
+        },
+        {
+          "en": "Other Indian venomous snakes also cause serious envenoming; the Big Four list is not a complete inventory of dangerous species.",
+          "ta": "இந்தியாவில் இதர விஷம் செலுத்தும் பாம்புகளும் தீவிர நச்சேற்றத்தை ஏற்படுத்தலாம். ‘முக்கிய நான்கு’ என்பது ஆபத்தான இனங்களின் முழுப் பட்டியல் அல்ல."
+        },
+        {
+          "en": "Do not handle snakes or attempt identification near a suspected bite; emergency care must not wait for a species photograph.",
+          "ta": "பாம்புகளைப் பிடிக்கவோ கடித்த இடத்தில் அருகே சென்று இனத்தை அடையாளம் காண முயலவோ கூடாது. இனம் பற்றிய படம் கிடைக்கும் வரை அவசரச் சிகிச்சையைத் தாமதிக்கக் கூடாது."
+        }
+      ]
+    },
+    {
+      "topicId": "u4-poison-apparatus",
+      "sectionKey": "evidence-based-first-aid",
+      "points": [
+        {
+          "en": "Immediately arrange transport to a facility able to manage snakebite; keep the person still and support the affected limb.",
+          "ta": "பாம்புக்கடி ஏற்பட்டவுடன் பாம்புக்கடி சிகிச்சை வசதியுள்ள மருத்துவமனைக்குக் கொண்டு செல்ல ஏற்பாடு செய்ய வேண்டும். கடியுண்டவரை அசையாமல் வைத்துப் பாதிக்கப்பட்ட உறுப்பை ஆதரிக்க வேண்டும்."
+        },
+        {
+          "en": "Remove rings, watches or tight clothing before swelling; never cut or suck the wound and never use a tight arterial tourniquet.",
+          "ta": "வீக்கம் வருவதற்கு முன் மோதிரம், கடிகாரம் மற்றும் இறுக்கமான உடைகளை அகற்ற வேண்டும். காயத்தை வெட்டுதல், உறிஞ்சுதல், இறுக்கமான தமனித் தடைக் கட்டு போடுதல் ஆகியவற்றைச் செய்யக் கூடாது."
+        },
+        {
+          "en": "Antivenom and supportive treatment are hospital decisions based on clinical assessment; do not delay referral for traditional remedies.",
+          "ta": "எதிர்நஞ்சு மருந்தும் துணைச் சிகிச்சையும் மருத்துவ அறிகுறி மதிப்பீட்டின் அடிப்படையில் மருத்துவமனையில் தீர்மானிக்கப்படுகின்றன. பாரம்பரிய வைத்தியத்திற்காக மருத்துவமனைச் செல்லுதலைத் தாமதிக்கக் கூடாது."
+        }
+      ]
+    },
+    {
+      "topicId": "u4-skull",
+      "sectionKey": "temporal-fenestrae",
+      "points": [
+        {
+          "en": "Temporal fenestrae are openings in the skull behind the orbit; their arrangement has historically been used for comparative classification.",
+          "ta": "டெம்போரல் பெனஸ்ட்ரே என்பது கண்குழிக்குப் பின்புறத் தலையோட்டிலுள்ள திறப்புகளாகும். அவற்றின் அமைப்பு வரலாற்று ஒப்பீட்டு வகைப்பாட்டில் பயன்படுத்தப்பட்டது."
+        },
+        {
+          "en": "Synapsid and diapsid skull patterns reflect different temporal-opening arrangements, but living forms can show substantial modification.",
+          "ta": "சைனாப்சிட் மற்றும் டையாப்சிட் தலையோட்டு வகைகள் வெவ்வேறு பக்கத் திறப்பமைப்புகளைக் குறிக்கின்றன. ஆனால் இன்று வாழும் சில குழுக்களில் பெரும் மாற்றங்கள் ஏற்பட்டுள்ளன."
+        },
+        {
+          "en": "Modern placement of turtles within Diapsida depends on broader anatomical and molecular evidence, not on the absence of visible openings alone.",
+          "ta": "ஆமைகளை டையாப்சிடா குழுவில் வைக்கும் நவீன நிலைப்பாடு விரிவான உடற்கூறியல் மற்றும் மூலக்கூறு ஆதாரங்களைப் பயன்படுத்துகிறது; வெளிப்படையான திறப்புகள் இல்லாமை மட்டும் அடிப்படை அல்ல."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-aves-classification",
+      "sectionKey": "bird-characteristics",
+      "points": [
+        {
+          "en": "Feathers are diagnostic of living birds and perform insulation, signalling and aerodynamic functions; not all feathers are flight feathers.",
+          "ta": "இறகுகள் தற்போது வாழும் பறவைகளின் தனிப்பண்பாக உள்ளன. அவை வெப்பக் காப்பு, சைகை மற்றும் பறப்பிற்கு உதவுகின்றன; எல்லா இறகுகளும் பறத்திறகுகள் அல்ல."
+        },
+        {
+          "en": "The beak is toothless in living birds; its shape varies with feeding ecology and should not alone determine the taxonomic order.",
+          "ta": "இன்று வாழும் பறவைகளின் அலகில் பற்கள் இல்லை. உணவுப் பழக்கத்திற்கேற்ப அலகின் வடிவம் மாறுவதால் அதனை மட்டும் வைத்து வரிசையை நிர்ணயிக்கக் கூடாது."
+        },
+        {
+          "en": "Endothermy, a four-chambered heart and efficient pulmonary ventilation support high sustained activity in many bird species.",
+          "ta": "உடல் வெப்பத்தை உள்ளார்ந்து உருவாக்குதல், நான்கு அறை இதயம் மற்றும் திறமையான நுரையீரல் காற்றோட்டம் பல பறவைகளின் நீடித்த செயல்பாட்டிற்கு உதவுகின்றன."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-columba",
+      "sectionKey": "urinogenital-system",
+      "points": [
+        {
+          "en": "In pigeons, kidneys produce nitrogenous waste largely as uric acid; ureters carry the waste to the cloaca.",
+          "ta": "புறாக்களில் சிறுநீரகங்கள் நைட்ரஜன் கழிவை பெரும்பாலும் யூரிக் அமிலமாக வெளியிடுகின்றன. சிறுநீர்க்குழாய்கள் கழிவை பொதுக்கழிவு அறைக்குக் கொண்டு செல்கின்றன."
+        },
+        {
+          "en": "The female pigeon normally has a functional left ovary and oviduct; a paired functional ovarian system should not be assumed.",
+          "ta": "பெண் புறாவில் பொதுவாக இடப்புற சூலகமும் முட்டைக்குழாயும் செயல்படுகின்றன. இரண்டு பக்கங்களிலும் முழுமையான செயல்படும் சூலகங்கள் இருப்பதாகக் கருதக் கூடாது."
+        },
+        {
+          "en": "In males, paired testes connect to ducts leading towards the cloaca; distinguish reproductive ducts from the ureters on a diagram.",
+          "ta": "ஆண் புறாவில் இணையான விந்தகங்களிலிருந்து இனப்பெருக்கக் குழாய்கள் பொதுக்கழிவு அறையை நோக்கிச் செல்கின்றன. படத்தில் இனப்பெருக்கக் குழாய்களையும் சிறுநீர்க்குழாய்களையும் வேறுபடுத்த வேண்டும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-flight-adaptations",
+      "sectionKey": "respiration-metabolism",
+      "points": [
+        {
+          "en": "Air sacs ventilate the avian lung but are not the principal gas-exchange surface; exchange occurs within the parabronchial lung.",
+          "ta": "காற்றுப் பைகள் பறவையின் நுரையீரலுக்குக் காற்றோட்டத்தை வழங்குகின்றன; வாயுப் பரிமாற்றத்தின் முக்கிய இடம் அல்ல. வாயுப் பரிமாற்றம் பராப்ரான்கியல் நுரையீரலுக்குள் நடைபெறுகிறது."
+        },
+        {
+          "en": "Airflow through parabronchi is largely unidirectional during successive breathing phases, differing from tidal ventilation in mammals.",
+          "ta": "பல தொடர்ச்சியான சுவாசக் கட்டங்களில் பராப்ரான்கிகள் வழியாகக் காற்றோட்டம் பெரும்பாலும் ஒரே திசையில் செல்கிறது. இது பாலூட்டிகளின் முன்னும் பின்னுமான காற்றோட்டத்திலிருந்து வேறுபடுகிறது."
+        },
+        {
+          "en": "Large flight muscles, vascular supply and mitochondrial activity together support the sustained energy requirement of powered flight.",
+          "ta": "பெரிய பறத்தசைகள், இரத்தநாள வழங்கல் மற்றும் மைட்டோகாண்டிரிய செயல்பாடு ஆகியவை ஒன்றிணைந்து உந்துவிசைப் பறப்பிற்கான நீடித்த ஆற்றல் தேவையை நிறைவேற்றுகின்றன."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-bird-migration",
+      "sectionKey": "navigation",
+      "points": [
+        {
+          "en": "Birds may integrate solar and stellar cues, geomagnetic information and learned landmarks rather than relying on a single compass.",
+          "ta": "பறவைகள் சூரியன், விண்மீன்கள், புவிக்காந்தப் புலம் மற்றும் கற்றுக்கொண்ட நில அடையாளங்கள் போன்ற பல தகவல்களை இணைத்து வழியறியலாம்; ஒரே திசைகாட்டியை மட்டும் சார்வதில்லை."
+        },
+        {
+          "en": "Orientation mechanisms vary with species, age and experience; young birds and experienced migrants need not use identical routes.",
+          "ta": "இடப்பெயர்ச்சி வழியறியும் முறைகள் இனம், வயது, அனுபவம் ஆகியவற்றால் மாறுகின்றன. இளம் பறவைகளும் அனுபவமுள்ள பறவைகளும் ஒரே பாதையைத் தேர்ந்தெடுக்க வேண்டியதில்லை."
+        },
+        {
+          "en": "Stopover habitats provide resting and refuelling opportunities; loss of wetlands can interrupt successful long-distance migration.",
+          "ta": "இடைநிறுத்த வாழிடங்கள் ஓய்வெடுக்கவும் ஆற்றலை மீட்டெடுக்கவும் உதவுகின்றன. ஈரநில அழிவு நீண்டதூர வலசையின் வெற்றியை பாதிக்கலாம்."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-mammalia-classification",
+      "sectionKey": "diagnostic-mammalian-features",
+      "points": [
+        {
+          "en": "Mammary glands produce milk and hair is characteristic of mammals, although hair may be sparse in some aquatic species.",
+          "ta": "பாலூட்டிகளின் பால்சுரப்பிகள் பாலை உற்பத்தி செய்கின்றன. முடி அவற்றின் முக்கியப் பண்பு; சில நீர்வாழ் இனங்களில் அது மிகக் குறைவாக இருக்கலாம்."
+        },
+        {
+          "en": "The three middle-ear ossicles are malleus, incus and stapes; the lower jaw is formed mainly by the dentary bone.",
+          "ta": "பாலூட்டிகளின் நடுக்காதில் மாலியஸ், இன்கஸ், ஸ்டேபிஸ் ஆகிய மூன்று சிற்றெலும்புகள் உள்ளன. கீழ்த்தாடை பெரும்பாலும் டென்டரி எலும்பால் அமைந்துள்ளது."
+        },
+        {
+          "en": "Monotremes lay eggs, marsupials commonly give birth to highly altricial young, and placentals usually sustain longer internal development.",
+          "ta": "மோனோட்ரீம்கள் முட்டையிடுகின்றன; மார்சுபியல்களில் பொதுவாக மிகவும் வளர்ச்சியடையாத குட்டிகள் பிறக்கின்றன; பிளாசென்டல் பாலூட்டிகளில் உள்ளகக் கருவளர்ச்சி பெரும்பாலும் நீண்டது."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-rabbit",
+      "sectionKey": "excretory-system",
+      "points": [
+        {
+          "en": "Each rabbit kidney drains through a ureter into the urinary bladder; the urethra carries urine from the bladder to the exterior.",
+          "ta": "முயலின் ஒவ்வொரு சிறுநீரகத்திலிருந்தும் சிறுநீர்க்குழாய் சிறுநீர்ப்பைக்குச் செல்கிறது. சிறுநீர்ப்பையிலிருந்து சிறுநீர்வழி மூலம் சிறுநீர் வெளியேறுகிறது."
+        },
+        {
+          "en": "A nephron filters blood at the renal corpuscle and modifies the filtrate through reabsorption and secretion along the tubule.",
+          "ta": "நெஃப்ரான் சிறுநீரகக் குளோமெருலஸ் தொகுதியில் இரத்தத்தை வடிகட்டி, குழாய்களில் மீளுறிஞ்சலும் சுரப்பும் மூலம் வடிநீரை மாற்றுகிறது."
+        },
+        {
+          "en": "The kidney also helps regulate water, ions and acid–base balance; identify these functions separately from waste removal.",
+          "ta": "சிறுநீரகம் நீர், அயனிகள் மற்றும் அமில–காரச் சமநிலையை ஒழுங்குபடுத்த உதவுகிறது. இச்செயல்பாடுகளை கழிவுநீக்கத்திலிருந்து தனித்தனியாக அறிய வேண்டும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-egg-laying-mammals",
+      "sectionKey": "monotreme-identity",
+      "points": [
+        {
+          "en": "Living monotremes include the platypus and echidnas; they lay eggs yet possess mammalian hair and milk-producing glands.",
+          "ta": "இன்று வாழும் மோனோட்ரீம்களில் பிளாட்டிபஸ் மற்றும் எகிட்னாக்கள் அடங்குகின்றன. இவை முட்டையிட்டாலும் பாலூட்டிகளுக்குரிய முடியும் பால்சுரப்பிகளும் உள்ளன."
+        },
+        {
+          "en": "Milk is delivered onto specialised skin or mammary areas rather than through prominent nipples, and young lick or lap it.",
+          "ta": "இவற்றில் பால் தெளிவான முலைக்காம்புகள் வழியாக இல்லாமல் சிறப்புத் தோற்பகுதிகளில் வெளிப்படுகிறது; குட்டிகள் அதனை நக்கிப் பெறுகின்றன."
+        },
+        {
+          "en": "An egg-laying reproductive mode is not evidence that monotremes are ancestral to all living mammals; they are a surviving distinct lineage.",
+          "ta": "முட்டையிடும் முறை இருப்பதாலேயே இவை எல்லா தற்போதைய பாலூட்டிகளின் நேரடி மூதாதைகள் ஆகிவிடாது; தனித்துத் தொடரும் உயிர்வாழ் மரபுக் கிளையாகும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-marsupials",
+      "sectionKey": "reproductive-pattern",
+      "points": [
+        {
+          "en": "Many marsupials give birth after relatively short gestation; much development then continues while the young are attached to a teat.",
+          "ta": "பல மார்சுபியல்களில் ஒப்பீட்டளவில் குறுகிய கருக்காலத்துக்குப் பின் குட்டி பிறக்கிறது; அதன் வளர்ச்சியின் பெரும்பகுதி பாலூட்டும் உறுப்புடன் இணைந்த பின்பு தொடர்கிறது."
+        },
+        {
+          "en": "A pouch is well developed in many species but is not universal; some marsupials have only skin folds or no complete pouch.",
+          "ta": "பல இனங்களில் வயிற்றுப்பை நன்கு வளர்ந்துள்ளது. ஆனால் எல்லா மார்சுபியல்களிலும் முழுமையான பை இருப்பதில்லை; சிலவற்றில் தோல் மடிப்புகள் மட்டுமே உள்ளன."
+        },
+        {
+          "en": "Marsupials possess placental structures of varying forms; their reproductive strategy should not be described as total absence of a placenta.",
+          "ta": "மார்சுபியல்களில் வெவ்வேறு வகை பிளாசென்டா போன்ற தொடர்பு அமைப்புகள் காணப்படலாம். இவற்றில் பிளாசென்டா முற்றிலும் இல்லை என்று கூறுவது சரியல்ல."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-flying-mammals",
+      "sectionKey": "echolocation",
+      "points": [
+        {
+          "en": "Many bats emit high-frequency calls and analyse returning echoes to estimate the distance and position of objects.",
+          "ta": "பல வௌவால்கள் உயர் அதிர்வெண் ஒலிகளை வெளியிட்டு திரும்பும் எதிரொலியிலிருந்து பொருளின் தொலைவும் இருப்பிடமும் அறிகின்றன."
+        },
+        {
+          "en": "Call structure and frequency differ among bat groups, and not all bats depend on laryngeal echolocation.",
+          "ta": "வௌவால் குழுக்களில் ஒலியின் வடிவமும் அதிர்வெண்ணும் மாறுபடுகின்றன. எல்லா வௌவால்களும் குரல்வளை எதிரொலி வழிகாட்டுதலைச் சார்வதில்லை."
+        },
+        {
+          "en": "Bats also use vision, smell and memory; echolocation is one sensory system within a wider behavioural repertoire.",
+          "ta": "வௌவால்கள் பார்வை, மணநுகர்வு மற்றும் நினைவுத் தகவல்களையும் பயன்படுத்துகின்றன. எதிரொலி வழிகாட்டுதல் அவற்றின் பல புலனுணர்வு முறைகளில் ஒன்றாகும்."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-aquatic-mammals",
+      "sectionKey": "physiological-adaptations",
+      "points": [
+        {
+          "en": "Aquatic mammals breathe atmospheric air with lungs; diving requires periodic access to the surface rather than extraction of oxygen through gills.",
+          "ta": "நீர்வாழ் பாலூட்டிகள் நுரையீரலால் வளிமண்டலக் காற்றைச் சுவாசிக்கின்றன. செவுள்கள் மூலம் நீரிலிருந்து ஆக்சிஜன் பெறாமல் இடைவெளியில் மேற்பரப்புக்கு வர வேண்டும்."
+        },
+        {
+          "en": "Large oxygen stores in blood and muscles, together with adjustments in circulation, support prolonged underwater activity.",
+          "ta": "இரத்தத்திலும் தசைகளிலும் உள்ள ஆக்சிஜன் சேமிப்பும் இரத்த ஓட்ட மாற்றங்களும் நீருக்கடியில் நீண்ட நேரம் செயல்பட உதவுகின்றன."
+        },
+        {
+          "en": "Insulating blubber or dense fur limits heat loss; the relative importance of these adaptations differs among aquatic mammal groups.",
+          "ta": "தடித்த கொழுப்படுக்கு அல்லது அடர்ந்த முடி வெப்ப இழப்பைக் குறைக்கின்றன. இத்தகவமைப்புகளின் முக்கியத்துவம் நீர்வாழ் பாலூட்டிக் குழுக்களின்படி மாறுபடுகிறது."
+        }
+      ]
+    },
+    {
+      "topicId": "u5-dentition",
+      "sectionKey": "dental-formula",
+      "points": [
+        {
+          "en": "A dental formula gives the number of incisors, canines, premolars and molars on one side of the upper and lower jaws.",
+          "ta": "பல் சூத்திரம் மேல் மற்றும் கீழ்த்தாடைகளின் ஒரு பக்கத்தில் உள்ள வெட்டுப்பற்கள், கோரைப்பற்கள், முன்கடைவாய்ப்பற்கள் மற்றும் கடைவாய்ப்பற்களின் எண்ணிக்கையைக் காட்டுகிறது."
+        },
+        {
+          "en": "For adult humans, 2.1.2.3 / 2.1.2.3 gives 32 permanent teeth when the two sides are counted, including third molars.",
+          "ta": "முதிர்ந்த மனிதனின் 2.1.2.3 / 2.1.2.3 என்ற பல் சூத்திரம், மூன்றாவது கடைவாய்ப்பற்கள் உட்பட இரு பக்கங்களையும் சேர்த்து 32 நிலையான பற்களைக் குறிக்கிறது."
+        },
+        {
+          "en": "For rabbits, the permanent dental formula is 2.0.3.3 / 1.0.2.3, totalling 28 teeth; the small second upper incisor lies behind the first.",
+          "ta": "முயலின் நிலையான பல் சூத்திரம் 2.0.3.3 / 1.0.2.3; மொத்தம் 28 பற்கள். மேல் தாடையின் சிறிய இரண்டாவது வெட்டுப்பல் முதலாவது வெட்டுப்பல்லுக்குப் பின்னால் அமைந்துள்ளது."
+        }
+      ]
+    }
+  ]
+}
