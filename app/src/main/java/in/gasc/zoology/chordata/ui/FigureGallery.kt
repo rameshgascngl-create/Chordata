@@ -86,6 +86,35 @@ internal fun decodeFocusedHistoricalDogfishBrain(
     }
 }
 
+/**
+ * Present only Figure 8 (A-D) from the authentic 1905 composite plate on
+ * the Ascidia metamorphosis lesson. Figures 9-10 depict Balanoglossus and
+ * must not be misread as ascidian stages. Source PNG and source credits stay
+ * byte-for-byte intact; these are temporary region decodes, not new assets.
+ *
+ * Rectangles were verified against the 1488 x 2387 original plate:
+ * A/B = free-swimming + attached larvae; C/D = older attached stage + tail.
+ */
+internal fun decodeFocusedAscidianPanel(
+    context: Context, assetDirectory: String, filename: String, panel: Int
+): Bitmap? {
+    if (assetDirectory != "pencil_plates" || filename != "ascidia_metamorphosis.png") return null
+    val bounds = when (panel) {
+        0 -> Rect(780, 0, 1488, 540)
+        1 -> Rect(1070, 545, 1488, 1190)
+        else -> return null
+    }
+    context.assets.open("$assetDirectory/$filename").use { stream ->
+        val decoder = BitmapRegionDecoder.newInstance(stream, false) ?: return null
+        return try {
+            if (decoder.width != 1488 || decoder.height != 2387) null
+            else decoder.decodeRegion(bounds, BitmapFactory.Options())
+        } finally {
+            decoder.recycle()
+        }
+    }
+}
+
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
@@ -266,6 +295,21 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     modifier = Modifier.testTag("figure-error-" + plate.id))
             } else {
                 var zoomed by remember(plate.id) { mutableStateOf(false) }
+                var zoomPanel by remember(plate.id) { mutableIntStateOf(-1) }
+                var showOriginal by remember(plate.id) { mutableStateOf(false) }
+                val isAscidia = plate.id == "u1-urochordata-ascidia-larva-adult"
+                val ascidiaAB = remember(context, plate.assetDirectory, plate.filename) {
+                    if (isAscidia) runCatching {
+                        decodeFocusedAscidianPanel(context, plate.assetDirectory, plate.filename, 0)
+                            ?.asImageBitmap()
+                    }.getOrNull() else null
+                }
+                val ascidiaCD = remember(context, plate.assetDirectory, plate.filename) {
+                    if (isAscidia) runCatching {
+                        decodeFocusedAscidianPanel(context, plate.assetDirectory, plate.filename, 1)
+                            ?.asImageBitmap()
+                    }.getOrNull() else null
+                }
                 var creditsExpanded by remember(plate.id) { mutableStateOf(false) }
                 var captionExpanded by remember(plate.id) { mutableStateOf(false) }
                 val fullCaption = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn
@@ -286,10 +330,67 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             color = MaterialTheme.colorScheme.primary,
                             fontWeight = FontWeight.SemiBold,
                             style = MaterialTheme.typography.labelMedium)
-                        Image(bitmap = bitmap, contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
-                            contentScale = ContentScale.Fit,
-                            modifier = Modifier.fillMaxWidth().height(previewHeight)
-                                .clickable { zoomed = true }.testTag("figure-image-" + plate.id))
+                        if (ascidiaAB != null && ascidiaCD != null) {
+                            Text(
+                                if (lang == ReadingLanguage.TA)
+                                    "அசிடியன் உருமாற்றம் — வரலாற்றுப் படத்தின் 8A–8D பகுதிகள்"
+                                else "Ascidian metamorphosis — historical figures 8A–8D",
+                                fontWeight = FontWeight.Bold, fontSize = 15.sp,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                            Image(bitmap = ascidiaAB,
+                                contentDescription = if (lang == ReadingLanguage.TA)
+                                    "8A நீந்தும் இளர்வி; 8B பற்றிய இளர்வி"
+                                else "Figure 8A free-swimming larva; 8B recently attached larva",
+                                contentScale = ContentScale.Fit,
+                                modifier = Modifier.fillMaxWidth().height(235.dp)
+                                    .clickable { zoomPanel = 0; zoomed = true }
+                                    .testTag("figure-image-" + plate.id))
+                            Text(if (lang == ReadingLanguage.TA)
+                                    "8A: நீந்தும் தலைப்பிரட்டை இளர்வி. 8B: புதிதாகப் பற்றிய நிலை."
+                                 else "8A — free-swimming tadpole larva. 8B — recently attached larva.",
+                                fontSize = 13.sp, lineHeight = 18.sp)
+                            Image(bitmap = ascidiaCD,
+                                contentDescription = if (lang == ReadingLanguage.TA)
+                                    "8C வளர்ந்த பற்றிய நிலை; 8D வாலின் குறுக்குவெட்டு"
+                                else "Figure 8C later attached stage; 8D transverse section of larval tail",
+                                contentScale = ContentScale.Fit,
+                                modifier = Modifier.fillMaxWidth().height(460.dp)
+                                    .clickable { zoomPanel = 1; zoomed = true }
+                                    .testTag("figure-ascidia-stages-cd"))
+                            Text(if (lang == ReadingLanguage.TA)
+                                    "8C: வளர்ந்த பற்றிய நிலை. 8D: இளர்வி வாலின் குறுக்குவெட்டு."
+                                 else "8C — later attached stage. 8D — transverse section of the larval tail.",
+                                fontSize = 13.sp, lineHeight = 18.sp)
+                            TextButton(onClick = { showOriginal = !showOriginal },
+                                modifier = Modifier.testTag("figure-ascidia-original-toggle")) {
+                                Text(if (showOriginal)
+                                    if (lang == ReadingLanguage.TA) "முழுப் படத்தை மறை" else "Hide complete historical plate"
+                                else if (lang == ReadingLanguage.TA) "1905 ஆம் ஆண்டின் முழுப் படம்" else "View complete 1905 historical plate")
+                            }
+                            if (showOriginal) {
+                                Image(bitmap = bitmap,
+                                    contentDescription = if (lang == ReadingLanguage.TA)
+                                        "அசிடியன் மற்றும் பலனோக்ளாசஸ் இணைந்த வரலாற்றுப் படம்"
+                                    else "Original composite plate with ascidians and separate Balanoglossus figures",
+                                    contentScale = ContentScale.Fit,
+                                    modifier = Modifier.fillMaxWidth().height(470.dp)
+                                        .clickable { zoomPanel = -1; zoomed = true }
+                                        .testTag("figure-ascidia-composite"))
+                                Text(if (lang == ReadingLanguage.TA)
+                                        "குறிப்பு: முழுப் படத்தின் 9–10 பகுதிகள் பலனோக்ளாசஸ்; அசிடியன் அல்ல."
+                                     else "Note: Figures 9–10 in the complete plate depict Balanoglossus, not ascidians.",
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    fontSize = 12.sp, lineHeight = 17.sp)
+                            }
+                        } else {
+                            Image(bitmap = bitmap,
+                                contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
+                                contentScale = ContentScale.Fit,
+                                modifier = Modifier.fillMaxWidth().height(previewHeight)
+                                    .clickable { zoomPanel = -1; zoomed = true }
+                                    .testTag("figure-image-" + plate.id))
+                        }
                         Text(conciseCaption,
                             fontSize = 14.sp,
                             lineHeight = 19.sp,
@@ -370,14 +471,18 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 }
                 if (zoomed) {
                     // Load the unmodified full-resolution image only inside the dialog.
-                    val fullImage = remember(context, plate.assetDirectory, plate.filename, zoomed) {
+                    val fullImage = remember(context, plate.assetDirectory, plate.filename, zoomed, zoomPanel) {
                         runCatching {
-                            val focused = if (plate.id == "u2-scoliodon-brain-labelled") {
-                                decodeFocusedHistoricalDogfishBrain(
-                                    context, plate.assetDirectory, plate.filename)
-                            } else null
-                            val expanded = focused ?: decodePlateBitmap(context, plate.assetDirectory, plate.filename)
-                            expanded?.asImageBitmap()
+                            val focused = when {
+                                isAscidia && zoomPanel in 0..1 -> decodeFocusedAscidianPanel(
+                                    context, plate.assetDirectory, plate.filename, zoomPanel)
+                                plate.id == "u2-scoliodon-brain-labelled" ->
+                                    decodeFocusedHistoricalDogfishBrain(
+                                        context, plate.assetDirectory, plate.filename)
+                                else -> null
+                            }
+                            (focused ?: decodePlateBitmap(context, plate.assetDirectory, plate.filename))
+                                ?.asImageBitmap()
                         }.getOrNull()
                     }
                     var scale by remember(plate.id, zoomed) {
