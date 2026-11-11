@@ -107,6 +107,7 @@ internal fun selectProvisionalPlate(
     val fallback = entries[diagramId to "en"] ?: entries[diagramId to "shared"]
     val tamil = if (language == ReadingLanguage.TA) entries[diagramId to "ta"] else null
     return tamil?.takeIf {
+        it.optString("scientificRiskHold").isBlank() &&
         it.optString("aiQaIntegrationDecision") == "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE" &&
             it.optString("reviewStatus").startsWith("PROVISIONAL_") &&
             it.optString("visualReview") != "USER_REJECTED_REPLACEMENT_REQUIRED"

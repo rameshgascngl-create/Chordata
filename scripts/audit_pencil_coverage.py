@@ -37,6 +37,14 @@ for x in fs:
 byid=collections.defaultdict(set)
 for id,lang in keys:byid[id].add(lang)
 assert len(byid)<=64
+# The project owner's permission for minor AI defects is not anatomical approval.
+# A flagged material error must never be promoted by a blanket green tick.
+held=[f for f in fs if f.get('scientificRiskHold')=='MATERIAL_ANATOMY_ERROR']
+assert len(held)==1 and held[0]['diagramId']=='u5-rabbit-endoskeleton' and held[0]['lang']=='ta'
+assert held[0].get('aiQaIntegrationDecision')=='HOLD_MATERIAL_ANATOMY_ERROR'
+assert held[0].get('ownerQaAcceptance')=='OWNER_APPROVAL_EXCLUDED_MATERIAL_ANATOMY_ERROR_2026-11-11'
+assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=='GREEN_TICK_ALLOW_PROVISIONAL_QA_USE' for f in fs)
+
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
     assert 'en' in languages or 'shared' in languages,('no English/shared asset',id)

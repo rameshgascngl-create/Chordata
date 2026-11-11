@@ -181,6 +181,14 @@ class ReaderNavigationTest {
         }
         org.junit.Assert.assertEquals("pencil_plates/branchiostoma_en.png",
             selected(lanceletId, en))
+        // Owner blanket approval MUST NOT override this material anatomical hold.
+        val rabbitHeld = requireNotNull(byIdAndLanguage["u5-rabbit-endoskeleton" to "ta"])
+        org.junit.Assert.assertEquals("HOLD_MATERIAL_ANATOMY_ERROR",
+            rabbitHeld.optString("aiQaIntegrationDecision"))
+        org.junit.Assert.assertEquals("MATERIAL_ANATOMY_ERROR",
+            rabbitHeld.optString("scientificRiskHold"))
+        org.junit.Assert.assertEquals("OWNER_APPROVAL_EXCLUDED_MATERIAL_ANATOMY_ERROR_2026-11-11",
+            rabbitHeld.optString("ownerQaAcceptance"))
         // Rabbit AI anatomy remains held until there is a separate reviewed
         // exact-hash replacement. Never show the rejected Tamil image.
         org.junit.Assert.assertEquals("pencil_plates/rabbit_skeleton_en.png",
