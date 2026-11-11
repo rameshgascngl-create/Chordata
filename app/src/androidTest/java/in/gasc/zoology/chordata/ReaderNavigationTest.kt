@@ -26,6 +26,26 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
+    @Test fun approvedLauncherIconLoadsWithAdaptiveAndThemedVariants() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        org.junit.Assert.assertEquals(R.mipmap.ic_launcher, context.applicationInfo.icon)
+        val icon = requireNotNull(context.packageManager.getApplicationIcon(context.packageName))
+        val round = requireNotNull(context.getDrawable(R.mipmap.ic_launcher_round))
+        org.junit.Assert.assertTrue(icon.intrinsicWidth > 0 && icon.intrinsicHeight > 0)
+        org.junit.Assert.assertTrue(round.intrinsicWidth > 0 && round.intrinsicHeight > 0)
+        if (android.os.Build.VERSION.SDK_INT >= 26) {
+            org.junit.Assert.assertTrue(icon is android.graphics.drawable.AdaptiveIconDrawable)
+            org.junit.Assert.assertTrue(round is android.graphics.drawable.AdaptiveIconDrawable)
+            if (android.os.Build.VERSION.SDK_INT >= 33) {
+                org.junit.Assert.assertNotNull(
+                    (icon as android.graphics.drawable.AdaptiveIconDrawable).monochrome)
+                org.junit.Assert.assertNotNull(
+                    (round as android.graphics.drawable.AdaptiveIconDrawable).monochrome)
+            }
+        }
+    }
+
+
     @Test fun creditedReferenceAssetsAreBundledAndMappedCorrectly() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val images = org.json.JSONArray(context.assets.open("figures.json").bufferedReader().use { it.readText() })
