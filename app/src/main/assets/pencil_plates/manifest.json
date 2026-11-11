@@ -1272,8 +1272,8 @@
       "figure": "calotes_heart_arteries",
       "lang": "en",
       "path": "pencil_plates/calotes_heart_arteries_en.png",
-      "sha256": "12305ec4249359a17fd4c17f5445fa7ba7e73894d6feea5e701072dc467840ed",
-      "size": 137849,
+      "sha256": "e2a1a9115e0c2021af2f2d70b313dcfb367ab76cbebfbf549488a0bd7d27aa82",
+      "size": 145720,
       "author": "CHORDATA QA — original vector anatomical schematic",
       "license": "Original project illustration; no source images copied",
       "sourceUrl": "",
@@ -1281,7 +1281,7 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3673951/",
         "https://www.dcceew.gov.au/sites/default/files/env/pages/dc11235d-8b3b-43f7-b991-8429f477a1d4/files/24-fauna-2a-squamata-morphology.pdf"
       ],
-      "modifications": "Rebuilt as original topological schematic with bilateral/compartment relationships; no source images reproduced.",
+      "modifications": "Targeted academic label correction: the erroneous 'Intercaval flow' was changed to 'Intercavitary flow'. Original topology and all other figure pixels remain unchanged. Original SVG rendered to PNG.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
       "keyEn": "Functionally subdivided ventricle: cavum arteriosum, cavum venosum, cavum pulmonale; two systemic aortae and pulmonary artery.",
       "keyTa": "",
@@ -1292,7 +1292,7 @@
       "page": 4,
       "sectionKey": "arterial-system",
       "learningObjective": "Two atria, functionally partitioned ventricle, systemic and pulmonary pathways.",
-      "svgSha256": "c70d16457a5329a5c26388f491e20c9eab5fddb1a5b8121a9bb1356b8b658c7b"
+      "svgSha256": "fa615ac34c0b677f72f6c625d3c0edb3e1dc24d69aaa70ce10c5ed955121224a"
     },
     {
       "diagramId": "u4-calotes-brain",
