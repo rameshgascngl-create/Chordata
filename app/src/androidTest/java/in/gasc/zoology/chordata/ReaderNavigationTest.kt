@@ -22,11 +22,42 @@ import `in`.gasc.zoology.chordata.data.ContentRepository
 import `in`.gasc.zoology.chordata.ui.decodePlateBitmap
 import `in`.gasc.zoology.chordata.ui.decodeFocusedAscidianPanel
 import `in`.gasc.zoology.chordata.ui.decodeTeachingPanel
+import `in`.gasc.zoology.chordata.ui.selectedPlateNeedsReplacement
+import `in`.gasc.zoology.chordata.ui.selectProvisionalPlate
+import org.json.JSONObject
 import org.junit.Rule
 import org.junit.Test
 
 class ReaderNavigationTest {
 
+
+    @Test fun greenTickedAiVariantIsNotRejectedBecauseEnglishFallbackWasRejected() {
+        val oldEnglish = JSONObject().apply {
+            put("visualReview", "USER_REJECTED_REPLACEMENT_REQUIRED")
+        }
+        val acceptedTamilAi = JSONObject().apply {
+            put("aiQaIntegrationDecision", "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE")
+            put("reviewStatus", "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING")
+            put("visualReview", "ACCEPT_MINOR_COSMETIC_ERRORS")
+            put("scientificRiskHold", "")
+        }
+        val heldTamilAi = JSONObject().apply {
+            put("aiQaIntegrationDecision", "HOLD_MATERIAL_ANATOMY_ERROR")
+            put("reviewStatus", "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING")
+            put("scientificRiskHold", "MATERIAL_ANATOMY_ERROR")
+        }
+        val id = "u-test-displayed-variant"
+        val good = mapOf((id to "en") to oldEnglish,
+            (id to "ta") to acceptedTamilAi)
+        org.junit.Assert.assertFalse(selectedPlateNeedsReplacement(
+            good, id, `in`.gasc.zoology.chordata.domain.ReadingLanguage.TA))
+        org.junit.Assert.assertTrue(selectedPlateNeedsReplacement(
+            good, id, `in`.gasc.zoology.chordata.domain.ReadingLanguage.EN))
+        val materialHold = mapOf((id to "en") to oldEnglish,
+            (id to "ta") to heldTamilAi)
+        org.junit.Assert.assertTrue(selectedPlateNeedsReplacement(
+            materialHold, id, `in`.gasc.zoology.chordata.domain.ReadingLanguage.TA))
+    }
 
     @Test fun focusedPigeonPanelsDecodeWithOriginalSourcesUnchanged() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
