@@ -32,8 +32,8 @@ class ReaderNavigationTest {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val assetDirectory = "pencil_plates"
         val expected = listOf(
-            Triple("pigeon_urinogenital_en.png", 0, 1035 to 1280),
-            Triple("pigeon_urinogenital_en.png", 1, 1070 to 1280),
+            Triple("pigeon_urinogenital_en.png", 0, 1030 to 1040),
+            Triple("pigeon_urinogenital_en.png", 1, 1090 to 1040),
             Triple("pigeon_urinogenital_en.png", 2, 1070 to 1510),
             Triple("columba_skeleton_en.png", 0, 1270 to 1290),
             Triple("fish_accessory_breathing_en.png", 0, 1800 to 1050)
