@@ -213,6 +213,18 @@ internal fun selectProvisionalPlate(
     } ?: fallback
 }
 
+/**
+ * Decisions about missing/rejected artwork apply to the actually displayed
+ * language variant, not a rejected English fallback when an independently
+ * green-ticked Tamil AI variant has been selected.
+ */
+internal fun selectedPlateNeedsReplacement(
+    entries: Map<Pair<String, String>, JSONObject>,
+    diagramId: String,
+    language: ReadingLanguage
+): Boolean = selectProvisionalPlate(entries, diagramId, language)
+    ?.optString("visualReview") == "USER_REJECTED_REPLACEMENT_REQUIRED"
+
 private data class DiagramSlot(
     val id: String, val topicId: String, val page: Int,
     val captionEn: String, val captionTa: String, val provisionalFigureId: String?
@@ -269,8 +281,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
     val relevant = if (page > 0) plates.filter { it.topicId == topicId && it.page == page }
                    else emptyList()
     val userRejectedSlots = pageSlots.filter { slot ->
-        val entry = pencilPlates[slot.id to "en"] ?: pencilPlates[slot.id to "shared"]
-        entry?.optString("visualReview") == "USER_REJECTED_REPLACEMENT_REQUIRED"
+        selectedPlateNeedsReplacement(pencilPlates, slot.id, lang)
     }
     val matchingDraftIds = pageSlots.mapNotNull { it.provisionalFigureId }.toSet()
     val pencilBySlot = pageSlots.mapNotNull { slot ->
