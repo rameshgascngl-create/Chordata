@@ -46,7 +46,7 @@ assert 'assetDirectory = assetDirectory' in gallery_text, 'Gallery must honour c
 assert 'filename = entry.getString("path").substringAfterLast' not in gallery_text
 assert all(e['path'].startswith('pencil_plates/') and len(e['path'].split('/')) == 2 for e in entries), 'Manifest still contains staging aliases'
 assert 'pencilPlates[slot.id to language]' not in gallery_text
-assert 'FigureGallery(topic.id, page + 1, lang' in (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
+assert 'FigureGallery(topic.id, sectionIndex + 1, lang' in (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
 
 # Reproducibility: a ZIP extractor may not restore Unix executable bits.
 # The entrypoint must invoke the Kotlin smoke-test shell script explicitly.
@@ -122,7 +122,7 @@ assert 'if (currentTopic == null) {' in app_ui and 'app-bottom-navigation' in ap
     'Student lesson view must use the reclaimed bottom-bar area')
 assert 'fun lessonHidesBottomNavigationAndRestoresItOnBack()' in test_text, (
     'Missing Android navigation/reading-area regression test')
-assert 'FigureGallery(topic.id, page + 1, lang' in app_ui
+assert 'FigureGallery(topic.id, sectionIndex + 1, lang' in app_ui
 assert 'figure-credits-toggle-' in gallery_ui, 'Image credits must remain accessible'
 assert 'Image source and credits' in gallery_ui
 # Student pages must not repeat internal QA and sign-off notices beneath
