@@ -92,6 +92,10 @@ gallery_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/FigureGaller
 assert 'All 64 lesson-diagram slots contain provisional illustrations' not in app_ui
 assert 'home-book-layout' in app_ui and 'subject-title' in app_ui
 assert 'alignment = TextAlign.Justify' in app_ui, 'Lesson paragraphs must be justified'
+assert 'if (currentTopic == null) {' in app_ui and 'app-bottom-navigation' in app_ui, (
+    'Student lesson view must use the reclaimed bottom-bar area')
+assert 'fun lessonHidesBottomNavigationAndRestoresItOnBack()' in test_text, (
+    'Missing Android navigation/reading-area regression test')
 assert 'FigureGallery(topic.id, page, lang' in app_ui
 assert 'figure-credits-toggle-' in gallery_ui, 'Image credits must remain accessible'
 assert 'Image source and credits' in gallery_ui

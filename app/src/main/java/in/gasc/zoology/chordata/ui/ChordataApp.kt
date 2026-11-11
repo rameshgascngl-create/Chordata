@@ -128,7 +128,14 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                 )
             },
             bottomBar = {
-                NavigationBar(containerColor = Color.White) {
+                // Lesson navigation is handled by the top Back action and the
+                // in-chapter pager. Reclaim the navigation bar's vertical space
+                // for diagrams and large Tamil text while a lesson is open.
+                if (currentTopic == null) {
+                    NavigationBar(
+                        containerColor = Color.White,
+                        modifier = Modifier.testTag("app-bottom-navigation")
+                    ) {
                     destinations.forEachIndexed { index, destination ->
                         val ic = when (index) {
                             0 -> Icons.Default.Home
@@ -144,6 +151,7 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                                 maxLines = 1, fontSize = 10.sp) },
                             alwaysShowLabel = true
                         )
+                    }
                     }
                 }
             }

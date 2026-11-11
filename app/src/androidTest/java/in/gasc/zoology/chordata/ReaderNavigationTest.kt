@@ -219,6 +219,18 @@ class ReaderNavigationTest {
         else rule.onNodeWithText("ஆங்கிலம்").performClick()
     }
 
+    @Test fun lessonHidesBottomNavigationAndRestoresItOnBack() {
+        selectEnglish()
+        rule.onNodeWithTag("app-bottom-navigation").assertIsDisplayed()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-reader-list").assertIsDisplayed()
+        rule.onNodeWithTag("app-bottom-navigation").assertDoesNotExist()
+        rule.onNodeWithTag("lesson-back").performClick()
+        rule.onNodeWithTag("app-bottom-navigation").assertIsDisplayed()
+        rule.onNodeWithText("All lessons").assertIsDisplayed()
+    }
+
     @Test fun opensFirstChapterAndAdvancesToLesson() {
         selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
