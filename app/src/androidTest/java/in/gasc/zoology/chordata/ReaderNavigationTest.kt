@@ -20,10 +20,54 @@ import android.content.ContentValues
 import android.provider.MediaStore
 import `in`.gasc.zoology.chordata.data.ContentRepository
 import `in`.gasc.zoology.chordata.ui.decodePlateBitmap
+import `in`.gasc.zoology.chordata.ui.decodeFocusedAscidianPanel
 import org.junit.Rule
 import org.junit.Test
 
 class ReaderNavigationTest {
+
+    @Test fun historicalAscidianFigure8CropsDecodeWithoutAlteringOriginalPlate() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val source = "pencil_plates/ascidia_metamorphosis.png"
+        val bounds = android.graphics.BitmapFactory.Options().apply { inJustDecodeBounds = true }
+        context.assets.open(source).use {
+            android.graphics.BitmapFactory.decodeStream(it, null, bounds)
+        }
+        org.junit.Assert.assertEquals(1488, bounds.outWidth)
+        org.junit.Assert.assertEquals(2387, bounds.outHeight)
+        val stagesAB = requireNotNull(decodeFocusedAscidianPanel(
+            context, "pencil_plates", "ascidia_metamorphosis.png", 0))
+        val stagesCD = requireNotNull(decodeFocusedAscidianPanel(
+            context, "pencil_plates", "ascidia_metamorphosis.png", 1))
+        try {
+            org.junit.Assert.assertEquals(708, stagesAB.width)
+            org.junit.Assert.assertEquals(540, stagesAB.height)
+            org.junit.Assert.assertEquals(418, stagesCD.width)
+            org.junit.Assert.assertEquals(645, stagesCD.height)
+            org.junit.Assert.assertNull(decodeFocusedAscidianPanel(
+                context, "pencil_plates", "ascidia_metamorphosis.png", 2))
+        } finally {
+            stagesAB.recycle()
+            stagesCD.recycle()
+        }
+    }
+
+    @Test fun ascidianMetamorphosisShowsFocusedStagesAndKeepsCompositeOptional() {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput("Urochordata")
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
+        rule.onNodeWithTag("reader-next").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithTag("reader-next").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("figure-image-u1-urochordata-ascidia-larva-adult").assertExists()
+        rule.onNodeWithTag("figure-ascidia-stages-cd").assertExists()
+        rule.onNodeWithTag("figure-ascidia-composite").assertDoesNotExist()
+        rule.onNodeWithTag("figure-ascidia-original-toggle").performClick()
+        rule.onNodeWithTag("figure-ascidia-composite").assertExists()
+    }
 
     @Test fun bilingualPointwiseEnrichmentPreservesOriginalChapterStructure() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
