@@ -67,7 +67,7 @@ for image in historic['figures']:
     data=f.read_bytes()
     assert data.startswith(bytes.fromhex('ffd8ff')), ('invalid sourced JPEG',f)
     assert len(data)==image['byteLength'],('size differs from published source',f)
-    git_sha=hashlib.sha1(('blob '+str(len(data))+'\\x00').encode()+data).hexdigest()
+    git_sha=hashlib.sha1(('blob '+str(len(data))).encode()+bytes([0])+data).hexdigest()
     assert git_sha==image['gitBlobSha1'],('original source image modified',f)
     assert image['sourceImageUrl'].startswith(
         'https://github.com/GITenberg/The-Cambridge-natural-history-Vol-07-of-10_73702/')
