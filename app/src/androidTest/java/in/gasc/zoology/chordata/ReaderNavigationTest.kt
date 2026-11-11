@@ -405,6 +405,37 @@ class ReaderNavigationTest {
         rule.onNodeWithText("All lessons").assertIsDisplayed()
     }
 
+    @Test fun compactChaptersPackBriefSectionsWithoutLosingTextOrFigures() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val origin = requireNotNull(pack.findTopic("u1-origin"))
+        org.junit.Assert.assertEquals(setOf(1), origin.figurePages)
+        org.junit.Assert.assertEquals(
+            listOf(listOf(0), listOf(1, 2)),
+            `in`.gasc.zoology.chordata.domain.LearningLogic.sectionPages(origin))
+        org.junit.Assert.assertEquals(2,
+            `in`.gasc.zoology.chordata.domain.LearningLogic.lastPage(origin))
+        val illustratedLast = requireNotNull(pack.findTopic("u1-urochordata"))
+        org.junit.Assert.assertTrue(3 in illustratedLast.figurePages)
+        org.junit.Assert.assertEquals(3,
+            `in`.gasc.zoology.chordata.domain.LearningLogic.lastPage(illustratedLast))
+
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
+        rule.onNodeWithTag("reader-next").performClick()
+        rule.onNodeWithTag("lesson-page-heading")
+            .assertTextEquals("Evidence and hypotheses")
+        // Third section is included ON THIS PAGE, not on an empty extra page.
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithTag("packed-section-heading-2")
+            .assertTextEquals("Ancestry versus resemblance")
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(6)
+        rule.onNodeWithTag("reader-next").performClick()
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("Practice")
+    }
+
     @Test fun opensFirstChapterAndAdvancesToLesson() {
         selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
