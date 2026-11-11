@@ -334,6 +334,24 @@ class ReaderNavigationTest {
         }
     }
 
+    @Test fun continuousChapterReadsAllSectionsWithInlineDiagrams() {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("read-full-chapter").performClick()
+        rule.onNodeWithText("CONTINUOUS CHAPTER READING").assertIsDisplayed()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithText("Ancestry versus resemblance").assertIsDisplayed()
+    }
+
+    @Test fun aboutAndPrivacyRemainAvailableWithoutHomeClutter() {
+        selectEnglish()
+        rule.onNodeWithTag("home-book-layout").performScrollToIndex(8)
+        rule.onNodeWithTag("about-privacy-open").assertIsDisplayed().performClick()
+        rule.onNodeWithText("About & Privacy").assertIsDisplayed()
+        rule.onNodeWithText("Close").performClick()
+    }
+
     @Test fun englishReaderIsExclusiveAtNormalScale() {
         selectEnglish()
         rule.onNodeWithText("The Chordata Fieldbook").assertIsDisplayed()
