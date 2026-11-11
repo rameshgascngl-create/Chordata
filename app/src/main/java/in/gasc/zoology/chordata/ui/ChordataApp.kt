@@ -193,6 +193,7 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
     val total = pack.topics.size
     val finished = pack.topics.count { it.id in completed }
     val remaining = pack.topics.firstOrNull { it.id !in completed }
+    var showAbout by rememberSaveable { mutableStateOf(false) }
     LazyColumn(
         modifier = Modifier.fillMaxSize().background(paper).testTag("home-book-layout"),
         contentPadding = PaddingValues(horizontal = 14.dp, vertical = 12.dp),
@@ -333,12 +334,35 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
             }
         }
         item(key = "institution-credit") {
-            Text(loc(lang, pack.credit,
-                "விலங்கியல் துறை, அரசு கலை மற்றும் அறிவியல் கல்லூரி, நாகர்கோவில்"),
-                style = MaterialTheme.typography.labelSmall, color = mutetext,
-                modifier = Modifier.fillMaxWidth().padding(vertical = 7.dp),
-                textAlign = TextAlign.Center)
+            Column(Modifier.fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(loc(lang, pack.credit,
+                    "விலங்கியல் துறை, அரசு கலை மற்றும் அறிவியல் கல்லூரி, நாகர்கோவில்"),
+                    style = MaterialTheme.typography.labelSmall, color = mutetext,
+                    modifier = Modifier.fillMaxWidth().padding(top = 7.dp),
+                    textAlign = TextAlign.Center)
+                TextButton(onClick = { showAbout = true },
+                    modifier = Modifier.testTag("about-privacy-open")) {
+                    Text(loc(lang, "About & Privacy", "செயலி மற்றும் தனியுரிமை"))
+                }
+            }
         }
+    }
+    if (showAbout) {
+        AlertDialog(
+            onDismissRequest = { showAbout = false },
+            title = { Text(loc(lang, "About & Privacy", "செயலி மற்றும் தனியுரிமை")) },
+            text = {
+                Text(loc(lang,
+                    "CHORDATA is a bilingual, offline Zoology learning resource. Lessons and images are stored on the device. The app has no Internet permission and does not collect account details. Language, text size, bookmarks, completed chapters and quiz scores are saved locally; Android backup is disabled. Opening an image-source link may use the device browser. Clear the app's storage to erase saved learning progress.",
+                    "முதுகுநாணிகள் என்பது இணையமின்றி இயங்கும் இருமொழி விலங்கியல் கற்றல் செயலி. பாடங்களும் படங்களும் கருவியில் உள்ளன. இணைய அனுமதி கேட்கப்படுவதில்லை; பயனர் கணக்கு விவரங்கள் சேகரிக்கப்படுவதில்லை. மொழி, எழுத்தளவு, சேமித்த பாடங்கள், கற்றல் முன்னேற்றம், வினா மதிப்பெண்கள் ஆகியவை இக்கருவியில் மட்டும் சேமிக்கப்படுகின்றன. தானியங்கு காப்புநகல் முடக்கப்பட்டுள்ளது. பட மூல இணைப்புகள் வெளி உலாவியில் திறக்கப்படலாம். சேமித்த கற்றல் தகவல்களை நீக்கச் செயலியின் சேமிப்பிடத் தரவை அழிக்கவும்."))
+            },
+            confirmButton = {
+                TextButton(onClick = { showAbout = false }) {
+                    Text(loc(lang, "Close", "மூடுக"))
+                }
+            }
+        )
     }
 }
 
