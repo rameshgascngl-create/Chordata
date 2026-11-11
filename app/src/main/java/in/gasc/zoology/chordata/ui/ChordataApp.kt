@@ -421,6 +421,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
     // Recreate the list position for each lesson page. This avoids briefly showing
     // the previous page's bottom before a LaunchedEffect scroll can execute.
     val listState = key(topic.id, page) { rememberLazyListState() }
+    val chapterPages = remember(topic) { LearningLogic.sectionPages(topic) }
     val finalPage = LearningLogic.lastPage(topic)
     var continuous by rememberSaveable(topic.id) { mutableStateOf(false) }
     var outlineExpanded by rememberSaveable(topic.id) { mutableStateOf(false) }
@@ -470,10 +471,9 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                 }
             }
         } else when {
-            page < topic.sections.size -> {
-                // Page 1 contains the chapter guide AND the first substantive
-                // section. A standalone outline previously left most of the
-                // viewport blank, especially on taller phones.
+            page < chapterPages.size -> {
+                // A book page can contain more than one brief lesson section.
+                // Section order, illustrations and academic content are unchanged.
                 if (page == 0) {
                     item(key = "chapter-guide") {
                         Card(shape = RoundedCornerShape(13.dp),
@@ -516,31 +516,37 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                         }
                     }
                 }
-                item(key = "section-body") {
-                    val section = topic.sections[page]
-                    val sectionColour = if (section.key.contains("definition") ||
-                        section.key.contains("characters")) softGreen else
-                        if (page % 2 == 0) Color.White else paper
-                    Card(shape = RoundedCornerShape(12.dp),
-                        colors = CardDefaults.cardColors(containerColor = sectionColour)) {
-                        Column(Modifier.fillMaxWidth().padding(13.dp),
-                            verticalArrangement = Arrangement.spacedBy(9.dp)) {
-                            if (page == 0) {
-                                BilingualText(section.heading, lang, scale,
-                                    base = 18f, bold = true,
-                                    modifier = Modifier.testTag("first-section-heading"))
+                chapterPages[page].forEach { sectionIndex ->
+                    item(key = "section-body-${sectionIndex}") {
+                        val section = topic.sections[sectionIndex]
+                        val sectionColour = if (section.key.contains("definition") ||
+                            section.key.contains("characters")) softGreen else
+                            if (sectionIndex % 2 == 0) Color.White else paper
+                        Card(shape = RoundedCornerShape(12.dp),
+                            colors = CardDefaults.cardColors(containerColor = sectionColour)) {
+                            Column(Modifier.fillMaxWidth().padding(13.dp),
+                                verticalArrangement = Arrangement.spacedBy(9.dp)) {
+                                // Page heading identifies the first section; later
+                                // packed sections get their own visible subheadings.
+                                if (page == 0 || sectionIndex != chapterPages[page].first()) {
+                                    BilingualText(section.heading, lang, scale,
+                                        base = 18f, bold = true,
+                                        modifier = Modifier.testTag(if (sectionIndex == 0)
+                                            "first-section-heading"
+                                        else "packed-section-heading-${sectionIndex}"))
+                                }
+                                BilingualText(section.body, lang, scale,
+                                    modifier = Modifier.fillMaxWidth(),
+                                    base = 16f, alignment = TextAlign.Start)
+                                PointwiseExplanation(section.keyPoints, lang, scale)
                             }
-                            BilingualText(section.body, lang, scale,
-                                modifier = Modifier.fillMaxWidth(),
-                                base = 16f, alignment = TextAlign.Start)
-                            PointwiseExplanation(section.keyPoints, lang, scale)
                         }
                     }
-                }
-                // Figure register is section-indexed from 1, while visible
-                // book pages now start at 0. Keep exact registered placement.
-                item(key = "section-figures") {
-                    FigureGallery(topic.id, page + 1, lang, topic.diagramIds.size)
+                    // Register indices remain one-based by the ORIGINAL section,
+                    // independent of how multiple sections share a visible page.
+                    item(key = "section-figures-${sectionIndex}") {
+                        FigureGallery(topic.id, sectionIndex + 1, lang, topic.diagramIds.size)
+                    }
                 }
             }
             else -> {
