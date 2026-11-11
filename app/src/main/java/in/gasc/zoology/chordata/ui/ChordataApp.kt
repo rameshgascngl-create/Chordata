@@ -423,6 +423,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
     val listState = key(topic.id, page) { rememberLazyListState() }
     val finalPage = LearningLogic.lastPage(topic)
     var continuous by rememberSaveable(topic.id) { mutableStateOf(false) }
+    var outlineExpanded by rememberSaveable(topic.id) { mutableStateOf(false) }
     LaunchedEffect(topic.id, page, continuous) { listState.scrollToItem(0) }
     LazyColumn(state = listState,
         modifier = Modifier.fillMaxSize().background(paper).testTag("lesson-reader-list"),
@@ -459,7 +460,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                 base = 18f, bold = true)
                             BilingualText(section.body, lang, scale,
                                 modifier = Modifier.fillMaxWidth(),
-                                base = 16f, alignment = TextAlign.Justify)
+                                base = 16f, alignment = TextAlign.Start)
                             PointwiseExplanation(section.keyPoints, lang, scale)
                         }
                     }
@@ -469,33 +470,54 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                 }
             }
         } else when {
-            page == 0 -> {
-                item {
-                    Card(shape = RoundedCornerShape(14.dp),
-                        colors = CardDefaults.cardColors(containerColor = softGreen)) {
-                        Column(Modifier.fillMaxWidth().padding(13.dp),
-                            verticalArrangement = Arrangement.spacedBy(5.dp)) {
-                            Text(loc(lang, "Chapter outline", "பாட அமைப்பு"), fontWeight = FontWeight.Bold,
-                                color = teal)
-                            topic.sections.forEachIndexed { i, section ->
-                                Text("${i + 1}. ${if (lang == ReadingLanguage.TA) section.heading.ta else section.heading.en}",
-                                    fontSize = (14f * scale).sp, lineHeight = (21f * scale).sp)
-                            }
-                            Text(loc(lang, "Quiz: ${topic.quiz.size} questions", "வினாப்பயிற்சி: ${topic.quiz.size} வினாக்கள்"), color = mutetext)
-                            Button(onClick = { continuous = true },
-                                modifier = Modifier.fillMaxWidth().testTag("read-full-chapter")) {
-                                Text(loc(lang, "Read full chapter continuously",
-                                    "பாடம் முழுவதையும் தொடர்ந்து படிக்க"))
+            page < topic.sections.size -> {
+                // Page 1 contains the chapter guide AND the first substantive
+                // section. A standalone outline previously left most of the
+                // viewport blank, especially on taller phones.
+                if (page == 0) {
+                    item(key = "chapter-guide") {
+                        Card(shape = RoundedCornerShape(13.dp),
+                            colors = CardDefaults.cardColors(containerColor = softGreen)) {
+                            Column(Modifier.fillMaxWidth().padding(12.dp),
+                                verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                                Text(
+                                    loc(lang, "CHAPTER GUIDE · ${topic.sections.size} sections · ${topic.quiz.size} questions",
+                                        "பாட வழிகாட்டி · ${topic.sections.size} பகுதிகள் · ${topic.quiz.size} வினாக்கள்"),
+                                    color = teal, fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                                Row(Modifier.fillMaxWidth(),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                                    OutlinedButton(
+                                        onClick = { outlineExpanded = !outlineExpanded },
+                                        modifier = Modifier.weight(1f).heightIn(min = 42.dp)
+                                            .testTag("chapter-outline-toggle")) {
+                                        Text(if (outlineExpanded)
+                                            loc(lang, "Hide outline", "பாட அமைப்பை மறை")
+                                        else loc(lang, "View outline", "பாட அமைப்பைக் காண்க"),
+                                            maxLines = 2, textAlign = TextAlign.Center)
+                                    }
+                                    Button(onClick = { continuous = true },
+                                        modifier = Modifier.weight(1f).heightIn(min = 42.dp)
+                                            .testTag("read-full-chapter")) {
+                                        Text(loc(lang, "Read continuously", "தொடர்ந்து படிக்க"),
+                                            maxLines = 2, textAlign = TextAlign.Center)
+                                    }
+                                }
+                                if (outlineExpanded) {
+                                    topic.sections.forEachIndexed { index, section ->
+                                        Text("${index + 1}. " +
+                                            (if (lang == ReadingLanguage.TA)
+                                                section.heading.ta else section.heading.en),
+                                            fontSize = (13f * scale.coerceAtMost(1.5f)).sp,
+                                            lineHeight = (19f * scale.coerceAtMost(1.5f)).sp)
+                                    }
+                                }
                             }
                         }
                     }
                 }
-                item(key = "intro-figures") { FigureGallery(topic.id, 0, lang, topic.diagramIds.size) }
-
-            }
-            page <= topic.sections.size -> {
                 item(key = "section-body") {
-                    val section = topic.sections[page - 1]
+                    val section = topic.sections[page]
                     val sectionColour = if (section.key.contains("definition") ||
                         section.key.contains("characters")) softGreen else
                         if (page % 2 == 0) Color.White else paper
@@ -503,17 +525,22 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                         colors = CardDefaults.cardColors(containerColor = sectionColour)) {
                         Column(Modifier.fillMaxWidth().padding(13.dp),
                             verticalArrangement = Arrangement.spacedBy(9.dp)) {
+                            if (page == 0) {
+                                BilingualText(section.heading, lang, scale,
+                                    base = 18f, bold = true,
+                                    modifier = Modifier.testTag("first-section-heading"))
+                            }
                             BilingualText(section.body, lang, scale,
                                 modifier = Modifier.fillMaxWidth(),
-                                base = 16f, alignment = TextAlign.Justify)
+                                base = 16f, alignment = TextAlign.Start)
                             PointwiseExplanation(section.keyPoints, lang, scale)
                         }
                     }
                 }
-                // A separate lazy item keeps anatomy illustrations reachable at
-                // 200% Tamil font scaling without hiding them below long text.
+                // Figure register is section-indexed from 1, while visible
+                // book pages now start at 0. Keep exact registered placement.
                 item(key = "section-figures") {
-                    FigureGallery(topic.id, page, lang, topic.diagramIds.size)
+                    FigureGallery(topic.id, page + 1, lang, topic.diagramIds.size)
                 }
             }
             else -> {
