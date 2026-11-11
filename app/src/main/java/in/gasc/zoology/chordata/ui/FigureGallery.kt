@@ -123,8 +123,8 @@ internal fun decodeTeachingPanel(
     if (assetDirectory != "pencil_plates") return null
     val (width, height, region) = when (filename) {
         "pigeon_urinogenital_en.png" -> Triple(3360, 1900, when (panel) {
-            0 -> Rect(115, 260, 1150, 1540)
-            1 -> Rect(1150, 260, 2220, 1540)
+            0 -> Rect(120, 390, 1150, 1430)
+            1 -> Rect(1140, 390, 2230, 1430)
             2 -> Rect(2270, 220, 3340, 1730)
             else -> return null
         })
