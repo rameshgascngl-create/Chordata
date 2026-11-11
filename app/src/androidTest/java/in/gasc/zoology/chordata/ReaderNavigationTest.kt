@@ -226,7 +226,7 @@ class ReaderNavigationTest {
         rule.onNodeWithText("200%").performClick()
         rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
         rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
         rule.onNodeWithTag("reader-next").assertIsDisplayed()
         val bounds = rule.onNodeWithTag("reader-next").fetchSemanticsNode().boundsInRoot
         org.junit.Assert.assertTrue(
@@ -271,13 +271,14 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
         rule.onAllNodesWithText("Origin of Chordata").onFirst().assertIsDisplayed()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("first-section-heading").assertExists()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
         rule.onNodeWithText("Next ›").performClick()
         rule.waitUntil(timeoutMillis = 5_000) {
-            runCatching { rule.onNodeWithText("Deuterostome ancestry").isDisplayed() }
+            runCatching { rule.onNodeWithText("Evidence and hypotheses").isDisplayed() }
                 .getOrDefault(false)
         }
-        rule.onNodeWithText("Deuterostome ancestry").assertIsDisplayed()
+        rule.onNodeWithText("Evidence and hypotheses").assertIsDisplayed()
     }
 
     @Test fun scoliodonBrainPlateIsReachableOnItsExactFourthSection() {
@@ -287,9 +288,9 @@ class ReaderNavigationTest {
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
         // The previously rejected synthetic plate is replaced by a source-verified
         // 1878 dogfish comparison; do not imply an exact Scoliodon dissection.
-        for (section in 0 until 4) {
+        for (section in 0 until 3) {
             rule.onNodeWithTag("lesson-reader-list")
-                .performScrollToIndex(if (section == 0) 3 else 4)
+                .performScrollToIndex(if (section == 0) 5 else 4)
             rule.onNodeWithText("Next ›").performClick()
         }
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
@@ -317,11 +318,9 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
-        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertDoesNotExist()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithText("Next ›").performClick()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertIsDisplayed().performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled")
+            .assertIsDisplayed().performClick()
         rule.onNodeWithText("Close").assertIsDisplayed()
     }
     /**
@@ -412,10 +411,7 @@ class ReaderNavigationTest {
         rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput("Scoliodon")
         rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
-        rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertDoesNotExist()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithText("அடுத்து ›").performClick()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
         rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertIsDisplayed()
         captureQaScreen("scoliodon-figure-ta-200")
         rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").performClick()
@@ -428,12 +424,9 @@ class ReaderNavigationTest {
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onNodeWithTag("lesson-search").performTextInput(search)
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
-        rule.onNodeWithTag("figure-image-" + figureId).assertDoesNotExist()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithText("Next ›").performClick()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
-        rule.onNodeWithTag("figure-image-" + figureId).assertIsDisplayed()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        rule.onNodeWithTag("figure-image-" + figureId).assertIsDisplayed()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
         rule.onNodeWithText("Next ›").performClick()
         rule.onNodeWithTag("figure-image-" + figureId).assertDoesNotExist()
     }
