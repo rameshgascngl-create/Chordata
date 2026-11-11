@@ -50,7 +50,7 @@ for id,languages in byid.items():
     assert 'en' in languages or 'shared' in languages,('no English/shared asset',id)
 assert not any(s['status']=='ACADEMICALLY_APPROVED' for s in registry)
 source=(ROOT/'app/src/main/java/in/gasc/zoology/chordata/ui/FigureGallery.kt').read_text()
-assert 'pencilPlates[slot.id to "en"] ?: pencilPlates[slot.id to "shared"]' in source
+assert 'selectedPlateNeedsReplacement(pencilPlates, slot.id, lang)' in source, 'Image rejection must follow the displayed language variant'
 assert 'tamil-label-review-' not in source
 assert 'pencilPlates[slot.id to language]' not in source
 print(f'PASS: {len(byid)}/64 distinct lesson slots populated with registered provisional pencil drawings ({64-len(byid)} remain)')
