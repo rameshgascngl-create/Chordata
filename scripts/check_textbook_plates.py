@@ -25,3 +25,15 @@ for entry in credits["sources"]:
     assert entry["academicStatus"]=="PENDING" and entry["reviewStatus"]=="SOURCE_ONLY_AWAITING_INDEPENDENT_ANATOMICAL_REVIEW"
     assert entry["creator"]==fig["author"] and entry["sourcePageUrl"]==fig["sourceUrl"]
 print("PASS: two museum photographs replaced with owner-credited historical line drawings; 7/7 source credits and filenames reconciled, academic approval pending")
+
+# Calotes inter-cavity label regression: "intercaval" denotes vena-cava
+# relationships and must not be used for flow between ventricular regions.
+calotes_master = pathlib.Path(__file__).resolve().parents[1] / "docs/original_plate_svg/calotes_heart_arteries_en.svg"
+calotes_text = calotes_master.read_text(encoding="utf-8")
+assert "Intercaval flow" not in calotes_text, "Calotes inter-cavity label regressed to incorrect terminology"
+assert calotes_text.count("Intercavitary flow") == 1, "Expected corrected Calotes inter-cavity label missing"
+calotes_manifest = json.loads((root / "pencil_plates/manifest.json").read_text(encoding="utf-8"))
+calotes_entry = next(f for f in calotes_manifest["figures"] if f["diagramId"] == "u4-calotes-arterial-system")
+assert calotes_entry["svgSha256"] == hashlib.sha256(calotes_master.read_bytes()).hexdigest(), "Calotes SVG/manifest mismatch"
+assert calotes_entry["reviewStatus"].startswith("PROVISIONAL_"), "Calotes image incorrectly marked academically approved"
+print("PASS: Calotes inter-cavity label correct; image SHA and review status guarded")
