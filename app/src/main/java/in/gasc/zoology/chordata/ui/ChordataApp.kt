@@ -93,7 +93,7 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
     MaterialTheme(colorScheme = scheme) {
         Scaffold(
             topBar = {
-                TopAppBar(
+                if (currentTopic != null || tab != "home") TopAppBar(
                     title = {
                         Column {
                             Text(if (currentTopic != null) loc(lang, "Lesson", "பாடம்")
@@ -192,7 +192,6 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
     onScale: (Float) -> Unit, onOpen: (String) -> Unit, onBrowse: () -> Unit) {
     val total = pack.topics.size
     val finished = pack.topics.count { it.id in completed }
-    val remaining = pack.topics.firstOrNull { it.id !in completed }
     var showAbout by rememberSaveable { mutableStateOf(false) }
     LazyColumn(
         modifier = Modifier.fillMaxSize().background(paper).testTag("home-book-layout"),
@@ -258,25 +257,6 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
                                 onClick = { onScale(option) },
                                 label = { Text("${(option * 100).toInt()}%", fontSize = 11.sp) })
                         }
-                    }
-                }
-            }
-        }
-        if (remaining != null) {
-            item(key = "continue-reading") {
-                Card(onClick = { onOpen(remaining.id) },
-                    shape = RoundedCornerShape(14.dp),
-                    colors = CardDefaults.cardColors(containerColor = softAmber)) {
-                    Row(Modifier.fillMaxWidth().padding(horizontal = 14.dp, vertical = 11.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                            Text(loc(lang, "READ NEXT", "அடுத்துப் படிக்க"),
-                                color = accent, fontWeight = FontWeight.Bold, fontSize = 11.sp)
-                            BilingualText(remaining.title, lang, scale.coerceAtMost(1.3f),
-                                base = 14f, bold = true)
-                        }
-                        Text("›", color = teal, fontSize = 28.sp)
                     }
                 }
             }
