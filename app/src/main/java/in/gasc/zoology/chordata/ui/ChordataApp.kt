@@ -392,6 +392,29 @@ private fun ListingPage(pack: ContentPack, tab: String, query: String, onQuery: 
 }
 
 @Composable
+private fun PointwiseExplanation(points: List<Bilingual>, lang: ReadingLanguage, scale: Float) {
+    if (points.isEmpty()) return
+    Column(Modifier.fillMaxWidth().testTag("learning-points"),
+        verticalArrangement = Arrangement.spacedBy(7.dp)) {
+        HorizontalDivider(color = teal.copy(alpha = 0.22f))
+        Text(loc(lang, "Key explanations", "முக்கிய விளக்கக் குறிப்புகள்"),
+            color = teal, fontWeight = FontWeight.Bold,
+            fontSize = (13f * scale.coerceAtMost(1.5f)).sp)
+        points.forEachIndexed { number, point ->
+            Row(Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.Top,
+                horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("${number + 1}.", color = teal,
+                    fontWeight = FontWeight.Bold, fontSize = (14f * scale).sp,
+                    modifier = Modifier.width(23.dp))
+                BilingualText(point, lang, scale, modifier = Modifier.weight(1f),
+                    base = 15f, alignment = TextAlign.Start)
+            }
+        }
+    }
+}
+
+@Composable
 private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLanguage, scale: Float,
     page: Int, onPage: (Int) -> Unit, onNextTopic: () -> Unit,
     onComplete: () -> Unit, completed: Boolean, store: ProgressStore) {
@@ -437,6 +460,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                             BilingualText(section.body, lang, scale,
                                 modifier = Modifier.fillMaxWidth(),
                                 base = 16f, alignment = TextAlign.Justify)
+                            PointwiseExplanation(section.keyPoints, lang, scale)
                         }
                     }
                     // Every illustration stays immediately after its exact
@@ -477,9 +501,13 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                         if (page % 2 == 0) Color.White else paper
                     Card(shape = RoundedCornerShape(12.dp),
                         colors = CardDefaults.cardColors(containerColor = sectionColour)) {
-                        BilingualText(section.body, lang, scale,
-                            modifier = Modifier.fillMaxWidth().padding(13.dp),
-                            base = 16f, alignment = TextAlign.Justify)
+                        Column(Modifier.fillMaxWidth().padding(13.dp),
+                            verticalArrangement = Arrangement.spacedBy(9.dp)) {
+                            BilingualText(section.body, lang, scale,
+                                modifier = Modifier.fillMaxWidth(),
+                                base = 16f, alignment = TextAlign.Justify)
+                            PointwiseExplanation(section.keyPoints, lang, scale)
+                        }
                     }
                 }
                 // A separate lazy item keeps anatomy illustrations reachable at

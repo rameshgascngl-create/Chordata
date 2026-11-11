@@ -67,6 +67,27 @@ else:
     assert 'fun scoliodonBrainPlateIsReachableOnItsExactFourthSection()' in test_text
     assert 'captureQaScreen("scoliodon-brain-zoom-en-100")' in test_text
 
+# Additional lessons live outside the immutable syllabus course pack.
+# Validate their exact page anchors and bilingual completeness before Android QA.
+extras = json.loads((ASSETS / 'chordata_learning_points.json').read_text(encoding='utf-8'))
+course = json.loads((ASSETS / 'chordata_content.json').read_text(encoding='utf-8'))
+course_topics = [topic for unit in course['units'] for topic in unit['topics']]
+known_sections = {(topic['id'], section['key']) for topic in course_topics
+                  for section in topic['sections']}
+seen_enrichment = set()
+assert extras['schemaVersion'] == 1 and len(extras['sections']) == len(course_topics) == 39
+for block in extras['sections']:
+    name = (block['topicId'], block['sectionKey'])
+    assert name in known_sections and name not in seen_enrichment, ('Bad supplemental anchor', name)
+    seen_enrichment.add(name)
+    assert len(block['points']) == 3, ('Exactly three points required', name)
+    assert all(len(p['en'].strip()) >= 50 and len(p['ta'].strip()) >= 45
+               for p in block['points']), ('Incomplete bilingual point', name)
+assert len({topicId for topicId, _ in seen_enrichment}) == 39
+assert 'fun bilingualPointwiseEnrichmentPreservesOriginalChapterStructure()' in test_text
+assert 'PointwiseExplanation(section.keyPoints, lang, scale)' in (
+    ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
+
 # Confirm that all four remote jobs audit image source integrity before QA
 # publication; the fourth job is gated on compilation AND instrumentation.
 assert workflow.count('python3 scripts/audit_pencil_coverage.py') == 4

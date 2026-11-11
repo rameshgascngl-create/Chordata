@@ -25,6 +25,27 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
+    @Test fun bilingualPointwiseEnrichmentPreservesOriginalChapterStructure() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        org.junit.Assert.assertEquals(5, pack.units.size)
+        org.junit.Assert.assertEquals(39, pack.topics.size)
+        org.junit.Assert.assertEquals(127, pack.topics.sumOf { it.sections.size })
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+        val enriched = pack.topics.flatMap { it.sections }.filter { it.keyPoints.isNotEmpty() }
+        org.junit.Assert.assertEquals(39, enriched.size)
+        org.junit.Assert.assertEquals(117, enriched.sumOf { it.keyPoints.size })
+        org.junit.Assert.assertTrue(enriched.all { section ->
+            section.keyPoints.size == 3 && section.keyPoints.all { point ->
+                point.en.length >= 50 && point.ta.length >= 45
+            }
+        })
+        val origin = requireNotNull(pack.findTopic("u1-origin")).sections.first()
+        org.junit.Assert.assertTrue(origin.keyPoints[0].en.contains("deuterostome"))
+        org.junit.Assert.assertTrue(origin.keyPoints[0].ta.contains("முதுகுநாணிகள்"))
+    }
+
     @Test fun creditedReferenceAssetsAreBundledAndMappedCorrectly() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val images = org.json.JSONArray(context.assets.open("figures.json").bufferedReader().use { it.readText() })

@@ -7,7 +7,10 @@ data class QuizQuestion(
     val correctIndex: Int,
     val explanation: Bilingual
 )
-data class LessonSection(val key: String, val heading: Bilingual, val body: Bilingual)
+data class LessonSection(
+    val key: String, val heading: Bilingual, val body: Bilingual,
+    val keyPoints: List<Bilingual> = emptyList()
+)
 data class LessonTopic(
     val id: String,
     val title: Bilingual,
