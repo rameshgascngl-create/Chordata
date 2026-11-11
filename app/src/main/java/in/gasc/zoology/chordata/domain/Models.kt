@@ -27,15 +27,15 @@ data class ContentPack(val schemaVersion: Int, val credit: String, val units: Li
 enum class ReadingLanguage { EN, TA }
 
 object LearningLogic {
-    /** 0 = chapter overview; 1..sections.size = individual section; last = quiz. */
-    fun lastPage(topic: LessonTopic): Int = topic.sections.size + 1
+    /** 0 = chapter guide + first section; 1..(n-1) = remaining sections; n = quiz. */
+    fun lastPage(topic: LessonTopic): Int = topic.sections.size
     fun isQuizPage(topic: LessonTopic, page: Int): Boolean = page == lastPage(topic)
     fun pageAfter(topic: LessonTopic, current: Int): Int = (current + 1).coerceAtMost(lastPage(topic))
     fun pageBefore(current: Int): Int = (current - 1).coerceAtLeast(0)
     fun title(topic: LessonTopic, page: Int): Bilingual = when {
         page <= 0 -> topic.title
-        page > topic.sections.size -> Bilingual("Practice", "பயிற்சி")
-        else -> topic.sections[page - 1].heading
+        page >= topic.sections.size -> Bilingual("Practice", "பயிற்சி")
+        else -> topic.sections[page].heading
     }
     fun search(pack: ContentPack, query: String): List<LessonTopic> {
         val needle = query.trim().lowercase()
