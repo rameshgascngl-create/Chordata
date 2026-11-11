@@ -531,7 +531,14 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     }.getOrNull() else null
                 }
                 var creditsExpanded by remember(plate.id) { mutableStateOf(false) }
-                var captionExpanded by remember(plate.id) { mutableStateOf(false) }
+                // Numeric-only trees and dense comparison plates are unusable
+                // unless the anatomical key is visible without another tap.
+                val essentialKey = plate.id in setOf(
+                    "u1-vertebrata-classification-vertebrate-phylogeny",
+                    "u1-agnatha-petromyzon-adult-larva",
+                    "u5-columba-sense-organs"
+                )
+                var captionExpanded by remember(plate.id) { mutableStateOf(essentialKey) }
                 val fullCaption = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn
                 val conciseCaption = fullCaption.substringBefore('\n').trim()
                 val extendedCaption = fullCaption.substringAfter('\n', "").trim()
