@@ -27,6 +27,12 @@ PAGE="https://commons.wikimedia.org/wiki/File:The_incisors,_canines,_small_and_l
 SOURCE="https://upload.wikimedia.org/wikipedia/commons/e/e3/The_incisors%2C_canines%2C_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg"
 ALTERNATE="https://commons.wikimedia.org/wiki/Special:Redirect/file/The_incisors,_canines,_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg"
 OLD_SHA="00f31052fbc9bc5bba7a7a19d99c77d7dd8dea6ccef3748ac759b8ade2543708"
+# Source and destination are pinned to a previously verified exact image.
+# Known installed state must be idempotent; anything else remains a hard failure.
+INSTALLED_SHA="f4769037610ed1ea2c9c19342d18d9805828976e8fcff8abf3fff61434e7c56c"
+INSTALLED_BYTES=18917403
+SOURCE_SHA256="8594592cc6550125df01c8067e0c6129640e7668387d44a8a50781c05783f5f8"
+SOURCE_SHA1="955cb1528337d7045057d0b737163bc852540ee4"
 AUTHOR="A. Tardieu (historical engraving, as attributed by Wellcome Collection); Wellcome Collection (digitised image)"
 
 def get_exact_original():
@@ -52,15 +58,73 @@ def get_exact_original():
         sleep(2+i*4)
     raise RuntimeError("No original full-resolution Wellcome engraving verified; installed artwork unchanged. "+"; ".join(errors))
 
+def validate_existing_install(e):
+    """Accept only the exact credited image previously installed and recorded.
+
+    A rerun must never download, rewrite, or silently replace this known binary.
+    Any mismatch in bytes, provenance, coverage, or audit notes is a hard failure.
+    """
+    if e.get("sha256") != INSTALLED_SHA:
+        return False
+    raw = PNG.read_bytes()
+    if hashlib.sha256(raw).hexdigest() != INSTALLED_SHA or len(raw) != INSTALLED_BYTES:
+        raise RuntimeError("Installed Wellcome tooth PNG differs from pinned verified bytes")
+    with Image.open(BytesIO(raw)) as im:
+        if im.format != "PNG" or im.size != (3540, 2316) or im.mode != "RGB":
+            raise RuntimeError("Installed Wellcome tooth PNG has wrong image format/dimensions/mode")
+        im.verify()
+
+    pinned = {
+        "size": INSTALLED_BYTES,
+        "author": AUTHOR,
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceUrl": PAGE,
+        "sourceImageUrl": SOURCE,
+        "sourceSha1": SOURCE_SHA1,
+        "sourceSha256": [SOURCE_SHA256],
+        "sourceKind": "WELLCOME_TARDIEU_AUTHENTIC_ADULT_DENTITION_JPEG_TO_PNG",
+        "sourceFormat": "JPEG",
+        "installedFormat": "PNG",
+        "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
+        "visualReview": "AUTHENTIC_WELLCOME_TOOTH_PLATE_PENDING_EXPERT_REVIEW",
+        "topicId": "u5-dentition",
+        "page": 1,
+        "sectionKey": "tooth-types",
+    }
+    for name, expected in pinned.items():
+        if e.get(name) != expected:
+            raise RuntimeError("Installed Wellcome tooth manifest metadata mismatch: " + name)
+    if "CC BY 4.0" not in e.get("license", "") or "Wellcome Collection" not in e.get("license", ""):
+        raise RuntimeError("Installed Wellcome tooth plate has missing source license")
+    if not (e.get("keyEn") and e.get("keyTa")):
+        raise RuntimeError("Installed Wellcome tooth plate has missing English/Tamil keys")
+
+    with LEDGER.open(newline="", encoding="utf-8") as f:
+        rows = [r for r in csv.DictReader(f, delimiter="\t") if r.get("diagramId") == ID]
+    if len(rows) != 1 or rows[0].get("author") != AUTHOR or rows[0].get("referenceSources") != PAGE:
+        raise RuntimeError("Installed Wellcome tooth plate has mismatched coverage ledger")
+    if not REPORT.exists():
+        raise RuntimeError("Installed Wellcome tooth plate lacks its provenance report")
+    report = REPORT.read_text(encoding="utf-8")
+    if INSTALLED_SHA not in report or SOURCE_SHA256 not in report or "PENDING" not in report:
+        raise RuntimeError("Installed Wellcome tooth plate has mismatched provenance report")
+    print("PASS: verified exact pre-installed Wellcome dentition PNG, attribution and provisional QA records", INSTALLED_SHA)
+    return True
+
+
 def main():
-    raw,source_image,retrieval_url=get_exact_original()
     current=json.loads(MANIFEST.read_text(encoding="utf-8"))
     items=[x for x in current["figures"] if x.get("diagramId")==ID]
     if len(items)!=1 or items[0]["lang"]!="shared" or items[0]["path"]!="pencil_plates/human_tooth_types.png":
         raise RuntimeError("Unexpected adult tooth-types placement")
     e=items[0]
+    if validate_existing_install(e):
+        return
     if e["sha256"]!=OLD_SHA:
         raise RuntimeError("Tooth-types asset changed independently; refusing overwrite")
+    if hashlib.sha256(PNG.read_bytes()).hexdigest() != OLD_SHA:
+        raise RuntimeError("Prior tooth-types PNG bytes disagree with old manifest; refusing overwrite")
+    raw,source_image,retrieval_url=get_exact_original()
     # Source image is JPEG: only decode and re-encode to RGB PNG.
     out=BytesIO()
     source_image.convert("RGB").save(out,format="PNG",optimize=True,compress_level=9)
