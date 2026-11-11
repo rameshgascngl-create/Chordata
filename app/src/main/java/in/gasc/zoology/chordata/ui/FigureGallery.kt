@@ -496,7 +496,9 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             }
                             TextButton(onClick = { showOriginal = !showOriginal },
                                 modifier = Modifier.testTag("figure-pigeon-composite-toggle")) {
-                                Text(if (showOriginal) "Hide complete plate" else "View complete plate")
+                                Text(if (lang == ReadingLanguage.TA)
+                                    (if (showOriginal) "முழுப் படத்தை மறை" else "முழு ஒப்பீட்டுப் படத்தைக் காண்க")
+                                else (if (showOriginal) "Hide complete plate" else "View complete plate"))
                             }
                             if (showOriginal) Image(bitmap = bitmap, contentDescription = plate.captionEn,
                                 contentScale = ContentScale.Fit,
@@ -514,7 +516,9 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                     .testTag("figure-image-" + plate.id))
                             TextButton(onClick = { showOriginal = !showOriginal },
                                 modifier = Modifier.testTag("figure-skeleton-composite-toggle")) {
-                                Text(if (showOriginal) "Hide complete plate" else "View complete historical plate")
+                                Text(if (lang == ReadingLanguage.TA)
+                                    (if (showOriginal) "முழுப் படத்தை மறை" else "முழு வரலாற்றுப் படம்")
+                                else (if (showOriginal) "Hide complete plate" else "View complete historical plate"))
                             }
                             if (showOriginal) Image(bitmap = bitmap, contentDescription = plate.captionEn,
                                 contentScale = ContentScale.Fit,
