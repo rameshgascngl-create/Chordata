@@ -10,6 +10,7 @@ import androidx.compose.ui.test.isDisplayed
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performScrollToIndex
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onRoot
@@ -338,8 +339,9 @@ class ReaderNavigationTest {
         selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
-        rule.onNodeWithTag("read-full-chapter").performClick()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(0)
+        // The outline can exceed the viewport on compact devices or at 200% text.
+        // Scroll the actual button into view before sending its touch event.
+        rule.onNodeWithTag("read-full-chapter").performScrollTo().assertIsDisplayed().performClick()
         rule.onNodeWithText("CONTINUOUS CHAPTER READING").assertIsDisplayed()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
         rule.onNodeWithText("Ancestry versus resemblance").assertIsDisplayed()
