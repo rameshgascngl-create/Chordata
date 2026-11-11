@@ -143,7 +143,7 @@ def calotes():
     path(d,'M465 444 L465 530',RED,8); arrow(d,465,530,0,8,RED)
     path(d,'M1260 444 Q1113 466 972 528',BLUE,8);arrow(d,972,528,-7,4,BLUE)
     path(d,'M642 748 Q800 801 914 748',RED,7);arrow(d,914,748,9,-1,RED)
-    txt(d,'Intercaval flow',784,818,19,False,MUTED,'middle')
+    txt(d,'Intercavitary flow',784,818,19,False,MUTED,'middle')
     path(d,'M980 738 Q1100 805 1208 738',BLUE,7);arrow(d,1208,738,8,-2,BLUE)
     # Systemic arches arise from central cavum venosum outflow region, not separate atria.
     path(d,'M875 531 Q887 464 907 439 L904 311',TEAL,9)
