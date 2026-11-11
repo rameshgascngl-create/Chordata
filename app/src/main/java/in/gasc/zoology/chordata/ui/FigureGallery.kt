@@ -211,12 +211,12 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
     val replacedIds = pencilBySlot.mapNotNull { it.first.provisionalFigureId }.toSet()
     val visiblePlates = pencilBySlot.map { it.second } +
         relevant.filter { it.id in matchingDraftIds && it.id !in replacedIds }
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
         if (userRejectedSlots.isNotEmpty()) {
             Text(
                 if (lang == ReadingLanguage.TA)
-                    "இந்தப் பாடத்தின் உடற்கூறியல் வரைபடம் தரச் சரிபார்ப்பில் நிராகரிக்கப்பட்டதால் காட்டப்படவில்லை. சரியான மாற்றுப் படம் தேவை."
-                else "This anatomical illustration was rejected in quality review and is withheld. A scientifically checked replacement is required.",
+                    "இந்தப் பாடத்திற்கான உடற்கூறியல் விளக்கப்படம் தற்போது கிடைக்கவில்லை."
+                else "The anatomical illustration for this section is currently unavailable.",
                 modifier = Modifier.testTag("figure-rejected-quality"),
                 color = MaterialTheme.colorScheme.error
             )
@@ -232,8 +232,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
         if (page == 0 && requestedCount > 0) {
             Text(
                 if (lang == ReadingLanguage.TA)
-                    "இந்தப் பாடத்தில் " + topicSlots.size + (if (topicSlots.size == 1) " வரைபடம்" else " வரைபடங்கள்") + " திட்டமிடப்பட்டுள்ளன. ஒப்புதல் பெற்ற உடற்கூறியல் வரைபடங்கள் இன்னும் சேர்க்கப்படவில்லை. வரைபடங்கள் உரிய பாடப் பக்கங்களில் மட்டுமே காட்டப்படும்."
-                else "This chapter has " + topicSlots.size + (if (topicSlots.size == 1) " planned diagram." else " planned diagrams.") + " No anatomical plate is academically approved yet. Available draft drawings appear only in the relevant lesson sections.",
+                    "இந்தப் பாடத்தின் விளக்கப்படங்கள் தொடர்புடைய பாடப்பகுதிகளில் இடம்பெறும்."
+                else "Illustrations appear alongside the corresponding lesson explanations.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.testTag("figure-overview-status")
@@ -270,20 +270,17 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     modifier = Modifier.testTag("figure-error-" + plate.id))
             } else {
                 var zoomed by remember(plate.id) { mutableStateOf(false) }
-                Card(modifier = Modifier.fillMaxWidth().testTag("figure-" + plate.id)) {
-                    Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text(if (plate.assetDirectory == "pencil_plates")
-                            (if (lang == ReadingLanguage.TA)
-                                "வரைவுப் படம் · உடற்கூறியல் சரிபார்ப்பு நிலுவையில் உள்ளது"
-                             else "Draft anatomical plate · scientific review pending")
-                            else if (plate.sourceUrl.isNotEmpty())
-                            (if (lang == ReadingLanguage.TA)
-                                "பட உரிமையாளர் குறிப்பிடப்பட்ட ஆதாரம் · அறிவியல் ஒப்புதல் நிலுவை"
-                             else "Source-credited reference · anatomical approval pending")
-                            else (if (lang == ReadingLanguage.TA)
-                                "தற்காலிகக் கோட்டோவியம் · அறிவியல் ஒப்புதல் நிலுவை"
-                             else "Provisional outline · anatomical approval pending"),
-                            fontWeight = FontWeight.SemiBold)
+                var creditsExpanded by remember(plate.id) { mutableStateOf(false) }
+                Card(
+                    modifier = Modifier.fillMaxWidth().testTag("figure-" + plate.id),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+                ) {
+                    Column(Modifier.padding(10.dp),
+                        verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                        Text(if (lang == ReadingLanguage.TA) "விளக்கப்படம்" else "Illustration",
+                            color = MaterialTheme.colorScheme.primary,
+                            fontWeight = FontWeight.SemiBold,
+                            style = MaterialTheme.typography.labelMedium)
                         Image(bitmap = bitmap, contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
                             contentScale = ContentScale.Fit,
                             modifier = Modifier.fillMaxWidth().heightIn(
@@ -291,6 +288,15 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 max = if (plate.id == "u2-scoliodon-brain-labelled") 540.dp else 340.dp)
                                 .clickable { zoomed = true }.testTag("figure-image-" + plate.id))
                         Text(if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
+                        TextButton(
+                            onClick = { creditsExpanded = !creditsExpanded },
+                            modifier = Modifier.testTag("figure-credits-toggle-" + plate.id)
+                        ) {
+                            Text(if (lang == ReadingLanguage.TA)
+                                (if (creditsExpanded) "பட மூல விவரங்களை மறை" else "பட மூலம் மற்றும் உரிமம்")
+                                else (if (creditsExpanded) "Hide image credits" else "Image source and credits"))
+                        }
+                        if (creditsExpanded) {
                         Text(
                             if (lang == ReadingLanguage.TA)
                                 "படத்தை உருவாக்கியது: " + plate.author +
@@ -336,7 +342,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 }
                             }
                         }
-                        Text(if (lang == ReadingLanguage.TA) "பெரிதாக்கப் படத்தைத் தொடுக" else "Tap image to enlarge",
+                        }
+                        Text(if (lang == ReadingLanguage.TA) "பெரிதாகக் காண படத்தைத் தொடுக" else "Tap the illustration to zoom",
                             style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
                     }
                 }
