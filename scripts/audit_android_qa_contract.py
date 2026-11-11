@@ -102,7 +102,14 @@ assert 'figure-overview-status' not in gallery_ui, 'Non-subject figure status re
 assert 'figure-image-' in gallery_ui and 'figure-credits-toggle-' in gallery_ui
 assert 'figure-rejected-quality' in gallery_ui and 'figure-error-' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
-assert 'Illustrations appear alongside the corresponding lesson explanations.' in gallery_ui
+# Technical QA terminology must be retained in provenance fields, not in student keys.
+for figure in entries:
+    student_key = (figure.get('keyEn', '') + ' ' + figure.get('keyTa', '')).lower()
+    for phrase in ('scientific review pending', 'anatomical signoff pending',
+                   'requires independent zoology review', 'provisional:',
+                   'உடற்கூறியல் ஒப்புதல் நிலுவையில்', 'அறிவியல் சரிபார்ப்பு நிலுவையில்',
+                   'பெயரிடல் சரிபார்ப்பு நிலுவையில்'):
+        assert phrase not in student_key, ('Internal review note leaked into figure caption', figure['diagramId'], phrase)
 assert 'needs: [prepare-figures, native-qa, android-instrumentation]' in workflow, 'APK publication must depend on BOTH compilation and emulator instrumentation'
 assert "needs.native-qa.result == 'success' && needs.android-instrumentation.result == 'success'" in workflow, 'Final published APK must use explicit success gates'
 assert workflow.index('publish-tested-qa-apk:') > workflow.index('android-instrumentation:'), 'Final publication must occur after instrumentation job'
