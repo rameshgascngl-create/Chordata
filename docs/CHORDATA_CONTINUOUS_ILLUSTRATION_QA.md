@@ -2,6 +2,10 @@
 
 **Scope:** native Kotlin/Android CHORDATA project, 64 registered lesson figures. This is a continuous QA stream, not a numbered stage. **Production remains on HOLD.**
 
+## Owner direction — 11 November 2026: AI artwork may be used in QA
+
+The project owner has authorised **provisional use of original AI-generated figure artwork** and acceptance of **minor cosmetic imperfections** in the QA app. This direction is tracked per currently registered AI figure by the `ownerQaAcceptance` manifest field, and documented in [CHORDATA_AI_QA_OWNER_APPROVAL_20261111.md](CHORDATA_AI_QA_OWNER_APPROVAL_20261111.md). It is **not** independent scientific or Tamil approval. A materially wrong organ relationship, species label, leader line or learning-objective mismatch still requires correction before academic or store release. Do not block QA merely for the artwork's AI origin.
+
 ## Selection standard
 
 1. Use an authentic published anatomical drawing or scientifically documented source when it correctly depicts the species, exact organ system, orientation and lesson learning objective. Verify the exact creator, original file/page, reuse licence, transformations and source checksum. Convert to an offline PNG without inventing or silently altering anatomy. Do not use museum specimen photographs in place of anatomical teaching diagrams.
