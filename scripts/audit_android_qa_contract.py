@@ -96,7 +96,9 @@ assert 'FigureGallery(topic.id, page, lang' in app_ui
 assert 'figure-credits-toggle-' in gallery_ui, 'Image credits must remain accessible'
 assert 'Image source and credits' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
-assert 'Illustrations appear alongside the corresponding lesson explanations.' in gallery_ui
+assert 'No anatomical plate is academically approved yet' not in gallery_ui
+assert 'This chapter has ' not in gallery_ui
+assert 'figure-credits-toggle-' in gallery_ui
 assert 'needs: [prepare-figures, native-qa, android-instrumentation]' in workflow, 'APK publication must depend on BOTH compilation and emulator instrumentation'
 assert "needs.native-qa.result == 'success' && needs.android-instrumentation.result == 'success'" in workflow, 'Final published APK must use explicit success gates'
 assert workflow.index('publish-tested-qa-apk:') > workflow.index('android-instrumentation:'), 'Final publication must occur after instrumentation job'

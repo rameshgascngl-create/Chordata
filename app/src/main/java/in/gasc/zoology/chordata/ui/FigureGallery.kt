@@ -233,16 +233,6 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 color = MaterialTheme.colorScheme.error
             )
         }
-        if (page == 0 && requestedCount > 0) {
-            Text(
-                if (lang == ReadingLanguage.TA)
-                    "இந்தப் பாடத்தின் விளக்கப்படங்கள் தொடர்புடைய பாடப்பகுதிகளில் இடம்பெறும்."
-                else "Illustrations appear alongside the corresponding lesson explanations.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.testTag("figure-overview-status")
-            )
-        }
         val unexpected = relevant.filter { it.id !in matchingDraftIds }
         if (unexpected.isNotEmpty()) {
             Text(

@@ -204,16 +204,13 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
                 shape = RoundedCornerShape(20.dp),
                 colors = CardDefaults.cardColors(containerColor = teal)
             ) {
-                Column(Modifier.fillMaxWidth().padding(18.dp),
-                    verticalArrangement = Arrangement.spacedBy(7.dp)) {
-                    Text(loc(lang, "UNDERGRADUATE ZOOLOGY", "இளநிலை விலங்கியல்"),
-                        fontSize = 11.sp, letterSpacing = 1.sp,
-                        color = Color(0xFFD6EEE6), fontWeight = FontWeight.SemiBold)
-                    Text("CHORDATA", fontSize = 30.sp, color = Color.White,
+                Column(Modifier.fillMaxWidth().padding(13.dp),
+                    verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Text("CHORDATA", fontSize = 28.sp, color = Color.White,
                         fontWeight = FontWeight.ExtraBold, letterSpacing = 1.1.sp,
                         modifier = Modifier.testTag("subject-title"))
                     Text(loc(lang, "The Chordata Fieldbook", "முதுகுநாணிகள் கற்றல் களஞ்சியம்"),
-                        color = Color.White, fontSize = (16f * scale.coerceAtMost(1.25f)).sp,
+                        color = Color.White, fontSize = (15f * scale.coerceAtMost(1.15f)).sp,
                         fontWeight = FontWeight.Medium)
                     Text(
                         loc(lang,
@@ -221,15 +218,14 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
                             "${pack.units.size} அலகுகள்  ·  $total பாடங்கள்  ·  ${pack.topics.sumOf { it.quiz.size }} வினாக்கள்"),
                         color = Color(0xFFE8F7F3), fontSize = 12.sp
                     )
-                    Spacer(Modifier.height(2.dp))
                     LinearProgressIndicator(
                         progress = { if (total == 0) 0f else finished.toFloat() / total },
                         color = Color(0xFFF5CE79), trackColor = Color(0xFF5B9990),
-                        modifier = Modifier.fillMaxWidth().height(7.dp)
+                        modifier = Modifier.fillMaxWidth().height(5.dp)
                     )
                     Text(loc(lang, "$finished of $total chapters completed",
                         "$total பாடங்களில் $finished முடிக்கப்பட்டுள்ளன"),
-                        fontSize = 12.sp, color = Color.White)
+                        fontSize = 11.sp, color = Color.White)
                     Button(
                         onClick = onBrowse, shape = RoundedCornerShape(12.dp),
                         colors = ButtonDefaults.buttonColors(
@@ -241,37 +237,26 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
             }
         }
         item(key = "reader-preferences") {
-            Card(shape = RoundedCornerShape(14.dp),
+            Card(shape = RoundedCornerShape(12.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.White)) {
-                Column(Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 8.dp),
-                    verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                    Text(loc(lang, "Reading preferences", "வாசிப்பு அமைப்புகள்"),
-                        color = ink, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                Column(Modifier.fillMaxWidth().padding(horizontal = 10.dp, vertical = 5.dp),
+                    verticalArrangement = Arrangement.spacedBy(0.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                         Text(loc(lang, "Language", "மொழி"), fontSize = 12.sp,
-                            modifier = Modifier.width(76.dp), color = mutetext)
+                            modifier = Modifier.width(70.dp), color = mutetext)
                         ReadingLanguage.entries.forEach { option ->
                             FilterChip(selected = option == lang, onClick = { onLanguage(option) },
                                 label = { Text(if (option == ReadingLanguage.TA) "தமிழ்" else
-                                    loc(lang, "English", "ஆங்கிலம்"), fontSize = 12.sp) })
+                                    loc(lang, "English", "ஆங்கிலம்"), fontSize = 11.sp) })
                         }
                     }
                     Row(verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(5.dp)) {
-                        Text(loc(lang, "Text size", "எழுத்தளவு"), fontSize = 12.sp,
-                            modifier = Modifier.width(76.dp), color = mutetext)
-                        Column(verticalArrangement = Arrangement.spacedBy(0.dp)) {
-                            listOf(listOf(1f, 1.25f), listOf(1.5f, 2f)).forEach { sizes ->
-                                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                                    sizes.forEach { option ->
-                                        FilterChip(selected = scale == option,
-                                            onClick = { onScale(option) },
-                                            label = { Text("${(option * 100).toInt()}%",
-                                                fontSize = 11.sp) })
-                                    }
-                                }
-                            }
+                        horizontalArrangement = Arrangement.SpaceBetween) {
+                        listOf(1f, 1.25f, 1.5f, 2f).forEach { option ->
+                            FilterChip(selected = scale == option,
+                                onClick = { onScale(option) },
+                                label = { Text("${(option * 100).toInt()}%", fontSize = 11.sp) })
                         }
                     }
                 }
