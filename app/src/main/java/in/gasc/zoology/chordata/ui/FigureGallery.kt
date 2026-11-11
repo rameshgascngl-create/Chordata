@@ -22,6 +22,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
@@ -265,6 +267,15 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             } else {
                 var zoomed by remember(plate.id) { mutableStateOf(false) }
                 var creditsExpanded by remember(plate.id) { mutableStateOf(false) }
+                var captionExpanded by remember(plate.id) { mutableStateOf(false) }
+                val fullCaption = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn
+                val conciseCaption = fullCaption.substringBefore('\n').trim()
+                val extendedCaption = fullCaption.substringAfter('\n', "").trim()
+                val previewHeight = when {
+                    bitmap.height > bitmap.width * 1.2f -> 470.dp
+                    bitmap.width > bitmap.height * 1.6f -> 250.dp
+                    else -> 350.dp
+                }
                 Card(
                     modifier = Modifier.fillMaxWidth().testTag("figure-" + plate.id),
                     colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
@@ -277,11 +288,27 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             style = MaterialTheme.typography.labelMedium)
                         Image(bitmap = bitmap, contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
                             contentScale = ContentScale.Fit,
-                            modifier = Modifier.fillMaxWidth().heightIn(
-                                min = 170.dp,
-                                max = if (plate.id == "u2-scoliodon-brain-labelled") 540.dp else 340.dp)
+                            modifier = Modifier.fillMaxWidth().height(previewHeight)
                                 .clickable { zoomed = true }.testTag("figure-image-" + plate.id))
-                        Text(if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
+                        Text(conciseCaption,
+                            fontSize = 14.sp,
+                            lineHeight = 19.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            maxLines = if (captionExpanded) Int.MAX_VALUE else 2,
+                            overflow = TextOverflow.Ellipsis)
+                        if (extendedCaption.isNotEmpty()) {
+                            TextButton(onClick = { captionExpanded = !captionExpanded },
+                                modifier = Modifier.testTag("figure-caption-toggle-" + plate.id)) {
+                                Text(if (captionExpanded)
+                                    if (lang == ReadingLanguage.TA) "விளக்கக் குறிப்பை மறை" else "Hide figure key"
+                                else if (lang == ReadingLanguage.TA) "படக் குறியீடுகளைப் படிக்க" else "View labels and figure key")
+                            }
+                            if (captionExpanded) {
+                                Text(extendedCaption, fontSize = 12.sp,
+                                    lineHeight = 18.sp,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            }
+                        }
                         TextButton(
                             onClick = { creditsExpanded = !creditsExpanded },
                             modifier = Modifier.testTag("figure-credits-toggle-" + plate.id)
