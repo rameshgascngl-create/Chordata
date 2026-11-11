@@ -211,7 +211,7 @@ class ReaderNavigationTest {
         org.junit.Assert.assertTrue(
             "Tamil next-page button collapsed: " + bounds, bounds.width > bounds.height * 1.7f)
         rule.onNodeWithTag("reader-next").performClick()
-        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("இரண்டாம் வாயிலுள்ள உயிரிகளின் பரிணாம உறவு")
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("இரண்டாம் வாயின உயிரிகளின் பரிணாம உறவு")
     }
 
     @Test fun tamilCompactHeaderFitsAndBackWorks() {
