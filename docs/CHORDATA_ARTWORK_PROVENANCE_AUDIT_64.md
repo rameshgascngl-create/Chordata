@@ -9,8 +9,8 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 ## Inventory
 
 - Source-credited artwork (still provisional): **24**
-- Computer-drawn vector exported as PNG: **23**
-- No authenticated external source (project-drawn/AI): **7**
+- Computer-drawn vector exported as PNG: **21**
+- No authenticated external source (project-drawn/AI): **9**
 - Source-based edited composite: **7**
 - AI-generated candidate: **3**
 
@@ -51,8 +51,8 @@ All app illustration files are PNG bitmaps; converting vector outlines to PNG do
 | u3-parental-care-parental-care-comparison | amphibian_parental_care_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u4-reptilia-classification-living-reptile-orders | living_reptile_groups_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
 | u4-calotes-external | calotes_external_en.png | Source-credited artwork (still provisional) | STANDARD | Unknown historical engraver; Iconographia Zoologica, University of Amsterdam Special Collections, print dated only between 1700 and 1880 | https://commons.wikimedia.org/wiki/File:Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif |
-| u4-calotes-digestive-system | calotes_digestive_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
-| u4-calotes-respiratory-system | calotes_respiratory_en.png | Computer-drawn vector exported as PNG | STANDARD | CHORDATA QA — original vector anatomical schematic |  |
+| u4-calotes-digestive-system | calotes_digestive_en.png | No authenticated external source (project-drawn/AI) | STANDARD | OpenAI ChatGPT ImageGen — original Calotes versicolor digestive-system anatomical teaching candidate (2026-11-08) |  |
+| u4-calotes-respiratory-system | calotes_respiratory_en.png | No authenticated external source (project-drawn/AI) | STANDARD | OpenAI ChatGPT ImageGen — AI-assisted original candidate (8 November 2026; corrected labels) |  |
 | u4-calotes-arterial-system | calotes_heart_arteries_en.png | Computer-drawn vector exported as PNG | HIGH | CHORDATA QA — original vector anatomical schematic |  |
 | u4-calotes-brain | calotes_brain_dorsal_en.png | AI-generated candidate | HIGH | OpenAI ChatGPT image generation — AI-assisted original QA illustration |  |
 | u4-origin-extinct-amniote-phylogeny | amniote_phylogeny.png | No authenticated external source (project-drawn/AI) | HIGH | Chordata QA project — original numbered schematic |  |
