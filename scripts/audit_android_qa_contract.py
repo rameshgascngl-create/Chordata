@@ -46,7 +46,7 @@ assert 'assetDirectory = assetDirectory' in gallery_text, 'Gallery must honour c
 assert 'filename = entry.getString("path").substringAfterLast' not in gallery_text
 assert all(e['path'].startswith('pencil_plates/') and len(e['path'].split('/')) == 2 for e in entries), 'Manifest still contains staging aliases'
 assert 'pencilPlates[slot.id to language]' not in gallery_text
-assert 'FigureGallery(topic.id, page, lang' in (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
+assert 'FigureGallery(topic.id, page + 1, lang' in (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
 
 # Reproducibility: a ZIP extractor may not restore Unix executable bits.
 # The entrypoint must invoke the Kotlin smoke-test shell script explicitly.
@@ -108,18 +108,21 @@ assert 'scripts/test_apk_source_fixture.py' in qa_script
 assert workflow.count('python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk') == 2
 assert 'scripts/audit_built_apk_assets.py" --self-test' in qa_script
 # Student-facing pages should not expose internal QA status and build jargon.
+# The first reader page is now guide + first real section; figure register
+# remains 1-based by section and is not rewritten or duplicated.
 app_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
 gallery_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/FigureGallery.kt').read_text(encoding='utf-8')
 assert 'All 64 lesson-diagram slots contain provisional illustrations' not in app_ui
 assert 'home-book-layout' in app_ui and 'subject-title' in app_ui
-assert 'alignment = TextAlign.Justify' in app_ui, 'Lesson paragraphs must be justified'
+assert 'alignment = TextAlign.Start' in app_ui, 'Mobile lesson paragraphs must remain readable without stretched word spaces'
+assert 'alignment = TextAlign.Justify' not in app_ui, 'Phone-width full justification reintroduced'
 assert 'reader-next' in app_ui and 'reader-previous' in app_ui, 'Full-width reader navigation tags absent'
 assert 'fun tamilPagerRemainsWideAt200Percent()' in test_text, 'Tamil 200% pager regression test missing'
 assert 'if (currentTopic == null) {' in app_ui and 'app-bottom-navigation' in app_ui, (
     'Student lesson view must use the reclaimed bottom-bar area')
 assert 'fun lessonHidesBottomNavigationAndRestoresItOnBack()' in test_text, (
     'Missing Android navigation/reading-area regression test')
-assert 'FigureGallery(topic.id, page, lang' in app_ui
+assert 'FigureGallery(topic.id, page + 1, lang' in app_ui
 assert 'figure-credits-toggle-' in gallery_ui, 'Image credits must remain accessible'
 assert 'Image source and credits' in gallery_ui
 # Student pages must not repeat internal QA and sign-off notices beneath
