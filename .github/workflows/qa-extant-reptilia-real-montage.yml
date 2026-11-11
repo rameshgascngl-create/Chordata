@@ -1,0 +1,72 @@
+name: CHORDATA QA - source verified living reptile orders montage
+on:
+  push:
+    branches: ["qa/reptilia-real-montage-20261111"]
+    paths:
+      - "scripts/stage_extant_reptilia_commons_montage.py"
+      - ".github/workflows/qa-extant-reptilia-real-montage.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-verify-compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install Pillow==11.3.0
+      - name: Verify original Commons JPEG SHA1 and stage exact offline PNG
+        run: python3 scripts/stage_extant_reptilia_commons_montage.py
+      - name: Verify source and independent-review guards
+        run: bash scripts/qa_all.sh
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+      - name: Install Android SDK API 37
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then
+            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"
+          fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+      - name: Compile pure native Android Kotlin
+        run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Commit ONLY sourced montage and exact review metadata to staging branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/living_reptile_groups_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          git add docs/CHORDATA_EXTANT_REPTILIA_COMMONS_QA_20261111.md
+          if ! git diff --cached --quiet; then
+            git diff --cached --stat
+            git commit -m "assets(qa): source original four-order living reptile photo montage"
+            git push origin HEAD:qa/reptilia-real-montage-20261111
+          fi
+      - name: Preserve source and QA evidence for independent review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Real_Reptile_Orders_Montage_Review
+          path: |
+            app/src/main/assets/pencil_plates/living_reptile_groups_en.png
+            docs/CHORDATA_EXTANT_REPTILIA_COMMONS_QA_20261111.md
+          if-no-files-found: warn
+          retention-days: 14
