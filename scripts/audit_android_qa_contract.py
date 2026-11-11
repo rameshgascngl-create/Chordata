@@ -86,7 +86,17 @@ assert 'python3 scripts/test_apk_source_fixture.py' in workflow
 assert 'scripts/test_apk_source_fixture.py' in qa_script
 assert workflow.count('python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk') == 2
 assert 'scripts/audit_built_apk_assets.py" --self-test' in qa_script
-assert 'All 64 lesson-diagram slots contain provisional illustrations' in (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
+# Student-facing pages should not expose internal QA status and build jargon.
+app_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
+gallery_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/FigureGallery.kt').read_text(encoding='utf-8')
+assert 'All 64 lesson-diagram slots contain provisional illustrations' not in app_ui
+assert 'home-book-layout' in app_ui and 'subject-title' in app_ui
+assert 'alignment = TextAlign.Justify' in app_ui, 'Lesson paragraphs must be justified'
+assert 'FigureGallery(topic.id, page, lang' in app_ui
+assert 'figure-credits-toggle-' in gallery_ui, 'Image credits must remain accessible'
+assert 'Image source and credits' in gallery_ui
+assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
+assert 'Illustrations appear alongside the corresponding lesson explanations.' in gallery_ui
 assert 'needs: [prepare-figures, native-qa, android-instrumentation]' in workflow, 'APK publication must depend on BOTH compilation and emulator instrumentation'
 assert "needs.native-qa.result == 'success' && needs.android-instrumentation.result == 'success'" in workflow, 'Final published APK must use explicit success gates'
 assert workflow.index('publish-tested-qa-apk:') > workflow.index('android-instrumentation:'), 'Final publication must occur after instrumentation job'
