@@ -193,8 +193,12 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
         slot to Plate(
             id = slot.id, topicId = slot.topicId, page = slot.page,
             filename = filename,
-            captionEn = listOf(slot.captionEn, entry.optString("keyEn")).filter { it.isNotBlank() }.joinToString("\n"),
-            captionTa = listOf(slot.captionTa, entry.optString("keyTa")).filter { it.isNotBlank() }.joinToString("\n"),
+            captionEn = listOf(slot.captionEn,
+                entry.optString("learnerKeyEn").ifBlank { entry.optString("keyEn") })
+                .filter { it.isNotBlank() }.joinToString("\n"),
+            captionTa = listOf(slot.captionTa,
+                entry.optString("learnerKeyTa").ifBlank { entry.optString("keyTa") })
+                .filter { it.isNotBlank() }.joinToString("\n"),
             author = entry.getString("author"),
             licence = entry.optString("license", ""),
             sourceUrl = entry.optString("sourceUrl", "").ifBlank {
