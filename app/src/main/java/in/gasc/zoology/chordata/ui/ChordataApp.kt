@@ -390,9 +390,9 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
     // Recreate the list position for each lesson page. This avoids briefly showing
     // the previous page's bottom before a LaunchedEffect scroll can execute.
     val listState = key(topic.id, page) { rememberLazyListState() }
-    LaunchedEffect(topic.id, page) { listState.scrollToItem(0) }
     val finalPage = LearningLogic.lastPage(topic)
     var continuous by rememberSaveable(topic.id) { mutableStateOf(false) }
+    LaunchedEffect(topic.id, page, continuous) { listState.scrollToItem(0) }
     LazyColumn(state = listState,
         modifier = Modifier.fillMaxSize().background(paper).testTag("lesson-reader-list"),
         contentPadding = PaddingValues(horizontal = 14.dp, vertical = 9.dp),
@@ -401,8 +401,10 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
             Text(if (continuous) loc(lang, "CONTINUOUS CHAPTER READING", "தொடர்ச்சியான பாட வாசிப்பு")
                  else loc(lang, "PAGE ${page + 1} OF ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"),
                 color = teal, fontSize = 12.sp, fontWeight = FontWeight.Bold)
-            LinearProgressIndicator(progress = { (page + 1f) / (finalPage + 1f) },
-                modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
+            if (!continuous) {
+                LinearProgressIndicator(progress = { (page + 1f) / (finalPage + 1f) },
+                    modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
+            }
         }
         item(key = "heading") {
             BilingualText(if (continuous) topic.title else LearningLogic.title(topic, page), lang, scale,
