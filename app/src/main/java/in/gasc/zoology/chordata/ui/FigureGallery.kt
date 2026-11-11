@@ -233,16 +233,6 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 color = MaterialTheme.colorScheme.error
             )
         }
-        if (page == 0 && requestedCount > 0) {
-            Text(
-                if (lang == ReadingLanguage.TA)
-                    "இந்தப் பாடத்தின் விளக்கப்படங்கள் தொடர்புடைய பாடப்பகுதிகளில் இடம்பெறும்."
-                else "Illustrations appear alongside the corresponding lesson explanations.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.testTag("figure-overview-status")
-            )
-        }
         val unexpected = relevant.filter { it.id !in matchingDraftIds }
         if (unexpected.isNotEmpty()) {
             Text(
@@ -414,32 +404,6 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 }
             }
         }
-        if (page > 0 && pageSlots.isNotEmpty()) {
-            Card(
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceVariant
-                ),
-                modifier = Modifier.fillMaxWidth().testTag("figure-pending-page")
-            ) {
-                Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text(
-                        if (lang == ReadingLanguage.TA) "சரிபார்ப்பிலுள்ள வரைபடங்கள்"
-                        else "Scientific diagrams awaiting approval",
-                        fontWeight = FontWeight.SemiBold
-                    )
-                    pageSlots.forEach { slot ->
-                        Text("• " + if (lang == ReadingLanguage.TA) slot.captionTa else slot.captionEn,
-                            style = MaterialTheme.typography.bodySmall)
-                    }
-                    Text(
-                        if (lang == ReadingLanguage.TA)
-                            "இவை தற்காலிகப் படங்கள்; உடற்கூறியல் அமைப்பு, பெயரிடல், விகிதங்கள் ஆகியவற்றின் துல்லியம் சரிபார்க்கப்பட வேண்டும்."
-                        else "These figures are provisional: morphology, labelling and proportions require scientific verification.",
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
-                }
-            }
-        }
+
     }
 }

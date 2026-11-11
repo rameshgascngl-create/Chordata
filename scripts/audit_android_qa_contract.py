@@ -95,6 +95,12 @@ assert 'alignment = TextAlign.Justify' in app_ui, 'Lesson paragraphs must be jus
 assert 'FigureGallery(topic.id, page, lang' in app_ui
 assert 'figure-credits-toggle-' in gallery_ui, 'Image credits must remain accessible'
 assert 'Image source and credits' in gallery_ui
+# Student pages must not repeat internal QA and sign-off notices beneath
+# each correctly placed illustration. Source credits and failure diagnostics stay.
+assert 'figure-pending-page' not in gallery_ui, 'Redundant internal QA panel returned to lesson pages'
+assert 'figure-overview-status' not in gallery_ui, 'Non-subject figure status returned to chapter outline'
+assert 'figure-image-' in gallery_ui and 'figure-credits-toggle-' in gallery_ui
+assert 'figure-rejected-quality' in gallery_ui and 'figure-error-' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
 assert 'Illustrations appear alongside the corresponding lesson explanations.' in gallery_ui
 assert 'needs: [prepare-figures, native-qa, android-instrumentation]' in workflow, 'APK publication must depend on BOTH compilation and emulator instrumentation'
