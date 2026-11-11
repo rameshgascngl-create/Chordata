@@ -115,6 +115,38 @@ internal fun decodeFocusedAscidianPanel(
     }
 }
 
+
+/** Region-based student views; original credited PNG files are not changed. */
+internal fun decodeTeachingPanel(
+    context: Context, assetDirectory: String, filename: String, panel: Int
+): Bitmap? {
+    if (assetDirectory != "pencil_plates") return null
+    val (width, height, region) = when (filename) {
+        "pigeon_urinogenital_en.png" -> Triple(3360, 1900, when (panel) {
+            0 -> Rect(115, 260, 1150, 1540)
+            1 -> Rect(1150, 260, 2220, 1540)
+            2 -> Rect(2270, 220, 3340, 1730)
+            else -> return null
+        })
+        "columba_skeleton_en.png" -> Triple(1600, 2104, when (panel) {
+            0 -> Rect(260, 400, 1530, 1690)
+            else -> return null
+        })
+        "fish_accessory_breathing_en.png" -> Triple(1800, 1120, when (panel) {
+            0 -> Rect(0, 0, 1800, 1050)
+            else -> return null
+        })
+        else -> return null
+    }
+    context.assets.open("$assetDirectory/$filename").use { input ->
+        val decoder = BitmapRegionDecoder.newInstance(input, false) ?: return null
+        return try {
+            if (decoder.width != width || decoder.height != height) null
+            else decoder.decodeRegion(region, BitmapFactory.Options())
+        } finally { decoder.recycle() }
+    }
+}
+
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
@@ -298,6 +330,23 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 var zoomPanel by remember(plate.id) { mutableIntStateOf(-1) }
                 var showOriginal by remember(plate.id) { mutableStateOf(false) }
                 val isAscidia = plate.id == "u1-urochordata-ascidia-larva-adult"
+                val isPigeonUro = plate.id == "u5-columba-urinogenital"
+                val isPigeonSkeleton = plate.id == "u5-columba-endoskeleton" &&
+                    plate.filename == "columba_skeleton_en.png"
+                val isAccessoryFish = plate.id == "u2-accessory-respiration-accessory-organs-comparison"
+                val focused = remember(context, plate.assetDirectory, plate.filename) {
+                    val count = when {
+                        isPigeonUro -> 3
+                        isPigeonSkeleton || isAccessoryFish -> 1
+                        else -> 0
+                    }
+                    (0 until count).map { index ->
+                        runCatching {
+                            decodeTeachingPanel(context, plate.assetDirectory, plate.filename, index)
+                                ?.asImageBitmap()
+                        }.getOrNull()
+                    }
+                }
                 val ascidiaAB = remember(context, plate.assetDirectory, plate.filename) {
                     if (isAscidia) runCatching {
                         decodeFocusedAscidianPanel(context, plate.assetDirectory, plate.filename, 0)
