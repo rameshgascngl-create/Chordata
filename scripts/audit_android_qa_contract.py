@@ -92,6 +92,8 @@ gallery_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/FigureGaller
 assert 'All 64 lesson-diagram slots contain provisional illustrations' not in app_ui
 assert 'home-book-layout' in app_ui and 'subject-title' in app_ui
 assert 'alignment = TextAlign.Justify' in app_ui, 'Lesson paragraphs must be justified'
+assert 'reader-next' in app_ui and 'reader-previous' in app_ui, 'Full-width reader navigation tags absent'
+assert 'fun tamilPagerRemainsWideAt200Percent()' in test_text, 'Tamil 200% pager regression test missing'
 assert 'if (currentTopic == null) {' in app_ui and 'app-bottom-navigation' in app_ui, (
     'Student lesson view must use the reclaimed bottom-bar area')
 assert 'fun lessonHidesBottomNavigationAndRestoresItOnBack()' in test_text, (

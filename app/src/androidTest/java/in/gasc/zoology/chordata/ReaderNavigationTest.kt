@@ -200,6 +200,20 @@ class ReaderNavigationTest {
             selected("u4-calotes-brain", ta))
     }
 
+    @Test fun tamilPagerRemainsWideAt200Percent() {
+        rule.onNodeWithText("தமிழ்").performClick()
+        rule.onNodeWithText("200%").performClick()
+        rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
+        rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("reader-next").assertIsDisplayed()
+        val bounds = rule.onNodeWithTag("reader-next").fetchSemanticsNode().boundsInRoot
+        org.junit.Assert.assertTrue(
+            "Tamil next-page button collapsed: " + bounds, bounds.width > bounds.height * 1.7f)
+        rule.onNodeWithTag("reader-next").performClick()
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("இரண்டாம் வாயிலுள்ள உயிரிகளின் பரிணாம உறவு")
+    }
+
     @Test fun tamilCompactHeaderFitsAndBackWorks() {
         rule.onNodeWithText("தமிழ்").performClick()
         rule.onNodeWithText("200%").performClick()

@@ -497,28 +497,59 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
         item(key = "pager") {
             HorizontalDivider()
             if (continuous && page < finalPage) {
-                Row(modifier = Modifier.fillMaxWidth().padding(top = 5.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically) {
-                    OutlinedButton(onClick = { continuous = false; onPage(0) }) {
-                        Text(loc(lang, "Page-by-page", "பக்கங்களாகப் படிக்க"))
+                // At enlarged text sizes, long bilingual reading-mode actions
+                // require full-width controls rather than squeezed buttons.
+                if (scale >= 1.5f) {
+                    Column(Modifier.fillMaxWidth().padding(top = 7.dp),
+                        verticalArrangement = Arrangement.spacedBy(7.dp)) {
+                        OutlinedButton(onClick = { continuous = false; onPage(0) },
+                            modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp)) {
+                            Text(loc(lang, "Page-by-page", "பக்கங்களாகப் படிக்க"),
+                                textAlign = TextAlign.Center)
+                        }
+                        Button(onClick = { continuous = false; onPage(finalPage) },
+                            modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp)) {
+                            Text(loc(lang, "Practice questions ›", "வினாப்பயிற்சி ›"),
+                                textAlign = TextAlign.Center)
+                        }
                     }
-                    Button(onClick = { continuous = false; onPage(finalPage) }) {
-                        Text(loc(lang, "Practice questions ›", "வினாப்பயிற்சி ›"))
+                } else {
+                    Row(modifier = Modifier.fillMaxWidth().padding(top = 7.dp),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalAlignment = Alignment.CenterVertically) {
+                        OutlinedButton(onClick = { continuous = false; onPage(0) },
+                            modifier = Modifier.weight(1f).heightIn(min = 48.dp)) {
+                            Text(loc(lang, "Page-by-page", "பக்கங்களாகப் படிக்க"),
+                                maxLines = 2, textAlign = TextAlign.Center)
+                        }
+                        Button(onClick = { continuous = false; onPage(finalPage) },
+                            modifier = Modifier.weight(1f).heightIn(min = 48.dp)) {
+                            Text(loc(lang, "Practice questions ›", "வினாப்பயிற்சி ›"),
+                                maxLines = 2, textAlign = TextAlign.Center)
+                        }
                     }
                 }
             } else {
-                Row(modifier = Modifier.fillMaxWidth().padding(top = 5.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween,
+                // Page numbers already appear in the progress header. A second
+                // central counter forced Tamil navigation into vertical strips
+                // on 320dp emulators. Give both actions equal, usable widths.
+                Row(modifier = Modifier.fillMaxWidth().padding(top = 7.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
                     verticalAlignment = Alignment.CenterVertically) {
                     OutlinedButton(onClick = { onPage(LearningLogic.pageBefore(page)) },
-                        enabled = page > 0) { Text(loc(lang, "‹ Previous", "‹ முந்தையது")) }
-                    Text(loc(lang, "${page + 1} / ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"),
-                        fontWeight = FontWeight.SemiBold)
+                        enabled = page > 0,
+                        modifier = Modifier.weight(1f).heightIn(min = 48.dp)
+                            .testTag("reader-previous")) {
+                        Text(loc(lang, "‹ Previous", "‹ முந்தையது"),
+                            maxLines = 2, textAlign = TextAlign.Center)
+                    }
                     Button(onClick = { if (page < finalPage) onPage(page + 1) else onNextTopic() },
-                        enabled = page < finalPage || LearningLogic.nextTopic(pack, topic.id) != null) {
+                        enabled = page < finalPage || LearningLogic.nextTopic(pack, topic.id) != null,
+                        modifier = Modifier.weight(1f).heightIn(min = 48.dp)
+                            .testTag("reader-next")) {
                         Text(if (page < finalPage) loc(lang, "Next ›", "அடுத்து ›")
-                            else loc(lang, "Next topic ›", "அடுத்த பாடம் ›"))
+                            else loc(lang, "Next topic ›", "அடுத்த பாடம் ›"),
+                            maxLines = 2, textAlign = TextAlign.Center)
                     }
                 }
             }
