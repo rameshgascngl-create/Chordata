@@ -30,6 +30,14 @@ object ContentRepository {
             (topicId to sectionKey) to points
         }
         require(pointsBySection.size == supplements.size) { "Duplicate learning-point section" }
+        // One-based figure placements come from the existing immutable slot
+        // register; page packing never edits or reassigns a figure.
+        val figureRegistry = JSONObject(context.assets.open("figure_slots.json")
+            .bufferedReader(Charsets.UTF_8).use { it.readText() })
+        val figurePagesByTopic = figureRegistry.getJSONArray("slots").toList { slot ->
+            slot.getString("topicId") to slot.getInt("page")
+        }.groupBy({ it.first }, { it.second }).mapValues { (_, pages) -> pages.toSet() }
+
         val units = root.getJSONArray("units").toList { item ->
             LessonUnit(
                 item.getString("id"), item.getJSONObject("title").bilingual(),
@@ -47,7 +55,8 @@ object ContentRepository {
                             QuizQuestion(q.getJSONObject("question").bilingual(),
                                 q.getJSONArray("options").toList { it.bilingual() },
                                 q.getInt("correctIndex"), q.getJSONObject("explanation").bilingual())
-                        }
+                        },
+                        figurePagesByTopic[topic.getString("id")] ?: emptySet()
                     )
                 }
             )
@@ -57,6 +66,12 @@ object ContentRepository {
         require(pack.topics.sumOf { it.sections.size } == 127) { "Missing lessons" }
         require(pack.topics.sumOf { it.quiz.size } == 117) { "Missing quiz items" }
         require(pack.topics.sumOf { it.diagramIds.size } == 64) { "Diagram register mismatch" }
+        require(figureRegistry.getJSONArray("slots").length() == 64) {
+            "Incomplete registered figure placement"
+        }
+        require(pack.topics.all { topic ->
+            topic.figurePages.all { it in 1..topic.sections.size }
+        }) { "Registered figure page outside the chapter" }
         val registered = pack.topics.flatMap { topic ->
             topic.sections.map { topic.id to it.key }
         }.toSet()
