@@ -17,4 +17,10 @@ for row in rows:
     expected=' | '.join(by_id[row['diagramId']])
     if row['assets']!=expected or row['assetStatus']!='Present (provisional)' or row['scientificSignoff']!='Not approved':
         sys.exit('COVERAGE LEDGER FAIL: misleading or outdated record for '+row['diagramId'])
+    # The student-facing attribution must track the current EN/shared PNG,
+    # including AI-generated candidates. Never credit a superseded vector.
+    current = next((fig for fig in manifest if fig['diagramId']==row['diagramId']
+                    and fig['lang'] in ('en','shared')), None)
+    if current is None or row['author'] != current['author']:
+        sys.exit('COVERAGE LEDGER FAIL: stale or incorrect figure creator for '+row['diagramId'])
 print('PASS: coverage ledger records all 64 provisional slots with canonical asset paths')
