@@ -21,10 +21,38 @@ import android.provider.MediaStore
 import `in`.gasc.zoology.chordata.data.ContentRepository
 import `in`.gasc.zoology.chordata.ui.decodePlateBitmap
 import `in`.gasc.zoology.chordata.ui.decodeFocusedAscidianPanel
+import `in`.gasc.zoology.chordata.ui.decodeTeachingPanel
 import org.junit.Rule
 import org.junit.Test
 
 class ReaderNavigationTest {
+
+
+    @Test fun focusedPigeonPanelsDecodeWithOriginalSourcesUnchanged() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val assetDirectory = "pencil_plates"
+        val expected = listOf(
+            Triple("pigeon_urinogenital_en.png", 0, 1035 to 1280),
+            Triple("pigeon_urinogenital_en.png", 1, 1070 to 1280),
+            Triple("pigeon_urinogenital_en.png", 2, 1070 to 1510),
+            Triple("columba_skeleton_en.png", 0, 1270 to 1290),
+            Triple("fish_accessory_breathing_en.png", 0, 1800 to 1050)
+        )
+        for ((filename, panel, size) in expected) {
+            val focused = requireNotNull(decodeTeachingPanel(
+                context, assetDirectory, filename, panel)) {
+                "Missing region for $filename/$panel"
+            }
+            try {
+                org.junit.Assert.assertEquals("$filename width", size.first, focused.width)
+                org.junit.Assert.assertEquals("$filename height", size.second, focused.height)
+            } finally {
+                focused.recycle()
+            }
+        }
+        org.junit.Assert.assertNull(decodeTeachingPanel(
+            context, assetDirectory, "fish_accessory_breathing_en.png", 9))
+    }
 
     @Test fun historicalAscidianFigure8CropsDecodeWithoutAlteringOriginalPlate() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
