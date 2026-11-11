@@ -147,6 +147,42 @@ internal fun decodeTeachingPanel(
     }
 }
 
+
+@Composable
+private fun AirBreathingComparison(lang: ReadingLanguage) {
+    val examples = if (lang == ReadingLanguage.TA) listOf(
+        "Anabas" to "செவுள் மேலறையில் பல மடிப்புகளையுடைய லேபிரிந்த் உறுப்பு",
+        "Clarias" to "செவுள் மேலறையில் இரத்த நாளங்கள் நிறைந்த மரக்கிளை வடிவ சுவாச உறுப்பு",
+        "Heteropneustes" to "செவுள் அறையிலிருந்து பின்னோக்கி நீளும் இரட்டை காற்றுப்பைகள்",
+        "Mudskippers" to "ஈரமான தோல், வாய்த்தொண்டைச் சவ்வு வழியாகச் சுவாசித்தல்"
+    ) else listOf(
+        "Anabas" to "Vascular labyrinth plates within a suprabranchial chamber",
+        "Clarias" to "Branched vascular arborescent organs above the gills",
+        "Heteropneustes" to "Paired air sacs extending posteriorly from the branchial region",
+        "Mudskippers" to "Moist skin and buccopharyngeal gas exchange; gills are retained"
+    )
+    Column(Modifier.fillMaxWidth().testTag("fish-anatomy-comparison"),
+        verticalArrangement = Arrangement.spacedBy(7.dp)) {
+        Text(if (lang == ReadingLanguage.TA) "துணைச் சுவாச உறுப்புகள் — ஒப்பீடு"
+             else "Accessory respiratory organs — comparative guide",
+            fontWeight = FontWeight.Bold, fontSize = 15.sp,
+            color = MaterialTheme.colorScheme.primary)
+        examples.forEach { (name, organ) ->
+            Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
+                Column(Modifier.fillMaxWidth().padding(10.dp)) {
+                    Text(name, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                    Text(organ, fontSize = 13.sp, lineHeight = 19.sp)
+                }
+            }
+        }
+        Text(if (lang == ReadingLanguage.TA)
+            "இந்தத் தகவமைப்புகள் வெவ்வேறானவை; பழைய குறியீட்டுப் படம் உண்மையான உடற்கூறியல் வரைபடமல்ல."
+        else "These adaptations differ anatomically. The old pictogram is conceptual, not an anatomical dissection.",
+            fontSize = 12.sp, lineHeight = 18.sp,
+            color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+}
+
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
@@ -432,6 +468,77 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                                     fontSize = 12.sp, lineHeight = 17.sp)
                             }
+
+                        } else if (isPigeonUro && focused.size == 3 && focused.all { it != null }) {
+                            Text(if (lang == ReadingLanguage.TA)
+                                "புறாவின் ஆண், பெண் சிறுநீரக மற்றும் இனப்பெருக்க உறுப்புகள்"
+                                else "Male and female pigeon urogenital anatomy",
+                                fontWeight = FontWeight.Bold, fontSize = 15.sp,
+                                color = MaterialTheme.colorScheme.primary)
+                            val descriptions = if (lang == ReadingLanguage.TA) listOf(
+                                "ஆண்: விந்தகங்கள், சிறுநீரகங்கள், விந்துக் குழாய்கள், பொதுத்திறப்பு",
+                                "பெண்: இடது சூலகம், முட்டைக்குழாய், சிறுநீரகங்கள், பொதுத்திறப்பு",
+                                "பெண் புறா: பார்கர் (1928) வெளியிட்ட அசல் உடற்கூறியல் படம்"
+                            ) else listOf(
+                                "Male — testes, kidneys, vasa deferentia and cloaca",
+                                "Female — left ovary and oviduct, kidneys and cloaca",
+                                "Female pigeon — Parker's original 1928 anatomical plate"
+                            )
+                            focused.forEachIndexed { index, imagePart ->
+                                Image(bitmap = requireNotNull(imagePart),
+                                    contentDescription = descriptions[index],
+                                    contentScale = ContentScale.Fit,
+                                    modifier = Modifier.fillMaxWidth()
+                                        .height(if (index == 2) 420.dp else 345.dp)
+                                        .clickable { zoomPanel = index; zoomed = true }
+                                        .testTag("figure-pigeon-uro-" + index))
+                                Text(descriptions[index], fontSize = 13.sp, lineHeight = 19.sp)
+                            }
+                            TextButton(onClick = { showOriginal = !showOriginal },
+                                modifier = Modifier.testTag("figure-pigeon-composite-toggle")) {
+                                Text(if (showOriginal) "Hide complete plate" else "View complete plate")
+                            }
+                            if (showOriginal) Image(bitmap = bitmap, contentDescription = plate.captionEn,
+                                contentScale = ContentScale.Fit,
+                                modifier = Modifier.fillMaxWidth().height(280.dp)
+                                    .clickable { zoomPanel = -1; zoomed = true }
+                                    .testTag("figure-pigeon-composite"))
+                        } else if (isPigeonSkeleton && focused.firstOrNull() != null) {
+                            Image(bitmap = requireNotNull(focused[0]),
+                                contentDescription = if (lang == ReadingLanguage.TA)
+                                    "புறாவின் மண்டையோடு, சிறகெலும்புகள், மார்பெலும்பு மற்றும் கால்கள்"
+                                else "Pigeon skull, wing, sternum and limb skeleton",
+                                contentScale = ContentScale.Fit,
+                                modifier = Modifier.fillMaxWidth().height(450.dp)
+                                    .clickable { zoomPanel = 0; zoomed = true }
+                                    .testTag("figure-image-" + plate.id))
+                            TextButton(onClick = { showOriginal = !showOriginal },
+                                modifier = Modifier.testTag("figure-skeleton-composite-toggle")) {
+                                Text(if (showOriginal) "Hide complete plate" else "View complete historical plate")
+                            }
+                            if (showOriginal) Image(bitmap = bitmap, contentDescription = plate.captionEn,
+                                contentScale = ContentScale.Fit,
+                                modifier = Modifier.fillMaxWidth().height(460.dp)
+                                    .clickable { zoomPanel = -1; zoomed = true }
+                                    .testTag("figure-skeleton-composite"))
+                        } else if (isAccessoryFish) {
+                            AirBreathingComparison(lang)
+                            TextButton(onClick = { showOriginal = !showOriginal },
+                                modifier = Modifier.testTag("figure-accessory-schematic-toggle")) {
+                                Text(if (lang == ReadingLanguage.TA)
+                                    (if (showOriginal) "கருத்துப் படத்தை மறை" else "எளிய கருத்துப் படத்தைக் காண்க")
+                                else (if (showOriginal) "Hide old pictogram" else "View simplified concept sketch"))
+                            }
+                            if (showOriginal && focused.firstOrNull() != null) {
+                                Image(bitmap = requireNotNull(focused[0]),
+                                    contentDescription = if (lang == ReadingLanguage.TA)
+                                        "உடற்கூறியலைக் காட்டாத எளிய கருத்துப் படம்"
+                                    else "Legacy symbols, not anatomical dissections",
+                                    contentScale = ContentScale.Fit,
+                                    modifier = Modifier.fillMaxWidth().height(290.dp)
+                                        .clickable { zoomPanel = 0; zoomed = true }
+                                        .testTag("figure-image-" + plate.id))
+                            }
                         } else {
                             Image(bitmap = bitmap,
                                 contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
@@ -525,6 +632,11 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             val focused = when {
                                 isAscidia && zoomPanel in 0..1 -> decodeFocusedAscidianPanel(
                                     context, plate.assetDirectory, plate.filename, zoomPanel)
+                                (isPigeonUro && zoomPanel in 0..2) ||
+                                    (isPigeonSkeleton && zoomPanel == 0) ||
+                                    (isAccessoryFish && zoomPanel == 0) ->
+                                    decodeTeachingPanel(
+                                        context, plate.assetDirectory, plate.filename, zoomPanel)
                                 plate.id == "u2-scoliodon-brain-labelled" ->
                                     decodeFocusedHistoricalDogfishBrain(
                                         context, plate.assetDirectory, plate.filename)
