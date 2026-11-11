@@ -201,7 +201,13 @@ private fun HistoricalAirBreathingGallery(
 ) {
     val context = LocalContext.current
     val browser = LocalUriHandler.current
-    val source = "https://www.gutenberg.org/ebooks/73702"
+    val source = remember(context) {
+        runCatching {
+            val metadata = context.assets.open("historical_figures/sources.json")
+                .bufferedReader().use { it.readText() }
+            JSONObject(metadata).getString("sourceBookUrl")
+        }.getOrDefault("")
+    }
     val plates = remember {
         listOf(
             RespiratorySourcePlate(
@@ -290,7 +296,8 @@ private fun HistoricalAirBreathingGallery(
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
         TextButton(
-            onClick = { browser.openUri(source) },
+            onClick = { if (source.isNotBlank()) browser.openUri(source) },
+            enabled = source.isNotBlank(),
             modifier = Modifier.testTag("historical-accessory-source-link")
         ) {
             Text(if (lang == ReadingLanguage.TA)
