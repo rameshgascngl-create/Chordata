@@ -392,22 +392,49 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
     val listState = key(topic.id, page) { rememberLazyListState() }
     LaunchedEffect(topic.id, page) { listState.scrollToItem(0) }
     val finalPage = LearningLogic.lastPage(topic)
+    var continuous by rememberSaveable(topic.id) { mutableStateOf(false) }
     LazyColumn(state = listState,
         modifier = Modifier.fillMaxSize().background(paper).testTag("lesson-reader-list"),
         contentPadding = PaddingValues(horizontal = 14.dp, vertical = 9.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)) {
         item(key = "breadcrumbs") {
-            Text(loc(lang, "PAGE ${page + 1} OF ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"),
+            Text(if (continuous) loc(lang, "CONTINUOUS CHAPTER READING", "தொடர்ச்சியான பாட வாசிப்பு")
+                 else loc(lang, "PAGE ${page + 1} OF ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"),
                 color = teal, fontSize = 12.sp, fontWeight = FontWeight.Bold)
             LinearProgressIndicator(progress = { (page + 1f) / (finalPage + 1f) },
                 modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
         }
         item(key = "heading") {
-            BilingualText(LearningLogic.title(topic, page), lang, scale,
+            BilingualText(if (continuous) topic.title else LearningLogic.title(topic, page), lang, scale,
                 modifier = Modifier.padding(vertical = 3.dp).testTag("lesson-page-heading"),
                 base = 20f, bold = true)
         }
-        when {
+        if (continuous && page < finalPage) {
+            items(topic.sections.size, key = { index -> "chapter-section-${topic.sections[index].key}" }) { index ->
+                val section = topic.sections[index]
+                Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
+                    Card(
+                        shape = RoundedCornerShape(13.dp),
+                        colors = CardDefaults.cardColors(
+                            containerColor = if (index % 2 == 0) Color.White else softGreen)
+                    ) {
+                        Column(Modifier.fillMaxWidth().padding(13.dp),
+                            verticalArrangement = Arrangement.spacedBy(7.dp)) {
+                            Text(loc(lang, "SECTION ${index + 1}", "பகுதி ${index + 1}"),
+                                fontSize = 11.sp, color = teal, fontWeight = FontWeight.Bold)
+                            BilingualText(section.heading, lang, scale,
+                                base = 18f, bold = true)
+                            BilingualText(section.body, lang, scale,
+                                modifier = Modifier.fillMaxWidth(),
+                                base = 16f, alignment = TextAlign.Justify)
+                        }
+                    }
+                    // Every illustration stays immediately after its exact
+                    // registered lesson section; original manifest mapping is unchanged.
+                    FigureGallery(topic.id, index + 1, lang, topic.diagramIds.size)
+                }
+            }
+        } else when {
             page == 0 -> {
                 item {
                     Card(shape = RoundedCornerShape(14.dp),
@@ -421,6 +448,11 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                     fontSize = (14f * scale).sp, lineHeight = (21f * scale).sp)
                             }
                             Text(loc(lang, "Quiz: ${topic.quiz.size} questions", "வினாப்பயிற்சி: ${topic.quiz.size} வினாக்கள்"), color = mutetext)
+                            Button(onClick = { continuous = true },
+                                modifier = Modifier.fillMaxWidth().testTag("read-full-chapter")) {
+                                Text(loc(lang, "Read full chapter continuously",
+                                    "பாடம் முழுவதையும் தொடர்ந்து படிக்க"))
+                            }
                         }
                     }
                 }
@@ -454,14 +486,30 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
         }
         item(key = "pager") {
             HorizontalDivider()
-            Row(modifier = Modifier.fillMaxWidth().padding(top = 5.dp),
-                horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
-                OutlinedButton(onClick = { onPage(LearningLogic.pageBefore(page)) },
-                    enabled = page > 0) { Text(loc(lang, "‹ Previous", "‹ முந்தையது")) }
-                Text(loc(lang, "${page + 1} / ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"), fontWeight = FontWeight.SemiBold)
-                Button(onClick = { if (page < finalPage) onPage(page + 1) else onNextTopic() },
-                    enabled = page < finalPage || LearningLogic.nextTopic(pack, topic.id) != null) {
-                    Text(if (page < finalPage) loc(lang, "Next ›", "அடுத்து ›") else loc(lang, "Next topic ›", "அடுத்த பாடம் ›"))
+            if (continuous && page < finalPage) {
+                Row(modifier = Modifier.fillMaxWidth().padding(top = 5.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically) {
+                    OutlinedButton(onClick = { continuous = false; onPage(0) }) {
+                        Text(loc(lang, "Page-by-page", "பக்கங்களாகப் படிக்க"))
+                    }
+                    Button(onClick = { continuous = false; onPage(finalPage) }) {
+                        Text(loc(lang, "Practice questions ›", "வினாப்பயிற்சி ›"))
+                    }
+                }
+            } else {
+                Row(modifier = Modifier.fillMaxWidth().padding(top = 5.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically) {
+                    OutlinedButton(onClick = { onPage(LearningLogic.pageBefore(page)) },
+                        enabled = page > 0) { Text(loc(lang, "‹ Previous", "‹ முந்தையது")) }
+                    Text(loc(lang, "${page + 1} / ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"),
+                        fontWeight = FontWeight.SemiBold)
+                    Button(onClick = { if (page < finalPage) onPage(page + 1) else onNextTopic() },
+                        enabled = page < finalPage || LearningLogic.nextTopic(pack, topic.id) != null) {
+                        Text(if (page < finalPage) loc(lang, "Next ›", "அடுத்து ›")
+                            else loc(lang, "Next topic ›", "அடுத்த பாடம் ›"))
+                    }
                 }
             }
             if (completed) Text(loc(lang, "✓ Chapter completed", "✓ பாடம் முடிக்கப்பட்டது"),
