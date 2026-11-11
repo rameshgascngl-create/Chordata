@@ -183,6 +183,123 @@ private fun AirBreathingComparison(lang: ReadingLanguage) {
     }
 }
 
+
+/**
+ * Original 1904 fish-respiration engravings, sourced from Project Gutenberg
+ * (figures 169, 171, 172). Images remain the exact, unchanged source JPEGs.
+ * They accompany the existing one registered figure slot; no phantom slot.
+ */
+private data class RespiratorySourcePlate(
+    val number: Int, val taxon: String,
+    val headingEn: String, val headingTa: String,
+    val labelsEn: String, val labelsTa: String, val height: Int
+)
+
+@Composable
+private fun HistoricalAirBreathingGallery(
+    lang: ReadingLanguage, onZoom: (Int) -> Unit
+) {
+    val context = LocalContext.current
+    val browser = LocalUriHandler.current
+    val source = "https://www.gutenberg.org/ebooks/73702"
+    val plates = remember {
+        listOf(
+            RespiratorySourcePlate(
+                169, "Anabas scandens", "Labyrinthiform organ of Anabas",
+                "அனபாஸ் மீனின் லேபிரிந்த் சுவாச உறுப்பு",
+                "l.o — labyrinth organ; sb.c — suprabranchial cavity; op — operculum; b.a′ — first branchial arch.",
+                "l.o — லேபிரிந்த் உறுப்பு; sb.c — செவுள்மேலறை; op — செவுள் மூடி; b.a′ — முதல் செவுள் வளைவு.", 305),
+            RespiratorySourcePlate(
+                171, "Clarias", "Arborescent respiratory organs of Clarias",
+                "கிளாரியாஸின் மரக்கிளை வடிவச் சுவாச உறுப்புகள்",
+                "a — anterior arborescent organ; p — posterior arborescent organ; b.a¹–⁴ — gill arches; d.b.c — dorsal branchial chamber.",
+                "a — முன்புறக் கிளைவடிவ உறுப்பு; p — பின்புறக் கிளைவடிவ உறுப்பு; b.a¹–⁴ — செவுள் வளைவுகள்; d.b.c — செவுள் அறையின் மேற்புற நீட்சி.", 300),
+            RespiratorySourcePlate(
+                172, "Saccobranchus singio", "Paired air-sacs of Saccobranchus singio",
+                "சாக்கோபிராங்கஸ் சிங்கியோவின் இணையான காற்றுப்பைகள்",
+                "a.c — right air-sac; a.s — left air-sac; a.b — air-bladder; l.a.v / r.a.v — afferent vessels. The historical species name is retained.",
+                "a.c — வலது காற்றுப்பை; a.s — இடது காற்றுப்பை; a.b — காற்றுப்பை; l.a.v / r.a.v — உட்செல்லும் இரத்த நாளங்கள். வரலாற்று இனப்பெயர் மாற்றப்படவில்லை.", 385)
+        )
+    }
+    Column(
+        Modifier.fillMaxWidth().testTag("historical-accessory-gallery"),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Text(
+            if (lang == ReadingLanguage.TA)
+                "1904 ஆம் ஆண்டின் அசல் உடற்கூறியல் விளக்கப்படங்கள்"
+            else "Original published anatomical illustrations (1904)",
+            fontWeight = FontWeight.Bold,
+            fontSize = 16.sp,
+            color = MaterialTheme.colorScheme.primary
+        )
+        plates.forEachIndexed { index, spec ->
+            val preview = remember(context, spec.number) {
+                runCatching {
+                    decodePlateBitmap(
+                        context, "historical_figures",
+                        "cnh1904_fig" + spec.number + ".jpg",
+                        maxLongestEdgePx = 1500
+                    )?.asImageBitmap()
+                }.getOrNull()
+            }
+            Card(
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Column(
+                    Modifier.fillMaxWidth().padding(10.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Text(
+                        (if (lang == ReadingLanguage.TA) spec.headingTa else spec.headingEn) +
+                            " · Fig. " + spec.number,
+                        fontWeight = FontWeight.Bold, fontSize = 15.sp
+                    )
+                    if (preview == null) {
+                        Text(
+                            if (lang == ReadingLanguage.TA)
+                                "மூல விளக்கப்படத்தை ஏற்ற இயலவில்லை."
+                            else "Original figure could not be loaded.",
+                            color = MaterialTheme.colorScheme.error,
+                            modifier = Modifier.testTag("historical-figure-missing-" + spec.number)
+                        )
+                    } else {
+                        Image(
+                            bitmap = preview,
+                            contentDescription = spec.taxon + ": " + spec.headingEn,
+                            contentScale = ContentScale.Fit,
+                            modifier = Modifier.fillMaxWidth().height(spec.height.dp)
+                                .clickable { onZoom(index) }
+                                .testTag("historical-accessory-figure-" + spec.number)
+                        )
+                    }
+                    Text(
+                        if (lang == ReadingLanguage.TA) spec.labelsTa else spec.labelsEn,
+                        fontSize = 13.sp, lineHeight = 19.sp
+                    )
+                }
+            }
+        }
+        Text(
+            if (lang == ReadingLanguage.TA)
+                "மூலம்: T. W. Bridge, The Cambridge Natural History, தொகுதி VII (1904), படங்கள் 169, 171, 172. மூலப் படங்கள் மாற்றப்படவில்லை."
+            else "Source: T. W. Bridge, The Cambridge Natural History, Vol. VII (1904), Figs. 169, 171 and 172. The original images are unmodified.",
+            fontSize = 12.sp, lineHeight = 18.sp,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+        TextButton(
+            onClick = { browser.openUri(source) },
+            modifier = Modifier.testTag("historical-accessory-source-link")
+        ) {
+            Text(if (lang == ReadingLanguage.TA)
+                "அசல் நூல் மற்றும் பட மூலத்தைப் பார்க்க"
+            else "View original book and figure provenance")
+        }
+    }
+}
+
 private data class Plate(
     val id: String, val topicId: String, val page: Int, val filename: String,
     val captionEn: String, val captionTa: String, val author: String, val licence: String,
@@ -537,6 +654,10 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                     .clickable { zoomPanel = -1; zoomed = true }
                                     .testTag("figure-skeleton-composite"))
                         } else if (isAccessoryFish) {
+                            HistoricalAirBreathingGallery(lang) { index ->
+                                zoomPanel = 10 + index
+                                zoomed = true
+                            }
                             AirBreathingComparison(lang)
                             TextButton(onClick = { showOriginal = !showOriginal },
                                 modifier = Modifier.testTag("figure-accessory-schematic-toggle")) {
@@ -645,6 +766,9 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     val fullImage = remember(context, plate.assetDirectory, plate.filename, zoomed, zoomPanel) {
                         runCatching {
                             val focused = when {
+                                isAccessoryFish && zoomPanel in 10..12 -> decodePlateBitmap(
+                                    context, "historical_figures",
+                                    "cnh1904_fig" + listOf(169, 171, 172)[zoomPanel - 10] + ".jpg")
                                 isAscidia && zoomPanel in 0..1 -> decodeFocusedAscidianPanel(
                                     context, plate.assetDirectory, plate.filename, zoomPanel)
                                 (isPigeonUro && zoomPanel in 0..2) ||

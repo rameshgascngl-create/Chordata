@@ -1,0 +1,47 @@
+{
+  "work": "The Cambridge Natural History, Volume VII",
+  "bookYear": 1904,
+  "chapter": "X. The Respiratory Organs",
+  "chapterAuthor": "T. W. Bridge",
+  "figureAcknowledgement": "The 1904 preface credits Edwin Wilson for preparation of figures; individual engraver signatures were not independently established.",
+  "digitisation": "Project Gutenberg ebook 73702, released 2024; public-domain notice applies to the United States; other jurisdictions require review.",
+  "sourceBookUrl": "https://www.gutenberg.org/ebooks/73702",
+  "reproduction": "Original figure JPEG files copied byte-identically from GITenberg/Project Gutenberg (no redraw, filters, resampling or anatomical changes).",
+  "registeredDiagramId": "u2-accessory-respiration-accessory-organs-comparison",
+  "topicId": "u2-accessory-respiration",
+  "page": 2,
+  "sectionKey": "named-examples",
+  "qaStatus": "PROVISIONAL_QA_SOURCE_REPRODUCTION_NOT_INDEPENDENT_SCIENTIFIC_SIGNOFF",
+  "figures": [
+    {
+      "figure": 169,
+      "originalCaptionTaxon": "Anabas scandens",
+      "path": "historical_figures/cnh1904_fig169.jpg",
+      "byteLength": 63563,
+      "gitBlobSha1": "0dcd5b7703ece78bcf546bbc7154b7c21e789352",
+      "sourceImageUrl": "https://github.com/GITenberg/The-Cambridge-natural-history-Vol-07-of-10_73702/blob/master/73702-h/images/fig169.jpg",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/73702",
+      "note": "Exact historical taxon/generic designation retained."
+    },
+    {
+      "figure": 171,
+      "originalCaptionTaxon": "Clarias",
+      "path": "historical_figures/cnh1904_fig171.jpg",
+      "byteLength": 165602,
+      "gitBlobSha1": "f90d24262d293225eee17b694bdbd5231657c7c8",
+      "sourceImageUrl": "https://github.com/GITenberg/The-Cambridge-natural-history-Vol-07-of-10_73702/blob/master/73702-h/images/fig171.jpg",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/73702",
+      "note": "Exact historical taxon/generic designation retained."
+    },
+    {
+      "figure": 172,
+      "originalCaptionTaxon": "Saccobranchus singio",
+      "path": "historical_figures/cnh1904_fig172.jpg",
+      "byteLength": 70688,
+      "gitBlobSha1": "721b55faeba7473ab1e954b826fe65ea0bb88cd1",
+      "sourceImageUrl": "https://github.com/GITenberg/The-Cambridge-natural-history-Vol-07-of-10_73702/blob/master/73702-h/images/fig172.jpg",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/73702",
+      "note": "1904 species label Saccobranchus singio retained exactly; do not equate this plate with Heteropneustes fossilis without taxonomic evidence."
+    }
+  ]
+}

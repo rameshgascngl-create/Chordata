@@ -31,6 +31,41 @@ import org.junit.Test
 class ReaderNavigationTest {
 
 
+
+    @Test fun threeOriginalCambridgeAccessoryFiguresAreBundledOfflineAndUnmodified() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val jsonText = context.assets.open("historical_figures/sources.json")
+            .bufferedReader().use { it.readText() }
+        val figures = org.json.JSONObject(jsonText).getJSONArray("figures")
+        org.junit.Assert.assertEquals(3, figures.length())
+        val expected = listOf(169, 171, 172)
+        expected.forEachIndexed { index, number ->
+            val item = figures.getJSONObject(index)
+            org.junit.Assert.assertEquals(number, item.getInt("figure"))
+            val name = "historical_figures/cnh1904_fig" + number + ".jpg"
+            org.junit.Assert.assertEquals(name, item.getString("path"))
+            val bytes = context.assets.open(name).use { it.readBytes() }
+            org.junit.Assert.assertEquals(item.getInt("byteLength"), bytes.size)
+            org.junit.Assert.assertEquals(0xFF, bytes[0].toInt() and 0xff)
+            org.junit.Assert.assertEquals(0xD8, bytes[1].toInt() and 0xff)
+            val digest = java.security.MessageDigest.getInstance("SHA-1")
+            digest.update("blob " .plus(bytes.size).plus("\u0000").toByteArray(Charsets.UTF_8))
+            val sha = digest.digest(bytes).joinToString("") {
+                "%02x".format(it.toInt() and 0xff)
+            }
+            org.junit.Assert.assertEquals(item.getString("gitBlobSha1"), sha)
+            val bounds = android.graphics.BitmapFactory.Options().apply { inJustDecodeBounds = true }
+            context.assets.open(name).use {
+                android.graphics.BitmapFactory.decodeStream(it, null, bounds)
+            }
+            org.junit.Assert.assertTrue(bounds.outWidth > 500 && bounds.outHeight > 400)
+        }
+        org.junit.Assert.assertEquals(
+            "Saccobranchus singio",
+            figures.getJSONObject(2).getString("originalCaptionTaxon")
+        )
+    }
+
     @Test fun greenTickedAiVariantIsNotRejectedBecauseEnglishFallbackWasRejected() {
         val oldEnglish = JSONObject().apply {
             put("visualReview", "USER_REJECTED_REPLACEMENT_REQUIRED")

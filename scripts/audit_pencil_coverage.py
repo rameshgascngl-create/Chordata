@@ -53,6 +53,28 @@ source=(ROOT/'app/src/main/java/in/gasc/zoology/chordata/ui/FigureGallery.kt').r
 assert 'selectedPlateNeedsReplacement(pencilPlates, slot.id, lang)' in source, 'Image rejection must follow the displayed language variant'
 assert 'tamil-label-review-' not in source
 assert 'pencilPlates[slot.id to language]' not in source
+
+# Original 1904 accessory respiratory anatomy: three sourced plates, not
+# drawings generated for the app. Verify bit-for-bit Git object identity.
+historic=json.loads((a/'historical_figures/sources.json').read_text(encoding='utf-8'))
+assert historic['registeredDiagramId']=='u2-accessory-respiration-accessory-organs-comparison'
+assert historic['topicId']=='u2-accessory-respiration' and historic['page']==2
+assert [x['figure'] for x in historic['figures']]==[169,171,172]
+assert [x['originalCaptionTaxon'] for x in historic['figures']]==[
+    'Anabas scandens','Clarias','Saccobranchus singio']
+for image in historic['figures']:
+    f=a/image['path']
+    data=f.read_bytes()
+    assert data.startswith(bytes.fromhex('ffd8ff')), ('invalid sourced JPEG',f)
+    assert len(data)==image['byteLength'],('size differs from published source',f)
+    git_sha=hashlib.sha1(('blob '+str(len(data))+'\\x00').encode()+data).hexdigest()
+    assert git_sha==image['gitBlobSha1'],('original source image modified',f)
+    assert image['sourceImageUrl'].startswith(
+        'https://github.com/GITenberg/The-Cambridge-natural-history-Vol-07-of-10_73702/')
+assert 'HistoricalAirBreathingGallery(lang)' in source
+assert 'historical-accessory-figure-' in source
+print('PASS: original Cambridge 1904 Figs 169/171/172 preserved and rendered in registered lesson')
+
 print(f'PASS: {len(byid)}/64 distinct lesson slots populated with registered provisional pencil drawings ({64-len(byid)} remain)')
 print(f'PASS: {len(fs)} manifest variants; all source files, 1200px sizes, SHA-256, and page/section links validated')
 print('PASS: English diagram labels are used in both English and Tamil reading modes')
