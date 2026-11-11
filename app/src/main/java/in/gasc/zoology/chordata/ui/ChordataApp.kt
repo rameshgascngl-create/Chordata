@@ -378,9 +378,11 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
     onComplete: () -> Unit, completed: Boolean, store: ProgressStore) {
     // Recreate the list position for each lesson page. This avoids briefly showing
     // the previous page's bottom before a LaunchedEffect scroll can execute.
-    val listState = key(topic.id, page) { rememberLazyListState() }
-    val finalPage = LearningLogic.lastPage(topic)
     var continuous by rememberSaveable(topic.id) { mutableStateOf(false) }
+    // The two reading modes have different lazy-item positions. A fresh list
+    // state prevents opening continuous mode at a stale chapter-outline offset.
+    val listState = key(topic.id, page, continuous) { rememberLazyListState() }
+    val finalPage = LearningLogic.lastPage(topic)
     LaunchedEffect(topic.id, page, continuous) { listState.scrollToItem(0) }
     LazyColumn(state = listState,
         modifier = Modifier.fillMaxSize().background(paper).testTag("lesson-reader-list"),
