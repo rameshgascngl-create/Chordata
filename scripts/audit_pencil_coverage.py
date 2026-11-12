@@ -50,7 +50,6 @@ assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=
 # as anatomy/species teaching images in either language.
 remaining_noninstructional_ids = {
     'u4-calotes-arterial-system',
-    'u5-egg-laying-mammals-monotreme-reproduction',
     'u5-aquatic-mammals-aquatic-mammal-groups',
 }
 verified_source_replacement_ids = {
@@ -61,8 +60,8 @@ verified_source_replacement_ids = {
 rejected = [x for x in fs if x.get('pedagogicStatus') ==
             'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
 assert {x['diagramId'] for x in rejected} == remaining_noninstructional_ids, (
-    'Three remaining user-rejected diagrams must remain withheld')
-assert len(rejected) == 3
+    'Two remaining rejected diagrams must remain withheld')
+assert len(rejected) == 2
 assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
            and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
            for x in rejected), 'Uncorrected symbolic diagrams must remain withheld'
@@ -105,7 +104,22 @@ for field,hashfield in (('retiredSchematicPng','retiredSchematicSha256'),
     r = ROOT / rabbit[field]
     assert r.is_file() and hashlib.sha256(r.read_bytes()).hexdigest() == rabbit[hashfield]
 assert rabbit['retiredSchematicSha256'] == '6f4a798edd974efc549163e09bb37727b49b26f77d507e50f9b6a4b628e2788f'
-print('PASS: three user-rejected diagrams withheld; three earlier sourced replacements and real Calotes and rabbit specimen plates recorded')
+monotreme = next(v for v in fs if v['diagramId'] == 'u5-egg-laying-mammals-monotreme-reproduction')
+assert monotreme['lang'] == 'shared'
+assert monotreme['path'] == 'pencil_plates/platypus_reproduction.png'
+assert monotreme.get('visualReview') == 'SOURCED_REAL_MONOTREME_SPECIMENS_AND_ANATOMY_QA_PROVISIONAL'
+assert monotreme.get('pedagogicStatus') == 'REPLACED_WITH_CC_LICENSED_MONOTREME_SOURCE_QA_PENDING_2026-11-12'
+assert len(monotreme.get('sourceUrls', [])) == len(monotreme.get('sourceSha256', [])) == 3
+assert len(monotreme.get('originalLicences', [])) == 3
+assert any('Cambridge_Natural_History_Mammalia_Fig_003.png' in u for u in monotreme['sourceUrls'])
+assert any('Tachyglossus_aculeatus_baby_Museums_Victoria.jpg' in u for u in monotreme['sourceUrls'])
+assert monotreme.get('licenseUrl') == 'https://creativecommons.org/licenses/by-sa/4.0/'
+assert monotreme.get('retiredSchematicPng') and monotreme.get('retiredSchematicSha256')
+archived = ROOT / monotreme['retiredSchematicPng']
+assert archived.is_file() and hashlib.sha256(archived.read_bytes()).hexdigest() == monotreme['retiredSchematicSha256']
+assert monotreme['retiredSchematicSha256'] == '5936652b851a5c474cf64db332a49736266039c6f6e8b9e6e507122de6ef0284'
+assert 'not a chronological photographic life-cycle' in monotreme['keyEn']
+print('PASS: only two rejected figures held; monotreme genuine specimen and anatomical comparison registered')
 
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
