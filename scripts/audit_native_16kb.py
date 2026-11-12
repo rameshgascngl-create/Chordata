@@ -12,7 +12,7 @@ import sys
 
 PAGE = 16384
 def elf_load_alignment(data: bytes, name: str):
-    assert data[:4] == b"\\x7fELF", f"Invalid ELF file: {name}"
+    assert data[:4] == b"\x7fELF", f"Invalid ELF file: {name}"
     assert data[5] == 1, f"Unsupported big-endian ELF: {name}"
     cls = data[4]
     if cls == 2:
@@ -53,7 +53,7 @@ def check_archive(path: Path):
             if is_apk and item.compress_type == ZIP_STORED:
                 disk.seek(item.header_offset)
                 header = disk.read(30)
-                assert header[:4] == b"PK\\x03\\x04", item.filename
+                assert header[:4] == b"PK\x03\x04", item.filename
                 name_len, extra_len = struct.unpack_from("<HH", header, 26)
                 offset = item.header_offset + 30 + name_len + extra_len
                 assert offset % PAGE == 0, f"APK .so local ZIP offset not 16KiB aligned: {item.filename} ({offset})"
