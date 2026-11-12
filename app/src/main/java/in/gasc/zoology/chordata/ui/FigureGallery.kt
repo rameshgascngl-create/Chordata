@@ -118,10 +118,16 @@ internal fun decodeFocusedAscidianPanel(
 
 /** Region-based student views; original credited PNG files are not changed. */
 internal fun decodeTeachingPanel(
-    context: Context, assetDirectory: String, filename: String, panel: Int
+    context: Context, assetDirectory: String, filename: String, panel: Int,
+    maxLongestEdgePx: Int? = null
 ): Bitmap? {
     if (assetDirectory != "pencil_plates") return null
     val (width, height, region) = when (filename) {
+        // The illustration only: readable keys and source attribution stay in Compose.
+        "scoliodon_external_anatomy_en.png" -> Triple(3200, 2070, when (panel) {
+            0 -> Rect(100, 365, 3100, 1170)
+            else -> return null
+        })
         "pigeon_urinogenital_en.png" -> Triple(3360, 1900, when (panel) {
             0 -> Rect(120, 390, 1150, 1430)
             1 -> Rect(1140, 390, 2230, 1430)
@@ -150,7 +156,16 @@ internal fun decodeTeachingPanel(
         val decoder = BitmapRegionDecoder.newInstance(input, false) ?: return null
         return try {
             if (decoder.width != width || decoder.height != height) null
-            else decoder.decodeRegion(region, BitmapFactory.Options())
+            else {
+                val options = BitmapFactory.Options()
+                if (maxLongestEdgePx != null) {
+                    require(maxLongestEdgePx > 0)
+                    var sample = 1
+                    while (maxOf(region.width(), region.height()) / sample > maxLongestEdgePx) sample *= 2
+                    options.inSampleSize = sample
+                }
+                decoder.decodeRegion(region, options)
+            }
         } finally { decoder.recycle() }
     }
 }
@@ -488,7 +503,10 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
         visiblePlates.forEach { plate ->
             val bitmap = remember(context, plate.assetDirectory, plate.filename) {
                 runCatching {
-                    val preview = if (plate.id == "u2-scoliodon-brain-labelled") {
+                    val preview = if (plate.id == "u2-scoliodon-external-labelled") {
+                        decodeTeachingPanel(context, plate.assetDirectory, plate.filename, 0,
+                            maxLongestEdgePx = 1200)
+                    } else if (plate.id == "u2-scoliodon-brain-labelled") {
                         decodeFocusedHistoricalDogfishBrain(
                             context, plate.assetDirectory, plate.filename)
                     } else null
@@ -546,6 +564,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 // unless the anatomical key is visible without another tap.
                 val essentialKey = plate.id in setOf(
                     "u1-vertebrata-classification-vertebrate-phylogeny",
+                    "u2-scoliodon-external-labelled",
                     "u1-agnatha-petromyzon-adult-larva",
                     "u5-columba-sense-organs"
                 )
@@ -553,11 +572,6 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 val fullCaption = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn
                 val conciseCaption = fullCaption.substringBefore('\n').trim()
                 val extendedCaption = fullCaption.substringAfter('\n', "").trim()
-                val previewHeight = when {
-                    bitmap.height > bitmap.width * 1.2f -> 470.dp
-                    bitmap.width > bitmap.height * 1.6f -> 250.dp
-                    else -> 350.dp
-                }
                 Card(
                     modifier = Modifier.fillMaxWidth().testTag("figure-" + plate.id),
                     colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
@@ -730,7 +744,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             Image(bitmap = bitmap,
                                 contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
                                 contentScale = ContentScale.Fit,
-                                modifier = Modifier.fillMaxWidth().height(previewHeight)
+                                modifier = Modifier.fillMaxWidth().aspectRatio(bitmap.width.toFloat() / bitmap.height)
                                     .clickable { zoomPanel = -1; zoomed = true }
                                     .testTag("figure-image-" + plate.id))
                         }
@@ -843,6 +857,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                     (isAccessoryFish && zoomPanel == 0) ->
                                     decodeTeachingPanel(
                                         context, plate.assetDirectory, plate.filename, zoomPanel)
+                                plate.id == "u2-scoliodon-external-labelled" ->
+                                    decodeTeachingPanel(context, plate.assetDirectory, plate.filename, 0)
                                 plate.id == "u2-scoliodon-brain-labelled" ->
                                     decodeFocusedHistoricalDogfishBrain(
                                         context, plate.assetDirectory, plate.filename)
@@ -906,3 +922,4 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
 
     }
 }
+

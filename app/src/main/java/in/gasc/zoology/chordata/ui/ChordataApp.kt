@@ -465,7 +465,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                 base = 18f, bold = true)
                             BilingualText(section.body, lang, scale,
                                 modifier = Modifier.fillMaxWidth(),
-                                base = 16f, alignment = TextAlign.Start)
+                                base = 16f, alignment = TextAlign.Justify)
                             PointwiseExplanation(section.keyPoints, lang, scale)
                         }
                     }
@@ -541,7 +541,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                 }
                                 BilingualText(section.body, lang, scale,
                                     modifier = Modifier.fillMaxWidth(),
-                                    base = 16f, alignment = TextAlign.Start)
+                                    base = 16f, alignment = TextAlign.Justify)
                                 PointwiseExplanation(section.keyPoints, lang, scale)
                             }
                         }
@@ -699,3 +699,4 @@ fun ErrorContent(message: String, lang: ReadingLanguage) {
         }
     }
 }
+

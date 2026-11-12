@@ -32,6 +32,19 @@ class ReaderNavigationTest {
 
 
 
+    @Test fun milkSharkPanelExcludesTinyCompositeTextAndKeepsPreviewBounded() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val full = requireNotNull(decodeTeachingPanel(context, "pencil_plates",
+            "scoliodon_external_anatomy_en.png", 0))
+        val preview = requireNotNull(decodeTeachingPanel(context, "pencil_plates",
+            "scoliodon_external_anatomy_en.png", 0, maxLongestEdgePx = 1200))
+        try {
+            org.junit.Assert.assertEquals(3000, full.width)
+            org.junit.Assert.assertEquals(805, full.height)
+            org.junit.Assert.assertTrue(maxOf(preview.width, preview.height) <= 1200)
+        } finally { full.recycle(); preview.recycle() }
+    }
+
     @Test fun threeOriginalCambridgeAccessoryFiguresAreBundledOfflineAndUnmodified() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val jsonText = context.assets.open("historical_figures/sources.json")
@@ -621,6 +634,11 @@ class ReaderNavigationTest {
         rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
         rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").assertIsDisplayed()
+        val fishBounds = rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled")
+            .fetchSemanticsNode().boundsInRoot
+        org.junit.Assert.assertTrue("Wide fish image should not occupy a tall empty frame: $fishBounds",
+            fishBounds.width > fishBounds.height * 3f)
+        rule.onNodeWithTag("figure-essential-key-u2-scoliodon-external-labelled").assertExists()
         captureQaScreen("scoliodon-figure-ta-200")
         rule.onNodeWithTag("figure-image-u2-scoliodon-external-labelled").performClick()
         rule.onNodeWithText("மூடுக").assertIsDisplayed()
@@ -675,3 +693,4 @@ class ReaderNavigationTest {
     }
 
 }
+
