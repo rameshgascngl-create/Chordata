@@ -50,7 +50,6 @@ assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=
 # as anatomy/species teaching images in either language.
 remaining_noninstructional_ids = {
     'u4-calotes-arterial-system',
-    'u5-aquatic-mammals-aquatic-mammal-groups',
 }
 verified_source_replacement_ids = {
     'u4-snakes-india-big-four-identification',
@@ -60,8 +59,8 @@ verified_source_replacement_ids = {
 rejected = [x for x in fs if x.get('pedagogicStatus') ==
             'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
 assert {x['diagramId'] for x in rejected} == remaining_noninstructional_ids, (
-    'Two remaining rejected diagrams must remain withheld')
-assert len(rejected) == 2
+    'Only the rejected Calotes heart diagram may remain withheld')
+assert len(rejected) == 1
 assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
            and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
            for x in rejected), 'Uncorrected symbolic diagrams must remain withheld'
@@ -119,7 +118,31 @@ archived = ROOT / monotreme['retiredSchematicPng']
 assert archived.is_file() and hashlib.sha256(archived.read_bytes()).hexdigest() == monotreme['retiredSchematicSha256']
 assert monotreme['retiredSchematicSha256'] == '5936652b851a5c474cf64db332a49736266039c6f6e8b9e6e507122de6ef0284'
 assert 'not a chronological photographic life-cycle' in monotreme['keyEn']
-print('PASS: only two rejected figures held; monotreme genuine specimen and anatomical comparison registered')
+marine = next(x for x in fs if x['diagramId'] == 'u5-aquatic-mammals-aquatic-mammal-groups')
+assert marine['lang'] == 'en' and marine['path'] == 'pencil_plates/aquatic_mammal_lineages_en.png'
+assert marine['visualReview'] == 'SOURCED_FOUR_AQUATIC_MAMMAL_PHOTOGRAPHS_QA_PROVISIONAL'
+assert marine['pedagogicStatus'] == 'REPLACED_WITH_CC_LICENSED_AQUATIC_MAMMAL_PHOTOS_QA_PENDING_2026-11-12'
+assert len(marine['sourceUrls']) == len(marine['sourceSha256']) == len(marine['originalLicences']) == 4
+assert all(url.startswith('https://commons.wikimedia.org/wiki/File:') for url in marine['sourceUrls'])
+assert all(len(h) == 64 for h in marine['sourceSha256'])
+assert marine['originalLicences'] == [
+    'https://creativecommons.org/licenses/by/2.0/',
+    'https://creativecommons.org/licenses/by/4.0/',
+    'https://creativecommons.org/licenses/by-sa/4.0/',
+    'https://creativecommons.org/publicdomain/mark/1.0/',
+]
+assert marine.get('retiredSchematicSvg') and marine.get('retiredSchematicSvgSha256')
+assert not marine.get('svgMaster') and not marine.get('svgSha256')
+for oldpath, oldhash in (
+    ('retiredSchematicPng', 'retiredSchematicSha256'),
+    ('retiredSchematicSvg', 'retiredSchematicSvgSha256'),
+):
+    original = ROOT / marine[oldpath]
+    assert original.is_file()
+    assert hashlib.sha256(original.read_bytes()).hexdigest() == marine[oldhash]
+assert marine['retiredSchematicSha256'] == 'a330620a0fb6d62fab65caf6c79fd50ee24a686c83bc3a49b034623bfbc987c3'
+assert all(word in marine['keyEn'] for word in ('Cetacea', 'Sirenia', 'Pinnipedia', 'Mustelidae', 'NOT one taxonomic order'))
+print('PASS: Calotes heart alone withheld; sourced aquatic-mammal photography, taxonomy and archived original verified')
 
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
