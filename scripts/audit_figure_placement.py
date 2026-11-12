@@ -190,14 +190,25 @@ def main():
                     "Balanoglossus adapted plate lacks origin, public-domain status, or modification evidence"
                 )
             elif figure["diagramId"] == "u2-scales-fins-scale-types-labelled" and figure.get("sourceUrl"):
+                source_pages = [
+                    "https://commons.wikimedia.org/wiki/File:Fishscales.png",
+                    "https://commons.wikimedia.org/wiki/File:PlacoidComp.png",
+                ]
+                archived = ROOT / "docs/retired_noninstructional_png/fish_scale_types.png"
                 require(
-                    figure["author"] == "Jon Houseman (ganoid/cycloid/ctenoid); CHORDATA QA (original placoid section and layout)"
-                    and figure.get("sourceUrl") == "https://commons.wikimedia.org/wiki/File:Fishscales.png"
-                    and figure.get("license") == "CC BY-SA 3.0 Unported — composite derivative, source credited"
+                    figure["author"] == "Jon Houseman"
+                    and figure.get("sourceUrls") == source_pages
+                    and figure.get("sourceUrl") == source_pages[0]
+                    and figure.get("license", "").startswith("CC BY-SA 3.0")
                     and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/3.0/"
-                    and len(figure.get("sourceSha256", [])) == 1
-                    and all(term in figure.get("keyEn", "") for term in ("Placoid", "Ganoid", "Cycloid", "Ctenoid")),
-                    "fish-scale plate missing rights, four types, or original Houseman source"
+                    and len(figure.get("sourceSha256", [])) == 2
+                    and all(len(h) == 64 for h in figure["sourceSha256"])
+                    and all(term in figure.get("keyEn", "").lower() for term in ("placoid", "ganoid", "cycloid", "ctenoid"))
+                    and figure.get("visualReview") == "SOURCE_BASED_TEACHING_PLATE_QA_PROVISIONAL"
+                    and archived.is_file()
+                    and hashlib.sha256(archived.read_bytes()).hexdigest()
+                        == figure.get("retiredSchematicSha256") == "23043a42c60facb16479fc9da9d0d4d1faa7d2034fcd3322006b5cc8820dad02",
+                    "fish-scale source replacement needs BOTH genuine Houseman image hashes and archived original"
                 )
             elif figure["diagramId"] == "u2-scales-fins-fins-labelled" and figure.get("sourceUrl"):
                 require(
@@ -489,6 +500,45 @@ def main():
                 and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                 "Scoliodon digestive plate missing expected anatomy/rights/SVG/review evidence"
             )
+        if figure["diagramId"] in ("u2-scoliodon-digestive-labelled", "u3-origin-devonian-transition") and figure.get("visualReview") == "SOURCE_BASED_TEACHING_PLATE_QA_PROVISIONAL":
+            expected = {
+                "u2-scoliodon-digestive-labelled": (
+                    "Squa152p.png",
+                    "57f1bd87ee5ea529eff8bec7ca5ac4a60c2dca1be6afb62daf52ba024741cf17",
+                    "scoliodon_digestive_en.png",
+                ),
+                "u3-origin-devonian-transition": (
+                    "Fishapod_evolution.jpg",
+                    "af54f34a6648dfaef154fb40bbafcb208848ab8a5576709398f62222fb6dc917",
+                    "devonian_tetrapod_transition_en.png",
+                )
+            }
+            published, old_hash, old_name = expected[figure["diagramId"]]
+            archived = ROOT / "docs/retired_noninstructional_png" / old_name
+            require(
+                figure.get("sourceUrl", "") == "https://commons.wikimedia.org/wiki/File:" + published
+                and len(figure.get("sourceSha256", [])) == 1
+                and len(figure["sourceSha256"][0]) == 64
+                and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/3.0/"
+                and figure.get("reviewStatus", "").startswith("PROVISIONAL_")
+                and not figure.get("svgMaster")
+                and archived.is_file()
+                and hashlib.sha256(archived.read_bytes()).hexdigest()
+                    == figure.get("retiredSchematicSha256") == old_hash,
+                "sourced classroom figure has missing attribution, immutable old PNG or provisional status"
+            )
+            if figure["diagramId"] == "u2-scoliodon-digestive-labelled":
+                require(
+                    "Squalus" in figure.get("keyEn", "")
+                    and "DIFFERENT genus" in figure.get("keyEn", "")
+                    and "rectal gland" in figure.get("keyEn", "").lower(),
+                    "comparative Squalus must never be misidentified as Scoliodon"
+                )
+            else:
+                require(
+                    "not necessarily direct ancestors" in figure.get("keyEn", ""),
+                    "Devonian fossils must not be shown as a ladder of direct ancestors"
+                )
         if (figure["diagramId"] in ("u5-columba-endoskeleton", "u5-rabbit-endoskeleton")
                 and figure["lang"] == "en" and figure.get("sourceUrl")):
             original_name = ("pigeon_endoskeleton_line_art.png"
