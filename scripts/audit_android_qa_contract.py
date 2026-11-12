@@ -148,7 +148,7 @@ assert 'figure-pending-page' not in gallery_ui, 'Redundant internal QA panel ret
 assert 'figure-overview-status' not in gallery_ui, 'Non-subject figure status returned to chapter outline'
 # Six original screenshots exposed a pedagogic problem, not a PNG-file
 # problem. The three source-based replacements must remain active while
-# the remaining rejected monotreme, aquatic mammal and Calotes heart remain suppressed.
+# only the aquatic mammal icons and Calotes heart remain suppressed.
 sourced_ids = {
     'u4-snakes-india-big-four-identification',
     'u5-flight-adaptations-flight-muscles',
@@ -175,8 +175,12 @@ rabbit = next(x for x in entries if x['diagramId'] == 'u5-rabbit-sense-organs')
 assert rabbit.get('visualReview') == 'SOURCED_REAL_RABBIT_SENSORY_PHOTO_QA_PROVISIONAL'
 assert rabbit.get('sourceUrl', '').endswith('File:Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_(DSCF0830).jpg')
 assert rabbit.get('retiredSchematicPng') and rabbit.get('retiredSchematicSvg')
+monotreme = next(x for x in entries if x['diagramId'] == 'u5-egg-laying-mammals-monotreme-reproduction')
+assert monotreme['lang'] == 'shared' and len(monotreme.get('sourceUrls',[])) == 3
+assert monotreme.get('visualReview') == 'SOURCED_REAL_MONOTREME_SPECIMENS_AND_ANATOMY_QA_PROVISIONAL'
+assert monotreme.get('retiredSchematicPng') and monotreme.get('retiredSchematicSha256')
 assert 'additionalSourceUrls' in gallery_ui and 'figure-extra-source-' in gallery_ui
-assert 'threeSymbolicPlatesRemainWithheldAndFourSourcedPlatesAreAvailable()' in test_text
+assert 'twoSymbolicPlatesRemainWithheldAndFiveSourcedPlatesAreAvailable()' in test_text
 assert 'figure-image-' in gallery_ui and 'figure-credits-toggle-' in gallery_ui
 assert 'figure-rejected-quality' in gallery_ui and 'figure-error-' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
