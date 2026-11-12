@@ -34,6 +34,24 @@ repository. `.gitignore` already excludes `*.jks` and `*.keystore`.
 The workflow uses that identity only for `debug` builds, including
 instrumentation and published QA APKs. The `release` build remains unsigned.
 
+## Offline progress transfer in newer QA builds
+
+The native Android Privacy policy screen now provides **Export learning data**
+and **Import learning data**, using the Android system file picker without
+storage or network permissions. Export produces a readable, unencrypted JSON
+file containing lesson completion, bookmarks, quiz scores, language and reader
+scale. Import requires a confirmation and schema validation before replacing
+existing local progress. Store backup files privately and delete them
+separately after use; deleting the app does not remove an exported file.
+
+**Important:** older QA builds (including #402 and #405) do not contain
+these export controls. Installing a newer APK signed with a different
+certificate over an older build will still be refused by Android. Backing up
+through the new in-app UI cannot rescue progress from a previous APK that does
+not implement the feature. For existing installations, use an identical
+signing identity or obtain an authorised device-level backup before
+uninstalling; never promise that unrelated debug builds can upgrade in place.
+
 ## Acceptance and limitations
 
 1. Run Android QA twice on successive commits with the SAME encrypted secrets.
