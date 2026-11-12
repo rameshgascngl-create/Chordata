@@ -28,8 +28,12 @@ import `in`.gasc.zoology.chordata.domain.ReadingLanguage
 /** In-app privacy disclosure; all data paths are local to this APK. */
 @Composable
 fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float,
-                      onEraseLocalData: () -> Boolean) {
+                      onEraseLocalData: () -> Boolean,
+                      onExportLocalData: () -> Unit,
+                      onImportLocalData: () -> Unit,
+                      transferMessage: String) {
     var showEraseConfirmation by remember { mutableStateOf(false) }
+    var showImportConfirmation by remember { mutableStateOf(false) }
     var eraseFailed by remember { mutableStateOf(false) }
     val scale = textScale.coerceIn(1f, 2f)
     val tamil = language == ReadingLanguage.TA
@@ -57,6 +61,30 @@ fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float,
                 TextButton(
                     modifier = Modifier.testTag("privacy-erase-cancel"),
                     onClick = { showEraseConfirmation = false }
+                ) { Text(tr("Cancel", "வேண்டாம்")) }
+            }
+        )
+    }
+
+    if (showImportConfirmation) {
+        AlertDialog(
+            modifier = Modifier.testTag("privacy-import-dialog"),
+            onDismissRequest = { showImportConfirmation = false },
+            title = { Text(tr("Restore learning progress?", "கற்றல் முன்னேற்றத்தை மீட்டெடுக்கவா?")) },
+            text = { Text(tr(
+                "Importing a backup replaces all learning progress, bookmarks, quiz scores and reading preferences currently saved on this device. Choose only a trusted Chordata JSON backup.",
+                "காப்புக் கோப்பை இறக்குமதி செய்தால் இச்சாதனத்தில் சேமித்த பாட முன்னேற்றம், சேமித்த பாடங்கள், வினா மதிப்பெண்கள், வாசிப்பு அமைப்புகள் அனைத்தும் மாற்றப்படும். நம்பகமான CHORDATA JSON காப்புக் கோப்பை மட்டும் தேர்ந்தெடுக்கவும்."
+            )) },
+            confirmButton = {
+                TextButton(
+                    modifier = Modifier.testTag("privacy-import-confirm"),
+                    onClick = { showImportConfirmation = false; onImportLocalData() }
+                ) { Text(tr("Choose backup", "காப்புக் கோப்பைத் தேர்வு செய்")) }
+            },
+            dismissButton = {
+                TextButton(
+                    modifier = Modifier.testTag("privacy-import-cancel"),
+                    onClick = { showImportConfirmation = false }
                 ) { Text(tr("Cancel", "வேண்டாம்")) }
             }
         )
@@ -96,9 +124,35 @@ fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float,
         ) }
         item { PrivacySection(scale,
             tr("Protection, retention and deletion", "பாதுகாப்பு, வைத்திருத்தல் மற்றும் நீக்குதல்"),
-            tr("Android private app storage is used and Android automatic backup is disabled. Local preferences remain until you choose Erase all learning data below, uninstall the app or clear its storage in Android Settings > Apps > Chordata Atlas > Storage > Clear storage. No cloud copy is maintained by this app.",
-               "Android செயலியின் தனிப்பட்ட சேமிப்பகம் பயன்படுத்தப்படுகிறது; தானியங்கி காப்புப்பிரதி முடக்கப்பட்டுள்ளது. கீழே உள்ள கற்றல் தரவு அனைத்தையும் அழி பொத்தானைப் பயன்படுத்தினாலோ, செயலியை நீக்கினாலோ, Android அமைப்புகள் > செயலிகள் > Chordata Atlas > சேமிப்பகம் > தரவை அழி என்பதைத் தேர்ந்தெடுத்தாலோ உள்ளூர் பதிவுகள் நீங்கும். இந்தச் செயலி மேகச் சேமிப்பகத்தில் நகல் வைத்திருக்காது.")
+            tr("Android private app storage is used and Android automatic backup is disabled. You may manually export learning data to a user-chosen, unencrypted JSON file and import it later. The app never uploads that file. Local preferences remain until you choose Erase all learning data below, uninstall the app or clear its storage in Android Settings > Apps > Chordata Atlas > Storage > Clear storage. No app-managed cloud copy exists.",
+               "Android செயலியின் தனிப்பட்ட சேமிப்பகம் பயன்படுத்தப்படுகிறது; தானியங்கி காப்புப்பிரதி முடக்கப்பட்டுள்ளது. நீங்கள் தேர்ந்தெடுக்கும் இடத்தில் மறையாக்கம் செய்யப்படாத JSON காப்புக் கோப்பைச் சேமித்து, பின்னர் மீட்டெடுக்கலாம். செயலி அந்தக் கோப்பை இணையத்தில் பதிவேற்றாது. கீழே உள்ள கற்றல் தரவு அனைத்தையும் அழி பொத்தானைப் பயன்படுத்தினாலோ, செயலியை நீக்கினாலோ, Android அமைப்புகள் > செயலிகள் > Chordata Atlas > சேமிப்பகம் > தரவை அழி என்பதைத் தேர்ந்தெடுத்தாலோ உள்ளூர் பதிவுகள் நீங்கும். செயலி தனியாக மேகச் சேமிப்பக நகலை வைத்திருக்காது.")
         ) }
+        item(key = "backup-learning-data") {
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(tr("Learning data backup", "கற்றல் தரவுக் காப்பு"),
+                    fontWeight = FontWeight.Bold, fontSize = (17f * scale).sp,
+                    lineHeight = (24f * scale).sp,
+                    color = MaterialTheme.colorScheme.primary)
+                Text(tr(
+                    "Export a readable JSON backup before reinstalling a differently signed QA build. The file is saved only where you choose and is not encrypted. Keep it private; importing replaces existing progress.",
+                    "வேறுபட்ட கையொப்பமுள்ள சோதனைச் செயலியை மீண்டும் நிறுவுவதற்கு முன் JSON காப்பைச் சேமிக்கலாம். நீங்கள் தேர்ந்தெடுக்கும் இடத்திலேயே கோப்பு சேமிக்கப்படும்; அது மறையாக்கம் செய்யப்பட்டதல்ல. அதைத் தனிப்பட்டதாக வைத்திருக்கவும்; இறக்குமதி செய்தால் ஏற்கெனவே உள்ள கற்றல் தரவு மாற்றப்படும்."
+                ), fontSize = (14f * scale).sp, lineHeight = (22f * scale).sp)
+                TextButton(
+                    modifier = Modifier.testTag("privacy-export-entry"),
+                    onClick = onExportLocalData
+                ) { Text(tr("Export learning data", "கற்றல் தரவை ஏற்றுமதி செய்"),
+                    fontSize = (15f * scale).sp, lineHeight = (22f * scale).sp) }
+                TextButton(
+                    modifier = Modifier.testTag("privacy-import-entry"),
+                    onClick = { showImportConfirmation = true }
+                ) { Text(tr("Import learning data", "கற்றல் தரவை இறக்குமதி செய்"),
+                    fontSize = (15f * scale).sp, lineHeight = (22f * scale).sp) }
+                if (transferMessage.isNotBlank()) {
+                    Text(transferMessage, modifier = Modifier.testTag("privacy-transfer-status"),
+                        fontSize = (14f * scale).sp, lineHeight = (21f * scale).sp)
+                }
+            }
+        }
         item(key = "erase-learning-data") {
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 TextButton(
