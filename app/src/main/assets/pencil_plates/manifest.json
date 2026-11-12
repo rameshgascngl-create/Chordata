@@ -506,16 +506,58 @@
       "figure": "platypus_reproduction",
       "lang": "shared",
       "path": "pencil_plates/platypus_reproduction.png",
-      "size": 14683,
-      "sha256": "5936652b851a5c474cf64db332a49736266039c6f6e8b9e6e507122de6ef0284",
-      "author": "Chordata QA project — original numbered schematic",
+      "size": 1932569,
+      "sha256": "018d3e2e8c0c4dc4c7edf34cb60fbf92e8446386e9fe765ce09d9d9346a53e6b",
+      "author": "Eric Chan (platypus photograph); Ian R McCann, Museums Victoria (echidna puggle photograph); F. E. Beddard (1902 anatomical plate); CHORDATA QA (comparison captions)",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Platypus example, not to scale. 1 The female lays eggs in a lined nesting burrow and incubates them. 2 The young hatch. 3 Enlarged view of the mother’s belly: milk is secreted onto paired skin areas through mammary openings. The young take up the milk from the skin; the mother has no nipples.",
-      "keyTa": "பிளாட்டிபஸ் ஓர் எடுத்துக்காட்டு. படங்கள் அளவுப்படி வரையப்படவில்லை. 1 பெண் பிளாட்டிபஸ் வளைப் பொந்தில் அமைத்த கூட்டில் முட்டையிட்டு அடைகாக்கிறது. 2 முட்டையிலிருந்து குஞ்சுகள் வெளிவருகின்றன. 3 தாயின் வயிற்றுப்புறத் தோலின் பெரிதாக்கிய தோற்றம்: பால் சுரப்பிகளின் திறப்புகள் வழியாக இரு பக்கத் தோல் பகுதிகளிலும் பால் சுரக்கிறது. குஞ்சுகள் தோலிலிருந்து பாலைப் பெறுகின்றன. தாய்க்குப் பால்முலைக் காம்புகள் இல்லை.",
+      "keyEn": "Monotreme reproduction: A adult platypus, Ornithorhynchus anatinus (sex unknown in specimen photo); female lays leathery eggs in a burrow, where they hatch. B photographed echidna puggle, Tachyglossus aculeatus (NOT a platypus young): the female incubates a typically single egg in a temporary ventral pouch. C published comparative anatomical drawing of echidna pouch and paired mammary-gland regions (Beddard 1902). Both monotreme lineages lack teats; milk reaches offspring through specialised skin glandular openings. Images depict different species and different observations, not a chronological photographic life-cycle.",
+      "keyTa": "முட்டையிடும் பாலூட்டிகளின் இனப்பெருக்கம்: A பிளாட்டிபஸ் (Ornithorhynchus anatinus) — பெண் வளைப்பொந்தில் முட்டையிட்டு அடைகாக்கிறது; புகைப்படத்தில் உயிரினத்தின் பாலினம் உறுதிப்படுத்தப்படவில்லை. B எகிட்னா (Tachyglossus aculeatus) குட்டியின் உண்மைப் புகைப்படம்; இது பிளாட்டிபஸ் குட்டி அன்று. பெண் எகிட்னா பொதுவாக ஒற்றை முட்டையைத் தற்காலிக வயிற்றுப்புறப் பையில் அடைகாக்கிறது. C எகிட்னாவின் பை மற்றும் பால்சுரப்பிகளை வெளிப்படுத்தும் 1902 ஆம் ஆண்டு வெளியான உடற்கூறியல் படம். இவ்விரண்டு இனங்களுக்கும் பால்முலைக் காம்புகள் இல்லை; தோலில் உள்ள சிறப்பான திறப்புகள் வழியாக பால் சுரந்து குட்டிகளுக்குக் கிடைக்கிறது. வெவ்வேறு இனங்களின் ஆதாரப்படங்கள்; தொடர்ச்சியான வாழ்க்கைச் சுழற்சிப் புகைப்படங்கள் அன்று.",
       "referenceUrl": "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/mammals/echidnas-and-platypus/platypus/platypus-in-tasmania",
-      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
-      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
-      "pedagogicReason": "Unlabelled shapes fail to show oviposition, hatchling and mammary-patch milk secretion."
+      "visualReview": "SOURCED_REAL_MONOTREME_SPECIMENS_AND_ANATOMY_QA_PROVISIONAL",
+      "pedagogicStatus": "REPLACED_WITH_CC_LICENSED_MONOTREME_SOURCE_QA_PENDING_2026-11-12",
+      "pedagogicReason": "Three authentic verifiable sources make the platypus, echidna young, and pouch/mammary structure recognisable; captions distinguish two species and prevent invented life-cycle depictions.",
+      "retiredSchematicPng": "docs/retired_noninstructional_png/platypus_reproduction.png",
+      "retiredSchematicSha256": "5936652b851a5c474cf64db332a49736266039c6f6e8b9e6e507122de6ef0284",
+      "retiredSchematicMetadata": {
+        "author": "Chordata QA project — original numbered schematic",
+        "license": null,
+        "sha256": "5936652b851a5c474cf64db332a49736266039c6f6e8b9e6e507122de6ef0284",
+        "size": 14683,
+        "referenceUrl": "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/mammals/echidnas-and-platypus/platypus/platypus-in-tasmania",
+        "keyEn": "Platypus example, not to scale. 1 The female lays eggs in a lined nesting burrow and incubates them. 2 The young hatch. 3 Enlarged view of the mother’s belly: milk is secreted onto paired skin areas through mammary openings. The young take up the milk from the skin; the mother has no nipples.",
+        "keyTa": "பிளாட்டிபஸ் ஓர் எடுத்துக்காட்டு. படங்கள் அளவுப்படி வரையப்படவில்லை. 1 பெண் பிளாட்டிபஸ் வளைப் பொந்தில் அமைத்த கூட்டில் முட்டையிட்டு அடைகாக்கிறது. 2 முட்டையிலிருந்து குஞ்சுகள் வெளிவருகின்றன. 3 தாயின் வயிற்றுப்புறத் தோலின் பெரிதாக்கிய தோற்றம்: பால் சுரப்பிகளின் திறப்புகள் வழியாக இரு பக்கத் தோல் பகுதிகளிலும் பால் சுரக்கிறது. குஞ்சுகள் தோலிலிருந்து பாலைப் பெறுகின்றன. தாய்க்குப் பால்முலைக் காம்புகள் இல்லை.",
+        "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
+        "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
+        "pedagogicReason": "Unlabelled shapes fail to show oviposition, hatchling and mammary-patch milk secretion."
+      },
+      "license": "Composite educational adaptation under CC BY-SA 4.0; source platypus CC BY 2.0, echidna puggle CC BY-SA 4.0, historical anatomy public domain",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platypus_(4848256613).jpg",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Platypus_(4848256613).jpg",
+        "https://commons.wikimedia.org/wiki/File:Tachyglossus_aculeatus_baby_Museums_Victoria.jpg",
+        "https://commons.wikimedia.org/wiki/File:Cambridge_Natural_History_Mammalia_Fig_003.png"
+      ],
+      "sourceSha256": [
+        "cd2c3ec5e7996c3fc6c07275f469658c26ff5aef8edbb422d02f22c6bdcedf11",
+        "ee6c783e02e6f19e423c870a83e750bd7c2cc830c2b33d6e06bb08a584bfa56e",
+        "d969e5b6c4719744a0cb1315bafc8701cfffb7ad52f30fa0710bff352b014c85"
+      ],
+      "originalLicences": [
+        "https://creativecommons.org/licenses/by/2.0/",
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://creativecommons.org/publicdomain/mark/1.0/"
+      ],
+      "referenceUrls": [
+        "https://platypus.asn.au/platypus-reproduction/",
+        "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/mammals/echidnas-and-platypus/platypus/platypus-in-tasmania",
+        "https://fieldofmar-e.schools.nsw.gov.au/fact-sheets/mammals/short-beaked-echidna-fact-sheet",
+        "https://en.wikisource.org/wiki/Page:Mammalia_(Beddard).djvu/35"
+      ],
+      "sourceKind": "COMPARATIVE_MONOTREME_SPECIMEN_PHOTOS_AND_PUBLISHED_POUCH_ANATOMY",
+      "installedFormat": "PNG",
+      "modifications": "Two authentic specimen photographs and one complete 1902 published anatomical panel resized proportionally on new background with English titles and accurate explanatory text; no fictitious eggs, hatchlings, milk teats or anatomical structures drawn.",
+      "scope": "Two real monotreme species and a published echidna pouch/mammary anatomical figure, with accurate comparative egg-incubation and milk-feeding explanations; not one documented sequence."
     },
     {
       "diagramId": "u3-amphibia-classification-living-orders",

@@ -1,0 +1,65 @@
+{
+  "diagramId": "u5-egg-laying-mammals-monotreme-reproduction",
+  "sourceFiles": [
+    {
+      "key": "platypus",
+      "file": "Platypus (4848256613).jpg",
+      "creator": "Eric Chan",
+      "subject": "Adult platypus; sex not established by the image",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "width": 4256,
+      "height": 2832,
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Platypus_(4848256613).jpg",
+      "verifiedLicence": "CC BY 2.0",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Platypus_%284848256613%29.jpg",
+      "sha256": "cd2c3ec5e7996c3fc6c07275f469658c26ff5aef8edbb422d02f22c6bdcedf11",
+      "originalBytes": 2289462,
+      "transform": "Original whole frame proportionally resized into labelled comparison panel; no anatomical artwork redrawn"
+    },
+    {
+      "key": "puggle",
+      "file": "Tachyglossus aculeatus baby Museums Victoria.jpg",
+      "creator": "Ian R McCann; Museums Victoria",
+      "subject": "Juvenile short-beaked echidna (puggle), not a baby platypus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "width": 1500,
+      "height": 1013,
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tachyglossus_aculeatus_baby_Museums_Victoria.jpg",
+      "verifiedLicence": "CC BY-SA 4.0",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tachyglossus_aculeatus_baby_Museums_Victoria.jpg",
+      "sha256": "ee6c783e02e6f19e423c870a83e750bd7c2cc830c2b33d6e06bb08a584bfa56e",
+      "originalBytes": 250239,
+      "transform": "Original whole frame proportionally resized into labelled comparison panel; no anatomical artwork redrawn"
+    },
+    {
+      "key": "pouch",
+      "file": "Cambridge Natural History Mammalia Fig 003.png",
+      "creator": "Frank E. Beddard (1902), after Wiedersheim and W. Haacke",
+      "subject": "Echidna female ventral pouch and dorsal view of mammary glands",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "width": 955,
+      "height": 639,
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cambridge_Natural_History_Mammalia_Fig_003.png",
+      "verifiedLicence": "Public domain",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Cambridge_Natural_History_Mammalia_Fig_003.png",
+      "sha256": "d969e5b6c4719744a0cb1315bafc8701cfffb7ad52f30fa0710bff352b014c85",
+      "originalBytes": 142161,
+      "transform": "Original whole frame proportionally resized into labelled comparison panel; no anatomical artwork redrawn"
+    }
+  ],
+  "installedAsset": "pencil_plates/platypus_reproduction.png",
+  "installedPngSha256": "018d3e2e8c0c4dc4c7edf34cb60fbf92e8446386e9fe765ce09d9d9346a53e6b",
+  "installedPngSize": 1932569,
+  "sizePx": [
+    3000,
+    2100
+  ],
+  "retiredOriginalPng": "docs/retired_noninstructional_png/platypus_reproduction.png",
+  "retiredOriginalSha256": "5936652b851a5c474cf64db332a49736266039c6f6e8b9e6e507122de6ef0284",
+  "sourceArtCreatedOrInvented": false,
+  "scientificCaution": "Platypus and echidna are separate taxa; images not a chronological photo series; no nipples, and no photograph depicts oviposition.",
+  "review": "QA provisional; biological and Tamil independent sign-off pending"
+}
