@@ -116,7 +116,9 @@ assert 'All 64 lesson-diagram slots contain provisional illustrations' not in ap
 assert 'home-book-layout' in app_ui and 'subject-title' in app_ui
 privacy_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/PrivacyPolicyScreen.kt').read_text(encoding='utf-8')
 assert 'privacy-policy-entry' in app_ui and 'privacy-policy-back' in app_ui
-assert 'tab == "privacy" -> PrivacyPolicyPage(lang, textScale)' in app_ui
+assert 'tab == "privacy" -> PrivacyPolicyPage(lang, textScale,' in app_ui
+assert 'onEraseLocalData = {' in app_ui
+assert 'fun eraseLearningDataRequiresConfirmationAndPersistsDeletion()' in test_text
 assert 'fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float)' in privacy_ui
 assert 'textScale.coerceIn(1f, 2f)' in privacy_ui
 assert 'fontSize = (16f * scale).sp' in privacy_ui
