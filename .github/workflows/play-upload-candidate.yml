@@ -26,7 +26,7 @@ permissions:
   contents: read
   actions: read
 concurrency:
-  group: chordata-play-candidate-${ github.ref }
+  group: chordata-play-candidate-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -39,9 +39,9 @@ jobs:
       - name: Confirm reviewed QA branch and release metadata
         shell: bash
         env:
-          RELEASE_CODE: ${ inputs.version_code }
-          RELEASE_NAME: ${ inputs.version_name }
-          CONTACT_CONFIRMED: ${ inputs.publisher_contact_confirmed }
+          RELEASE_CODE: ${{ inputs.version_code }}
+          RELEASE_NAME: ${{ inputs.version_name }}
+          CONTACT_CONFIRMED: ${{ inputs.publisher_contact_confirmed }}
         run: |
           set -euo pipefail
           [[ "$GITHUB_REF_NAME" == qa/* ]] || { echo '::error::Only a reviewed QA branch may produce a release candidate.'; exit 1; }
@@ -78,7 +78,7 @@ jobs:
       - name: Verify public privacy webpage
         shell: bash
         env:
-          POLICY_URL: ${ inputs.privacy_policy_url }
+          POLICY_URL: ${{ inputs.privacy_policy_url }}
         run: |
           set -euo pipefail
           python3 - <<'PY'
@@ -116,8 +116,8 @@ jobs:
 
       - name: Build and lint unsigned release bundle
         env:
-          CHORDATA_RELEASE_VERSION_CODE: ${ inputs.version_code }
-          CHORDATA_RELEASE_VERSION_NAME: ${ inputs.version_name }
+          CHORDATA_RELEASE_VERSION_CODE: ${{ inputs.version_code }}
+          CHORDATA_RELEASE_VERSION_NAME: ${{ inputs.version_name }}
         run: |
           set -euo pipefail
           gradle --no-daemon :app:bundleRelease :app:lintRelease
@@ -127,10 +127,10 @@ jobs:
       - name: Sign AAB with upload-key secret, verify and record SHA256
         shell: bash
         env:
-          PLAY_KEYSTORE_B64: ${ secrets.CHORDATA_PLAY_UPLOAD_KEYSTORE_B64 }
-          PLAY_STORE_PASSWORD: ${ secrets.CHORDATA_PLAY_UPLOAD_STORE_PASSWORD }
-          PLAY_KEY_ALIAS: ${ secrets.CHORDATA_PLAY_UPLOAD_KEY_ALIAS }
-          PLAY_KEY_PASSWORD: ${ secrets.CHORDATA_PLAY_UPLOAD_KEY_PASSWORD }
+          PLAY_KEYSTORE_B64: ${{ secrets.CHORDATA_PLAY_UPLOAD_KEYSTORE_B64 }}
+          PLAY_STORE_PASSWORD: ${{ secrets.CHORDATA_PLAY_UPLOAD_STORE_PASSWORD }}
+          PLAY_KEY_ALIAS: ${{ secrets.CHORDATA_PLAY_UPLOAD_KEY_ALIAS }}
+          PLAY_KEY_PASSWORD: ${{ secrets.CHORDATA_PLAY_UPLOAD_KEY_PASSWORD }}
         run: |
           set -euo pipefail
           for name in PLAY_KEYSTORE_B64 PLAY_STORE_PASSWORD PLAY_KEY_ALIAS PLAY_KEY_PASSWORD; do

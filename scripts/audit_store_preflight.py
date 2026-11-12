@@ -71,6 +71,11 @@ for token in ("workflow_dispatch:", "play-upload-review", "scripts/write_figure_
               "jarsigner", "CHORDATA_PLAY_UPLOAD_KEYSTORE_B64", "upload-artifact@v4"):
     assert token in release_workflow, f"Unsafe or incomplete manual release gate: {token}"
 assert "push:" not in release_workflow and "pull_request:" not in release_workflow, "Release workflow must be manual only"
+for required in ('${{ inputs.version_code }}', '${{ inputs.version_name }}',
+                 '${{ inputs.privacy_policy_url }}',
+                 '${{ secrets.CHORDATA_PLAY_UPLOAD_KEYSTORE_B64 }}'):
+    assert required in release_workflow, f"Malformed GitHub workflow interpolation: {required}"
+assert not re.search(r'\$\{\s*(?:inputs|github|secrets)\.', release_workflow), "Malformed GitHub expression"
 print("PASS: manual Play AAB workflow is gated by academic, privacy, tested SHA and secure signing checks")
 print("PASS: no app-declared permissions, network/backup disabled, private offline progress")
 print("PASS: API 36+ target, release shrinker enabled, QA version, no release-signing keys")
