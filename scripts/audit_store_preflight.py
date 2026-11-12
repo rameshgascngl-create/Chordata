@@ -29,7 +29,17 @@ target = re.search(r"\btargetSdk\s*=\s*(\d+)", gradle)
 assert target and int(target.group(1)) >= 36, "Target SDK must satisfy the 2026 Play policy"
 assert 'isMinifyEnabled = true' in gradle and 'isShrinkResources = true' in gradle, "Release shrinking is disabled"
 assert re.search(r'versionName\s*=\s*"[^"]+-qa"', gradle), "QA source unexpectedly labelled as production"
-assert not re.search(r'\bsigningConfig\s*=', gradle), "Production signing must not be configured in the QA branch"
+# Persistent signing applies ONLY to debug builds, using secure environment
+# secrets. Release bundles remain unsigned for preflight; no keystore in git.
+assert 'create("persistentQa")' in gradle
+assert 'CHORDATA_QA_KEYSTORE_PATH' in gradle
+assert 'signingConfig = signingConfigs.getByName("persistentQa")' in gradle
+release_fragment = gradle.split('release {', 1)[1].split('\n        }', 1)[0]
+assert 'signingConfig' not in release_fragment, "QA must never sign production release"
+wf = (ROOT / ".github/workflows/android-qa.yml").read_text(encoding="utf-8")
+assert wf.count('Restore persistent QA signing from encrypted repository secrets') == 2
+assert 'QA_SIGNING_MODE=ephemeral' in wf and 'QA_SIGNING_MODE=persistent' in wf
+assert 'Report QA signing certificate without exposing a key' in wf
 
 store = (ROOT / "app/src/main/java/in/gasc/zoology/chordata/data/ProgressStore.kt").read_text(encoding="utf-8")
 for token in ('getSharedPreferences(', '"done"', '"saved"', '"lang"', '"scale"', '"quiz:$topicId"'):

@@ -3,6 +3,17 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
+// A stable QA signing identity is optional and comes exclusively from local
+// environment variables / GitHub Actions encrypted secrets. Never commit keys.
+// Without it, Android's standard temporary debug key remains the fallback.
+val qaStorePath = System.getenv("CHORDATA_QA_KEYSTORE_PATH")
+val qaStorePassword = System.getenv("CHORDATA_QA_STORE_PASSWORD")
+val qaKeyAlias = System.getenv("CHORDATA_QA_KEY_ALIAS")
+val qaKeyPassword = System.getenv("CHORDATA_QA_KEY_PASSWORD")
+val persistentQaSigning = listOf(
+    qaStorePath, qaStorePassword, qaKeyAlias, qaKeyPassword
+).all { !it.isNullOrBlank() }
+
 android {
     namespace = "in.gasc.zoology.chordata"
     compileSdk = 37
@@ -20,9 +31,22 @@ android {
         compose = true
         buildConfig = true
     }
+    signingConfigs {
+        if (persistentQaSigning) {
+            create("persistentQa") {
+                storeFile = file(requireNotNull(qaStorePath))
+                storePassword = requireNotNull(qaStorePassword)
+                keyAlias = requireNotNull(qaKeyAlias)
+                keyPassword = requireNotNull(qaKeyPassword)
+            }
+        }
+    }
     buildTypes {
         debug {
             isDebuggable = true
+            if (persistentQaSigning) {
+                signingConfig = signingConfigs.getByName("persistentQa")
+            }
         }
         release {
             // QA source only; do not generate/distribute a production release.

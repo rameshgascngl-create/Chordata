@@ -135,6 +135,31 @@ jobs:
           bash scripts/verify_sdk37_platform.sh
       - name: Compile native Kotlin with validated offline figures
         run: gradle --no-daemon :app:compileDebugKotlin
+      - name: Restore persistent QA signing from encrypted repository secrets (optional)
+        shell: bash
+        env:
+          QA_KEYSTORE_B64: ${{ secrets.CHORDATA_QA_KEYSTORE_B64 }}
+          QA_STORE_PASSWORD: ${{ secrets.CHORDATA_QA_STORE_PASSWORD }}
+          QA_KEY_ALIAS: ${{ secrets.CHORDATA_QA_KEY_ALIAS }}
+          QA_KEY_PASSWORD: ${{ secrets.CHORDATA_QA_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          if [[ -z "$QA_KEYSTORE_B64" && -z "$QA_STORE_PASSWORD" && -z "$QA_KEY_ALIAS" && -z "$QA_KEY_PASSWORD" ]]; then
+            echo 'QA_SIGNING_MODE=ephemeral' >> "$GITHUB_ENV"
+            echo '::warning::No persistent QA signing secrets: debug APK uses a new runner key and CANNOT upgrade an older differently signed QA APK.'
+          elif [[ -z "$QA_KEYSTORE_B64" || -z "$QA_STORE_PASSWORD" || -z "$QA_KEY_ALIAS" || -z "$QA_KEY_PASSWORD" ]]; then
+            echo '::error::Incomplete CHORDATA_QA signing secrets; configure all four or none.'
+            exit 1
+          else
+            umask 077
+            printf '%s' "$QA_KEYSTORE_B64" | base64 --decode > "$RUNNER_TEMP/chordata-qa.jks"
+            printf 'CHORDATA_QA_KEYSTORE_PATH=%s\n' "$RUNNER_TEMP/chordata-qa.jks" >> "$GITHUB_ENV"
+            printf 'CHORDATA_QA_STORE_PASSWORD=%s\n' "$QA_STORE_PASSWORD" >> "$GITHUB_ENV"
+            printf 'CHORDATA_QA_KEY_ALIAS=%s\n' "$QA_KEY_ALIAS" >> "$GITHUB_ENV"
+            printf 'CHORDATA_QA_KEY_PASSWORD=%s\n' "$QA_KEY_PASSWORD" >> "$GITHUB_ENV"
+            echo 'QA_SIGNING_MODE=persistent' >> "$GITHUB_ENV"
+            echo 'Persistent QA signing identity restored from encrypted secrets.'
+          fi
       - name: Enable KVM
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=android_kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
@@ -210,10 +235,46 @@ jobs:
           printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
           "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
           bash scripts/verify_sdk37_platform.sh
+      - name: Restore persistent QA signing from encrypted repository secrets (optional)
+        shell: bash
+        env:
+          QA_KEYSTORE_B64: ${{ secrets.CHORDATA_QA_KEYSTORE_B64 }}
+          QA_STORE_PASSWORD: ${{ secrets.CHORDATA_QA_STORE_PASSWORD }}
+          QA_KEY_ALIAS: ${{ secrets.CHORDATA_QA_KEY_ALIAS }}
+          QA_KEY_PASSWORD: ${{ secrets.CHORDATA_QA_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          if [[ -z "$QA_KEYSTORE_B64" && -z "$QA_STORE_PASSWORD" && -z "$QA_KEY_ALIAS" && -z "$QA_KEY_PASSWORD" ]]; then
+            echo 'QA_SIGNING_MODE=ephemeral' >> "$GITHUB_ENV"
+            echo '::warning::No persistent QA signing secrets: debug APK uses a new runner key and CANNOT upgrade an older differently signed QA APK.'
+          elif [[ -z "$QA_KEYSTORE_B64" || -z "$QA_STORE_PASSWORD" || -z "$QA_KEY_ALIAS" || -z "$QA_KEY_PASSWORD" ]]; then
+            echo '::error::Incomplete CHORDATA_QA signing secrets; configure all four or none.'
+            exit 1
+          else
+            umask 077
+            printf '%s' "$QA_KEYSTORE_B64" | base64 --decode > "$RUNNER_TEMP/chordata-qa.jks"
+            printf 'CHORDATA_QA_KEYSTORE_PATH=%s\n' "$RUNNER_TEMP/chordata-qa.jks" >> "$GITHUB_ENV"
+            printf 'CHORDATA_QA_STORE_PASSWORD=%s\n' "$QA_STORE_PASSWORD" >> "$GITHUB_ENV"
+            printf 'CHORDATA_QA_KEY_ALIAS=%s\n' "$QA_KEY_ALIAS" >> "$GITHUB_ENV"
+            printf 'CHORDATA_QA_KEY_PASSWORD=%s\n' "$QA_KEY_PASSWORD" >> "$GITHUB_ENV"
+            echo 'QA_SIGNING_MODE=persistent' >> "$GITHUB_ENV"
+            echo 'Persistent QA signing identity restored from encrypted secrets.'
+          fi
       - name: Build QA APK after all test gates pass
         run: gradle --no-daemon :app:assembleDebug
       - name: Verify committed figure hashes inside gated APK
         run: python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
+      - name: Report QA signing certificate without exposing a key
+        shell: bash
+        run: |
+          set -euo pipefail
+          signer="$ANDROID_HOME/build-tools/36.0.0/apksigner"
+          test -x "$signer"
+          cert_line="$("$signer" verify --print-certs app/build/outputs/apk/debug/app-debug.apk | grep 'Signer #1 certificate SHA-256 digest:')"
+          test -n "$cert_line"
+          echo "QA signing mode: ${QA_SIGNING_MODE:-ephemeral}" >> "$GITHUB_STEP_SUMMARY"
+          echo "$cert_line" >> "$GITHUB_STEP_SUMMARY"
+          echo "$cert_line"
       - name: Publish gated Parker pigeon QA APK
         uses: actions/upload-artifact@v4
         with:
