@@ -1,0 +1,26 @@
+name: Chordata licensed replacement image intake
+on:
+  push:
+    branches: ["qa/chordata-licensed-source-intake-20261112"]
+permissions:
+  contents: read
+jobs:
+  generate-candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install original-image rendering tools
+        run: python3 -m pip install --disable-pip-version-check --quiet "Pillow>=10,<12" "cairosvg>=2.7,<3" "requests>=2.32,<3"
+      - name: Verify Wikimedia Commons sources and rasterise teaching candidates
+        run: python3 scripts/prepare_commons_figure_candidates.py
+      - name: Publish original-source-based candidates for visual review only
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Sourced_Figure_Candidates_QA
+          path: build/commons-figure-candidates/
+          if-no-files-found: error
+          retention-days: 7
