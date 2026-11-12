@@ -512,7 +512,10 @@
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "Platypus example, not to scale. 1 The female lays eggs in a lined nesting burrow and incubates them. 2 The young hatch. 3 Enlarged view of the mother’s belly: milk is secreted onto paired skin areas through mammary openings. The young take up the milk from the skin; the mother has no nipples.",
       "keyTa": "பிளாட்டிபஸ் ஓர் எடுத்துக்காட்டு. படங்கள் அளவுப்படி வரையப்படவில்லை. 1 பெண் பிளாட்டிபஸ் வளைப் பொந்தில் அமைத்த கூட்டில் முட்டையிட்டு அடைகாக்கிறது. 2 முட்டையிலிருந்து குஞ்சுகள் வெளிவருகின்றன. 3 தாயின் வயிற்றுப்புறத் தோலின் பெரிதாக்கிய தோற்றம்: பால் சுரப்பிகளின் திறப்புகள் வழியாக இரு பக்கத் தோல் பகுதிகளிலும் பால் சுரக்கிறது. குஞ்சுகள் தோலிலிருந்து பாலைப் பெறுகின்றன. தாய்க்குப் பால்முலைக் காம்புகள் இல்லை.",
-      "referenceUrl": "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/mammals/echidnas-and-platypus/platypus/platypus-in-tasmania"
+      "referenceUrl": "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/mammals/echidnas-and-platypus/platypus/platypus-in-tasmania",
+      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
+      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
+      "pedagogicReason": "Unlabelled shapes fail to show oviposition, hatchling and mammary-patch milk secretion."
     },
     {
       "diagramId": "u3-amphibia-classification-living-orders",
@@ -1396,13 +1399,15 @@
       "keyEn": "Cobra, common krait, Russell’s viper and saw-scaled viper; other dangerous species occur.",
       "keyTa": "",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
+      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
       "svgMaster": "docs/original_plate_svg/india_big_four_snakes_en.svg",
       "topicId": "u4-snakes-india",
       "page": 2,
       "sectionKey": "big-four",
       "learningObjective": "Cobra, common krait, Russell’s viper and saw-scaled viper; other dangerous species occur.",
-      "svgSha256": "51e47b02c62745c11ec7605a92a73ac36773008fbc85b865b4dc45a5406fa155"
+      "svgSha256": "51e47b02c62745c11ec7605a92a73ac36773008fbc85b865b4dc45a5406fa155",
+      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
+      "pedagogicReason": "Abstract curves do not depict identifiable snake morphology; unacceptable for a medically relevant identification topic."
     },
     {
       "diagramId": "u4-poison-apparatus-venom-apparatus",
@@ -1655,13 +1660,15 @@
       "keyEn": "Pectoralis lowers the wing; supracoracoideus tendon elevates it via triosseal canal.",
       "keyTa": "",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
+      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
       "svgMaster": "docs/original_plate_svg/avian_flight_muscles_en.svg",
       "topicId": "u5-flight-adaptations",
       "page": 2,
       "sectionKey": "muscles-skeleton",
       "learningObjective": "Pectoralis lowers the wing; supracoracoideus tendon elevates it via triosseal canal.",
-      "svgSha256": "b3e7272fce9ad9e680f20b9f09a84658edc82eb6c375e4c2b2a0bdb54d784445"
+      "svgSha256": "b3e7272fce9ad9e680f20b9f09a84658edc82eb6c375e4c2b2a0bdb54d784445",
+      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
+      "pedagogicReason": "Pectoralis and supracoracoideus anatomy and the triosseal tendon pathway are not anatomically instructional."
     },
     {
       "diagramId": "u5-bird-migration-flyway-stopovers",
@@ -1766,13 +1773,15 @@
       "keyEn": "Eye placement gives broad view; large pinnae detect sound; vibrissae support touch.",
       "keyTa": "",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
+      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
       "svgMaster": "docs/original_plate_svg/rabbit_senses_en.svg",
       "topicId": "u5-rabbit",
       "page": 5,
       "sectionKey": "sense-organs",
       "learningObjective": "Eye placement gives broad view; large pinnae detect sound; vibrissae support touch.",
-      "svgSha256": "9c7fd8e4e175ee392669249efb879987b52fd6ca749f1ffa89f1bb53a6f4ff07"
+      "svgSha256": "9c7fd8e4e175ee392669249efb879987b52fd6ca749f1ffa89f1bb53a6f4ff07",
+      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
+      "pedagogicReason": "Generic icons do not depict rabbit external eye, pinna, vibrissae or sensory anatomy."
     },
     {
       "diagramId": "u5-marsupials-marsupial-life-history",
@@ -1792,13 +1801,15 @@
       "keyEn": "Young are often born early and continue development attached to a teat.",
       "keyTa": "",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
+      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
       "svgMaster": "docs/original_plate_svg/marsupial_life_cycle_en.svg",
       "topicId": "u5-marsupials",
       "page": 1,
       "sectionKey": "reproductive-pattern",
       "learningObjective": "Young are often born early and continue development attached to a teat.",
-      "svgSha256": "08e7c5678de3b4c43319d2c7b17b38d4cffc6d13b9905aafb918d33d6b6f7a17"
+      "svgSha256": "08e7c5678de3b4c43319d2c7b17b38d4cffc6d13b9905aafb918d33d6b6f7a17",
+      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
+      "pedagogicReason": "Symbolic outlines cannot convey underdeveloped neonate, teat attachment and development."
     },
     {
       "diagramId": "u5-aquatic-mammals-aquatic-mammal-groups",
@@ -1818,13 +1829,15 @@
       "keyEn": "Streamlining arose repeatedly; aquatic mammals do not form one taxonomic order.",
       "keyTa": "",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
+      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
       "svgMaster": "docs/original_plate_svg/aquatic_mammal_lineages_en.svg",
       "topicId": "u5-aquatic-mammals",
       "page": 1,
       "sectionKey": "marine-lineages",
       "learningObjective": "Streamlining arose repeatedly; aquatic mammals do not form one taxonomic order.",
-      "svgSha256": "80bbfd94c5a4dbf6dcfc2e57337d949b07557057f41af9a7dffc09b9fe88e3e0"
+      "svgSha256": "80bbfd94c5a4dbf6dcfc2e57337d949b07557057f41af9a7dffc09b9fe88e3e0",
+      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
+      "pedagogicReason": "Generic ovals cannot communicate the true morphological differences or taxonomic relationships."
     }
   ],
   "status": "PROVISIONAL_QA_NOT_ACADEMICALLY_APPROVED",
