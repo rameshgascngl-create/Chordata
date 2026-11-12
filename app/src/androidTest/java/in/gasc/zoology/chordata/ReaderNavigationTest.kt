@@ -20,6 +20,7 @@ import android.content.ContentValues
 import android.provider.MediaStore
 import `in`.gasc.zoology.chordata.data.ContentRepository
 import `in`.gasc.zoology.chordata.data.ProgressStore
+import `in`.gasc.zoology.chordata.domain.ReadingLanguage
 import `in`.gasc.zoology.chordata.ui.decodePlateBitmap
 import `in`.gasc.zoology.chordata.ui.decodeFocusedAscidianPanel
 import `in`.gasc.zoology.chordata.ui.decodeTeachingPanel
@@ -30,6 +31,50 @@ import org.junit.Rule
 import org.junit.Test
 
 class ReaderNavigationTest {
+
+    @Test fun portableLearningBackupRoundTripsAndRejectsInvalidImport() {
+        val store = ProgressStore(InstrumentationRegistry.getInstrumentation().targetContext)
+        val chapter = "u1-origin"
+        try {
+            org.junit.Assert.assertTrue(store.eraseAllLearningData())
+            store.saveBookmarks(setOf(chapter))
+            store.saveCompleted(setOf(chapter))
+            store.saveQuizScore(chapter, 3)
+            store.saveLanguage(ReadingLanguage.TA)
+            store.saveTextScale(1.75f)
+
+            val backup = store.exportLearningData()
+            org.junit.Assert.assertEquals("chordata-learning-progress",
+                JSONObject(backup).getString("format"))
+            org.junit.Assert.assertFalse(store.importLearningData(
+                """{"format":"chordata-learning-progress","version":1,"completed":[],"bookmarks":[],"quizScores":{},"language":"EN","textScale":4.0}"""))
+            org.junit.Assert.assertTrue(chapter in store.completed())
+            org.junit.Assert.assertFalse(store.importLearningData("{invalid"))
+            org.junit.Assert.assertEquals(3, store.quizScore(chapter))
+
+            org.junit.Assert.assertTrue(store.eraseAllLearningData())
+            org.junit.Assert.assertTrue(store.importLearningData(backup))
+            org.junit.Assert.assertEquals(setOf(chapter), store.bookmarks())
+            org.junit.Assert.assertEquals(setOf(chapter), store.completed())
+            org.junit.Assert.assertEquals(3, store.quizScore(chapter))
+            org.junit.Assert.assertEquals(ReadingLanguage.TA, store.language())
+            org.junit.Assert.assertEquals(1.75f, store.textScale(), 0.001f)
+        } finally {
+            org.junit.Assert.assertTrue(store.eraseAllLearningData())
+        }
+    }
+
+    @Test fun backupRestoreRequiresConfirmationInEnglish() {
+        selectEnglish()
+        rule.onNodeWithTag("home-book-layout").performScrollToIndex(2)
+        rule.onNodeWithTag("privacy-policy-entry").performClick()
+        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(5)
+        rule.onNodeWithTag("privacy-export-entry").assertExists()
+        rule.onNodeWithTag("privacy-import-entry").performClick()
+        rule.onNodeWithTag("privacy-import-dialog").assertExists()
+        rule.onNodeWithTag("privacy-import-cancel").performClick()
+        rule.onNodeWithTag("privacy-import-dialog").assertDoesNotExist()
+    }
 
     @Test fun eraseLearningDataRequiresConfirmationAndPersistsDeletion() {
         selectEnglish()
@@ -43,7 +88,7 @@ class ReaderNavigationTest {
 
         rule.onNodeWithTag("home-book-layout").performScrollToIndex(2)
         rule.onNodeWithTag("privacy-policy-entry").performClick()
-        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(5)
+        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(6)
         rule.onNodeWithTag("privacy-erase-entry").performClick()
         rule.onNodeWithTag("privacy-erase-dialog").assertExists()
         rule.onNodeWithTag("privacy-erase-cancel").performClick()
@@ -67,7 +112,7 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("privacy-policy-page").assertExists()
         rule.onNodeWithTag("privacy-policy-heading").assertIsDisplayed()
         captureQaScreen("privacy-ta-200")
-        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(6)
+        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(7)
         rule.onNodeWithText("தனியுரிமை தொடர்பான கேள்விகள்").assertIsDisplayed()
         captureQaScreen("privacy-ta-200-footer")
         rule.onNodeWithTag("privacy-policy-back").performClick()
