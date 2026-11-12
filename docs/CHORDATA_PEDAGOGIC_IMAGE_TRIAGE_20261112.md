@@ -106,6 +106,30 @@ with the corresponding editable SVGs unchanged.
   that pouch structure varies across marsupials.
 
 **Still withheld:** generic rabbit sense organs; monotreme reproduction and
-milk feeding; aquatic mammal group icons. No new abstract diagrams are substituted.
+milk feeding; aquatic mammal group icons; and the inadequate Calotes heart-flow
+sketch. No new abstract diagrams are substituted.
 
 These are quality-improved *QA teaching figures*, not scientific release approval.
+
+## Calotes photographic replacement and heart correction (12 November 2026)
+
+- `u4-calotes-external`: the historic curled-tail engraving was replaced at its
+  original registered lesson position by a sourced living-specimen photograph,
+  credited to Azim Khan Ronnie, Wikimedia Commons, CC BY-SA 4.0. The existing
+  historic image and full source record remain archived outside the APK.
+  Provenance and installed SHA are in
+  `docs/qa-image-review/CALOTES_PHOTOGRAPHIC_REPLACEMENT_20261112.json`.
+- `u4-calotes-arterial-system`: the existing diagram is a generic functional
+  cavity/flow schematic, not a reliable species-specific anatomical plate.
+  This figure is **withheld** in English and Tamil after owner rejection; the
+  physical PNG, corrected SVG master, original credit and file SHA remain
+  unchanged. References: Prakash (1960), DOI 10.1002/ar.1091360406;
+  de Silva (1956) original Calotes arterial account; Jensen et al. (2013)
+  comparative reptile-heart morphology. These references do **not** grant
+  reproduction rights for their figures.
+- A replacement heart illustration must show actual gross morphology and
+  documented vessel relationships. A generic vertebrate circulation diagram,
+  stock heart icon or invented symmetric arterial branches is not acceptable.
+
+**Image QA status:** One genuine Calotes photograph integrated (provisional);
+Calotes heart replacement still absent; no release sign-off asserted.
