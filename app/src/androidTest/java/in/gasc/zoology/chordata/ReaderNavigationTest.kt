@@ -32,7 +32,7 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
-    @Test fun threeSymbolicPlatesRemainWithheldAndThreeSourcedPlatesAreAvailable() {
+    @Test fun fourSymbolicPlatesRemainWithheldAndThreeSourcedPlatesAreAvailable() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val raw = context.assets.open("pencil_plates/manifest.json")
             .bufferedReader(Charsets.UTF_8).use { it.readText() }
@@ -41,6 +41,7 @@ class ReaderNavigationTest {
             .map { variants.getJSONObject(it) }
             .associateBy { it.getString("diagramId") to it.getString("lang") }
         val withheld = listOf(
+            "u4-calotes-arterial-system",
             "u5-rabbit-sense-organs",
             "u5-egg-laying-mammals-monotreme-reproduction",
             "u5-aquatic-mammals-aquatic-mammal-groups"
@@ -62,6 +63,15 @@ class ReaderNavigationTest {
                 entry.getString("visualReview"))
             org.junit.Assert.assertTrue(entry.getString("sourceUrl")
                 .startsWith("https://commons.wikimedia.org/wiki/File:"))
+        }
+        for (lang in ReadingLanguage.entries) {
+            val photo = requireNotNull(selectProvisionalPlate(entries, "u4-calotes-external", lang))
+            org.junit.Assert.assertEquals("SOURCED_REAL_SPECIMEN_PHOTO_QA_PROVISIONAL",
+                photo.getString("visualReview"))
+            org.junit.Assert.assertFalse(
+                selectedPlateNeedsReplacement(entries, "u4-calotes-external", lang))
+            org.junit.Assert.assertTrue(photo.getString("sourceUrl")
+                .endsWith("File:Oriental_Lizard.jpg"))
         }
     }
 
