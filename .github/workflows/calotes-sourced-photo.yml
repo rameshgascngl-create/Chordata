@@ -1,0 +1,50 @@
+name: CHORDATA verified Calotes photographic QA intake
+on:
+  push:
+    branches: ["qa/chordata-calotes-sourced-figure-20261112"]
+    paths:
+      - "scripts/install_calotes_sourced_photo.py"
+      - ".github/workflows/calotes-sourced-photo.yml"
+permissions:
+  contents: write
+
+jobs:
+  install-sourced-calotes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install image-source verification tools
+        run: python3 -m pip install --disable-pip-version-check --quiet "Pillow>=10,<12" "requests>=2.32,<3"
+      - name: Fetch the verified original from Wikimedia and install lossless PNG
+        run: python3 scripts/install_calotes_sourced_photo.py
+      - name: Inspect precise modified assets and retain original historical source
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f docs/retired_noninstructional_png/calotes_external_en.png
+          test -f docs/qa-image-review/CALOTES_PHOTOGRAPHIC_REPLACEMENT_20261112.json
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_pencil_coverage.py
+          python3 scripts/audit_coverage_report.py
+          python3 scripts/write_figure_review_register.py --check
+          python3 scripts/audit_built_apk_assets.py --self-test
+      - name: Commit verified image, original source archive and author credits
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/calotes_external_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/retired_noninstructional_png/calotes_external_en.png
+          git add docs/qa-image-review/CALOTES_PHOTOGRAPHIC_REPLACEMENT_20261112.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          test -n "$(git diff --cached --name-only)"
+          git commit -m "feat(calotes): replace historic external diagram with licensed, verified real specimen photograph"
+          git push origin HEAD:qa/chordata-calotes-sourced-figure-20261112
