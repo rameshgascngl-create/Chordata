@@ -61,6 +61,26 @@ assert 'fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float,' in i
 assert 'privacy-erase-entry' in inapp and 'privacy-erase-confirm' in inapp
 assert 'privacy-erase-cancel' in inapp and 'privacy-erase-dialog' in inapp
 assert 'fun eraseAllLearningData(): Boolean = prefs.edit().clear().commit()' in store
+for code in ('fun exportLearningData(): String', 'fun importLearningData(payload: String): Boolean',
+             '"chordata-learning-progress"', 'require(payload.length in 1..65536)',
+             'prefs.edit().clear()', 'edit.commit()'):
+    assert code in store, f"Missing safe progress transfer contract: {code}"
+for code in ('privacy-export-entry', 'privacy-import-entry',
+             'privacy-import-dialog', 'privacy-import-confirm', 'privacy-import-cancel',
+             'transferMessage: String'):
+    assert code in inapp, f"Missing privacy backup control: {code}"
+app_ui = (ROOT / "app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt").read_text(encoding="utf-8")
+for code in ('ActivityResultContracts.CreateDocument("application/json")',
+             'ActivityResultContracts.OpenDocument()',
+             'progress.exportLearningData()', 'progress.importLearningData(',
+             'onExportLocalData =', 'onImportLocalData ='):
+    assert code in app_ui, f"Missing permissionless document picker: {code}"
+for code in ('portableLearningBackupRoundTripsAndRejectsInvalidImport()',
+             'backupRestoreRequiresConfirmationInEnglish()'):
+    assert code in (ROOT / "app/src/androidTest/java/in/gasc/zoology/chordata/ReaderNavigationTest.kt").read_text(encoding="utf-8")
+assert 'unedcrypted' not in policy
+assert 'unencrypted json file' in policy, "Backup file privacy disclosure missing"
+
 assert 'erase all learning data' in policy
 assert 'fontSize = (16f * scale).sp' in inapp, "Privacy text does not respect 200% scale"
 assert 'The app does not request Internet access.' in inapp
