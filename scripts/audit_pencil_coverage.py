@@ -48,9 +48,24 @@ assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=
 # Pedagogical utility is a separate gate from PNG integrity. These user-
 # rejected shapes remain in source control for provenance but cannot be used
 # as anatomy/species teaching images in either language.
-remaining_noninstructional_ids = {
-    'u4-calotes-arterial-system',
-}
+remaining_noninstructional_ids = set()
+calotes_heart = next(x for x in fs if x['diagramId'] == 'u4-calotes-arterial-system')
+assert calotes_heart['lang'] == 'en'
+assert calotes_heart['sha256'] == '2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3'
+assert calotes_heart['size'] == 2285032
+assert calotes_heart['visualReview'] == 'AI_RECONSTRUCTION_QA_PROVISIONAL_ACCEPT_MINOR_COSMETIC_ERRORS'
+assert calotes_heart['pedagogicStatus'] == 'REPLACED_WITH_AI_ASSISTED_ANATOMICAL_SCHEMATIC_QA_PENDING_2026-11-12'
+assert calotes_heart['reviewStatus'].startswith('PROVISIONAL_')
+assert calotes_heart['independentBiologyReview'] == 'PENDING'
+assert calotes_heart['independentTamilReview'] == 'PENDING'
+assert calotes_heart.get('aiGenerated') is True and not calotes_heart.get('sourceUrl')
+assert not calotes_heart.get('svgMaster'), 'Old symbolic SVG is not a source for the new AI plate'
+assert all(calotes_heart.get(k) for k in ('retiredSchematicPng','retiredSchematicSvg', 'retiredSchematicSha256','retiredSchematicSvgSha256'))
+for path_key, sha_key in (('retiredSchematicPng','retiredSchematicSha256'), ('retiredSchematicSvg','retiredSchematicSvgSha256')):
+    retired = ROOT / calotes_heart[path_key]
+    assert retired.is_file() and hashlib.sha256(retired.read_bytes()).hexdigest() == calotes_heart[sha_key], ('original Calotes source not preserved', retired)
+assert 'RIGHT atrium' in calotes_heart['editorialCaution'] and 'LEFT atrium' in calotes_heart['editorialCaution']
+assert calotes_heart['retiredSchematicSha256'] == 'e2a1a9115e0c2021af2f2d70b313dcfb367ab76cbebfbf549488a0bd7d27aa82'
 verified_source_replacement_ids = {
     'u4-snakes-india-big-four-identification',
     'u5-flight-adaptations-flight-muscles',
@@ -60,7 +75,7 @@ rejected = [x for x in fs if x.get('pedagogicStatus') ==
             'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
 assert {x['diagramId'] for x in rejected} == remaining_noninstructional_ids, (
     'Only the rejected Calotes heart diagram may remain withheld')
-assert len(rejected) == 1
+assert len(rejected) == 0
 assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
            and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
            for x in rejected), 'Uncorrected symbolic diagrams must remain withheld'
@@ -142,7 +157,7 @@ for oldpath, oldhash in (
     assert hashlib.sha256(original.read_bytes()).hexdigest() == marine[oldhash]
 assert marine['retiredSchematicSha256'] == 'a330620a0fb6d62fab65caf6c79fd50ee24a686c83bc3a49b034623bfbc987c3'
 assert all(word in marine['keyEn'] for word in ('Cetacea', 'Sirenia', 'Pinnipedia', 'Mustelidae', 'NOT one taxonomic order'))
-print('PASS: Calotes heart alone withheld; sourced aquatic-mammal photography, taxonomy and archived original verified')
+print('PASS: Provisional Calotes anatomical reconstruction, sourced aquatic-mammal photos, and retired source hashes verified')
 
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():

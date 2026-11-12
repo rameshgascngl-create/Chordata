@@ -34,6 +34,7 @@ assert "Intercaval flow" not in calotes_text, "Calotes inter-cavity label regres
 assert calotes_text.count("Intercavitary flow") == 1, "Expected corrected Calotes inter-cavity label missing"
 calotes_manifest = json.loads((root / "pencil_plates/manifest.json").read_text(encoding="utf-8"))
 calotes_entry = next(f for f in calotes_manifest["figures"] if f["diagramId"] == "u4-calotes-arterial-system")
-assert calotes_entry["svgSha256"] == hashlib.sha256(calotes_master.read_bytes()).hexdigest(), "Calotes SVG/manifest mismatch"
+assert calotes_entry["retiredSchematicSvgSha256"] == hashlib.sha256(calotes_master.read_bytes()).hexdigest(), "Retired Calotes SVG/manifest mismatch"
+assert not calotes_entry.get("svgMaster"), "Retired schematic must not be active figure master"
 assert calotes_entry["reviewStatus"].startswith("PROVISIONAL_"), "Calotes image incorrectly marked academically approved"
-print("PASS: Calotes inter-cavity label correct; image SHA and review status guarded")
+print("PASS: original Calotes SVG preserved, replacement PNG manifest and review status guarded")

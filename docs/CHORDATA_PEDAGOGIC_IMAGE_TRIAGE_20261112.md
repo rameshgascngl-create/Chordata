@@ -192,3 +192,26 @@ Calotes heart replacement still absent; no release sign-off asserted.
   historic SHA-256. Independent zoological/Tamil review and phone UI
   screenshots are still needed; source presence does not imply app-store
   readiness or academic certification.
+
+## Provisional original Calotes heart artwork installed for QA (12 November 2026)
+
+The owner subsequently allowed **minor cosmetic errors** and selected the full-resolution
+original AI-assisted `Calotes versicolor — Heart and Arterial System` image for classroom QA.
+The specific 1536×1024 PNG, 2,285,032 bytes, SHA-256 `2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3`, is now
+installed at the exact registered lesson ID `u4-calotes-arterial-system` (Unit IV,
+page 4) on this QA branch. The previous withheld schematic PNG and original SVG
+are retained under `docs/retired_noninstructional_png/` and `docs/original_plate_svg/`.
+
+**Scientific limitation:** This is an AI-generated *schematic*, not a verified dissection.
+Two atria, three ventricular cava, paired systemic arches, common dorsal aorta and
+pulmonary outflow are depicted. A potentially misleading precaval/postcaval arrangement
+in the heart panel means students MUST be told that systemic veins drain through the
+sinus venosus to the **right atrium**, whereas pulmonary veins drain to the **left atrium**.
+Therefore it is marked `AI_RECONSTRUCTION_QA_PROVISIONAL_ACCEPT_MINOR_COSMETIC_ERRORS`, not an academically accepted anatomical plate.
+It must not be repurposed to teach definitive venous inlet topology. Reference literature:
+de Silva (1956) for species-specific arterial system; Jensen et al. (2013) for comparative
+squamate cardiac chamber anatomy. References are not credited as reproduced artwork.
+
+**QA discipline:** The manifest records exact byte hash and AI origin, both bilingual
+reader modes use the same English-labelled PNG with separate Tamil explanatory text,
+and independent zoological/Tamil sign-off remains pending. App-store release is not authorised.
