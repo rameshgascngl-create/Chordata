@@ -11,7 +11,13 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.material3.AlertDialog
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
@@ -21,10 +27,40 @@ import `in`.gasc.zoology.chordata.domain.ReadingLanguage
 
 /** In-app privacy disclosure; all data paths are local to this APK. */
 @Composable
-fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float) {
+fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float,
+                      onEraseLocalData: () -> Boolean) {
+    var showEraseConfirmation by remember { mutableStateOf(false) }
+    var eraseFailed by remember { mutableStateOf(false) }
     val scale = textScale.coerceIn(1f, 2f)
     val tamil = language == ReadingLanguage.TA
     fun tr(en: String, ta: String): String = if (tamil) ta else en
+
+    if (showEraseConfirmation) {
+        AlertDialog(
+            modifier = Modifier.testTag("privacy-erase-dialog"),
+            onDismissRequest = { showEraseConfirmation = false },
+            title = { Text(tr("Erase learning data?", "கற்றல் தரவை அழிக்கவா?")) },
+            text = { Text(tr(
+                "This will permanently remove completed lessons, bookmarks, quiz scores, and language and text-size preferences from this device. This cannot be undone.",
+                "முடித்த பாடங்கள், சேமித்த பாடங்கள், வினா மதிப்பெண்கள், மொழி மற்றும் எழுத்தளவுத் தேர்வுகள் ஆகியவை இச்சாதனத்திலிருந்து நிரந்தரமாக நீக்கப்படும். இதை மீட்க இயலாது."
+            )) },
+            confirmButton = {
+                TextButton(
+                    modifier = Modifier.testTag("privacy-erase-confirm"),
+                    onClick = {
+                        showEraseConfirmation = false
+                        eraseFailed = !onEraseLocalData()
+                    }
+                ) { Text(tr("Erase", "அழி")) }
+            },
+            dismissButton = {
+                TextButton(
+                    modifier = Modifier.testTag("privacy-erase-cancel"),
+                    onClick = { showEraseConfirmation = false }
+                ) { Text(tr("Cancel", "வேண்டாம்")) }
+            }
+        )
+    }
 
     LazyColumn(
         modifier = Modifier.fillMaxSize().testTag("privacy-policy-page"),
@@ -60,9 +96,30 @@ fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float) {
         ) }
         item { PrivacySection(scale,
             tr("Protection, retention and deletion", "பாதுகாப்பு, வைத்திருத்தல் மற்றும் நீக்குதல்"),
-            tr("Android private app storage is used and Android automatic backup is disabled. Local preferences remain until you uninstall the app or clear its storage in Android Settings > Apps > Chordata Atlas > Storage > Clear storage. No cloud copy is maintained by this app.",
-               "Android செயலியின் தனிப்பட்ட சேமிப்பகம் பயன்படுத்தப்படுகிறது; தானியங்கி காப்புப்பிரதி முடக்கப்பட்டுள்ளது. செயலியை நீக்கினாலோ Android அமைப்புகள் > செயலிகள் > Chordata Atlas > சேமிப்பகம் > தரவை அழி என்பதைத் தேர்ந்தெடுத்தாலோ உள்ளூர் பதிவுகள் நீங்கும். இந்தச் செயலி மேகச் சேமிப்பகத்தில் நகல் வைத்திருக்காது.")
+            tr("Android private app storage is used and Android automatic backup is disabled. Local preferences remain until you choose Erase all learning data below, uninstall the app or clear its storage in Android Settings > Apps > Chordata Atlas > Storage > Clear storage. No cloud copy is maintained by this app.",
+               "Android செயலியின் தனிப்பட்ட சேமிப்பகம் பயன்படுத்தப்படுகிறது; தானியங்கி காப்புப்பிரதி முடக்கப்பட்டுள்ளது. கீழே உள்ள கற்றல் தரவு அனைத்தையும் அழி பொத்தானைப் பயன்படுத்தினாலோ, செயலியை நீக்கினாலோ, Android அமைப்புகள் > செயலிகள் > Chordata Atlas > சேமிப்பகம் > தரவை அழி என்பதைத் தேர்ந்தெடுத்தாலோ உள்ளூர் பதிவுகள் நீங்கும். இந்தச் செயலி மேகச் சேமிப்பகத்தில் நகல் வைத்திருக்காது.")
         ) }
+        item(key = "erase-learning-data") {
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                TextButton(
+                    modifier = Modifier.testTag("privacy-erase-entry"),
+                    onClick = {
+                        eraseFailed = false
+                        showEraseConfirmation = true
+                    }
+                ) {
+                    Text(tr("Erase all learning data", "கற்றல் தரவு அனைத்தையும் அழி"),
+                        fontSize = (15f * scale).sp, lineHeight = (22f * scale).sp)
+                }
+                if (eraseFailed) {
+                    Text(tr(
+                        "Could not erase saved data. Clear app storage in Android Settings instead.",
+                        "சேமித்த தரவை நீக்க இயலவில்லை. Android அமைப்புகளில் செயலியின் சேமிப்பகத்தை அழிக்கவும்."
+                    ), fontSize = (14f * scale).sp, lineHeight = (21f * scale).sp,
+                        modifier = Modifier.testTag("privacy-erase-error"))
+                }
+            }
+        }
         item { PrivacySection(scale,
             tr("Privacy enquiries", "தனியுரிமை தொடர்பான கேள்விகள்"),
             tr("For enquiries about this app's privacy practices, use the developer contact details shown on its Google Play listing.",
