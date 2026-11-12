@@ -698,34 +698,52 @@
       "figure": "calotes_external",
       "lang": "en",
       "path": "pencil_plates/calotes_external_en.png",
-      "sha256": "5fcd2cc2ae68d0adda0b406934a9c07aa857bd53dbda19d99abdb5ef0cc14a2f",
-      "size": 17019509,
-      "author": "Unknown historical engraver; Iconographia Zoologica, University of Amsterdam Special Collections, print dated only between 1700 and 1880",
-      "license": "Public domain original 18th–19th-century zoological print, faithful Amsterdam university scan",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif",
+      "sha256": "8439ff408895aaa1eb8f59e2192af79c30a45f81d6186af2f8b2b2664eacaf66",
+      "size": 3272649,
+      "author": "Azim Khan Ronnie (original photograph); CHORDATA QA (lossless PNG adaptation)",
+      "license": "CC BY-SA 4.0 — adapted photographic PNG; attribution and share-alike apply",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oriental_Lizard.jpg",
       "referenceUrls": [
-        "https://commons.wikimedia.org/wiki/File:Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif",
-        "https://commons.wikimedia.org/wiki/Category:Calotes_s._str._in_Iconographia_Zoologica",
+        "https://commons.wikimedia.org/wiki/File:Oriental_Lizard.jpg",
         "https://reptile-database.reptarium.cz/species?genus=Calotes&species=versicolor"
       ],
-      "modifications": "Original print pixels preserved during TIFF-to-PNG conversion only; NO AI, vector, algorithmically drawn anatomy, crop, upscale or added leader labels",
+      "modifications": "EXIF orientation corrected; entire photograph proportionally resized and losslessly encoded as PNG. No biological features invented or digitally redrawn.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "Authentic historic print of Calotes versicolor, labelled Agama versicolor in the archive. Identify the elongated trunk, granular scales, pointed snout, exposed eye, dorsal and nuchal crest, four clawed limbs and long coiled tail. Tail curvature reflects the artist's composition, not a special anatomical organ. No internal anatomy is illustrated.",
-      "keyTa": "பல்கலைக்கழக அரியநூல் தொகுப்பில் உள்ள வரலாற்று ஓணான் (*Calotes versicolor*) ஓவியம்; பழைய பெயர் *Agama versicolor*. நீண்ட உடல், செதில்கள், கூரிய முகப்பு, கண், முதுகுப்புற முள் வரிசை, நகங்களுள்ள நான்கு கால்கள், நீண்ட வால் ஆகியவற்றைக் காணலாம். ஓவியத்தில் வால் வளைந்திருக்கிறது; இது தனி உடற்கூறு அமைப்பு அன்று. உள்ளுறுப்புகள் காட்டப்படவில்லை.",
-      "scope": "Historical external specimen rendering *Agama versicolor* = *Calotes versicolor*; lateral perspective with visible body scales, nuchal crest, clawed digits and elongated curled tail; tail curl is an artistic pose, not anatomical loop",
-      "visualReview": "SOURCED_HISTORICAL_PNG_PENDING_EXPERT_REVIEW",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif",
-      "sourceSha1": "145231082cf3be25f56571dd7c7aa33e84274195",
+      "keyEn": "Photographed oriental garden lizard, identified by its source as Calotes versicolor. Observe the spiny nuchal crest, tympanum, scales, eye, four limbs and long tail where visible. This is an external specimen photograph, NOT an internal-anatomy diagram. Species-complex identification and variable coloration require caution; no scale is implied.",
+      "keyTa": "வெளிப்புறத் தோற்றப் புகைப்படம்: மூலத்தில் Calotes versicolor என அடையாளமிடப்பட்ட ஓணான். கழுத்து மற்றும் முதுகு முள் வரிசை, செவிப்பறை, செதில்கள், கண், நான்கு கால்கள், நீண்ட வால் ஆகியவற்றைக் கவனிக்கவும். இது உள்ளுறுப்பியல் படம் அன்று. நிறம் மாறுபடலாம்; அளவுகோல் இல்லை.",
+      "scope": "Original documentary photograph of a live garden lizard; visible external morphology only. No claim to illustrate circulatory or digestive organs.",
+      "visualReview": "SOURCED_REAL_SPECIMEN_PHOTO_QA_PROVISIONAL",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Oriental_Lizard.jpg",
       "sourceSha256": [
-        "15c7ddc8ca17d7d7ff6cab28abf90f414c9978aba6f1f16587153d3338415826"
+        "bb9dcc7c5416d01708500ef5c3e6756b48eb2e66fd5d999c169bd494f724e0a4"
       ],
-      "sourceFormat": "TIFF",
+      "sourceFormat": "JPEG",
       "installedFormat": "PNG",
-      "sourceKind": "AUTHENTIC_AMSTERDAM_AGAMA_VERSICOLOR_TIFF_CONVERTED_PNG",
+      "sourceKind": "AUTHENTIC_COMMONS_CALOTES_SPECIMEN_PHOTO_ADAPTED",
       "topicId": "u4-calotes",
       "page": 1,
-      "sectionKey": "external-features"
+      "sectionKey": "external-features",
+      "retiredHistoricalPlate": {
+        "path": "docs/retired_noninstructional_png/calotes_external_en.png",
+        "sha256": "5fcd2cc2ae68d0adda0b406934a9c07aa857bd53dbda19d99abdb5ef0cc14a2f",
+        "metadata": {
+          "author": "Unknown historical engraver; Iconographia Zoologica, University of Amsterdam Special Collections, print dated only between 1700 and 1880",
+          "license": "Public domain original 18th–19th-century zoological print, faithful Amsterdam university scan",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif",
+          "sourceImageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Agama_versicolor_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12700035.tif",
+          "sha256": "5fcd2cc2ae68d0adda0b406934a9c07aa857bd53dbda19d99abdb5ef0cc14a2f",
+          "size": 17019509,
+          "sourceSha1": "145231082cf3be25f56571dd7c7aa33e84274195",
+          "sourceSha256": [
+            "15c7ddc8ca17d7d7ff6cab28abf90f414c9978aba6f1f16587153d3338415826"
+          ],
+          "sourceKind": "AUTHENTIC_AMSTERDAM_AGAMA_VERSICOLOR_TIFF_CONVERTED_PNG",
+          "modifications": "Original print pixels preserved during TIFF-to-PNG conversion only; NO AI, vector, algorithmically drawn anatomy, crop, upscale or added leader labels"
+        }
+      },
+      "pedagogicStatus": "REPLACED_WITH_CC_LICENSED_CALOTES_SPECIMEN_PHOTO_QA_PENDING_2026-11-12"
     },
     {
       "diagramId": "u5-rabbit-brain",

@@ -1,0 +1,21 @@
+{
+  "diagramId": "u4-calotes-external",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Oriental_Lizard.jpg",
+  "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Oriental_Lizard.jpg",
+  "author": "Azim Khan Ronnie",
+  "verifiedLicence": "CC BY-SA 4.0",
+  "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "originalJpegSha256": "bb9dcc7c5416d01708500ef5c3e6756b48eb2e66fd5d999c169bd494f724e0a4",
+  "originalJpegBytes": 4517501,
+  "installedPngPath": "pencil_plates/calotes_external_en.png",
+  "installedPngSha256": "8439ff408895aaa1eb8f59e2192af79c30a45f81d6186af2f8b2b2664eacaf66",
+  "installedPngBytes": 3272649,
+  "dimensions": [
+    2500,
+    1377
+  ],
+  "previousHistoricalPlateSha256": "5fcd2cc2ae68d0adda0b406934a9c07aa857bd53dbda19d99abdb5ef0cc14a2f",
+  "previousHistoricalPlateArchive": "docs/retired_noninstructional_png/calotes_external_en.png",
+  "edits": "EXIF orientation corrected; entire photograph proportionally resized and losslessly encoded as PNG. No biological features invented or digitally redrawn.",
+  "scienceStatus": "PROVISIONAL_QA_NOT_INDEPENDENTLY_APPROVED"
+}
