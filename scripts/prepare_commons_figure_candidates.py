@@ -139,7 +139,8 @@ output={}
 output["snake"]=save_png(panel,"india_big_four_scientific_candidate.png")
 
 # Original anatomically labelled avian skeletal/muscle figure. No hand-drawn substitute.
-wing_bytes=cairosvg.svg2png(bytestring=payloads["wing"],output_width=2500)
+wing_bytes=cairosvg.svg2png(bytestring=payloads["wing"],output_width=2500,
+                            background_color="white")
 wing=Image.open(io.BytesIO(wing_bytes)).convert("RGB")
 output["wing"]=save_png(wing,"avian_flight_muscle_source_candidate.png")
 
