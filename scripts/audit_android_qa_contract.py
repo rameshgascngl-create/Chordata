@@ -146,6 +146,27 @@ assert 'Image source and credits' in gallery_ui
 # each correctly placed illustration. Source credits and failure diagnostics stay.
 assert 'figure-pending-page' not in gallery_ui, 'Redundant internal QA panel returned to lesson pages'
 assert 'figure-overview-status' not in gallery_ui, 'Non-subject figure status returned to chapter outline'
+# Six original screenshots exposed a pedagogic problem, not a PNG-file
+# problem. The three source-based replacements must remain active while
+# the other three rejected pictograms remain suppressed.
+sourced_ids = {
+    'u4-snakes-india-big-four-identification',
+    'u5-flight-adaptations-flight-muscles',
+    'u5-marsupials-marsupial-life-history',
+}
+sourced = [v for v in entries if v['diagramId'] in sourced_ids]
+assert len(sourced) == 3
+assert all(v['visualReview'] == 'SOURCED_TEACHING_FIGURE_QA_PROVISIONAL'
+           and v.get('pedagogicStatus') ==
+               'REPLACED_WITH_CC_LICENSED_SOURCE_QA_PENDING_2026-11-12'
+           and v['sourceUrl'].startswith('https://commons.wikimedia.org/wiki/File:')
+           and len(v.get('sourceSha256', [])) >= 1
+           and v.get('retiredSchematicPng') and v.get('retiredSchematicSvg')
+           for v in sourced), 'Sourced replacements need genuine provenance and retained originals'
+assert len(next(v for v in sourced if v['diagramId'] ==
+    'u4-snakes-india-big-four-identification')['sourceUrls']) == 4
+assert 'additionalSourceUrls' in gallery_ui and 'figure-extra-source-' in gallery_ui
+assert 'threeSymbolicPlatesRemainWithheldAndThreeSourcedPlatesAreAvailable()' in test_text
 assert 'figure-image-' in gallery_ui and 'figure-credits-toggle-' in gallery_ui
 assert 'figure-rejected-quality' in gallery_ui and 'figure-error-' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
