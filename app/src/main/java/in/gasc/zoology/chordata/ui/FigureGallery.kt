@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
@@ -888,15 +889,9 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                         }.getOrNull()
                     }
                     var scale by remember(plate.id, zoomed) {
-                        // The tall historical dogfish engraving needs a wider initial
-                        // view on narrow handsets; pan and pinch remain available.
-                        mutableFloatStateOf(if (plate.id == "u2-scoliodon-brain-labelled") 1.25f else 1f)
+                        mutableFloatStateOf(1f)
                     }
                     var offset by remember(plate.id, zoomed) { mutableStateOf(Offset.Zero) }
-                    val transforms = rememberTransformableState { zoomChange, panChange, _ ->
-                        scale = (scale * zoomChange).coerceIn(1f, 5f)
-                        offset = if (scale > 1f) offset + panChange else Offset.Zero
-                    }
                     Dialog(onDismissRequest = { zoomed = false },
                         properties = DialogProperties(usePlatformDefaultWidth = false)) {
                         Surface(Modifier.fillMaxSize()) {
@@ -909,8 +904,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 // A wide plate must begin below the Close control;
                                 // vertical centring previously left half a phone
                                 // screen blank above and below a short image.
-                                BoxWithConstraints(Modifier.weight(1f).fillMaxWidth()
-                                    .transformable(transforms),
+                                BoxWithConstraints(Modifier.weight(1f).fillMaxWidth(),
                                     contentAlignment = Alignment.TopCenter) {
                                     if (fullImage == null) {
                                         Text(if (lang == ReadingLanguage.TA)
@@ -922,7 +916,26 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                         val aspectHeight = maxWidth *
                                             (fullImage.height.toFloat() / fullImage.width.toFloat())
                                         val imageHeight = minOf(boundedHeight, aspectHeight)
-                                        Column(Modifier.fillMaxWidth(),
+                                        val density = androidx.compose.ui.platform.LocalDensity.current
+                                        val widthPx = with(density) { maxWidth.toPx() }
+                                        val heightPx = with(density) { imageHeight.toPx() }
+                                        val transforms = rememberTransformableState { zoomChange, panChange, _ ->
+                                            val next = (scale * zoomChange).coerceIn(1f, 5f)
+                                            val maxX = widthPx * (next - 1f) / 2f
+                                            val maxY = heightPx * (next - 1f) / 2f
+                                            scale = next
+                                            offset = if (next <= 1f) Offset.Zero else Offset(
+                                                (offset.x + panChange.x).coerceIn(-maxX, maxX),
+                                                (offset.y + panChange.y).coerceIn(-maxY, maxY)
+                                            )
+                                        }
+                                        Column(Modifier.fillMaxWidth()
+                                            .transformable(transforms)
+                                            .pointerInput(plate.id) {
+                                                androidx.compose.foundation.gestures.detectTapGestures(
+                                                    onDoubleTap = { scale = 1f; offset = Offset.Zero }
+                                                )
+                                            },
                                             verticalArrangement = Arrangement.spacedBy(8.dp)) {
                                             Image(fullImage,
                                                 contentDescription = if (lang == ReadingLanguage.TA)
