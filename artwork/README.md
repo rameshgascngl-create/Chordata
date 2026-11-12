@@ -1,0 +1,1 @@
+Launcher artwork supplied and approved by the user on 12 November 2026. Source: 1001210341.png. No third-party creator or licence is asserted. Android derivatives use only resizing, padding and launcher masks; the supplied design is unchanged.
