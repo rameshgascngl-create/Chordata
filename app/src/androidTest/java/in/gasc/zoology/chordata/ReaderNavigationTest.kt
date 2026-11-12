@@ -35,7 +35,7 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("home-book-layout").performScrollToIndex(2)
         rule.onNodeWithTag("privacy-policy-entry").performClick()
         rule.onNodeWithTag("privacy-policy-page").assertExists()
-        rule.onNodeWithText("Privacy policy").assertExists()
+        rule.onAllNodesWithText("Privacy policy").onFirst().assertExists()
         rule.onNodeWithTag("privacy-policy-back").performClick()
         rule.onNodeWithTag("home-book-layout").assertExists()
     }
