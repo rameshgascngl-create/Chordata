@@ -82,8 +82,13 @@ class ReaderNavigationTest {
             org.junit.Assert.assertFalse(selectedPlateNeedsReplacement(entries,
                 "u5-egg-laying-mammals-monotreme-reproduction", lang))
             org.junit.Assert.assertEquals(3, monotreme.getJSONArray("sourceUrls").length())
-            org.junit.Assert.assertTrue(monotreme.getString("keyEn").contains("separate taxa")
-                || monotreme.getString("keyEn").contains("separate species"))
+            val monotremeKey = monotreme.getString("keyEn")
+            org.junit.Assert.assertTrue(
+                "Monotreme caption must distinguish platypus from echidna specimens",
+                monotremeKey.contains("different species"))
+            org.junit.Assert.assertTrue(
+                "Photographs must not be presented as a single-species life cycle",
+                monotremeKey.contains("not a chronological photographic life-cycle"))
         }
         for (lang in ReadingLanguage.entries) {
             val rabbit = requireNotNull(selectProvisionalPlate(entries, "u5-rabbit-sense-organs", lang))
