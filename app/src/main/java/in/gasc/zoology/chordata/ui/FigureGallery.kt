@@ -537,10 +537,16 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 var zoomPanel by remember(plate.id) { mutableIntStateOf(-1) }
                 var showOriginal by remember(plate.id) { mutableStateOf(false) }
                 val isAscidia = plate.id == "u1-urochordata-ascidia-larva-adult"
-                val isPigeonUro = plate.id == "u5-columba-urinogenital"
+                // After an owner-directed AI10 PNG is installed, render the exact
+                // registered image instead of a crop or a legacy concept gallery.
+                // Until that PNG is in the audited manifest, retain the existing
+                // published historical comparison so the branch is non-regressing.
+                val aiReplacement = plate.author.startsWith("OpenAI ImageGen")
+                val isPigeonUro = plate.id == "u5-columba-urinogenital" && !aiReplacement
                 val isPigeonSkeleton = plate.id == "u5-columba-endoskeleton" &&
                     plate.filename == "columba_skeleton_en.png"
-                val isAccessoryFish = plate.id == "u2-accessory-respiration-accessory-organs-comparison"
+                val isAccessoryFish = plate.id == "u2-accessory-respiration-accessory-organs-comparison" &&
+                    !aiReplacement
                 val isPigeonSense = plate.id == "u5-columba-sense-organs" &&
                     plate.filename == "pigeon_eye_ear_en.png"
                 val focused = remember(context, plate.assetDirectory, plate.filename) {
@@ -592,6 +598,15 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             color = MaterialTheme.colorScheme.primary,
                             fontWeight = FontWeight.SemiBold,
                             style = MaterialTheme.typography.labelMedium)
+                        if (aiReplacement) {
+                            Text(
+                                if (lang == ReadingLanguage.TA)
+                                    "படத்தின் பெயர்களையும் விளக்கங்களையும் பெரிதாகப் படிக்க படத்தைத் தொடவும்."
+                                else "Tap the illustration to enlarge and read its labels.",
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                fontSize = 13.sp, lineHeight = 19.sp
+                            )
+                        }
                         if (ascidiaAB != null && ascidiaCD != null) {
                             Text(
                                 if (lang == ReadingLanguage.TA)
