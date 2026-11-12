@@ -277,20 +277,29 @@
       "figure": "fish_scale_types",
       "lang": "shared",
       "path": "pencil_plates/fish_scale_types.png",
-      "size": 1797043,
-      "sha256": "23043a42c60facb16479fc9da9d0d4d1faa7d2034fcd3322006b5cc8820dad02",
-      "author": "Jon Houseman (ganoid/cycloid/ctenoid); CHORDATA QA (original placoid section and layout)",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "D Placoid: basal plate, dentine, pulp cavity and enameloid cap (original schematic, lateral section). A Ganoid: rhomboid interlocking scales. B Cycloid: smooth posterior edge. C Ctenoid: comb-like posterior projections. Not to scale.",
+      "size": 1344923,
+      "sha256": "e38720273c567a6704947c9371fcef287771f299d9574b8326e86eee089e5ed5",
+      "author": "Jon Houseman",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_DEVICE_REVIEW_PENDING",
+      "keyEn": "Ganoid scales are rhomboid, cycloid scales smooth-edged, ctenoid scales possess posterior ctenii, and placoid denticles are tooth-like structures. Source labels expanded for mobile reading.",
       "keyTa": "D பிளாக்காய்டு: அடித்தட்டு, டென்டின், கூழ்க்குழி, எனாமலாய்டு மேலுறை. A கேனாய்டு; B சைக்ளாய்டு (வழுவழுப்பான பின்விளிம்பு); C டீனாய்டு (சீப்புப் பற்கள் போன்ற நீட்சிகள்). படங்கள் ஒரே அளவுகோலில் வரையப்படவில்லை.",
       "referenceUrl": "https://govtmuseumchennai.org/uploads/topics/16528792835642.pdf",
-      "license": "CC BY-SA 3.0 Unported — composite derivative, source credited",
+      "license": "CC BY-SA 3.0 Unported (attributed teaching composite)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishscales.png",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "sourceSha256": [
-        "0f45ad1d6b7cd69b800652215c2f23014f9423079accf952438adc39671ad489"
+        "0f45ad1d6b7cd69b800652215c2f23014f9423079accf952438adc39671ad489",
+        "750499af77bf64beae639124f7cb5caab73456cd43f0368d2ed8ae6b7739d6e3"
       ],
-      "modifications": "Original Jon Houseman scale photograph/engraving panel proportionally upscaled and composed beside new CHORDATA QA placoid denticle section; no original scale letters A–C altered. Entire derivative available under CC BY-SA 3.0."
+      "modifications": "The published images were proportionally laid out on a labelled teaching page; original anatomical source pixels were not synthetically invented.",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Fishscales.png",
+        "https://commons.wikimedia.org/wiki/File:PlacoidComp.png"
+      ],
+      "visualReview": "SOURCE_BASED_TEACHING_PLATE_QA_PROVISIONAL",
+      "pedagogicStatus": "REPLACED_FROM_LOW_UTILITY_TEACHING_FIGURE_2026-11-12",
+      "retiredSchematicPng": "docs/retired_noninstructional_png/fish_scale_types.png",
+      "retiredSchematicSha256": "23043a42c60facb16479fc9da9d0d4d1faa7d2034fcd3322006b5cc8820dad02"
     },
     {
       "diagramId": "u2-scales-fins-fins-labelled",
@@ -895,29 +904,38 @@
       "figure": "scoliodon_digestive",
       "lang": "en",
       "path": "pencil_plates/scoliodon_digestive_en.png",
-      "sha256": "57f1bd87ee5ea529eff8bec7ca5ac4a60c2dca1be6afb62daf52ba024741cf17",
-      "size": 581960,
-      "author": "CHORDATA QA — original, reference-guided Scoliodon-type digestive anatomy plate",
-      "license": "Original CHORDATA QA artwork; expert approval pending",
-      "sourceUrl": "",
+      "sha256": "fb48260749d41448bd3e2c70b57f63ce4b38950869eb218e8c3b570372a0693e",
+      "size": 684307,
+      "author": "CHORDATA original Scoliodon anatomy and Jon Houseman",
+      "license": "CC BY-SA 3.0 Unported (attributed teaching composite)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squa152p.png",
       "referenceUrls": [
         "https://www.dfo-mpo.gc.ca/species-especes/sharks/anatomy-eng.html?wbdisable=true",
         "https://www.dfo-mpo.gc.ca/species-especes/skates/anatomy/internal-eng.html",
         "https://egyankosh.ac.in/bitstream/123456789/64072/1/Block-1.pdf",
         "https://www.ntrgdc.ac.in/userfiles/file/Course%20Materials/Semester-2-Digestive%20system%20in%20Scoliodon.pdf"
       ],
-      "modifications": "Entirely original line drawing; no third-party artwork copied or traced.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
-      "keyEn": "J-shaped cardiac and pyloric stomach; blind sac; liver lobes, gallbladder and bile duct; pancreas and duct to proximal intestine; scroll (spiral) valve; rectum and cloaca. Rectal gland opens into rectum and excretes salt; it is NOT a digestive gland.",
+      "modifications": "The published images were proportionally laid out on a labelled teaching page; original anatomical source pixels were not synthetically invented.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_DEVICE_REVIEW_PENDING",
+      "keyEn": "Scoliodon-specific labelled digestive schematic enlarged for reading. Comparative dogfish (Squalus) preparation is explicitly identified as a DIFFERENT genus; never treat this comparison as Scoliodon specimen evidence. Rectal gland secretes salt, not digestive enzymes.",
       "keyTa": "சுறாவின் J வடிவ இரைப்பையில் கார்டியாக், பைலோரிக் பகுதிகளும் கண்முட்டு நீட்சியும் உள்ளன. கல்லீரல், பித்தப்பை, பித்தநாளம், கணையம் மற்றும் அவற்றின் குடல் இணைப்புகள் காட்டப்பட்டுள்ளன. குடலின் சுருள் மடிப்பும் மலக்குடலும் பொது வெளியேற்ற அறையும் காணப்படுகின்றன. மலக்குடல் சுரப்பி உப்பை வெளியேற்ற உதவுகிறது; அது செரிமானச் சுரப்பி அன்று.",
       "scope": "Type study digestive-system; schematic organs, not a dissection",
-      "visualReview": "REPLACED_VISUAL_QA_PENDING",
+      "visualReview": "SOURCE_BASED_TEACHING_PLATE_QA_PROVISIONAL",
       "topicId": "u2-scoliodon",
       "page": 2,
       "sectionKey": "digestive-system",
       "learningObjective": "Identify the J-shaped cardiac and pyloric stomach, blind sac, liver lobes, gallbladder/bile duct, pancreas, scroll-valve intestine, rectum and salt-excreting rectal gland in a shark-type model",
-      "svgMaster": "docs/original_plate_svg/scoliodon_digestive_anatomy_en.svg",
-      "svgSha256": "4730126353f7c18a67cdf45f22ebee5e3669ae0745296d35c98db4735fbcd8bf"
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Squa152p.png"
+      ],
+      "sourceSha256": [
+        "45e98d6945f799522d208514711c3d1490e77c83a76a0fb4ea3cc56d282577c2"
+      ],
+      "pedagogicStatus": "REPLACED_FROM_LOW_UTILITY_TEACHING_FIGURE_2026-11-12",
+      "retiredSchematicPng": "docs/retired_noninstructional_png/scoliodon_digestive_en.png",
+      "retiredSchematicSha256": "57f1bd87ee5ea529eff8bec7ca5ac4a60c2dca1be6afb62daf52ba024741cf17",
+      "editorialCaution": "The Houseman inset is Squalus, not Scoliodon. Exact Scoliodon anatomy follows the preserved source original."
     },
     {
       "diagramId": "u1-vertebrata-characters-vertebrate-anatomy",
@@ -1145,26 +1163,34 @@
       "figure": "devonian_tetrapod_transition",
       "lang": "en",
       "path": "pencil_plates/devonian_tetrapod_transition_en.png",
-      "sha256": "af54f34a6648dfaef154fb40bbafcb208848ab8a5576709398f62222fb6dc917",
-      "size": 105760,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "5ccf005dc7c9729fb40ed4cb9ab7eaedf7f2180904e79417b1fd2858d9e55310",
+      "size": 1715018,
+      "author": "Maija Karala",
+      "license": "CC BY-SA 3.0 Unported (attributed teaching composite)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishapod_evolution.jpg",
       "referenceUrls": [
         "https://openstax.org/books/biology-2e/pages/29-1-chordates"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
-      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Lobe-fin lineages, stem-tetrapod mosaics and later digit-bearing limbs document the transition.",
+      "modifications": "The published images were proportionally laid out on a labelled teaching page; original anatomical source pixels were not synthetically invented.",
+      "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_DEVICE_REVIEW_PENDING",
+      "keyEn": "The Devonian fossils Eusthenopteron, Panderichthys, Tiktaalik, Acanthostega and Ichthyostega illustrate branching tetrapodomorph evolution; the depicted fossils are not necessarily direct ancestors of one another.",
       "keyTa": "",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SELF_INSPECTED_PROVISIONAL",
-      "svgMaster": "docs/original_plate_svg/devonian_tetrapod_transition_en.svg",
+      "visualReview": "SOURCE_BASED_TEACHING_PLATE_QA_PROVISIONAL",
       "topicId": "u3-origin",
       "page": 1,
       "sectionKey": "devonian-transition",
       "learningObjective": "Lobe-fin lineages, stem-tetrapod mosaics and later digit-bearing limbs document the transition.",
-      "svgSha256": "97a485dcd2b93fce285199c557195d1a00c65369e4e9f08025f90cea54348244"
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Fishapod_evolution.jpg"
+      ],
+      "sourceSha256": [
+        "3a06beac71ecc8341f14a83c392e214341a10ca5b17de61d1ac9b9a0db2ca178"
+      ],
+      "pedagogicStatus": "REPLACED_FROM_LOW_UTILITY_TEACHING_FIGURE_2026-11-12",
+      "retiredSchematicPng": "docs/retired_noninstructional_png/devonian_tetrapod_transition_en.png",
+      "retiredSchematicSha256": "af54f34a6648dfaef154fb40bbafcb208848ab8a5576709398f62222fb6dc917"
     },
     {
       "diagramId": "u3-rana-arterial-system",

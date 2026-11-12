@@ -1,0 +1,96 @@
+{
+  "figureCount": 3,
+  "figures": [
+    {
+      "diagramId": "u2-scoliodon-digestive-labelled",
+      "installedPath": "pencil_plates/scoliodon_digestive_en.png",
+      "installedSha256": "fb48260749d41448bd3e2c70b57f63ce4b38950869eb218e8c3b570372a0693e",
+      "original": {
+        "sha256": "57f1bd87ee5ea529eff8bec7ca5ac4a60c2dca1be6afb62daf52ba024741cf17",
+        "size": 581960,
+        "path": "docs/retired_noninstructional_png/scoliodon_digestive_en.png"
+      },
+      "sources": [
+        {
+          "sourceOriginalFilename": "Squa152p.png",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Squa152p.png",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Squa152p.png",
+          "sha256": "45e98d6945f799522d208514711c3d1490e77c83a76a0fb4ea3cc56d282577c2",
+          "size": 150934,
+          "dimensions": [
+            450,
+            337
+          ],
+          "author": "Jon Houseman",
+          "licence": "CC BY-SA 3.0"
+        }
+      ],
+      "academicReview": "PROVISIONAL_QA_NOT_INDEPENDENTLY_APPROVED"
+    },
+    {
+      "diagramId": "u2-scales-fins-scale-types-labelled",
+      "installedPath": "pencil_plates/fish_scale_types.png",
+      "installedSha256": "e38720273c567a6704947c9371fcef287771f299d9574b8326e86eee089e5ed5",
+      "original": {
+        "sha256": "23043a42c60facb16479fc9da9d0d4d1faa7d2034fcd3322006b5cc8820dad02",
+        "size": 1797043,
+        "path": "docs/retired_noninstructional_png/fish_scale_types.png"
+      },
+      "sources": [
+        {
+          "sourceOriginalFilename": "Fishscales.png",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Fishscales.png",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Fishscales.png",
+          "sha256": "0f45ad1d6b7cd69b800652215c2f23014f9423079accf952438adc39671ad489",
+          "size": 455244,
+          "dimensions": [
+            841,
+            576
+          ],
+          "author": "Jon Houseman",
+          "licence": "CC BY-SA 3.0"
+        },
+        {
+          "sourceOriginalFilename": "PlacoidComp.png",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:PlacoidComp.png",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/PlacoidComp.png",
+          "sha256": "750499af77bf64beae639124f7cb5caab73456cd43f0368d2ed8ae6b7739d6e3",
+          "size": 396838,
+          "dimensions": [
+            982,
+            382
+          ],
+          "author": "Jon Houseman",
+          "licence": "CC BY-SA 3.0"
+        }
+      ],
+      "academicReview": "PROVISIONAL_QA_NOT_INDEPENDENTLY_APPROVED"
+    },
+    {
+      "diagramId": "u3-origin-devonian-transition",
+      "installedPath": "pencil_plates/devonian_tetrapod_transition_en.png",
+      "installedSha256": "5ccf005dc7c9729fb40ed4cb9ab7eaedf7f2180904e79417b1fd2858d9e55310",
+      "original": {
+        "sha256": "af54f34a6648dfaef154fb40bbafcb208848ab8a5576709398f62222fb6dc917",
+        "size": 105760,
+        "path": "docs/retired_noninstructional_png/devonian_tetrapod_transition_en.png"
+      },
+      "sources": [
+        {
+          "sourceOriginalFilename": "Fishapod evolution.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Fishapod_evolution.jpg",
+          "sourceDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fishapod_evolution.jpg",
+          "sha256": "3a06beac71ecc8341f14a83c392e214341a10ca5b17de61d1ac9b9a0db2ca178",
+          "size": 3859673,
+          "dimensions": [
+            3197,
+            4349
+          ],
+          "author": "Maija Karala",
+          "licence": "CC BY-SA 3.0"
+        }
+      ],
+      "academicReview": "PROVISIONAL_QA_NOT_INDEPENDENTLY_APPROVED"
+    }
+  ]
+}
