@@ -33,6 +33,20 @@ are bundled inside the application for offline use.</p>
 <p>Local settings are stored in the app's private Android storage. Android application
 backup is disabled. The app does not maintain server-side copies of learning records.
 Local records remain on the device until the user chooses the in-app Erase all learning data control, clears app storage or uninstalls the app.</p>
+<h2>Optional manual backup and restoration</h2>
+<p>The app can export completed lessons, bookmarks, quiz scores, reading language and
+text-size preferences to a <strong>readable, unencrypted JSON file</strong> using Android's
+system file picker. You choose where to save it. The app does not transmit a
+backup to its developer or upload it automatically. Files saved to external
+storage or a cloud provider selected by the user may be accessible to that
+provider and other apps according to the user's settings. Do not share a
+backup file if you wish to keep learning records private.</p>
+<p>Importing a selected backup file requires explicit confirmation and
+<strong>replaces</strong> existing local learning progress and preferences.
+The app checks the backup schema before modifying saved records.
+Erasing learning data or uninstalling the app does <strong>not</strong> erase
+any backup files you previously saved outside the app; delete those
+separately using the relevant file provider.</p>
 <h2>Deleting local data</h2>
 <p>To erase local learning records and preferences, open the in-app Privacy policy, select
 <strong>Erase all learning data</strong> and confirm. Alternatively, uninstall Chordata Atlas or use
