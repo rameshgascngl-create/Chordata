@@ -45,6 +45,27 @@ assert held[0].get('aiQaIntegrationDecision')=='HOLD_MATERIAL_ANATOMY_ERROR'
 assert held[0].get('ownerQaAcceptance')=='OWNER_APPROVAL_EXCLUDED_MATERIAL_ANATOMY_ERROR_2026-11-11'
 assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=='GREEN_TICK_ALLOW_PROVISIONAL_QA_USE' for f in fs)
 
+# Pedagogical utility is a separate gate from PNG integrity. These user-
+# rejected shapes remain in source control for provenance but cannot be used
+# as anatomy/species teaching images in either language.
+noninstructional_ids = {
+    'u4-snakes-india-big-four-identification',
+    'u5-flight-adaptations-flight-muscles',
+    'u5-rabbit-sense-organs',
+    'u5-egg-laying-mammals-monotreme-reproduction',
+    'u5-marsupials-marsupial-life-history',
+    'u5-aquatic-mammals-aquatic-mammal-groups',
+}
+rejected = [x for x in fs if x.get('pedagogicStatus') ==
+            'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
+assert {x['diagramId'] for x in rejected} == noninstructional_ids, (
+    'Six user-rejected figures must remain suppressed until verified replacement')
+assert len(rejected) == 6 and len({x['diagramId'] for x in rejected}) == 6
+assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
+           and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
+           for x in rejected), 'Symbolic non-instructional diagrams must not reappear as valid plates'
+print('PASS: six pedagogically rejected figures are withheld; original PNGs and credits retained')
+
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
     assert 'en' in languages or 'shared' in languages,('no English/shared asset',id)
