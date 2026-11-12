@@ -48,23 +48,40 @@ assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=
 # Pedagogical utility is a separate gate from PNG integrity. These user-
 # rejected shapes remain in source control for provenance but cannot be used
 # as anatomy/species teaching images in either language.
-noninstructional_ids = {
-    'u4-snakes-india-big-four-identification',
-    'u5-flight-adaptations-flight-muscles',
+remaining_noninstructional_ids = {
     'u5-rabbit-sense-organs',
     'u5-egg-laying-mammals-monotreme-reproduction',
-    'u5-marsupials-marsupial-life-history',
     'u5-aquatic-mammals-aquatic-mammal-groups',
+}
+verified_source_replacement_ids = {
+    'u4-snakes-india-big-four-identification',
+    'u5-flight-adaptations-flight-muscles',
+    'u5-marsupials-marsupial-life-history',
 }
 rejected = [x for x in fs if x.get('pedagogicStatus') ==
             'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
-assert {x['diagramId'] for x in rejected} == noninstructional_ids, (
-    'Six user-rejected figures must remain suppressed until verified replacement')
-assert len(rejected) == 6 and len({x['diagramId'] for x in rejected}) == 6
+assert {x['diagramId'] for x in rejected} == remaining_noninstructional_ids, (
+    'Three uncorrected user-rejected figures must remain suppressed')
+assert len(rejected) == 3
 assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
            and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
-           for x in rejected), 'Symbolic non-instructional diagrams must not reappear as valid plates'
-print('PASS: six pedagogically rejected figures are withheld; original PNGs and credits retained')
+           for x in rejected), 'Uncorrected symbolic diagrams must remain withheld'
+replacements = [x for x in fs if x.get('pedagogicStatus') ==
+                'REPLACED_WITH_CC_LICENSED_SOURCE_QA_PENDING_2026-11-12']
+assert {x['diagramId'] for x in replacements} == verified_source_replacement_ids, (
+    'Missing or invented sourced replacement for three reviewed lessons')
+for x in replacements:
+    assert x.get('visualReview') == 'SOURCED_TEACHING_FIGURE_QA_PROVISIONAL'
+    assert x.get('sourceUrl', '').startswith('https://commons.wikimedia.org/wiki/File:')
+    assert x.get('licenseUrl', '').startswith('https://creativecommons.org/licenses/by-sa/')
+    assert x.get('sourceSha256') and all(len(h) == 64 for h in x['sourceSha256'])
+    assert not x.get('svgMaster'), ('Retired symbolic SVG incorrectly presented as active source', x['diagramId'])
+    assert x.get('retiredSchematicSha256') and x.get('retiredSchematicSvg')
+    assert x.get('reviewStatus', '').startswith('PROVISIONAL_'), 'No false independent approval'
+snake = next(x for x in replacements if x['diagramId'] == 'u4-snakes-india-big-four-identification')
+assert len(snake['sourceUrls']) == 4 and len(snake['sourceSha256']) == 4
+assert all('creativecommons.org/licenses/by-sa/4.0' in x for x in snake['originalLicences'])
+print('PASS: three low-value figures withheld and three genuinely sourced replacements staged for independent review')
 
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
