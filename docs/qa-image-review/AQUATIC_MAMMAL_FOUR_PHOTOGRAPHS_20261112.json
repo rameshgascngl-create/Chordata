@@ -1,0 +1,96 @@
+{
+  "diagramId": "u5-aquatic-mammals-aquatic-mammal-groups",
+  "sources": [
+    {
+      "key": "cetacea",
+      "file": "Bottlenose Dolphin (48512426316).jpg",
+      "creator": "caroline legg",
+      "taxon": "Tursiops truncatus",
+      "label": "CETACEANS",
+      "common": "Bottlenose dolphin",
+      "licence": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "size": [
+        4110,
+        2740
+      ],
+      "verifiedLicence": "CC BY 2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bottlenose_Dolphin_(48512426316).jpg",
+      "directUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Bottlenose_Dolphin_%2848512426316%29.jpg",
+      "sourceSha256": "f328be574b6f63dc0165de242044686ab917f8472e2c1db4f582cb9808ae66d2",
+      "sourceBytes": 6343001
+    },
+    {
+      "key": "sirenia",
+      "file": "Dugong (Dugong dugon) (Ifremer 00617-72913).jpg",
+      "creator": "Jerome Paillet (IFREMER)",
+      "taxon": "Dugong dugon",
+      "label": "SIRENIANS",
+      "common": "Dugong",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "size": [
+        4000,
+        3000
+      ],
+      "verifiedLicence": "CC BY 4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dugong_(Dugong_dugon)_(Ifremer_00617-72913).jpg",
+      "directUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Dugong_%28Dugong_dugon%29_%28Ifremer_00617-72913%29.jpg",
+      "sourceSha256": "9423e316703894c1813ce8cb043d3ace89c8464e6b916c81c6449cfd76ef3176",
+      "sourceBytes": 7708867
+    },
+    {
+      "key": "pinnipedia",
+      "file": "Harbor Seal.jpg",
+      "creator": "Arnstein Rønning",
+      "taxon": "Phoca vitulina",
+      "label": "PINNIPEDS",
+      "common": "Harbour seal",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "size": [
+        3511,
+        2643
+      ],
+      "verifiedLicence": "CC BY-SA 4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Harbor_Seal.jpg",
+      "directUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Harbor_Seal.jpg",
+      "sourceSha256": "342eb638597944dfcb7293c8944aa17e7fea2f961ee963734127166eec77a514",
+      "sourceBytes": 3005074
+    },
+    {
+      "key": "mustelidae",
+      "file": "Sea otter marine mammal enhydra lutris.jpg",
+      "creator": "U.S. Fish and Wildlife Service",
+      "taxon": "Enhydra lutris",
+      "label": "SEA OTTERS (MUSTELIDAE)",
+      "common": "Sea otter",
+      "licence": "Public domain",
+      "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "size": [
+        1800,
+        1200
+      ],
+      "verifiedLicence": "Public domain",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_otter_marine_mammal_enhydra_lutris.jpg",
+      "directUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Sea_otter_marine_mammal_enhydra_lutris.jpg",
+      "sourceSha256": "905d7c3a92e9757c99a6529f96121472b0178df9fe42825b39747011538681af",
+      "sourceBytes": 820611
+    }
+  ],
+  "asset": "pencil_plates/aquatic_mammal_lineages_en.png",
+  "sha256": "491c242f293c2ed2f2f77a73a73b551b673215e8787237d1b819771e451f31ab",
+  "sizeBytes": 2938906,
+  "resolution": [
+    3200,
+    2320
+  ],
+  "retiredSymbolicPng": "docs/retired_noninstructional_png/aquatic_mammal_lineages_en.png",
+  "retiredSha256": "a330620a0fb6d62fab65caf6c79fd50ee24a686c83bc3a49b034623bfbc987c3",
+  "retiredSvg": "docs/original_plate_svg/aquatic_mammal_lineages_en.svg",
+  "retiredSvgSha256": "80bbfd94c5a4dbf6dcfc2e57337d949b07557057f41af9a7dffc09b9fe88e3e0",
+  "sourceAnatomyFabricated": false,
+  "modifications": "Each original licensed photograph fitted proportionally and without cropping to a clearly credited four-card teaching comparison, with explanatory taxonomy. No specimens or anatomy invented, removed or redrawn.",
+  "biologyStatus": "PROVISIONAL_INDEPENDENT_SIGNOFF_PENDING",
+  "tamilStatus": "PROVISIONAL_INDEPENDENT_SIGNOFF_PENDING"
+}
