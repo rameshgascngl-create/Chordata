@@ -22,6 +22,10 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.saveable.listSaver
 import androidx.compose.runtime.toMutableStateList
 import androidx.activity.compose.BackHandler
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.ui.platform.LocalContext
+import java.io.ByteArrayOutputStream
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -71,6 +75,59 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
     var query by rememberSaveable { mutableStateOf("") }
     var bookmarks by remember { mutableStateOf(progress.bookmarks()) }
     var completed by remember { mutableStateOf(progress.completed()) }
+    val context = LocalContext.current
+    var progressTransferMessage by rememberSaveable { mutableStateOf("") }
+
+    val exportProgressLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.CreateDocument("application/json")
+    ) { uri ->
+        if (uri != null) {
+            val saved = runCatching {
+                val out = requireNotNull(context.contentResolver.openOutputStream(uri))
+                out.bufferedWriter(Charsets.UTF_8).use { it.write(progress.exportLearningData()) }
+            }.isSuccess
+            progressTransferMessage = if (saved)
+                loc(lang, "Learning progress exported to the selected file.",
+                    "கற்றல் முன்னேற்றம் தேர்ந்தெடுத்த கோப்பில் சேமிக்கப்பட்டது.")
+            else loc(lang, "Could not save the backup file. Choose another location.",
+                "காப்புக் கோப்பைச் சேமிக்க இயலவில்லை. வேறு இடத்தைத் தேர்ந்தெடுக்கவும்.")
+        }
+    }
+    val importProgressLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.OpenDocument()
+    ) { uri ->
+        if (uri != null) {
+            val restored = runCatching {
+                val input = requireNotNull(context.contentResolver.openInputStream(uri))
+                val bytes = input.use { stream ->
+                    val buffer = ByteArray(4096)
+                    val out = ByteArrayOutputStream()
+                    while (true) {
+                        val count = stream.read(buffer)
+                        if (count < 0) break
+                        require(out.size() + count <= 65536) { "Backup file too large" }
+                        out.write(buffer, 0, count)
+                    }
+                    out.toByteArray()
+                }
+                progress.importLearningData(String(bytes, Charsets.UTF_8))
+            }.getOrDefault(false)
+            if (restored) {
+                bookmarks = progress.bookmarks()
+                completed = progress.completed()
+                languageName = progress.language().name
+                textScale = progress.textScale()
+                query = ""
+                selectedTopicId = ""
+                page = 0
+            }
+            progressTransferMessage = if (restored)
+                loc(lang, "Learning progress restored from the selected file.",
+                    "தேர்ந்தெடுத்த கோப்பிலிருந்து கற்றல் முன்னேற்றம் மீட்டெடுக்கப்பட்டது.")
+            else loc(lang, "Invalid backup file. Existing learning data was not changed.",
+                "காப்புக் கோப்பு செல்லாது. ஏற்கெனவே சேமித்த கற்றல் தரவு மாற்றப்படவில்லை.")
+        }
+    }
     val currentTopic = pack.findTopic(selectedTopicId)
 
     fun openTopic(id: String, startPage: Int = 0) {
@@ -180,6 +237,15 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                         onBrowse = { tab = "topics" },
                         onPrivacy = { tab = "privacy" })
                     tab == "privacy" -> PrivacyPolicyPage(lang, textScale,
+                        onExportLocalData = {
+                            progressTransferMessage = ""
+                            exportProgressLauncher.launch("chordata_learning_progress.json")
+                        },
+                        onImportLocalData = {
+                            progressTransferMessage = ""
+                            importProgressLauncher.launch(arrayOf("application/json", "text/plain"))
+                        },
+                        transferMessage = progressTransferMessage,
                         onEraseLocalData = {
                             if (!progress.eraseAllLearningData()) {
                                 false
