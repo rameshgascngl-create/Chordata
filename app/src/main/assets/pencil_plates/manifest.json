@@ -1324,20 +1324,24 @@
       "sourceUrl": "",
       "referenceUrls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3673951/",
-        "https://www.dcceew.gov.au/sites/default/files/env/pages/dc11235d-8b3b-43f7-b991-8429f477a1d4/files/24-fauna-2a-squamata-morphology.pdf"
+        "https://www.dcceew.gov.au/sites/default/files/env/pages/dc11235d-8b3b-43f7-b991-8429f477a1d4/files/24-fauna-2a-squamata-morphology.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/14434639/"
       ],
       "modifications": "Targeted academic label correction: the erroneous 'Intercaval flow' was changed to 'Intercavitary flow'. Original topology and all other figure pixels remain unchanged. Original SVG rendered to PNG.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Functionally subdivided ventricle: cavum arteriosum, cavum venosum, cavum pulmonale; two systemic aortae and pulmonary artery.",
-      "keyTa": "",
+      "keyEn": "In Calotes the heart has two atria and a single ventricle with functionally differentiated regions (cavum arteriosum, cavum venosum and cavum pulmonale). Systemic and pulmonary arterial outlets must be represented with verifiable topology; this withdrawn sketch is not an anatomical map.",
+      "keyTa": "கலோடெஸ் ஓணானின் இதயத்தில் இரண்டு ஏட்ரியங்களும் செயல்பாட்டு வேறுபாடுகள் கொண்ட ஒரே வென்ட்ரிக்கிளும் உள்ளன. அதில் cavum arteriosum, cavum venosum, cavum pulmonale ஆகிய பகுதிகள் காணப்படுகின்றன. உடற்கூறு அமைப்பைச் சரியாகக் காட்டாத பழைய படம் மாணவர் பார்வையிலிருந்து நீக்கப்பட்டுள்ளது.",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "SCIENTIFIC_TOPOLOGY_REVISED_PROVISIONAL",
+      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
       "svgMaster": "docs/original_plate_svg/calotes_heart_arteries_en.svg",
       "topicId": "u4-calotes",
       "page": 4,
       "sectionKey": "arterial-system",
       "learningObjective": "Two atria, functionally partitioned ventricle, systemic and pulmonary pathways.",
-      "svgSha256": "fa615ac34c0b677f72f6c625d3c0edb3e1dc24d69aaa70ce10c5ed955121224a"
+      "svgSha256": "fa615ac34c0b677f72f6c625d3c0edb3e1dc24d69aaa70ce10c5ed955121224a",
+      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
+      "pedagogicReason": "The plate is primarily a generic ventricular flow schematic, not a recognisable, species-validated Calotes heart or arterial system. The user rejected it. The original PNG and corrected SVG are retained for provenance but not shown in the reader.",
+      "editorialCaution": "Species-specific Calotes arterial origins and connecting routes must be verified against P.H.D.H. de Silva (1956) and Ravi Prakash (1960). Comparative reptile heart physiology does not license a generic drawing to be presented as the precise Calotes arterial anatomy."
     },
     {
       "diagramId": "u4-calotes-brain",
