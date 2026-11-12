@@ -66,6 +66,44 @@ class ReaderNavigationTest {
         )
     }
 
+    @Test fun pigeonSensoryEngravingsAreFocusedAndExcludeInternalReviewFooter() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val directory = "pencil_plates"
+        val plate = "pigeon_eye_ear_en.png"
+        val eye = requireNotNull(decodeTeachingPanel(context, directory, plate, 0))
+        val ear = requireNotNull(decodeTeachingPanel(context, directory, plate, 1))
+        try {
+            org.junit.Assert.assertEquals(720, eye.width)
+            org.junit.Assert.assertEquals(650, eye.height)
+            org.junit.Assert.assertEquals(568, ear.width)
+            org.junit.Assert.assertEquals(455, ear.height)
+        } finally {
+            eye.recycle()
+            ear.recycle()
+        }
+        org.junit.Assert.assertNull(decodeTeachingPanel(context, directory, plate, 2))
+        val raw = context.assets.open("$"+"{directory}/$"+"{plate}").use { it.readBytes() }
+        val opts = android.graphics.BitmapFactory.Options().apply { inJustDecodeBounds = true }
+        context.assets.open("$"+"{directory}/$"+"{plate}").use {
+            android.graphics.BitmapFactory.decodeStream(it, null, opts)
+        }
+        org.junit.Assert.assertEquals(1600, opts.outWidth)
+        org.junit.Assert.assertEquals(1260, opts.outHeight)
+        org.junit.Assert.assertTrue(raw.size > 200_000)
+    }
+
+    @Test fun vertebratePhylogenyFigureKeyIsImmediatelyVisible() {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput("Classification of Vertebrata")
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
+        rule.onNodeWithTag("reader-next").performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("figure-essential-key-u1-vertebrata-classification-vertebrate-phylogeny")
+            .assertExists()
+    }
+
     @Test fun greenTickedAiVariantIsNotRejectedBecauseEnglishFallbackWasRejected() {
         val oldEnglish = JSONObject().apply {
             put("visualReview", "USER_REJECTED_REPLACEMENT_REQUIRED")

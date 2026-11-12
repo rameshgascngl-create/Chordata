@@ -416,13 +416,17 @@ private fun PointwiseExplanation(points: List<Bilingual>, lang: ReadingLanguage,
 
 @Composable
 private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLanguage, scale: Float,
-    page: Int, onPage: (Int) -> Unit, onNextTopic: () -> Unit,
+    storedPage: Int, onPage: (Int) -> Unit, onNextTopic: () -> Unit,
     onComplete: () -> Unit, completed: Boolean, store: ProgressStore) {
-    // Recreate the list position for each lesson page. This avoids briefly showing
-    // the previous page's bottom before a LaunchedEffect scroll can execute.
-    val listState = key(topic.id, page) { rememberLazyListState() }
     val chapterPages = remember(topic) { LearningLogic.sectionPages(topic) }
-    val finalPage = LearningLogic.lastPage(topic)
+    val finalPage = chapterPages.size
+    // Saved reader positions from older releases may exceed a newly packed
+    // chapter's page count. Correct them before showing the progress header.
+    val page = storedPage.coerceIn(0, finalPage)
+    LaunchedEffect(topic.id, storedPage, finalPage) {
+        if (storedPage != page) onPage(page)
+    }
+    val listState = key(topic.id, page) { rememberLazyListState() }
     var continuous by rememberSaveable(topic.id) { mutableStateOf(false) }
     var outlineExpanded by rememberSaveable(topic.id) { mutableStateOf(false) }
     LaunchedEffect(topic.id, page, continuous) { listState.scrollToItem(0) }

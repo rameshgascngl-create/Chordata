@@ -132,6 +132,14 @@ internal fun decodeTeachingPanel(
             0 -> Rect(260, 400, 1530, 1690)
             else -> return null
         })
+        // Two published 1905 bird-anatomy engravings are isolated from their
+        // composite plate. The original file/credits stay exactly unchanged.
+        // These bounds omit the embedded internal-review footer.
+        "pigeon_eye_ear_en.png" -> Triple(1600, 1260, when (panel) {
+            0 -> Rect(70, 225, 790, 875) // Eye and labelled pecten, lens, retina
+            1 -> Rect(902, 235, 1470, 690) // Inner ear, semicircular canals and lagena
+            else -> return null
+        })
         "fish_accessory_breathing_en.png" -> Triple(1800, 1120, when (panel) {
             0 -> Rect(0, 0, 1800, 1050)
             else -> return null
@@ -505,9 +513,12 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                 val isPigeonSkeleton = plate.id == "u5-columba-endoskeleton" &&
                     plate.filename == "columba_skeleton_en.png"
                 val isAccessoryFish = plate.id == "u2-accessory-respiration-accessory-organs-comparison"
+                val isPigeonSense = plate.id == "u5-columba-sense-organs" &&
+                    plate.filename == "pigeon_eye_ear_en.png"
                 val focused = remember(context, plate.assetDirectory, plate.filename) {
                     val count = when {
                         isPigeonUro -> 3
+                        isPigeonSense -> 2
                         isPigeonSkeleton || isAccessoryFish -> 1
                         else -> 0
                     }
@@ -667,6 +678,32 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 modifier = Modifier.fillMaxWidth().height(460.dp)
                                     .clickable { zoomPanel = -1; zoomed = true }
                                     .testTag("figure-skeleton-composite"))
+                        } else if (isPigeonSense && focused.size == 2 &&
+                            focused.all { it != null }) {
+                            val headings = if (lang == ReadingLanguage.TA) listOf(
+                                "பறவையின் கண் — பெக்டென், விழிவில்லை மற்றும் விழித்திரை",
+                                "பறவையின் உட்செவி — அரைவட்டக் குழாய்கள் மற்றும் லஜீனா"
+                            ) else listOf(
+                                "Avian eye — pecten, lens and retina",
+                                "Avian inner ear — semicircular canals and lagena"
+                            )
+                            focused.forEachIndexed { index, imagePart ->
+                                Text(headings[index], fontSize = 15.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    color = MaterialTheme.colorScheme.primary)
+                                Image(bitmap = requireNotNull(imagePart),
+                                    contentDescription = headings[index],
+                                    contentScale = ContentScale.Fit,
+                                    modifier = Modifier.fillMaxWidth()
+                                        .height(if (index == 0) 380.dp else 310.dp)
+                                        .clickable { zoomPanel = index; zoomed = true }
+                                        .testTag("figure-pigeon-sense-" + index))
+                            }
+                            Text(if (lang == ReadingLanguage.TA)
+                                "1905 ஆம் ஆண்டின் பொதுவான பறவை உடற்கூறியல் படங்கள்; புறாவின் தனிப்பட்ட பிரித்தாய்வு எனக் குறிப்பிடப்படவில்லை."
+                                else "Original 1905 comparative bird-anatomy engravings; not represented as a confirmed Columba livia dissection.",
+                                fontSize = 12.sp, lineHeight = 18.sp,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant)
                         } else if (isAccessoryFish) {
                             HistoricalAirBreathingGallery(lang) { index ->
                                 zoomPanel = 10 + index
@@ -704,16 +741,31 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                             maxLines = if (captionExpanded) Int.MAX_VALUE else 2,
                             overflow = TextOverflow.Ellipsis)
                         if (extendedCaption.isNotEmpty()) {
-                            TextButton(onClick = { captionExpanded = !captionExpanded },
-                                modifier = Modifier.testTag("figure-caption-toggle-" + plate.id)) {
-                                Text(if (captionExpanded)
-                                    if (lang == ReadingLanguage.TA) "விளக்கக் குறிப்பை மறை" else "Hide figure key"
-                                else if (lang == ReadingLanguage.TA) "படக் குறியீடுகளைப் படிக்க" else "View labels and figure key")
-                            }
-                            if (captionExpanded) {
-                                Text(extendedCaption, fontSize = 12.sp,
-                                    lineHeight = 18.sp,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            // A numbered phylogeny and the historical anatomical
+                            // plates cannot be interpreted without their keys.
+                            // Expose those keys by default; don't hide them behind
+                            // a large "View labels" action.
+                            if (essentialKey) {
+                                Text(if (lang == ReadingLanguage.TA) "படக் குறியீடுகள்"
+                                    else "Figure key",
+                                    fontSize = 14.sp, fontWeight = FontWeight.Bold,
+                                    color = MaterialTheme.colorScheme.primary)
+                                Text(extendedCaption,
+                                    fontSize = 14.sp, lineHeight = 21.sp,
+                                    color = MaterialTheme.colorScheme.onSurface,
+                                    modifier = Modifier.testTag("figure-essential-key-" + plate.id))
+                            } else {
+                                TextButton(onClick = { captionExpanded = !captionExpanded },
+                                    modifier = Modifier.testTag("figure-caption-toggle-" + plate.id)) {
+                                    Text(if (captionExpanded)
+                                        if (lang == ReadingLanguage.TA) "விளக்கக் குறிப்பை மறை" else "Hide figure key"
+                                    else if (lang == ReadingLanguage.TA) "படக் குறியீடுகளைப் படிக்க" else "View labels and figure key")
+                                }
+                                if (captionExpanded) {
+                                    Text(extendedCaption, fontSize = 12.sp,
+                                        lineHeight = 18.sp,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
                             }
                         }
                         TextButton(
@@ -786,6 +838,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                 isAscidia && zoomPanel in 0..1 -> decodeFocusedAscidianPanel(
                                     context, plate.assetDirectory, plate.filename, zoomPanel)
                                 (isPigeonUro && zoomPanel in 0..2) ||
+                                    (isPigeonSense && zoomPanel in 0..1) ||
                                     (isPigeonSkeleton && zoomPanel == 0) ||
                                     (isAccessoryFish && zoomPanel == 0) ->
                                     decodeTeachingPanel(
