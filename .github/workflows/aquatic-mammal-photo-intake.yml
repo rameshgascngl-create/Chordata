@@ -1,0 +1,54 @@
+name: CHORDATA original aquatic-mammal four-photo replacement
+on:
+  push:
+    branches: ["qa/chordata-aquatic-mammals-sourced-20261112"]
+    paths:
+      - "scripts/install_aquatic_mammals_four_photos.py"
+      - ".github/workflows/aquatic-mammal-photo-intake.yml"
+      - "scripts/audit_pencil_coverage.py"
+      - "scripts/audit_android_qa_contract.py"
+permissions:
+  contents: write
+jobs:
+  install-licensed-marine-mammal-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install minimal photo-source and image-verification dependencies
+        run: python3 -m pip install --disable-pip-version-check --quiet "Pillow>=10,<12" "requests>=2.32,<3"
+      - name: Fetch and licence-verify exact Wikimedia photographic originals
+        run: python3 scripts/install_aquatic_mammals_four_photos.py
+      - name: Verify restored source figures and all app figure slots
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f docs/retired_noninstructional_png/aquatic_mammal_lineages_en.png
+          test -f docs/qa-image-review/AQUATIC_MAMMAL_FOUR_PHOTOGRAPHS_20261112.json
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_pencil_coverage.py
+          python3 scripts/audit_coverage_report.py
+          python3 scripts/audit_android_qa_contract.py
+          python3 scripts/write_figure_review_register.py --check
+          python3 scripts/test_review_signoff_guards.py
+          python3 scripts/test_monotreme_sourced_plate.py
+          python3 scripts/audit_built_apk_assets.py --self-test
+      - name: Commit actual image bytes, archived source, credits and exact hashes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/aquatic_mammal_lineages_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/retired_noninstructional_png/aquatic_mammal_lineages_en.png
+          git add docs/qa-image-review/AQUATIC_MAMMAL_FOUR_PHOTOGRAPHS_20261112.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          test -n "$(git diff --cached --name-only)"
+          git commit -m "feat(aquatic): replace symbolic marine mammals with credited photographed lineages"
+          git push origin HEAD:qa/chordata-aquatic-mammals-sourced-20261112
