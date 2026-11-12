@@ -105,8 +105,8 @@ with the corresponding editable SVGs unchanged.
 - Marsupial reproduction: authentic kangaroo with joey in pouch, with a caveat
   that pouch structure varies across marsupials.
 
-**Still withheld:** monotreme reproduction and milk feeding; aquatic mammal
-icons; and the inadequate Calotes heart-flow sketch. No new abstract diagrams are substituted.
+**Still withheld:** generic aquatic mammal group icons and the inadequate
+Calotes heart-flow sketch. No new abstract diagrams are substituted.
 
 These are quality-improved *QA teaching figures*, not scientific release approval.
 
@@ -151,3 +151,24 @@ Calotes heart replacement still absent; no release sign-off asserted.
   `docs/qa-image-review/RABBIT_SENSE_ORGANS_PHOTOGRAPHIC_REPLACEMENT_20261112.json`.
 - Human biological review, Tamil editorial review and device screenshots
   remain pending; asset presence is **not** independent acceptance.
+
+## Monotreme reproduction—sourced teaching plate (12 November 2026)
+
+- Replaced `u5-egg-laying-mammals-monotreme-reproduction` shared plate with
+  a non-symbolic comparison: real adult platypus photograph (Eric Chan,
+  CC BY 2.0), actual echidna puggle photo (Ian R McCann/Museums Victoria,
+  CC BY-SA 4.0), and F. E. Beddard's genuine 1902 anatomical figure showing
+  echidna pouch and mammary-gland regions (public domain).
+- Crucially, *platypus* nests and incubates eggs in a **burrow**; the
+  *echidna* incubates an egg in a **temporary ventral pouch**. The actual
+  puggle is an **echidna**, not a platypus hatchling, and the adult platypus's
+  sex is not inferred from the photograph.
+- Milk is secreted without nipples; the actual published echidna mammary
+  anatomy is included instead of symbolic nipples or false diagrams.
+- The old user-rejected schematic PNG is preserved outside APK under
+  `docs/retired_noninstructional_png/platypus_reproduction.png`; source
+  hashes, modifications, each source creator, and licence appear in
+  `docs/qa-image-review/MONOTREME_REPRODUCTION_SOURCE_PLATE_20261112.json`.
+- This is **not** direct photographic evidence of egg laying or a continuous
+  life cycle. Academic, Tamil editorial, device and release approvals remain
+  pending.
