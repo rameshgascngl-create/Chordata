@@ -36,8 +36,11 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("home-book-layout").performScrollToIndex(2)
         rule.onNodeWithTag("privacy-policy-entry").performClick()
         rule.onNodeWithTag("privacy-policy-page").assertExists()
-        rule.onAllNodesWithText("தனியுரிமைக் கொள்கை").onFirst().assertExists()
+        rule.onNodeWithTag("privacy-policy-heading").assertIsDisplayed()
         captureQaScreen("privacy-ta-200")
+        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(5)
+        rule.onNodeWithText("தனியுரிமை தொடர்பான கேள்விகள்").assertIsDisplayed()
+        captureQaScreen("privacy-ta-200-footer")
         rule.onNodeWithTag("privacy-policy-back").performClick()
         rule.onNodeWithTag("home-book-layout").assertExists()
     }
