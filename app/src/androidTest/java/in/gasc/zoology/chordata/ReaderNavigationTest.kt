@@ -19,6 +19,7 @@ import android.graphics.Bitmap
 import android.content.ContentValues
 import android.provider.MediaStore
 import `in`.gasc.zoology.chordata.data.ContentRepository
+import `in`.gasc.zoology.chordata.data.ProgressStore
 import `in`.gasc.zoology.chordata.ui.decodePlateBitmap
 import `in`.gasc.zoology.chordata.ui.decodeFocusedAscidianPanel
 import `in`.gasc.zoology.chordata.ui.decodeTeachingPanel
@@ -30,6 +31,34 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
+    @Test fun eraseLearningDataRequiresConfirmationAndPersistsDeletion() {
+        selectEnglish()
+        val store = ProgressStore(InstrumentationRegistry.getInstrumentation().targetContext)
+        val chapter = "u1-origin"
+        store.saveBookmarks(setOf(chapter))
+        store.saveCompleted(setOf(chapter))
+        store.saveQuizScore(chapter, 3)
+        org.junit.Assert.assertTrue(chapter in store.bookmarks())
+        org.junit.Assert.assertEquals(3, store.quizScore(chapter))
+
+        rule.onNodeWithTag("home-book-layout").performScrollToIndex(2)
+        rule.onNodeWithTag("privacy-policy-entry").performClick()
+        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(5)
+        rule.onNodeWithTag("privacy-erase-entry").performClick()
+        rule.onNodeWithTag("privacy-erase-dialog").assertExists()
+        rule.onNodeWithTag("privacy-erase-cancel").performClick()
+        org.junit.Assert.assertTrue(chapter in store.bookmarks())
+        org.junit.Assert.assertEquals(3, store.quizScore(chapter))
+        rule.onNodeWithTag("privacy-erase-entry").performClick()
+        rule.onNodeWithTag("privacy-erase-confirm").performClick()
+        rule.onNodeWithTag("home-book-layout").assertExists()
+        org.junit.Assert.assertTrue(store.bookmarks().isEmpty())
+        org.junit.Assert.assertTrue(store.completed().isEmpty())
+        org.junit.Assert.assertNull(store.quizScore(chapter))
+        org.junit.Assert.assertEquals(1f, store.textScale(), 0.0001f)
+        org.junit.Assert.assertEquals("EN", store.language().name)
+    }
+
     @Test fun privacyPolicyIsAccessibleInTamilAt200Percent() {
         rule.onNodeWithText("தமிழ்").performClick()
         rule.onNodeWithText("200%").performClick()
@@ -38,7 +67,7 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("privacy-policy-page").assertExists()
         rule.onNodeWithTag("privacy-policy-heading").assertIsDisplayed()
         captureQaScreen("privacy-ta-200")
-        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(5)
+        rule.onNodeWithTag("privacy-policy-page").performScrollToIndex(6)
         rule.onNodeWithText("தனியுரிமை தொடர்பான கேள்விகள்").assertIsDisplayed()
         captureQaScreen("privacy-ta-200-footer")
         rule.onNodeWithTag("privacy-policy-back").performClick()
