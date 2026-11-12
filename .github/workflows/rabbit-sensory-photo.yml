@@ -1,0 +1,53 @@
+name: CHORDATA sourced rabbit sensory teaching illustration
+on:
+  push:
+    branches: ["qa/chordata-rabbit-sensory-photo-20261112"]
+    paths:
+      - "scripts/install_rabbit_sensory_photo.py"
+      - ".github/workflows/rabbit-sensory-photo.yml"
+permissions:
+  contents: write
+
+jobs:
+  replace-rabbit-pictogram:
+    name: Verify real rabbit morphology, source licence, exact placement and hashes
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install source-photo decoding and verification dependencies
+        run: python3 -m pip install --disable-pip-version-check --quiet "Pillow>=10,<12" "requests>=2.32,<3"
+      - name: Verify Commons original and render labelled photographic PNG
+        run: python3 scripts/install_rabbit_sensory_photo.py
+      - name: Independently audit registered replacement and preserved originals
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_pencil_coverage.py
+          python3 scripts/audit_coverage_report.py
+          python3 scripts/audit_android_qa_contract.py
+          python3 scripts/test_review_signoff_guards.py
+          python3 scripts/audit_built_apk_assets.py --self-test
+          python3 scripts/write_figure_review_register.py --check
+          test -f docs/retired_noninstructional_png/rabbit_senses_en.png
+          test -f docs/qa-image-review/RABBIT_SENSE_ORGANS_PHOTOGRAPHIC_REPLACEMENT_20261112.json
+      - name: Commit sourced figure bytes, provenance and reviewer-sheet update
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/rabbit_senses_en.png
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add docs/retired_noninstructional_png/rabbit_senses_en.png
+          git add docs/qa-image-review/RABBIT_SENSE_ORGANS_PHOTOGRAPHIC_REPLACEMENT_20261112.json
+          git add docs/figure-coverage.tsv docs/FIGURE_REVIEW_REGISTER_64.csv
+          test -n "$(git diff --cached --name-only)"
+          git commit -m "feat(rabbit): integrate licensed photographed sensory structures with precise teaching keys"
+          git push origin HEAD:qa/chordata-rabbit-sensory-photo-20261112
