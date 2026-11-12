@@ -282,7 +282,10 @@ private fun BilingualText(value: Bilingual, lang: ReadingLanguage, scale: Float,
         fontSize = (base * scale).sp,
         lineHeight = (base * scale * if (lang == ReadingLanguage.TA) 1.52f else 1.46f).sp,
         fontWeight = if (bold) FontWeight.SemiBold else FontWeight.Normal,
-        textAlign = alignment
+        // Full justification at 150–200% creates large rivers of whitespace
+        // on a narrow Android reader; retain it only at readable line widths.
+        textAlign = if (alignment == TextAlign.Justify && scale >= 1.5f)
+            TextAlign.Start else alignment
     )
 }
 
