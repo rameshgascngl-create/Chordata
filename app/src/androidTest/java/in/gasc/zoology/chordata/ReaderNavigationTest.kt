@@ -32,7 +32,7 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
-    @Test fun sixRejectedSymbolicPlatesAreNotSelectableInEitherLanguage() {
+    @Test fun threeSymbolicPlatesRemainWithheldAndThreeSourcedPlatesAreAvailable() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val raw = context.assets.open("pencil_plates/manifest.json")
             .bufferedReader(Charsets.UTF_8).use { it.readText() }
@@ -40,19 +40,28 @@ class ReaderNavigationTest {
         val entries = (0 until variants.length())
             .map { variants.getJSONObject(it) }
             .associateBy { it.getString("diagramId") to it.getString("lang") }
-        val ids = listOf(
-            "u4-snakes-india-big-four-identification",
-            "u5-flight-adaptations-flight-muscles",
+        val withheld = listOf(
             "u5-rabbit-sense-organs",
             "u5-egg-laying-mammals-monotreme-reproduction",
-            "u5-marsupials-marsupial-life-history",
             "u5-aquatic-mammals-aquatic-mammal-groups"
         )
-        for (id in ids) {
-            org.junit.Assert.assertTrue("EN must withhold $id",
-                selectedPlateNeedsReplacement(entries, id, ReadingLanguage.EN))
-            org.junit.Assert.assertTrue("TA must withhold $id",
-                selectedPlateNeedsReplacement(entries, id, ReadingLanguage.TA))
+        for (id in withheld) for (lang in ReadingLanguage.entries) {
+            org.junit.Assert.assertTrue("Unusable figure must be suppressed: $id $lang",
+                selectedPlateNeedsReplacement(entries, id, lang))
+        }
+        val sourced = listOf(
+            "u4-snakes-india-big-four-identification",
+            "u5-flight-adaptations-flight-muscles",
+            "u5-marsupials-marsupial-life-history"
+        )
+        for (id in sourced) for (lang in ReadingLanguage.entries) {
+            org.junit.Assert.assertFalse("New source plate should be selectable: $id $lang",
+                selectedPlateNeedsReplacement(entries, id, lang))
+            val entry = requireNotNull(selectProvisionalPlate(entries, id, lang))
+            org.junit.Assert.assertEquals("SOURCED_TEACHING_FIGURE_QA_PROVISIONAL",
+                entry.getString("visualReview"))
+            org.junit.Assert.assertTrue(entry.getString("sourceUrl")
+                .startsWith("https://commons.wikimedia.org/wiki/File:"))
         }
     }
 

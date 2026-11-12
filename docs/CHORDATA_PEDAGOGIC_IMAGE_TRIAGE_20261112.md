@@ -88,3 +88,24 @@ PNG is intact. This is NOT a claim that 6/64 figures have been replaced.
 - A new candidate requires exact figure ID, matching lesson objective,
   actual asset, checksum, source/rights, readable labels, and a visual QA
   screenshot before enabling it in the reader.
+
+## Implemented source-based replacements — provisional QA
+
+On 12 November 2026, three original low-utility images were replaced at
+their **same registered lesson IDs** using genuinely photographed or
+published anatomical source material. The assets are fully attributed in
+`docs/CHORDATA_LICENSED_SOURCE_PROVENANCE_20261112.json`. The retired
+original PNGs have been retained under `docs/retired_noninstructional_png/`
+with the corresponding editable SVGs unchanged.
+
+- India's Big Four snakes: four real Commons photographs, individual source
+  pages, explicit warning against using photographs for live snake identification.
+- Flight muscles: L. Shyamal's original coloured avian flight-muscle anatomy,
+  cleanly rasterised, not redrawn from symbolic curves.
+- Marsupial reproduction: authentic kangaroo with joey in pouch, with a caveat
+  that pouch structure varies across marsupials.
+
+**Still withheld:** generic rabbit sense organs; monotreme reproduction and
+milk feeding; aquatic mammal group icons. No new abstract diagrams are substituted.
+
+These are quality-improved *QA teaching figures*, not scientific release approval.

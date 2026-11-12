@@ -2,8 +2,12 @@ name: Chordata licensed replacement image intake
 on:
   push:
     branches: ["qa/chordata-licensed-source-intake-20261112"]
+    paths:
+      - "scripts/prepare_commons_figure_candidates.py"
+      - "scripts/integrate_reviewed_commons_candidates.py"
+      - ".github/workflows/licensed-sources-qa.yml"
 permissions:
-  contents: read
+  contents: write
 jobs:
   generate-candidates:
     runs-on: ubuntu-latest
@@ -24,3 +28,20 @@ jobs:
           path: build/commons-figure-candidates/
           if-no-files-found: error
           retention-days: 7
+      - name: Integrate three visually inspected source-based teaching PNGs as provisional QA
+        run: python3 scripts/integrate_reviewed_commons_candidates.py
+      - name: Commit image bytes, original artwork archive and exact attribution
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/pencil_plates/manifest.json
+          git add app/src/main/assets/pencil_plates/india_big_four_snakes_en.png
+          git add app/src/main/assets/pencil_plates/avian_flight_muscles_en.png
+          git add app/src/main/assets/pencil_plates/marsupial_life_cycle_en.png
+          git add docs/retired_noninstructional_png/ docs/CHORDATA_LICENSED_SOURCE_PROVENANCE_20261112.json
+          git add docs/FIGURE_REVIEW_REGISTER_64.csv
+          git diff --cached --quiet && { echo "No sourced replacement changes"; exit 1; }
+          git commit -m "feat(figures): use licensed biological reference PNGs for three lessons"
+          git push origin HEAD:qa/chordata-licensed-source-intake-20261112
