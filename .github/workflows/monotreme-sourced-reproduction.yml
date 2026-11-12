@@ -4,6 +4,7 @@ on:
     branches: ["qa/chordata-monotreme-reproduction-sourced-20261112"]
     paths:
       - "scripts/install_monotreme_sourced_reproduction.py"
+      - "scripts/audit_figure_placement.py"
       - ".github/workflows/monotreme-sourced-reproduction.yml"
 permissions:
   contents: write
