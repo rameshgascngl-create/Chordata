@@ -5,6 +5,7 @@ on:
       - qa/chordata-pedagogical-figure-replacements-20261112
     paths:
       - scripts/stage_three_classroom_figures_20261112.py
+      - scripts/audit_figure_placement.py
       - .github/workflows/stage-three-classroom-figures.yml
   workflow_dispatch:
 permissions:
