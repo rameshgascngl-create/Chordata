@@ -54,7 +54,11 @@ for term in ("privacy policy", "chordata atlas", "offline", "quiz scores",
     else:
         assert term in policy, f"Missing policy disclosure: {term}"
 assert 'privacy-policy-page' in inapp
-assert 'fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float)' in inapp
+assert 'fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float,' in inapp
+assert 'privacy-erase-entry' in inapp and 'privacy-erase-confirm' in inapp
+assert 'privacy-erase-cancel' in inapp and 'privacy-erase-dialog' in inapp
+assert 'fun eraseAllLearningData(): Boolean = prefs.edit().clear().commit()' in store
+assert 'erase all learning data' in policy
 assert 'fontSize = (16f * scale).sp' in inapp, "Privacy text does not respect 200% scale"
 assert 'The app does not request Internet access.' in inapp
 
