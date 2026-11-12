@@ -336,7 +336,8 @@ private data class Plate(
     val sourceUrl: String, val licenceUrl: String, val modifications: String,
     val assetDirectory: String = "figures",
     val referenceOnly: Boolean = false,
-    val secondarySourceUrl: String = ""
+    val secondarySourceUrl: String = "",
+    val additionalSourceUrls: List<String> = emptyList()
 )
 
 /**
@@ -466,7 +467,12 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             modifications = entry.optString("modifications", ""),
             assetDirectory = assetDirectory,
             referenceOnly = entry.optString("sourceUrl", "").isBlank(),
-            secondarySourceUrl = entry.optJSONArray("sourceUrls")?.optString(1) ?: ""
+            secondarySourceUrl = entry.optJSONArray("sourceUrls")?.optString(1) ?: "",
+            additionalSourceUrls = entry.optJSONArray("sourceUrls")?.let { urls ->
+                (2 until urls.length()).mapNotNull { index ->
+                    urls.optString(index).takeIf { it.startsWith("https://") }
+                }
+            } ?: emptyList()
         )
     }
     val replacedIds = pencilBySlot.mapNotNull { it.first.provisionalFigureId }.toSet()
@@ -827,6 +833,17 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                     Text(if (lang == ReadingLanguage.TA)
                                         "இரண்டாவது பட மூலமும் உரிமையாளரும்"
                                     else "Second original image and creator")
+                                }
+                            }
+                            plate.additionalSourceUrls.forEachIndexed { index, url ->
+                                TextButton(
+                                    onClick = { uriHandler.openUri(url) },
+                                    modifier = Modifier.testTag(
+                                        "figure-extra-source-" + plate.id + "-" + (index + 3))
+                                ) {
+                                    Text(if (lang == ReadingLanguage.TA)
+                                        "பட மூலம் " + (index + 3)
+                                    else "Original source photograph " + (index + 3))
                                 }
                             }
                             if (!plate.referenceOnly && plate.licenceUrl.isNotEmpty()) {
