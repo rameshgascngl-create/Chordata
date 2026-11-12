@@ -476,8 +476,8 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
         if (userRejectedSlots.isNotEmpty()) {
             Text(
                 if (lang == ReadingLanguage.TA)
-                    "இந்தப் பாடத்திற்கான உடற்கூறியல் விளக்கப்படம் தற்போது கிடைக்கவில்லை."
-                else "The anatomical illustration for this section is currently unavailable.",
+                    "இந்தப் பாடப்பகுதிக்கு நம்பகமான உயிரியல் விளக்கப்படம் தற்போது இல்லை."
+                else "A reliable biological illustration is not currently available for this section.",
                 modifier = Modifier.testTag("figure-rejected-quality"),
                 color = MaterialTheme.colorScheme.error
             )
@@ -887,32 +887,43 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                         Text(if (lang == ReadingLanguage.TA) "மூடுக" else "Close")
                                     }
                                 }
-                                Box(Modifier.weight(1f).fillMaxWidth().transformable(transforms),
-                                    contentAlignment = Alignment.Center) {
+                                // A wide plate must begin below the Close control;
+                                // vertical centring previously left half a phone
+                                // screen blank above and below a short image.
+                                BoxWithConstraints(Modifier.weight(1f).fillMaxWidth()
+                                    .transformable(transforms),
+                                    contentAlignment = Alignment.TopCenter) {
                                     if (fullImage == null) {
                                         Text(if (lang == ReadingLanguage.TA)
                                             "முழு அளவிலான படத்தைத் திறக்க இயலவில்லை."
                                         else "Full-resolution image could not be opened.",
                                             color = MaterialTheme.colorScheme.error)
                                     } else {
-                                        Image(fullImage,
-                                            contentDescription = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn,
-                                            contentScale = ContentScale.Fit,
-                                            modifier = Modifier.fillMaxSize().graphicsLayer {
-                                                scaleX = scale; scaleY = scale
-                                                translationX = offset.x; translationY = offset.y
-                                            })
+                                        val boundedHeight = (maxHeight - 66.dp).coerceAtLeast(80.dp)
+                                        val aspectHeight = maxWidth *
+                                            (fullImage.height.toFloat() / fullImage.width.toFloat())
+                                        val imageHeight = minOf(boundedHeight, aspectHeight)
+                                        Column(Modifier.fillMaxWidth(),
+                                            verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                            Image(fullImage,
+                                                contentDescription = if (lang == ReadingLanguage.TA)
+                                                    plate.captionTa else plate.captionEn,
+                                                contentScale = ContentScale.Fit,
+                                                modifier = Modifier.fillMaxWidth().height(imageHeight)
+                                                    .graphicsLayer {
+                                                        scaleX = scale; scaleY = scale
+                                                        translationX = offset.x
+                                                        translationY = offset.y
+                                                    })
+                                            Text(
+                                                (if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
+                                                    .substringBefore('\n'),
+                                                maxLines = 2,
+                                                modifier = Modifier.testTag("figure-zoom-caption-" + plate.id)
+                                            )
+                                        }
                                     }
                                 }
-                                // The full image key remains in the lesson card.
-                                // Showing it again here previously compressed a tall
-                                // engraving into a tiny area on 320 px Android screens.
-                                Text(
-                                    (if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn)
-                                        .substringBefore('\n'),
-                                    maxLines = 2,
-                                    modifier = Modifier.testTag("figure-zoom-caption-" + plate.id)
-                                )
                             }
                         }
                     }
