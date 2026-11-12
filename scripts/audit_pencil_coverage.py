@@ -49,6 +49,7 @@ assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=
 # rejected shapes remain in source control for provenance but cannot be used
 # as anatomy/species teaching images in either language.
 remaining_noninstructional_ids = {
+    'u4-calotes-arterial-system',
     'u5-rabbit-sense-organs',
     'u5-egg-laying-mammals-monotreme-reproduction',
     'u5-aquatic-mammals-aquatic-mammal-groups',
@@ -61,8 +62,8 @@ verified_source_replacement_ids = {
 rejected = [x for x in fs if x.get('pedagogicStatus') ==
             'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
 assert {x['diagramId'] for x in rejected} == remaining_noninstructional_ids, (
-    'Three uncorrected user-rejected figures must remain suppressed')
-assert len(rejected) == 3
+    'Four uncorrected user-rejected figures must remain suppressed')
+assert len(rejected) == 4
 assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
            and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
            for x in rejected), 'Uncorrected symbolic diagrams must remain withheld'
@@ -81,7 +82,17 @@ for x in replacements:
 snake = next(x for x in replacements if x['diagramId'] == 'u4-snakes-india-big-four-identification')
 assert len(snake['sourceUrls']) == 4 and len(snake['sourceSha256']) == 4
 assert all('creativecommons.org/licenses/by-sa/4.0' in x for x in snake['originalLicences'])
-print('PASS: three low-value figures withheld and three genuinely sourced replacements staged for independent review')
+# The newly installed Calotes photographic specimen is not an arterial plate.
+calotes = next(v for v in fs if v['diagramId'] == 'u4-calotes-external')
+assert calotes['lang'] == 'en'
+assert calotes.get('visualReview') == 'SOURCED_REAL_SPECIMEN_PHOTO_QA_PROVISIONAL'
+assert calotes.get('sourceUrl') == 'https://commons.wikimedia.org/wiki/File:Oriental_Lizard.jpg'
+assert calotes.get('licenseUrl') == 'https://creativecommons.org/licenses/by-sa/4.0/'
+old = calotes['retiredHistoricalPlate']
+retired = ROOT / old['path']
+assert retired.is_file() and hashlib.sha256(retired.read_bytes()).hexdigest() == old['sha256']
+assert old['sha256'] == '5fcd2cc2ae68d0adda0b406934a9c07aa857bd53dbda19d99abdb5ef0cc14a2f'
+print('PASS: four user-rejected symbolic plates withheld, three earlier source replacements and one genuine Calotes specimen photograph')
 
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
