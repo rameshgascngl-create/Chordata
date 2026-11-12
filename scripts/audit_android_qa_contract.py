@@ -147,8 +147,8 @@ assert 'Image source and credits' in gallery_ui
 assert 'figure-pending-page' not in gallery_ui, 'Redundant internal QA panel returned to lesson pages'
 assert 'figure-overview-status' not in gallery_ui, 'Non-subject figure status returned to chapter outline'
 # Six original screenshots exposed a pedagogic problem, not a PNG-file
-# problem. The three source-based replacements must remain active while
-# only the inaccurate Calotes heart remains withheld; four authentic mammal photos now active.
+# problem. The three source-based replacements and the owner-selected
+# provisional Calotes heart must remain active; four authentic mammal photos remain active.
 sourced_ids = {
     'u4-snakes-india-big-four-identification',
     'u5-flight-adaptations-flight-muscles',
@@ -169,8 +169,12 @@ calotes_photo = next(x for x in entries if x['diagramId'] == 'u4-calotes-externa
 assert calotes_photo.get('visualReview') == 'SOURCED_REAL_SPECIMEN_PHOTO_QA_PROVISIONAL'
 assert calotes_photo.get('sourceUrl') == 'https://commons.wikimedia.org/wiki/File:Oriental_Lizard.jpg'
 heart = next(x for x in entries if x['diagramId'] == 'u4-calotes-arterial-system')
-assert heart.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
-assert heart.get('pedagogicStatus', '').startswith('WITHHELD_')
+assert heart.get('visualReview') == 'AI_RECONSTRUCTION_QA_PROVISIONAL_ACCEPT_MINOR_COSMETIC_ERRORS'
+assert heart.get('pedagogicStatus') == 'REPLACED_WITH_AI_ASSISTED_ANATOMICAL_SCHEMATIC_QA_PENDING_2026-11-12'
+assert heart.get('reviewStatus', '').startswith('PROVISIONAL_')
+assert heart.get('sha256') == '2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3'
+assert heart.get('retiredSchematicPng') and heart.get('retiredSchematicSvg')
+assert 'RIGHT atrium' in heart.get('editorialCaution', '')
 rabbit = next(x for x in entries if x['diagramId'] == 'u5-rabbit-sense-organs')
 assert rabbit.get('visualReview') == 'SOURCED_REAL_RABBIT_SENSORY_PHOTO_QA_PROVISIONAL'
 assert rabbit.get('sourceUrl', '').endswith('File:Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_(DSCF0830).jpg')
@@ -185,7 +189,7 @@ assert aquatic['visualReview'] == 'SOURCED_FOUR_AQUATIC_MAMMAL_PHOTOGRAPHS_QA_PR
 assert len(aquatic.get('sourceUrls', [])) == 4
 assert aquatic.get('retiredSchematicPng') and aquatic.get('retiredSchematicSvg')
 assert 'additionalSourceUrls' in gallery_ui and 'figure-extra-source-' in gallery_ui
-assert 'oneSymbolicPlateRemainsWithheldAndSixSourcedPlatesAreAvailable()' in test_text
+assert 'ownerApprovedProvisionalHeartAndSourcedPlatesAreAvailable()' in test_text
 assert 'figure-image-' in gallery_ui and 'figure-credits-toggle-' in gallery_ui
 assert 'figure-rejected-quality' in gallery_ui and 'figure-error-' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
