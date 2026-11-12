@@ -1,0 +1,24 @@
+{
+  "diagramId": "u5-rabbit-sense-organs",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_(DSCF0830).jpg",
+  "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_%28DSCF0830%29.jpg",
+  "sourceAuthor": "Trougnouf (Benoit Brummer)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "originalJpegSha256": "b8b5c743bd113e5d5e9b5dfd0f7beafe96487076a2e5d2af3b9d7b3ffafe505e",
+  "originalJpegBytes": 3245654,
+  "displayPngPath": "pencil_plates/rabbit_senses_en.png",
+  "displayPngSha256": "868ca1fa8803f902e8cbea393de70141365d7ed932d0136749651114bb95ced9",
+  "displayPngBytes": 2612402,
+  "outputResolution": [
+    2860,
+    1710
+  ],
+  "retiredPng": "docs/retired_noninstructional_png/rabbit_senses_en.png",
+  "retiredPngSha256": "6f4a798edd974efc549163e09bb37727b49b26f77d507e50f9b6a4b628e2788f",
+  "retiredSvg": "docs/original_plate_svg/rabbit_senses_en.svg",
+  "retiredSvgSha256": "9c7fd8e4e175ee392669249efb879987b52fd6ca749f1ffa89f1bb53a6f4ff07",
+  "modifications": "Proportional resizing of the complete unmodified photograph with numbered anatomical callouts and explanatory text on a new original canvas; no organ structures redrawn.",
+  "independentScientificAcceptance": "PENDING",
+  "independentTamilAcceptance": "PENDING"
+}
