@@ -82,9 +82,9 @@ class ReaderNavigationTest {
             ear.recycle()
         }
         org.junit.Assert.assertNull(decodeTeachingPanel(context, directory, plate, 2))
-        val raw = context.assets.open("$"+"{directory}/$"+"{plate}").use { it.readBytes() }
+        val raw = context.assets.open(directory + "/" + plate).use { it.readBytes() }
         val opts = android.graphics.BitmapFactory.Options().apply { inJustDecodeBounds = true }
-        context.assets.open("$"+"{directory}/$"+"{plate}").use {
+        context.assets.open(directory + "/" + plate).use {
             android.graphics.BitmapFactory.decodeStream(it, null, opts)
         }
         org.junit.Assert.assertEquals(1600, opts.outWidth)
