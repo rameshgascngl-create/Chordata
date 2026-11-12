@@ -14,6 +14,22 @@ val persistentQaSigning = listOf(
     qaStorePath, qaStorePassword, qaKeyAlias, qaKeyPassword
 ).all { !it.isNullOrBlank() }
 
+// Production metadata may be provided only as a paired explicit override.
+// Normal QA runs retain the original version and remain debug-signed.
+val releaseVersionCodeEnv = System.getenv("CHORDATA_RELEASE_VERSION_CODE")
+val releaseVersionNameEnv = System.getenv("CHORDATA_RELEASE_VERSION_NAME")
+require((releaseVersionCodeEnv == null) == (releaseVersionNameEnv == null)) {
+    "Release version code and name must be provided together"
+}
+if (releaseVersionCodeEnv != null) {
+    require(releaseVersionCodeEnv.toIntOrNull()?.let { it in 1..2100000000 } == true) {
+        "Release version code must be a positive Android-compatible integer"
+    }
+    require(Regex("""[0-9]+\.[0-9]+\.[0-9]+""").matches(requireNotNull(releaseVersionNameEnv))) {
+        "Release version name must be numeric major.minor.patch without a QA suffix"
+    }
+}
+
 android {
     namespace = "in.gasc.zoology.chordata"
     compileSdk = 37
@@ -22,8 +38,8 @@ android {
         applicationId = "in.gasc.zoology.chordata"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0-qa"
+        versionCode = releaseVersionCodeEnv?.toInt() ?: 1
+        versionName = releaseVersionNameEnv ?: "0.1.0-qa"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

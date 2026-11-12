@@ -1,0 +1,156 @@
+name: CHORDATA gated Play upload candidate
+on:
+  workflow_dispatch:
+    inputs:
+      version_code:
+        description: "New monotonically increasing Android versionCode"
+        required: true
+        type: number
+      version_name:
+        description: "Version name, e.g. 1.0.0 (no QA suffix)"
+        required: true
+        type: string
+      privacy_policy_url:
+        description: "Live public HTTPS privacy-policy webpage (not raw GitHub/PDF)"
+        required: true
+        type: string
+      publisher_contact_confirmed:
+        description: "Publisher confirms a public privacy enquiry contact and correct Play Data safety declaration"
+        required: true
+        type: boolean
+        default: false
+
+# No automatic release and no Play Console upload.
+# Requires an environment 'play-upload-review' with configured reviewers/secrets.
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: chordata-play-candidate-${ github.ref }
+  cancel-in-progress: false
+
+jobs:
+  create-upload-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment: play-upload-review
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm reviewed QA branch and release metadata
+        shell: bash
+        env:
+          RELEASE_CODE: ${ inputs.version_code }
+          RELEASE_NAME: ${ inputs.version_name }
+          CONTACT_CONFIRMED: ${ inputs.publisher_contact_confirmed }
+        run: |
+          set -euo pipefail
+          [[ "$GITHUB_REF_NAME" == qa/* ]] || { echo '::error::Only a reviewed QA branch may produce a release candidate.'; exit 1; }
+          [[ "$CONTACT_CONFIRMED" == true ]] || { echo '::error::Privacy contact and Play declarations must be confirmed.'; exit 1; }
+          [[ "$RELEASE_CODE" =~ ^[0-9]+$ ]] && (( RELEASE_CODE > 0 )) || { echo '::error::Invalid versionCode.'; exit 1; }
+          [[ "$RELEASE_NAME" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo '::error::Use a numeric semver release, not a QA version.'; exit 1; }
+
+      - name: Confirm matching successful QA workflow
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.actions.listWorkflowRunsForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              head_sha: context.sha, per_page: 100
+            });
+            const passing = data.workflow_runs.some(run =>
+              run.name === 'Chordata Native QA Debug APK' &&
+              run.head_sha === context.sha &&
+              run.conclusion === 'success');
+            if (!passing) core.setFailed('No successful native Android QA + emulator workflow for this exact commit.');
+
+      - name: Gate scientific and Tamil image signoffs
+        run: |
+          set -euo pipefail
+          python3 scripts/audit_content.py
+          python3 scripts/audit_android_qa_contract.py
+          python3 scripts/audit_store_preflight.py
+          python3 scripts/audit_figure_placement.py
+          python3 scripts/audit_coverage_report.py
+          python3 scripts/check_textbook_plates.py
+          python3 scripts/write_figure_review_register.py --check
+          python3 scripts/write_figure_review_register.py --release-check
+
+      - name: Verify public privacy webpage
+        shell: bash
+        env:
+          POLICY_URL: ${ inputs.privacy_policy_url }
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, urllib.parse, urllib.request
+          url = os.environ['POLICY_URL']
+          p = urllib.parse.urlparse(url)
+          assert p.scheme == 'https' and p.netloc and not p.username and not p.password, 'Use public HTTPS URL'
+          with urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent':'ChordataReleaseGate/1.0'}), timeout=20) as response:
+              final_url = response.geturl()
+              assert final_url.startswith('https://'), 'Non-HTTPS redirect'
+              assert 'text/html' in response.headers.get('Content-Type','').lower(), 'Privacy policy must be a rendered HTML webpage'
+              body = response.read(250_000).decode('utf-8', 'ignore').lower()
+          assert 'privacy policy' in body and 'chordata atlas' in body, 'Privacy page is wrong or inaccessible'
+          assert '<html' in body, 'Privacy policy is not a standard webpage'
+          print('PASS: publicly fetchable HTML privacy policy, with app identity')
+          PY
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
+      - name: Install Android SDK
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDKMANAGER="$(command -v sdkmanager || true)"
+          if [ -z "$SDKMANAGER" ]; then SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | head -n 1)"; fi
+          test -x "$SDKMANAGER"
+          printf 'y\n' | "$SDKMANAGER" --licenses >/dev/null || true
+          "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
+          bash scripts/verify_sdk37_platform.sh
+
+      - name: Build and lint unsigned release bundle
+        env:
+          CHORDATA_RELEASE_VERSION_CODE: ${ inputs.version_code }
+          CHORDATA_RELEASE_VERSION_NAME: ${ inputs.version_name }
+        run: |
+          set -euo pipefail
+          gradle --no-daemon :app:bundleRelease :app:lintRelease
+          test -s app/build/outputs/bundle/release/app-release.aab
+          unzip -t app/build/outputs/bundle/release/app-release.aab | tail -n 1
+
+      - name: Sign AAB with upload-key secret, verify and record SHA256
+        shell: bash
+        env:
+          PLAY_KEYSTORE_B64: ${ secrets.CHORDATA_PLAY_UPLOAD_KEYSTORE_B64 }
+          PLAY_STORE_PASSWORD: ${ secrets.CHORDATA_PLAY_UPLOAD_STORE_PASSWORD }
+          PLAY_KEY_ALIAS: ${ secrets.CHORDATA_PLAY_UPLOAD_KEY_ALIAS }
+          PLAY_KEY_PASSWORD: ${ secrets.CHORDATA_PLAY_UPLOAD_KEY_PASSWORD }
+        run: |
+          set -euo pipefail
+          for name in PLAY_KEYSTORE_B64 PLAY_STORE_PASSWORD PLAY_KEY_ALIAS PLAY_KEY_PASSWORD; do
+            [[ -n "${!name}" ]] || { echo "::error::Missing $name upload-signing secret"; exit 1; }
+          done
+          umask 077
+          key="$RUNNER_TEMP/chordata-play-upload.jks"
+          trap 'rm -f "$key"' EXIT
+          printf '%s' "$PLAY_KEYSTORE_B64" | base64 --decode > "$key"
+          unsigned=app/build/outputs/bundle/release/app-release.aab
+          signed=app/build/outputs/bundle/release/chordata-play-upload-candidate.aab
+          jarsigner -keystore "$key" -storepass:env PLAY_STORE_PASSWORD -keypass:env PLAY_KEY_PASSWORD -signedjar "$signed" "$unsigned" "$PLAY_KEY_ALIAS"
+          jarsigner -verify "$signed"
+          test -s "$signed"
+          sha256sum "$signed" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish manually reviewed upload-candidate AAB (not Play upload)
+        uses: actions/upload-artifact@v4
+        with:
+          name: CHORDATA_Manual_Signed_Play_Upload_Candidate
+          path: app/build/outputs/bundle/release/chordata-play-upload-candidate.aab
+          if-no-files-found: error
+          retention-days: 7

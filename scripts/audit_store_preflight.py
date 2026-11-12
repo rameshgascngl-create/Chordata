@@ -28,7 +28,10 @@ gradle = (ROOT / "app/build.gradle.kts").read_text(encoding="utf-8")
 target = re.search(r"\btargetSdk\s*=\s*(\d+)", gradle)
 assert target and int(target.group(1)) >= 36, "Target SDK must satisfy the 2026 Play policy"
 assert 'isMinifyEnabled = true' in gradle and 'isShrinkResources = true' in gradle, "Release shrinking is disabled"
-assert re.search(r'versionName\s*=\s*"[^"]+-qa"', gradle), "QA source unexpectedly labelled as production"
+assert 'versionName = releaseVersionNameEnv ?: "0.1.0-qa"' in gradle, "Default QA identity changed"
+assert 'versionCode = releaseVersionCodeEnv?.toInt() ?: 1' in gradle, "Default QA version changed"
+assert 'CHORDATA_RELEASE_VERSION_CODE' in gradle and 'CHORDATA_RELEASE_VERSION_NAME' in gradle
+assert 'Release version code and name must be provided together' in gradle
 # Persistent signing applies ONLY to debug builds, using secure environment
 # secrets. Release bundles remain unsigned for preflight; no keystore in git.
 assert 'create("persistentQa")' in gradle
@@ -62,6 +65,13 @@ assert 'erase all learning data' in policy
 assert 'fontSize = (16f * scale).sp' in inapp, "Privacy text does not respect 200% scale"
 assert 'The app does not request Internet access.' in inapp
 
+release_workflow = (ROOT / ".github/workflows/play-upload-candidate.yml").read_text(encoding="utf-8")
+for token in ("workflow_dispatch:", "play-upload-review", "scripts/write_figure_review_register.py --release-check",
+              "Verify public privacy webpage", "Confirm matching successful QA workflow",
+              "jarsigner", "CHORDATA_PLAY_UPLOAD_KEYSTORE_B64", "upload-artifact@v4"):
+    assert token in release_workflow, f"Unsafe or incomplete manual release gate: {token}"
+assert "push:" not in release_workflow and "pull_request:" not in release_workflow, "Release workflow must be manual only"
+print("PASS: manual Play AAB workflow is gated by academic, privacy, tested SHA and secure signing checks")
 print("PASS: no app-declared permissions, network/backup disabled, private offline progress")
 print("PASS: API 36+ target, release shrinker enabled, QA version, no release-signing keys")
 print("PASS: policy and in-app offline data disclosure anchored to current source")
