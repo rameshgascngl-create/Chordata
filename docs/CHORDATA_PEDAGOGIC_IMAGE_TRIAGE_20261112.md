@@ -105,8 +105,7 @@ with the corresponding editable SVGs unchanged.
 - Marsupial reproduction: authentic kangaroo with joey in pouch, with a caveat
   that pouch structure varies across marsupials.
 
-**Still withheld:** generic aquatic mammal group icons and the inadequate
-Calotes heart-flow sketch. No new abstract diagrams are substituted.
+**Still withheld:** only the inadequate Calotes heart-flow schematic. No new abstract diagrams are substituted.
 
 These are quality-improved *QA teaching figures*, not scientific release approval.
 
@@ -172,3 +171,24 @@ Calotes heart replacement still absent; no release sign-off asserted.
 - This is **not** direct photographic evidence of egg laying or a continuous
   life cycle. Academic, Tamil editorial, device and release approvals remain
   pending.
+
+## Aquatic mammal groups: independent, source-licensed photographic comparison
+
+- Unit V `u5-aquatic-mammals-aquatic-mammal-groups`, page 1, exact original
+  registered figure ID. Four authentic photographic sources replace symbolic
+  ovals: bottlenose dolphin (Caroline Legg, CC BY 2.0); dugong (Jerome Paillet,
+  IFREMER, CC BY 4.0); harbour seal (Arnstein Rønning, CC BY-SA 4.0); and
+  sea otter (U.S. Fish and Wildlife Service, public domain). All four creator
+  records and full source SHA-256 digests are retained in
+  `docs/qa-image-review/AQUATIC_MAMMAL_FOUR_PHOTOGRAPHS_20261112.json`.
+- Whole original photograph frames are proportionally fitted, not stretched,
+  distorted, upscaled, traced, or redrawn into symbols.  The new plate
+  compares Cetacea, Sirenia, Pinnipedia and sea otters (Mustelidae).
+  Dolphin and dugong are obligately aquatic; seals can haul out, and sea
+  otters belong to Carnivora but **not** Pinnipedia. Sirenians belong to
+  Afrotheria; cetaceans are nested within Artiodactyla. Convergent aquatic
+  adaptation is not evidence of one taxonomic order.
+- The exact old symbolic PNG and its original SVG remain archived with
+  historic SHA-256. Independent zoological/Tamil review and phone UI
+  screenshots are still needed; source presence does not imply app-store
+  readiness or academic certification.
