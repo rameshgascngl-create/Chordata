@@ -32,7 +32,7 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
-    @Test fun threeSymbolicPlatesRemainWithheldAndFourSourcedPlatesAreAvailable() {
+    @Test fun twoSymbolicPlatesRemainWithheldAndFiveSourcedPlatesAreAvailable() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val raw = context.assets.open("pencil_plates/manifest.json")
             .bufferedReader(Charsets.UTF_8).use { it.readText() }
@@ -42,7 +42,6 @@ class ReaderNavigationTest {
             .associateBy { it.getString("diagramId") to it.getString("lang") }
         val withheld = listOf(
             "u4-calotes-arterial-system",
-            "u5-egg-laying-mammals-monotreme-reproduction",
             "u5-aquatic-mammals-aquatic-mammal-groups"
         )
         for (id in withheld) for (lang in ReadingLanguage.entries) {
@@ -62,6 +61,18 @@ class ReaderNavigationTest {
                 entry.getString("visualReview"))
             org.junit.Assert.assertTrue(entry.getString("sourceUrl")
                 .startsWith("https://commons.wikimedia.org/wiki/File:"))
+        }
+        for (lang in ReadingLanguage.entries) {
+            val monotreme = requireNotNull(selectProvisionalPlate(entries,
+                "u5-egg-laying-mammals-monotreme-reproduction", lang))
+            org.junit.Assert.assertEquals(
+                "SOURCED_REAL_MONOTREME_SPECIMENS_AND_ANATOMY_QA_PROVISIONAL",
+                monotreme.getString("visualReview"))
+            org.junit.Assert.assertFalse(selectedPlateNeedsReplacement(entries,
+                "u5-egg-laying-mammals-monotreme-reproduction", lang))
+            org.junit.Assert.assertEquals(3, monotreme.getJSONArray("sourceUrls").length())
+            org.junit.Assert.assertTrue(monotreme.getString("keyEn").contains("separate taxa")
+                || monotreme.getString("keyEn").contains("separate species"))
         }
         for (lang in ReadingLanguage.entries) {
             val rabbit = requireNotNull(selectProvisionalPlate(entries, "u5-rabbit-sense-organs", lang))
