@@ -32,7 +32,7 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
-    @Test fun fourSymbolicPlatesRemainWithheldAndThreeSourcedPlatesAreAvailable() {
+    @Test fun threeSymbolicPlatesRemainWithheldAndFourSourcedPlatesAreAvailable() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val raw = context.assets.open("pencil_plates/manifest.json")
             .bufferedReader(Charsets.UTF_8).use { it.readText() }
@@ -42,7 +42,6 @@ class ReaderNavigationTest {
             .associateBy { it.getString("diagramId") to it.getString("lang") }
         val withheld = listOf(
             "u4-calotes-arterial-system",
-            "u5-rabbit-sense-organs",
             "u5-egg-laying-mammals-monotreme-reproduction",
             "u5-aquatic-mammals-aquatic-mammal-groups"
         )
@@ -63,6 +62,16 @@ class ReaderNavigationTest {
                 entry.getString("visualReview"))
             org.junit.Assert.assertTrue(entry.getString("sourceUrl")
                 .startsWith("https://commons.wikimedia.org/wiki/File:"))
+        }
+        for (lang in ReadingLanguage.entries) {
+            val rabbit = requireNotNull(selectProvisionalPlate(entries, "u5-rabbit-sense-organs", lang))
+            org.junit.Assert.assertEquals("SOURCED_REAL_RABBIT_SENSORY_PHOTO_QA_PROVISIONAL",
+                rabbit.getString("visualReview"))
+            org.junit.Assert.assertFalse(
+                selectedPlateNeedsReplacement(entries, "u5-rabbit-sense-organs", lang))
+            org.junit.Assert.assertEquals(
+                "https://commons.wikimedia.org/wiki/File:Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_(DSCF0830).jpg",
+                rabbit.getString("sourceUrl"))
         }
         for (lang in ReadingLanguage.entries) {
             val photo = requireNotNull(selectProvisionalPlate(entries, "u4-calotes-external", lang))
