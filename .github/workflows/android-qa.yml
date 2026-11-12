@@ -22,6 +22,7 @@ jobs:
           python3 scripts/audit_pencil_coverage.py
           python3 scripts/audit_coverage_report.py
           python3 scripts/audit_android_qa_contract.py
+          python3 scripts/audit_store_preflight.py
           python3 scripts/audit_preview_bitmap_budget.py
           python3 scripts/audit_built_apk_assets.py --self-test
           python3 scripts/test_apk_source_fixture.py
@@ -85,6 +86,13 @@ jobs:
         run: gradle --no-daemon :app:compileDebugKotlin
       - name: Validate immutable content
         run: python3 scripts/audit_content.py
+      - name: Validate production variant without creating a distributable release
+        run: |
+          # R8 and release resources often fail despite a green debug build.
+          # This creates only an UNSIGNED test bundle; nothing is uploaded.
+          gradle --no-daemon :app:bundleRelease :app:lintRelease
+          test -f app/build/outputs/bundle/release/app-release.aab
+          python3 scripts/audit_store_preflight.py
       # An installable APK is NOT published here. Instrumentation runs in a
       # separate required job; publication only occurs once both gates pass.
 

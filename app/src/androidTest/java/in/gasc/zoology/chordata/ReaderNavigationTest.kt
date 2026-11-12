@@ -30,6 +30,18 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
+    @Test fun privacyPolicyIsAccessibleInTamilAt200Percent() {
+        rule.onNodeWithText("தமிழ்").performClick()
+        rule.onNodeWithText("200%").performClick()
+        rule.onNodeWithTag("home-book-layout").performScrollToIndex(2)
+        rule.onNodeWithTag("privacy-policy-entry").performClick()
+        rule.onNodeWithTag("privacy-policy-page").assertExists()
+        rule.onAllNodesWithText("தனியுரிமைக் கொள்கை").onFirst().assertExists()
+        captureQaScreen("privacy-ta-200")
+        rule.onNodeWithTag("privacy-policy-back").performClick()
+        rule.onNodeWithTag("home-book-layout").assertExists()
+    }
+
     @Test fun privacyPolicyIsAvailableInEnglishWithoutNetwork() {
         selectEnglish()
         rule.onNodeWithTag("home-book-layout").performScrollToIndex(2)

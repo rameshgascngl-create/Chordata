@@ -119,6 +119,9 @@ assert 'privacy-policy-entry' in app_ui and 'privacy-policy-back' in app_ui
 assert 'tab == "privacy" -> PrivacyPolicyPage(lang)' in app_ui
 assert 'privacy-policy-page' in privacy_ui
 assert 'fun privacyPolicyIsAvailableInEnglishWithoutNetwork()' in test_text
+assert 'fun privacyPolicyIsAccessibleInTamilAt200Percent()' in test_text
+assert 'scripts/audit_store_preflight.py' in workflow
+assert ':app:bundleRelease :app:lintRelease' in workflow
 assert '<html lang="en">' in (ROOT / 'docs/privacy-policy.html').read_text(encoding='utf-8')
 # The owner requested a book-style reader: justify body paragraphs in both
 # paged and continuous modes; keep headings, keys and controls start-aligned.
