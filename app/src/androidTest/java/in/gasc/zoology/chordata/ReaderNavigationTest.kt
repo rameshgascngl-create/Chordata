@@ -32,6 +32,30 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
+    @Test fun sixRejectedSymbolicPlatesAreNotSelectableInEitherLanguage() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val raw = context.assets.open("pencil_plates/manifest.json")
+            .bufferedReader(Charsets.UTF_8).use { it.readText() }
+        val variants = JSONObject(raw).getJSONArray("figures")
+        val entries = (0 until variants.length())
+            .map { variants.getJSONObject(it) }
+            .associateBy { it.getString("diagramId") to it.getString("lang") }
+        val ids = listOf(
+            "u4-snakes-india-big-four-identification",
+            "u5-flight-adaptations-flight-muscles",
+            "u5-rabbit-sense-organs",
+            "u5-egg-laying-mammals-monotreme-reproduction",
+            "u5-marsupials-marsupial-life-history",
+            "u5-aquatic-mammals-aquatic-mammal-groups"
+        )
+        for (id in ids) {
+            org.junit.Assert.assertTrue("EN must withhold $id",
+                selectedPlateNeedsReplacement(entries, id, ReadingLanguage.EN))
+            org.junit.Assert.assertTrue("TA must withhold $id",
+                selectedPlateNeedsReplacement(entries, id, ReadingLanguage.TA))
+        }
+    }
+
     @Test fun portableLearningBackupRoundTripsAndRejectsInvalidImport() {
         val store = ProgressStore(InstrumentationRegistry.getInstrumentation().targetContext)
         val chapter = "u1-origin"
