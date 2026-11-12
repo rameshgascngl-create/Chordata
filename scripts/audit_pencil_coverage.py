@@ -50,7 +50,6 @@ assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=
 # as anatomy/species teaching images in either language.
 remaining_noninstructional_ids = {
     'u4-calotes-arterial-system',
-    'u5-rabbit-sense-organs',
     'u5-egg-laying-mammals-monotreme-reproduction',
     'u5-aquatic-mammals-aquatic-mammal-groups',
 }
@@ -62,8 +61,8 @@ verified_source_replacement_ids = {
 rejected = [x for x in fs if x.get('pedagogicStatus') ==
             'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
 assert {x['diagramId'] for x in rejected} == remaining_noninstructional_ids, (
-    'Four uncorrected user-rejected figures must remain suppressed')
-assert len(rejected) == 4
+    'Three remaining user-rejected diagrams must remain withheld')
+assert len(rejected) == 3
 assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
            and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
            for x in rejected), 'Uncorrected symbolic diagrams must remain withheld'
@@ -92,7 +91,21 @@ old = calotes['retiredHistoricalPlate']
 retired = ROOT / old['path']
 assert retired.is_file() and hashlib.sha256(retired.read_bytes()).hexdigest() == old['sha256']
 assert old['sha256'] == '5fcd2cc2ae68d0adda0b406934a9c07aa857bd53dbda19d99abdb5ef0cc14a2f'
-print('PASS: four user-rejected symbolic plates withheld, three earlier source replacements and one genuine Calotes specimen photograph')
+rabbit = next(v for v in fs if v['diagramId'] == 'u5-rabbit-sense-organs')
+assert rabbit['lang'] == 'en' and rabbit['path'] == 'pencil_plates/rabbit_senses_en.png'
+assert rabbit.get('visualReview') == 'SOURCED_REAL_RABBIT_SENSORY_PHOTO_QA_PROVISIONAL'
+assert rabbit.get('pedagogicStatus') == 'REPLACED_WITH_CC_LICENSED_RABBIT_SENSES_QA_PENDING_2026-11-12'
+assert rabbit.get('sourceUrl') == 'https://commons.wikimedia.org/wiki/File:Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_(DSCF0830).jpg'
+assert rabbit.get('licenseUrl') == 'https://creativecommons.org/licenses/by/4.0/'
+assert rabbit.get('author', '').startswith('Trougnouf (Benoit Brummer)')
+assert len(rabbit.get('sourceSha256', [])) == 1 and len(rabbit['sourceSha256'][0]) == 64
+assert not rabbit.get('svgMaster'), 'Retired symbolic rabbit artwork wrongly declared active'
+for field,hashfield in (('retiredSchematicPng','retiredSchematicSha256'),
+                        ('retiredSchematicSvg','retiredSchematicSvgSha256')):
+    r = ROOT / rabbit[field]
+    assert r.is_file() and hashlib.sha256(r.read_bytes()).hexdigest() == rabbit[hashfield]
+assert rabbit['retiredSchematicSha256'] == '6f4a798edd974efc549163e09bb37727b49b26f77d507e50f9b6a4b628e2788f'
+print('PASS: three user-rejected diagrams withheld; three earlier sourced replacements and real Calotes and rabbit specimen plates recorded')
 
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
