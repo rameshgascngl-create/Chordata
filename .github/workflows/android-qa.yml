@@ -20,6 +20,7 @@ jobs:
         run: |
           python3 scripts/audit_figure_placement.py
           python3 scripts/audit_pencil_coverage.py
+          python3 scripts/test_monotreme_sourced_plate.py
           python3 scripts/audit_coverage_report.py
           python3 scripts/audit_android_qa_contract.py
           python3 scripts/audit_store_preflight.py
