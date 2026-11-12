@@ -71,6 +71,9 @@ jobs:
           python3 scripts/audit_store_preflight.py
           python3 scripts/audit_figure_placement.py
           python3 scripts/audit_coverage_report.py
+          # Owner requested these exact ten scientific PNGs. An older source
+          # build must never pass the release gate by silently omitting them.
+          python3 scripts/audit_ai10_release_assets.py
           python3 scripts/check_textbook_plates.py
           python3 scripts/write_figure_review_register.py --check
           python3 scripts/write_figure_review_register.py --release-check
