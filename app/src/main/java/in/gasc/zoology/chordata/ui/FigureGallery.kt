@@ -470,7 +470,9 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             secondarySourceUrl = entry.optJSONArray("sourceUrls")?.optString(1) ?: "",
             additionalSourceUrls = entry.optJSONArray("sourceUrls")?.let { urls ->
                 (2 until urls.length()).mapNotNull { index ->
-                    urls.optString(index).takeIf { it.startsWith("https://") }
+                    urls.optString(index).takeIf {
+                        android.net.Uri.parse(it).scheme == "https"
+                    }
                 }
             } ?: emptyList()
         )
