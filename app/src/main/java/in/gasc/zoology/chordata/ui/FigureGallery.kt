@@ -7,6 +7,7 @@ import android.graphics.BitmapRegionDecoder
 import android.graphics.Rect
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.gestures.rememberTransformableState
 import androidx.compose.foundation.gestures.transformable
 import androidx.compose.foundation.layout.*
@@ -932,7 +933,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                                         Column(Modifier.fillMaxWidth()
                                             .transformable(transforms)
                                             .pointerInput(plate.id) {
-                                                androidx.compose.foundation.gestures.detectTapGestures(
+                                                detectTapGestures(
                                                     onDoubleTap = { scale = 1f; offset = Offset.Zero }
                                                 )
                                             },
