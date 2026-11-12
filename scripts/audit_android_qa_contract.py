@@ -148,7 +148,7 @@ assert 'figure-pending-page' not in gallery_ui, 'Redundant internal QA panel ret
 assert 'figure-overview-status' not in gallery_ui, 'Non-subject figure status returned to chapter outline'
 # Six original screenshots exposed a pedagogic problem, not a PNG-file
 # problem. The three source-based replacements must remain active while
-# the other rejected pictograms and the rejected Calotes heart remain suppressed.
+# the remaining rejected monotreme, aquatic mammal and Calotes heart remain suppressed.
 sourced_ids = {
     'u4-snakes-india-big-four-identification',
     'u5-flight-adaptations-flight-muscles',
@@ -171,8 +171,12 @@ assert calotes_photo.get('sourceUrl') == 'https://commons.wikimedia.org/wiki/Fil
 heart = next(x for x in entries if x['diagramId'] == 'u4-calotes-arterial-system')
 assert heart.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
 assert heart.get('pedagogicStatus', '').startswith('WITHHELD_')
+rabbit = next(x for x in entries if x['diagramId'] == 'u5-rabbit-sense-organs')
+assert rabbit.get('visualReview') == 'SOURCED_REAL_RABBIT_SENSORY_PHOTO_QA_PROVISIONAL'
+assert rabbit.get('sourceUrl', '').endswith('File:Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_(DSCF0830).jpg')
+assert rabbit.get('retiredSchematicPng') and rabbit.get('retiredSchematicSvg')
 assert 'additionalSourceUrls' in gallery_ui and 'figure-extra-source-' in gallery_ui
-assert 'fourSymbolicPlatesRemainWithheldAndThreeSourcedPlatesAreAvailable()' in test_text
+assert 'threeSymbolicPlatesRemainWithheldAndFourSourcedPlatesAreAvailable()' in test_text
 assert 'figure-image-' in gallery_ui and 'figure-credits-toggle-' in gallery_ui
 assert 'figure-rejected-quality' in gallery_ui and 'figure-error-' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
