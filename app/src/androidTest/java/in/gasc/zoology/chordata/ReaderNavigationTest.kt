@@ -32,7 +32,7 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
-    @Test fun twoSymbolicPlatesRemainWithheldAndFiveSourcedPlatesAreAvailable() {
+    @Test fun oneSymbolicPlateRemainsWithheldAndSixSourcedPlatesAreAvailable() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val raw = context.assets.open("pencil_plates/manifest.json")
             .bufferedReader(Charsets.UTF_8).use { it.readText() }
@@ -42,7 +42,6 @@ class ReaderNavigationTest {
             .associateBy { it.getString("diagramId") to it.getString("lang") }
         val withheld = listOf(
             "u4-calotes-arterial-system",
-            "u5-aquatic-mammals-aquatic-mammal-groups"
         )
         for (id in withheld) for (lang in ReadingLanguage.entries) {
             org.junit.Assert.assertTrue("Unusable figure must be suppressed: $id $lang",
@@ -61,6 +60,18 @@ class ReaderNavigationTest {
                 entry.getString("visualReview"))
             org.junit.Assert.assertTrue(entry.getString("sourceUrl")
                 .startsWith("https://commons.wikimedia.org/wiki/File:"))
+        }
+        for (lang in ReadingLanguage.entries) {
+            val aquatic = requireNotNull(selectProvisionalPlate(entries,
+                "u5-aquatic-mammals-aquatic-mammal-groups", lang))
+            org.junit.Assert.assertEquals(
+                "SOURCED_FOUR_AQUATIC_MAMMAL_PHOTOGRAPHS_QA_PROVISIONAL",
+                aquatic.getString("visualReview"))
+            org.junit.Assert.assertFalse(selectedPlateNeedsReplacement(entries,
+                "u5-aquatic-mammals-aquatic-mammal-groups", lang))
+            org.junit.Assert.assertEquals(4, aquatic.getJSONArray("sourceUrls").length())
+            org.junit.Assert.assertTrue(aquatic.getString("keyEn")
+                .contains("NOT one taxonomic order"))
         }
         for (lang in ReadingLanguage.entries) {
             val monotreme = requireNotNull(selectProvisionalPlate(entries,
