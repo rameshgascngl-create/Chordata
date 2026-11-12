@@ -1,0 +1,130 @@
+{
+  "status": "INTEGRATED_PROVISIONAL_QA_NOT_INDEPENDENTLY_CERTIFIED",
+  "sources": [
+    {
+      "key": "cobra",
+      "file": "Naja naja 113856920.jpg",
+      "taxon": "Naja naja",
+      "name": "Indian cobra",
+      "author": "Dinesh Valke",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naja_naja_113856920.jpg",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Naja_naja_113856920.jpg",
+      "originalSHA256": "f8c67d072f7a0c0551ca2b89d81a7f66fd2a127520dce2cef06857cacc1c26ec",
+      "originalBytes": 3220667,
+      "verifiedLicence": "CC BY-SA 4.0",
+      "modified": "Resized and placed in an original labelled educational comparison (source photo unaltered apart from scaling/padding)."
+    },
+    {
+      "key": "krait",
+      "file": "Bungarus caeruleus 157751749.jpg",
+      "taxon": "Bungarus caeruleus",
+      "name": "Common krait",
+      "author": "Manoj Karingamadathil",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bungarus_caeruleus_157751749.jpg",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Bungarus_caeruleus_157751749.jpg",
+      "originalSHA256": "4eb4eeb7597dad06c1ac01586db3fdd20a9f21d8fb37c878d5092e0834912eb7",
+      "originalBytes": 285311,
+      "verifiedLicence": "CC BY-SA 4.0",
+      "modified": "Resized and placed in an original labelled educational comparison (source photo unaltered apart from scaling/padding)."
+    },
+    {
+      "key": "russell",
+      "file": "Daboia russelii (72663).jpg",
+      "taxon": "Daboia russelii",
+      "name": "Russell's viper",
+      "author": "Nativeplants garden",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Daboia_russelii_(72663).jpg",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Daboia_russelii_%2872663%29.jpg",
+      "originalSHA256": "fa48e9e41d6c41b1661b3b55fc4d667eed75afdecb6ecce340fadf7e8210d450",
+      "originalBytes": 2018413,
+      "verifiedLicence": "CC BY-SA 4.0",
+      "modified": "Resized and placed in an original labelled educational comparison (source photo unaltered apart from scaling/padding)."
+    },
+    {
+      "key": "saw",
+      "file": "Saw-scaled Viper.jpg",
+      "taxon": "Echis carinatus",
+      "name": "Saw-scaled viper",
+      "author": "Jnprasad2001",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Saw-scaled_Viper.jpg",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Saw-scaled_Viper.jpg",
+      "originalSHA256": "bf19c63a0ff61b4de45d85401ed0317eaac22c7cd1ceebacf076d96fcafb9232",
+      "originalBytes": 2139582,
+      "verifiedLicence": "CC BY-SA 4.0",
+      "modified": "Resized and placed in an original labelled educational comparison (source photo unaltered apart from scaling/padding)."
+    },
+    {
+      "key": "wing",
+      "file": "Wing Muscles, color.svg",
+      "taxon": "Aves",
+      "name": "Bird flight-muscle anatomy",
+      "author": "L. Shyamal",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wing_Muscles,_color.svg",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Wing_Muscles%2C_color.svg",
+      "originalSHA256": "28f7428ea6b4525afaee0a743d6f1cc5006cee0a4ae247101bd213215173eab6",
+      "originalBytes": 21049,
+      "verifiedLicence": "CC BY-SA 2.5",
+      "modified": "Original SVG rasterised to an offline PNG; no source anatomy redrawn."
+    },
+    {
+      "key": "marsupial",
+      "file": "Baby kangaroo in pouch.jpg",
+      "taxon": "Macropus",
+      "name": "Kangaroo joey in pouch",
+      "author": "Johnscotaus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Baby_kangaroo_in_pouch.jpg",
+      "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Baby_kangaroo_in_pouch.jpg",
+      "originalSHA256": "ff643d9b0e1fd18f36162048f773bf9400954bc94fbf91048916761439ea86ff",
+      "originalBytes": 4366998,
+      "verifiedLicence": "CC BY-SA 4.0",
+      "modified": "Resized and placed in an original labelled educational comparison (source photo unaltered apart from scaling/padding)."
+    }
+  ],
+  "outputs": {
+    "snake": {
+      "path": "india_big_four_scientific_candidate.png",
+      "width": 2500,
+      "height": 1770,
+      "sha256": "60e62f263f46f4a475ad2ed91fc729d3c0c7f2e7eafc3a448e2c9b5cab048705"
+    },
+    "wing": {
+      "path": "avian_flight_muscle_source_candidate.png",
+      "width": 2500,
+      "height": 1353,
+      "sha256": "3b424eb0227d3b770035b062c22aa5e4923b7f3195a096f39de17154a0c58d50"
+    },
+    "marsupial": {
+      "path": "marsupial_pouch_photographic_candidate.png",
+      "width": 2450,
+      "height": 1520,
+      "sha256": "36a23af112b64db609f732bbcdb789e231717f2c798694336fb67578259b6a0a"
+    }
+  },
+  "notice": "These are staged images, not accepted/replaced Android assets.",
+  "integration": {
+    "u4-snakes-india-big-four-identification": {
+      "registeredAssetPath": "pencil_plates/india_big_four_snakes_en.png",
+      "registeredSha256": "60e62f263f46f4a475ad2ed91fc729d3c0c7f2e7eafc3a448e2c9b5cab048705"
+    },
+    "u5-flight-adaptations-flight-muscles": {
+      "registeredAssetPath": "pencil_plates/avian_flight_muscles_en.png",
+      "registeredSha256": "3b424eb0227d3b770035b062c22aa5e4923b7f3195a096f39de17154a0c58d50"
+    },
+    "u5-marsupials-marsupial-life-history": {
+      "registeredAssetPath": "pencil_plates/marsupial_life_cycle_en.png",
+      "registeredSha256": "36a23af112b64db609f732bbcdb789e231717f2c798694336fb67578259b6a0a"
+    }
+  }
+}

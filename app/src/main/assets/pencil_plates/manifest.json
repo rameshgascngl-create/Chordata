@@ -1385,29 +1385,50 @@
       "figure": "india_big_four_snakes",
       "lang": "en",
       "path": "pencil_plates/india_big_four_snakes_en.png",
-      "sha256": "68fa916626a60be5bbfd62cc31b3d8f19534a6913eba12e64d12642c4f3f3edf",
-      "size": 116568,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "60e62f263f46f4a475ad2ed91fc729d3c0c7f2e7eafc3a448e2c9b5cab048705",
+      "size": 2877753,
+      "author": "Dinesh Valke; Manoj Karingamadathil; Nativeplants garden; Jnprasad2001; CHORDATA QA (educational presentation)",
+      "license": "CC BY-SA 4.0 — derivative layout credited to all source creators",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naja_naja_113856920.jpg",
       "referenceUrls": [
         "https://www.who.int/news-room/questions-and-answers/item/snakebite-envenoming",
         "https://ncdc.mohfw.gov.in/uploads/pdf/COH9.pdf"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
+      "modifications": "Four original Commons specimen photographs resized and arranged into a new annotated comparison plate, with distinct creator attributions. No anatomy fabricated.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Cobra, common krait, Russell’s viper and saw-scaled viper; other dangerous species occur.",
+      "keyEn": "Four medically important venomous snakes in India: Indian cobra (Naja naja), common krait (Bungarus caeruleus), Russell's viper (Daboia russelii) and saw-scaled viper (Echis carinatus). Photographs are for academic comparison ONLY, not field identification or snakebite decisions.",
       "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
-      "svgMaster": "docs/original_plate_svg/india_big_four_snakes_en.svg",
+      "scope": "Original source/specimen comparison for the exact registered lesson section; QA scientific review pending.",
+      "visualReview": "SOURCED_TEACHING_FIGURE_QA_PROVISIONAL",
       "topicId": "u4-snakes-india",
       "page": 2,
       "sectionKey": "big-four",
       "learningObjective": "Cobra, common krait, Russell’s viper and saw-scaled viper; other dangerous species occur.",
-      "svgSha256": "51e47b02c62745c11ec7605a92a73ac36773008fbc85b865b4dc45a5406fa155",
-      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
-      "pedagogicReason": "Abstract curves do not depict identifiable snake morphology; unacceptable for a medically relevant identification topic."
+      "pedagogicStatus": "REPLACED_WITH_CC_LICENSED_SOURCE_QA_PENDING_2026-11-12",
+      "pedagogicReason": "Provisional user-facing teaching replacement using real photographs/published original anatomy; independent scientific editorial approval pending.",
+      "retiredSchematicPng": "docs/retired_noninstructional_png/india_big_four_snakes_en.png",
+      "retiredSchematicSha256": "68fa916626a60be5bbfd62cc31b3d8f19534a6913eba12e64d12642c4f3f3edf",
+      "retiredSchematicSvg": "docs/original_plate_svg/india_big_four_snakes_en.svg",
+      "retiredSchematicSvgSha256": "51e47b02c62745c11ec7605a92a73ac36773008fbc85b865b4dc45a5406fa155",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Naja_naja_113856920.jpg",
+        "https://commons.wikimedia.org/wiki/File:Bungarus_caeruleus_157751749.jpg",
+        "https://commons.wikimedia.org/wiki/File:Daboia_russelii_(72663).jpg",
+        "https://commons.wikimedia.org/wiki/File:Saw-scaled_Viper.jpg"
+      ],
+      "sourceSha256": [
+        "f8c67d072f7a0c0551ca2b89d81a7f66fd2a127520dce2cef06857cacc1c26ec",
+        "4eb4eeb7597dad06c1ac01586db3fdd20a9f21d8fb37c878d5092e0834912eb7",
+        "fa48e9e41d6c41b1661b3b55fc4d667eed75afdecb6ecce340fadf7e8210d450",
+        "bf19c63a0ff61b4de45d85401ed0317eaac22c7cd1ceebacf076d96fcafb9232"
+      ],
+      "originalLicences": [
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "diagramId": "u4-poison-apparatus-venom-apparatus",
@@ -1646,29 +1667,41 @@
       "figure": "avian_flight_muscles",
       "lang": "en",
       "path": "pencil_plates/avian_flight_muscles_en.png",
-      "sha256": "923474ff690b938af73a746c41b5c6d293a50f1f4b1e553a54d192fc9768e1f5",
-      "size": 122373,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "3b424eb0227d3b770035b062c22aa5e4923b7f3195a096f39de17154a0c58d50",
+      "size": 321814,
+      "author": "L. Shyamal; CHORDATA QA (educational presentation)",
+      "license": "CC BY-SA 2.5 — derivative layout credited to all source creators",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wing_Muscles,_color.svg",
       "referenceUrls": [
         "https://doi.org/10.1016/j.cub.2022.06.079",
         "https://doi.org/10.1111/jzo.13043"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
+      "modifications": "Unmodified Wikimedia Commons source anatomy rasterised from original SVG at 2500 px width with white background for label legibility.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Pectoralis lowers the wing; supracoracoideus tendon elevates it via triosseal canal.",
+      "keyEn": "Source-labelled avian flight musculature and shoulder skeleton: pectoralis and supracoracoideus, coracoid, humerus, furcula and keeled sternum. Anatomical comparison; inspect the source labels before teaching.",
       "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
-      "svgMaster": "docs/original_plate_svg/avian_flight_muscles_en.svg",
+      "scope": "Original source/specimen comparison for the exact registered lesson section; QA scientific review pending.",
+      "visualReview": "SOURCED_TEACHING_FIGURE_QA_PROVISIONAL",
       "topicId": "u5-flight-adaptations",
       "page": 2,
       "sectionKey": "muscles-skeleton",
       "learningObjective": "Pectoralis lowers the wing; supracoracoideus tendon elevates it via triosseal canal.",
-      "svgSha256": "b3e7272fce9ad9e680f20b9f09a84658edc82eb6c375e4c2b2a0bdb54d784445",
-      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
-      "pedagogicReason": "Pectoralis and supracoracoideus anatomy and the triosseal tendon pathway are not anatomically instructional."
+      "pedagogicStatus": "REPLACED_WITH_CC_LICENSED_SOURCE_QA_PENDING_2026-11-12",
+      "pedagogicReason": "Provisional user-facing teaching replacement using real photographs/published original anatomy; independent scientific editorial approval pending.",
+      "retiredSchematicPng": "docs/retired_noninstructional_png/avian_flight_muscles_en.png",
+      "retiredSchematicSha256": "923474ff690b938af73a746c41b5c6d293a50f1f4b1e553a54d192fc9768e1f5",
+      "retiredSchematicSvg": "docs/original_plate_svg/avian_flight_muscles_en.svg",
+      "retiredSchematicSvgSha256": "b3e7272fce9ad9e680f20b9f09a84658edc82eb6c375e4c2b2a0bdb54d784445",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Wing_Muscles,_color.svg"
+      ],
+      "sourceSha256": [
+        "28f7428ea6b4525afaee0a743d6f1cc5006cee0a4ae247101bd213215173eab6"
+      ],
+      "originalLicences": [
+        "https://creativecommons.org/licenses/by-sa/2.5/"
+      ],
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/"
     },
     {
       "diagramId": "u5-bird-migration-flyway-stopovers",
@@ -1788,28 +1821,40 @@
       "figure": "marsupial_life_cycle",
       "lang": "en",
       "path": "pencil_plates/marsupial_life_cycle_en.png",
-      "sha256": "e59681a0f32c87cdf8f49d1d4fc0d15cc8140d55ddc910e711f2614d1171b3b7",
-      "size": 102360,
-      "author": "CHORDATA QA — original vector anatomical schematic",
-      "license": "Original project illustration; no source images copied",
-      "sourceUrl": "",
+      "sha256": "36a23af112b64db609f732bbcdb789e231717f2c798694336fb67578259b6a0a",
+      "size": 2221294,
+      "author": "Johnscotaus; CHORDATA QA (educational presentation)",
+      "license": "CC BY-SA 4.0 — derivative layout credited to all source creators",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baby_kangaroo_in_pouch.jpg",
       "referenceUrls": [
         "https://openstax.org/books/biology-2e/pages/29-1-chordates"
       ],
-      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels.",
+      "modifications": "Photograph proportionally scaled on a new educational plate, with text captions and biological caveat.",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_REVIEW_PENDING",
-      "keyEn": "Young are often born early and continue development attached to a teat.",
+      "keyEn": "Genuine photograph of a kangaroo with joey inside the pouch. A representative pouch-bearing marsupial, NOT a complete life-cycle or evidence that every marsupial has a pouch.",
       "keyTa": "",
-      "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "USER_REJECTED_REPLACEMENT_REQUIRED",
-      "svgMaster": "docs/original_plate_svg/marsupial_life_cycle_en.svg",
+      "scope": "Original source/specimen comparison for the exact registered lesson section; QA scientific review pending.",
+      "visualReview": "SOURCED_TEACHING_FIGURE_QA_PROVISIONAL",
       "topicId": "u5-marsupials",
       "page": 1,
       "sectionKey": "reproductive-pattern",
       "learningObjective": "Young are often born early and continue development attached to a teat.",
-      "svgSha256": "08e7c5678de3b4c43319d2c7b17b38d4cffc6d13b9905aafb918d33d6b6f7a17",
-      "pedagogicStatus": "WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12",
-      "pedagogicReason": "Symbolic outlines cannot convey underdeveloped neonate, teat attachment and development."
+      "pedagogicStatus": "REPLACED_WITH_CC_LICENSED_SOURCE_QA_PENDING_2026-11-12",
+      "pedagogicReason": "Provisional user-facing teaching replacement using real photographs/published original anatomy; independent scientific editorial approval pending.",
+      "retiredSchematicPng": "docs/retired_noninstructional_png/marsupial_life_cycle_en.png",
+      "retiredSchematicSha256": "e59681a0f32c87cdf8f49d1d4fc0d15cc8140d55ddc910e711f2614d1171b3b7",
+      "retiredSchematicSvg": "docs/original_plate_svg/marsupial_life_cycle_en.svg",
+      "retiredSchematicSvgSha256": "08e7c5678de3b4c43319d2c7b17b38d4cffc6d13b9905aafb918d33d6b6f7a17",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Baby_kangaroo_in_pouch.jpg"
+      ],
+      "sourceSha256": [
+        "ff643d9b0e1fd18f36162048f773bf9400954bc94fbf91048916761439ea86ff"
+      ],
+      "originalLicences": [
+        "https://creativecommons.org/licenses/by-sa/4.0/"
+      ],
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "diagramId": "u5-aquatic-mammals-aquatic-mammal-groups",
