@@ -65,7 +65,7 @@ def create_digestive(old,comparison):
     panel(d,(1260,180,1790,1660))
     text(d,(80,205),"A   Scoliodon-type anatomy",45,bold=True)
     w,h=old.size
-    crop=old.crop((int(w*.035),int(h*.075),int(w*.635),int(h*.97)))
+    crop=old.crop((int(w*.035),int(h*.075),int(w*.56),int(h*.97)))
     fitted(img,crop,(83,270,1120,1300),pad=20)
     text(d,(1300,210),"B   Comparison",43,bold=True)
     text(d,(1300,270),"DOGFISH",36,bold=True,color=TEAL)
@@ -110,7 +110,8 @@ def create_devonian(source):
     text(d,(77,2520),"Ichthyostega  |  Pederpes    •    Maija Karala, CC BY-SA 3.0",26,color=GREY)
     return im
 def main():
-    if MARKER.exists():
+    previous=json.loads(MARKER.read_text(encoding="utf-8")) if MARKER.exists() else None
+    if previous and __import__("os").environ.get("CHORDATA_REBUILD_FIGURES") != "1":
         print("Already staged: preserve existing exact-hash accepted PNGs")
         return
     manifest=json.loads(MANIFEST.read_text(encoding="utf-8"))
@@ -127,15 +128,22 @@ def main():
     for id,filename in specs:
         x=byid[id]
         assert x["path"]=="pencil_plates/"+filename
-        raw=(IMAGES/filename).read_bytes()
-        assert sha(raw)==x["sha256"],("unexpected source change",filename)
+        installed=(IMAGES/filename).read_bytes()
+        assert sha(installed)==x["sha256"],("unexpected installed image change",filename)
+        if previous:
+            raw=(OLD_DIR/filename).read_bytes()
+            matched=next(z for z in previous["figures"] if z["diagramId"]==id)
+            assert sha(raw)==matched["original"]["sha256"],("archived source changed",filename)
+        else:
+            raw=installed
         originals[id]={"sha256":sha(raw),"size":len(raw),"path":"docs/retired_noninstructional_png/"+filename}
     # An explicit named source record is retained for each Commons original.
     sources={}
     for key,(filename,author,licence) in SOURCE_LIST.items():
         im,metadata=download(filename)
         sources[key]=(im,dict(metadata,author=author,licence=licence))
-    old_img=Image.open(IMAGES/"scoliodon_digestive_en.png").convert("RGB")
+    original_digestive=(OLD_DIR if previous else IMAGES)/"scoliodon_digestive_en.png"
+    old_img=Image.open(original_digestive).convert("RGB")
     rendered={
       specs[0][0]:create_digestive(old_img,sources["dogfish_comparison"][0]),
       specs[1][0]:create_scales(sources["scale_triptych"][0],sources["placoid"][0]),
