@@ -10,6 +10,8 @@ import io
 import json
 from pathlib import Path
 import requests
+import time
+from urllib.parse import urlsplit, urlunsplit
 import cairosvg
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
@@ -58,8 +60,21 @@ for s in SOURCES:
     if license_short.casefold()!=s["license"].casefold():
         raise RuntimeError(f"Licensing changed for {s['file']}: {license_short!r}")
     content_url=info[0]["url"]
-    response=HTTP.get(content_url,timeout=70)
-    response.raise_for_status()
+    # Avoid Commons' tracking query and respect upload.wikimedia.org rate limits.
+    clean=urlsplit(content_url)
+    content_url=urlunsplit((clean.scheme,clean.netloc,clean.path,"",""))
+    response=None
+    for attempt in range(6):
+        response=HTTP.get(content_url,timeout=70)
+        if response.status_code == 429:
+            delay=min(90,12*(attempt+1))
+            print("WIKIMEDIA RATE LIMIT",s["key"],"retry",attempt+1,"after",delay,"seconds",flush=True)
+            time.sleep(delay)
+            continue
+        response.raise_for_status()
+        break
+    else:
+        raise RuntimeError("Wikimedia source still rate-limited after retries: "+s["file"])
     source_bytes=response.content
     if len(source_bytes)>20_000_000 or len(source_bytes)<7000:
         raise RuntimeError("Unexpected source image bytes for "+s["file"])
@@ -78,7 +93,8 @@ for s in SOURCES:
       "modified": "Resized and placed in an original labelled educational comparison (source photo unaltered apart from scaling/padding)." if s["key"] not in ("wing",) else "Original SVG rasterised to an offline PNG; no source anatomy redrawn.",
     })
     records.append(record)
-    print("SOURCE OK",s["key"],len(source_bytes),license_short)
+    print("SOURCE OK",s["key"],len(source_bytes),license_short,flush=True)
+    time.sleep(3.0)  # Polite pacing before the next Commons metadata/download request.
 
 def save_png(im,name):
     dest=OUT/name
