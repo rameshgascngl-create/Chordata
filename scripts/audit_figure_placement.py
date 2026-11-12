@@ -330,6 +330,35 @@ def main():
                         and not figure.get("svgSha256"),
                         "Gadow Fig 54 original rights, taxonomy qualifications or exact skull lesson placement missing"
                     )
+                elif (figure["diagramId"] == "u5-egg-laying-mammals-monotreme-reproduction"
+                      and figure.get("sourceKind") == "COMPARATIVE_MONOTREME_SPECIMEN_PHOTOS_AND_PUBLISHED_POUCH_ANATOMY"):
+                    # This is a truly sourced replacement, not the retired symbolic outline.
+                    # Three distinct sources remain identifiable, with different species.
+                    require(
+                        figure["lang"] == "shared"
+                        and figure["path"] == "pencil_plates/platypus_reproduction.png"
+                        and figure.get("visualReview") == "SOURCED_REAL_MONOTREME_SPECIMENS_AND_ANATOMY_QA_PROVISIONAL"
+                        and figure.get("pedagogicStatus") == "REPLACED_WITH_CC_LICENSED_MONOTREME_SOURCE_QA_PENDING_2026-11-12"
+                        and figure.get("author", "").startswith("Eric Chan")
+                        and "Ian R McCann" in figure.get("author", "")
+                        and "F. E. Beddard" in figure.get("author", "")
+                        and figure.get("sourceUrls", []) == [
+                            "https://commons.wikimedia.org/wiki/File:Platypus_(4848256613).jpg",
+                            "https://commons.wikimedia.org/wiki/File:Tachyglossus_aculeatus_baby_Museums_Victoria.jpg",
+                            "https://commons.wikimedia.org/wiki/File:Cambridge_Natural_History_Mammalia_Fig_003.png",
+                        ]
+                        and len(figure.get("sourceSha256", [])) == 3
+                        and all(len(d) == 64 for d in figure.get("sourceSha256", []))
+                        and figure.get("originalLicences") == [
+                            "https://creativecommons.org/licenses/by/2.0/",
+                            "https://creativecommons.org/licenses/by-sa/4.0/",
+                            "https://creativecommons.org/publicdomain/mark/1.0/",
+                        ]
+                        and figure.get("licenseUrl") == "https://creativecommons.org/licenses/by-sa/4.0/"
+                        and figure.get("retiredSchematicSha256") == "5936652b851a5c474cf64db332a49736266039c6f6e8b9e6e507122de6ef0284"
+                        and figure.get("reviewStatus", "").startswith("PROVISIONAL_"),
+                        "Monotreme source-based specimen and pouch image lacks verified origin or archived original"
+                    )
                 else:
                     require(figure["author"] == "Chordata QA project — original numbered schematic",
                             "original plate creator attribution changed: " + name)
