@@ -21,4 +21,7 @@ class ProgressStore(context: Context) {
     }
     fun quizScore(topicId: String): Int? = if (prefs.contains("quiz:$topicId"))
         prefs.getInt("quiz:$topicId", 0) else null
+
+    /** Wipes private learning data synchronously and reports persistence success. */
+    fun eraseAllLearningData(): Boolean = prefs.edit().clear().commit()
 }
