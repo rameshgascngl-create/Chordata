@@ -148,7 +148,7 @@ assert 'figure-pending-page' not in gallery_ui, 'Redundant internal QA panel ret
 assert 'figure-overview-status' not in gallery_ui, 'Non-subject figure status returned to chapter outline'
 # Six original screenshots exposed a pedagogic problem, not a PNG-file
 # problem. The three source-based replacements must remain active while
-# the other three rejected pictograms remain suppressed.
+# the other rejected pictograms and the rejected Calotes heart remain suppressed.
 sourced_ids = {
     'u4-snakes-india-big-four-identification',
     'u5-flight-adaptations-flight-muscles',
@@ -165,8 +165,14 @@ assert all(v['visualReview'] == 'SOURCED_TEACHING_FIGURE_QA_PROVISIONAL'
            for v in sourced), 'Sourced replacements need genuine provenance and retained originals'
 assert len(next(v for v in sourced if v['diagramId'] ==
     'u4-snakes-india-big-four-identification')['sourceUrls']) == 4
+calotes_photo = next(x for x in entries if x['diagramId'] == 'u4-calotes-external')
+assert calotes_photo.get('visualReview') == 'SOURCED_REAL_SPECIMEN_PHOTO_QA_PROVISIONAL'
+assert calotes_photo.get('sourceUrl') == 'https://commons.wikimedia.org/wiki/File:Oriental_Lizard.jpg'
+heart = next(x for x in entries if x['diagramId'] == 'u4-calotes-arterial-system')
+assert heart.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
+assert heart.get('pedagogicStatus', '').startswith('WITHHELD_')
 assert 'additionalSourceUrls' in gallery_ui and 'figure-extra-source-' in gallery_ui
-assert 'threeSymbolicPlatesRemainWithheldAndThreeSourcedPlatesAreAvailable()' in test_text
+assert 'fourSymbolicPlatesRemainWithheldAndThreeSourcedPlatesAreAvailable()' in test_text
 assert 'figure-image-' in gallery_ui and 'figure-credits-toggle-' in gallery_ui
 assert 'figure-rejected-quality' in gallery_ui and 'figure-error-' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui
