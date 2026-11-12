@@ -114,6 +114,12 @@ app_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt')
 gallery_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/FigureGallery.kt').read_text(encoding='utf-8')
 assert 'All 64 lesson-diagram slots contain provisional illustrations' not in app_ui
 assert 'home-book-layout' in app_ui and 'subject-title' in app_ui
+privacy_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/PrivacyPolicyScreen.kt').read_text(encoding='utf-8')
+assert 'privacy-policy-entry' in app_ui and 'privacy-policy-back' in app_ui
+assert 'tab == "privacy" -> PrivacyPolicyPage(lang)' in app_ui
+assert 'privacy-policy-page' in privacy_ui
+assert 'fun privacyPolicyIsAvailableInEnglishWithoutNetwork()' in test_text
+assert '<html lang="en">' in (ROOT / 'docs/privacy-policy.html').read_text(encoding='utf-8')
 # The owner requested a book-style reader: justify body paragraphs in both
 # paged and continuous modes; keep headings, keys and controls start-aligned.
 assert app_ui.count('base = 16f, alignment = TextAlign.Justify)') == 2, 'Both lesson reading modes must justify body paragraphs'

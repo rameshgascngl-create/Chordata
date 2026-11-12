@@ -30,6 +30,16 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
+    @Test fun privacyPolicyIsAvailableInEnglishWithoutNetwork() {
+        selectEnglish()
+        rule.onNodeWithTag("home-book-layout").performScrollToIndex(2)
+        rule.onNodeWithTag("privacy-policy-entry").performClick()
+        rule.onNodeWithTag("privacy-policy-page").assertExists()
+        rule.onNodeWithText("Privacy policy").assertExists()
+        rule.onNodeWithTag("privacy-policy-back").performClick()
+        rule.onNodeWithTag("home-book-layout").assertExists()
+    }
+
 
 
     @Test fun milkSharkPanelExcludesTinyCompositeTextAndKeepsPreviewBounded() {

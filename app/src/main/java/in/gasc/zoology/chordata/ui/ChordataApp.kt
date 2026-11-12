@@ -97,6 +97,7 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                     title = {
                         Column {
                             Text(if (currentTopic != null) loc(lang, "Lesson", "பாடம்")
+                                 else if (tab == "privacy") loc(lang, "Privacy policy", "தனியுரிமைக் கொள்கை")
                                  else loc(lang, "CHORDATA", "முதுகுநாணிகள்"),
                                 maxLines = 1, overflow = TextOverflow.Ellipsis,
                                 style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
@@ -112,6 +113,14 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                         ) {
                             Icon(Icons.Default.ArrowBack,
                                 contentDescription = loc(lang, "Back to lessons", "பாடங்களுக்குத் திரும்புக"))
+                        } else if (tab == "privacy") {
+                            IconButton(
+                                onClick = { tab = "home" },
+                                modifier = Modifier.size(48.dp).testTag("privacy-policy-back")
+                            ) {
+                                Icon(Icons.Default.ArrowBack,
+                                    contentDescription = loc(lang, "Back to home", "முகப்பிற்குத் திரும்புக"))
+                            }
                         }
                     },
                     actions = {
@@ -168,7 +177,9 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                         onLanguage = { languageName = it.name; progress.saveLanguage(it) },
                         onScale = { textScale = it; progress.saveTextScale(it) },
                         onOpen = { openTopic(it) },
-                        onBrowse = { tab = "topics" })
+                        onBrowse = { tab = "topics" },
+                        onPrivacy = { tab = "privacy" })
+                    tab == "privacy" -> PrivacyPolicyPage(lang)
                     else -> ListingPage(pack, tab, query, onQuery = { query = it }, lang, textScale,
                         bookmarks, completed, onOpen = { id ->
                             val topic = pack.findTopic(id)
@@ -197,7 +208,8 @@ private fun BilingualText(value: Bilingual, lang: ReadingLanguage, scale: Float,
 @Composable
 private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
     completed: Set<String>, bookmarks: Set<String>, onLanguage: (ReadingLanguage) -> Unit,
-    onScale: (Float) -> Unit, onOpen: (String) -> Unit, onBrowse: () -> Unit) {
+    onScale: (Float) -> Unit, onOpen: (String) -> Unit, onBrowse: () -> Unit,
+    onPrivacy: () -> Unit) {
     val total = pack.topics.size
     val finished = pack.topics.count { it.id in completed }
     val remaining = pack.topics.firstOrNull { it.id !in completed }
@@ -282,6 +294,16 @@ private fun HomePage(pack: ContentPack, lang: ReadingLanguage, scale: Float,
                         }
                     }
                 }
+            }
+        }
+        item(key = "privacy-information") {
+            TextButton(
+                onClick = onPrivacy,
+                modifier = Modifier.fillMaxWidth().testTag("privacy-policy-entry")
+            ) {
+                Text(loc(lang, "Privacy policy & local data",
+                    "தனியுரிமைக் கொள்கை மற்றும் உள்ளூர் தரவு"),
+                    color = teal, fontWeight = FontWeight.SemiBold)
             }
         }
         if (remaining != null) {
