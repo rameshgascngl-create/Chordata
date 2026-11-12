@@ -179,7 +179,22 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
                         onOpen = { openTopic(it) },
                         onBrowse = { tab = "topics" },
                         onPrivacy = { tab = "privacy" })
-                    tab == "privacy" -> PrivacyPolicyPage(lang, textScale)
+                    tab == "privacy" -> PrivacyPolicyPage(lang, textScale,
+                        onEraseLocalData = {
+                            if (!progress.eraseAllLearningData()) {
+                                false
+                            } else {
+                                bookmarks = emptySet()
+                                completed = emptySet()
+                                languageName = ReadingLanguage.EN.name
+                                textScale = 1f
+                                query = ""
+                                selectedTopicId = ""
+                                page = 0
+                                tab = "home"
+                                true
+                            }
+                        })
                     else -> ListingPage(pack, tab, query, onQuery = { query = it }, lang, textScale,
                         bookmarks, completed, onOpen = { id ->
                             val topic = pack.findTopic(id)
