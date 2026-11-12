@@ -105,9 +105,8 @@ with the corresponding editable SVGs unchanged.
 - Marsupial reproduction: authentic kangaroo with joey in pouch, with a caveat
   that pouch structure varies across marsupials.
 
-**Still withheld:** generic rabbit sense organs; monotreme reproduction and
-milk feeding; aquatic mammal group icons; and the inadequate Calotes heart-flow
-sketch. No new abstract diagrams are substituted.
+**Still withheld:** monotreme reproduction and milk feeding; aquatic mammal
+icons; and the inadequate Calotes heart-flow sketch. No new abstract diagrams are substituted.
 
 These are quality-improved *QA teaching figures*, not scientific release approval.
 
@@ -133,3 +132,22 @@ These are quality-improved *QA teaching figures*, not scientific release approva
 
 **Image QA status:** One genuine Calotes photograph integrated (provisional);
 Calotes heart replacement still absent; no release sign-off asserted.
+
+## Rabbit sensory-organs source replacement (12 November 2026)
+
+- Target: `u5-rabbit-sense-organs` on Unit V rabbit lesson, page 5.
+- Supersedes the unusable eye/ear/whisker icons with an actual domestic
+  rabbit side-profile photograph. Source: Trougnouf (Benoit Brummer),
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_(DSCF0830).jpg),
+  CC BY 4.0. The specimen photo remains intact apart from proportional
+  sizing; only a separate numbered label layer is added.
+- The plate identifies the *pinna*, *lateral eye* and *mystacial vibrissae*,
+  with the crucial caveat that balance receptors are in the internal ear,
+  **not** in the pinna. No pretend internal organ diagram is displayed.
+- The old vector PNG is archived under `docs/retired_noninstructional_png/`,
+  with original editable SVG untouched and its hash retained. Attribution,
+  source JPEG checksum, new PNG checksum, exact transformations and
+  source licence appear in
+  `docs/qa-image-review/RABBIT_SENSE_ORGANS_PHOTOGRAPHIC_REPLACEMENT_20261112.json`.
+- Human biological review, Tamil editorial review and device screenshots
+  remain pending; asset presence is **not** independent acceptance.
