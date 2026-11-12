@@ -114,8 +114,10 @@ app_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt')
 gallery_ui = (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/FigureGallery.kt').read_text(encoding='utf-8')
 assert 'All 64 lesson-diagram slots contain provisional illustrations' not in app_ui
 assert 'home-book-layout' in app_ui and 'subject-title' in app_ui
-assert 'alignment = TextAlign.Start' in app_ui, 'Mobile lesson paragraphs must remain readable without stretched word spaces'
-assert 'alignment = TextAlign.Justify' not in app_ui, 'Phone-width full justification reintroduced'
+# The owner requested a book-style reader: justify body paragraphs in both
+# paged and continuous modes; keep headings, keys and controls start-aligned.
+assert app_ui.count('base = 16f, alignment = TextAlign.Justify)') == 2, 'Both lesson reading modes must justify body paragraphs'
+assert 'alignment = TextAlign.Start' in app_ui, 'Keep explanatory lists start-aligned'
 assert 'reader-next' in app_ui and 'reader-previous' in app_ui, 'Full-width reader navigation tags absent'
 assert 'fun tamilPagerRemainsWideAt200Percent()' in test_text, 'Tamil 200% pager regression test missing'
 assert 'if (currentTopic == null) {' in app_ui and 'app-bottom-navigation' in app_ui, (
