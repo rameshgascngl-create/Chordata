@@ -33,7 +33,7 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
-    @Test fun materialAnatomyHoldHidesHeartWhileSourcedPlatesRemainAvailable() {
+    @Test fun correctedCalotesHeartAndSourcedPlatesAreAvailableInBothLanguages() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val raw = context.assets.open("pencil_plates/manifest.json")
             .bufferedReader(Charsets.UTF_8).use { it.readText() }
@@ -41,23 +41,21 @@ class ReaderNavigationTest {
         val entries = (0 until variants.length())
             .map { variants.getJSONObject(it) }
             .associateBy { it.getString("diagramId") to it.getString("lang") }
-        // Direct PNG inspection found a pulmonary-systemic vessel topology
-        // error. Keep the registered image and its hash, but do not display it
-        // as acceptable anatomy in either language.
         for (lang in ReadingLanguage.entries) {
             val heart = requireNotNull(selectProvisionalPlate(entries,
                 "u4-calotes-arterial-system", lang))
-            org.junit.Assert.assertTrue(selectedPlateNeedsReplacement(entries,
+            org.junit.Assert.assertFalse(selectedPlateNeedsReplacement(entries,
                 "u4-calotes-arterial-system", lang))
-            org.junit.Assert.assertEquals("SCIENTIFIC_HOLD_REPLACEMENT_REQUIRED",
+            org.junit.Assert.assertEquals("SOURCE_CHECKED_FUNCTIONAL_SCHEMATIC_QA_PROVISIONAL",
                 heart.getString("visualReview"))
-            org.junit.Assert.assertEquals("MATERIAL_ARTERIAL_TOPOLOGY_ERROR",
-                heart.getString("scientificRiskHold"))
+            org.junit.Assert.assertEquals("pencil_plates/calotes_heart_arteries_en.png",
+                heart.getString("path"))
             org.junit.Assert.assertEquals(
-                "2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3",
+                "937660abab533455b91cf1e0935c12d635f6df20fef63750d62e65efafbc1b7e",
                 heart.getString("sha256"))
             org.junit.Assert.assertTrue(heart.getString("reviewStatus").startsWith("PROVISIONAL_"))
-            org.junit.Assert.assertTrue(heart.getString("scientificVisualFinding").contains("pulmonary"))
+            org.junit.Assert.assertEquals("PENDING", heart.getString("independentBiologyReview"))
+            org.junit.Assert.assertEquals("PENDING", heart.getString("independentTamilReview"))
         }
         val sourced = listOf(
             "u4-snakes-india-big-four-identification",

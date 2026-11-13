@@ -148,7 +148,7 @@ assert 'figure-pending-page' not in gallery_ui, 'Redundant internal QA panel ret
 assert 'figure-overview-status' not in gallery_ui, 'Non-subject figure status returned to chapter outline'
 # Six original screenshots exposed a pedagogic problem, not a PNG-file
 # problem. Keep the three sourced replacements and four marine-mammal photos
-# active, but withhold the Calotes heart after material topology errors are found.
+# active alongside the corrected Calotes functional schematic.
 sourced_ids = {
     'u4-snakes-india-big-four-identification',
     'u5-flight-adaptations-flight-muscles',
@@ -169,12 +169,12 @@ calotes_photo = next(x for x in entries if x['diagramId'] == 'u4-calotes-externa
 assert calotes_photo.get('visualReview') == 'SOURCED_REAL_SPECIMEN_PHOTO_QA_PROVISIONAL'
 assert calotes_photo.get('sourceUrl') == 'https://commons.wikimedia.org/wiki/File:Oriental_Lizard.jpg'
 heart = next(x for x in entries if x['diagramId'] == 'u4-calotes-arterial-system')
-assert heart.get('visualReview') == 'SCIENTIFIC_HOLD_REPLACEMENT_REQUIRED'
-assert heart.get('scientificRiskHold') == 'MATERIAL_ARTERIAL_TOPOLOGY_ERROR'
-assert heart.get('pedagogicStatus') == 'WITHHELD_MATERIAL_ARTERIAL_TOPOLOGY_ERROR_2026-11-13'
+assert heart.get('visualReview') == 'SOURCE_CHECKED_FUNCTIONAL_SCHEMATIC_QA_PROVISIONAL'
+assert not heart.get('scientificRiskHold')
+assert heart.get('pedagogicStatus') == 'REPLACED_WITH_SOURCE_CHECKED_FUNCTIONAL_SCHEMATIC_2026-11-13'
 assert 'selectedPlateNeedsReplacement(pencilPlates, slot.id, lang)' in gallery_ui
 assert heart.get('reviewStatus', '').startswith('PROVISIONAL_')
-assert heart.get('sha256') == '2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3'
+assert heart.get('sha256') == '937660abab533455b91cf1e0935c12d635f6df20fef63750d62e65efafbc1b7e'
 assert heart.get('retiredSchematicPng') and heart.get('retiredSchematicSvg')
 assert 'RIGHT atrium' in heart.get('editorialCaution', '')
 rabbit = next(x for x in entries if x['diagramId'] == 'u5-rabbit-sense-organs')
@@ -191,7 +191,7 @@ assert aquatic['visualReview'] == 'SOURCED_FOUR_AQUATIC_MAMMAL_PHOTOGRAPHS_QA_PR
 assert len(aquatic.get('sourceUrls', [])) == 4
 assert aquatic.get('retiredSchematicPng') and aquatic.get('retiredSchematicSvg')
 assert 'additionalSourceUrls' in gallery_ui and 'figure-extra-source-' in gallery_ui
-assert 'materialAnatomyHoldHidesHeartWhileSourcedPlatesRemainAvailable()' in test_text
+assert 'correctedCalotesHeartAndSourcedPlatesAreAvailableInBothLanguages()' in test_text
 assert 'figure-image-' in gallery_ui and 'figure-credits-toggle-' in gallery_ui
 assert 'figure-rejected-quality' in gallery_ui and 'figure-error-' in gallery_ui
 assert 'Draft anatomical plate · scientific review pending' not in gallery_ui

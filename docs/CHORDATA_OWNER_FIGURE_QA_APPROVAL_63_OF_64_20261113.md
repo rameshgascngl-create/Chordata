@@ -1,5 +1,7 @@
 # CHORDATA — Owner decision on 64 illustrations
 
+**Follow-up:** The owner's subsequent instruction authorised correction and integration of the Calotes plate. The earlier 63 figure approvals below remain tied to their original PNG hashes. The replacement is an original functional schematic with separate pulmonary and systemic pathways, traced from published sources. It is installed provisionally at the original Unit IV slot. Independent Zoology and Tamil review remain pending. The earlier AI PNG and its provenance are archived under the manifest's `retiredAiPlate` entry.
+
 **Date:** 13 November 2026  
 **Authority:** Explicit project-owner instruction in the current ChatGPT conversation: approve all images except the Calotes cardiovascular illustration, which may be corrected if needed.  
 **Scope:** This is **owner permission for provisional use in the undergraduate QA textbook**, not independent scientific/Tamil sign-off, not copyright verification, and not an app-store release clearance.

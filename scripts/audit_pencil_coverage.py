@@ -35,8 +35,8 @@ for x in fs:
         assert all(x.get(k) for k in ('topicId','page','sectionKey','learningObjective','referenceUrls')), ('missing academic traceability',id)
         assert x['topicId']==s['topicId'] and x['page']==s['page'] and x['sectionKey']==s['sectionKey'], ('wrong lesson section',id)
 # Explicit owner acceptance applies to exact image hashes, not to the
-# separate independent scientific/Tamil sign-off. The Calotes circulation
-# plate and the defective Tamil AI rabbit skeleton remain withheld.
+# separate independent scientific/Tamil sign-off. The corrected Calotes PNG
+# is checked below, outside the original 63 hash-bound approvals.
 owner_approved = [x for x in fs if
     x.get('ownerQaDisplayDecision') == 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13']
 assert len(owner_approved) == 66, ('unexpected owner-accepted variants', len(owner_approved))
@@ -51,7 +51,7 @@ for x in fs:
         assert x.get('ownerQaDisplayDecision') != 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13'
 assert next(x for x in fs if x['diagramId'] == 'u5-rabbit-endoskeleton'
             and x['lang'] == 'ta')['scientificRiskHold'] == 'MATERIAL_ANATOMY_ERROR'
-print('PASS: owner accepts 63/64 canonical QA figures by SHA; Calotes and held Tamil rabbit variant remain excluded')
+print('PASS: original 63 canonical owner approvals remain bound to their exact PNG hashes')
 
 byid=collections.defaultdict(set)
 for id,lang in keys:byid[id].add(lang)
@@ -70,21 +70,22 @@ assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=
 remaining_noninstructional_ids = set()
 calotes_heart = next(x for x in fs if x['diagramId'] == 'u4-calotes-arterial-system')
 assert calotes_heart['lang'] == 'en'
-assert calotes_heart['sha256'] == '2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3'
-assert calotes_heart['size'] == 2285032
-# A direct visual audit found a material vascular connection error:
-# the illustrated pulmonary trunk appears continuous with the dorsal aorta.
-# Keep original binary/provenance intact but fail if a future edit silently
-# clears the scientific hold without replacing/reviewing the figure.
-assert calotes_heart['visualReview'] == 'SCIENTIFIC_HOLD_REPLACEMENT_REQUIRED'
-assert calotes_heart['scientificRiskHold'] == 'MATERIAL_ARTERIAL_TOPOLOGY_ERROR'
-assert calotes_heart['pedagogicStatus'] == 'WITHHELD_MATERIAL_ARTERIAL_TOPOLOGY_ERROR_2026-11-13'
-assert 'pulmonary' in calotes_heart['scientificVisualFinding'].lower()
+assert calotes_heart['sha256'] == '937660abab533455b91cf1e0935c12d635f6df20fef63750d62e65efafbc1b7e'
+assert calotes_heart['visualReview'] == 'SOURCE_CHECKED_FUNCTIONAL_SCHEMATIC_QA_PROVISIONAL'
+assert not calotes_heart.get('scientificRiskHold')
+assert calotes_heart['pedagogicStatus'] == 'REPLACED_WITH_SOURCE_CHECKED_FUNCTIONAL_SCHEMATIC_2026-11-13'
+assert calotes_heart.get('topicId') == 'u4-calotes'
+assert calotes_heart.get('page') == 4 and calotes_heart.get('sectionKey') == 'arterial-system'
+retired_ai = calotes_heart['retiredAiPlate']
+assert retired_ai['scientificRiskHold'] == 'MATERIAL_ARTERIAL_TOPOLOGY_ERROR'
+assert retired_ai['sha256'] == '2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3'
+retired_ai_png = ROOT / retired_ai['path']
+assert retired_ai_png.is_file() and hashlib.sha256(retired_ai_png.read_bytes()).hexdigest() == retired_ai['sha256']
 assert calotes_heart['reviewStatus'].startswith('PROVISIONAL_')
 assert calotes_heart['independentBiologyReview'] == 'PENDING'
 assert calotes_heart['independentTamilReview'] == 'PENDING'
-assert calotes_heart.get('aiGenerated') is True and not calotes_heart.get('sourceUrl')
-assert not calotes_heart.get('svgMaster'), 'Old symbolic SVG is not a source for the new AI plate'
+assert calotes_heart.get('aiGenerated') is False and not calotes_heart.get('sourceUrl')
+assert not calotes_heart.get('svgMaster'), 'Retired SVG must remain distinct from the corrected PNG'
 assert all(calotes_heart.get(k) for k in ('retiredSchematicPng','retiredSchematicSvg', 'retiredSchematicSha256','retiredSchematicSvgSha256'))
 for path_key, sha_key in (('retiredSchematicPng','retiredSchematicSha256'), ('retiredSchematicSvg','retiredSchematicSvgSha256')):
     retired = ROOT / calotes_heart[path_key]
@@ -99,7 +100,7 @@ verified_source_replacement_ids = {
 rejected = [x for x in fs if x.get('pedagogicStatus') ==
             'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
 assert {x['diagramId'] for x in rejected} == remaining_noninstructional_ids, (
-    'Unexpected rejected teaching figure beyond explicitly held Calotes heart')
+    'Unexpected rejected teaching figure')
 assert len(rejected) == 0
 assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
            and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
@@ -182,7 +183,7 @@ for oldpath, oldhash in (
     assert hashlib.sha256(original.read_bytes()).hexdigest() == marine[oldhash]
 assert marine['retiredSchematicSha256'] == 'a330620a0fb6d62fab65caf6c79fd50ee24a686c83bc3a49b034623bfbc987c3'
 assert all(word in marine['keyEn'] for word in ('Cetacea', 'Sirenia', 'Pinnipedia', 'Mustelidae', 'NOT one taxonomic order'))
-print('PASS: Calotes material-topology hold, sourced aquatic-mammal photos, and retired source hashes verified')
+print('PASS: Corrected Calotes schematic, sourced aquatic-mammal photos, and retired source hashes verified')
 
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
