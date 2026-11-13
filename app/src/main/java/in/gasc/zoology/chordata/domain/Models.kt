@@ -11,6 +11,8 @@ data class LessonSection(
     val key: String, val heading: Bilingual, val body: Bilingual,
     val keyPoints: List<Bilingual> = emptyList()
 )
+data class TextbookChapter(val id: String, val title: Bilingual, val sections: List<LessonSection>)
+
 data class LessonTopic(
     val id: String,
     val title: Bilingual,
@@ -18,7 +20,8 @@ data class LessonTopic(
     val diagramIds: List<String>,
     val quiz: List<QuizQuestion>,
     /** One-based original figure-register section numbers; no source images remapped. */
-    val figurePages: Set<Int> = emptySet()
+    val figurePages: Set<Int> = emptySet(),
+    val textbookChapters: List<TextbookChapter> = emptyList()
 )
 data class LessonUnit(val id: String, val title: Bilingual, val topics: List<LessonTopic>)
 data class ContentPack(val schemaVersion: Int, val credit: String, val units: List<LessonUnit>) {
@@ -48,15 +51,37 @@ object LearningLogic {
         }
         return (0 until n).map { listOf(it) }
     }
-    /** Reading pages are 0..lastPage-1; lastPage itself contains the quiz. */
-    fun lastPage(topic: LessonTopic): Int = sectionPages(topic).size
+    /** Pack consecutive original textbook paragraphs without blank pages.
+     *  Registered legacy figures remain tied to the original sectionPages. */
+    fun textbookPages(topic: LessonTopic): List<List<LessonSection>> {
+        val sections = topic.textbookChapters.flatMap { it.sections }
+        if (sections.isEmpty()) return emptyList()
+        val pages = mutableListOf<List<LessonSection>>()
+        var current = mutableListOf<LessonSection>()
+        var wordCount = 0
+        for (section in sections) {
+            val words = section.body.en.trim().split(Regex("\\s+")).size
+            if (current.isNotEmpty() && wordCount + words > 230) {
+                pages.add(current.toList())
+                current = mutableListOf()
+                wordCount = 0
+            }
+            current.add(section)
+            wordCount += words
+        }
+        if (current.isNotEmpty()) pages.add(current.toList())
+        return pages
+    }
+    /** Reading pages include all core and textbook sections; last page is quiz. */
+    fun lastPage(topic: LessonTopic): Int = sectionPages(topic).size + textbookPages(topic).size
     fun isQuizPage(topic: LessonTopic, page: Int): Boolean = page == lastPage(topic)
     fun pageAfter(topic: LessonTopic, current: Int): Int = (current + 1).coerceAtMost(lastPage(topic))
     fun pageBefore(current: Int): Int = (current - 1).coerceAtLeast(0)
     fun title(topic: LessonTopic, page: Int): Bilingual = when {
         page <= 0 -> topic.title
         page >= lastPage(topic) -> Bilingual("Practice", "பயிற்சி")
-        else -> topic.sections[sectionPages(topic)[page].first()].heading
+        page < sectionPages(topic).size -> topic.sections[sectionPages(topic)[page].first()].heading
+        else -> textbookPages(topic)[page - sectionPages(topic).size].first().heading
     }
     fun search(pack: ContentPack, query: String): List<LessonTopic> {
         val needle = query.trim().lowercase()
@@ -65,6 +90,13 @@ object LearningLogic {
             sequenceOf(topic.title.en, topic.title.ta, topic.id)
                 .plus(topic.sections.asSequence().flatMap {
                     sequenceOf(it.heading.en, it.heading.ta, it.body.en, it.body.ta)
+                })
+                .plus(topic.textbookChapters.asSequence().flatMap { chapter ->
+                    sequenceOf(chapter.title.en, chapter.title.ta).plus(
+                        chapter.sections.asSequence().flatMap { section ->
+                            sequenceOf(section.heading.en, section.heading.ta,
+                                section.body.en, section.body.ta)
+                        })
                 }).any { it.lowercase().contains(needle) }
         }
     }

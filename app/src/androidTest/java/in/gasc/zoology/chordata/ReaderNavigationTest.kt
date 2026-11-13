@@ -436,6 +436,28 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("figure-ascidia-original-toggle").assertExists()
     }
 
+    @Test fun detailedScoliodonTextbookIsBilingualAndPreservesFigureSlots() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val specimen = requireNotNull(pack.findTopic("u2-scoliodon"))
+        org.junit.Assert.assertEquals(5, specimen.sections.size)
+        org.junit.Assert.assertEquals(5, specimen.diagramIds.size)
+        org.junit.Assert.assertEquals(1, specimen.textbookChapters.size)
+        val chapter = specimen.textbookChapters.single()
+        org.junit.Assert.assertEquals(15, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.body.en.length >= 150 && it.body.ta.length >= 150
+        })
+        org.junit.Assert.assertTrue(chapter.sections.any {
+            it.body.en.contains("laticaudus") && it.body.ta.contains("laticaudus")
+        })
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .lastPage(specimen) >
+            `in`.gasc.zoology.chordata.domain.LearningLogic.sectionPages(specimen).size)
+        org.junit.Assert.assertEquals(127, pack.topics.sumOf { it.sections.size })
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+    }
+
     @Test fun bilingualPointwiseEnrichmentPreservesOriginalChapterStructure() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val pack = ContentRepository.load(context)

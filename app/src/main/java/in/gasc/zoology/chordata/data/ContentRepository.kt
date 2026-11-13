@@ -30,6 +30,35 @@ object ContentRepository {
             (topicId to sectionKey) to points
         }
         require(pointsBySection.size == supplements.size) { "Duplicate learning-point section" }
+        // Extended textbook chapters live in a separate append-only asset.
+        // The protected legacy syllabus, quizzes and image placements do not change.
+        val textbookRaw = context.assets.open("chordata_textbook_chapters.json")
+            .bufferedReader(Charsets.UTF_8).use { it.readText() }
+        val textbookRoot = JSONObject(textbookRaw)
+        require(textbookRoot.getInt("schemaVersion") == 1) { "Unsupported textbook chapter schema" }
+        val textbookEntries = textbookRoot.getJSONArray("chapters").toList { chapter ->
+            val topicId = chapter.getString("topicId")
+            val chapterId = chapter.getString("id")
+            val sections = chapter.getJSONArray("sections").toList { section ->
+                LessonSection(section.getString("key"),
+                    section.getJSONObject("heading").bilingual(),
+                    section.getJSONObject("body").bilingual())
+            }
+            require(sections.size >= 5 && sections.map { it.key }.toSet().size == sections.size) {
+                "Incomplete or duplicated detailed textbook sections for $chapterId"
+            }
+            require(sections.all { it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
+                it.body.en.length >= 150 && it.body.ta.length >= 150 }) {
+                "Detailed textbook chapter has missing bilingual academic prose: $chapterId"
+            }
+            topicId to TextbookChapter(chapterId, chapter.getJSONObject("title").bilingual(), sections)
+        }
+        require(textbookEntries.isNotEmpty() &&
+            textbookEntries.map { it.second.id }.toSet().size == textbookEntries.size) {
+            "Missing or duplicate detailed textbook chapters"
+        }
+        val textbookByTopic = textbookEntries.groupBy({ it.first }, { it.second })
+
         // One-based figure placements come from the existing immutable slot
         // register; page packing never edits or reassigns a figure.
         val figureRegistry = JSONObject(context.assets.open("figure_slots.json")
@@ -56,13 +85,20 @@ object ContentRepository {
                                 q.getJSONArray("options").toList { it.bilingual() },
                                 q.getInt("correctIndex"), q.getJSONObject("explanation").bilingual())
                         },
-                        figurePagesByTopic[topic.getString("id")] ?: emptySet()
+                        figurePagesByTopic[topic.getString("id")] ?: emptySet(),
+                        textbookByTopic[topic.getString("id")] ?: emptyList()
                     )
                 }
             )
         }
         val pack = ContentPack(root.getInt("schemaVersion"), root.getString("credit"), units)
         require(pack.units.size == 5 && pack.topics.size == 39) { "Incomplete course pack" }
+        require(textbookByTopic.keys.all { id -> pack.findTopic(id) != null }) {
+            "Detailed textbook chapter references an unknown syllabus topic"
+        }
+        require(pack.topics.flatMap { it.textbookChapters }.size == textbookEntries.size) {
+            "Missing detailed textbook chapter attachment"
+        }
         require(pack.topics.sumOf { it.sections.size } == 127) { "Missing lessons" }
         require(pack.topics.sumOf { it.quiz.size } == 117) { "Missing quiz items" }
         require(pack.topics.sumOf { it.diagramIds.size } == 64) { "Diagram register mismatch" }

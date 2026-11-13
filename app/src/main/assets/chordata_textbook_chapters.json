@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "status": "ACADEMIC_BILINGUAL_DRAFT_INDEPENDENT_ZOOLOGY_AND_TAMIL_REVIEW_REQUIRED",
+  "scope": "Original new textbook prose; additive offline curriculum expansion. Immutable legacy content, figure mapping and quizzes unchanged.",
+  "chapters": [
+    {
+      "id": "scoliodon-systematic-type-study",
+      "topicId": "u2-scoliodon",
+      "title": {
+        "en": "Scoliodon — detailed undergraduate type study",
+        "ta": "ஸ்கோலியோடான் — இளங்கலைப் பாடநூல் விரிவான வகை ஆய்வு"
+      },
+      "sections": [
+        {
+          "key": "systematic-position",
+          "heading": {
+            "en": "Systematic position and nomenclature",
+            "ta": "வகைப்பாட்டு நிலையும் அறிவியல் பெயரும்"
+          },
+          "body": {
+            "en": "The textbook term Scoliodon denotes a small carcharhinid shark used in comparative vertebrate anatomy. The spadenose shark is currently recognised as Scoliodon laticaudus, placed in Chondrichthyes, Elasmobranchii, Carcharhiniformes and Carcharhinidae. Older teaching sources sometimes use S. sorrakowah or related spellings; these should not be copied as if they were uncontroversial modern accepted names. Confirm an actual specimen using its collection label and diagnostic characters, because the genus contains related species. The species is a jawed vertebrate with a cartilaginous endoskeleton, paired fins, exposed gill slits and internal fertilisation. In a type study, distinguish characters of this particular shark from generalisations about all fishes.",
+            "ta": "முதுகெலும்பிகளின் ஒப்பீட்டு உடற்கூறியலில் ஸ்கோலியோடான் என்னும் சிறிய சுறா மாதிரி உயிரியாகப் பயிலப்படுகிறது. மண்வெட்டி வடிவ மூக்குடைய சுறாவின் தற்போதைய ஏற்றுக்கொள்ளப்பட்ட பெயர் Scoliodon laticaudus. இது குருத்தெலும்பு மீன்கள் (Chondrichthyes), எலாஸ்மோபிராங்க்கி (Elasmobranchii), கார்காரினிஃபார்மிஸ் (Carcharhiniformes), கார்காரினிடே (Carcharhinidae) ஆகிய வகைப்பாட்டுக் குழுக்களைச் சார்ந்தது. பழைய நூல்களில் S. sorrakowah போன்ற பெயர்களும் காணப்படுகின்றன; அவற்றை இன்றைய ஏற்றுக்கொள்ளப்பட்ட பெயராகக் கருதக் கூடாது. உண்மையான மாதிரியை இனங்காண அதன் அடையாளப் பண்புகளையும் சேகரிப்பு விவரத்தையும் சரிபார்க்க வேண்டும். தாடைகள், குருத்தெலும்பு அகச்சட்டகம், இணையான துடுப்புகள், வெளிப்புறச் செவுள் பிளவுகள், உட்கருவுறுதல் ஆகியவை இக்குழுவின் முக்கிய பண்புகள்."
+          }
+        },
+        {
+          "key": "habitat-and-body-plan",
+          "heading": {
+            "en": "Habitat, body regions and external identification",
+            "ta": "வாழிடம், உடற்பகுதிகள் மற்றும் புறத்தோற்றம்"
+          },
+          "body": {
+            "en": "The spadenose shark inhabits coastal and estuarine waters of the Indo-West Pacific and is often encountered in near-shore fisheries. The body can be divided descriptively into head, trunk and tail, although the divisions are not externally separated by a neck. The head is dorsoventrally depressed and bears a conspicuously broad, flattened, spade-shaped snout. The ventral, crescent-shaped mouth lies behind the snout tip. Small lateral eyes, paired nostrils and five gill openings on each side are useful landmarks. The fusiform body, pale underside and darker dorsal surface aid hydrodynamic movement and countershading. Never identify an unknown specimen by overall colour alone: snout proportions, fin origins and teeth must be considered together.",
+            "ta": "இந்தச் சுறா இந்திய-மேற்கு பசிபிக் கடற்பகுதியின் கடலோர மற்றும் கழிமுக நீர்களில் வாழ்கிறது. உடலைத் தலை, உடற்பகுதி, வால் என விவரிக்கலாம்; கழுத்து போன்ற தெளிவான பிரிவு இல்லை. தலை மேல்கீழாகத் தட்டையாகவும், மூக்குப் பகுதி அகன்ற மண்வெட்டி வடிவிலும் காணப்படும். மூக்கின் நுனிக்குப் பின்னால் அடிப்புறத்தில் பிறை வடிவ வாய் அமைந்துள்ளது. பக்கவாட்டுக் கண்கள், இணை நாசித்துளைகள், ஒவ்வொரு பக்கத்திலும் ஐந்து செவுள் பிளவுகள் ஆகியவை புறத்தோற்ற அடையாளங்கள். நீரோட்ட எதிர்ப்பைக் குறைக்கும் நெடுவட்ட உடல்வடிவமும் மேல்புறம் அடர்ந்த நிறம், கீழ்ப்புறம் வெளிர்ந்த நிறம் கொண்ட எதிர்நிழல் அமைப்பும் காணப்படும். நிறத்தை மட்டும் கொண்டு இனத்தைக் கண்டறியாமல், மூக்கின் அளவுவிகிதம், துடுப்பு அமைவிடம், பற்கள் ஆகியவற்றையும் ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "fins-and-locomotion",
+          "heading": {
+            "en": "Paired and median fins; swimming mechanics",
+            "ta": "இணை மற்றும் நடுத்துடுப்புகள்; நீந்தும் இயக்கம்"
+          },
+          "body": {
+            "en": "Two pectoral fins provide stability and help generate lift in water; the pelvic fins contribute to balance and manoeuvring. Median fins include dorsal fins, an anal fin and the caudal fin. The caudal fin is heterocercal: the upper lobe is longer and the vertebral axis extends into it. This arrangement helps produce forward thrust during lateral movements of the body and tail. Segmental axial muscles, arranged in myomeres separated by connective-tissue myosepta, transmit bending waves backwards. Fin positions are important for species identification and are not interchangeable with those of every dogfish depicted in older anatomy books. In males, the medial parts of the pelvic fins support paired copulatory claspers.",
+            "ta": "இரண்டு மார்புத்துடுப்புகள் நீந்தும்போது உடல்நிலையை நிலைப்படுத்தவும் மேலெழுச்சிக்கு உதவவும் செய்கின்றன. வயிற்றுத்துடுப்புகள் திசைமாற்றம் மற்றும் சமநிலைக்கு உதவுகின்றன. முதுகுத்துடுப்புகள், குதத்துடுப்பு, வால்துடுப்பு ஆகியவை நடுத்துடுப்புகளாகும். வால்துடுப்பு சமமற்ற இருமடல்களைக் கொண்ட ஹெட்டிரோசெர்கல் (heterocercal) வகை; முதுகெலும்புத் தொடர்ச்சி அதன் மேல்மடலுக்குள் நீள்கிறது. உடல் மற்றும் வால் பக்கவாட்டில் அசைவதால் முன்னோக்கித் தள்ளும் விசை உருவாகிறது. மைய உடற்தசைகள் மையோமியர்கள் எனும் தொகுதிகளாக அமைந்து, அவற்றுக்கிடையே இணைப்புத்திசுப் பிரிவுகள் காணப்படுகின்றன. எல்லாச் சுறா இனங்களிலும் துடுப்பு அமைவிடம் ஒரே மாதிரியாக இருப்பதில்லை. ஆணின் வயிற்றுத்துடுப்புகளுடன் இணைந்த கிளாஸ்பர்கள் இணைவிற்குப் பயன்படுகின்றன."
+          }
+        },
+        {
+          "key": "integument-skeleton",
+          "heading": {
+            "en": "Skin, placoid denticles and cartilaginous skeleton",
+            "ta": "தோல், பிளாக்காய்டு செதில்கள் மற்றும் குருத்தெலும்புச் சட்டகம்"
+          },
+          "body": {
+            "en": "The skin has an epidermis above a fibrous dermis. Its characteristic placoid denticles consist of a basal plate and a projecting crown that contains dentine surrounding a pulp cavity, with an enamel-like superficial covering. Denticles reduce abrasion and can influence flow near the body surface; they are developmentally related to vertebrate teeth. The endoskeleton is principally cartilaginous, although areas may be mineralised. The skull protects the brain and supports the jaws and sense capsules. Vertebral elements support the axis around a persisting notochordal component; fins are braced by cartilaginous basal elements and radials. An endoskeleton made primarily of cartilage is not evidence of evolutionary inferiority, and sharks should not be described as ancestors of modern bony fishes.",
+            "ta": "தோலின் வெளிப்புறத்தில் மேற்தோலும் அதன் கீழே நார்த்தன்மையுள்ள அடித்தோலும் அமைந்துள்ளன. பிளாக்காய்டு செதில்கள் அடித்தட்டு மற்றும் வெளிநீளும் முள் போன்ற முடிப்பகுதியைக் கொண்டவை. அவற்றில் பற்பொருள் (dentine), நடுப்பகுதியில் கூழறை, மேலே இனாமல் போன்ற உறை அமைந்துள்ளன. இச்செதில்கள் தோல் தேய்மானத்தைக் குறைத்து உடற்பரப்பை ஒட்டிய நீரோட்டத்தையும் பாதிக்கலாம்; முதுகெலும்பிகளின் பற்களுடன் வளர்ச்சியியல் தொடர்புடையவை. அகச்சட்டகம் பெரும்பாலும் குருத்தெலும்பால் ஆனது; சில பகுதிகள் கனிமப் படிதலுடன் வலுப்பெறலாம். மண்டையோடு மூளையையும் உணர்வுறுப்புகளையும் பாதுகாக்கிறது. முதுகெலும்புக் கூறுகள் உடலின் அச்சைத் தாங்குகின்றன; துடுப்புகளுக்கு அடித்தளக் குருத்தெலும்புகளும் கதிர்களும் ஆதரவளிக்கின்றன. குருத்தெலும்புச் சட்டகத்தை பரிணாமத்தில் தாழ்ந்த பண்பு என்று கருதக் கூடாது."
+          }
+        },
+        {
+          "key": "teeth-and-feeding",
+          "heading": {
+            "en": "Jaws, teeth, buccal cavity and food capture",
+            "ta": "தாடைகள், பற்கள், வாய்க்குழி மற்றும் இரைபிடித்தல்"
+          },
+          "body": {
+            "en": "The wide ventral mouth opens into a buccal cavity and pharynx. Upper and lower jaws carry several replacement rows of teeth; replacement is continuous rather than limited to two tooth generations. The teeth grasp and cut relatively small prey, including fishes and invertebrates. They are not identical to the crushing teeth of rays or the specialised serrated teeth of larger predatory sharks. The pharynx communicates with the gill region, so the routes for food and ventilatory water share an anterior passage but diverge in function. A muscular tongue comparable to that of mammals is absent. During dissection-based learning, students should trace the path of swallowed food without confusing the gill slits with the oesophageal entrance.",
+            "ta": "அடிப்புறத்தில் அமைந்துள்ள அகன்ற வாய் வாய்க்குழியையும் அதைத் தொடர்ந்து தொண்டைப் பகுதியையும் அடைகிறது. மேல், கீழ்த் தாடைகளில் பல வரிசைகளாகப் பற்கள் உருவாகின்றன; பயன்பாட்டில் தேயும் பற்களுக்கு மாற்றாகப் புதிய பற்கள் தொடர்ந்து வருகின்றன. இப்பற்கள் சிறிய மீன்கள் மற்றும் முதுகெலும்பற்ற இரைகளைப் பிடிக்கவும் கிழிக்கவும் உதவுகின்றன. திருக்கை மீன்களின் நொறுக்கும் பற்களிலிருந்தும் பெரிய கொள்ளையுண்ணிச் சுறாக்களின் சிறப்புப் பற்களிலிருந்தும் இவை வேறுபடும். தொண்டைப் பகுதி செவுள் அறைகளுடன் தொடர்புடையதால் உணவிற்கும் சுவாச நீரிற்கும் முன்பகுதியில் பொதுவான வழி இருந்தாலும் பின்னர் செயல்பாட்டு வழிகள் பிரிகின்றன. பாலூட்டிகளில் இருப்பதைப் போன்ற தசைமிகு நாக்கு காணப்படாது. உணவுப்பாதையை வரையும்போது செவுள் பிளவுகளையும் உணவுக்குழாய் வாயிலையும் குழப்பக் கூடாது."
+          }
+        },
+        {
+          "key": "digestive-tract",
+          "heading": {
+            "en": "Oesophagus, stomach, intestine and spiral valve",
+            "ta": "உணவுக்குழாய், இரைப்பை, குடல் மற்றும் சுருள் மடிப்பு"
+          },
+          "body": {
+            "en": "The digestive canal passes from the pharynx through a short oesophagus into a distensible stomach. Food is mechanically and chemically processed before entering the intestine. A characteristic spiral valve increases the absorptive surface and slows passage of intestinal contents despite the relatively short gut. The terminal region leads through the rectum towards the cloaca. Students should follow the sequence from mouth to cloaca on a labelled anatomical preparation and distinguish the spiral intestinal fold from a coiled intestine: the valve is an internal fold, not a separate long external intestinal loop. The shape of particular gastric folds and ducts should be checked against a verified Scoliodon anatomical plate instead of inferred from a generic shark silhouette.",
+            "ta": "தொண்டையைத் தொடர்ந்து குறுகிய உணவுக்குழாய் விரிவடையக்கூடிய இரைப்பையுடன் இணைகிறது. இரையில் உள்ள உணவுப் பொருட்கள் இயந்திர மற்றும் வேதியியல் செயல்பாடுகளால் செரிமானமாகின்றன. குடல் ஒப்பீட்டளவில் குறுகியதாக இருந்தாலும் அதன் உள்ளே அமைந்துள்ள சுருள் மடிப்பு (spiral valve) உறிஞ்சும் பரப்பை அதிகரித்து உணவின் நகர்வை மெதுவாக்குகிறது. இறுதியில் மலக்குடல் பொதுக் கழிவறையான கிளோயக்காவை நோக்கி செல்கிறது. வாய் முதல் கிளோயக்கா வரையிலான உறுப்புகளை அடையாளமிட்ட வரைபடத்தில் வரிசைப்படுத்திப் பயில வேண்டும். சுருள் மடிப்பு என்பது குடலின் உட்புற மடிப்பு; வெளியில் நீளமாகச் சுருண்ட தனிக் குடல் அல்ல. குறிப்பிட்ட இரைப்பை மடிப்புகளையும் நாளங்களையும் பொதுவான சுறா உருவப்படத்தைக் கொண்டு ஊகிக்காமல் சரிபார்க்கப்பட்ட உடற்கூறு படத்துடன் ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "digestive-glands",
+          "heading": {
+            "en": "Liver, gall bladder, pancreas and digestion",
+            "ta": "கல்லீரல், பித்தப்பை, கணையம் மற்றும் செரிமானம்"
+          },
+          "body": {
+            "en": "The liver is proportionately large and produces bile, which is stored in the gall bladder before delivery into the intestine. The pancreas supplies enzymes for the chemical digestion of proteins, lipids and carbohydrates; its secretions enter the alimentary tract through ducts. The intestinal mucosa absorbs nutrients, and the liver has additional metabolic and storage roles, including lipid storage relevant to buoyancy in many sharks. The spleen, often near digestive organs, participates in blood-related immune functions rather than secreting digestive enzymes. Do not confuse a darkly coloured spleen with pancreatic tissue or imply that sharks possess the gas-filled swim bladder typical of many teleost fishes. This comparison makes the digestive anatomy relevant to broader vertebrate physiology.",
+            "ta": "கல்லீரல் ஒப்பீட்டளவில் பெரிதாக அமைந்து பித்தநீரை உருவாக்குகிறது; பித்தப்பையில் சேமிக்கப்பட்ட பித்தநீர் பின்னர் குடலுக்குச் செல்கிறது. கணையம் புரதம், கொழுப்பு மற்றும் கார்போஹைட்ரேட் செரிமானத்துக்கான நொதிகளைச் சுரக்கிறது. குடலின் உட்சவ்வு ஊட்டச்சத்துகளை உறிஞ்சுகிறது. கல்லீரல் வளர்சிதை மாற்றத்திலும் கொழுப்புச் சேமிப்பிலும் பங்கேற்கிறது; பல சுறாக்களில் இந்தக் கொழுப்புச் சேமிப்பு மிதப்புத்தன்மையுடனும் தொடர்புடையது. செரிமான உறுப்புகளுக்கு அருகில் காணப்படும் மண்ணீரல் இரத்தம் மற்றும் நோய் எதிர்ப்பு தொடர்பான பணிகளை மேற்கொள்கிறது; அது செரிமான நொதிகளைச் சுரப்பதில்லை. மண்ணீரலையும் கணையத்தையும் குழப்பக் கூடாது. பல எலும்பு மீன்களில் காணப்படும் வாயு நிரம்பிய நீந்துபை சுறாக்களுக்கு இல்லை என்பதையும் ஒப்பீட்டில் விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "branchial-respiration",
+          "heading": {
+            "en": "Gill arches, branchial lamellae and ventilation",
+            "ta": "செவுள் வளைவுகள், செவுள் தகடுகள் மற்றும் சுவாசம்"
+          },
+          "body": {
+            "en": "Five external gill openings occur on each side of the head in this shark. Water passes from the mouth and pharyngeal region across the respiratory lamellae, where oxygen enters the blood and carbon dioxide leaves it. The delicate lamellae offer extensive exchange surfaces supported by gill arches and associated filaments. Blood and water flow in opposing directions over much of the exchange surface, maintaining a diffusion gradient. Ventilation depends on buccopharyngeal movements and swimming behaviour, and the precise balance varies among sharks. A figure should distinguish external gill slits from the internal gill chambers and lamellae. Spiracles are reduced or absent in many requiem sharks, so an enlarged spiracle seen in a ray should not be added automatically to the Scoliodon drawing.",
+            "ta": "இந்தச் சுறாவின் தலைப்பகுதியில் ஒவ்வொரு பக்கத்திலும் ஐந்து வெளிப்புறச் செவுள் பிளவுகள் உள்ளன. வாயிலிருந்தும் தொண்டைப் பகுதியிலிருந்தும் செல்லும் நீர் செவுள் தகடுகளின் மேற்பரப்பைக் கடக்கும்போது ஆக்சிஜன் இரத்தத்திற்குள் பரவுகிறது; கார்பன் டையாக்சைடு வெளியேறுகிறது. நுண்ணிய செவுள் தகடுகள் வாயுப் பரிமாற்றத்துக்கான பெரிய பரப்பை வழங்குகின்றன. செவுள் வளைவுகளும் செவுள் இழைகளும் இவற்றிற்கு ஆதரவளிக்கின்றன. நீரும் இரத்தமும் எதிர்திசைகளில் பாய்வதால் பரவலுக்கான செறிவுவேறுபாடு தொடர்ந்து நிலைக்க உதவுகிறது. வாய்த்தொண்டை இயக்கங்களும் நீந்தும் பழக்கமும் நீரின் இயக்கத்தில் பங்கு வகிக்கின்றன. வெளிப்புறச் செவுள் பிளவு, உட்புறச் செவுள் அறை, வாயுப் பரிமாற்றத் தகடு ஆகியவற்றைத் தனித்தனியாகக் காட்ட வேண்டும். திருக்கை மீனின் பெரிய ஸ்பைராக்கிளை இச்சுறாவின் வரைபடத்தில் தவறாகச் சேர்க்கக் கூடாது."
+          }
+        },
+        {
+          "key": "heart-circulation",
+          "heading": {
+            "en": "Heart chambers and single-circuit circulation",
+            "ta": "இதய அறைகளும் ஒற்றைச் சுற்று இரத்த ஓட்டமும்"
+          },
+          "body": {
+            "en": "The venous heart lies in a ventral pericardial compartment behind the gill region. Its functional sequence is sinus venosus, atrium, muscular ventricle and outflow conus arteriosus. Oxygen-poor blood enters from the systemic veins, is propelled towards the ventral aorta, and then reaches the gill capillaries through afferent branchial vessels. Oxygenated blood collects in efferent branchial vessels and is distributed to the body through the dorsal aortic system before returning through veins. Thus the heart pumps blood to the gills first; there is no separate pulmonary circulation or mammalian-style four-chambered heart. In diagrams, identify the direction of flow, blood oxygenation state and valve-bearing outflow tract instead of merely memorising the names of chambers.",
+            "ta": "இதயம் செவுள் பகுதிக்குப் பின்னால் அடிப்புற இதயஉறை அறையில் காணப்படுகிறது. அதன் செயல்பாட்டு வரிசை சைனஸ் வீனோசஸ், ஏட்ரியம், தசைச் சுவருடைய வென்ட்ரிக்கிள், வெளியேற்றக் கோனஸ் ஆர்டீரியோசஸ் என்பதாகும். உடலிலிருந்து வரும் ஆக்சிஜன் குறைந்த இரத்தம் இதயத்தை அடைந்து, அடிப்புற மகாதமனி வழியாக உட்செவுள் இரத்தநாளங்களுக்கு அனுப்பப்படுகிறது. செவுள் நுண்குழல்களில் ஆக்சிஜன் ஏற்றப்பட்ட இரத்தம் வெளியேறும் செவுள் இரத்தநாள்கள் வழியாக முதுகுப்புற மகாதமனியை அடைந்து உடலுக்குப் பகிரப்படுகிறது; பின்னர் சிரைகள் வழியாக மீண்டும் இதயத்திற்குத் திரும்புகிறது. இவ்வாறு ஒற்றை இரத்த ஓட்டச் சுற்று காணப்படுகிறது. பாலூட்டிகளைப் போல தனித்த நுரையீரல் சுற்றோ நான்கு அறைகள் கொண்ட இதயமோ இல்லை. வரைபடத்தில் இரத்த ஓட்டத் திசை, ஆக்சிஜன் நிலை மற்றும் வால்வுகள் உள்ள வெளியேற்றப் பகுதியைத் தெளிவாகச் சுட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "excretion-osmoregulation",
+          "heading": {
+            "en": "Kidneys, nitrogenous waste and marine osmoregulation",
+            "ta": "சிறுநீரகங்கள், நைட்ரஜன் கழிவுகள் மற்றும் உப்புநீர்ச் சமநிலை"
+          },
+          "body": {
+            "en": "Paired elongated kidneys occupy the dorsal region of the body cavity. The adult functional kidney is commonly described as opisthonephric in comparative anatomy. Nephrons filter blood and participate in selective reabsorption and excretion. Marine elasmobranchs maintain relatively high concentrations of urea together with protective solutes such as trimethylamine N-oxide; this reduces osmotic water loss without simply matching seawater salt composition. Excess sodium chloride is regulated in part through the rectal gland and also through renal and branchial processes. Sharks therefore should not be described as excreting most nitrogen solely as ammonia in the same manner as many teleost fishes. In male specimens, urinary and reproductive ducts are closely associated; avoid treating every duct visible in one sex as present in the same arrangement in the other.",
+            "ta": "இணையான நீளமான சிறுநீரகங்கள் உடற்குழியின் முதுகுப்புறத்தில் அமைந்துள்ளன. வளர்ந்த நிலையில் செயல்படும் சிறுநீரகம் ஒப்பீட்டு உடற்கூறியலில் ஓபிஸ்தோநெஃப்ரிக் வகையாகக் குறிப்பிடப்படுகிறது. நெஃப்ரான்கள் இரத்தத்தை வடிகட்டி தேவையான பொருட்களை மீள்உறிஞ்சி கழிவுகளை வெளியேற்ற உதவுகின்றன. கடல்வாழ் குருத்தெலும்பு மீன்கள் உடல்நீரில் யூரியாவையும் டிரைமெதில்அமீன் N-ஆக்சைடு போன்ற பாதுகாப்புச் சேர்மங்களையும் ஒப்பீட்டளவில் அதிகமாக வைத்துள்ளன; இதனால் சவ்வூடுபரவல் வழியாக நீர் இழப்பது குறைகிறது. அதிகப்படியான சோடியம் குளோரைடு வெளியேற்றத்தில் மலக்குடல் சுரப்பியும் சிறுநீரக, செவுள் செயல்பாடுகளும் பங்குபெறுகின்றன. பல எலும்புமீன்களைப் போல அமோனியாவை மட்டுமே முக்கிய நைட்ரஜன் கழிவாக வெளியேற்றுவதாகச் சொல்லக் கூடாது. ஆண் உயிரியில் சிறுநீர் மற்றும் இனப்பெருக்க நாளங்கள் நெருங்கிய தொடர்புடையவை; ஆண், பெண் அமைப்புகளை ஒன்றாகக் கலந்து வரையக்கூடாது."
+          }
+        },
+        {
+          "key": "brain-nervous-system",
+          "heading": {
+            "en": "Brain, spinal cord and cranial nerves",
+            "ta": "மூளை, முதுகுத் தண்டு மற்றும் தலைநரம்புகள்"
+          },
+          "body": {
+            "en": "The brain is organised into forebrain, midbrain and hindbrain regions connected to the spinal cord. Olfactory bulbs and their tracts are prominent in relation to chemical sensing. The optic tectum of the midbrain processes major visual input, whereas the cerebellum is associated with coordination of swimming and balance. Medullary centres regulate essential visceral functions. The spinal cord lies dorsally within the vertebral canal and gives rise to segmentally arranged spinal nerves. Cranial nerves connect the brain to the eyes, olfactory structures, branchial region, lateral-line system and other head organs. In a teaching diagram, place the brain regions in correct anterior–posterior order and avoid applying a mammalian cerebral-cortex layout to a shark.",
+            "ta": "மூளை முன்மூளை, நடுமூளை, பின்மூளை என்ற பகுதிகளாக அமைந்து முதுகுத் தண்டுடன் தொடர்கிறது. மணத்தை உணரும் பணியுடன் தொடர்புடைய மணநுகர் குமிழ்களும் நரம்புத் தடங்களும் தெளிவாகக் காணப்படுகின்றன. நடுமூளையின் பார்வைச் செயலாக்கப் பகுதி காட்சித் தகவலைக் கையாள்கிறது. சிறுமூளை நீந்தும் இயக்கங்களின் ஒருங்கிணைப்பு மற்றும் உடல்சமநிலைக்கு உதவுகிறது. நீள்வளைய மையங்கள் சில அடிப்படை உள்ளுறுப்பு செயல்பாடுகளை ஒழுங்குபடுத்துகின்றன. முதுகுத் தண்டு முதுகெலும்புக் குழாயில் அமைந்து பகுதிவாரியாக முதுகுநரம்புகளை வழங்குகிறது. தலைநரம்புகள் கண்கள், மணநுகர் அமைப்புகள், செவுள் பகுதி, பக்கக்கோட்டு உணர்வு அமைப்பு போன்றவற்றுடன் தொடர்புடையவை. வரைபடத்தில் மூளைப் பகுதிகளின் முன்-பின் வரிசையைச் சரியாகக் காட்ட வேண்டும்; பாலூட்டிகளின் பெருமூளைப் புறணியமைப்பைச் சுறாவிற்கு அப்படியே பொருத்தக் கூடாது."
+          }
+        },
+        {
+          "key": "sense-organs",
+          "heading": {
+            "en": "Olfaction, vision, lateral line and electroreception",
+            "ta": "மணநுகர்ச்சி, பார்வை, பக்கக்கோடு மற்றும் மின்உணர்வு"
+          },
+          "body": {
+            "en": "Waterborne chemicals are detected by olfactory epithelia supplied through the paired nostrils; the nostrils do not function as mammalian air-breathing openings. The eyes provide visual information and the inner ears contribute to equilibrium and hearing. Neuromasts within the lateral-line canals detect low-frequency water displacement and local movements. Electroreceptive ampullae of Lorenzini are specialised sensory units concentrated around the head; they detect weak electric fields produced by prey and the environment. These complementary senses support prey location, orientation and swimming. An anatomical plate should not label every head pore as an identical sense organ: lateral-line pores, olfactory openings and electroreceptor pores have different connections and functions.",
+            "ta": "நீரில் கரைந்துள்ள வேதிப்பொருட்களை இணையான நாசித்துளைகளுடன் தொடர்புடைய மணநுகர் புறச்சவ்வுகள் உணர்கின்றன. இந்நாசித்துளைகள் பாலூட்டிகளின் மூச்சுவிடும் துளைகளைப் போலச் செயல்படுவதில்லை. கண்கள் பார்வைத் தகவலையும் உட்செவிகள் சமநிலை மற்றும் ஒலி தொடர்பான தகவல்களையும் வழங்குகின்றன. பக்கக்கோட்டு நாளங்களில் உள்ள நியூரோமாஸ்ட்கள் நீரின் குறைந்த அதிர்வெண் அசைவுகளையும் அருகிலுள்ள இயக்கங்களையும் உணர்கின்றன. தலைப்பகுதியில் அதிகம் காணப்படும் லோரென்சினியின் அம்புல்லாக்கள் மிகமெல்லிய மின்புல மாற்றங்களை உணரும் சிறப்பமைப்புகளாகும். இவ்வுணர்வுகள் இரையைக் கண்டறிதல், திசையறிதல், நீந்தும் ஒருங்கிணைப்பு ஆகியவற்றிற்கு உதவுகின்றன. தலைப்பகுதியின் எல்லாத் துளைகளையும் ஒரே உணர்வுறுப்பாகப் பெயரிடக் கூடாது; பக்கக்கோட்டு, மணநுகர் மற்றும் மின்உணர்வுத் திறப்புகளின் அமைப்பும் பணியும் வேறுபடும்."
+          }
+        },
+        {
+          "key": "male-reproduction",
+          "heading": {
+            "en": "Male reproductive organs and internal fertilisation",
+            "ta": "ஆண் இனப்பெருக்க உறுப்புகளும் உட்கருவுறுதலும்"
+          },
+          "body": {
+            "en": "The testes produce sperm, which is conveyed through associated genital ducts towards the posterior reproductive passages. In many elasmobranchs, portions of the anterior kidney and the duct system are modified in connection with sperm transport. Each male pelvic fin bears a clasper used to introduce sperm during copulation; claspers are not additional paired limbs. Fertilisation is internal. Proper anatomical comparison must distinguish the ducts for sperm from urinary drainage and note where the urogenital openings lead towards the cloaca. Specimens of different species or sexes should not be combined into a single apparently definitive diagram, since the degree of duct fusion and accessory reproductive structures may vary.",
+            "ta": "விந்தணுக்கள் விரைகளில் உருவாகி, இனப்பெருக்க நாளங்களின் வழியாகப் பின்புறப் பகுதிகளுக்குக் கொண்டு செல்லப்படுகின்றன. பல சுறாக்களில் சிறுநீரகத்தின் முன்பகுதியும் அதனுடன் தொடர்புடைய சில நாளங்களும் விந்தணுக் கடத்தலுக்காக மாற்றமடைந்துள்ளன. ஆணின் ஒவ்வொரு வயிற்றுத்துடுப்பிலும் ஒரு கிளாஸ்பர் உள்ளது; இது இணைவின்போது விந்தணுக்களை பெண்ணினுள் செலுத்த உதவுகிறது. கிளாஸ்பர்கள் கூடுதல் கால்களோ துடுப்புகளோ அல்ல. கருவுறுதல் உடலினுள் நடைபெறுகிறது. விந்தணுக் கடத்தல் நாளங்களையும் சிறுநீர் வெளியேற்ற நாளங்களையும் தனித்தனியாகக் காட்டி அவை பொதுக் கழிவறையுடன் கொண்டுள்ள தொடர்பை விளக்க வேண்டும். வெவ்வேறு இனங்கள் அல்லது பாலினங்களின் உறுப்புகளை ஒன்றாகச் சேர்த்துத் தவறான ஒரே வரைபடம் உருவாக்கக் கூடாது."
+          }
+        },
+        {
+          "key": "female-reproduction",
+          "heading": {
+            "en": "Female organs, placental viviparity and embryonic development",
+            "ta": "பெண் இனப்பெருக்க உறுப்புகள், நஞ்சுக்கொடி வழி குட்டி ஈனுதல் மற்றும் கருவளர்ச்சி"
+          },
+          "body": {
+            "en": "The female reproductive system includes ovaries and oviducts with specialised regions for fertilisation and embryo development. Scoliodon laticaudus is notable for placentotrophic viviparity: developing young receive substantial nourishment from the mother through a placental connection, rather than relying only on a large yolk reserve. Embryos grow within the maternal reproductive tract and living young are born after development. Litter size and gestation vary with population and conditions; avoid presenting one number as an invariant species character. This is distinct from external egg laying, and it must also be distinguished from the many other reproductive strategies found among cartilaginous fishes. Students should identify the ovary, oviduct, uterine region and embryonic connection without inventing an embryo or placental structure absent from the plate.",
+            "ta": "பெண் இனப்பெருக்க மண்டலத்தில் சூலகங்களும் அண்டநாளங்களும் அமைந்து, கருவுறுதல் மற்றும் கருவளர்ச்சிக்குத் தனித்த பகுதிகள் காணப்படுகின்றன. Scoliodon laticaudus நஞ்சுக்கொடி வழி ஊட்டம் பெறும் குட்டி ஈனும் இனமாகும். வளர்கின்ற கருக்கள் பெரிய மஞ்சள் கருச் சேமிப்பை மட்டும் நம்பாமல் தாயின் இனப்பெருக்கப் பாதையில் உருவாகும் நஞ்சுக்கொடி போன்ற இணைப்பின் மூலம் முக்கிய ஊட்டச்சத்துகளைப் பெறுகின்றன. கருக்கள் தாயின் உடலுக்குள் வளர்ந்து பின்னர் உயிருள்ள குட்டிகளாகப் பிறக்கின்றன. குட்டிகளின் எண்ணிக்கையும் கருவுற்றிருக்கும் காலமும் சூழல் மற்றும் உயிர்க்குழுவைப் பொறுத்து மாறலாம்; ஒரே எண்ணிக்கையை மாறாத பண்பாகக் கூறக் கூடாது. இது வெளியில் முட்டையிடுதலிலிருந்து வேறுபடுகிறது; குருத்தெலும்பு மீன்களில் பல்வேறு இனப்பெருக்க முறைகள் காணப்படுகின்றன. வரைபடத்தில் சூலகம், அண்டநாளம், கருப்பைப் பகுதி, கருவுக்கான ஊட்டத் தொடர்பு ஆகியவற்றைத் துல்லியமாக அடையாளம் காண வேண்டும்."
+          }
+        },
+        {
+          "key": "comparative-ecology",
+          "heading": {
+            "en": "Ecological role and comparative vertebrate significance",
+            "ta": "சூழலியல் பங்கும் முதுகெலும்பிகள் ஒப்பீட்டில் முக்கியத்துவமும்"
+          },
+          "body": {
+            "en": "Spadenose sharks feed on small fishes and invertebrates and form part of coastal food webs. Their occurrence in fisheries provides opportunities to examine by-catch, habitat use and conservation, but specimens should be obtained only through lawful, ethical institutional arrangements. In comparative anatomy, Scoliodon illustrates a cartilaginous jawed vertebrate rather than a universal model for every shark. Contrast its placoid denticles with bony-fish scales, its heterocercal tail with homocercal tails, its spiral intestinal valve with the longer teleost intestine, and its internal fertilisation with external spawning in many bony fishes. The important learning outcome is a structured explanation linking anatomical feature, physiological function and evolutionary context—not memorisation of isolated labels.",
+            "ta": "இச்சுறா சிறிய மீன்களையும் முதுகெலும்பற்ற உயிரிகளையும் உண்டு கடலோர உணவுவலையில் பங்குபெறுகிறது. மீன்பிடித் தொழிலில் துணைப்பிடிப்பாகக் கிடைப்பதன் மூலம் வாழிடம், மீன்பிடி அழுத்தம் மற்றும் பாதுகாப்பு ஆகியவற்றைப் பயிலலாம். ஆய்வுக்கான மாதிரிகள் சட்டத்திற்கும் கல்வி நிறுவனத்தின் அறநெறிக்கும் உட்பட்டு மட்டுமே பெறப்பட வேண்டும். ஒப்பீட்டு உடற்கூறியலில் ஸ்கோலியோடான் தாடையுடைய குருத்தெலும்பு முதுகெலும்பியின் மாதிரி; எல்லாச் சுறாக்களையும் இதன் வடிவத்திலேயே விளக்கக் கூடாது. பிளாக்காய்டு செதில்களை எலும்புமீன்களின் செதில்களுடனும், சமமற்ற வால்துடுப்பைச் சமமான வால்துடுப்புடனும், சுருள் குடல்மடிப்பை நீண்ட எலும்புமீன் குடலுடனும், உட்கருவுறுதலை பல எலும்புமீன்களின் வெளிக்கருவுறுதலுடனும் ஒப்பிட வேண்டும். உறுப்பின் அமைப்பு, பணி, பரிணாமப் பொருள் ஆகியவற்றின் தொடர்பை விளக்குவதே கற்றலின் நோக்கமாகும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "CMFRI Atlas of Elasmobranch Fishery Resources of India",
+          "url": "https://eprints.cmfri.org.in/4056/1/Special_Publn_95.pdf"
+        },
+        {
+          "label": "WoRMS accepted taxonomy Scoliodon laticaudus",
+          "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217364"
+        },
+        {
+          "label": "IUCN spadenose shark assessment hosted by CMFRI",
+          "url": "https://eprints.cmfri.org.in/15352/1/IUCN_2021_Scoliodon%20laticaudus.pdf"
+        },
+        {
+          "label": "Government of India CIET Chondrichthyes educational resource",
+          "url": "https://ciet.nic.in/moocspdf/Biology%20001/kebo_10403_e-content.pdf"
+        }
+      ]
+    }
+  ]
+}
