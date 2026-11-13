@@ -457,7 +457,7 @@ class ReaderNavigationTest {
             .textbookPages(frog).size >= 6)
         org.junit.Assert.assertTrue(pack.topics.sumOf {
             it.textbookChapters.sumOf { chapter -> chapter.sections.size }
-        } >= 62)
+        } >= 78)
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
     }
@@ -519,6 +519,37 @@ class ReaderNavigationTest {
         }.body.en.contains("right systemic aortic arch"))
         org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
             .textbookPages(pigeon).size >= 6)
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
+    @Test fun detailedRabbitTextbookContainsCorrectDentitionAndCaecotrophy() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val rabbit = requireNotNull(pack.findTopic("u5-rabbit"))
+        org.junit.Assert.assertEquals(5, rabbit.sections.size)
+        org.junit.Assert.assertEquals(5, rabbit.diagramIds.size)
+        val chapter = rabbit.textbookChapters.single()
+        org.junit.Assert.assertEquals("oryctolagus-cuniculus-undergraduate-type-study", chapter.id)
+        org.junit.Assert.assertEquals(16, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
+                it.body.en.length >= 150 && it.body.ta.length >= 150
+        })
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "dental-formula-and-occlusion"
+        }.body.en.contains("28 teeth"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "caecotrophy-and-nutrient-recovery"
+        }.body.en.contains("caecotrophy"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "lungs-diaphragm-and-alveoli"
+        }.body.ta.contains("உதரவிதானம்"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "heart-and-double-circulation"
+        }.body.en.contains("left systemic aortic arch"))
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .textbookPages(rabbit).size >= 6)
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
     }
