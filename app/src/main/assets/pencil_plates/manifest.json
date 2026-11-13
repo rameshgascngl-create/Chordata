@@ -1451,13 +1451,13 @@
       "keyEn": "The Calotes heart has two distinct atria and one incompletely subdivided ventricle with cavum arteriosum, cavum venosum and cavum pulmonale. Paired systemic arches merge to form the dorsal aorta; pulmonary arteries lead to the lungs. Schematic not to scale: systemic venous blood enters the right atrium via the sinus venosus and pulmonary venous blood enters the left atrium.",
       "keyTa": "கலோடெஸ் ஓணானின் இதயத்தில் இரண்டு தனித்தனியான மேலறைகளும் முழுமையாகப் பிரிவடையாத ஒரே கீழறையும் காணப்படுகின்றன. கீழறையில் கவம் ஆர்டீரியோசம், கவம் வீனோசம், கவம் பல்மோனாலே என்ற மூன்று செயல்பாட்டுப் பகுதிகள் உள்ளன. வலது, இடது உடல் மகாதமனி வளைவுகள் இணைந்து முதுகுப்புற மகாதமனியை உருவாக்குகின்றன. உடல் சிரை இரத்தம் சைனஸ் வீனோசஸ் வழியாக வலது மேலறையையும், நுரையீரல் சிரை இரத்தம் இடது மேலறையையும் அடைகிறது. படம் அளவீட்டிற்குரியதன்று.",
       "scope": "Exact registered lesson section; visual study aid only",
-      "visualReview": "AI_RECONSTRUCTION_QA_PROVISIONAL_ACCEPT_MINOR_COSMETIC_ERRORS",
+      "visualReview": "SCIENTIFIC_HOLD_REPLACEMENT_REQUIRED",
       "topicId": "u4-calotes",
       "page": 4,
       "sectionKey": "arterial-system",
       "learningObjective": "Two atria, functionally partitioned ventricle, systemic and pulmonary pathways.",
-      "pedagogicStatus": "REPLACED_WITH_AI_ASSISTED_ANATOMICAL_SCHEMATIC_QA_PENDING_2026-11-12",
-      "pedagogicReason": "Recognisable ventricular regions and paired systemic/pulmonary pathways. Owner allows minor aesthetic flaws; this artwork remains a non-scale schematic with anatomical caveats and no independent scientific sign-off.",
+      "pedagogicStatus": "WITHHELD_MATERIAL_ARTERIAL_TOPOLOGY_ERROR_2026-11-13",
+      "pedagogicReason": "Direct examination of the bundled 1536x1024 PNG finds the pulmonary trunk in panel B apparently continuous with the central systemic/dorsal-aorta pathway. This is a misleading vessel connection, not a minor cosmetic imperfection; hold the schematic until a verified anatomy plate is available.",
       "editorialCaution": "Schematic representation, not a dissection plate. Systemic venous blood returns through sinus venosus to RIGHT atrium; pulmonary venous blood enters LEFT atrium. The illustrated precaval/postcaval positions must not be interpreted as verified atrial connections. Vascular branch topology requires species-specific review.",
       "retiredSchematicPng": "docs/retired_noninstructional_png/calotes_heart_arteries_en.png",
       "retiredSchematicSha256": "e2a1a9115e0c2021af2f2d70b313dcfb367ab76cbebfbf549488a0bd7d27aa82",
@@ -1465,7 +1465,9 @@
       "retiredSchematicSvgSha256": "fa615ac34c0b677f72f6c625d3c0edb3e1dc24d69aaa70ce10c5ed955121224a",
       "aiGenerated": true,
       "independentBiologyReview": "PENDING",
-      "independentTamilReview": "PENDING"
+      "independentTamilReview": "PENDING",
+      "scientificRiskHold": "MATERIAL_ARTERIAL_TOPOLOGY_ERROR",
+      "scientificVisualFinding": "Panel B blue-purple pulmonary-trunk base visually meets red systemic-aortic descent, implying a pulmonary-systemic connection; the pulmonary outflow should be traced independently from cavum pulmonale to lungs. Compare Jensen et al. 2013 (PMC3673951) and lizard cardiovascular anatomy. Do not infer species-specific carotid/subclavian connections from the schematic."
     },
     {
       "diagramId": "u4-calotes-brain",
