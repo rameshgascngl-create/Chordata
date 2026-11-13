@@ -184,12 +184,11 @@ jobs:
             # Exercise R8/minified QA on an actual running emulator, not just
             # a successful compilation. Install after the 33 debug UI tests.
             gradle --no-daemon :app:assembleCompactQa
-            compact=app/build/outputs/apk/compactQa/app-compactQa.apk
-            test -s "$compact"
-            python3 scripts/audit_built_apk_assets.py "$compact"
-            python3 scripts/audit_native_16kb.py "$compact"
+            test -s app/build/outputs/apk/compactQa/app-compactQa.apk
+            python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/compactQa/app-compactQa.apk
+            python3 scripts/audit_native_16kb.py app/build/outputs/apk/compactQa/app-compactQa.apk
             adb uninstall in.gasc.zoology.chordata >/dev/null || true
-            adb install "$compact"
+            adb install app/build/outputs/apk/compactQa/app-compactQa.apk
             adb shell am start -W -n in.gasc.zoology.chordata/.MainActivity
             sleep 3
             adb shell pidof in.gasc.zoology.chordata
