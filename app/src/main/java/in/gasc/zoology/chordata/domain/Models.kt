@@ -83,22 +83,44 @@ object LearningLogic {
         page < sectionPages(topic).size -> topic.sections[sectionPages(topic)[page].first()].heading
         else -> textbookPages(topic)[page - sectionPages(topic).size].first().heading
     }
+    /**
+     * Search titles before body mentions: a query for a type-study species must
+     * open that chapter, not an earlier classification lesson that names it.
+     * Preserve syllabus order within each relevance tier and search both languages.
+     */
     fun search(pack: ContentPack, query: String): List<LessonTopic> {
         val needle = query.trim().lowercase()
         if (needle.isEmpty()) return pack.topics
-        return pack.topics.filter { topic ->
-            sequenceOf(topic.title.en, topic.title.ta, topic.id)
-                .plus(topic.sections.asSequence().flatMap {
-                    sequenceOf(it.heading.en, it.heading.ta, it.body.en, it.body.ta)
-                })
+        return pack.topics.mapIndexedNotNull { index, topic ->
+            val titles = sequenceOf(topic.title.en, topic.title.ta, topic.id)
                 .plus(topic.textbookChapters.asSequence().flatMap { chapter ->
-                    sequenceOf(chapter.title.en, chapter.title.ta).plus(
-                        chapter.sections.asSequence().flatMap { section ->
-                            sequenceOf(section.heading.en, section.heading.ta,
-                                section.body.en, section.body.ta)
-                        })
-                }).any { it.lowercase().contains(needle) }
-        }
+                    sequenceOf(chapter.title.en, chapter.title.ta)
+                }).map { it.lowercase() }.toList()
+            val headings = topic.sections.asSequence().flatMap {
+                sequenceOf(it.heading.en, it.heading.ta)
+            }.plus(topic.textbookChapters.asSequence().flatMap { chapter ->
+                chapter.sections.asSequence().flatMap {
+                    sequenceOf(it.heading.en, it.heading.ta)
+                }
+            })
+            val bodies = topic.sections.asSequence().flatMap {
+                sequenceOf(it.body.en, it.body.ta)
+            }.plus(topic.textbookChapters.asSequence().flatMap { chapter ->
+                chapter.sections.asSequence().flatMap {
+                    sequenceOf(it.body.en, it.body.ta)
+                }
+            })
+            val rank = when {
+                titles.any { it == needle } -> 0
+                titles.any { it.startsWith(needle) } -> 1
+                titles.any { needle in it } -> 2
+                headings.any { needle in it.lowercase() } -> 3
+                bodies.any { needle in it.lowercase() } -> 4
+                else -> -1
+            }
+            if (rank < 0) null else Triple(rank, index, topic)
+        }.sortedWith(compareBy<Triple<Int, Int, LessonTopic>> { it.first }
+            .thenBy { it.second }).map { it.third }
     }
     fun score(selections: List<Int>, questions: List<QuizQuestion>): Int =
         questions.indices.count { i -> selections.getOrNull(i) == questions[i].correctIndex }
