@@ -33,7 +33,7 @@ import org.junit.Test
 
 class ReaderNavigationTest {
 
-    @Test fun ownerApprovedProvisionalHeartAndSourcedPlatesAreAvailable() {
+    @Test fun materialAnatomyHoldHidesHeartWhileSourcedPlatesRemainAvailable() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val raw = context.assets.open("pencil_plates/manifest.json")
             .bufferedReader(Charsets.UTF_8).use { it.readText() }
@@ -41,16 +41,23 @@ class ReaderNavigationTest {
         val entries = (0 until variants.length())
             .map { variants.getJSONObject(it) }
             .associateBy { it.getString("diagramId") to it.getString("lang") }
-        // Owner accepts minor image imperfections only; not independent anatomy approval.
+        // Direct PNG inspection found a pulmonary-systemic vessel topology
+        // error. Keep the registered image and its hash, but do not display it
+        // as acceptable anatomy in either language.
         for (lang in ReadingLanguage.entries) {
             val heart = requireNotNull(selectProvisionalPlate(entries,
                 "u4-calotes-arterial-system", lang))
-            org.junit.Assert.assertFalse(selectedPlateNeedsReplacement(entries,
+            org.junit.Assert.assertTrue(selectedPlateNeedsReplacement(entries,
                 "u4-calotes-arterial-system", lang))
-            org.junit.Assert.assertEquals("AI_RECONSTRUCTION_QA_PROVISIONAL_ACCEPT_MINOR_COSMETIC_ERRORS", heart.getString("visualReview"))
-            org.junit.Assert.assertEquals("2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3", heart.getString("sha256"))
+            org.junit.Assert.assertEquals("SCIENTIFIC_HOLD_REPLACEMENT_REQUIRED",
+                heart.getString("visualReview"))
+            org.junit.Assert.assertEquals("MATERIAL_ARTERIAL_TOPOLOGY_ERROR",
+                heart.getString("scientificRiskHold"))
+            org.junit.Assert.assertEquals(
+                "2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3",
+                heart.getString("sha256"))
             org.junit.Assert.assertTrue(heart.getString("reviewStatus").startsWith("PROVISIONAL_"))
-            org.junit.Assert.assertTrue(heart.getString("editorialCaution").contains("RIGHT atrium"))
+            org.junit.Assert.assertTrue(heart.getString("scientificVisualFinding").contains("pulmonary"))
         }
         val sourced = listOf(
             "u4-snakes-india-big-four-identification",
