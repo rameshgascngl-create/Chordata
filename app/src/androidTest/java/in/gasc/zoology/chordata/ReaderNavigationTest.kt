@@ -457,7 +457,7 @@ class ReaderNavigationTest {
             .textbookPages(frog).size >= 6)
         org.junit.Assert.assertTrue(pack.topics.sumOf {
             it.textbookChapters.sumOf { chapter -> chapter.sections.size }
-        } >= 46)
+        } >= 62)
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
     }
@@ -487,6 +487,38 @@ class ReaderNavigationTest {
         }.body.en.contains("pleurodont"))
         org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
             .textbookPages(lizard).size >= 6)
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
+    @Test fun detailedPigeonTextbookCoversFlightRespirationAndParentalCare() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val pigeon = requireNotNull(pack.findTopic("u5-columba"))
+        org.junit.Assert.assertEquals(4, pigeon.sections.size)
+        org.junit.Assert.assertEquals(4, pigeon.diagramIds.size)
+        val chapter = pigeon.textbookChapters.single()
+        org.junit.Assert.assertEquals("columba-livia-undergraduate-type-study", chapter.id)
+        org.junit.Assert.assertEquals(16, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
+                it.body.en.length >= 150 && it.body.ta.length >= 150
+        })
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "flight-muscles-and-pulley"
+        }.body.en.contains("supracoracoideus"))
+        val lungs = chapter.sections.single { it.key == "parabronchi-air-sacs-and-gas-exchange" }
+        org.junit.Assert.assertTrue(lungs.body.en.contains("parabronchi"))
+        org.junit.Assert.assertTrue(lungs.body.en.contains("gas-exchange organs"))
+        org.junit.Assert.assertTrue(lungs.body.ta.contains("காற்றுப்பைகள்"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "digestive-glands-and-crop-milk"
+        }.body.en.contains("both male and female"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "four-chambered-heart-and-vessels"
+        }.body.en.contains("right systemic aortic arch"))
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .textbookPages(pigeon).size >= 6)
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
     }
