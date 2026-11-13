@@ -19,9 +19,9 @@
       "modifications": "Full original annotated drawing converted from JPEG to lossless PNG with geometry and numerical labels unchanged; original is distributed under the same CC BY-SA 4.0 licence.",
       "keyEn": "Numbers from the original (English): 1 Buccal cirrus; 2 Buccal cavity; 3 Wheel organ; 4 Velum; 5 Velar tentacle; 6 Pharynx; 7 Atrium; 8 Gill slit; 9 Endostyle; 10 Gill bar; 11 Ventral aorta; 12 Dorsal aorta; 13 Branchial skeleton; 14 Oesophagus; 15 Stomach; 16 Atriopore; 17 Hepatic caecum; 18 Iliocolon; 19 Intestine; 20 Anus; 21 Hatschek's pit; 22 Ocellus; 23 Rostrum; 24 Cerebral vesicle; 25 Nerve cord; 26 Notochord; 27 Myoseptum; 28 Myomere; 29 Caudal fin; 30 Ventral fin; 31 Metapleural fold; 32 Dorsal fin.",
       "keyTa": "படத்திலுள்ள எண்களுக்கான விளக்கம் (ஆங்கிலத்தில்): 1 Buccal cirrus; 2 Buccal cavity; 3 Wheel organ; 4 Velum; 5 Velar tentacle; 6 Pharynx; 7 Atrium; 8 Gill slit; 9 Endostyle; 10 Gill bar; 11 Ventral aorta; 12 Dorsal aorta; 13 Branchial skeleton; 14 Oesophagus; 15 Stomach; 16 Atriopore; 17 Hepatic caecum; 18 Iliocolon; 19 Intestine; 20 Anus; 21 Hatschek's pit; 22 Ocellus; 23 Rostrum; 24 Cerebral vesicle; 25 Nerve cord; 26 Notochord; 27 Myoseptum; 28 Myomere; 29 Caudal fin; 30 Ventral fin; 31 Metapleural fold; 32 Dorsal fin.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "68acc2123fa7f57c1eb82feba7bbc1d81f40faf9fc14c12f813be618845726e0"
+      "ownerQaAcceptedSha256": "68acc2123fa7f57c1eb82feba7bbc1d81f40faf9fc14c12f813be618845726e0",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u1-cephalochordata-branchiostoma-labelled",
@@ -31,7 +31,7 @@
       "sha256": "2fbd48be62b83309c87214492ea20dfea1995a3e624fca66c17ed995c95d9b1e",
       "size": 1199846,
       "author": "OpenAI ChatGPT ImageGen — original anatomical reconstruction, digitally labelled (2026-11-08)",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_APPROVED_FOR_PROVISIONAL_QA_USE_2026-11-11",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
       "aiQaIntegrationNotes": "Serial segmental gonads and basic lancelet anatomy shown; stylised, not a dissection.",
@@ -45,8 +45,9 @@
       "modifications": "AI regeneration of serial gonads and essential chordate structures; English labels.",
       "visualReview": "AI_GREEN_TICK_PROVISIONAL_NO_INDEPENDENT_SIGNOFF",
       "keyTa": "முதுகுநாண்; முதுகு நரம்புக் குழாய்; தசைத்துண்டுகள்; தொண்டைச் செவுள் பிளவுகள்; தொடராக அமைந்த இனப்பெருக்கச் சுரப்பிகள்; ஏட்ரியத் துளை; குடல்; மலத்துளை. படத்தின் உறுப்புக் குறியீடுகள் ஆங்கிலத்தில் உள்ளன.",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "2fbd48be62b83309c87214492ea20dfea1995a3e624fca66c17ed995c95d9b1e"
+      "ownerQaAcceptedSha256": "2fbd48be62b83309c87214492ea20dfea1995a3e624fca66c17ed995c95d9b1e",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-flight-adaptations-avian-lung",
@@ -66,9 +67,9 @@
       "modifications": "Original publicly released vector rendered as a 2400-pixel-wide lossless PNG on white background; anatomy and labels unchanged; source SVG is not embedded in the Android APK.",
       "keyEn": "Avian respiration: posterior air sacs, parabronchial lungs and anterior air sacs; fresh air traverses the parabronchi during both phases.",
       "keyTa": "பறவைகளின் நுரையீரல் மற்றும் காற்றுப்பைகள்; ஆங்கிலப் படக்குறியீடுகள் மட்டும்.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "c3d43b9dbdf71d41b173d2543f4c51495b699ed2d96c3d2667370672c8bbacb5"
+      "ownerQaAcceptedSha256": "c3d43b9dbdf71d41b173d2543f4c51495b699ed2d96c3d2667370672c8bbacb5",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-flight-adaptations-avian-lung",
@@ -78,13 +79,14 @@
       "sha256": "e29ead970da9fd42aa067bb810ec414fd0e63a78f84ab6e0ea19b4f4673bee40",
       "size": 2015759,
       "author": "AI-generated original (ChatGPT ImageGen)",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_APPROVED_FOR_PROVISIONAL_QA_USE_2026-11-11",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
       "aiQaIntegrationNotes": "Recognisable trachea, paired lungs and major air-sac groups. Schematic sac sizes and not the exact nine-sac arrangement; use for basic location only, not precise bronchial airflow or individual-sac counts.",
       "aiQaDecisionBasis": "Exact committed artifact SHA-256 checked and artwork visually reviewed against comparative Zoology anatomy sources, 2026-11-08; not independent academic acceptance.",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "e29ead970da9fd42aa067bb810ec414fd0e63a78f84ab6e0ea19b4f4673bee40"
+      "ownerQaAcceptedSha256": "e29ead970da9fd42aa067bb810ec414fd0e63a78f84ab6e0ea19b4f4673bee40",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-columba-endoskeleton",
@@ -105,9 +107,9 @@
       "learnerKeyEn": "Historical pigeon skeletal engraving. Compare the vertebral column, pectoral girdle, wing bones and hind limbs.",
       "learnerKeyTa": "வரலாற்றுக் காலப் புறா எலும்புக்கூட்டு ஓவியம். முதுகெலும்புத் தொடர், தோள்வளையம், இறக்கை எலும்புகள் மற்றும் பின்னங்கால் எலும்புகளை ஒப்பிடுக.",
       "keyTa": "புறாவின் எலும்புக்கூடு: தலையோடு, முதுகெலும்புத் தொடர், தோள்பட்டை வளையம், இறக்கை எலும்புகள், இடுப்பு வளையம் மற்றும் பின்னங்கால் எலும்புகளை அடையாளம் காண்க.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "15213b2c1423a5d1342f133e22f97cd41de94ddf030bf5c2e8ccbd891ed15130"
+      "ownerQaAcceptedSha256": "15213b2c1423a5d1342f133e22f97cd41de94ddf030bf5c2e8ccbd891ed15130",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-columba-endoskeleton",
@@ -117,13 +119,14 @@
       "sha256": "358c4d80563995f9b48e744df6d5cd0d924b40ece64bba2d31eb0e59530a8760",
       "size": 1767926,
       "author": "AI-generated original (ChatGPT ImageGen)",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_APPROVED_FOR_PROVISIONAL_QA_USE_2026-11-11",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
       "aiQaIntegrationNotes": "Essential wing, leg, trunk, skull, and keeled-sternum elements are identifiable. Slight proportion and joint simplifications and Tamil orthography await editorial checking; not measurement-grade.",
       "aiQaDecisionBasis": "Exact committed artifact SHA-256 checked and artwork visually reviewed against comparative Zoology anatomy sources, 2026-11-08; not independent academic acceptance.",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "358c4d80563995f9b48e744df6d5cd0d924b40ece64bba2d31eb0e59530a8760"
+      "ownerQaAcceptedSha256": "358c4d80563995f9b48e744df6d5cd0d924b40ece64bba2d31eb0e59530a8760",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-rabbit-endoskeleton",
@@ -144,9 +147,9 @@
       "learnerKeyEn": "Historical rabbit skeletal engraving. Observe the skull, vertebral column, limb girdles and limb bones.",
       "learnerKeyTa": "வரலாற்றுக் கால முயல் எலும்புக்கூட்டு ஓவியம். தலையோடு, முதுகெலும்புத் தொடர், கால்வளையங்கள் மற்றும் கால் எலும்புகளைக் கவனிக்கவும்.",
       "keyTa": "முயலின் எலும்புக்கூடு: தலையோடு, முதுகெலும்புத் தொடர், விலா எலும்புகள், தோள்பட்டை மற்றும் இடுப்பு வளையங்கள், முன்கால் மற்றும் பின்னங்கால் எலும்புகளை அடையாளம் காண்க.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "25a9d4a68486c54068caea46163d6007c1b0ca0b225f4915cf9a8ed5220939f9"
+      "ownerQaAcceptedSha256": "25a9d4a68486c54068caea46163d6007c1b0ca0b225f4915cf9a8ed5220939f9",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-rabbit-endoskeleton",
@@ -162,7 +165,9 @@
       "aiQaIntegrationDecision": "HOLD_MATERIAL_ANATOMY_ERROR",
       "aiQaIntegrationNotes": "Rabbit tail/caudal skeletal proportions are exaggerated and not reliably rabbit-specific. Needs comparative skeleton correction before green tick.",
       "aiQaDecisionBasis": "Exact committed artifact SHA-256 checked and artwork visually reviewed against comparative Zoology anatomy sources, 2026-11-08; not independent academic acceptance.",
-      "ownerQaApprovalNotes": "Unreliable Tamil AI rabbit skeletal proportions remain withheld; owner approves historical English-source fallback for Tamil reader."
+      "ownerQaApprovalNotes": "Unreliable Tamil AI rabbit skeletal proportions remain withheld; owner approves historical English-source fallback for Tamil reader.",
+      "ownerQaDisplayDecision": "HOLD_MATERIAL_ANATOMY_ERROR",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u1-general-characters-five-chordate-characters",
@@ -184,9 +189,9 @@
       ],
       "modifications": "CC0 2025 vector morphology rendered at 2660px width into offline PNG with proportions and original anatomical mark-up intact; additional standalone five-feature key placed below.",
       "visualReview": "REPLACED_VISUAL_QA_PENDING",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "8f0daae6d718061336c6d216c9a5b5ba5eaa0d30e62376c68dc7d286b2bbcaee"
+      "ownerQaAcceptedSha256": "8f0daae6d718061336c6d216c9a5b5ba5eaa0d30e62376c68dc7d286b2bbcaee",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-scoliodon-gills-labelled",
@@ -215,9 +220,9 @@
       "svgMaster": "docs/original_plate_svg/shark_septal_gills_en.svg",
       "svgSha256": "930f7d9eaa57ab381ea3b20f299c1169b9cb9bda646cd3bb50e2479986a9e2e6",
       "visualReview": "REPLACED_VISUAL_QA_PENDING",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "675f497ab223df417274b8641bfc09b5a40729a4c74e419208bb08794353a90c"
+      "ownerQaAcceptedSha256": "675f497ab223df417274b8641bfc09b5a40729a4c74e419208bb08794353a90c",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u1-urochordata-ascidia-larva-adult",
@@ -251,9 +256,9 @@
       "topicId": "u1-urochordata",
       "page": 3,
       "sectionKey": "retrogressive-metamorphosis",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "af4f986941cd3b9f65452bde00ef6974e2ce425c01e2d7a988f44986f01dfa00"
+      "ownerQaAcceptedSha256": "af4f986941cd3b9f65452bde00ef6974e2ce425c01e2d7a988f44986f01dfa00",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u1-hemichordata-balanoglossus-external",
@@ -274,9 +279,9 @@
       ],
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
       "modifications": "Isolated original figure 9, rotated without changing proportions, enlarged and separately keyed in English.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "fd237c4155fd2a1eb261ddb0d3c8d7de9b2cb00c5b2dd92d27054dda818f2741"
+      "ownerQaAcceptedSha256": "fd237c4155fd2a1eb261ddb0d3c8d7de9b2cb00c5b2dd92d27054dda818f2741",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u1-agnatha-petromyzon-adult-larva",
@@ -302,9 +307,9 @@
         "3ae97e5f6fb99394852164b8ae2a933999663136524c802338f83f50be0fc08e"
       ],
       "modifications": "CC0 standalone adult diagram used; buccal funnel term corrected; both placed in a labelled comparison without proportional distortion.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "d833b1aec9541f1c8649f460ebf3829da3a478e0d7b942794b591a190e5fb48f"
+      "ownerQaAcceptedSha256": "d833b1aec9541f1c8649f460ebf3829da3a478e0d7b942794b591a190e5fb48f",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-scales-fins-scale-types-labelled",
@@ -334,9 +339,9 @@
       "pedagogicStatus": "REPLACED_FROM_LOW_UTILITY_TEACHING_FIGURE_2026-11-12",
       "retiredSchematicPng": "docs/retired_noninstructional_png/fish_scale_types.png",
       "retiredSchematicSha256": "23043a42c60facb16479fc9da9d0d4d1faa7d2034fcd3322006b5cc8820dad02",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "e38720273c567a6704947c9371fcef287771f299d9574b8326e86eee089e5ed5"
+      "ownerQaAcceptedSha256": "e38720273c567a6704947c9371fcef287771f299d9574b8326e86eee089e5ed5",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-scales-fins-fins-labelled",
@@ -357,9 +362,9 @@
       ],
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
       "modifications": "Cropped original numbered fish from 1898 print, converted to greyscale/high contrast and enlarged proportionally. New English fin legend outside original engraving; original 1–19 anatomical leaders not modified.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "aeba9a4f555fd14b98a9bc6852969c5b654951e9d0243271e62cdbc266f5a7d8"
+      "ownerQaAcceptedSha256": "aeba9a4f555fd14b98a9bc6852969c5b654951e9d0243271e62cdbc266f5a7d8",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-migration-migration-cycle",
@@ -377,13 +382,14 @@
       "learnerKeyTa": "நன்னீரில் வாழும், கடலில் வாழும், கடலிலிருந்து இனப்பெருக்கத்திற்காக நன்னீருக்குச் செல்லும் (anadromous), நன்னீரிலிருந்து இனப்பெருக்கத்திற்காகக் கடலுக்குச் செல்லும் (catadromous) மீன்களின் வாழ்க்கைச் சுழற்சிகள் ஒப்பிடப்பட்டுள்ளன. அம்புகள் திட்ட விளக்கமாகும்.",
       "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
       "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "aiGenerated": true,
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
       "independentTamilReview": "PENDING",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "f9133cf0914059e12e37af0ff3170592b7ae1a42a08875ce4a2dac4782ae7261"
+      "ownerQaAcceptedSha256": "f9133cf0914059e12e37af0ff3170592b7ae1a42a08875ce4a2dac4782ae7261",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-skull-temporal-skull-types",
@@ -420,9 +426,9 @@
       "topicId": "u4-skull",
       "page": 1,
       "sectionKey": "temporal-fenestrae",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "e8f29b8b0f579da071d2b401caa50b35ab08fee51ae30b7c03fc17d4f186e9c8"
+      "ownerQaAcceptedSha256": "e8f29b8b0f579da071d2b401caa50b35ab08fee51ae30b7c03fc17d4f186e9c8",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-origin-extinct-amniote-phylogeny",
@@ -436,9 +442,9 @@
       "keyEn": "Selected living amniote lineages. 1 Ancestral amniote · 2 Synapsid lineage · 3 Sauropsid lineage · 4 Mammals · 5 Lepidosaurs (tuataras, lizards and snakes) · 6 Archosaurs · 7 Crocodilians · 8 Birds. Other branches are omitted. Branch lengths do not represent time.",
       "keyTa": "அம்னியோட்டுகளின் தேர்ந்தெடுக்கப்பட்ட வாழும் மரபுக்கிளைகள். 1 அம்னியோட்டுகளின் பொது மூதாதை · 2 சினாப்சிட் மரபுக்கிளை · 3 சௌராப்சிட் மரபுக்கிளை · 4 பாலூட்டிகள் · 5 லெபிடோசார்கள் (டுவாடாரா, பல்லிகள், பாம்புகள்) · 6 ஆர்க்கோசார்கள் · 7 முதலைக் குழுவினர் · 8 பறவைகள். பிற கிளைகள் விடப்பட்டுள்ளன. கிளைகளின் நீளம் காலத்தைக் குறிக்கவில்லை.",
       "referenceUrl": "https://openstax.org/books/biology-2e/pages/29-4-reptiles",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "30e155bfc27e6e847c22576ec120905b41cf8986eae0ddf993dbeb4ebf131813"
+      "ownerQaAcceptedSha256": "30e155bfc27e6e847c22576ec120905b41cf8986eae0ddf993dbeb4ebf131813",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u1-origin-deuterostome-relationships",
@@ -452,9 +458,9 @@
       "keyEn": "Traditional deuterostome grouping. 1 Deuterostomia · 2 Chordata · 3 Ambulacraria · 4 Hemichordata · 5 Echinodermata. Branch lengths do not represent time.",
       "keyTa": "டியூட்டிரோஸ்டோம்களின் மரபுவழிக் குழுவாக்கம். 1 டியூட்டிரோஸ்டோமியா · 2 முதுகுநாணிகள் · 3 ஆம்புலக்ரேரியா · 4 அரைமுதுகுநாணிகள் · 5 முட்தோலிகள். கிளைகளின் நீளம் காலத்தைக் குறிக்கவில்லை.",
       "referenceUrl": "https://academic.oup.com/icb/article/64/5/1175/7727798",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "ee710fdc11c2851ca3768a50143ce19cce78d9d352a32b381ed66b7c7155d410"
+      "ownerQaAcceptedSha256": "ee710fdc11c2851ca3768a50143ce19cce78d9d352a32b381ed66b7c7155d410",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u1-vertebrata-classification-vertebrate-phylogeny",
@@ -468,9 +474,9 @@
       "keyEn": "Simplified vertebrate tree. 1 Vertebrates · 2 Cyclostomes · 3 Jawed vertebrates · 4 Hagfishes · 5 Lampreys · 6 Cartilaginous fishes · 7 Bony vertebrates · 8 Ray-finned fishes · 9 Lobe-finned lineage · 10 Tetrapods (one branch within the lobe-finned lineage; other branches omitted).",
       "keyTa": "முதுகெலும்பிகளின் எளிய பரிணாம மரம். 1 முதுகெலும்பிகள் · 2 வட்டவாயிகள் · 3 தாடையுள்ள முதுகெலும்பிகள் · 4 ஹாக் மீன்கள் · 5 லாம்ப்ரேக்கள் · 6 குருத்தெலும்பு மீன்கள் · 7 எலும்புடைய முதுகெலும்பிகள் · 8 கதிர்த்துடுப்பு மீன்கள் · 9 மடல்துடுப்பு மரபுக்கிளை · 10 நான்கு காலிகள் (மடல்துடுப்பு மரபுக்கிளையின் ஒரு பிரிவு; பிற கிளைகள் காட்டப்படவில்லை).",
       "referenceUrl": "https://openstax.org/books/biology-2e/pages/29-2-fishes",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "376a255f8c67d250080b0b3eb86409b62f045e13a70fbdee0fbf0fe20a85d256"
+      "ownerQaAcceptedSha256": "376a255f8c67d250080b0b3eb86409b62f045e13a70fbdee0fbf0fe20a85d256",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-amphibia-classification-life-cycle",
@@ -505,9 +511,9 @@
       "topicId": "u3-amphibia-classification",
       "page": 3,
       "sectionKey": "reproduction-ecology",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "ef964ec0e3b79971779ce0ed14d64dc01c6166689b2a53765dc087f6a0420f4b"
+      "ownerQaAcceptedSha256": "ef964ec0e3b79971779ce0ed14d64dc01c6166689b2a53765dc087f6a0420f4b",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-rabbit-excretory-system",
@@ -528,9 +534,9 @@
         "6917a4f0f21f0c1e06afca173d2c13038a28b642ae82a097b0ad29792ae4fd0a"
       ],
       "modifications": "1916 Figs 393 and 394 separated at centre and proportionally scaled with contrast adjustment; English urinary-system key placed outside the historical ink. Both genders retained. Reproductive structures explicitly labelled as context.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "7abf4f2b443086b9e323e0f32080da9be71e0eb1449416279ab5bde475430d6b"
+      "ownerQaAcceptedSha256": "7abf4f2b443086b9e323e0f32080da9be71e0eb1449416279ab5bde475430d6b",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-dentition-human-rabbit-dental-formula",
@@ -544,9 +550,9 @@
       "keyEn": "One side of each jaw, upper row above lower row. 1 Adult human: 2.1.2.3 / 2.1.2.3 × 2 = 32. 2 Adult rabbit: 2.0.3.3 / 1.0.2.3 × 2 = 28. The smaller upper incisor is the peg tooth; the gap is the diastema. I incisor, C canine, P premolar, M molar.",
       "keyTa": "ஒவ்வொரு தாடையின் ஒரு பக்கம் மட்டும் காட்டப்பட்டுள்ளது. மேலே மேல் தாடை; கீழே கீழ்த் தாடை. 1 முதிர்ந்த மனிதர்: 32 பற்கள். 2 முதிர்ந்த முயல்: 28 பற்கள். முயலின் மேல் தாடையில் இரண்டாவது வெட்டுப்பல் சிறியது. வெட்டுப்பற்களுக்கும் முன்கடைவாய்ப் பற்களுக்கும் இடையில் பல்லற்ற இடைவெளி உள்ளது. I வெட்டுப்பல், C கோரைப்பல், P முன்கடைவாய்ப்பல், M கடைவாய்ப்பல்.",
       "referenceUrl": "https://vetmed.tamu.edu/ce/wp-content/uploads/sites/41/2019/06/2019-Proceedings-1.pdf",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "9f513dc0c910dfe81febd3bb5e02ebfece5f5e5afcb9109ebfbc20cc8748508f"
+      "ownerQaAcceptedSha256": "9f513dc0c910dfe81febd3bb5e02ebfece5f5e5afcb9109ebfbc20cc8748508f",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-dentition-tooth-types",
@@ -581,9 +587,9 @@
       "topicId": "u5-dentition",
       "page": 1,
       "sectionKey": "tooth-types",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "f4769037610ed1ea2c9c19342d18d9805828976e8fcff8abf3fff61434e7c56c"
+      "ownerQaAcceptedSha256": "f4769037610ed1ea2c9c19342d18d9805828976e8fcff8abf3fff61434e7c56c",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-egg-laying-mammals-monotreme-reproduction",
@@ -642,9 +648,9 @@
       "installedFormat": "PNG",
       "modifications": "Two authentic specimen photographs and one complete 1902 published anatomical panel resized proportionally on new background with English titles and accurate explanatory text; no fictitious eggs, hatchlings, milk teats or anatomical structures drawn.",
       "scope": "Two real monotreme species and a published echidna pouch/mammary anatomical figure, with accurate comparative egg-incubation and milk-feeding explanations; not one documented sequence.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "018d3e2e8c0c4dc4c7edf34cb60fbf92e8446386e9fe765ce09d9d9346a53e6b"
+      "ownerQaAcceptedSha256": "018d3e2e8c0c4dc4c7edf34cb60fbf92e8446386e9fe765ce09d9d9346a53e6b",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-amphibia-classification-living-orders",
@@ -654,7 +660,7 @@
       "sha256": "c870937f5036cbfc69f7a6ed38d427a1a3d6aa1d2756a80805a25e17ee442e33",
       "size": 2271002,
       "author": "AI-generated original (ChatGPT ImageGen)",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_APPROVED_FOR_PROVISIONAL_QA_USE_2026-11-11",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "Generalised adult comparison, not to scale; these are separate living lineages, not developmental stages. A — Anura: frog, adult tail absent, long hind limbs. B — Caudata (Urodela): salamander, four limbs and persistent tail. C — Gymnophiona (Apoda): limbless annulated caecilian. D — Enlarged caecilian head: sensory tentacle between nostril and reduced eye. Not a species-identification plate.",
       "keyTa": "பொதுவான முதிர்நிலை ஒப்பீடு; ஒரே அளவுத்திட்டத்தில் வரையப்படவில்லை. இவை தனித்த வாழும் மரபுகள்; வளர்ச்சி நிலைகள் அல்ல. A — அனுரா: தவளை; முதிர்நிலையில் வால் இல்லை; நீண்ட பின்னங்கால்கள். B — காடேட்டா (யூரோடீலா): சாலமாண்டர்; நான்கு கால்களும் நிலையான வாலும். C — ஜிம்னோஃபியோனா (அபோடா): கால்களற்ற, வளைய மடிப்புகளுடைய சீசிலியன். D — பெரிதாக்கப்பட்ட சீசிலியன் தலை: நாசித்துளைக்கும் சிறிய கண்ணுக்கும் இடையில் உணர்நீட்சி. இனத்தை அடையாளம் காண்பதற்கான படம் அல்ல.",
@@ -668,8 +674,9 @@
       "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
       "aiQaIntegrationNotes": "Adult forms correctly distinguish Anura, Caudata and Gymnophiona. Lettered fourth image is a caecilian head detail; illustrative and not to scale.",
       "aiQaDecisionBasis": "Visual screening + relevant Zoology reference comparison, 2026-11-08; independent Biology/Tamil sign-off still pending",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "c870937f5036cbfc69f7a6ed38d427a1a3d6aa1d2756a80805a25e17ee442e33"
+      "ownerQaAcceptedSha256": "c870937f5036cbfc69f7a6ed38d427a1a3d6aa1d2756a80805a25e17ee442e33",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-adaptive-features-comparative-body-plans",
@@ -679,7 +686,7 @@
       "sha256": "c870937f5036cbfc69f7a6ed38d427a1a3d6aa1d2756a80805a25e17ee442e33",
       "size": 2271002,
       "author": "AI-generated original (ChatGPT ImageGen)",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_APPROVED_FOR_PROVISIONAL_QA_USE_2026-11-11",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "Generalised adult comparison, not to scale; these are separate living lineages, not developmental stages. A — Anura: frog, adult tail absent, long hind limbs. B — Caudata (Urodela): salamander, four limbs and persistent tail. C — Gymnophiona (Apoda): limbless annulated caecilian. D — Enlarged caecilian head: sensory tentacle between nostril and reduced eye. Not a species-identification plate.",
       "keyTa": "பொதுவான முதிர்நிலை ஒப்பீடு; ஒரே அளவுத்திட்டத்தில் வரையப்படவில்லை. இவை தனித்த வாழும் மரபுகள்; வளர்ச்சி நிலைகள் அல்ல. A — அனுரா: தவளை; முதிர்நிலையில் வால் இல்லை; நீண்ட பின்னங்கால்கள். B — காடேட்டா (யூரோடீலா): சாலமாண்டர்; நான்கு கால்களும் நிலையான வாலும். C — ஜிம்னோஃபியோனா (அபோடா): கால்களற்ற, வளைய மடிப்புகளுடைய சீசிலியன். D — பெரிதாக்கப்பட்ட சீசிலியன் தலை: நாசித்துளைக்கும் சிறிய கண்ணுக்கும் இடையில் உணர்நீட்சி. இனத்தை அடையாளம் காண்பதற்கான படம் அல்ல.",
@@ -693,8 +700,9 @@
       "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
       "aiQaIntegrationNotes": "Same shared amphibian-orders PNG; generalised morphology is fit for provisional concept teaching, not species identification.",
       "aiQaDecisionBasis": "Visual screening + relevant Zoology reference comparison, 2026-11-08; independent Biology/Tamil sign-off still pending",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "c870937f5036cbfc69f7a6ed38d427a1a3d6aa1d2756a80805a25e17ee442e33"
+      "ownerQaAcceptedSha256": "c870937f5036cbfc69f7a6ed38d427a1a3d6aa1d2756a80805a25e17ee442e33",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-neoteny-axolotl-development",
@@ -730,9 +738,9 @@
       "topicId": "u3-neoteny",
       "page": 2,
       "sectionKey": "axolotl",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "fcf3c3e327d535e877d5d721eda650185bd20fcee2e383c386c9b75bb73bfa76"
+      "ownerQaAcceptedSha256": "fcf3c3e327d535e877d5d721eda650185bd20fcee2e383c386c9b75bb73bfa76",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-scoliodon-sense-organs-labelled",
@@ -768,9 +776,9 @@
       "topicId": "u2-scoliodon",
       "page": 5,
       "sectionKey": "sense-organs",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "f4772942d441d02589425580a46a312900bd5b6f141cd36f09a8657f0e6e6d91"
+      "ownerQaAcceptedSha256": "f4772942d441d02589425580a46a312900bd5b6f141cd36f09a8657f0e6e6d91",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-rana-external",
@@ -805,9 +813,9 @@
       "topicId": "u3-rana",
       "page": 1,
       "sectionKey": "external-features",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "14aff74ada05aa6282f383a1de954f2c509939449d84c79b9014f61d62ce2940"
+      "ownerQaAcceptedSha256": "14aff74ada05aa6282f383a1de954f2c509939449d84c79b9014f61d62ce2940",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-rana-respiration",
@@ -834,9 +842,9 @@
       "sourceSha256": [
         "30c42b65ea90f17df30d3b7cee0fb9017936285fbcba77feefdfdd1c6f0345ac"
       ],
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "99c7af022ef4ba7b00402f2eeb74e73f35de2771b5cc5babe2a344492c566804"
+      "ownerQaAcceptedSha256": "99c7af022ef4ba7b00402f2eeb74e73f35de2771b5cc5babe2a344492c566804",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-calotes-external",
@@ -889,9 +897,9 @@
         }
       },
       "pedagogicStatus": "REPLACED_WITH_CC_LICENSED_CALOTES_SPECIMEN_PHOTO_QA_PENDING_2026-11-12",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "8439ff408895aaa1eb8f59e2192af79c30a45f81d6186af2f8b2b2664eacaf66"
+      "ownerQaAcceptedSha256": "8439ff408895aaa1eb8f59e2192af79c30a45f81d6186af2f8b2b2664eacaf66",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-rabbit-brain",
@@ -926,9 +934,9 @@
       "topicId": "u5-rabbit",
       "page": 4,
       "sectionKey": "brain",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "d22d4ac27faddb7d40f67123d346f907970c8517539cfcb71313988f0d883a35"
+      "ownerQaAcceptedSha256": "d22d4ac27faddb7d40f67123d346f907970c8517539cfcb71313988f0d883a35",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-flying-mammals-bat-wing-glider-comparison",
@@ -951,13 +959,14 @@
       "visualReview": "SELF_INSPECTED_PROVISIONAL",
       "learnerKeyEn": "Bat wings are formed by a patagium supported by elongated digits and permit powered flight. Flying squirrels are rodents with a gliding membrane between limbs, not true powered-flight wings. Illustrations compare form and function.",
       "learnerKeyTa": "வௌவாலின் நீண்ட விரல் எலும்புகளால் தாங்கப்படும் படாகியம் உண்மையான செயல்திறன் கொண்ட பறத்தலைச் செய்கிறது. பறக்கும் அணில் கொறித்துண்ணிப் பாலூட்டி; அதன் உடற்கால் இடையிலுள்ள சறுக்கிப் பறக்கும் சவ்வு உண்மையான இயக்கப் பறத்தலுக்குரிய இறக்கை அல்ல. அமைப்பும் செயல்பாடும் ஒப்பிடப்பட்டுள்ளன.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "aiGenerated": true,
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
       "independentTamilReview": "PENDING",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "a28bc2f6ea0854067f9e8ab13adc9ccd0a38e34d7cecb9c38a29a6be64d11593"
+      "ownerQaAcceptedSha256": "a28bc2f6ea0854067f9e8ab13adc9ccd0a38e34d7cecb9c38a29a6be64d11593",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-dipnoi-lungfish-comparison",
@@ -1007,9 +1016,9 @@
       "topicId": "u2-dipnoi",
       "page": 3,
       "sectionKey": "affinities",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "1437c11f73c9ee05c0dec553eb9dd670181f6601d17b78796a6fdc6eaba14c31"
+      "ownerQaAcceptedSha256": "1437c11f73c9ee05c0dec553eb9dd670181f6601d17b78796a6fdc6eaba14c31",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-scoliodon-digestive-labelled",
@@ -1048,9 +1057,9 @@
       "retiredSchematicPng": "docs/retired_noninstructional_png/scoliodon_digestive_en.png",
       "retiredSchematicSha256": "57f1bd87ee5ea529eff8bec7ca5ac4a60c2dca1be6afb62daf52ba024741cf17",
       "editorialCaution": "The Houseman inset is Squalus, not Scoliodon. Exact Scoliodon anatomy follows the preserved source original.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "195e816c3f80b1f6dfd494286549b83c7345911e006b5ec1540c4277869f3254"
+      "ownerQaAcceptedSha256": "195e816c3f80b1f6dfd494286549b83c7345911e006b5ec1540c4277869f3254",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u1-vertebrata-characters-vertebrate-anatomy",
@@ -1096,9 +1105,9 @@
           "url": "https://creativecommons.org/licenses/by/2.5/"
         }
       ],
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "f828c226f6d99ab9558f783a61af6e39a35e5205eda569edeace062d2478633b"
+      "ownerQaAcceptedSha256": "f828c226f6d99ab9558f783a61af6e39a35e5205eda569edeace062d2478633b",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-pisces-classification-fish-groups",
@@ -1127,13 +1136,14 @@
       "svgSha256": "68d886142d54a6797443c65ccff5fa75cd5f50ac614af45dffb4c68b96d06e51",
       "learnerKeyEn": "Cartilaginous fishes, ray-finned bony fishes and lobe-finned fishes are contrasted by skeleton, gill-cover condition and fin architecture. Examples illustrate typical features, not universal rules for every member.",
       "learnerKeyTa": "குருத்தெலும்பு மீன்கள், கதிர்த்துடுப்புடைய எலும்பு மீன்கள், சதைத் துடுப்புடைய மீன்கள் ஆகியவற்றின் எலும்புக்கூடு, செவுள் மூடியமைப்பு, துடுப்புக் கட்டமைப்பு ஆகிய பண்புகள் ஒப்பிடப்பட்டுள்ளன. காட்டப்பட்டவை பிரதிநிதி எடுத்துக்காட்டுகள் மட்டுமே.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "aiGenerated": true,
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
       "independentTamilReview": "PENDING",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "54617d2619e40baac973441d064c123a6b63ceb9d39ff7a743dd70ecb42bfef5"
+      "ownerQaAcceptedSha256": "54617d2619e40baac973441d064c123a6b63ceb9d39ff7a743dd70ecb42bfef5",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-scoliodon-external-labelled",
@@ -1168,9 +1178,9 @@
       "taxon": "Rhizoprionodon acutus (Rüppell, 1837)",
       "historicLessonName": "Scoliodon sorrakowah",
       "historicalPlateFigure": "Plate XVIII, Figure 4 only",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "f422a6fedf39b78c3c262eef521242b65e5a7c6c68b5e25869e557c33bfe48f7"
+      "ownerQaAcceptedSha256": "f422a6fedf39b78c3c262eef521242b65e5a7c6c68b5e25869e557c33bfe48f7",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-scoliodon-brain-labelled",
@@ -1209,9 +1219,9 @@
       "sourceKind": "FRITSCH_1878_AUTHENTIC_COMPARATIVE_DOGFISH_BRAIN_PNG",
       "sourceFormat": "PNG",
       "installedFormat": "PNG",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "8d61c1196f020158f865ee0434c66ac70323e3842d874d47dcf23a812f5da9ef"
+      "ownerQaAcceptedSha256": "8d61c1196f020158f865ee0434c66ac70323e3842d874d47dcf23a812f5da9ef",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-accessory-respiration-accessory-organs-comparison",
@@ -1240,13 +1250,14 @@
       "svgSha256": "5b4c17120b673dfab0c4c4c1f30bcf1af5cac1ce8ff83ec216440a1e5e35908c",
       "learnerKeyEn": "Accessory air-breathing adaptations: labyrinth organ of Anabas, arborescent suprabranchial organ of Clarias, air sacs of Heteropneustes and cutaneous/buccopharyngeal gas exchange of mudskippers. Ordinary gill respiration may also continue.",
       "learnerKeyTa": "அனபாஸின் லேபிரிந்த் உறுப்பு, கிளேரியஸின் கிளைபோன்ற மேல்செவுள் உறுப்பு, ஹெட்டரோப்நியூஸ்டஸின் காற்றுப்பைகள், மட்ச்கிப்பரின் தோல் மற்றும் வாய்தொண்டைச் சுவாசம் ஆகிய துணைச் சுவாசத் தழுவல்கள் ஒப்பிடப்பட்டுள்ளன. செவுள் சுவாசமும் தொடரலாம்.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "aiGenerated": true,
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
       "independentTamilReview": "PENDING",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "30c841301b6042eebaf128db033fcaf2542c99cd1b4129609721320a641fa274"
+      "ownerQaAcceptedSha256": "30c841301b6042eebaf128db033fcaf2542c99cd1b4129609721320a641fa274",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-parental-care-parental-care-comparison",
@@ -1275,13 +1286,14 @@
       "svgSha256": "5a8c1f7308d4142d236c8397e797197dce5bbf85b722fbe2eece427c03d99da4",
       "learnerKeyEn": "Examples of parental care in fishes: male stickleback nest building and guarding, buccal brooding in tilapias, and embryo development within the male seahorse brood pouch. Behaviour varies among species.",
       "learnerKeyTa": "மீன்களில் பெற்றோர் பராமரிப்பிற்கான எடுத்துக்காட்டுகள்: ஆண் ஸ்டிக்கில்பேக் மீனின் கூடு அமைத்தலும் பாதுகாத்தலும், திலாப்பியாவில் வாய்க்குள் குஞ்சுகளைப் பராமரித்தல், ஆண் கடற்குதிரையின் அடைகாக்கும் பையில் கருவளர்ச்சி. இனங்களுக்கு இடையே நடத்தையில் வேறுபாடு உண்டு.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "aiGenerated": true,
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
       "independentTamilReview": "PENDING",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "8bbd87a865d337f64e537ea25f8010aea6688abd2424730afb31ef75a686137b"
+      "ownerQaAcceptedSha256": "8bbd87a865d337f64e537ea25f8010aea6688abd2424730afb31ef75a686137b",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u2-economic-importance-fishery-value-chain",
@@ -1308,9 +1320,9 @@
       "sectionKey": "nutrition-livelihood",
       "learningObjective": "Fisheries support nutrition, handling, processing, transport and livelihoods.",
       "svgSha256": "cee0894ce6e9f6df9f658e77ddba6f04d223a552c5fe75189e484cc5cb30f2e6",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "b8e92f0384e194bdea2ea0652937262a5cb1e11fe9bf06a4c0f702d673bc8fda"
+      "ownerQaAcceptedSha256": "b8e92f0384e194bdea2ea0652937262a5cb1e11fe9bf06a4c0f702d673bc8fda",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-origin-devonian-transition",
@@ -1345,9 +1357,9 @@
       "pedagogicStatus": "REPLACED_FROM_LOW_UTILITY_TEACHING_FIGURE_2026-11-12",
       "retiredSchematicPng": "docs/retired_noninstructional_png/devonian_tetrapod_transition_en.png",
       "retiredSchematicSha256": "af54f34a6648dfaef154fb40bbafcb208848ab8a5576709398f62222fb6dc917",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "5ccf005dc7c9729fb40ed4cb9ab7eaedf7f2180904e79417b1fd2858d9e55310"
+      "ownerQaAcceptedSha256": "5ccf005dc7c9729fb40ed4cb9ab7eaedf7f2180904e79417b1fd2858d9e55310",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-rana-arterial-system",
@@ -1378,9 +1390,9 @@
       "sourceSha256": [
         "da91a6de90455f7239bca88e7afff6c92ba164cce3e486ce12822557a6603fec"
       ],
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "899fdfb9b260a20998ec8203e422685e9b42755ce9c94aba74b6106cd4cbb7ed"
+      "ownerQaAcceptedSha256": "899fdfb9b260a20998ec8203e422685e9b42755ce9c94aba74b6106cd4cbb7ed",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-rana-brain",
@@ -1410,9 +1422,9 @@
       "sourceSha256": [
         "78223552f3917374a53ced0e7328de3210329a3f7c6262bb82b42096a981f08a"
       ],
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "444c7eefc643da3fe411eca4965b48fdbd76667ec9be41e2e742ce2bcb7e0b68"
+      "ownerQaAcceptedSha256": "444c7eefc643da3fe411eca4965b48fdbd76667ec9be41e2e742ce2bcb7e0b68",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u3-parental-care-parental-care-comparison",
@@ -1441,13 +1453,14 @@
       "svgSha256": "8053be3b5657205717b711a9dd131521388a9b3d4c6dac46c4d31f1992d7f4cf",
       "learnerKeyEn": "Amphibian parental care: Alytes males carry egg strings, certain tree frogs make leaf nests over water, and some poison-dart frogs transport tadpoles. These are species-specific examples, not traits of all amphibians.",
       "learnerKeyTa": "நீர்நில வாழ்விகளின் பெற்றோர் பராமரிப்பு: அலிடீஸ் ஆண் தவளைகள் முட்டைத் தொடர்களைச் சுமத்தல், சில மரத்தவளைகள் நீருக்கு மேலே இலைக்கூடு அமைத்தல், சில விஷஅம்புத் தவளைகள் தலைப்பிரட்டைகளை எடுத்துச் செல்லுதல் ஆகியவை இனத்திற்குரிய எடுத்துக்காட்டுகளாகும்.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "aiGenerated": true,
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
       "independentTamilReview": "PENDING",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "dac94c5386b213c8dc104c8d85cd62c72cbbb994c92bf9ae531e23465dfc67d9"
+      "ownerQaAcceptedSha256": "dac94c5386b213c8dc104c8d85cd62c72cbbb994c92bf9ae531e23465dfc67d9",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-reptilia-classification-living-reptile-orders",
@@ -1485,9 +1498,9 @@
       "sourceFormat": "JPEG",
       "installedFormat": "PNG",
       "sourceKind": "PETTER_BOECKMAN_2012_REAL_FOUR_ORDER_REPTILE_MONTAGE_CC_BY_SA_3",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "8f47ff3fb6091fa531ade3b33affce65c7ff28d76eacbd7685da8098fb547a8d"
+      "ownerQaAcceptedSha256": "8f47ff3fb6091fa531ade3b33affce65c7ff28d76eacbd7685da8098fb547a8d",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-calotes-digestive-system",
@@ -1504,7 +1517,7 @@
         "https://tamildigitallibrary.in/assets/docs/uploads/primary_files/book/TVA_BOK_0001362_Zoology.pdf"
       ],
       "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "Calotes digestive tract: buccal cavity, pharynx, oesophagus, stomach, intestine, rectum and cloaca; liver, gall bladder and pancreas are accessory organs. The in-situ organ relationships are instructional and not a dissection-scale map.",
       "learnerKeyEn": "Calotes digestive tract: buccal cavity, pharynx, oesophagus, stomach, intestine, rectum and cloaca; liver, gall bladder and pancreas are accessory organs. The in-situ organ relationships are instructional and not a dissection-scale map.",
@@ -1523,8 +1536,9 @@
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
       "independentTamilReview": "PENDING",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "5da6f592cd726621ff5df240ebb506d9dc7142d95c03e6bfc99d89eede55834b"
+      "ownerQaAcceptedSha256": "5da6f592cd726621ff5df240ebb506d9dc7142d95c03e6bfc99d89eede55834b",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-calotes-respiratory-system",
@@ -1542,7 +1556,7 @@
         "https://books.google.com/books?id=t4o_AAAAYAAJ"
       ],
       "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "Calotes respiratory system: glottis, trachea, bronchi and paired lungs. Ventilation principally involves rib and body-wall movements; lizards do not have the mammalian muscular diaphragm. Internal lung architecture is schematic.",
       "learnerKeyEn": "Calotes respiratory system: glottis, trachea, bronchi and paired lungs. Ventilation principally involves rib and body-wall movements; lizards do not have the mammalian muscular diaphragm. Internal lung architecture is schematic.",
@@ -1564,8 +1578,9 @@
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
       "independentTamilReview": "PENDING",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "5f63ba851ba074880db5ddecf044c24490173327903b9435e793f63f874eeae4"
+      "ownerQaAcceptedSha256": "5f63ba851ba074880db5ddecf044c24490173327903b9435e793f63f874eeae4",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-calotes-arterial-system",
@@ -1603,8 +1618,9 @@
       "independentTamilReview": "PENDING",
       "scientificRiskHold": "MATERIAL_ARTERIAL_TOPOLOGY_ERROR",
       "scientificVisualFinding": "Panel B blue-purple pulmonary-trunk base visually meets red systemic-aortic descent, implying a pulmonary-systemic connection; the pulmonary outflow should be traced independently from cavum pulmonale to lungs. Compare Jensen et al. 2013 (PMC3673951) and lizard cardiovascular anatomy. Do not infer species-specific carotid/subclavian connections from the schematic.",
-      "ownerQaAcceptance": "OWNER_EXCLUDED_MATERIAL_ARTERIAL_TOPOLOGY_ERROR_2026-11-13",
-      "ownerQaApprovalNotes": "Excluded from owner acceptance: materially misleading pulmonary-to-systemic arterial topology. Preserve original until accurate replacement verified."
+      "ownerQaApprovalNotes": "Excluded from owner acceptance: materially misleading pulmonary-to-systemic arterial topology. Preserve original until accurate replacement verified.",
+      "ownerQaDisplayDecision": "HOLD_MATERIAL_ANATOMY_ERROR",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-calotes-brain",
@@ -1621,7 +1637,7 @@
         "https://www.hansrajcollege.ac.in/hCPanel/uploads/elearning/elearning_document/comparative_Nervous_Syst_Vertebrate_Life_Sciences_1yr_PDF.pdf"
       ],
       "modifications": "New original AI-assisted 1536×1024 RGB PNG; original pixels preserved, no cropping, trace, upscale or post-generation redraw; replaced prior vector-schematic PNG",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_APPROVED_FOR_PROVISIONAL_QA_USE_2026-11-11",
       "reviewStatus": "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
       "keyEn": "Dorsal-view AI illustration, numbered: 1 olfactory bulbs and tracts; 2 cerebral hemispheres; 3 optic lobes; 4 cerebellum; 5 medulla oblongata; 6 spinal cord. Species-specific lobe proportions are NOT verified by dissection and require independent Zoology review.",
       "learnerKeyEn": "Dorsal brain view: 1 olfactory bulbs and tracts; 2 cerebral hemispheres; 3 optic lobes; 4 cerebellum; 5 medulla oblongata; 6 spinal cord. The relative proportions are schematic.",
@@ -1638,8 +1654,9 @@
       "aiQaIntegrationDecision": "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
       "aiQaIntegrationNotes": "Main dorsal brain regions correctly identified at conceptual scale; omitted pineal/diencephalon details and simplified proportions need later review.",
       "aiQaDecisionBasis": "Visual screening + relevant Zoology reference comparison, 2026-11-08; independent Biology/Tamil sign-off still pending",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "a9d3136b213c96e62bc5cb45742474b325d9dbb8185502ed7e24bb1a4f3c3030"
+      "ownerQaAcceptedSha256": "a9d3136b213c96e62bc5cb45742474b325d9dbb8185502ed7e24bb1a4f3c3030",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-origin-extinct-extinct-groups",
@@ -1664,7 +1681,7 @@
       "page": 2,
       "sectionKey": "extinct-lineages",
       "learningObjective": "Pareiasaurs, pterosaurs and non-avian dinosaurs are distinct extinct lineages.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "aiGenerated": true,
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
@@ -1674,8 +1691,9 @@
       "sourceFormat": "AI-generated PNG",
       "learnerKeyEn": "Pareiasaurs, pterosaurs and non-avian dinosaurs are distinct extinct lineages.",
       "learnerKeyTa": "அழிந்துபோன ஊர்வனவற்றின் பல பரிணாமக் கிளைகளில் பாரையாசார்கள், ப்டெரோசார்கள், பறவையல்லாத டைனோசர்கள் ஆகியவை வெவ்வேறு குழுக்களாகும்.",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "c36f69163bd291ee663f54c1575e6de3dd52caa80d6990cdb5bd81b02a367f18"
+      "ownerQaAcceptedSha256": "c36f69163bd291ee663f54c1575e6de3dd52caa80d6990cdb5bd81b02a367f18",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-snakes-india-big-four-identification",
@@ -1726,9 +1744,9 @@
         "https://creativecommons.org/licenses/by-sa/4.0/"
       ],
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "60e62f263f46f4a475ad2ed91fc729d3c0c7f2e7eafc3a448e2c9b5cab048705"
+      "ownerQaAcceptedSha256": "60e62f263f46f4a475ad2ed91fc729d3c0c7f2e7eafc3a448e2c9b5cab048705",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-poison-apparatus-venom-apparatus",
@@ -1764,9 +1782,9 @@
       "sourceFormat": "JPEG",
       "installedFormat": "PNG",
       "sourceKind": "NICHOLSON_1874_AUTHENTIC_COBRA_VENOM_PLATE_PNG",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "e148ff90ecfe32060f019a60aa09e5ab512317dd1d0a6d9e1da8b2b4bf3c81af"
+      "ownerQaAcceptedSha256": "e148ff90ecfe32060f019a60aa09e5ab512317dd1d0a6d9e1da8b2b4bf3c81af",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u4-poison-apparatus-first-aid-flowchart",
@@ -1794,9 +1812,9 @@
       "sectionKey": "evidence-based-first-aid",
       "learningObjective": "Immobilise, remove tight items and transport promptly; no tourniquets, incision or suction.",
       "svgSha256": "ef08bed905d6616dd512011a212bbd3c1ef27c87605d53b482f20105fb4bbfa2",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "1ace57d4694bace1b0da1e5f41b2693a99bb50429f7699f18e4a3377debf52a7"
+      "ownerQaAcceptedSha256": "1ace57d4694bace1b0da1e5f41b2693a99bb50429f7699f18e4a3377debf52a7",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-aves-classification-bird-lineages",
@@ -1823,9 +1841,9 @@
       "sectionKey": "modern-classification",
       "learningObjective": "Palaeognathae includes ratites and tinamous; Neognathae includes most birds.",
       "svgSha256": "ababb4e7be25d656c5c2f6e3c8ade331f75c7098e9cdbc072a23d6ddde7ee81c",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "ce2378fa9c28026090f2b895a930a46a6e9d62135ac0b11ab61da080666cfb25"
+      "ownerQaAcceptedSha256": "ce2378fa9c28026090f2b895a930a46a6e9d62135ac0b11ab61da080666cfb25",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-columba-external",
@@ -1860,9 +1878,9 @@
       "sourceFormat": "JPEG",
       "installedFormat": "PNG",
       "sourceKind": "AUTHENTIC_1873_ROCK_PIGEON_ZOOLOGICAL_PLATE_CONVERTED_TO_PNG",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "38d10a35534d7b1a7f1d0d80c400248e069ad07a0fc3bb6c8f0367f18afb5b01"
+      "ownerQaAcceptedSha256": "38d10a35534d7b1a7f1d0d80c400248e069ad07a0fc3bb6c8f0367f18afb5b01",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-columba-urinogenital",
@@ -1888,7 +1906,7 @@
       "page": 3,
       "sectionKey": "urinogenital-system",
       "learningObjective": "Males: paired testes; females: left ovary and oviduct; normally no urinary bladder.",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaAcceptance": "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12",
       "aiGenerated": true,
       "ai10RecoveredFromLibrary": true,
       "independentBiologyReview": "PENDING",
@@ -1898,8 +1916,9 @@
       "sourceFormat": "AI-generated PNG",
       "learnerKeyEn": "Male pigeon: paired testes and vasa deferentia. Female pigeon: the functional left ovary and left oviduct. Both sexes have paired kidneys, ureters and a cloaca; a urinary bladder is absent. The AI illustration is an anatomical teaching aid subject to independent review.",
       "learnerKeyTa": "ஆண் புறாவில் இணை விரைகளும் விந்துக்குழாய்களும் உள்ளன. பெண் புறாவில் செயல்படும் இடது அண்டகமும் இடது அண்டநாளமும் உள்ளன. இருபாலிலும் இணைச் சிறுநீரகங்கள், சிறுநீர்க்குழாய்கள், பொதுக்கழிவறை (க்ளோயக்கா) உள்ளன; சிறுநீர்ப்பை இல்லை. இந்தக் கற்பித்தல் விளக்கப்படத்தின் உடற்கூறியல் நிபுணர் மதிப்பாய்வு நிலுவையில் உள்ளது.",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "f0678127364b73f72dff3a857aa61a0fae56715003c1805d86606ad679630404"
+      "ownerQaAcceptedSha256": "f0678127364b73f72dff3a857aa61a0fae56715003c1805d86606ad679630404",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-columba-sense-organs",
@@ -1951,9 +1970,9 @@
         1050,
         710
       ],
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "3873ea66a86d85407e9a120f78b267c4b31f61b6ae59e8a30f5c6408dcdf1a29"
+      "ownerQaAcceptedSha256": "3873ea66a86d85407e9a120f78b267c4b31f61b6ae59e8a30f5c6408dcdf1a29",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-flight-adaptations-wing-aerodynamics",
@@ -1980,9 +1999,9 @@
       "sectionKey": "wing-aerodynamics",
       "learningObjective": "Lift involves circulation, deflection of airflow, pressure and wing angle of attack.",
       "svgSha256": "bd773222bd66837571907053ada51309fa4cf6e275c293a1475e95cfb1c31412",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "7021e9247f61ba90587567bcbeadc3b0dea05e74ada0adf39cc393cf338a20bf"
+      "ownerQaAcceptedSha256": "7021e9247f61ba90587567bcbeadc3b0dea05e74ada0adf39cc393cf338a20bf",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-flight-adaptations-flight-muscles",
@@ -2024,9 +2043,9 @@
         "https://creativecommons.org/licenses/by-sa/2.5/"
       ],
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "3b424eb0227d3b770035b062c22aa5e4923b7f3195a096f39de17154a0c58d50"
+      "ownerQaAcceptedSha256": "3b424eb0227d3b770035b062c22aa5e4923b7f3195a096f39de17154a0c58d50",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-bird-migration-flyway-stopovers",
@@ -2053,9 +2072,9 @@
       "sectionKey": "migration-patterns",
       "learningObjective": "Seasonal routes often require wetland stopovers; not every bird migrates.",
       "svgSha256": "09c528176c02b123509528d1e7af48ebdea20c233e48a6eda3dd536f2d1999de",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "bc124ea5859a9284988730a49c264489df4c065d3a5d07127057777a9cb79268"
+      "ownerQaAcceptedSha256": "bc124ea5859a9284988730a49c264489df4c065d3a5d07127057777a9cb79268",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-mammalia-classification-mammal-lineages",
@@ -2082,9 +2101,9 @@
       "sectionKey": "living-mammal-lineages",
       "learningObjective": "Monotremes lay eggs; marsupials and placentals are distinct therian lineages.",
       "svgSha256": "a3f8f65bc124e3e4dc7570fdca2ee80681523cfb53322376fd1ce9079a55c4b9",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "86f40d17432f9376f5f1fa3e1e1060f60957448e3d649c71fc98ebfb076cc575"
+      "ownerQaAcceptedSha256": "86f40d17432f9376f5f1fa3e1e1060f60957448e3d649c71fc98ebfb076cc575",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-rabbit-external",
@@ -2118,9 +2137,9 @@
       "sourceFormat": "JPEG",
       "installedFormat": "PNG",
       "sourceKind": "VERIFIED_WERNER_1824_ORIGINAL_RABBIT_JPEG_TO_PNG",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "9a5c6e1a7870bbebb42725604ce05d96820a5fc3ae35efdbe0970639609a0f7c"
+      "ownerQaAcceptedSha256": "9a5c6e1a7870bbebb42725604ce05d96820a5fc3ae35efdbe0970639609a0f7c",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-rabbit-sense-organs",
@@ -2159,9 +2178,9 @@
       "sourceKind": "REAL_DOMESTIC_RABBIT_SPECIMEN_ANNOTATED_PNG",
       "sourceFormat": "JPEG",
       "installedFormat": "PNG",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "868ca1fa8803f902e8cbea393de70141365d7ed932d0136749651114bb95ced9"
+      "ownerQaAcceptedSha256": "868ca1fa8803f902e8cbea393de70141365d7ed932d0136749651114bb95ced9",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-marsupials-marsupial-life-history",
@@ -2202,9 +2221,9 @@
         "https://creativecommons.org/licenses/by-sa/4.0/"
       ],
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "36a23af112b64db609f732bbcdb789e231717f2c798694336fb67578259b6a0a"
+      "ownerQaAcceptedSha256": "36a23af112b64db609f732bbcdb789e231717f2c798694336fb67578259b6a0a",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     },
     {
       "diagramId": "u5-aquatic-mammals-aquatic-mammal-groups",
@@ -2266,9 +2285,9 @@
       ],
       "sourceKind": "FOUR_AUTHENTIC_AQUATIC_MAMMAL_PHOTOGRAPHS_CC_LICENSED",
       "installedFormat": "PNG",
-      "ownerQaAcceptance": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
-      "ownerQaAcceptanceScope": "Allows educational QA display with minor imperfections; does not assert independent Zoology, Tamil, provenance or app-store approval.",
-      "ownerQaAcceptedSha256": "491c242f293c2ed2f2f77a73a73b551b673215e8787237d1b819771e451f31ab"
+      "ownerQaAcceptedSha256": "491c242f293c2ed2f2f77a73a73b551b673215e8787237d1b819771e451f31ab",
+      "ownerQaDisplayDecision": "OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13",
+      "ownerQaDisplayScope": "Owner authorised provisional educational display only; independent scientific, Tamil, and licence decisions are separate."
     }
   ],
   "status": "PROVISIONAL_QA_NOT_ACADEMICALLY_APPROVED",
