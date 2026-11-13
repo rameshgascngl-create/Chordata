@@ -3540,6 +3540,170 @@
           "url": "https://www.cms.int/en/legalinstrument/central-asian-flyway"
         }
       ]
+    },
+    {
+      "id": "mammalia-classification-undergraduate",
+      "topicId": "u5-mammalia-classification",
+      "title": {
+        "en": "Mammalia — diagnostic anatomy, synapsid origins and modern classification",
+        "ta": "பாலூட்டிகள் — வரையறுக்கும் உடற்கூறு, சினாப்சிட் தோற்றம் மற்றும் நவீன வகைப்பாடு"
+      },
+      "sections": [
+        {
+          "key": "synapsid-mammals",
+          "heading": {
+            "en": "Mammalian origins and synapsid evolutionary ancestry",
+            "ta": "பாலூட்டிகளின் தோற்றமும் சினாப்சிட் பரிணாம உறவும்"
+          },
+          "body": {
+            "en": "Mammalia is a lineage of synapsid amniotes whose origins involve a long sequence of changes in jaw articulation, teeth, auditory bones, posture and physiology. Synapsida separated from the sauropsid lineage in deep amniote history and later included therapsids and cynodont relatives of mammals. Modern mammals did not evolve from living lizards, and the historic term 'mammal-like reptiles' for many stem synapsids obscures the branching relationships. Fossil characters such as differentiated teeth and the dentary–squamosal jaw joint help reconstruct crown-mammal origins, although these features did not all arise simultaneously. Monotremes, marsupials and placental mammals share a mammalian common ancestor but have distinct reproductive histories. An explanatory timeline must distinguish early synapsids, mammaliaforms and the crown group Mammalia; a fossil that combines old and derived features is not necessarily a proven direct ancestor.",
+            "ta": "பாலூட்டிகள் (Mammalia) அம்னியோட்டுகளில் சினாப்சிட் (Synapsida) மரபுக்குழுவைச் சார்ந்தவை. தாடை மூட்டு, பற்கள், நடுச்செவி எலும்புகள், உடல் நிலை, உடலியல் ஆகியவை நீண்ட பரிணாம வரலாற்றில் மாற்றமடைந்தன. சினாப்சிட் கிளை ஊர்வன–பறவை சார்ந்த சௌரோப்சிட் கிளையிலிருந்து தொடக்கத்தில் பிரிந்தது. இன்று வாழும் பல்லிகளிலிருந்து பாலூட்டிகள் நேரடியாக உருவானவை அல்ல. பழைய நூல்களின் ‘பாலூட்டி போன்ற ஊர்வன’ என்ற சொல் மரபுவழித் தொடர்பைத் தவறாகப் புரியச் செய்யலாம். டென்டரி–ஸ்குவாமோசல் தாடை மூட்டு, வேறுபட்ட பற்கள் போன்ற புதைபடிவச் சான்றுகள் முக்கியம். தொடக்க சினாப்சிட்கள், மம்மாலியாஃபார்ம்ஸ், நவீன பாலூட்டிகள் ஆகிய நிலைகளை ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "diagnostic-mammalian",
+          "heading": {
+            "en": "Hair, mammary glands, jaw joint and middle-ear ossicles",
+            "ta": "மயிர், பால்சுரப்பி, தாடை மூட்டு மற்றும் நடுச்செவி எலும்புகள்"
+          },
+          "body": {
+            "en": "Hair and mammary glands are central mammalian traits even when hair is sparse in adults, as in many whales. Milk nourishes offspring, but nipples are absent in monotremes; milk is secreted onto skin or specialised mammary patches. The lower jaw is formed predominantly by a single dentary on each side, articulating with the squamosal region of the skull. The three middle-ear ossicles—malleus, incus and stapes—are characteristic of living mammals; evolutionary transformations involved former jaw elements. Many mammals have differentiated incisors, canines, premolars and molars, but functional tooth loss or modification occurs in numerous lineages. Sweat, sebaceous, scent and mammary glands show extensive diversity. A morphological diagnosis should combine these derived structures instead of asserting that all mammals have fur, external pinnae, live births or permanent four-limbed locomotion.",
+            "ta": "பாலூட்டிகளில் மயிரும் பால்சுரப்பிகளும் முக்கியப் பண்புகள்; திமிங்கிலங்கள் போன்ற சிலவற்றின் வளர்ந்த நிலையில் மயிர் மிகக் குறைவாக இருக்கலாம். குட்டிகளுக்குப் பால் வழங்கப்படுகிறது; மோனோட்ரீம்களில் வழக்கமான முலைக்காம்புகள் இல்லை. கீழ்த்தாடையின் ஒவ்வொரு பக்கமும் பெரும்பாலும் டென்டரி (dentary) எலும்பால் அமைந்து ஸ்குவாமோசல் பகுதியுடன் மூட்டாகிறது. நடுச்செவியில் மாலியஸ், இன்கஸ், ஸ்டேப்பிஸ் என மூன்று சிறிய எலும்புகள் உள்ளன. வெட்டுப்பற்கள், கோரைப்பற்கள், முன்கடைவாய்ப்பற்கள், கடைவாய்ப்பற்கள் பல இனங்களில் வேறுபட்டுள்ளன; சில இனங்களில் பற்கள் இழக்கப்பட்டுள்ளன. எல்லாப் பாலூட்டிகளும் உயிர்க்குஞ்சுகளை மட்டுமே ஈனுகின்றன அல்லது வெளிச்செவிமடல் கொண்டுள்ளன என்று கூற முடியாது."
+          }
+        },
+        {
+          "key": "physiology-reproduction",
+          "heading": {
+            "en": "Endothermy, diaphragm, placenta and metabolic diversity",
+            "ta": "உள் வெப்ப உருவாக்கம், உதரவிதானம், நஞ்சுக்கொடி மற்றும் உடலியல் பன்மை"
+          },
+          "body": {
+            "en": "Mammals generally produce metabolic heat internally and regulate temperature with insulation, circulation, evaporative cooling and behaviour. Their muscular diaphragm provides an important ventilation mechanism, but respiratory patterns and lung capacity vary among terrestrial, flying and diving forms. A four-chambered heart separates pulmonary and systemic circulation, and mature erythrocytes in most mammals lack nuclei. Reproduction includes egg laying in monotremes and live birth in most other living mammals. Marsupials and eutherians both have placental interactions in development, though the organisation, duration and relative postnatal investment differ. Endothermy does not guarantee an invariant body temperature: torpor and hibernation can substantially reduce metabolism. Students should distinguish characteristics of the entire class from specialisations of a family or order and avoid assuming all mammals share the same gestation or lactation pattern.",
+            "ta": "பாலூட்டிகள் பொதுவாக உடலுக்குள் வளர்சிதை மாற்ற வெப்பத்தை உருவாக்கி மயிர், இரத்த ஓட்டம், ஆவியாதல், நடத்தை ஆகியவற்றால் ஒழுங்குபடுத்துகின்றன. தசையாலான உதரவிதானம் (diaphragm) சுவாசத்தில் முக்கிய பங்கு வகிக்கிறது. நான்கு அறை இதயம் நுரையீரல் மற்றும் உடல் இரத்த ஓட்டங்களைப் பிரிக்கிறது. பெரும்பாலான பாலூட்டிகளின் முதிர்ந்த சிவப்பணுக்களில் உட்கரு இல்லை. மோனோட்ரீம்கள் முட்டையிடுகின்றன; பிற வாழும் பாலூட்டிகளில் பெரும்பாலும் உயிர்க்குஞ்சு ஈனுதல் நிகழ்கிறது. மார்சூப்பியல்கள், யூதீரியன்கள் இரண்டிலும் கருவுக்கும் தாய்க்கும் இடையேயான பரிமாற்ற அமைப்புகள் இருக்கலாம்; அவற்றின் அமைப்பும் வளர்ச்சி காலமும் மாறுகின்றன. சில பாலூட்டிகளில் டார்பர், குளிர்நிலைச் செயல்மந்தம் நிகழ்வதால் உடல்வெப்பம் எப்போதும் மாறாதது அல்ல."
+          }
+        },
+        {
+          "key": "monotremes-therians",
+          "heading": {
+            "en": "Monotremata, Metatheria and Eutheria",
+            "ta": "மோனோட்ரீம்கள், மெட்டாதீரியா மற்றும் யூதீரியா"
+          },
+          "body": {
+            "en": "Three major living mammalian branches are traditionally taught as monotremes, marsupials and eutherian or placental mammals. Monotremes (platypuses and echidnas) lay eggs and nourish hatched young with milk. Metatheria encompasses marsupials and close fossil relatives; living marsupials generally give birth to highly undeveloped young that subsequently receive extended lactational care, often but not universally in a pouch. Eutheria comprises placental mammals with extensive prenatal maternal–embryonic exchange. Marsupials and eutherians together form Theria, sharing closer ancestry with one another than with monotremes. This framework is phylogenetic, not an evolutionary ranking from inferior egg layers to superior placenta-bearing mammals. A comparison table should show reproductive mode, stage at birth or hatching, maternal provisioning and diagnostic skeletal characters for named representative species.",
+            "ta": "வாழும் பாலூட்டிகள் பொதுவாக மோனோட்ரீம்கள், மார்சூப்பியல்கள், யூதீரியன்கள் என மூன்று பெரிய குழுக்களாகக் கற்பிக்கப்படுகின்றன. பிளாட்டிபஸ், எகிட்னா போன்ற மோனோட்ரீம்கள் முட்டையிட்டு பின்னர் குட்டிகளுக்குப் பாலூட்டுகின்றன. மெட்டாதீரியா (Metatheria) குழுவில் மார்சூப்பியல்களும் அவற்றின் புதைபடிவ உறவினர்களும் உள்ளனர்; வளர்ச்சி குறைந்த நிலையில் பிறக்கும் குட்டிகளுக்கு நீண்டகாலப் பாலூட்டல் வழங்கப்படுகிறது. எல்லா மார்சூப்பியல்களிலும் முழுமையான பை இருப்பதில்லை. யூதீரியா (Eutheria) குழுவில் நஞ்சுக்கொடி சார்ந்த கருவளர்ச்சி மேம்பட்டுள்ளது. மெட்டாதீரியா, யூதீரியா இணைந்து தீரியா (Theria) ஆகும். இவற்றை ‘கீழ்நிலை முதல் மேல்நிலை’ என வரிசைப்படுத்துவது பரிணாம விளக்கம் அல்ல."
+          }
+        },
+        {
+          "key": "placental-clades",
+          "heading": {
+            "en": "Major placental clades and representative orders",
+            "ta": "நஞ்சுக்கொடி பாலூட்டிகளின் முக்கியக் கிளைகளும் வரிசைகளும்"
+          },
+          "body": {
+            "en": "Modern placental phylogenetics recognises broad lineages including Afrotheria, Xenarthra, Euarchontoglires and Laurasiatheria, though finer relationships and nomenclature continue to be examined. Afrotheria includes elephants, hyraxes and sirenians; Xenarthra includes sloths, armadillos and anteaters. Euarchontoglires includes primates, rodents and lagomorphs, while Laurasiatheria encompasses bats, carnivorans, pangolins, perissodactyls and cetartiodactyls, among others. Whales belong within Cetartiodactyla and are closely related to hippopotamuses, rather than forming a wholly separate branch from all hoofed mammals. A rabbit is a lagomorph, not a rodent; its dental formula and extra upper incisors provide useful diagnostic differences. Similar adaptations, such as underwater swimming or insect eating, can evolve in unrelated orders. An academic classification should connect orders with clades rather than group everything by diet or body shape.",
+            "ta": "நவீன நஞ்சுக்கொடி பாலூட்டிகளின் பெரிய மரபுக்கிளைகளில் அஃப்ரோதீரியா (Afrotheria), செனார்த்ரா (Xenarthra), யூஆர்கொண்டோக்ளைர்ஸ் (Euarchontoglires), லௌராசியாதீரியா (Laurasiatheria) ஆகியவை அடங்குகின்றன. யானை, ஹைராக்ஸ், கடற்பசு போன்றவை அஃப்ரோதீரியா தொடர்புடையவை. சோம்பேறி விலங்கு, ஆர்மடிலோ, எறும்புண்ணி செனார்த்ராவைச் சார்ந்தவை. மனிதக் குரங்குகள், கொறித்துண்ணிகள், முயல்கள் போன்றவை யூஆர்கொண்டோக்ளைர்ஸ் கிளைக்குள் உள்ளன. வௌவால்கள், நாய்–பூனை உறவினர்கள், திமிங்கிலங்கள் உள்ளிட்டவை லௌராசியாதீரியா கிளைகளில் உள்ளன. திமிங்கிலங்கள் நீர்வாழ்வினாலும் குளம்புடைய பாலூட்டி உறவிலிருந்து முற்றிலும் பிரிந்தவை அல்ல. முயல் கொறித்துண்ணி (Rodentia) அல்ல; லாகோமார்ஃபா (Lagomorpha) வரிசையைச் சேர்ந்தது."
+          }
+        },
+        {
+          "key": "classification-practical",
+          "heading": {
+            "en": "Comparative character matrix and responsible study",
+            "ta": "ஒப்பீட்டுப் பண்பு அட்டவணையும் நெறியான ஆய்வும்"
+          },
+          "body": {
+            "en": "An undergraduate practical can compare museum-quality figures of platypus, kangaroo, rabbit, bat and whale using integument, jaw structure, teeth, reproductive mode, limb modification, external ear features and ecology. A phylogenetic classification should identify which characters are homologous and which result from convergent adaptation: bat and bird wings perform similar functions but differ in their structures and histories. The male platypus spur, marsupial brood pouch, bat wing membrane and whale flipper are species- or lineage-specific features, not universal mammalian traits. Record taxon and source for each anatomical plate. The evolutionary account should begin with synapsid origins, explain diagnostic mammalian characters and then present modern clades without confusing diet-based categories with ancestry. Avoid intrusive collection of protected mammals, and mark extrapolations from captive models as such.",
+            "ta": "இளங்கலைச் செய்முறையில் பிளாட்டிபஸ், கங்காரு, முயல், வௌவால், திமிங்கிலம் ஆகியவற்றின் உறுதிப்படுத்தப்பட்ட உடற்கூறுப் படங்களை ஒப்பிடலாம். மயிர், தாடை மூட்டு, பற்கள், இனப்பெருக்க முறை, கால்களின் மாற்றம், வெளிச்செவி, வாழிடம் ஆகிய பண்புகளை அட்டவணைப்படுத்த வேண்டும். வௌவால் இறக்கையும் பறவை இறக்கையும் பறப்புக்கு உதவினாலும் அவற்றின் அமைப்பு, பரிணாம வரலாறு வேறுபடுகின்றன. பிளாட்டிபஸின் ஆண் குதிமுள், மார்சூப்பியல் பை, வௌவால் இறக்கைத் தோல், திமிங்கிலத்தின் துடுப்பு ஆகியவை எல்லாப் பாலூட்டிகளுக்கும் பொதுவானவை அல்ல. ஒவ்வொரு படத்திற்கும் இனம் மற்றும் ஆதாரம் குறிப்பிட வேண்டும். பாதுகாக்கப்பட்ட உயிரிகளைக் களப்பயிற்சிக்காகச் சேகரிக்கக்கூடாது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Mammals",
+          "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals"
+        }
+      ]
+    },
+    {
+      "id": "egg-laying-mammals-undergraduate",
+      "topicId": "u5-egg-laying-mammals",
+      "title": {
+        "en": "Egg-laying mammals — monotreme anatomy, reproduction and evolutionary significance",
+        "ta": "முட்டையிடும் பாலூட்டிகள் — மோனோட்ரீம் உடற்கூறு, இனப்பெருக்கம் மற்றும் பரிணாம முக்கியத்துவம்"
+      },
+      "sections": [
+        {
+          "key": "monotremata-overview",
+          "heading": {
+            "en": "Monotremata, extant diversity and biogeography",
+            "ta": "மோனோட்ரீம்களின் பன்மையும் புவியியல் பரவலும்"
+          },
+          "body": {
+            "en": "Monotremata is an egg-laying mammalian order represented by the platypus Ornithorhynchus anatinus and echidnas, including short-beaked and long-beaked forms. Extant monotremes are confined to Australia and New Guinea and their adjacent regional habitats. They share key mammalian characters, including fur, milk production and three middle-ear ossicles, while retaining egg laying and a cloaca. The term monotreme refers to a common terminal opening for digestive, urinary and reproductive tracts, but the internal anatomy differs among sexes and taxa. Monotremes are neither transitional reptiles nor unfinished mammals: they are a distinct living mammalian branch with specialised evolution. A comparison must distinguish platypus, short-beaked echidna and a named long-beaked echidna, because combining anatomical features from separate species can create a scientifically impossible composite illustration.",
+            "ta": "மோனோட்ரீமாட்டா (Monotremata) என்பது முட்டையிடும் பாலூட்டிகளின் வரிசை. பிளாட்டிபஸ் Ornithorhynchus anatinus, குறுமூக்கு எகிட்னா, நீள்மூக்கு எகிட்னா போன்றவை இதில் அடங்குகின்றன. இன்று வாழும் மோனோட்ரீம்கள் ஆஸ்திரேலியா, நியூகினி பகுதிகளில் காணப்படுகின்றன. மயிர், பால்சுரப்பு, மூன்று நடுச்செவி எலும்புகள் போன்ற பாலூட்டிப் பண்புகள் உள்ளன; அதேவேளை முட்டையிடுதலும் பொதுக் கழிவுநுழைவாயிலும் உள்ளன. இவை ‘முழுமையாக வளராத பாலூட்டிகள்’ அல்ல; தனித்த பரிணாமக் கிளை. பிளாட்டிபஸ், குறுமூக்கு எகிட்னா, நீள்மூக்கு எகிட்னாவின் பண்புகளை ஒன்றாகக் கலந்த கற்பனைப் படம் உருவாக்கக்கூடாது."
+          }
+        },
+        {
+          "key": "platypus-anatomy",
+          "heading": {
+            "en": "Platypus structure, electroreception and aquatic feeding",
+            "ta": "பிளாட்டிபஸ் உடற்கூறும் மின் உணர்வும் நீர்வாழ் உணவுண்ணலும்"
+          },
+          "body": {
+            "en": "The platypus has a broad sensitive bill, dense water-resistant fur, webbed feet and a flattened tail. Its bill contains specialised mechanoreceptors and electroreceptors that help locate aquatic prey, especially when vision, hearing and smell are restricted underwater. The bill is not structurally identical to a duck's beak even though the superficial outlines resemble one another. Adults lack functional teeth and grind food with keratinous pads, while developmental tooth structures are present at earlier stages. Male platypuses possess a venom-associated spur on a hindlimb that has a role in breeding-season interactions; it should not be depicted as a snake-like fang in the mouth. Underwater propulsion depends primarily on coordinated forelimb movements, with hindlimbs and tail contributing to steering. A correct anatomical plate must label bill, feet, tail, mammary region and male spur without inventing a permanent abdominal pouch.",
+            "ta": "பிளாட்டிபஸில் அகன்ற புலனுணர்வு மிகுந்த மூக்குத்தட்டு, அடர்ந்த நீர்ப்புகாத மயிர், விரலிடைத் தோலுடைய கால்கள், தட்டையான வால் காணப்படுகின்றன. மூக்குத்தட்டில் உள்ள தொடு உணர்விகளும் மின்உணர்விகளும் நீரில் இரையை அறிய உதவுகின்றன. தோற்றத்தில் வாத்தின் அலகை ஒத்திருந்தாலும் அதன் உடற்கூறு ஒன்றல்ல. வளர்ந்த நிலையில் வழக்கமான செயல்படும் பற்கள் இல்லை; உணவை அரைக்க கெரட்டின் தகடுகள் உதவுகின்றன. ஆண் பிளாட்டிபஸின் பின்னங்காலில் நஞ்சுத்தொடர்புடைய முள் உள்ளது; அது வாய்ப்பல் அல்ல. நீந்துவதில் முன்கால்கள் முக்கியம், பின்னங்காலும் வாலும் திசைமாற்றத்திற்கு உதவுகின்றன. பிளாட்டிபஸுக்கு நிரந்தர வயிற்றுப் பை உள்ளது என்று வரையக்கூடாது."
+          }
+        },
+        {
+          "key": "echidna-structure",
+          "heading": {
+            "en": "Echidna spines, feeding apparatus and movement",
+            "ta": "எகிட்னாவின் முட்கள், உணவுண்ணும் கருவி மற்றும் இயக்கம்"
+          },
+          "body": {
+            "en": "Echidnas are terrestrial monotremes with dense spines that are modified hairs, an elongated snout and a protrusible tongue used to feed on ants, termites or other invertebrates depending on the species. Their limbs and claws are adapted to digging, and they may shelter in burrows or ground cover. Short-beaked and long-beaked echidnas differ in distribution, snout proportions and feeding ecology. Although the common term 'spiny anteater' is used, echidnas are not closely related to placental anteaters and the resemblance reflects convergent insectivory. Their reproductive anatomy, seasonal behaviour and maternal pouch-like structures also differ from those of platypuses. A comparison should show an echidna's spine-bearing integument and digging limb next to a separate platypus plate, with explicit captions and no invented common swimming lifestyle.",
+            "ta": "எகிட்னாக்களில் மயிரிலிருந்து மாற்றமடைந்த உறுதியான முட்கள், நீண்ட முகப்பகுதி, வெளிநீட்டக்கூடிய நாக்கு உள்ளன. இனத்திற்கேற்ப எறும்பு, கரையான் மற்றும் பிற முதுகெலும்பிலிகளை உண்கின்றன. கால்களும் நகங்களும் மண்ணைக் கிளறுவதற்கு ஏற்றவை. குறுமூக்கு, நீள்மூக்கு எகிட்னாக்களின் பரவல், உணவு, முகவடிவம் வேறுபடும். ‘முள் எறும்புண்ணி’ என்ற பொதுப்பெயர் இருந்தாலும் நஞ்சுக்கொடி பாலூட்டியான எறும்புண்ணியுடன் நெருங்கிய மரபுவழி உறவு இல்லை; ஒத்த உணவுக்கேற்ற தகவமைப்பு இது. எகிட்னாவை பிளாட்டிபஸ் போன்ற முழுமையான நீர்வாழ் பாலூட்டியாகக் காட்டக்கூடாது. முட்கள், தோண்டுவதற்கேற்ற நகங்கள், நாக்கு ஆகியவை தெளிவாகப் படத்தில் இருக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "reproductive-egg",
+          "heading": {
+            "en": "Fertilisation, egg laying, incubation and embryonic membranes",
+            "ta": "கருத்தரித்தல், முட்டையிடல், அடைகாத்தல் மற்றும் கருச் சவ்வுகள்"
+          },
+          "body": {
+            "en": "Monotremes undergo internal fertilisation and produce relatively small, soft- or leathery-shelled eggs with amniotic membranes. Embryos receive yolk nutrition before hatching, and the eggs may be retained internally for part of development before being laid. The precise timing and incubation location differ between platypuses and echidnas. Female platypuses establish nesting burrows and incubate eggs there; echidnas can carry an egg in a temporary abdominal brood pouch that develops during the reproductive season. An echidna's pouch is not equivalent to the permanent marsupial pouch of many kangaroos. The freshly hatched young are very undeveloped and depend on prolonged milk feeding. A scientifically valid sequence illustrates eggs and hatchlings of one named species, rather than mixing a platypus adult with an echidna egg-in-pouch photograph as if they form one chronological life cycle.",
+            "ta": "மோனோட்ரீம்களில் உட்கருத்தரித்தல் நடைபெறுகிறது; மென்மையான அல்லது தோல் போன்ற ஓடுடைய அம்னியோட்டிக் முட்டைகள் இடப்படுகின்றன. கரு மஞ்சட்கரு ஊட்டத்தைப் பயன்படுத்துகிறது; முட்டைகள் உடலுக்குள் ஒரு பகுதி வளர்ச்சியை முடித்த பின் வெளியிடப்படலாம். பெண் பிளாட்டிபஸ் நிலவளையில் கூடு அமைத்து முட்டைகளை அடைகாக்கிறது. எகிட்னாவில் இனப்பெருக்கக் காலத்தில் உருவாகும் தற்காலிக வயிற்றுப் பைக்குள் முட்டையை வைத்திருக்கலாம். எகிட்னாவின் தற்காலிகப் பை கங்காருவின் நிரந்தர பைக்கு ஒப்பானது அல்ல. வெளிவரும் குட்டிகள் இன்னும் வளர்ச்சியடையாதவை; நீண்டகாலம் பால் தேவைப்படுகின்றது. ஒரு இனத்தின் வாழ்க்கைச் சுழற்சிப் படத்தில் மற்றொரு இனத்தின் முட்டை அல்லது குஞ்சுப் புகைப்படத்தை இணைக்கக்கூடாது."
+          }
+        },
+        {
+          "key": "lactation-and-care",
+          "heading": {
+            "en": "Mammary glands without nipples and care of hatchlings",
+            "ta": "முலைக்காம்பில்லாத பால்சுரப்பிகளும் குஞ்சு பராமரிப்பும்"
+          },
+          "body": {
+            "en": "Female monotremes produce milk from mammary glands but lack conventional nipples. The milk is released onto specialised skin areas or hair where newly hatched young obtain nourishment. This is unequivocally mammalian lactation, not an intermediate reptilian secretion, and demonstrates that nipples are not necessary for milk production. Platypus and echidna young differ in how they are sheltered and fed, so claims about a permanent pouch in every monotreme are incorrect. Lactation composition and duration vary during development and are subjects of physiological research. The young must develop sensory and locomotor abilities before becoming independent. In anatomical illustrations mark the mammary area, body region of the offspring and actual maternal structure, while distinguishing milk secretion from direct placental transfer. Avoid rendering a monotreme with human-like or marsupial teats.",
+            "ta": "பெண் மோனோட்ரீம்களில் பால்சுரப்பிகள் உள்ளன; ஆனால் வழக்கமான முலைக்காம்புகள் இல்லை. சிறப்பான தோற்பரப்பு அல்லது மயிர் வழியாக வெளியேறும் பாலை குஞ்சுகள் பெறுகின்றன. இது பாலூட்டிகளுக்குரிய உண்மையான பால்சுரப்பு; ஊர்வனச் சுரப்பின் இடைநிலை அல்ல. பிளாட்டிபஸ், எகிட்னா குட்டிகளைப் பாதுகாக்கும் இடமும் உணவளிக்கும் முறையும் வேறுபடும். எல்லா மோனோட்ரீம்களிலும் நிரந்தரப் பை உள்ளது என்பது தவறு. பால் அமைப்பும் ஊட்டக்காலமும் வளர்ச்சி நிலையின்படி மாறலாம். படத்தில் பால்சுரக்கும் தோற்பகுதி, குஞ்சின் நிலை, தாயின் உண்மையான உடற்பகுதி ஆகியவற்றைத் தெளிவாகக் காட்ட வேண்டும்; மனிதர் போன்ற முலைக்காம்புகள் சேர்க்கக்கூடாது."
+          }
+        },
+        {
+          "key": "evolution-and-conservation",
+          "heading": {
+            "en": "Monotreme evolution, conservation and comparison with therian mammals",
+            "ta": "மோனோட்ரீம் பரிணாமம், பாதுகாப்பு மற்றும் தீரியன் பாலூட்டிகளுடன் ஒப்பீடு"
+          },
+          "body": {
+            "en": "Monotremes retain egg laying but possess diverse derived mammalian features, offering important comparative evidence about mammalian reproduction and sensory evolution. Their existence does not mean that they are unchanged ancestors of marsupials or placental mammals. Their lineage has continued to evolve, producing specialised aquatic electroreception, digging behaviours and distinctive developmental programmes. Population threats vary among species and may include habitat change, altered waterways, introduced predators and climatic pressures. In a type-study comparison, distinguish egg laying, cloacal anatomy, mammary patches, skull features and ecological specialisations from the live-bearing strategies of therians. An academic plate should use verified species photographs and anatomical references rather than an appealing symbolic life cycle. The final conclusion must explain both shared mammalian homologies and independently evolved monotreme characteristics.",
+            "ta": "மோனோட்ரீம்கள் முட்டையிடும் முறையைக் கொண்டிருந்தாலும் பல சிறப்பான பாலூட்டிப் பண்புகள் உள்ளன. இவை மார்சூப்பியல் அல்லது நஞ்சுக்கொடி பாலூட்டிகளின் மாறாத நேரடி மூதாதைகள் அல்ல; தனித்துவமான பரிணாம வரலாற்றைக் கொண்டவை. பிளாட்டிபஸின் மின்உணர்வு, எகிட்னாவின் குழிதோண்டும் தகவமைப்பு போன்றவை அந்தந்த கிளைகளில் வளர்ந்தவை. வாழிட மாற்றம், நீர்வழிப் பாதிப்பு, அயல் உயிரிகள், பருவநிலை அழுத்தம் ஆகியவை சில இனங்களுக்கு அச்சுறுத்தலாக இருக்கலாம். ஒப்பீட்டு அட்டவணையில் முட்டையிடுதல், பொதுக் கழிவுநுழைவாயில், பால்சுரப்பித் தோற்பகுதி, தலையோடு, வாழிடப் பண்புகள் ஆகியவற்றைக் குறிப்பிட வேண்டும். எல்லா படங்களுக்கும் சரியான இனப்பெயரும் நம்பகமான ஆதாரமும் அவசியம்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Monotremes",
+          "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals"
+        }
+      ]
     }
   ]
 }
