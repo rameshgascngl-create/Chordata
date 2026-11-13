@@ -53,8 +53,14 @@ calotes_heart = next(x for x in fs if x['diagramId'] == 'u4-calotes-arterial-sys
 assert calotes_heart['lang'] == 'en'
 assert calotes_heart['sha256'] == '2c3406c9def947bc61c22203aaa424ce8c9b7133eddd6d0a3163511340d5f7a3'
 assert calotes_heart['size'] == 2285032
-assert calotes_heart['visualReview'] == 'AI_RECONSTRUCTION_QA_PROVISIONAL_ACCEPT_MINOR_COSMETIC_ERRORS'
-assert calotes_heart['pedagogicStatus'] == 'REPLACED_WITH_AI_ASSISTED_ANATOMICAL_SCHEMATIC_QA_PENDING_2026-11-12'
+# A direct visual audit found a material vascular connection error:
+# the illustrated pulmonary trunk appears continuous with the dorsal aorta.
+# Keep original binary/provenance intact but fail if a future edit silently
+# clears the scientific hold without replacing/reviewing the figure.
+assert calotes_heart['visualReview'] == 'SCIENTIFIC_HOLD_REPLACEMENT_REQUIRED'
+assert calotes_heart['scientificRiskHold'] == 'MATERIAL_ARTERIAL_TOPOLOGY_ERROR'
+assert calotes_heart['pedagogicStatus'] == 'WITHHELD_MATERIAL_ARTERIAL_TOPOLOGY_ERROR_2026-11-13'
+assert 'pulmonary' in calotes_heart['scientificVisualFinding'].lower()
 assert calotes_heart['reviewStatus'].startswith('PROVISIONAL_')
 assert calotes_heart['independentBiologyReview'] == 'PENDING'
 assert calotes_heart['independentTamilReview'] == 'PENDING'
@@ -74,7 +80,7 @@ verified_source_replacement_ids = {
 rejected = [x for x in fs if x.get('pedagogicStatus') ==
             'WITHHELD_BIOLOGICALLY_NON_INSTRUCTIVE_2026-11-12']
 assert {x['diagramId'] for x in rejected} == remaining_noninstructional_ids, (
-    'Only the rejected Calotes heart diagram may remain withheld')
+    'Unexpected rejected teaching figure beyond explicitly held Calotes heart')
 assert len(rejected) == 0
 assert all(x.get('visualReview') == 'USER_REJECTED_REPLACEMENT_REQUIRED'
            and x.get('pedagogicReason') and x.get('reviewStatus', '').startswith('PROVISIONAL_')
@@ -157,7 +163,7 @@ for oldpath, oldhash in (
     assert hashlib.sha256(original.read_bytes()).hexdigest() == marine[oldhash]
 assert marine['retiredSchematicSha256'] == 'a330620a0fb6d62fab65caf6c79fd50ee24a686c83bc3a49b034623bfbc987c3'
 assert all(word in marine['keyEn'] for word in ('Cetacea', 'Sirenia', 'Pinnipedia', 'Mustelidae', 'NOT one taxonomic order'))
-print('PASS: Provisional Calotes anatomical reconstruction, sourced aquatic-mammal photos, and retired source hashes verified')
+print('PASS: Calotes material-topology hold, sourced aquatic-mammal photos, and retired source hashes verified')
 
 # Rendering shows English-labelled plates in English and Tamil, with shared fallback.
 for id,languages in byid.items():
