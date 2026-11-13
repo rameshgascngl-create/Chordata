@@ -181,6 +181,18 @@ jobs:
             gradle --no-daemon :app:connectedDebugAndroidTest
             python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
             python3 scripts/audit_native_16kb.py app/build/outputs/apk/debug/app-debug.apk
+            # Exercise R8/minified QA on an actual running emulator, not just
+            # a successful compilation. Install after the 33 debug UI tests.
+            gradle --no-daemon :app:assembleCompactQa
+            compact=app/build/outputs/apk/compactQa/app-compactQa.apk
+            test -s "$compact"
+            python3 scripts/audit_built_apk_assets.py "$compact"
+            python3 scripts/audit_native_16kb.py "$compact"
+            adb uninstall in.gasc.zoology.chordata >/dev/null || true
+            adb install "$compact"
+            adb shell am start -W -n in.gasc.zoology.chordata/.MainActivity
+            sleep 3
+            adb shell pidof in.gasc.zoology.chordata
             mkdir -p build/qa-screenshots
             adb pull /sdcard/Pictures/ChordataQA build/qa-screenshots
       - name: Upload emulator screenshot and instrumented test evidence
@@ -265,12 +277,29 @@ jobs:
             echo 'QA_SIGNING_MODE=persistent' >> "$GITHUB_ENV"
             echo 'Persistent QA signing identity restored from encrypted secrets.'
           fi
-      - name: Build QA APK after all test gates pass
-        run: gradle --no-daemon :app:assembleDebug
+      - name: Build standard and compact QA APKs after all test gates pass
+        run: gradle --no-daemon :app:assembleDebug :app:assembleCompactQa
       - name: Verify committed figure hashes and 16KiB native alignment inside gated APK
         run: |
           python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk
           python3 scripts/audit_native_16kb.py app/build/outputs/apk/debug/app-debug.apk
+          python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/compactQa/app-compactQa.apk
+          python3 scripts/audit_native_16kb.py app/build/outputs/apk/compactQa/app-compactQa.apk
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --print-certs app/build/outputs/apk/compactQa/app-compactQa.apk
+          python3 - <<'PY'
+          import hashlib, zipfile
+          from pathlib import Path
+          full = Path("app/build/outputs/apk/debug/app-debug.apk")
+          compact = Path("app/build/outputs/apk/compactQa/app-compactQa.apk")
+          with zipfile.ZipFile(full) as original, zipfile.ZipFile(compact) as reduced:
+              assets = [n for n in original.namelist() if n.startswith("assets/") and not n.endswith("/")]
+              reduced_assets = [n for n in reduced.namelist() if n.startswith("assets/") and not n.endswith("/")]
+              assert set(assets) == set(reduced_assets), "Compressed QA build removed/added lesson or image assets"
+              for name in assets:
+                  assert hashlib.sha256(original.read(name)).digest() == hashlib.sha256(reduced.read(name)).digest(), f"Asset bytes changed: {name}"
+          assert compact.stat().st_size < full.stat().st_size, "R8 build does not reduce installed APK size"
+          print(f"PASS: {len(assets)} byte-identical assets; compact APK {compact.stat().st_size:,} versus {full.stat().st_size:,} bytes")
+          PY
       - name: Report QA signing certificate without exposing a key
         shell: bash
         run: |
@@ -287,5 +316,12 @@ jobs:
         with:
           name: Chordata_Parker_Pigeon_Tested_QA_APK
           path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
+      - name: Publish byte-for-byte content-preserving compact QA APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chordata_Compact_QA_APK
+          path: app/build/outputs/apk/compactQa/app-compactQa.apk
           if-no-files-found: error
           retention-days: 14
