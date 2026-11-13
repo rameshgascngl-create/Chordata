@@ -484,10 +484,10 @@ class ReaderNavigationTest {
         val circulation = chapter.sections.single { it.key == "cardiac-chambers-and-flow" }
         org.junit.Assert.assertTrue(circulation.body.en.contains("cavum arteriosum"))
         org.junit.Assert.assertTrue(circulation.body.en.contains("cavum pulmonale"))
-        org.junit.Assert.assertTrue(circulation.body.ta.contains("இதயக்கீழறை"))
+        org.junit.Assert.assertTrue(circulation.body.ta.contains("ஒரே கீழறை"))
         org.junit.Assert.assertTrue(chapter.sections.single {
             it.key == "arteries-veins-and-portals"
-        }.body.en.contains("right and left systemic aortic arches"))
+        }.body.en.contains("right and left systemic arches"))
         org.junit.Assert.assertTrue(chapter.sections.single {
             it.key == "teeth-tongue-prey-capture"
         }.body.en.contains("pleurodont"))

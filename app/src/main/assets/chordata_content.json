@@ -158,7 +158,7 @@
               },
               "body": {
                 "en": "The five classical chordate characters are a notochord, dorsal hollow nerve cord, pharyngeal slits, endostyle or thyroid-related structure, and a post-anal tail. These characters need not all persist in the adult. Their occurrence during an appropriate developmental stage is important.",
-                "ta": "முதுகுநாண், முதுகுப்புறக் குழலான நரம்புநாண், தொண்டைப் பிளவுகள், எண்டோஸ்டைல் அல்லது அதனுடன் தொடர்புடைய தைராய்டு அமைப்பு, மலவாயிற்குப் பின்புற வால் ஆகியவை முதுகுநாணிகளின் முக்கிய அடையாளப் பண்புகளாகும். இப்பண்புகள் அனைத்தும் வளர்ந்த உயிரியில் தொடர்ந்து காணப்பட வேண்டியதில்லை. கருவளர்ச்சி அல்லது இளர்வி நிலையில் இவற்றின் தோற்றமும் வகைப்பாட்டிற்கு முக்கிய ஆதாரமாகக் கருதப்படுகிறது."
+                "ta": "முதுகுநாண், முதுகுப்புறக் குழல் நரம்புநாண், தொண்டைப் பிளவுகள், எண்டோஸ்டைல் அல்லது அதனுடன் தொடர்புடைய தைராய்டு அமைப்பு, மலவாயிற்குப் பின்புற வால் ஆகியவை முதுகுநாணிகளின் முக்கிய அடையாளப் பண்புகளாகும். இப்பண்புகள் அனைத்தும் வளர்ந்த உயிரியில் தொடர்ந்து காணப்பட வேண்டியதில்லை. கருவளர்ச்சி அல்லது இளநிலையில் இவற்றின் தோற்றமும் வகைப்பாட்டிற்கு முக்கிய ஆதாரமாகக் கருதப்படுகிறது."
               }
             },
             {
@@ -211,7 +211,7 @@
               "correctIndex": 0,
               "explanation": {
                 "en": "The dorsal hollow nerve cord is a defining chordate feature.",
-                "ta": "முதுகுப்புறக் குழலான நரம்புநாண் முதுகுநாணிகளின் முக்கிய அடையாளப் பண்பாகும்."
+                "ta": "முதுகுப்புறக் குழல் நரம்புநாண் முதுகுநாணிகளின் முக்கிய அடையாளப் பண்பாகும்."
               }
             },
             {
@@ -303,7 +303,7 @@
               },
               "body": {
                 "en": "The pharyngeal slits of hemichordates resemble an important chordate feature, but their stomochord is not a true notochord. Their larval and molecular characters show especially strong ties with echinoderms within Ambulacraria. Therefore resemblance to chordates does not justify inclusion in Chordata.",
-                "ta": "அரைநாணிகளில் காணப்படும் தொண்டைப் பிளவுகள் முதுகுநாணிகளின் ஒரு முக்கியப் பண்பை நினைவூட்டுகின்றன. ஆனால் இவற்றின் ஸ்டோமோகார்டு உண்மையான முதுகுநாணுக்கு ஒத்தமூல அமைப்பு அல்ல. இளர்வி நிலை மற்றும் மூலக்கூறு ஆய்வுகள் முட்தோலிகளுடனான நெருங்கிய உறவை வெளிப்படுத்துகின்றன. எனவே சில உடற்கூறு ஒற்றுமைகளை மட்டுமே கொண்டு இவற்றை முதுகுநாணிகள் தொகுதிக்குள் சேர்க்க இயலாது."
+                "ta": "அரைநாணிகளில் காணப்படும் தொண்டைப் பிளவுகள் முதுகுநாணிகளின் ஒரு முக்கியப் பண்பை நினைவூட்டுகின்றன. ஆனால் இவற்றின் ஸ்டோமோகார்டு உண்மையான முதுகுநாணுக்கு ஒத்தமூல அமைப்பு அல்ல. இளநிலை மற்றும் மூலக்கூறு ஆய்வுகள் முட்தோலிகளுடனான நெருங்கிய உறவை வெளிப்படுத்துகின்றன. எனவே சில உடற்கூறு ஒற்றுமைகளை மட்டுமே கொண்டு இவற்றை முதுகுநாணிகள் தொகுதிக்குள் சேர்க்க இயலாது."
               }
             },
             {
@@ -422,22 +422,22 @@
               "key": "tadpole-larva",
               "heading": {
                 "en": "Ascidian tadpole larva",
-                "ta": "ஆசிடியாவின் தலைப்பிரட்டை போன்ற இளர்வி"
+                "ta": "அசிடியாவின் தலைப்பிரட்டை போன்ற இளநிலை"
               },
               "body": {
-                "en": "The free-swimming ascidian larva has a notochord and dorsal nerve cord confined mainly to its tail. Adhesive papillae permit settlement on a suitable substratum. Larval features demonstrate the animal’s chordate affinity even though many of these features are reduced during adult metamorphosis.",
-                "ta": "ஆசிடியாவின் நீந்திச் செல்லும் இளர்வி தலைப்பிரட்டை போன்ற வடிவமுடையது. அதன் வால் பகுதியில் முதுகுநாணும் முதுகுப்புற நரம்புநாணும் தெளிவாகக் காணப்படுகின்றன. ஒட்டும் பாப்பில்லாக்கள் பொருத்தமான தளத்தில் நிலைத்திருக்க உதவுகின்றன. வளர்ந்த ஆசிடியாவில் இப்பண்புகளில் பல குறைந்தாலும் இளர்வியின் உடலமைப்பு அதன் முதுகுநாணித் தொடர்பை விளக்குகிறது."
+                "en": "The notochord is confined to the tail of the typical free-swimming ascidian tadpole larva. Its dorsal neural tube includes a caudal nerve cord and an anterior sensory vesicle. Adhesive papillae permit settlement on a suitable substratum. Larval features demonstrate the animal’s chordate affinity even though many of these features are reduced during adult metamorphosis.",
+                "ta": "அசிடியாவின் நீந்திச் செல்லும் இளநிலை தலைப்பிரட்டை போன்ற வடிவமுடையது. முதுகுநாண் வால் பகுதியில் மட்டுமே காணப்படுகிறது. முதுகுப்புற நரம்புக் குழாயின் முன்பகுதியில் உணர்வுப் பையும் வால் பகுதியில் நரம்புநாணும் உள்ளன. ஒட்டும் பாப்பில்லாக்கள் பொருத்தமான தளத்தில் நிலைத்திருக்க உதவுகின்றன. வளர்ந்த அசிடியாவில் இப்பண்புகளில் பல குறைந்தாலும் இளநிலையின் உடலமைப்பு அதன் முதுகுநாணித் தொடர்பை விளக்குகிறது."
               }
             },
             {
               "key": "adult-feeding",
               "heading": {
                 "en": "Adult organisation and feeding",
-                "ta": "வளர்ந்த ஆசிடியாவின் உடலமைப்பும் உணவெடுத்தலும்"
+                "ta": "வளர்ந்த அசிடியாவின் உடலமைப்பும் உணவெடுத்தலும்"
               },
               "body": {
                 "en": "Adult Ascidia is a sessile marine filter feeder enclosed by a tunic. Water enters the oral or incurrent siphon and passes through the perforated pharyngeal basket. Ciliary currents and endostyle mucus trap particles, while filtered water leaves through the atrial or excurrent siphon.",
-                "ta": "வளர்ந்த ஆசிடியா கடலில் ஒரே இடத்தில் ஒட்டிவாழும் வடிகட்டி உணவு உண்ணும் உயிரியாகும். அதன் உடலை டியூனிக் என்னும் வெளிப்புற உறை சூழ்ந்துள்ளது. நீர் உள்வாங்கு சைஃபன் வழியாக நுழைந்து துளைகள் உள்ள தொண்டைக் கூடையை அடைகிறது. சிலியாவின் நீரோட்டமும் எண்டோஸ்டைல் சளிச் சுரப்பும் உணவுத் துகள்களைப் பிடிக்க உதவுகின்றன. வடிகட்டப்பட்ட நீர் வெளியேற்றுச் சைஃபன் வழியே வெளியேறுகிறது."
+                "ta": "வளர்ந்த அசிடியா கடலில் ஒரே இடத்தில் ஒட்டிவாழும் வடிகட்டி உணவு உண்ணும் உயிரியாகும். அதன் உடலை டியூனிக் என்னும் வெளிப்புற உறை சூழ்ந்துள்ளது. நீர் உள்வாங்கு சைஃபன் வழியாக நுழைந்து துளைகள் உள்ள தொண்டைக் கூடையை அடைகிறது. சிலியாவின் நீரோட்டமும் எண்டோஸ்டைல் சளிச் சுரப்பும் உணவுத் துகள்களைப் பிடிக்க உதவுகின்றன. வடிகட்டப்பட்ட நீர் வெளியேற்றுச் சைஃபன் வழியே வெளியேறுகிறது."
               }
             },
             {
@@ -448,7 +448,7 @@
               },
               "body": {
                 "en": "During metamorphosis the ascidian larva loses most of its tail, notochord and extensive larval nerve structures, while the adult feeding apparatus becomes prominent. This is traditionally called retrogressive metamorphosis; it describes anatomical reduction rather than reversal of evolution.",
-                "ta": "ஆசிடியா இளர்வி வளர்ந்த உயிரியாக மாறும்போது வால் பகுதியும் அதிலுள்ள முதுகுநாணும் பல இளர்வி நரம்பு அமைப்புகளும் குறைந்து மறைகின்றன. அதே நேரத்தில் உணவு வடிகட்ட உதவும் தொண்டைக் கூடை பெரிதாக வளர்கிறது. இம்மாற்றம் பின்னடைவுத் தோற்றமாற்றம் என்று அழைக்கப்படுகிறது. இச்சொல் உறுப்புகள் குறைவதைக் குறிக்குமே தவிர பரிணாமம் பின்னோக்கிச் செல்கிறது என்று பொருள் கொள்ளக்கூடாது."
+                "ta": "அசிடியா இளநிலை வளர்ந்த உயிரியாக மாறும்போது வால் பகுதியும் அதிலுள்ள முதுகுநாணும் பல இளநிலை நரம்பு அமைப்புகளும் குறைந்து மறைகின்றன. அதே நேரத்தில் உணவு வடிகட்ட உதவும் தொண்டைக் கூடை பெரிதாக வளர்கிறது. இம்மாற்றம் பின்னடைவுத் தோற்றமாற்றம் என்று அழைக்கப்படுகிறது. இச்சொல் உறுப்புகள் குறைவதைக் குறிக்குமே தவிர பரிணாமம் பின்னோக்கிச் செல்கிறது என்று பொருள் கொள்ளக்கூடாது."
               }
             }
           ],
@@ -456,7 +456,7 @@
             {
               "question": {
                 "en": "Where is the notochord located in the ascidian larva?",
-                "ta": "ஆசிடியா இளர்வியில் முதுகுநாண் பெரும்பாலும் எங்கு உள்ளது?"
+                "ta": "அசிடியாவின் தலைப்பிரட்டை போன்ற இளநிலையில் முதுகுநாண் எப்பகுதியில் காணப்படுகிறது?"
               },
               "options": [
                 {
@@ -473,19 +473,19 @@
                 },
                 {
                   "en": "Tail",
-                  "ta": "வால்"
+                  "ta": "வால் பகுதியில்"
                 }
               ],
               "correctIndex": 3,
               "explanation": {
-                "en": "The ascidian larval notochord is mainly restricted to the tail.",
-                "ta": "ஆசிடியாவின் இளர்வி முதுகுநாண் பெரும்பாலும் வால் பகுதியிலேயே காணப்படுகிறது."
+                "en": "The notochord is confined to the tail of the typical ascidian tadpole larva.",
+                "ta": "அசிடியாவின் தலைப்பிரட்டை போன்ற இளநிலையில் முதுகுநாண் வால் பகுதியில் மட்டுமே உள்ளது."
               }
             },
             {
               "question": {
                 "en": "Which structure assists particle capture in adult Ascidia?",
-                "ta": "வளர்ந்த ஆசிடியாவில் உணவுத் துகள்களைப் பிடிக்க உதவும் அமைப்பு எது?"
+                "ta": "வளர்ந்த அசிடியாவில் உணவுத் துகள்களைப் பிடிக்க உதவும் அமைப்பு எது?"
               },
               "options": [
                 {
@@ -514,7 +514,7 @@
             {
               "question": {
                 "en": "What best describes ascidian metamorphosis?",
-                "ta": "ஆசிடியாவின் தோற்றமாற்றத்தைச் சரியாக விளக்குவது எது?"
+                "ta": "அசிடியாவின் தோற்றமாற்றத்தைச் சரியாக விளக்குவது எது?"
               },
               "options": [
                 {
@@ -527,7 +527,7 @@
                 },
                 {
                   "en": "Reduction of larval tail structures",
-                  "ta": "இளர்வி வால் உறுப்புகள் குறைதல்"
+                  "ta": "இளநிலை வால் உறுப்புகள் குறைதல்"
                 },
                 {
                   "en": "Development of an exoskeleton",
@@ -537,7 +537,7 @@
               "correctIndex": 2,
               "explanation": {
                 "en": "Adult tunicates lose prominent larval chordate structures during metamorphosis.",
-                "ta": "தோற்றமாற்றத்தில் இளர்வியின் முக்கிய முதுகுநாணிப் பண்புகளில் பல குறைந்து மறைகின்றன."
+                "ta": "தோற்றமாற்றத்தில் இளநிலையின் முக்கிய முதுகுநாணிப் பண்புகளில் பல குறைந்து மறைகின்றன."
               }
             }
           ],
@@ -599,7 +599,7 @@
                 },
                 {
                   "en": "Ascidia",
-                  "ta": "ஆசிடியா"
+                  "ta": "அசிடியா"
                 },
                 {
                   "en": "Balanoglossus",
@@ -661,7 +661,7 @@
                 },
                 {
                   "en": "Vertebral column",
-                  "ta": "முதுகெலும்புத்தொடர்"
+                  "ta": "முதுகெலும்புத் தொடர்"
                 },
                 {
                   "en": "Dorsal nerve cord",
@@ -671,7 +671,7 @@
               "correctIndex": 2,
               "explanation": {
                 "en": "Amphioxus lacks a vertebral column despite retaining a persistent notochord.",
-                "ta": "ஆம்பியாக்சஸில் முதுகுநாண் நிலைத்திருந்தாலும் உண்மையான முதுகெலும்புத்தொடர் காணப்படாது."
+                "ta": "ஆம்பியாக்சஸில் முதுகுநாண் நிலைத்திருந்தாலும் உண்மையான முதுகெலும்புத் தொடர் காணப்படாது."
               }
             }
           ],
@@ -758,7 +758,7 @@
               "options": [
                 {
                   "en": "Only as larvae",
-                  "ta": "இளர்வி நிலையில் மட்டும்"
+                  "ta": "இளநிலையில் மட்டும்"
                 },
                 {
                   "en": "No",
@@ -951,7 +951,7 @@
           "id": "u1-agnatha",
           "title": {
             "en": "Agnatha: Petromyzon, Ammocoetus larva",
-            "ta": "தாடையற்ற முதுகெலும்பிகள்: Petromyzon, Ammocoetes இளர்வி"
+            "ta": "தாடையற்ற முதுகெலும்பிகள்: Petromyzon, Ammocoetes இளநிலை"
           },
           "sections": [
             {
@@ -969,11 +969,11 @@
               "key": "ammocoetes",
               "heading": {
                 "en": "Ammocoetes larval stage",
-                "ta": "அம்மோசீட்டீஸ் இளர்வி நிலை"
+                "ta": "அம்மோசீட்டீஸ் இளநிலை"
               },
               "body": {
                 "en": "The ammocoete is the burrowing filter-feeding larva of lampreys. It has a hooded mouth, endostyle and an extended larval period in sediment. During metamorphosis, major changes occur in oral feeding apparatus, eyes and associated organs, while the endostyle transforms into thyroid tissue.",
-                "ta": "அம்மோசீட்டீஸ் என்பது லாம்ப்ரேயின் மணலுக்குள் துளையிட்டு வாழும் வடிகட்டி உணவு உண்ணும் இளர்வி ஆகும். வாயைச் சுற்றிய மூடி போன்ற பகுதியும் எண்டோஸ்டைலும் இதில் காணப்படுகின்றன. நீண்ட இளர்விப் பருவத்திற்குப் பின் தோற்றமாற்றம் நடைபெறுகிறது. அப்போது வாய், கண்கள் மற்றும் உணவெடுக்கும் உறுப்புகளில் பெரும் மாற்றங்கள் ஏற்படுகின்றன. எண்டோஸ்டைல் தைராய்டு திசுவாக மாற்றமடைகிறது."
+                "ta": "அம்மோசீட்டீஸ் என்பது லாம்ப்ரேயின் மணலுக்குள் துளையிட்டு வாழும் வடிகட்டி உணவு உண்ணும் இளநிலை ஆகும். வாயைச் சுற்றிய மூடி போன்ற பகுதியும் எண்டோஸ்டைலும் இதில் காணப்படுகின்றன. நீண்ட இளநிலைப் பருவத்திற்குப் பின் தோற்றமாற்றம் நடைபெறுகிறது. அப்போது வாய், கண்கள் மற்றும் உணவெடுக்கும் உறுப்புகளில் பெரும் மாற்றங்கள் ஏற்படுகின்றன. எண்டோஸ்டைல் தைராய்டு திசுவாக மாற்றமடைகிறது."
               }
             },
             {
@@ -984,7 +984,7 @@
               },
               "body": {
                 "en": "Ammocoetes resembles lancelets in some feeding features, but it is not itself an ancestral amphioxus or a direct picture of the earliest vertebrate. Its value is comparative: larval anatomy and thyroid differentiation help reconstruct how chordate feeding structures diversified.",
-                "ta": "அம்மோசீட்டீஸ் இளர்வியின் வடிகட்டி உணவெடுக்கும் முறை ஆம்பியாக்சஸின் சில பண்புகளை ஒத்துள்ளது. ஆனால் இளர்வியை ஆம்பியாக்சஸின் மூதாதை என்றும் தொடக்ககால முதுகெலும்பியின் மாறாத வடிவம் என்றும் கருதக்கூடாது. ஒப்பீட்டு ஆய்வில் இதன் முக்கியத்துவம் அதிகம். இளர்வியின் உறுப்புகளும் தைராய்டு உருவாக்கமும் முதுகுநாணிகளின் உணவெடுக்கும் அமைப்புகள் எவ்வாறு மாறின என்பதைக் புரிய உதவுகின்றன."
+                "ta": "அம்மோசீட்டீஸ் இளநிலையின் வடிகட்டி உணவெடுக்கும் முறை ஆம்பியாக்சஸின் சில பண்புகளை ஒத்துள்ளது. ஆனால் இளநிலையை ஆம்பியாக்சஸின் மூதாதை என்றும் தொடக்ககால முதுகெலும்பியின் மாறாத வடிவம் என்றும் கருதக்கூடாது. ஒப்பீட்டு ஆய்வில் இதன் முக்கியத்துவம் அதிகம். இளநிலையின் உறுப்புகளும் தைராய்டு உருவாக்கமும் முதுகுநாணிகளின் உணவெடுக்கும் அமைப்புகள் எவ்வாறு மாறின என்பதைக் புரிய உதவுகின்றன."
               }
             }
           ],
@@ -1021,7 +1021,7 @@
             {
               "question": {
                 "en": "What is the feeding habit of the ammocoete larva?",
-                "ta": "அம்மோசீட்டீஸ் இளர்வி எந்த வகையில் உணவெடுக்கிறது?"
+                "ta": "அம்மோசீட்டீஸ் இளநிலை எந்த வகையில் உணவெடுக்கிறது?"
               },
               "options": [
                 {
@@ -1044,13 +1044,13 @@
               "correctIndex": 0,
               "explanation": {
                 "en": "Ammocoetes larvae filter fine particles from water in sediment habitats.",
-                "ta": "அம்மோசீட்டீஸ் இளர்விகள் நீரிலுள்ள நுண்துகள்களை வடிகட்டி உணவாகப் பெறுகின்றன."
+                "ta": "அம்மோசீட்டீஸ் இளநிலைகள் நீரிலுள்ள நுண்துகள்களை வடிகட்டி உணவாகப் பெறுகின்றன."
               }
             },
             {
               "question": {
                 "en": "What does the lamprey larval endostyle become during metamorphosis?",
-                "ta": "லாம்ப்ரே இளர்வியின் எண்டோஸ்டைல் தோற்றமாற்றத்தில் எதுவாக மாறுகிறது?"
+                "ta": "லாம்ப்ரே இளநிலையின் எண்டோஸ்டைல் தோற்றமாற்றத்தில் எதுவாக மாறுகிறது?"
               },
               "options": [
                 {
@@ -1073,7 +1073,7 @@
               "correctIndex": 3,
               "explanation": {
                 "en": "The larval endostyle differentiates into thyroid tissue during metamorphosis.",
-                "ta": "தோற்றமாற்றத்தின்போது இளர்வியின் எண்டோஸ்டைல் தைராய்டு திசுவாக மாறுகிறது."
+                "ta": "தோற்றமாற்றத்தின்போது இளநிலையின் எண்டோஸ்டைல் தைராய்டு திசுவாக மாறுகிறது."
               }
             }
           ],
@@ -1475,7 +1475,7 @@
                 },
                 {
                   "en": "Ascidia",
-                  "ta": "ஆசிடியா"
+                  "ta": "அசிடியா"
                 }
               ],
               "correctIndex": 2,
@@ -1504,7 +1504,7 @@
                 },
                 {
                   "en": "Only freshwater larvae",
-                  "ta": "நன்னீர் இளர்விகள் மட்டும்"
+                  "ta": "நன்னீர் இளநிலைகள் மட்டும்"
                 }
               ],
               "correctIndex": 0,
@@ -1813,7 +1813,7 @@
               },
               "body": {
                 "en": "Male sticklebacks, Gasterosteus, build and defend nests. Several cichlids, including some Oreochromis species, hold eggs or young in the mouth. In seahorses, Hippocampus, the male carries developing embryos in a brood pouch. Caregiving sex and duration differ among species.",
-                "ta": "காஸ்டெரோஸ்டியஸ் எனப்படும் ஸ்டிக்கில்பேக் மீனின் ஆண் கூடு அமைத்து முட்டைகளைப் பாதுகாக்கிறது. சில ஒரியோக்ரோமிஸ் இனங்கள் முட்டைகளையும் இளங்குஞ்சுகளையும் வாய்க்குள் வைத்துப் பாதுகாக்கின்றன. ஹிப்போகாம்பஸ் என்னும் கடற்குதிரையின் ஆண் வயிற்றுப்புற இனப்பெருக்கப் பையில் வளர்கருக்களைத் தாங்குகிறது. எந்தப் பெற்றோர் பராமரிக்கிறார் என்பதும் பராமரிப்பு நீடிக்கும் காலமும் இனங்களுக்கிடையே வேறுபடுகின்றன."
+                "ta": "காஸ்டெரோஸ்டியஸ் எனப்படும் ஸ்டிக்கில்பேக் மீனின் ஆண் கூடு அமைத்து முட்டைகளைப் பாதுகாக்கிறது. சில ஒரியோக்ரோமிஸ் இனங்கள் முட்டைகளையும் இளங்குஞ்சுகளையும் வாய்க்குள் வைத்துப் பாதுகாக்கின்றன. ஹிப்போகாம்பஸ் என்னும் கடற்குதிரையின் ஆண் வயிற்றுப்புற கரு அடைகாப்புப் பையில் வளர்கருக்களைத் தாங்குகிறது. எந்தப் பெற்றோர் பராமரிக்கிறார் என்பதும் பராமரிப்பு நீடிக்கும் காலமும் இனங்களுக்கிடையே வேறுபடுகின்றன."
               }
             },
             {
@@ -1845,11 +1845,11 @@
                 },
                 {
                   "en": "Ascidia",
-                  "ta": "ஆசிடியா"
+                  "ta": "அசிடியா"
                 },
                 {
                   "en": "Petromyzon larvae",
-                  "ta": "பெட்ரோமைசான் இளர்வி"
+                  "ta": "பெட்ரோமைசான் இளநிலை"
                 }
               ],
               "correctIndex": 1,
@@ -1861,7 +1861,7 @@
             {
               "question": {
                 "en": "In which genus does the male possess a brood pouch?",
-                "ta": "எந்த மீன் பேரினத்தின் ஆணில் இனப்பெருக்கப் பை உள்ளது?"
+                "ta": "எந்த மீன் பேரினத்தின் ஆணில் கரு அடைகாப்புப் பை உள்ளது?"
               },
               "options": [
                 {
@@ -2092,7 +2092,7 @@
               },
               "body": {
                 "en": "Overfishing, destructive gear, bycatch, habitat loss, invasive species and pollution can reduce fish stocks or damage associated biodiversity. Stock assessment, selective gear, habitat protection, traceability and responsible aquaculture improve resilience. A sustainable harvest cannot be inferred simply from high short-term catches.",
-                "ta": "அளவுக்கு மீறிய மீன்பிடித்தல், அழிவை ஏற்படுத்தும் வலைகள், தேவையற்ற இணைப்பிடிப்பு, வாழிட இழப்பு, அயல் இனங்கள் மற்றும் மாசுபாடு மீன்வளத்தைக் குறைக்கலாம். மீன்வளக் கணக்கீடு, தேர்ந்தெடுக்கப்பட்ட பிடிப்பு உபகரணங்கள், வாழிடப் பாதுகாப்பு மற்றும் பொறுப்பான மீன்வளர்ப்பு அவசியமானவை. குறுகிய காலத்தில் அதிக மீன்கள் கிடைப்பதால் மட்டுமே மீன்பிடித்தல் நிலைத்ததாக உள்ளது என்று முடிவு செய்யக்கூடாது."
+                "ta": "அளவுக்கு மீறிய மீன்பிடித்தல், அழிவை ஏற்படுத்தும் வலைகள், இலக்கல்லாத உயிரினங்கள் தற்செயலாகப் பிடிபடுதல், வாழிட இழப்பு, அயல் இனங்கள் மற்றும் மாசுபாடு மீன்வளத்தைக் குறைக்கலாம். மீன்வளக் கணக்கீடு, தேர்ந்தெடுக்கப்பட்ட பிடிப்பு உபகரணங்கள், வாழிடப் பாதுகாப்பு மற்றும் பொறுப்பான மீன்வளர்ப்பு அவசியமானவை. குறுகிய காலத்தில் அதிக மீன்கள் கிடைப்பதால் மட்டுமே மீன்பிடித்தல் நிலைத்ததாக உள்ளது என்று முடிவு செய்யக்கூடாது."
               }
             }
           ],
@@ -2112,7 +2112,7 @@
                   "ta": "சட்டவிரோத வேட்டை"
                 },
                 {
-                  "en": "Aquaculture",
+                  "en": "Fish farming (pisciculture)",
                   "ta": "மீன்வளர்ப்பு"
                 },
                 {
@@ -2122,14 +2122,14 @@
               ],
               "correctIndex": 2,
               "explanation": {
-                "en": "Aquaculture involves farming aquatic organisms under managed conditions.",
-                "ta": "மீன்வளர்ப்பு என்பது நிர்வகிக்கப்பட்ட சூழலில் நீர்வாழ் உயிரிகளை வளர்ப்பதாகும்."
+                "en": "Fish farming is the cultivation of fish and is one form of aquaculture.",
+                "ta": "மீன்வளர்ப்பு என்பது நீர்வாழ் உயிரின வளர்ப்பின் ஒரு வகை."
               }
             },
             {
               "question": {
                 "en": "What does bycatch mean?",
-                "ta": "இணைப்பிடிப்பு என்பது என்ன?"
+                "ta": "தற்செயல் பிடிப்பு (bycatch) என்பது என்ன?"
               },
               "options": [
                 {
@@ -2146,7 +2146,7 @@
                 },
                 {
                   "en": "Unintended organisms caught during fishing",
-                  "ta": "மீன்பிடித்தலில் தேவையின்றிப் பிடிபடும் உயிரிகள்"
+                  "ta": "மீன்பிடித்தலில் இலக்கல்லாத உயிரினங்கள் தற்செயலாகப் பிடிபடுதல்"
                 }
               ],
               "correctIndex": 3,
@@ -2213,7 +2213,7 @@
               },
               "body": {
                 "en": "Amphibians are ectothermic tetrapod vertebrates with a moist, glandular skin that usually lacks scales. Adults commonly breathe through lungs and skin, whereas aquatic larvae generally use gills. Their hearts normally contain two atria and one ventricle, and their eggs typically lack a shelled amniotic covering.",
-                "ta": "இருவாழ்விகள் வெளிவெப்பநிலை கொண்ட நான்கு காலுடைய முதுகெலும்பிகளின் ஒரு குழுவாகும். இவற்றின் தோல் பொதுவாக ஈரப்பதமுடையதாகவும் சுரப்பிகள் கொண்டதாகவும் செதில்கள் அற்றதாகவும் காணப்படும். முதிர்ந்த உயிரிகள் நுரையீரல் மற்றும் தோல் மூலம் சுவாசிக்கின்றன. நீர்வாழ் இளநிலைகள் பொதுவாக செவுள்களைப் பயன்படுத்துகின்றன. இதயத்தில் இரண்டு ஆரிக்கிள்களும் ஓர் வென்ட்ரிக்கிளும் காணப்படுகின்றன."
+                "ta": "இருவாழ்விகள் வெளிவெப்பநிலை கொண்ட நான்கு காலுடைய முதுகெலும்பிகளின் ஒரு குழுவாகும். இவற்றின் தோல் பொதுவாக ஈரப்பதமுடையதாகவும் சுரப்பிகள் கொண்டதாகவும் செதில்கள் அற்றதாகவும் காணப்படும். முதிர்ந்த உயிரிகள் நுரையீரல் மற்றும் தோல் மூலம் சுவாசிக்கின்றன. நீர்வாழ் இளநிலைகள் பொதுவாக செவுள்களைப் பயன்படுத்துகின்றன. இதயத்தில் இரண்டு இதய மேலறைகளும் ஓர் வென்ட்ரிக்கிளும் காணப்படுகின்றன."
               }
             },
             {
@@ -2235,7 +2235,7 @@
               },
               "body": {
                 "en": "Fertilisation is external in many frogs but internal in most salamanders and caecilians, so a single reproductive pattern must not be assigned to all amphibians. Many species undergo metamorphosis, although development varies greatly. Their dependence on suitable moisture, breeding sites and permeable skin makes many amphibians sensitive to environmental change.",
-                "ta": "பல தவளை இனங்களில் வெளிக்கருவுறுதலும் பெரும்பாலான சாலமாண்டர் மற்றும் காலற்ற இருவாழ்விகளில் உட்கருவுறுதலும் காணப்படுகின்றன. எல்லா இருவாழ்விகளுக்கும் ஒரே இனப்பெருக்க முறையைப் பொருத்துவது தவறாகும். பல இனங்களில் இளநிலையிலிருந்து முதிர்நிலைக்கு மாற்றுருவாக்கம் நடைபெறுகிறது. ஈரப்பதம், இனப்பெருக்க நீர்நிலைகள் மற்றும் ஊடுருவக்கூடிய தோல் ஆகியவற்றினால் சுற்றுச்சூழல் மாற்றங்கள் இவற்றைப் பெரிதும் பாதிக்கக்கூடும்."
+                "ta": "பல தவளை இனங்களில் வெளிக்கருவுறுதலும் பெரும்பாலான சாலமாண்டர் மற்றும் காலற்ற இருவாழ்விகளில் உட்கருவுறுதலும் காணப்படுகின்றன. எல்லா இருவாழ்விகளுக்கும் ஒரே இனப்பெருக்க முறையைப் பொருத்துவது தவறாகும். பல இனங்களில் இளநிலையிலிருந்து முதிர்நிலைக்கு உருமாற்றம் நடைபெறுகிறது. ஈரப்பதம், இனப்பெருக்க நீர்நிலைகள் மற்றும் ஊடுருவக்கூடிய தோல் ஆகியவற்றினால் சுற்றுச்சூழல் மாற்றங்கள் இவற்றைப் பெரிதும் பாதிக்கக்கூடும்."
               }
             }
           ],
@@ -2515,7 +2515,7 @@
               },
               "body": {
                 "en": "The three-chambered frog heart has two atria and one ventricle. The truncus arteriosus distributes blood to carotid, systemic and pulmocutaneous arterial arches, with the last supplying lungs and skin. Describe the schematic arrangement rather than claiming perfect separation of oxygenated and deoxygenated blood inside its single ventricle.",
-                "ta": "தவளையின் இதயத்தில் இரண்டு ஆரிக்கிள்களும் ஓர் வென்ட்ரிக்கிளும் உள்ளன. இதயத்திலிருந்து புறப்படும் டிரங்கஸ் ஆர்டீரியோசஸ் தமனிகள் கரோட்டிட், சிஸ்டமிக் மற்றும் பல்மோகியூட்டேனியஸ் வளைவுகளாகப் பிரிகின்றன. கடைசி வளைவு நுரையீரலுக்கும் தோலுக்கும் இரத்தத்தை வழங்குகிறது. ஒரே வென்ட்ரிக்கிளில் ஆக்சிஜன் நிறைந்த இரத்தமும் குறைந்த இரத்தமும் முற்றிலும் தனித்தனியாக இருக்கும் எனக் கூறுவது சரியல்ல."
+                "ta": "தவளையின் இதயத்தில் இரண்டு இதய மேலறைகளும் ஓர் வென்ட்ரிக்கிளும் உள்ளன. இதயத்திலிருந்து புறப்படும் டிரங்கஸ் ஆர்டீரியோசஸ் தமனிகள் கரோட்டிட், உடல் மற்றும் நுரையீரல்–தோல் வளைவுகளாகப் பிரிகின்றன. கடைசி வளைவு நுரையீரலுக்கும் தோலுக்கும் இரத்தத்தை வழங்குகிறது. ஒரே வென்ட்ரிக்கிளில் ஆக்சிஜன் நிறைந்த இரத்தமும் குறைந்த இரத்தமும் முற்றிலும் தனித்தனியாக இருக்கும் எனக் கூறுவது சரியல்ல."
               }
             },
             {
@@ -2533,8 +2533,8 @@
           "quiz": [
             {
               "question": {
-                "en": "What is the currently accepted name cited for syllabus Rana hexadactyla?",
-                "ta": "பாடத்திட்ட ரானா ஹெக்சாடாக்டைலாவின் தற்போதைய பெயர் எது?"
+                "en": "Which name does Amphibian Species of the World accept for the frog listed in the syllabus as Rana hexadactyla?",
+                "ta": "பாடத்திட்டத்தில் Rana hexadactyla எனக் குறிப்பிடப்படும் தவளைக்கு Amphibian Species of the World ஏற்றுக்கொள்ளும் அறிவியல் பெயர் எது?"
               },
               "options": [
                 {
@@ -2568,7 +2568,7 @@
               "options": [
                 {
                   "en": "Pulmocutaneous",
-                  "ta": "பல்மோகியூட்டேனியஸ்"
+                  "ta": "நுரையீரல்–தோல் தமனி வளைவு"
                 },
                 {
                   "en": "Coronary",
@@ -2586,7 +2586,7 @@
               "correctIndex": 0,
               "explanation": {
                 "en": "The pulmocutaneous arch serves the pulmonary and cutaneous circulation.",
-                "ta": "பல்மோகியூட்டேனியஸ் வளைவு நுரையீரல் மற்றும் தோலுக்கு இரத்தம் வழங்குகிறது."
+                "ta": "நுரையீரல்–தோல் தமனி வளைவு நுரையீரலுக்கும் தோலுக்கும் இரத்தம் வழங்குகிறது."
               }
             },
             {
@@ -2793,11 +2793,11 @@
               "key": "endocrine-control",
               "heading": {
                 "en": "Thyroid hormones and metamorphosis",
-                "ta": "தைராய்டு ஊக்கிகளும் மாற்றுருவாக்கமும்"
+                "ta": "தைராய்டு ஊக்கிகளும் உருமாற்றமும்"
               },
               "body": {
                 "en": "Thyroid hormones have an important role in amphibian metamorphosis. Experimental hormonal treatments can induce metamorphic changes in some paedomorphic salamanders, but species differ in responsiveness and ecological context. The outcome depends on endocrine physiology and genetic and environmental factors, rather than one universal switch.",
-                "ta": "இருவாழ்விகளின் மாற்றுருவாக்கத்தில் தைராய்டு ஊக்கிகள் முக்கியப் பங்கு வகிக்கின்றன. சில இளம்பருவப் பண்பு நிலைப்பு கொண்ட சாலமாண்டர்களில் பரிசோதனை முறையில் ஊக்கிகள் வழங்கும்போது மாற்றுருவாக்க மாற்றங்கள் ஏற்படலாம். எனினும் எல்லா இனங்களும் ஒரே விதமாகப் பதிலளிப்பதில்லை. மரபியல் பண்புகள், உட்சுரப்பியல் செயல்பாடுகள், சுற்றுச்சூழல் நிலைகள் ஆகியவை இந்த வளர்ச்சி விளைவுகளை இணைந்து நிர்ணயிக்கின்றன."
+                "ta": "இருவாழ்விகளின் உருமாற்றத்தில் தைராய்டு ஹார்மோன்கள் முக்கியப் பங்கு வகிக்கின்றன. சில இளம்பருவப் பண்பு நிலைப்பு கொண்ட சாலமாண்டர்களில் பரிசோதனை முறையில் ஹார்மோன்கள் வழங்கும்போது உருமாற்ற மாற்றங்கள் ஏற்படலாம். எனினும் எல்லா இனங்களும் ஒரே விதமாகப் பதிலளிப்பதில்லை. மரபியல் பண்புகள், உட்சுரப்பியல் செயல்பாடுகள், சுற்றுச்சூழல் நிலைகள் ஆகியவை இந்த வளர்ச்சி விளைவுகளை இணைந்து நிர்ணயிக்கின்றன."
               }
             }
           ],
@@ -2863,12 +2863,12 @@
             {
               "question": {
                 "en": "Which endocrine factor is important in amphibian metamorphosis?",
-                "ta": "இருவாழ்விகளின் மாற்றுருவாக்கத்தில் முக்கியமான உட்சுரப்பிக் காரணி எது?"
+                "ta": "இருவாழ்விகளின் உருமாற்றத்தில் முக்கியமான உட்சுரப்பிக் காரணி எது?"
               },
               "options": [
                 {
                   "en": "Thyroid hormones",
-                  "ta": "தைராய்டு ஊக்கிகள்"
+                  "ta": "தைராய்டு ஹார்மோன்கள்"
                 },
                 {
                   "en": "Insulin alone",
@@ -2886,7 +2886,7 @@
               "correctIndex": 0,
               "explanation": {
                 "en": "Thyroid hormones regulate major developmental changes in amphibians.",
-                "ta": "தைராய்டு ஊக்கிகள் இருவாழ்விகளின் வளர்ச்சிமாற்றங்களில் முக்கியப் பங்கு வகிக்கின்றன."
+                "ta": "தைராய்டு ஹார்மோன்கள் பல இருவாழ்விகளில் உருமாற்றத்தைக் கட்டுப்படுத்துவதில் முக்கியப் பங்கு வகிக்கின்றன."
               }
             }
           ],
@@ -3074,7 +3074,7 @@
               },
               "body": {
                 "en": "Most non-crocodilian reptiles possess a heart with two atria and one functionally subdivided ventricle, whereas crocodilians have four cardiac chambers. Many reptiles excrete nitrogen chiefly as uric acid, reducing water loss. Their body temperature is strongly influenced by behavioural thermoregulation, including basking, shade seeking and altered activity periods.",
-                "ta": "முதலைகளைத் தவிர பல ஊர்வனவற்றின் இதயத்தில் இரண்டு ஆரிக்கிள்களும் பகுதியாகப் பிரிவடைந்த ஒரு வென்ட்ரிக்கிளும் காணப்படும். முதலைகளில் நான்கு இதய அறைகள் உள்ளன. பல ஊர்வன யூரிக் அமிலத்தை நைட்ரஜன் கழிவாக வெளியேற்றி நீர் இழப்பைக் குறைக்கின்றன. வெயிலில் காய்தல், நிழலை நாடுதல், செயல்பாட்டு நேரங்களை மாற்றுதல் போன்ற நடத்தைகளால் உடல்வெப்பநிலையைச் சீராக்குகின்றன."
+                "ta": "முதலைகளைத் தவிர பல ஊர்வனவற்றின் இதயத்தில் இரண்டு இதய மேலறைகளும் பகுதியாகப் பிரிவடைந்த ஒரு வென்ட்ரிக்கிளும் காணப்படும். முதலைகளில் நான்கு இதய அறைகள் உள்ளன. பல ஊர்வன யூரிக் அமிலத்தை நைட்ரஜன் கழிவாக வெளியேற்றி நீர் இழப்பைக் குறைக்கின்றன. வெயிலில் காய்தல், நிழலை நாடுதல், செயல்பாட்டு நேரங்களை மாற்றுதல் போன்ற நடத்தைகளால் உடல்வெப்பநிலையைச் சீராக்குகின்றன."
               }
             }
           ],
@@ -3218,8 +3218,8 @@
                 "ta": "இதயமும் தமனி இரத்த ஓட்டமும்"
               },
               "body": {
-                "en": "The lizard heart has two atria and a ventricle with internal muscular subdivisions; functional separation is incomplete compared with a mammalian heart. Systemic arterial pathways distribute oxygenated blood, while pulmonary vessels serve the lungs. The two systemic arches and their contribution to the dorsal aorta should be explained with a species-appropriate labelled drawing.",
-                "ta": "தோட்டப் பல்லியின் இதயத்தில் இரண்டு ஆரிக்கிள்களும் உள்தசைப் பிரிவுகள் கொண்ட ஒரு வென்ட்ரிக்கிளும் உள்ளன. பாலூட்டிகளின் இதயத்தைப் போல முழுமையான பிரிவு இதில் காணப்படுவதில்லை. உடலின் பல பகுதிகளுக்குச் சிஸ்டமிக் தமனி வழிகளும் நுரையீரலுக்குப் பல்மனரி இரத்தநாளங்களும் இரத்தத்தை வழங்குகின்றன. இரு சிஸ்டமிக் பெருந்தமனி வளைவுகளின் தொடர்பை சரியான பெயரிடப்பட்ட படத்தின் மூலம் கற்பிக்க வேண்டும்."
+                "en": "The heart has two atria and a single ventricle with three communicating regions. Systemic venous blood enters the right atrium through the sinus venosus. The pulmonary trunk carries blood from the cavum pulmonale to the lungs, and the common pulmonary vein returns blood to the left atrium. The two systemic arches arise separately from the cavum venosum and join posteriorly to form the dorsal aorta. These are the usual flow routes. Intracardiac shunting can occur.",
+                "ta": "தோட்டப் பல்லியின் இதயத்தில் இரண்டு மேலறைகளும் மூன்று தொடர்புடைய பகுதிகளைக் கொண்ட ஒரே கீழறையும் உள்ளன. உடலிலிருந்து வரும் சிரை இரத்தம் சைனஸ் வீனோசஸ் வழியாக வலது மேலறையை அடைகிறது. கவம் பல்மோனாலேயிலிருந்து நுரையீரல் தமனித் தண்டு இரத்தத்தை நுரையீரல்களுக்குக் கொண்டுசெல்கிறது. பொது நுரையீரல் சிரை இரத்தத்தை இடது மேலறைக்குக் கொண்டுவருகிறது. கவம் வீனோசத்திலிருந்து தனித்தனியாகத் தொடங்கும் இரு உடல் பெருந்தமனி வளைவுகள் பின்புறத்தில் இணைந்து முதுகுப்புறப் பெருந்தமனியை உருவாக்குகின்றன. இதயத்திற்குள் இரு ஓட்டப் பாதைகளுக்கு இடையே இரத்தம் திசைமாறிச் செல்லலாம்."
               }
             },
             {
@@ -3295,31 +3295,31 @@
             },
             {
               "question": {
-                "en": "How is the Calotes ventricular cavity best described?",
-                "ta": "கலோடஸ் வென்ட்ரிக்கிளைச் சரியாக விவரிப்பது எது?"
+                "en": "How is the ventricle of Calotes organised?",
+                "ta": "கலோடஸின் இதயக் கீழறை எவ்வாறு அமைந்துள்ளது?"
               },
               "options": [
                 {
-                  "en": "Muscular subdivisions without complete mammalian separation",
-                  "ta": "பாலூட்டிகள் போன்ற முழுப் பிரிவின்றிய தசைப் பிரிவுகள்"
+                  "en": "One ventricle with three communicating regions",
+                  "ta": "ஒரே கீழறையில் ஒன்றோடொன்று தொடர்புடைய மூன்று பகுதிகள் உள்ளன"
                 },
                 {
-                  "en": "Four fully independent ventricles",
-                  "ta": "நான்கு தனித்த வென்ட்ரிக்கிள்கள்"
+                  "en": "Two completely separated ventricles",
+                  "ta": "முழுமையாகப் பிரிந்த இரண்டு கீழறைகள் உள்ளன"
                 },
                 {
-                  "en": "No ventricle",
-                  "ta": "வென்ட்ரிக்கிள் இல்லை"
+                  "en": "One ventricle with no internal subdivisions",
+                  "ta": "உட்பிரிவுகள் இல்லாத ஒரே கீழறை உள்ளது"
                 },
                 {
-                  "en": "One atrium only",
-                  "ta": "ஓர் ஆரிக்கிள் மட்டும்"
+                  "en": "One ventricle with three completely isolated chambers",
+                  "ta": "ஒரே கீழறையில் ஒன்றுக்கொன்று தொடர்பற்ற மூன்று அறைகள் உள்ளன"
                 }
               ],
               "correctIndex": 0,
               "explanation": {
-                "en": "Non-crocodilian reptiles usually have an incompletely subdivided ventricle.",
-                "ta": "முதலைகளல்லாத பல ஊர்வனவற்றில் வென்ட்ரிக்கிள் முழுமையற்ற உட்பிரிவுகளுடன் காணப்படுகிறது."
+                "en": "The cavum arteriosum, cavum venosum and cavum pulmonale are regions of a single ventricle.",
+                "ta": "கவம் ஆர்டீரியோசம், கவம் வீனோசம், கவம் பல்மோனாலே ஆகியவை ஒரே இதயக் கீழறையின் பகுதிகள்."
               }
             }
           ],
@@ -3477,33 +3477,33 @@
               "key": "venomous-not-poisonous",
               "heading": {
                 "en": "Venomous versus poisonous terminology",
-                "ta": "விஷம் செலுத்தும் தன்மையும் நச்சுத்தன்மையும்"
+                "ta": "நஞ்சைச் செலுத்தும் தன்மையும் நச்சுத்தன்மையும்"
               },
               "body": {
                 "en": "The syllabus uses poisonous and non-poisonous, but the biologically precise contrast for medically important bites is venomous versus non-venomous. Venom is actively delivered through specialised structures such as fangs. No single external clue, including a triangular head or vertical pupil, safely distinguishes all venomous snakes in India.",
-                "ta": "பாடத்திட்டத்தில் நச்சுப் பாம்பு, நச்சற்ற பாம்பு என்ற சொற்கள் வழங்கப்பட்டிருந்தாலும் கடியின் மருத்துவ ஆபத்தைக் குறிக்க விஷம் செலுத்தும் பாம்பு, விஷம் செலுத்தாத பாம்பு என்பதே துல்லியமான வேறுபாடாகும். விஷம் சிறப்புப் பற்கள் வழியே உடலுக்குள் செலுத்தப்படுகிறது. முக்கோணத் தலை அல்லது செங்குத்துக் கண்பாவை போன்ற ஒரே வெளிப்புறப் பண்பால் இந்தியப் பாம்புகள் அனைத்தையும் பாதுகாப்பாக வகைப்படுத்த முடியாது."
+                "ta": "பாடத்திட்டத்தில் நச்சுப் பாம்பு, நச்சற்ற பாம்பு என்ற சொற்கள் வழங்கப்பட்டிருந்தாலும் கடியின் மருத்துவ ஆபத்தைக் குறிக்க நஞ்சைச் செலுத்தும் பாம்பு, நஞ்சைச் செலுத்தாத பாம்பு என்பதே துல்லியமான வேறுபாடாகும். நஞ்சு சிறப்புப் பற்கள் வழியே உடலுக்குள் செலுத்தப்படுகிறது. முக்கோணத் தலை அல்லது செங்குத்துக் கண்பாவை போன்ற ஒரே வெளிப்புறப் பண்பால் இந்தியப் பாம்புகள் அனைத்தையும் பாதுகாப்பாக வகைப்படுத்த முடியாது."
               }
             },
             {
               "key": "big-four",
               "heading": {
                 "en": "Four medically important Indian snakes",
-                "ta": "இந்தியாவின் முக்கிய நான்கு விஷப் பாம்புகள்"
+                "ta": "இந்தியாவின் முக்கிய நான்கு நஞ்சுப் பாம்புகள்"
               },
               "body": {
                 "en": "The traditional big four are Indian cobra (Naja naja), common krait (Bungarus caeruleus), Russell’s viper (Daboia russelii) and saw-scaled viper (Echis carinatus). Hood, bands, chain-like body markings and rough serrated scales respectively may assist trained identification, but colour and pattern vary and photographs can mislead. Other venomous snakes also cause serious bites in India.",
-                "ta": "இந்தியாவில் பாரம்பரியமாகக் குறிப்பிடப்படும் முக்கிய நான்கு விஷப் பாம்புகள் நாகப்பாம்பு, கட்டுவிரியன், கண்ணாடிவிரியன் மற்றும் சுருட்டைவிரியன் ஆகும். விரிந்த கழுத்துப்பகுதி, உடற்பட்டைகள், சங்கிலி போன்ற குறிகள், கரடுமுரடான செதில்கள் போன்ற பண்புகள் பயிற்சி பெற்றவர்களுக்கான அடையாள உதவிகளாகும். நிறமும் குறிகளும் மாறுபடலாம். இந்நான்கைத் தவிர மற்ற விஷப் பாம்புகளும் இந்தியாவில் கடுமையான கடிகளை ஏற்படுத்தக்கூடும்."
+                "ta": "இந்தியாவில் பாரம்பரியமாகக் குறிப்பிடப்படும் முக்கிய நான்கு நஞ்சுப் பாம்புகள் நாகப்பாம்பு, கட்டுவிரியன், கண்ணாடிவிரியன் மற்றும் சுருட்டைவிரியன் ஆகும். விரிந்த கழுத்துப்பகுதி, உடற்பட்டைகள், சங்கிலி போன்ற குறிகள், கரடுமுரடான செதில்கள் போன்ற பண்புகள் பயிற்சி பெற்றவர்களுக்கான அடையாள உதவிகளாகும். நிறமும் குறிகளும் மாறுபடலாம். இந்நான்கைத் தவிர மற்ற நஞ்சுப் பாம்புகளும் இந்தியாவில் கடுமையான கடிகளை ஏற்படுத்தக்கூடும்."
               }
             },
             {
               "key": "nonvenomous-and-safety",
               "heading": {
                 "en": "Non-venomous examples and safe observation",
-                "ta": "விஷம் செலுத்தாத பாம்புகளும் பாதுகாப்பான பார்வையும்"
+                "ta": "நஞ்சைச் செலுத்தாத பாம்புகளும் பாதுகாப்பான பார்வையும்"
               },
               "body": {
                 "en": "The Indian rat snake (Ptyas mucosa) and Indian rock python (Python molurus) are examples of non-venomous species. Students should use authenticated field guides and expert-verified photographs rather than touching, catching or approaching unknown snakes. A suspected snakebite requires medical assessment regardless of whether a bystander thinks the snake was harmless.",
-                "ta": "சாரைப்பாம்பு எனப்படும் ப்டையாஸ் மியூகோசா மற்றும் இந்திய மலைப்பாம்பு எனப்படும் பைதான் மொலூரஸ் ஆகியவை விஷம் செலுத்தாத பாம்புகளுக்கான எடுத்துக்காட்டுகளாகும். மாணவர்கள் உறுதிசெய்யப்பட்ட கள வழிகாட்டிகளையும் வல்லுநர் சரிபார்த்த ஒளிப்படங்களையும் பயன்படுத்த வேண்டும். அறியாத பாம்பைத் தொடுதல், பிடித்தல் அல்லது அருகில் சென்று அடையாளம் காணுதல் ஆபத்தானதாகும். எந்தப் பாம்பு கடித்தாலும் மருத்துவ மதிப்பீடு அவசியம்."
+                "ta": "சாரைப்பாம்பு எனப்படும் ப்டையாஸ் மியூகோசா மற்றும் இந்திய மலைப்பாம்பு எனப்படும் பைதான் மொலூரஸ் ஆகியவை நஞ்சைச் செலுத்தாத பாம்புகளுக்கான எடுத்துக்காட்டுகளாகும். மாணவர்கள் உறுதிசெய்யப்பட்ட கள வழிகாட்டிகளையும் வல்லுநர் சரிபார்த்த ஒளிப்படங்களையும் பயன்படுத்த வேண்டும். அறியாத பாம்பைத் தொடுதல், பிடித்தல் அல்லது அருகில் சென்று அடையாளம் காணுதல் ஆபத்தானதாகும். எந்தப் பாம்பு கடித்தாலும் மருத்துவ மதிப்பீடு அவசியம்."
               }
             }
           ],
@@ -3540,7 +3540,7 @@
             {
               "question": {
                 "en": "Is a triangular head alone a safe universal test of venomous snakes?",
-                "ta": "முக்கோணத் தலை மட்டும் விஷப் பாம்புகளைக் கண்டறியப் பாதுகாப்பான பொதுச் சோதனையா?"
+                "ta": "முக்கோணத் தலை மட்டும் நஞ்சுப் பாம்புகளைக் கண்டறியப் பாதுகாப்பான பொதுச் சோதனையா?"
               },
               "options": [
                 {
@@ -3604,29 +3604,29 @@
           "id": "u4-poison-apparatus",
           "title": {
             "en": "Poison apparatus and biting mechanism of poisonous snakes and first aid",
-            "ta": "விஷப் பாம்புகளின் விஷச் சுரப்பி அமைப்பு, கடிக்கும் முறை மற்றும் முதலுதவி"
+            "ta": "நஞ்சுப் பாம்புகளின் நஞ்சுச் சுரப்பி அமைப்பு, கடிக்கும் முறை மற்றும் முதலுதவி"
           },
           "sections": [
             {
               "key": "venom-apparatus",
               "heading": {
                 "en": "Venom gland, duct and fangs",
-                "ta": "விஷச் சுரப்பி, குழாய் மற்றும் விஷப்பற்கள்"
+                "ta": "நஞ்சுச் சுரப்பி, குழாய் மற்றும் நஞ்சுப்பற்கள்"
               },
               "body": {
                 "en": "Venomous snakes typically possess specialised venom glands connected to a delivery system involving ducts and fangs or grooved teeth. In cobras and kraits, fixed front fangs are characteristic of elapids; vipers use long hinged front fangs. Venom composition differs between species and may affect nerves, blood clotting or local tissues.",
-                "ta": "விஷம் செலுத்தும் பாம்புகளில் சிறப்பான விஷச் சுரப்பிகள், இணைப்புக் குழாய்கள் மற்றும் விஷப்பற்கள் அல்லது பள்ளமுள்ள பற்கள் காணப்படுகின்றன. நாகப்பாம்பு மற்றும் கட்டுவிரியன் போன்ற எலாபிட் பாம்புகளில் முன்புற நிலையான விஷப்பற்கள் அமைந்துள்ளன. விரியன் பாம்புகளில் மடங்கக்கூடிய நீளமான முன்புற விஷப்பற்கள் காணப்படுகின்றன. விஷத்தின் கூறுகள் இனத்திற்கேற்ப மாறுபட்டு நரம்புகள், இரத்த உறைதல் அல்லது உள்ளூர் திசுக்களைப் பாதிக்கலாம்."
+                "ta": "நஞ்சைச் செலுத்தும் பாம்புகளில் சிறப்பான நஞ்சுச் சுரப்பிகள், இணைப்புக் குழாய்கள் மற்றும் நஞ்சுப்பற்கள் அல்லது பள்ளமுள்ள பற்கள் காணப்படுகின்றன. நாகப்பாம்பு மற்றும் கட்டுவிரியன் போன்ற எலாபிட் பாம்புகளில் முன்புற நிலையான நஞ்சுப்பற்கள் அமைந்துள்ளன. விரியன் பாம்புகளில் மடங்கக்கூடிய நீளமான முன்புற நஞ்சுப்பற்கள் காணப்படுகின்றன. நஞ்சின் கூறுகள் இனத்திற்கேற்ப மாறுபட்டு நரம்புகள், இரத்த உறைதல் அல்லது உள்ளூர் திசுக்களைப் பாதிக்கலாம்."
               }
             },
             {
               "key": "biting-mechanism",
               "heading": {
                 "en": "How venom is delivered",
-                "ta": "விஷம் செலுத்தப்படும் முறை"
+                "ta": "நஞ்சு செலுத்தப்படும் முறை"
               },
               "body": {
                 "en": "During a venomous bite, muscles surrounding the glands and jaw movements help move venom through the delivery apparatus into tissues. Venom injection is variable; a bite may inject little or no venom, but this cannot be determined safely without medical observation. The absence of visible puncture marks or swelling does not exclude severe neurotoxic envenoming.",
-                "ta": "விஷப் பாம்பு கடிக்கும்போது சுரப்பிகளைச் சூழ்ந்த தசைகளின் சுருக்கமும் தாடை இயக்கங்களும் விஷத்தைப் பற்கள் வழியாகத் திசுக்களுக்குள் செலுத்த உதவுகின்றன. ஒவ்வொரு கடியிலும் செலுத்தப்படும் விஷத்தின் அளவு மாறுபடலாம். விஷம் செலுத்தப்படாத கடியும் நிகழக்கூடும். ஆனால் மருத்துவக் கண்காணிப்பின்றி அதனை உறுதிசெய்ய முடியாது. காயம் அல்லது வீக்கம் தெளிவாகத் தெரியாத நிலையிலும் கடுமையான நரம்பு நச்சுத்தாக்கம் ஏற்படலாம்."
+                "ta": "நஞ்சுப் பாம்பு கடிக்கும்போது சுரப்பிகளைச் சூழ்ந்த தசைகளின் சுருக்கமும் தாடை இயக்கங்களும் நஞ்சைப் பற்கள் வழியாகத் திசுக்களுக்குள் செலுத்த உதவுகின்றன. ஒவ்வொரு கடியிலும் செலுத்தப்படும் நஞ்சின் அளவு மாறுபடலாம். நஞ்சு செலுத்தப்படாத கடியும் நிகழக்கூடும். ஆனால் மருத்துவக் கண்காணிப்பின்றி அதனை உறுதிசெய்ய முடியாது. காயம் அல்லது வீக்கம் தெளிவாகத் தெரியாத நிலையிலும் கடுமையான நரம்பு நச்சுத்தாக்கம் ஏற்படலாம்."
               }
             },
             {
@@ -3637,7 +3637,7 @@
               },
               "body": {
                 "en": "Arrange immediate emergency transport to a facility equipped for snakebite management. Keep the person calm and still; support and immobilise the bitten limb, and remove tight jewellery before swelling. Do not cut, suck, apply ice, use herbal remedies, attempt to catch the snake or use a tight arterial tourniquet. Pressure-immobilisation techniques are not a universal recommendation for Indian bites.",
-                "ta": "பாம்புக்கடி ஏற்பட்டால் உடனடியாகப் பாம்புக்கடி சிகிச்சை வசதி உள்ள மருத்துவமனைக்குக் கொண்டு செல்ல ஏற்பாடு செய்ய வேண்டும். பாதிக்கப்பட்டவரை அமைதியாகவும் அசைவின்றியும் வைத்துக் கடிபட்ட உறுப்புக்கு ஆதரவு அளிக்க வேண்டும். வீக்கம் வருவதற்கு முன் இறுக்கமான அணிகலன்களை அகற்ற வேண்டும். காயத்தை வெட்டுதல், விஷத்தை உறிஞ்சுதல், பனிக்கட்டி வைத்தல், மூலிகை மருந்து பயன்படுத்துதல், பாம்பைப் பிடிக்க முயலுதல், இறுக்கமான இரத்தத் தடுப்புக் கட்டு போடுதல் ஆகியவற்றைத் தவிர்க்க வேண்டும்."
+                "ta": "பாம்புக்கடி ஏற்பட்டால் உடனடியாகப் பாம்புக்கடி சிகிச்சை வசதி உள்ள மருத்துவமனைக்குக் கொண்டு செல்ல ஏற்பாடு செய்ய வேண்டும். பாதிக்கப்பட்டவரை நடக்க விடாமல் அமைதியாக வைத்திருக்க வேண்டும். கடிபட்ட கை அல்லது காலை இறுக்கமின்றி ஆதாரத் தகடு (splint) கொண்டு அசையாமல் நிலைப்படுத்த வேண்டும். வீக்கம் வருவதற்கு முன் இறுக்கமான அணிகலன்களை அகற்ற வேண்டும். காயத்தை வெட்டுதல், நஞ்சை உறிஞ்சுதல், பனிக்கட்டி வைத்தல், மூலிகை மருந்து பயன்படுத்துதல், பாம்பைப் பிடிக்க முயலுதல், இறுக்கமான இரத்தத் தடுப்புக் கட்டு போடுதல் ஆகியவற்றைத் தவிர்க்க வேண்டும்."
               }
             },
             {
@@ -3648,7 +3648,7 @@
               },
               "body": {
                 "en": "In hospital, trained clinicians assess airway, breathing, circulation and features of envenoming; antivenom is given when clinically indicated. Ptosis, difficulty swallowing or breathing, abnormal bleeding and progressive swelling are important warning signs, but symptoms may be delayed. This educational text does not replace emergency protocols or local clinical judgement.",
-                "ta": "மருத்துவமனையில் பயிற்சி பெற்ற மருத்துவர்கள் சுவாசப் பாதை, சுவாசம், இரத்த ஓட்டம் மற்றும் விஷத்தாக்க அறிகுறிகளை மதிப்பிடுகின்றனர். மருத்துவத் தேவைக்கேற்ப எதிர்விஷ மருந்து வழங்கப்படுகிறது. கண் இமைத் தாழ்வு, விழுங்குவதில் சிரமம், மூச்சுத்திணறல், அசாதாரண இரத்தக்கசிவு மற்றும் அதிகரிக்கும் வீக்கம் ஆகியவை முக்கிய எச்சரிக்கை அறிகுறிகளாகும். சில அறிகுறிகள் தாமதமாகத் தோன்றலாம். இந்தக் கல்விக் குறிப்பு அவசர மருத்துவ வழிகாட்டுதலுக்கு மாற்றாகாது."
+                "ta": "மருத்துவமனையில் பயிற்சி பெற்ற மருத்துவர்கள் சுவாசப் பாதை, சுவாசம், இரத்த ஓட்டம் மற்றும் நஞ்சுத்தாக்க அறிகுறிகளை மதிப்பிடுகின்றனர். மருத்துவத் தேவைக்கேற்ப எதிர்நஞ்சு மருந்து வழங்கப்படுகிறது. கண் இமைத் தாழ்வு, விழுங்குவதில் சிரமம், மூச்சுத்திணறல், அசாதாரண இரத்தக்கசிவு மற்றும் அதிகரிக்கும் வீக்கம் ஆகியவை முக்கிய எச்சரிக்கை அறிகுறிகளாகும். சில அறிகுறிகள் தாமதமாகத் தோன்றலாம். இந்தக் கல்விக் குறிப்பு அவசர மருத்துவ வழிகாட்டுதலுக்கு மாற்றாகாது."
               }
             }
           ],
@@ -3656,16 +3656,16 @@
             {
               "question": {
                 "en": "Which venom apparatus is typical of vipers?",
-                "ta": "விரியன் பாம்புகளுக்குப் பொதுவான விஷப்பற்கள் எவ்வாறு அமைந்துள்ளன?"
+                "ta": "விரியன் பாம்புகளுக்குப் பொதுவான நஞ்சுப்பற்கள் எவ்வாறு அமைந்துள்ளன?"
               },
               "options": [
                 {
                   "en": "Long hinged front fangs",
-                  "ta": "மடங்கக்கூடிய நீண்ட முன்விஷப்பற்கள்"
+                  "ta": "மடங்கக்கூடிய நீண்ட முன்நஞ்சுப்பற்கள்"
                 },
                 {
                   "en": "No fangs",
-                  "ta": "விஷப்பற்கள் இல்லை"
+                  "ta": "நஞ்சுப்பற்கள் இல்லை"
                 },
                 {
                   "en": "Only crushing molars",
@@ -3673,13 +3673,13 @@
                 },
                 {
                   "en": "Fixed rear fangs",
-                  "ta": "நிலையான பின்புற விஷப்பற்கள்"
+                  "ta": "நிலையான பின்புற நஞ்சுப்பற்கள்"
                 }
               ],
               "correctIndex": 0,
               "explanation": {
                 "en": "Vipers have long front fangs that can fold back when not in use.",
-                "ta": "விரியன் பாம்புகளின் நீண்ட முன்விஷப்பற்கள் பயன்பாடற்ற போது மடங்குகின்றன."
+                "ta": "விரியன் பாம்புகளின் நீண்ட முன்நஞ்சுப்பற்கள் பயன்பாடற்ற போது மடங்குகின்றன."
               }
             },
             {
@@ -3698,7 +3698,7 @@
                 },
                 {
                   "en": "Immobilise and arrange urgent hospital transport",
-                  "ta": "அசைவைக் குறைத்து உடனடியாக மருத்துவமனை செல்லுதல்"
+                  "ta": "கடிபட்ட உறுப்பை அசையாமல் நிலைப்படுத்தி, பாதிக்கப்பட்டவரை உடனடியாக மருத்துவமனைக்குக் கொண்டு செல்லுதல்"
                 },
                 {
                   "en": "Catch the snake",
@@ -3708,13 +3708,13 @@
               "correctIndex": 2,
               "explanation": {
                 "en": "Urgent medical transport and limited movement are priorities.",
-                "ta": "உடனடி மருத்துவ உதவியும் அசைவைக் குறைப்பதும் முதன்மையானவை."
+                "ta": "கடிபட்ட உறுப்பை அசையாமல் வைத்திருப்பதும் பாதிக்கப்பட்டவரை உடனடியாக மருத்துவமனைக்குக் கொண்டு செல்வதும் முதன்மையானவை."
               }
             },
             {
               "question": {
                 "en": "Can lack of swelling exclude dangerous neurotoxic snakebite?",
-                "ta": "வீக்கம் இல்லாததால் கடுமையான நரம்பு நச்சுக் கடியைத் தவிர்க்க முடியுமா?"
+                "ta": "கடிபட்ட இடத்தில் வீக்கம் இல்லாவிட்டால், நரம்பு மண்டலத்தைப் பாதிக்கும் கடுமையான நஞ்சுத்தாக்கம் இல்லை என்று முடிவு செய்யலாமா?"
               },
               "options": [
                 {
@@ -3723,7 +3723,7 @@
                 },
                 {
                   "en": "No",
-                  "ta": "முடியாது"
+                  "ta": "முடிவு செய்ய முடியாது"
                 },
                 {
                   "en": "Only in daylight",
@@ -4760,8 +4760,8 @@
                 "ta": "முலைக்காம்பின்றிப் பால் வழங்குதல்"
               },
               "body": {
-                "en": "Monotremes produce milk but lack the typical projecting nipples of most other mammals; young obtain milk secreted onto mammary patches or skin surfaces. Both parental care and egg incubation contribute to early development. Egg laying is a retained reproductive strategy, not evidence that monotremes lack mammalian physiological specialisations.",
-                "ta": "மோனோட்ரீம் பாலூட்டிகள் பால் சுரக்கின்றன. ஆனால் பல பாலூட்டிகளில் காணப்படும் உயர்ந்த முலைக்காம்புகள் பொதுவாக இவற்றில் இல்லை. பால் சுரப்புப் பகுதிகளில் தோல்மேல் வெளிப்படும் பாலை இளங்குட்டிகள் பெற்றுக்கொள்கின்றன. முட்டைகளை அடைகாத்தலும் குட்டிகளைப் பராமரித்தலும் ஆரம்ப வளர்ச்சிக்கு உதவுகின்றன. முட்டையிடுதல் தொடர்வதால் பாலூட்டிகளுக்குரிய உடலியல் சிறப்புகள் இவற்றில் இல்லை என்று கருதக் கூடாது."
+                "en": "Monotremes lack nipples. Milk reaches the skin through openings of mammary ducts, and the young obtain it from the mammary area. Egg incubation and parental care support early development. Milk production is a shared mammalian feature.",
+                "ta": "முட்டையிடும் பாலூட்டிகளுக்கு முலைக்காம்புகள் இல்லை. பால் சுரப்பி நாளங்களின் திறப்புகள் வழியாகத் தோலின் மேற்பரப்பில் வெளிவரும் பாலை இளங்குட்டிகள் பெறுகின்றன. முட்டைகளை அடைகாத்தலும் குட்டிகளைப் பராமரித்தலும் ஆரம்ப வளர்ச்சிக்கு உதவுகின்றன. பால் சுரத்தல் பாலூட்டிகளின் பொதுப் பண்பாகும்."
               }
             },
             {
@@ -5307,8 +5307,8 @@
                 "ta": "பல் வாய்ப்பாடுகளும் எடுத்துக்காட்டுகளும்"
               },
               "body": {
-                "en": "A dental formula records the numbers of incisors (I), canines (C), premolars (P) and molars (M) in one half of the upper and lower jaws. The adult human formula I 2/2, C 1/1, P 2/2, M 3/3 gives 32 teeth when doubled. The adult rabbit formula I 2/1, C 0/0, P 3/2, M 3/3 gives 28 teeth; the second upper incisors are small peg teeth.",
-                "ta": "பல் வாய்ப்பாடு மேல் மற்றும் கீழ்த்தாடைகளின் ஒவ்வொரு பாதியிலும் உள்ள முன்பற்கள், கோரைப்பற்கள், முன்கடைவாய்ப்பற்கள் மற்றும் கடைவாய்ப்பற்களின் எண்ணிக்கையைச் சுட்டுகிறது. முதிர்ந்த மனிதனில் I 2/2, C 1/1, P 2/2, M 3/3 என்ற வாய்ப்பாட்டால் மொத்தம் முப்பத்திரண்டு பற்கள் கிடைக்கின்றன. முதிர்ந்த முயலில் I 2/1, C 0/0, P 3/2, M 3/3 என்ற வாய்ப்பாட்டால் இருபத்தெட்டு பற்கள் கிடைக்கின்றன. மேல்தாடையில் கூடுதல் சிறிய முன்பற்கள் உள்ளன."
+                "en": "A dental formula records the numbers of incisors (I), canines (C), premolars (P) and molars (M) in one half of the upper and lower jaws. The adult human formula I 2/2, C 1/1, P 2/2, M 3/3 gives 32 teeth when doubled. The adult rabbit formula I 2/1, C 0/0, P 3/2, M 3/3 gives 28 teeth; the second upper incisors are small peg teeth. The numerator and denominator give the upper and lower counts on one side, respectively. Add all counts and multiply by two for the bilateral total.",
+                "ta": "பற்சூத்திரம் மேல் மற்றும் கீழ்த்தாடைகளின் ஒவ்வொரு பாதியிலும் உள்ள முன்பற்கள், கோரைப்பற்கள், முன்கடைவாய்ப்பற்கள் மற்றும் கடைவாய்ப்பற்களின் எண்ணிக்கையைச் சுட்டுகிறது. முதிர்ந்த மனிதனில் I 2/2, C 1/1, P 2/2, M 3/3 என்ற பற்சூத்திரத்தின்படி மொத்தம் முப்பத்திரண்டு பற்கள் கிடைக்கின்றன. முதிர்ந்த முயலில் I 2/1, C 0/0, P 3/2, M 3/3 என்ற பற்சூத்திரத்தின்படி இருபத்தெட்டு பற்கள் கிடைக்கின்றன. மேல்தாடையில் கூடுதல் சிறிய முன்பற்கள் உள்ளன. மேலெண்ணும் கீழெண்ணும் முறையே மேல், கீழ்த்தாடைகளின் ஒரே பக்கத்திற்கான எண்ணிக்கையைக் குறிக்கின்றன. அனைத்து எண்ணிக்கைகளையும் கூட்டி இரண்டால் பெருக்கினால் மொத்தப் பற்களின் எண்ணிக்கை கிடைக்கும்."
               }
             }
           ],
@@ -5374,7 +5374,7 @@
             {
               "question": {
                 "en": "How many teeth follow from the adult rabbit dental formula?",
-                "ta": "முதிர்ந்த முயலின் பல் வாய்ப்பாட்டின்படி மொத்த பற்கள் எத்தனை?"
+                "ta": "முதிர்ந்த முயலின் பற்சூத்திரத்தின்படி மொத்த பற்கள் எத்தனை?"
               },
               "options": [
                 {
