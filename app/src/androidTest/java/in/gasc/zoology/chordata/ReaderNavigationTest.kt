@@ -455,9 +455,38 @@ class ReaderNavigationTest {
         })
         org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
             .textbookPages(frog).size >= 6)
-        org.junit.Assert.assertEquals(30, pack.topics.sumOf {
+        org.junit.Assert.assertTrue(pack.topics.sumOf {
             it.textbookChapters.sumOf { chapter -> chapter.sections.size }
+        } >= 46)
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
+    @Test fun detailedCalotesTextbookExplainsCardiacDivisionsAndPreservesOriginalPlates() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val lizard = requireNotNull(pack.findTopic("u4-calotes"))
+        org.junit.Assert.assertEquals(5, lizard.sections.size)
+        org.junit.Assert.assertEquals(5, lizard.diagramIds.size)
+        val chapter = lizard.textbookChapters.single()
+        org.junit.Assert.assertEquals("calotes-versicolor-undergraduate-type-study", chapter.id)
+        org.junit.Assert.assertEquals(16, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
+                it.body.en.length >= 150 && it.body.ta.length >= 150
         })
+        val circulation = chapter.sections.single { it.key == "cardiac-chambers-and-flow" }
+        org.junit.Assert.assertTrue(circulation.body.en.contains("cavum arteriosum"))
+        org.junit.Assert.assertTrue(circulation.body.en.contains("cavum pulmonale"))
+        org.junit.Assert.assertTrue(circulation.body.ta.contains("இதயக்கீழறை"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "arteries-veins-and-portals"
+        }.body.en.contains("right and left systemic aortic arches"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "teeth-tongue-prey-capture"
+        }.body.en.contains("pleurodont"))
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .textbookPages(lizard).size >= 6)
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
     }
