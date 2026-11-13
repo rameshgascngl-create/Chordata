@@ -603,6 +603,28 @@ class ReaderNavigationTest {
         org.junit.Assert.assertTrue(origin.keyPoints[0].ta.contains("முதுகுநாணிகள்"))
     }
 
+    @Test fun numberedAnswersPreserveCompleteTextAndScientificAbbreviations() {
+        val logic = `in`.gasc.zoology.chordata.domain.LearningLogic
+        val examples = listOf(
+            listOf("J. F. Gmelin described Columba livia.", "It is the rock pigeon."),
+            listOf("Some fishes, e.g. Anabas, breathe air.", "The gills still have a role."),
+            listOf("கலோடஸில் இரண்டு மேலறைகள் உள்ளன.", "ஒரு கீழறை உள்ளது."),
+            listOf("The right and left arches join to form the dorsal aorta."),
+        )
+        for (points in examples) {
+            org.junit.Assert.assertEquals(points, logic.answerPoints(points.joinToString(" ")))
+        }
+        val pack = ContentRepository.load(InstrumentationRegistry.getInstrumentation().targetContext)
+        val explanations = pack.topics.flatMap { topic ->
+            (topic.sections + topic.textbookChapters.flatMap { it.sections }).map { it.body } +
+                topic.quiz.map { it.explanation }
+        }
+        for (text in explanations.flatMap { listOf(it.en, it.ta) }) {
+            org.junit.Assert.assertEquals(text.trim().replace(Regex("\\s+"), " "),
+                logic.answerPoints(text).joinToString(" ").replace(Regex("\\s+"), " "))
+        }
+    }
+
     @Test fun creditedReferenceAssetsAreBundledAndMappedCorrectly() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val images = org.json.JSONArray(context.assets.open("figures.json").bufferedReader().use { it.readText() })

@@ -32,6 +32,28 @@ data class ContentPack(val schemaVersion: Int, val credit: String, val units: Li
 enum class ReadingLanguage { EN, TA }
 
 object LearningLogic {
+    private val sentenceAbbreviation = Regex(
+        """(?:\b[A-Z]\.|\b(?:e\.g|i\.e|cf|vs|fig|figs|no|vol|et al|sp|spp)\.)$""",
+        RegexOption.IGNORE_CASE
+    )
+    private val sentenceStart = Regex("""\s+(?=[“"‘'’(]*[A-Z\u0B80-\u0BFF])""")
+    private val sentenceEnd = Regex("""[.!?][”"’')]*$""")
+
+    /** Divide the complete source text into points without dropping any words. */
+    fun answerPoints(text: String): List<String> {
+        val points = mutableListOf<String>()
+        var start = 0
+        for (space in sentenceStart.findAll(text)) {
+            val candidate = text.substring(start, space.range.first).trim()
+            if (sentenceEnd.containsMatchIn(candidate) && !sentenceAbbreviation.containsMatchIn(candidate)) {
+                points.add(candidate)
+                start = space.range.last + 1
+            }
+        }
+        text.substring(start).trim().takeIf { it.isNotEmpty() }?.let { points.add(it) }
+        return points
+    }
+
     /**
      * Textbook pages are groups of contiguous section indices, not fixed
      * one-section screens. The chapter guide remains alongside section one.

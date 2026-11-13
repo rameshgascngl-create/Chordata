@@ -273,20 +273,23 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
 }
 
 @Composable
-private fun BilingualText(value: Bilingual, lang: ReadingLanguage, scale: Float,
-    modifier: Modifier = Modifier, base: Float = 16f, bold: Boolean = false,
-    alignment: TextAlign = TextAlign.Start) {
+private fun ReadingText(value: String, lang: ReadingLanguage, scale: Float,
+    modifier: Modifier = Modifier, base: Float = 16f, bold: Boolean = false) {
     Text(
-        if (lang == ReadingLanguage.TA) value.ta else value.en,
+        value,
         modifier = modifier,
         fontSize = (base * scale).sp,
         lineHeight = (base * scale * if (lang == ReadingLanguage.TA) 1.52f else 1.46f).sp,
         fontWeight = if (bold) FontWeight.SemiBold else FontWeight.Normal,
-        // Full justification at 150–200% creates large rivers of whitespace
-        // on a narrow Android reader; retain it only at readable line widths.
-        textAlign = if (alignment == TextAlign.Justify && scale >= 1.5f)
-            TextAlign.Start else alignment
+        textAlign = TextAlign.Start
     )
+}
+
+@Composable
+private fun BilingualText(value: Bilingual, lang: ReadingLanguage, scale: Float,
+    modifier: Modifier = Modifier, base: Float = 16f, bold: Boolean = false) {
+    ReadingText(if (lang == ReadingLanguage.TA) value.ta else value.en,
+        lang, scale, modifier, base, bold)
 }
 
 @Composable
@@ -500,6 +503,30 @@ private fun ListingPage(pack: ContentPack, tab: String, query: String, onQuery: 
 }
 
 @Composable
+private fun NumberedPoints(points: List<String>, lang: ReadingLanguage, scale: Float,
+    modifier: Modifier = Modifier, base: Float = 16f) {
+    Column(modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(7.dp)) {
+        points.forEachIndexed { index, point ->
+            Row(verticalAlignment = Alignment.Top,
+                horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("${index + 1}.", color = teal, fontWeight = FontWeight.Bold,
+                    fontSize = (base * scale).sp)
+                ReadingText(point, lang, scale,
+                    modifier = Modifier.weight(1f), base = base)
+            }
+        }
+    }
+}
+
+@Composable
+private fun PointwiseAnswer(value: Bilingual, lang: ReadingLanguage, scale: Float,
+    base: Float = 16f) {
+    val text = if (lang == ReadingLanguage.TA) value.ta else value.en
+    val points = remember(text) { LearningLogic.answerPoints(text) }
+    NumberedPoints(points, lang, scale, Modifier.testTag("answer-points"), base)
+}
+
+@Composable
 private fun PointwiseExplanation(points: List<Bilingual>, lang: ReadingLanguage, scale: Float) {
     if (points.isEmpty()) return
     Column(Modifier.fillMaxWidth().testTag("learning-points"),
@@ -508,17 +535,8 @@ private fun PointwiseExplanation(points: List<Bilingual>, lang: ReadingLanguage,
         Text(loc(lang, "Key explanations", "முக்கிய விளக்கக் குறிப்புகள்"),
             color = teal, fontWeight = FontWeight.Bold,
             fontSize = (13f * scale.coerceAtMost(1.5f)).sp)
-        points.forEachIndexed { number, point ->
-            Row(Modifier.fillMaxWidth(),
-                verticalAlignment = Alignment.Top,
-                horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text("${number + 1}.", color = teal,
-                    fontWeight = FontWeight.Bold, fontSize = (14f * scale).sp,
-                    modifier = Modifier.width(23.dp))
-                BilingualText(point, lang, scale, modifier = Modifier.weight(1f),
-                    base = 15f, alignment = TextAlign.Start)
-            }
-        }
+        NumberedPoints(points.map { if (lang == ReadingLanguage.TA) it.ta else it.en },
+            lang, scale, base = 15f)
     }
 }
 
@@ -532,9 +550,7 @@ private fun TextbookExpansionCard(section: LessonSection, lang: ReadingLanguage,
         Column(Modifier.fillMaxWidth().padding(14.dp),
             verticalArrangement = Arrangement.spacedBy(9.dp)) {
             BilingualText(section.heading, lang, scale, base = 18f, bold = true)
-            BilingualText(section.body, lang, scale,
-                modifier = Modifier.fillMaxWidth(), base = 16f,
-                alignment = TextAlign.Justify)
+            PointwiseAnswer(section.body, lang, scale)
         }
     }
 }
@@ -589,9 +605,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                 fontSize = 11.sp, color = teal, fontWeight = FontWeight.Bold)
                             BilingualText(section.heading, lang, scale,
                                 base = 18f, bold = true)
-                            BilingualText(section.body, lang, scale,
-                                modifier = Modifier.fillMaxWidth(),
-                                base = 16f, alignment = TextAlign.Justify)
+                            PointwiseAnswer(section.body, lang, scale)
                             PointwiseExplanation(section.keyPoints, lang, scale)
                         }
                     }
@@ -686,9 +700,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                             "first-section-heading"
                                         else "packed-section-heading-${sectionIndex}"))
                                 }
-                                BilingualText(section.body, lang, scale,
-                                    modifier = Modifier.fillMaxWidth(),
-                                    base = 16f, alignment = TextAlign.Justify)
+                                PointwiseAnswer(section.body, lang, scale)
                                 PointwiseExplanation(section.keyPoints, lang, scale)
                             }
                         }
@@ -821,7 +833,8 @@ private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
                             loc(lang, "Correct option: ${question.correctIndex + 1}", "சரியான விடை: ${question.correctIndex + 1}"),
                             color = if (answers[index] == question.correctIndex) teal else accent,
                             fontWeight = FontWeight.Bold)
-                        BilingualText(question.explanation, lang, scale, base = 14f)
+                        BilingualText(question.options[question.correctIndex], lang, scale, base = 14f, bold = true)
+                        PointwiseAnswer(question.explanation, lang, scale, base = 14f)
                     }
                 }
             }
