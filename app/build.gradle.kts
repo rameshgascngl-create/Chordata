@@ -70,6 +70,17 @@ android {
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
+        create("compactQa") {
+            // Optional smaller *installable* QA APK: exactly the same app ID,
+            // code, images and lesson assets as the full QA build.
+            // R8/resource shrinking mirrors release; never sign for Play here.
+            initWith(getByName("release"))
+            isDebuggable = false
+            signingConfig = if (persistentQaSigning)
+                signingConfigs.getByName("persistentQa")
+            else signingConfigs.getByName("debug")
+            matchingFallbacks += listOf("release")
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17

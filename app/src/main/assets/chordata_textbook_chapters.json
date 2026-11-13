@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "status": "ACADEMIC_BILINGUAL_DRAFT_INDEPENDENT_ZOOLOGY_AND_TAMIL_REVIEW_REQUIRED",
+  "scope": "Original new textbook prose; additive offline curriculum expansion. Immutable legacy content, figure mapping and quizzes unchanged.",
+  "chapters": [
+    {
+      "id": "scoliodon-systematic-type-study",
+      "topicId": "u2-scoliodon",
+      "title": {
+        "en": "Scoliodon — detailed undergraduate type study",
+        "ta": "ஸ்கோலியோடான் — இளங்கலைப் பாடநூல் விரிவான வகை ஆய்வு"
+      },
+      "sections": [
+        {
+          "key": "systematic-position",
+          "heading": {
+            "en": "Systematic position and nomenclature",
+            "ta": "வகைப்பாட்டு நிலையும் அறிவியல் பெயரும்"
+          },
+          "body": {
+            "en": "The textbook term Scoliodon denotes a small carcharhinid shark used in comparative vertebrate anatomy. The spadenose shark is currently recognised as Scoliodon laticaudus, placed in Chondrichthyes, Elasmobranchii, Carcharhiniformes and Carcharhinidae. Older teaching sources sometimes use S. sorrakowah or related spellings; these should not be copied as if they were uncontroversial modern accepted names. Confirm an actual specimen using its collection label and diagnostic characters, because the genus contains related species. The species is a jawed vertebrate with a cartilaginous endoskeleton, paired fins, exposed gill slits and internal fertilisation. In a type study, distinguish characters of this particular shark from generalisations about all fishes.",
+            "ta": "முதுகெலும்பிகளின் ஒப்பீட்டு உடற்கூறியலில் ஸ்கோலியோடான் என்னும் சிறிய சுறா மாதிரி உயிரியாகப் பயிலப்படுகிறது. மண்வெட்டி வடிவ மூக்குடைய சுறாவின் தற்போதைய ஏற்றுக்கொள்ளப்பட்ட பெயர் Scoliodon laticaudus. இது குருத்தெலும்பு மீன்கள் (Chondrichthyes), எலாஸ்மோபிராங்க்கி (Elasmobranchii), கார்காரினிஃபார்மிஸ் (Carcharhiniformes), கார்காரினிடே (Carcharhinidae) ஆகிய வகைப்பாட்டுக் குழுக்களைச் சார்ந்தது. பழைய நூல்களில் S. sorrakowah போன்ற பெயர்களும் காணப்படுகின்றன; அவற்றை இன்றைய ஏற்றுக்கொள்ளப்பட்ட பெயராகக் கருதக் கூடாது. உண்மையான மாதிரியை இனங்காண அதன் அடையாளப் பண்புகளையும் சேகரிப்பு விவரத்தையும் சரிபார்க்க வேண்டும். தாடைகள், குருத்தெலும்பு அகச்சட்டகம், இணையான துடுப்புகள், வெளிப்புறச் செவுள் பிளவுகள், உட்கருவுறுதல் ஆகியவை இக்குழுவின் முக்கிய பண்புகள்."
+          }
+        },
+        {
+          "key": "habitat-and-body-plan",
+          "heading": {
+            "en": "Habitat, body regions and external identification",
+            "ta": "வாழிடம், உடற்பகுதிகள் மற்றும் புறத்தோற்றம்"
+          },
+          "body": {
+            "en": "The spadenose shark inhabits coastal and estuarine waters of the Indo-West Pacific and is often encountered in near-shore fisheries. The body can be divided descriptively into head, trunk and tail, although the divisions are not externally separated by a neck. The head is dorsoventrally depressed and bears a conspicuously broad, flattened, spade-shaped snout. The ventral, crescent-shaped mouth lies behind the snout tip. Small lateral eyes, paired nostrils and five gill openings on each side are useful landmarks. The fusiform body, pale underside and darker dorsal surface aid hydrodynamic movement and countershading. Never identify an unknown specimen by overall colour alone: snout proportions, fin origins and teeth must be considered together.",
+            "ta": "இந்தச் சுறா இந்திய-மேற்கு பசிபிக் கடற்பகுதியின் கடலோர மற்றும் கழிமுக நீர்களில் வாழ்கிறது. உடலைத் தலை, உடற்பகுதி, வால் என விவரிக்கலாம்; கழுத்து போன்ற தெளிவான பிரிவு இல்லை. தலை மேல்கீழாகத் தட்டையாகவும், மூக்குப் பகுதி அகன்ற மண்வெட்டி வடிவிலும் காணப்படும். மூக்கின் நுனிக்குப் பின்னால் அடிப்புறத்தில் பிறை வடிவ வாய் அமைந்துள்ளது. பக்கவாட்டுக் கண்கள், இணை நாசித்துளைகள், ஒவ்வொரு பக்கத்திலும் ஐந்து செவுள் பிளவுகள் ஆகியவை புறத்தோற்ற அடையாளங்கள். நீரோட்ட எதிர்ப்பைக் குறைக்கும் நெடுவட்ட உடல்வடிவமும் மேல்புறம் அடர்ந்த நிறம், கீழ்ப்புறம் வெளிர்ந்த நிறம் கொண்ட எதிர்நிழல் அமைப்பும் காணப்படும். நிறத்தை மட்டும் கொண்டு இனத்தைக் கண்டறியாமல், மூக்கின் அளவுவிகிதம், துடுப்பு அமைவிடம், பற்கள் ஆகியவற்றையும் ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "fins-and-locomotion",
+          "heading": {
+            "en": "Paired and median fins; swimming mechanics",
+            "ta": "இணை மற்றும் நடுத்துடுப்புகள்; நீந்தும் இயக்கம்"
+          },
+          "body": {
+            "en": "Two pectoral fins provide stability and help generate lift in water; the pelvic fins contribute to balance and manoeuvring. Median fins include dorsal fins, an anal fin and the caudal fin. The caudal fin is heterocercal: the upper lobe is longer and the vertebral axis extends into it. This arrangement helps produce forward thrust during lateral movements of the body and tail. Segmental axial muscles, arranged in myomeres separated by connective-tissue myosepta, transmit bending waves backwards. Fin positions are important for species identification and are not interchangeable with those of every dogfish depicted in older anatomy books. In males, the medial parts of the pelvic fins support paired copulatory claspers.",
+            "ta": "இரண்டு மார்புத்துடுப்புகள் நீந்தும்போது உடல்நிலையை நிலைப்படுத்தவும் மேலெழுச்சிக்கு உதவவும் செய்கின்றன. வயிற்றுத்துடுப்புகள் திசைமாற்றம் மற்றும் சமநிலைக்கு உதவுகின்றன. முதுகுத்துடுப்புகள், குதத்துடுப்பு, வால்துடுப்பு ஆகியவை நடுத்துடுப்புகளாகும். வால்துடுப்பு சமமற்ற இருமடல்களைக் கொண்ட ஹெட்டிரோசெர்கல் (heterocercal) வகை; முதுகெலும்புத் தொடர்ச்சி அதன் மேல்மடலுக்குள் நீள்கிறது. உடல் மற்றும் வால் பக்கவாட்டில் அசைவதால் முன்னோக்கித் தள்ளும் விசை உருவாகிறது. மைய உடற்தசைகள் மையோமியர்கள் எனும் தொகுதிகளாக அமைந்து, அவற்றுக்கிடையே இணைப்புத்திசுப் பிரிவுகள் காணப்படுகின்றன. எல்லாச் சுறா இனங்களிலும் துடுப்பு அமைவிடம் ஒரே மாதிரியாக இருப்பதில்லை. ஆணின் வயிற்றுத்துடுப்புகளுடன் இணைந்த கிளாஸ்பர்கள் இணைவிற்குப் பயன்படுகின்றன."
+          }
+        },
+        {
+          "key": "integument-skeleton",
+          "heading": {
+            "en": "Skin, placoid denticles and cartilaginous skeleton",
+            "ta": "தோல், பிளாக்காய்டு செதில்கள் மற்றும் குருத்தெலும்புச் சட்டகம்"
+          },
+          "body": {
+            "en": "The skin has an epidermis above a fibrous dermis. Its characteristic placoid denticles consist of a basal plate and a projecting crown that contains dentine surrounding a pulp cavity, with an enamel-like superficial covering. Denticles reduce abrasion and can influence flow near the body surface; they are developmentally related to vertebrate teeth. The endoskeleton is principally cartilaginous, although areas may be mineralised. The skull protects the brain and supports the jaws and sense capsules. Vertebral elements support the axis around a persisting notochordal component; fins are braced by cartilaginous basal elements and radials. An endoskeleton made primarily of cartilage is not evidence of evolutionary inferiority, and sharks should not be described as ancestors of modern bony fishes.",
+            "ta": "தோலின் வெளிப்புறத்தில் மேற்தோலும் அதன் கீழே நார்த்தன்மையுள்ள அடித்தோலும் அமைந்துள்ளன. பிளாக்காய்டு செதில்கள் அடித்தட்டு மற்றும் வெளிநீளும் முள் போன்ற முடிப்பகுதியைக் கொண்டவை. அவற்றில் பற்பொருள் (dentine), நடுப்பகுதியில் கூழறை, மேலே இனாமல் போன்ற உறை அமைந்துள்ளன. இச்செதில்கள் தோல் தேய்மானத்தைக் குறைத்து உடற்பரப்பை ஒட்டிய நீரோட்டத்தையும் பாதிக்கலாம்; முதுகெலும்பிகளின் பற்களுடன் வளர்ச்சியியல் தொடர்புடையவை. அகச்சட்டகம் பெரும்பாலும் குருத்தெலும்பால் ஆனது; சில பகுதிகள் கனிமப் படிதலுடன் வலுப்பெறலாம். மண்டையோடு மூளையையும் உணர்வுறுப்புகளையும் பாதுகாக்கிறது. முதுகெலும்புக் கூறுகள் உடலின் அச்சைத் தாங்குகின்றன; துடுப்புகளுக்கு அடித்தளக் குருத்தெலும்புகளும் கதிர்களும் ஆதரவளிக்கின்றன. குருத்தெலும்புச் சட்டகத்தை பரிணாமத்தில் தாழ்ந்த பண்பு என்று கருதக் கூடாது."
+          }
+        },
+        {
+          "key": "teeth-and-feeding",
+          "heading": {
+            "en": "Jaws, teeth, buccal cavity and food capture",
+            "ta": "தாடைகள், பற்கள், வாய்க்குழி மற்றும் இரைபிடித்தல்"
+          },
+          "body": {
+            "en": "The wide ventral mouth opens into a buccal cavity and pharynx. Upper and lower jaws carry several replacement rows of teeth; replacement is continuous rather than limited to two tooth generations. The teeth grasp and cut relatively small prey, including fishes and invertebrates. They are not identical to the crushing teeth of rays or the specialised serrated teeth of larger predatory sharks. The pharynx communicates with the gill region, so the routes for food and ventilatory water share an anterior passage but diverge in function. A muscular tongue comparable to that of mammals is absent. During dissection-based learning, students should trace the path of swallowed food without confusing the gill slits with the oesophageal entrance.",
+            "ta": "அடிப்புறத்தில் அமைந்துள்ள அகன்ற வாய் வாய்க்குழியையும் அதைத் தொடர்ந்து தொண்டைப் பகுதியையும் அடைகிறது. மேல், கீழ்த் தாடைகளில் பல வரிசைகளாகப் பற்கள் உருவாகின்றன; பயன்பாட்டில் தேயும் பற்களுக்கு மாற்றாகப் புதிய பற்கள் தொடர்ந்து வருகின்றன. இப்பற்கள் சிறிய மீன்கள் மற்றும் முதுகெலும்பற்ற இரைகளைப் பிடிக்கவும் கிழிக்கவும் உதவுகின்றன. திருக்கை மீன்களின் நொறுக்கும் பற்களிலிருந்தும் பெரிய கொள்ளையுண்ணிச் சுறாக்களின் சிறப்புப் பற்களிலிருந்தும் இவை வேறுபடும். தொண்டைப் பகுதி செவுள் அறைகளுடன் தொடர்புடையதால் உணவிற்கும் சுவாச நீரிற்கும் முன்பகுதியில் பொதுவான வழி இருந்தாலும் பின்னர் செயல்பாட்டு வழிகள் பிரிகின்றன. பாலூட்டிகளில் இருப்பதைப் போன்ற தசைமிகு நாக்கு காணப்படாது. உணவுப்பாதையை வரையும்போது செவுள் பிளவுகளையும் உணவுக்குழாய் வாயிலையும் குழப்பக் கூடாது."
+          }
+        },
+        {
+          "key": "digestive-tract",
+          "heading": {
+            "en": "Oesophagus, stomach, intestine and spiral valve",
+            "ta": "உணவுக்குழாய், இரைப்பை, குடல் மற்றும் சுருள் மடிப்பு"
+          },
+          "body": {
+            "en": "The digestive canal passes from the pharynx through a short oesophagus into a distensible stomach. Food is mechanically and chemically processed before entering the intestine. A characteristic spiral valve increases the absorptive surface and slows passage of intestinal contents despite the relatively short gut. The terminal region leads through the rectum towards the cloaca. Students should follow the sequence from mouth to cloaca on a labelled anatomical preparation and distinguish the spiral intestinal fold from a coiled intestine: the valve is an internal fold, not a separate long external intestinal loop. The shape of particular gastric folds and ducts should be checked against a verified Scoliodon anatomical plate instead of inferred from a generic shark silhouette.",
+            "ta": "தொண்டையைத் தொடர்ந்து குறுகிய உணவுக்குழாய் விரிவடையக்கூடிய இரைப்பையுடன் இணைகிறது. இரையில் உள்ள உணவுப் பொருட்கள் இயந்திர மற்றும் வேதியியல் செயல்பாடுகளால் செரிமானமாகின்றன. குடல் ஒப்பீட்டளவில் குறுகியதாக இருந்தாலும் அதன் உள்ளே அமைந்துள்ள சுருள் மடிப்பு (spiral valve) உறிஞ்சும் பரப்பை அதிகரித்து உணவின் நகர்வை மெதுவாக்குகிறது. இறுதியில் மலக்குடல் பொதுக் கழிவறையான கிளோயக்காவை நோக்கி செல்கிறது. வாய் முதல் கிளோயக்கா வரையிலான உறுப்புகளை அடையாளமிட்ட வரைபடத்தில் வரிசைப்படுத்திப் பயில வேண்டும். சுருள் மடிப்பு என்பது குடலின் உட்புற மடிப்பு; வெளியில் நீளமாகச் சுருண்ட தனிக் குடல் அல்ல. குறிப்பிட்ட இரைப்பை மடிப்புகளையும் நாளங்களையும் பொதுவான சுறா உருவப்படத்தைக் கொண்டு ஊகிக்காமல் சரிபார்க்கப்பட்ட உடற்கூறு படத்துடன் ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "digestive-glands",
+          "heading": {
+            "en": "Liver, gall bladder, pancreas and digestion",
+            "ta": "கல்லீரல், பித்தப்பை, கணையம் மற்றும் செரிமானம்"
+          },
+          "body": {
+            "en": "The liver is proportionately large and produces bile, which is stored in the gall bladder before delivery into the intestine. The pancreas supplies enzymes for the chemical digestion of proteins, lipids and carbohydrates; its secretions enter the alimentary tract through ducts. The intestinal mucosa absorbs nutrients, and the liver has additional metabolic and storage roles, including lipid storage relevant to buoyancy in many sharks. The spleen, often near digestive organs, participates in blood-related immune functions rather than secreting digestive enzymes. Do not confuse a darkly coloured spleen with pancreatic tissue or imply that sharks possess the gas-filled swim bladder typical of many teleost fishes. This comparison makes the digestive anatomy relevant to broader vertebrate physiology.",
+            "ta": "கல்லீரல் ஒப்பீட்டளவில் பெரிதாக அமைந்து பித்தநீரை உருவாக்குகிறது; பித்தப்பையில் சேமிக்கப்பட்ட பித்தநீர் பின்னர் குடலுக்குச் செல்கிறது. கணையம் புரதம், கொழுப்பு மற்றும் கார்போஹைட்ரேட் செரிமானத்துக்கான நொதிகளைச் சுரக்கிறது. குடலின் உட்சவ்வு ஊட்டச்சத்துகளை உறிஞ்சுகிறது. கல்லீரல் வளர்சிதை மாற்றத்திலும் கொழுப்புச் சேமிப்பிலும் பங்கேற்கிறது; பல சுறாக்களில் இந்தக் கொழுப்புச் சேமிப்பு மிதப்புத்தன்மையுடனும் தொடர்புடையது. செரிமான உறுப்புகளுக்கு அருகில் காணப்படும் மண்ணீரல் இரத்தம் மற்றும் நோய் எதிர்ப்பு தொடர்பான பணிகளை மேற்கொள்கிறது; அது செரிமான நொதிகளைச் சுரப்பதில்லை. மண்ணீரலையும் கணையத்தையும் குழப்பக் கூடாது. பல எலும்பு மீன்களில் காணப்படும் வாயு நிரம்பிய நீந்துபை சுறாக்களுக்கு இல்லை என்பதையும் ஒப்பீட்டில் விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "branchial-respiration",
+          "heading": {
+            "en": "Gill arches, branchial lamellae and ventilation",
+            "ta": "செவுள் வளைவுகள், செவுள் தகடுகள் மற்றும் சுவாசம்"
+          },
+          "body": {
+            "en": "Five external gill openings occur on each side of the head in this shark. Water passes from the mouth and pharyngeal region across the respiratory lamellae, where oxygen enters the blood and carbon dioxide leaves it. The delicate lamellae offer extensive exchange surfaces supported by gill arches and associated filaments. Blood and water flow in opposing directions over much of the exchange surface, maintaining a diffusion gradient. Ventilation depends on buccopharyngeal movements and swimming behaviour, and the precise balance varies among sharks. A figure should distinguish external gill slits from the internal gill chambers and lamellae. Spiracles are reduced or absent in many requiem sharks, so an enlarged spiracle seen in a ray should not be added automatically to the Scoliodon drawing.",
+            "ta": "இந்தச் சுறாவின் தலைப்பகுதியில் ஒவ்வொரு பக்கத்திலும் ஐந்து வெளிப்புறச் செவுள் பிளவுகள் உள்ளன. வாயிலிருந்தும் தொண்டைப் பகுதியிலிருந்தும் செல்லும் நீர் செவுள் தகடுகளின் மேற்பரப்பைக் கடக்கும்போது ஆக்சிஜன் இரத்தத்திற்குள் பரவுகிறது; கார்பன் டையாக்சைடு வெளியேறுகிறது. நுண்ணிய செவுள் தகடுகள் வாயுப் பரிமாற்றத்துக்கான பெரிய பரப்பை வழங்குகின்றன. செவுள் வளைவுகளும் செவுள் இழைகளும் இவற்றிற்கு ஆதரவளிக்கின்றன. நீரும் இரத்தமும் எதிர்திசைகளில் பாய்வதால் பரவலுக்கான செறிவுவேறுபாடு தொடர்ந்து நிலைக்க உதவுகிறது. வாய்த்தொண்டை இயக்கங்களும் நீந்தும் பழக்கமும் நீரின் இயக்கத்தில் பங்கு வகிக்கின்றன. வெளிப்புறச் செவுள் பிளவு, உட்புறச் செவுள் அறை, வாயுப் பரிமாற்றத் தகடு ஆகியவற்றைத் தனித்தனியாகக் காட்ட வேண்டும். திருக்கை மீனின் பெரிய ஸ்பைராக்கிளை இச்சுறாவின் வரைபடத்தில் தவறாகச் சேர்க்கக் கூடாது."
+          }
+        },
+        {
+          "key": "heart-circulation",
+          "heading": {
+            "en": "Heart chambers and single-circuit circulation",
+            "ta": "இதய அறைகளும் ஒற்றைச் சுற்று இரத்த ஓட்டமும்"
+          },
+          "body": {
+            "en": "The venous heart lies in a ventral pericardial compartment behind the gill region. Its functional sequence is sinus venosus, atrium, muscular ventricle and outflow conus arteriosus. Oxygen-poor blood enters from the systemic veins, is propelled towards the ventral aorta, and then reaches the gill capillaries through afferent branchial vessels. Oxygenated blood collects in efferent branchial vessels and is distributed to the body through the dorsal aortic system before returning through veins. Thus the heart pumps blood to the gills first; there is no separate pulmonary circulation or mammalian-style four-chambered heart. In diagrams, identify the direction of flow, blood oxygenation state and valve-bearing outflow tract instead of merely memorising the names of chambers.",
+            "ta": "இதயம் செவுள் பகுதிக்குப் பின்னால் அடிப்புற இதயஉறை அறையில் காணப்படுகிறது. அதன் செயல்பாட்டு வரிசை சைனஸ் வீனோசஸ், ஏட்ரியம், தசைச் சுவருடைய வென்ட்ரிக்கிள், வெளியேற்றக் கோனஸ் ஆர்டீரியோசஸ் என்பதாகும். உடலிலிருந்து வரும் ஆக்சிஜன் குறைந்த இரத்தம் இதயத்தை அடைந்து, அடிப்புற மகாதமனி வழியாக உட்செவுள் இரத்தநாளங்களுக்கு அனுப்பப்படுகிறது. செவுள் நுண்குழல்களில் ஆக்சிஜன் ஏற்றப்பட்ட இரத்தம் வெளியேறும் செவுள் இரத்தநாள்கள் வழியாக முதுகுப்புற மகாதமனியை அடைந்து உடலுக்குப் பகிரப்படுகிறது; பின்னர் சிரைகள் வழியாக மீண்டும் இதயத்திற்குத் திரும்புகிறது. இவ்வாறு ஒற்றை இரத்த ஓட்டச் சுற்று காணப்படுகிறது. பாலூட்டிகளைப் போல தனித்த நுரையீரல் சுற்றோ நான்கு அறைகள் கொண்ட இதயமோ இல்லை. வரைபடத்தில் இரத்த ஓட்டத் திசை, ஆக்சிஜன் நிலை மற்றும் வால்வுகள் உள்ள வெளியேற்றப் பகுதியைத் தெளிவாகச் சுட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "excretion-osmoregulation",
+          "heading": {
+            "en": "Kidneys, nitrogenous waste and marine osmoregulation",
+            "ta": "சிறுநீரகங்கள், நைட்ரஜன் கழிவுகள் மற்றும் உப்புநீர்ச் சமநிலை"
+          },
+          "body": {
+            "en": "Paired elongated kidneys occupy the dorsal region of the body cavity. The adult functional kidney is commonly described as opisthonephric in comparative anatomy. Nephrons filter blood and participate in selective reabsorption and excretion. Marine elasmobranchs maintain relatively high concentrations of urea together with protective solutes such as trimethylamine N-oxide; this reduces osmotic water loss without simply matching seawater salt composition. Excess sodium chloride is regulated in part through the rectal gland and also through renal and branchial processes. Sharks therefore should not be described as excreting most nitrogen solely as ammonia in the same manner as many teleost fishes. In male specimens, urinary and reproductive ducts are closely associated; avoid treating every duct visible in one sex as present in the same arrangement in the other.",
+            "ta": "இணையான நீளமான சிறுநீரகங்கள் உடற்குழியின் முதுகுப்புறத்தில் அமைந்துள்ளன. வளர்ந்த நிலையில் செயல்படும் சிறுநீரகம் ஒப்பீட்டு உடற்கூறியலில் ஓபிஸ்தோநெஃப்ரிக் வகையாகக் குறிப்பிடப்படுகிறது. நெஃப்ரான்கள் இரத்தத்தை வடிகட்டி தேவையான பொருட்களை மீள்உறிஞ்சி கழிவுகளை வெளியேற்ற உதவுகின்றன. கடல்வாழ் குருத்தெலும்பு மீன்கள் உடல்நீரில் யூரியாவையும் டிரைமெதில்அமீன் N-ஆக்சைடு போன்ற பாதுகாப்புச் சேர்மங்களையும் ஒப்பீட்டளவில் அதிகமாக வைத்துள்ளன; இதனால் சவ்வூடுபரவல் வழியாக நீர் இழப்பது குறைகிறது. அதிகப்படியான சோடியம் குளோரைடு வெளியேற்றத்தில் மலக்குடல் சுரப்பியும் சிறுநீரக, செவுள் செயல்பாடுகளும் பங்குபெறுகின்றன. பல எலும்புமீன்களைப் போல அமோனியாவை மட்டுமே முக்கிய நைட்ரஜன் கழிவாக வெளியேற்றுவதாகச் சொல்லக் கூடாது. ஆண் உயிரியில் சிறுநீர் மற்றும் இனப்பெருக்க நாளங்கள் நெருங்கிய தொடர்புடையவை; ஆண், பெண் அமைப்புகளை ஒன்றாகக் கலந்து வரையக்கூடாது."
+          }
+        },
+        {
+          "key": "brain-nervous-system",
+          "heading": {
+            "en": "Brain, spinal cord and cranial nerves",
+            "ta": "மூளை, முதுகுத் தண்டு மற்றும் தலைநரம்புகள்"
+          },
+          "body": {
+            "en": "The brain is organised into forebrain, midbrain and hindbrain regions connected to the spinal cord. Olfactory bulbs and their tracts are prominent in relation to chemical sensing. The optic tectum of the midbrain processes major visual input, whereas the cerebellum is associated with coordination of swimming and balance. Medullary centres regulate essential visceral functions. The spinal cord lies dorsally within the vertebral canal and gives rise to segmentally arranged spinal nerves. Cranial nerves connect the brain to the eyes, olfactory structures, branchial region, lateral-line system and other head organs. In a teaching diagram, place the brain regions in correct anterior–posterior order and avoid applying a mammalian cerebral-cortex layout to a shark.",
+            "ta": "மூளை முன்மூளை, நடுமூளை, பின்மூளை என்ற பகுதிகளாக அமைந்து முதுகுத் தண்டுடன் தொடர்கிறது. மணத்தை உணரும் பணியுடன் தொடர்புடைய மணநுகர் குமிழ்களும் நரம்புத் தடங்களும் தெளிவாகக் காணப்படுகின்றன. நடுமூளையின் பார்வைச் செயலாக்கப் பகுதி காட்சித் தகவலைக் கையாள்கிறது. சிறுமூளை நீந்தும் இயக்கங்களின் ஒருங்கிணைப்பு மற்றும் உடல்சமநிலைக்கு உதவுகிறது. நீள்வளைய மையங்கள் சில அடிப்படை உள்ளுறுப்பு செயல்பாடுகளை ஒழுங்குபடுத்துகின்றன. முதுகுத் தண்டு முதுகெலும்புக் குழாயில் அமைந்து பகுதிவாரியாக முதுகுநரம்புகளை வழங்குகிறது. தலைநரம்புகள் கண்கள், மணநுகர் அமைப்புகள், செவுள் பகுதி, பக்கக்கோட்டு உணர்வு அமைப்பு போன்றவற்றுடன் தொடர்புடையவை. வரைபடத்தில் மூளைப் பகுதிகளின் முன்-பின் வரிசையைச் சரியாகக் காட்ட வேண்டும்; பாலூட்டிகளின் பெருமூளைப் புறணியமைப்பைச் சுறாவிற்கு அப்படியே பொருத்தக் கூடாது."
+          }
+        },
+        {
+          "key": "sense-organs",
+          "heading": {
+            "en": "Olfaction, vision, lateral line and electroreception",
+            "ta": "மணநுகர்ச்சி, பார்வை, பக்கக்கோடு மற்றும் மின்உணர்வு"
+          },
+          "body": {
+            "en": "Waterborne chemicals are detected by olfactory epithelia supplied through the paired nostrils; the nostrils do not function as mammalian air-breathing openings. The eyes provide visual information and the inner ears contribute to equilibrium and hearing. Neuromasts within the lateral-line canals detect low-frequency water displacement and local movements. Electroreceptive ampullae of Lorenzini are specialised sensory units concentrated around the head; they detect weak electric fields produced by prey and the environment. These complementary senses support prey location, orientation and swimming. An anatomical plate should not label every head pore as an identical sense organ: lateral-line pores, olfactory openings and electroreceptor pores have different connections and functions.",
+            "ta": "நீரில் கரைந்துள்ள வேதிப்பொருட்களை இணையான நாசித்துளைகளுடன் தொடர்புடைய மணநுகர் புறச்சவ்வுகள் உணர்கின்றன. இந்நாசித்துளைகள் பாலூட்டிகளின் மூச்சுவிடும் துளைகளைப் போலச் செயல்படுவதில்லை. கண்கள் பார்வைத் தகவலையும் உட்செவிகள் சமநிலை மற்றும் ஒலி தொடர்பான தகவல்களையும் வழங்குகின்றன. பக்கக்கோட்டு நாளங்களில் உள்ள நியூரோமாஸ்ட்கள் நீரின் குறைந்த அதிர்வெண் அசைவுகளையும் அருகிலுள்ள இயக்கங்களையும் உணர்கின்றன. தலைப்பகுதியில் அதிகம் காணப்படும் லோரென்சினியின் அம்புல்லாக்கள் மிகமெல்லிய மின்புல மாற்றங்களை உணரும் சிறப்பமைப்புகளாகும். இவ்வுணர்வுகள் இரையைக் கண்டறிதல், திசையறிதல், நீந்தும் ஒருங்கிணைப்பு ஆகியவற்றிற்கு உதவுகின்றன. தலைப்பகுதியின் எல்லாத் துளைகளையும் ஒரே உணர்வுறுப்பாகப் பெயரிடக் கூடாது; பக்கக்கோட்டு, மணநுகர் மற்றும் மின்உணர்வுத் திறப்புகளின் அமைப்பும் பணியும் வேறுபடும்."
+          }
+        },
+        {
+          "key": "male-reproduction",
+          "heading": {
+            "en": "Male reproductive organs and internal fertilisation",
+            "ta": "ஆண் இனப்பெருக்க உறுப்புகளும் உட்கருவுறுதலும்"
+          },
+          "body": {
+            "en": "The testes produce sperm, which is conveyed through associated genital ducts towards the posterior reproductive passages. In many elasmobranchs, portions of the anterior kidney and the duct system are modified in connection with sperm transport. Each male pelvic fin bears a clasper used to introduce sperm during copulation; claspers are not additional paired limbs. Fertilisation is internal. Proper anatomical comparison must distinguish the ducts for sperm from urinary drainage and note where the urogenital openings lead towards the cloaca. Specimens of different species or sexes should not be combined into a single apparently definitive diagram, since the degree of duct fusion and accessory reproductive structures may vary.",
+            "ta": "விந்தணுக்கள் விரைகளில் உருவாகி, இனப்பெருக்க நாளங்களின் வழியாகப் பின்புறப் பகுதிகளுக்குக் கொண்டு செல்லப்படுகின்றன. பல சுறாக்களில் சிறுநீரகத்தின் முன்பகுதியும் அதனுடன் தொடர்புடைய சில நாளங்களும் விந்தணுக் கடத்தலுக்காக மாற்றமடைந்துள்ளன. ஆணின் ஒவ்வொரு வயிற்றுத்துடுப்பிலும் ஒரு கிளாஸ்பர் உள்ளது; இது இணைவின்போது விந்தணுக்களை பெண்ணினுள் செலுத்த உதவுகிறது. கிளாஸ்பர்கள் கூடுதல் கால்களோ துடுப்புகளோ அல்ல. கருவுறுதல் உடலினுள் நடைபெறுகிறது. விந்தணுக் கடத்தல் நாளங்களையும் சிறுநீர் வெளியேற்ற நாளங்களையும் தனித்தனியாகக் காட்டி அவை பொதுக் கழிவறையுடன் கொண்டுள்ள தொடர்பை விளக்க வேண்டும். வெவ்வேறு இனங்கள் அல்லது பாலினங்களின் உறுப்புகளை ஒன்றாகச் சேர்த்துத் தவறான ஒரே வரைபடம் உருவாக்கக் கூடாது."
+          }
+        },
+        {
+          "key": "female-reproduction",
+          "heading": {
+            "en": "Female organs, placental viviparity and embryonic development",
+            "ta": "பெண் இனப்பெருக்க உறுப்புகள், நஞ்சுக்கொடி வழி குட்டி ஈனுதல் மற்றும் கருவளர்ச்சி"
+          },
+          "body": {
+            "en": "The female reproductive system includes ovaries and oviducts with specialised regions for fertilisation and embryo development. Scoliodon laticaudus is notable for placentotrophic viviparity: developing young receive substantial nourishment from the mother through a placental connection, rather than relying only on a large yolk reserve. Embryos grow within the maternal reproductive tract and living young are born after development. Litter size and gestation vary with population and conditions; avoid presenting one number as an invariant species character. This is distinct from external egg laying, and it must also be distinguished from the many other reproductive strategies found among cartilaginous fishes. Students should identify the ovary, oviduct, uterine region and embryonic connection without inventing an embryo or placental structure absent from the plate.",
+            "ta": "பெண் இனப்பெருக்க மண்டலத்தில் சூலகங்களும் அண்டநாளங்களும் அமைந்து, கருவுறுதல் மற்றும் கருவளர்ச்சிக்குத் தனித்த பகுதிகள் காணப்படுகின்றன. Scoliodon laticaudus நஞ்சுக்கொடி வழி ஊட்டம் பெறும் குட்டி ஈனும் இனமாகும். வளர்கின்ற கருக்கள் பெரிய மஞ்சள் கருச் சேமிப்பை மட்டும் நம்பாமல் தாயின் இனப்பெருக்கப் பாதையில் உருவாகும் நஞ்சுக்கொடி போன்ற இணைப்பின் மூலம் முக்கிய ஊட்டச்சத்துகளைப் பெறுகின்றன. கருக்கள் தாயின் உடலுக்குள் வளர்ந்து பின்னர் உயிருள்ள குட்டிகளாகப் பிறக்கின்றன. குட்டிகளின் எண்ணிக்கையும் கருவுற்றிருக்கும் காலமும் சூழல் மற்றும் உயிர்க்குழுவைப் பொறுத்து மாறலாம்; ஒரே எண்ணிக்கையை மாறாத பண்பாகக் கூறக் கூடாது. இது வெளியில் முட்டையிடுதலிலிருந்து வேறுபடுகிறது; குருத்தெலும்பு மீன்களில் பல்வேறு இனப்பெருக்க முறைகள் காணப்படுகின்றன. வரைபடத்தில் சூலகம், அண்டநாளம், கருப்பைப் பகுதி, கருவுக்கான ஊட்டத் தொடர்பு ஆகியவற்றைத் துல்லியமாக அடையாளம் காண வேண்டும்."
+          }
+        },
+        {
+          "key": "comparative-ecology",
+          "heading": {
+            "en": "Ecological role and comparative vertebrate significance",
+            "ta": "சூழலியல் பங்கும் முதுகெலும்பிகள் ஒப்பீட்டில் முக்கியத்துவமும்"
+          },
+          "body": {
+            "en": "Spadenose sharks feed on small fishes and invertebrates and form part of coastal food webs. Their occurrence in fisheries provides opportunities to examine by-catch, habitat use and conservation, but specimens should be obtained only through lawful, ethical institutional arrangements. In comparative anatomy, Scoliodon illustrates a cartilaginous jawed vertebrate rather than a universal model for every shark. Contrast its placoid denticles with bony-fish scales, its heterocercal tail with homocercal tails, its spiral intestinal valve with the longer teleost intestine, and its internal fertilisation with external spawning in many bony fishes. The important learning outcome is a structured explanation linking anatomical feature, physiological function and evolutionary context—not memorisation of isolated labels.",
+            "ta": "இச்சுறா சிறிய மீன்களையும் முதுகெலும்பற்ற உயிரிகளையும் உண்டு கடலோர உணவுவலையில் பங்குபெறுகிறது. மீன்பிடித் தொழிலில் துணைப்பிடிப்பாகக் கிடைப்பதன் மூலம் வாழிடம், மீன்பிடி அழுத்தம் மற்றும் பாதுகாப்பு ஆகியவற்றைப் பயிலலாம். ஆய்வுக்கான மாதிரிகள் சட்டத்திற்கும் கல்வி நிறுவனத்தின் அறநெறிக்கும் உட்பட்டு மட்டுமே பெறப்பட வேண்டும். ஒப்பீட்டு உடற்கூறியலில் ஸ்கோலியோடான் தாடையுடைய குருத்தெலும்பு முதுகெலும்பியின் மாதிரி; எல்லாச் சுறாக்களையும் இதன் வடிவத்திலேயே விளக்கக் கூடாது. பிளாக்காய்டு செதில்களை எலும்புமீன்களின் செதில்களுடனும், சமமற்ற வால்துடுப்பைச் சமமான வால்துடுப்புடனும், சுருள் குடல்மடிப்பை நீண்ட எலும்புமீன் குடலுடனும், உட்கருவுறுதலை பல எலும்புமீன்களின் வெளிக்கருவுறுதலுடனும் ஒப்பிட வேண்டும். உறுப்பின் அமைப்பு, பணி, பரிணாமப் பொருள் ஆகியவற்றின் தொடர்பை விளக்குவதே கற்றலின் நோக்கமாகும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "CMFRI Atlas of Elasmobranch Fishery Resources of India",
+          "url": "https://eprints.cmfri.org.in/4056/1/Special_Publn_95.pdf"
+        },
+        {
+          "label": "WoRMS accepted taxonomy Scoliodon laticaudus",
+          "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217364"
+        },
+        {
+          "label": "IUCN spadenose shark assessment hosted by CMFRI",
+          "url": "https://eprints.cmfri.org.in/15352/1/IUCN_2021_Scoliodon%20laticaudus.pdf"
+        },
+        {
+          "label": "Government of India CIET Chondrichthyes educational resource",
+          "url": "https://ciet.nic.in/moocspdf/Biology%20001/kebo_10403_e-content.pdf"
+        }
+      ]
+    },
+    {
+      "id": "rana-hexadactyla-undergraduate-type-study",
+      "topicId": "u3-rana",
+      "title": {
+        "en": "Rana hexadactyla (Phrynoderma hexadactylum) — complete type-study foundations",
+        "ta": "ரானா ஹெக்ஸாடாக்டைலா (Phrynoderma hexadactylum) — விரிவான இளங்கலை வகை ஆய்வு"
+      },
+      "sections": [
+        {
+          "key": "nomenclature-taxonomy",
+          "heading": {
+            "en": "Scientific name, classification and taxonomic history",
+            "ta": "அறிவியல் பெயர், வகைப்பாடு, பெயரியல் வரலாறு"
+          },
+          "body": {
+            "en": "The classical practical-textbook name Rana hexadactyla Lesson, 1834 refers to the Indian green frog, a chiefly aquatic anuran. Modern taxonomic authorities including Amphibian Species of the World and ITIS use Phrynoderma hexadactylum (Lesson, 1834); Euphlyctis hexadactylus is a widely encountered later combination. It belongs to Chordata, Vertebrata, Amphibia, Anura and Dicroglossidae in that treatment. The names Rana, Euphlyctis and Phrynoderma should be cross-referenced, not presented as three unrelated specimens. Taxonomic circumscriptions and geographic identifications have changed with molecular and morphological research. The following account treats the species-specific external traits where documented, but several internal organ-system descriptions are standard comparative-anuran anatomy that require checking against a positively identified specimen. This distinction prevents a generic laboratory-frog diagram from being mislabelled as a validated species-specific dissection.",
+            "ta": "பழைய செய்முறைப் பாடநூல்களில் Rana hexadactyla Lesson, 1834 என்று அழைக்கப்பட்ட இந்தியப் பச்சைத் தவளை பெரும்பாலும் நீர்சார்ந்து வாழும் வாலற்ற இருவாழ்வியாகும். Amphibian Species of the World, ITIS போன்ற தற்போதைய வகைப்பாட்டு ஆதாரங்களில் Phrynoderma hexadactylum (Lesson, 1834) என்ற பெயர் பயன்படுத்தப்படுகிறது; Euphlyctis hexadactylus என்ற இணைப்புப் பெயரும் பல ஆய்வுகளில் காணப்படுகிறது. தொகுதி Chordata, துணைத்தொகுதி Vertebrata, வகுப்பு Amphibia, வரிசை Anura, குடும்பம் Dicroglossidae என்பவை இதன் வகைப்பாட்டு நிலைகள். இம்மூன்று அறிவியல் பெயர்களையும் வெவ்வேறு இனங்களாகக் கருதக் கூடாது. மூலக்கூறு மற்றும் உடற்கூறியல் ஆய்வுகளால் பெயரியல் விளக்கங்கள் மாறியுள்ளன. கீழே இனத்திற்குரிய புறப்பண்புகளும், ஒப்பீட்டுத் தவளை உடற்கூறியலை அடிப்படையாகக் கொண்ட பொதுவான உள்ளுறுப்பு விளக்கங்களும் தெளிவாக வேறுபடுத்தப்படுகின்றன."
+          }
+        },
+        {
+          "key": "habitat-identification",
+          "heading": {
+            "en": "Habitat, habits and species identification",
+            "ta": "வாழிடம், வாழ்க்கை முறை மற்றும் இன அடையாளம்"
+          },
+          "body": {
+            "en": "Indian green frogs inhabit freshwater wetlands and vegetated ponds, often remaining close to water and entering it rapidly when disturbed. The species is associated with aquatic vegetation, but its geographic limits and records beyond its well-supported Indian and Bangladeshi range require careful verification. Compared with many terrestrial frogs, it has extensive toe webbing and a form well suited to swimming. Colour may be green or otherwise variable, so photographs should show the head profile, dorsum, tympanum, forefeet and hindfeet rather than relying only on a bright green colour. Species identification also requires distinction from other pond frogs historically assigned to Euphlyctis. Because conservation assessments and local legal protection can change, educators should verify current collection rules and prioritise non-lethal observation or existing accredited museum specimens.",
+            "ta": "இந்தியப் பச்சைத் தவளை தாவரங்கள் நிறைந்த குளங்கள், நன்னீர் ஈரநிலங்கள், நீர்நிலைகளின் ஓரங்கள் போன்ற இடங்களில் வாழ்கிறது. தொந்தரவு ஏற்பட்டால் விரைவாக நீருக்குள் செல்வது வழக்கம். நீச்சலுக்கு ஏற்ற வகையில் பின்னங்கால்களின் விரல்களுக்கு இடையில் விரிந்த நீர்த்தோல் காணப்படுகிறது. உடலின் பச்சை நிறம் மட்டும் இன அடையாளத்திற்குப் போதுமானதல்ல; தலை வடிவம், முதுகுப்புறம், செவிப்பறை, முன்கால் மற்றும் பின்னங்கால் ஆகியவற்றைச் சேர்த்துப் பார்வையிட வேண்டும். அதே பழைய பேரினப்பெயரில் சேர்க்கப்பட்ட பிற குளத்தவளைகளிலிருந்து இவ்வினத்தை வேறுபடுத்துவது அவசியம். பகிர்ந்தளிக்கப்பட்ட நிலவரைப் பதிவுகளும் இடப்பெயர்களும் புதிய வகைப்பாட்டு ஆய்வுகளுடன் ஒப்பிடப்பட வேண்டும். உயிரிகளைப் பிடிப்பதற்கான நடைமுறைகளில் தற்போதைய சட்டவிதிகளைப் பின்பற்றி, உயிரைக் காயப்படுத்தாத களக் கவனிப்பிற்கு முன்னுரிமை வழங்க வேண்டும்."
+          }
+        },
+        {
+          "key": "external-morphology",
+          "heading": {
+            "en": "External morphology and skin",
+            "ta": "புறத்தோற்றமும் தோல் அமைப்பும்"
+          },
+          "body": {
+            "en": "An adult anuran body is conventionally divided into head and trunk, with no distinct neck or persistent external tail. The broad mouth, paired external nares, protruding eyes and tympanic membranes are visible on the head. A translucent nictitating membrane can protect the eye during swimming. The thin skin has epidermal and dermal layers, abundant mucus-producing glands and a rich vascular network; its moisture is essential for efficient cutaneous gas exchange. Pigment cells contribute to camouflage and thermoregulation but colour varies with illumination, condition and species. The adult lacks the keratinised body scales typical of many reptiles. In a labelled external plate, indicate the snout, eye, tympanum, forelimb, hindlimb, digits, webbing and cloacal opening. Do not infer anatomical structures from decorative markings in a stylised illustration.",
+            "ta": "வளர்ந்த வாலற்ற தவளையின் உடலைத் தலை, உடற்பகுதி எனப் பிரித்துக் காணலாம்; தனியான கழுத்தோ நீளமான வெளிப்புற வாலோ இல்லை. தலைப்பகுதியில் அகன்ற வாய், இணை வெளிநாசித்துளைகள், புடைத்த கண்கள், செவிப்பறைகள் காணப்படுகின்றன. நீந்தும்போது கண்களைப் பாதுகாக்க நிக்டிடேட்டிங் சவ்வு உதவுகிறது. மேற்தோலும் அடித்தோலும் கொண்ட மெல்லிய தோலில் சளிச்சுரப்பிகளும் அடர்ந்த நுண்ணிரத்தநாளங்களும் உள்ளன. தோல் ஈரமாக இருப்பதால் தோல்வழி வாயுப் பரிமாற்றம் எளிதாகிறது. நிறமிச்செல்கள் மறைவுநிறத்தையும் வெப்ப ஒழுங்குபாட்டையும் பாதிக்கின்றன. பல ஊர்வனங்களில் காணப்படும் கொம்புப் பொருளால் ஆன செதில்கள் வளர்ந்த தவளையில் இல்லை. புறத்தோற்றப் படத்தில் மூக்கு, கண், செவிப்பறை, நான்கு கால்கள், விரல்கள், விரலிடை நீர்த்தோல், பொதுக் கழிவறைத் திறப்பு ஆகியவற்றைச் சரியாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "appendages-locomotion",
+          "heading": {
+            "en": "Forelimbs, hindlimbs and aquatic locomotion",
+            "ta": "முன்கால்கள், பின்னங்கால்கள் மற்றும் நீர்வாழ் இயக்கம்"
+          },
+          "body": {
+            "en": "The forelimbs support the anterior body during landing and locomotion; each typically bears four functional digits. The longer, more muscular hindlimbs usually end in five toes and supply the propulsive strokes of swimming and jumping. In this highly aquatic frog, extensive toe webbing increases the surface pushed against water. Hindlimb movement depends on strong pelvic attachments, elongated segments and coordinated flexor-extensor muscles. The hip, knee, ankle and toe joints operate in sequence, while the forelimbs help to steer and absorb landing forces. Sexual dimorphism in some frogs includes nuptial pads and vocal structures, but their form should be recorded from the named species rather than presumed from another common frog. For an undergraduate practical, compare the ratio of hindlimb length to body length, the extent of webbing and the pattern of digits with two other known anuran species.",
+            "ta": "முன்கால்கள் உடலின் முன்பகுதியைத் தாங்கவும் தரையிறங்கும்போது தாக்கத்தைத் தணிக்கவும் பயன்படுகின்றன; ஒவ்வொரு முன்காலிலும் பொதுவாக நான்கு செயல்படும் விரல்கள் உள்ளன. நீண்ட தசைமிக்க பின்னங்கால்களில் ஐந்து விரல்கள் காணப்படுகின்றன; அவையே நீந்துதல் மற்றும் தாவுதல் ஆகியவற்றிற்கான முதன்மை உந்துவிசையைத் தருகின்றன. இந்நீர்சார்ந்த தவளையில் விரலிடை நீர்த்தோல் பரப்பை அதிகரித்து நீரைப் பின்னோக்கித் தள்ள உதவுகிறது. இடுப்பு, முழங்கால், கணுக்கால் மூட்டுகளும் மடக்கும்-நீட்டும் தசைகளும் ஒருங்கிணைந்து செயல்படுகின்றன. சில தவளை இனங்களின் ஆண்களில் இணைவுக்காலப் பிடிப்புத் தட்டுகளும் ஒலியெழுப்பும் அமைப்புகளும் காணப்படும்; குறிப்பிட்ட இனத்தில் சரிபார்க்காமல் அவற்றின் வடிவத்தைப் பொதுமைப்படுத்தக் கூடாது. செய்முறைப் பயிற்சியில் கால்நீள விகிதம், நீர்த்தோல் பரப்பு, விரல் அமைப்பு ஆகியவற்றை வேறு இரண்டு அறியப்பட்ட தவளை இனங்களுடன் ஒப்பிடலாம்."
+          }
+        },
+        {
+          "key": "endoskeleton",
+          "heading": {
+            "en": "Axial skeleton, girdles and limb bones",
+            "ta": "அச்சுச் சட்டகம், வளையங்கள் மற்றும் காலெலும்புகள்"
+          },
+          "body": {
+            "en": "Adult frog skeletons have a skull, short vertebral column and modified appendicular skeleton. The skull is broad, with openings for eyes, nasal structures and the brain, and supports the lower jaw and auditory elements. The vertebral column typically contains a distinct atlas followed by trunk vertebrae and a sacral vertebra; posterior caudal elements are fused into the urostyle, which stabilises the jumping body. A pectoral girdle supports the forelimbs, while a pelvic girdle transfers powerful hindlimb forces to the axial skeleton. Distal limb bones and some forearm or lower-leg elements are fused or elongated relative to many other tetrapods. A diagram must label bone identity correctly rather than transferring the detailed skeleton of a particular commercial specimen to a differently named frog without qualification. Compare the urostyle with the persistent tail of salamanders.",
+            "ta": "வளர்ந்த தவளையின் அகச்சட்டகத்தில் மண்டையோடு, குறுகிய முதுகெலும்புத் தொடர், இயக்கத்துக்கு ஏற்றவாறு மாறிய காலெலும்புகள் ஆகியவை உள்ளன. அகன்ற மண்டையோடு கண்கள், மூக்கு, மூளை ஆகியவற்றிற்கான பகுதிகளைக் கொண்டுள்ளது. முதல் முதுகெலும்பு அட்லஸ் எனப்படுகிறது; உடற்பகுதி முதுகெலும்புகளைத் தொடர்ந்து இடுப்புப் பகுதியில் சாக்ரல் முதுகெலும்பு அமைந்துள்ளது. பின்புற வால்பகுதி முதுகெலும்புக் கூறுகள் இணைந்து யூரோஸ்டைல் என்ற தண்டு போன்ற அமைப்பை உருவாக்குகின்றன; இது தாவுதலின்போது உடலைத் தாங்க உதவுகிறது. தோள்வளையம் முன்கால்களைத் தாங்குகிறது; இடுப்புவளையம் பின்னங்கால்களின் விசையை அச்சுச் சட்டகத்திற்குக் கடத்துகிறது. சில முன்னங்கை மற்றும் பின்னங்கால் எலும்புகள் இணைந்தோ நீண்டோ காணப்படுகின்றன. குறிப்பிட்ட மாதிரியின் எலும்புகளை அடையாளமிட்டுப் பார்வையிட வேண்டும்; பிற இனங்களின் எலும்புக் குறிப்புகளைச் சரிபார்க்காமல் இவ்வினத்தின் தனிப்பண்பாகக் காட்டக் கூடாது."
+          }
+        },
+        {
+          "key": "buccal-teeth-feeding",
+          "heading": {
+            "en": "Buccal cavity, teeth, tongue and feeding ecology",
+            "ta": "வாய்க்குழி, பற்கள், நாக்கு மற்றும் உணவியல்"
+          },
+          "body": {
+            "en": "The buccal cavity communicates with external nostrils through the internal nares and with the respiratory route through the glottis; the gullet is the route into the digestive tract. In a typical frog, the upper jaw and palate bear small teeth used in prey retention rather than chewing, while the protrusible tongue assists in capturing food. However, the Indian green frog is an important exception to the simplistic statement that every adult frog feeds only on insects: published observations report consumption of aquatic plants as well as invertebrate and vertebrate prey. Reports of adult folivory make diet a significant species-level topic. Plant-feeding observations must not be extrapolated to every individual or every anuran species. A labelled oral-cavity figure should distinguish tongue attachment, openings of the internal nares, Eustachian-tube openings and the glottis.",
+            "ta": "வாய்க்குழியில் உள்ள்நாசித்துளைகள், தொண்டையின் சுவாசத் திறப்பு, உணவுக்குழாயின் தொடக்கம் ஆகியவை தொடர்புடைய பகுதிகளாக உள்ளன. பொதுவான தவளை உடற்கூறியலில் மேல் தாடை மற்றும் அண்ணப் பகுதியில் சிறிய பற்கள் காணப்படுகின்றன; அவை இரையைப் பிடித்துநிறுத்த உதவுகின்றன, உணவை மென்று அரைப்பதற்கல்ல. நீட்டப்படக்கூடிய நாக்கும் இரைபிடித்தலில் உதவுகிறது. ஆனால் இந்தியப் பச்சைத் தவளையை எல்லா வளர்ந்த தவளைகளும் பூச்சிகளை மட்டுமே உண்ணுகின்றன என்ற எளிய கூற்றிற்குள் அடக்கக் கூடாது. நீர்த்தாவரங்களையும் முதுகெலும்பற்ற மற்றும் சில முதுகெலும்புள்ள இரைகளையும் உண்ணும் நிகழ்வுகள் ஆய்வுகளில் பதிவாகியுள்ளன. இத்தகைய உணவுப்பழக்கத்தை எல்லா தவளை இனங்களுக்கும் பொருத்தக் கூடாது. வாய்க்குழிப் படத்தில் நாக்கின் இணைப்பு, உள்ள்நாசித்துளைகள், யூஸ்டேஷியன் குழாய்த் திறப்புகள், குளாட்டிஸ் ஆகியவற்றை வேறுபடுத்திக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "digestive-system",
+          "heading": {
+            "en": "Alimentary canal and digestive glands",
+            "ta": "செரிமானக் குழாயும் செரிமானச் சுரப்பிகளும்"
+          },
+          "body": {
+            "en": "From the mouth, material passes through the buccopharyngeal cavity and oesophagus to the stomach, then through the small intestine, large intestine or rectal region and into the cloaca. The stomach provides storage and the initial major stages of protein digestion. Intestinal folds increase the surface available for enzymatic digestion and absorption. The liver produces bile and the gall bladder stores it; the pancreas contributes digestive enzymes and bicarbonate to the intestinal lumen. The spleen is associated with circulation and immunity rather than being a digestive gland. Feeding ecology affects digestive proportions; because this species can include vegetation in its diet, an exact intestinal length should not be assumed from an insectivorous frog diagram. Students should trace organ continuity on a dissection or anatomical illustration and separately identify the ducts of the associated glands.",
+            "ta": "வாயிலிருந்து உணவுப் பொருட்கள் வாய்த்தொண்டைக் குழி, உணவுக்குழாய், இரைப்பை, சிறுகுடல், பெருங்குடல் அல்லது மலக்குடல் பகுதி வழியாகப் பொதுக் கழிவறையான கிளோயக்காவை அடைகின்றன. இரைப்பை உணவைத் தற்காலிகமாகச் சேமித்து புரதச் செரிமானத்தைத் தொடங்குகிறது. குடலின் உட்மடிப்புகள் நொதிச் செரிமானத்திற்கும் ஊட்டச்சத்து உறிஞ்சுதலுக்கும் பரப்பை அதிகரிக்கின்றன. கல்லீரல் பித்தநீரை உருவாக்குகிறது; பித்தப்பை அதைச் சேமிக்கிறது. கணையம் செரிமான நொதிகளையும் அமிலத்தன்மையைச் சமப்படுத்தும் சுரப்புகளையும் குடலுக்கு வழங்குகிறது. மண்ணீரல் செரிமானச் சுரப்பி அல்ல; அது இரத்தம் மற்றும் நோய் எதிர்ப்பு செயல்களுடன் தொடர்புடையது. இவ்வினத்தில் தாவர உணவும் பதிவாகியுள்ளதால், பூச்சியுண்ணித் தவளையின் குடல்நீளத்தை இவ்வினத்திற்கான மாறாத அளவாகப் பயன்படுத்தக் கூடாது. வரைபடத்தில் உறுப்புகளின் தொடர் அமைப்பையும் சுரப்பி நாளங்களையும் தெளிவாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "respiration",
+          "heading": {
+            "en": "Cutaneous, buccopharyngeal and pulmonary respiration",
+            "ta": "தோல்வழி, வாய்த்தொண்டை மற்றும் நுரையீரல் சுவாசம்"
+          },
+          "body": {
+            "en": "Adult anurans can exchange gases through their moist vascular skin, buccopharyngeal lining and lungs. Relative contributions depend on temperature, activity, oxygen availability and whether the animal is immersed or on land. The simple paired lungs have internal partitions that provide exchange surfaces but are not mammalian alveolated lungs. Buccal pumping ventilates lungs by movements of the floor of the mouth and coordinated opening and closure of nostrils and glottis. During submergence, cutaneous exchange becomes especially important. Tadpoles use gills during larval development, with respiratory organs changing during metamorphosis. Do not claim that a submerged adult relies exclusively on lungs or that lung ventilation in frogs uses a muscular diaphragm. A useful classroom comparison contrasts positive-pressure buccal pumping in frogs with negative-pressure ventilation in mammals.",
+            "ta": "வளர்ந்த வாலற்ற தவளைகள் ஈரமான இரத்தநாளமிக்க தோல், வாய்த்தொண்டையின் உட்சவ்வு, இணை நுரையீரல்கள் ஆகியவற்றின் மூலம் வாயுப் பரிமாற்றம் செய்கின்றன. ஒவ்வொரு வழியின் பங்கும் வெப்பநிலை, உடற்பயிற்சி, ஆக்சிஜன் கிடைப்பது, நீரில் அல்லது நிலத்தில் இருப்பது போன்றவற்றைப் பொறுத்து மாறுகிறது. நுரையீரல்களில் பரிமாற்றப் பரப்பை அதிகரிக்கும் உட்மடிப்புகள் உள்ளன; அவை பாலூட்டிகளின் நுண் ஆல்வியோலை அமைப்பைப் போன்றவை அல்ல. வாய்க்குழியின் அடிப்பகுதி மேல்கீழாக இயங்குவதும் நாசித்துளைகள், குளாட்டிஸ் திறப்பு-மூடல் ஒருங்கிணைவதும் காற்றை நுரையீரலுக்குள் செலுத்துகின்றன. நீரில் மூழ்கியிருக்கும்போது தோல்வழிச் சுவாசம் முக்கியத்துவம் பெறுகிறது. தலைப்பிரட்டைகளில் செவுள்கள் காணப்பட்டு உருமாற்றத்தின்போது சுவாச அமைப்பு மாறுகிறது. வளர்ந்த தவளைக்கு பாலூட்டிகளைப் போல தசைமிகு உதரவிதானம் இல்லை என்பதையும் பாடத்தில் தெளிவுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "heart-blood-flow",
+          "heading": {
+            "en": "Three-chambered heart and double circulation",
+            "ta": "மூன்று அறை இதயமும் இரட்டை இரத்த ஓட்டமும்"
+          },
+          "body": {
+            "en": "The frog heart has two atria and a single muscular ventricle, together with a sinus venosus receiving systemic venous blood and an arterial outflow tract. Oxygen-rich pulmonary venous blood enters the left atrium; venous return from the body enters the right atrium through the sinus venosus. The ventricle supplies both systemic and pulmocutaneous pathways, so oxygenated and deoxygenated streams are not separated by a complete ventricular septum. Trabeculae, flow dynamics and timing limit but do not eliminate mixing. The traditional term incomplete double circulation refers to pulmonary or pulmocutaneous and systemic routes being coupled through a three-chambered heart. For a diagram, show chamber openings and major vessels accurately. The arrangement should not be simplistically equated with either the single circuit of most fishes or the fully separated circuits of birds and mammals.",
+            "ta": "தவளையின் இதயத்தில் இரண்டு ஏட்ரியங்களும் ஒரே தசைமிக்க வென்ட்ரிக்கிளும் உள்ளன; உடலிலிருந்து வரும் சிரை இரத்தத்தைப் பெறும் சைனஸ் வீனோசஸும் தமனி வெளியேற்றப் பகுதியும் தொடர்புடையவை. நுரையீரலில் ஆக்சிஜன் பெற்ற இரத்தம் இடது ஏட்ரியத்திற்கும், உடலிலிருந்து வரும் சிரை இரத்தம் சைனஸ் வீனோசஸ் வழியாக வலது ஏட்ரியத்திற்கும் வருகிறது. ஒரே வென்ட்ரிக்கிளிலிருந்து உடல்சுற்றுக்கும் நுரையீரல்-தோல்சுற்றுக்கும் இரத்தம் அனுப்பப்படுகிறது. முழுமையான இடைச்சுவர் இல்லாததால் இரண்டு இரத்த ஓட்டங்களும் முற்றிலும் பிரிக்கப்படுவதில்லை; ஆனால் உள் தசைமடிப்புகளும் ஓட்டத்தின் நேரஒழுங்கும் கலப்பை ஓரளவு கட்டுப்படுத்துகின்றன. இதனை முழுமையற்ற இரட்டை இரத்த ஓட்டம் என வரலாற்றுப் பாடநூல்கள் குறிப்பிடுகின்றன. மீன்களின் ஒற்றைச் சுற்றுடனும் பறவை, பாலூட்டிகளின் முழுப் பிரிவுடைய இரட்டைச் சுற்றுடனும் இதை ஒப்பிட்டு விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "arterial-venous-portal",
+          "heading": {
+            "en": "Arterial arches, venous return and portal systems",
+            "ta": "தமனி வளைவுகள், சிரை மீள்வழி, போர்ட்டல் மண்டலங்கள்"
+          },
+          "body": {
+            "en": "In the comparative adult frog, major arterial routes include carotid, systemic and pulmocutaneous arches associated with distribution to the head, body, lungs and skin. Branching patterns and names of individual vessels must be interpreted on the specific preparation rather than copied from a diagram of another amphibian. The systemic arterial pathways connect with the dorsal aorta, which supplies visceral organs, kidneys and posterior regions. Venous blood returns through major systemic veins to the sinus venosus, while the pulmonary veins lead to the left atrium. Portal systems create serial capillary pathways: the hepatic portal system carries blood from the gut to the liver, and the renal portal circulation involves venous drainage through renal vascular beds. When tracing a vessel, state whether it carries oxygenated blood and where it begins and ends; the word artery alone does not guarantee oxygen-rich blood.",
+            "ta": "பொதுவான வளர்ந்த தவளை ஒப்பீட்டு உடற்கூறியலில் கரோட்டிட், சிஸ்டமிக், நுரையீரல்-தோல் (pulmocutaneous) தமனி வளைவுகள் தலை, உடல், நுரையீரல், தோல் ஆகியவற்றிற்கு இரத்தத்தை வழங்குகின்றன. ஒவ்வொரு இரத்தநாளத்தின் பெயரும் கிளையமைப்பும் குறிப்பிட்ட மாதிரிப் படத்தின் அடிப்படையில் சரிபார்க்கப்பட வேண்டும். சிஸ்டமிக் தமனிகள் முதுகுப்புற மகாதமனியுடன் தொடர்புற்று உள்ளுறுப்புகள், சிறுநீரகங்கள் மற்றும் பின்புற உடற்பகுதிகளுக்கு இரத்தம் வழங்குகின்றன. உடலிலிருந்து வரும் இரத்தம் முக்கியச் சிரைகள் வழியாக சைனஸ் வீனோசஸை அடைகிறது; நுரையீரல் சிரைகள் இடது ஏட்ரியத்தை அடைகின்றன. குடலிலிருந்து கல்லீரலுக்குச் செல்லும் இரத்தப் பாதை ஹெபாட்டிக் போர்ட்டல் மண்டலமாகும். சிறுநீரகத்துடன் தொடர்புடைய சிரை வழியில் ரீனல் போர்ட்டல் சுற்றோட்டம் உள்ளது. 'தமனி' என்றாலே ஆக்சிஜன் நிறைந்த இரத்தம் என்று பொருள் கொள்ளக் கூடாது; ஒவ்வொரு நாளத்தின் தொடக்கமும் முடிவும் விளக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "excretory-osmoregulation",
+          "heading": {
+            "en": "Kidneys, ureters, urinary bladder and osmoregulation",
+            "ta": "சிறுநீரகங்கள், சிறுநீர்க்குழாய்கள், சிறுநீர்ப்பை மற்றும் நீர்சமநிலை"
+          },
+          "body": {
+            "en": "Two elongated kidneys occupy the dorsal posterior body cavity. The adult amphibian kidney is described in traditional anatomy as mesonephric or opisthonephric, depending on how the developmental and posterior nephric units are distinguished. Nephrons filter blood and selectively reabsorb solutes and water. Ureters carry urine towards the cloaca, and the thin-walled urinary bladder serves as a reservoir and participates in water regulation. Freshwater amphibians face continual osmotic influx of water across permeable surfaces while losing salts to the environment; the kidneys can produce relatively dilute urine and the skin contributes to ion uptake. Adult terrestrial periods alter these demands. In males, urinary ducts may also carry reproductive products, whereas the female genital ducts are usually separate. Students should not confuse the urinary bladder with the cloaca or assume the anatomical duct arrangement is identical in both sexes.",
+            "ta": "இணையான நீளமான சிறுநீரகங்கள் உடற்குழியின் பின்புற முதுகுப் பகுதியில் அமைந்துள்ளன. வளர்ந்த இருவாழ்விகளின் சிறுநீரகத்தை வளர்ச்சிநிலைக்கேற்ப மெசோநெஃப்ரிக் அல்லது ஓபிஸ்தோநெஃப்ரிக் என்ற சொற்களால் ஒப்பீட்டு உடற்கூறியலில் விளக்குகின்றனர். நெஃப்ரான்கள் இரத்தத்தை வடிகட்டி நீர், உப்புகள் போன்றவற்றைத் தேர்ந்தெடுத்து மீள்உறிஞ்சுகின்றன. சிறுநீர்க்குழாய்கள் சிறுநீரைப் பொதுக் கழிவறையை நோக்கிக் கடத்துகின்றன; மெல்லிய சுவருடைய சிறுநீர்ப்பை சேமிப்பிற்கும் நீர்சமநிலைக்கும் உதவுகிறது. நன்னீரில் வாழும் தவளையின் ஊடுருவக்கூடிய தோல் வழியாக நீர் உடலுக்குள் நுழையலாம்; உப்புகள் இழக்கப்படலாம். சிறுநீரகங்கள் நீர்த்த சிறுநீரை உருவாக்கவும் தோல் சில அயனிகளை உட்கொள்ளவும் உதவுகிறது. நிலத்தில் இருக்கும் காலங்களில் இத்தேவைகள் மாறுகின்றன. ஆணின் சில சிறுநீர் நாளங்கள் இனப்பெருக்கப் பொருட்களையும் கடத்தலாம்; பெண்ணில் அண்டநாளங்கள் தனியே அமைந்திருக்கும். சிறுநீர்ப்பையையும் கிளோயக்காவையும் ஒரே உறுப்பாகக் கருதக் கூடாது."
+          }
+        },
+        {
+          "key": "brain-cranial-nerves",
+          "heading": {
+            "en": "Brain divisions, spinal cord and cranial nerves",
+            "ta": "மூளைப் பகுதிகள், முதுகுத் தண்டு மற்றும் தலைநரம்புகள்"
+          },
+          "body": {
+            "en": "The amphibian central nervous system includes brain and spinal cord, surrounded by protective membranes. The paired olfactory lobes and cerebral hemispheres lie anteriorly, followed by the diencephalon and prominent optic lobes of the midbrain. The relatively small cerebellum contributes to coordination; the medulla oblongata continues into the spinal cord and controls major autonomic functions. Peripheral nerves connect sensory organs and muscles to these central structures. Traditional frog practicals identify ten pairs of cranial nerves, but the exact labelling conventions may differ between anatomical treatments. Draw the dorsal and ventral aspects of the brain with the correct order and proportions, especially the olfactory bulbs, optic lobes and cerebellum. Explain reflex action using a sensory receptor, afferent nerve, central processing, efferent nerve and effector instead of attributing every movement to conscious cortical control.",
+            "ta": "இருவாழ்வியின் மைய நரம்பு மண்டலத்தில் பாதுகாப்புச் சவ்வுகளால் சூழப்பட்ட மூளையும் முதுகுத் தண்டும் உள்ளன. முன்பகுதியில் இணையான மணநுகர் மடல்கள், பெருமூளை அரைக்கோளங்கள்; அவற்றைத் தொடர்ந்து டையென்செஃபலான், நடுமூளையின் தெளிவான பார்வை மடல்கள் காணப்படுகின்றன. ஒப்பீட்டளவில் சிறிய சிறுமூளை இயக்க ஒருங்கிணைப்பிற்கும் சமநிலைக்கும் உதவுகிறது. நீள்வளைய மையங்கள் பல தன்னியக்க செயல்களை ஒழுங்குபடுத்தி முதுகுத் தண்டுடன் தொடர்கின்றன. புறநரம்புகள் உணர்வுறுப்புகளையும் தசைகளையும் மைய நரம்பு மண்டலத்துடன் இணைக்கின்றன. பாரம்பரியத் தவளைச் செய்முறையில் பொதுவாக பத்து இணைத் தலைநரம்புகள் அடையாளப்படுத்தப்படுகின்றன; நுணுக்கமான பெயரிடல் முறைகள் நூலுக்கு நூல் மாறலாம். மூளையின் மேல்நோக்கு மற்றும் அடிநோக்குப் படங்களில் மணநுகர் குமிழ்கள், பார்வை மடல்கள், சிறுமூளை ஆகியவற்றின் இடவரிசையைச் சரியாகக் காட்ட வேண்டும். பிரதிசெயல் பாதையை ஏற்பி, உள்வரும் நரம்பு, மையச் செயலாக்கம், வெளியேறும் நரம்பு, செயலுறுப்பு என விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "sense-organs",
+          "heading": {
+            "en": "Eye, tympanum, inner ear and sensory responses",
+            "ta": "கண், செவிப்பறை, உட்செவி மற்றும் உணர்வுச் செயல்கள்"
+          },
+          "body": {
+            "en": "The eye has a cornea, lens, retina and associated muscles. A nictitating membrane protects the corneal surface while the animal moves through water. Visual information reaches the brain by the optic nerve, and binocular overlap contributes to prey detection and spatial behaviour. An external tympanic membrane conveys sound-induced vibrations to the middle-ear conducting apparatus and inner ear; amphibians lack the mammalian pinna. The vestibular portion of the inner ear helps detect head movements and position. Olfactory receptors respond to airborne or dissolved chemicals, and tactile receptors in the skin respond to contact. Hearing pathways and ear morphology can vary substantially among anurans; a generic frog ear should be labelled as comparative anatomy unless verified for this species. Compare aquatic and terrestrial sensory challenges when explaining these organs.",
+            "ta": "கண்ணில் ஒளிப்புகும் கருவிழிப்படலம், லென்ஸ், விழித்திரை, தொடர்புடைய கண்தசைகள் ஆகியவை உள்ளன. நீரில் இயங்கும்போது நிக்டிடேட்டிங் சவ்வு கண்ணைப் பாதுகாக்கிறது. பார்வை நரம்பு மூலம் காட்சித் தகவல் மூளைக்குச் செல்கிறது. வெளியே தெரியும் செவிப்பறை ஒலி அதிர்வுகளை நடுச்செவி வழியாக உட்செவிக்குக் கடத்த உதவுகிறது; பாலூட்டிகளைப் போன்ற புறச்செவிமடல் இல்லை. உட்செவியின் வெஸ்டிபுலர் பகுதி தலை அசைவு மற்றும் நிலையை உணர உதவுகிறது. மணநுகர் ஏற்பிகள் காற்றிலோ நீரிலோ உள்ள வேதிப்பொருட்களை உணர்கின்றன; தோலிலுள்ள தொடு ஏற்பிகள் வெளிப்புறத் தொடர்பை உணர்கின்றன. வாலற்ற இருவாழ்விகளிடையே செவியமைப்பு வேறுபடலாம்; இந்த இனத்திற்குச் சரிபார்க்கப்படாத பொதுவான தவளைச் செவிப் படத்தை இனத்திற்கே உரியதாகக் குறிப்பிடக் கூடாது. நீரிலும் நிலத்திலும் எதிர்கொள்ளும் உணர்வுச் சவால்களை ஒப்பிட்டு மாணவர்களுக்குப் புரியவைக்கலாம்."
+          }
+        },
+        {
+          "key": "reproduction-life-cycle",
+          "heading": {
+            "en": "Male and female reproduction, eggs and metamorphosis",
+            "ta": "ஆண்-பெண் இனப்பெருக்கம், முட்டைகள் மற்றும் உருமாற்றம்"
+          },
+          "body": {
+            "en": "Anuran males typically have paired testes connected with the nephric or urinogenital duct system, whereas females have paired ovaries and coiled oviducts leading towards the cloaca. Fertilisation is usually external in aquatic breeding, with the male holding the female in amplexus while eggs and sperm are released, but breeding modes differ among frog lineages. In a species-specific account, clutch size, breeding calls, eggs and developmental timing should be taken from direct observations or reliable studies rather than borrowed from Rana tigrina or another laboratory frog. Embryos hatch as aquatic tadpoles with a tail and larval feeding structures. Metamorphosis involves thyroid-hormone-regulated differentiation of limbs, remodelling of the gut and respiratory apparatus, and resorption of the tail. A development plate should distinguish larval and adult organs and show that transformation is gradual rather than an instantaneous change.",
+            "ta": "வாலற்ற இருவாழ்விகளின் ஆண்களில் இணை விரைகளும் சிறுநீரக அல்லது சிறுநீர்-இனப்பெருக்க நாளங்களுடன் தொடர்புடைய விந்தணுக் கடத்தல் அமைப்பும் காணப்படும். பெண்களில் இணைச் சூலகங்களும் சுருண்ட அண்டநாளங்களும் கிளோயக்காவை நோக்கிச் செல்கின்றன. நீர்சார்ந்த இனப்பெருக்கத்தில் ஆண் பெண்ணைப் பற்றிக்கொள்ளும் ஆம்ப்ளெக்சஸ் நிகழ்வின்போது பொதுவாக வெளிக்கருவுறுதல் நடைபெறுகிறது; ஆயினும் எல்லாத் தவளை இனங்களிலும் இனப்பெருக்க முறைகள் ஒரே மாதிரி இல்லை. குறிப்பிட்ட இனத்திற்கான முட்டைக்கூட்ட அளவு, இனப்பெருக்க ஒலி, வளர்ச்சிக் காலம் போன்றவற்றை நேரடி ஆய்வு அல்லது நம்பகமான இனக்குறிப்புகளிலிருந்து பெற வேண்டும்; வேறு தவளை இனத்தின் எண்ணிக்கையை இதற்குப் பொருத்தக் கூடாது. நீரில் வாழும் தலைப்பிரட்டைகளில் வாலும் இளர்வி உணவூட்ட அமைப்புகளும் காணப்படுகின்றன. தைராய்டு ஹார்மோன் ஒழுங்குபடுத்தும் உருமாற்றத்தில் கால்கள் வளர்கின்றன, குடலும் சுவாச அமைப்பும் மாற்றமடைகின்றன, வால் படிப்படியாக உறிஞ்சப்படுகிறது."
+          }
+        },
+        {
+          "key": "comparative-conservation",
+          "heading": {
+            "en": "Comparative biology, conservation and practical study",
+            "ta": "ஒப்பீட்டு உயிரியல், பாதுகாப்பு மற்றும் செய்முறைப் பயிற்சி"
+          },
+          "body": {
+            "en": "The Indian green frog offers a useful contrast between highly aquatic anurans and more terrestrial species in limb webbing, feeding ecology, skin respiration and freshwater osmoregulation. Its recorded consumption of aquatic vegetation also challenges an oversimplified definition of all adult frogs as strict insect-eaters. Wetland alteration, pollution, fisheries interactions and collection for food can affect local amphibian populations; actual threats must be attributed to their assessed populations rather than asserted uniformly. For a classroom-ready type study, organise figures into external morphology, buccal cavity, digestive system, respiratory pathways, heart and arterial arches, excretion, brain, and male or female reproductive systems. Use clear source captions and label comparative frog diagrams as such when no verified species-specific dissection is available. Assess students through structural identification, organ-function explanation, comparisons with fishes and reptiles, and a short conservation case study.",
+            "ta": "இந்தியப் பச்சைத் தவளையை நீர்சார்ந்த வாலற்ற இருவாழ்விகளுக்கும் நிலச்சார்ந்த இனங்களுக்கும் இடையிலான ஒப்பீட்டு மாதிரியாகப் பயன்படுத்தலாம். விரலிடை நீர்த்தோல், உணவுப் பழக்கம், தோல்வழிச் சுவாசம், நன்னீர் நீர்சமநிலை ஆகியவற்றில் வேறுபாடுகள் கவனிக்கப்படுகின்றன. நீர்த்தாவர உணவு பதிவுகள் எல்லா வளர்ந்த தவளைகளும் பூச்சிகளை மட்டுமே உண்ணும் என்ற எளிய கருத்தைத் திருத்த உதவுகின்றன. ஈரநில மாற்றம், மாசுபாடு, மீன்பிடி இடையீடு, உணவுக்காகப் பிடித்தல் ஆகியவை சில பகுதிகளில் இருவாழ்விகளுக்கு அழுத்தம் தரலாம்; ஆபத்துகளைக் குறிப்பிட்ட உயிர்க்குழுவின் ஆதாரத்துடன் விளக்க வேண்டும். செய்முறைப் பயிற்சியில் புறத்தோற்றம், வாய்க்குழி, செரிமானம், சுவாசம், இதயம் மற்றும் தமனிகள், கழிவுநீக்கம், மூளை, ஆண்-பெண் இனப்பெருக்கம் ஆகியவற்றிற்குத் தனித்த அடையாளமிட்ட படங்கள் பயன்பட வேண்டும். உறுதிப்படுத்தப்படாத படங்களை இனத்திற்குரிய உடற்கூறு என்று கூறாமல் ஒப்பீட்டுத் தவளைப் படம் எனக் குறிக்க வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "American Museum of Natural History, Amphibian Species of the World: Phrynoderma hexadactylum",
+          "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Dicroglossidae/Dicroglossinae/Phrynoderma/Phrynoderma-hexadactylum"
+        },
+        {
+          "label": "ITIS: Rana hexadactyla synonym and currently accepted combination",
+          "url": "https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1104590"
+        },
+        {
+          "label": "NCERT Class XI Biology, Structural Organisation in Animals, frog anatomy",
+          "url": "https://ncert.nic.in/textbook/pdf/kebo107.pdf"
+        },
+        {
+          "label": "Gupta B.K. 1999. Euphlyctis hexadactylus feeding on Xenochrophis piscator, Journal of Bombay Natural History Society",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Journal_of_the_Bombay_Natural_History_Society_%28IA_journalofbombay961999bomb%29.pdf"
+        }
+      ]
+    }
+  ]
+}

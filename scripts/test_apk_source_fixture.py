@@ -36,7 +36,21 @@ def main():
             raise AssertionError('APK source fixture accepted a legacy staging prefix')
     print('PASS: APK source audit rejects historical figures/ path alias')
     plate_pngs = {p for p in expected if p.endswith('.png')}
-    assert len(expected) == 80 and len(plate_pngs) == 74
+    protected_metadata = {
+        'assets/chordata_content.json',
+        'assets/chordata_learning_points.json',
+        'assets/chordata_textbook_chapters.json',
+        'assets/figure_slots.json',
+        'assets/figures.json',
+        'assets/pencil_plates/manifest.json',
+        'assets/source_reference_credits.json',
+        'assets/figures/source-hashes.json',
+    }
+    assert len(plate_pngs) == 74, 'Registered illustrations altered unexpectedly'
+    assert protected_metadata.issubset(expected), 'Missing mandatory original or textbook assets'
+    assert len(expected) == len(plate_pngs) + len(protected_metadata), (
+        'Asset inventory changed without audit review'
+    )
     with tempfile.TemporaryDirectory() as directory:
         fixture = Path(directory) / 'not-an-android-apk.zip'
         with zipfile.ZipFile(fixture, 'w', compression=zipfile.ZIP_STORED) as z:
@@ -53,7 +67,7 @@ def main():
             assert 'Unregistered pencil' in str(e)
         else:
             raise AssertionError('APK gate accepted an unregistered figure')
-    print('PASS: synthetic ZIP fixture verified all 80 required asset members (74 PNGs)')
+    print(f'PASS: synthetic ZIP fixture verified all {len(expected)} required asset members (74 PNGs)')
     print('PASS: source-fixture gate rejected unregistered PNG; this is NOT Android compilation')
 
 

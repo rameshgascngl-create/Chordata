@@ -1,6 +1,6 @@
 # CHORDATA — Native Android QA foundation
 
-**Status:** QA source project only. **No APK has been compiled or installed in this environment.**
+**Status (12 November 2026):** GitHub Actions workflow [#43248574501](https://github.com/rameshgascngl-create/Chordata/actions/runs/43248574501) passed native QA, emulator tests, and unsigned release-bundle/lint preflight for the committed *pre-AI10* source. Ten owner-selected AI plates are present in a separately validated local QA APK and source overlay, **not yet in this GitHub branch**. This is not a production release.
 
 This is a **genuinely native Kotlin/Jetpack Compose application**. It does not use HTML, JavaScript, a WebView, network requests or an online API. The five-unit `chordata_content.json` from the 5 November 2026 validated source project is bundled *byte-for-byte* in `app/src/main/assets/`.
 
@@ -40,7 +40,7 @@ Based on the published Android/Kotlin documentation as of 5 November 2026:
 - JDK 17 minimum
 - Hosted CI explicitly installs `platforms;android-37.0`; an idempotent compatibility guard checks `android.jar` and supplies the `android-37` alias only when missing. This addresses known runner path-resolution problems, not an Android compilation result.
 
-**Important:** The Android SDK, Gradle and Android dependency repositories are not available in this particular container. Consequently, the configuration **has not yet been confirmed by an Android compilation**. Android Studio/CI must resolve/verify the exact AGP/Kotlin/Compose combination and report compiler errors if any; do not treat a successful Kotlin-domain smoke test as a build pass.
+**Verified CI (12 November 2026):** Native Kotlin compilation, Android emulator instrumentation, unsigned release-bundle creation, release lint and native 16 KiB checks passed in [workflow #43248574501](https://github.com/rameshgascngl-create/Chordata/actions/runs/43248574501). These results cover the committed pre-AI10 source only. The local ten-image QA package requires a fresh source-build CI/emulator run after its binary assets and manifest are committed.
 
 ## Test locally with available tooling
 
@@ -59,9 +59,9 @@ The original content pack's Node suite is also in the uploaded HTML source proje
 3. CI checks the 64 provisional plates and hashes before compilation and then runs `gradle :app:assembleDebug`.
 4. **New APK gate:** `python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/debug/app-debug.apk` opens the assembled APK itself and verifies 80 essential asset members by SHA-256 (74 PNGs and six content/registry/credit files). Its self-test is also run before compilation.
 5. A separate instrumentation job runs on an API 35 emulator, repeats APK asset verification and extracts screenshots. Review compiler logs, instrumented tests and screenshots before considering an APK installable or scientifically approved.
-6. If building in Android Studio, use **Gradle 9.3.1** and **JDK 17** with Android SDK 37, then `gradle :app:assembleDebug`. The project omits a local Gradle wrapper because its files could not be generated/verified here. Generate the wrapper in a working Android development environment (`gradle wrapper --gradle-version 9.3.1`) if desired.
+6. If building in Android Studio, use **Gradle 9.3.1** and **JDK 17** with Android SDK 37, then `gradle :app:assembleDebug`. The project uses Gradle 9.3.1 in GitHub Actions; the Gradle wrapper is not committed. Use the pinned CI toolchain for reproducible builds or generate and validate a wrapper in a full Android development environment.
 
-There is **no newly built APK** and no production-release certification in this deliverable. The source ZIP's PNGs must be transferred *as a complete set* to the QA branch; a partial text-only GitHub update is not a valid build candidate.
+A pre-AI10 QA APK is available from the successful workflow; a separate AI10 local QA APK has been repackaged and validated but is **not equivalent to a reproducible source-built release**. The complete ten-image source overlay must be committed alongside its manifest and regenerated reviewer/coverage registers before rerunning native CI and the release workflow. No signed production AAB or Play publication has been completed.
 
 **Sign-off integrity:** The 64-row review register now rejects invented/anonymous `ACCEPTED` statuses, missing review notes and the same person accepting both scientific and Tamil columns. Replacing a PNG revokes previous acceptance for that plate. Reviewer acceptance does **not** waive emulator, TalkBack, low-RAM and physical-device checks.
 

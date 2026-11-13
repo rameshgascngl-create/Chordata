@@ -485,7 +485,9 @@ private fun ListingPage(pack: ContentPack, tab: String, query: String, onQuery: 
                 colors = CardDefaults.cardColors(containerColor = Color.White)) {
                 Column(Modifier.fillMaxWidth().padding(15.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
                     BilingualText(topic.title, lang, scale, base = 15f, bold = true)
-                    Text(loc(lang, "${topic.sections.size} lessons · ${topic.quiz.size} questions", "${topic.sections.size} பகுதிகள் · ${topic.quiz.size} வினாக்கள்") +
+                    val readingSections = topic.sections.size +
+                        topic.textbookChapters.sumOf { it.sections.size }
+                    Text(loc(lang, "${readingSections} sections · ${topic.quiz.size} questions", "${readingSections} பகுதிகள் · ${topic.quiz.size} வினாக்கள்") +
                         if (topic.id in completed) loc(lang, " · ✓ Complete", " · ✓ முடிந்தது") else "",
                         color = mutetext, fontSize = 12.sp)
                     Text(if (tab == "practice") loc(lang, "Open quiz ›", "வினாப்பயிற்சிக்குச் செல்க ›") else loc(lang, "Read chapter ›", "பாடத்தைப் படிக்க ›"),
@@ -521,11 +523,29 @@ private fun PointwiseExplanation(points: List<Bilingual>, lang: ReadingLanguage,
 }
 
 @Composable
+private fun TextbookExpansionCard(section: LessonSection, lang: ReadingLanguage, scale: Float) {
+    Card(
+        modifier = Modifier.fillMaxWidth().testTag("textbook-section-${section.key}"),
+        shape = RoundedCornerShape(13.dp),
+        colors = CardDefaults.cardColors(containerColor = softGreen)
+    ) {
+        Column(Modifier.fillMaxWidth().padding(14.dp),
+            verticalArrangement = Arrangement.spacedBy(9.dp)) {
+            BilingualText(section.heading, lang, scale, base = 18f, bold = true)
+            BilingualText(section.body, lang, scale,
+                modifier = Modifier.fillMaxWidth(), base = 16f,
+                alignment = TextAlign.Justify)
+        }
+    }
+}
+
+@Composable
 private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLanguage, scale: Float,
     storedPage: Int, onPage: (Int) -> Unit, onNextTopic: () -> Unit,
     onComplete: () -> Unit, completed: Boolean, store: ProgressStore) {
     val chapterPages = remember(topic) { LearningLogic.sectionPages(topic) }
-    val finalPage = chapterPages.size
+    val textbookPages = remember(topic) { LearningLogic.textbookPages(topic) }
+    val finalPage = chapterPages.size + textbookPages.size
     // Saved reader positions from older releases may exceed a newly packed
     // chapter's page count. Correct them before showing the progress header.
     val page = storedPage.coerceIn(0, finalPage)
@@ -580,6 +600,16 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                     FigureGallery(topic.id, index + 1, lang, topic.diagramIds.size)
                 }
             }
+            topic.textbookChapters.forEach { chapter ->
+                item(key = "textbook-heading-${chapter.id}") {
+                    BilingualText(chapter.title, lang, scale,
+                        modifier = Modifier.testTag("textbook-chapter-title-${chapter.id}"),
+                        base = 20f, bold = true)
+                }
+                items(chapter.sections, key = { "textbook-${chapter.id}-${it.key}" }) { section ->
+                    TextbookExpansionCard(section, lang, scale)
+                }
+            }
         } else when {
             page < chapterPages.size -> {
                 // A book page can contain more than one brief lesson section.
@@ -591,8 +621,8 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                             Column(Modifier.fillMaxWidth().padding(12.dp),
                                 verticalArrangement = Arrangement.spacedBy(5.dp)) {
                                 Text(
-                                    loc(lang, "CHAPTER GUIDE · ${topic.sections.size} sections · ${topic.quiz.size} questions",
-                                        "பாட வழிகாட்டி · ${topic.sections.size} பகுதிகள் · ${topic.quiz.size} வினாக்கள்"),
+                                    loc(lang, "CHAPTER GUIDE · ${topic.sections.size + topic.textbookChapters.sumOf { it.sections.size }} sections · ${topic.quiz.size} questions",
+                                        "பாட வழிகாட்டி · ${topic.sections.size + topic.textbookChapters.sumOf { it.sections.size }} பகுதிகள் · ${topic.quiz.size} வினாக்கள்"),
                                     color = teal, fontSize = 12.sp, fontWeight = FontWeight.Bold)
                                 Row(Modifier.fillMaxWidth(),
                                     verticalAlignment = Alignment.CenterVertically,
@@ -620,6 +650,17 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                                 section.heading.ta else section.heading.en),
                                             fontSize = (13f * scale.coerceAtMost(1.5f)).sp,
                                             lineHeight = (19f * scale.coerceAtMost(1.5f)).sp)
+                                    }
+                                    topic.textbookChapters.forEach { chapter ->
+                                        Text(if (lang == ReadingLanguage.TA)
+                                            chapter.title.ta else chapter.title.en,
+                                            color = teal, fontWeight = FontWeight.Bold,
+                                            fontSize = (14f * scale.coerceAtMost(1.5f)).sp)
+                                        chapter.sections.forEach { section ->
+                                            Text("• " + (if (lang == ReadingLanguage.TA)
+                                                section.heading.ta else section.heading.en),
+                                                fontSize = (13f * scale.coerceAtMost(1.5f)).sp)
+                                        }
                                     }
                                 }
                             }
@@ -656,6 +697,20 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                     // independent of how multiple sections share a visible page.
                     item(key = "section-figures-${sectionIndex}") {
                         FigureGallery(topic.id, sectionIndex + 1, lang, topic.diagramIds.size)
+                    }
+                }
+            }
+            page < finalPage -> {
+                if (page == chapterPages.size) {
+                    item(key = "textbook-intro") {
+                        BilingualText(topic.textbookChapters.first().title, lang, scale,
+                            modifier = Modifier.testTag("textbook-chapter-intro"),
+                            base = 19f, bold = true)
+                    }
+                }
+                textbookPages[page - chapterPages.size].forEach { section ->
+                    item(key = "textbook-${section.key}") {
+                        TextbookExpansionCard(section, lang, scale)
                     }
                 }
             }

@@ -370,6 +370,24 @@ def main():
                         and figure.get("reviewStatus", "").startswith("PROVISIONAL_"),
                         "Monotreme source-based specimen and pouch image lacks verified origin or archived original"
                     )
+                elif (figure["diagramId"] == "u2-migration-migration-cycle"
+                      and figure.get("ownerQaAcceptance") == "OWNER_DIRECTED_AI_IMAGE_INTEGRATION_2026-11-12"):
+                    # This owner-selected AI teaching plate replaces a retired
+                    # numbered schematic. Preserve the old original attribution
+                    # guard for every *other* diagram and fail on any byte swap.
+                    require(
+                        figure.get("lang") == "shared"
+                        and figure.get("path") == "pencil_plates/fish_migration_cycles.png"
+                        and figure.get("sha256") == "f9133cf0914059e12e37af0ff3170592b7ae1a42a08875ce4a2dac4782ae7261"
+                        and figure.get("size") == 2723573
+                        and figure.get("aiGenerated") is True
+                        and figure.get("ai10RecoveredFromLibrary") is True
+                        and figure.get("author", "").startswith("OpenAI ImageGen")
+                        and figure.get("independentBiologyReview") == "PENDING"
+                        and figure.get("independentTamilReview") == "PENDING"
+                        and figure.get("reviewStatus", "").startswith("PROVISIONAL_"),
+                        "AI10 migration image checksum, attribution, or expert review hold missing"
+                    )
                 else:
                     require(figure["author"] == "Chordata QA project — original numbered schematic",
                             "original plate creator attribution changed: " + name)

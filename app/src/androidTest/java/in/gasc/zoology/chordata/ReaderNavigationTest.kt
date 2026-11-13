@@ -327,26 +327,65 @@ class ReaderNavigationTest {
             materialHold, id, `in`.gasc.zoology.chordata.domain.ReadingLanguage.TA))
     }
 
-    @Test fun focusedPigeonPanelsDecodeWithOriginalSourcesUnchanged() {
+    @Test fun focusedTeachingPanelsRespectLegacyAndOwnerApprovedAi10Images() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val assetDirectory = "pencil_plates"
-        val expected = listOf(
-            Triple("pigeon_urinogenital_en.png", 0, 1030 to 1040),
-            Triple("pigeon_urinogenital_en.png", 1, 1090 to 1040),
-            Triple("pigeon_urinogenital_en.png", 2, 1070 to 1510),
-            Triple("columba_skeleton_en.png", 0, 1270 to 1290),
-            Triple("fish_accessory_breathing_en.png", 0, 1800 to 1050)
-        )
-        for ((filename, panel, size) in expected) {
-            val focused = requireNotNull(decodeTeachingPanel(
-                context, assetDirectory, filename, panel)) {
-                "Missing region for $filename/$panel"
+
+        fun originalDimensions(filename: String): Pair<Int, Int> {
+            val bounds = android.graphics.BitmapFactory.Options().apply {
+                inJustDecodeBounds = true
             }
+            context.assets.open("$assetDirectory/$filename").use {
+                android.graphics.BitmapFactory.decodeStream(it, null, bounds)
+            }
+            return bounds.outWidth to bounds.outHeight
+        }
+
+        fun assertPanel(filename: String, panel: Int, expected: Pair<Int, Int>) {
+            val focused = requireNotNull(decodeTeachingPanel(
+                context, assetDirectory, filename, panel
+            )) { "Missing legacy region for $filename/$panel" }
             try {
-                org.junit.Assert.assertEquals("$filename width", size.first, focused.width)
-                org.junit.Assert.assertEquals("$filename height", size.second, focused.height)
+                org.junit.Assert.assertEquals("$filename width", expected.first, focused.width)
+                org.junit.Assert.assertEquals("$filename height", expected.second, focused.height)
             } finally {
                 focused.recycle()
+            }
+        }
+
+        // The columba skeleton is an unchanged legacy figure, so its
+        // deliberate, source-preserving crop must continue to decode.
+        assertPanel("columba_skeleton_en.png", 0, 1270 to 1290)
+
+        // Both of these files may be a retained historical/legacy plate or
+        // the exact owner-approved AI10 PNG, depending on source intake.
+        // New 1448x1086 original PNGs must be shown whole, not cropped using
+        // the old source's unrelated coordinate system.
+        val migratedOrLegacy = listOf(
+            Triple("pigeon_urinogenital_en.png", 3360 to 1900,
+                listOf(1030 to 1040, 1090 to 1040, 1070 to 1510)),
+            Triple("fish_accessory_breathing_en.png", 1800 to 1120,
+                listOf(1800 to 1050))
+        )
+        for ((filename, legacySize, panels) in migratedOrLegacy) {
+            val observed = originalDimensions(filename)
+            if (observed == legacySize) {
+                panels.forEachIndexed { index, size -> assertPanel(filename, index, size) }
+            } else {
+                org.junit.Assert.assertEquals("$filename AI10 dimensions",
+                    1448 to 1086, observed)
+                // Legacy crops must be unavailable for the new, different
+                // illustration. The reader already falls back to full PNG.
+                org.junit.Assert.assertNull(decodeTeachingPanel(
+                    context, assetDirectory, filename, 0))
+                val full = requireNotNull(decodePlateBitmap(
+                    context, assetDirectory, filename))
+                try {
+                    org.junit.Assert.assertEquals(1448, full.width)
+                    org.junit.Assert.assertEquals(1086, full.height)
+                } finally {
+                    full.recycle()
+                }
             }
         }
         org.junit.Assert.assertNull(decodeTeachingPanel(
@@ -395,6 +434,54 @@ class ReaderNavigationTest {
         // The complete source remains an optional expansion, not a required
         // large default image on a short display.
         rule.onNodeWithTag("figure-ascidia-original-toggle").assertExists()
+    }
+
+    @Test fun detailedRanaChapterIncludesModernTaxonomyAndAllMajorSystems() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val frog = requireNotNull(pack.findTopic("u3-rana"))
+        org.junit.Assert.assertEquals(5, frog.sections.size)
+        org.junit.Assert.assertEquals(4, frog.diagramIds.size)
+        val book = frog.textbookChapters.single()
+        org.junit.Assert.assertEquals(15, book.sections.size)
+        org.junit.Assert.assertTrue(book.sections.first().body.en.contains("Phrynoderma hexadactylum"))
+        org.junit.Assert.assertTrue(book.sections.first().body.ta.contains("Phrynoderma hexadactylum"))
+        org.junit.Assert.assertTrue(book.sections.any { it.key == "heart-blood-flow" })
+        org.junit.Assert.assertTrue(book.sections.any { it.key == "reproduction-life-cycle" })
+        org.junit.Assert.assertTrue(book.sections.any { it.key == "buccal-teeth-feeding" &&
+            it.body.en.contains("aquatic plants") })
+        org.junit.Assert.assertTrue(book.sections.all {
+            it.body.en.isNotBlank() && it.body.ta.isNotBlank()
+        })
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .textbookPages(frog).size >= 6)
+        org.junit.Assert.assertEquals(30, pack.topics.sumOf {
+            it.textbookChapters.sumOf { chapter -> chapter.sections.size }
+        })
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
+    @Test fun detailedScoliodonTextbookIsBilingualAndPreservesFigureSlots() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val specimen = requireNotNull(pack.findTopic("u2-scoliodon"))
+        org.junit.Assert.assertEquals(5, specimen.sections.size)
+        org.junit.Assert.assertEquals(5, specimen.diagramIds.size)
+        org.junit.Assert.assertEquals(1, specimen.textbookChapters.size)
+        val chapter = specimen.textbookChapters.single()
+        org.junit.Assert.assertEquals(15, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.body.en.length >= 150 && it.body.ta.length >= 150
+        })
+        org.junit.Assert.assertTrue(chapter.sections.any {
+            it.body.en.contains("laticaudus") && it.body.ta.contains("laticaudus")
+        })
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .lastPage(specimen) >
+            `in`.gasc.zoology.chordata.domain.LearningLogic.sectionPages(specimen).size)
+        org.junit.Assert.assertEquals(127, pack.topics.sumOf { it.sections.size })
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
     }
 
     @Test fun bilingualPointwiseEnrichmentPreservesOriginalChapterStructure() {

@@ -40,7 +40,8 @@ def expected_assets(root: Path = ASSETS) -> dict[str, str]:
         raise ValueError('Expected seven independent legacy source/reference figures')
 
     paths = {
-        'chordata_content.json', 'figure_slots.json', 'figures.json',
+        'chordata_content.json', 'chordata_learning_points.json',
+        'chordata_textbook_chapters.json', 'figure_slots.json', 'figures.json',
         'pencil_plates/manifest.json', 'source_reference_credits.json',
         'figures/source-hashes.json',
     }
