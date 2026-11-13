@@ -36,6 +36,30 @@ fun main() {
     checkThat(LearningLogic.search(pack, "general").map { it.id } == listOf(second.id), "search English")
     checkThat(LearningLogic.search(pack, "தமிழ்").size == 2, "search Tamil")
     checkThat(LearningLogic.search(pack, "missing").isEmpty(), "search absent")
+    // Regression: full-text mentions must not outrank the species' own chapter.
+    val classification = topic("u1-vertebrata").copy(
+        title = Bilingual("Classification of Vertebrata", "முதுகெலும்பிகளின் வகைப்பாடு"),
+        sections = listOf(LessonSection("comparison", b("Examples"),
+            Bilingual("Includes Scoliodon and fish relatives", "முயல் பற்றிய ஒப்பீடு"))))
+    val shark = topic("u2-scoliodon").copy(
+        title = Bilingual("Type study: Scoliodon", "ஸ்கோலியோடான் வகை ஆய்வு"))
+    val pigeon = topic("u5-columba").copy(
+        title = Bilingual("Type study: Columba", "புறா வகை ஆய்வு"),
+        sections = listOf(LessonSection("comparative", b("Comparative anatomy"),
+            Bilingual("Compare the rabbit skeleton", "முயல் எலும்புக்கூட்டுடன் ஒப்பிடுக"))))
+    val rabbit = topic("u5-rabbit").copy(
+        title = Bilingual("Type study: Rabbit", "முயல் வகை ஆய்வு"))
+    val relevant = ContentPack(1, "credit", listOf(
+        LessonUnit("all", b("All units"), listOf(classification, pigeon, shark, rabbit))))
+    checkThat(LearningLogic.search(relevant, "Scoliodon").first().id == shark.id,
+        "species title ranks above classification body mention")
+    checkThat(LearningLogic.search(relevant, "Rabbit").first().id == rabbit.id,
+        "rabbit title ranks above pigeon comparative mention")
+    checkThat(LearningLogic.search(relevant, "Columba").first().id == pigeon.id,
+        "pigeon title ranks above other chapter body")
+    checkThat(LearningLogic.search(relevant, "முயல்").first().id == rabbit.id,
+        "Tamil species title ranks above Tamil body mention")
+
     checkThat(LearningLogic.search(pack, " ").size == 2, "empty search returns all")
     checkThat(LearningLogic.score(listOf(0, 3, 1), first.quiz) == 3, "perfect quiz")
     checkThat(LearningLogic.score(listOf(1, -1, 1), first.quiz) == 1, "partial quiz")
