@@ -2098,7 +2098,7 @@
       "topicId": "u2-parental-care",
       "title": {
         "en": "Parental care in fishes — nesting, guarding, mouthbrooding and brood pouches",
-        "ta": "மீன்களில் பெற்றோர் பராமரிப்பு — கூடு அமைத்தல், பாதுகாத்தல், வாயில் அடைகாத்தல் மற்றும் கருப்பைகள்"
+        "ta": "மீன்களில் பெற்றோர் பராமரிப்பு — கூடு அமைத்தல், பாதுகாத்தல், வாயில் அடைகாத்தல் மற்றும் கரு அடைகாப்புப் பைகள்"
       },
       "sections": [
         {
@@ -2180,6 +2180,178 @@
         {
           "label": "Neuroendocrine basis for parental care in teleost fish",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13429055/"
+        }
+      ]
+    },
+    {
+      "id": "fish-migration-undergraduate",
+      "topicId": "u2-migration",
+      "title": {
+        "en": "Migration in fishes — patterns, orientation, physiology and conservation",
+        "ta": "மீன்களின் இடப்பெயர்ச்சி — வகைகள், வழிகாணல், உடலியல் மற்றும் பாதுகாப்பு"
+      },
+      "sections": [
+        {
+          "key": "definition-and-distinction",
+          "heading": {
+            "en": "Migration, dispersal and local movement",
+            "ta": "இடப்பெயர்ச்சி, பரவல் மற்றும் உள்ளூர் இயக்கம்"
+          },
+          "body": {
+            "en": "Fish migration is a recurring, directed movement between habitats that forms part of a life-history programme, often associated with spawning, feeding, growth or seasonal refuge. Migration should be distinguished from dispersal, which may involve a one-time movement away from a natal site, and from short movements within a home range. Movements can occur along rivers, across shelves, through estuaries or over ocean basins. The distance travelled is less important than the repeatable ecological function and direction of movement. Not every movement of a shoal is a migration; a daily feeding excursion, a response to a predator and a population-wide spawning run require separate descriptions. For undergraduate analysis identify the beginning and end habitats, season, developmental stage, proximate cues and reproductive function. Terms such as diadromous and potamodromous refer to habitat transitions, not to whether a fish is ‘advanced’ or ‘primitive’.",
+            "ta": "மீன்களின் இடப்பெயர்ச்சி என்பது வாழ்க்கைச் சுழற்சியுடன் தொடர்புடைய, குறிப்பிட்ட திசையில் நிகழும் மீள்மீண்டும் காணப்படும் வாழிட மாற்றமாகும். இனப்பெருக்கம், உணவு தேடல், வளர்ச்சி, பருவகாலப் பாதுகாப்பு ஆகியவை இதற்குக் காரணமாகலாம். பிறப்பிடத்திலிருந்து ஒருமுறை புதிய பகுதிக்குப் பரவுவதை (dispersal) அல்லது சிறிய உள்ளூர் இயக்கத்தை இடப்பெயர்ச்சியுடன் குழப்பக்கூடாது. நதி, கழிமுகம், கடல் ஆகிய வாழிடங்களுக்கு இடையே இயக்கம் நிகழலாம். இயக்கத்தின் தூரத்தை விட அதன் வாழ்க்கைச் சுழற்சி தொடர்பே முக்கியம். தொடக்க வாழிடம், அடையும் வாழிடம், பருவம், வளர்ச்சி நிலை, வழிகாட்டும் சூழல் சைகைகள் ஆகியவற்றைப் பதிவு செய்ய வேண்டும்."
+          }
+        },
+        {
+          "key": "diadromy-anadromy",
+          "heading": {
+            "en": "Diadromy and anadromy: sea to freshwater for breeding",
+            "ta": "கடல்–நன்னீர் இடப்பெயர்ச்சியும் இனப்பெருக்கத்திற்கான எதிரோட்ட இடப்பெயர்ச்சியும்"
+          },
+          "body": {
+            "en": "Diadromous fishes migrate between marine and freshwater habitats during their life history. Anadromous species typically grow for an extended period at sea but return to freshwater for spawning. Salmon are classical examples: migrating adults may cease feeding, undergo physiological and behavioural changes, and travel upstream to suitable spawning reaches. The Indian hilsa shad (Tenualosa ilisha) also exhibits important anadromous runs, although regional populations and habitats vary. The transition between sea and river requires control of salts, water balance and gill ion transport; it is not simply a change of swimming direction. Egg and juvenile stages often occupy different osmotic environments from adults. A correctly drawn cycle distinguishes the marine feeding phase, upstream reproductive movement, freshwater spawning and downstream return of young, with life-stage-specific arrows. Do not imply that all anadromous individuals survive spawning; semelparity and iteroparity vary by taxon.",
+            "ta": "டைஅட்ரோமஸ் (diadromous) மீன்கள் வாழ்க்கைச் சுழற்சியில் கடல் மற்றும் நன்னீருக்கு இடையே இடப்பெயர்கின்றன. அனட்ரோமஸ் (anadromous) மீன்கள் பெரும்பாலும் கடலில் வளர்ந்து இனப்பெருக்கத்திற்காக நன்னீரை அடைகின்றன. சால்மன் இதற்கு அறியப்பட்ட எடுத்துக்காட்டு. இந்திய ஹில்சா மீனிலும் (Tenualosa ilisha) முக்கியமான நதி நோக்கிய இனப்பெருக்க இடப்பெயர்ச்சி காணப்படுகிறது; வாழிட முறை மக்கள் தொகைக்கேற்ப மாறுபடும். கடல் நீரிலிருந்து நன்னீருக்குச் செல்லும்போது உப்பு–நீர் சமநிலை மற்றும் செவுள் அயனி போக்குவரத்து மாற்றமடைகின்றன. ஒரு வாழ்க்கைச் சுழற்சிப் படத்தில் கடலில் உணவுண்ணும் நிலை, நதி நோக்கிப் பயணம், முட்டையிடுதல், இளமீன்களின் திரும்புதல் ஆகியவை தனித்த அம்புகளால் காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "catadromy-and-amphidromy",
+          "heading": {
+            "en": "Catadromy, amphidromy and alternatives to spawning migrations",
+            "ta": "கடலை நோக்கிய இனப்பெருக்க இடப்பெயர்ச்சி மற்றும் பிற வடிவங்கள்"
+          },
+          "body": {
+            "en": "Catadromous fishes spend much of their growth phase in freshwater or coastal waters and migrate to the sea to reproduce. Freshwater eels of the genus Anguilla are an important example: their early oceanic larval phase differs sharply from the familiar elongate growing eel. Their exact migratory geography is species-specific; the Sargasso Sea spawning region belongs to Atlantic species and cannot be assigned to every Anguilla. Amphidromous fishes also move between freshwater and sea, but the transition is not primarily a reproductive spawning journey; in some gobies larvae develop at sea before juveniles return to rivers. Students must contrast anadromy, catadromy and amphidromy using the purpose of movement and the location of spawning, not simply reverse arrow directions in an unlabeled sketch. Some fishes complete their whole life cycle within freshwater or marine environments despite making long migrations.",
+            "ta": "கேட்டட்ரோமஸ் (catadromous) மீன்கள் வளர்ச்சிக் காலத்தில் நன்னீர் அல்லது கடலோர வாழிடங்களில் இருந்து இனப்பெருக்கத்திற்காகக் கடலுக்குச் செல்கின்றன. அங்குவில்லா (Anguilla) விலாங்குமீன்கள் இதற்கு எடுத்துக்காட்டுகள். அவற்றின் கடல்வாழ் இளம்புழு நிலை வளர்ந்த விலாங்குமீனின் உருவத்திலிருந்து மிக வேறுபடும். எல்லா அங்குவில்லா இனங்களும் சர்காசோ கடலில் மட்டுமே முட்டையிடுகின்றன என்று கூற முடியாது. ஆம்பிட்ரோமஸ் (amphidromous) மீன்களும் கடல்–நன்னீர் இடையே நகர்கின்றன; ஆனால் அந்த மாற்றத்தின் முதன்மை நோக்கம் முட்டையிடல் அல்ல. சில கோபி மீன்களின் இளம்நிலைகள் கடலில் வளர்ந்து பின்னர் நதிக்குத் திரும்புகின்றன. இவ்வகைகளை முட்டையிடும் வாழிடம், இயக்கத்தின் நோக்கம் ஆகிய அடிப்படைகளில் ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "potamodromy-oceanodromy",
+          "heading": {
+            "en": "Potamodromy, oceanodromy and vertical movements",
+            "ta": "நன்னீருக்குள், கடலுக்குள் மற்றும் செங்குத்து இயக்கங்கள்"
+          },
+          "body": {
+            "en": "Potamodromous fishes migrate entirely within freshwater systems, such as between lake feeding grounds and river spawning grounds. Oceanodromous fishes complete their directed seasonal movements wholly in marine waters; several tunas and herrings illustrate this category, although their exact routes vary. These categories must not be confused with diel vertical migration: some pelagic organisms move into shallower water at night and deeper water by day, often in relation to food and predation. A vertical movement can be regular and extensive but should be described by its depth cycle rather than automatically labelled anadromous. Many real populations combine movements across depth, coastlines and freshwater corridors. A complete field description therefore records geographic coordinates, depth, salinity, temperature and life stage. For diagrams, use a map or habitat cross-section with salinity and spawning sites clearly marked, not a single arrow between two generic fish silhouettes.",
+            "ta": "போட்டமோட்ரோமஸ் (potamodromous) மீன்கள் நன்னீர் அமைப்புக்குள்ளேயே ஏரி, நதி போன்ற இடங்களுக்கு இடையே இடப்பெயர்கின்றன. ஓஷனோட்ரோமஸ் (oceanodromous) மீன்கள் கடலுக்குள்ளேயே பருவகாலப் பயணங்களை மேற்கொள்கின்றன; சில துனா, ஹெர்ரிங் மீன்கள் எடுத்துக்காட்டுகள். இவற்றை பகல்–இரவு செங்குத்து இயக்கத்துடன் குழப்பக்கூடாது. சில கடல்வாழ் உயிரிகள் இரவில் மேற்பரப்பை நோக்கியும் பகலில் ஆழத்தை நோக்கியும் நகர்கின்றன. உணவு, பகை உயிரிகள், நீர்வெப்பம் ஆகியவை இதனைப் பாதிக்கலாம். செய்முறையில் நீரின் உப்புத்தன்மை, ஆழம், இடம், பருவம், வளர்ச்சி நிலை ஆகியவற்றைக் குறிப்பிட்டு வரைபடம் அமைக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "orientation-and-osmoregulation",
+          "heading": {
+            "en": "Orientation, homing and physiological preparation",
+            "ta": "வழிகாணல், பிறப்பிடத்திற்குத் திரும்புதல் மற்றும் உடலியல் ஆயத்தம்"
+          },
+          "body": {
+            "en": "Migrating fish integrate multiple sensory inputs rather than following one universal internal compass. Salmon can imprint on chemical characteristics of their natal waters as juveniles and use olfactory information during adult homing; broader-scale orientation can also involve environmental, magnetic and flow-related cues, with mechanisms varying among species. Temperature, photoperiod, discharge and endocrine signals may influence the timing of migration and maturation. Crossing a salinity gradient requires osmoregulatory remodelling: gill ionocytes, kidney function, drinking behaviour and hormonal signalling respond to changing conditions. The terms 'homing' and 'imprinting' have specific meanings: homing is return to a previous or natal locality, while imprinting is learning a cue that may later guide this return. An experimental claim about orientation should specify whether evidence comes from field telemetry, tagging, sensory interference or controlled laboratory trials.",
+            "ta": "இடப்பெயரும் மீன்கள் ஒரே ஒரு ‘உள் திசைகாட்டி’யைப் பயன்படுத்துவதில்லை; பல புலன்சார்ந்த தகவல்களை ஒருங்கிணைக்கின்றன. இளம்சால்மன் மீன்கள் பிறந்த நதியின் வேதியியல் மணத்தை நினைவில் பதித்துக் கொள்ளலாம்; வளர்ந்தபின் அந்த மணத் தகவல் பிறப்பிடத்திற்குத் திரும்ப உதவுகிறது. நீரோட்டம், காந்தப்புலம், ஒளிநேரம், வெப்பநிலை, ஹார்மோன்கள் ஆகியவை இனத்திற்கேற்ப பங்கெடுக்கலாம். கடல்–நன்னீர் மாற்றத்தில் செவுள்களின் அயனி செல்கள், சிறுநீரகம், நீர் பரிமாற்றம் தொடர்பான செயல்கள் மாற்றமடைகின்றன. ஹோமிங் (homing) என்பது பழைய அல்லது பிறப்பிடத்திற்கு மீளுதல்; இம்பிரிண்டிங் (imprinting) என்பது பின்னர் பயன்படுத்தப்படும் சைகையை முன்பே கற்றுக் கொள்வதாகும்."
+          }
+        },
+        {
+          "key": "barriers-and-conservation",
+          "heading": {
+            "en": "Ecological costs, fisheries impacts and conservation of migratory corridors",
+            "ta": "இடப்பெயர்ச்சியின் சூழலியல் செலவுகளும் பாதைப் பாதுகாப்பும்"
+          },
+          "body": {
+            "en": "Migratory corridors connect feeding habitats, breeding grounds and nurseries, but fish can face energetic exhaustion, predation, dams, irrigation barriers, altered river discharge, pollution, thermal stress and overfishing. Fish passages sometimes help maintain upstream movement, yet effectiveness depends on species, swimming ability, attraction flow and downstream survival; a structure labelled 'fish ladder' is not proof that connectivity has been restored. For hilsa and other migratory resources, management can combine closed seasons, protected spawning stretches, size regulations and habitat connectivity. Changes in catches do not establish a change in population size without attention to fishing effort and detectability. Classroom projects may map a river's barriers, spawning habitats and fishing communities using published reports without collecting protected organisms. The central conservation principle is to protect the full life cycle, including both the adult route and the habitats needed by larvae and juveniles.",
+            "ta": "இடப்பெயர்ச்சிப் பாதைகள் உணவுப் பகுதிகள், முட்டையிடும் இடங்கள், இளமீன் வளரிடங்கள் ஆகியவற்றை இணைக்கின்றன. அணைகள், நீர்த் தடைகள், மாசுபாடு, நீரோட்ட மாற்றம், அதிக மீன்பிடிப்பு போன்றவை பாதைகளைப் பாதிக்கின்றன. மீன் ஏணிகள் அமைக்கப்பட்டால் மட்டும் எல்லா இனங்களும் வெற்றிகரமாகக் கடந்து செல்கின்றன என்று கருத முடியாது; இனத்தின் நீந்தும் திறன், நீரோட்டம், கீழ்நோக்கிய பயணத்தின் பாதுகாப்பு ஆகியவற்றைச் சோதிக்க வேண்டும். ஹில்சா போன்ற வளங்களுக்கு முட்டையிடும் காலப் பாதுகாப்பு, அளவுக் கட்டுப்பாடு, நதிப் பாதை இணைப்பு ஆகியவை உதவலாம். பிடிபடும் மீன்களின் எண்ணிக்கை மட்டும் முழு மக்கள் தொகையை நேரடியாகக் காட்டாது. பாதுகாப்புத் திட்டம் வளர்ந்த மீன்களையும் இளம்நிலைகளின் வாழிடங்களையும் உள்ளடக்க வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "FAO Manual of Fisheries Science — terminology of migration",
+          "url": "https://www.fao.org/4/f0752e/F0752E08.HTM"
+        },
+        {
+          "label": "NOAA Fisheries — olfaction, imprinting and salmon homing",
+          "url": "https://www.fisheries.noaa.gov/west-coast/science-data/fish-olfaction-and-homing-research"
+        }
+      ]
+    },
+    {
+      "id": "fish-economic-importance-undergraduate",
+      "topicId": "u2-economic-importance",
+      "title": {
+        "en": "Economic importance of fishes — food, livelihoods, aquaculture and sustainable fisheries",
+        "ta": "மீன்களின் பொருளாதார முக்கியத்துவம் — உணவு, வாழ்வாதாரம், மீன்வளர்ப்பு மற்றும் நிலையான மீன்வளம்"
+      },
+      "sections": [
+        {
+          "key": "nutritional-importance",
+          "heading": {
+            "en": "Fish as food: proteins, essential fats and micronutrients",
+            "ta": "உணவாக மீன்: புரதங்கள், கொழுப்பு அமிலங்கள் மற்றும் நுண்ணூட்டங்கள்"
+          },
+          "body": {
+            "en": "Fish and other aquatic animal foods contribute highly digestible proteins, diverse fatty acids and micronutrients to human diets. The nutritional profile depends strongly on species, size, tissue, feed and preparation: oily marine fishes may be rich in long-chain omega-3 fatty acids, while small fish eaten whole can supply calcium and other minerals. Fish is not automatically superior to every other protein source, and deep frying, high sodium preservation or contamination can alter health benefits. In a food-science practical, distinguish edible yield from total body mass and report nutrient values per stated quantity of edible tissue. Iodine, vitamin D and vitamin B12 content are variable and should not be ascribed equally to all species. Local fish availability, affordability and culturally acceptable preparation determine the real nutritional contribution to communities. Economic value includes food security, not merely the sale price at a landing centre.",
+            "ta": "மீன்கள் செரிமானத்திற்கேற்ற புரதங்கள், பலவகைக் கொழுப்பு அமிலங்கள், நுண்ணூட்டங்கள் ஆகியவற்றை உணவாக வழங்குகின்றன. ஊட்டச்சத்து அளவு இனம், அளவு, உண்ணப்படும் உறுப்பு, உணவு, சமையல் முறை ஆகியவற்றுக்கு ஏற்ப மாறுபடும். சில எண்ணெய்ச்சத்து நிறைந்த கடல்மீன்களில் நீண்ட சங்கிலி ஒமேகா-3 கொழுப்பு அமிலங்கள் அதிகமாக இருக்கலாம். முழுமையாக உண்ணப்படும் சிறிய மீன்கள் கால்சியத்தை வழங்கலாம். எல்லா மீன்களிலும் அயோடின், வைட்டமின் D, B12 ஒரே அளவில் இருக்கும் எனக் கூற முடியாது. ஊட்டவியல் பதிவில் உண்ணக்கூடிய பகுதியின் எடையும் அதற்குரிய ஊட்டச்சத்து அளவும் குறிப்பிடப்பட வேண்டும். உள்ளூர் மக்களின் உணவுப் பாதுகாப்பும் பொருளாதாரப் பயனின் முக்கிய அங்கமாகும்."
+          }
+        },
+        {
+          "key": "capture-fisheries",
+          "heading": {
+            "en": "Marine and inland capture fisheries: harvesting and management",
+            "ta": "கடல் மற்றும் உள்நாட்டு பிடிப்பு மீன்வளம்"
+          },
+          "body": {
+            "en": "Capture fisheries harvest wild fish populations from marine, brackish and freshwater ecosystems. Fishing methods include small-scale hooks and lines, traps, gillnets and larger mechanised gears, each with different selectivity, habitat effects and labour requirements. Landed mass is not identical to biological production, and a high catch can accompany declining fish abundance when fishing effort rises. Sound fishery assessments consider catch per unit effort, size composition, reproductive status, bycatch, habitat condition and scientific stock surveys. Coastal Tamil Nadu and other Indian regions have both small-scale and mechanised fleets, with substantial variation in target species and fishing seasons. Fisheries law and local seasonal restrictions must be checked rather than reproduced from outdated textbooks. The economic analysis should acknowledge fuel, gear repair, crew shares and price volatility along with revenue. Sustainable harvesting is not achieved simply by catching fewer types of fish.",
+            "ta": "கடல், உவர்நீர், நன்னீர் ஆகிய வாழிடங்களில் இயற்கையாக உள்ள மீன் தொகுதிகளைப் பிடிப்பது பிடிப்பு மீன்வளம் ஆகும். தூண்டில், வலை, பொறி, இயந்திரமயமான கருவி போன்ற முறைகள் தேர்வுத்திறன், வாழிடப் பாதிப்பு, தொழிலாளர் தேவை ஆகியவற்றில் மாறுபடுகின்றன. பிடிக்கப்பட்ட மீன்களின் மொத்த எடை, இயற்கையில் உருவான மொத்த உயிர்ப்பொருளுக்கு சமமல்ல. மீன்பிடி முயற்சி அதிகரித்ததால் பிடிப்பு உயர்ந்திருக்கலாம்; அதனால் மீன் தொகை நலமாக உள்ளது என்று மட்டும் முடிவு செய்ய முடியாது. ஒரு வள மதிப்பீட்டில் முயற்சிக்கு ஏற்ப பிடிப்பு, அளவு, இனப்பெருக்க நிலை, துணைப் பிடிப்பு, வாழிட நிலை ஆகியவை ஆராயப்பட வேண்டும். வருவாயுடன் எரிபொருள், கருவிச் செலவு, தொழிலாளர் பங்கு போன்ற செலவுகளையும் சேர்த்துக் கணக்கிட வேண்டும்."
+          }
+        },
+        {
+          "key": "aquaculture-systems",
+          "heading": {
+            "en": "Aquaculture, hatcheries and integrated production systems",
+            "ta": "மீன்வளர்ப்பு, குஞ்சு உற்பத்தி நிலையங்கள் மற்றும் ஒருங்கிணைந்த முறைகள்"
+          },
+          "body": {
+            "en": "Aquaculture cultivates aquatic organisms under managed conditions, whereas capture fisheries depend on wild populations. Freshwater carp culture, brackish-water farming, ornamental-fish breeding and marine cage culture differ in species, water quality, feed, biosecurity and environmental pressures. A hatchery controls broodstock, fertilisation or spawning, larval rearing and nursery stages, but its methods must match the reproductive biology of the species. Production efficiency is evaluated using survival, stocking density, feed conversion ratio, growth rate and disease outcomes, not only total harvest. Excess feed and waste may affect water quality, and movement of non-native or diseased stocks poses ecological risks. Integrated systems, such as some rice–fish models, require site-specific evaluation; they are not automatically beneficial in all landscapes. Undergraduate students should draw a production-flow chart from broodstock to fingerlings, grow-out, harvest and safe marketing, specifying critical water-quality checkpoints.",
+            "ta": "கட்டுப்படுத்தப்பட்ட சூழலில் நீர்வாழ் உயிரிகளை வளர்ப்பது மீன்வளர்ப்பு (aquaculture) ஆகும்; இயற்கைத் தொகுதிகளைப் பிடிப்பது பிடிப்பு மீன்வளம் ஆகும். கெண்டை வளர்ப்பு, உவர்நீர் வளர்ப்பு, அலங்கார மீன் இனப்பெருக்கம், கடல் கூண்டு வளர்ப்பு ஆகியவை இனத் தேர்வு, நீர்தரம், தீவனம், நோய்த் தடுப்பு ஆகியவற்றில் மாறுபடுகின்றன. குஞ்சு உற்பத்தி நிலையம் இனப்பெருக்கத் தாய்–தந்தை மீன்கள், முட்டைகள், இளம்நிலைகள் ஆகியவற்றை இனத்தின் உயிரியல் தேவைக்கேற்ப பராமரிக்கிறது. வளர்ச்சிவீதம், உயிர்வாழ்வு, தீவன மாற்று விகிதம், நீர்தரம், நோய்கள் ஆகியவற்றைக் கொண்டு உற்பத்தி திறன் மதிப்பிடப்பட வேண்டும். அதிகப்படியான தீவனக் கழிவும் நோயுள்ள மீன்களின் இடமாற்றமும் சூழலியல் ஆபத்துகளை ஏற்படுத்தலாம்."
+          }
+        },
+        {
+          "key": "value-addition-livelihood",
+          "heading": {
+            "en": "Preservation, processing, trade and the fishery value chain",
+            "ta": "பதப்படுத்துதல், வணிகம் மற்றும் மீன்வள மதிப்புச் சங்கிலி"
+          },
+          "body": {
+            "en": "Fishery value extends beyond catching or farming fish. Sorting, icing, hygienic transport, cold storage, drying, salting, smoking, freezing and further processing affect losses, quality and employment. The cold chain slows deterioration but cannot reverse fish spoilage that has already occurred; food-safety controls must therefore begin immediately after harvest. Markets link fishers, auctioneers, processors, transporters, wholesalers, retailers and consumers, and women's paid and unpaid work is often particularly important in processing and trade. Prices depend on freshness, species, size, season, handling and market access. Economic calculations should distinguish gross sale proceeds, operational expenses, post-harvest losses and net income. Value addition can improve income but may also increase energy, packaging and wastewater demands. A classroom exercise could map the journey of a locally marketed fish and identify where scientific quality control prevents avoidable losses.",
+            "ta": "மீனின் பொருளாதார மதிப்பு பிடித்தல் அல்லது வளர்ப்பில் மட்டும் முடிவதில்லை. வகைப்படுத்துதல், பனியிடுதல், தூய்மையான போக்குவரத்து, குளிர்சாதனச் சேமிப்பு, உலர்த்துதல், உப்பிடுதல், உறையவைத்தல் போன்றவை தரத்தையும் வேலைவாய்ப்பையும் பாதிக்கின்றன. ஏற்கெனவே கெட்டுப்போன மீனை குளிரூட்டுவதால் மீண்டும் பாதுகாப்பான உணவாக்க முடியாது; அறுவடைக்குப் பின் உடனடி சுகாதாரம் அவசியம். மீனவர்கள், ஏல முகவர்கள், பதப்படுத்துவோர், விற்பனையாளர்கள், நுகர்வோர் ஆகியோர் மதிப்புச் சங்கிலியில் பங்கேற்கின்றனர். பெண்களின் உழைப்பும் முக்கியமானது. மொத்த விற்பனைத் தொகையிலிருந்து செயல்பாட்டு செலவு, இழப்புகள் ஆகியவற்றைக் கழித்தே நிகர வருமானம் கணக்கிட வேண்டும். உள்ளூர் சந்தையை எடுத்துக்கொண்டு ஒரு மீன் நுகர்வோரிடம் செல்வதற்கான கட்டங்களை மாணவர்கள் வரையலாம்."
+          }
+        },
+        {
+          "key": "nonfood-and-research",
+          "heading": {
+            "en": "Non-food uses, ornamental trade and research significance",
+            "ta": "உணவு அல்லாத பயன்பாடுகள், அலங்கார மீன் வணிகம் மற்றும் ஆய்வுப் பயன்"
+          },
+          "body": {
+            "en": "Fish-derived materials have uses in feed, oil, collagen, gelatine and other industrial products, but the origin, processing and end use of each material should be verified rather than presenting unsubstantiated medicinal claims. Fishmeal and fish oil can support animal feeds, while indiscriminate reliance on wild forage fish may create sustainability concerns. Ornamental-fish aquaculture can provide specialised livelihoods, but collecting sensitive wild species and releasing aquarium fish into natural waters can damage biodiversity. Fishes also serve as models for developmental biology, physiology, toxicology, behaviour and population genetics; zebrafish are especially important in laboratory research. These scientific benefits do not mean that research animals require no welfare oversight. A balanced economic account includes direct commercial products, ecosystem services, science and education, as well as the environmental costs that poorly managed exploitation can impose.",
+            "ta": "மீன்களிலிருந்து தீவனம், எண்ணெய், கொலாஜன், ஜெலட்டின் போன்ற பொருட்கள் தயாரிக்கப்படுகின்றன; அவற்றின் மருத்துவப் பயன் குறித்து ஆதாரமற்ற கூற்றுகளைத் தவிர்க்க வேண்டும். மீன் மாவு மற்றும் எண்ணெயின் உற்பத்தி இயற்கைச் சிறுமீன் வளங்களின் மீது அழுத்தம் ஏற்படுத்தக்கூடும். அலங்கார மீன் வளர்ப்பு வேலைவாய்ப்பை வழங்கினாலும் வன இனங்களை அளவுக்கு மீறிப் பிடிப்பதும் வளர்ப்பு மீன்களை இயற்கை நீர்நிலைகளில் விடுவதும் உயிரினப் பல்வகைமையைப் பாதிக்கலாம். செப்ரா மீன் (zebrafish) வளர்ச்சியியல், மரபியல், உடலியல், நச்சுயியல் ஆய்வுகளில் மாதிரி உயிரியாகப் பயன்படுகிறது. அறிவியல் பயன்பாடுகளிலும் உயிரின நலனுக்கான விதிமுறைகள் பொருந்தும். நேரடி வணிக மதிப்புடன் சூழலியல் செலவையும் கணக்கில் கொள்ள வேண்டும்."
+          }
+        },
+        {
+          "key": "sustainability-and-fieldwork",
+          "heading": {
+            "en": "Stock conservation, food safety and undergraduate field analysis",
+            "ta": "மீன்வளப் பாதுகாப்பு, உணவுப் பாதுகாப்பு மற்றும் கள ஆய்வு"
+          },
+          "body": {
+            "en": "Sustainable fisheries management seeks to maintain productive populations, habitats and community livelihoods over time. Relevant tools include protecting nursery and spawning habitats, reducing juvenile catch and unwanted bycatch, appropriate gear regulations, monitoring pollution and using reliable catch data. Overfishing, habitat loss, warming seas and invasive species can interact, so single-cause explanations are rarely adequate. Food-safety concerns may include microbial spoilage, harmful algal toxins, some persistent pollutants and species-specific risks; contamination claims must rest on tests rather than assumptions. An undergraduate case study can compare marine capture, inland capture and aquaculture using species identity, production method, employment, value-chain losses, ecological pressures and management interventions. Students should cite the source and year of any production statistic because FAO, national and state datasets differ in coverage and are periodically revised. The final conclusion should connect nutritional value and economic livelihoods to long-term ecological resilience.",
+            "ta": "நிலையான மீன்வள மேலாண்மை மீன் தொகுதிகள், அவற்றின் வாழிடங்கள், மக்களின் வாழ்வாதாரம் ஆகியவற்றை நீண்ட காலம் பாதுகாப்பதை நோக்கமாகக் கொண்டது. இனப்பெருக்க இடப் பாதுகாப்பு, இளமீன் பிடிப்பைக் குறைத்தல், துணைப் பிடிப்பைக் கட்டுப்படுத்தல், பொருத்தமான வலை விதிகள், மாசுபாட்டைக் கண்காணித்தல் ஆகியவை உதவும். அதிக மீன்பிடிப்பு, வாழிட இழப்பு, கடல் வெப்பமடைதல், அயல் இனங்கள் ஆகியவை ஒன்றுடன் ஒன்று செயல்படலாம். உணவுப் பாதுகாப்பில் நுண்ணுயிர் கெடுதல், சில நச்சுகள், மாசுப்பொருட்கள் போன்றவற்றைக் கருத்தில் கொள்ள வேண்டும்; ஆய்வுச் சான்றின்றி குறிப்பிட்ட மீன் நச்சானது எனக் கூறக்கூடாது. களப்பணியில் கடல் பிடிப்பு, உள்நாட்டு பிடிப்பு, வளர்ப்பு முறைகளை இனம், வேலைவாய்ப்பு, செலவு, சூழலியல் பாதிப்பு அடிப்படையில் ஒப்பிடலாம். உற்பத்தி புள்ளிவிவரங்களுக்கு ஆதாரமும் ஆண்டும் கட்டாயம்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "FAO — Importance of inland fisheries for nutrition and livelihoods",
+          "url": "https://www.fao.org/inland-fisheries/background/food-nutrition-livelihoods/en/"
+        },
+        {
+          "label": "FAO — State of World Fisheries and Aquaculture 2026",
+          "url": "https://www.fao.org/newsroom/detail/sofia-2026--global-fisheries-and-aquaculture-production-reaches-new-highs/"
         }
       ]
     }
