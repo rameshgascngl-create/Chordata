@@ -48,6 +48,17 @@
                 "en": "Shared structures may reflect common ancestry, functional convergence or retention of an ancestral condition. In examinations, distinguish homology from analogy and avoid claiming that present-day fishes produced present-day amphibians directly. Modern groups have evolved along branching lineages over geological time.",
                 "ta": "இரண்டு உயிரிகளில் காணப்படும் ஒத்த உறுப்புகள் பொதுவான மூதாதைத் தொடர்பினாலோ ஒரே பணிக்கான தகவமைப்பினாலோ ஏற்பட்டிருக்கலாம். ஒப்புமை உறுப்புகளையும் ஒத்தமூல உறுப்புகளையும் வேறுபடுத்திப் புரிந்துகொள்வது இத்தலைப்பின் முக்கிய நோக்கமாகும். இன்று வாழும் மீன்களே இன்று வாழும் இருவாழ்விகளை நேரடியாக உருவாக்கின என்று கூறுவது தவறான எளிமைப்படுத்தலாகும். பரிணாமம் பல கிளைகளாகப் பிரியும் தொடர்ச்சியான செயல்முறையாகும்."
               }
+            },
+            {
+              "key": "origin-theories",
+              "heading": {
+                "en": "Historical theories of chordate origin",
+                "ta": "முதுகுநாணிகளின் தோற்றம் குறித்த கோட்பாடுகள்"
+              },
+              "body": {
+                "en": "The old echinoderm, hemichordate, cephalochordate and ascidian-larva hypotheses are historically important attempts to explain the chordate body plan. Garstang's larval hypothesis emphasised the possibility that a free-swimming tunicate-like larva retained larval features through sexual maturity, a process called paedomorphosis. However, a living tunicate larva is not an established vertebrate ancestor. Compare notochord, dorsal tubular nerve cord, pharyngeal openings and post-anal tail across groups. Molecular phylogeny, developmental gene networks and Cambrian fossils must be considered together. A hypothesis describes a testable evolutionary scenario; similarity alone is insufficient evidence for direct descent.",
+                "ta": "முதுகுநாணிகளின் தோற்றத்தை விளக்க முட்தோலி, அரைநாணி, தலைமுதுகுநாணி மற்றும் அசிடியன் இளவுயிரி கோட்பாடுகள் முன்வைக்கப்பட்டன. கார்ஸ்டாங்கின் இளவுயிரி கோட்பாடு, வால்முதுகுநாணியின் சுதந்திரமாக நீந்தும் இளவுயிரியில் காணப்படும் சில பண்புகள் பாலியல் முதிர்ச்சிவரை தொடரலாம் என்ற கருத்தை வலியுறுத்தியது. இதனை இளமைப் பண்புத் தக்கவைப்பு எனலாம். ஆனால் இன்று வாழும் அசிடியன் இளவுயிரி முதுகெலும்பிகளின் நேரடி மூதாதை என்பது நிறுவப்படவில்லை. முதுகுநாண், முதுகுப்புறக் குழாய் நரம்புநாண், தொண்டைச் செவுள் பிளவுகள், மலவாய்க்குப் பின்னுள்ள வால் ஆகியவற்றை ஒப்பிட்டு, புதைபடிவம், மரபணு, கருவளர்ச்சி ஆதாரங்களுடன் பரிணாமக் கருத்தை மதிப்பிட வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -181,6 +192,28 @@
               "body": {
                 "en": "Prochordata is a traditional teaching term, not a formally accepted single modern taxon. Tunicata and Cephalochordata belong to Chordata, whereas Hemichordata is treated as a separate phylum. When comparing these groups, give their current systematic positions explicitly rather than placing all under one subphylum.",
                 "ta": "முன்னோடி முதுகுநாணிகள் என்ற பெயர் பழைய பாடநூல்களில் பயன்படுத்தப்பட்ட ஒரு கற்பித்தல் சொல் ஆகும். இது இன்றைய வகைப்பாட்டில் தனியான இயற்கைக் குழுவாக ஏற்றுக்கொள்ளப்படவில்லை. வால்முதுகுநாணிகளும் தலைமுதுகுநாணிகளும் முதுகுநாணிகள் தொகுதிக்குள் அடங்குகின்றன. அரைநாணிகள் தனித் தொகுதியாக வகைப்படுத்தப்படுகின்றன. இவற்றை ஒப்பிடும்போது வரலாற்றுப் பெயரையும் தற்போதைய வகைப்பாட்டு நிலையையும் தெளிவாக வேறுபடுத்திக் குறிப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "chordate-nonchordate-comparison",
+              "heading": {
+                "en": "Chordates versus non-chordates: an analytical comparison",
+                "ta": "முதுகுநாணிகளும் முதுகுநாணற்றவையும் — ஒப்பீடு"
+              },
+              "body": {
+                "en": "Five hallmark chordate features occur at least during one life stage: notochord, dorsal hollow nerve cord, pharyngeal slits or pouches, endostyle or thyroid derivative, and a muscular post-anal tail. In many non-chordates a nerve cord is ventral and solid, although this is not a universal non-chordate rule. The chordate notochord is a longitudinal supporting rod; it is not equivalent to an arthropod exoskeleton or an annelid nerve cord. Pharyngeal slits may serve feeding in basal chordates and respiration in many aquatic vertebrates; in land vertebrates the embryonic pharyngeal apparatus forms other structures. Make a labelled comparison table, noting exceptions rather than asserting every feature persists in every adult.",
+                "ta": "முதுகுநாணிகளின் அடையாளப் பண்புகள் ஐந்து: முதுகுநாண், முதுகுப்புற வெற்றிட நரம்புநாண், தொண்டைப் பிளவுகள் அல்லது பைகள், எண்டோஸ்டைல் அல்லது அதிலிருந்து தோன்றிய தைராய்டு, மலவாய்க்குப் பின்னுள்ள தசை வால். இவை வாழ்க்கைச் சுழற்சியின் ஏதேனும் ஒரு நிலையில் காணப்படலாம். பல முதுகுநாணற்ற உயிரிகளில் நரம்புநாண் வயிற்றுப்புறத்தில் திடமாக இருக்கும்; இருப்பினும் இது அனைத்துக் குழுக்களுக்கும் பொருந்தும் முழுமையான விதி அல்ல. முதுகுநாண் ஒரு நீண்ட ஆதரவுக் கம்பியாகும்; கணுக்காலிகளின் புறவன்கூடு அல்லது வளையப்புழுக்களின் நரம்புநாணுடன் இதனை ஒப்பிடக் கூடாது. தொண்டைப் பிளவுகளின் செயல்பாடு வடிகட்டி உணவூட்டம் முதல் சுவாசம் வரை மாறுபடும். இப்பண்புகள் அனைத்து முதிர்ந்த உயிரிகளிலும் ஒரே அளவில் நிலைத்திருப்பதில்லை என்பதை ஒப்பீட்டு அட்டவணையில் குறிப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "prochordate-subphyla",
+              "heading": {
+                "en": "Prochordates: conventional grouping and modern position",
+                "ta": "முன்முதுகுநாணிகள் — மரபுவழி மற்றும் நவீன நிலை"
+              },
+              "body": {
+                "en": "Older zoology texts group Hemichordata, Urochordata and Cephalochordata as 'prochordates'. Modern phylogeny separates Hemichordata as a non-chordate deuterostome phylum; Urochordata (Tunicata) and Cephalochordata remain within Chordata. A tunicate possesses a notochord chiefly in the larval tail, while an amphioxus retains its axial notochord throughout life and extends it towards the anterior end. Both differ from vertebrates by lacking a true vertebral column and cranium. Students should write the syllabus grouping for historical classification questions but explicitly indicate its non-monophyletic status. Mention the modern Olfactores relationship: tunicates and vertebrates share a more recent common ancestor than either does with cephalochordates.",
+                "ta": "பழைய விலங்கியல் நூல்களில் அரைநாணிகள், வால்முதுகுநாணிகள், தலைமுதுகுநாணிகள் ஆகியவை 'முன்முதுகுநாணிகள்' என ஒருங்கிணைக்கப்பட்டுள்ளன. நவீன மரபுவழி வகைப்பாட்டில் அரைநாணிகள் தனி இரண்டாம்வாயினத் தொகுதியாகக் கருதப்படுகின்றன; வால்முதுகுநாணிகளும் தலைமுதுகுநாணிகளும் முதுகுநாணித் தொகுதிக்குள் இடம்பெறுகின்றன. அசிடியன் இளவுயிரியின் வாலில் முதுகுநாண் உள்ளது; ஆம்பியாக்சஸில் வாழ்நாள் முழுவதும் நீளமான முதுகுநாண் காணப்படுகிறது. இவற்றில் உண்மையான முதுகெலும்புத் தொடரும் மண்டையோடும் இல்லை. தேர்வில் மரபுவழிப் பெயர்களைக் குறிப்பிடலாம்; ஆனால் அவை நவீன இயற்கை மரபுவழிக் குழுவைத் துல்லியமாகக் குறிக்கவில்லை என்பதையும் விளக்க வேண்டும்."
               }
             }
           ],
@@ -316,6 +349,17 @@
                 "en": "Hemichordata is recognised as a separate deuterostome phylum. Its commonly taught classes include Enteropneusta, containing Balanoglossus, and Pterobranchia. Its historical placement among chordate relatives should be taught as the history of classification, not as a current classification.",
                 "ta": "அரைநாணிகள் இப்போது இரண்டாம் வாயின உயிரிகளுக்குள் தனியான தொகுதியாக ஏற்றுக்கொள்ளப்படுகின்றன. பாலனோக்ளாசஸ் அடங்கிய என்டரோப்நியூஸ்டா மற்றும் சிறிய காலனிகளை உருவாக்கும் ப்டெரோபிராங்கியா போன்ற வகுப்புகள் பாடநூல்களில் விவரிக்கப்படுகின்றன. இதை முதுகுநாணிகளுடன் இணைத்திருந்த பழைய கருத்து வகைப்பாட்டின் வரலாறாக மட்டுமே எடுத்துரைக்கப்பட வேண்டும். தற்போதைய நிலையை மாணவர்கள் தெளிவாக அறிந்திருக்க வேண்டும்."
               }
+            },
+            {
+              "key": "balanoglossus-organ-systems",
+              "heading": {
+                "en": "Balanoglossus: body systems, development and affinities",
+                "ta": "பலானோகிளாசஸ் — உறுப்பமைப்பு, வளர்ச்சி மற்றும் உறவு"
+              },
+              "body": {
+                "en": "Balanoglossus is a burrowing marine enteropneust whose body comprises proboscis, collar and trunk. Cilia and mucus move sediment and food towards the mouth; pharyngeal gill pores provide water exchange. Its dorsal stomochord is an anterior buccal diverticulum, not the homologous chordate notochord. The circulatory system includes a dorsal vessel and an anterior heart–kidney complex; excretion is associated with the glomerulus. In many enteropneusts a free-living tornaria larva resembles echinoderm larvae in ciliary-band organisation. The enteropneust body plan, gill openings and deuterostome development inform affinity, but it lacks the defining dorsal hollow nerve cord and true notochord. Hemichordata is therefore a separate phylum.",
+                "ta": "பலானோகிளாசஸ் கடற்கரை மணற்பரப்பில் வளையமைந்த துளைகளில் வாழும் என்டெரோப்னியூஸ்டா வகை அரைநாணியாகும். உடல் முன்தும்பி, கழுத்துப்பட்டை, உடற்பகுதி என மூன்று பகுதிகளைக் கொண்டது. சிலியாவும் சளியும் உணவுத் துகள்களை வாய்க்கு நகர்த்துகின்றன. தொண்டையில் செவுள் துவாரங்கள் காணப்படும். வாய்ப்பகுதியிலிருந்து உருவாகும் ஸ்டோமோகார்டை உண்மையான முதுகுநாணுடன் ஒத்தமூல உறுப்பு எனக் கருதக் கூடாது. இரத்தச் சுழற்சியில் முதுகுப்புற நாளமும் முன்புற இதய-சிறுநீரக இணைப்பும் பங்கெடுக்கின்றன; குளோமெருலஸ் கழிவுநீக்கத்துடன் தொடர்புடையது. சில இனங்களில் டோர்னேரியா இளவுயிரி காணப்படுவது முட்தோலிகளுடனான பரிணாம உறவை விளக்க உதவும். உண்மையான முதுகுநாணும் முதுகுப்புற வெற்றிட நரம்புநாணும் இல்லாததால் இவை தனித் தொகுதியில் வைக்கப்படுகின்றன."
+              }
             }
           ],
           "quiz": [
@@ -449,6 +493,17 @@
               "body": {
                 "en": "During metamorphosis the ascidian larva loses most of its tail, notochord and extensive larval nerve structures, while the adult feeding apparatus becomes prominent. This is traditionally called retrogressive metamorphosis; it describes anatomical reduction rather than reversal of evolution.",
                 "ta": "ஆசிடியா இளர்வி வளர்ந்த உயிரியாக மாறும்போது வால் பகுதியும் அதிலுள்ள முதுகுநாணும் பல இளர்வி நரம்பு அமைப்புகளும் குறைந்து மறைகின்றன. அதே நேரத்தில் உணவு வடிகட்ட உதவும் தொண்டைக் கூடை பெரிதாக வளர்கிறது. இம்மாற்றம் பின்னடைவுத் தோற்றமாற்றம் என்று அழைக்கப்படுகிறது. இச்சொல் உறுப்புகள் குறைவதைக் குறிக்குமே தவிர பரிணாமம் பின்னோக்கிச் செல்கிறது என்று பொருள் கொள்ளக்கூடாது."
+              }
+            },
+            {
+              "key": "ascidia-complete-type-study",
+              "heading": {
+                "en": "Ascidia: test, branchial basket, reproduction and metamorphosis",
+                "ta": "அசிடியா — உறை, தொண்டைக்கூடை, இனப்பெருக்கம், உருமாற்றம்"
+              },
+              "body": {
+                "en": "The sessile adult ascidian is enclosed by a tunic containing tunicin and has branchial and atrial siphons. Water enters the branchial siphon, passes through a perforated pharyngeal basket into the atrium and leaves through the atrial siphon; an endostyle secretes mucus that traps plankton. A simple U-shaped gut and typically a hermaphroditic reproductive system lie within the mantle. The tadpole larva swims with a post-anal muscular tail containing a notochord and dorsal nerve cord; sensory structures help attachment-site selection. After settlement, the tail and most of its nerve apparatus regress while the filter-feeding adult develops. This is called retrogressive metamorphosis, not a reversal of evolutionary ancestry.",
+                "ta": "முதிர்ந்த அசிடியா ஓரிடத்தில் ஒட்டியிருந்து வாழ்கிறது. டியூனிசின் கலந்த வெளி உறை உடலைப் பாதுகாக்கிறது. உட்செலுத்து சைஃபன் வழியாக நீர் புகுந்து துளைகள் நிறைந்த தொண்டைக்கூடையைத் தாண்டி ஏட்ரியத்துக்குச் செல்கிறது; வெளியேற்று சைஃபன் வழி நீர் வெளியேறும். எண்டோஸ்டைல் சுரக்கும் சளி நுண்ணுணவுத் துகள்களைப் பிடிக்கிறது. U வடிவக் குடலும் பொதுவாக இருபாலுறுப்பு இனப்பெருக்க அமைப்பும் காணப்படுகின்றன. தவளைப்புழு போன்ற இளவுயிரி முதுகுநாணும் நரம்புநாணும் உள்ள வாலினால் நீந்துகிறது. ஒட்டும் இடத்தைத் தேர்ந்தெடுத்த பின் வாலும் பல இளவுயிரிப் பண்புகளும் சுருங்கி மறைகின்றன. இதனை பின்னடைவு உருமாற்றம் என அழைப்பர்; பரிணாமம் பின்னோக்கிச் சென்றது என்று பொருள் கொள்ளக் கூடாது."
               }
             }
           ],
@@ -584,6 +639,17 @@
                 "en": "Lancelets retain many diagnostic chordate structures throughout adult life and are valuable for comparisons of early chordate organisation. Nevertheless they are living specialised animals, not unchanged ancestors of vertebrates. Their simple circulation and excretory structures illustrate both resemblance and important differences.",
                 "ta": "வளர்ந்த ஆம்பியாக்சஸிலும் முதுகுநாணிகளின் பல அடையாளப் பண்புகள் தெளிவாகத் தொடர்கின்றன. இதனால் தொடக்ககால முதுகுநாணிகளின் உடலமைப்பைப் புரிந்துகொள்வதற்கான ஒப்பீட்டு மாதிரியாக இது பயன்படுகிறது. ஆயினும் இன்றைய ஆம்பியாக்சஸ் மாற்றமற்ற பழைய மூதாதை அல்ல. அதன் இரத்த ஓட்டம் மற்றும் கழிவுநீக்க அமைப்புகளை முதுகெலும்பிகளுடன் ஒப்பிடும்போது ஒற்றுமைகளும் முக்கிய வேறுபாடுகளும் தென்படுகின்றன."
               }
+            },
+            {
+              "key": "amphioxus-complete-type-study",
+              "heading": {
+                "en": "Amphioxus: feeding, circulation, excretion and reproduction",
+                "ta": "ஆம்பியாக்சஸ் — உணவூட்டம், சுழற்சி, கழிவுநீக்கம், இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Branchiostoma (amphioxus) is a small, laterally compressed marine filter feeder, often partly buried in sand. Oral cirri exclude large particles; cilia propel water through the buccal cavity and numerous pharyngeal slits into the atrium, exiting by the atriopore. Endostylar mucus captures food and passes it towards the digestive tract; the hepatic caecum assists digestion. Segmented myomeres produce side-to-side swimming and a persistent notochord extends to the rostrum. Circulating fluid is propelled by contractile vessels rather than a chambered heart. Solenocytes form excretory units, and segmentally arranged gonads release gametes into the atrium. Amphioxus is a living cephalochordate model, not a primitive fish.",
+                "ta": "ஆம்பியாக்சஸ் (பிராங்கியோஸ்டோமா) கடல் மணலில் பகுதி புதைந்து வாழும் பக்கவாட்டில் தட்டையான சிறிய வடிகட்டி உணவூட்டி. வாய்ச்சுருள்கள் பெரிய துகள்களைத் தடுக்கின்றன; சிலியா நீரை தொண்டைப் பிளவுகள் வழியே ஏட்ரியத்திற்குக் கடத்தி ஏட்ரியோபோர் வழி வெளியேற்றுகிறது. எண்டோஸ்டைல் சளி உணவுத் துகள்களைப் பிடிக்க உதவுகிறது. கல்லீரல் போன்ற பக்கப்பை செரிமானத்துடன் தொடர்புடையது. ஒழுங்காக அமைந்த தசைத்துண்டுகளும் முன்புறம் வரை நீளும் முதுகுநாணும் நீந்த உதவுகின்றன. அறைகளைக் கொண்ட உண்மையான இதயம் இல்லாததால் சுருங்கும் இரத்தநாளங்கள் திரவச் சுழற்சியை இயக்குகின்றன. சோலனோசைட்டுகள் கழிவுநீக்கத்தில் பங்காற்றுகின்றன. பல ஜோடி இனப்பெருக்கச் சுரப்பிகள் காணப்படுகின்றன. இது தலைமுதுகுநாணிகளின் மாதிரி உயிரி; மீன் அல்ல."
+              }
             }
           ],
           "quiz": [
@@ -717,6 +783,17 @@
               "body": {
                 "en": "Vertebrates include aquatic fishes, amphibians with varied life histories, terrestrial and aquatic reptiles, birds and mammals. Their evolutionary relationships are branching: birds belong within the reptilian sauropsid radiation, while mammals arise within the synapsid lineage. Traditional classroom categories are useful but require phylogenetic qualification.",
                 "ta": "முதுகெலும்பிகளில் நீர்வாழ் மீன்கள், பல்வேறு வளர்ச்சி முறையுள்ள இருவாழ்விகள், நிலவாழ் மற்றும் நீர்வாழ் ஊர்வன, பறவைகள், பாலூட்டிகள் ஆகியவை அடங்குகின்றன. இவற்றின் பரிணாம உறவுகள் பல கிளைகளாகப் பிரிந்துள்ளன. பறவைகள் சவுராப்சிட் ஊர்வன மரபில் உருவானவை; பாலூட்டிகள் சைனாப்சிட் மரபில் தோன்றியவை. பாடநூலின் வழக்கமான வகுப்புப் பெயர்களை பயன்படுத்தும்போது இப்பரிணாமக் குறிப்புகளையும் சேர்த்துக் கற்பிக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "vertebrate-comparative-systems",
+              "heading": {
+                "en": "Vertebrate structural innovations and organ systems",
+                "ta": "முதுகெலும்பிகளின் உறுப்பமைப்புச் சிறப்புகள்"
+              },
+              "body": {
+                "en": "Vertebrates exhibit a distinct cranium protecting a tripartite brain, neural-crest-derived craniofacial tissues, paired sense organs and a complex endoskeleton. A vertebral column generally replaces or surrounds much of the notochord, although the exact condition differs among taxa. Closed circulation with a ventral muscular heart, kidneys for osmoregulation and excretion, and a liver and pancreas for metabolism support active lifestyles. Paired appendages evolved within jawed vertebrates but are secondarily reduced or lost in several descendants. Compare the heart (two, three or four chambers in broad teaching schemes), respiration (gills, lungs, skin) and reproductive modes across major clades without treating the sequence as a ladder of progress.",
+                "ta": "முதுகெலும்பிகளில் மூளையைப் பாதுகாக்கும் மண்டையோடு, நரம்புமுகடு தோற்றுவிக்கும் தலைக்கூறு திசுக்கள், இணை உணர்வுறுப்புகள் மற்றும் வளர்ச்சியடைந்த உள்வன்கூடு காணப்படும். பெரும்பாலானவற்றில் முதுகெலும்புத் தொடர் முதுகுநாணைச் சூழவோ அதற்குப் பதிலாகவோ அமைகிறது; எல்லா வகைகளிலும் நிலை ஒன்றல்ல. வயிற்றுப்புறத் தசையால் ஆன இதயத்துடன் மூடிய இரத்தச் சுழற்சி, நீர்ச்சமநிலையையும் கழிவுநீக்கத்தையும் கட்டுப்படுத்தும் சிறுநீரகம், வளர்சிதை மாற்றத்திற்கான கல்லீரல் மற்றும் கணையம் ஆகியவை செயற்படுகின்றன. தாடை உடைய முதுகெலும்பிகளில் இணை உறுப்புகள் தோன்றின; சில வழித்தோன்றல்களில் அவை பின்னர் குறைந்தன. செவுள், நுரையீரல், தோல் சுவாசம் மற்றும் இதய அறைகளின் வேறுபாட்டை ஒப்பிட்டு விளக்க வேண்டும்."
               }
             }
           ],
@@ -852,6 +929,17 @@
                 "en": "Chondrichthyes usually have cartilaginous endoskeletons; most ray-finned bony fishes have fin rays and an ossified skeleton. Amphibians typically have moist integument and varied aquatic and terrestrial stages. Reptiles possess keratinised skin, birds have feathers, and mammals produce milk. Exceptions and phylogenetic relationships must accompany these broad comparisons.",
                 "ta": "குருத்தெலும்பு மீன்களில் உள்ளெலும்புக்கூடு பெரும்பாலும் குருத்தெலும்பால் ஆனது. பல எலும்பு மீன்களில் துடுப்புக் கதிர்களும் எலும்பாலான உள்ளெலும்புக்கூடும் காணப்படுகின்றன. இருவாழ்விகளில் பொதுவாக ஈரமான தோலும் நீர்வாழ் மற்றும் நிலவாழ் வளர்ச்சி நிலைகளும் உள்ளன. ஊர்வனவற்றில் கெரட்டின் கொண்ட தோலும் பறவைகளில் இறகுகளும் பாலூட்டிகளில் பால் சுரப்பும் காணப்படுகின்றன. இந்தப் பொதுப்பண்புகளின் விதிவிலக்குகளையும் மாணவர்கள் அறிய வேண்டும்."
               }
+            },
+            {
+              "key": "vertebrate-classification-framework",
+              "heading": {
+                "en": "Classification from Cyclostomata to Mammalia: exam framework",
+                "ta": "சைக்ளோஸ்டோமேட்டா முதல் பாலூட்டிகள் வரை வகைப்பாடு"
+              },
+              "body": {
+                "en": "At syllabus level, recognise jawless cyclostomes (lampreys and hagfishes); jawed cartilaginous fishes (Chondrichthyes); bony fishes with ray-finned and lobe-finned lineages; Amphibia; traditional Reptilia; Aves; and Mammalia. Describe distinguishing features and a representative for each, not merely lists of names. Modern evolutionary classification nests birds within the reptile lineage and four-limbed vertebrates within the bony-fish evolutionary radiation; thus 'Pisces' and 'Reptilia excluding birds' are convenience groups rather than complete clades. Separate the historical category Agnatha from the currently recognised cyclostome relationships. Give the accepted rank system used in the examination first, followed by a brief phylogenetic qualification.",
+                "ta": "பாடத்திட்டத் தேர்வு நோக்கில் தாடையற்ற சைக்ளோஸ்டோமேட்டா (லாம்ப்ரே, ஹாக் மீன்), குருத்தெலும்பு மீன்கள், எலும்பு மீன்களின் கதிர்த்துடுப்பு மற்றும் சதைத் துடுப்புக் கிளைகள், இருவாழ்விகள், மரபுவழி ஊர்வன, பறவைகள், பாலூட்டிகள் ஆகியவற்றை அடையாளம் காண வேண்டும். ஒவ்வொரு குழுவிற்கும் முக்கியப் பண்புகளையும் எடுத்துக்காட்டு உயிரிகளையும் குறிப்பிட வேண்டும். நவீன பரிணாம வகைப்பாட்டில் பறவைகள் ஊர்வன மரபுக்குள்ளும் நான்குகாலிகள் எலும்பு மீன்களின் பெரிய பரிணாமக் கிளைக்குள்ளும் அடங்குகின்றன. எனவே பறவைகளற்ற 'ஊர்வன' மற்றும் எல்லா மீன்களையும் தனியாகக் காட்டும் 'பைசிஸ்' ஆகியவை முழுமையான இயற்கைக் கிளைக் குழுக்கள் அல்ல. தேர்வுக்கான பழைய வகைப்பாட்டையும் நவீன விளக்கத்தையும் தெளிவாக வேறுபடுத்த வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -985,6 +1073,17 @@
               "body": {
                 "en": "Ammocoetes resembles lancelets in some feeding features, but it is not itself an ancestral amphioxus or a direct picture of the earliest vertebrate. Its value is comparative: larval anatomy and thyroid differentiation help reconstruct how chordate feeding structures diversified.",
                 "ta": "அம்மோசீட்டீஸ் இளர்வியின் வடிகட்டி உணவெடுக்கும் முறை ஆம்பியாக்சஸின் சில பண்புகளை ஒத்துள்ளது. ஆனால் இளர்வியை ஆம்பியாக்சஸின் மூதாதை என்றும் தொடக்ககால முதுகெலும்பியின் மாறாத வடிவம் என்றும் கருதக்கூடாது. ஒப்பீட்டு ஆய்வில் இதன் முக்கியத்துவம் அதிகம். இளர்வியின் உறுப்புகளும் தைராய்டு உருவாக்கமும் முதுகுநாணிகளின் உணவெடுக்கும் அமைப்புகள் எவ்வாறு மாறின என்பதைக் புரிய உதவுகின்றன."
+              }
+            },
+            {
+              "key": "petromyzon-development-comparison",
+              "heading": {
+                "en": "Petromyzon: feeding, life cycle and ammocoete larva",
+                "ta": "பெட்ரோமைசான் — உணவூட்டம், வாழ்க்கைச் சுழற்சி, அம்மோகோயிட்டீஸ்"
+              },
+              "body": {
+                "en": "The adult lamprey has a circular suctorial oral disc with keratinous teeth, seven pairs of external branchial apertures, a cartilaginous skeleton and no paired fins or jaws. Some species feed parasitically on fishes, while others stop feeding after metamorphosis. The ammocoete larva burrows into soft sediment, filter-feeds using a mucus-producing endostyle, and possesses a hooded oral region rather than the adult sucking disc. Metamorphosis transforms the feeding apparatus, eyes, pharynx and thyroid-related structures. Historical similarity of the larva to amphioxus helped comparative zoology, but the two are not ancestor and descendant. Hagfishes are also cyclostomes, although their anatomy differs markedly from lampreys.",
+                "ta": "முதிர்ந்த பெட்ரோமைசானில் கொம்புப் பற்கள் கொண்ட வட்ட வடிவ ஒட்டுவாய், ஏழு ஜோடி வெளிச் செவுள் துளைகள், குருத்தெலும்பு உள்வன்கூடு காணப்படும்; தாடைகளும் இணைத் துடுப்புகளும் இல்லை. சில இனங்கள் பிற மீன்களின் உடலில் ஒட்டிப் பராதீனமாக உண்கின்றன; சில இனங்கள் உருமாற்றத்திற்குப் பின் உண்பதில்லை. அம்மோகோயிட்டீஸ் இளவுயிரி மண்ணில் புதைந்து எண்டோஸ்டைல் சுரக்கும் சளியால் நுண்ணுணவை வடிகட்டி உண்ணுகிறது. உருமாற்றத்தின் போது வாய், கண், தொண்டை மற்றும் தைராய்டு தொடர்புடைய அமைப்புகள் மாறுகின்றன. இளவுயிரி ஆம்பியாக்சஸை ஒத்திருப்பது ஒப்பீட்டுப் படிப்பில் பயனுள்ளதாக இருந்தாலும் ஒன்று மற்றொன்றின் நேரடி மூதாதை அல்ல. ஹாக் மீன்களும் சைக்ளோஸ்டோம்கள் என்றாலும் அவற்றின் உடலமைப்பு வேறுபடுகிறது."
               }
             }
           ],
