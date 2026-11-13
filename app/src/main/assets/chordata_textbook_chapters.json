@@ -2559,6 +2559,319 @@
           "url": "https://doi.org/10.1038/nature04639"
         }
       ]
+    },
+    {
+      "id": "amphibia-adaptations-undergraduate",
+      "topicId": "u3-adaptive-features",
+      "title": {
+        "en": "Adaptive features of Anura, Caudata and Gymnophiona — functional comparative anatomy",
+        "ta": "அனூரா, கௌடேட்டா, ஜிம்னோஃபியோனா தகவமைப்புகள் — செயல்சார் ஒப்பீட்டு உடற்கூறு"
+      },
+      "sections": [
+        {
+          "key": "ecological-design",
+          "heading": {
+            "en": "Adaptation, habitat and convergent morphology",
+            "ta": "தகவமைப்பு, வாழிடம் மற்றும் ஒத்த பரிணாமம்"
+          },
+          "body": {
+            "en": "Adaptation should be inferred from the relationship between a heritable feature, its function and the organism's ecological setting, not from a feature's mere presence. In living amphibians, jumping frogs, aquatic salamanders and burrowing caecilians illustrate contrasting functional demands, but the three orders each contain substantial ecological diversity. Differences in skeleton, muscles, skin, respiration and reproductive behaviour cannot be reduced to the slogans ‘land frog, water salamander, underground caecilian’. A well-designed comparison explicitly identifies an organism, its environment, the relevant anatomical structure and evidence for functional benefit. Shared appearance may result from convergent selection rather than especially close ancestry. For example, streamlined aquatic outlines can occur in unrelated lineages. Students should distinguish ecological inference from a directly observed behaviour and avoid treating every modified character as an evolutionary improvement in all conditions.",
+            "ta": "தகவமைப்பு என்பது ஒரு மரபுவழிப் பண்பு உயிரியின் குறிப்பிட்ட சூழலில் செய்யும் பணியுடனும் அதன் உயிர்வாழ்வு அல்லது இனப்பெருக்கப் பயனுடனும் தொடர்புடையதாகும். தாவும் தவளை, நீர்வாழ் சலமாண்டர், குழிதோண்டும் சீசிலியன் ஆகியவை வேறுபட்ட செயல்தேவைகளை விளக்குகின்றன. எனினும் ஒவ்வொரு வரிசைக்குள்ளும் வாழிடப் பன்மை மிகுந்தது. ‘தவளை நிலத்தில், சலமாண்டர் நீரில், சீசிலியன் மண்ணில்’ என்ற எளிய கூற்று எல்லா இனங்களுக்கும் பொருந்தாது. இனம், சூழல், உறுப்பின் அமைப்பு, செயல்பாடு ஆகியவற்றை இணைத்து ஒப்பிட வேண்டும். ஒத்த உடல்வடிவம் பொதுமூதாதையால் மட்டுமல்ல; ஒத்த சூழலுக்கு ஏற்பட்ட தனித்த பரிணாமத்தாலும் உருவாகலாம்."
+          }
+        },
+        {
+          "key": "anuran-jumping",
+          "heading": {
+            "en": "Anuran jumping: pelvis, urostyle and limb mechanics",
+            "ta": "அனூரா தாவுதல்: இடுப்பெலும்பு, யூரோஸ்டைல் மற்றும் காலியக்கவியல்"
+          },
+          "body": {
+            "en": "Many anurans show elongate hindlimb segments, substantial pelvic musculature and an elongated ilial region, which together transmit the forces needed for rapid jumping. The fused urostyle contributes to an altered axial framework; it is not simply an ordinary externally visible tail. The hindlimb provides the principal propulsive impulse, while forelimbs assist in landing and mechanical stability. Muscles and tendons can store and release elastic energy, but the relative mechanism varies across frog lineages. Burrowing and walking anurans have distinctive proportions and therefore should not be depicted as merely poor jumpers. Webbed digits increase useful surface for swimming in some aquatic species; webbing is reduced or modified in many terrestrial or arboreal species. In an anatomical plate label femur, tibiofibula, elongated tarsals, ilium and urostyle, and relate each feature to a specific measured action.",
+            "ta": "பல அனூரா உயிரிகளில் நீண்ட பின்னங்கால் கூறுகள், வலுவான இடுப்புத் தசைகள், நீண்ட இலியம் (ilium) ஆகியவை தாவுதலின் விசையை உருவாக்கவும் கடத்தவும் உதவுகின்றன. இணைந்த வால் முதுகெலும்புப் பகுதியான யூரோஸ்டைல் (urostyle) உடல் அச்சுக்கு ஆதாரமாக உள்ளது. பின்னங்கால் முதன்மை உந்துவிசையை அளிக்கிறது; முன்கால்கள் தரையிறங்கும்போது உடலை நிலைப்படுத்துகின்றன. தசை–நாண்களில் மீள்திறன் ஆற்றல் சேமிப்பின் அளவு இனத்திற்கேற்ப மாறுகிறது. குழிதோண்டும் மற்றும் நடக்கும் தவளைகளின் கால்விகிதங்கள் வேறுபடலாம். நீந்தும் சில இனங்களில் விரலிடைத் தசைத்தோல் (webbing) அதிகமாக இருக்கும். படத்தில் ஃபீமர், டிபியோஃபிபுலா, டார்சல் எலும்புகள், இலியம், யூரோஸ்டைல் ஆகியவற்றைத் துல்லியமாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "anuran-skin-climbing",
+          "heading": {
+            "en": "Anuran skin, adhesion, camouflage and defence",
+            "ta": "தவளைத் தோல், ஒட்டும் விரற்பட்டைகள், மறைவுநிறம் மற்றும் தற்காப்பு"
+          },
+          "body": {
+            "en": "Amphibian skin contains secretory glands and participates in moisture regulation and sometimes respiratory exchange. Arboreal frogs often possess expanded adhesive toe pads with specialised epithelial microstructure and wet adhesion, improving attachment to leaves and other surfaces. Pads are not identical to suction cups and do not operate by one universal physical mechanism. Skin colour, pattern and body posture can contribute to crypsis, while warning colouration and defensive secretions serve some taxa. The function of a conspicuous pattern should not be assigned without behavioural and chemical evidence. Cutaneous permeability can increase vulnerability to desiccation and environmental contaminants, leading many species to select cool, moist shelters. A practical plate should separately depict the skin glands, toe-pad surfaces and environmental substrate, rather than a decorative frog with unexplained bright markings.",
+            "ta": "இருவாழ்விகளின் தோலில் சுரப்பிகள் உள்ளன; ஈரப்பதம், வாயுப் பரிமாற்றம், தற்காப்பு ஆகிய பணிகளில் அவை உதவுகின்றன. மரவாழ் தவளைகளில் விரல் நுனியில் விரிந்த ஒட்டும் பட்டைகள் காணப்படுகின்றன. அவற்றின் நுண்ணிய மேற்பரப்பும் ஈர ஒட்டுதலும் இலை போன்ற பொருட்களில் பற்றிக்கொள்ள உதவுகின்றன. இவற்றை சாதாரண உறிஞ்சிக் கோப்பைகள் என்று கருதக்கூடாது. சில இனங்களின் நிறமும் உடற்பாங்கும் மறைவுக்கு உதவுகின்றன; வேறு சிலவற்றில் எச்சரிக்கை நிறமும் வேதியியல் தற்காப்புச் சுரப்பும் உள்ளன. ஒவ்வொரு பளிச்சிடும் நிறத்தையும் நச்சுத்தன்மையின் சான்றாகக் கருதுவது தவறு. தோல் உலர்ச்சிக்கும் மாசுபாட்டிற்கும் எளிதில் பாதிக்கப்படலாம். ஒட்டும் பட்டை, சுரப்பி, வாழிட மேற்பரப்பு ஆகியவை தனித்தனியாகப் படத்தில் காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "caudate-swimming",
+          "heading": {
+            "en": "Caudate locomotion: trunk flexibility and tail propulsion",
+            "ta": "கௌடேட்டாவில் உடல் நெகிழ்வும் வால் உந்துவிசையும்"
+          },
+          "body": {
+            "en": "Most salamanders retain a long trunk and mobile tail into adulthood, allowing diverse forms of locomotion. In swimming animals, lateral undulations pass along trunk and tail to generate propulsion, while limbs can contribute to steering. On land, coordinated limb movements and axial bending support walking, though gait differs between taxa. The relative sizes of limbs, trunk and caudal fin reflect habitat and lineage history rather than a single sequence from aquatic to terrestrial forms. Some salamander larvae exhibit external gills and an expanded caudal fin, which are not universal adult features. In a comparison with frogs, emphasise caudal vertebrae and serial trunk musculature instead of representing salamanders as lizards with smooth skin. For a laboratory exercise, compare the direction of tail waves with movement direction in a verified swimming video and identify whether each frame shows a larva or an adult.",
+            "ta": "பல சலமாண்டர்களில் வளர்ந்த நிலையிலும் நீண்ட உடலும் அசையும் வாலும் காணப்படுகின்றன. நீரில் உடலும் வாலும் பக்கவாட்டாக அலைபோன்று அசைவதால் உந்துவிசை உண்டாகிறது; கால்கள் திசைமாற்றத்திற்கும் உதவலாம். நிலத்தில் கால்கள் மற்றும் உடல் வளைவு இணைந்து நடப்பை உருவாக்குகின்றன. கால்களின் நீளம், உடலின் நெகிழ்வு, வால்துடுப்பு ஆகியவை இனம் மற்றும் வாழிடத்தைப் பொறுத்து மாறுகின்றன. சில இளம்நிலைகளில் வெளிச் செவுள்களும் விரிந்த வால்துடுப்பும் காணப்படுகின்றன; அவை எல்லா வளர்ந்த உயிரிகளின் பண்புகளல்ல. தவளையுடன் ஒப்பிடும்போது சலமாண்டரின் தனித்த வால் முதுகெலும்புகள், உடல் தசை வரிசை, நீந்தும் இயக்கம் ஆகியவை விளக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "caudate-regeneration",
+          "heading": {
+            "en": "Regeneration and paedomorphic diversity among salamanders",
+            "ta": "சலமாண்டர்களில் மீளுருவாக்கமும் இளம்நிலைப் பண்புநீட்சியும்"
+          },
+          "body": {
+            "en": "Many salamanders can regenerate damaged appendages, with cellular dedifferentiation or progenitor recruitment and formation of a regenerative blastema contributing to replacement tissues. The outcome depends on species, age, injury location and health, and is not the same as perfect regrowth under arbitrary conditions. Retention of larval gills or aquatic traits into reproductive adulthood occurs in paedomorphic salamanders such as the axolotl and mudpuppies, but their developmental and evolutionary mechanisms must be distinguished. Salamanders also include fully metamorphosing and direct-developing species. Therefore, external gills alone cannot diagnose every urodeline or establish its exact life stage. In an educational comparison show a typical metamorphosed salamander, a paedomorphic adult and a larva, with explicit captions and the same scale only when body dimensions are comparable.",
+            "ta": "சில சலமாண்டர்கள் சேதமடைந்த உறுப்புப் பகுதிகளை மீளுருவாக்கக்கூடியவை. காயம்பட்ட இடத்தில் மீளுருவாக்க பிளாஸ்டீமா (blastema) போன்ற செல்கூட்டங்கள் உருவாகி புதிய திசுக்கள் வளர உதவுகின்றன. இத்திறன் இனம், வயது, காயத்தின் இடம் போன்றவற்றுக்கு ஏற்ப மாறுகிறது; எந்த உறுப்பும் எல்லா சூழலிலும் முற்றிலும் திரும்பும் என்றல்ல. ஆக்ஸலாட்டல் போன்ற சில இனங்களில் இனப்பெருக்க முதிர்ச்சி அடைந்தபின்பும் வெளிச் செவுள் போன்ற இளம்நிலைப் பண்புகள் நீடிக்கின்றன. இதனை பேடோமார்போசிஸ் (paedomorphosis) என்கிறோம். முழுமையான உருமாற்றம் நிகழும் சலமாண்டர்களும் நேரடி வளர்ச்சியுடைய இனங்களும் உண்டு. படத்தில் இளம்நிலை, இளம்நிலைப் பண்புகள் நீடிக்கும் முதிர்ந்த உயிரி, உருமாற்றமடைந்த முதிர்ந்த உயிரி ஆகியவற்றை வேறுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "caecilian-burrowing",
+          "heading": {
+            "en": "Caecilian burrowing: skull, annuli and hydrostatic support",
+            "ta": "சீசிலியன் குழிதோண்டுதல்: தலையோடு, வளையக் குறிகள் மற்றும் உடல் ஆதாரம்"
+          },
+          "body": {
+            "en": "Caecilians possess elongated limbless bodies suited to moving through soil, leaf litter or water, with compact, strong skulls in many burrowing lineages. Their annuli provide a ringed external appearance, but the pattern does not represent true segmented appendages and differs among families. Skull joints, jaw musculature and head shape permit penetration into substrates, while axial movements transmit force along the trunk. Some caecilians employ specialised skin musculature and hydrostatic mechanisms during movement; the relative roles vary by taxon. Chemosensory tentacles help sample the environment, and eyes may be small or covered, which reflects sensory trade-offs rather than a complete loss of perception. A reliable cross-section should identify body wall, axial musculature, vertebral column and internal organs without inventing a snake-like arrangement of ribs or limbs.",
+            "ta": "சீசிலியன்களில் காலற்ற நீண்ட உடல், பல இனங்களில் வலுவான குறுகிய தலையோடு, உடலில் வளையக் குறிகள் ஆகியவை காணப்படுகின்றன. அவை மண், இலைமட்குப் படலம் அல்லது நீரில் நகர உதவுகின்றன. வளையக் குறிகள் மண்புழுவின் கண்டங்களுடன் ஒப்பானவை அல்ல. தலை வடிவமும் தாடைத் தசைகளும் மண்ணுக்குள் முன்னேற உதவுகின்றன; உடல் அச்சுத் தசைகளின் அலை இயக்கம் விசையை கடத்துகிறது. சில குழுக்களில் தோல் சார்ந்த தசைகளும் உட்புற அழுத்த ஆதரவும் பங்கெடுக்கலாம். உணர்க் கொம்புகள் வேதியியல் தகவலை அறிய உதவுகின்றன. கண்கள் குறைந்திருந்தாலும் உயிரிக்கு வேறு புலன்கள் உள்ளன. குறுக்குவெட்டுப் படத்தில் உடற்சுவர், தசைகள், முதுகெலும்புத் தொடர், உள்ளுறுப்புகள் தெளிவாக இருக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "habitat-and-reproduction",
+          "heading": {
+            "en": "Reproductive and ecological adaptations across the three orders",
+            "ta": "மூன்று வரிசைகளிலும் இனப்பெருக்க மற்றும் சூழலியல் தகவமைப்புகள்"
+          },
+          "body": {
+            "en": "Reproductive adaptations in amphibians are not arranged in a single progressive ladder. Many anurans produce aquatic eggs and tadpoles, but foam nesting, direct development, egg carrying and parental guarding have evolved repeatedly. Salamanders vary from aquatic egg laying to terrestrial oviposition and live bearing, with internal fertilisation frequent in many lineages. Caecilians show internal fertilisation, direct development in some species, and specialised maternal provisioning in others. Skin permeability, microhabitat humidity, breeding season and access to larval food all constrain life histories. A correct assessment links a reproductive strategy to its environment and acknowledges the costs of parental investment. Students should distinguish convergent care mechanisms from homology and avoid stating that every transition away from open water represents increased evolutionary ‘advancement’.",
+            "ta": "இருவாழ்விகளின் இனப்பெருக்க முறைகளை ‘எளியது முதல் மேம்பட்டது வரை’ என்ற ஒரே வரிசையாக அமைக்கக்கூடாது. பல அனூரா இனங்கள் நீரில் முட்டையிட்டு தலைப்பிரட்டைகளைக் கொண்டுள்ளன; சிலவற்றில் நுரைக் கூடுகள், நேரடி வளர்ச்சி, பெற்றோர் பாதுகாப்பு உள்ளன. சலமாண்டர்களில் நீரிலும் நிலத்திலும் முட்டையிடுதல், உட்கருத்தரித்தல், உயிர்க்குஞ்சு ஈனுதல் போன்ற பன்மை காணப்படுகிறது. சீசிலியன்களில் உட்கருத்தரித்தலும் சில இனங்களில் தாயின் சிறப்பான ஊட்டப்பராமரிப்பும் உண்டு. தோல் ஈரப்பதம், முட்டையிடும் இடம், பருவம், இளம்நிலைகளின் உணவு ஆகியவை வாழ்க்கைச் சுழற்சியைப் பாதிக்கின்றன. ஒவ்வொரு இனப்பெருக்க முறையின் பயன்களையும் செலவுகளையும் ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "comparative-matrix",
+          "heading": {
+            "en": "Comparative character matrix and microscopy activities",
+            "ta": "ஒப்பீட்டுப் பண்பு அட்டவணையும் செய்முறை நடவடிக்கைகளும்"
+          },
+          "body": {
+            "en": "A useful undergraduate comparison has columns for taxonomic order, adult tail, limb condition, axial skeleton, usual locomotion, main sensory specialisations, fertilisation mode and representative reproductive variation. Add a final ‘exceptions’ column to prevent students from treating broad trends as invariants. For Anura, study the urostyle, pelvic girdle and toe pad when relevant; for Caudata, inspect caudal vertebrae and larval gill development; for Gymnophiona, inspect annuli and tentacle position on verified imagery. Students can distinguish morphological characters that support identification from ecological traits that may have arisen independently. Avoid collecting protected animals or presenting a generic AI illustration as a verified anatomical specimen. The aim is an explanatory comparative essay supported by labelled figures and specific species examples.",
+            "ta": "இளங்கலை ஒப்பீட்டு அட்டவணையில் வரிசை, வளர்ந்த வால், கால்களின் நிலை, முதுகெலும்பு, இயக்கம், புலன் அமைப்புகள், கருத்தரித்தல் முறை, இனப்பெருக்கப் பன்மை, விதிவிலக்குகள் ஆகியவற்றைச் சேர்க்க வேண்டும். அனூராவில் யூரோஸ்டைல், இடுப்பு வளையம், பொருத்தமான இனத்தில் விரல் ஒட்டுப் பட்டை ஆகியவற்றைப் படிக்கலாம். கௌடேட்டாவில் வால் முதுகெலும்புகள், இளம்நிலைச் செவுள் அமைப்புகள் முக்கியம். ஜிம்னோஃபியோனாவில் வளையக் குறிகள், உணர்க் கொம்பின் இடம் ஆகியவை உதவுகின்றன. அடையாளத்திற்கு உதவும் உடற்கூறு பண்புகளையும் ஒரே சூழலால் தனித்தனியாக உருவான தகவமைப்புகளையும் வேறுபடுத்த வேண்டும். பாதுகாக்கப்பட்ட உயிரிகளைச் சேகரிக்காமல் நம்பகமான படங்கள் மூலம் செய்முறை மேற்கொள்ளலாம்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax — Amphibians",
+          "url": "https://openstax.org/books/biology-2e/pages/29-3-amphibians"
+        },
+        {
+          "label": "AmphibiaWeb — species natural histories",
+          "url": "https://amphibiaweb.org/"
+        }
+      ]
+    },
+    {
+      "id": "urodela-neoteny-undergraduate",
+      "topicId": "u3-neoteny",
+      "title": {
+        "en": "Neoteny and paedomorphosis in Urodela — axolotl development, endocrinology and evolution",
+        "ta": "யூரோடீலாவில் நியோடனி மற்றும் பேடோமார்போசிஸ் — ஆக்ஸலாட்டல் வளர்ச்சி, ஹார்மோன்கள், பரிணாமம்"
+      },
+      "sections": [
+        {
+          "key": "definitions",
+          "heading": {
+            "en": "Neoteny, paedomorphosis, progenesis and metamorphosis",
+            "ta": "நியோடனி, பேடோமார்போசிஸ், புரோஜெனிசிஸ் மற்றும் உருமாற்றம்"
+          },
+          "body": {
+            "en": "Paedomorphosis is the retention of features characteristic of a juvenile ancestral condition in reproductively mature descendants. Neoteny refers specifically to a slowing of somatic development relative to reproductive maturation; progenesis refers to an acceleration or early termination of development associated with earlier reproductive maturation. These heterochronic processes are conceptually different even when adults share larva-like morphology. In salamanders, external gills, a broad caudal fin and aquatic sensory features may remain in sexually mature individuals. Calling every gilled salamander ‘neotenic’ without evidence of developmental timing conflates morphology with mechanism. Metamorphosis is the developmental reorganisation that can accompany changes from larval to adult habitat, influenced by thyroid signalling in many amphibians. A university answer should start by separating developmental outcomes from the specific changes in relative timing that produce them.",
+            "ta": "பேடோமார்போசிஸ் (paedomorphosis) என்பது இனப்பெருக்க முதிர்ச்சி அடைந்த உயிரியில் முன்னோடி இளம்நிலைக்குரிய சில பண்புகள் நீடிப்பதாகும். நியோடனி (neoteny) என்பது உடல் வளர்ச்சியின் வேகம் இனப்பெருக்க முதிர்ச்சியுடன் ஒப்பிடும்போது குறைவதைக் குறிக்கிறது. புரோஜெனிசிஸ் (progenesis) என்பது இனப்பெருக்க முதிர்ச்சி முன்னதாக ஏற்படும் வேறொரு காலமாற்றம். இரண்டையும் ஒரே பொருளாகக் கருதக் கூடாது. சில சலமாண்டர்களில் வளர்ந்த நிலையிலும் வெளிச் செவுள், விரிந்த வால்துடுப்பு, நீர்வாழ் புலன் பண்புகள் நீடிக்கின்றன. வெளிச் செவுள் உள்ள ஒவ்வொரு சலமாண்டரையும் வளர்ச்சியியல் சான்றின்றி ‘நியோடனிக்’ என்று வகைப்படுத்தக்கூடாது. உருமாற்றம் என்பது இளம்நிலை உடற்கூறு முதிர்ந்த நிலைக்கு மறுஒழுங்குபடும் செயல்முறையாகும்."
+          }
+        },
+        {
+          "key": "axolotl-life-history",
+          "heading": {
+            "en": "Ambystoma mexicanum: the axolotl as a paedomorphic salamander",
+            "ta": "ஆக்ஸலாட்டல் (Ambystoma mexicanum) — இளம்நிலைப் பண்பு நீடிக்கும் சலமாண்டர்"
+          },
+          "body": {
+            "en": "The axolotl, Ambystoma mexicanum, is a salamander native to the Xochimilco wetland system in Mexico and is frequently maintained as a laboratory model. Sexually mature animals commonly retain feathery external gills, an aquatic tail fin and other larval features rather than undergoing the usual land-adapted metamorphosis seen in several related Ambystoma species. The axolotl is not a larva incapable of reproducing: it is a reproductively mature, typically paedomorphic animal. Its developmental pattern is not evidence that evolution has ‘stopped’, nor should it be described as an intermediate between fishes and frogs. Wild axolotl populations face serious conservation pressures, including habitat degradation and introduced fishes. A reference plate should clearly identify adult axolotl, external gill rami, tail fin, limbs and cloacal region and distinguish them from features of a metamorphosed tiger salamander.",
+            "ta": "ஆக்ஸலாட்டல் (Ambystoma mexicanum) மெக்சிகோவின் சோச்சிமில்கோ (Xochimilco) ஈரநிலத் தொகுதிகளைச் சேர்ந்த சலமாண்டராகும். இது ஆய்வக மாதிரி உயிரியாகவும் பயன்படுகிறது. இனப்பெருக்க முதிர்ச்சி அடைந்தபின்பும் இறகு போன்ற வெளிச் செவுள்கள், நீர்வாழ் வால்துடுப்பு, பிற இளம்நிலைப் பண்புகள் பொதுவாக நீடிக்கின்றன. இதனை இனப்பெருக்கம் செய்ய இயலாத இளம்புழுவாகக் கருதுவது தவறு; இது முதிர்ந்த உயிரியாகும். இதன் பண்புநீட்சி பரிணாமம் நின்றுவிட்டதற்கோ மீனுக்கும் தவளைக்கும் இடைநிலையாக இருப்பதற்கோ சான்றல்ல. இயற்கை வாழிட அழிவு, அயல் மீன் இனங்கள் போன்றவை இவ்வினத்தை அச்சுறுத்துகின்றன. படத்தில் வெளிச் செவுள் கிளைகள், வால், கால்கள், வளர்ந்த நிலை ஆகியவற்றைத் தெளிவாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "thyroid-control",
+          "heading": {
+            "en": "Thyroid hormone signalling and environmental regulation",
+            "ta": "தைராய்டு ஹார்மோன் சைகைகளும் சூழலியல் கட்டுப்பாடும்"
+          },
+          "body": {
+            "en": "Amphibian metamorphosis depends substantially on thyroid hormone signalling and the responses of target tissues, although the endocrine and genetic controls differ among lineages. In several metamorphosing salamanders, increases in thyroid activity are associated with changes in gills, skin, tail form and physiology. Axolotls possess distinctive regulation and tissue responsiveness that favour prolonged retention of larval traits under ordinary conditions. Experimental hormonal treatments can sometimes induce metamorphic changes in laboratory axolotls, but this should never be interpreted as a normal husbandry recommendation; such interventions can cause harm and require scientific and animal-welfare oversight. The correct teaching distinction is between hormonal availability, receptor response and the downstream developmental programme, not a simplistic claim that the axolotl ‘has no thyroid gland’. Environmental factors such as water conditions and nutrition can influence amphibian development, but any specific causal claim requires species-level evidence.",
+            "ta": "பல இருவாழ்விகளில் உருமாற்றத்தைத் தைராய்டு ஹார்மோன் சைகைகள் கட்டுப்படுத்துகின்றன. செவுள், தோல், வால், உடலியல் ஆகிய மாற்றங்களுக்கு திசுக்களின் ஹார்மோன் உணர்திறன் முக்கியம். ஆக்ஸலாட்டலில் இளம்நிலைப் பண்புகள் நீடிப்பதற்கு ஹார்மோன் ஒழுங்குமுறையும் திசு பதிலளிப்பும் தொடர்புடையவை. ‘ஆக்ஸலாட்டலுக்கு தைராய்டு சுரப்பி இல்லை’ என்று கூறுவது தவறான எளிமைப்படுத்தல். சில ஆய்வுகளில் ஹார்மோன் அளித்தால் உருமாற்ற மாற்றங்கள் நிகழலாம்; இதனைப் பொதுமக்கள் வீட்டில் செய்ய வேண்டிய பராமரிப்பு முறையாகப் பரிந்துரைக்கக் கூடாது. இத்தகைய சோதனைகள் விலங்கு நல ஒழுங்குமுறைக்குட்பட்டவை. ஹார்மோன் கிடைப்பது, ஏற்பி உணர்திறன், அதன் பின்னர் நடக்கும் வளர்ச்சித் திட்டம் ஆகியவற்றைத் தனித்தனியாக விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "facultative-obligate",
+          "heading": {
+            "en": "Facultative and obligate patterns of paedomorphosis",
+            "ta": "சூழலுக்கு ஏற்ப மாறும் மற்றும் பொதுவாக நிலையான பண்புநீட்சி"
+          },
+          "body": {
+            "en": "In some salamander populations, individuals can mature while retaining aquatic larval morphology or undergo metamorphosis, depending on genetic and environmental conditions; this is often called facultative paedomorphosis. Other taxa commonly exhibit strongly canalised paedomorphic life histories, with metamorphosis uncommon in nature. Such categories describe population-level patterns, not proof that every individual responds identically. A species' metamorphic capacity can differ under laboratory conditions, so experimental induction does not necessarily establish that natural wild populations routinely transform. Developmental plasticity is relevant to habitat permanence, food resources, aquatic predators and energetic costs. Students should separate variation within populations from differences between species and avoid assuming that a sexually mature gilled animal is an immature specimen. A comparison must include reproductive maturity, gill condition, tail shape, habitat use and evidence for developmental pathways.",
+            "ta": "சில சலமாண்டர் மக்கள் தொகுதிகளில் மரபியல் மற்றும் சூழலியல் சூழ்நிலைகளைப் பொறுத்து இளம்நிலைப் பண்புகளுடன் முதிர்ச்சியடைதலோ முழு உருமாற்றமோ நிகழலாம்; இதனைச் சூழலுக்கு ஏற்ப மாறும் பேடோமார்போசிஸ் என்று குறிப்பிடலாம். வேறு சில இனங்களில் இயற்கையில் இளம்நிலைப் பண்பு நீட்சி பொதுவான வளர்ச்சி முறையாகும். ஆய்வகத்தில் உருமாற்றம் தூண்டப்படுவதால் இயற்கை வாழிடத்திலும் அது வழக்கமாக நிகழும் என்று கூற முடியாது. குளத்தின் நிலைத்தன்மை, உணவு, பகை உயிரிகள், ஆற்றல் செலவு போன்றவை வளர்ச்சி முறையைப் பாதிக்கலாம். ஒப்பீட்டில் இனப்பெருக்க முதிர்ச்சி, செவுள், வால் வடிவம், வாழிடம், வளர்ச்சிப் பாதை ஆகியவற்றைப் பதிவு செய்ய வேண்டும்."
+          }
+        },
+        {
+          "key": "necturus-siren",
+          "heading": {
+            "en": "Mudpuppies and other persistently aquatic salamanders",
+            "ta": "மட்பப்பி மற்றும் பிற நீர்வாழ் சலமாண்டர்களில் பண்புநீட்சி"
+          },
+          "body": {
+            "en": "Mudpuppies of the genus Necturus retain external gills and an aquatic body form in reproductively mature adults. Their anatomy differs from the axolotl, and they should not be presented as the same animal under another common name. Sirens are elongate aquatic salamanders with reduced or absent hindlimbs, illustrating how locomotor anatomy and developmental timing evolve in different combinations. Persistent larval features also occur in other salamander lineages, making the comparative pattern broader than Ambystoma. However, retention of external gills alone does not establish identical endocrine mechanisms across all these groups. Reliable identification involves head morphology, limb complement, tail fin, gill arrangement and skeletal characters. The practical contrast is between convergent retention of aquatic features and their underlying phylogenetic and developmental histories.",
+            "ta": "நெக்டூரஸ் (Necturus) என்னும் மட்பப்பி சலமாண்டர்களில் இனப்பெருக்க முதிர்ச்சி அடைந்தபின்பும் வெளிச் செவுள்களும் நீர்வாழ் உடல்வடிவமும் நீடிக்கின்றன. இவை ஆக்ஸலாட்டலின் வேறு பொதுப்பெயர் அல்ல; தனித்த இனக்குழுக்கள். சைரன் (Siren) இனங்களில் நீண்ட நீர்வாழ் உடலும் குறைந்த அல்லது இல்லாத பின்னங்கால்களும் காணப்படலாம். பல சலமாண்டர் கிளைகளில் இளம்நிலைப் பண்புகள் நீடிப்பதால் இது ஒரு இனத்திற்கு மட்டும் உரிய தனித்தன்மையல்ல. ஆனால் எல்லா குழுக்களிலும் ஒரே ஹார்மோன் வழிமுறை செயல்படுகிறது என்று கூற முடியாது. தலை வடிவம், செவுள் கிளைகள், கால்களின் நிலை, வால், எலும்புக்கூடு ஆகியவற்றை ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "developmental-timing",
+          "heading": {
+            "en": "Heterochrony, life-history trade-offs and evolutionary significance",
+            "ta": "வளர்ச்சி காலமாற்றமும் வாழ்க்கைச் சுழற்சி–பரிணாம முக்கியத்துவமும்"
+          },
+          "body": {
+            "en": "Heterochrony is an evolutionary change in the relative onset, rate or duration of developmental events. Paedomorphosis can result from more than one heterochronic mechanism, and its consequences may affect feeding, dispersal, predator avoidance and reproductive timing. Remaining aquatic can be advantageous in a stable, productive water body but disadvantageous if the habitat dries or deteriorates. Likewise, metamorphosis may allow access to new resources while imposing energetic and physiological costs. The pattern must be interpreted as an evolutionary trade-off, not as arrested development in an inferior animal. Salamanders are valuable models for investigating gene regulation, regeneration and developmental plasticity, provided conclusions are appropriately limited to the experimental species. An examination essay should present definitions, named examples, hormonal context, ecological explanations and a labelled comparison with an ordinary metamorphic life cycle.",
+            "ta": "ஹெட்டிரோக்ரோனி (heterochrony) என்பது வளர்ச்சி நிகழ்வுகள் தொடங்கும் காலம், வேகம் அல்லது நீடிக்கும் காலத்தில் ஏற்படும் பரிணாம மாற்றமாகும். பேடோமார்போசிஸ் ஒன்றுக்கு மேற்பட்ட காலமாற்ற வழிகளால் உருவாகலாம். நிரந்தரமான நீர்நிலைகளில் நீர்வாழ் பண்புகள் நீடிப்பது சில பயன்களை அளிக்கலாம்; நீர்நிலை வறண்டால் பாதிப்பும் ஏற்படலாம். உருமாற்றத்தாலும் புதிய உணவு, வாழிடம் கிடைக்கலாம்; அதற்கும் ஆற்றல் செலவுகள் உள்ளன. பண்புநீட்சியை ‘குறைந்த பரிணாம வளர்ச்சி’ என்று மதிப்பிடுவது தவறு. சலமாண்டர்கள் மரபணு ஒழுங்குமுறை, மீளுருவாக்கம், வளர்ச்சி நெகிழ்வுத்தன்மை ஆய்வுகளுக்கு உதவுகின்றன. விடையில் வரையறை, எடுத்துக்காட்டுகள், ஹார்மோன் சூழல், சூழலியல் காரணிகள், ஒப்பீட்டுப் படம் ஆகியவை இடம்பெற வேண்டும்."
+          }
+        },
+        {
+          "key": "observation-and-ethics",
+          "heading": {
+            "en": "Recognising life stages and ethically observing axolotls",
+            "ta": "வளர்ச்சி நிலை அடையாளமும் ஆக்ஸலாட்டல் கண்காணிப்பு நெறிமுறையும்"
+          },
+          "body": {
+            "en": "An axolotl diagram should identify the feathery external gills, head, four limbs, dorsal tail fin, trunk and cloacal region without inventing mammalian or fish structures. A comparison with a larval tiger salamander must also mark sexual maturity; anatomical resemblance alone cannot reveal whether an individual is reproductively mature. In teaching, use curated images, museum references and peer-reviewed developmental figures rather than inducing hormonal change in living animals. Aquarium observation can record ventilation movements, swimming, feeding and environmental conditions if husbandry and welfare protections are in place. Students should not generalise regeneration or endocrine responsiveness from an individual animal to all amphibians. End the practical record with a distinction between direct evidence, an inferred function and a hypothesis requiring experiment.",
+            "ta": "ஆக்ஸலாட்டல் படத்தில் இறகு போன்ற வெளிச் செவுள், தலை, நான்கு கால்கள், முதுகுப் புற வால்துடுப்பு, உடல், கழிவுநுழைவாயில் பகுதி ஆகியவை காட்டப்பட வேண்டும். மற்றொரு சலமாண்டரின் இளம்நிலையுடன் ஒப்பிடும்போது இனப்பெருக்க முதிர்ச்சி பற்றிய சான்றும் அவசியம். வெளித்தோற்ற ஒற்றுமையால் மட்டும் ஒரு உயிரி இனப்பெருக்க முதிர்ச்சி அடைந்ததா என்பதைத் தீர்மானிக்க முடியாது. ஆய்வக விலங்குகளில் ஹார்மோன் தூண்டுதல் செய்வதைப் பாடநெறிச் செய்முறையாகக் கொள்ளக்கூடாது. நம்பகமான படங்கள், அருங்காட்சியக ஆதாரங்கள், ஆய்வு வெளியீடுகளைப் பயன்படுத்தி சுவாச அசைவு, நீந்துதல், உணவு உண்ணுதல் போன்றவற்றை ஒப்பிடலாம். நேரடிச் சான்றையும் அதன் அடிப்படையிலான ஊகத்தையும் தனித்தனியாகக் குறிப்பிட வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax — Amphibian development and life history",
+          "url": "https://openstax.org/books/biology-2e/pages/29-3-amphibians"
+        },
+        {
+          "label": "Ambystoma Genetic Stock Center — axolotl resources",
+          "url": "https://ambystoma.uky.edu/"
+        }
+      ]
+    },
+    {
+      "id": "amphibia-parental-care-undergraduate",
+      "topicId": "u3-parental-care",
+      "title": {
+        "en": "Parental care in amphibians — reproductive diversity, egg protection and offspring provisioning",
+        "ta": "இருவாழ்விகளில் பெற்றோர் பராமரிப்பு — இனப்பெருக்கப் பன்மை, முட்டைப் பாதுகாப்பு மற்றும் இளம்நிலை ஊட்டம்"
+      },
+      "sections": [
+        {
+          "key": "care-spectrum",
+          "heading": {
+            "en": "Parental care as a spectrum of investment",
+            "ta": "பெற்றோர் பராமரிப்பு — முதலீட்டின் பல்வேறு நிலைகள்"
+          },
+          "body": {
+            "en": "Parental care includes actions by a parent that increase survival or quality of eggs and young, sometimes at a cost to subsequent reproduction or the parent's own survival. In amphibians, it ranges from selecting suitable oviposition sites and guarding eggs to carrying tadpoles, providing food, incubating embryos in body structures or protecting freshly emerged juveniles. Parental investment is not equivalent to internal fertilisation or viviparity; these reproductive attributes may occur with different levels of post-fertilisation care. Both males and females can provide care, and in some species care is shared. Rates of egg predation, desiccation, fungal attack and larval competition can influence its evolution. Students should specify the species and caregiver, the stage being protected, the anatomical or behavioural mechanism and the ecological benefit. The existence of specialised care does not imply that all members of the same order use it.",
+            "ta": "பெற்றோர் பராமரிப்பு என்பது முட்டைகள் அல்லது இளம்நிலைகளின் உயிர்வாழ்தலை அதிகரிக்கும் பெற்றோரின் செயல்கள் மற்றும் அமைப்புகளைக் குறிக்கும். பொருத்தமான முட்டையிடும் இடத் தேர்வு, முட்டைக் காவல், தலைப்பிரட்டைகளைச் சுமத்தல், உணவளித்தல், உடலில் கருக்களைப் பாதுகாத்தல் ஆகியவை இதில் அடங்கும். இத்தகைய பராமரிப்பு நேரத்தையும் ஆற்றலையும் செலவிடச் செய்யலாம். உட்கருத்தரித்தல் அல்லது உயிர்க்குஞ்சு ஈனுதல் மட்டுமே பெற்றோர் பராமரிப்பு எனப்படும் என்பதில்லை. ஆண், பெண் அல்லது இரு பெற்றோரும் பாதுகாப்பில் ஈடுபடலாம். முட்டை உலர்தல், பூஞ்சைத் தாக்கம், பகை உயிரிகள், உணவுப் போட்டி போன்றவை பராமரிப்பு முறையின் பயனைப் பாதிக்கின்றன."
+          }
+        },
+        {
+          "key": "foam-nests",
+          "heading": {
+            "en": "Foam nests, leaf nests and protected oviposition sites",
+            "ta": "நுரைக் கூடுகள், இலைக் கூடுகள் மற்றும் பாதுகாக்கப்பட்ட முட்டையிடும் இடங்கள்"
+          },
+          "body": {
+            "en": "Some tree frogs, including several rhacophorid lineages, deposit eggs in foam masses or nests associated with vegetation above or near water. Foam may help maintain moisture and protect embryos; in species where tadpoles hatch above water, they subsequently drop or move into an aquatic habitat. This strategy is not universal for all tree frogs, and its precise construction and parental roles vary. Other amphibians attach eggs to leaves, lay them in protected cavities or develop in moisture-rich terrestrial sites. The function of foam should be tested against drying, temperature and predation rather than treated as a decorative coating. A pedagogic figure should show the adult, foam or leaf nest, eggs, position relative to water and the route taken by hatchlings. The diagram must not imply that larvae can always survive without water simply because eggs are laid above it.",
+            "ta": "சில மரத்தவளைகள், குறிப்பாக சில ராக்கோஃபோரிட் (Rhacophoridae) குழுக்களில், நீருக்கு மேலோ அருகிலோ உள்ள தாவரங்களில் நுரைக் கூடுகள் அமைத்து முட்டையிடுகின்றன. நுரை ஈரப்பதத்தைப் பாதுகாத்தும் கருக்களுக்கு ஓரளவு தற்காப்பு அளித்தும் உதவலாம். சில இனங்களில் குஞ்சுகள் வெளிவந்தபின் நீருக்குள் விழுகின்றன அல்லது நகர்கின்றன. எல்லா மரத்தவளைகளும் நுரைக் கூடு அமைப்பதில்லை; கூட்டின் முறை, பெற்றோரின் பங்கு ஆகியவை வேறுபடும். சில இனங்கள் இலைகள், குழிகள், ஈரமான நிலப்பகுதிகளில் முட்டையிடுகின்றன. படத்தில் முதிர்ந்த தவளை, கூடு, முட்டைகள், நீர் மட்டம், தலைப்பிரட்டையின் பாதை ஆகியவை காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "guarding-eggs",
+          "heading": {
+            "en": "Egg guarding and hydration by parents",
+            "ta": "முட்டைக் காவலும் ஈரப்பதப் பாதுகாப்பும்"
+          },
+          "body": {
+            "en": "In several frog and salamander taxa, parents remain close to egg clutches and defend them against predators or other hazards. Some parents remove damaged eggs, adjust the position of a clutch or maintain moisture through body contact and return visits, although the exact mechanism differs among species. Guarding must be demonstrated by repeated behaviour rather than inferred from an adult merely sitting beside eggs in one photograph. Species with terrestrial egg masses may especially benefit from reducing desiccation and fungal risk. The costs include missed feeding opportunities and exposure to predators, so guarding intensity may vary with clutch age and environmental conditions. In laboratory reports, describe the observed act, the parent identified by sex where possible, and the likely function as separate fields. Avoid relocating or opening egg clutches simply to examine their contents.",
+            "ta": "சில தவளை, சலமாண்டர் இனங்களில் பெற்றோர் முட்டைத் தொகுப்புகளின் அருகே தங்கி பகை உயிரிகளிலிருந்து பாதுகாக்கின்றனர். சில இனங்களில் சேதமடைந்த முட்டைகளை நீக்குதல், முட்டைத் தொகுப்பைச் சரிசெய்தல், ஈரப்பதத்தைக் காத்தல் போன்ற நடத்தைகள் உண்டு. ஒரே புகைப்படத்தில் முட்டையின் அருகில் முதிர்ந்த உயிரி இருப்பதாலேயே அது காவல் செய்கிறது என முடிவு செய்ய முடியாது. மீண்டும் மீண்டும் நிகழும் நடத்தைகள் சான்றாகும். நிலத்தில் வைக்கப்பட்ட முட்டைகளில் உலர்தல், பூஞ்சைத் தாக்கம் போன்ற அபாயங்கள் முக்கியம். காவலில் ஈடுபடும் பெற்றோருக்கு உணவு உண்ணும் வாய்ப்பிழப்பு, பகை உயிரி அபாயம் ஆகிய செலவுகள் இருக்கலாம். முட்டைக் கூட்டைத் திறக்காமல் அல்லது மாற்றாமல் கண்காணிப்பு மேற்கொள்ள வேண்டும்."
+          }
+        },
+        {
+          "key": "alytes-midwife",
+          "heading": {
+            "en": "Midwife toads: male transport of egg strings",
+            "ta": "மிட்வைஃப் தேரையில் ஆண் முட்டைத் தொகுப்பைக் சுமத்தல்"
+          },
+          "body": {
+            "en": "In midwife toads of the genus Alytes, males are known for carrying fertilised egg strings wound around their hindlimbs during part of embryonic development. The eggs remain outside the male's body; this should not be described as uterine pregnancy. Environmental moisture and the eventual transfer of developing young to suitable water are important to the life history. The precise duration of carrying and release varies with species and conditions. This is an especially clear demonstration that male amphibians can perform substantial parental care. In a labelled figure show the male's hindlimbs, attached egg strings and subsequent larval habitat, distinguishing the egg-carrying stage from a later free-swimming tadpole. The example should not be transferred uncritically to all toads, which display a wide range of parental patterns.",
+            "ta": "அலிடீஸ் (Alytes) என்னும் மிட்வைஃப் தேரைகளில் ஆண், கருத்தரித்த முட்டைச் சரங்களைத் தனது பின்னங்கால்களைச் சுற்றிச் சுமக்கிறது. முட்டைகள் ஆணின் உடலுக்குள் வளர்வதில்லை; இதனை கருப்பை கருவுறுதலாகக் கூறக்கூடாது. கருக்கள் வளர்வதற்கான ஈரப்பதமும் பின்னர் இளம்நிலைகள் ஏற்ற நீரை அடைவதும் முக்கியம். சுமக்கும் காலமும் குஞ்சுகளை விடும் முறையும் இனம், சூழ்நிலை ஆகியவற்றைப் பொறுத்து மாறலாம். ஆணும் குறிப்பிடத்தக்க பெற்றோர் பராமரிப்பில் ஈடுபட முடியும் என்பதற்கு இது எடுத்துக்காட்டு. படத்தில் ஆணின் பின்னங்கால்கள், சுற்றிய முட்டைச் சரங்கள், பின்னர் செல்லும் நீர்வாழிடம் ஆகியவை காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "dendrobatid-transport",
+          "heading": {
+            "en": "Dendrobatid poison frogs: tadpole transport and trophic eggs",
+            "ta": "டென்ட்ரோபாட்டிட் தவளைகளில் தலைப்பிரட்டை சுமத்தலும் ஊட்ட முட்டைகளும்"
+          },
+          "body": {
+            "en": "In several dendrobatid frogs, one parent transports newly hatched tadpoles on the back to small water bodies such as leaf axils or other phytotelmata. In some lineages, females subsequently provide unfertilised trophic eggs as food, while the transport role and division of care vary by species. These are highly specialised reproductive strategies and must not be attributed to every frog referred to as a ‘poison dart frog’. Parents may recognise or repeatedly visit specific nurseries, but claims about detailed recognition mechanisms require evidence. A scientifically useful life-history figure should show a sequence from terrestrial clutch to tadpole loading, transport and release in a small water reservoir, with caregiver sex explicitly identified for the named species. Do not show tadpoles attached to a permanent marsupial pouch, because their transport is behavioural rather than anatomical pregnancy.",
+            "ta": "சில டென்ட்ரோபாட்டிட் (Dendrobatidae) தவளைகளில் புதிதாக வெளிவரும் தலைப்பிரட்டைகளை ஒரு பெற்றோர் முதுகில் ஏற்றிச் சிறிய நீர்த்தேக்கங்களுக்கு எடுத்துச் செல்கிறது. சில இனங்களில் பெண் கருத்தரிக்காத ஊட்ட முட்டைகளை உணவாக அளிக்கலாம். சுமக்கும் பெற்றோரின் பாலினமும் பராமரிப்புப் பகிர்வும் இனத்திற்கேற்ப வேறுபடும். ‘நச்சு அம்புத் தவளை’ எனப்படும் எல்லா இனங்களிலும் ஒரே பராமரிப்பு முறை இல்லை. சரியான வாழ்க்கைச் சுழற்சிப் படத்தில் நிலத்தில் முட்டை, தலைப்பிரட்டை முதுகில் ஏற்றுதல், தாவர இலைச் சுருளிலுள்ள நீரில் விடுதல், சில இனங்களில் உணவளித்தல் ஆகியவற்றைக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "pipa-and-rhinoderma",
+          "heading": {
+            "en": "Brooding specialisations: Pipa pipa and Rhinoderma",
+            "ta": "பிபா மற்றும் ரைனோடெர்மாவில் சிறப்பு கருப் பாதுகாப்பு"
+          },
+          "body": {
+            "en": "The Surinam toad Pipa pipa has an unusual reproductive system in which eggs become embedded in pockets of the female's dorsal skin and develop there; young emerge as small froglets, not as free-living tadpoles in the usual manner. In Darwin's frogs of the genus Rhinoderma, male brooding is associated with the vocal sac; however, the exact developmental stage and conservation status differ among species, and simplified cartoons can confuse them. Neither system is equivalent to a mammalian uterus or placenta. The key concept is that existing body structures have been modified to protect developing offspring. In a comparative teaching plate show a dorsal skin section for Pipa and a separately labelled male vocal-sac system for the specific Rhinoderma species, without combining the two anatomies into an imaginary 'frog brood pouch'.",
+            "ta": "சுரினாம் தேரையான பிபா பிபா (Pipa pipa) இனத்தில் முட்டைகள் பெண்ணின் முதுகுத் தோலில் உருவாகும் சிறப்புப் பள்ளங்களில் பதிந்து வளர்கின்றன; சிறு தவளைகள் வெளிவருகின்றன. டார்வின் தவளைகளான ரைனோடெர்மா (Rhinoderma) இனங்களில் ஆணின் குரற்பை கருப் பாதுகாப்புடன் தொடர்புடையது. ஆனால் வளர்ச்சி நிலைகளும் இனப் பண்புகளும் வேறுபடும். இவ்வமைப்புகளைப் பாலூட்டியின் கருப்பை அல்லது நஞ்சுக்கொடிக்கு சமமாகக் கருதக்கூடாது. பிபாவின் தோல் குறுக்குவெட்டையும் ரைனோடெர்மாவின் ஆண் குரற்பையையும் தனித்தனிப் படங்களாகக் காட்ட வேண்டும். இரண்டு வேறு இனங்களின் அமைப்புகளை ஒரே கற்பனைச் சுவாச அல்லது கருப் பையாக இணைப்பது தவறு."
+          }
+        },
+        {
+          "key": "caecilian-dermatotrophy",
+          "heading": {
+            "en": "Caecilian maternal care and dermatotrophy",
+            "ta": "சீசிலியன்களின் தாய்ப் பராமரிப்பும் தோல் சார்ந்த ஊட்டமும்"
+          },
+          "body": {
+            "en": "Several caecilian lineages show particularly specialised maternal investment. In some egg-laying species, young possess temporary dentition that allows them to scrape and consume a nutrient-rich modified outer layer of the mother's skin; this is termed maternal dermatotrophy. Other species have live-bearing young that obtain nutrients through specialised maternal tissues or secretions during development. These modes differ anatomically and should not be combined into a claim that all caecilians feed on the mother's skin. The mother's skin can regenerate after feeding episodes, but the cost of provisioning and frequency differ among species. The observation challenges the false stereotype that limbless amphibians lack parental behaviour. A correct plate depicts a caecilian mother and young with an enlarged view of maternal skin layers and identifies whether the illustrated species is oviparous or viviparous.",
+            "ta": "சில சீசிலியன் இனங்களில் சிறப்பான தாய்ப் பராமரிப்பு காணப்படுகிறது. முட்டையிடும் சில இனங்களில் இளம்நிலைகளின் தற்காலிகப் பற்கள், தாயின் ஊட்டச்சத்து நிறைந்த மாற்றமடைந்த வெளித்தோல் படலத்தை உண்ண உதவுகின்றன; இதனை டெர்மடோட்ரோஃபி (dermatotrophy) என்கிறோம். வேறு சில இனங்களில் கருவில் வளர்கின்ற இளம்நிலைகள் தாய்த் திசுக்கள் அல்லது சுரப்புகளிலிருந்து ஊட்டம் பெறலாம். எல்லாச் சீசிலியன்களும் தாயின் தோலை உண்கின்றன என்று கூற முடியாது. இளம்நிலைகளின் ஊட்ட முறை, தாய்த் தோல் மாற்றம், முட்டையிடுமா அல்லது உயிர்க்குஞ்சு ஈனுமா என்பவற்றைத் தனித்தனியாகத் தெளிவுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "comparative-evolution",
+          "heading": {
+            "en": "Evolutionary interpretation and ethical observation",
+            "ta": "பரிணாம விளக்கமும் நெறியுள்ள கண்காணிப்பும்"
+          },
+          "body": {
+            "en": "Amphibian parental care has evolved repeatedly under different ecological conditions. Mechanisms that reduce egg desiccation or predation may raise offspring survival but cost parental energy, feeding time or opportunities to reproduce again. Whether one parent, both parents or neither parent cares depends on phylogeny, the environment and the species' life history; there is no universal male-versus-female rule. An undergraduate comparison should record species, caregiver sex, eggs or larval stage, location of brood, mechanism of protection and evidence of benefit. Students should compare Alytes, a named dendrobatid, Pipa, Rhinoderma and a dermatotrophic caecilian without conflating their structures. Use published field photographs or documentary observation and never remove adults, eggs or young solely to demonstrate the consequences of care. A good answer ends by relating parental strategies to reproductive trade-offs and convergent evolution.",
+            "ta": "இருவாழ்விகளில் பெற்றோர் பராமரிப்பு வெவ்வேறு சூழல்களில் பலமுறை பரிணாம வளர்ச்சியால் தோன்றியுள்ளது. முட்டைகள் உலர்தல் அல்லது பகை உயிரிகளால் அழிதல் குறையலாம்; ஆனால் பெற்றோருக்கு ஆற்றல், உணவுநேரம் போன்ற செலவுகள் உண்டு. ஆண், பெண், இரு பெற்றோர் ஆகியோரின் பங்கு இனத்துக்கேற்ப மாறுகிறது. ஒப்பீட்டு அட்டவணையில் இனம், பராமரிக்கும் பாலினம், முட்டை அல்லது இளம்நிலை, பாதுகாப்பிடம், செயல்முறை, பயன் ஆகியவற்றை எழுத வேண்டும். அலிடீஸ், டென்ட்ரோபாட்டிட் தவளை, பிபா, ரைனோடெர்மா, தோல் ஊட்டமளிக்கும் சீசிலியன் ஆகியவற்றின் தனித்த அமைப்புகளைப் பாதுகாக்க வேண்டும். களக்கண்காணிப்புக்காகப் பெற்றோரையோ முட்டைகளையோ பிரிப்பது ஏற்றதல்ல."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "AmphibiaWeb — amphibian reproduction and parental behaviour",
+          "url": "https://amphibiaweb.org/"
+        },
+        {
+          "label": "OpenStax Biology 2e — Amphibians",
+          "url": "https://openstax.org/books/biology-2e/pages/29-3-amphibians"
+        }
+      ]
     }
   ]
 }
