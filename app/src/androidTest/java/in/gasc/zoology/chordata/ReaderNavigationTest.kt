@@ -441,7 +441,8 @@ class ReaderNavigationTest {
         val pack = ContentRepository.load(context)
         org.junit.Assert.assertEquals(5, pack.units.size)
         org.junit.Assert.assertEquals(39, pack.topics.size)
-        org.junit.Assert.assertEquals(127, pack.topics.sumOf { it.sections.size })
+        org.junit.Assert.assertEquals(200, pack.topics.sumOf { it.sections.size })
+        org.junit.Assert.assertEquals(listOf(5, 11, 6, 6, 11), pack.units.map { it.topics.size })
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
         val enriched = pack.topics.flatMap { it.sections }.filter { it.keyPoints.isNotEmpty() }
