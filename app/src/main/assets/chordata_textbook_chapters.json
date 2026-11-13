@@ -1777,6 +1777,231 @@
           "url": "https://www.nature.com/articles/s41586-024-07070-3"
         }
       ]
+    },
+    {
+      "id": "pisces-systematics-undergraduate",
+      "topicId": "u2-pisces-classification",
+      "title": {
+        "en": "Fishes — comparative anatomy and modern classification",
+        "ta": "மீன்கள் — ஒப்பீட்டு உடற்கூறும் நவீன வகைப்பாடும்"
+      },
+      "sections": [
+        {
+          "key": "classification",
+          "heading": {
+            "en": "Classical Pisces and phylogenetic classification",
+            "ta": "பாரம்பரிய பைசீஸ் குழுவும் பரிணாம வகைப்பாடும்"
+          },
+          "body": {
+            "en": "Pisces is a useful traditional syllabus category for aquatic vertebrates with fish-like organisation, but it is not a complete monophyletic group when tetrapods are excluded. The modern framework distinguishes cyclostomes, Chondrichthyes and the bony-vertebrate lineage Osteichthyes. Living bony fishes include ray-finned Actinopterygii and lobe-finned Sarcopterygii; tetrapods evolved within the sarcopterygian lineage. Sharks and rays are not ancestral stages of living teleosts, and lungfishes are closer living relatives of tetrapods than coelacanths are. In a classification chart, use separate columns for conventional group, current clade, defining characters and exceptions. Do not present 'Agnatha, Pisces, Amphibia, Reptilia, Aves, Mammalia' as a ladder whose tips became one another.",
+            "ta": "பைசீஸ் (Pisces) என்பது நீர்வாழ் மீன்களை ஒருங்கிணைக்கும் பாரம்பரிய பாடத்திட்டச் சொல். நான்குகாலி வழித்தோன்றல்களை நீக்கினால் இது முழுமையான பரிணாமக் கிளை அல்ல. நவீன உறவியலில் சைக்ளோஸ்டோமாட்டா, கொண்ட்ரிக்தீஸ், ஆஸ்டீக்தீஸ் என முக்கியக் குழுக்கள் வேறுபடுத்தப்படுகின்றன. ஆஸ்டீக்தீஸில் ஆக்டினோப்டெரிஜி, சார்கோப்டெரிஜி கிளைகள் உள்ளன; நான்குகாலிகள் சார்கோப்டெரிஜி வழித்தோன்றல்கள். இன்றைய சுறா நவீன எலும்பு மீனின் நேரடி மூதாதை அல்ல. வகைப்பாட்டு அட்டவணையில் பழைய பெயர், நவீன உறவுக் கிளை, அடையாளப் பண்புகள், விதிவிலக்குகள் ஆகியவற்றைத் தனித்தனியாகக் குறிப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "body-plan",
+          "heading": {
+            "en": "Body form, integument and fins",
+            "ta": "உடல்வடிவம், தோல் உறை மற்றும் துடுப்புகள்"
+          },
+          "body": {
+            "en": "A streamlined fusiform body reduces resistance in many fast-swimming fishes, but rays, eels, seahorses and benthic species have different forms associated with different locomotor demands. Fish skin may contain mucus-producing cells, pigment cells, scales or dermal denticles. The paired pectoral and pelvic fins are distinguished from the median dorsal, anal and caudal fins, although fins can be reduced or transformed. Placoid denticles characterise many sharks, whereas numerous teleosts possess overlapping flexible elasmoid scales. There are also scaleless fishes; neither one particular scale nor one particular tail profile defines all fishes. In practical identification, record head, trunk, tail, gill openings, lateral line, paired fins and relevant appendages, and explain the hydrodynamic role of each rather than merely drawing a labelled silhouette.",
+            "ta": "பல வேகமான மீன்களில் நீரோட்ட எதிர்ப்பைக் குறைக்கும் நெடுவட்ட உடல்வடிவம் காணப்படுகிறது. திருக்கை மீன்கள், விலாங்குகள், கடற்குதிரைகள் போன்றவற்றில் வாழிடத்திற்கேற்ப வேறுபட்ட வடிவங்கள் உள்ளன. தோலில் சளிச்சுரப்புச் செல்கள், நிறமிகள், செதில்கள் அல்லது பிளாக்காய்டு சிறுதகடுகள் காணப்படலாம். மார்பு, வயிற்றுத் துடுப்புகள் இணைத் துடுப்புகளாகவும் முதுகு, குதம், வால் துடுப்புகள் நடுத்துடுப்புகளாகவும் வேறுபடுகின்றன. எல்லா மீன்களுக்கும் ஒரே செதில் அல்லது ஒரே வால்வடிவம் இல்லை. செய்முறையில் தலை, உடற்பகுதி, வால், செவுள் திறப்புகள், பக்கவாட்டு வரிசை, இணைத் துடுப்புகளைத் தெளிவாகப் பதிவு செய்ய வேண்டும்."
+          }
+        },
+        {
+          "key": "branchial-gas-exchange",
+          "heading": {
+            "en": "Gills, ventilation and blood circulation",
+            "ta": "செவுள் சுவாசமும் இரத்த ஓட்டமும்"
+          },
+          "body": {
+            "en": "Fish gills contain specialised exchange surfaces with thin respiratory lamellae, enabling dissolved oxygen to enter the blood and carbon dioxide to leave it. In many elasmobranchs water passes through separate gill slits, whereas many teleosts ventilate gills through movements of the mouth and operculum. Their usual circulation consists of a heart pumping largely deoxygenated blood toward gill vessels, followed by an oxygenated systemic circuit: the principal circulation is single rather than a mammalian double circuit. Ventilation and perfusion must be coordinated, and countercurrent flow of blood relative to water can sustain an effective diffusion gradient. Yet fishes that breathe air or use modified gills cannot be described by one rigid diagram. Label branchial arches, filaments, lamellae, incoming water and outgoing blood separately, and do not substitute a frog lung or mammalian alveolus for a fish gill.",
+            "ta": "மீன்களின் செவுள் இழைகளில் நுண்ணிய லமெல்லாக்கள் உள்ளன; இவை நீரில் கரைந்த ஆக்சிஜனை இரத்தத்துக்குள் கடத்துகின்றன. பல சுறாக்களில் தனித்த செவுள் பிளவுகளும் டெலியோஸ்ட் மீன்களில் வாயும் செவுள் மூடியும் இணைந்த நீர் இயக்கமும் காணப்படுகின்றன. இதயத்திலிருந்து செவுளுக்குச் செல்லும் இரத்தம் ஆக்சிஜன் பெற்று உடலுக்குச் செல்கிறது; இது ஒற்றை முதன்மை இரத்த ஓட்டமாகும். நீரும் இரத்தமும் எதிர்திசையில் ஓடுவதால் ஆக்சிஜன் பரவலுக்கு ஏற்ற நிலை ஏற்படலாம். படத்தில் செவுள் வளைவு, இழை, லமெல்லா, நீரோட்டம், இரத்த ஓட்டம் ஆகியவற்றைத் தெளிவாக வேறுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "osmoregulation",
+          "heading": {
+            "en": "Marine and freshwater osmoregulation",
+            "ta": "கடல், நன்னீர் மீன்களின் உப்புச் சமநிலை"
+          },
+          "body": {
+            "en": "Freshwater fishes generally gain water by osmosis and lose ions to their dilute surroundings; many excrete abundant dilute urine and actively absorb ions. Marine teleosts typically face osmotic water loss, drink seawater and eliminate surplus salts through specialised branchial transport mechanisms. Marine sharks commonly retain urea and related solutes to adjust internal osmotic concentration and use organs including the rectal gland to manage excess salt. These are broad physiological patterns with important exceptions and ontogenetic changes. The kidney, gill and intestinal functions are coordinated and should be discussed in relation to environmental salinity. A species cannot be labelled 'hyperosmotic' or 'hypoosmotic' without specifying the comparison medium. An explanatory graph can compare external and internal osmotic pressures while showing water and ion movement directions; decorative arrows without physiological labels are inadequate.",
+            "ta": "நன்னீர் மீன்களின் உடலுக்குள் ஊடுபரவலால் நீர் அதிகம் நுழைகிறது; உப்புகள் வெளியே இழக்கப்படலாம். பல வகைகள் நீர்த்த சிறுநீரை அதிகம் வெளியேற்றி அயனிகளைச் செயற்பட உறிஞ்சுகின்றன. கடல் டெலியோஸ்ட் மீன்களில் நீர் இழப்பு ஏற்படுவதால் கடல்நீரைக் குடித்துப் கூடுதல் உப்புகளை செவுள் வழியாக வெளியேற்றுகின்றன. பல சுறாக்கள் யூரியாவை உடலில் தக்கவைத்து மலக்குடல் உப்புச் சுரப்பியையும் பயன்படுத்துகின்றன. இவை பொது முறைகள்; வளர்ச்சிநிலை, வாழிடம், இனத்திற்கேற்ப விதிவிலக்குகள் உண்டு. நீர், அயனி நகர்வைக் காட்டும் அம்புகள் துல்லியமாக இருக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "comparative-identification",
+          "heading": {
+            "en": "Sensory organs, reproduction and practical identification",
+            "ta": "உணர்வு உறுப்புகள், இனப்பெருக்கம் மற்றும் செய்முறை அடையாளம்"
+          },
+          "body": {
+            "en": "The lateral-line system detects water movements through neuromasts, while vision, olfaction and inner-ear balance contribute to feeding and orientation. Many sharks additionally use ampullary electroreception; not all teleosts have the same receptors. Reproductive diversity includes external spawning, internal fertilisation, egg deposition, live birth and parental care. Consequently, 'all fishes lay unprotected eggs' is incorrect. For a comparative practical, examine an identified shark, a teleost and a lungfish using sourced figures and record skeleton, gill covering, scale type, fins, buoyancy system, fertilisation and habitat. Distinguish characters observed directly from features inferred from scholarly descriptions. Modern branch relationships should accompany the classical identification key so that useful specimen recognition does not perpetuate the myth that every living fish lineage is an ancestral stage of another.",
+            "ta": "பக்கவாட்டு வரிசையிலுள்ள நியூரோமாஸ்ட்கள் நீர் அசைவுகளைக் கண்டறிகின்றன; பார்வை, மணநுகர்வு, உள்காது ஆகியனவும் உணவுபிடித்தல், திசையறிதலுக்கு உதவுகின்றன. பல சுறாக்களில் மின்புல உணர்வு உறுப்புகள் காணப்படுகின்றன; எல்லா மீன்களிலும் இவை ஒரே வடிவில் இல்லை. மீன்களில் வெளிக்கருவுறுதல், உட்கருவுறுதல், முட்டையிடுதல், உயிருடன் குஞ்சு பெறுதல், பெற்றோர் பராமரிப்பு ஆகிய முறைகள் உள்ளன. சுறா, டெலியோஸ்ட், நுரையீரல் மீன் ஆகியவற்றின் செவுள் மூடி, அகச்சட்டகம், துடுப்புகள், இனப்பெருக்கம் ஆகியவற்றை ஒப்பிடலாம். நேரடி அவதானிப்பையும் நூலிலிருந்து அறிந்த விவரத்தையும் வேறுபடுத்த வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Chordates",
+          "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        },
+        {
+          "label": "FAO — Manual of Fisheries Science",
+          "url": "https://www.fao.org/4/f0752e/F0752E08.HTM"
+        }
+      ]
+    },
+    {
+      "id": "dipnoi-undergraduate",
+      "topicId": "u2-dipnoi",
+      "title": {
+        "en": "Dipnoi — lungfish biology and affinities with tetrapods",
+        "ta": "டிப்னாய் — நுரையீரல் மீன்களும் நான்குகாலி உறவுகளும்"
+      },
+      "sections": [
+        {
+          "key": "classification-and-diversity",
+          "heading": {
+            "en": "Taxonomy, biogeography and closest living relatives",
+            "ta": "வகைப்பாடு, புவிப்பரவல் மற்றும் நான்குகால் உறவு"
+          },
+          "body": {
+            "en": "Dipnoi represents the living lungfish branch of Sarcopterygii. Its surviving genera include Neoceratodus in Australia, Protopterus in Africa and Lepidosiren in South America. Genomic evidence places lungfishes as the closest living fish relatives of tetrapods, with coelacanths branching outside their shared group. This relationship does not make a modern lungfish the direct ancestor of an amphibian; both have evolved since their last common ancestor. Lungfishes retain distinctive jaws, dental plates, axial skeletons and paired fin structures, but the morphology differs among surviving lineages. Historical descriptions that combine the single lung of Neoceratodus with the filamentous fins and aestivation of Protopterus can inadvertently fabricate an imaginary animal. Students should use genus-labelled comparisons and a phylogenetic branching tree rather than treating all lungfishes as identical living fossils.",
+            "ta": "டிப்னாய் (Dipnoi) சார்கோப்டெரிஜி கிளையைச் சேர்ந்த நுரையீரல் மீன்களைக் குறிக்கிறது. ஆஸ்திரேலியாவில் Neoceratodus, ஆப்பிரிக்காவில் Protopterus, தென் அமெரிக்காவில் Lepidosiren போன்ற வாழும் பேரினங்கள் உள்ளன. மரபணு உறவாய்வுகள் நான்குகாலிகளுக்கு நெருங்கிய வாழும் மீன் உறவுகள் நுரையீரல் மீன்களே என்பதைக் காட்டுகின்றன. இன்றைய நுரையீரல் மீன் முதன்முதலில் நிலத்தில் நடந்த உயிரியின் நேரடி மூதாதை அல்ல. தாடை, பற்தகடுகள், துடுப்பு மற்றும் நுரையீரல் அமைப்புகள் பேரினங்களுக்கு ஏற்ப மாறுகின்றன. ஒரே படத்தில் பல பேரினங்களின் உறுப்புகளைப் பொருத்திக் கற்பிப்பது தவறு."
+          }
+        },
+        {
+          "key": "lobe-fins-and-skeleton",
+          "heading": {
+            "en": "Lobe fins, skeleton and dental plates",
+            "ta": "மாமிசத் துடுப்புகள், அகச்சட்டகம் மற்றும் பற்தகடுகள்"
+          },
+          "body": {
+            "en": "Lungfish paired fins have an internal skeletal axis relevant to the evolutionary history of vertebrate appendages. Neoceratodus has comparatively broad lobate fins with radials, while African and South American lungfishes possess long narrow or filamentous fins that have undergone evolutionary modification. These are not limbs with digits, despite the close lungfish–tetrapod relationship. The crushing dental plates in living lungfishes differ from the multiple replaceable sharp teeth of many sharks. The skull and gill-support structures also reflect sarcopterygian inheritance and ecological specialisation. A comparative diagram should label the body axis, shoulder or pelvic region, internal fin supports and dental plate, using separate panels for different genera. Do not call a simple fin outline evidence that a fish walked on land, nor assume every living fin preserves an unchanged Devonian anatomy.",
+            "ta": "நுரையீரல் மீன்களின் இணைத் துடுப்புகளுக்குள் ஆதரவளிக்கும் எலும்புக் கூறுகள் உள்ளன. Neoceratodus-இல் ஒப்பீட்டளவில் அகன்ற மாமிசத் துடுப்புகளும் Protopterus, Lepidosiren வகைகளில் நூல் போன்ற நீண்ட துடுப்புகளும் காணப்படுகின்றன. இவை விரல்கள் கொண்ட நான்குகாலிக் கால்கள் அல்ல. உணவை நசுக்கும் பற்தகடுகள் பல வகைகளில் உள்ளன; சுறாவின் மாற்றீட்டுப் பற்களுடன் இவற்றைக் குழப்பக் கூடாது. துடுப்பின் உள்கட்டமைப்பைக் குறிப்பிட்ட பேரினத்துடன் இணைத்துக் காட்ட வேண்டும். இன்றைய துடுப்பு டெவோனியன் காலத்து முன்னோடி அமைப்பைப் பொருத்தமாற்றமின்றி வைத்திருக்கிறது என்று கருத முடியாது."
+          }
+        },
+        {
+          "key": "lungs-and-gills",
+          "heading": {
+            "en": "Lung ventilation and branchial respiration",
+            "ta": "நுரையீரல் சுவாசமும் செவுள் வாயுப் பரிமாற்றமும்"
+          },
+          "body": {
+            "en": "Lungfishes use true lungs for oxygen uptake from air, while gill contribution varies across lineages and life stages. Neoceratodus generally has a single functional lung and retains substantial aquatic respiratory ability. Protopterus and Lepidosiren commonly possess paired lungs, and many depend heavily on air access in low-oxygen waters. Pulmonary and branchial blood pathways provide a comparative model of partial separation of oxygenated and deoxygenated blood; the heart must not be illustrated as an exact mammalian four-chambered pump. Air breathing is a functional response to environmental conditions, not proof that the fish is halfway through becoming an amphibian. In practical physiology, identify oral air intake, passage to lungs, gill structures and the relevant vascular connections. A swim bladder of a teleost should not be substituted for the lung in a labelled lungfish plate.",
+            "ta": "நுரையீரல் மீன்கள் உண்மையான நுரையீரல் வழியாகக் காற்றிலிருந்து ஆக்சிஜனைப் பெறுகின்றன. செவுள் சுவாசத்தின் பங்கு பேரினம், வளர்ச்சிநிலை ஆகியவற்றின் அடிப்படையில் மாறுகிறது. Neoceratodus-இல் பொதுவாக ஓர் செயல்படும் நுரையீரலும் Protopterus, Lepidosiren வகைகளில் இணையான நுரையீரல்களும் உள்ளன. ஆக்சிஜன் குறைந்த நீரில் மேலே வந்து காற்றைச் சுவாசித்தல் முக்கியமாகலாம். நுரையீரல், செவுள் இரத்த ஓட்டங்களைப் பகுதியளவு பிரிக்கும் அமைப்பை ஒப்பிடலாம்; பாலூட்டியின் நான்கு அறை இதயத்தை அப்படியே வரையக் கூடாது. காற்று நுழையும் பாதை, நுரையீரல், செவுள்கள் மற்றும் இரத்தநாளங்களைத் தனித்தனியாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "aestivation",
+          "heading": {
+            "en": "Aestivation, metabolism and drought resistance",
+            "ta": "கோடை உறக்கம், வளர்சிதை மாற்றம் மற்றும் வறட்சித் தாங்குதல்"
+          },
+          "body": {
+            "en": "Several African lungfishes survive seasonal water loss by burrowing and entering aestivation, a low-activity physiological state. Some form a protective dried-mucus cocoon with an opening permitting atmospheric gas exchange. Feeding and locomotion are reduced, while nitrogen handling, water retention and metabolic pathways are reorganised. This is more than ordinary sleep, and it does not mean an animal survives without any oxygen or water indefinitely. The Australian lungfish does not normally exhibit the same cocoon-based prolonged aestivation, demonstrating why genus-specific descriptions matter. In a teaching sequence, show active aquatic fish, burrowing, mucus chamber, air access and re-emergence upon rewetting, with the genus clearly specified. A dry-season survival diagram that depicts an ordinary teleost's swim bladder as the protective cocoon is biologically meaningless.",
+            "ta": "சில ஆப்பிரிக்க நுரையீரல் மீன்கள் நீர்நிலைகள் வறண்டபோது மண்ணில் புதைந்து கோடை உறக்கம் (aestivation) அடைகின்றன. சிலவற்றில் உலர்ந்த சளியால் உருவான பாதுகாப்பு உறையுடன் காற்று நுழைவதற்கான திறப்பு இருக்கும். உணவுண்ணுதல், இயக்கம் குறைந்து நீர் இழப்பு, கழிவுநீக்கம், வளர்சிதை மாற்றத்தில் மாற்றங்கள் நிகழ்கின்றன. இது சாதாரணத் தூக்கம் அல்ல; ஆக்சிஜன் அல்லது நீர் முற்றிலும் இல்லாமலே என்றும் உயிர்வாழும் நிலையும் அல்ல. ஆஸ்திரேலிய Neoceratodus-இல் இதே சளிக்கூடு வழக்கம் இல்லை. படம் ஒன்றில் செயலில் உள்ள மீன், புதைதல், சளி உறை, காற்று நுழைவு, மீண்டும் நீர் கிடைத்ததும் வெளிவருதல் ஆகியவற்றை வகைப் பெயருடன் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "genomic-and-conservation-evidence",
+          "heading": {
+            "en": "Genomic evidence, fin evolution and conservation",
+            "ta": "மரபணுச் சான்றுகள், துடுப்பு பரிணாமம் மற்றும் பாதுகாப்பு"
+          },
+          "body": {
+            "en": "Genome studies of all three surviving lungfish lineages reveal extremely large genomes rich in repetitive sequences and strong evidence for a close lungfish–tetrapod relationship. Research on developmental regulatory elements also suggests that the narrow appendages of African and South American forms reflect later evolutionary modifications, not an unaltered blueprint of early walking limbs. Genome size alone does not represent biological complexity or a higher rank of evolution. Conservation concerns include altered river flows, destruction of floodplain wetlands and loss of breeding habitats. Comparative studies should combine clearly identified fin skeletons, air-breathing physiology and phylogenomic trees rather than rely on an appealing artistic 'fish walking out of water' scene. Lungfishes remain distinct, specialised living organisms, and their evolutionary value does not remove present-day threats to habitat and reproduction.",
+            "ta": "நுரையீரல் மீன்களின் மரபணுத் தொகுதிகள் மிகவும் பெரியதாகவும் மீளும் DNA தொடர்கள் நிறைந்ததாகவும் காணப்படுகின்றன. மரபணுச் சான்றுகள் நுரையீரல் மீன்கள் மற்றும் நான்குகாலிகளின் நெருங்கிய உறவை ஆதரிக்கின்றன. ஆப்பிரிக்க, தென் அமெரிக்க வகைகளின் குறுகிய துடுப்புகள் பின்னர் ஏற்பட்ட பரிணாம மாற்றங்களாலும் உருவாகியிருக்கலாம். பெரிய மரபணுத் தொகுதி உயிரியின் பரிணாம உயர்வைக் குறிக்காது. ஆற்றோட்ட மாற்றங்கள், ஈரநில அழிவு, இனப்பெருக்க வாழிடச் சிதைவு போன்றவை பாதுகாப்புச் சிக்கல்களாகும். மாணவர்கள் துடுப்பின் உடற்கூறு, காற்றுச் சுவாசம், மரபணுக் கிளைவரைபடம் ஆகிய மூன்று சான்றுகளையும் இணைத்து ஆராய வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Schartl et al. 2024, lungfish genomes and tetrapod evolution",
+          "url": "https://www.nature.com/articles/s41586-024-07830-1"
+        },
+        {
+          "label": "Meyer et al. 2021, Giant lungfish genome",
+          "url": "https://www.nature.com/articles/s41586-021-03198-8"
+        }
+      ]
+    },
+    {
+      "id": "fish-scales-fins-undergraduate",
+      "topicId": "u2-scales-fins",
+      "title": {
+        "en": "Fish scales and fins — microstructure and function",
+        "ta": "மீன் செதில்களும் துடுப்புகளும் — நுண்கட்டமைப்பும் பணிகளும்"
+      },
+      "sections": [
+        {
+          "key": "scale-tissues",
+          "heading": {
+            "en": "Integumentary origin, scales and growth",
+            "ta": "செதில்களின் திசுத் தோற்றமும் வளர்ச்சியும்"
+          },
+          "body": {
+            "en": "Most fish scales are protective structures associated with the dermis beneath the epidermis. In many teleosts overlapping scales provide flexible coverage that accommodates body bending; the free posterior margins typically point toward the tail. Mucus secreted by epidermal cells contributes to lubrication and protection. The number, shape and distribution of scales can be useful in identification, but some fishes are scaleless or have regional modifications. Fish dermal scales must not be confused with reptilian keratinised epidermal scales, even though both are called scales in English. Students can compare a scale's outline with its location on an identified fish, noting anterior, posterior, dorsal and ventral orientations. The goal is anatomical comparison, not indiscriminate scale collection from live animals.",
+            "ta": "பல மீன்களின் செதில்கள் மேற்தோலுக்கு அடியில் உள்ள அடித்தோலுடன் தொடர்புடைய பாதுகாப்பு அமைப்புகள். டெலியோஸ்ட் மீன்களில் பல செதில்கள் ஒன்றின் மீது ஒன்று அடுக்காக அமைந்து உடல் வளைவுக்கு இடமளிக்கின்றன. மேற்தோல் சளிச்சுரப்புகள் உராய்வைக் குறைக்கின்றன. சில மீன்களில் செதில்கள் இல்லாதோ குறிப்பிட்ட இடங்களில் மாறுபட்டோ இருக்கலாம். மீன் அடித்தோல் செதில்களையும் ஊர்வனவற்றின் கெரட்டின் மேற்தோல் செதில்களையும் ஒரே தோற்றமுள்ள உறுப்பாகக் கருதக் கூடாது. செய்முறையில் செதிலின் முன், பின் விளிம்புகளையும் உடலில் அமைந்த திசையையும் சரியாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "placoid-cosmoid",
+          "heading": {
+            "en": "Placoid denticles and fossil cosmoid scales",
+            "ta": "பிளாக்காய்டு சிறுதகடுகளும் காஸ்மாய்டு செதில்களும்"
+          },
+          "body": {
+            "en": "Placoid denticles of sharks and many rays have a basal plate and a projecting dentine-rich crown associated with a pulp region and a highly mineralised outer layer. Their developmental similarity to teeth is important, but a denticle is not simply an entire oral tooth moved onto the skin. Surface texture can influence abrasion resistance and water flow. Classical cosmoid scales are associated primarily with fossil lobe-finned lineages and have layered mineralised tissues; the complete textbook cosmoid pattern is not universal among living lungfishes. Because multiple scales can appear visually similar, magnified views must identify tissue layers and not rely only on a shiny outline. A valid comparative plate should show the basal region and crown of a placoid denticle and the layered fossil cosmoid example separately.",
+            "ta": "சுறா, திருக்கை மீன்களில் பிளாக்காய்டு (placoid) சிறுதகடுகள் காணப்படுகின்றன. அவற்றில் அடித்தகடு, டென்டைன் நிறைந்த வெளிப்பட்ட பகுதி, கூழ் தொடர்புடைய பகுதி, கனிமமயமான மேற்படலம் உள்ளன. இவை பற்களுடன் வளர்ச்சித் தொடர்புடையவை; ஆனால் வாய்ப்பற் வரிசையே தோலுக்கு வெளியே வந்ததாகக் கருதக் கூடாது. காஸ்மாய்டு (cosmoid) செதில்கள் பழைய மாமிசத் துடுப்பு மீன்களின் புதைபடிவங்களில் சிறப்பாக விளக்கப்படுகின்றன. வாழும் எல்லா நுரையீரல் மீன்களிலும் முழுமையான பழைய காஸ்மாய்டு அமைப்பு உள்ளது என்று கூற முடியாது. படத்தில் சிறுதகட்டின் அடிப்பகுதி, மேல்கூம்பு மற்றும் திசுப்படலங்கள் தெளிவாகக் குறிக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "ganoid-cycloid-ctenoid",
+          "heading": {
+            "en": "Ganoid, cycloid and ctenoid comparisons",
+            "ta": "கேனாய்டு, சைக்ளாய்டு மற்றும் க்டீனாய்டு செதில்கள்"
+          },
+          "body": {
+            "en": "Ganoid scales are generally relatively thick, interlocking plates with heavily mineralised surfaces, exemplified by gars. Cycloid scales are flexible elasmoid scales with smooth exposed posterior margins, whereas ctenoid scales possess comb-like posterior ctenii. A scale may also display a focus, circuli, radii and other structural markings, depending on species and growth history. The comb-like ctenii must not be labelled annual growth rings, and every circular mark is not necessarily an annulus. Mixtures and specialisations occur, so the familiar three isolated cartoons should be treated as idealised examples rather than a universal identification key. When students use a microscope, they should document orientation, scale region and specimen identity. A comparative plate should display posterior margins prominently and explain the difference between a scale's external outline and its internal growth marks.",
+            "ta": "கேனாய்டு (ganoid) செதில்கள் பெரும்பாலும் கனத்த ஒன்றோடொன்று பொருந்தும் தகடுகள்; கார் மீன்களில் எடுத்துக்காட்டுகள் காணப்படுகின்றன. சைக்ளாய்டு (cycloid) செதில்களின் வெளிப்புறப் பின்விளிம்பு மிருதுவாக இருக்கும். க்டீனாய்டு (ctenoid) செதில்களில் சீப்புப் பற்கள் போன்ற சிறு முட்கள் காணப்படும். செதிலின் மையம், வளர்ச்சிக் கோடுகள், கதிர்கோடுகள் போன்றவை இனத்திற்கேற்ப மாறுகின்றன. சீப்புப் பற்களை ஆண்டு வளையங்களாகக் குறிக்கக் கூடாது. நுண்ணாய்வில் செதிலின் திசையமைவு, எடுத்த உடற்பகுதி, இன அடையாளம் ஆகியவற்றைப் பதிவு செய்ய வேண்டும்."
+          }
+        },
+        {
+          "key": "fin-skeleton-and-function",
+          "heading": {
+            "en": "Paired fins, median fins and fin supports",
+            "ta": "இணைத் துடுப்புகள், நடுத்துடுப்புகள் மற்றும் ஆதரவுகள்"
+          },
+          "body": {
+            "en": "Pectoral and pelvic fins are paired appendages, while dorsal, anal and caudal fins are median structures when present. They help with stability, propulsion, steering and braking in combinations that depend on the fish's swimming mode. Fin rays of many bony fishes consist of segmented lepidotrichia; rigid spines differ structurally and mechanically from flexible soft rays. Cartilaginous fishes possess their own internal fin supports and distinctive filamentous supports. A ray can propel itself with enlarged pectoral fins, while a typical fast pelagic fish may rely mainly on caudal motion; fin function cannot be inferred from an unlabelled triangle. The fin's insertion point, skeleton and range of movement are more informative than decorative colour. A university plate should distinguish skeletal rays, basal elements and the relationship to muscles.",
+            "ta": "மார்பு, வயிற்றுத் துடுப்புகள் இணைத் துடுப்புகளாகவும் முதுகு, குதம், வால் துடுப்புகள் நடுத்துடுப்புகளாகவும் உள்ளன. அவை நீந்துதல், சமநிலை, திசைமாற்றம், வேகக் கட்டுப்பாடு போன்ற பணிகளில் வெவ்வேறு வகையில் உதவுகின்றன. பல எலும்பு மீன்களின் துடுப்புக் கதிர்கள் லெபிடோட்ரிக்கியா அமைப்பைக் கொண்டுள்ளன; திட முட்களும் வளைந்து கொடுக்கும் மென் கதிர்களும் வேறுபடுகின்றன. திருக்கை மீனில் விரிந்த மார்புத் துடுப்புகள் இயக்க விசையளிக்கின்றன; வேகமான கடல்மீனில் வாலின் பங்கு அதிகமாகலாம். படத்தில் துடுப்பின் அடித்தளம், உள்ஆதரவு, தசை தொடர்பைத் தெளிவாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "tail-types-and-age",
+          "heading": {
+            "en": "Heterocercal, homocercal, diphycercal tails and scale ageing",
+            "ta": "வால் வகைகளும் செதில்களில் வயது மதிப்பீடும்"
+          },
+          "body": {
+            "en": "In heterocercal tails the vertebral axis extends into a larger upper caudal lobe, as in many sharks. Homocercal tails are approximately symmetrical externally, as in many teleosts, even though internal supports can remain asymmetric. Diphycercal arrangements have an axis extending toward the tip with more symmetric fin tissue around it, as discussed in certain lungfish. Forked, rounded and lunate silhouettes are separate external shape descriptors and must not replace descriptions of axial anatomy. Some scales display growth marks that permit validated estimates of age, but every ring is not a year: regeneration, stress and seasonal variation complicate interpretation. Age readings are best corroborated with species-specific protocols or other hard structures such as otoliths. In drawings show the vertebral axis inside each tail and distinguish annuli from fine circuli.",
+            "ta": "ஹெட்டிரோசெர்கல் வாலில் முதுகெலும்பு அச்சு பெரிய மேல்மடலுக்குள் நீள்கிறது; பல சுறாக்கள் எடுத்துக்காட்டுகள். ஹோமோசெர்கல் வாலில் வெளிப்புற மடல்கள் ஒப்பீட்டளவில் சமமாக இருக்கும். டைஃபிசெர்கல் வாலில் அச்சு நுனி வரை நீண்டு அதைச் சுற்றி துடுப்புத் திசு அமையும். வெளிப்புறப் பிளவுபட்ட அல்லது வட்டமான வால்வடிவம் இந்த அச்சு வகைகளுக்குச் சமமல்ல. சில செதில்களின் வளர்ச்சிக் கோடுகள் வயதை மதிப்பிட உதவும்; ஒவ்வொரு கோடும் ஒரு வருடம் என்று கொள்ளக் கூடாது. மீண்டும் வளர்ந்த செதிலும் சுற்றுச்சூழல் அழுத்தமும் வயது மதிப்பீட்டைப் பாதிக்கும். படத்தில் வாலுக்குள் முதுகெலும்பு அச்சின் பாதையைக் காட்ட வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "FAO — Manual of Fisheries Science",
+          "url": "https://www.fao.org/4/f0752e/F0752E08.HTM"
+        },
+        {
+          "label": "OpenStax Biology 2e — Chordates",
+          "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        }
+      ]
     }
   ]
 }
