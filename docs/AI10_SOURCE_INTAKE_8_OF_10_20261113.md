@@ -1,3 +1,5 @@
+> HISTORICAL CHECKPOINT ONLY — superseded by [10-of-10 source integration](AI10_SOURCE_INTAKE_10_OF_10_20261113.md). The eight-image state below is preserved for audit history.
+
 # AI10 source intake checkpoint — 13 November 2026
 
 Eight of the ten exact owner-approved AI-generated teaching PNG objects were already present in this GitHub repository's object database and have been linked into this QA branch. They match the committed manifest SHA-256 values and were connected to their assigned lesson slots. English and Tamil keys, author/rights metadata, the coverage ledger and 64-figure independent-review register have been synchronised; review decisions for changed images remain PENDING.
