@@ -5,8 +5,8 @@
     {
       "id": "u1",
       "title": {
-        "en": "Unit I — Chordata",
-        "ta": "அலகு I — முதுகுநாணிகள்"
+        "en": "Unit I — General characters and classification of Chordata",
+        "ta": "அலகு I — முதுகுநாணிகளின் பொதுப் பண்புகளும் வகைப்பாடும்"
       },
       "topics": [
         {
@@ -47,6 +47,17 @@
               "body": {
                 "en": "Shared structures may reflect common ancestry, functional convergence or retention of an ancestral condition. In examinations, distinguish homology from analogy and avoid claiming that present-day fishes produced present-day amphibians directly. Modern groups have evolved along branching lineages over geological time.",
                 "ta": "இரண்டு உயிரிகளில் காணப்படும் ஒத்த உறுப்புகள் பொதுவான மூதாதைத் தொடர்பினாலோ ஒரே பணிக்கான தகவமைப்பினாலோ ஏற்பட்டிருக்கலாம். ஒப்புமை உறுப்புகளையும் ஒத்தமூல உறுப்புகளையும் வேறுபடுத்திப் புரிந்துகொள்வது இத்தலைப்பின் முக்கிய நோக்கமாகும். இன்று வாழும் மீன்களே இன்று வாழும் இருவாழ்விகளை நேரடியாக உருவாக்கின என்று கூறுவது தவறான எளிமைப்படுத்தலாகும். பரிணாமம் பல கிளைகளாகப் பிரியும் தொடர்ச்சியான செயல்முறையாகும்."
+              }
+            },
+            {
+              "key": "origin-theories",
+              "heading": {
+                "en": "Historical theories of chordate origin",
+                "ta": "முதுகுநாணிகளின் தோற்றம் குறித்த கோட்பாடுகள்"
+              },
+              "body": {
+                "en": "The old echinoderm, hemichordate, cephalochordate and ascidian-larva hypotheses are historically important attempts to explain the chordate body plan. Garstang's larval hypothesis emphasised the possibility that a free-swimming tunicate-like larva retained larval features through sexual maturity, a process called paedomorphosis. However, a living tunicate larva is not an established vertebrate ancestor. Compare notochord, dorsal tubular nerve cord, pharyngeal openings and post-anal tail across groups. Molecular phylogeny, developmental gene networks and Cambrian fossils must be considered together. A hypothesis describes a testable evolutionary scenario; similarity alone is insufficient evidence for direct descent.",
+                "ta": "முதுகுநாணிகளின் தோற்றத்தை விளக்க முட்தோலி, அரைநாணி, தலைமுதுகுநாணி மற்றும் அசிடியன் இளவுயிரி கோட்பாடுகள் முன்வைக்கப்பட்டன. கார்ஸ்டாங்கின் இளவுயிரி கோட்பாடு, வால்முதுகுநாணியின் சுதந்திரமாக நீந்தும் இளவுயிரியில் காணப்படும் சில பண்புகள் பாலியல் முதிர்ச்சிவரை தொடரலாம் என்ற கருத்தை வலியுறுத்தியது. இதனை இளமைப் பண்புத் தக்கவைப்பு எனலாம். ஆனால் இன்று வாழும் அசிடியன் இளவுயிரி முதுகெலும்பிகளின் நேரடி மூதாதை என்பது நிறுவப்படவில்லை. முதுகுநாண், முதுகுப்புறக் குழாய் நரம்புநாண், தொண்டைச் செவுள் பிளவுகள், மலவாய்க்குப் பின்னுள்ள வால் ஆகியவற்றை ஒப்பிட்டு, புதைபடிவம், மரபணு, கருவளர்ச்சி ஆதாரங்களுடன் பரிணாமக் கருத்தை மதிப்பிட வேண்டும்."
               }
             }
           ],
@@ -182,6 +193,28 @@
                 "en": "Prochordata is a traditional teaching term, not a formally accepted single modern taxon. Tunicata and Cephalochordata belong to Chordata, whereas Hemichordata is treated as a separate phylum. When comparing these groups, give their current systematic positions explicitly rather than placing all under one subphylum.",
                 "ta": "முன்னோடி முதுகுநாணிகள் என்ற பெயர் பழைய பாடநூல்களில் பயன்படுத்தப்பட்ட ஒரு கற்பித்தல் சொல் ஆகும். இது இன்றைய வகைப்பாட்டில் தனியான இயற்கைக் குழுவாக ஏற்றுக்கொள்ளப்படவில்லை. வால்முதுகுநாணிகளும் தலைமுதுகுநாணிகளும் முதுகுநாணிகள் தொகுதிக்குள் அடங்குகின்றன. அரைநாணிகள் தனித் தொகுதியாக வகைப்படுத்தப்படுகின்றன. இவற்றை ஒப்பிடும்போது வரலாற்றுப் பெயரையும் தற்போதைய வகைப்பாட்டு நிலையையும் தெளிவாக வேறுபடுத்திக் குறிப்பிட வேண்டும்."
               }
+            },
+            {
+              "key": "chordate-nonchordate-comparison",
+              "heading": {
+                "en": "Chordates versus non-chordates: an analytical comparison",
+                "ta": "முதுகுநாணிகளும் முதுகுநாணற்றவையும் — ஒப்பீடு"
+              },
+              "body": {
+                "en": "Five hallmark chordate features occur at least during one life stage: notochord, dorsal hollow nerve cord, pharyngeal slits or pouches, endostyle or thyroid derivative, and a muscular post-anal tail. In many non-chordates a nerve cord is ventral and solid, although this is not a universal non-chordate rule. The chordate notochord is a longitudinal supporting rod; it is not equivalent to an arthropod exoskeleton or an annelid nerve cord. Pharyngeal slits may serve feeding in basal chordates and respiration in many aquatic vertebrates; in land vertebrates the embryonic pharyngeal apparatus forms other structures. Make a labelled comparison table, noting exceptions rather than asserting every feature persists in every adult.",
+                "ta": "முதுகுநாணிகளின் அடையாளப் பண்புகள் ஐந்து: முதுகுநாண், முதுகுப்புற வெற்றிட நரம்புநாண், தொண்டைப் பிளவுகள் அல்லது பைகள், எண்டோஸ்டைல் அல்லது அதிலிருந்து தோன்றிய தைராய்டு, மலவாய்க்குப் பின்னுள்ள தசை வால். இவை வாழ்க்கைச் சுழற்சியின் ஏதேனும் ஒரு நிலையில் காணப்படலாம். பல முதுகுநாணற்ற உயிரிகளில் நரம்புநாண் வயிற்றுப்புறத்தில் திடமாக இருக்கும்; இருப்பினும் இது அனைத்துக் குழுக்களுக்கும் பொருந்தும் முழுமையான விதி அல்ல. முதுகுநாண் ஒரு நீண்ட ஆதரவுக் கம்பியாகும்; கணுக்காலிகளின் புறவன்கூடு அல்லது வளையப்புழுக்களின் நரம்புநாணுடன் இதனை ஒப்பிடக் கூடாது. தொண்டைப் பிளவுகளின் செயல்பாடு வடிகட்டி உணவூட்டம் முதல் சுவாசம் வரை மாறுபடும். இப்பண்புகள் அனைத்து முதிர்ந்த உயிரிகளிலும் ஒரே அளவில் நிலைத்திருப்பதில்லை என்பதை ஒப்பீட்டு அட்டவணையில் குறிப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "prochordate-subphyla",
+              "heading": {
+                "en": "Prochordates: conventional grouping and modern position",
+                "ta": "முன்முதுகுநாணிகள் — மரபுவழி மற்றும் நவீன நிலை"
+              },
+              "body": {
+                "en": "Older zoology texts group Hemichordata, Urochordata and Cephalochordata as 'prochordates'. Modern phylogeny separates Hemichordata as a non-chordate deuterostome phylum; Urochordata (Tunicata) and Cephalochordata remain within Chordata. A tunicate possesses a notochord chiefly in the larval tail, while an amphioxus retains its axial notochord throughout life and extends it towards the anterior end. Both differ from vertebrates by lacking a true vertebral column and cranium. Students should write the syllabus grouping for historical classification questions but explicitly indicate its non-monophyletic status. Mention the modern Olfactores relationship: tunicates and vertebrates share a more recent common ancestor than either does with cephalochordates.",
+                "ta": "பழைய விலங்கியல் நூல்களில் அரைநாணிகள், வால்முதுகுநாணிகள், தலைமுதுகுநாணிகள் ஆகியவை 'முன்முதுகுநாணிகள்' என ஒருங்கிணைக்கப்பட்டுள்ளன. நவீன மரபுவழி வகைப்பாட்டில் அரைநாணிகள் தனி இரண்டாம்வாயினத் தொகுதியாகக் கருதப்படுகின்றன; வால்முதுகுநாணிகளும் தலைமுதுகுநாணிகளும் முதுகுநாணித் தொகுதிக்குள் இடம்பெறுகின்றன. அசிடியன் இளவுயிரியின் வாலில் முதுகுநாண் உள்ளது; ஆம்பியாக்சஸில் வாழ்நாள் முழுவதும் நீளமான முதுகுநாண் காணப்படுகிறது. இவற்றில் உண்மையான முதுகெலும்புத் தொடரும் மண்டையோடும் இல்லை. தேர்வில் மரபுவழிப் பெயர்களைக் குறிப்பிடலாம்; ஆனால் அவை நவீன இயற்கை மரபுவழிக் குழுவைத் துல்லியமாகக் குறிக்கவில்லை என்பதையும் விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -315,6 +348,28 @@
               "body": {
                 "en": "Hemichordata is recognised as a separate deuterostome phylum. Its commonly taught classes include Enteropneusta, containing Balanoglossus, and Pterobranchia. Its historical placement among chordate relatives should be taught as the history of classification, not as a current classification.",
                 "ta": "அரைநாணிகள் இப்போது இரண்டாம் வாயின உயிரிகளுக்குள் தனியான தொகுதியாக ஏற்றுக்கொள்ளப்படுகின்றன. பாலனோக்ளாசஸ் அடங்கிய என்டரோப்நியூஸ்டா மற்றும் சிறிய காலனிகளை உருவாக்கும் ப்டெரோபிராங்கியா போன்ற வகுப்புகள் பாடநூல்களில் விவரிக்கப்படுகின்றன. இதை முதுகுநாணிகளுடன் இணைத்திருந்த பழைய கருத்து வகைப்பாட்டின் வரலாறாக மட்டுமே எடுத்துரைக்கப்பட வேண்டும். தற்போதைய நிலையை மாணவர்கள் தெளிவாக அறிந்திருக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "balanoglossus-organ-systems",
+              "heading": {
+                "en": "Balanoglossus: body systems, development and affinities",
+                "ta": "பலானோகிளாசஸ் — உறுப்பமைப்பு, வளர்ச்சி மற்றும் உறவு"
+              },
+              "body": {
+                "en": "Balanoglossus is a burrowing marine enteropneust whose body comprises proboscis, collar and trunk. Cilia and mucus move sediment and food towards the mouth; pharyngeal gill pores provide water exchange. Its dorsal stomochord is an anterior buccal diverticulum, not the homologous chordate notochord. The circulatory system includes a dorsal vessel and an anterior heart–kidney complex; excretion is associated with the glomerulus. In many enteropneusts a free-living tornaria larva resembles echinoderm larvae in ciliary-band organisation. The enteropneust body plan, gill openings and deuterostome development inform affinity, but it lacks the defining dorsal hollow nerve cord and true notochord. Hemichordata is therefore a separate phylum.",
+                "ta": "பலானோகிளாசஸ் கடற்கரை மணற்பரப்பில் வளையமைந்த துளைகளில் வாழும் என்டெரோப்னியூஸ்டா வகை அரைநாணியாகும். உடல் முன்தும்பி, கழுத்துப்பட்டை, உடற்பகுதி என மூன்று பகுதிகளைக் கொண்டது. சிலியாவும் சளியும் உணவுத் துகள்களை வாய்க்கு நகர்த்துகின்றன. தொண்டையில் செவுள் துவாரங்கள் காணப்படும். வாய்ப்பகுதியிலிருந்து உருவாகும் ஸ்டோமோகார்டை உண்மையான முதுகுநாணுடன் ஒத்தமூல உறுப்பு எனக் கருதக் கூடாது. இரத்தச் சுழற்சியில் முதுகுப்புற நாளமும் முன்புற இதய-சிறுநீரக இணைப்பும் பங்கெடுக்கின்றன; குளோமெருலஸ் கழிவுநீக்கத்துடன் தொடர்புடையது. சில இனங்களில் டோர்னேரியா இளவுயிரி காணப்படுவது முட்தோலிகளுடனான பரிணாம உறவை விளக்க உதவும். உண்மையான முதுகுநாணும் முதுகுப்புற வெற்றிட நரம்புநாணும் இல்லாததால் இவை தனித் தொகுதியில் வைக்கப்படுகின்றன."
+              }
+            },
+            {
+              "key": "hemichordate-phylogenetic-affinities",
+              "heading": {
+                "en": "Hemichordata: affinities and why Balanoglossus is not a chordate",
+                "ta": "அரைநாணிகள் — பரிணாம உறவும் முதுகுநாணியற்ற நிலையும்"
+              },
+              "body": {
+                "en": "Historically the stomochord of acorn worms was compared with the chordate notochord, prompting placement of Hemichordata near or within chordates. Detailed morphology and developmental genetics reject that structural equivalence: the stomochord is an anterior outgrowth of the buccal cavity and is not a genuine axial notochord. Hemichordates share pharyngeal openings and deuterostome developmental characters with chordates, whereas tornaria larval ciliary bands and molecular sequences support a close relationship with echinoderms. Together hemichordates and echinoderms form Ambulacraria, the sister group to chordates in widely accepted relationships. For a structured essay, contrast homologous versus analogous features, write the old systematic position and then the present placement as a distinct phylum.",
+                "ta": "பழைய வகைப்பாட்டில் பலானோகிளாசஸின் ஸ்டோமோகார்ட் உண்மையான முதுகுநாணுடன் ஒப்பிடப்பட்டதால் அரைநாணிகள் முதுகுநாணிகளுக்கு அருகில் வைக்கப்பட்டன. ஆனால் ஸ்டோமோகார்ட் வாய்க்குழியிலிருந்து உருவாகும் முன்புறப் புடைப்பு; அச்சு முதுகுநாணுக்கு ஒத்தமூல உறுப்பு அல்ல. தொண்டைப் பிளவுகள், இரண்டாம் வாயினக் கருவளர்ச்சி போன்ற பண்புகள் முதுகுநாணிகளுடன் ஒற்றுமை காட்டுகின்றன. டோர்னேரியா இளவுயிரியின் சிலியப் பட்டைகளும் மரபணுத் தரவுகளும் முட்தோலிகளுடனான நெருங்கிய உறவை ஆதரிக்கின்றன. அரைநாணிகளும் முட்தோலிகளும் அம்புலாக்ரேரியா கிளையை உருவாக்குகின்றன. தேர்வில் பழைய அமைவிடத்தையும் தற்போதைய தனித் தொகுதி நிலையையும் ஆதாரங்களுடன் விளக்க வேண்டும்."
               }
             }
           ],
@@ -450,6 +505,28 @@
                 "en": "During metamorphosis the ascidian larva loses most of its tail, notochord and extensive larval nerve structures, while the adult feeding apparatus becomes prominent. This is traditionally called retrogressive metamorphosis; it describes anatomical reduction rather than reversal of evolution.",
                 "ta": "ஆசிடியா இளர்வி வளர்ந்த உயிரியாக மாறும்போது வால் பகுதியும் அதிலுள்ள முதுகுநாணும் பல இளர்வி நரம்பு அமைப்புகளும் குறைந்து மறைகின்றன. அதே நேரத்தில் உணவு வடிகட்ட உதவும் தொண்டைக் கூடை பெரிதாக வளர்கிறது. இம்மாற்றம் பின்னடைவுத் தோற்றமாற்றம் என்று அழைக்கப்படுகிறது. இச்சொல் உறுப்புகள் குறைவதைக் குறிக்குமே தவிர பரிணாமம் பின்னோக்கிச் செல்கிறது என்று பொருள் கொள்ளக்கூடாது."
               }
+            },
+            {
+              "key": "ascidia-complete-type-study",
+              "heading": {
+                "en": "Ascidia: test, branchial basket, reproduction and metamorphosis",
+                "ta": "அசிடியா — உறை, தொண்டைக்கூடை, இனப்பெருக்கம், உருமாற்றம்"
+              },
+              "body": {
+                "en": "The sessile adult ascidian is enclosed by a tunic containing tunicin and has branchial and atrial siphons. Water enters the branchial siphon, passes through a perforated pharyngeal basket into the atrium and leaves through the atrial siphon; an endostyle secretes mucus that traps plankton. A simple U-shaped gut and typically a hermaphroditic reproductive system lie within the mantle. The tadpole larva swims with a post-anal muscular tail containing a notochord and dorsal nerve cord; sensory structures help attachment-site selection. After settlement, the tail and most of its nerve apparatus regress while the filter-feeding adult develops. This is called retrogressive metamorphosis, not a reversal of evolutionary ancestry.",
+                "ta": "முதிர்ந்த அசிடியா ஓரிடத்தில் ஒட்டியிருந்து வாழ்கிறது. டியூனிசின் கலந்த வெளி உறை உடலைப் பாதுகாக்கிறது. உட்செலுத்து சைஃபன் வழியாக நீர் புகுந்து துளைகள் நிறைந்த தொண்டைக்கூடையைத் தாண்டி ஏட்ரியத்துக்குச் செல்கிறது; வெளியேற்று சைஃபன் வழி நீர் வெளியேறும். எண்டோஸ்டைல் சுரக்கும் சளி நுண்ணுணவுத் துகள்களைப் பிடிக்கிறது. U வடிவக் குடலும் பொதுவாக இருபாலுறுப்பு இனப்பெருக்க அமைப்பும் காணப்படுகின்றன. தவளைப்புழு போன்ற இளவுயிரி முதுகுநாணும் நரம்புநாணும் உள்ள வாலினால் நீந்துகிறது. ஒட்டும் இடத்தைத் தேர்ந்தெடுத்த பின் வாலும் பல இளவுயிரிப் பண்புகளும் சுருங்கி மறைகின்றன. இதனை பின்னடைவு உருமாற்றம் என அழைப்பர்; பரிணாமம் பின்னோக்கிச் சென்றது என்று பொருள் கொள்ளக் கூடாது."
+              }
+            },
+            {
+              "key": "tunicate-classification-affinities",
+              "heading": {
+                "en": "Tunicate diversity, systematic position and vertebrate affinity",
+                "ta": "வால்முதுகுநாணிகளின் பல்வகைமையும் உறவுகளும்"
+              },
+              "body": {
+                "en": "Urochordata, also called Tunicata, includes ascidians, thaliaceans and appendicularians or larvaceans. Ascidians are usually sessile as adults, while many thaliaceans are pelagic and use muscular pumping; appendicularians retain an adult tadpole-like organisation and construct mucus feeding houses. The tunic and endostylar mucus system are distinctive features, but not every adult has the same body form. Molecular phylogenies generally recover tunicates as the closest living chordate relatives of vertebrates, a grouping often termed Olfactores. This does not mean an extant Ascidia species was the ancestor of humans. Compare the larval dorsal nerve cord, tail notochord, pharyngeal basket and metamorphic fate across the major tunicate lineages.",
+                "ta": "வால்முதுகுநாணிகள் அல்லது டியூனிகேட்டாவில் அசிடியன்கள், தாலியேசியன்கள், அப்பென்டிகுலாரியன்கள் அடங்குகின்றன. அசிடியன்கள் பெரும்பாலும் முதிர்ந்த நிலையில் ஒட்டிவாழ்கின்றன; தாலியேசியன்களில் பல கடலில் மிதந்து வாழ்கின்றன. அப்பென்டிகுலாரியன்கள் முதிர்ந்த நிலையிலும் இளவுயிரி போன்ற சில பண்புகளைத் தக்கவைத்துக் கொண்டு சளியாலான உணவு வடிகட்டி உறையை உருவாக்குகின்றன. மூலக்கூறு மரபுவழி ஆய்வுகள் வால்முதுகுநாணிகளையும் முதுகெலும்பிகளையும் நெருங்கிய உறவுக் கிளைகளாகக் காட்டுகின்றன; இவ்வுறவு ஓல்ஃபாக்டோர்ஸ் என அழைக்கப்படுகிறது. இன்று வாழும் அசிடியா மனிதனின் நேரடி மூதாதை அல்ல. இளவுயிரி முதுகுநாண், நரம்புநாண், தொண்டைக்கூடை, உருமாற்றம் ஆகியவற்றை ஒப்பிட வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -584,6 +661,28 @@
                 "en": "Lancelets retain many diagnostic chordate structures throughout adult life and are valuable for comparisons of early chordate organisation. Nevertheless they are living specialised animals, not unchanged ancestors of vertebrates. Their simple circulation and excretory structures illustrate both resemblance and important differences.",
                 "ta": "வளர்ந்த ஆம்பியாக்சஸிலும் முதுகுநாணிகளின் பல அடையாளப் பண்புகள் தெளிவாகத் தொடர்கின்றன. இதனால் தொடக்ககால முதுகுநாணிகளின் உடலமைப்பைப் புரிந்துகொள்வதற்கான ஒப்பீட்டு மாதிரியாக இது பயன்படுகிறது. ஆயினும் இன்றைய ஆம்பியாக்சஸ் மாற்றமற்ற பழைய மூதாதை அல்ல. அதன் இரத்த ஓட்டம் மற்றும் கழிவுநீக்க அமைப்புகளை முதுகெலும்பிகளுடன் ஒப்பிடும்போது ஒற்றுமைகளும் முக்கிய வேறுபாடுகளும் தென்படுகின்றன."
               }
+            },
+            {
+              "key": "amphioxus-complete-type-study",
+              "heading": {
+                "en": "Amphioxus: feeding, circulation, excretion and reproduction",
+                "ta": "ஆம்பியாக்சஸ் — உணவூட்டம், சுழற்சி, கழிவுநீக்கம், இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Branchiostoma (amphioxus) is a small, laterally compressed marine filter feeder, often partly buried in sand. Oral cirri exclude large particles; cilia propel water through the buccal cavity and numerous pharyngeal slits into the atrium, exiting by the atriopore. Endostylar mucus captures food and passes it towards the digestive tract; the hepatic caecum assists digestion. Segmented myomeres produce side-to-side swimming and a persistent notochord extends to the rostrum. Circulating fluid is propelled by contractile vessels rather than a chambered heart. Solenocytes form excretory units, and segmentally arranged gonads release gametes into the atrium. Amphioxus is a living cephalochordate model, not a primitive fish.",
+                "ta": "ஆம்பியாக்சஸ் (பிராங்கியோஸ்டோமா) கடல் மணலில் பகுதி புதைந்து வாழும் பக்கவாட்டில் தட்டையான சிறிய வடிகட்டி உணவூட்டி. வாய்ச்சுருள்கள் பெரிய துகள்களைத் தடுக்கின்றன; சிலியா நீரை தொண்டைப் பிளவுகள் வழியே ஏட்ரியத்திற்குக் கடத்தி ஏட்ரியோபோர் வழி வெளியேற்றுகிறது. எண்டோஸ்டைல் சளி உணவுத் துகள்களைப் பிடிக்க உதவுகிறது. கல்லீரல் போன்ற பக்கப்பை செரிமானத்துடன் தொடர்புடையது. ஒழுங்காக அமைந்த தசைத்துண்டுகளும் முன்புறம் வரை நீளும் முதுகுநாணும் நீந்த உதவுகின்றன. அறைகளைக் கொண்ட உண்மையான இதயம் இல்லாததால் சுருங்கும் இரத்தநாளங்கள் திரவச் சுழற்சியை இயக்குகின்றன. சோலனோசைட்டுகள் கழிவுநீக்கத்தில் பங்காற்றுகின்றன. பல ஜோடி இனப்பெருக்கச் சுரப்பிகள் காணப்படுகின்றன. இது தலைமுதுகுநாணிகளின் மாதிரி உயிரி; மீன் அல்ல."
+              }
+            },
+            {
+              "key": "cephalochordate-affinities-ontogeny",
+              "heading": {
+                "en": "Cephalochordata: development, systematic position and affinities",
+                "ta": "தலைமுதுகுநாணிகள் — வளர்ச்சி, வகைப்பாட்டு நிலை, உறவுகள்"
+              },
+              "body": {
+                "en": "Cephalochordates include lancelets such as Branchiostoma, Asymmetron and Epigonichthys. Their segmented myomeres, pharyngeal openings, dorsal nerve cord and persistent notochord make them valuable models for reconstructing the ancestral chordate body plan. The amphioxus larva initially shows marked left–right asymmetry and later changes into the bilaterally organised juvenile. Although amphioxus resembles certain early chordate reconstructions, molecular evidence does not place it closer to vertebrates than tunicates. It has no true cranium, neural crest-derived complex skull or vertebral column. Compare its excretory solenocytes, simple circulation and gonad arrangement with more specialised vertebrate systems. Systematic position is a living basal chordate branch, not a living primitive fish.",
+                "ta": "பிராங்கியோஸ்டோமா, அசிமெட்ரான், எபிகோனிக்திஸ் போன்ற லான்சிலெட்டுகள் தலைமுதுகுநாணிகளில் அடங்குகின்றன. ஒழுங்காக அமைந்த தசைத்துண்டுகள், தொண்டைப் பிளவுகள், முதுகுப்புற நரம்புநாண், வாழ்நாள் முழுவதும் நீடிக்கும் முதுகுநாண் ஆகியவை தொடக்க முதுகுநாணி உடலமைப்பைப் புரிய உதவுகின்றன. ஆம்பியாக்சஸ் இளவுயிரியில் தொடக்கத்தில் இடது-வலது சமமின்மை காணப்பட்டு வளர்ச்சியுடன் மாற்றமடைகிறது. இன்றைய மூலக்கூறு ஆதாரங்கள் வால்முதுகுநாணிகளை முதுகெலும்பிகளுக்கு ஒப்பீட்டளவில் நெருங்கிய கிளையாகக் காட்டுகின்றன. ஆம்பியாக்சஸில் உண்மையான மண்டையோடு, முதுகெலும்புத் தொடர் இல்லை. சோலனோசைட்டு, இரத்தச் சுழற்சி, இனப்பெருக்கச் சுரப்பிகளை முதுகெலும்பிகளுடன் ஒப்பிட வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -678,7 +777,16 @@
           "diagramIds": [
             "u1-cephalochordata-branchiostoma-labelled"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": {
+        "en": "Unit II — Vertebrata, Agnatha and Pisces",
+        "ta": "அலகு II — முதுகெலும்பிகள், தாடையற்றவை, மீன்கள்"
+      },
+      "topics": [
         {
           "id": "u1-vertebrata-characters",
           "title": {
@@ -717,6 +825,17 @@
               "body": {
                 "en": "Vertebrates include aquatic fishes, amphibians with varied life histories, terrestrial and aquatic reptiles, birds and mammals. Their evolutionary relationships are branching: birds belong within the reptilian sauropsid radiation, while mammals arise within the synapsid lineage. Traditional classroom categories are useful but require phylogenetic qualification.",
                 "ta": "முதுகெலும்பிகளில் நீர்வாழ் மீன்கள், பல்வேறு வளர்ச்சி முறையுள்ள இருவாழ்விகள், நிலவாழ் மற்றும் நீர்வாழ் ஊர்வன, பறவைகள், பாலூட்டிகள் ஆகியவை அடங்குகின்றன. இவற்றின் பரிணாம உறவுகள் பல கிளைகளாகப் பிரிந்துள்ளன. பறவைகள் சவுராப்சிட் ஊர்வன மரபில் உருவானவை; பாலூட்டிகள் சைனாப்சிட் மரபில் தோன்றியவை. பாடநூலின் வழக்கமான வகுப்புப் பெயர்களை பயன்படுத்தும்போது இப்பரிணாமக் குறிப்புகளையும் சேர்த்துக் கற்பிக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "vertebrate-comparative-systems",
+              "heading": {
+                "en": "Vertebrate structural innovations and organ systems",
+                "ta": "முதுகெலும்பிகளின் உறுப்பமைப்புச் சிறப்புகள்"
+              },
+              "body": {
+                "en": "Vertebrates exhibit a distinct cranium protecting a tripartite brain, neural-crest-derived craniofacial tissues, paired sense organs and a complex endoskeleton. A vertebral column generally replaces or surrounds much of the notochord, although the exact condition differs among taxa. Closed circulation with a ventral muscular heart, kidneys for osmoregulation and excretion, and a liver and pancreas for metabolism support active lifestyles. Paired appendages evolved within jawed vertebrates but are secondarily reduced or lost in several descendants. Compare the heart (two, three or four chambers in broad teaching schemes), respiration (gills, lungs, skin) and reproductive modes across major clades without treating the sequence as a ladder of progress.",
+                "ta": "முதுகெலும்பிகளில் மூளையைப் பாதுகாக்கும் மண்டையோடு, நரம்புமுகடு தோற்றுவிக்கும் தலைக்கூறு திசுக்கள், இணை உணர்வுறுப்புகள் மற்றும் வளர்ச்சியடைந்த உள்வன்கூடு காணப்படும். பெரும்பாலானவற்றில் முதுகெலும்புத் தொடர் முதுகுநாணைச் சூழவோ அதற்குப் பதிலாகவோ அமைகிறது; எல்லா வகைகளிலும் நிலை ஒன்றல்ல. வயிற்றுப்புறத் தசையால் ஆன இதயத்துடன் மூடிய இரத்தச் சுழற்சி, நீர்ச்சமநிலையையும் கழிவுநீக்கத்தையும் கட்டுப்படுத்தும் சிறுநீரகம், வளர்சிதை மாற்றத்திற்கான கல்லீரல் மற்றும் கணையம் ஆகியவை செயற்படுகின்றன. தாடை உடைய முதுகெலும்பிகளில் இணை உறுப்புகள் தோன்றின; சில வழித்தோன்றல்களில் அவை பின்னர் குறைந்தன. செவுள், நுரையீரல், தோல் சுவாசம் மற்றும் இதய அறைகளின் வேறுபாட்டை ஒப்பிட்டு விளக்க வேண்டும்."
               }
             }
           ],
@@ -852,6 +971,17 @@
                 "en": "Chondrichthyes usually have cartilaginous endoskeletons; most ray-finned bony fishes have fin rays and an ossified skeleton. Amphibians typically have moist integument and varied aquatic and terrestrial stages. Reptiles possess keratinised skin, birds have feathers, and mammals produce milk. Exceptions and phylogenetic relationships must accompany these broad comparisons.",
                 "ta": "குருத்தெலும்பு மீன்களில் உள்ளெலும்புக்கூடு பெரும்பாலும் குருத்தெலும்பால் ஆனது. பல எலும்பு மீன்களில் துடுப்புக் கதிர்களும் எலும்பாலான உள்ளெலும்புக்கூடும் காணப்படுகின்றன. இருவாழ்விகளில் பொதுவாக ஈரமான தோலும் நீர்வாழ் மற்றும் நிலவாழ் வளர்ச்சி நிலைகளும் உள்ளன. ஊர்வனவற்றில் கெரட்டின் கொண்ட தோலும் பறவைகளில் இறகுகளும் பாலூட்டிகளில் பால் சுரப்பும் காணப்படுகின்றன. இந்தப் பொதுப்பண்புகளின் விதிவிலக்குகளையும் மாணவர்கள் அறிய வேண்டும்."
               }
+            },
+            {
+              "key": "vertebrate-classification-framework",
+              "heading": {
+                "en": "Classification from Cyclostomata to Mammalia: exam framework",
+                "ta": "சைக்ளோஸ்டோமேட்டா முதல் பாலூட்டிகள் வரை வகைப்பாடு"
+              },
+              "body": {
+                "en": "At syllabus level, recognise jawless cyclostomes (lampreys and hagfishes); jawed cartilaginous fishes (Chondrichthyes); bony fishes with ray-finned and lobe-finned lineages; Amphibia; traditional Reptilia; Aves; and Mammalia. Describe distinguishing features and a representative for each, not merely lists of names. Modern evolutionary classification nests birds within the reptile lineage and four-limbed vertebrates within the bony-fish evolutionary radiation; thus 'Pisces' and 'Reptilia excluding birds' are convenience groups rather than complete clades. Separate the historical category Agnatha from the currently recognised cyclostome relationships. Give the accepted rank system used in the examination first, followed by a brief phylogenetic qualification.",
+                "ta": "பாடத்திட்டத் தேர்வு நோக்கில் தாடையற்ற சைக்ளோஸ்டோமேட்டா (லாம்ப்ரே, ஹாக் மீன்), குருத்தெலும்பு மீன்கள், எலும்பு மீன்களின் கதிர்த்துடுப்பு மற்றும் சதைத் துடுப்புக் கிளைகள், இருவாழ்விகள், மரபுவழி ஊர்வன, பறவைகள், பாலூட்டிகள் ஆகியவற்றை அடையாளம் காண வேண்டும். ஒவ்வொரு குழுவிற்கும் முக்கியப் பண்புகளையும் எடுத்துக்காட்டு உயிரிகளையும் குறிப்பிட வேண்டும். நவீன பரிணாம வகைப்பாட்டில் பறவைகள் ஊர்வன மரபுக்குள்ளும் நான்குகாலிகள் எலும்பு மீன்களின் பெரிய பரிணாமக் கிளைக்குள்ளும் அடங்குகின்றன. எனவே பறவைகளற்ற 'ஊர்வன' மற்றும் எல்லா மீன்களையும் தனியாகக் காட்டும் 'பைசிஸ்' ஆகியவை முழுமையான இயற்கைக் கிளைக் குழுக்கள் அல்ல. தேர்வுக்கான பழைய வகைப்பாட்டையும் நவீன விளக்கத்தையும் தெளிவாக வேறுபடுத்த வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -986,6 +1116,17 @@
                 "en": "Ammocoetes resembles lancelets in some feeding features, but it is not itself an ancestral amphioxus or a direct picture of the earliest vertebrate. Its value is comparative: larval anatomy and thyroid differentiation help reconstruct how chordate feeding structures diversified.",
                 "ta": "அம்மோசீட்டீஸ் இளர்வியின் வடிகட்டி உணவெடுக்கும் முறை ஆம்பியாக்சஸின் சில பண்புகளை ஒத்துள்ளது. ஆனால் இளர்வியை ஆம்பியாக்சஸின் மூதாதை என்றும் தொடக்ககால முதுகெலும்பியின் மாறாத வடிவம் என்றும் கருதக்கூடாது. ஒப்பீட்டு ஆய்வில் இதன் முக்கியத்துவம் அதிகம். இளர்வியின் உறுப்புகளும் தைராய்டு உருவாக்கமும் முதுகுநாணிகளின் உணவெடுக்கும் அமைப்புகள் எவ்வாறு மாறின என்பதைக் புரிய உதவுகின்றன."
               }
+            },
+            {
+              "key": "petromyzon-development-comparison",
+              "heading": {
+                "en": "Petromyzon: feeding, life cycle and ammocoete larva",
+                "ta": "பெட்ரோமைசான் — உணவூட்டம், வாழ்க்கைச் சுழற்சி, அம்மோகோயிட்டீஸ்"
+              },
+              "body": {
+                "en": "The adult lamprey has a circular suctorial oral disc with keratinous teeth, seven pairs of external branchial apertures, a cartilaginous skeleton and no paired fins or jaws. Some species feed parasitically on fishes, while others stop feeding after metamorphosis. The ammocoete larva burrows into soft sediment, filter-feeds using a mucus-producing endostyle, and possesses a hooded oral region rather than the adult sucking disc. Metamorphosis transforms the feeding apparatus, eyes, pharynx and thyroid-related structures. Historical similarity of the larva to amphioxus helped comparative zoology, but the two are not ancestor and descendant. Hagfishes are also cyclostomes, although their anatomy differs markedly from lampreys.",
+                "ta": "முதிர்ந்த பெட்ரோமைசானில் கொம்புப் பற்கள் கொண்ட வட்ட வடிவ ஒட்டுவாய், ஏழு ஜோடி வெளிச் செவுள் துளைகள், குருத்தெலும்பு உள்வன்கூடு காணப்படும்; தாடைகளும் இணைத் துடுப்புகளும் இல்லை. சில இனங்கள் பிற மீன்களின் உடலில் ஒட்டிப் பராதீனமாக உண்கின்றன; சில இனங்கள் உருமாற்றத்திற்குப் பின் உண்பதில்லை. அம்மோகோயிட்டீஸ் இளவுயிரி மண்ணில் புதைந்து எண்டோஸ்டைல் சுரக்கும் சளியால் நுண்ணுணவை வடிகட்டி உண்ணுகிறது. உருமாற்றத்தின் போது வாய், கண், தொண்டை மற்றும் தைராய்டு தொடர்புடைய அமைப்புகள் மாறுகின்றன. இளவுயிரி ஆம்பியாக்சஸை ஒத்திருப்பது ஒப்பீட்டுப் படிப்பில் பயனுள்ளதாக இருந்தாலும் ஒன்று மற்றொன்றின் நேரடி மூதாதை அல்ல. ஹாக் மீன்களும் சைக்ளோஸ்டோம்கள் என்றாலும் அவற்றின் உடலமைப்பு வேறுபடுகிறது."
+              }
             }
           ],
           "quiz": [
@@ -1080,16 +1221,7 @@
           "diagramIds": [
             "u1-agnatha-petromyzon-adult-larva"
           ]
-        }
-      ]
-    },
-    {
-      "id": "u2",
-      "title": {
-        "en": "Unit II — Pisces",
-        "ta": "அலகு II — மீன்கள்"
-      },
-      "topics": [
+        },
         {
           "id": "u2-pisces-classification",
           "title": {
@@ -1128,6 +1260,39 @@
               "body": {
                 "en": "Pisces is retained here because it appears in the prescribed syllabus. It is not a monophyletic group under contemporary vertebrate phylogeny because tetrapods evolved within the lobe-finned vertebrate lineage. A useful comparison must therefore label the historical classroom classification separately from current relationships.",
                 "ta": "பைசிஸ் என்ற பெயர் நிர்ணயிக்கப்பட்ட பாடத்திட்டத்தில் இருப்பதால் இங்கு பயன்படுத்தப்படுகிறது. எனினும் நவீன மரபுவழி வகைப்பாட்டில் இது முழுமையான ஒருமூதாதைக் குழுவாகக் கருதப்படுவதில்லை. நான்குகால் முதுகெலும்பிகள் மடல்துடுப்பு மரபுடன் பரிணாமத் தொடர்புடையவை. எனவே பழைய பாடநூல் வகைப்பாட்டையும் தற்போதைய அறிவியல் உறவுகளையும் வேறுபடுத்திக் காட்டுவது கற்பித்தலில் அவசியமாகும்."
+              }
+            },
+            {
+              "key": "early-jawed-fish-lineages",
+              "heading": {
+                "en": "Gnathostomata, placoderms and acanthodians",
+                "ta": "தாடையுடைய முதுகெலும்பிகள், பிளாகோடெர்ம்கள், அகாந்தோடியன்கள்"
+              },
+              "body": {
+                "en": "Gnathostomata includes jawed vertebrates; the jaws evolved from anterior pharyngeal skeletal elements within the early gnathostome radiation. Placoderms were diverse extinct armoured jawed fishes, especially prominent in the Devonian. Some carried massive head and trunk plates; they should not be described simply as a uniform direct ancestral group for all living fishes. Acanthodians, traditionally called spiny sharks, were mostly extinct jawed fishes bearing prominent fin spines; modern analyses place various forms near the bony-fish or cartilaginous-fish stem lineages rather than as one securely defined natural class. For examinations, define these historical groups, give their diagnostic fossil characters, then state why their phylogenetic placement is revised using new fossils.",
+                "ta": "ஞாதோஸ்டோமேட்டா தாடையுடைய முதுகெலும்பிகளை உள்ளடக்கும். தாடைகள் ஆரம்பகாலத் தொண்டை வளைவுச் சார்ந்த எலும்பமைப்புகளில் ஏற்பட்ட பரிணாம மாற்றங்களுடன் தொடர்புடையவை. டெவோனியக் காலத்தில் கவசத் தகடுகள் கொண்ட அழிந்த தாடை மீன்களாக பிளாகோடெர்ம்கள் பரவலாக இருந்தன. அவை அனைத்தும் இன்றைய மீன்களுக்கு நேரடி மூதாதை என்று கருத முடியாது. அகாந்தோடியன்கள் துடுப்புகளின் முன்பகுதியில் வலுவான முட்களைக் கொண்ட அழிந்த தாடை மீன்கள்; 'முள் சுறாக்கள்' என்பது மரபுவழிப் பெயர் மட்டுமே. புதிய புதைபடிவ ஆய்வுகள் இக்குழுக்களின் உறவுகளை மீளாய்வு செய்கின்றன. தேர்வில் பழைய வகைப்பாடு, புதைபடிவ அடையாளப் பண்புகள், நவீன விளக்கம் ஆகியவற்றை தனித்தனியாக எழுத வேண்டும்."
+              }
+            },
+            {
+              "key": "cartilaginous-bony-subgroups",
+              "heading": {
+                "en": "Chondrichthyes, Osteichthyes and their major subdivisions",
+                "ta": "குருத்தெலும்பு மற்றும் எலும்பு மீன்கள் — உட்பிரிவுகள்"
+              },
+              "body": {
+                "en": "Chondrichthyes possess a predominantly cartilaginous endoskeleton, placoid denticles and internal fertilisation in most species. Elasmobranchii comprises sharks and rays, generally with multiple external gill slits; Holocephali includes chimaeras with a gill-cover-like opercular flap and characteristic tooth plates. The bony vertebrate lineage Osteichthyes comprises Actinopterygii, with fins supported chiefly by rays, and Sarcopterygii, with fleshy lobed appendages and the tetrapod descendants in a phylogenetic classification. Describe the operculum, dermal bones, paired fins, gill supports and buoyancy apparatus where appropriate, but remember the numerous exceptions. 'Pisces' in traditional zoology is a convenient assemblage, not a complete modern clade.",
+                "ta": "காண்ட்ரிக்தீஸ் மீன்களில் உள்வன்கூடு பெரும்பாலும் குருத்தெலும்பால் ஆனது; பிளாகாய்டு செதில்களும் பல இனங்களில் உட்கருவுறுதலும் காணப்படும். எலாஸ்மோபிராங்க்கை பிரிவில் சுறாக்களும் திருக்கை மீன்களும், ஹோலோசெபாலி பிரிவில் சிமேரா மீன்களும் அடங்கும். சிமேராவில் செவுள்களை மூடும் மடலும் தனித்துவமான பற்தகடுகளும் காணப்படுகின்றன. எலும்பு மீன்களின் பரிணாமக் கிளையில் கதிர்த்துடுப்பு கொண்ட ஆக்டினோப்டெரிஜியையும் சதைத் துடுப்பு கொண்ட சார்கோப்டெரிஜியையும் வேறுபடுத்த வேண்டும். பரிணாம வகைப்பாட்டில் நான்குகாலிகளும் சார்கோப்டெரிஜிய உறவுக் கிளையுடன் தொடர்புடையவை. செவுள்மூடி, தோல் எலும்புகள், துடுப்பு அமைப்பு, மிதப்பை ஆகியவற்றை உதாரணங்களுடன் விளக்க வேண்டும்; இவை எல்லா இனங்களிலும் ஒரே நிலையில் இருப்பதில்லை."
+              }
+            },
+            {
+              "key": "fossil-origin-of-fishes",
+              "heading": {
+                "en": "Origin and diversification of fishes",
+                "ta": "மீன்களின் தோற்றமும் பரிணாமப் பல்வகைமையும்"
+              },
+              "body": {
+                "en": "Early chordate and vertebrate fossils document a stepwise acquisition of the cranium, sensory systems, mineralised tissues, jaws and paired fins. Jawless armoured ostracoderm-grade forms were common in Palaeozoic seas and fresh waters; the term 'ostracoderm' covers several extinct lineages. The Silurian and Devonian saw major radiations of jawed fishes, including placoderms and early cartilaginous and bony relatives. Tetrapods later evolved from within the lobe-finned vertebrate radiation, not from an extant lungfish species. When constructing a timeline, place approximate geological periods in order and distinguish fossil appearance from the actual (often earlier) origin of a lineage. A fish-evolution tree must show branching, not a single straight progression.",
+                "ta": "ஆரம்ப முதுகுநாணி மற்றும் முதுகெலும்பிப் புதைபடிவங்கள் மண்டையோடு, உணர்வுறுப்பு, கனிமமயமான திசு, தாடை, இணைத் துடுப்பு ஆகிய பண்புகள் படிப்படியாக உருவானதை விளக்குகின்றன. பழைய புவியியல் காலங்களில் கவசமுடைய தாடையற்ற மீன் போன்ற பல குழுக்கள் வாழ்ந்தன; 'ஆஸ்ட்ராகோடெர்ம்' என்பது பல அழிந்த கிளைகளை உள்ளடக்கும் பழைய பெயராகும். சிலூரியன் மற்றும் டெவோனியன் காலங்களில் தாடையுடைய மீன்களின் பல்வகைமை அதிகரித்தது. நான்குகாலிகள் சதைத் துடுப்பு முதுகெலும்பிகளின் பரிணாமக் கிளையிலிருந்து தோன்றின; இன்றைய நுரையீரல் மீன்களிலிருந்து நேரடியாக உருவாகவில்லை. காலவரிசையையும் கிளைப்படியான பரிணாம மரத்தையும் பயன்படுத்தி விளக்க வேண்டும்."
               }
             }
           ],
@@ -1285,6 +1450,50 @@
                 "en": "Sharks use olfaction, vision, inner-ear receptors and the lateral-line system to detect prey and surroundings. Ampullae of Lorenzini are specialised electroreceptors, especially important for detecting weak bioelectric fields. The lateral line instead responds mainly to hydrodynamic signals; the two systems should not be conflated.",
                 "ta": "சுறாக்கள் மணமுணர்வு, பார்வை, உள்காது உணர்வுகள் மற்றும் பக்கக்கோட்டு மண்டலம் மூலம் சுற்றுச்சூழலை உணர்கின்றன. லோரென்சினியின் ஆம்புலாக்கள் மிக மெல்லிய உயிர்மின்னியல் புலங்களை உணரும் சிறப்பு உறுப்புகளாகும். இதற்கு மாறாகப் பக்கக்கோட்டு மண்டலம் நீரின் அசைவுகளையும் அழுத்த மாற்றங்களையும் உணர உதவுகிறது. இவ்விரண்டு உணர்வு அமைப்புகளின் பணிகளை ஒன்றாகக் குழப்பிக் கற்பிக்கக் கூடாது."
               }
+            },
+            {
+              "key": "scoliodon-modern-nomenclature",
+              "heading": {
+                "en": "Scoliodon: accepted name and identification",
+                "ta": "ஸ்கோலியோடான் — தற்போதைய பெயரும் அடையாளமும்"
+              },
+              "body": {
+                "en": "The syllabus uses Scoliodon sorrakowah, a historical name appearing in Indian zoology teaching. Modern fish catalogues generally treat the spadenose shark under Scoliodon laticaudus; spelling and synonym histories have varied. Preserve the syllabus label in the chapter title for examination matching, but print the accepted-name note to prevent taxonomic confusion. The typical spadenose shark has a conspicuously flattened shovel-like snout, a heterocercal caudal fin, paired pectoral and pelvic fins and five pairs of external gill slits. In the type study, observe true specimen structures and distinguish them from generic shark diagrams. The species is a coastal elasmobranch, not a teleost.",
+                "ta": "பாடத்திட்டத்தில் ஸ்கோலியோடான் சொர்ரகோவா என்ற பழைய பெயர் காணப்படுகிறது. நவீன மீன் வகைப்பாட்டு நூல்களில் ஸ்பேட்நோஸ் சுறா பொதுவாக Scoliodon laticaudus எனக் குறிப்பிடப்படுகிறது; பெயரியல் வரலாற்றில் மாற்றங்கள் உள்ளன. தேர்வுக்குப் பழைய பெயரைக் குறிப்பிடலாம்; தற்போதைய பெயரை விளக்கமாகச் சேர்ப்பது அவசியம். தட்டையான அகல முன்மூக்கு, சமமற்ற வால் துடுப்பு, இணை மார்புத் துடுப்பு மற்றும் இடுப்புத் துடுப்பு, ஐந்து ஜோடி வெளிச் செவுள் பிளவுகள் ஆகியவை அடையாளப் பண்புகள். பொதுவான சுறா வரைபடத்தை இவ்வினத்தின் துல்லியமான உறுப்பமைப்பாகக் காட்டக் கூடாது. இது கடலோரக் குருத்தெலும்பு மீன்; எலும்பு மீன் அல்ல."
+              }
+            },
+            {
+              "key": "scoliodon-internal-systems",
+              "heading": {
+                "en": "Scoliodon: circulation, excretion and reproductive organisation",
+                "ta": "ஸ்கோலியோடான் — சுழற்சி, கழிவுநீக்கம் மற்றும் இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Venous blood enters the sinus venosus, atrium and muscular ventricle; it then passes through the conus arteriosus towards the afferent branchial arteries. Oxygenated blood from the gills reaches the dorsal aorta. The kidneys are elongated and contribute to excretion and osmotic balance; sharks retain urea together with other osmolytes, while rectal glands eliminate excess salt in marine forms. Males bear pelvic claspers for transfer of sperm during internal fertilisation. Reproductive development varies greatly among sharks, so any description of placental viviparity must be attributed to the examined species rather than all chondrichthyans. Contrast the shark's single systemic circuit with tetrapod circulation.",
+                "ta": "சைனஸ் வீனோசஸ் வழியாக வரும் ஆக்சிஜன் குறைந்த இரத்தம் ஆரிக்கிளிலும் வென்டிரிக்கிளிலும் செல்கிறது; அங்கிருந்து கோனஸ் ஆர்டீரியோசஸ் வழியாகச் செவுள் நோக்கிய இரத்தநாளங்களுக்கு அனுப்பப்படுகிறது. செவுளில் ஆக்சிஜன் பெற்ற இரத்தம் முதுகுப்புற பெருந்தமனியை அடைகிறது. நீண்ட சிறுநீரகங்கள் கழிவுநீக்கத்திலும் நீர்ச்சமநிலையிலும் செயல்படுகின்றன. கடல் சுறாக்கள் யூரியாவைத் தக்கவைத்தும் கூடுதல் உப்பை ரெக்டல் சுரப்பி வழி வெளியேற்றியும் ஒழுங்குபடுத்துகின்றன. ஆண்களின் இடுப்புத் துடுப்புகளில் கிளாஸ்பர்கள் உள்ளன; உட்கருவுறுதலுக்கு பயன்படுகின்றன. சுறா இனங்களில் இனப்பெருக்க முறை மாறுபடுவதால் ஒரே இனத்தின் பண்பை எல்லா சுறாக்களுக்கும் பொதுவாக்கக் கூடாது. ஒற்றை இரத்தச் சுழற்சியையும் ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "scoliodon-digestive-and-neural-detail",
+              "heading": {
+                "en": "Scoliodon: spiral valve, liver, brain and sensory reception",
+                "ta": "ஸ்கோலியோடான் — சுருள் குடல்வால்வு, கல்லீரல், மூளை, உணர்வுறுப்புகள்"
+              },
+              "body": {
+                "en": "The alimentary canal comprises mouth, buccopharynx, oesophagus, stomach and a relatively short intestine with an internal spiral valve that increases absorptive surface. The large lipid-rich liver assists metabolism and buoyancy; the pancreas and spleen are associated with the visceral cavity. The shark brain can be divided into olfactory bulbs and telencephalon, diencephalon, midbrain, cerebellum and medulla, with prominent olfactory structures and vestibular coordination. Mechanoreceptive lateral-line canals detect local water motion, and electroreceptive ampullae of Lorenzini detect weak electric fields. Eyes and inner-ear systems provide other inputs. Locate these structures on the genuine Scoliodon specimen; an illustrative dogfish brain from another species must be explicitly identified as comparative anatomy.",
+                "ta": "செரிமானப் பாதையில் வாய், வாய்த்தொண்டை, உணவுக்குழல், இரைப்பை, உள்ளே சுருள் வால்வு கொண்ட குடல் ஆகியவை உள்ளன. சுருள் வால்வு குறைந்த நீளமுள்ள குடலின் உறிஞ்சும் பரப்பை அதிகரிக்கிறது. கொழுப்பு நிறைந்த பெரிய கல்லீரல் வளர்சிதை மாற்றத்திற்கும் மிதப்பிற்கும் உதவுகிறது; கணையம், மண்ணீரல் உடற்குழியுடன் தொடர்புடையவை. மூளையில் மணநரம்புப் புடைப்புகள், முன்மூளை, இடைமூளை, நடுமூளை, சிறுமூளை, முகுளம் ஆகிய பகுதிகளை வேறுபடுத்த வேண்டும். பக்கவரிசை உணர்வு நாளங்கள் நீரின் அசைவை அறிகின்றன; லோரென்சினியின் ஆம்புல்லாக்கள் மெல்லிய மின்புலங்களை உணர்கின்றன. கண், உள்செவி ஆகியவை கூடுதல் உணர்வுத் தகவலை அளிக்கின்றன. வேறு சுறா இனத்தின் மூளை வரைபடத்தை இவ்வினத்தின் உறுதிப்படுத்தப்பட்ட உறுப்பமைப்பாகக் குறிப்பிடக்கூடாது."
+              }
+            },
+            {
+              "key": "scoliodon-embryology",
+              "heading": {
+                "en": "Scoliodon: internal fertilisation and embryonic development",
+                "ta": "ஸ்கோலியோடான் — உட்கருவுறுதலும் கருவளர்ச்சியும்"
+              },
+              "body": {
+                "en": "In male sharks the paired pelvic claspers transfer sperm during copulation; testes, ducts and associated reproductive structures should be distinguished in a dissection. Female reproductive anatomy includes ovaries, oviducts and regions that accommodate fertilisation and embryonic development. The spadenose shark is reported to be viviparous with a placental connection developing from the yolk sac, unlike oviparous skate-like elasmobranchs; embryonic strategies are diverse across chondrichthyans. Describe maternal supply, developing young and birth in species-specific terms, and avoid illustrating external egg laying as the normal mode for Scoliodon laticaudus. Reproductive details should be cross-checked against species-based ichthyological accounts, not transferred from a generic dogfish.",
+                "ta": "ஆண் சுறாவின் இடுப்புத் துடுப்பிலுள்ள ஜோடி கிளாஸ்பர்கள் இணைவின் போது விந்தணுக்களைப் பெண் உடலுக்குள் கடத்த உதவுகின்றன. விந்தகங்கள், கடத்தும் நாளங்கள், துணை இனப்பெருக்க உறுப்புகளைத் தனித்தனியாக அறிய வேண்டும். பெண்ணில் சூலகம், முட்டைக் குழாய்கள், கருவளர்ச்சிக்குரிய பகுதிகள் உள்ளன. ஸ்பேட்நோஸ் சுறா பொதுவாக குட்டி ஈனும் வகையாகவும் மஞ்சள்கருப் பை சார்ந்த நஞ்சுக்கொடி இணைப்புடையதாகவும் விவரிக்கப்படுகிறது; பிற குருத்தெலும்பு மீன்களில் முட்டையிடும் முறையும் காணப்படுகிறது. ஸ்கோலியோடானின் இயல்பான இனப்பெருக்கம் வெளியில் முட்டையிடுதல் எனக் கற்பிக்கக் கூடாது. இனம் சார்ந்த ஆய்வுகளின் அடிப்படையில் கருவளர்ச்சியை விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -1423,6 +1632,17 @@
                 "en": "Modern molecular and anatomical evidence places living lungfishes among the closest extant relatives of tetrapods. Their limb-related fin skeleton and lungs are relevant to understanding the water-to-land transition. However, living lungfishes are not the direct ancestors of modern amphibians; they share an earlier common ancestor.",
                 "ta": "நவீன மூலக்கூறு மற்றும் உடற்கூறு ஆதாரங்களின்படி இன்று வாழும் நான்குகால் முதுகெலும்பிகளுக்கு நெருங்கிய உயிருள்ள உறவுக் குழுக்களில் நுரையீரல் மீன்களும் அடங்குகின்றன. அவற்றின் மடல்துடுப்பு எலும்பமைப்பும் நுரையீரலும் நீரிலிருந்து நிலத்திற்கான பரிணாம மாற்றத்தை விளக்க உதவுகின்றன. ஆனால் இன்று வாழும் நுரையீரல் மீன்களே நேரடியாக நவீன இருவாழ்விகளை உருவாக்கின என்று கூற முடியாது."
               }
+            },
+            {
+              "key": "dipnoi-genera-aestivation",
+              "heading": {
+                "en": "Living lungfishes, respiration and aestivation",
+                "ta": "இன்றைய நுரையீரல் மீன்கள், சுவாசம், கோடை உறக்கம்"
+              },
+              "body": {
+                "en": "The three living lungfish genera commonly taught are Neoceratodus of Australia, Protopterus of Africa and Lepidosiren of South America. Neoceratodus has a single lung and relies heavily on gills; African and South American lungfishes have paired lungs and can breathe air. Some Protopterus species survive drought through aestivation inside a mucus-lined cocoon, markedly reducing activity and metabolic expenditure. Their fleshy paired fins, pulmonary circulation, tooth plates and internal nares provide useful comparative features. Lungfishes are close living relatives of tetrapods, but are not identical to the ancestral population from which tetrapods arose. Explain the difference between aestivation and ordinary dormancy by habitat and physiological context.",
+                "ta": "இன்றைய நுரையீரல் மீன்களின் முக்கியப் பேரினங்கள் ஆஸ்திரேலியாவின் நியோசெரடோடஸ், ஆப்பிரிக்காவின் புரோடோப்டெரஸ், தென் அமெரிக்காவின் லெபிடோசைரன் ஆகும். நியோசெரடோடஸில் ஒற்றை நுரையீரலும் செவுள் சுவாசமும் முக்கியமானவை. மற்ற இரண்டு பேரினங்களில் ஜோடி நுரையீரல்கள் காற்றுச் சுவாசத்திற்கு உதவுகின்றன. சில புரோடோப்டெரஸ் இனங்கள் வறட்சிக் காலத்தில் சளி உறைக்குள் தங்கி வளர்சிதை மாற்றத்தைக் குறைத்து கோடை உறக்கத்தில் இருக்கின்றன. சதைத் துடுப்பு, பற்தகடுகள், நுரையீரல் இரத்தச் சுழற்சி, உள்ளக நாசித்துவாரம் போன்ற பண்புகளை ஒப்பிட வேண்டும். இவை நான்குகாலிகளுக்கு நெருங்கிய இன்றைய உறவினர்கள்; அவற்றின் நேரடி மூதாதை இனமல்ல."
+              }
             }
           ],
           "quiz": [
@@ -1556,6 +1776,28 @@
               "body": {
                 "en": "A heterocercal tail has unequal lobes with the vertebral axis turning towards the upper lobe, as in many sharks. Homocercal tails have nearly symmetrical external lobes as in many teleosts, although the internal skeleton remains asymmetrical. Diphycercal tails have a near-symmetrical fin around the axial tip in some fishes.",
                 "ta": "ஹெடெரோசெர்கல் வால்துடுப்பில் மேல் மற்றும் கீழ் மடல்கள் சமமற்றவையாக உள்ளன; முதுகெலும்பு அச்சு மேல்மடலை நோக்கி வளைகிறது. ஹோமோசெர்கல் வால்துடுப்பில் வெளிப்புற மடல்கள் ஏறத்தாழ சமமாகத் தோன்றுகின்றன. ஆயினும் உள்ளெலும்பமைப்பு முழுமையாகச் சமமாக இருப்பதில்லை. டைபிசெர்கல் வால்துடுப்பில் உடல் அச்சைச் சுற்றி இருபுறமும் ஏறத்தாழச் சமமான துடுப்புப் பகுதி காணப்படுகிறது."
+              }
+            },
+            {
+              "key": "scale-development-fin-mechanics",
+              "heading": {
+                "en": "Scale histology and fin biomechanics",
+                "ta": "செதில்களின் திசுவமைப்பும் துடுப்புகளின் இயக்கவியலும்"
+              },
+              "body": {
+                "en": "Placoid scales of sharks are tooth-like dermal denticles with a pulp cavity, dentine and an enameloid covering. Ganoid scales are hard, typically rhomboid plates found in gars and some other actinopterygians. Cycloid scales have relatively smooth posterior edges, whereas ctenoid scales have comb-like projections. Dermal bony scales grow by accretion and display growth zones that may aid age estimation, subject to species and environmental limitations. Paired pectoral and pelvic fins help steering, braking and stability; dorsal and anal fins resist rolling, while the caudal fin provides propulsion in many fishes. Contrast heterocercal, homocercal and diphycercal tail types with correctly identified examples.",
+                "ta": "சுறாக்களின் பிளாகாய்டு செதில்கள் பல் போன்ற தோல் அமைப்புகள்; மையக் குழி, டென்டின், வெளிப்புற எநாமலாய்டு அடுக்குகளைக் கொண்டவை. கானாய்டு செதில்கள் உறுதியான, பெரும்பாலும் சாய்சதுர வடிவத் தகடுகள். சைக்ளாய்டு செதில்களின் பின்னோரம் மென்மையானது; டீனாய்டு செதில்களில் சீப்புப் போன்ற நுண்முள் அமைப்பு உண்டு. சில எலும்புச் செதில்களின் வளர்ச்சி வளையங்கள் வயது மதிப்பீட்டிற்கு உதவினாலும் சுற்றுச்சூழல் காரணிகளால் வேறுபாடு ஏற்படும். மார்புத் துடுப்பு, இடுப்புத் துடுப்பு திசைமாற்றம் மற்றும் சமநிலைக்கு உதவுகின்றன; முதுகு மற்றும் மலவாய்த் துடுப்புகள் உருண்டு சாய்வதைத் தடுக்கின்றன. சமமற்ற, வெளிப்படையாகச் சமமான, இருபுறமும் தொடர்ச்சியான வால் வகைகளை உதாரணங்களுடன் விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "fin-morphology-types",
+              "heading": {
+                "en": "Fish fins: internal supports and caudal-fin types",
+                "ta": "மீன் துடுப்புகள் — உள் ஆதரவுகள், வால் வகைகள்"
+              },
+              "body": {
+                "en": "The median fins include dorsal, anal and caudal fins; paired appendages are pectoral and pelvic fins. Fin rays in actinopterygians support a flexible membrane, while sarcopterygians possess more substantial internal endochondral elements in their paired fins. In a heterocercal tail, exemplified by many sharks, the vertebral axis enters the larger upper lobe. In a typical homocercal teleost tail the external lobes appear similar despite internal asymmetry, whereas diphycercal tails extend the body axis more nearly straight to the tip, as in some lungfishes. Function depends on placement, stiffness, body form and swimming mode. Students should not confuse a homocercal external outline with true symmetrical internal skeletal organisation.",
+                "ta": "நடுவழித் துடுப்புகளில் முதுகுத் துடுப்பு, மலவாய்த் துடுப்பு, வால் துடுப்பு அடங்கும்; இணைத் துடுப்புகள் மார்புத் துடுப்பு, இடுப்புத் துடுப்பு ஆகும். கதிர்த்துடுப்பு மீன்களில் துடுப்புக் கதிர்கள் நெகிழ்வான சவ்வைத் தாங்குகின்றன; சதைத் துடுப்பு மீன்களில் இணைத் துடுப்புகளுக்குள் வலுவான எலும்புக் கூறுகள் காணப்படுகின்றன. ஹெடெரோசெர்கல் வாலில் முதுகெலும்பு அச்சு பெரிய மேல்மடலுக்குள் நீளும்; பல சுறாக்கள் எடுத்துக்காட்டு. ஹோமோசெர்கல் வாலில் வெளிப்புற மடல்கள் ஒத்திருந்தாலும் உள்ளக எலும்பமைப்பில் சமமின்மை உண்டு. டைபிசெர்கல் வாலில் உடல் அச்சு முனைவரை ஒப்பீட்டளவில் நேராக நீளும்; சில நுரையீரல் மீன்கள் எடுத்துக்காட்டு. துடுப்பின் இருப்பிடம், வடிவு, வலிமை, நீந்தும் முறை ஆகியவற்றை தொடர்புபடுத்த வேண்டும்."
               }
             }
           ],
@@ -1692,6 +1934,28 @@
                 "en": "Accessory air breathing can support survival in stagnant ponds, flooded wetlands and intermittently exposed mudflats. Its efficiency depends on moisture, temperature, water oxygen concentration and behaviour. Air-breathing capability does not mean a fish can remain indefinitely outside water.",
                 "ta": "துணைச் சுவாசம் தேங்கிய குளங்கள், வெள்ளநீர் நிலப்பரப்புகள் மற்றும் இடைக்கிடையே வெளிப்படும் சேற்றுப்பரப்புகளில் வாழ உதவுகிறது. அதன் திறன் ஈரப்பதம், வெப்பநிலை, நீரில் கரைந்த ஆக்சிஜன் மற்றும் மீனின் நடத்தை ஆகியவற்றைப் பொறுத்து மாறுகிறது. காற்றைச் சுவாசிக்க முடிவதால் ஒரு மீன் நீருக்கு வெளியே காலவரம்பின்றி வாழும் என்று பொருள் கொள்ளக்கூடாது."
               }
+            },
+            {
+              "key": "accessory-organ-types",
+              "heading": {
+                "en": "Accessory air-breathing structures: named Indian examples",
+                "ta": "கூடுதல் காற்றுச் சுவாச உறுப்புகள் — இந்திய மீன் எடுத்துக்காட்டுகள்"
+              },
+              "body": {
+                "en": "Accessory respiration supplements rather than always replaces gill function in oxygen-poor habitats. Anabas uses paired suprabranchial labyrinth organs with vascular surfaces; Clarias has an arborescent suprabranchial organ; Heteropneustes has long paired air sacs associated with the branchial chamber. Channa possesses suprabranchial air-breathing cavities, while mudskippers use vascular skin and buccopharyngeal surfaces during activity on mudflats. Explain water flow and air contact for each organ, and avoid depicting the structures as identical lungs. Behaviour, moisture retention and oxygen availability determine how long a species survives out of water. A labelled comparison must identify anatomical location, vascularisation and ecological function.",
+                "ta": "ஆக்சிஜன் குறைந்த நீர்நிலைகளில் செவுள் சுவாசத்துக்குத் துணையாகக் காற்றுச் சுவாச உறுப்புகள் செயல்படுகின்றன. அனாபாஸில் மேற்செவுள் அறையிலுள்ள லாபிரிந்த் உறுப்பு; கிளேரியாஸில் கிளைபோன்ற மேற்செவுள் உறுப்பு; ஹெடெரோப்னியூஸ்டஸில் நீண்ட ஜோடி காற்றுப்பைகள் காணப்படுகின்றன. சன்னா மீன்களில் மேற்செவுள் காற்றறைகள் உள்ளன. சேற்றுத் துள்ளி மீன்களில் இரத்தநாளங்கள் நிறைந்த தோலும் வாய்-தொண்டைப் பகுதிகளும் நிலத்தில் சுவாசத்திற்கு உதவுகின்றன. இவை அனைத்தையும் நுரையீரல் என்ற ஒரே பெயரில் அழைக்கக் கூடாது. உறுப்பின் இருப்பிடம், இரத்தநாள் வளம், காற்றுத் தொடர்பு, ஈரப்பதத் தேவை மற்றும் சூழலியல் பயன் ஆகியவற்றை வரைபடத்தில் ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "swim-bladder-function-types",
+              "heading": {
+                "en": "Air or swim bladder: origin, types and physiological roles",
+                "ta": "காற்றுப்பை அல்லது மிதப்பை — தோற்றம், வகைகள், செயல்கள்"
+              },
+              "body": {
+                "en": "The swim bladder is a gas-filled dorsal diverticulum of the foregut in many bony fishes and primarily controls buoyancy, reducing the energetic cost of holding depth. In physostomous fishes, a pneumatic duct remains connected to the gut, allowing gas movement through the digestive tract. In physoclistous fishes, the duct closes; a gas gland and rete mirabile facilitate gas secretion, while the oval region enables resorption. Some fishes modify the gas bladder for hearing or sound production, and a few use a related chamber for air breathing. Many bottom-dwelling fishes and all sharks lack a typical bony-fish swim bladder; sharks depend on dynamic lift and a lipid-rich liver. Explain gas regulation without treating every air bladder as a lung.",
+                "ta": "பல எலும்பு மீன்களில் முன்குடலின் முதுகுப்புற வளர்ச்சியாக வாயு நிரம்பிய மிதப்பை உருவாகிறது. நீரில் குறிப்பிட்ட ஆழத்தில் குறைந்த ஆற்றல் செலவில் மிதப்பதற்கு இது உதவுகிறது. பிசோஸ்டோமஸ் வகையில் நியூமாட்டிக் நாளம் குடலுடன் திறந்த தொடர்பில் இருக்கும். பிசோக்ளிஸ்டஸ் வகையில் அந்த நாளம் மூடப்பட்டு, வாயு சுரப்பியும் ரீட் மிராபிலே என்னும் நுண்நாள வலையும் வாயுவைச் சேர்க்க உதவுகின்றன; ஓவல் பகுதி வாயுவை மீண்டும் உறிஞ்சுகிறது. சில மீன்களில் ஒலி உண்டாக்கல், ஒலி உணர்வு அல்லது காற்றுச் சுவாசத்திலும் மாற்றியமைந்த காற்றுப்பை பங்கு வகிக்கலாம். சுறாக்களுக்கு வழக்கமான எலும்பு மீன் மிதப்பை இல்லை; எண்ணெய் நிறைந்த கல்லீரலும் நீந்தும் இயக்கமும் மிதப்புக்கு உதவுகின்றன."
+              }
             }
           ],
           "quiz": [
@@ -1825,6 +2089,17 @@
               "body": {
                 "en": "Comparisons should consider fecundity, egg size, predation pressure and parental investment. Some fishes release large numbers of eggs with little care, whereas others produce fewer offspring and invest more heavily in protection. Neither strategy is inherently superior in every environment.",
                 "ta": "இனங்களுக்கிடையிலான ஒப்பீட்டில் முட்டைகளின் எண்ணிக்கை, அவற்றின் அளவு, இரைபிடிப்பு அழுத்தம் மற்றும் பெற்றோர் செலவிடும் ஆற்றல் ஆகியவற்றைக் கணக்கில் கொள்ள வேண்டும். சில மீன்கள் மிக அதிக முட்டைகளை வெளியிட்டு குறைந்த பராமரிப்பை வழங்குகின்றன. மற்றவை குறைந்த எண்ணிக்கையிலான சந்ததிகளை அதிகமாகப் பாதுகாக்கின்றன. எந்த ஒரு முறையும் எல்லா வாழிடங்களிலும் சிறந்தது என்று கூற இயலாது."
+              }
+            },
+            {
+              "key": "fish-care-strategies",
+              "heading": {
+                "en": "Parental-care strategies, costs and examples",
+                "ta": "மீன்களில் பெற்றோர் பாதுகாப்பு முறைகளும் அவற்றின் செலவுகளும்"
+              },
+              "body": {
+                "en": "Parental care ranges from guarding a territory or nest to transporting eggs and young. Male sticklebacks build nests and fan eggs; many cichlids guard broods or brood eggs and fry in the mouth; male seahorses carry embryos in a specialised brood pouch. In some catfishes adults guard clutches. These examples are different mechanisms and should not be interchanged. Care may improve survival where predation is intense, but demands time, energy and often fewer offspring. Contrast external fertilisation with internal fertilisation separately, because fertilisation mode does not by itself determine the presence of parental care. An exam answer should link behaviour, responsible parent, protected developmental stage and ecological advantage.",
+                "ta": "மீன்களில் பெற்றோர் பாதுகாப்பு கூடு காத்தல், முட்டைகளுக்கு நீரோட்டம் அளித்தல், வாயில் குஞ்சுகளைச் சுமத்தல், உடற்பையினுள் கருவைப் பாதுகாத்தல் போன்ற பல முறைகளில் அமைகிறது. ஆண் ஸ்டிக்கில்பேக் கூடு கட்டி முட்டைகளை விசிறி பாதுகாக்கிறது; பல சிக்லிட் மீன்கள் வாயிலுள்ள முட்டைகளையும் குஞ்சுகளையும் பாதுகாக்கின்றன; ஆண் கடற்குதிரையில் சிறப்பான கருப்பையில் கருக்கள் வளர்கின்றன. சில கெளுத்தி மீன்கள் முட்டைக் கூட்டங்களைக் காக்கின்றன. ஒவ்வொரு முறையிலும் பொறுப்பேற்கும் பாலினம், காக்கப்படும் வளர்ச்சிநிலை, வேட்டையாடிகளிலிருந்து கிடைக்கும் பாதுகாப்பு ஆகியவற்றை வேறுபடுத்த வேண்டும். பாதுகாப்பிற்கான ஆற்றல் செலவும் சந்ததிகளின் எண்ணிக்கை தொடர்பான பரிமாற்றமும் விளக்கப்பட வேண்டும்."
               }
             }
           ],
@@ -1960,6 +2235,17 @@
                 "en": "Migration connects feeding and breeding habitats and transfers nutrients between ecosystems. Dams, fragmented rivers, overfishing and altered water temperature can disrupt routes and reduce reproductive success. Fish passages and habitat restoration must be designed around the behaviour of the particular migratory species.",
                 "ta": "இடப்பெயர்ச்சி உணவு தேடும் இடங்களையும் இனப்பெருக்க இடங்களையும் இணைக்கிறது. இதனால் பல்வேறு சூழலமைப்புகளுக்கிடையே ஊட்டச்சத்துகள் கடத்தப்படுகின்றன. அணைகள், ஆறுகளின் துண்டிப்பு, அதிகப்படியான மீன்பிடித்தல் மற்றும் நீரின் வெப்பநிலை மாற்றங்கள் இடப்பெயர்ச்சியைத் தடுக்கலாம். மீன்கள் செல்லும் வழித்தடங்களும் வாழிட மறுசீரமைப்பும் குறிப்பிட்ட இனத்தின் இயல்பை அறிந்து திட்டமிடப்பட வேண்டும்."
               }
+            },
+            {
+              "key": "migration-salmon-eel-mechanisms",
+              "heading": {
+                "en": "Anadromy, catadromy and orientation in migratory fishes",
+                "ta": "அனாட்ரமி, கேடாட்ரமி மற்றும் மீன் வழிகாணுதல்"
+              },
+              "body": {
+                "en": "Anadromous fishes such as salmon grow largely at sea but migrate into fresh water to reproduce; catadromous eels grow in continental waters and travel to marine spawning areas. Some species move within fresh water (potamodromy) or within marine waters (oceanodromy). Migration requires changes in salt and water transport across the gills, kidneys and gut, coordinated by hormones including cortisol and prolactin in differing contexts. Salmon may use olfactory imprinting to locate natal waters; geomagnetic and oceanographic cues also help orient migrants. Human-made barriers, altered flows, warming and overfishing disrupt migration. Explain each direction with spawning site and growth habitat rather than relying on arrows alone.",
+                "ta": "சால்மன் போன்ற அனாட்ரமஸ் மீன்கள் பெரும்பாலும் கடலில் வளர்ந்து இனப்பெருக்கத்திற்கு நன்னீருக்குத் திரும்புகின்றன. விலாங்கு போன்ற கேடாட்ரமஸ் மீன்கள் கண்டப்பரப்புச் சார்ந்த நீர்நிலைகளில் வளர்ந்து கடலுக்குச் சென்று இனப்பெருக்கம் செய்கின்றன. நன்னீருக்குள்ளான இடம்பெயர்வு பொட்டமோட்ரமி; கடலுக்குள்ளான இடம்பெயர்வு ஓஷியானோட்ரமி எனப்படுகிறது. உப்புத்தன்மை மாறுவதால் செவுள், குடல், சிறுநீரகங்களின் நீர்-உப்பு போக்குவரத்து ஹார்மோன்களின் உதவியுடன் மாறுகிறது. சால்மன் மீன்களில் மணவுணர்வு, புவிக்காந்தக் குறிகள் போன்றவை வழிகாணுதலுக்கு உதவலாம். அணைகள், நீரோட்ட மாற்றம், நீர் வெப்பமயமாதல், அதிக மீன்பிடித்தல் ஆகியவை இடம்பெயர்வை பாதிக்கின்றன. இனப்பெருக்க இடத்தையும் வளரிடத்தையும் தெளிவாகக் குறிப்பிட வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -2093,6 +2379,17 @@
               "body": {
                 "en": "Overfishing, destructive gear, bycatch, habitat loss, invasive species and pollution can reduce fish stocks or damage associated biodiversity. Stock assessment, selective gear, habitat protection, traceability and responsible aquaculture improve resilience. A sustainable harvest cannot be inferred simply from high short-term catches.",
                 "ta": "அளவுக்கு மீறிய மீன்பிடித்தல், அழிவை ஏற்படுத்தும் வலைகள், தேவையற்ற இணைப்பிடிப்பு, வாழிட இழப்பு, அயல் இனங்கள் மற்றும் மாசுபாடு மீன்வளத்தைக் குறைக்கலாம். மீன்வளக் கணக்கீடு, தேர்ந்தெடுக்கப்பட்ட பிடிப்பு உபகரணங்கள், வாழிடப் பாதுகாப்பு மற்றும் பொறுப்பான மீன்வளர்ப்பு அவசியமானவை. குறுகிய காலத்தில் அதிக மீன்கள் கிடைப்பதால் மட்டுமே மீன்பிடித்தல் நிலைத்ததாக உள்ளது என்று முடிவு செய்யக்கூடாது."
+              }
+            },
+            {
+              "key": "fisheries-economics-ecosystems",
+              "heading": {
+                "en": "Fishery value, nutrition and responsible management",
+                "ta": "மீன்வளப் பொருளாதாரம், ஊட்டச்சத்து, பொறுப்பான மேலாண்மை"
+              },
+              "body": {
+                "en": "Capture fisheries, aquaculture, seed production, processing, refrigeration and marketing support coastal and inland livelihoods. Fish provide complete protein, essential fatty acids and micronutrients, though nutrient content varies by species and preparation. Some fish produce ornamental, pharmaceutical or industrial products; shark fin trade and indiscriminate bycatch can create conservation and welfare concerns. Separate wild fish production from aquaculture and distinguish food security from short-term harvest profit. Explain ecosystem services such as grazing, nutrient cycling and food-web interactions. Responsible management includes habitat protection, minimum legal size, mesh regulation, seasonal restrictions, surveillance of invasive stocks and water-quality control. Indian examples should be regionally appropriate and verified before inclusion.",
+                "ta": "கடல் மற்றும் உள்நாட்டு மீன்பிடி, மீன்வளர்ப்பு, குஞ்சு உற்பத்தி, பதப்படுத்தல், குளிர்சங்கிலி, சந்தைப்படுத்தல் ஆகியவை மக்களின் வாழ்வாதாரத்திற்கு உதவுகின்றன. மீன்கள் உயர்தரப் புரதம், கொழுப்பு அமிலங்கள் மற்றும் நுண்ணூட்டச்சத்துகளை வழங்குகின்றன; அவற்றின் அளவு இனத்தின்படி மாறுபடும். அலங்கார மீன்கள், தொழில்துறை மற்றும் மருத்துவ ஆராய்ச்சி பயன்பாடுகளும் உள்ளன. கட்டுப்பாடற்ற சுறா துடுப்பு வணிகம், தேவையற்ற மீன்பிடி வலைச் சிக்கல் போன்றவை உயிரினப் பாதுகாப்பை பாதிக்கக்கூடும். இயற்கை மீன்பிடியையும் மீன்வளர்ப்பையும் வேறுபடுத்தி, உணவுப் பாதுகாப்பு, நீர்நிலை நலம், ஊட்டச்சத்துச் சுழற்சி, வலைக் கண் அளவு கட்டுப்பாடு, பருவகாலத் தடை மற்றும் வாழிடப் பாதுகாப்பு ஆகியவற்றின் முக்கியத்துவத்தை விளக்க வேண்டும்."
               }
             }
           ],
@@ -2237,6 +2534,28 @@
                 "en": "Fertilisation is external in many frogs but internal in most salamanders and caecilians, so a single reproductive pattern must not be assigned to all amphibians. Many species undergo metamorphosis, although development varies greatly. Their dependence on suitable moisture, breeding sites and permeable skin makes many amphibians sensitive to environmental change.",
                 "ta": "பல தவளை இனங்களில் வெளிக்கருவுறுதலும் பெரும்பாலான சாலமாண்டர் மற்றும் காலற்ற இருவாழ்விகளில் உட்கருவுறுதலும் காணப்படுகின்றன. எல்லா இருவாழ்விகளுக்கும் ஒரே இனப்பெருக்க முறையைப் பொருத்துவது தவறாகும். பல இனங்களில் இளநிலையிலிருந்து முதிர்நிலைக்கு மாற்றுருவாக்கம் நடைபெறுகிறது. ஈரப்பதம், இனப்பெருக்க நீர்நிலைகள் மற்றும் ஊடுருவக்கூடிய தோல் ஆகியவற்றினால் சுற்றுச்சூழல் மாற்றங்கள் இவற்றைப் பெரிதும் பாதிக்கக்கூடும்."
               }
+            },
+            {
+              "key": "historical-fossil-amphibian-groups",
+              "heading": {
+                "en": "Labyrinthodontia, Ichthyostegalia, Temnospondyli and Anthracosauria",
+                "ta": "லாபிரிந்தோடோண்டியா, இக்தியோஸ்டெகாலியா, டெம்னோஸ்பாண்டிலி, ஆந்த்ரகோசாரியா"
+              },
+              "body": {
+                "en": "Older classifications placed many extinct stem tetrapods under Labyrinthodontia, named for the complex infolding of dentine in their teeth; it is a historical evolutionary grade rather than a single modern clade. Ichthyostega and related early tetrapods show a mosaic of aquatic and terrestrial adaptations. Temnospondyli comprised numerous Palaeozoic and Mesozoic amphibian-like tetrapods, including aquatic and terrestrial forms. Anthracosauria was historically applied to reptile-like amphibians; its component lineages have since been reassessed. Students should identify representative fossils, skull and vertebral features, geological occurrence and uncertain phylogenetic position. Do not label every fossil tetrapod a member of the crown group of living amphibians.",
+                "ta": "பழைய வகைப்பாட்டில் பல அழிந்த நான்குகாலிகள், பற்களின் டென்டின் மடிப்பு அமைப்பின் காரணமாக, லாபிரிந்தோடோண்டியா என அழைக்கப்பட்டன. இது இப்போது ஒரே இயற்கை மரபுவழிக் குழுவாக ஏற்கப்படுவதில்லை. இக்தியோஸ்டெகா போன்ற ஆரம்ப நான்குகாலிகளில் நீர் மற்றும் நில வாழ்க்கைக்கான கலப்புப் பண்புகள் காணப்பட்டன. டெம்னோஸ்பாண்டிலி குழுவில் பழங்கால நீர்வாழ் மற்றும் நிலவாழ் வடிவங்கள் இருந்தன. ஆந்த்ரகோசாரியா என்ற பழைய பெயர் ஊர்வன போன்ற இருவாழ்விகளுக்குப் பயன்படுத்தப்பட்டது; அவற்றின் உறவுகள் திருத்தப்பட்டுள்ளன. புதைபடிவப் பண்பு, புவியியல் காலம், முதுகெலும்பு மற்றும் மண்டையோட்டு அமைப்பு ஆகியவற்றுடன் இவற்றை விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "lepospondyl-lissamphibian-orders",
+              "heading": {
+                "en": "Lepospondyli, Lissamphibia and living orders",
+                "ta": "லெபோஸ்பாண்டிலி, லிஸ்ஸாம்பிபியா மற்றும் உயிர்வாழும் வரிசைகள்"
+              },
+              "body": {
+                "en": "Lepospondyli is a historical assemblage of small extinct tetrapods often characterised by relatively simple vertebral centra; its affinities are debated. Living amphibians constitute Lissamphibia. Anura consists of adult tailless frogs and toads, Caudata (Urodela) contains salamanders and newts, and Gymnophiona (Apoda) includes elongated limbless caecilians. Compare locomotion, skin, fertilisation, life cycles and sensory structures: adult anurans typically have powerful hind limbs; salamanders retain tails and often lateral undulation; caecilians use a muscular head and body for burrowing, with chemosensory tentacles. Some species develop directly or give birth, so aquatic tadpoles and external fertilisation are not universal. Give conventional and modern names side by side.",
+                "ta": "லெபோஸ்பாண்டிலி சிறிய அழிந்த நான்குகாலிகளை உள்ளடக்கிய மரபுவழிப் பெயராகும்; அவற்றின் பரிணாம உறவுகள் விவாதத்திற்குரியவை. இன்றைய இருவாழ்விகள் லிஸ்ஸாம்பிபியா என அழைக்கப்படுகின்றன. அனுரா வரிசையில் முதிர்ந்த நிலையில் வாலற்ற தவளைகள், தேரைகள்; காடேட்டா அல்லது யூரோடீலா வரிசையில் வாலுடைய சாலமாண்டர்கள்; ஜிம்னோஃபியோனா அல்லது அபோடா வரிசையில் கால்களற்ற சீசிலியன்கள் அடங்குகின்றன. பின்னங்கால்கள், வால் இயக்கம், மண்துளைக்கும் உடலமைப்பு, உணர்வு கூடாரங்கள், இனப்பெருக்கம், உருமாற்றம் ஆகியவற்றை ஒப்பிட வேண்டும். அனைத்து இருவாழ்விகளிலும் நீர்வாழ் தலைப்பிரட்டை நிலை அல்லது வெளிக்கருவுறுதல் இருக்கும் என்று கருதக் கூடாது."
+              }
             }
           ],
           "quiz": [
@@ -2371,6 +2690,17 @@
               "body": {
                 "en": "Modern amphibians form a distinctive living radiation often grouped as Lissamphibia. Their precise relationship to extinct Palaeozoic tetrapod groups has been debated, and fossil and molecular evidence are evaluated together. Students should distinguish the origin of Tetrapoda from the later diversification of living amphibian orders.",
                 "ta": "இன்றைய இருவாழ்விகள் லிசாம்பிபியா என்ற பரிணாமக் குழுவில் பொதுவாக இணைக்கப்படுகின்றன. அழிந்துபோன பண்டைய நான்கு காலுடைய உயிரிகளுடன் இவற்றுக்குள்ள துல்லியமான உறவு குறித்து சில ஆய்வுக் கருத்து வேறுபாடுகள் உள்ளன. புதைபடிவ ஆதாரங்களையும் மூலக்கூறு ஆதாரங்களையும் இணைத்து மதிப்பிட வேண்டும். நான்கு காலுடைய உயிரிகளின் முதற்கால தோற்றத்தையும் இன்றைய இருவாழ்வி வரிசைகளின் பிந்தைய பிரிவுகளையும் மாணவர்கள் வேறுபடுத்திக் கொள்ள வேண்டும்."
+              }
+            },
+            {
+              "key": "devonian-fossil-transition",
+              "heading": {
+                "en": "From sarcopterygians to early tetrapods: evidence",
+                "ta": "சதைத் துடுப்பு முதுகெலும்பிகளிலிருந்து தொடக்க நான்குகாலிகள்"
+              },
+              "body": {
+                "en": "Devonian lobe-finned vertebrates developed limb-like internal fin skeletons, lungs or other air-breathing structures and varied cranial mechanics in shallow-water habitats. Tiktaalik exhibits a combination of fish characteristics and mobile neck and limb-support features; Acanthostega retained strongly aquatic adaptations despite having digits, while Ichthyostega combined robust limbs with specialised axial anatomy. These taxa represent evolutionary side branches and relatives, not a single sequence of direct ancestors. Discuss the transition of pectoral girdle, ribs, vertebral supports, internal nares and limbs as a patchwork of changes. The origin of living amphibians is later and their exact fossil ancestry remains debated.",
+                "ta": "டெவோனியக் காலச் சதைத் துடுப்பு முதுகெலும்பிகளில் வலுவடைந்த துடுப்பு உள் எலும்புகள், காற்றுச் சுவாசத் தகவமைப்புகள் மற்றும் தலை இயக்க மாற்றங்கள் தோன்றின. டிக்டாலிக் மீன்களுக்குரிய பண்புகளுடன் அசையும் கழுத்து மற்றும் உறுப்புத் தாங்கும் எலும்புக் கூறுகளைக் கொண்டிருந்தது. அகாந்தோஸ்டெகாவில் விரல்கள் இருந்தபோதும் நீர்வாழ் பண்புகள் வலுவாக இருந்தன; இக்தியோஸ்டெகாவில் உறுதியான உறுப்புகளும் முதுகெலும்பு மாற்றங்களும் இருந்தன. இவை ஒன்றிலிருந்து மற்றொன்று நேரடியாக உருவான நேர்க்கோட்டுத் தொடர் அல்ல. தோள்பட்டை, விலா எலும்பு, உள் நாசித்துவாரம், நான்குகால் உறுப்புகள் ஆகியவற்றின் படிப்படியான பரிணாமத்தை ஒப்பிட வேண்டும்."
               }
             }
           ],
@@ -2528,6 +2858,39 @@
                 "en": "The brain is organised into forebrain, midbrain and hindbrain. The forebrain includes olfactory regions and cerebral hemispheres; the midbrain bears optic lobes; the hindbrain includes cerebellum and medulla oblongata. Relate each region to sensory processing, coordination or autonomic function without assuming the brain proportions are identical in all amphibians.",
                 "ta": "தவளையின் மூளை முன்மூளை, நடுமூளை, பின்மூளை என மூன்று பகுதிகளாகப் பிரிக்கப்படுகிறது. முன்மூளையில் மணநுகர்வு பகுதிகளும் பெருமூளை அரைக்கோளங்களும் உள்ளன. நடுமூளையில் பார்வை மடல்கள் காணப்படுகின்றன. பின்மூளையில் சிறுமூளையும் முகுளமும் அடங்குகின்றன. இப்பகுதிகள் உணர்வு செயலாக்கம், இயக்க ஒருங்கிணைப்பு மற்றும் தன்னியக்கச் செயல்களை ஒழுங்குபடுத்த உதவுகின்றன."
               }
+            },
+            {
+              "key": "rana-taxonomy-and-habitat",
+              "heading": {
+                "en": "Rana hexadactyla: nomenclature, habitat and external form",
+                "ta": "ரானா ஹெக்சாடாக்டைலா — பெயரியல், வாழிடம், வெளிப்புற அமைப்பு"
+              },
+              "body": {
+                "en": "The syllabus name Rana hexadactyla refers to the green pond frog. Some modern references use Euphlyctis hexadactylus, while the recent ITIS/Amphibian Species of the World treatment accepts Phrynoderma hexadactylum; taxonomic databases should be dated when citing the name. The animal is closely associated with freshwater vegetation and has moist glandular skin, webbed hind feet, a short body without adult tail and prominent eyes and tympana. The forelimbs bear four digits, while the hind limbs have five principal toes; the epithet 'hexadactyla' must not be used to teach that all frogs normally have six toes. Compare its dorsal colouration, aquatic locomotion and protective behaviour with a terrestrial toad.",
+                "ta": "பாடத்திட்டத்தின் ரானா ஹெக்சாடாக்டைலா என்பது பச்சைக் குளத் தவளை. சில நூல்களில் Euphlyctis hexadactylus என்றும் தற்போதைய வேறு வகைப்பாட்டுத் தரவுகளில் Phrynoderma hexadactylum என்றும் குறிப்பிடப்படுகிறது; பெயரியல் மூலத்தைக் காலக்குறிப்புடன் வழங்க வேண்டும். நன்னீர்த் தாவரங்களுக்கு அருகில் வாழும் இத்தவளையில் ஈரமான சுரப்பித் தோல், நீந்த உதவும் பின்னங்கால் விரலிடைச் சவ்வுகள், முதிர்ந்த நிலையில் வாலற்ற உடல், கண்கள் மற்றும் செவிப்பறைகள் காணப்படுகின்றன. முன்னங்காலில் நான்கு விரல்களும் பின்னங்காலில் பொதுவாக ஐந்து முக்கிய விரல்களும் உள்ளன. இனப்பெயரை வைத்து எல்லா தவளைகளுக்கும் ஆறு விரல்கள் உள்ளன என்று கற்பிக்கக் கூடாது."
+              }
+            },
+            {
+              "key": "rana-circulation-heart",
+              "heading": {
+                "en": "Frog heart, double circulation and arterial arches",
+                "ta": "தவளையின் இதயம், இரட்டைச் சுழற்சி, தமனி வளைவுகள்"
+              },
+              "body": {
+                "en": "An adult frog heart has two atria and one trabeculated ventricle, preceded by a sinus venosus and followed by a conus arteriosus. The right atrium receives mainly systemic venous blood; the left atrium receives blood from pulmonary veins. Ventricular trabeculae and outflow structures influence the distribution of blood, but complete oxygenated/deoxygenated separation does not occur as in birds and mammals. The truncus and arterial arches distribute blood through carotid, systemic and pulmocutaneous routes, with lungs and skin sharing respiratory function. Trace venous return, atrial entry, ventricular ejection and tissue perfusion in a labelled flowchart. Contrast the larval branchial condition with adult circulation.",
+                "ta": "முதிர்ந்த தவளையின் இதயத்தில் இரண்டு ஆரிக்கிள்கள், ஒரு உட்புறத் தடுப்புத் திசுக் கட்டங்களுடைய வென்டிரிக்கிள், முன்புறம் சைனஸ் வீனோசஸ், வெளியேற்றப் பகுதியில் கோனஸ் ஆர்டீரியோசஸ் காணப்படும். வலது ஆரிக்கிளுக்கு உடலிலிருந்து திரும்பும் இரத்தமும் இடது ஆரிக்கிளுக்கு நுரையீரல் வழி வரும் இரத்தமும் செல்கின்றன. வென்டிரிக்கிளில் முழுமையான இரத்தப் பிரிப்பு ஏற்படாது. கரோட்டிட், சிஸ்டமிக், நுரையீரல்-தோல் தமனி வளைவுகள் தலை, உடல், சுவாச உறுப்புகளுக்குச் செல்கின்றன. இரத்தம் திரும்புதல், இதய அறைகள், வெளியேற்றப் பாதைகள் ஆகியவற்றை பெயரிடப்பட்ட வரைபடத்துடன் விளக்கி, தலைப்பிரட்டையின் செவுள் சுழற்சியிலிருந்து உள்ள வேறுபாட்டைக் குறிப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "rana-excretory-and-reproduction",
+              "heading": {
+                "en": "Frog excretory and reproductive systems",
+                "ta": "தவளையின் கழிவுநீக்க மற்றும் இனப்பெருக்க அமைப்புகள்"
+              },
+              "body": {
+                "en": "Adult anurans possess paired mesonephric/opisthonephric kidneys, ureters, urinary bladder and cloaca; nitrogenous excretion shifts with development and water availability. In males, testes lie near the kidneys and sperm may pass through renal-associated ducts, while females have paired ovaries and coiled oviducts that open into the cloaca. Fertilisation is usually external in the conventional pond-frog model, occurring during amplexus, and embryos develop into tadpoles before metamorphosis. Distinguish kidney histology, urine formation and ionic balance from egg production and the embryonic fate of fertilised eggs. Avoid transferring the exact reproductive organisation of one frog species to all amphibians.",
+                "ta": "முதிர்ந்த தவளையில் ஜோடி சிறுநீரகங்கள், சிறுநீர்க் குழாய்கள், சிறுநீர்ப்பை, பொதுக் கழிவுத் துவாரம் ஆகியவை காணப்படுகின்றன. நைட்ரஜன் கழிவுப் பொருளின் வடிவம் வளர்நிலை மற்றும் நீர் இருப்பைப் பொறுத்து மாறுகிறது. ஆணில் சிறுநீரகங்களுக்கு அருகில் விந்தகங்களும் அவற்றுடன் தொடர்புடைய விந்து கடத்தும் நாளங்களும் உள்ளன. பெண்ணில் ஜோடி சூலகங்களும் சுருண்ட முட்டைக் குழாய்களும் காணப்படுகின்றன. வழக்கமான குளத் தவளை மாதிரியில் ஆம்பெக்சஸ் நேரத்தில் வெளிக்கருவுறுதல் நிகழ்ந்து தலைப்பிரட்டை உருவாகிறது. கழிவுநீக்கம், உப்புச் சமநிலை, இனப்பெருக்கம், உருமாற்றம் ஆகியவற்றை தனித்தனியாக விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -2665,6 +3028,50 @@
                 "en": "Caecilians generally lack limbs, have an elongated annulated body and possess a compact, strongly built skull for burrowing. Eyes are reduced in many underground species, while sensory tentacles aid chemical sensing. Some caecilians are aquatic rather than fossorial, demonstrating that the order is ecologically diverse.",
                 "ta": "காலற்ற இருவாழ்விகள் பொதுவாக நீண்ட வளையத் தோற்றமுடைய உடலைக் கொண்டுள்ளன. நிலத்தடியில் தோண்டிச் செல்வதற்குப் பொருத்தமான உறுதியான தலையோடு காணப்படுகிறது. பல மண்ணடிவாழ் இனங்களில் கண்கள் குறைந்து காணப்படும். உணர்வு நீட்சிகள் வேதியுணர்வில் உதவுகின்றன. எனினும் சில இனங்கள் நீரில் வாழ்வதால் அப்போடா குழுவின் எல்லா உயிரிகளையும் மண்ணடிவாழ் உயிரிகள் என்று கூறக் கூடாது."
               }
+            },
+            {
+              "key": "amphibian-adaptation-comparison",
+              "heading": {
+                "en": "Anura, Caudata and Gymnophiona: functional comparisons",
+                "ta": "அனுரா, காடேட்டா, ஜிம்னோஃபியோனா — செயல்பாட்டுத் தகவமைப்புகள்"
+              },
+              "body": {
+                "en": "Anurans typically use elongate hind limbs and a fused urostyle for jumping, and webbing for swimming in many aquatic species; some tree frogs have expanded adhesive toe pads. Caudates retain an elongated trunk and tail, with lateral body undulation and limbs that may be small or lost in some lineages. Gymnophionans have reinforced skulls, annulated skin and a sensory tentacle between eye and nostril, facilitating life in soil or aquatic substrates. Compare vertebral construction, skin moisture, vision, sensory strategy and parental investment. Diversity within each group is substantial; for example, not every anuran jumps, not every salamander is aquatic, and some caecilians give birth to developed young.",
+                "ta": "அனுராவில் வலுவான நீண்ட பின்னங்கால்கள், இணைந்த யூரோஸ்டைல் எலும்பு, சில இனங்களில் விரலிடைச் சவ்வு ஆகியவை தாவுதல் மற்றும் நீந்துதலுக்கு உதவுகின்றன; மரத்தவளைகளில் ஒட்டும் விரல் தட்டுகள் காணப்படும். காடேட்டாவில் நீண்ட உடலும் நீடிக்கும் வாலும் பக்கவாட்டு அலை இயக்கத்திற்குப் பயன்படுகின்றன. ஜிம்னோஃபியோனாவில் உறுதியான மண்டையோடு, வளையத் தோல், கண்-நாசிக்கிடை உணர்வுக் கூடாரம் ஆகியவை மண்ணுக்குள் வாழ உதவுகின்றன. மூன்று குழுக்களிலும் உடலமைப்பு, தோல், இயக்கம், இனப்பெருக்கப் பாதுகாப்பு ஆகியவற்றை ஒப்பிட வேண்டும். ஒவ்வொரு வரிசைக்குள்ளும் ஏராளமான விதிவிலக்குகள் உள்ளன."
+              }
+            },
+            {
+              "key": "anura-special-adaptations",
+              "heading": {
+                "en": "Order Anura: locomotion, feeding and reproduction",
+                "ta": "அனுரா — இயக்கம், உணவூட்டம், இனப்பெருக்கத் தகவமைப்புகள்"
+              },
+              "body": {
+                "en": "Anuran adults generally have a shortened trunk, absent adult tail, elongate ilia, a urostyle and powerful hind limbs; the pelvic girdle transmits propulsive forces during hopping. Aquatic frogs often have webbed toes, whereas arboreal species may have adhesive toe pads and other climbing specialisations. Many frogs catch prey with a protrusible tongue and rely on vision, but feeding modes are diverse. Males of many species vocalise through a larynx and resonating vocal sac to attract mates. Eggs may be deposited in water, foam, vegetation or sheltered sites; some species develop directly without a free-swimming tadpole. Link each adaptation to habitat, energy expenditure and predation risk rather than treating the typical pond frog as universal.",
+                "ta": "அனுரா இருவாழ்விகளில் முதிர்ந்த நிலையில் வால் இல்லை; குறுகிய உடற்பகுதி, யூரோஸ்டைல், நீண்ட இடுப்பெலும்பு, வலுவான பின்னங்கால்கள் தாவுதலுக்கு உதவுகின்றன. நீர்வாழ் தவளைகளில் விரலிடைச் சவ்வுகளும் மரவாழ் தவளைகளில் ஒட்டும் விரல் தட்டுகளும் காணப்படலாம். பல தவளைகள் நீட்டக்கூடிய நாக்கால் இரை பிடிக்கின்றன; உணவு முறைகளில் வேறுபாடுகள் உண்டு. பல இனங்களின் ஆண்கள் குரல்வளை மற்றும் ஒலிப்பை வழி இணையை ஈர்க்க ஒலி எழுப்புகின்றன. முட்டைகள் நீர், நுரைக்கூடு, இலை அல்லது பாதுகாப்பான இடங்களில் இடப்படலாம்; சிலவற்றில் நேரடி வளர்ச்சி நிகழ்கிறது. ஒவ்வொரு தகவமைப்பையும் வாழிடத்தின் சூழல் தேவையுடன் இணைத்து விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "urodela-special-adaptations",
+              "heading": {
+                "en": "Order Urodela/Caudata: tail, respiration and regeneration",
+                "ta": "யூரோடீலா — வால், சுவாசம், மீளுருவாக்கம்"
+              },
+              "body": {
+                "en": "Salamanders and newts retain a tail throughout adult life. Limb and axial movements may be combined during walking, while an extended tail aids swimming. Some species have external gills in adult aquatic stages, others breathe with lungs, and lungless salamanders exchange gases mainly through moist skin and buccal membranes. Many species exhibit notable regeneration of damaged tails and limbs through coordinated wound healing, cell proliferation and tissue patterning, though the ability varies by lineage, age and injury. Reproduction often involves spermatophore transfer and internal fertilisation, but the exact mechanism is species-dependent. Compare larval gills, adult respiratory structures and paedomorphosis without confusing neoteny with regeneration.",
+                "ta": "சாலமாண்டர்களும் நியூட்களும் முதிர்ந்த நிலையிலும் வாலைக் கொண்டுள்ளன. நிலத்தில் நடக்கும்போது கால்களும் உடல் அச்சும் ஒருங்கிணைந்து இயங்குகின்றன; நீரில் வால் இயக்கம் முக்கியமானது. சில நீர்வாழ் இனங்களில் முதிர்ந்த நிலையிலும் வெளிச் செவுள்கள் நீடிக்கின்றன; சிலவற்றில் நுரையீரல் உள்ளது; நுரையீரலற்ற சாலமாண்டர்களில் ஈரத் தோல், வாய் சவ்வு வழி வாயுப் பரிமாற்றம் நடைபெறுகிறது. பல சாலமாண்டர்கள் சேதமடைந்த வால், கால்களை மீளுருவாக்கும் திறன் கொண்டவை; இது இனத்தின்படி மாறும். சிலவற்றில் விந்துக் கட்டுப் பரிமாற்றம் மூலம் உட்கருவுறுதல் நிகழ்கிறது. நியோடெனி மற்றும் மீளுருவாக்கம் என்ற இரு நிகழ்வுகளையும் வேறுபடுத்த வேண்டும்."
+              }
+            },
+            {
+              "key": "apoda-special-adaptations",
+              "heading": {
+                "en": "Order Apoda/Gymnophiona: anatomy of caecilians",
+                "ta": "அபோடா — சீசிலியன்களின் உடலமைப்புத் தகவமைப்புகள்"
+              },
+              "body": {
+                "en": "Caecilians are limbless amphibians with long cylindrical bodies, annular skin grooves and an ossified skull well suited to burrowing. Their eyes are often reduced and covered by skin or bone, while a specialised protrusible sensory tentacle occurs between eye and nostril, combining chemosensory and tactile information. Unlike snakes, caecilians are amphibians and have characteristic skin glands, distinct skull organisation and reproductive biology. Fertilisation is internal with a male intromittent organ called the phallodeum. Some species lay eggs and guard them; others are live-bearing, and young may obtain specialised maternal nutrition. Explain why limb loss is convergent in snakes and caecilians rather than evidence of membership in the same class.",
+                "ta": "சீசிலியன்கள் கால்களற்ற நீண்ட உருளை உடல், வளையத் தோல் மடிப்புகள், மண்துளைக்க ஏற்ற உறுதியான மண்டையோடு கொண்ட இருவாழ்விகள். கண்கள் சிறியதாகவும் சில இனங்களில் தோல் அல்லது எலும்பால் மூடப்பட்டதாகவும் இருக்கும். கண்ணுக்கும் நாசிக்கும் இடையே நீட்டக்கூடிய சிறப்பான உணர்வுக் கூடாரம் உள்ளது; இரசாயன மற்றும் தொடு உணர்வுக்கு உதவுகிறது. தோற்றத்தில் பாம்பைப் போன்றிருந்தாலும் இவை ஊர்வன அல்ல. ஆணில் ஃபாலோடியம் எனப்படும் உட்கருவுறுதலுக்குரிய உறுப்பு காணப்படுகிறது. சில இனங்கள் முட்டையிட்டு பாதுகாக்கின்றன; சிலவை குட்டி ஈனுகின்றன. பாம்புகளிலும் சீசிலியன்களிலும் கால்கள் இழக்கப்பட்டது தனித்த பரிணாமத் தகவமைப்பு என்பதை விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -2799,6 +3206,17 @@
                 "en": "Thyroid hormones have an important role in amphibian metamorphosis. Experimental hormonal treatments can induce metamorphic changes in some paedomorphic salamanders, but species differ in responsiveness and ecological context. The outcome depends on endocrine physiology and genetic and environmental factors, rather than one universal switch.",
                 "ta": "இருவாழ்விகளின் மாற்றுருவாக்கத்தில் தைராய்டு ஊக்கிகள் முக்கியப் பங்கு வகிக்கின்றன. சில இளம்பருவப் பண்பு நிலைப்பு கொண்ட சாலமாண்டர்களில் பரிசோதனை முறையில் ஊக்கிகள் வழங்கும்போது மாற்றுருவாக்க மாற்றங்கள் ஏற்படலாம். எனினும் எல்லா இனங்களும் ஒரே விதமாகப் பதிலளிப்பதில்லை. மரபியல் பண்புகள், உட்சுரப்பியல் செயல்பாடுகள், சுற்றுச்சூழல் நிலைகள் ஆகியவை இந்த வளர்ச்சி விளைவுகளை இணைந்து நிர்ணயிக்கின்றன."
               }
+            },
+            {
+              "key": "neoteny-physiology",
+              "heading": {
+                "en": "Paedomorphosis, hormonal control and axolotl",
+                "ta": "இளமைப் பண்புத் தக்கவைப்பு, ஹார்மோன் கட்டுப்பாடு, ஆக்ஸலோட்ல்"
+              },
+              "body": {
+                "en": "Neoteny means the retention of juvenile characteristics into reproductive maturity, and is one route to paedomorphosis. In the axolotl, the aquatic adult commonly retains external gills, a caudal fin and other larval features while becoming sexually mature. Thyroid hormone signalling and environmental conditions regulate metamorphic timing; exogenous hormone can induce metamorphosis under experimental conditions, but this should not be described as ordinary development in all axolotls. Some salamanders are obligate paedomorphs, whereas others show facultative paedomorphosis depending on conditions. Distinguish neoteny from progenesis, in which sexual maturation occurs earlier relative to somatic development. Include ecological benefits and costs of permanent aquatic life.",
+                "ta": "பாலியல் முதிர்ச்சி அடைந்த பின்னரும் இளவுயிரிப் பண்புகள் தொடர்வது நியோடெனி எனப்படுகிறது; இது பீடோமார்ஃபோசிஸ் எனும் இளமை வடிவத் தொடர்ச்சியின் ஒரு முறையாகும். ஆக்ஸலோட்லில் வெளிச் செவுள்கள், வால் துடுப்பு போன்ற பண்புகள் தொடர்ந்தாலும் இனப்பெருக்கத் திறன் உருவாகிறது. தைராய்டு ஹார்மோன் மற்றும் சுற்றுச்சூழல் நிலை உருமாற்ற நேரத்தைக் கட்டுப்படுத்துகின்றன. ஆய்வகத்தில் ஹார்மோன் அளிப்பதால் உருமாற்றத்தைத் தூண்டலாம்; இது எல்லா இனங்களின் இயல்பான வாழ்க்கைச் சுழற்சி அல்ல. சில சாலமாண்டர்களில் இப்பண்பு கட்டாயமானது; சிலவற்றில் சூழ்நிலையைப் பொறுத்து மாறுகிறது. விரைவான பாலியல் முதிர்ச்சியான புரோஜெனெசிஸிலிருந்து நியோடெனியை வேறுபடுத்த வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -2932,6 +3350,17 @@
               "body": {
                 "en": "In Pipa, embryos develop in pockets associated with the female dorsal skin. Some caecilians guard eggs and have specialised feeding interactions with young. These observations reveal how parental investment relates to offspring number, developmental setting and survival. Scientific illustrations should label the parent and developmental stage accurately.",
                 "ta": "பிபா என்னும் தவளை இனத்தில் பெண் உயிரியின் முதுகுத் தோலுடன் தொடர்புடைய சிறு அறைகளில் கருக்கள் வளர்கின்றன. சில காலற்ற இருவாழ்விகளில் முட்டைகளைப் பாதுகாப்பதும் குட்டிகளுக்கு சிறப்பான உணவு வழங்குதலும் காணப்படுகின்றன. இவை பெற்றோர் முதலீடு, சந்ததி எண்ணிக்கை, வளர்ச்சி சூழல் மற்றும் உயிர்வாழ்தல் ஆகியவற்றுக்குள்ள தொடர்பை விளக்குகின்றன. பாடப்படங்களில் பெற்றோர் உடலும் வளர்ச்சி நிலையும் சரியாகக் குறிக்கப்பட வேண்டும்."
+              }
+            },
+            {
+              "key": "parental-care-developmental-modes",
+              "heading": {
+                "en": "Egg guarding, brooding and direct development in amphibians",
+                "ta": "முட்டைப் பாதுகாப்பு, குஞ்சு தாங்கல், நேரடி வளர்ச்சி"
+              },
+              "body": {
+                "en": "Amphibian reproductive diversity includes foam nests, eggs deposited on leaves, burrow guarding, transport of tadpoles and direct development without a free-swimming larva. Male midwife toads (Alytes) transport strings of eggs, and poison dart frogs may carry tadpoles to small pools; some caecilians attend eggs and young may feed on specialised maternal skin. The gastric-brooding frog is an extinct Australian example of an extreme brooding strategy, not a living typical frog. Explain the parental sex involved, location of development, water dependence and survival benefit for named species. Note that environmental moisture and pathogen exposure can constrain these strategies.",
+                "ta": "இருவாழ்விகளில் நுரைக்கூடு, இலைமேல் முட்டையிடுதல், மண்துளையில் முட்டைகளைப் பாதுகாத்தல், தலைப்பிரட்டைகளைச் சுமத்தல், சுதந்திரமாக நீந்தும் இளவுயிரியின்றி நேரடி வளர்ச்சி ஆகிய முறைகள் காணப்படுகின்றன. ஆலிடீஸ் எனும் ஆண் தேரை முட்டைச் சங்கிலியைத் தாங்கும்; சில வண்ணத் தவளைகள் தலைப்பிரட்டைகளைச் சிறு நீர்தேக்கங்களுக்கு எடுத்துச் செல்கின்றன. சில சீசிலியன்களில் தாய் முட்டைகளைப் பாதுகாக்கவும் குஞ்சுகளுக்கு சிறப்புத் தோல் உணவாக அமையவும் செய்யலாம். வயிற்றுக்குள் குஞ்சு வளர்த்த ஆஸ்திரேலியத் தவளை தற்போது அழிந்த வகை என்பதைக் குறிப்பிட வேண்டும். ஒவ்வொரு எடுத்துக்காட்டிலும் பாதுகாக்கும் பெற்றோர், இடம், நீர்ச்சார்பு, நன்மை ஆகியவற்றை விளக்க வேண்டும்."
               }
             }
           ],
@@ -3075,6 +3504,61 @@
               "body": {
                 "en": "Most non-crocodilian reptiles possess a heart with two atria and one functionally subdivided ventricle, whereas crocodilians have four cardiac chambers. Many reptiles excrete nitrogen chiefly as uric acid, reducing water loss. Their body temperature is strongly influenced by behavioural thermoregulation, including basking, shade seeking and altered activity periods.",
                 "ta": "முதலைகளைத் தவிர பல ஊர்வனவற்றின் இதயத்தில் இரண்டு ஆரிக்கிள்களும் பகுதியாகப் பிரிவடைந்த ஒரு வென்ட்ரிக்கிளும் காணப்படும். முதலைகளில் நான்கு இதய அறைகள் உள்ளன. பல ஊர்வன யூரிக் அமிலத்தை நைட்ரஜன் கழிவாக வெளியேற்றி நீர் இழப்பைக் குறைக்கின்றன. வெயிலில் காய்தல், நிழலை நாடுதல், செயல்பாட்டு நேரங்களை மாற்றுதல் போன்ற நடத்தைகளால் உடல்வெப்பநிலையைச் சீராக்குகின்றன."
+              }
+            },
+            {
+              "key": "reptilian-historical-subclasses",
+              "heading": {
+                "en": "Anapsida, Parapsida, Diapsida and Synapsida: historical usage",
+                "ta": "அனாப்சிடா, பாராப்சிடா, டயாப்சிடா, சினாப்சிடா — பழைய வகைப்பாடு"
+              },
+              "body": {
+                "en": "Classical texts classify amniotes by temporal fenestrae: anapsid skulls lack openings behind the orbit; synapsid skulls have one lower opening; diapsid skulls have upper and lower openings. 'Parapsida' or 'euryapsid' was historically applied to some extinct marine reptiles with an upper temporal opening, but these are modified diapsid lineages, not a parallel foundational subclass. Synapsida is the mammalian stem lineage, not a subdivision of modern reptiles. Turtles secondarily have a roofed temporal region yet molecular and fossil evidence place them within the diapsid reptile radiation. Skull categories are useful anatomical descriptions and historical exam terms; explain explicitly why they do not replace a phylogenetic classification.",
+                "ta": "பழைய அம்னியோட் வகைப்பாடு கண்குழிக்குப் பின்னுள்ள மண்டையோட்டு துளைகளை அடிப்படையாகக் கொண்டது. அனாப்சிடாவில் துளை இல்லை; சினாப்சிடாவில் கீழ்ப்புறம் ஒன்று; டயாப்சிடாவில் மேல் மற்றும் கீழ்ப்புறம் இரண்டு துளைகள் எனக் கற்பிக்கப்படுகிறது. பாராப்சிடா என்ற பழைய பெயர் சில அழிந்த கடல் ஊர்வனவுக்கு வழங்கப்பட்டது; அவை தனி அடிப்படை கிளை அல்ல, மாற்றமடைந்த டயாப்சிடா மரபைச் சேர்ந்தவை. சினாப்சிடா என்பது பாலூட்டிகளின் பரிணாமக் கிளை; இன்றைய ஊர்வனவின் உட்பிரிவு அல்ல. ஆமைகளின் மண்டையோட்டு கூரை மூடியிருந்தாலும் நவீன ஆதாரங்கள் அவற்றை டயாப்சிடா உறவுக் கிளையில் வைக்கின்றன. தேர்வில் பழைய பிரிவையும் தற்போதைய விளக்கத்தையும் பிரித்துக் குறிப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "living-orders-and-archosauria",
+              "heading": {
+                "en": "Living reptiles, archosaurs and extinct lineages",
+                "ta": "இன்றைய ஊர்வன, ஆர்கோசாரியா, அழிந்த கிளைகள்"
+              },
+              "body": {
+                "en": "Traditional living reptile orders include Testudines (turtles and tortoises), Squamata (lizards, snakes and amphisbaenians), Rhynchocephalia (tuatara) and Crocodylia (crocodilians). Lepidosauria unites squamates with Sphenodon; Archosauria includes crocodilians and birds, and the extinct dinosaurs and pterosaurs are important related archosaur lineages. Snakes are a specialised squamate radiation, not a separate basal reptile division. Explain lepidosaur scales and skin shedding, crocodilian secondary palate and four-chambered heart, and chelonian shells formed from dermal and axial skeletal elements. If birds are excluded for the university's traditional 'Reptilia' heading, point out the phylogenetic exception rather than suggesting birds evolved outside reptiles.",
+                "ta": "வாழும் ஊர்வன வரிசைகளில் டெஸ்டுடைன்ஸ் (ஆமை), ஸ்குவாமேட்டா (பல்லி, பாம்பு, அம்ஃபிஸ்பீனியன்), ரைன்கோசெபாலியா (ஸ்பீனோடான்), க்ரோகோடைலியா (முதலை) முக்கியமானவை. ஸ்குவாமேட்டாவும் ஸ்பீனோடானும் லெபிடோசாரியா கிளையைச் சேர்ந்தவை. முதலைகளும் பறவைகளும் ஆர்கோசாரியா கிளையில் அடங்குகின்றன; அழிந்த டைனோசர்களும் டெரோசார்களும் தொடர்புடைய கிளைகள். பாம்புகள் ஸ்குவாமேட்டாவுக்குள் தோன்றிய சிறப்புக் குழுவாகும். தோலுரிதல், முதலைகளின் நான்கு அறை இதயம், ஆமை ஓடு உருவாகும் எலும்புக் கூறுகள் ஆகியவற்றைச் சரியான எடுத்துக்காட்டுடன் விளக்க வேண்டும். பறவைகளைத் தவிர்க்கும் பழைய ஊர்வன வகைப்பாடு முழுமையான பரிணாமக் குழுவாகாது."
+              }
+            },
+            {
+              "key": "chelonia-turtle-anatomy",
+              "heading": {
+                "en": "Chelonia/Testudines: shell, respiration and adaptations",
+                "ta": "செலோனியா — ஆமை ஓடு, சுவாசம், தகவமைப்புகள்"
+              },
+              "body": {
+                "en": "Turtles and tortoises possess a dorsal carapace and ventral plastron, joined to form a protective shell integrated with modified ribs and vertebral elements; the shell is not merely removable external armour. Their jaw edges are keratinised and toothless. Because ribs are constrained within the shell, respiration involves specialised trunk and limb-associated musculature rather than the typical freely expanding rib cage of lizards. Freshwater, marine and terrestrial species vary in limb morphology: flippers in sea turtles, webbed feet in many freshwater turtles and columnar limbs in land tortoises. Modern phylogenetic evidence places turtles among the diapsid reptile radiation despite their modified temporal skull roof. Explain reproduction and nesting in species-appropriate terms.",
+                "ta": "ஆமைகளில் முதுகுப்புறக் காரப்பேஸ், வயிற்றுப்புறப் பிளாஸ்ட்ரான் இணைந்து பாதுகாப்பு ஓட்டை உருவாக்குகின்றன; விலா எலும்பு, முதுகெலும்புக் கூறுகளுடன் ஓடு ஒருங்கிணைந்தது. ஓட்டை உடலிலிருந்து தனியே அகற்றக்கூடிய கவசம் எனக் கருதக் கூடாது. தாடை விளிம்புகள் கெரட்டின் அமைப்புடையவை; பற்கள் இல்லை. விலா எலும்புகளின் இயக்கம் கட்டுப்படுவதால் சிறப்பான உடற்பகுதி மற்றும் உறுப்புத் தசைகள் சுவாசத்திற்கு உதவுகின்றன. கடல் ஆமைகளில் துடுப்பு போன்ற கால்கள்; நன்னீர் ஆமைகளில் பலவற்றுக்கு விரலிடைச் சவ்வுகள்; நில ஆமைகளில் உறுதியான கால்கள் காணப்படும். மண்டையோட்டின் துளை அமைப்பு மாற்றமடைந்திருந்தாலும் இவற்றின் பரிணாம உறவு டயாப்சிடா கிளையுடனே உள்ளது."
+              }
+            },
+            {
+              "key": "sphenodon-rhynchocephalia",
+              "heading": {
+                "en": "Rhynchocephalia and Sphenodon: living tuatara",
+                "ta": "ரைன்கோசெபாலியா மற்றும் ஸ்பீனோடான்"
+              },
+              "body": {
+                "en": "Sphenodon, commonly called the tuatara, represents the surviving rhynchocephalian lineage native to New Zealand. Although superficially lizard-like, it is not a squamate lizard. Its skull retains a distinctive diapsid arrangement with relatively complete temporal bars, and its acrodont-type dentition includes tooth-like projections fused with jaw bone. Some developmental and physiological characteristics, including slow growth and temperature-sensitive life history, differ from many lizards. A parietal or 'third eye' organ is most conspicuous in young animals and should not be exaggerated into an ordinary image-forming adult eye. Compare tuatara with squamates using cranial mechanics, tooth attachment and evolutionary history rather than external appearance alone.",
+                "ta": "ஸ்பீனோடான் எனப்படும் டுவாடாரா நியூசிலாந்தில் வாழும் ரைன்கோசெபாலியா கிளையின் இன்றைய பிரதிநிதியாகும். தோற்றத்தில் பல்லியை ஒத்திருந்தாலும் ஸ்குவாமேட்டா பல்லி அல்ல. மண்டையோட்டில் தனித்துவமான டயாப்சிடா அமைப்பும் முழுமையான பக்கவாட்டு எலும்புப் பட்டைகளும் காணப்படும். தாடை எலும்போடு இணைந்த பல் போன்ற அமைப்புகள் உணவைக் கடிக்க உதவுகின்றன. மெதுவான வளர்ச்சி, வெப்பநிலை சார்ந்த வாழ்க்கை நிகழ்வுகள் போன்றவை பல பல்லிகளிலிருந்து மாறுபடும். இளநிலையில் தெளிவாகத் தெரியும் பாரியேட்டல் உணர்வு உறுப்பு சாதாரணப் பார்வைக் கண் போல செயல்படுவதில்லை. மண்டையோடு, பல் பற்றுமுறை, பரிணாம உறவு ஆகியவற்றால் ஸ்பீனோடானையும் பல்லியையும் ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "crocodylia-archosaur-special",
+              "heading": {
+                "en": "Crocodylia: heart, skull, palate and ecological specialisation",
+                "ta": "க்ரோகோடைலியா — இதயம், மண்டையோடு, அண்ணம், சூழலியல்"
+              },
+              "body": {
+                "en": "Crocodilians include crocodiles, alligators, caimans and gharials. Their skulls have strong jaws, conical thecodont teeth and a secondary bony palate that permits breathing with the mouth partly immersed or holding prey underwater. They possess a fully separated four-chambered heart, unlike the incompletely divided ventricle typical of lizards; special connections of systemic vessels support cardiovascular shunting under some conditions. The eyes, nostrils and ears are positioned dorsally for aquatic vigilance, and a powerful tail supplies propulsion. Crocodilians and birds are surviving archosaurs. Compare the gharial's slender fish-catching snout with broader crocodilian heads without assuming identical feeding specialisations across all species.",
+                "ta": "முதலைகள், அலிகேட்டர்கள், கெய்மன்கள், காரியல்கள் க்ரோகோடைலியா குழுவில் அடங்குகின்றன. அவற்றின் மண்டையோட்டில் வலுவான தாடை, பல் குழிகளில் பதிந்த கூம்பு வடிவப் பற்கள், இரண்டாம் எலும்பு அண்ணம் உள்ளன. இவ்வமைப்பு நீரில் இரையைப் பிடித்தபோதும் சுவாசப் பாதையைப் பாதுகாக்க உதவுகிறது. பல்லிகளைப் போலன்றி முதலையில் நான்கு அறைகள் கொண்ட முழுமையாகப் பிரிந்த இதயம் உள்ளது; இரத்தநாளத் தொடர்புகள் சில சூழ்நிலைகளில் சிறப்பான ஓட்டமாற்றத்தை அனுமதிக்கின்றன. கண்கள், நாசித்துவாரங்கள், செவித்திறப்புகள் மேல்புறத்தில் அமைந்திருப்பதும் வலுவான வாலும் நீர்வாழ்விற்குப் பயனாகும். முதலையும் பறவையும் உயிர்வாழும் ஆர்கோசாரியா கிளைகள். காரியலின் நீண்ட மெல்லிய மூக்கை மற்ற முதலைகளின் தாடையுடன் ஒப்பிட வேண்டும்."
               }
             }
           ],
@@ -3232,6 +3716,39 @@
                 "en": "The brain can be described as forebrain, midbrain and hindbrain with cerebral hemispheres, optic centres, cerebellum and medulla oblongata. Vision is important for locating moving prey and navigating the environment. Compare the relatively developed forebrain and cerebellar functions with frog anatomy without implying that any part is absent in all amphibians.",
                 "ta": "கலோடஸின் மூளை முன்மூளை, நடுமூளை, பின்மூளை எனப் பிரிக்கப்படுகிறது. பெருமூளை அரைக்கோளங்கள், பார்வை மையங்கள், சிறுமூளை மற்றும் முகுளம் ஆகிய பகுதிகளை அடையாளம் காணலாம். நகரும் இரைகளைப் பார்ப்பதிலும் சுற்றுச்சூழலில் இயங்குவதிலும் பார்வை முக்கியப் பங்கு வகிக்கிறது. தவளையின் மூளையுடன் ஒப்பிடும்போது பகுதிகளின் செயல்பாட்டு வேறுபாடுகளை எடுத்துரைக்க வேண்டும். ஒரு பகுதி இருவாழ்விகளில் முற்றிலும் இல்லை என்று தவறாகக் கூறக் கூடாது."
               }
+            },
+            {
+              "key": "calotes-respiratory-urinary-reproduction",
+              "heading": {
+                "en": "Calotes: lungs, kidney and reproduction",
+                "ta": "கலோட்ஸ் — நுரையீரல், சிறுநீரகம், இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Calotes versicolor has keratinised epidermal scales that reduce evaporative water loss. Air moves through glottis, larynx, trachea and bronchi to compartmentalised lungs; effective gas exchange occurs in the vascular lung lining, not through typical fish gills. Metanephric kidneys eliminate nitrogen principally as uric acid, reducing water requirement. In the male, testes and sperm ducts are associated with paired hemipenes, whereas the female has paired ovaries and oviducts; eggs with protective coverings are laid on land. Its cloaca receives digestive, urinary and reproductive outflow. Describe territorial signalling and temperature-dependent activity separately from the essential reproductive anatomy, and distinguish the agamid from chameleons despite the popular name 'garden chameleon'.",
+                "ta": "கலோட்ஸ் வெர்சிகலோரில் கெரட்டின் சேர்ந்த மேல்தோல் செதில்கள் நீர் ஆவியாகி இழப்பதைத் தடுக்க உதவுகின்றன. காற்று குரல்வளை, மூச்சுக்குழல், கிளைக் குழாய்கள் வழியாக இரத்தநாளங்கள் நிறைந்த நுரையீரலுக்குச் செல்கிறது. மெட்டாநெப்ரிக் சிறுநீரகங்கள் முக்கியமாக யூரிக் அமிலமாக நைட்ரஜன் கழிவை வெளியேற்றி நீர் இழப்பைக் குறைக்கின்றன. ஆணில் விந்தகங்கள், விந்துக் குழாய்கள், ஜோடி ஹெமிபீனிஸ்; பெண்ணில் சூலகங்கள், முட்டைக் குழாய்கள் காணப்படுகின்றன. பாதுகாப்பு உறையுடைய முட்டைகள் நிலத்தில் இடப்படுகின்றன. செரிமானம், சிறுநீர், இனப்பெருக்கப் பாதைகள் பொதுக் கழிவுத்துவாரத்துடன் தொடர்புடையவை. 'தோட்டப் பச்சோந்தி' என்ற பொதுப் பெயரால் உண்மையான பச்சோந்தியுடன் வகைப்பாட்டில் குழப்பக் கூடாது."
+              }
+            },
+            {
+              "key": "calotes-heart-circulation",
+              "heading": {
+                "en": "Calotes heart and arterial circulation: anatomical interpretation",
+                "ta": "கலோட்ஸின் இதயமும் தமனி இரத்தச் சுழற்சியும்"
+              },
+              "body": {
+                "en": "The typical non-crocodilian reptile heart has two atria and a partially subdivided ventricle. In lizards the ventricular cavity is functionally partitioned into cavum arteriosum, cavum venosum and cavum pulmonale, with ridges and pressure differences contributing to separation of pulmonary and systemic flows. Two systemic aortic arches and a pulmonary trunk emerge through the outflow arrangement; their spatial relationships are essential to a correct Calotes anatomical plate. The systemic arches unite posteriorly as the dorsal aorta, supplying the body. Avoid drawing a complete mammal-like ventricular septum or assigning a crocodilian four-chambered plan to Calotes. Identify atria, venous inflow, ventricular compartments and great vessels before discussing possible cardiac shunts.",
+                "ta": "முதலைகளைத் தவிர்ந்த பொதுவான ஊர்வன இதயத்தில் இரண்டு ஆரிக்கிள்களும் முழுமையாகப் பிரியாத ஒரு வென்டிரிக்கிளும் உள்ளன. பல்லிகளில் வென்டிரிக்கிளின் உட்பகுதி காவம் ஆர்டீரியோசம், காவம் வீனோசம், காவம் பல்மோனாலே எனச் செயல்பாட்டின் அடிப்படையில் வேறுபடுகிறது. இரத்த அழுத்தம் மற்றும் உட்புறத் தடுப்பு மடிப்புகள் நுரையீரல், உடல் இரத்த ஓட்டங்களை ஓரளவு பிரிக்க உதவுகின்றன. இரண்டு சிஸ்டமிக் ஆர்டிக் வளைவுகளும் நுரையீரல் நோக்கிச் செல்லும் நாளமும் சரியான இடவமைப்புடன் வரைபடத்தில் காட்டப்பட வேண்டும். பின்புறத்தில் சிஸ்டமிக் வளைவுகள் இணைந்து முதுகுப்புற பெருந்தமனியை உருவாக்குகின்றன. கலோட்ஸுக்கு பாலூட்டியைப் போல் முழுமையான வென்டிரிக்கிள் தடுப்புச் சுவரையோ முதலையின் நான்கு அறை இதயத்தையோ வரையக்கூடாது."
+              }
+            },
+            {
+              "key": "calotes-skeletal-sensory",
+              "heading": {
+                "en": "Calotes endoskeleton, brain and sense organs",
+                "ta": "கலோட்ஸின் உள்வன்கூடு, மூளை, உணர்வுறுப்புகள்"
+              },
+              "body": {
+                "en": "The axial skeleton comprises skull, vertebral column and ribs; paired pectoral and pelvic girdles support the pentadactyl limbs. Cervical flexibility, strong jaw musculature, claws and an elongated tail support arboreal and terrestrial movements. The brain comprises forebrain, midbrain and hindbrain subdivisions, including relatively developed visual centres appropriate for a visually orientated predator. Eyes possess eyelids and a nictitating membrane; external ear openings communicate through the tympanum with the middle ear. The tongue assists prey capture, but Calotes is not a ballistic-tongued true chameleon. Compare the cranium and temporal region with the schematic diapsid skull, while clearly distinguishing diagrams from verified specimen dissections.",
+                "ta": "அச்சு உள்வன்கூட்டில் மண்டையோடு, முதுகெலும்புத் தொடர், விலா எலும்புகள் அடங்கும்; மார்புப்பட்டை, இடுப்புப்பட்டை ஆகியவை ஐந்து விரல் உறுப்புகளைத் தாங்குகின்றன. கழுத்து அசைவு, தாடைத் தசைகள், நகங்கள், நீண்ட வால் ஆகியவை ஏறுதல் மற்றும் நில இயக்கத்திற்கு உதவுகின்றன. மூளை முன்மூளை, நடுமூளை, பின்மூளைப் பகுதிகளைக் கொண்டது; பார்வை சார்ந்த செயல்களில் நடுமூளை மையங்கள் முக்கியம். கண்களில் இமைகளும் மூன்றாம் இமை மடலும், செவியில் வெளித் திறப்பும் நடுச்செவியுடன் தொடர்புடைய செவிப்பறையும் காணப்படுகின்றன. கலோட்ஸ் உண்மையான பச்சோந்தியைப் போன்று மிக நீளமாக விரைவில் எறியும் நாக்கைக் கொண்டதல்ல. பெயரிடப்பட்ட உறுப்பமைப்பையும் பொதுவான டயாப்சிடா மண்டையோட்டு வரைபடத்தையும் வேறுபடுத்த வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -3370,6 +3887,28 @@
                 "en": "The end-Cretaceous mass extinction eliminated all non-avian dinosaurs about 66 million years ago, while the avian dinosaur lineage survived. Fossils preserve information on anatomical diversity, growth, environment and occasionally feathers or soft tissues. Geological time and phylogenetic branching are essential to interpreting extinct reptiles accurately.",
                 "ta": "கிரெட்டேசியக் காலத்தின் முடிவில் சுமார் அறுபத்தாறு மில்லியன் ஆண்டுகளுக்கு முன்பு பறவைகளல்லாத டைனோசர்கள் பெருமளவில் அழிந்தன. பறவைகளின் வழித்தோன்றல் மட்டும் தொடர்ந்து வாழ்ந்தது. புதைபடிவங்களில் எலும்பமைப்பு, வளர்ச்சி, வாழிடம் மற்றும் சில நேரங்களில் இறகுகள் போன்ற மென்மையான அமைப்புகளின் தடயங்களும் பாதுகாக்கப்படுகின்றன. புவியியல் காலக்கணக்கும் கிளைப்பரிணாம உறவும் அழிந்த ஊர்வனவற்றைச் சரியாகப் புரிந்துகொள்ள உதவுகின்றன."
               }
+            },
+            {
+              "key": "reptile-fossils-synapsids",
+              "heading": {
+                "en": "Cotylosaurs, Seymouria, dinosaurs, pterosaurs and marine reptiles",
+                "ta": "கோடைலோசார்கள், சீமூரியா, டைனோசர்கள், டெரோசார்கள், கடல் ஊர்வன"
+              },
+              "body": {
+                "en": "'Cotylosauria' was historically used for assorted early reptiles and amniote-like forms; it is not a precise modern clade. Seymouria had a combination of early tetrapod features and is often discussed near the amniote stem, rather than as a securely defined first true reptile. Dinosaurs belonged to Archosauria, and birds are surviving dinosaurs. Pterosaurs were flying archosaurs, not feathered birds; ichthyosaurs and plesiosaurs represent separate reptilian lineages adapted to marine life. Therapsids are synapsids on the mammalian evolutionary stem and should not be grouped as living reptiles. For each named fossil group, describe one diagnostic adaptation, approximate geological setting and evolutionary position, and distinguish extinction from survival of descendant lineages.",
+                "ta": "கோடைலோசாரியா என்பது பல தொடக்க அம்னியோட் போன்ற வடிவங்களுக்கு பழைய நூல்களில் வழங்கப்பட்ட பெயர்; துல்லியமான நவீன கிளை அல்ல. சீமூரியா ஆரம்ப நான்குகாலிகளின் கலப்புப் பண்புகளைக் கொண்டிருந்தது; முதல் உண்மையான ஊர்வன என்று உறுதியாகக் கூற முடியாது. டைனோசர்கள் ஆர்கோசாரியா கிளையைச் சேர்ந்தவை; பறவைகள் இன்றும் வாழும் டைனோசர் வழித்தோன்றல்களாகும். டெரோசார்கள் இறக்கையுள்ள பறவைகள் அல்ல, பறந்த ஆர்கோசார்கள். இக்தியோசார்கள் மற்றும் பிளீசியோசார்கள் கடல்வாழ்க்கைக்குத் தகவமைந்த தனித்த ஊர்வனக் கிளைகள். தெராப்சிட்கள் பாலூட்டிகளின் சினாப்சிடா மரபைக் குறிக்கின்றன. ஒவ்வொரு புதைபடிவக் குழுவுக்கும் அடையாளத் தகவமைப்பு, காலம், பரிணாம உறவு, அழிவு நிலை ஆகியவற்றைச் சொல்ல வேண்டும்."
+              }
+            },
+            {
+              "key": "terrestrialisation-amniote-egg",
+              "heading": {
+                "en": "Terrestrialisation, amniotic egg and skin adaptations",
+                "ta": "நிலவாழ்க்கைக்கான தகவமைப்பும் அம்னியோட்டிக் முட்டையும்"
+              },
+              "body": {
+                "en": "Amniote evolution enabled vertebrate reproduction to become less dependent on open water through extraembryonic membranes: amnion cushions the embryo, chorion contributes to gas exchange, allantois stores waste and assists respiration, and yolk sac supplies nutrition. Shell permeability and water balance vary across reptiles and birds, and some reptiles are live-bearing. Cornified epidermis and uric-acid-rich excretion also reduce water loss; stronger axial and appendicular support enables terrestrial locomotion. Fertilisation is internal in amniotes. Explain that terrestrialisation preceded and accompanied several evolutionary transitions; there was no single event when every aquatic character disappeared. Compare an amphibian egg with an amniotic egg using labels and functions.",
+                "ta": "அம்னியோட்டுகள் உருவானபோது கருவின் வளர்ச்சி திறந்த நீர்நிலையைச் சார்ந்திருப்பது குறைந்தது. அம்னியன் கருவைப் பாதுகாக்கும் திரவச் சூழலை அளிக்கிறது; கோரியன் வாயுப் பரிமாற்றத்தில், அலாண்டாய்ஸ் கழிவு சேமிப்பு மற்றும் சுவாசத்தில், மஞ்சள் கருப்பை ஊட்டச்சத்தில் பங்கெடுக்கின்றன. ஓடு வழியிலான வாயு, நீர் பரிமாற்றம் இனத்தின்படி மாறுபடுகிறது; சில ஊர்வன குட்டி ஈனுகின்றன. கெரட்டின் தோல், யூரிக் அமிலக் கழிவுநீக்கம், வலுவான எலும்பமைப்பு, உட்கருவுறுதல் ஆகியவை நிலவாழ்விற்கு உதவின. இருவாழ்வியின் முட்டையையும் அம்னியோட்டின் முட்டையையும் உறைப் பெயர், செயல்பாடு, நீர்ச்சார்பு ஆகியவற்றால் ஒப்பிட வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -3504,6 +4043,17 @@
               "body": {
                 "en": "The Indian rat snake (Ptyas mucosa) and Indian rock python (Python molurus) are examples of non-venomous species. Students should use authenticated field guides and expert-verified photographs rather than touching, catching or approaching unknown snakes. A suspected snakebite requires medical assessment regardless of whether a bystander thinks the snake was harmless.",
                 "ta": "சாரைப்பாம்பு எனப்படும் ப்டையாஸ் மியூகோசா மற்றும் இந்திய மலைப்பாம்பு எனப்படும் பைதான் மொலூரஸ் ஆகியவை விஷம் செலுத்தாத பாம்புகளுக்கான எடுத்துக்காட்டுகளாகும். மாணவர்கள் உறுதிசெய்யப்பட்ட கள வழிகாட்டிகளையும் வல்லுநர் சரிபார்த்த ஒளிப்படங்களையும் பயன்படுத்த வேண்டும். அறியாத பாம்பைத் தொடுதல், பிடித்தல் அல்லது அருகில் சென்று அடையாளம் காணுதல் ஆபத்தானதாகும். எந்தப் பாம்பு கடித்தாலும் மருத்துவ மதிப்பீடு அவசியம்."
+              }
+            },
+            {
+              "key": "indian-snake-comparative-identification",
+              "heading": {
+                "en": "Indian snakes: medically important groups and identification limits",
+                "ta": "இந்தியப் பாம்புகள் — மருத்துவ முக்கியத்துவமும் அடையாள வரம்புகளும்"
+              },
+              "body": {
+                "en": "The commonly taught 'big four' venomous snakes are the Indian cobra (Naja naja), common krait (Bungarus caeruleus), Russell's viper (Daboia russelii) and saw-scaled viper (Echis carinatus). India has many other medically important venomous species, including regional kraits, cobras, pit vipers and sea snakes. Non-venomous examples include many rat snakes, pythons and some keelbacks, but a lay observer cannot safely classify a snake using pupils, head shape or colour alone. Compare fang apparatus and venom effects scientifically without promoting close inspection or handling. In teaching images, label a species only when identification has a trustworthy source; use 'unconfirmed species' rather than a guessed name.",
+                "ta": "பொதுவாகக் கற்பிக்கப்படும் முக்கிய நான்கு நஞ்சுப் பாம்புகள் இந்திய நாகம், கட்டுவிரியன், கண்ணாடிவிரியன், சுருட்டை விரியன் ஆகும். இந்தியாவில் வேறு சில நாகங்கள், கட்டுவிரியன்கள், குழிவிரியன்கள், கடற்பாம்புகளும் மருத்துவ முக்கியத்துவம் வாய்ந்தவை. சாரைப்பாம்பு, மலைப்பாம்பு போன்ற பல இனங்கள் நஞ்சற்றவை; ஆனால் தலைவடிவம், கண்ணின் மணிவடிவு, நிறம் ஆகியவற்றை மட்டும் வைத்து பொதுமக்கள் பாம்பை பாதுகாப்பாக அடையாளம் காண முடியாது. பாம்பைத் தொடுதல் அல்லது அருகில் சென்று ஆராய்தல் கூடாது. நம்பத்தகுந்த அடையாள ஆதாரம் இல்லாத படத்தைத் தவறான இனப்பெயருடன் வழங்கக் கூடாது. படத்தில் 'இனம் உறுதிசெய்யப்படவில்லை' எனக் குறிப்பிடுவது சரியான நடைமுறை."
               }
             }
           ],
@@ -3650,6 +4200,17 @@
                 "en": "In hospital, trained clinicians assess airway, breathing, circulation and features of envenoming; antivenom is given when clinically indicated. Ptosis, difficulty swallowing or breathing, abnormal bleeding and progressive swelling are important warning signs, but symptoms may be delayed. This educational text does not replace emergency protocols or local clinical judgement.",
                 "ta": "மருத்துவமனையில் பயிற்சி பெற்ற மருத்துவர்கள் சுவாசப் பாதை, சுவாசம், இரத்த ஓட்டம் மற்றும் விஷத்தாக்க அறிகுறிகளை மதிப்பிடுகின்றனர். மருத்துவத் தேவைக்கேற்ப எதிர்விஷ மருந்து வழங்கப்படுகிறது. கண் இமைத் தாழ்வு, விழுங்குவதில் சிரமம், மூச்சுத்திணறல், அசாதாரண இரத்தக்கசிவு மற்றும் அதிகரிக்கும் வீக்கம் ஆகியவை முக்கிய எச்சரிக்கை அறிகுறிகளாகும். சில அறிகுறிகள் தாமதமாகத் தோன்றலாம். இந்தக் கல்விக் குறிப்பு அவசர மருத்துவ வழிகாட்டுதலுக்கு மாற்றாகாது."
               }
+            },
+            {
+              "key": "fang-mechanisms-and-venom",
+              "heading": {
+                "en": "Fang morphology, venom delivery and major physiological effects",
+                "ta": "நஞ்சுப் பற்கள், நஞ்சு செலுத்துதல், உடலியல் விளைவுகள்"
+              },
+              "body": {
+                "en": "Snake venom is a secretion from specialised salivary glands and can contain enzymes, peptides and other bioactive molecules. Elapid snakes commonly possess fixed, short anterior proteroglyphous fangs; vipers have long hinged solenoglyphous fangs that rotate during striking. Some rear-fanged colubroids use grooved opisthoglyphous teeth and variable venom systems. Explain the sequence of muscular compression of the gland, duct transport and injection through or along the fang. Venom components may cause neurotoxicity, coagulopathy, tissue injury or renal complications, depending on snake and dose; the convenient 'neurotoxic versus haemotoxic' labels are not exclusive categories. No visual bite mark reliably determines the species or severity.",
+                "ta": "பாம்பு நஞ்சு சிறப்பான உமிழ்நீர்ச் சுரப்பிகளிலிருந்து உருவாகும் உயிர்ச் செயற்பாட்டுப் பொருட்களின் கலவையாகும். எலாபிட் குடும்பப் பாம்புகளில் முன்புறம் நிலையான குறுகிய நஞ்சுப் பற்கள்; விரியன் குடும்பத்தில் முன்புறம் மடக்கிக்கொள்ளும் நீண்ட நஞ்சுப் பற்கள் காணப்படும். சில பின்புறப் பற்களுடைய பாம்புகளில் பள்ளம் கொண்ட பற்கள் வழி நஞ்சு செல்கிறது. சுரப்பியைச் சுற்றிய தசைகள் சுருங்கி நஞ்சை நாளம் வழியாகப் பற்களுக்கு அனுப்புகின்றன. நஞ்சு நரம்பு மண்டலம், இரத்த உறைதல், திசுக்கள், சிறுநீரகம் போன்றவற்றை பாதிக்கலாம்; விளைவுகள் ஒன்றோடொன்று இணைந்தும் இருக்கும். கடித்த குறியை மட்டும் வைத்து இனம் அல்லது நஞ்சின் தீவிரத்தைக் கணிக்க இயலாது."
+              }
             }
           ],
           "quiz": [
@@ -3784,6 +4345,17 @@
               "body": {
                 "en": "Turtles often appear anapsid-like because their living skulls lack the conventional temporal openings, but molecular and broader anatomical studies place them within Diapsida. A classroom comparison should therefore distinguish a descriptive skull pattern from actual evolutionary ancestry. Labelling turtles simply as primitive anapsid ancestors is misleading.",
                 "ta": "தற்போது வாழும் பல ஆமைகளின் தலையோட்டில் பாரம்பரிய பக்கத் திறப்புகள் இல்லாததால் அனாப்சிட் போன்ற தோற்றம் காணப்படுகிறது. ஆனால் மூலக்கூறு மற்றும் விரிவான உடற்கூறு ஆய்வுகள் ஆமைகளை டயாப்சிட் பரிணாமக் கிளைக்குள் வைக்கின்றன. வகுப்பறையில் தோற்றத்தின் அடிப்படையிலான தலையோட்டுப் பெயரிடலையும் உண்மையான பரிணாம மூதாதை உறவையும் வேறுபடுத்த வேண்டும். ஆமைகளைப் பழமையான அனாப்சிட் மூதாதைகள் என்று மட்டும் குறிப்பிடுவது தவறாகும்."
+              }
+            },
+            {
+              "key": "temporal-fenestrae-interpretation",
+              "heading": {
+                "en": "Temporal fenestrae, jaw musculature and modern limits",
+                "ta": "மண்டையோட்டு பக்கவாட்டுத் துளைகள், தாடைத் தசைகள், வரம்புகள்"
+              },
+              "body": {
+                "en": "Temporal fenestrae are openings behind the orbit, bordered by cranial bones and associated with jaw musculature; their arrangement can reduce skull mass and permit muscular expansion. In the historical categories, 'anapsid' denotes no temporal opening, 'synapsid' one lateral opening, and 'diapsid' two openings separated by bony bars. A single opening in some marine reptile skulls led to obsolete 'euryapsid/parapsid' schemes; its developmental and evolutionary origin must be considered. Modern phylogenetic evidence places turtles among diapsids despite their derived roofed skulls. Explain this distinction before labelling diagrams; classify living reptile lineages by multiple characters and molecular relationships, never fenestrae alone.",
+                "ta": "மண்டையோட்டில் கண்குழிக்குப் பின்னுள்ள துளைகள் தாடைத் தசைகளின் இடவமைப்புடன் தொடர்புடையவை; அவை மண்டையோட்டின் எடையைக் குறைக்கவும் தசைக்கு இடமளிக்கவும் உதவலாம். பழைய வகைப்பாட்டில் துளையற்றது அனாப்சிடா, ஒரு துளையுள்ளது சினாப்சிடா, இரண்டு துளையுள்ளது டயாப்சிடா என அழைக்கப்படுகிறது. கடல் ஊர்வனவற்றின் மாற்றமடைந்த துளை அமைப்பு காரணமாகப் பாராப்சிடா போன்ற பழைய பிரிவுகள் உருவாயின. ஆமைகளில் மண்டையோட்டு துளைகள் மூடப்பட்டிருந்தாலும் அவற்றின் பரிணாம உறவு டயாப்சிடா கிளையுடனே அமைவதாக நவீன ஆதாரங்கள் காட்டுகின்றன. துளைகளின் எண்ணிக்கையை மட்டும் கொண்டு இன்றைய வகைப்பாட்டை முடிவுசெய்யக் கூடாது."
               }
             }
           ],
@@ -3927,6 +4499,50 @@
               "body": {
                 "en": "Birds are surviving theropod dinosaurs, and fossil evidence includes feathered non-avian dinosaurs. Living bird lineages occupy terrestrial, aquatic and aerial habitats and act as seed dispersers, predators, scavengers and pollinators. Anatomical and ecological diversity can be compared without depicting present birds as descendants of living reptiles.",
                 "ta": "பறவைகள் தெரோபாட் டைனோசர்களின் வாழ்ந்து தொடரும் பரிணாமக் கிளையாகும். பறவையல்லாத இறகுடைய டைனோசர் புதைபடிவங்கள் இத்தொடர்பிற்கு ஆதாரமளிக்கின்றன. இன்றைய பறவைகள் நிலம், நீர் மற்றும் வான்சார்ந்த பல வாழிடங்களில் வாழ்கின்றன. விதை பரப்புதல், வேட்டையாடுதல், இறந்த உயிரிகளை அகற்றுதல், மகரந்தச் சேர்க்கை போன்ற சூழலியல் பங்குகளையும் செய்கின்றன."
+              }
+            },
+            {
+              "key": "archaeornithes-neornithes",
+              "heading": {
+                "en": "Archaeornithes, Neornithes and the modern bird tree",
+                "ta": "ஆர்கியோர்னிதீஸ், நியோர்னிதீஸ் மற்றும் நவீனப் பறவை மரபுமரம்"
+              },
+              "body": {
+                "en": "Older university texts use 'Archaeornithes' for ancient toothed, long-tailed birds including Archaeopteryx, and 'Neornithes' for modern-type birds. Archaeopteryx combines feathers and flight-related features with teeth, clawed digits and a long bony tail, supporting a theropod dinosaur connection but not making it the direct ancestor of every modern bird. Living birds comprise Palaeognathae (including ratites and tinamous) and Neognathae, which radiated into waterbirds, landbirds, songbirds and many other groups. Ratite traditionally refers to mostly flightless ostriches, emus, rheas and relatives; tinamous retain flight within the palaeognath radiation. Modern relationships depend on fossils, anatomy and genomic evidence rather than a simple flightless-to-flying progression.",
+                "ta": "பழைய நூல்களில் ஆர்கியோர்னிதீஸ் என்ற பெயர் ஆர்கியோப்டெரிக்ஸ் போன்ற பற்கள், நீண்ட எலும்பு வால் கொண்ட பழங்காலப் பறவைகளுக்குப் பயன்படுத்தப்பட்டது; நியோர்னிதீஸ் இன்றைய பறவைக் கிளையை உள்ளடக்கும். ஆர்கியோப்டெரிக்ஸில் இறகுகள், பற்கள், நகமுள்ள விரல்கள், நீண்ட வால் காணப்பட்டன; அது எல்லாப் பறவைகளின் நேரடி மூதாதை என்று உறுதிசெய்ய முடியாது. இன்றைய பறவைகளில் பாலியோக்நாதே மற்றும் நீயோக்நாதே என்ற முக்கியக் கிளைகள் உள்ளன. ராட்டைட் என்று அழைக்கப்படும் பல பறக்காத பறவைகளும் பறக்கக்கூடிய டினமூக்களும் பாலியோக்நாதே உறவுக்குள் அடங்குகின்றன. புதைபடிவம், உறுப்பமைப்பு, மரபணு ஆதாரம் ஆகியவற்றைக் கொண்டு கிளைப்படியான பரிணாம உறவை விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "avian-classification-characters",
+              "heading": {
+                "en": "Representative orders of Aves and identification characters",
+                "ta": "ஏவிஸ் வரிசைகளும் அடையாளப் பண்புகளும்"
+              },
+              "body": {
+                "en": "Give representative living orders and features: Galliformes (ground-feeding fowl with strong legs), Anseriformes (ducks and geese, often with webbed feet), Columbiformes (pigeons and doves), Psittaciformes (parrots with curved bills and grasping feet), Strigiformes (owls), Accipitriformes/Falconiformes (different raptorial lineages) and Passeriformes (perching birds, including songbirds). Modern DNA studies have changed the placement of many orders, so ecological similarity is not proof of close ancestry. Compare beak, foot, sternum, wing form, feeding mode and habitat through a diagnostic table. Do not confuse 'ratites' with a single taxonomic order or assume that all large birds have lost flight.",
+                "ta": "பறவைகளின் முக்கிய வரிசைகளில் கேலிஃபார்மீஸ் (கோழியினங்கள்), அன்செரிஃபார்மீஸ் (வாத்துகள்), கொலம்பிஃபார்மீஸ் (புறாக்கள்), சிட்டாசிஃபார்மீஸ் (கிளிகள்), ஸ்டிரிஜிஃபார்மீஸ் (ஆந்தைகள்), இரைவிழுங்கும் பறவைகளின் தொடர்புடைய வரிசைகள், பாசெரிஃபார்மீஸ் (அமர்வுப் பறவைகள்) ஆகியவற்றைக் குறிப்பிட வேண்டும். அலகு, கால் விரல்கள், மார்பெலும்பு, இறக்கை வடிவு, உணவுமுறை ஆகியவற்றின் அடிப்படையில் ஒப்பிடலாம். ஒரே உணவு முறையுள்ள பறவைகள் அவசியம் நெருங்கிய மரபுவழி உறவுடையவை அல்ல. மரபணு ஆய்வுகளினால் பல வரிசைகளின் உறவுகள் திருத்தப்பட்டுள்ளன. ராட்டைட் என்பது ஒரே வரிசையின் பெயர் அல்ல."
+              }
+            },
+            {
+              "key": "origin-of-birds-theropods",
+              "heading": {
+                "en": "Origin of birds from theropod dinosaurs",
+                "ta": "தெரோபாட் டைனோசர்களிலிருந்து பறவைகளின் தோற்றம்"
+              },
+              "body": {
+                "en": "Birds evolved within maniraptoran theropod dinosaurs. Fossils document feathers, furculae, air-filled skeletal elements, brooding postures and modifications of the wrist and forelimb across related dinosaurs and early birds. Feathers arose before fully developed powered flight and likely served multiple functions, including insulation and display. Archaeopteryx is an important transitional early avialan relative, but the fossil record represents branching relationships rather than a chain from a single dinosaur species to pigeons. Compare hypotheses for the origin of flight without presenting either cursorial or arboreal scenarios as definitively settled in every detail.",
+                "ta": "பறவைகள் மனிராப்டோரன் தெரோபாட் டைனோசர் மரபுக்குள் தோன்றின. தொடர்புடைய புதைபடிவங்களில் இறகுகள், ஃபர்குலா, காற்று நிறைந்த எலும்புக் கூறுகள், முட்டைப் பாதுகாப்பு நிலை, மணிக்கட்டு மற்றும் முன்கால் மாற்றங்கள் காணப்படுகின்றன. முழுமையான இயக்கப் பறத்தலுக்கு முன்பே இறகுகள் தோன்றி வெப்பப் பாதுகாப்பு, காட்சி தொடர்பு போன்ற பணிகளுக்குப் பயன்பட்டிருக்கலாம். ஆர்கியோப்டெரிக்ஸ் தொடக்கப் பறவைகளின் பரிணாம உறவை விளக்கும் முக்கியப் புதைபடிவமாகும்; இன்றைய புறாவின் நேரடி மூதாதை என்று உறுதியாகக் கூற முடியாது. பறத்தல் தோற்றத்தை விளக்கும் நில ஓட்டக் கோட்பாடு, மரவாழ் கோட்பாடு ஆகியவற்றை ஆதாரங்களுடன் ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "ratitae-ostrich-emu-tinamou",
+              "heading": {
+                "en": "Ratitae and palaeognaths: flightlessness is not a single origin",
+                "ta": "ராட்டைட் மற்றும் பாலியோக்நாதே — பறக்காமையின் பல்வேறு தோற்றங்கள்"
+              },
+              "body": {
+                "en": "Traditional Ratitae includes ostriches, emus, rheas, cassowaries and kiwis, typically with reduced flight muscles and specialised hindlimbs for running or walking. These birds show diverse body size, plumage, habitat and parental care; ostriches have strong running legs whereas kiwis use sensory probing and nocturnal habits. Tinamous are flying palaeognaths, and molecular evidence indicates that flightlessness arose more than once within the palaeognath lineage. Thus the old 'ratite' assemblage should be taught as an ecological-morphological category, not as proof of a single flightless ancestor of every member. Explain reduced or absent sternal keel alongside wing and leg alterations, avoiding claims that all ratites are identical flightless forms.",
+                "ta": "பழைய ராட்டைட் குழுவில் தீக்கோழி, ஈமு, ரியா, கசோவரி, கிவி போன்ற பறவைகள் அடங்குகின்றன. பல இனங்களில் பறத்தல் தசைகள் குறைந்து, நடப்பதற்கும் ஓடுவதற்கும் கால்கள் தகவமைந்துள்ளன. தீக்கோழி வேகமாக ஓடும் பெரிய பறவை; கிவி இரவில் உணவு தேடும் சிறிய பறவை. பாலியோக்நாதே கிளையில் பறக்கக்கூடிய டினமூக்களும் உள்ளன. மரபணு ஆதாரங்கள் பறக்க முடியாத நிலை பல கிளைகளில் தனித்தனியாகத் தோன்றியிருக்கலாம் எனக் காட்டுகின்றன. எனவே ராட்டைட் என்ற பெயரை ஒரே பறக்காத மூதாதையிலிருந்து உருவான முழுமையான இயற்கைக் குழுவாகக் கற்பிக்கக் கூடாது. மார்பெலும்பு கீல், இறக்கை, பின்னங்கால் மாற்றங்களை உதாரணங்களுடன் விளக்க வேண்டும்."
               }
             }
           ],
@@ -4073,6 +4689,39 @@
                 "en": "Pigeons possess large, visually capable eyes and well-developed inner-ear equilibrium organs. The outer ear opening is covered by feathers, and the middle ear transmits sound through a columella. Their orientation can integrate visual landmarks, sun-related cues and magnetic information; no single mechanism should be taught as the sole navigation system.",
                 "ta": "புறாக்களில் நன்கு வளர்ந்த கண்களும் சமநிலையை உணரும் உள்காது அமைப்புகளும் காணப்படுகின்றன. வெளிக்காது திறப்பைச் சுற்றி இறகுகள் உள்ளன. நடுக்காதில் கோலுமெல்லா என்னும் செவியெலும்பு ஒலியை கடத்துகிறது. புறாக்கள் வழி அறிய நில அடையாளங்கள், சூரியன் சார்ந்த குறிப்புகள் மற்றும் பூமியின் காந்தப்புலத் தகவல்களை இணைத்துப் பயன்படுத்தக்கூடும். ஒரு முறையே திசையறிதலின் முழுமையான காரணம் என்று கூறக் கூடாது."
               }
+            },
+            {
+              "key": "pigeon-digestive-respiratory",
+              "heading": {
+                "en": "Columba livia: feeding, crop milk and respiratory system",
+                "ta": "கொலம்பா லிவியா — உணவூட்டம், பயிர்ப்பை பால், சுவாச அமைப்பு"
+              },
+              "body": {
+                "en": "The rock pigeon has a toothless beak, oesophagus with a crop for temporary storage, a glandular proventriculus and muscular gizzard for grinding food. Both parents produce nutrient-rich crop milk from proliferated crop epithelium to feed nestlings; it is not milk from mammalian mammary glands. The avian respiratory system includes comparatively rigid lungs with parabronchi and associated air sacs, supporting directional airflow through the lung during both inhalation and exhalation. Air sacs act as ventilatory bellows rather than the primary gas-exchange surface. Explain the route of air, the two-breath cycle and the role of pectoral and intercostal movement; do not depict a mammalian alveolar lung in pigeon.",
+                "ta": "கொலம்பா லிவியாவில் பற்களற்ற அலகு, உணவைத் தற்காலிகமாகச் சேமிக்கும் பயிர்ப்பை, சுரப்பி வயிறு, அரைக்கும் தசை வயிறு ஆகியவை உள்ளன. ஆணும் பெண்ணும் குஞ்சுகளுக்கு ஊட்டம் நிறைந்த பயிர்ப்பை பாலை வழங்குகின்றன; இது பாலூட்டிகளின் பால்சுரப்பியிலிருந்து உண்டாகும் பால் அல்ல. புறாவின் நுரையீரல் ஒப்பீட்டளவில் உறுதியான பாராபிராங்க்கை அமைப்பைக் கொண்டது; காற்றுப்பைகள் காற்றை நகர்த்தும் ஊதுகுழல் போன்று செயல்படுகின்றன. உள்ளிழுக்கும் போதும் வெளியேற்றும் போதும் நுரையீரல் வழியான காற்றோட்டம் திசைமுறையுடன் நடைபெறுகிறது. முதன்மையான வாயுப் பரிமாற்றம் நுரையீரலில்தான் நிகழ்கிறது; காற்றுப்பைகளில் அல்ல. பாலூட்டியின் அல்வியோலை அமைப்பை புறாவிற்குக் காட்டக் கூடாது."
+              }
+            },
+            {
+              "key": "pigeon-circulation-excretion",
+              "heading": {
+                "en": "Pigeon heart, excretion and reproductive anatomy",
+                "ta": "புறாவின் இதயம், கழிவுநீக்கம், இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Birds possess a fully divided four-chambered heart with separate pulmonary and systemic circulations; the right systemic aortic arch persists in birds, contrasting with the left in mammals. The kidneys are divided into lobes within the synsacral region and nitrogenous waste is excreted mainly as uric acid through the cloaca; most birds lack a urinary bladder. In the female pigeon the left ovary and oviduct are predominantly functional, while males have paired testes and ducts opening into the cloaca. Describe the infundibulum, magnum, isthmus, shell gland/uterus and vagina along the oviduct, linking each segment to egg formation. A verified reproductive plate should distinguish male and female structures rather than combine them into an impossible specimen.",
+                "ta": "பறவைகளில் நான்கு அறைகள் கொண்ட முழுமையாகப் பிரிந்த இதயமும் தனித்த நுரையீரல், உடல் இரத்தச் சுழற்சியும் காணப்படும். பறவைகளில் வலது சிஸ்டமிக் ஆர்டிக் வளைவு நிலைத்திருப்பது பாலூட்டிகளிலுள்ள இடது வளைவிலிருந்து வேறுபடும். புறாவின் சிறுநீரகங்கள் சின்சேக்ரம் அருகில் பல பாகங்களாக அமைந்து யூரிக் அமிலக் கழிவை பொதுக் கழிவுத்துவாரம் வழியாக வெளியேற்றுகின்றன; பெரும்பாலான பறவைகளில் சிறுநீர்ப்பை இல்லை. பெண் புறாவில் இடது சூலகமும் முட்டைக் குழாயும் முக்கியமாகச் செயல்படுகின்றன. ஆணில் ஜோடி விந்தகங்கள் உள்ளன. முட்டைக் குழாயின் இன்பண்டிபுலம், மக்னம், இஸ்த்மஸ், ஓடுச்சுரப்பி, யோனி பகுதிகளை முட்டை உருவாக்கத்துடன் இணைத்து விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "pigeon-skeleton-feathers",
+              "heading": {
+                "en": "Pigeon skeleton, pectoral muscles and feather microstructure",
+                "ta": "புறா எலும்புக்கூடு, மார்புத் தசைகள், இறகின் நுண்கட்டமைப்பு"
+              },
+              "body": {
+                "en": "The axial skeleton shows extensive fusion: synsacrum, pygostyle and a rigid trunk, while the sternum carries a keel for attachment of major flight muscles. Pectoralis supplies much of the downstroke force; supracoracoideus elevates the wing through a tendon passing the triosseal canal. The furcula, coracoids and scapula stabilise the shoulder. Contour feathers comprise calamus, rachis, barbs and interlocking barbules, giving a lightweight airfoil; primary and secondary remiges contribute to flight, while rectrices assist control. Distinguish pneumatic bones from fused bones: the two traits serve different functions and are not universal in every avian element. Include labelled pectoral girdle and wing-bone comparisons.",
+                "ta": "புறாவின் அச்சு எலும்புக்கூட்டில் சின்சேக்ரம், பைகோஸ்டைல் போன்ற இணைந்த எலும்புப் பகுதிகள் உள்ளன; மார்பெலும்பின் கீல் பகுதியில் வலுவான பறத்தல் தசைகள் பற்றுகின்றன. பெக்டோராலிஸ் தசை இறக்கையை கீழிறக்க உதவுகிறது; சுப்ராகோரகாய்டியஸ் தசையின் தண்டு ட்ரையோசியல் கால்வாய் வழியாகச் சென்று இறக்கையை உயர்த்த உதவுகிறது. ஃபர்குலா, கோரகாய்டு, ஸ்காபுலா ஆகியவை தோள்பட்டையை உறுதிப்படுத்துகின்றன. இறகில் கலாமஸ், ராக்கிஸ், பார்புகள், ஒன்றோடு ஒன்று பொருந்தும் பார்பியூல்கள் காணப்படும். முதன்மை, இரண்டாம் பறத்தல் இறகுகளும் வால் இறகுகளும் இயக்கக் கட்டுப்பாட்டிற்கு உதவுகின்றன. காற்று நிறைந்த எலும்பையும் ஒன்றிணைந்த எலும்பையும் ஒரே பண்பாகக் கருதக் கூடாது."
+              }
             }
           ],
           "quiz": [
@@ -4210,6 +4859,17 @@
                 "en": "Bird lungs use parabronchial gas exchange with air sacs acting as bellows, permitting largely one-way airflow through exchange tissues across inhalation and exhalation phases. High cardiac output and aerobic metabolism support sustained flight. Flightlessness may evolve when selection favours swimming or running rather than aerial locomotion.",
                 "ta": "பறவைகளின் நுரையீரலில் பாராப்ராங்கியல் அமைப்புகள் வாயுப் பரிமாற்றத்தில் பங்கேற்கின்றன. காற்றுப்பைகள் துருத்திகளைப் போல் செயல்பட்டு வாயுப் பரிமாற்றப் பகுதிகள் வழியாக பெரும்பாலும் ஒரே திசை காற்றோட்டத்தைப் பராமரிக்க உதவுகின்றன. திறன்மிக்க இரத்த ஓட்டமும் ஆக்சிஜன் சார்ந்த ஆற்றல் உற்பத்தியும் தொடர்ச்சியான பறப்பை ஆதரிக்கின்றன. சில பறவைகளில் நீந்துதல் அல்லது ஓடுதல் முக்கியமாக மாறும்போது பறக்கும் திறன் இழக்கப்படலாம்."
               }
+            },
+            {
+              "key": "flight-energetics-aerodynamics",
+              "heading": {
+                "en": "Aerodynamics and energy costs of avian flight",
+                "ta": "பறத்தலின் காற்றியக்கவியலும் ஆற்றல் செலவும்"
+              },
+              "body": {
+                "en": "Lift depends on airflow around a wing and its interaction with downward-deflected air, while thrust and drag vary with wing movement, speed and body form. During flapping flight, the main flight muscles generate forces through coordinated downstroke and recovery upstroke; birds also use soaring, gliding and hovering in species-specific ways. High aerobic capacity is supported by a large heart, efficient pulmonary gas exchange, mitochondrial-rich muscles and energy-rich fuels. Flight entails substantial energetic costs and can shape wing aspect ratio, feather moult and migration strategies. Avoid implying that air pressure above the wing alone explains lift or that every bird can sustain hovering.",
+                "ta": "இறக்கையைச் சுற்றிய காற்றோட்டமும் காற்று கீழ்நோக்கித் திருப்பப்படுவதும் தூக்கு விசையை உருவாக்க உதவுகின்றன; முன்னேற்ற விசையும் எதிர்ப்பும் இறக்கை அசைவு, வேகம், உடல் வடிவத்தைப் பொறுத்து மாறும். அடிவீச்சு, மேலெழுச்சி ஆகிய இயக்கங்களில் மார்புத் தசைகள் ஒருங்கிணைந்து செயல்படுகின்றன. சில பறவைகள் சிறகடித்தும், சிலவை காற்றோட்டத்தில் மிதந்தும், சில குறிப்பிட்ட இனங்கள் நிலைத்துப் பறந்தும் இயங்குகின்றன. அதிக ஆக்சிஜன் தேவை நான்கு அறை இதயம், திறம்பட்ட நுரையீரல், மைட்டோகாண்ட்ரியா நிறைந்த தசைகள் மூலம் நிறைவேறுகிறது. இறக்கை வடிவு, இறகுமாற்றம், இடம்பெயர்வு ஆகியவற்றுடன் ஆற்றல் செலவை இணைத்து விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -4346,6 +5006,17 @@
                 "en": "Migration demands fuel storage, suitable weather and reliable stopover sites for feeding and rest. Loss of wetlands, artificial lighting, collisions and climate change may threaten migratory populations. Conservation therefore depends on connected habitats across political boundaries, not only the protection of a single breeding site.",
                 "ta": "வலசைக்குப் போதுமான ஆற்றல் சேமிப்பு, ஏற்ற காலநிலை மற்றும் இடைநிறுத்தி உணவு உண்ணும் வாழிடங்கள் தேவையாகின்றன. ஈரநில அழிவு, செயற்கை ஒளி, கட்டமைப்புகளுடன் மோதல் மற்றும் காலநிலை மாற்றம் ஆகியவை வலசைப் பறவைகளைப் பாதிக்கலாம். எனவே இனப்பெருக்க இடத்தை மட்டும் பாதுகாப்பது போதாது. நாடுகளின் எல்லைகளைத் தாண்டி இணைந்த வாழிடங்களையும் பாதுகாப்பது மிகவும் முக்கியமாகும்."
               }
+            },
+            {
+              "key": "bird-migration-evidence",
+              "heading": {
+                "en": "Bird migration routes, mechanisms and Indian examples",
+                "ta": "பறவை இடம்பெயர்வு வழிகள், இயங்குமுறை, இந்திய எடுத்துக்காட்டுகள்"
+              },
+              "body": {
+                "en": "Seasonal migration is often coordinated by photoperiod, inherited orientation programmes, weather and food availability. Birds can use celestial cues, the Earth's magnetic field, landmarks and learned routes; juveniles and adults may navigate differently. Energy storage as fat and use of staging wetlands are central to long-distance flights. In India, migratory waterbirds use coastal estuaries and inland wetlands; species-specific examples must be checked against reliable regional observation records rather than assumed from a generic illustration. Ringing, satellite telemetry, geolocators and citizen-science counts help reveal flyways, stopovers and population change. Habitat loss, power lines, pollution and climate shifts can disrupt travel.",
+                "ta": "பகல் நேர நீளம், உட்பிறப்பான திசையுணர்வு, வானிலை, உணவுத் தேவை ஆகியவை பருவகால இடம்பெயர்வைத் தூண்டுகின்றன. பறவைகள் சூரியன், நட்சத்திரங்கள், புவிக்காந்தப் புலம், நில அடையாளங்கள் ஆகியவற்றின் உதவியுடன் வழிகாணலாம். நீண்ட தூரப் பறப்பிற்கு கொழுப்பு சேமிப்பும் இடைநிறுத்த ஈரநிலங்களும் அவசியம். இந்தியாவின் கடலோரக் கழிமுகங்கள், உள்நாட்டு ஈரநிலங்கள் பல பறவைகளின் தங்குமிடங்களாகும்; குறிப்பிட்ட இன உதாரணங்களை நம்பத்தகுந்த பதிவுகளுடன் உறுதிசெய்ய வேண்டும். வளையமிடல், செயற்கைக்கோள் கண்காணிப்பு, மக்கள்சார் பறவை கணக்கெடுப்பு ஆகியவை இடம்பெயர்வு வழிகளை அறிய உதவுகின்றன. ஈரநில அழிவு, மின்கம்பி, மாசு, காலநிலை மாற்றம் ஆகிய அபாயங்களை விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -4479,6 +5150,39 @@
               "body": {
                 "en": "Mammals have diversified into terrestrial, subterranean, arboreal, aerial and aquatic lifestyles. Most are endothermic and provide milk to young, but hair may be greatly reduced in cetaceans and egg laying persists in monotremes. These exceptions reinforce the need to use a combination of traits for classification.",
                 "ta": "பாலூட்டிகள் நிலம், நிலத்தடி, மரங்கள், வான்வெளி மற்றும் நீர்வாழிடங்கள் உள்ளிட்ட பல சூழல்களில் வாழ்கின்றன. பெரும்பாலானவை உட்வெப்பநிலையைக் கட்டுப்படுத்துகின்றன; குட்டிகளுக்குப் பால் வழங்குகின்றன. திமிங்கிலங்கள் போன்ற நீர்வாழ் பாலூட்டிகளில் முடி மிகவும் குறைந்திருக்கலாம். மோனோட்ரீம்களில் முட்டையிடுதல் தொடர்கிறது. எனவே ஒரே வெளிப்புறப் பண்பை மட்டும் கொண்டு பாலூட்டிகளை வகைப்படுத்தக் கூடாது."
+              }
+            },
+            {
+              "key": "mammalian-orders-and-radiation",
+              "heading": {
+                "en": "Mammalian subclasses, important orders and evolutionary radiation",
+                "ta": "பாலூட்டிகளின் உட்பிரிவுகள், வரிசைகள், பரிணாமப் பல்வகைமை"
+              },
+              "body": {
+                "en": "Traditional teaching divides mammals into Prototheria (monotremes), Metatheria (marsupials) and Eutheria (placentals); modern phylogenies recognise monotremes as the surviving branch of Monotremata and marsupials plus placentals as Theria. Representative placental orders include Primates, Rodentia, Lagomorpha, Chiroptera, Carnivora, Cetartiodactyla, Perissodactyla and Proboscidea. Explain dentition, limb modification, placentation, habitat and examples rather than memorising names alone. Adaptive radiation is diversification from common ancestry into contrasting ecological niches, not a ladder of superiority. Australia's marsupial radiations and the multiple independent returns to aquatic life illustrate distinct evolutionary patterns. Do not treat every egg-laying or pouch-bearing character as universal among all mammals.",
+                "ta": "மரபுவழி வகைப்பாட்டில் புரோட்டோதீரியா (முட்டையிடும் பாலூட்டிகள்), மெட்டாதீரியா (மார்சூப்பியல்கள்), யூதீரியா (நஞ்சுக்கொடி பாலூட்டிகள்) என்ற பிரிவுகள் பயன்படுகின்றன. நவீன மரபுவழி முறையில் மோனோட்ரீம்கள் தனித்த கிளையாகவும் மார்சூப்பியல்கள், நஞ்சுக்கொடி பாலூட்டிகள் தீரியா கிளையாகவும் கருதப்படுகின்றன. பிரைமேட்டுகள், ரோடென்ஷியா, லாகோமார்ஃபா, கைரோப்டெரா, கார்னிவோரா, செட்டார்டியோடாக்டைலா, பெரிசோடாக்டைலா, புரோபோசிடியா போன்ற முக்கிய வரிசைகளுக்கு உறுப்பமைப்பு, பற்கள், இயக்கம், வாழிடம் ஆகிய அடையாளப் பண்புகளை வழங்க வேண்டும். ஒரே மூதாதை மரபிலிருந்து பல சூழலியல் இடங்களை நிரப்பும் கிளைகள் உருவாவதே தகவமைப்புப் பரவல்; உயர்வு-தாழ்வு வரிசை அல்ல."
+              }
+            },
+            {
+              "key": "mammal-adaptive-radiation",
+              "heading": {
+                "en": "Adaptive radiation and convergent evolution in mammals",
+                "ta": "பாலூட்டிகளில் தகவமைப்புப் பரவலும் ஒருங்கிணை பரிணாமமும்"
+              },
+              "body": {
+                "en": "After major ecological changes including the end-Cretaceous extinction, multiple mammalian lineages diversified into herbivory, carnivory, burrowing, arboreal movement, flight and aquatic feeding. Adaptive radiation is divergence of related lineages into niches with different selective pressures; convergence is independent evolution of similar solutions, such as streamlined bodies in dolphins and extinct ichthyosaurs, or gliding membranes in distantly related mammals. Marsupial and placental mammals show repeated functional parallels, but they are not interchangeable descendants. Explain changes in limb form, dentition, sensory systems, body size and reproduction using at least two named lineages and a branching relationship diagram rather than a single linear series.",
+                "ta": "கிரெட்டேசியஸ் கால முடிவில் நிகழ்ந்த பெரிய உயிரின அழிவுக்குப் பின் பல பாலூட்டிக் கிளைகள் தாவர உண்ணுதல், மாமிச உண்ணுதல், மண்துளைத்தல், மரவாழ்வு, பறத்தல், நீர்வாழ்வு போன்ற சூழலியல் இடங்களை நிரப்பிப் பல்வகைமையடைந்தன. உறவுடைய கிளைகள் வேறு வேறு தேர்வுச் சூழல்களுக்கு தகவமைவதே தகவமைப்புப் பரவல். தொடர்பில்லாத கிளைகளில் ஒத்த உடலமைப்பு தனித்தனியாக உருவாவது ஒருங்கிணை பரிணாமமாகும்; டால்பின்கள் மற்றும் அழிந்த இக்தியோசார்கள் நீந்துவதற்கான ஒத்த உடல்வடிவம் இதற்கு எடுத்துக்காட்டு. மார்சூப்பியல், நஞ்சுக்கொடி பாலூட்டிகளிலும் ஒத்த செயல்பாட்டுத் தகவமைப்புகள் உள்ளன. உறுப்புகள், பற்கள், உணர்வுகள் ஆகியவற்றை கிளைப்படியான மரபுமரத்துடன் விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "eutherian-mammal-orders",
+              "heading": {
+                "en": "Eutherian orders: diagnostic anatomy and examples",
+                "ta": "யூதீரியா வரிசைகள் — அடையாள உறுப்பமைப்பு, எடுத்துக்காட்டுகள்"
+              },
+              "body": {
+                "en": "Placental mammals include diverse evolutionary orders. Primates commonly possess grasping hands and comparatively developed vision; rodents have one pair of continuously growing incisors in each jaw; lagomorphs have two pairs of upper incisors, including the smaller peg teeth. Carnivora bears specialised carnassial teeth in many species, while Chiroptera has elongated hand digits supporting membranous wings. Perissodactyla includes horses and rhinoceroses with predominantly odd-toed weight-bearing arrangements; Cetartiodactyla contains even-toed artiodactyl relatives and cetaceans, reflecting the close ancestry of hippos and whales. Proboscidea includes elephants with a trunk and specialised tusks. These examples are teaching anchors: character states vary within orders and cannot replace a phylogenetic diagnosis.",
+                "ta": "நஞ்சுக்கொடி பாலூட்டிகளில் பல வரிசைகள் உள்ளன. பிரைமேட்டுகளில் பிடிக்கும் கை மற்றும் வளர்ந்த பார்வை; ரோடென்ஷியாவில் ஒவ்வொரு தாடையிலும் தொடர்ந்து வளரும் ஒரு ஜோடி முன்வெட்டுப் பற்கள்; லாகோமார்ஃபாவில் மேல்தாடையில் இரண்டு ஜோடி முன்வெட்டுப் பற்கள் காணப்படும். பல கார்னிவோரா இனங்களில் வெட்டிப் பிளக்கும் கார்னாசியல் பற்கள்; கைரோப்டெராவில் நீண்ட கை விரல்களால் தாங்கப்படும் இறக்கைகள் உள்ளன. பெரிசோடாக்டைலாவில் குதிரை, காண்டாமிருகம் போன்ற ஒற்றைப்படை விரல் குளம்பிகள்; செட்டார்டியோடாக்டைலாவில் இரட்டைப்படைக் குளம்பிகள் மற்றும் திமிங்கலங்கள் அடங்கும். நீர்யானைக்கும் திமிங்கலத்திற்கும் நெருங்கிய பரிணாம உறவு உள்ளது. புரோபோசிடியாவில் தும்பிக்கையுள்ள யானைகள் அடங்கும். ஒவ்வொரு வரிசைக்கும் பல பண்புகளைச் சேர்த்து அடையாளம் காண வேண்டும்."
               }
             }
           ],
@@ -4636,6 +5340,39 @@
                 "en": "Rabbits have laterally placed eyes providing a broad field of view, large mobile pinnae for sound detection and vibrissae that provide tactile information. Olfaction is important for communication and environmental assessment. The inner ear supplies both hearing and balance, and the three middle-ear ossicles distinguish mammalian auditory anatomy.",
                 "ta": "முயலின் கண்கள் தலையின் பக்கவாட்டில் அமைந்திருப்பதால் பரந்த பார்வைப் புலம் கிடைக்கிறது. பெரிய அசையும் வெளிக்காதுகள் ஒலியைக் கண்டறிய உதவுகின்றன. மீசை முடிகள் தொடு உணர்வை வழங்குகின்றன. மணநுகர்வு தகவல் தொடர்புக்கும் சுற்றுப்புறத்தை அறிதலுக்கும் முக்கியமானது. உள்காது கேட்பதற்கும் உடல் சமநிலைக்கும் உதவுகிறது. நடுக்காதின் மூன்று சிறு எலும்புகள் பாலூட்டிகளின் முக்கிய உடற்கூறு பண்பாகும்."
               }
+            },
+            {
+              "key": "rabbit-digestion-cecotrophy",
+              "heading": {
+                "en": "Rabbit digestive tract, fermentation and caecotrophy",
+                "ta": "முயலின் செரிமானம், நுண்ணுயிர் நொதிப்பு, சீகோட்ரோபி"
+              },
+              "body": {
+                "en": "The domestic rabbit, Oryctolagus cuniculus, is a lagomorph rather than a rodent. Incisors continue to grow, and a second small pair of upper incisors lies behind the main pair; there are no canine teeth and a diastema separates incisors from cheek teeth. The stomach is simple, but the caecum is large and houses microbes that ferment fibre into short-chain fatty acids. Rabbits produce specialised soft caecotrophs that are re-ingested directly from the anus, recovering microbial protein and vitamins; this is physiologically distinct from ordinary consumption of dry faecal pellets. Explain the role of the colon, caecum and diet in herbivore adaptation, avoiding human-like digestive illustrations.",
+                "ta": "வீட்டு முயல் ஓரிக்டோலாகஸ் குனிகுலஸ், ரோடென்ஷியா அல்ல; லாகோமார்ஃபா வரிசையைச் சேர்ந்தது. முன்வெட்டுப் பற்கள் தொடர்ந்து வளர்கின்றன; மேல்தாடையின் பெரிய முன்வெட்டுப் பற்களுக்குப் பின்னால் ஒரு சிறிய இரண்டாம் ஜோடி உள்ளது. கோரைப் பற்கள் இல்லை; முன்பற்களுக்கும் கன்னப் பற்களுக்கும் இடைவெளி காணப்படும். இரைப்பை எளிய அமைப்புடையது; பெரிய சீகம் பகுதியில் நுண்ணுயிரிகள் நார்ச்சத்தை நொதிக்கின்றன. சிறப்பான மென்மையான சீகோட்ரோப்களை முயல் மலவாயிலிருந்து நேரடியாக மீண்டும் உட்கொண்டு நுண்ணுயிர் புரதம், வைட்டமின்கள் பெறுகிறது. இது சாதாரண உலர் மலக் கட்டிகளை உண்பதற்குச் சமமானது அல்ல. குடல், சீகம், உணவுமுறை ஆகியவற்றைத் தாவர உண்ணும் தகவமைப்புடன் தொடர்புபடுத்த வேண்டும்."
+              }
+            },
+            {
+              "key": "rabbit-cardiovascular-reproduction",
+              "heading": {
+                "en": "Rabbit circulation, excretion and reproductive systems",
+                "ta": "முயலின் சுழற்சி, கழிவுநீக்கம், இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Rabbit has a four-chambered mammalian heart in which the left systemic aortic arch persists; oxygenated and deoxygenated circulations are separated. Kidneys filter blood through nephrons; cortical and medullary structures help regulate ions, water and nitrogenous excretion, predominantly as urea. The bladder and urethra form the urine pathway. Male reproductive organs include testes, epididymides, vasa deferentia and accessory glands; the female possesses ovaries, oviducts and a duplex uterus with two cervical canals, which is a significant distinction from a human diagram. Fertilisation is internal and pregnancy is supported by a placenta; rabbits are induced ovulators. Compare these systems with pigeon and Calotes without mixing their sex-specific anatomy.",
+                "ta": "முயலுக்கு நான்கு அறை இதயமும் தனித்த நுரையீரல், உடல் இரத்தச் சுழற்சியும் உள்ளது; பாலூட்டிகளில் இடது சிஸ்டமிக் ஆர்டிக் வளைவு நிலைத்திருக்கும். சிறுநீரக நெஃப்ரான்கள் இரத்தத்தை வடிகட்டி நீர், உப்புச் சமநிலையை ஒழுங்குபடுத்துகின்றன; முக்கிய நைட்ரஜன் கழிவு யூரியா. ஆணில் விந்தகம், எபிடிடைமிஸ், விந்துக் குழாய், துணைச் சுரப்பிகள் உள்ளன. பெண்ணில் சூலகம், முட்டைக் குழாய், இரண்டு தனித்த கருப்பைவாய்களைக் கொண்ட இரட்டைக் கருப்பை அமைப்பு காணப்படுகிறது; மனிதப் பெண்ணின் கருப்பை வரைபடத்தை முயலுக்குப் பயன்படுத்தக்கூடாது. உட்கருவுறுதலும் நஞ்சுக்கொடி ஊட்டமும் உள்ளன; முயலில் இணைவு தூண்டிய முட்டைவிடுதல் நிகழ்கிறது. புறா, கலோட்ஸ் உறுப்பமைப்புகளுடன் சரியாக ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "rabbit-brain-senses",
+              "heading": {
+                "en": "Rabbit brain and sensory adaptations",
+                "ta": "முயலின் மூளையும் உணர்வுத் தகவமைப்புகளும்"
+              },
+              "body": {
+                "en": "The rabbit brain includes cerebrum, cerebellum and brainstem, receiving input from olfactory, visual, auditory and somatosensory pathways. The cerebellum integrates balance and movement, while the cerebral cortex participates in sensory processing and behaviour. Laterally placed eyes provide broad-field surveillance, though detailed binocular overlap is restricted relative to frontal-eyed predators. Large mobile pinnae improve sound collection and directional hearing; vibrissae are mechanosensory hairs supplied by richly innervated follicles. Strong hindlimbs and a flexible spine enable rapid escape running. A brain drawing must identify authentic lobes and cranial relationships rather than use a generic human brain silhouette with a rabbit label.",
+                "ta": "முயலின் மூளையில் பெருமூளை, சிறுமூளை, மூளைத்தண்டு காணப்படும்; மணம், பார்வை, கேள்வி, தொடுதல் தொடர்பான நரம்புவழிகள் தகவலைக் கடத்துகின்றன. சிறுமூளை சமநிலை மற்றும் இயக்க ஒருங்கிணைப்பில் செயல்படுகிறது. பக்கவாட்டில் உள்ள கண்கள் சுற்றியுள்ள பரந்த பகுதியைக் கண்காணிக்க உதவுகின்றன; முன்புற இருகண் ஒத்துப்பார்வைப் பரப்பு ஒப்பீட்டளவில் குறைவு. பெரிய அசையும் செவிமடல்கள் ஒலித் திசையை உணர உதவுகின்றன. மீசை உணர்வு முடிகள் தொடு மாற்றங்களை நரம்பு வழி அறியச் செய்கின்றன. வலுவான பின்னங்கால்கள், நெகிழும் முதுகெலும்பு வேகமான தப்பிச் செல்லும் இயக்கத்திற்கு உதவுகின்றன. மனித மூளை நிழற்படத்தை முயல் மூளையாக மாற்றிப் பெயரிடக்கூடாது."
+              }
             }
           ],
           "quiz": [
@@ -4774,6 +5511,17 @@
                 "en": "The platypus is semi-aquatic with a sensitive bill used in detecting prey, including electroreception. Echidnas are specialised for searching for ants, termites and other invertebrate prey with elongated snouts and powerful claws. Their contrasting habitats demonstrate diversification within this relatively small mammalian lineage.",
                 "ta": "பிளாட்டிபஸ் நீரிலும் நிலத்திலும் வாழ்ந்து உணவு தேட உணர்திறன் மிகுந்த அலகைப் பயன்படுத்துகிறது. இதில் மின்உணர்வும் காணப்படுகிறது. எகிட்னாக்கள் நீண்ட மூக்குப்பகுதியும் வலிமையான நகங்களும் கொண்டு எறும்புகள், கறையான்கள் மற்றும் பிற சிறிய முதுகெலும்பிலிகளைத் தேடி உண்கின்றன. இவற்றின் வாழிடங்களும் உணவுத்தேடல் முறைகளும் மோனோட்ரீம் குழுவிற்குள்ளே காணப்படும் தகவமைப்புப் பல்வகைமையை எடுத்துக்காட்டுகின்றன."
               }
+            },
+            {
+              "key": "monotreme-anatomy-evolution",
+              "heading": {
+                "en": "Monotreme reproduction, development and evolutionary position",
+                "ta": "மோனோட்ரீம்கள் — இனப்பெருக்கம், வளர்ச்சி, பரிணாம நிலை"
+              },
+              "body": {
+                "en": "Platypus and echidnas are the living egg-laying mammals. Their eggs are leathery-shelled; after hatching, young receive milk secreted from mammary tissue onto skin or specialised fur surfaces, because nipples are absent. Echidnas temporarily incubate an egg and rear a young 'puggle' in a pouch-like ventral depression; a platypus nests in a burrow and does not have an equivalent permanent echidna pouch. Platypuses use electroreception to detect prey underwater, while echidnas use a specialised snout and strong digging limbs to feed on invertebrates. Despite laying eggs and possessing a cloaca, monotremes have hair, lactation and the other key mammalian lineage traits.",
+                "ta": "பிளாட்டிபஸ் மற்றும் எகிட்னாக்கள் இன்றும் வாழும் முட்டையிடும் பாலூட்டிகள். அவற்றின் முட்டைகளுக்கு தோல் போன்ற உறை உள்ளது. குஞ்சுகள் பொரித்த பின் பால்சுரப்பித் திசுக்களிலிருந்து தோல் அல்லது முடி மேற்பரப்பில் வெளியேறும் பாலை உறிஞ்சுகின்றன; முலைக்காம்புகள் இல்லை. எகிட்னாவில் தற்காலிக வயிற்றுப்புறப் பை போன்ற அமைப்பில் முட்டையும் இளங்குஞ்சும் பாதுகாக்கப்படலாம்; பிளாட்டிபஸ் நிலத்தடி கூடுகளில் இனப்பெருக்கம் செய்கிறது. பிளாட்டிபஸ் நீரில் இரை தேட மின்னுணர்வைப் பயன்படுத்துகிறது; எகிட்னா சிறப்பான மூக்காலும் வலுவான தோண்டுகால்களாலும் முதுகெலும்பற்ற இரையைத் தேடுகிறது. முட்டையிட்டாலும் உரோமமும் பால் சுரத்தலும் இவற்றின் பாலூட்டிப் பண்புகளாகும்."
+              }
             }
           ],
           "quiz": [
@@ -4907,6 +5655,28 @@
               "body": {
                 "en": "Both marsupials and placentals nourish their young through mammary glands, but the relative duration of intrauterine and postnatal development often differs. Reproductive mode must be interpreted in an evolutionary and ecological context rather than ranked as less or more advanced. A comparison table should identify gestation, neonatal development and parental investment separately.",
                 "ta": "மார்சுபியல் மற்றும் பிளாசென்டல் பாலூட்டிகள் இரண்டிலும் குட்டிகளுக்குப் பால் வழங்கும் சுரப்பிகள் உள்ளன. ஆனால் கருப்பைக்குள் வளர்ச்சியடையும் காலமும் பிறந்தபின் நடைபெறும் வளர்ச்சியும் ஒப்பீட்டளவில் வேறுபடுகின்றன. ஒரு இனப்பெருக்க முறையை மற்றொன்றைவிடத் தாழ்ந்தது அல்லது உயர்ந்தது என்று வரிசைப்படுத்தக் கூடாது. கருவுற்ற காலம், பிறந்த குட்டியின் வளர்ச்சி நிலை, பெற்றோர் முதலீடு ஆகியவற்றைத் தனித்தனியாக ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "marsupial-development-ecology",
+              "heading": {
+                "en": "Marsupial placentation, lactation and ecological examples",
+                "ta": "மார்சூப்பியல்களின் நஞ்சுக்கொடி, பால் ஊட்டம், சூழலியல் எடுத்துக்காட்டுகள்"
+              },
+              "body": {
+                "en": "Marsupials usually give birth after a comparatively brief gestation to very immature young, which continue development while attached to a teat, often but not always inside a pouch. Many possess a specialised yolk-sac placenta; a short gestation does not mean that placentation is completely absent. Kangaroos, koalas, wombats, opossums and marsupial carnivores illustrate diverse Australian and American lineages. Maternal milk composition changes during lactation as young mature. Distinguish Metatheria from Eutheria by developmental patterns and detailed reproductive anatomy, not by a universal pouch rule. Adaptive resemblance between marsupial and placental mammals can result from convergent evolution in similar niches.",
+                "ta": "மார்சூப்பியல்கள் ஒப்பீட்டளவில் குறுகிய கருவுற்ற காலத்திற்குப் பின் வளர்ச்சி குறைவான குட்டிகளை ஈன்று, அவற்றை முலைக்காம்பில் பற்றியவாறு தொடர்ந்து வளர்க்கின்றன. பல இனங்களில் வயிற்றுப்புறப் பை இருப்பினும் அது அனைத்திலும் காணப்படுவதில்லை. சிலவற்றில் மஞ்சள்கருப் பை சார்ந்த நஞ்சுக்கொடி உள்ளது; நஞ்சுக்கொடி முற்றிலும் இல்லை என்று கூறக் கூடாது. கங்காரு, கோலா, வொம்பாட், ஓப்போசம் போன்றவை பல்வேறு வாழிடங்களுக்கு தகவமைந்துள்ளன. குட்டியின் வளர்நிலைக்கு ஏற்ப தாய்ப்பாலின் ஊட்டக்கூறு மாறலாம். மெட்டாதீரியா மற்றும் யூதீரியாவை இனப்பெருக்க உறுப்பமைப்பு, கருவளர்ச்சி, பாலூட்டும் முறை ஆகியவற்றால் ஒப்பிட வேண்டும். ஒத்த வாழிடத்தால் தனித்த கிளைகளில் ஒத்த தகவமைப்பு உருவாகலாம்."
+              }
+            },
+            {
+              "key": "marsupial-orders-comparison",
+              "heading": {
+                "en": "Classification of Metatheria: Australian and American branches",
+                "ta": "மெட்டாதீரியா வகைப்பாடு — ஆஸ்திரேலிய, அமெரிக்கக் கிளைகள்"
+              },
+              "body": {
+                "en": "Living marsupials are distributed mainly across Australasia and the Americas. Important orders include Diprotodontia (kangaroos, wallabies, koalas and wombats), Dasyuromorphia (quolls and Tasmanian devils), Peramelemorphia (bandicoots and bilbies), Didelphimorphia (American opossums) and Paucituberculata (shrew opossums). Their tooth and limb specialisations reflect herbivory, insectivory and carnivory. Not all marsupials have a conspicuous pouch, and reproductive variation includes differing lactation times and placental arrangements. Convergent similarity between extinct marsupial predators and placental carnivores does not establish a close relationship. A classification answer should give order, one diagnostic feature and a correctly named representative.",
+                "ta": "வாழும் மார்சூப்பியல்கள் பெரும்பாலும் ஆஸ்திரேலேசியா மற்றும் அமெரிக்காவில் பரவியுள்ளன. டைபுரோட்டோடாண்டியா வரிசையில் கங்காரு, வாலபி, கோலா, வொம்பாட்; டேசியூரோமார்ஃபியா வரிசையில் குவால், தாஸ்மேனியன் டெவில்; பெராமெலெமார்ஃபியா வரிசையில் பாண்டிகூட், பில்பி; டிடெல்பிமார்ஃபியா வரிசையில் அமெரிக்க ஓப்போசம் ஆகியவை அடங்குகின்றன. பற்கள், கால்கள், உணவு முறைகளில் பல்வேறு தகவமைப்புகள் உள்ளன. எல்லா மார்சூப்பியல்களிலும் தெளிவான பை இருப்பதில்லை. குட்டி வளர்ப்பு, பாலூட்டும் காலம், நஞ்சுக்கொடி நிலை இனத்தின்படி வேறுபடும். ஒவ்வொரு வரிசைக்கும் ஒரு அடையாளப் பண்பும் சரியான பிரதிநிதி இனமும் கொடுத்து வகைப்படுத்த வேண்டும்."
               }
             }
           ],
@@ -5042,6 +5812,17 @@
                 "en": "Flying squirrels and colugos can glide using expanded skin membranes between limbs, but they cannot sustain flapping powered flight as bats do. Their aerial movement is a form of gliding controlled by posture and membrane tension. Convergent solutions to aerial locomotion should not be confused with close evolutionary relationship.",
                 "ta": "பறக்கும் அணில்கள் மற்றும் கொலுகோ உயிரிகள் கால்களுக்கு இடையில் விரிந்த தோல் சவ்வுகளைப் பயன்படுத்தி காற்றில் சறுக்கிப் பாய்கின்றன. ஆனால் வௌவால்களைப் போல இறக்கைகளை அடித்து நீடித்த உந்துவிசைப் பறப்பை மேற்கொள்ள முடியாது. உடல் நிலையும் சவ்வின் இழுவையும் இவற்றின் சறுக்கலைக் கட்டுப்படுத்துகின்றன. ஒரே பணிக்கான ஒத்த தகவமைப்பு இருப்பதால் இவை நெருங்கிய பரிணாம உறவுடையவை என்று முடிவு செய்யக் கூடாது."
               }
+            },
+            {
+              "key": "chiropteran-wings-ecolocation",
+              "heading": {
+                "en": "Bat wing structure, echolocation and ecological services",
+                "ta": "வௌவால் இறக்கை, எதிரொலி உணர்வு, சூழலியல் சேவைகள்"
+              },
+              "body": {
+                "en": "Order Chiroptera is the only mammalian lineage capable of sustained powered flight. Its flexible wing membrane is supported largely by elongated hand digits, with a free thumb often bearing a claw; a tail membrane may assist control in some species. Many insect-eating bats emit ultrasonic calls and interpret returning echoes to detect obstacles and prey, but echolocation methods vary and not all bats use the same mechanism. Fruit bats may rely strongly on vision and smell. Bats provide insect control, pollination and seed dispersal, while their roosts and feeding habitats face disturbance. Flying squirrels and colugos glide using a patagium but cannot sustain powered flapping flight; distinguish wing-bone architecture clearly.",
+                "ta": "கைரோப்டெரா வரிசையிலுள்ள வௌவால்களே தொடர்ச்சியான தசை இயக்கப் பறத்தல் செய்யும் பாலூட்டிகள். நீண்ட கை விரல் எலும்புகளால் தாங்கப்படும் நெகிழ்வான தோல் இறக்கை உள்ளது; சுதந்திரமான கட்டைவிரலில் நகம் காணலாம். பல பூச்சி உண்ணும் வௌவால்கள் மீயொலியை எழுப்பி திரும்பும் எதிரொலியால் இரை மற்றும் தடைகளை அறிகின்றன; எதிரொலி உணர்வு அனைத்து இனங்களிலும் ஒரே முறையில் இருப்பதில்லை. பல பழ உண்ணும் இனங்கள் பார்வை, மணவுணர்வைப் பெரிதும் பயன்படுத்துகின்றன. பூச்சிக் கட்டுப்பாடு, மகரந்தச் சேர்க்கை, விதைப் பரவல் ஆகிய சூழலியல் சேவைகள் முக்கியமானவை. பறக்கும் அணில், கொலுகோ ஆகியவை தோல் சவ்வில் சறுக்கிப் பறக்கின்றன; வௌவால் போன்ற இயக்கப் பறத்தல் செய்யாது."
+              }
             }
           ],
           "quiz": [
@@ -5176,6 +5957,17 @@
                 "en": "Entanglement in fishing gear, underwater noise, vessel strikes, pollution and habitat alteration threaten aquatic mammals. Effective conservation needs species-specific information about migration, breeding and feeding grounds. Dugongs associated with Indian seagrass habitats illustrate the importance of protecting coastal ecosystems as well as the animals themselves.",
                 "ta": "மீன்பிடி வலைகளில் சிக்குதல், நீருக்கடிப் பெருஞ்சத்தம், கப்பல்களுடன் மோதுதல், மாசுபாடு மற்றும் வாழிட மாற்றம் ஆகியவை நீர்வாழ் பாலூட்டிகளைப் பாதிக்கின்றன. பாதுகாப்பிற்கு ஒவ்வொரு இனத்தின் வலசை, இனப்பெருக்கம் மற்றும் உணவுத்தேடல் இடங்கள் பற்றிய தகவல்கள் தேவை. இந்தியக் கடலோர கடற்புல் வாழிடங்களில் காணப்படும் டுகாங் உயிரிகள் கடலோரச் சூழலையும் உயிரினங்களையும் சேர்த்துப் பாதுகாக்க வேண்டியதைக் காட்டுகின்றன."
               }
+            },
+            {
+              "key": "aquatic-mammal-comparative-diving",
+              "heading": {
+                "en": "Cetaceans, sirenians, pinnipeds and diving physiology",
+                "ta": "செடேசியன்கள், சைரீனியன்கள், பினிப்பெட்கள் — நீர்மூழ்கும் உடலியல்"
+              },
+              "body": {
+                "en": "Fully aquatic cetaceans (whales, dolphins and porpoises) propel themselves mainly with horizontal tail flukes and surface to breathe through blowholes; sirenians (manatees and dugongs) are slow-moving aquatic herbivores with forelimb flippers. Pinnipeds, including seals, sea lions and walruses, remain amphibious in their life cycles, often resting or breeding on land or ice. These groups represent separate mammalian branches that independently acquired streamlined bodies and insulation mechanisms. During diving, oxygen stores in blood and muscle, altered circulation and reduced oxygen demand can extend submergence; all still breathe atmospheric air with lungs. Do not label fish gills or a vertical fish caudal fin in a whale figure.",
+                "ta": "முழுமையான நீர்வாழ் செடேசியன்களான திமிங்கலங்கள், டால்பின்கள் கிடைமட்ட வால் துடுப்புகளால் முன்னேறி மேற்பரப்பில் சுவாசத் துவாரம் வழியாகக் காற்றைப் பெறுகின்றன. சைரீனியன்களான கடற்பசு, டுகாங் தாவர உணவுடைய நீர்வாழ் பாலூட்டிகள். சீல்கள், கடல்சிங்கங்கள், வால்ரஸ்கள் அடங்கிய பினிப்பெட்கள் நீரில் உணவு தேடியாலும் நிலம் அல்லது பனிப்பரப்பில் ஓய்வு, இனப்பெருக்கம் மேற்கொள்ளலாம். இந்தக் குழுக்கள் தனித்த பரிணாமக் கிளைகளிலிருந்து நீர்வாழ்க்கைக்குத் தகவமைந்துள்ளன. இரத்தம், தசைகளில் ஆக்சிஜன் சேமிப்பு, இரத்தச் சுழற்சி மாற்றம் ஆகியவை நீர்மூழ்க உதவுகின்றன; அனைத்தும் நுரையீரலால் காற்றைச் சுவாசிக்கின்றன. திமிங்கலத்தில் மீன் செவுளையோ செங்குத்து மீன் வாலையோ காட்டக் கூடாது."
+              }
             }
           ],
           "quiz": [
@@ -5309,6 +6101,17 @@
               "body": {
                 "en": "A dental formula records the numbers of incisors (I), canines (C), premolars (P) and molars (M) in one half of the upper and lower jaws. The adult human formula I 2/2, C 1/1, P 2/2, M 3/3 gives 32 teeth when doubled. The adult rabbit formula I 2/1, C 0/0, P 3/2, M 3/3 gives 28 teeth; the second upper incisors are small peg teeth.",
                 "ta": "பல் வாய்ப்பாடு மேல் மற்றும் கீழ்த்தாடைகளின் ஒவ்வொரு பாதியிலும் உள்ள முன்பற்கள், கோரைப்பற்கள், முன்கடைவாய்ப்பற்கள் மற்றும் கடைவாய்ப்பற்களின் எண்ணிக்கையைச் சுட்டுகிறது. முதிர்ந்த மனிதனில் I 2/2, C 1/1, P 2/2, M 3/3 என்ற வாய்ப்பாட்டால் மொத்தம் முப்பத்திரண்டு பற்கள் கிடைக்கின்றன. முதிர்ந்த முயலில் I 2/1, C 0/0, P 3/2, M 3/3 என்ற வாய்ப்பாட்டால் இருபத்தெட்டு பற்கள் கிடைக்கின்றன. மேல்தாடையில் கூடுதல் சிறிய முன்பற்கள் உள்ளன."
+              }
+            },
+            {
+              "key": "dental-formula-comparison",
+              "heading": {
+                "en": "Dental formulae of rabbit, human and contrasting mammals",
+                "ta": "முயல், மனிதன் மற்றும் பிற பாலூட்டிகளின் பற்சூத்திரங்கள்"
+              },
+              "body": {
+                "en": "A dental formula gives the number of incisors, canines, premolars and molars on one side of the upper and lower jaws, multiplied by two for the complete permanent dentition. Adult human permanent dentition is I 2/2, C 1/1, P 2/2, M 3/3 = 32. Adult rabbit dentition is I 2/1, C 0/0, P 3/2, M 3/3 = 28, with a second small upper incisor pair and a diastema. Carnivores typically possess pronounced canines and carnassial shearing teeth, whereas grazing herbivores have broad grinding cheek teeth. Distinguish homodont versus heterodont, thecodont attachment and diphyodont replacement, noting that rodents and lagomorphs differ and some mammalian lineages depart from the usual patterns.",
+                "ta": "பற்சூத்திரம் மேல், கீழ்த் தாடைகளின் ஒரு பக்கத்தில் உள்ள முன்வெட்டுப் பற்கள், கோரைப் பற்கள், முன்கடைவாய்ப் பற்கள், கடைவாய்ப் பற்கள் ஆகியவற்றின் எண்ணிக்கையைக் காட்டுகிறது; இரு பக்கங்களுக்கும் இரண்டால் பெருக்க வேண்டும். மனித நிரந்தரப் பற்சூத்திரம் I 2/2, C 1/1, P 2/2, M 3/3 = 32. முயலின் பற்சூத்திரம் I 2/1, C 0/0, P 3/2, M 3/3 = 28. மேல்தாடையில் சிறிய இரண்டாம் ஜோடி முன்வெட்டுப் பற்களும் பற்களற்ற இடைவெளியும் உள்ளன. மாமிச உண்ணிகளில் வலுவான கோரைப் பற்களும் வெட்டிப் பிளக்கும் கார்னாசியல் பற்களும்; தாவர உண்ணிகளில் அரைக்கும் கன்னப் பற்களும் காணப்படும். ஹோமோடாண்டு, ஹெடெரோடாண்டு, தீகோடாண்டு, டைபியோடாண்டு ஆகிய சொற்களை எடுத்துக்காட்டுடன் விளக்க வேண்டும்."
               }
             }
           ],

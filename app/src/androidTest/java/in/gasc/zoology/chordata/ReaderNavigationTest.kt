@@ -421,8 +421,9 @@ class ReaderNavigationTest {
     @Test fun ascidianMetamorphosisShowsFocusedStagesAndKeepsCompositeOptional() {
         selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
-        rule.onNodeWithTag("lesson-search").performTextInput("Urochordata")
+        rule.onNodeWithTag("lesson-search").performTextInput("u1-urochordata")
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("Urochordata (Ascidia)")
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
         rule.onNodeWithTag("reader-next").performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
@@ -441,7 +442,8 @@ class ReaderNavigationTest {
         val pack = ContentRepository.load(context)
         org.junit.Assert.assertEquals(5, pack.units.size)
         org.junit.Assert.assertEquals(39, pack.topics.size)
-        org.junit.Assert.assertEquals(127, pack.topics.sumOf { it.sections.size })
+        org.junit.Assert.assertEquals(200, pack.topics.sumOf { it.sections.size })
+        org.junit.Assert.assertEquals(listOf(5, 11, 6, 6, 11), pack.units.map { it.topics.size })
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
         val enriched = pack.topics.flatMap { it.sections }.filter { it.keyPoints.isNotEmpty() }
@@ -677,33 +679,47 @@ class ReaderNavigationTest {
         rule.onNodeWithText("All lessons").assertIsDisplayed()
     }
 
-    @Test fun compactChaptersPackBriefSectionsWithoutLosingTextOrFigures() {
+    @Test fun expandedChaptersRetainAllSectionsAndCompactPackingStillWorks() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val pack = ContentRepository.load(context)
         val origin = requireNotNull(pack.findTopic("u1-origin"))
         org.junit.Assert.assertEquals(setOf(1), origin.figurePages)
+        // Keep the short-chapter packing contract independent of live syllabus growth.
+        val compact = origin.copy(sections = origin.sections.take(3))
         org.junit.Assert.assertEquals(
             listOf(listOf(0), listOf(1, 2)),
-            `in`.gasc.zoology.chordata.domain.LearningLogic.sectionPages(origin))
-        org.junit.Assert.assertEquals(2,
-            `in`.gasc.zoology.chordata.domain.LearningLogic.lastPage(origin))
+            `in`.gasc.zoology.chordata.domain.LearningLogic.sectionPages(compact))
+        val illustratedCompact = compact.copy(figurePages = setOf(1, 3))
+        org.junit.Assert.assertEquals(
+            listOf(listOf(0), listOf(1), listOf(2)),
+            `in`.gasc.zoology.chordata.domain.LearningLogic.sectionPages(illustratedCompact))
+
+        // The expanded course must expose every section once, in source order.
+        for (topic in pack.topics) {
+            val pages = `in`.gasc.zoology.chordata.domain.LearningLogic.sectionPages(topic)
+            org.junit.Assert.assertEquals(topic.id, topic.sections.indices.toList(), pages.flatten())
+            org.junit.Assert.assertEquals(pages.size,
+                `in`.gasc.zoology.chordata.domain.LearningLogic.lastPage(topic))
+        }
+        org.junit.Assert.assertEquals(4, origin.sections.size)
         val illustratedLast = requireNotNull(pack.findTopic("u1-urochordata"))
         org.junit.Assert.assertTrue(3 in illustratedLast.figurePages)
-        org.junit.Assert.assertEquals(3,
-            `in`.gasc.zoology.chordata.domain.LearningLogic.lastPage(illustratedLast))
+        org.junit.Assert.assertEquals("retrogressive-metamorphosis", illustratedLast.sections[2].key)
 
         selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onNodeWithTag("lesson-search").performTextInput("u1-origin")
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
-        rule.onNodeWithTag("reader-next").performClick()
-        rule.onNodeWithTag("lesson-page-heading")
-            .assertTextEquals("Evidence and hypotheses")
-        // Third section is included ON THIS PAGE, not on an empty extra page.
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals(origin.title.en)
+        for (sectionIndex in 1 until origin.sections.size) {
+            rule.onNodeWithTag("lesson-reader-list")
+                .performScrollToIndex(if (sectionIndex == 1) 5 else 4)
+            rule.onNodeWithTag("reader-next").performClick()
+            rule.onNodeWithTag("lesson-page-heading")
+                .assertTextEquals(origin.sections[sectionIndex].heading.en)
+        }
+        captureQaScreen("origin-expanded-final-section-en-100")
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
-        rule.onNodeWithTag("packed-section-heading-2")
-            .assertTextEquals("Ancestry versus resemblance")
-        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(6)
         rule.onNodeWithTag("reader-next").performClick()
         rule.onNodeWithTag("lesson-page-heading").assertTextEquals("Practice")
     }

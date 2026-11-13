@@ -10,8 +10,8 @@ object ContentRepository {
         val raw = context.assets.open("chordata_content.json").bufferedReader(Charsets.UTF_8).use { it.readText() }
         val root = JSONObject(raw)
         require(root.getInt("schemaVersion") == 1) { "Unsupported content schema" }
-        // Supplement only: the checksum-protected syllabus text and figure pages
-        // are not rewritten. All pointwise material is fully offline and bilingual.
+        // Preserve 39 stable chapter IDs and figure-page anchors while loading
+        // the checksum-reviewed 200-section expanded bilingual syllabus.
         val pointsRaw = context.assets.open("chordata_learning_points.json")
             .bufferedReader(Charsets.UTF_8).use { it.readText() }
         val pointsRoot = JSONObject(pointsRaw)
@@ -63,7 +63,10 @@ object ContentRepository {
         }
         val pack = ContentPack(root.getInt("schemaVersion"), root.getString("credit"), units)
         require(pack.units.size == 5 && pack.topics.size == 39) { "Incomplete course pack" }
-        require(pack.topics.sumOf { it.sections.size } == 127) { "Missing lessons" }
+        require(pack.topics.sumOf { it.sections.size } == 200) { "Expanded bilingual lessons missing" }
+        require(pack.units.map { it.topics.size } == listOf(5, 11, 6, 6, 11)) {
+            "Syllabus unit allocation mismatch"
+        }
         require(pack.topics.sumOf { it.quiz.size } == 117) { "Missing quiz items" }
         require(pack.topics.sumOf { it.diagramIds.size } == 64) { "Diagram register mismatch" }
         require(figureRegistry.getJSONArray("slots").length() == 64) {
