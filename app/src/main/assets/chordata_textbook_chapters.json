@@ -3704,6 +3704,174 @@
           "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals"
         }
       ]
+    },
+    {
+      "id": "marsupials-undergraduate",
+      "topicId": "u5-marsupials",
+      "title": {
+        "en": "Marsupials — metatherian reproduction, developmental biology and adaptive radiation",
+        "ta": "மார்சூப்பியல்கள் — மெட்டாதீரியன் இனப்பெருக்கம், வளர்ச்சியியல் மற்றும் தகவமைப்புப் பன்மை"
+      },
+      "sections": [
+        {
+          "key": "metatheria-evolution",
+          "heading": {
+            "en": "Metatherian mammals, classification and geographic distribution",
+            "ta": "மெட்டாதீரியன் பாலூட்டிகளின் வகைப்பாடும் புவியியல் பரவலும்"
+          },
+          "body": {
+            "en": "Marsupials belong to the living crown group Marsupialia within Metatheria, the therian mammalian branch most closely related to Eutheria. Modern marsupials include kangaroos, wallabies, koalas, wombats, bandicoots, quolls, Tasmanian devils and opossums. Their major centres of diversity are Australasia and the Americas, a distribution connected with ancient continental history and subsequent dispersal. A marsupial is not defined solely by having a conspicuous pouch: pouches vary in form and some species lack a permanent enclosed pouch. Similarly, an animal that carries young on its body is not automatically a marsupial. Metatheria and Eutheria diverged from an earlier therian ancestor; living marsupials are not stages that will eventually become placental mammals. Classify named examples by accepted orders such as Diprotodontia, Dasyuromorphia, Peramelemorphia and Didelphimorphia, while noting that taxonomic details may be revised.",
+            "ta": "மார்சூப்பியல்கள் (Marsupialia) மெட்டாதீரியா (Metatheria) என்னும் தீரியன் பாலூட்டி மரபுக்குழுவின் வாழும் பிரதிநிதிகள். கங்காரு, வாலபி, கோஆலா, வாம்பாட், பாண்டிகூட், குவால், டாஸ்மேனியன் டெவில், ஒப்போசம் போன்றவை எடுத்துக்காட்டுகள். ஆஸ்திரேலியப் பகுதிகளிலும் அமெரிக்க கண்டங்களிலும் அதிகப் பன்மை காணப்படுகிறது. எல்லா மார்சூப்பியல்களிலும் தெளிவான நிரந்தரப் பை இருப்பதில்லை; சிலவற்றில் பை முழுமையாக மூடப்படாமலும் இருக்கலாம். குட்டியை உடலில் சுமக்கும் எந்தப் பாலூட்டியும் மார்சூப்பியல் ஆகிவிடாது. மார்சூப்பியல்கள் பிற்காலத்தில் நஞ்சுக்கொடி பாலூட்டிகளாக மாற காத்திருக்கும் ‘இடைநிலை’ அல்ல. Diprotodontia, Dasyuromorphia போன்ற சரியான வரிசைகளுடன் எடுத்துக்காட்டுகளை இணைக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "short-gestation",
+          "heading": {
+            "en": "Gestation, placentation and birth of highly altricial young",
+            "ta": "கருப்பைக் காலம், நஞ்சுக்கொடி தொடர்பு மற்றும் வளர்ச்சி குறைந்த குட்டிப் பிறப்பு"
+          },
+          "body": {
+            "en": "Most marsupials have relatively short gestation and give birth to extremely immature young that continue much of their development while nursing. Contrary to a common oversimplification, marsupials are not universally devoid of placentas: yolk-sac or other forms of maternal–embryonic exchange occur, and placentation differs among lineages. The relative duration of gestation and lactation distinguishes many marsupial strategies from the prolonged prenatal development characteristic of most eutherians. Newborn kangaroos, for example, are small and specialised for travelling to the maternal teat, but their precise behaviour should not be generalised to every marsupial. Maternal endocrine signals, reproductive anatomy and neonatal adaptations interact during birth and attachment. A correct reproductive plate should distinguish uterus, vagina, birth canal, pouch or mammary area and the attached newborn; it should not portray a fully formed small adult emerging at birth.",
+            "ta": "பல மார்சூப்பியல்களில் கருப்பைக் காலம் ஒப்பீட்டளவில் குறைவு; மிகவும் குறைந்த வளர்ச்சியுடன் குட்டிகள் பிறந்து நீண்டகாலம் பாலூட்டப்படுகின்றன. ‘மார்சூப்பியல்களுக்கு நஞ்சுக்கொடி முற்றிலும் இல்லை’ என்பது தவறு; சில இனங்களில் மஞ்சட்கருப் பை தொடர்புடைய தாய்–கரு பரிமாற்ற அமைப்புகள் உள்ளன. கருப்பைக் காலமும் பாலூட்டுக் காலமும் இனத்துக்கேற்ப மாறுகின்றன. கங்காரு குட்டி சிறிய நிலையில் பிறந்து தாயின் பால் பெறும் இடத்தை அடைகிறது; இதனை எல்லா மார்சூப்பியல்களின் ஒரே முறையாகக் கூறக்கூடாது. படத்தில் கருப்பை, பிறப்புப்பாதை, பை அல்லது பால்சுரப்புப் பகுதி, குட்டியின் வளர்ச்சி நிலை ஆகியவை சரியாகக் குறிக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "marsupium-lactation",
+          "heading": {
+            "en": "Marsupium, teat attachment and changing milk composition",
+            "ta": "மார்சூப்பியல் பை, முலைக்காம்பு பற்றுதல் மற்றும் பாலின் மாற்றங்கள்"
+          },
+          "body": {
+            "en": "The marsupium, where present, provides a protected region associated with mammary teats, but its orientation, structure and degree of enclosure differ markedly between lineages. Kangaroos have a well-developed pouch, whereas some opossums provide less enclosed shelter or no complete pouch. The neonatal attachment to a teat supports prolonged feeding at a stage when thermoregulation and locomotion are limited. Milk composition changes with lactational stage and can differ among glands in some marsupials, matching the developmental needs of offspring. Pouch biology also involves maternal grooming, hygienic maintenance and protection from environmental hazards. A teaching illustration should not confuse the marsupium with the uterus or depict an embryo growing entirely inside the pouch before birth. Distinguish live birth from later pouch residence and identify the caregiver and stage when making a developmental sequence.",
+            "ta": "மார்சூப்பியல் பை (marsupium) இருக்கும்போது பாலூட்டும் முலைக்காம்புகளுடன் தொடர்புடைய பாதுகாப்புப் பகுதியாகச் செயல்படுகிறது. கங்காருவின் பை நன்கு உருவானது; சில ஒப்போசங்களில் பை முழுமையாக மூடப்படாமல் இருக்கலாம். புதிதாகப் பிறந்த குட்டி முலைக்காம்பைப் பற்றிப் பால் பெறுகிறது; அப்போது தனியாக உடல்வெப்பம் ஒழுங்குபடுத்துதல், நடமாடுதல் குறைவாக இருக்கும். வளர்ச்சி நிலைக்கு ஏற்ப பாலின் ஊட்டச்சத்து அமைப்பு மாறலாம். தாய் பையைத் தூய்மைப்படுத்தி குட்டியைப் பாதுகாக்கலாம். கரு பிறப்பதற்கு முன்பே முழுமையாக பைக்குள் வளர்கிறது என்று வரைவது தவறு. கருப்பையில் நடைபெறும் கருவளர்ச்சியையும் பிறந்தபின் பைக்குள் நடைபெறும் பாலூட்டலையும் வேறுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "adaptive-radiation",
+          "heading": {
+            "en": "Kangaroo, koala, wombat and carnivorous marsupials",
+            "ta": "கங்காரு, கோஆலா, வாம்பாட் மற்றும் இரைவிலங்கு மார்சூப்பியல்கள்"
+          },
+          "body": {
+            "en": "Marsupials have radiated into diverse ecological niches. Kangaroos and wallabies commonly use powerful hindlimbs and elastic tendons for hopping, while koalas are specialised arboreal folivores with dietary and digestive adaptations to eucalyptus foliage. Wombats are burrowing herbivores with sturdy limbs and unusual dentition, and Tasmanian devils are primarily scavenging and predatory carnivorous marsupials. These species are not stages of one ecological progression, but distinct branches with different histories. Comparisons between marsupial and placental forms may demonstrate convergence: the extinct thylacine resembled placental canids in overall predatory body plan, despite distant ancestry. Such similarity does not make the thylacine a dog. Scientific plates should use species-level skeletal and external features rather than interchangeable cartoon animals with a pouch added.",
+            "ta": "மார்சூப்பியல்கள் பல சூழலியல் வாழ்வுமுறைகளுக்கு தகவமைந்துள்ளன. கங்காரு, வாலபி ஆகியவற்றில் வலுவான பின்னங்கால்களும் மீள்திறன் நாண்களும் தாவுதலுக்கு உதவுகின்றன. கோஆலா மரவாழ் இலைஉண்ணியாக யூகலிப்டஸ் இலை உணவுக்கேற்ப அமைந்துள்ளது. வாம்பாட் குழிதோண்டும் தாவரவுண்ணி; டாஸ்மேனியன் டெவில் இரைபிடிக்கும் அல்லது சடலமுண்ணும் மார்சூப்பியல். இவை ஒரே முன்னேற்ற வரிசையின் கட்டங்கள் அல்ல; தனித்த மரபுக்கிளைகள். அழிந்த தைலசைன் (thylacine) சில நாய் உறவினர்களை ஒத்திருந்தது; இது ஒத்த பரிணாமத்தின் எடுத்துக்காட்டு, உண்மையான நாய் அல்ல. வரைபடத்தில் இனத்துக்கேற்ற கால்கள், தாடை, உடல்வடிவம் காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "american-marsupials",
+          "heading": {
+            "en": "American opossums and phylogenetic biogeography",
+            "ta": "அமெரிக்க ஒப்போசங்களும் புவிப்பரவல் பரிணாமமும்"
+          },
+          "body": {
+            "en": "Many opossums belong to Didelphimorphia and occupy diverse habitats in the Americas. Some climb using a grasping tail and specialised feet, but tail prehensility varies and should not be treated as universal. Reproductive investment, litter size, pouch condition and juvenile development differ among species. The distribution of marsupials across Australasia and the Americas reflects ancient historical connections, extinction and dispersal rather than an assumption that all marsupials evolved in modern Australia. Fossil and molecular data provide complementary but sometimes incomplete reconstructions of their migration across continents. A comparative field study can link body size, dentition, locomotion and diet of named opossums to Australian marsupials, while separating phylogenetic affinities from ecological convergence. A generic label 'possum' may refer to different Australasian and American groups and should not replace scientific names.",
+            "ta": "அமெரிக்காவில் காணப்படும் பல ஒப்போசங்கள் டிடெல்ஃபிமார்ஃபியா (Didelphimorphia) வரிசையைச் சேர்ந்தவை. சில இனங்களில் பற்றிப் பிடிக்கும் வால், ஏறுவதற்கேற்ற கால்கள் உள்ளன; எல்லா ஒப்போசங்களிலும் ஒரே அளவு பற்றுவால் இல்லை. இனப்பெருக்கக் காலம், குட்டிகளின் எண்ணிக்கை, பையின் அமைப்பு, வளர்ச்சி நிலை ஆகியவை மாறுபடுகின்றன. ஆஸ்திரேலிய, அமெரிக்க மார்சூப்பியல் பரவல் பழைய கண்டங்களின் உறவு, அழிவுகள், இடப்பெயர்ச்சிகள் ஆகியவற்றோடு தொடர்புடையது. எல்லா மார்சூப்பியல்களும் இன்றைய ஆஸ்திரேலியாவில்தான் முதலில் தோன்றின என்று எளிதாகக் கூற முடியாது. புதைபடிவமும் மரபணுத் தகவலும் சேர்ந்து வரலாற்றை விளக்குகின்றன. ‘போசம்’ என்ற பொதுப்பெயரின் அடிப்படையில் மட்டும் இனத்தைத் தீர்மானிக்கக்கூடாது."
+          }
+        },
+        {
+          "key": "conservation-practical",
+          "heading": {
+            "en": "Conservation, comparative embryology and undergraduate exercises",
+            "ta": "பாதுகாப்பு, ஒப்பீட்டுக் கருவளர்ச்சி மற்றும் இளங்கலைச் செய்முறைகள்"
+          },
+          "body": {
+            "en": "Marsupial conservation concerns vary from habitat loss and fragmentation to introduced predators, road mortality, wildfire and disease. The threats and appropriate interventions are species-specific, so an Australian koala management approach cannot be copied wholesale for an American opossum. In an undergraduate comparative embryology exercise, students can map stages of embryonic development, birth, teat attachment and weaning for a kangaroo and a eutherian mammal, noting differences in relative developmental timing without ranking one mode as inferior. A morphology matrix can compare skull, teeth, limb specialisation and pouch condition for several marsupials. Use verified anatomical references and avoid mixing images from different species into a single life cycle. An evidence-based answer should explain metatherian ancestry, reproductive investment and ecological diversification with clear taxonomic examples.",
+            "ta": "மார்சூப்பியல்கள் வாழிட அழிவு, துண்டாக்கம், அயல் இரைவிலங்குகள், சாலை விபத்து, காட்டுத்தீ, நோய் ஆகியவற்றால் இனத்துக்கேற்ப பாதிக்கப்படலாம். ஒரு இனத்திற்கான பாதுகாப்பு முறையை மற்றொரு இனத்திற்கு ஆதாரமின்றி மாற்றக்கூடாது. ஒப்பீட்டுக் கருவளர்ச்சிப் பயிற்சியில் கங்காருவின் கருவளர்ச்சி, பிறப்பு, முலைக்காம்பு பற்றுதல், பாலூட்டுதல் ஆகிய நிலைகளை நஞ்சுக்கொடி பாலூட்டியுடன் ஒப்பிடலாம். எந்தப் பராமரிப்பு முறையையும் ‘கீழ்நிலை’ என்று மதிப்பிடக்கூடாது. தலையோடு, பற்கள், கால்கள், பையின் நிலை ஆகியவற்றை அட்டவணைப்படுத்த வேண்டும். சரியான இனப்பெயர் கொண்ட நம்பகமான படங்களைப் பயன்படுத்த வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Marsupials and mammals",
+          "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals"
+        }
+      ]
+    },
+    {
+      "id": "flying-mammals-undergraduate",
+      "topicId": "u5-flying-mammals",
+      "title": {
+        "en": "Flying mammals — bat flight mechanics, echolocation and comparisons with gliding mammals",
+        "ta": "பறக்கும் பாலூட்டிகள் — வௌவால்களின் பறப்பியக்கவியல், எதிரொலியுணர்வு மற்றும் சறுக்கும் பாலூட்டிகள் ஒப்பீடு"
+      },
+      "sections": [
+        {
+          "key": "powered-flight",
+          "heading": {
+            "en": "Chiroptera and the distinction between flight and gliding",
+            "ta": "கைரோப்டீராவும் செயற்பறப்பு–சறுக்கும் இயக்க வேறுபாடும்"
+          },
+          "body": {
+            "en": "Bats comprise Chiroptera, the only living mammalian order capable of sustained powered flight. Their wings are formed from the forelimb, with greatly elongated manual digits supporting a flexible membrane. In contrast, flying squirrels, colugos and certain marsupial gliders travel by unpowered gliding between elevated sites using body membranes; they cannot generate the same sustained flapping thrust as bats. Thus 'flying mammal' in a strict functional sense refers to bats, while 'gliding mammals' should be treated separately. Flight allows many bats to forage for insects, fruit or nectar and travel between roosts, but locomotor capacity differs greatly among species. Bats are mammals with hair, mammary glands and live-born young; they are not birds, nor are they winged rodents. A scientifically accurate figure should compare homologous forelimb bones rather than merely showing three superficially triangular flight surfaces.",
+            "ta": "கைரோப்டீரா (Chiroptera) வரிசையிலுள்ள வௌவால்களே தொடர்ந்து இறக்கையசைத்துப் பறக்கும் வாழும் பாலூட்டிகளாகும். அவற்றின் முன்காலில் மிக நீண்ட கை விரல்கள் நெகிழ்வான இறக்கைத் தோலைத் தாங்குகின்றன. பறக்கும் அணில், கொலுகோ, சில மார்சூப்பியல் கிளைடர்கள் உயரமான இடங்களுக்கிடையே சறுக்கும் இயக்கம் மேற்கொள்கின்றன; வௌவால்களைப் போலத் தொடர்ந்து உந்துவிசை உருவாக்கி பறப்பதில்லை. எனவே உண்மையான செயற்பறப்பையும் சறுக்கும் இயக்கத்தையும் வேறுபடுத்த வேண்டும். வௌவால்கள் மயிர், பால்சுரப்பி, உயிர்க்குஞ்சு ஈனுதல் போன்ற பாலூட்டிப் பண்புகளைக் கொண்டவை; அவை பறவைகளோ கொறித்துண்ணிகளோ அல்ல. ஒப்பீட்டுப் படத்தில் முன்கை எலும்புகளின் ஒற்றுமையையும் இறக்கைத் தோலின் வேறுபாட்டையும் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "bat-wing-osteology",
+          "heading": {
+            "en": "Bat wing skeleton, patagium and flight control",
+            "ta": "வௌவால் இறக்கை எலும்புக்கூடும் படாஜியமும் இயக்கக் கட்டுப்பாடும்"
+          },
+          "body": {
+            "en": "The bat wing incorporates humerus, radius, reduced or variably developed ulna, elongated metacarpals and long finger phalanges. Membranes form different regions including the plagiopatagium between body and digits, dactylopatagium between digits, and often an uropatagium between the hindlimbs and tail. The thumb is usually shorter and clawed, contributing to climbing and grasping. Wing muscles, tendons, nerves and blood vessels permit active changes in camber and membrane tension through the wingbeat. Aerodynamic forces therefore depend on both skeleton and living membrane properties. The membrane cannot be treated as a rigid parachute, and a bat wing cannot be drawn by attaching a bird's feather outline to a mammalian arm. A teaching plate should label digits I–V, membrane regions, wrist, elbow and the hindlimb attachments, with species-specific differences where relevant.",
+            "ta": "வௌவால் இறக்கையில் ஹியூமரஸ், ரேடியஸ், குறைந்த அல்லது மாற்றமடைந்த அல்னா, நீண்ட மெட்டாகார்பல்கள், விரல் எலும்புகள் உள்ளன. உடல்–விரல்களுக்கு இடையேயான தோல் பிளாஜியோபடாஜியம் (plagiopatagium), விரல்களுக்கிடைத் தோல் டாக்டிலோபடாஜியம் (dactylopatagium) எனப்படுகிறது. சிலவற்றில் வால்–பின்னங்கால்களுக்கிடையே யூரோபடாஜியம் (uropatagium) உண்டு. கட்டைவிரல் பொதுவாகக் குறுகியதும் நகம் கொண்டதுமாகும். தசைகள், நாண்கள், நரம்புகள் தோலின் இழுவிசையையும் இறக்கை வளைவையும் கட்டுப்படுத்துகின்றன. இதனை உறுதியான பாராசூட் போலவோ பறவையிறகுகள் கொண்ட இறக்கையாகவோ வரையக்கூடாது. விரல்கள் I–V, மணிக்கட்டு, முழங்கை, தோல் பகுதிகள் ஆகியவற்றைத் துல்லியமாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "echolocation",
+          "heading": {
+            "en": "Echolocation, hearing and acoustic orientation",
+            "ta": "எதிரொலியுணர்வு, செவித்திறன் மற்றும் ஒலிசார் வழிகாணல்"
+          },
+          "body": {
+            "en": "Many bats navigate and detect prey using echolocation, emitting ultrasonic calls and analysing returning echoes for distance, direction and target properties. Call frequency, pulse duration and emitted patterns differ among foraging environments and species. Most microchiropteran lineages use laryngeal echolocation, but some fruit bats do not use it in the same way, and a few can echolocate using tongue clicks. Thus 'all bats are blind and all use one ultrasonic system' is false. Many bats have functional vision that complements hearing, smell and learned spatial information. External ears, tragus and facial specialisations can influence acoustic reception, but their precise structures vary. An anatomical plate should identify the mouth or nose emission pathway, ear and returning echoes, while distinguishing ultrasound used for navigation from ordinary social calls. Experimental evidence should support any claimed acoustic range.",
+            "ta": "பல வௌவால்கள் உயர்அதிர்வெண் ஒலிகளை வெளியிட்டு திரும்பும் எதிரொலியைப் பயன்படுத்தி இரை, தடைகள், தூரம் ஆகியவற்றை அறிகின்றன; இதனை எக்கோலோகேஷன் (echolocation) என்கிறோம். ஒலியின் அதிர்வெண், நீளம், இடைவெளி ஆகியவை இனத்துக்கும் சூழலுக்கும் ஏற்ப மாறுகின்றன. எல்லா வௌவால்களும் பார்வையற்றவை அல்ல; பலவற்றில் பார்வை, மணம், செவித்திறன் இணைந்து செயல்படுகின்றன. சில பழவுண்ணி வௌவால்கள் வழக்கமான குரல்வளை எதிரொலியுணர்வைப் பயன்படுத்துவதில்லை; சிலவற்றில் நாக்குக் கிளிக் ஒலிகளும் உண்டு. படத்தில் ஒலி வெளியேறும் இடம், திரும்பும் எதிரொலி, செவி, பொருளின் இடம் ஆகியவற்றைச் சான்றுடன் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "diet-ecology",
+          "heading": {
+            "en": "Insectivory, frugivory, pollination and ecosystem roles",
+            "ta": "பூச்சியுண்ணல், பழவுண்ணல், மகரந்தச் சேர்க்கை மற்றும் சூழலியல் பங்கு"
+          },
+          "body": {
+            "en": "Bat diets include insects, fruit, nectar, pollen, small vertebrates and, in a few lineages, blood; dietary specialisation differs enormously within Chiroptera. Insectivorous species may affect nocturnal insect communities, while fruit- and nectar-feeding bats can disperse seeds and pollinate plants. Such ecosystem services depend on local species interactions and should not be expressed as universal numerical claims. Vampire bats are restricted to a small specialised group and their feeding habits must not be generalised to all bats. Roost ecology ranges from caves and hollow trees to buildings and foliage, with varying social organisation. Conservation education should explain both benefits and disease-related precautions without promoting indiscriminate persecution. Anatomical comparisons can connect teeth, tongue, skull and wing proportions to diet, foraging range and habitat, clearly distinguishing observation from ecological inference.",
+            "ta": "வௌவால்கள் பூச்சி, பழம், தேன், மகரந்தம், சிறு முதுகெலும்பிகள் போன்ற பலவகை உணவுகளை உண்ணுகின்றன; சில சிறப்பான கிளைகளில் இரத்தம் உண்பதும் உண்டு. பூச்சியுண்ணிகள் இரவுப் பூச்சித் தொகுதிகளைப் பாதிக்கலாம்; பழவுண்ணி, தேனுண்ணி இனங்கள் விதைப்பரவல், மகரந்தச் சேர்க்கையில் பங்காற்றலாம். எல்லா வௌவால்களும் இரத்தம் உறிஞ்சுகின்றன என்ற கருத்து தவறு. குகை, மரப்பொந்து, கட்டிடம், இலைகள் போன்ற இடங்களில் இனத்திற்கேற்ப தங்குகின்றன. சூழலியல் பயன்களை ஆதாரமில்லாத பொதுவான எண்ணிக்கைகளாகக் கூறக்கூடாது. பற்கள், நாக்கு, தலையோடு, இறக்கை ஆகியவற்றை உணவுடன் தொடர்புபடுத்தி ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "flight-physiology",
+          "heading": {
+            "en": "Energy, reproduction, roosting and seasonal physiology",
+            "ta": "பறப்புக்கான ஆற்றல், இனப்பெருக்கம், தங்குமிடம் மற்றும் பருவ உடலியல்"
+          },
+          "body": {
+            "en": "Powered flight imposes substantial energetic and respiratory demands, so bat anatomy combines high-performance pectoral muscles with efficient circulation and complex thermoregulation. Many bats can enter daily torpor or seasonal hibernation, reducing metabolic expenditure when food is scarce, but patterns differ among species and environments. Females generally give birth to a small number of live young and supply milk, often with elaborate maternal roosting and recognition behaviour. The ability to fly does not eliminate costs of pregnancy or pup transport. Roost disturbance can disrupt reproduction and expose animals to stress. A university comparison between bat and bird flight should consider homologous vertebrate forelimbs but independently evolved aerodynamic specialisations, contrasting bat membrane supported by digits with bird feathers. It should also note that bat metabolic and reproductive traits vary by taxon.",
+            "ta": "செயற்பறப்பிற்கு அதிக ஆற்றலும் ஆக்சிஜன் வழங்கலும் தேவை. வௌவால்களில் மார்புத் தசைகள், இரத்தச் சுழற்சி, உடல்வெப்ப ஒழுங்கு ஆகியவை இதற்கேற்ப அமைந்துள்ளன. சில இனங்களில் நாளாந்த டார்பர் (torpor) அல்லது பருவகாலச் செயல்மந்தம் ஆற்றலைச் சேமிக்க உதவுகிறது; எல்லா இனங்களிலும் ஒரே முறை இல்லை. பெண் வௌவால்கள் பொதுவாகக் குறைந்த எண்ணிக்கையிலான குட்டிகளை ஈன்று பாலூட்டுகின்றன. குட்டியுடன் பறத்தல், தங்குமிடம் தேர்வு போன்றவை ஆற்றல் செலவுடன் தொடர்புடையவை. பறவை இறக்கையின் இறகுகளையும் வௌவால் இறக்கையின் நீண்ட விரல் ஆதரவு கொண்ட தோலையும் தனித்தனியாகக் காட்ட வேண்டும். கூடு அல்லது தங்குமிடத்தைத் தொந்தரவு செய்யாமல் ஆய்வு மேற்கொள்ள வேண்டும்."
+          }
+        },
+        {
+          "key": "gliders-comparison",
+          "heading": {
+            "en": "Gliding squirrels, colugos and marsupial gliders",
+            "ta": "சறுக்கும் அணில்கள், கொலுகோக்கள் மற்றும் மார்சூப்பியல் கிளைடர்கள்"
+          },
+          "body": {
+            "en": "Flying squirrels belong to Rodentia and glide on a patagium stretched between limbs; colugos are dermopterans with extensive membranes, and sugar gliders are marsupials. Their similar gliding silhouettes illustrate convergent adaptation rather than close membership in Chiroptera. They initiate a glide from height and control descent by changing membrane tension and limb posture, but cannot sustain powered flapping flight. Some possess tails that contribute to steering, but structures and mechanics differ. A high-quality comparison plate should show the bat's elongated finger-supported wing separately from the forelimb–hindlimb membrane of each glider, with an osteological inset. Scientific labels must distinguish Rodentia, Dermoptera and Diprotodontia rather than treating 'flying mammals' as a taxonomic order. The final student conclusion should identify the mechanical definition of powered flight and the independent evolutionary origins of gliding.",
+            "ta": "பறக்கும் அணில்கள் கொறித்துண்ணிகள் (Rodentia); கால்களுக்கிடையே விரிந்த தோலால் சறுக்குகின்றன. கொலுகோக்கள் டெர்மோப்டீரா (Dermoptera) குழுவைச் சேர்ந்தவை; சுகர் கிளைடர்கள் மார்சூப்பியல்கள். இவற்றின் சறுக்கும் உடல்வடிவ ஒற்றுமை நெருங்கிய பரிணாம உறவை நிரூபிப்பதில்லை. உயரத்திலிருந்து தொடங்கி உடற்தோலின் இழுவிசை, கால்களின் நிலை மூலம் சரிவைக் கட்டுப்படுத்துகின்றன; வௌவால்களைப் போலத் தொடர்ச்சியான இறக்கையசைவுப் பறப்பு செய்யமாட்டா. ஒப்பீட்டுப் படத்தில் வௌவாலின் நீண்ட விரல் ஆதரவு கொண்ட இறக்கையையும் அணில், கொலுகோ, கிளைடர் தோலமைப்புகளையும் தனித்தனியாகக் காட்ட வேண்டும். ‘பறக்கும் பாலூட்டிகள்’ என்பதை ஒரு இயற்கை வரிசையாக வகைப்படுத்தக்கூடாது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Mammalian diversity",
+          "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals"
+        },
+        {
+          "label": "Bat Conservation International — Bat biology",
+          "url": "https://www.batcon.org/about-bats/"
+        }
+      ]
     }
   ]
 }
