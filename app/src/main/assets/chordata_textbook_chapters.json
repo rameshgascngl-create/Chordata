@@ -2354,6 +2354,211 @@
           "url": "https://www.fao.org/newsroom/detail/sofia-2026--global-fisheries-and-aquaculture-production-reaches-new-highs/"
         }
       ]
+    },
+    {
+      "id": "amphibia-classification-undergraduate",
+      "topicId": "u3-amphibia-classification",
+      "title": {
+        "en": "Amphibia — diagnostic features, living orders and comparative classification",
+        "ta": "இருவாழ்விகள் — வரையறுக்கும் பண்புகள், வாழும் வரிசைகள் மற்றும் ஒப்பீட்டு வகைப்பாடு"
+      },
+      "sections": [
+        {
+          "key": "amphibian-scope",
+          "heading": {
+            "en": "Amphibia, Lissamphibia and a qualified definition",
+            "ta": "இருவாழ்விகளும் வாழும் இருவாழ்விக் குழுவும்"
+          },
+          "body": {
+            "en": "Amphibians are tetrapod vertebrates, and living amphibians form the clade Lissamphibia. They include frogs and toads, salamanders and newts, and caecilians. The familiar phrase ‘dual life’ usefully introduces aquatic and terrestrial phases but is not a universal diagnostic condition: numerous amphibians develop directly on land, remain aquatic throughout life, or have unusual reproductive systems. Most possess glandular skin that contributes to water balance and defence; the permeability of that skin often makes populations sensitive to environmental changes. They are ectotherms, but this does not mean body temperature merely equals air temperature, since behaviour and microhabitat selection influence thermal conditions. The pentadactyl limb plan is ancestral to tetrapods, yet frogs show modified limbs and caecilians have secondarily lost them. A scientifically correct definition should rely on evolutionary relationships and shared developmental characters rather than one stereotypical frog life cycle.",
+            "ta": "இருவாழ்விகள் (Amphibia) நான்குகாலி முதுகெலும்பிகளின் ஒரு பரிணாமக் குழுவாகும். இன்று வாழும் இருவாழ்விகள் லிசாம்பிபியா (Lissamphibia) என்னும் குழுவைச் சேர்ந்தவை. தவளைகள், தேரைகள், சலமாண்டர்கள், நியூட்டுகள், காலற்ற சீசிலியன்கள் இக்குழுவில் அடங்கும். நீர்–நில வாழ்விட மாற்றம் என்ற விளக்கம் பயன்பட்டாலும் எல்லா இனங்களுக்கும் இரண்டு தனித்த வாழ்க்கை நிலைகள் அவசியமில்லை. சில இனங்கள் நேரடியாகச் சிறு உயிரிகளாக வளர்கின்றன; சில இனங்கள் முழுவதும் நீரிலேயே வாழ்கின்றன. சுரப்பிகள் நிறைந்த தோல் நீர்ச் சமநிலையிலும் பாதுகாப்பிலும் முக்கியம். கால்கள் இல்லாத சீசிலியன்களும் இருவாழ்விகளே. எனவே ஒரு தவளையின் வாழ்க்கைச் சுழற்சியை மட்டும் கொண்டு முழு வகுப்பையும் வரையறுக்கக் கூடாது."
+          }
+        },
+        {
+          "key": "general-body-features",
+          "heading": {
+            "en": "External organisation, skin and sensory adaptations",
+            "ta": "வெளியமைப்பு, தோல் மற்றும் புலன் தகவமைப்புகள்"
+          },
+          "body": {
+            "en": "Adult anurans usually lack a tail, and hindlimbs commonly specialise in saltation or swimming. Salamanders retain an elongate trunk and tail, while caecilians possess annulated, elongated bodies adapted to burrowing or aquatic locomotion. Amphibian skin has mucous and often granular glands, and its secretions can support moisture retention, signalling or chemical defence; ‘poisonous’ is inappropriate as an indiscriminate label. The tympanic membrane may be external in some frogs but absent or modified in other groups. Eyes, olfactory organs, lateral-line receptors in aquatic stages, and the unique sensory tentacles of caecilians illustrate different solutions to environmental perception. In practical identification, observe the skull and jaw, digits, body proportions, tail condition, gland distribution and larval characters. A photograph showing only colour may be insufficient to distinguish close species, especially because pigmentation can change during development or activity.",
+            "ta": "வளர்ந்த அனூரா உயிரிகளில் பொதுவாக வால் இல்லை; பின்னங்கால்கள் தாவுவதற்கும் நீந்துவதற்கும் ஏற்ற வகையில் மாறியுள்ளன. சலமாண்டர்களில் நீண்ட உடலும் வாலும் நீடிக்கின்றன. சீசிலியன்களில் வளையக் குறிகளுடன் நீண்ட காலற்ற உடல் காணப்படுகிறது. தோலில் சளிச்சுரப்பிகளும் சில இனங்களில் தற்காப்புச் சுரப்பிகளும் உள்ளன. வெளிப்படையான செவிப்பறை எல்லா இருவாழ்விகளிலும் இருப்பதில்லை. நீர்வாழ் நிலைகளில் பக்கவாட்டுக் கோட்டுப் புலன்கள் இருக்கலாம்; சீசிலியன்களின் சிறப்பான உணர்க் கொம்புகள் முக்கியமானவை. உடற்பருமன், கால்விரல்கள், வால், தோல் சுரப்பிகள், இளம்நிலை பண்புகள் ஆகியவற்றை வைத்து அடையாளம் காண வேண்டும். நிறம் மட்டும் இன அடையாளத்துக்கு எப்போதும் போதாது."
+          }
+        },
+        {
+          "key": "anura-order",
+          "heading": {
+            "en": "Order Anura: frogs and toads",
+            "ta": "அனூரா வரிசை — தவளைகளும் தேரைகளும்"
+          },
+          "body": {
+            "en": "Order Anura includes frogs and toads, which share a shortened adult vertebral column, absence of a free adult tail and a distinctive urostyle formed from fused caudal elements. Long hindlimbs and enlarged pelvic musculature support jumping in many species, but burrowing and fully aquatic forms depart from that general pattern. Tympanic hearing and vocal communication are prominent in many frogs, with male vocal sacs in numerous species; their exact occurrence varies. Fertilisation is often external during amplexus, yet important exceptions exist and reproductive biology cannot be inferred from body outline alone. Eggs usually lack a hard shell, and many species have an aquatic tadpole that undergoes metamorphosis, although direct development also occurs. A correct skeletal plate identifies the elongated ilia, urostyle and powerful hindlimb girdle instead of depicting the anuran skeleton as a reduced lizard.",
+            "ta": "அனூரா (Anura) வரிசையில் தவளைகளும் தேரைகளும் அடங்குகின்றன. வளர்ந்த நிலையில் வெளிப்புற வால் இல்லாமையும் சுருங்கிய முதுகெலும்புத் தொடரும் இணைந்த வால் எலும்பாகிய யூரோஸ்டைல் (urostyle) அமைப்பும் குறிப்பிடத்தக்கவை. பல இனங்களில் பின்னங்கால்களும் இடுப்புத் தசைகளும் தாவுதலுக்கு ஏற்றவை; நீர்வாழ் மற்றும் குழிதோண்டும் இனங்களில் வேறுபாடுகள் உள்ளன. பல தவளைகளில் ஒலி எழுப்புதல், செவிப்பறை, குரற்பை ஆகியவை முக்கியம். பெரும்பாலும் ஆம்ப்ளெக்ஸஸ் (amplexus) தொடர்புடைய வெளிக் கருத்தரித்தல் நிகழ்கிறது; விதிவிலக்குகளும் உள்ளன. சிலவற்றில் தலைப்பிரட்டை நிலை உண்டு, சிலவற்றில் நேரடி வளர்ச்சியும் உண்டு. எலும்புக்கூட்டுப் படத்தில் இடுப்பெலும்பு, யூரோஸ்டைல், பின்னங்கால் ஆகியவை காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "caudata-order",
+          "heading": {
+            "en": "Order Caudata/Urodela: salamanders and newts",
+            "ta": "கௌடேட்டா / யூரோடீலா — சலமாண்டர்களும் நியூட்டுகளும்"
+          },
+          "body": {
+            "en": "Salamanders and newts are placed in Caudata (also traditionally called Urodela), with an elongate body, a distinct adult tail and usually two pairs of relatively similar limbs. Movement may involve lateral body undulation, walking and tail-driven swimming, depending on habitat. Many species have internal fertilisation mediated by spermatophores; not all deposit eggs in water, and viviparity occurs in some lineages. Larvae may retain external gills until metamorphosis, whereas paedomorphic adults of some taxa retain larval traits. Regenerative ability is notable in many salamanders, but it varies by species, life stage and tissue; it should not be described as unlimited regrowth under every condition. In a comparative figure, distinguish the salamander's caudal vertebrae and longer trunk from the anuran urostyle, and separately mark external gills where they are truly present.",
+            "ta": "கௌடேட்டா (Caudata) அல்லது பழைய பெயரில் யூரோடீலா (Urodela) வரிசையில் சலமாண்டர்களும் நியூட்டுகளும் உள்ளன. நீண்ட உடல், வளர்ந்த நிலையில் வால், பொதுவாக ஒத்த வடிவிலான இரண்டு இணைக் கால்கள் காணப்படுகின்றன. நிலத்தில் நடப்பதற்கும் நீரில் வாலை அசைத்து நீந்துவதற்கும் ஏற்ற இயக்க முறைகள் உண்டு. பல இனங்களில் ஸ்பெர்மடோஃபோர் மூலம் உட்கருத்தரித்தல் நிகழ்கிறது. சில இளம்நிலைகளில் வெளிச் செவுள்கள் உள்ளன; சில வளர்ந்த உயிரிகளிலும் இளம்நிலை பண்புகள் நீடிக்கலாம். சில சலமாண்டர்களின் உறுப்பு மீளுருவாக்கத் திறன் குறிப்பிடத்தக்கது; எல்லா உறுப்புகளும் எல்லா சூழலிலும் முழுமையாக மீளும் எனக் கூற முடியாது."
+          }
+        },
+        {
+          "key": "gymnophiona-order",
+          "heading": {
+            "en": "Order Gymnophiona/Apoda: caecilians",
+            "ta": "ஜிம்னோஃபியோனா / அபோடா — சீசிலியன்கள்"
+          },
+          "body": {
+            "en": "Caecilians are limbless amphibians grouped in Gymnophiona (traditionally Apoda). Their elongated bodies often show annuli and numerous trunk vertebrae, features that should not be mistaken for annelid segmentation. They possess an unusual pair of chemosensory tentacles between the nostrils and eyes, and the eyes are frequently reduced or partly covered. Internal fertilisation is characteristic, with a specialised male copulatory organ; reproductive strategies include egg laying and live bearing. Certain species provide prolonged parental care or dermal feeding, in which offspring obtain nutrition from the mother's modified outer skin. Many caecilians are subterranean, but aquatic lineages exist. As a consequence, absence of limbs and a wormlike body does not justify assigning an animal to snakes or annelids. Accurate illustrations should show the head, tentacles, annuli and relevant cloacal region, rather than a generic legless silhouette.",
+            "ta": "ஜிம்னோஃபியோனா (Gymnophiona) அல்லது அபோடா (Apoda) வரிசையில் காலற்ற சீசிலியன்கள் உள்ளன. நீண்ட உடலில் வளையக் குறிகள் (annuli) காணப்பட்டாலும் அவை மண்புழுவின் உண்மையான கண்டப் பிரிவுகளுக்கு ஒப்பானவை அல்ல. மூக்குத் துளைக்கும் கண்ணுக்கும் இடையே சிறப்பான வேதியியல் உணர்க் கொம்புகள் உள்ளன. பல இனங்களில் கண்கள் சிறியனவாகவோ மூடப்பட்டவையாகவோ இருக்கும். உட்கருத்தரித்தல் நிகழ்கிறது; முட்டையிடுதல், உயிர்க்குஞ்சு ஈனுதல் போன்ற இனப்பெருக்க முறைகள் உள்ளன. சில இனங்களில் தாயின் மாற்றமடைந்த தோலை இளம்நிலைகள் உணவாகப் பெறுகின்றன. கால்கள் இல்லாததன் அடிப்படையில் இவற்றைப் பாம்புகள் அல்லது வளையப் புழுக்களாக வகைப்படுத்தக் கூடாது."
+          }
+        },
+        {
+          "key": "respiration-circulation",
+          "heading": {
+            "en": "Respiration, circulation and excretion across amphibians",
+            "ta": "இருவாழ்விகளில் சுவாசம், இரத்தச் சுழற்சி மற்றும் கழிவுநீக்கம்"
+          },
+          "body": {
+            "en": "Larval amphibians commonly exchange gases through gills, skin and other surfaces; many adults use lungs together with cutaneous and buccopharyngeal exchange. Lung size and importance vary dramatically, and certain plethodontid salamanders lack lungs entirely. An adult amphibian heart is often described as having two atria and one incompletely divided ventricle, although its anatomical details and blood-routing mechanisms should not be oversimplified into unrestricted mixing. Anurans generally have an internal respiratory pump using buccal movements instead of the mammalian diaphragm. Nitrogenous waste can shift in relative importance across larval and terrestrial stages; ammonia predominates in many aquatic contexts, while urea is useful for some terrestrial forms. Body-water exchange is strongly influenced by skin permeability and renal function. A comparative answer should connect each structure to habitat and developmental stage and should identify important exceptions.",
+            "ta": "இருவாழ்விகளின் இளம்நிலைகளில் செவுள், தோல் போன்ற பரப்புகள் வாயுப் பரிமாற்றம் செய்கின்றன. வளர்ந்த உயிரிகளில் நுரையீரல், தோல், வாய்த் தொண்டைப் பரப்பு ஆகியவை இனத்திற்கேற்ப பங்கெடுக்கின்றன. சில சலமாண்டர்களில் நுரையீரல் இல்லை. பொதுவாக இரு முன்கூடங்களும் முழுமையாகப் பிரியாத ஒற்றை இதயவறையும் கொண்ட இதயம் காணப்படுகிறது; இரத்தம் முற்றிலும் தடையின்றிக் கலக்கிறது என்பது மிகையான எளிமைப்படுத்தலாகும். பாலூட்டிகளின் உதரவிதானம் போன்ற அமைப்பு இல்லாமல் வாய்க்குழி இயக்கம் மூலம் காற்று உள்ளே செலுத்தப்படலாம். நீர்வாழ் நிலைகளில் அம்மோனியா வெளியேற்றமும் நிலவாழ் சூழல்களில் யூரியா வெளியேற்றமும் முக்கியமாகலாம். தோல் ஊடுருவல்தன்மையும் சிறுநீரகச் செயல்பாடும் நீர்ச் சமநிலையை நிர்ணயிக்கின்றன."
+          }
+        },
+        {
+          "key": "reproduction-metamorphosis",
+          "heading": {
+            "en": "Reproduction and developmental diversity",
+            "ta": "இனப்பெருக்கமும் உருமாற்ற வளர்ச்சியின் பன்மையும்"
+          },
+          "body": {
+            "en": "Amphibian reproduction is remarkably diverse: spawning may occur in ponds, streams, foam nests, arboreal sites, protected crevices or on land. Typical anuran tadpoles have specialised larval mouths, tails and often gills; thyroid hormone contributes to metamorphic reorganisation including limb development, intestinal changes and tail resorption. Many salamanders show a different larval anatomy, while caecilian development may be direct or involve distinctive aquatic young. Direct-developing frogs hatch as miniature frogs without a free-swimming tadpole. Parental egg guarding, transport of young and reproductive viviparity occur in separate lineages. Terms such as ‘primitive tadpole’ should be avoided: larvae are specialised stages shaped by ecology. A lesson diagram should clearly separate egg, larva, metamorphic transition and adult, and note when a particular species lacks a free-living larva.",
+            "ta": "இருவாழ்விகளின் முட்டையிடும் இடங்கள் குளம், ஓடை, நுரைக் கூடு, மரவாழிடம், நிலப்பகுதி எனப் பலவகை. தவளையின் தலைப்பிரட்டை நிலையில் வால், தனித்த வாயமைப்பு, செவுள் போன்ற பண்புகள் உள்ளன. தைராய்டு ஹார்மோன் சார்ந்த உருமாற்றத்தில் கால்கள் உருவாதல், குடல் மாற்றம், வால் உறிஞ்சப்படுதல் ஆகியவை நிகழ்கின்றன. சில தவளைகள் சுதந்திரமாக நீந்தும் தலைப்பிரட்டை நிலை இன்றி நேரடியாகச் சிறு தவளைகளாக வெளிவருகின்றன. சில சலமாண்டர்களிலும் சீசிலியன்களிலும் பிற வளர்ச்சி முறைகள் உள்ளன. பெற்றோர் முட்டைப் பாதுகாப்பு, குஞ்சு சுமத்தல், உயிர்க்குஞ்சு ஈனுதல் போன்றவை வெவ்வேறு இனங்களில் காணப்படுகின்றன. வாழ்க்கைச் சுழற்சிப் படத்தில் குறிப்பிட்ட இனத்தின் உண்மை வளர்ச்சி நிலைகளையே காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "comparative-and-conservation",
+          "heading": {
+            "en": "Order-level comparison, field identification and conservation",
+            "ta": "வரிசை அளவிலான ஒப்பீடும் அடையாளமும் பாதுகாப்பும்"
+          },
+          "body": {
+            "en": "Anura, Caudata and Gymnophiona can be compared by adult tail, limbs, axial skeleton, locomotion, fertilisation and larval development. However, variation within an order is important: a single character such as ‘aquatic eggs’ cannot reliably identify every specimen. Taxonomy increasingly combines morphology, molecular phylogenies, advertisement calls and bioacoustics, especially where cryptic species resemble one another. Amphibian populations face interacting pressures from habitat fragmentation, freshwater pollution, introduced predators, climate shifts and pathogenic chytrid fungi; threats differ by locality. Ethical field teaching should photograph animals in place, record habitat and call characteristics without damaging microhabitats, and observe wildlife protections. Student learning outcomes should include constructing a character matrix and explaining why relationships cannot be inferred solely from adaptation to similar environments.",
+            "ta": "அனூரா, கௌடேட்டா, ஜிம்னோஃபியோனா ஆகியவற்றை வளர்ந்த வால், கால்கள், முதுகெலும்பு, இயக்கம், கருத்தரித்தல், இளம்நிலை வளர்ச்சி என்ற பண்புகளின் அடிப்படையில் ஒப்பிடலாம். ஒவ்வொரு வரிசைக்குள்ளும் விதிவிலக்குகள் உள்ளன. நவீன இன அடையாளத்தில் உடற்கூறு, மரபணு தகவல், இனவழி அழைப்பொலி ஆகியவை உதவுகின்றன. வாழிடத் துண்டாக்கம், நீர் மாசுபாடு, பருவநிலை மாற்றம், கைட்ரிட் பூஞ்சை நோய் போன்றவை இருவாழ்விகளைப் பாதிக்கின்றன. களப்பயிற்சியில் உயிரிகளைச் சேதப்படுத்தாமல் வாழிடம், குரல், உடற்பண்புகளைப் பதிவு செய்ய வேண்டும். ஒரே வாழிடத்திற்கேற்ற தகவமைப்பை மட்டும் வைத்து நெருங்கிய உறவை முடிவு செய்யக் கூடாது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Amphibians",
+          "url": "https://openstax.org/books/biology-2e/pages/29-3-amphibians"
+        },
+        {
+          "label": "AmphibiaWeb — University of California, Berkeley",
+          "url": "https://amphibiaweb.org/"
+        }
+      ]
+    },
+    {
+      "id": "origin-amphibia-undergraduate",
+      "topicId": "u3-origin",
+      "title": {
+        "en": "Origin of amphibians — Devonian stem tetrapods and the water-to-land transition",
+        "ta": "இருவாழ்விகளின் தோற்றம் — டெவோனிய நான்குகாலி முன்னோடிகளும் நீரிலிருந்து நிலத்திற்கான மாற்றமும்"
+      },
+      "sections": [
+        {
+          "key": "phylogenetic-framing",
+          "heading": {
+            "en": "What does the 'origin of amphibians' mean?",
+            "ta": "‘இருவாழ்விகளின் தோற்றம்’ என்பதன் பரிணாமப் பொருள்"
+          },
+          "body": {
+            "en": "The origin of Amphibia must be addressed at two different evolutionary levels. The first concerns the Devonian emergence of tetrapod body plans from lobe-finned sarcopterygian ancestors; the second concerns the more recent ancestry of living amphibians, collectively called Lissamphibia. Fossil stem tetrapods are not automatically members of the crown group Amphibia. Older textbooks sometimes imply that modern frogs arose directly from a named Devonian fish or that all early land vertebrates were today's amphibians. Neither statement follows from phylogenetic analysis. Transitional fossils display mosaics of characteristics, with fish-like and tetrapod-like features evolving at different times. In a cladogram, a branch point represents a common ancestor rather than a living organism changing directly into another currently living species. Distinguish a stem lineage, a crown group and a grade of broadly ‘amphibian-like’ animals.",
+            "ta": "இருவாழ்விகளின் தோற்றத்தை இரு நிலைகளில் ஆராய வேண்டும். ஒன்று டெவோனியக் காலத்தில் மாமிசத் துடுப்பு மீன் முன்னோடிகளிலிருந்து நான்குகாலி உடலமைப்பு உருவான வரலாறு; மற்றொன்று இன்று வாழும் இருவாழ்விகளின் (Lissamphibia) பொதுமூதாதைத் தொடர்பு. எல்லா தொடக்க நான்குகாலிப் புதைபடிவங்களையும் இன்றைய இருவாழ்வி வகுப்புக்குள் சேர்க்கக்கூடாது. தற்போதைய தவளைகள் ஒரு குறிப்பிட்ட டெவோனிய மீனிலிருந்து நேரடியாக உருவானதாகக் கூறுவது தவறு. இடைநிலைப் புதைபடிவங்களில் மீன்சார் பண்புகளும் நான்குகாலிச் பண்புகளும் வெவ்வேறு சேர்க்கைகளில் காணப்படுகின்றன. மரபுவழிப் படத்தில் கிளைப்புள்ளி பொதுமூதாதையைச் சுட்டுகிறது; வாழும் ஓர் இனம் மற்றொரு வாழும் இனமாக நேரடியாக மாறியது எனக் கருத முடியாது."
+          }
+        },
+        {
+          "key": "fins-to-limbs",
+          "heading": {
+            "en": "Lobe fins, endoskeletal homologies and digits",
+            "ta": "மாமிசத் துடுப்புகள், உள்எலும்பு ஒற்றுமை மற்றும் விரல்கள்"
+          },
+          "body": {
+            "en": "Sarcopterygian fishes have paired fins with robust internal skeletal elements that are relevant to the evolution of tetrapod appendages. Comparative anatomy identifies homologous regions corresponding broadly to proximal limb bones and more distal skeletal elements, but the origin of digits involved additional developmental innovations. Tiktaalik combines fish-like scales, fin rays and gills with a mobile neck region, flattened skull and strengthened appendicular skeleton; it documents a transitional combination rather than a fully terrestrial amphibian. Acanthostega had digits yet retained conspicuously aquatic adaptations, illustrating that digits did not initially require efficient walking on dry land. The functional sequence cannot be inferred merely by drawing progressively longer legs. Compare humerus-like, radius/ulna-like and distal elements with the persistence or disappearance of fin rays, and distinguish skeletal homology from superficial similarity.",
+            "ta": "சார்காப்டெரிஜியன் (Sarcopterygii) மீன்களின் இணைத் துடுப்புகளில் வலுவான உள்எலும்புக் கூறுகள் உள்ளன. அவற்றில் சில தொடக்க நான்குகாலிகளின் காலெலும்புகளுடன் பரிணாம ஒற்றுமை கொண்டவை. விரல்கள் உருவாதல் மேலும் வளர்ச்சியியல் புதுமைகளை உள்ளடக்கியது. டிக்டாலிக் (Tiktaalik) புதைபடிவத்தில் மீன் செதில்கள், துடுப்புக் கதிர்கள், செவுள் பண்புகளுடன் கழுத்து இயக்கம், தட்டையான தலையோடு, வலுவான இணைப்புறுப்பு ஆதாரம் ஆகியவை சேர்ந்துள்ளன. அகாந்தோஸ்டீகா (Acanthostega) விரல்கள் கொண்டிருந்தாலும் நீர்வாழ்வுக்கே பல தகவமைப்புகள் இருந்தன. எனவே விரல்கள் தோன்றியது உடனடி நிலநடையை குறிக்காது. உள்எலும்புகளின் ஒற்றுமை, துடுப்புக் கதிர்களின் நிலை ஆகியவற்றை ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "respiration-head-and-neck",
+          "heading": {
+            "en": "Changes in respiration, feeding and the head–trunk boundary",
+            "ta": "சுவாசம், உணவுண்ணல் மற்றும் தலை–உடல் இணைப்பில் ஏற்பட்ட மாற்றங்கள்"
+          },
+          "body": {
+            "en": "Early tetrapodomorph evolution involved changes in skull roof, jaw suspensions, feeding strategies and the connection between head and shoulder girdle. In many fishes, elements of the shoulder girdle approach or connect with the skull; in tetrapod lineages, greater head mobility became possible as this connection was reorganised. Air breathing had evolved in several sarcopterygian contexts and should not be treated as a feature appearing only when animals first walked on land. Lungs, gills and cutaneous surfaces vary across fossil and living taxa, and soft tissues are rarely preserved directly. Shifts from water-supported feeding and locomotion to shallow-water or substrate-associated movements created multiple functional demands. In a labelled comparative plate identify the opercular region, skull–pectoral connection, neck, pectoral support and possible respiratory openings, while marking any inference not directly preserved in the fossil.",
+            "ta": "தொடக்க நான்குகாலி முன்னோடிகளில் தலையோடு, தாடை ஆதாரம், உணவுண்ணும் முறை, தலை–தோள்பட்டை இணைப்பு ஆகியவை மாறின. பல மீன்களில் தோள்பட்டை வளையம் தலையுடன் நெருங்கிய தொடர்புடையது; நான்குகாலி வரிசையில் இத்தொடர்பு மாறியதால் தலை சுதந்திரமாக இயங்கும் வாய்ப்பு அதிகரித்தது. காற்றுச் சுவாசம் நிலத்தில் நடக்கத் தொடங்கிய பின்னரே முதல் முறையாக உருவானது என்பது தவறு; பல முன்னோடி மீன் வரிசைகளில் ஏற்கெனவே சுவாச மாற்றங்கள் நிகழ்ந்திருந்தன. புதைபடிவங்களில் மென் திசுக்கள் முழுமையாகக் கிடைப்பது அரிது. தலையோடு–தோள் இணைப்பு, கழுத்து, செவுள் மூடுபகுதி, இணைப்புறுப்பு ஆதாரம் ஆகியவற்றை ஒப்பீட்டுப் படத்தில் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "devonian-fossil-sequence",
+          "heading": {
+            "en": "Devonian fossil evidence: Tiktaalik, Acanthostega and Ichthyostega",
+            "ta": "டெவோனிய புதைபடிவச் சான்றுகள்"
+          },
+          "body": {
+            "en": "Tiktaalik, Acanthostega and Ichthyostega are central exemplars for teaching the water-to-land transition, but none should be presented as the proven direct ancestor of another listed fossil. Tiktaalik represents a fin-bearing tetrapodomorph with adaptations associated with shallow aquatic environments. Acanthostega had multiple digits and retained a strongly aquatic habitus; Ichthyostega combined robust skeletal supports with specialisations that have prompted differing reconstructions of locomotion. Earlier tetrapod-like tracks and fragmentary fossils complicate a simple textbook chronology. The fossil record therefore supports branching evolution, overlapping adaptive combinations and uncertainty about exact relationships. A timeline should state geological interval and stratigraphic context instead of arranging three animals in a guaranteed ancestor–descendant sequence. Interpretations should make clear which claims are based on preserved bones, trace fossils or biomechanical reconstructions.",
+            "ta": "டிக்டாலிக், அகாந்தோஸ்டீகா, இக்தியோஸ்டீகா ஆகிய புதைபடிவங்கள் நீர்–நில மாற்றத்தை விளக்க உதவுகின்றன. இவற்றில் ஒன்று மற்றொன்றின் நேரடி மூதாதை என்பது நிரூபிக்கப்பட்டதாகக் காட்டக்கூடாது. டிக்டாலிக்கில் துடுப்புக் கதிர்கள் நீடித்தாலும் ஆழமற்ற நீர்வாழ்வுக்கான பல அமைப்புகள் இருந்தன. அகாந்தோஸ்டீகாவில் பல விரல்கள் இருந்தும் நீர்வாழ்வுப் பண்புகள் வலுவாக இருந்தன. இக்தியோஸ்டீகாவில் வலிமையான எலும்பு ஆதாரம் இருந்தாலும் அதன் இயக்க முறையை விளக்குவதில் ஆய்வுவேறுபாடுகள் உள்ளன. மேலும் பழைய தடப்புதைபடிவங்கள் எளிய நேர்வரிசை விளக்கத்தை சிக்கலாக்குகின்றன. காலவரிசைப் படத்தில் புவியியல் காலமும் புதைபடிவச் சான்றின் தன்மையும் தெளிவாகக் குறிப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "terrestrial-challenges",
+          "heading": {
+            "en": "Mechanical, sensory and reproductive challenges on land",
+            "ta": "நிலவாழ்வில் இயந்திர, புலன் மற்றும் இனப்பெருக்கச் சவால்கள்"
+          },
+          "body": {
+            "en": "Moving onto land changes how body weight is supported, how air and water affect sensory systems, and how organisms prevent desiccation. A more load-bearing axial skeleton, reconfigured limb joints and stronger girdles can aid terrestrial locomotion, but such traits did not emerge simultaneously. The density difference between water and air altered feeding mechanics and the physical transmission of sound, stimulating evolutionary changes in head structure and middle-ear systems. Moisture regulation became important for exposed tissues. Reproduction remained a constraint for many early tetrapod lineages because non-amniotic eggs and aquatic larvae can limit independence from water. The later amniotic egg arose on a different branch of tetrapod evolution and must not be projected backwards onto Devonian forms. An exam answer should link each environmental challenge to anatomical evidence rather than claiming a single decisive adaptation enabled colonisation.",
+            "ta": "நீரிலிருந்து நிலத்திற்குச் செல்வதால் உடல் எடையைத் தாங்குதல், இயக்கம், நீரிழப்பு தடுப்பு, புலன்களின் செயல்பாடு ஆகியவற்றில் புதிய சவால்கள் உருவாகின்றன. முதுகெலும்புத் தொடர், இணைப்புறுப்பு மூட்டுகள், தோள் மற்றும் இடுப்பு வளையங்கள் போன்றவை படிப்படியாக மாறின. நீரிலும் காற்றிலும் ஒலி பரவுதல் வேறுபடுவதால் தலை மற்றும் செவியமைப்பிலும் பரிணாம மாற்றங்கள் ஏற்பட்டன. தோல் ஈரப்பதம் மற்றும் இனப்பெருக்கத்திற்கான நீர் தொடர்பு முக்கியமாக இருந்தது. அம்னியோட்டிக் முட்டை நான்குகாலிகளின் வேறொரு பின்னர் தோன்றிய பரிணாமக் கிளையுடன் தொடர்புடையது; அதை டெவோனிய முன்னோடிகளுக்கு ஒப்புவிக்கக் கூடாது. ஒவ்வொரு சவாலுக்கும் பொருத்தமான புதைபடிவ உடற்கூறு சான்றைக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "lissamphibian-ancestry",
+          "heading": {
+            "en": "Origins of living amphibians and unresolved relationships",
+            "ta": "வாழும் இருவாழ்விகளின் மூதாதைத் தொடர்பும் தெளிவுபெறாத பிரச்சினைகளும்"
+          },
+          "body": {
+            "en": "Living frogs, salamanders and caecilians share a common evolutionary history, yet connecting their crown-group ancestry to the complex Carboniferous and Permian fossil record remains a research problem. Temnospondyl affinity has often been proposed for Lissamphibia; historical alternatives have included lepospondyl origins or different origins for distinct modern branches. Molecular analyses generally support a single living amphibian clade, but fossil placement and divergence-time estimates remain debated. The early fossil frogs and salamander-like forms are not identical to modern species, and character interpretation depends on specimen preservation and sampling. Students should distinguish a supported broad relationship from a disputed exact ancestor, and learn that phylogenetic hypotheses are evaluated against new fossils, anatomical data and DNA sequences rather than accepted on the authority of a classical diagram.",
+            "ta": "இன்றைய தவளைகள், சலமாண்டர்கள், சீசிலியன்கள் பொதுவான பரிணாம வரலாற்றைக் கொண்டவை. ஆனால் அவற்றை கார்போனிஃபெரஸ், பெர்மியன் காலப் புதைபடிவங்களில் எந்தக் கிளையுடன் துல்லியமாக இணைப்பது என்பது இன்னும் ஆய்வுக்குரியது. டெம்னோஸ்பாண்டில் (Temnospondyli) உறவு முன்வைக்கப்பட்டுள்ளது; பழைய மாற்றுக் கருதுகோள்களும் உள்ளன. மூலக்கூறு ஆய்வுகள் வாழும் இருவாழ்விகளின் ஒற்றைக் குழு உறவைப் பொதுவாக ஆதரித்தாலும் துல்லியமான முன்னோடிகள் மற்றும் பிரிதல் காலம் குறித்து விவாதங்கள் நீடிக்கின்றன. ஒரு பழைய படத்தில் காட்டப்பட்ட நேரடி மூதாதைத் தொடர்பை நிரூபிக்கப்பட்ட உண்மை என எழுதக்கூடாது. புதிய புதைபடிவங்கள், உடற்கூறு சான்றுகள், DNA தகவல் ஆகியவற்றின் அடிப்படையில் கருதுகோள்கள் சோதிக்கப்படுகின்றன."
+          }
+        },
+        {
+          "key": "comparative-evidence-exercise",
+          "heading": {
+            "en": "How to interpret a transition plate and construct a fossil-character matrix",
+            "ta": "இடைநிலைப் பட விளக்கமும் புதைபடிவப் பண்பு அட்டவணையும்"
+          },
+          "body": {
+            "en": "A useful undergraduate exercise compares a lobe-finned fish, a fin-bearing stem tetrapod, an early digit-bearing tetrapod and one living amphibian using observable characters. Record fin rays, internal limb bones, digit number, skull–shoulder connection, pelvic support and the degree of aquatic adaptation. Score unknown features as unknown: absence of a fossilised soft organ is not proof that it was absent in life. Distinguish homology (shared inherited structure) from function (how a limb or fin is used). Students should draw a branching cladogram compatible with the observed data and avoid a straight ladder with modern amphibians at the top. In discussion, address why a single fossil may be mosaic and why locomotion inferred from a bone demands biomechanical evidence. This method links the teaching of anatomy to how evolutionary explanations are tested.",
+            "ta": "இளங்கலைச் செய்முறையில் மாமிசத் துடுப்பு மீன், துடுப்புள்ள நான்குகாலி முன்னோடி, விரல்கள் கொண்ட தொடக்க நான்குகாலி, இன்று வாழும் இருவாழ்வி ஆகியவற்றின் பண்புகளை அட்டவணைப்படுத்தலாம். துடுப்புக் கதிர்கள், உள்எலும்புகள், விரல்கள், தலையோடு–தோள் இணைப்பு, இடுப்பு ஆதாரம், நீர்வாழ்வுப் பண்புகள் ஆகியவற்றைப் பதிவு செய்ய வேண்டும். புதைபடிவத்தில் தெரியாத மென் உறுப்பை ‘இல்லை’ என்று மதிப்பிடாமல் ‘தகவல் இல்லை’ என்று குறிக்க வேண்டும். ஒத்த மரபுவழி அமைப்பையும் தற்போதைய செயல்பாட்டையும் வேறுபடுத்த வேண்டும். தொடர் ஏணி வடிவிலல்லாமல் கிளையுடைய மரபுவழிப் படத்தை உருவாக்க வேண்டும். எலும்பின் வடிவிலிருந்து இயக்கத்தை ஊகிக்கும்போது உயிர் இயந்திரவியல் சான்றுகள் தேவை என்பதை விளக்க வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Amphibians and tetrapod origins",
+          "url": "https://openstax.org/books/biology-2e/pages/29-3-amphibians"
+        },
+        {
+          "label": "Nature — A Devonian tetrapod-like fish and the evolution of the tetrapod body plan",
+          "url": "https://doi.org/10.1038/nature04639"
+        }
+      ]
     }
   ]
 }
