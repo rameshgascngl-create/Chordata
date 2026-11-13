@@ -327,26 +327,65 @@ class ReaderNavigationTest {
             materialHold, id, `in`.gasc.zoology.chordata.domain.ReadingLanguage.TA))
     }
 
-    @Test fun focusedPigeonPanelsDecodeWithOriginalSourcesUnchanged() {
+    @Test fun focusedTeachingPanelsRespectLegacyAndOwnerApprovedAi10Images() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val assetDirectory = "pencil_plates"
-        val expected = listOf(
-            Triple("pigeon_urinogenital_en.png", 0, 1030 to 1040),
-            Triple("pigeon_urinogenital_en.png", 1, 1090 to 1040),
-            Triple("pigeon_urinogenital_en.png", 2, 1070 to 1510),
-            Triple("columba_skeleton_en.png", 0, 1270 to 1290),
-            Triple("fish_accessory_breathing_en.png", 0, 1800 to 1050)
-        )
-        for ((filename, panel, size) in expected) {
-            val focused = requireNotNull(decodeTeachingPanel(
-                context, assetDirectory, filename, panel)) {
-                "Missing region for $filename/$panel"
+
+        fun originalDimensions(filename: String): Pair<Int, Int> {
+            val bounds = android.graphics.BitmapFactory.Options().apply {
+                inJustDecodeBounds = true
             }
+            context.assets.open("$assetDirectory/$filename").use {
+                android.graphics.BitmapFactory.decodeStream(it, null, bounds)
+            }
+            return bounds.outWidth to bounds.outHeight
+        }
+
+        fun assertPanel(filename: String, panel: Int, expected: Pair<Int, Int>) {
+            val focused = requireNotNull(decodeTeachingPanel(
+                context, assetDirectory, filename, panel
+            )) { "Missing legacy region for $filename/$panel" }
             try {
-                org.junit.Assert.assertEquals("$filename width", size.first, focused.width)
-                org.junit.Assert.assertEquals("$filename height", size.second, focused.height)
+                org.junit.Assert.assertEquals("$filename width", expected.first, focused.width)
+                org.junit.Assert.assertEquals("$filename height", expected.second, focused.height)
             } finally {
                 focused.recycle()
+            }
+        }
+
+        // The columba skeleton is an unchanged legacy figure, so its
+        // deliberate, source-preserving crop must continue to decode.
+        assertPanel("columba_skeleton_en.png", 0, 1270 to 1290)
+
+        // Both of these files may be a retained historical/legacy plate or
+        // the exact owner-approved AI10 PNG, depending on source intake.
+        // New 1448x1086 original PNGs must be shown whole, not cropped using
+        // the old source's unrelated coordinate system.
+        val migratedOrLegacy = listOf(
+            Triple("pigeon_urinogenital_en.png", 3360 to 1900,
+                listOf(1030 to 1040, 1090 to 1040, 1070 to 1510)),
+            Triple("fish_accessory_breathing_en.png", 1800 to 1120,
+                listOf(1800 to 1050))
+        )
+        for ((filename, legacySize, panels) in migratedOrLegacy) {
+            val observed = originalDimensions(filename)
+            if (observed == legacySize) {
+                panels.forEachIndexed { index, size -> assertPanel(filename, index, size) }
+            } else {
+                org.junit.Assert.assertEquals("$filename AI10 dimensions",
+                    1448 to 1086, observed)
+                // Legacy crops must be unavailable for the new, different
+                // illustration. The reader already falls back to full PNG.
+                org.junit.Assert.assertNull(decodeTeachingPanel(
+                    context, assetDirectory, filename, 0))
+                val full = requireNotNull(decodePlateBitmap(
+                    context, assetDirectory, filename))
+                try {
+                    org.junit.Assert.assertEquals(1448, full.width)
+                    org.junit.Assert.assertEquals(1086, full.height)
+                } finally {
+                    full.recycle()
+                }
             }
         }
         org.junit.Assert.assertNull(decodeTeachingPanel(
