@@ -3036,6 +3036,260 @@
           "url": "https://openstax.org/books/biology-2e/pages/29-4-reptiles"
         }
       ]
+    },
+    {
+      "id": "snakes-of-india-undergraduate",
+      "topicId": "u4-snakes-india",
+      "title": {
+        "en": "Snakes of India — identification, medically significant species and field safety",
+        "ta": "இந்தியப் பாம்புகள் — அடையாளம், மருத்துவ முக்கியத்துவமுள்ள இனங்கள் மற்றும் களப் பாதுகாப்பு"
+      },
+      "sections": [
+        {
+          "key": "india-diversity",
+          "heading": {
+            "en": "Indian snake diversity and the limitations of venomous/non-venomous labels",
+            "ta": "இந்தியப் பாம்புகளின் பன்மையும் நஞ்சுள்ள–நஞ்சற்ற வகைப்பாட்டின் வரம்பும்"
+          },
+          "body": {
+            "en": "India supports a highly diverse snake fauna in forests, grasslands, farms, wetlands, coasts and urban landscapes. Snakes are squamate reptiles, not a single ecological category, and include fossorial, terrestrial, arboreal and marine species. A familiar school-level contrast between venomous and non-venomous snakes is useful for medical awareness but insufficient for taxonomy, because some venom-producing species cause little human illness while others are medically important. Distinguish venom, which may be delivered by a specialised bite, from poison acquired through contact or ingestion. Identification requires several characters assessed together, including scalation, head shields, colour pattern, habitat, geographic range and an adequately documented photograph. No isolated pupil shape, tail length, triangular head or number of scale rows safely identifies all dangerous snakes. Never handle a snake or attempt a close photograph to confirm identification.",
+            "ta": "இந்தியாவில் காடு, புல்வெளி, வயல், ஈரநிலம், கடற்கரை, நகரம் போன்ற பல வாழிடங்களில் பாம்புகள் காணப்படுகின்றன. அவை ஸ்குவாமேட்டா ஊர்வன; மண்ணுக்குள், நிலத்தில், மரத்தில், கடலில் வாழும் பலவகை இனங்கள் உள்ளன. நஞ்சுள்ள–நஞ்சற்ற பாம்பு என்ற பிரிவு மருத்துவ விழிப்புணர்வுக்கு உதவினாலும் முழுமையான வகைப்பாடு அல்ல. சில நஞ்சு உற்பத்தி செய்யும் இனங்கள் மனிதருக்கு மிகக் குறைந்த ஆபத்துடையவை; சில இனங்கள் கடுமையான பாதிப்பை ஏற்படுத்தலாம். இன அடையாளத்திற்கு செதில் அமைப்பு, தலைத் தகடுகள், நிற வடிவு, வாழிடம், பரவல் ஆகிய பல சான்றுகள் தேவை. முக்கோணத் தலை, கண்பாவை வடிவம் போன்ற ஒரு பண்பை மட்டும் கொண்டு ஆபத்து இல்லையெனத் தீர்மானிக்கக் கூடாது. அடையாளத்திற்காகப் பாம்பைப் பிடிக்கவோ நெருங்கவோ கூடாது."
+          }
+        },
+        {
+          "key": "big-four",
+          "heading": {
+            "en": "The traditional 'big four' and their scientific names",
+            "ta": "பாரம்பரிய ‘முக்கிய நான்கு’ பாம்புகளும் அறிவியல் பெயர்களும்"
+          },
+          "body": {
+            "en": "The traditional big four comprise the spectacled cobra Naja naja, common krait Bungarus caeruleus, Russell's viper Daboia russelii and saw-scaled viper Echis carinatus. These species are historically prominent causes of serious snakebite envenoming in India, but the label does not mean that only four Indian snakes are medically important. Regional distributions overlap imperfectly, and other cobras, kraits, pit vipers and sea snakes can cause severe envenoming. Naja naja may display a hood and characteristic markings, whereas the common krait often has a glossy dark body with bands; both descriptions admit variation. Vipers have distinctive scale and body characteristics, but these are not safe rules for layperson handling. Textbook plates should show correctly sourced specimens at comparable orientation and list their actual names rather than reusing a generic snake outline for every species.",
+            "ta": "பாரம்பரிய முக்கிய நான்கு பாம்புகள்: நல்லபாம்பு Naja naja, பொதுக் கட்டுவிரியன் Bungarus caeruleus, கண்ணாடி விரியன் Daboia russelii, சுருட்டை விரியன் Echis carinatus. இவை இந்தியாவில் பாம்புக்கடி நஞ்சேற்றத்திற்கு முக்கியமான எடுத்துக்காட்டுகள். ஆனால் இந்தியாவில் மருத்துவ முக்கியத்துவமுள்ளவை இந்த நான்கு இனங்கள் மட்டுமே என்று கூறக்கூடாது. பிற நல்லபாம்புகள், கட்டுவிரியன்கள், குழிவிரியன்கள், கடற்பாம்புகளும் சில பகுதிகளில் கடுமையான ஆபத்தை ஏற்படுத்தலாம். நல்லபாம்பின் விரிந்த படம், கட்டுவிரியனின் உடல் ஒளிர்வு, விரியன்களின் செதில் அமைப்பு ஆகியவை இனத்துக்கேற்ப மாறுபடும். நம்பகமான அறிவியல் பெயரும் உறுதிப்படுத்தப்பட்ட புகைப்படமும் இல்லாமல் ஒரே கார்ட்டூன் வடிவத்தை நான்கு இனங்களுக்கும் பயன்படுத்தக்கூடாது."
+          }
+        },
+        {
+          "key": "cobra-krait",
+          "heading": {
+            "en": "Cobras and kraits: elapid anatomy, ecology and clinical patterns",
+            "ta": "நல்லபாம்பு, கட்டுவிரியன் — எலாபிட் உடற்கூறும் நஞ்சின் விளைவும்"
+          },
+          "body": {
+            "en": "Cobras and kraits are elapid snakes with relatively short fixed front fangs associated with specialised venom glands. Indian cobras can spread a hood through changes in the cervical rib region, whereas kraits do not employ the same defensive display. Venoms from medically important elapids may produce neurotoxic effects, including difficulty swallowing, drooping eyelids and respiratory paralysis; some cobra bites also cause severe local tissue injury. No external symptom pattern should be treated as infallible, and a bite can initially appear mild while serious effects develop. Common kraits may bite unnoticed at night, making reliance on two obvious puncture marks especially dangerous. A field identification exercise should compare confirmed images of Naja and Bungarus, describing fang position, head shields, body markings and natural history, without requiring students to handle specimens.",
+            "ta": "நல்லபாம்பும் கட்டுவிரியனும் எலாபிடே (Elapidae) குடும்பத்தைச் சேர்ந்தவை. ஒப்பீட்டளவில் குறுகிய நிலையான முன்நஞ்சுப்பற்களும் நஞ்சுச் சுரப்பிகளும் உள்ளன. நல்லபாம்பு கழுத்துப் பகுதி விலா எலும்புகளை மாற்றிப் படமெடுக்க முடியும்; கட்டுவிரியனில் அதே அமைப்பு இல்லை. மருத்துவ முக்கியத்துவமுள்ள இவ்வினங்களின் நஞ்சு சில நேரங்களில் நரம்பு–தசைச் செயல்பாட்டைப் பாதித்து இமைதாழ்வு, விழுங்குவதில் சிரமம், சுவாசத் தடை போன்ற விளைவுகளை ஏற்படுத்தலாம். சில நல்லபாம்புக் கடிகளில் உள்ளூர் திசுச் சேதமும் ஏற்படும். கட்டுவிரியன் கடியில் தெளிவான பற்குறி இல்லாமலும் இருக்கலாம். தொடக்கத்தில் வலி குறைவாக இருந்தாலும் ஆபத்து இல்லையெனக் கருதக்கூடாது."
+          }
+        },
+        {
+          "key": "vipers",
+          "heading": {
+            "en": "Russell's and saw-scaled vipers: morphological and venom differences",
+            "ta": "கண்ணாடி விரியனும் சுருட்டை விரியனும் — உடற்கூறும் நஞ்சு விளைவுகளும்"
+          },
+          "body": {
+            "en": "Russell's viper Daboia russelii is a robust viper often showing prominent longitudinal series of dark oval markings. The saw-scaled viper Echis carinatus is generally smaller and may produce a characteristic rasping sound by rubbing specialised body scales, but sound and colour are not reliable safety tests. Both have movable front fangs typical of viperids, unlike the relatively fixed anterior fangs of elapids. Envenoming can affect coagulation and cause systemic bleeding or kidney injury, with important differences in venom composition and local clinical presentation. Not every viper bite causes the same syndrome, and precise treatment depends on medical assessment. A comparative plate must distinguish scales, head anatomy and fang mechanism without exaggerating the size of an exposed fang or showing all vipers as identical. Never try to provoke defensive sounds for demonstration.",
+            "ta": "கண்ணாடி விரியன் Daboia russelii பொதுவாகத் தடித்த உடலும் நீளவாக்கில் கருமையான முட்டை வடிவப் புள்ளிகளும் கொண்டது. சுருட்டை விரியன் Echis carinatus சிறியதாக இருக்கலாம்; சில சமயம் உடல்செதில்களை உரசி ஒலி எழுப்பும். ஒலி அல்லது நிறம் மட்டும் பாதுகாப்பான அடையாள முறை அல்ல. இவ்விரண்டும் வைபெரிடே (Viperidae) குடும்பத்தைச் சேர்ந்தவை; மடிந்து நகரும் முன்நஞ்சுப்பற்கள் உள்ளன. நஞ்சேற்றத்தில் இரத்த உறைதல் குறைபாடு, இரத்தக்கசிவு, சிறுநீரகப் பாதிப்பு போன்றவை ஏற்படலாம். எல்லா விரியன் கடிகளும் ஒரே அறிகுறிகளைத் தராது. படத்தில் நஞ்சுப்பல், செதில்கள், தலை அமைப்பு ஆகியவை உறுதிசெய்யப்பட்ட இனத்திற்கு ஏற்ப வரையப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "other-species",
+          "heading": {
+            "en": "Regional medically important species and misleading look-alikes",
+            "ta": "மற்ற மருத்துவ முக்கியத்துவமுள்ள இனங்களும் தோற்ற ஒற்றுமையும்"
+          },
+          "body": {
+            "en": "India has medically important snakes beyond the big four, including regional pit vipers, additional cobra and krait species, the hump-nosed pit viper Hypnale hypnale in parts of southern India, and several marine snakes. Regional risk differs, and a name recorded in one state cannot automatically be assigned to a superficially similar animal elsewhere. Harmless colubrids and other snakes may mimic colours or shapes associated with dangerous species; conversely, medically important animals may lack familiar warning patterns. Scales and colour can change across age and sex, and photographs may conceal diagnostic features. Reliable field guides must use locality-specific taxonomy and voucher-supported images, and any uncertain record should be labelled uncertain rather than forced into a dangerous or harmless category. The safest operational rule is to avoid touching unknown snakes regardless of apparent identification.",
+            "ta": "முக்கிய நான்கு இனங்களுக்கு மேலாக இந்தியாவில் பல மருத்துவ முக்கியத்துவமுள்ள பாம்புகள் உள்ளன. சில பகுதிகளில் குழிவிரியன்கள், பிற நல்லபாம்புகள், கட்டுவிரியன்கள், தென்னிந்தியாவின் ஹம்ப்-நோஸ்டு குழிவிரியன் Hypnale hypnale, கடற்பாம்புகள் ஆகியவை முக்கியம். ஒரு மாநிலத்தில் பயன்படுத்தப்படும் பொதுப்பெயர் மற்ற மாநிலத்திலும் அதே இனத்தைக் குறிக்க வேண்டியதில்லை. நஞ்சற்ற பாம்புகள் ஆபத்தான இனங்களைப் போன்ற நிறம் கொண்டிருக்கலாம்; ஆபத்தான இனங்களில் வழக்கமான எச்சரிக்கை வடிவம் இல்லாமலும் இருக்கலாம். வயது, பாலினம், ஒளி, புகைப்படத் தரம் போன்றவை அடையாளத்தைப் பாதிக்கும். நம்பகமான பகுதிசார் களவழிகாட்டியும் உறுதிசெய்யப்பட்ட படங்களும் தேவை. தெரியாத பாம்பை ஆபத்தற்றது என்று ஊகித்து தொடக்கூடாது."
+          }
+        },
+        {
+          "key": "field-and-education",
+          "heading": {
+            "en": "Field documentation, human–snake conflict and safe educational practice",
+            "ta": "களப் பதிவு, மனிதர்–பாம்பு மோதல் மற்றும் பாதுகாப்பான கற்பித்தல்"
+          },
+          "body": {
+            "en": "Snakes contribute to food webs as predators and prey, and many species help regulate rodent populations in agricultural landscapes. Conservation and public safety require reducing accidental encounters, improving footwear and lighting where appropriate, and obtaining help from trained wildlife personnel when relocation is needed. Students should not practise snake capture, venom extraction or close-range identification. A safe biodiversity record includes date, location, habitat, camera distance and an image taken without disturbing the animal. Species-level identification can be performed subsequently by qualified experts. Medical first aid is not an identification exercise: after any suspected dangerous bite, prioritise immobilisation and urgent professional assessment rather than searching for the snake. The educational conclusion should connect taxonomy, ecology, ethical field behaviour and access to emergency care, avoiding unsupported claims about snake behaviour or universal harmlessness.",
+            "ta": "பாம்புகள் உணவுச்சங்கிலிகளில் இரைபிடிப்போராகவும் பிற விலங்குகளின் இரையாகவும் பங்காற்றுகின்றன; சில இனங்கள் வயல்களில் கொறித்துண்ணிகளைக் கட்டுப்படுத்த உதவுகின்றன. மனிதர்–பாம்பு மோதலைக் குறைக்க விழிப்புணர்வு, பொருத்தமான காலணி, ஒளியமைப்பு போன்றவை உதவலாம். மாணவர்கள் பாம்பு பிடித்தல், நஞ்செடுத்தல், நெருங்கிய அடையாளச் சோதனை ஆகியவற்றைச் செய்முறையாக மேற்கொள்ளக்கூடாது. களப்பதிவில் தேதி, இடம், வாழிடம், தொலைவிலிருந்து எடுத்த படம் ஆகியவை பதிவு செய்யப்பட வேண்டும். சந்தேகமான கடிக்குப் பிறகு பாம்பைத் தேடுவதற்கு பதிலாக நோயாளியை அசையாமல் பாதுகாத்து மருத்துவமனைக்கு உடனே அனுப்ப வேண்டும். இனப்பெயர் உறுதியாகாதபோது அதைத் தெளிவாகத் தெரிவிக்க வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NCDC — National Action Plan for Prevention and Control of Snakebite Envenoming",
+          "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/NATIONAL-ACTION-PLAN-FOR-PREVENTION-AND-CONTROL-OF-SNAKEBITE-ENVENOMING-NAPSE.pdf"
+        },
+        {
+          "label": "WHO — Snakebite treatment",
+          "url": "https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment"
+        }
+      ]
+    },
+    {
+      "id": "snake-venom-apparatus-undergraduate",
+      "topicId": "u4-poison-apparatus",
+      "title": {
+        "en": "Snake venom apparatus, bite mechanism and evidence-based first aid",
+        "ta": "பாம்பின் நஞ்சுக் கருவி, கடிக்கும் இயக்கவியல் மற்றும் சான்று சார்ந்த முதலுதவி"
+      },
+      "sections": [
+        {
+          "key": "venom-versus-poison",
+          "heading": {
+            "en": "Venom definition, delivery systems and biological functions",
+            "ta": "நஞ்சின் வரையறையும் உட்செலுத்தும் அமைப்புகளும் உயிரியல் பணிகளும்"
+          },
+          "body": {
+            "en": "Snake venom is a complex secretion containing proteins, peptides and other components, produced by specialised oral glands and delivered during some bites by evolved dental structures. Venom functions primarily in prey capture, predigestion and defence, with composition differing among lineages, species and sometimes populations. In zoological terminology distinguish venom injected or otherwise introduced into tissues from poisons harmful when swallowed or contacted. The classical contrast between 'poisonous' and 'non-poisonous' snakes in curricula should preferably be expressed as medically venomous, venomous but usually of limited medical importance, and species without a medically significant venom-injection system. The number of fang punctures does not reliably predict envenoming. Not every bite introduces venom, and absence of rapid swelling does not rule it out. Species identification is useful clinically when reliable but treatment must not await a captured snake.",
+            "ta": "பாம்பின் நஞ்சு என்பது சிறப்பு வாய்ச் சுரப்பிகளில் உருவாகும் புரதங்கள், பெப்டைடுகள் உள்ளிட்ட பல கூறுகளைக் கொண்ட சுரப்பாகும். சில இனங்களில் மாற்றமடைந்த நஞ்சுப்பற்கள் இதனை இரையின் திசுக்களுக்குள் செலுத்துகின்றன. இரைபிடித்தல், உணவு செரித்தலுக்கு உதவுதல், தற்காப்பு ஆகிய பணிகள் இனத்துக்கேற்ப மாறுபடுகின்றன. உடலுக்குள் செலுத்தப்படும் venom மற்றும் உணவாக அல்லது தொடுதலால் பாதிக்கும் poison என்ற சொற்களின் வேறுபாட்டை அறிய வேண்டும். கடித்த இடத்தில் இரண்டு தெளிவான பற்குறிகள் இருக்க வேண்டிய அவசியமில்லை. சில கடிகளில் நஞ்சு செலுத்தப்படாமல் இருக்கலாம்; வீக்கம் உடனே இல்லாததால் ஆபத்தில்லை என்று கருதக்கூடாது. மருத்துவம் பெறப் பாம்பைப் பிடிக்க வேண்டியதில்லை."
+          }
+        },
+        {
+          "key": "gland-duct-muscle",
+          "heading": {
+            "en": "Venom gland, duct, compressor muscle and fangs",
+            "ta": "நஞ்சுச் சுரப்பி, நாளம், அமுக்குத் தசை மற்றும் நஞ்சுப்பற்கள்"
+          },
+          "body": {
+            "en": "The venom delivery apparatus includes a specialised gland, associated ducts and muscles, and modified maxillary teeth in many front-fanged species. In viperids, a well-developed gland and compressor musculature expel secretion through a duct to a relatively long hollow fang. In cobras and kraits, the short fixed front fangs also conduct venom through specialised pathways. Mouth opening and jaw movements position the fang, while muscular compression contributes to injection; the precise sequence differs anatomically. A diagram should distinguish the salivary-gland derivative from the duct, identify the maxilla and fang base, and follow the lumen towards the exit aperture. An incorrect drawing showing a venom gland in the stomach or a directly exposed poison sac at the fang tip must be rejected. Venom should not be extracted as a classroom demonstration.",
+            "ta": "நஞ்சுக் கருவியில் சிறப்பான நஞ்சுச் சுரப்பி, அதனுடன் இணைந்த நாளம், தசைகள், மாற்றமடைந்த மேல்தாடைப் பற்கள் ஆகியவை உள்ளன. வைபெரிட் பாம்புகளில் வலுவான சுரப்பியும் அமுக்குத் தசைகளும் நீண்ட உள்துளையுடைய நஞ்சுப்பல்லுக்கு சுரப்பை அனுப்புகின்றன. நல்லபாம்பு, கட்டுவிரியனில் ஒப்பீட்டளவில் குறுகிய நிலையான முன்நஞ்சுப்பற்கள் உள்ளன. தாடை இயக்கம் பல்லை நிலைப்படுத்துகிறது; தசையின் அழுத்தம் நஞ்சைச் செலுத்த உதவுகிறது. சுரப்பி, நாளம், மேல்தாடை எலும்பு, நஞ்சுப்பல்லின் அடிப்பகுதி, வெளியேறும் துளை ஆகியவற்றைப் படத்தில் துல்லியமாகக் குறிக்க வேண்டும். நஞ்சுச் சுரப்பி வயிற்றில் இருப்பதாகவோ வாய்க்கு வெளியே தொங்குவதாகவோ வரைவது தவறு."
+          }
+        },
+        {
+          "key": "dentition-types",
+          "heading": {
+            "en": "Aglyphous, opisthoglyphous, proteroglyphous and solenoglyphous dentition",
+            "ta": "நஞ்சுப்பல் வகைகள் — அக்ளைஃபஸ் முதல் சோலினோக்ளைஃபஸ் வரை"
+          },
+          "body": {
+            "en": "Classical descriptions distinguish aglyphous dentition without specialised grooved fangs, opisthoglyphous arrangements with enlarged posterior grooved teeth, proteroglyphous fixed anterior venom fangs, and solenoglyphous long tubular front fangs on a mobile maxilla. These are useful functional arrangements rather than a flawless modern phylogenetic classification. Some rear-fanged snakes can produce medically important effects, and fang morphology may vary within broad taxonomic lineages. In solenoglyphous vipers the maxilla rotates to position the fang during a strike; the fang is normally folded back when the mouth is closed. In proteroglyphous elapids the shorter anterior fangs remain relatively fixed, although their precise lengths differ. Label each arrangement on a verified lateral skull view and illustrate the position of the venom delivery canal rather than drawing imaginary hollow teeth in every species.",
+            "ta": "பாரம்பரிய நஞ்சுப்பல் வகைகளில் அக்ளைஃபஸ் (aglyphous) — சிறப்பு நஞ்சுப்பற்கள் இல்லாத அமைப்பு; ஓபிஸ்தோக்ளைஃபஸ் (opisthoglyphous) — பின்புறப் பள்ளமுள்ள பற்கள்; புரோடெரோக்ளைஃபஸ் (proteroglyphous) — நிலையான முன்நஞ்சுப்பற்கள்; சோலினோக்ளைஃபஸ் (solenoglyphous) — நகரும் மேல்தாடையில் நீண்ட குழாய் போன்ற முன்நஞ்சுப்பற்கள் ஆகியவை உள்ளன. இவை செயல்சார் உடற்கூறு வகைகள்; முழுமையான மரபுவழி வகைப்பாடு அல்ல. பின்புற நஞ்சுப்பற்கள் கொண்ட சில இனங்களும் மருத்துவ ஆபத்தைக் கொடுக்கலாம். வைபெரிட்களில் மேல்தாடை சுழன்று நஞ்சுப்பல்லை முன்நோக்கி கொண்டு வருகிறது. எலாபிட்களில் பற்கள் ஒப்பீட்டளவில் நிலையானவை. தலையோட்டுப் படத்தில் பல்லின் உண்மையான இருப்பிடத்தைக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "bite-kinematics",
+          "heading": {
+            "en": "Biting mechanics and variation in venom action",
+            "ta": "கடிக்கும் இயக்கவியலும் நஞ்சின் விளைவுகளில் பன்மையும்"
+          },
+          "body": {
+            "en": "During a bite, head positioning, mouth opening, jaw movement and muscular compression interact to determine fang contact and potential venom delivery. The degree of envenoming is not simply proportional to wound size or visible fang marks. Neurotoxic components can interfere with neuromuscular transmission, while haemotoxic or procoagulant components can disrupt coagulation and damage tissues; some venoms also contain myotoxic or nephrotoxic constituents. Clinical syndromes overlap, and a species cannot be confidently identified by one symptom. The terms haemotoxic and neurotoxic are convenient teaching categories, but most venoms are chemically complex and can affect multiple systems. A useful comparative physiology table identifies target tissue, principal mechanism, clinical consequences and uncertainty, while making clear that diagnosis and antivenom decisions are clinical matters rather than tasks for untrained observers.",
+            "ta": "கடிக்கும் போது தலை, வாய், தாடை, நஞ்சுச் சுரப்பியை அமுக்கும் தசை ஆகியவற்றின் இயக்கங்கள் ஒருங்கிணைகின்றன. காயத்தின் அளவும் பற்குறிகளும் நஞ்சின் அளவை நேரடியாகக் காட்டாது. சில நஞ்சுக் கூறுகள் நரம்பு–தசைத் தொடர்பைப் பாதிக்கலாம்; சிலவை இரத்த உறைதலை மாற்றலாம்; தசை, சிறுநீரகம், உள்ளூர் திசுக்களிலும் பாதிப்பு ஏற்படலாம். பல நஞ்சுகளில் ஒன்றுக்கு மேற்பட்ட செயல்வகைக் கூறுகள் இருப்பதால் ‘நரம்பு நஞ்சு’ அல்லது ‘இரத்த நஞ்சு’ என்ற ஒரே பெயர் முழு விளக்கமல்ல. அறிகுறியைக் கொண்டு மட்டும் இனத்தைத் தீர்மானிக்கக்கூடாது. நஞ்சேற்றத்தின் மருத்துவ மதிப்பீடும் எதிர்நஞ்சு மருந்துத் தேர்வும் தகுதியான மருத்துவக் குழுவினரின் பொறுப்பாகும்."
+          }
+        },
+        {
+          "key": "first-aid-steps",
+          "heading": {
+            "en": "Evidence-based first aid and urgent transport",
+            "ta": "சான்று சார்ந்த முதலுதவியும் அவசர மருத்துவமனைப் போக்குவரத்தும்"
+          },
+          "body": {
+            "en": "Treat suspected venomous snakebite as a medical emergency. Move the person away from the snake without pursuing or capturing it; keep the person calm and minimise movement. Remove rings, bangles and other constricting items before swelling develops. Immobilise the affected limb with a splint in a comfortable position and arrange prompt transport to a facility equipped to assess snakebite and administer antivenom when indicated. Monitor breathing and consciousness, and position an unconscious but breathing patient safely to protect the airway. Do not cut, suck, cauterise, freeze, apply chemicals or herbal remedies, use electrical shocks or apply tight arterial tourniquets. Pressure-immobilisation bandaging is not a universal recommendation in India because some species cause significant local tissue injury; specific techniques require expert guidance. Do not delay transport to wait for symptoms or identify the snake.",
+            "ta": "நஞ்சுப் பாம்புக் கடி சந்தேகம் ஏற்பட்டால் உடனடி மருத்துவ அவசரநிலையாகக் கருத வேண்டும். பாம்பிலிருந்து பாதுகாப்பாக விலகி நோயாளியை அமைதியாக வைத்திருக்க வேண்டும். அசைவைக் குறைத்து கடிபட்ட உறுப்பைத் தகுந்த ஆதாரத்துடன் அசையாமல் நிலைப்படுத்த வேண்டும். வீக்கம் ஏற்படும் முன் மோதிரம், வளையல் போன்ற இறுக்கமான பொருட்களை அகற்ற வேண்டும். மூச்சு, உணர்வுநிலையைக் கவனித்தபடி எதிர்நஞ்சு மருந்து உள்ளிட்ட சிகிச்சை வசதியுள்ள மருத்துவமனைக்கு விரைவில் கொண்டு செல்ல வேண்டும். காயத்தைக் கீறுதல், உறிஞ்சுதல், எரித்தல், மூலிகை வைத்தியம், மின்சாரம் கொடுத்தல், இறுக்கமான கட்டு போடுதல் தவறு. அனைத்து கடிகளுக்கும் அழுத்தக் கட்டு பொருந்தாது; நிபுணர் அறிவுரை தேவை. பாம்பைத் தேடுவதற்காக மருத்துவ உதவியைத் தாமதிக்கக்கூடாது."
+          }
+        },
+        {
+          "key": "hospital-care",
+          "heading": {
+            "en": "Hospital assessment, antivenom and recovery",
+            "ta": "மருத்துவமனை மதிப்பீடு, எதிர்நஞ்சு மற்றும் மீட்சி"
+          },
+          "body": {
+            "en": "Definitive management occurs in a healthcare facility, where clinicians assess respiratory function, neurological status, local tissue damage, coagulation and kidney function according to the clinical presentation. Appropriate antivenom neutralises susceptible circulating venom components and can be lifesaving, but availability and species coverage vary; it is not a substitute for airway support, ventilation or other supportive treatment. Antivenom can cause adverse reactions and must be administered by trained personnel with facilities to manage them. Patients require observation because serious symptoms may evolve after an initially mild presentation. First aid must not involve routinely giving painkillers, antibiotics or other drugs without appropriate clinical advice, especially where bleeding and kidney injury are concerns. Education should emphasise prevention, urgent transport and evidence-based treatment rather than alleged home remedies or 'guaranteed cures'.",
+            "ta": "மருத்துவமனையில் மூச்சுத் திறன், நரம்பு அறிகுறிகள், கடிபட்ட இடத்தின் திசுச் சேதம், இரத்த உறைதல், சிறுநீரகச் செயல்பாடு ஆகியவற்றை மருத்துவர்கள் மதிப்பிடுகின்றனர். பொருத்தமான எதிர்நஞ்சு மருந்து (antivenom) உயிரைக் காக்கலாம்; ஆனால் எல்லா இன நஞ்சுகளுக்கும் ஒரே அளவில் செயல்படும் என்று கருத முடியாது. மூச்சுத் தடை ஏற்பட்டால் சுவாச ஆதரவு போன்ற சிகிச்சைகளும் அவசியமாகலாம். எதிர்நஞ்சு மருந்துக்கு எதிர்வினை ஏற்பட வாய்ப்புள்ளதால் தகுதியான மருத்துவர்கள் மட்டுமே அளிக்க வேண்டும். தொடக்கத்தில் அறிகுறி குறைவாக இருந்தாலும் பின்னர் மோசமடையலாம்; கண்காணிப்பு தேவை. வீட்டிலேயே மருந்துகளைத் தன்னிச்சையாக வழங்குதல், நம்பகமற்ற ‘மாற்று மருந்துகள்’ பயன்படுத்துதல் ஆகியவை தவிர்க்கப்பட வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO — Snakebite envenoming treatment and first aid",
+          "url": "https://www.who.int/teams/control-of-neglected-tropical-diseases/snakebite-envenoming/treatment"
+        },
+        {
+          "label": "National Centre for Disease Control — Standard Treatment Guidelines for Management of Snake Bite",
+          "url": "https://www.ncdc.mohfw.gov.in/wp-content/uploads/2025/01/Standard-Treatment-Guidelines-for-Management-of-Snake-Bite.pdf"
+        }
+      ]
+    },
+    {
+      "id": "reptilian-skull-undergraduate",
+      "topicId": "u4-skull",
+      "title": {
+        "en": "Reptilian skull and temporal fenestrae — classical categories, evolution and functional anatomy",
+        "ta": "ஊர்வன தலையோடும் காலச்சாளரங்களும் — பாரம்பரிய வகைகள், பரிணாமம் மற்றும் செயல்சார் உடற்கூறு"
+      },
+      "sections": [
+        {
+          "key": "skull-architecture",
+          "heading": {
+            "en": "Cranial regions, temporal openings and jaw-muscle anatomy",
+            "ta": "தலையோட்டுப் பகுதிகள், காலச்சாளரங்கள் மற்றும் தாடைத் தசைகள்"
+          },
+          "body": {
+            "en": "A vertebrate skull protects the brain, supports sensory organs and provides attachment and leverage for feeding muscles. The orbit surrounds the eye, whereas temporal fenestrae are openings posterior to the orbital region in parts of the skull roof or lateral wall. The openings permit variation in bony supports and available space for jaw adductor musculature, but one cannot infer the bite force of an animal from fenestra count alone. A labelled teaching skull must distinguish orbit, external naris, upper and lower temporal fenestrae, parietal and postorbital elements and the jaw articulation. Many extinct and living reptiles possess extensively modified skulls, making some classical boundaries difficult to recognise. Students should first describe observable openings and bones, then address their evolutionary and functional interpretation rather than simply naming skull silhouettes.",
+            "ta": "முதுகெலும்பியின் தலையோடு மூளையைப் பாதுகாத்து புலனுறுப்புகளுக்கும் உணவு உட்கொள்ளும் தசைகளுக்கும் ஆதாரமாக உள்ளது. கண்குழி (orbit) கண்ணைச் சூழ்கிறது; காலச்சாளரங்கள் (temporal fenestrae) கண்குழிக்குப் பின்னுள்ள தலையோட்டுப் பகுதிகளில் காணப்படும் திறப்புகள் ஆகும். இவை தாடையை இயக்கும் தசைகளுக்கான இடம் மற்றும் எலும்பு ஆதாரத்துடன் தொடர்புடையவை. காலச்சாளர எண்ணிக்கை மட்டுமே கடிக்கும் விசையைக் காட்டாது. படத்தில் மூக்குத் திறப்பு, கண்குழி, மேல்–கீழ் காலச்சாளரம், தொடர்புடைய எலும்புகள், தாடை மூட்டு ஆகியவை தெளிவாக இருக்க வேண்டும். பெயர் எழுதுவதற்கு முன் உண்மையில் எந்தத் திறப்புகள் பாதுகாக்கப்பட்டுள்ளன என்பதைப் பார்வையிட வேண்டும்."
+          }
+        },
+        {
+          "key": "anapsid",
+          "heading": {
+            "en": "Anapsid-type skull: absence of classical temporal openings",
+            "ta": "அனாப்சிட் வகைத் தலையோடு — காலச்சாளரங்கள் இல்லாத நிலை"
+          },
+          "body": {
+            "en": "An anapsid-type skull lacks the pair of classical temporal fenestrae behind the orbit. Historical textbooks placed turtles among anapsids because modern turtle skulls lack obvious openings of the ancestral diapsid configuration. That external condition must not be confused with phylogenetic ancestry: genomic and fossil evidence now places turtles within the diapsid radiation and interprets their skull as secondarily modified. The word 'anapsid' can still describe an anatomical configuration or some extinct groups, but it is unsuitable as a universal natural clade containing turtles and excluding their close relatives. Early amniote skull reconstructions are also subject to fossil preservation and interpretation. A comparison plate should show orbit versus temporal region and annotate whether 'anapsid' describes morphology, an ancestral state or an outdated taxonomic assignment.",
+            "ta": "அனாப்சிட் (anapsid) வடிவத் தலையோட்டில் கண்குழிக்குப் பின்னால் பாரம்பரிய காலச்சாளரங்கள் இல்லை. பழைய நூல்களில் இன்றைய ஆமைகள் அனாப்சிட் குழுவில் வைக்கப்பட்டன; அவற்றின் தலையோடு வெளிப்புறமாக அந்த அமைப்பை ஒத்திருப்பதே காரணம். ஆனால் மரபணு மற்றும் புதைபடிவச் சான்றுகள் ஆமைகள் டையாப்சிட் பரிணாமக் கிளைக்குள் தோன்றியதைக் காட்டுகின்றன; அவற்றின் தலையோடு பின்னர் மாற்றமடைந்தது. எனவே அனாப்சிட் என்பது ஒரு உடற்கூறு வடிவத்தை விவரிக்கப் பயன்படலாம்; ஆமைகளின் முழுமையான உறவை நிர்ணயிக்கும் இயற்கை வகைப்பாடு அல்ல. படத்தில் கண்குழிக்கும் காலப்பகுதிக்கும் உள்ள வேறுபாட்டைக் குறிப்புடன் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "synapsid",
+          "heading": {
+            "en": "Synapsid-type skull and the mammalian lineage",
+            "ta": "சினாப்சிட் தலையோடும் பாலூட்டிகளின் மரபுவழியும்"
+          },
+          "body": {
+            "en": "The classical synapsid skull has one lower temporal opening on each side behind the orbit, defined by surrounding cranial elements. Synapsida is a major amniote lineage leading to mammals rather than a subdivision of the modern reptile–bird clade. Early synapsids and therapsids display evolutionary modifications of jaws, teeth and the posterior skull that help explain mammalian origins. The school phrase 'mammal-like reptiles' is historically familiar but phylogenetically misleading because those organisms lie along the mammalian stem lineage. Modern mammals have extensively reorganised skull bones and jaw articulation, so a simple ancestral fenestra outline cannot be overlaid unchanged onto a rabbit skull. In teaching compare a representative early synapsid, a therapsid and a mammal using bony landmarks, and state that function and lineage must be inferred from multiple characters.",
+            "ta": "சினாப்சிட் (synapsid) தலையோட்டில் ஒவ்வொரு பக்கமும் கண்குழிக்குப் பின்னால் கீழ் காலச்சாளரம் ஒன்று இருக்கும். சினாப்சிடா என்பது பாலூட்டிகளை நோக்கிச் செல்லும் அம்னியோட் பரிணாமக் கிளையாகும்; நவீன ஊர்வன–பறவை கிளையின் ஒரு துணைப் பிரிவல்ல. தொடக்க சினாப்சிட்கள், தெராப்சிட்கள் ஆகியவற்றில் தாடை, பற்கள், தலையோட்டின் பின்பகுதி ஆகியவை படிப்படியாக மாறின. இவற்றை ‘பாலூட்டி போன்ற ஊர்வன’ என்று அழைப்பது பழைய நூல்களின் வழக்கம்; மரபுவழி பொருளில் தவறான கருத்தைத் தரலாம். வளர்ந்த பாலூட்டிகளில் தலையோடும் தாடை மூட்டும் மிகவும் மாற்றமடைந்துள்ளன. ஒரு பழைய காலச்சாளர வடிவத்தை முயல் தலையோட்டில் அப்படியே வரையக்கூடாது."
+          }
+        },
+        {
+          "key": "diapsid",
+          "heading": {
+            "en": "Diapsid-type skull: upper and lower temporal fenestrae",
+            "ta": "டையாப்சிட் தலையோடு — மேல், கீழ் காலச்சாளரங்கள்"
+          },
+          "body": {
+            "en": "The archetypal diapsid skull possesses two temporal openings on each side behind the orbit, separated by a bony bar and bounded by elements including the postorbital and squamosal regions. This construction occurs in ancestral forms relevant to the reptile–bird radiation. Later lineages have modified or lost portions of these bars; for example, snakes show highly kinetic skulls and birds possess greatly altered skull geometry. Therefore, the two-hole diagram is a useful anatomical starting point, not a promise that every living diapsid retains exactly two visible openings. Students should identify dorsal and ventral temporal openings in an authentic fossil or museum plate and distinguish them from the orbit, which is not counted as a temporal fenestra. Fenestra arrangement must be integrated with other anatomical and genetic evidence when reconstructing relationships.",
+            "ta": "டையாப்சிட் (diapsid) தலையோட்டில் ஒவ்வொரு பக்கமும் கண்குழிக்குப் பின்னால் மேல், கீழ் என இரண்டு காலச்சாளரங்கள் பாரம்பரிய வடிவில் உள்ளன. அவற்றுக்கிடையில் எலும்புத் தண்டு அமைந்திருக்கும். ஊர்வன–பறவை பரிணாமக் கிளையின் பல முன்னோடிகளில் இவ்வமைப்பு காணப்பட்டது. பின்னர் தோன்றிய பாம்புகள், பறவைகள், ஆமைகள் போன்ற கிளைகளில் காலப்பகுதி எலும்புகள் மிகுந்த மாற்றமடைந்துள்ளன. ஆகவே வாழும் ஒவ்வொரு டையாப்சிடிலும் இரண்டு திறப்புகள் தெளிவாக இருக்கவேண்டும் என்பது தவறு. உண்மையான புதைபடிவ அல்லது அருங்காட்சியகப் படத்தில் கண்குழியையும் மேல்–கீழ் காலச்சாளரங்களையும் தனித்தனியாக அடையாளம் காண வேண்டும்."
+          }
+        },
+        {
+          "key": "secondary-modification",
+          "heading": {
+            "en": "Secondary closure, skull kinesis and taxonomic exceptions",
+            "ta": "இரண்டாம் நிலை மாற்றங்கள், தலையோட்டு இயக்கம் மற்றும் விதிவிலக்குகள்"
+          },
+          "body": {
+            "en": "Reduction or reorganisation of temporal bars can alter skull mobility and muscle arrangements without changing an animal's underlying ancestry. Squamates provide diverse examples of cranial kinesis, but a snake's jaw is not literally dislocated to swallow large prey: mobile joints, ligamentous connections and coordinated movement allow extensive gape. Turtles demonstrate another kind of secondary modification, with an externally anapsid-like condition in an evolutionarily diapsid clade. Crocodilian skulls are comparatively reinforced for forceful biting, and bird skulls are extensively modified around the beak and jaw musculature. These examples refute classification based exclusively on fenestra count. Students should explain why phylogenetic hypotheses are tested using many homologous structures, fossils and molecular data, with temporal openings serving as one informative but non-decisive character.",
+            "ta": "காலச்சாளரங்களைச் சூழும் எலும்புகள் குறைவதாலும் மறுஒழுங்குபடுவதாலும் தலையோட்டின் இயக்கம் மாறலாம்; ஆனால் அடிப்படை மரபுவழி உறவு இதனால் மாறாது. பாம்பின் தாடை பெரிய இரையை விழுங்கும்போது உண்மையில் ‘மூட்டிலிருந்து கழன்று விடுகிறது’ என்பது தவறு; பல இயக்கமுள்ள மூட்டுகளும் இணைப்புகளும் வாயை விரியச் செய்கின்றன. ஆமைகளில் பழைய காலச்சாளரத் தோற்றம் மாற்றமடைந்துள்ளது. முதலைகளில் தலையோடு வலுவடைந்துள்ளது; பறவைகளில் அலகு, தாடை அமைப்பு தனித்துவமாக மாறியுள்ளது. எனவே துளை எண்ணிக்கை மட்டும் வைத்து வகைப்பாடு செய்ய முடியாது. ஒத்த மரபுவழி எலும்புகள், புதைபடிவங்கள், மரபணுச் சான்றுகள் அனைத்தும் தேவை."
+          }
+        },
+        {
+          "key": "comparative-plate",
+          "heading": {
+            "en": "Practical comparison of skull diagrams and evolutionary interpretation",
+            "ta": "தலையோட்டுப் பட ஒப்பீடும் பரிணாம விளக்கமும்"
+          },
+          "body": {
+            "en": "A reproducible undergraduate exercise begins with four labelled lateral skull diagrams representing a reconstructed anapsid-type condition, an early synapsid, an early diapsid and a derived living reptile. Mark the orbit, naris, temporal opening or openings, jaw articulation and preserved supporting bones. Then complete a matrix recording actual opening configuration, supporting bone bars, special modifications, representative fossil and accepted phylogenetic lineage. The exercise must distinguish missing fossil material from an authentically absent opening. Discuss why turtles do not fit a simple 'anapsids are turtles' rule and why mammals are synapsids but not living reptiles. A good examination essay moves from anatomical definitions through functional relevance to modern limitations of the skull-based system and explicitly identifies any simplified historical terminology.",
+            "ta": "செய்முறையில் அனாப்சிட் போன்ற வடிவம், தொடக்க சினாப்சிட், தொடக்க டையாப்சிட், மாற்றமடைந்த வாழும் ஊர்வன தலையோடு ஆகிய நான்கு பக்கவாட்டுப் படங்களை ஒப்பிடலாம். கண்குழி, மூக்குத் திறப்பு, காலச்சாளரங்கள், தாடை மூட்டு, எலும்புத் தண்டுகள் ஆகியவற்றைக் குறிக்க வேண்டும். அட்டவணையில் திறப்புகளின் எண்ணிக்கை, எலும்பு ஆதாரம், மாற்றங்கள், புதைபடிவ எடுத்துக்காட்டு, ஏற்றுக்கொள்ளப்பட்ட மரபுவழி கிளை ஆகியவற்றை எழுத வேண்டும். புதைபடிவத்தில் ஒரு எலும்பு கிடைக்காததால் அது உயிரியில் இல்லை என்று முடிவு செய்யக்கூடாது. ஆமைகள் ஏன் பழைய அனாப்சிட் வகைப்பாட்டுக்குப் பொருந்தாமல் உள்ளன, பாலூட்டிகள் ஏன் சினாப்சிட்கள் ஆகியவை விளக்கப்பட வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Amniote skulls and reptile evolution",
+          "url": "https://openstax.org/books/biology-2e/pages/29-4-reptiles"
+        }
+      ]
     }
   ]
 }
