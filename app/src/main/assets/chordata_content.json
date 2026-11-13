@@ -360,6 +360,17 @@
                 "en": "Balanoglossus is a burrowing marine enteropneust whose body comprises proboscis, collar and trunk. Cilia and mucus move sediment and food towards the mouth; pharyngeal gill pores provide water exchange. Its dorsal stomochord is an anterior buccal diverticulum, not the homologous chordate notochord. The circulatory system includes a dorsal vessel and an anterior heart–kidney complex; excretion is associated with the glomerulus. In many enteropneusts a free-living tornaria larva resembles echinoderm larvae in ciliary-band organisation. The enteropneust body plan, gill openings and deuterostome development inform affinity, but it lacks the defining dorsal hollow nerve cord and true notochord. Hemichordata is therefore a separate phylum.",
                 "ta": "பலானோகிளாசஸ் கடற்கரை மணற்பரப்பில் வளையமைந்த துளைகளில் வாழும் என்டெரோப்னியூஸ்டா வகை அரைநாணியாகும். உடல் முன்தும்பி, கழுத்துப்பட்டை, உடற்பகுதி என மூன்று பகுதிகளைக் கொண்டது. சிலியாவும் சளியும் உணவுத் துகள்களை வாய்க்கு நகர்த்துகின்றன. தொண்டையில் செவுள் துவாரங்கள் காணப்படும். வாய்ப்பகுதியிலிருந்து உருவாகும் ஸ்டோமோகார்டை உண்மையான முதுகுநாணுடன் ஒத்தமூல உறுப்பு எனக் கருதக் கூடாது. இரத்தச் சுழற்சியில் முதுகுப்புற நாளமும் முன்புற இதய-சிறுநீரக இணைப்பும் பங்கெடுக்கின்றன; குளோமெருலஸ் கழிவுநீக்கத்துடன் தொடர்புடையது. சில இனங்களில் டோர்னேரியா இளவுயிரி காணப்படுவது முட்தோலிகளுடனான பரிணாம உறவை விளக்க உதவும். உண்மையான முதுகுநாணும் முதுகுப்புற வெற்றிட நரம்புநாணும் இல்லாததால் இவை தனித் தொகுதியில் வைக்கப்படுகின்றன."
               }
+            },
+            {
+              "key": "hemichordate-phylogenetic-affinities",
+              "heading": {
+                "en": "Hemichordata: affinities and why Balanoglossus is not a chordate",
+                "ta": "அரைநாணிகள் — பரிணாம உறவும் முதுகுநாணியற்ற நிலையும்"
+              },
+              "body": {
+                "en": "Historically the stomochord of acorn worms was compared with the chordate notochord, prompting placement of Hemichordata near or within chordates. Detailed morphology and developmental genetics reject that structural equivalence: the stomochord is an anterior outgrowth of the buccal cavity and is not a genuine axial notochord. Hemichordates share pharyngeal openings and deuterostome developmental characters with chordates, whereas tornaria larval ciliary bands and molecular sequences support a close relationship with echinoderms. Together hemichordates and echinoderms form Ambulacraria, the sister group to chordates in widely accepted relationships. For a structured essay, contrast homologous versus analogous features, write the old systematic position and then the present placement as a distinct phylum.",
+                "ta": "பழைய வகைப்பாட்டில் பலானோகிளாசஸின் ஸ்டோமோகார்ட் உண்மையான முதுகுநாணுடன் ஒப்பிடப்பட்டதால் அரைநாணிகள் முதுகுநாணிகளுக்கு அருகில் வைக்கப்பட்டன. ஆனால் ஸ்டோமோகார்ட் வாய்க்குழியிலிருந்து உருவாகும் முன்புறப் புடைப்பு; அச்சு முதுகுநாணுக்கு ஒத்தமூல உறுப்பு அல்ல. தொண்டைப் பிளவுகள், இரண்டாம் வாயினக் கருவளர்ச்சி போன்ற பண்புகள் முதுகுநாணிகளுடன் ஒற்றுமை காட்டுகின்றன. டோர்னேரியா இளவுயிரியின் சிலியப் பட்டைகளும் மரபணுத் தரவுகளும் முட்தோலிகளுடனான நெருங்கிய உறவை ஆதரிக்கின்றன. அரைநாணிகளும் முட்தோலிகளும் அம்புலாக்ரேரியா கிளையை உருவாக்குகின்றன. தேர்வில் பழைய அமைவிடத்தையும் தற்போதைய தனித் தொகுதி நிலையையும் ஆதாரங்களுடன் விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -505,6 +516,17 @@
                 "en": "The sessile adult ascidian is enclosed by a tunic containing tunicin and has branchial and atrial siphons. Water enters the branchial siphon, passes through a perforated pharyngeal basket into the atrium and leaves through the atrial siphon; an endostyle secretes mucus that traps plankton. A simple U-shaped gut and typically a hermaphroditic reproductive system lie within the mantle. The tadpole larva swims with a post-anal muscular tail containing a notochord and dorsal nerve cord; sensory structures help attachment-site selection. After settlement, the tail and most of its nerve apparatus regress while the filter-feeding adult develops. This is called retrogressive metamorphosis, not a reversal of evolutionary ancestry.",
                 "ta": "முதிர்ந்த அசிடியா ஓரிடத்தில் ஒட்டியிருந்து வாழ்கிறது. டியூனிசின் கலந்த வெளி உறை உடலைப் பாதுகாக்கிறது. உட்செலுத்து சைஃபன் வழியாக நீர் புகுந்து துளைகள் நிறைந்த தொண்டைக்கூடையைத் தாண்டி ஏட்ரியத்துக்குச் செல்கிறது; வெளியேற்று சைஃபன் வழி நீர் வெளியேறும். எண்டோஸ்டைல் சுரக்கும் சளி நுண்ணுணவுத் துகள்களைப் பிடிக்கிறது. U வடிவக் குடலும் பொதுவாக இருபாலுறுப்பு இனப்பெருக்க அமைப்பும் காணப்படுகின்றன. தவளைப்புழு போன்ற இளவுயிரி முதுகுநாணும் நரம்புநாணும் உள்ள வாலினால் நீந்துகிறது. ஒட்டும் இடத்தைத் தேர்ந்தெடுத்த பின் வாலும் பல இளவுயிரிப் பண்புகளும் சுருங்கி மறைகின்றன. இதனை பின்னடைவு உருமாற்றம் என அழைப்பர்; பரிணாமம் பின்னோக்கிச் சென்றது என்று பொருள் கொள்ளக் கூடாது."
               }
+            },
+            {
+              "key": "tunicate-classification-affinities",
+              "heading": {
+                "en": "Tunicate diversity, systematic position and vertebrate affinity",
+                "ta": "வால்முதுகுநாணிகளின் பல்வகைமையும் உறவுகளும்"
+              },
+              "body": {
+                "en": "Urochordata, also called Tunicata, includes ascidians, thaliaceans and appendicularians or larvaceans. Ascidians are usually sessile as adults, while many thaliaceans are pelagic and use muscular pumping; appendicularians retain an adult tadpole-like organisation and construct mucus feeding houses. The tunic and endostylar mucus system are distinctive features, but not every adult has the same body form. Molecular phylogenies generally recover tunicates as the closest living chordate relatives of vertebrates, a grouping often termed Olfactores. This does not mean an extant Ascidia species was the ancestor of humans. Compare the larval dorsal nerve cord, tail notochord, pharyngeal basket and metamorphic fate across the major tunicate lineages.",
+                "ta": "வால்முதுகுநாணிகள் அல்லது டியூனிகேட்டாவில் அசிடியன்கள், தாலியேசியன்கள், அப்பென்டிகுலாரியன்கள் அடங்குகின்றன. அசிடியன்கள் பெரும்பாலும் முதிர்ந்த நிலையில் ஒட்டிவாழ்கின்றன; தாலியேசியன்களில் பல கடலில் மிதந்து வாழ்கின்றன. அப்பென்டிகுலாரியன்கள் முதிர்ந்த நிலையிலும் இளவுயிரி போன்ற சில பண்புகளைத் தக்கவைத்துக் கொண்டு சளியாலான உணவு வடிகட்டி உறையை உருவாக்குகின்றன. மூலக்கூறு மரபுவழி ஆய்வுகள் வால்முதுகுநாணிகளையும் முதுகெலும்பிகளையும் நெருங்கிய உறவுக் கிளைகளாகக் காட்டுகின்றன; இவ்வுறவு ஓல்ஃபாக்டோர்ஸ் என அழைக்கப்படுகிறது. இன்று வாழும் அசிடியா மனிதனின் நேரடி மூதாதை அல்ல. இளவுயிரி முதுகுநாண், நரம்புநாண், தொண்டைக்கூடை, உருமாற்றம் ஆகியவற்றை ஒப்பிட வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -649,6 +671,17 @@
               "body": {
                 "en": "Branchiostoma (amphioxus) is a small, laterally compressed marine filter feeder, often partly buried in sand. Oral cirri exclude large particles; cilia propel water through the buccal cavity and numerous pharyngeal slits into the atrium, exiting by the atriopore. Endostylar mucus captures food and passes it towards the digestive tract; the hepatic caecum assists digestion. Segmented myomeres produce side-to-side swimming and a persistent notochord extends to the rostrum. Circulating fluid is propelled by contractile vessels rather than a chambered heart. Solenocytes form excretory units, and segmentally arranged gonads release gametes into the atrium. Amphioxus is a living cephalochordate model, not a primitive fish.",
                 "ta": "ஆம்பியாக்சஸ் (பிராங்கியோஸ்டோமா) கடல் மணலில் பகுதி புதைந்து வாழும் பக்கவாட்டில் தட்டையான சிறிய வடிகட்டி உணவூட்டி. வாய்ச்சுருள்கள் பெரிய துகள்களைத் தடுக்கின்றன; சிலியா நீரை தொண்டைப் பிளவுகள் வழியே ஏட்ரியத்திற்குக் கடத்தி ஏட்ரியோபோர் வழி வெளியேற்றுகிறது. எண்டோஸ்டைல் சளி உணவுத் துகள்களைப் பிடிக்க உதவுகிறது. கல்லீரல் போன்ற பக்கப்பை செரிமானத்துடன் தொடர்புடையது. ஒழுங்காக அமைந்த தசைத்துண்டுகளும் முன்புறம் வரை நீளும் முதுகுநாணும் நீந்த உதவுகின்றன. அறைகளைக் கொண்ட உண்மையான இதயம் இல்லாததால் சுருங்கும் இரத்தநாளங்கள் திரவச் சுழற்சியை இயக்குகின்றன. சோலனோசைட்டுகள் கழிவுநீக்கத்தில் பங்காற்றுகின்றன. பல ஜோடி இனப்பெருக்கச் சுரப்பிகள் காணப்படுகின்றன. இது தலைமுதுகுநாணிகளின் மாதிரி உயிரி; மீன் அல்ல."
+              }
+            },
+            {
+              "key": "cephalochordate-affinities-ontogeny",
+              "heading": {
+                "en": "Cephalochordata: development, systematic position and affinities",
+                "ta": "தலைமுதுகுநாணிகள் — வளர்ச்சி, வகைப்பாட்டு நிலை, உறவுகள்"
+              },
+              "body": {
+                "en": "Cephalochordates include lancelets such as Branchiostoma, Asymmetron and Epigonichthys. Their segmented myomeres, pharyngeal openings, dorsal nerve cord and persistent notochord make them valuable models for reconstructing the ancestral chordate body plan. The amphioxus larva initially shows marked left–right asymmetry and later changes into the bilaterally organised juvenile. Although amphioxus resembles certain early chordate reconstructions, molecular evidence does not place it closer to vertebrates than tunicates. It has no true cranium, neural crest-derived complex skull or vertebral column. Compare its excretory solenocytes, simple circulation and gonad arrangement with more specialised vertebrate systems. Systematic position is a living basal chordate branch, not a living primitive fish.",
+                "ta": "பிராங்கியோஸ்டோமா, அசிமெட்ரான், எபிகோனிக்திஸ் போன்ற லான்சிலெட்டுகள் தலைமுதுகுநாணிகளில் அடங்குகின்றன. ஒழுங்காக அமைந்த தசைத்துண்டுகள், தொண்டைப் பிளவுகள், முதுகுப்புற நரம்புநாண், வாழ்நாள் முழுவதும் நீடிக்கும் முதுகுநாண் ஆகியவை தொடக்க முதுகுநாணி உடலமைப்பைப் புரிய உதவுகின்றன. ஆம்பியாக்சஸ் இளவுயிரியில் தொடக்கத்தில் இடது-வலது சமமின்மை காணப்பட்டு வளர்ச்சியுடன் மாற்றமடைகிறது. இன்றைய மூலக்கூறு ஆதாரங்கள் வால்முதுகுநாணிகளை முதுகெலும்பிகளுக்கு ஒப்பீட்டளவில் நெருங்கிய கிளையாகக் காட்டுகின்றன. ஆம்பியாக்சஸில் உண்மையான மண்டையோடு, முதுகெலும்புத் தொடர் இல்லை. சோலனோசைட்டு, இரத்தச் சுழற்சி, இனப்பெருக்கச் சுரப்பிகளை முதுகெலும்பிகளுடன் ஒப்பிட வேண்டும்."
               }
             }
           ],
@@ -1439,6 +1472,17 @@
                 "en": "Venous blood enters the sinus venosus, atrium and muscular ventricle; it then passes through the conus arteriosus towards the afferent branchial arteries. Oxygenated blood from the gills reaches the dorsal aorta. The kidneys are elongated and contribute to excretion and osmotic balance; sharks retain urea together with other osmolytes, while rectal glands eliminate excess salt in marine forms. Males bear pelvic claspers for transfer of sperm during internal fertilisation. Reproductive development varies greatly among sharks, so any description of placental viviparity must be attributed to the examined species rather than all chondrichthyans. Contrast the shark's single systemic circuit with tetrapod circulation.",
                 "ta": "சைனஸ் வீனோசஸ் வழியாக வரும் ஆக்சிஜன் குறைந்த இரத்தம் ஆரிக்கிளிலும் வென்டிரிக்கிளிலும் செல்கிறது; அங்கிருந்து கோனஸ் ஆர்டீரியோசஸ் வழியாகச் செவுள் நோக்கிய இரத்தநாளங்களுக்கு அனுப்பப்படுகிறது. செவுளில் ஆக்சிஜன் பெற்ற இரத்தம் முதுகுப்புற பெருந்தமனியை அடைகிறது. நீண்ட சிறுநீரகங்கள் கழிவுநீக்கத்திலும் நீர்ச்சமநிலையிலும் செயல்படுகின்றன. கடல் சுறாக்கள் யூரியாவைத் தக்கவைத்தும் கூடுதல் உப்பை ரெக்டல் சுரப்பி வழி வெளியேற்றியும் ஒழுங்குபடுத்துகின்றன. ஆண்களின் இடுப்புத் துடுப்புகளில் கிளாஸ்பர்கள் உள்ளன; உட்கருவுறுதலுக்கு பயன்படுகின்றன. சுறா இனங்களில் இனப்பெருக்க முறை மாறுபடுவதால் ஒரே இனத்தின் பண்பை எல்லா சுறாக்களுக்கும் பொதுவாக்கக் கூடாது. ஒற்றை இரத்தச் சுழற்சியையும் ஒப்பிட வேண்டும்."
               }
+            },
+            {
+              "key": "scoliodon-digestive-and-neural-detail",
+              "heading": {
+                "en": "Scoliodon: spiral valve, liver, brain and sensory reception",
+                "ta": "ஸ்கோலியோடான் — சுருள் குடல்வால்வு, கல்லீரல், மூளை, உணர்வுறுப்புகள்"
+              },
+              "body": {
+                "en": "The alimentary canal comprises mouth, buccopharynx, oesophagus, stomach and a relatively short intestine with an internal spiral valve that increases absorptive surface. The large lipid-rich liver assists metabolism and buoyancy; the pancreas and spleen are associated with the visceral cavity. The shark brain can be divided into olfactory bulbs and telencephalon, diencephalon, midbrain, cerebellum and medulla, with prominent olfactory structures and vestibular coordination. Mechanoreceptive lateral-line canals detect local water motion, and electroreceptive ampullae of Lorenzini detect weak electric fields. Eyes and inner-ear systems provide other inputs. Locate these structures on the genuine Scoliodon specimen; an illustrative dogfish brain from another species must be explicitly identified as comparative anatomy.",
+                "ta": "செரிமானப் பாதையில் வாய், வாய்த்தொண்டை, உணவுக்குழல், இரைப்பை, உள்ளே சுருள் வால்வு கொண்ட குடல் ஆகியவை உள்ளன. சுருள் வால்வு குறைந்த நீளமுள்ள குடலின் உறிஞ்சும் பரப்பை அதிகரிக்கிறது. கொழுப்பு நிறைந்த பெரிய கல்லீரல் வளர்சிதை மாற்றத்திற்கும் மிதப்பிற்கும் உதவுகிறது; கணையம், மண்ணீரல் உடற்குழியுடன் தொடர்புடையவை. மூளையில் மணநரம்புப் புடைப்புகள், முன்மூளை, இடைமூளை, நடுமூளை, சிறுமூளை, முகுளம் ஆகிய பகுதிகளை வேறுபடுத்த வேண்டும். பக்கவரிசை உணர்வு நாளங்கள் நீரின் அசைவை அறிகின்றன; லோரென்சினியின் ஆம்புல்லாக்கள் மெல்லிய மின்புலங்களை உணர்கின்றன. கண், உள்செவி ஆகியவை கூடுதல் உணர்வுத் தகவலை அளிக்கின்றன. வேறு சுறா இனத்தின் மூளை வரைபடத்தை இவ்வினத்தின் உறுதிப்படுத்தப்பட்ட உறுப்பமைப்பாகக் குறிப்பிடக்கூடாது."
+              }
             }
           ],
           "quiz": [
@@ -1732,6 +1776,17 @@
               "body": {
                 "en": "Placoid scales of sharks are tooth-like dermal denticles with a pulp cavity, dentine and an enameloid covering. Ganoid scales are hard, typically rhomboid plates found in gars and some other actinopterygians. Cycloid scales have relatively smooth posterior edges, whereas ctenoid scales have comb-like projections. Dermal bony scales grow by accretion and display growth zones that may aid age estimation, subject to species and environmental limitations. Paired pectoral and pelvic fins help steering, braking and stability; dorsal and anal fins resist rolling, while the caudal fin provides propulsion in many fishes. Contrast heterocercal, homocercal and diphycercal tail types with correctly identified examples.",
                 "ta": "சுறாக்களின் பிளாகாய்டு செதில்கள் பல் போன்ற தோல் அமைப்புகள்; மையக் குழி, டென்டின், வெளிப்புற எநாமலாய்டு அடுக்குகளைக் கொண்டவை. கானாய்டு செதில்கள் உறுதியான, பெரும்பாலும் சாய்சதுர வடிவத் தகடுகள். சைக்ளாய்டு செதில்களின் பின்னோரம் மென்மையானது; டீனாய்டு செதில்களில் சீப்புப் போன்ற நுண்முள் அமைப்பு உண்டு. சில எலும்புச் செதில்களின் வளர்ச்சி வளையங்கள் வயது மதிப்பீட்டிற்கு உதவினாலும் சுற்றுச்சூழல் காரணிகளால் வேறுபாடு ஏற்படும். மார்புத் துடுப்பு, இடுப்புத் துடுப்பு திசைமாற்றம் மற்றும் சமநிலைக்கு உதவுகின்றன; முதுகு மற்றும் மலவாய்த் துடுப்புகள் உருண்டு சாய்வதைத் தடுக்கின்றன. சமமற்ற, வெளிப்படையாகச் சமமான, இருபுறமும் தொடர்ச்சியான வால் வகைகளை உதாரணங்களுடன் விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "fin-morphology-types",
+              "heading": {
+                "en": "Fish fins: internal supports and caudal-fin types",
+                "ta": "மீன் துடுப்புகள் — உள் ஆதரவுகள், வால் வகைகள்"
+              },
+              "body": {
+                "en": "The median fins include dorsal, anal and caudal fins; paired appendages are pectoral and pelvic fins. Fin rays in actinopterygians support a flexible membrane, while sarcopterygians possess more substantial internal endochondral elements in their paired fins. In a heterocercal tail, exemplified by many sharks, the vertebral axis enters the larger upper lobe. In a typical homocercal teleost tail the external lobes appear similar despite internal asymmetry, whereas diphycercal tails extend the body axis more nearly straight to the tip, as in some lungfishes. Function depends on placement, stiffness, body form and swimming mode. Students should not confuse a homocercal external outline with true symmetrical internal skeletal organisation.",
+                "ta": "நடுவழித் துடுப்புகளில் முதுகுத் துடுப்பு, மலவாய்த் துடுப்பு, வால் துடுப்பு அடங்கும்; இணைத் துடுப்புகள் மார்புத் துடுப்பு, இடுப்புத் துடுப்பு ஆகும். கதிர்த்துடுப்பு மீன்களில் துடுப்புக் கதிர்கள் நெகிழ்வான சவ்வைத் தாங்குகின்றன; சதைத் துடுப்பு மீன்களில் இணைத் துடுப்புகளுக்குள் வலுவான எலும்புக் கூறுகள் காணப்படுகின்றன. ஹெடெரோசெர்கல் வாலில் முதுகெலும்பு அச்சு பெரிய மேல்மடலுக்குள் நீளும்; பல சுறாக்கள் எடுத்துக்காட்டு. ஹோமோசெர்கல் வாலில் வெளிப்புற மடல்கள் ஒத்திருந்தாலும் உள்ளக எலும்பமைப்பில் சமமின்மை உண்டு. டைபிசெர்கல் வாலில் உடல் அச்சு முனைவரை ஒப்பீட்டளவில் நேராக நீளும்; சில நுரையீரல் மீன்கள் எடுத்துக்காட்டு. துடுப்பின் இருப்பிடம், வடிவு, வலிமை, நீந்தும் முறை ஆகியவற்றை தொடர்புபடுத்த வேண்டும்."
               }
             }
           ],
