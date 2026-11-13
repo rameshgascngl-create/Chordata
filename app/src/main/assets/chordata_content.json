@@ -3406,6 +3406,28 @@
                 "en": "Most non-crocodilian reptiles possess a heart with two atria and one functionally subdivided ventricle, whereas crocodilians have four cardiac chambers. Many reptiles excrete nitrogen chiefly as uric acid, reducing water loss. Their body temperature is strongly influenced by behavioural thermoregulation, including basking, shade seeking and altered activity periods.",
                 "ta": "முதலைகளைத் தவிர பல ஊர்வனவற்றின் இதயத்தில் இரண்டு ஆரிக்கிள்களும் பகுதியாகப் பிரிவடைந்த ஒரு வென்ட்ரிக்கிளும் காணப்படும். முதலைகளில் நான்கு இதய அறைகள் உள்ளன. பல ஊர்வன யூரிக் அமிலத்தை நைட்ரஜன் கழிவாக வெளியேற்றி நீர் இழப்பைக் குறைக்கின்றன. வெயிலில் காய்தல், நிழலை நாடுதல், செயல்பாட்டு நேரங்களை மாற்றுதல் போன்ற நடத்தைகளால் உடல்வெப்பநிலையைச் சீராக்குகின்றன."
               }
+            },
+            {
+              "key": "reptilian-historical-subclasses",
+              "heading": {
+                "en": "Anapsida, Parapsida, Diapsida and Synapsida: historical usage",
+                "ta": "அனாப்சிடா, பாராப்சிடா, டயாப்சிடா, சினாப்சிடா — பழைய வகைப்பாடு"
+              },
+              "body": {
+                "en": "Classical texts classify amniotes by temporal fenestrae: anapsid skulls lack openings behind the orbit; synapsid skulls have one lower opening; diapsid skulls have upper and lower openings. 'Parapsida' or 'euryapsid' was historically applied to some extinct marine reptiles with an upper temporal opening, but these are modified diapsid lineages, not a parallel foundational subclass. Synapsida is the mammalian stem lineage, not a subdivision of modern reptiles. Turtles secondarily have a roofed temporal region yet molecular and fossil evidence place them within the diapsid reptile radiation. Skull categories are useful anatomical descriptions and historical exam terms; explain explicitly why they do not replace a phylogenetic classification.",
+                "ta": "பழைய அம்னியோட் வகைப்பாடு கண்குழிக்குப் பின்னுள்ள மண்டையோட்டு துளைகளை அடிப்படையாகக் கொண்டது. அனாப்சிடாவில் துளை இல்லை; சினாப்சிடாவில் கீழ்ப்புறம் ஒன்று; டயாப்சிடாவில் மேல் மற்றும் கீழ்ப்புறம் இரண்டு துளைகள் எனக் கற்பிக்கப்படுகிறது. பாராப்சிடா என்ற பழைய பெயர் சில அழிந்த கடல் ஊர்வனவுக்கு வழங்கப்பட்டது; அவை தனி அடிப்படை கிளை அல்ல, மாற்றமடைந்த டயாப்சிடா மரபைச் சேர்ந்தவை. சினாப்சிடா என்பது பாலூட்டிகளின் பரிணாமக் கிளை; இன்றைய ஊர்வனவின் உட்பிரிவு அல்ல. ஆமைகளின் மண்டையோட்டு கூரை மூடியிருந்தாலும் நவீன ஆதாரங்கள் அவற்றை டயாப்சிடா உறவுக் கிளையில் வைக்கின்றன. தேர்வில் பழைய பிரிவையும் தற்போதைய விளக்கத்தையும் பிரித்துக் குறிப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "living-orders-and-archosauria",
+              "heading": {
+                "en": "Living reptiles, archosaurs and extinct lineages",
+                "ta": "இன்றைய ஊர்வன, ஆர்கோசாரியா, அழிந்த கிளைகள்"
+              },
+              "body": {
+                "en": "Traditional living reptile orders include Testudines (turtles and tortoises), Squamata (lizards, snakes and amphisbaenians), Rhynchocephalia (tuatara) and Crocodylia (crocodilians). Lepidosauria unites squamates with Sphenodon; Archosauria includes crocodilians and birds, and the extinct dinosaurs and pterosaurs are important related archosaur lineages. Snakes are a specialised squamate radiation, not a separate basal reptile division. Explain lepidosaur scales and skin shedding, crocodilian secondary palate and four-chambered heart, and chelonian shells formed from dermal and axial skeletal elements. If birds are excluded for the university's traditional 'Reptilia' heading, point out the phylogenetic exception rather than suggesting birds evolved outside reptiles.",
+                "ta": "வாழும் ஊர்வன வரிசைகளில் டெஸ்டுடைன்ஸ் (ஆமை), ஸ்குவாமேட்டா (பல்லி, பாம்பு, அம்ஃபிஸ்பீனியன்), ரைன்கோசெபாலியா (ஸ்பீனோடான்), க்ரோகோடைலியா (முதலை) முக்கியமானவை. ஸ்குவாமேட்டாவும் ஸ்பீனோடானும் லெபிடோசாரியா கிளையைச் சேர்ந்தவை. முதலைகளும் பறவைகளும் ஆர்கோசாரியா கிளையில் அடங்குகின்றன; அழிந்த டைனோசர்களும் டெரோசார்களும் தொடர்புடைய கிளைகள். பாம்புகள் ஸ்குவாமேட்டாவுக்குள் தோன்றிய சிறப்புக் குழுவாகும். தோலுரிதல், முதலைகளின் நான்கு அறை இதயம், ஆமை ஓடு உருவாகும் எலும்புக் கூறுகள் ஆகியவற்றைச் சரியான எடுத்துக்காட்டுடன் விளக்க வேண்டும். பறவைகளைத் தவிர்க்கும் பழைய ஊர்வன வகைப்பாடு முழுமையான பரிணாமக் குழுவாகாது."
+              }
             }
           ],
           "quiz": [
@@ -3562,6 +3584,39 @@
                 "en": "The brain can be described as forebrain, midbrain and hindbrain with cerebral hemispheres, optic centres, cerebellum and medulla oblongata. Vision is important for locating moving prey and navigating the environment. Compare the relatively developed forebrain and cerebellar functions with frog anatomy without implying that any part is absent in all amphibians.",
                 "ta": "கலோடஸின் மூளை முன்மூளை, நடுமூளை, பின்மூளை எனப் பிரிக்கப்படுகிறது. பெருமூளை அரைக்கோளங்கள், பார்வை மையங்கள், சிறுமூளை மற்றும் முகுளம் ஆகிய பகுதிகளை அடையாளம் காணலாம். நகரும் இரைகளைப் பார்ப்பதிலும் சுற்றுச்சூழலில் இயங்குவதிலும் பார்வை முக்கியப் பங்கு வகிக்கிறது. தவளையின் மூளையுடன் ஒப்பிடும்போது பகுதிகளின் செயல்பாட்டு வேறுபாடுகளை எடுத்துரைக்க வேண்டும். ஒரு பகுதி இருவாழ்விகளில் முற்றிலும் இல்லை என்று தவறாகக் கூறக் கூடாது."
               }
+            },
+            {
+              "key": "calotes-respiratory-urinary-reproduction",
+              "heading": {
+                "en": "Calotes: lungs, kidney and reproduction",
+                "ta": "கலோட்ஸ் — நுரையீரல், சிறுநீரகம், இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Calotes versicolor has keratinised epidermal scales that reduce evaporative water loss. Air moves through glottis, larynx, trachea and bronchi to compartmentalised lungs; effective gas exchange occurs in the vascular lung lining, not through typical fish gills. Metanephric kidneys eliminate nitrogen principally as uric acid, reducing water requirement. In the male, testes and sperm ducts are associated with paired hemipenes, whereas the female has paired ovaries and oviducts; eggs with protective coverings are laid on land. Its cloaca receives digestive, urinary and reproductive outflow. Describe territorial signalling and temperature-dependent activity separately from the essential reproductive anatomy, and distinguish the agamid from chameleons despite the popular name 'garden chameleon'.",
+                "ta": "கலோட்ஸ் வெர்சிகலோரில் கெரட்டின் சேர்ந்த மேல்தோல் செதில்கள் நீர் ஆவியாகி இழப்பதைத் தடுக்க உதவுகின்றன. காற்று குரல்வளை, மூச்சுக்குழல், கிளைக் குழாய்கள் வழியாக இரத்தநாளங்கள் நிறைந்த நுரையீரலுக்குச் செல்கிறது. மெட்டாநெப்ரிக் சிறுநீரகங்கள் முக்கியமாக யூரிக் அமிலமாக நைட்ரஜன் கழிவை வெளியேற்றி நீர் இழப்பைக் குறைக்கின்றன. ஆணில் விந்தகங்கள், விந்துக் குழாய்கள், ஜோடி ஹெமிபீனிஸ்; பெண்ணில் சூலகங்கள், முட்டைக் குழாய்கள் காணப்படுகின்றன. பாதுகாப்பு உறையுடைய முட்டைகள் நிலத்தில் இடப்படுகின்றன. செரிமானம், சிறுநீர், இனப்பெருக்கப் பாதைகள் பொதுக் கழிவுத்துவாரத்துடன் தொடர்புடையவை. 'தோட்டப் பச்சோந்தி' என்ற பொதுப் பெயரால் உண்மையான பச்சோந்தியுடன் வகைப்பாட்டில் குழப்பக் கூடாது."
+              }
+            },
+            {
+              "key": "calotes-heart-circulation",
+              "heading": {
+                "en": "Calotes heart and arterial circulation: anatomical interpretation",
+                "ta": "கலோட்ஸின் இதயமும் தமனி இரத்தச் சுழற்சியும்"
+              },
+              "body": {
+                "en": "The typical non-crocodilian reptile heart has two atria and a partially subdivided ventricle. In lizards the ventricular cavity is functionally partitioned into cavum arteriosum, cavum venosum and cavum pulmonale, with ridges and pressure differences contributing to separation of pulmonary and systemic flows. Two systemic aortic arches and a pulmonary trunk emerge through the outflow arrangement; their spatial relationships are essential to a correct Calotes anatomical plate. The systemic arches unite posteriorly as the dorsal aorta, supplying the body. Avoid drawing a complete mammal-like ventricular septum or assigning a crocodilian four-chambered plan to Calotes. Identify atria, venous inflow, ventricular compartments and great vessels before discussing possible cardiac shunts.",
+                "ta": "முதலைகளைத் தவிர்ந்த பொதுவான ஊர்வன இதயத்தில் இரண்டு ஆரிக்கிள்களும் முழுமையாகப் பிரியாத ஒரு வென்டிரிக்கிளும் உள்ளன. பல்லிகளில் வென்டிரிக்கிளின் உட்பகுதி காவம் ஆர்டீரியோசம், காவம் வீனோசம், காவம் பல்மோனாலே எனச் செயல்பாட்டின் அடிப்படையில் வேறுபடுகிறது. இரத்த அழுத்தம் மற்றும் உட்புறத் தடுப்பு மடிப்புகள் நுரையீரல், உடல் இரத்த ஓட்டங்களை ஓரளவு பிரிக்க உதவுகின்றன. இரண்டு சிஸ்டமிக் ஆர்டிக் வளைவுகளும் நுரையீரல் நோக்கிச் செல்லும் நாளமும் சரியான இடவமைப்புடன் வரைபடத்தில் காட்டப்பட வேண்டும். பின்புறத்தில் சிஸ்டமிக் வளைவுகள் இணைந்து முதுகுப்புற பெருந்தமனியை உருவாக்குகின்றன. கலோட்ஸுக்கு பாலூட்டியைப் போல் முழுமையான வென்டிரிக்கிள் தடுப்புச் சுவரையோ முதலையின் நான்கு அறை இதயத்தையோ வரையக்கூடாது."
+              }
+            },
+            {
+              "key": "calotes-skeletal-sensory",
+              "heading": {
+                "en": "Calotes endoskeleton, brain and sense organs",
+                "ta": "கலோட்ஸின் உள்வன்கூடு, மூளை, உணர்வுறுப்புகள்"
+              },
+              "body": {
+                "en": "The axial skeleton comprises skull, vertebral column and ribs; paired pectoral and pelvic girdles support the pentadactyl limbs. Cervical flexibility, strong jaw musculature, claws and an elongated tail support arboreal and terrestrial movements. The brain comprises forebrain, midbrain and hindbrain subdivisions, including relatively developed visual centres appropriate for a visually orientated predator. Eyes possess eyelids and a nictitating membrane; external ear openings communicate through the tympanum with the middle ear. The tongue assists prey capture, but Calotes is not a ballistic-tongued true chameleon. Compare the cranium and temporal region with the schematic diapsid skull, while clearly distinguishing diagrams from verified specimen dissections.",
+                "ta": "அச்சு உள்வன்கூட்டில் மண்டையோடு, முதுகெலும்புத் தொடர், விலா எலும்புகள் அடங்கும்; மார்புப்பட்டை, இடுப்புப்பட்டை ஆகியவை ஐந்து விரல் உறுப்புகளைத் தாங்குகின்றன. கழுத்து அசைவு, தாடைத் தசைகள், நகங்கள், நீண்ட வால் ஆகியவை ஏறுதல் மற்றும் நில இயக்கத்திற்கு உதவுகின்றன. மூளை முன்மூளை, நடுமூளை, பின்மூளைப் பகுதிகளைக் கொண்டது; பார்வை சார்ந்த செயல்களில் நடுமூளை மையங்கள் முக்கியம். கண்களில் இமைகளும் மூன்றாம் இமை மடலும், செவியில் வெளித் திறப்பும் நடுச்செவியுடன் தொடர்புடைய செவிப்பறையும் காணப்படுகின்றன. கலோட்ஸ் உண்மையான பச்சோந்தியைப் போன்று மிக நீளமாக விரைவில் எறியும் நாக்கைக் கொண்டதல்ல. பெயரிடப்பட்ட உறுப்பமைப்பையும் பொதுவான டயாப்சிடா மண்டையோட்டு வரைபடத்தையும் வேறுபடுத்த வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -3700,6 +3755,28 @@
                 "en": "The end-Cretaceous mass extinction eliminated all non-avian dinosaurs about 66 million years ago, while the avian dinosaur lineage survived. Fossils preserve information on anatomical diversity, growth, environment and occasionally feathers or soft tissues. Geological time and phylogenetic branching are essential to interpreting extinct reptiles accurately.",
                 "ta": "கிரெட்டேசியக் காலத்தின் முடிவில் சுமார் அறுபத்தாறு மில்லியன் ஆண்டுகளுக்கு முன்பு பறவைகளல்லாத டைனோசர்கள் பெருமளவில் அழிந்தன. பறவைகளின் வழித்தோன்றல் மட்டும் தொடர்ந்து வாழ்ந்தது. புதைபடிவங்களில் எலும்பமைப்பு, வளர்ச்சி, வாழிடம் மற்றும் சில நேரங்களில் இறகுகள் போன்ற மென்மையான அமைப்புகளின் தடயங்களும் பாதுகாக்கப்படுகின்றன. புவியியல் காலக்கணக்கும் கிளைப்பரிணாம உறவும் அழிந்த ஊர்வனவற்றைச் சரியாகப் புரிந்துகொள்ள உதவுகின்றன."
               }
+            },
+            {
+              "key": "reptile-fossils-synapsids",
+              "heading": {
+                "en": "Cotylosaurs, Seymouria, dinosaurs, pterosaurs and marine reptiles",
+                "ta": "கோடைலோசார்கள், சீமூரியா, டைனோசர்கள், டெரோசார்கள், கடல் ஊர்வன"
+              },
+              "body": {
+                "en": "'Cotylosauria' was historically used for assorted early reptiles and amniote-like forms; it is not a precise modern clade. Seymouria had a combination of early tetrapod features and is often discussed near the amniote stem, rather than as a securely defined first true reptile. Dinosaurs belonged to Archosauria, and birds are surviving dinosaurs. Pterosaurs were flying archosaurs, not feathered birds; ichthyosaurs and plesiosaurs represent separate reptilian lineages adapted to marine life. Therapsids are synapsids on the mammalian evolutionary stem and should not be grouped as living reptiles. For each named fossil group, describe one diagnostic adaptation, approximate geological setting and evolutionary position, and distinguish extinction from survival of descendant lineages.",
+                "ta": "கோடைலோசாரியா என்பது பல தொடக்க அம்னியோட் போன்ற வடிவங்களுக்கு பழைய நூல்களில் வழங்கப்பட்ட பெயர்; துல்லியமான நவீன கிளை அல்ல. சீமூரியா ஆரம்ப நான்குகாலிகளின் கலப்புப் பண்புகளைக் கொண்டிருந்தது; முதல் உண்மையான ஊர்வன என்று உறுதியாகக் கூற முடியாது. டைனோசர்கள் ஆர்கோசாரியா கிளையைச் சேர்ந்தவை; பறவைகள் இன்றும் வாழும் டைனோசர் வழித்தோன்றல்களாகும். டெரோசார்கள் இறக்கையுள்ள பறவைகள் அல்ல, பறந்த ஆர்கோசார்கள். இக்தியோசார்கள் மற்றும் பிளீசியோசார்கள் கடல்வாழ்க்கைக்குத் தகவமைந்த தனித்த ஊர்வனக் கிளைகள். தெராப்சிட்கள் பாலூட்டிகளின் சினாப்சிடா மரபைக் குறிக்கின்றன. ஒவ்வொரு புதைபடிவக் குழுவுக்கும் அடையாளத் தகவமைப்பு, காலம், பரிணாம உறவு, அழிவு நிலை ஆகியவற்றைச் சொல்ல வேண்டும்."
+              }
+            },
+            {
+              "key": "terrestrialisation-amniote-egg",
+              "heading": {
+                "en": "Terrestrialisation, amniotic egg and skin adaptations",
+                "ta": "நிலவாழ்க்கைக்கான தகவமைப்பும் அம்னியோட்டிக் முட்டையும்"
+              },
+              "body": {
+                "en": "Amniote evolution enabled vertebrate reproduction to become less dependent on open water through extraembryonic membranes: amnion cushions the embryo, chorion contributes to gas exchange, allantois stores waste and assists respiration, and yolk sac supplies nutrition. Shell permeability and water balance vary across reptiles and birds, and some reptiles are live-bearing. Cornified epidermis and uric-acid-rich excretion also reduce water loss; stronger axial and appendicular support enables terrestrial locomotion. Fertilisation is internal in amniotes. Explain that terrestrialisation preceded and accompanied several evolutionary transitions; there was no single event when every aquatic character disappeared. Compare an amphibian egg with an amniotic egg using labels and functions.",
+                "ta": "அம்னியோட்டுகள் உருவானபோது கருவின் வளர்ச்சி திறந்த நீர்நிலையைச் சார்ந்திருப்பது குறைந்தது. அம்னியன் கருவைப் பாதுகாக்கும் திரவச் சூழலை அளிக்கிறது; கோரியன் வாயுப் பரிமாற்றத்தில், அலாண்டாய்ஸ் கழிவு சேமிப்பு மற்றும் சுவாசத்தில், மஞ்சள் கருப்பை ஊட்டச்சத்தில் பங்கெடுக்கின்றன. ஓடு வழியிலான வாயு, நீர் பரிமாற்றம் இனத்தின்படி மாறுபடுகிறது; சில ஊர்வன குட்டி ஈனுகின்றன. கெரட்டின் தோல், யூரிக் அமிலக் கழிவுநீக்கம், வலுவான எலும்பமைப்பு, உட்கருவுறுதல் ஆகியவை நிலவாழ்விற்கு உதவின. இருவாழ்வியின் முட்டையையும் அம்னியோட்டின் முட்டையையும் உறைப் பெயர், செயல்பாடு, நீர்ச்சார்பு ஆகியவற்றால் ஒப்பிட வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -3834,6 +3911,17 @@
               "body": {
                 "en": "The Indian rat snake (Ptyas mucosa) and Indian rock python (Python molurus) are examples of non-venomous species. Students should use authenticated field guides and expert-verified photographs rather than touching, catching or approaching unknown snakes. A suspected snakebite requires medical assessment regardless of whether a bystander thinks the snake was harmless.",
                 "ta": "சாரைப்பாம்பு எனப்படும் ப்டையாஸ் மியூகோசா மற்றும் இந்திய மலைப்பாம்பு எனப்படும் பைதான் மொலூரஸ் ஆகியவை விஷம் செலுத்தாத பாம்புகளுக்கான எடுத்துக்காட்டுகளாகும். மாணவர்கள் உறுதிசெய்யப்பட்ட கள வழிகாட்டிகளையும் வல்லுநர் சரிபார்த்த ஒளிப்படங்களையும் பயன்படுத்த வேண்டும். அறியாத பாம்பைத் தொடுதல், பிடித்தல் அல்லது அருகில் சென்று அடையாளம் காணுதல் ஆபத்தானதாகும். எந்தப் பாம்பு கடித்தாலும் மருத்துவ மதிப்பீடு அவசியம்."
+              }
+            },
+            {
+              "key": "indian-snake-comparative-identification",
+              "heading": {
+                "en": "Indian snakes: medically important groups and identification limits",
+                "ta": "இந்தியப் பாம்புகள் — மருத்துவ முக்கியத்துவமும் அடையாள வரம்புகளும்"
+              },
+              "body": {
+                "en": "The commonly taught 'big four' venomous snakes are the Indian cobra (Naja naja), common krait (Bungarus caeruleus), Russell's viper (Daboia russelii) and saw-scaled viper (Echis carinatus). India has many other medically important venomous species, including regional kraits, cobras, pit vipers and sea snakes. Non-venomous examples include many rat snakes, pythons and some keelbacks, but a lay observer cannot safely classify a snake using pupils, head shape or colour alone. Compare fang apparatus and venom effects scientifically without promoting close inspection or handling. In teaching images, label a species only when identification has a trustworthy source; use 'unconfirmed species' rather than a guessed name.",
+                "ta": "பொதுவாகக் கற்பிக்கப்படும் முக்கிய நான்கு நஞ்சுப் பாம்புகள் இந்திய நாகம், கட்டுவிரியன், கண்ணாடிவிரியன், சுருட்டை விரியன் ஆகும். இந்தியாவில் வேறு சில நாகங்கள், கட்டுவிரியன்கள், குழிவிரியன்கள், கடற்பாம்புகளும் மருத்துவ முக்கியத்துவம் வாய்ந்தவை. சாரைப்பாம்பு, மலைப்பாம்பு போன்ற பல இனங்கள் நஞ்சற்றவை; ஆனால் தலைவடிவம், கண்ணின் மணிவடிவு, நிறம் ஆகியவற்றை மட்டும் வைத்து பொதுமக்கள் பாம்பை பாதுகாப்பாக அடையாளம் காண முடியாது. பாம்பைத் தொடுதல் அல்லது அருகில் சென்று ஆராய்தல் கூடாது. நம்பத்தகுந்த அடையாள ஆதாரம் இல்லாத படத்தைத் தவறான இனப்பெயருடன் வழங்கக் கூடாது. படத்தில் 'இனம் உறுதிசெய்யப்படவில்லை' எனக் குறிப்பிடுவது சரியான நடைமுறை."
               }
             }
           ],
@@ -3980,6 +4068,17 @@
                 "en": "In hospital, trained clinicians assess airway, breathing, circulation and features of envenoming; antivenom is given when clinically indicated. Ptosis, difficulty swallowing or breathing, abnormal bleeding and progressive swelling are important warning signs, but symptoms may be delayed. This educational text does not replace emergency protocols or local clinical judgement.",
                 "ta": "மருத்துவமனையில் பயிற்சி பெற்ற மருத்துவர்கள் சுவாசப் பாதை, சுவாசம், இரத்த ஓட்டம் மற்றும் விஷத்தாக்க அறிகுறிகளை மதிப்பிடுகின்றனர். மருத்துவத் தேவைக்கேற்ப எதிர்விஷ மருந்து வழங்கப்படுகிறது. கண் இமைத் தாழ்வு, விழுங்குவதில் சிரமம், மூச்சுத்திணறல், அசாதாரண இரத்தக்கசிவு மற்றும் அதிகரிக்கும் வீக்கம் ஆகியவை முக்கிய எச்சரிக்கை அறிகுறிகளாகும். சில அறிகுறிகள் தாமதமாகத் தோன்றலாம். இந்தக் கல்விக் குறிப்பு அவசர மருத்துவ வழிகாட்டுதலுக்கு மாற்றாகாது."
               }
+            },
+            {
+              "key": "fang-mechanisms-and-venom",
+              "heading": {
+                "en": "Fang morphology, venom delivery and major physiological effects",
+                "ta": "நஞ்சுப் பற்கள், நஞ்சு செலுத்துதல், உடலியல் விளைவுகள்"
+              },
+              "body": {
+                "en": "Snake venom is a secretion from specialised salivary glands and can contain enzymes, peptides and other bioactive molecules. Elapid snakes commonly possess fixed, short anterior proteroglyphous fangs; vipers have long hinged solenoglyphous fangs that rotate during striking. Some rear-fanged colubroids use grooved opisthoglyphous teeth and variable venom systems. Explain the sequence of muscular compression of the gland, duct transport and injection through or along the fang. Venom components may cause neurotoxicity, coagulopathy, tissue injury or renal complications, depending on snake and dose; the convenient 'neurotoxic versus haemotoxic' labels are not exclusive categories. No visual bite mark reliably determines the species or severity.",
+                "ta": "பாம்பு நஞ்சு சிறப்பான உமிழ்நீர்ச் சுரப்பிகளிலிருந்து உருவாகும் உயிர்ச் செயற்பாட்டுப் பொருட்களின் கலவையாகும். எலாபிட் குடும்பப் பாம்புகளில் முன்புறம் நிலையான குறுகிய நஞ்சுப் பற்கள்; விரியன் குடும்பத்தில் முன்புறம் மடக்கிக்கொள்ளும் நீண்ட நஞ்சுப் பற்கள் காணப்படும். சில பின்புறப் பற்களுடைய பாம்புகளில் பள்ளம் கொண்ட பற்கள் வழி நஞ்சு செல்கிறது. சுரப்பியைச் சுற்றிய தசைகள் சுருங்கி நஞ்சை நாளம் வழியாகப் பற்களுக்கு அனுப்புகின்றன. நஞ்சு நரம்பு மண்டலம், இரத்த உறைதல், திசுக்கள், சிறுநீரகம் போன்றவற்றை பாதிக்கலாம்; விளைவுகள் ஒன்றோடொன்று இணைந்தும் இருக்கும். கடித்த குறியை மட்டும் வைத்து இனம் அல்லது நஞ்சின் தீவிரத்தைக் கணிக்க இயலாது."
+              }
             }
           ],
           "quiz": [
@@ -4114,6 +4213,17 @@
               "body": {
                 "en": "Turtles often appear anapsid-like because their living skulls lack the conventional temporal openings, but molecular and broader anatomical studies place them within Diapsida. A classroom comparison should therefore distinguish a descriptive skull pattern from actual evolutionary ancestry. Labelling turtles simply as primitive anapsid ancestors is misleading.",
                 "ta": "தற்போது வாழும் பல ஆமைகளின் தலையோட்டில் பாரம்பரிய பக்கத் திறப்புகள் இல்லாததால் அனாப்சிட் போன்ற தோற்றம் காணப்படுகிறது. ஆனால் மூலக்கூறு மற்றும் விரிவான உடற்கூறு ஆய்வுகள் ஆமைகளை டயாப்சிட் பரிணாமக் கிளைக்குள் வைக்கின்றன. வகுப்பறையில் தோற்றத்தின் அடிப்படையிலான தலையோட்டுப் பெயரிடலையும் உண்மையான பரிணாம மூதாதை உறவையும் வேறுபடுத்த வேண்டும். ஆமைகளைப் பழமையான அனாப்சிட் மூதாதைகள் என்று மட்டும் குறிப்பிடுவது தவறாகும்."
+              }
+            },
+            {
+              "key": "temporal-fenestrae-interpretation",
+              "heading": {
+                "en": "Temporal fenestrae, jaw musculature and modern limits",
+                "ta": "மண்டையோட்டு பக்கவாட்டுத் துளைகள், தாடைத் தசைகள், வரம்புகள்"
+              },
+              "body": {
+                "en": "Temporal fenestrae are openings behind the orbit, bordered by cranial bones and associated with jaw musculature; their arrangement can reduce skull mass and permit muscular expansion. In the historical categories, 'anapsid' denotes no temporal opening, 'synapsid' one lateral opening, and 'diapsid' two openings separated by bony bars. A single opening in some marine reptile skulls led to obsolete 'euryapsid/parapsid' schemes; its developmental and evolutionary origin must be considered. Modern phylogenetic evidence places turtles among diapsids despite their derived roofed skulls. Explain this distinction before labelling diagrams; classify living reptile lineages by multiple characters and molecular relationships, never fenestrae alone.",
+                "ta": "மண்டையோட்டில் கண்குழிக்குப் பின்னுள்ள துளைகள் தாடைத் தசைகளின் இடவமைப்புடன் தொடர்புடையவை; அவை மண்டையோட்டின் எடையைக் குறைக்கவும் தசைக்கு இடமளிக்கவும் உதவலாம். பழைய வகைப்பாட்டில் துளையற்றது அனாப்சிடா, ஒரு துளையுள்ளது சினாப்சிடா, இரண்டு துளையுள்ளது டயாப்சிடா என அழைக்கப்படுகிறது. கடல் ஊர்வனவற்றின் மாற்றமடைந்த துளை அமைப்பு காரணமாகப் பாராப்சிடா போன்ற பழைய பிரிவுகள் உருவாயின. ஆமைகளில் மண்டையோட்டு துளைகள் மூடப்பட்டிருந்தாலும் அவற்றின் பரிணாம உறவு டயாப்சிடா கிளையுடனே அமைவதாக நவீன ஆதாரங்கள் காட்டுகின்றன. துளைகளின் எண்ணிக்கையை மட்டும் கொண்டு இன்றைய வகைப்பாட்டை முடிவுசெய்யக் கூடாது."
               }
             }
           ],
