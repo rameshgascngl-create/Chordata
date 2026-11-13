@@ -28,5 +28,13 @@ for chapter in book["chapters"]:
         assert len(section["body"]["ta"]) >= 150
         assert re.search(r"[\u0b80-\u0bff]", section["body"]["ta"])
     assert chapter.get("sources"), "Every chapter needs reference leads"
-print(f"PASS: {len(chapter_ids)} bilingual textbook chapter(s), {len(keys)} extended sections, "
+# This is now a full undergraduate digital textbook. A clean partial chapter
+# audit is not sufficient: enforce a one-to-one mapping to every syllabus topic.
+covered = [chapter["topicId"] for chapter in book["chapters"]]
+missing = sorted(topics - set(covered))
+duplicates = sorted({topic_id for topic_id in covered if covered.count(topic_id) > 1})
+assert not missing, f"Unexpanded syllabus topic(s): {missing}"
+assert not duplicates, f"Duplicate textbook topic coverage: {duplicates}"
+assert len(covered) == len(topics), f"Expected {len(topics)} chapters, found {len(covered)}"
+print(f"PASS: {len(chapter_ids)}/{len(topics)} syllabus topics, {len(keys)} extended bilingual sections, "
       "source references, explicit draft review status")
