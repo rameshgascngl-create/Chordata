@@ -7,7 +7,7 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PACK = ROOT / 'app/src/main/assets/chordata_content.json'
-EXPECTED_SHA = '7facdbadc04a19aea0bec514df3dec419a18d65dd7be9412ff8a4459b0d09752'
+EXPECTED_SHA = 'c1e31440c211f9c6ce90ccde99ba62f418b8e857f798df489ed9761c2bd39c1a'
 raw = PACK.read_bytes()
 assert hashlib.sha256(raw).hexdigest() == EXPECTED_SHA, 'Revised syllabus pack changed without academic review and updated digest'
 data = json.loads(raw)
@@ -16,7 +16,7 @@ topics = [t for u in units for t in u['topics']]
 assert len(units) == 5 and len(topics) == 39
 assert [len(u['topics']) for u in units] == [5,11,6,6,11], 'Chapter-unit allocation must follow the photographed syllabus'
 assert len({x['id'] for x in topics}) == 39
-assert sum(len(x['sections']) for x in topics) == 185, 'Expanded bilingual lesson sections missing'
+assert sum(len(x['sections']) for x in topics) == 200, 'Expanded bilingual lesson sections missing'
 assert sum(len(x['quiz']) for x in topics) == 117
 assert sum(len(x.get('diagramIds', [])) for x in topics) == 64
 assert sum(len(x.get('diagramIds', [])) for x in topics if 'scoliodon' in x['id']) == 5
@@ -32,7 +32,6 @@ required_coverage = {
     'u2-accessory-respiration': ('swim-bladder-function-types',),
     'u3-amphibia-classification': ('historical-fossil-amphibian-groups', 'lepospondyl-lissamphibian-orders'),
     'u3-rana': ('rana-circulation-heart', 'rana-excretory-and-reproduction'),
-    'u4-reptilia-classification': ('reptilian-historical-subclasses', 'living-orders-and-archosauria'),
     'u4-calotes': ('calotes-heart-circulation', 'calotes-respiratory-urinary-reproduction'),
     'u4-origin-extinct': ('reptile-fossils-synapsids', 'terrestrialisation-amniote-egg'),
     'u5-aves-classification': ('archaeornithes-neornithes', 'origin-of-birds-theropods'),
@@ -40,6 +39,9 @@ required_coverage = {
     'u5-mammalia-classification': ('mammalian-orders-and-radiation',),
     'u5-rabbit': ('rabbit-digestion-cecotrophy', 'rabbit-cardiovascular-reproduction'),
     'u5-dentition': ('dental-formula-comparison',),
+    'u3-adaptive-features': ('anura-special-adaptations', 'urodela-special-adaptations', 'apoda-special-adaptations'),
+    'u4-reptilia-classification': ('reptilian-historical-subclasses', 'living-orders-and-archosauria', 'chelonia-turtle-anatomy', 'sphenodon-rhynchocephalia', 'crocodylia-archosaur-special'),
+    'u5-marsupials': ('marsupial-orders-comparison',),
 }
 all_topics = {t['id']:t for t in topics}
 for topic_id, keys in required_coverage.items():
@@ -75,6 +77,6 @@ assert 'scrollToItem(0)' in all_kt, 'Page-to-top navigation regression'
 assert 'onPage(page + 1)' in all_kt, 'Page progression regression'
 assert 'rememberSaveable' in all_kt, 'Process state recovery missing'
 print('PASS: academically expanded five-unit bilingual content SHA-256', EXPECTED_SHA)
-print('PASS: 39 syllabus chapters, 185 bilingual sections, 117 quizzes and 64 preserved figure anchors')
+print('PASS: 39 syllabus chapters, 200 bilingual sections, 117 quizzes and 64 preserved figure anchors')
 print('PASS: native-only source; no Internet permission; no backup/cleartext')
 print('PASS: page progression, scroll reset, saved navigation state hooks present')
