@@ -485,7 +485,9 @@ private fun ListingPage(pack: ContentPack, tab: String, query: String, onQuery: 
                 colors = CardDefaults.cardColors(containerColor = Color.White)) {
                 Column(Modifier.fillMaxWidth().padding(15.dp), verticalArrangement = Arrangement.spacedBy(5.dp)) {
                     BilingualText(topic.title, lang, scale, base = 15f, bold = true)
-                    Text(loc(lang, "${topic.sections.size} lessons · ${topic.quiz.size} questions", "${topic.sections.size} பகுதிகள் · ${topic.quiz.size} வினாக்கள்") +
+                    val readingSections = topic.sections.size +
+                        topic.textbookChapters.sumOf { it.sections.size }
+                    Text(loc(lang, "${readingSections} sections · ${topic.quiz.size} questions", "${readingSections} பகுதிகள் · ${topic.quiz.size} வினாக்கள்") +
                         if (topic.id in completed) loc(lang, " · ✓ Complete", " · ✓ முடிந்தது") else "",
                         color = mutetext, fontSize = 12.sp)
                     Text(if (tab == "practice") loc(lang, "Open quiz ›", "வினாப்பயிற்சிக்குச் செல்க ›") else loc(lang, "Read chapter ›", "பாடத்தைப் படிக்க ›"),
@@ -619,8 +621,8 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                             Column(Modifier.fillMaxWidth().padding(12.dp),
                                 verticalArrangement = Arrangement.spacedBy(5.dp)) {
                                 Text(
-                                    loc(lang, "CHAPTER GUIDE · ${topic.sections.size} sections · ${topic.quiz.size} questions",
-                                        "பாட வழிகாட்டி · ${topic.sections.size} பகுதிகள் · ${topic.quiz.size} வினாக்கள்"),
+                                    loc(lang, "CHAPTER GUIDE · ${topic.sections.size + topic.textbookChapters.sumOf { it.sections.size }} sections · ${topic.quiz.size} questions",
+                                        "பாட வழிகாட்டி · ${topic.sections.size + topic.textbookChapters.sumOf { it.sections.size }} பகுதிகள் · ${topic.quiz.size} வினாக்கள்"),
                                     color = teal, fontSize = 12.sp, fontWeight = FontWeight.Bold)
                                 Row(Modifier.fillMaxWidth(),
                                     verticalAlignment = Alignment.CenterVertically,

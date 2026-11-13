@@ -195,6 +195,199 @@
           "url": "https://ciet.nic.in/moocspdf/Biology%20001/kebo_10403_e-content.pdf"
         }
       ]
+    },
+    {
+      "id": "rana-hexadactyla-undergraduate-type-study",
+      "topicId": "u3-rana",
+      "title": {
+        "en": "Rana hexadactyla (Phrynoderma hexadactylum) — complete type-study foundations",
+        "ta": "ரானா ஹெக்ஸாடாக்டைலா (Phrynoderma hexadactylum) — விரிவான இளங்கலை வகை ஆய்வு"
+      },
+      "sections": [
+        {
+          "key": "nomenclature-taxonomy",
+          "heading": {
+            "en": "Scientific name, classification and taxonomic history",
+            "ta": "அறிவியல் பெயர், வகைப்பாடு, பெயரியல் வரலாறு"
+          },
+          "body": {
+            "en": "The classical practical-textbook name Rana hexadactyla Lesson, 1834 refers to the Indian green frog, a chiefly aquatic anuran. Modern taxonomic authorities including Amphibian Species of the World and ITIS use Phrynoderma hexadactylum (Lesson, 1834); Euphlyctis hexadactylus is a widely encountered later combination. It belongs to Chordata, Vertebrata, Amphibia, Anura and Dicroglossidae in that treatment. The names Rana, Euphlyctis and Phrynoderma should be cross-referenced, not presented as three unrelated specimens. Taxonomic circumscriptions and geographic identifications have changed with molecular and morphological research. The following account treats the species-specific external traits where documented, but several internal organ-system descriptions are standard comparative-anuran anatomy that require checking against a positively identified specimen. This distinction prevents a generic laboratory-frog diagram from being mislabelled as a validated species-specific dissection.",
+            "ta": "பழைய செய்முறைப் பாடநூல்களில் Rana hexadactyla Lesson, 1834 என்று அழைக்கப்பட்ட இந்தியப் பச்சைத் தவளை பெரும்பாலும் நீர்சார்ந்து வாழும் வாலற்ற இருவாழ்வியாகும். Amphibian Species of the World, ITIS போன்ற தற்போதைய வகைப்பாட்டு ஆதாரங்களில் Phrynoderma hexadactylum (Lesson, 1834) என்ற பெயர் பயன்படுத்தப்படுகிறது; Euphlyctis hexadactylus என்ற இணைப்புப் பெயரும் பல ஆய்வுகளில் காணப்படுகிறது. தொகுதி Chordata, துணைத்தொகுதி Vertebrata, வகுப்பு Amphibia, வரிசை Anura, குடும்பம் Dicroglossidae என்பவை இதன் வகைப்பாட்டு நிலைகள். இம்மூன்று அறிவியல் பெயர்களையும் வெவ்வேறு இனங்களாகக் கருதக் கூடாது. மூலக்கூறு மற்றும் உடற்கூறியல் ஆய்வுகளால் பெயரியல் விளக்கங்கள் மாறியுள்ளன. கீழே இனத்திற்குரிய புறப்பண்புகளும், ஒப்பீட்டுத் தவளை உடற்கூறியலை அடிப்படையாகக் கொண்ட பொதுவான உள்ளுறுப்பு விளக்கங்களும் தெளிவாக வேறுபடுத்தப்படுகின்றன."
+          }
+        },
+        {
+          "key": "habitat-identification",
+          "heading": {
+            "en": "Habitat, habits and species identification",
+            "ta": "வாழிடம், வாழ்க்கை முறை மற்றும் இன அடையாளம்"
+          },
+          "body": {
+            "en": "Indian green frogs inhabit freshwater wetlands and vegetated ponds, often remaining close to water and entering it rapidly when disturbed. The species is associated with aquatic vegetation, but its geographic limits and records beyond its well-supported Indian and Bangladeshi range require careful verification. Compared with many terrestrial frogs, it has extensive toe webbing and a form well suited to swimming. Colour may be green or otherwise variable, so photographs should show the head profile, dorsum, tympanum, forefeet and hindfeet rather than relying only on a bright green colour. Species identification also requires distinction from other pond frogs historically assigned to Euphlyctis. Because conservation assessments and local legal protection can change, educators should verify current collection rules and prioritise non-lethal observation or existing accredited museum specimens.",
+            "ta": "இந்தியப் பச்சைத் தவளை தாவரங்கள் நிறைந்த குளங்கள், நன்னீர் ஈரநிலங்கள், நீர்நிலைகளின் ஓரங்கள் போன்ற இடங்களில் வாழ்கிறது. தொந்தரவு ஏற்பட்டால் விரைவாக நீருக்குள் செல்வது வழக்கம். நீச்சலுக்கு ஏற்ற வகையில் பின்னங்கால்களின் விரல்களுக்கு இடையில் விரிந்த நீர்த்தோல் காணப்படுகிறது. உடலின் பச்சை நிறம் மட்டும் இன அடையாளத்திற்குப் போதுமானதல்ல; தலை வடிவம், முதுகுப்புறம், செவிப்பறை, முன்கால் மற்றும் பின்னங்கால் ஆகியவற்றைச் சேர்த்துப் பார்வையிட வேண்டும். அதே பழைய பேரினப்பெயரில் சேர்க்கப்பட்ட பிற குளத்தவளைகளிலிருந்து இவ்வினத்தை வேறுபடுத்துவது அவசியம். பகிர்ந்தளிக்கப்பட்ட நிலவரைப் பதிவுகளும் இடப்பெயர்களும் புதிய வகைப்பாட்டு ஆய்வுகளுடன் ஒப்பிடப்பட வேண்டும். உயிரிகளைப் பிடிப்பதற்கான நடைமுறைகளில் தற்போதைய சட்டவிதிகளைப் பின்பற்றி, உயிரைக் காயப்படுத்தாத களக் கவனிப்பிற்கு முன்னுரிமை வழங்க வேண்டும்."
+          }
+        },
+        {
+          "key": "external-morphology",
+          "heading": {
+            "en": "External morphology and skin",
+            "ta": "புறத்தோற்றமும் தோல் அமைப்பும்"
+          },
+          "body": {
+            "en": "An adult anuran body is conventionally divided into head and trunk, with no distinct neck or persistent external tail. The broad mouth, paired external nares, protruding eyes and tympanic membranes are visible on the head. A translucent nictitating membrane can protect the eye during swimming. The thin skin has epidermal and dermal layers, abundant mucus-producing glands and a rich vascular network; its moisture is essential for efficient cutaneous gas exchange. Pigment cells contribute to camouflage and thermoregulation but colour varies with illumination, condition and species. The adult lacks the keratinised body scales typical of many reptiles. In a labelled external plate, indicate the snout, eye, tympanum, forelimb, hindlimb, digits, webbing and cloacal opening. Do not infer anatomical structures from decorative markings in a stylised illustration.",
+            "ta": "வளர்ந்த வாலற்ற தவளையின் உடலைத் தலை, உடற்பகுதி எனப் பிரித்துக் காணலாம்; தனியான கழுத்தோ நீளமான வெளிப்புற வாலோ இல்லை. தலைப்பகுதியில் அகன்ற வாய், இணை வெளிநாசித்துளைகள், புடைத்த கண்கள், செவிப்பறைகள் காணப்படுகின்றன. நீந்தும்போது கண்களைப் பாதுகாக்க நிக்டிடேட்டிங் சவ்வு உதவுகிறது. மேற்தோலும் அடித்தோலும் கொண்ட மெல்லிய தோலில் சளிச்சுரப்பிகளும் அடர்ந்த நுண்ணிரத்தநாளங்களும் உள்ளன. தோல் ஈரமாக இருப்பதால் தோல்வழி வாயுப் பரிமாற்றம் எளிதாகிறது. நிறமிச்செல்கள் மறைவுநிறத்தையும் வெப்ப ஒழுங்குபாட்டையும் பாதிக்கின்றன. பல ஊர்வனங்களில் காணப்படும் கொம்புப் பொருளால் ஆன செதில்கள் வளர்ந்த தவளையில் இல்லை. புறத்தோற்றப் படத்தில் மூக்கு, கண், செவிப்பறை, நான்கு கால்கள், விரல்கள், விரலிடை நீர்த்தோல், பொதுக் கழிவறைத் திறப்பு ஆகியவற்றைச் சரியாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "appendages-locomotion",
+          "heading": {
+            "en": "Forelimbs, hindlimbs and aquatic locomotion",
+            "ta": "முன்கால்கள், பின்னங்கால்கள் மற்றும் நீர்வாழ் இயக்கம்"
+          },
+          "body": {
+            "en": "The forelimbs support the anterior body during landing and locomotion; each typically bears four functional digits. The longer, more muscular hindlimbs usually end in five toes and supply the propulsive strokes of swimming and jumping. In this highly aquatic frog, extensive toe webbing increases the surface pushed against water. Hindlimb movement depends on strong pelvic attachments, elongated segments and coordinated flexor-extensor muscles. The hip, knee, ankle and toe joints operate in sequence, while the forelimbs help to steer and absorb landing forces. Sexual dimorphism in some frogs includes nuptial pads and vocal structures, but their form should be recorded from the named species rather than presumed from another common frog. For an undergraduate practical, compare the ratio of hindlimb length to body length, the extent of webbing and the pattern of digits with two other known anuran species.",
+            "ta": "முன்கால்கள் உடலின் முன்பகுதியைத் தாங்கவும் தரையிறங்கும்போது தாக்கத்தைத் தணிக்கவும் பயன்படுகின்றன; ஒவ்வொரு முன்காலிலும் பொதுவாக நான்கு செயல்படும் விரல்கள் உள்ளன. நீண்ட தசைமிக்க பின்னங்கால்களில் ஐந்து விரல்கள் காணப்படுகின்றன; அவையே நீந்துதல் மற்றும் தாவுதல் ஆகியவற்றிற்கான முதன்மை உந்துவிசையைத் தருகின்றன. இந்நீர்சார்ந்த தவளையில் விரலிடை நீர்த்தோல் பரப்பை அதிகரித்து நீரைப் பின்னோக்கித் தள்ள உதவுகிறது. இடுப்பு, முழங்கால், கணுக்கால் மூட்டுகளும் மடக்கும்-நீட்டும் தசைகளும் ஒருங்கிணைந்து செயல்படுகின்றன. சில தவளை இனங்களின் ஆண்களில் இணைவுக்காலப் பிடிப்புத் தட்டுகளும் ஒலியெழுப்பும் அமைப்புகளும் காணப்படும்; குறிப்பிட்ட இனத்தில் சரிபார்க்காமல் அவற்றின் வடிவத்தைப் பொதுமைப்படுத்தக் கூடாது. செய்முறைப் பயிற்சியில் கால்நீள விகிதம், நீர்த்தோல் பரப்பு, விரல் அமைப்பு ஆகியவற்றை வேறு இரண்டு அறியப்பட்ட தவளை இனங்களுடன் ஒப்பிடலாம்."
+          }
+        },
+        {
+          "key": "endoskeleton",
+          "heading": {
+            "en": "Axial skeleton, girdles and limb bones",
+            "ta": "அச்சுச் சட்டகம், வளையங்கள் மற்றும் காலெலும்புகள்"
+          },
+          "body": {
+            "en": "Adult frog skeletons have a skull, short vertebral column and modified appendicular skeleton. The skull is broad, with openings for eyes, nasal structures and the brain, and supports the lower jaw and auditory elements. The vertebral column typically contains a distinct atlas followed by trunk vertebrae and a sacral vertebra; posterior caudal elements are fused into the urostyle, which stabilises the jumping body. A pectoral girdle supports the forelimbs, while a pelvic girdle transfers powerful hindlimb forces to the axial skeleton. Distal limb bones and some forearm or lower-leg elements are fused or elongated relative to many other tetrapods. A diagram must label bone identity correctly rather than transferring the detailed skeleton of a particular commercial specimen to a differently named frog without qualification. Compare the urostyle with the persistent tail of salamanders.",
+            "ta": "வளர்ந்த தவளையின் அகச்சட்டகத்தில் மண்டையோடு, குறுகிய முதுகெலும்புத் தொடர், இயக்கத்துக்கு ஏற்றவாறு மாறிய காலெலும்புகள் ஆகியவை உள்ளன. அகன்ற மண்டையோடு கண்கள், மூக்கு, மூளை ஆகியவற்றிற்கான பகுதிகளைக் கொண்டுள்ளது. முதல் முதுகெலும்பு அட்லஸ் எனப்படுகிறது; உடற்பகுதி முதுகெலும்புகளைத் தொடர்ந்து இடுப்புப் பகுதியில் சாக்ரல் முதுகெலும்பு அமைந்துள்ளது. பின்புற வால்பகுதி முதுகெலும்புக் கூறுகள் இணைந்து யூரோஸ்டைல் என்ற தண்டு போன்ற அமைப்பை உருவாக்குகின்றன; இது தாவுதலின்போது உடலைத் தாங்க உதவுகிறது. தோள்வளையம் முன்கால்களைத் தாங்குகிறது; இடுப்புவளையம் பின்னங்கால்களின் விசையை அச்சுச் சட்டகத்திற்குக் கடத்துகிறது. சில முன்னங்கை மற்றும் பின்னங்கால் எலும்புகள் இணைந்தோ நீண்டோ காணப்படுகின்றன. குறிப்பிட்ட மாதிரியின் எலும்புகளை அடையாளமிட்டுப் பார்வையிட வேண்டும்; பிற இனங்களின் எலும்புக் குறிப்புகளைச் சரிபார்க்காமல் இவ்வினத்தின் தனிப்பண்பாகக் காட்டக் கூடாது."
+          }
+        },
+        {
+          "key": "buccal-teeth-feeding",
+          "heading": {
+            "en": "Buccal cavity, teeth, tongue and feeding ecology",
+            "ta": "வாய்க்குழி, பற்கள், நாக்கு மற்றும் உணவியல்"
+          },
+          "body": {
+            "en": "The buccal cavity communicates with external nostrils through the internal nares and with the respiratory route through the glottis; the gullet is the route into the digestive tract. In a typical frog, the upper jaw and palate bear small teeth used in prey retention rather than chewing, while the protrusible tongue assists in capturing food. However, the Indian green frog is an important exception to the simplistic statement that every adult frog feeds only on insects: published observations report consumption of aquatic plants as well as invertebrate and vertebrate prey. Reports of adult folivory make diet a significant species-level topic. Plant-feeding observations must not be extrapolated to every individual or every anuran species. A labelled oral-cavity figure should distinguish tongue attachment, openings of the internal nares, Eustachian-tube openings and the glottis.",
+            "ta": "வாய்க்குழியில் உள்ள்நாசித்துளைகள், தொண்டையின் சுவாசத் திறப்பு, உணவுக்குழாயின் தொடக்கம் ஆகியவை தொடர்புடைய பகுதிகளாக உள்ளன. பொதுவான தவளை உடற்கூறியலில் மேல் தாடை மற்றும் அண்ணப் பகுதியில் சிறிய பற்கள் காணப்படுகின்றன; அவை இரையைப் பிடித்துநிறுத்த உதவுகின்றன, உணவை மென்று அரைப்பதற்கல்ல. நீட்டப்படக்கூடிய நாக்கும் இரைபிடித்தலில் உதவுகிறது. ஆனால் இந்தியப் பச்சைத் தவளையை எல்லா வளர்ந்த தவளைகளும் பூச்சிகளை மட்டுமே உண்ணுகின்றன என்ற எளிய கூற்றிற்குள் அடக்கக் கூடாது. நீர்த்தாவரங்களையும் முதுகெலும்பற்ற மற்றும் சில முதுகெலும்புள்ள இரைகளையும் உண்ணும் நிகழ்வுகள் ஆய்வுகளில் பதிவாகியுள்ளன. இத்தகைய உணவுப்பழக்கத்தை எல்லா தவளை இனங்களுக்கும் பொருத்தக் கூடாது. வாய்க்குழிப் படத்தில் நாக்கின் இணைப்பு, உள்ள்நாசித்துளைகள், யூஸ்டேஷியன் குழாய்த் திறப்புகள், குளாட்டிஸ் ஆகியவற்றை வேறுபடுத்திக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "digestive-system",
+          "heading": {
+            "en": "Alimentary canal and digestive glands",
+            "ta": "செரிமானக் குழாயும் செரிமானச் சுரப்பிகளும்"
+          },
+          "body": {
+            "en": "From the mouth, material passes through the buccopharyngeal cavity and oesophagus to the stomach, then through the small intestine, large intestine or rectal region and into the cloaca. The stomach provides storage and the initial major stages of protein digestion. Intestinal folds increase the surface available for enzymatic digestion and absorption. The liver produces bile and the gall bladder stores it; the pancreas contributes digestive enzymes and bicarbonate to the intestinal lumen. The spleen is associated with circulation and immunity rather than being a digestive gland. Feeding ecology affects digestive proportions; because this species can include vegetation in its diet, an exact intestinal length should not be assumed from an insectivorous frog diagram. Students should trace organ continuity on a dissection or anatomical illustration and separately identify the ducts of the associated glands.",
+            "ta": "வாயிலிருந்து உணவுப் பொருட்கள் வாய்த்தொண்டைக் குழி, உணவுக்குழாய், இரைப்பை, சிறுகுடல், பெருங்குடல் அல்லது மலக்குடல் பகுதி வழியாகப் பொதுக் கழிவறையான கிளோயக்காவை அடைகின்றன. இரைப்பை உணவைத் தற்காலிகமாகச் சேமித்து புரதச் செரிமானத்தைத் தொடங்குகிறது. குடலின் உட்மடிப்புகள் நொதிச் செரிமானத்திற்கும் ஊட்டச்சத்து உறிஞ்சுதலுக்கும் பரப்பை அதிகரிக்கின்றன. கல்லீரல் பித்தநீரை உருவாக்குகிறது; பித்தப்பை அதைச் சேமிக்கிறது. கணையம் செரிமான நொதிகளையும் அமிலத்தன்மையைச் சமப்படுத்தும் சுரப்புகளையும் குடலுக்கு வழங்குகிறது. மண்ணீரல் செரிமானச் சுரப்பி அல்ல; அது இரத்தம் மற்றும் நோய் எதிர்ப்பு செயல்களுடன் தொடர்புடையது. இவ்வினத்தில் தாவர உணவும் பதிவாகியுள்ளதால், பூச்சியுண்ணித் தவளையின் குடல்நீளத்தை இவ்வினத்திற்கான மாறாத அளவாகப் பயன்படுத்தக் கூடாது. வரைபடத்தில் உறுப்புகளின் தொடர் அமைப்பையும் சுரப்பி நாளங்களையும் தெளிவாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "respiration",
+          "heading": {
+            "en": "Cutaneous, buccopharyngeal and pulmonary respiration",
+            "ta": "தோல்வழி, வாய்த்தொண்டை மற்றும் நுரையீரல் சுவாசம்"
+          },
+          "body": {
+            "en": "Adult anurans can exchange gases through their moist vascular skin, buccopharyngeal lining and lungs. Relative contributions depend on temperature, activity, oxygen availability and whether the animal is immersed or on land. The simple paired lungs have internal partitions that provide exchange surfaces but are not mammalian alveolated lungs. Buccal pumping ventilates lungs by movements of the floor of the mouth and coordinated opening and closure of nostrils and glottis. During submergence, cutaneous exchange becomes especially important. Tadpoles use gills during larval development, with respiratory organs changing during metamorphosis. Do not claim that a submerged adult relies exclusively on lungs or that lung ventilation in frogs uses a muscular diaphragm. A useful classroom comparison contrasts positive-pressure buccal pumping in frogs with negative-pressure ventilation in mammals.",
+            "ta": "வளர்ந்த வாலற்ற தவளைகள் ஈரமான இரத்தநாளமிக்க தோல், வாய்த்தொண்டையின் உட்சவ்வு, இணை நுரையீரல்கள் ஆகியவற்றின் மூலம் வாயுப் பரிமாற்றம் செய்கின்றன. ஒவ்வொரு வழியின் பங்கும் வெப்பநிலை, உடற்பயிற்சி, ஆக்சிஜன் கிடைப்பது, நீரில் அல்லது நிலத்தில் இருப்பது போன்றவற்றைப் பொறுத்து மாறுகிறது. நுரையீரல்களில் பரிமாற்றப் பரப்பை அதிகரிக்கும் உட்மடிப்புகள் உள்ளன; அவை பாலூட்டிகளின் நுண் ஆல்வியோலை அமைப்பைப் போன்றவை அல்ல. வாய்க்குழியின் அடிப்பகுதி மேல்கீழாக இயங்குவதும் நாசித்துளைகள், குளாட்டிஸ் திறப்பு-மூடல் ஒருங்கிணைவதும் காற்றை நுரையீரலுக்குள் செலுத்துகின்றன. நீரில் மூழ்கியிருக்கும்போது தோல்வழிச் சுவாசம் முக்கியத்துவம் பெறுகிறது. தலைப்பிரட்டைகளில் செவுள்கள் காணப்பட்டு உருமாற்றத்தின்போது சுவாச அமைப்பு மாறுகிறது. வளர்ந்த தவளைக்கு பாலூட்டிகளைப் போல தசைமிகு உதரவிதானம் இல்லை என்பதையும் பாடத்தில் தெளிவுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "heart-blood-flow",
+          "heading": {
+            "en": "Three-chambered heart and double circulation",
+            "ta": "மூன்று அறை இதயமும் இரட்டை இரத்த ஓட்டமும்"
+          },
+          "body": {
+            "en": "The frog heart has two atria and a single muscular ventricle, together with a sinus venosus receiving systemic venous blood and an arterial outflow tract. Oxygen-rich pulmonary venous blood enters the left atrium; venous return from the body enters the right atrium through the sinus venosus. The ventricle supplies both systemic and pulmocutaneous pathways, so oxygenated and deoxygenated streams are not separated by a complete ventricular septum. Trabeculae, flow dynamics and timing limit but do not eliminate mixing. The traditional term incomplete double circulation refers to pulmonary or pulmocutaneous and systemic routes being coupled through a three-chambered heart. For a diagram, show chamber openings and major vessels accurately. The arrangement should not be simplistically equated with either the single circuit of most fishes or the fully separated circuits of birds and mammals.",
+            "ta": "தவளையின் இதயத்தில் இரண்டு ஏட்ரியங்களும் ஒரே தசைமிக்க வென்ட்ரிக்கிளும் உள்ளன; உடலிலிருந்து வரும் சிரை இரத்தத்தைப் பெறும் சைனஸ் வீனோசஸும் தமனி வெளியேற்றப் பகுதியும் தொடர்புடையவை. நுரையீரலில் ஆக்சிஜன் பெற்ற இரத்தம் இடது ஏட்ரியத்திற்கும், உடலிலிருந்து வரும் சிரை இரத்தம் சைனஸ் வீனோசஸ் வழியாக வலது ஏட்ரியத்திற்கும் வருகிறது. ஒரே வென்ட்ரிக்கிளிலிருந்து உடல்சுற்றுக்கும் நுரையீரல்-தோல்சுற்றுக்கும் இரத்தம் அனுப்பப்படுகிறது. முழுமையான இடைச்சுவர் இல்லாததால் இரண்டு இரத்த ஓட்டங்களும் முற்றிலும் பிரிக்கப்படுவதில்லை; ஆனால் உள் தசைமடிப்புகளும் ஓட்டத்தின் நேரஒழுங்கும் கலப்பை ஓரளவு கட்டுப்படுத்துகின்றன. இதனை முழுமையற்ற இரட்டை இரத்த ஓட்டம் என வரலாற்றுப் பாடநூல்கள் குறிப்பிடுகின்றன. மீன்களின் ஒற்றைச் சுற்றுடனும் பறவை, பாலூட்டிகளின் முழுப் பிரிவுடைய இரட்டைச் சுற்றுடனும் இதை ஒப்பிட்டு விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "arterial-venous-portal",
+          "heading": {
+            "en": "Arterial arches, venous return and portal systems",
+            "ta": "தமனி வளைவுகள், சிரை மீள்வழி, போர்ட்டல் மண்டலங்கள்"
+          },
+          "body": {
+            "en": "In the comparative adult frog, major arterial routes include carotid, systemic and pulmocutaneous arches associated with distribution to the head, body, lungs and skin. Branching patterns and names of individual vessels must be interpreted on the specific preparation rather than copied from a diagram of another amphibian. The systemic arterial pathways connect with the dorsal aorta, which supplies visceral organs, kidneys and posterior regions. Venous blood returns through major systemic veins to the sinus venosus, while the pulmonary veins lead to the left atrium. Portal systems create serial capillary pathways: the hepatic portal system carries blood from the gut to the liver, and the renal portal circulation involves venous drainage through renal vascular beds. When tracing a vessel, state whether it carries oxygenated blood and where it begins and ends; the word artery alone does not guarantee oxygen-rich blood.",
+            "ta": "பொதுவான வளர்ந்த தவளை ஒப்பீட்டு உடற்கூறியலில் கரோட்டிட், சிஸ்டமிக், நுரையீரல்-தோல் (pulmocutaneous) தமனி வளைவுகள் தலை, உடல், நுரையீரல், தோல் ஆகியவற்றிற்கு இரத்தத்தை வழங்குகின்றன. ஒவ்வொரு இரத்தநாளத்தின் பெயரும் கிளையமைப்பும் குறிப்பிட்ட மாதிரிப் படத்தின் அடிப்படையில் சரிபார்க்கப்பட வேண்டும். சிஸ்டமிக் தமனிகள் முதுகுப்புற மகாதமனியுடன் தொடர்புற்று உள்ளுறுப்புகள், சிறுநீரகங்கள் மற்றும் பின்புற உடற்பகுதிகளுக்கு இரத்தம் வழங்குகின்றன. உடலிலிருந்து வரும் இரத்தம் முக்கியச் சிரைகள் வழியாக சைனஸ் வீனோசஸை அடைகிறது; நுரையீரல் சிரைகள் இடது ஏட்ரியத்தை அடைகின்றன. குடலிலிருந்து கல்லீரலுக்குச் செல்லும் இரத்தப் பாதை ஹெபாட்டிக் போர்ட்டல் மண்டலமாகும். சிறுநீரகத்துடன் தொடர்புடைய சிரை வழியில் ரீனல் போர்ட்டல் சுற்றோட்டம் உள்ளது. 'தமனி' என்றாலே ஆக்சிஜன் நிறைந்த இரத்தம் என்று பொருள் கொள்ளக் கூடாது; ஒவ்வொரு நாளத்தின் தொடக்கமும் முடிவும் விளக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "excretory-osmoregulation",
+          "heading": {
+            "en": "Kidneys, ureters, urinary bladder and osmoregulation",
+            "ta": "சிறுநீரகங்கள், சிறுநீர்க்குழாய்கள், சிறுநீர்ப்பை மற்றும் நீர்சமநிலை"
+          },
+          "body": {
+            "en": "Two elongated kidneys occupy the dorsal posterior body cavity. The adult amphibian kidney is described in traditional anatomy as mesonephric or opisthonephric, depending on how the developmental and posterior nephric units are distinguished. Nephrons filter blood and selectively reabsorb solutes and water. Ureters carry urine towards the cloaca, and the thin-walled urinary bladder serves as a reservoir and participates in water regulation. Freshwater amphibians face continual osmotic influx of water across permeable surfaces while losing salts to the environment; the kidneys can produce relatively dilute urine and the skin contributes to ion uptake. Adult terrestrial periods alter these demands. In males, urinary ducts may also carry reproductive products, whereas the female genital ducts are usually separate. Students should not confuse the urinary bladder with the cloaca or assume the anatomical duct arrangement is identical in both sexes.",
+            "ta": "இணையான நீளமான சிறுநீரகங்கள் உடற்குழியின் பின்புற முதுகுப் பகுதியில் அமைந்துள்ளன. வளர்ந்த இருவாழ்விகளின் சிறுநீரகத்தை வளர்ச்சிநிலைக்கேற்ப மெசோநெஃப்ரிக் அல்லது ஓபிஸ்தோநெஃப்ரிக் என்ற சொற்களால் ஒப்பீட்டு உடற்கூறியலில் விளக்குகின்றனர். நெஃப்ரான்கள் இரத்தத்தை வடிகட்டி நீர், உப்புகள் போன்றவற்றைத் தேர்ந்தெடுத்து மீள்உறிஞ்சுகின்றன. சிறுநீர்க்குழாய்கள் சிறுநீரைப் பொதுக் கழிவறையை நோக்கிக் கடத்துகின்றன; மெல்லிய சுவருடைய சிறுநீர்ப்பை சேமிப்பிற்கும் நீர்சமநிலைக்கும் உதவுகிறது. நன்னீரில் வாழும் தவளையின் ஊடுருவக்கூடிய தோல் வழியாக நீர் உடலுக்குள் நுழையலாம்; உப்புகள் இழக்கப்படலாம். சிறுநீரகங்கள் நீர்த்த சிறுநீரை உருவாக்கவும் தோல் சில அயனிகளை உட்கொள்ளவும் உதவுகிறது. நிலத்தில் இருக்கும் காலங்களில் இத்தேவைகள் மாறுகின்றன. ஆணின் சில சிறுநீர் நாளங்கள் இனப்பெருக்கப் பொருட்களையும் கடத்தலாம்; பெண்ணில் அண்டநாளங்கள் தனியே அமைந்திருக்கும். சிறுநீர்ப்பையையும் கிளோயக்காவையும் ஒரே உறுப்பாகக் கருதக் கூடாது."
+          }
+        },
+        {
+          "key": "brain-cranial-nerves",
+          "heading": {
+            "en": "Brain divisions, spinal cord and cranial nerves",
+            "ta": "மூளைப் பகுதிகள், முதுகுத் தண்டு மற்றும் தலைநரம்புகள்"
+          },
+          "body": {
+            "en": "The amphibian central nervous system includes brain and spinal cord, surrounded by protective membranes. The paired olfactory lobes and cerebral hemispheres lie anteriorly, followed by the diencephalon and prominent optic lobes of the midbrain. The relatively small cerebellum contributes to coordination; the medulla oblongata continues into the spinal cord and controls major autonomic functions. Peripheral nerves connect sensory organs and muscles to these central structures. Traditional frog practicals identify ten pairs of cranial nerves, but the exact labelling conventions may differ between anatomical treatments. Draw the dorsal and ventral aspects of the brain with the correct order and proportions, especially the olfactory bulbs, optic lobes and cerebellum. Explain reflex action using a sensory receptor, afferent nerve, central processing, efferent nerve and effector instead of attributing every movement to conscious cortical control.",
+            "ta": "இருவாழ்வியின் மைய நரம்பு மண்டலத்தில் பாதுகாப்புச் சவ்வுகளால் சூழப்பட்ட மூளையும் முதுகுத் தண்டும் உள்ளன. முன்பகுதியில் இணையான மணநுகர் மடல்கள், பெருமூளை அரைக்கோளங்கள்; அவற்றைத் தொடர்ந்து டையென்செஃபலான், நடுமூளையின் தெளிவான பார்வை மடல்கள் காணப்படுகின்றன. ஒப்பீட்டளவில் சிறிய சிறுமூளை இயக்க ஒருங்கிணைப்பிற்கும் சமநிலைக்கும் உதவுகிறது. நீள்வளைய மையங்கள் பல தன்னியக்க செயல்களை ஒழுங்குபடுத்தி முதுகுத் தண்டுடன் தொடர்கின்றன. புறநரம்புகள் உணர்வுறுப்புகளையும் தசைகளையும் மைய நரம்பு மண்டலத்துடன் இணைக்கின்றன. பாரம்பரியத் தவளைச் செய்முறையில் பொதுவாக பத்து இணைத் தலைநரம்புகள் அடையாளப்படுத்தப்படுகின்றன; நுணுக்கமான பெயரிடல் முறைகள் நூலுக்கு நூல் மாறலாம். மூளையின் மேல்நோக்கு மற்றும் அடிநோக்குப் படங்களில் மணநுகர் குமிழ்கள், பார்வை மடல்கள், சிறுமூளை ஆகியவற்றின் இடவரிசையைச் சரியாகக் காட்ட வேண்டும். பிரதிசெயல் பாதையை ஏற்பி, உள்வரும் நரம்பு, மையச் செயலாக்கம், வெளியேறும் நரம்பு, செயலுறுப்பு என விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "sense-organs",
+          "heading": {
+            "en": "Eye, tympanum, inner ear and sensory responses",
+            "ta": "கண், செவிப்பறை, உட்செவி மற்றும் உணர்வுச் செயல்கள்"
+          },
+          "body": {
+            "en": "The eye has a cornea, lens, retina and associated muscles. A nictitating membrane protects the corneal surface while the animal moves through water. Visual information reaches the brain by the optic nerve, and binocular overlap contributes to prey detection and spatial behaviour. An external tympanic membrane conveys sound-induced vibrations to the middle-ear conducting apparatus and inner ear; amphibians lack the mammalian pinna. The vestibular portion of the inner ear helps detect head movements and position. Olfactory receptors respond to airborne or dissolved chemicals, and tactile receptors in the skin respond to contact. Hearing pathways and ear morphology can vary substantially among anurans; a generic frog ear should be labelled as comparative anatomy unless verified for this species. Compare aquatic and terrestrial sensory challenges when explaining these organs.",
+            "ta": "கண்ணில் ஒளிப்புகும் கருவிழிப்படலம், லென்ஸ், விழித்திரை, தொடர்புடைய கண்தசைகள் ஆகியவை உள்ளன. நீரில் இயங்கும்போது நிக்டிடேட்டிங் சவ்வு கண்ணைப் பாதுகாக்கிறது. பார்வை நரம்பு மூலம் காட்சித் தகவல் மூளைக்குச் செல்கிறது. வெளியே தெரியும் செவிப்பறை ஒலி அதிர்வுகளை நடுச்செவி வழியாக உட்செவிக்குக் கடத்த உதவுகிறது; பாலூட்டிகளைப் போன்ற புறச்செவிமடல் இல்லை. உட்செவியின் வெஸ்டிபுலர் பகுதி தலை அசைவு மற்றும் நிலையை உணர உதவுகிறது. மணநுகர் ஏற்பிகள் காற்றிலோ நீரிலோ உள்ள வேதிப்பொருட்களை உணர்கின்றன; தோலிலுள்ள தொடு ஏற்பிகள் வெளிப்புறத் தொடர்பை உணர்கின்றன. வாலற்ற இருவாழ்விகளிடையே செவியமைப்பு வேறுபடலாம்; இந்த இனத்திற்குச் சரிபார்க்கப்படாத பொதுவான தவளைச் செவிப் படத்தை இனத்திற்கே உரியதாகக் குறிப்பிடக் கூடாது. நீரிலும் நிலத்திலும் எதிர்கொள்ளும் உணர்வுச் சவால்களை ஒப்பிட்டு மாணவர்களுக்குப் புரியவைக்கலாம்."
+          }
+        },
+        {
+          "key": "reproduction-life-cycle",
+          "heading": {
+            "en": "Male and female reproduction, eggs and metamorphosis",
+            "ta": "ஆண்-பெண் இனப்பெருக்கம், முட்டைகள் மற்றும் உருமாற்றம்"
+          },
+          "body": {
+            "en": "Anuran males typically have paired testes connected with the nephric or urinogenital duct system, whereas females have paired ovaries and coiled oviducts leading towards the cloaca. Fertilisation is usually external in aquatic breeding, with the male holding the female in amplexus while eggs and sperm are released, but breeding modes differ among frog lineages. In a species-specific account, clutch size, breeding calls, eggs and developmental timing should be taken from direct observations or reliable studies rather than borrowed from Rana tigrina or another laboratory frog. Embryos hatch as aquatic tadpoles with a tail and larval feeding structures. Metamorphosis involves thyroid-hormone-regulated differentiation of limbs, remodelling of the gut and respiratory apparatus, and resorption of the tail. A development plate should distinguish larval and adult organs and show that transformation is gradual rather than an instantaneous change.",
+            "ta": "வாலற்ற இருவாழ்விகளின் ஆண்களில் இணை விரைகளும் சிறுநீரக அல்லது சிறுநீர்-இனப்பெருக்க நாளங்களுடன் தொடர்புடைய விந்தணுக் கடத்தல் அமைப்பும் காணப்படும். பெண்களில் இணைச் சூலகங்களும் சுருண்ட அண்டநாளங்களும் கிளோயக்காவை நோக்கிச் செல்கின்றன. நீர்சார்ந்த இனப்பெருக்கத்தில் ஆண் பெண்ணைப் பற்றிக்கொள்ளும் ஆம்ப்ளெக்சஸ் நிகழ்வின்போது பொதுவாக வெளிக்கருவுறுதல் நடைபெறுகிறது; ஆயினும் எல்லாத் தவளை இனங்களிலும் இனப்பெருக்க முறைகள் ஒரே மாதிரி இல்லை. குறிப்பிட்ட இனத்திற்கான முட்டைக்கூட்ட அளவு, இனப்பெருக்க ஒலி, வளர்ச்சிக் காலம் போன்றவற்றை நேரடி ஆய்வு அல்லது நம்பகமான இனக்குறிப்புகளிலிருந்து பெற வேண்டும்; வேறு தவளை இனத்தின் எண்ணிக்கையை இதற்குப் பொருத்தக் கூடாது. நீரில் வாழும் தலைப்பிரட்டைகளில் வாலும் இளர்வி உணவூட்ட அமைப்புகளும் காணப்படுகின்றன. தைராய்டு ஹார்மோன் ஒழுங்குபடுத்தும் உருமாற்றத்தில் கால்கள் வளர்கின்றன, குடலும் சுவாச அமைப்பும் மாற்றமடைகின்றன, வால் படிப்படியாக உறிஞ்சப்படுகிறது."
+          }
+        },
+        {
+          "key": "comparative-conservation",
+          "heading": {
+            "en": "Comparative biology, conservation and practical study",
+            "ta": "ஒப்பீட்டு உயிரியல், பாதுகாப்பு மற்றும் செய்முறைப் பயிற்சி"
+          },
+          "body": {
+            "en": "The Indian green frog offers a useful contrast between highly aquatic anurans and more terrestrial species in limb webbing, feeding ecology, skin respiration and freshwater osmoregulation. Its recorded consumption of aquatic vegetation also challenges an oversimplified definition of all adult frogs as strict insect-eaters. Wetland alteration, pollution, fisheries interactions and collection for food can affect local amphibian populations; actual threats must be attributed to their assessed populations rather than asserted uniformly. For a classroom-ready type study, organise figures into external morphology, buccal cavity, digestive system, respiratory pathways, heart and arterial arches, excretion, brain, and male or female reproductive systems. Use clear source captions and label comparative frog diagrams as such when no verified species-specific dissection is available. Assess students through structural identification, organ-function explanation, comparisons with fishes and reptiles, and a short conservation case study.",
+            "ta": "இந்தியப் பச்சைத் தவளையை நீர்சார்ந்த வாலற்ற இருவாழ்விகளுக்கும் நிலச்சார்ந்த இனங்களுக்கும் இடையிலான ஒப்பீட்டு மாதிரியாகப் பயன்படுத்தலாம். விரலிடை நீர்த்தோல், உணவுப் பழக்கம், தோல்வழிச் சுவாசம், நன்னீர் நீர்சமநிலை ஆகியவற்றில் வேறுபாடுகள் கவனிக்கப்படுகின்றன. நீர்த்தாவர உணவு பதிவுகள் எல்லா வளர்ந்த தவளைகளும் பூச்சிகளை மட்டுமே உண்ணும் என்ற எளிய கருத்தைத் திருத்த உதவுகின்றன. ஈரநில மாற்றம், மாசுபாடு, மீன்பிடி இடையீடு, உணவுக்காகப் பிடித்தல் ஆகியவை சில பகுதிகளில் இருவாழ்விகளுக்கு அழுத்தம் தரலாம்; ஆபத்துகளைக் குறிப்பிட்ட உயிர்க்குழுவின் ஆதாரத்துடன் விளக்க வேண்டும். செய்முறைப் பயிற்சியில் புறத்தோற்றம், வாய்க்குழி, செரிமானம், சுவாசம், இதயம் மற்றும் தமனிகள், கழிவுநீக்கம், மூளை, ஆண்-பெண் இனப்பெருக்கம் ஆகியவற்றிற்குத் தனித்த அடையாளமிட்ட படங்கள் பயன்பட வேண்டும். உறுதிப்படுத்தப்படாத படங்களை இனத்திற்குரிய உடற்கூறு என்று கூறாமல் ஒப்பீட்டுத் தவளைப் படம் எனக் குறிக்க வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "American Museum of Natural History, Amphibian Species of the World: Phrynoderma hexadactylum",
+          "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Dicroglossidae/Dicroglossinae/Phrynoderma/Phrynoderma-hexadactylum"
+        },
+        {
+          "label": "ITIS: Rana hexadactyla synonym and currently accepted combination",
+          "url": "https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1104590"
+        },
+        {
+          "label": "NCERT Class XI Biology, Structural Organisation in Animals, frog anatomy",
+          "url": "https://ncert.nic.in/textbook/pdf/kebo107.pdf"
+        },
+        {
+          "label": "Gupta B.K. 1999. Euphlyctis hexadactylus feeding on Xenochrophis piscator, Journal of Bombay Natural History Society",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Journal_of_the_Bombay_Natural_History_Society_%28IA_journalofbombay961999bomb%29.pdf"
+        }
+      ]
     }
   ]
 }

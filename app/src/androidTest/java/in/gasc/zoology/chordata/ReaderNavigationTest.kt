@@ -436,6 +436,32 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("figure-ascidia-original-toggle").assertExists()
     }
 
+    @Test fun detailedRanaChapterIncludesModernTaxonomyAndAllMajorSystems() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val frog = requireNotNull(pack.findTopic("u3-rana"))
+        org.junit.Assert.assertEquals(5, frog.sections.size)
+        org.junit.Assert.assertEquals(4, frog.diagramIds.size)
+        val book = frog.textbookChapters.single()
+        org.junit.Assert.assertEquals(15, book.sections.size)
+        org.junit.Assert.assertTrue(book.sections.first().body.en.contains("Phrynoderma hexadactylum"))
+        org.junit.Assert.assertTrue(book.sections.first().body.ta.contains("Phrynoderma hexadactylum"))
+        org.junit.Assert.assertTrue(book.sections.any { it.key == "heart-blood-flow" })
+        org.junit.Assert.assertTrue(book.sections.any { it.key == "reproduction-life-cycle" })
+        org.junit.Assert.assertTrue(book.sections.any { it.key == "buccal-teeth-feeding" &&
+            it.body.en.contains("aquatic plants") })
+        org.junit.Assert.assertTrue(book.sections.all {
+            it.body.en.isNotBlank() && it.body.ta.isNotBlank()
+        })
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .textbookPages(frog).size >= 6)
+        org.junit.Assert.assertEquals(30, pack.topics.sumOf {
+            it.textbookChapters.sumOf { chapter -> chapter.sections.size }
+        })
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
     @Test fun detailedScoliodonTextbookIsBilingualAndPreservesFigureSlots() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val pack = ContentRepository.load(context)
