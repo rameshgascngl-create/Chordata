@@ -11,6 +11,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performScrollToIndex
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.graphics.asAndroidBitmap
@@ -1012,6 +1013,11 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("lesson-search").performTextInput(search)
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        // Figure artwork/captions may exceed one emulator viewport. Bring the
+        // actual tagged image into view rather than asserting its initial
+        // position inside a lazy list with device-dependent image heights.
+        rule.onNodeWithTag("figure-image-" + figureId).assertExists()
+        rule.onNodeWithTag("figure-image-" + figureId).performScrollTo()
         rule.onNodeWithTag("figure-image-" + figureId).assertIsDisplayed()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
         rule.onNodeWithText("Next ›").performClick()
