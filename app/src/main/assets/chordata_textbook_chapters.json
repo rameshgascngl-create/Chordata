@@ -2002,6 +2002,186 @@
           "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates"
         }
       ]
+    },
+    {
+      "id": "fish-accessory-respiration-undergraduate",
+      "topicId": "u2-accessory-respiration",
+      "title": {
+        "en": "Accessory respiratory organs in fishes — comparative anatomy, gas exchange and adaptation",
+        "ta": "மீன்களின் துணைச் சுவாச உறுப்புகள் — ஒப்பீட்டு உடற்கூறு, வாயுப் பரிமாற்றம் மற்றும் தகவமைப்பு"
+      },
+      "sections": [
+        {
+          "key": "hypoxia-and-air-breathing",
+          "heading": {
+            "en": "Aquatic hypoxia and the evolution of air breathing",
+            "ta": "நீரில் ஆக்சிஜன் குறைவும் காற்றுச் சுவாசத்தின் பரிணாமமும்"
+          },
+          "body": {
+            "en": "Dissolved oxygen may fall sharply in warm, stagnant or organically enriched water because oxygen solubility decreases with temperature while microbial and animal respiration continue. Some fishes exploit atmospheric oxygen through vascularised surfaces in addition to conventional gills. Air breathing is neither universal among freshwater fishes nor evidence that a living fish is an evolutionary intermediate on a linear route to amphibians. Distinguish facultative air breathers, which can meet much of their oxygen demand in water, from obligate air breathers, which must reach air to survive under ordinary conditions. Species can change their dependence on aerial respiration with activity, temperature and oxygen availability. The important structural requirements are a moist, thin, well-perfused respiratory epithelium, ventilation that renews the air, and mechanisms that protect the surface from collapse or drying. In examinations, identify the actual organ and its anatomical origin rather than describing every accessory structure as a lung.",
+            "ta": "வெப்பமான, தேங்கிய அல்லது கரிமப் பொருட்கள் அதிகமுள்ள நீரில் கரைந்த ஆக்சிஜன் அளவு குறையலாம். இந்நிலையில் சில மீன்கள் செவுள்களுடன் கூடுதலாக இரத்தநாளங்கள் செறிந்த துணைச் சுவாசப் பரப்புகளின் மூலம் வளிமண்டல ஆக்சிஜனைப் பெறுகின்றன. காற்றுச் சுவாசம் எல்லா நன்னீர் மீன்களுக்கும் பொதுவான பண்பல்ல. தேவைக்கேற்ப காற்றைச் சுவாசிக்கும் மீன்களையும், வழக்கமாக உயிர்வாழ காற்றை அணுக வேண்டிய மீன்களையும் வேறுபடுத்த வேண்டும். மெல்லிய ஈரமான சுவாச மேற்பரப்பு, நுண்குழாய்களின் வளம், காற்றைப் புதுப்பிக்கும் இயக்கம் ஆகியவை முக்கியம். எல்லாத் துணை உறுப்புகளையும் ‘நுரையீரல்’ எனக் குறிப்பிடுவது உடற்கூறு ரீதியாகத் தவறு."
+          }
+        },
+        {
+          "key": "anabas-labyrinth",
+          "heading": {
+            "en": "Anabas testudineus: suprabranchial chambers and labyrinth organs",
+            "ta": "அனபாஸ்: செவுள்மேல் அறையும் சிக்கல் அமைப்புடைய உறுப்பும்"
+          },
+          "body": {
+            "en": "In the climbing perch Anabas testudineus, a chamber situated above the gills on either side of the head accommodates a folded, bony-supported labyrinth organ. Its richly vascularised epithelial surfaces, including the chamber lining, receive air taken at the water surface. Diffusion occurs between this retained air and blood circulating close to the epithelium; the ordinary gills remain relevant for aquatic exchange and for functions other than oxygen uptake. The labyrinth is a complex support and gas-exchange surface, not an extra set of free gill filaments or a mammalian-style lung. The common name ‘climbing perch’ must not be taken to mean that it climbs trees using a special respiratory organ. A useful dissection diagram shows the gill arches, paired suprabranchial cavities, labyrinthine folds, blood-rich membrane and the route taken by inspired air. Students should explain why a fish can tolerate low oxygen yet still be harmed if access to the atmosphere is prevented.",
+            "ta": "அனபாஸ் டெஸ்டுடினியஸ் (Anabas testudineus) மீனில் தலைப்பகுதியின் இருபுறமும் செவுள்களுக்கு மேலாகச் சிறப்பு அறைகள் காணப்படுகின்றன. அவற்றுள் எலும்பு ஆதரவுடன் மடிப்புகள் கொண்ட ‘லாபிரிந்த்’ (labyrinth) உறுப்பு அமைந்துள்ளது. உறுப்பு மற்றும் அறையின் உள்புறத்தில் உள்ள இரத்தநாளம் செறிந்த மெல்லிய படலத்தில் காற்றிலிருந்து ஆக்சிஜன் இரத்தத்திற்குப் பரவுகிறது. சாதாரண செவுள்களும் தொடர்ந்து பல பணிகளை மேற்கொள்கின்றன. லாபிரிந்த் உறுப்பை கூடுதல் செவுள் இழைகளாகவோ பாலூட்டி நுரையீரலாகவோ கருதக் கூடாது. சரியான படத்தில் செவுள் வளைவுகள், செவுள்மேல் அறை, மடிப்பு உறுப்பு, காற்றுப் பாதை ஆகியவை தனித்தனியாகக் காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "clarias-arborescent",
+          "heading": {
+            "en": "Clarias: branched arborescent respiratory organs",
+            "ta": "கிளேரியாஸ்: கிளைபிரிந்த மரவடிவச் சுவாச உறுப்புகள்"
+          },
+          "body": {
+            "en": "In the walking catfish Clarias, accessory air-breathing surfaces occur within suprabranchial compartments and include highly branched arborescent structures. The branching increases the area of vascularised tissue exposed to a retained volume of air; it should not be confused with the folded labyrinth of Anabas. The chambers, their respiratory epithelia and connections to the gill region together form a functional air-breathing system. The animal periodically surfaces to renew the trapped gas, while the gills and other epithelia retain aquatic physiological roles. In comparing histological sections, observe the thickness of the epithelium and closeness of capillaries to the surface, because gross branching alone cannot demonstrate respiratory efficiency. Names such as Clarias batrachus must be tied to an accurately identified taxon: older teaching plates sometimes combine species or show schematic structures. A textbook diagram must label chamber, arborescent organ, gill arches and air flow separately.",
+            "ta": "கிளேரியாஸ் (Clarias) மீனின் செவுள்மேல் அறைகளில் இரத்தநாளங்கள் மிகுந்த மரக்கிளை வடிவிலான துணைச் சுவாச உறுப்புகள் காணப்படுகின்றன. இக்கிளை அமைப்பு காற்றுடன் தொடர்புடைய சுவாசப் பரப்பளவை அதிகரிக்கிறது. இதனை அனபாஸ் மீனின் லாபிரிந்த் உறுப்புடன் ஒன்றாகக் கருதக் கூடாது; அமைப்பிலும் தோற்றத்திலும் வேறுபாடுகள் உள்ளன. மீன் அவ்வப்போது நீர்மேற்பரப்பை அடைந்து அறைகளுக்குள் உள்ள காற்றைப் புதுப்பிக்கிறது. திசு ஆய்வில் உள்படலத்தின் தடிமன், மேற்பரப்புக்கு அருகிலுள்ள நுண்குழாய்கள், கிளை அமைப்பு ஆகியவற்றை ஆராய வேண்டும். படத்தில் செவுள் வளைவு, அறை, மரவடிவ உறுப்பு, காற்றின் பாதை தெளிவாகக் குறிக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "heteropneustes-air-sacs",
+          "heading": {
+            "en": "Heteropneustes fossilis: elongated air sacs",
+            "ta": "ஹெட்டிரோப்நியூஸ்டிஸ்: நீண்ட காற்றுப் பைகள்"
+          },
+          "body": {
+            "en": "Heteropneustes fossilis, the stinging catfish, possesses elongated paired air sacs that extend posteriorly from the gill region along the body. Their vascularised lining permits gas exchange with atmospheric air. Unlike the labyrinthine organ of Anabas or the arborescent structures of Clarias, these are comparatively tubular, and their posterior extent is a key anatomical landmark. In an intact specimen, the sacs must not be mistaken for the gut, swim bladder or reproductive ducts; only appropriate anatomical orientation and tracing of the connections establish their identity. Students should compare position, epithelial specialisation, gas movement and vascular supply across these three fishes rather than simply memorising three names. For safe teaching use a verified illustration or museum specimen; handling live stinging catfishes is not necessary and may be hazardous because of their venom-associated pectoral spines.",
+            "ta": "சிங்கி கெளுத்தியான ஹெட்டிரோப்நியூஸ்டிஸ் ஃபாசிலிஸ் (Heteropneustes fossilis) மீனில் செவுள் பகுதியிலிருந்து உடலின் பின்னோக்கி நீளும் இணையான காற்றுப் பைகள் உள்ளன. அவற்றின் உள்படலத்தில் அதிக இரத்தநாளங்கள் இருப்பதால் வாயுப் பரிமாற்றம் நடைபெறுகிறது. இவை அனபாஸ் மீனின் மடிப்பு உறுப்பையும் கிளேரியாஸ் மீனின் மரவடிவ உறுப்பையும் விட நீண்ட குழாய் போன்ற அமைப்பாகும். இந்தப் பைகளை உணவுக்குழாய், நீந்துபை அல்லது இனப்பெருக்கக் குழாய் எனத் தவறாக அடையாளம் காணக் கூடாது. படத்தில் அவற்றின் தொடக்கம், நீளம், செவுள் பகுதியுடனான தொடர்பு தெளிவாக இருக்க வேண்டும். நச்சுத்தன்மை தொடர்புடைய மார்புத் துடுப்பு முட்கள் உள்ள உயிர்மீனை கையாளாமல் நம்பகமான படங்களைப் பயன்படுத்தலாம்."
+          }
+        },
+        {
+          "key": "channa-and-other-surfaces",
+          "heading": {
+            "en": "Channa, skin, buccopharyngeal surfaces and true lungs",
+            "ta": "சன்னா, தோல், வாய்த் தொண்டைப் பரப்புகள் மற்றும் உண்மையான நுரையீரல்கள்"
+          },
+          "body": {
+            "en": "Snakeheads such as Channa use vascularised suprabranchial regions for aerial respiration; the anatomy and relative importance of air breathing vary among species. Other fishes may employ a vascularised mouth or pharynx, skin, parts of the gut or a modified swim bladder. None of these structures should automatically be called a lung, because anatomical origins and evolutionary histories differ. Lungfishes possess true lungs derived from a ventral foregut outgrowth and are sarcopterygians, whereas Anabas, Clarias, Heteropneustes and Channa are ray-finned fishes. A thin moist skin can contribute to oxygen uptake in an amphibious species, but its contribution depends on area, perfusion and environmental conditions. Present respiratory diversity as repeated solutions to gas-exchange constraints, not a ranking of ‘lower’ and ‘higher’ fish groups. Comparison plates should use verified species names and accurately show organ origin and gross anatomy.",
+            "ta": "சன்னா (Channa) இன மீன்கள் செவுள்மேல் பகுதியில் உள்ள இரத்தநாளம் செறிந்த பரப்புகளை காற்றுச் சுவாசத்திற்குப் பயன்படுத்துகின்றன; குறிப்பிட்ட இனங்களுக்கு இடையே விவரங்கள் மாறுபடும். வேறு சில மீன்களில் வாய்க்குழி, தொண்டை, தோல், குடல் அல்லது மாற்றமடைந்த நீந்துபை ஆகியவை துணைச் சுவாசத்தில் பங்கெடுக்கலாம். இவ்வமைப்புகள் அனைத்தையும் நுரையீரல் என்று அழைப்பது சரியல்ல. நுரையீரல் மீன்களின் உண்மையான நுரையீரல் முன்குடலின் வயிற்றுப்புற வளர்ச்சியுடன் தொடர்புடையது. சன்னா, அனபாஸ், கிளேரியாஸ் ஆகியவை கதிர்த்துடுப்பு மீன்கள். உடற்கூறு மூலத்தையும் வாயுப் பரிமாற்ற முறையையும் அடிப்படையாகக் கொண்டு ஒப்பிட வேண்டும்; ‘கீழ்நிலை–மேல்நிலை’ என்ற தவறான பரிணாம வரிசை வேண்டாம்."
+          }
+        },
+        {
+          "key": "exchange-mechanisms-and-practical",
+          "heading": {
+            "en": "Gas-exchange physiology, comparative table and practical interpretation",
+            "ta": "வாயுப் பரிமாற்ற உடலியல், ஒப்பீடு மற்றும் செய்முறை விளக்கம்"
+          },
+          "body": {
+            "en": "The effectiveness of an accessory respiratory surface depends on diffusion distance, area, capillary perfusion, partial-pressure gradients and renewal of air or water. Air contains much more oxygen per unit volume than most hypoxic water, but the fish still requires suitable ventilation and circulation. Compare four specimens by constructing a table with species, location of organ, tissue support, vascular lining, means of air entry and dependence on surfacing. Mark on each illustration the direction of air movement and distinguish it from blood flow; unverified arrows can reverse the physiology. Suggested examination questions include: Why does dissolved oxygen decline in warm stagnant water? How do the labyrinth and arborescent organs differ? Why is an air sac not necessarily a lung? A responsible field observation records surfacing intervals without restricting access to air or deliberately inducing severe hypoxia.",
+            "ta": "துணைச் சுவாச உறுப்பின் திறன் பரப்பளவு, படலத் தடிமன், நுண்குழாய்களின் இரத்த ஓட்டம், ஆக்சிஜன் பகுதி அழுத்த வேறுபாடு, காற்றுப் புதுப்பிப்பு ஆகியவற்றைச் சார்ந்தது. அனபாஸ், கிளேரியாஸ், ஹெட்டிரோப்நியூஸ்டிஸ், சன்னா ஆகிய மீன்களின் உறுப்பிடம், அமைப்பு, இரத்தநாள வளம், காற்று நுழையும் வழி ஆகியவற்றை ஒப்பீட்டு அட்டவணையில் எழுத வேண்டும். ஓவியத்தில் காற்றின் ஓட்டத்தையும் இரத்த ஓட்டத்தையும் வேறுபடுத்திக் குறிக்க வேண்டும். ‘செவுள்மேல் அறை’ என்ற சொல் எல்லா இனங்களிலும் ஒரே உடற்கூற்றைக் குறிக்கவில்லை. செய்முறைக்காக மீனுக்கு கடுமையான ஆக்சிஜன் பற்றாக்குறையைத் திட்டமிட்டு ஏற்படுத்துவதும் காற்றை அணுக விடாமல் செய்வதும் ஏற்றுக்கொள்ள முடியாது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Hughes and Datta Munshi (1968), Anabas respiratory surfaces, Nature",
+          "url": "https://doi.org/10.1038/2191382a0"
+        },
+        {
+          "label": "Histology of anabantoid and clariid air-breathing organs (2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8073562/"
+        },
+        {
+          "label": "Evolution of air breathing and comparative respiratory organs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3926130/"
+        }
+      ]
+    },
+    {
+      "id": "fish-parental-care-undergraduate",
+      "topicId": "u2-parental-care",
+      "title": {
+        "en": "Parental care in fishes — nesting, guarding, mouthbrooding and brood pouches",
+        "ta": "மீன்களில் பெற்றோர் பராமரிப்பு — கூடு அமைத்தல், பாதுகாத்தல், வாயில் அடைகாத்தல் மற்றும் கருப்பைகள்"
+      },
+      "sections": [
+        {
+          "key": "care-and-life-history",
+          "heading": {
+            "en": "Definition, survival benefits and life-history trade-offs",
+            "ta": "பெற்றோர் பராமரிப்பின் பொருள், பயன்கள் மற்றும் செலவுகள்"
+          },
+          "body": {
+            "en": "Parental care in fishes comprises behaviours or specialised structures through which a parent increases the survival prospects of eggs, embryos or young after their production. Care may begin with selecting a spawning site and continue through nest construction, egg cleaning, ventilation, defence and temporary sheltering of fry. Some species release numerous eggs with no subsequent care; others invest in fewer offspring and protect them intensively. Neither strategy guarantees greater overall reproductive success, because mortality, resources and habitat determine the optimum investment. Parental care is not confined to females: male-only, female-only and biparental patterns occur among ray-finned fishes. The sex providing care is a character to establish for each species, not an inference from the word 'parent'. Students must distinguish fertilisation (external or internal), development within a parent's body and post-fertilisation care; these are connected aspects of reproduction but are not synonyms.",
+            "ta": "மீன்களில் பெற்றோர் பராமரிப்பு என்பது முட்டைகள், கருக்கள் அல்லது குஞ்சுகளின் உயிர்வாழ்தலை அதிகரிக்க பெற்றோர் மேற்கொள்ளும் நடத்தைகள் அல்லது சிறப்பு அமைப்புகளைக் குறிக்கும். முட்டையிடும் இடத் தேர்வு, கூடு கட்டுதல், முட்டைகளைத் தூய்மைப்படுத்துதல், நீரோட்டம் ஏற்படுத்துதல், பகை உயிரிகளிலிருந்து பாதுகாத்தல் ஆகியவை இதில் அடங்கும். சில இனங்கள் அதிக முட்டைகளை இட்டு பின்னர் கவனிப்பதில்லை; சில இனங்கள் குறைவான சந்ததிகளுக்குக் கூடுதல் முதலீடு செய்கின்றன. ஆண்மீன் மட்டும், பெண்மீன் மட்டும் அல்லது இரு பெற்றோரும் பராமரிக்கலாம். கருத்தரித்தல் நடைபெறும் இடமும் பெற்றோர் பராமரிப்பும் ஒரே பொருள் அல்ல. ஒவ்வொரு எடுத்துக்காட்டிலும் பராமரிக்கும் பாலினத்தைத் தெளிவாகக் குறிப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "nest-building-stickles",
+          "heading": {
+            "en": "Nest building and paternal guarding in sticklebacks",
+            "ta": "ஸ்டிக்கிள்பேக் மீன்களில் கூடு கட்டுதலும் ஆண் பாதுகாப்பும்"
+          },
+          "body": {
+            "en": "Male three-spined sticklebacks (Gasterosteus aculeatus) construct nests from plant fragments and other suitable materials, bound together with a kidney-derived adhesive secretion. Courtship guides a female to deposit eggs in the nest, after which the male fertilises them and typically guards the clutch. Fanning movements provide water circulation across developing eggs and help maintain oxygen delivery; the male may also remove debris and respond aggressively to intruders. This is a valuable behavioural model because nest construction, courtship, aggression and paternal care can be observed as separate stages. Nest building is not characteristic of all teleosts, and the stickleback pattern must not be attributed indiscriminately to every 'spiny fish'. In an instructional diagram, identify the adult male, nest entrance, egg cluster and direction of fanning currents. Distinguish fanning from feeding: parents do not generally nourish nest eggs by releasing milk.",
+            "ta": "மூன்று முள் ஸ்டிக்கிள்பேக் (Gasterosteus aculeatus) மீனின் ஆண் தாவரத் துணுக்குகளையும் ஒட்டுப் பொருளையும் பயன்படுத்திக் கூடு அமைக்கிறது. இணைவு நடத்தைக்குப் பிறகு பெண்மீன் கூடில் முட்டைகளை இடுகிறது; பின்னர் ஆண்மீன் கருத்தரித்தலும் பாதுகாப்பும் செய்கிறது. துடுப்புகளை அசைத்து முட்டைகளின் அருகே நீரோட்டம் ஏற்படுத்துவதால் ஆக்சிஜன் கிடைப்பது மேம்படுகிறது. அழுக்குகள் நீக்கப்படுகின்றன; பகை உயிரிகளிடமிருந்து கூடு காக்கப்படுகிறது. கூடு கட்டுதல், முட்டைப் பாதுகாப்பு, நீரோட்டம் ஏற்படுத்துதல் ஆகியவற்றைத் தனித்தனி செயல்களாகப் புரிந்து கொள்ள வேண்டும். எல்லா எலும்பு மீன்களும் இவ்வாறு கூடு கட்டுவதில்லை. படத்தில் ஆண், கூடு, முட்டைகள், நீரோட்டத் திசை தெளிவாக இருக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "mouthbrooding-cichlids",
+          "heading": {
+            "en": "Mouthbrooding in cichlids and other teleosts",
+            "ta": "சிக்லிட் மீன்களில் வாயில் அடைகாத்தல்"
+          },
+          "body": {
+            "en": "In mouthbrooding species, a parent temporarily holds eggs, developing embryos or small young in the buccal cavity. Many African cichlids show maternal mouthbrooding, but other lineages include paternal or biparental mouthbrooding. The adult can retrieve threatened fry into the mouth, reducing exposure to predators, while feeding may be reduced during brooding. The oral cavity is a protective chamber; embryos are not normally attached to a mammalian-style placenta. Mouthbrooding has evolved independently in multiple fish families, making it an instructive example of convergent behavioural evolution. A comparison of substrate-guarding and mouthbrooding cichlids should consider predation pressure, brood size, mobility and the cost of parental fasting. For a scientifically useful plate, show the opening of the mouth with identifiable eggs or fry and state the sex and species; a cartoon fish with a vague cluster of circles is not adequate evidence of mouthbrooding.",
+            "ta": "வாயில் அடைகாக்கும் மீன்களில் ஒரு பெற்றோர் முட்டைகள், வளரும் கருக்கள் அல்லது சிறிய குஞ்சுகளைத் தற்காலிகமாக வாய்க்குழிக்குள் பாதுகாக்கிறது. ஆப்பிரிக்கச் சிக்லிட் இனங்கள் பலவற்றில் பெண்மீன் இதைச் செய்கிறது; சில பிற இனங்களில் ஆண் அல்லது இரு பெற்றோரும் ஈடுபடலாம். ஆபத்து நேரத்தில் குஞ்சுகளை மீண்டும் வாய்க்குள் ஏற்றிக் கொள்ளும் நடத்தை உண்டு. அடைகாக்கும் காலத்தில் உணவு உட்கொள்ளுதல் குறையலாம். இது பாலூட்டிகளில் காணப்படும் நஞ்சுக்கொடி வளர்ச்சிக்கு ஒப்பானது அல்ல. வெவ்வேறு மீன் குழுக்களில் தனித்தனியாகத் தோன்றிய நடத்தையாக வாயில் அடைகாத்தலைக் கருத வேண்டும். படத்தில் இனம், பராமரிக்கும் பாலினம், வாயிலுள்ள முட்டை அல்லது குஞ்சு தெளிவாகக் காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "seahorse-pouch",
+          "heading": {
+            "en": "Seahorse and pipefish male brood systems",
+            "ta": "கடற்குதிரை மற்றும் குழாய்மீன்களில் ஆண் கருப் பாதுகாப்பு"
+          },
+          "body": {
+            "en": "In seahorses and some pipefishes (Syngnathidae), females transfer eggs into a male's specialised brood pouch or onto a brooding surface. The male protects developing embryos and regulates the local environment during gestation before releasing young. Pouch architecture varies across syngnathids, so a closed pouch in a seahorse must not be assigned to every pipefish species. The expression 'male pregnancy' describes this distinctive paternal gestation, not a female reproductive system hidden inside a male fish. Brood-pouch vascular tissue may participate in osmoregulatory, gaseous and nutrient-related exchanges, with roles differing among species; the paternal contribution should not be presented as identical to placental mammals. A useful illustration shows the female-to-male egg transfer and then a separate stage with embryos inside the male pouch, using distinct labels for eggs, pouch opening and developing young.",
+            "ta": "கடற்குதிரை மற்றும் சில குழாய்மீன்கள் (Syngnathidae) ஆகியவற்றில் பெண்மீன் முட்டைகளை ஆண்மீனின் சிறப்பான கருப் பைக்குள் அல்லது அடைகாக்கும் மேற்பரப்பில் செலுத்துகிறது. ஆண்மீன் வளர்கின்ற கருக்களைப் பாதுகாத்து பின்னர் குஞ்சுகளை வெளியிடுகிறது. எல்லாக் குழாய்மீன்களிலும் கடற்குதிரை போன்ற முழுமையாக மூடப்பட்ட பை இருப்பதில்லை. இதனை ‘ஆண் கருவுறுதல்’ (male pregnancy) என அழைப்பது ஆண்மீன் மேற்கொள்ளும் கருப் பராமரிப்பைக் குறிக்கிறது; பாலூட்டியின் பெண் இனப்பெருக்க உறுப்பைப் போன்றது அல்ல. கருப்பையின் அமைப்பும் பரிமாற்றப் பணிகளும் இனத்துக்கு இனம் மாறுகின்றன. படத்தில் முட்டை மாற்றுதல், ஆணின் பை, வளர்கின்ற கருக்கள் ஆகிய நிலைகளைத் தெளிவுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "substrate-care-and-bubble",
+          "heading": {
+            "en": "Substrate guarding, brood transport and bubble nests",
+            "ta": "தள முட்டைப் பாதுகாப்பு, குஞ்சு எடுத்துச் செல்லுதல் மற்றும் குமிழிக் கூடுகள்"
+          },
+          "body": {
+            "en": "Many cichlids deposit eggs on a cleaned rock or other substrate and guard the site; in some species both adults also shepherd free-swimming fry. Some gouramis and bettas build surface bubble nests, which retain eggs near the air-water interface; the identity of the nest keeper differs across species. These examples illustrate how parental care incorporates habitat modification, oxygen access, predator defence and recognition of the offspring. Avoid conflating a bubble nest with a mouthbrooding chamber, or treating all gouramis as identical. In some fish groups adhesive eggs are attached to vegetation, while other fish carry egg masses or juveniles on specialised surfaces. Behavioural observations should distinguish genuine care from coincidental proximity to eggs: repeated guarding, fanning, retrieval or nest repair provides stronger evidence. Scientific names and life-history stages must accompany any labelled comparative figure.",
+            "ta": "சில சிக்லிட் இனங்கள் தூய்மைப்படுத்திய பாறை அல்லது பிற தளங்களில் முட்டைகளை இட்டு அவற்றைக் காக்கின்றன. சிலவற்றில் இரு பெற்றோரும் நீந்தத் தொடங்கிய குஞ்சுகளை கூட்டமாக வழிநடத்துகின்றனர். சில குராமி, பெட்டா மீன்கள் நீர்மேற்பரப்பில் காற்றுக் குமிழிகளால் கூடு அமைக்கின்றன; அதில் முட்டைகள் தங்குகின்றன. குமிழிக் கூட்டையும் வாயில் அடைகாத்தலையும் ஒன்றாகக் கருதக் கூடாது. அருகில் ஒரு மீன் இருப்பதாலேயே அது பராமரிக்கிறது என முடிவு செய்ய முடியாது; மீண்டும் மீண்டும் பாதுகாத்தல், துடுப்பு அசைத்தல், குஞ்சுகளை மீட்டல், கூடு பழுதுபார்த்தல் போன்ற நடத்தைகள் சான்றுகளாகும். ஒவ்வொரு ஓவியத்திலும் இனம் மற்றும் வளர்ச்சி நிலை குறிக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "evolution-and-practical",
+          "heading": {
+            "en": "Evolutionary explanations and an evidence-based observation protocol",
+            "ta": "பரிணாம விளக்கமும் சான்று சார்ந்த கண்காணிப்பு முறையும்"
+          },
+          "body": {
+            "en": "Costs of care include time, energy, reduced feeding opportunities and increased exposure of adults to predators; benefits include improved survival of individual young. Variation in care reflects ecology and evolutionary history, so simple claims such as 'all externally fertilising fishes show no care' are false. Studies of cichlid phylogenies show repeated transitions between substrate guarding and mouthbrooding and changes in which sex provides care. Students can construct a comparative matrix with species, fertilisation mode, nest type, caregiver sex, care duration, egg or fry stage and principal hazard prevented. For observation, use ethically maintained aquarium populations or published video records; minimise disturbance and never remove the caregiver simply to test whether eggs die. A concise undergraduate answer should begin with a definition, describe named examples with precise mechanisms, compare adaptive benefits and costs, and conclude with evolutionary significance.",
+            "ta": "பெற்றோர் பராமரிப்பில் நேரம், ஆற்றல், உணவு உண்ணும் வாய்ப்பு இழப்பு, பகை உயிரிகளால் தாக்கப்படும் அபாயம் ஆகிய செலவுகள் உள்ளன. அதேவேளையில் சந்ததியின் உயிர்வாழ்தல் அதிகரிக்கலாம். வெளிக் கருத்தரித்தல் நிகழும் எல்லா மீன்களிலும் பராமரிப்பு இல்லை என்ற பொதுக்கூற்று தவறு. சிக்லிட் மீன்களின் பரிணாம வரலாற்றில் தளப் பாதுகாப்பிலிருந்து வாயில் அடைகாத்தல் உள்ளிட்ட பல மாற்றங்கள் நிகழ்ந்துள்ளன. செய்முறையில் இனம், கருத்தரித்தல் முறை, கூடு வகை, பராமரிக்கும் பாலினம், முட்டை அல்லது குஞ்சு நிலை ஆகியவற்றை அட்டவணைப்படுத்த வேண்டும். குஞ்சுகளின் உயிர்வாழ்தலைச் சோதிப்பதற்காகப் பெற்றோரைப் பிரிப்பது முறையல்ல. வரையறை, துல்லியமான எடுத்துக்காட்டுகள், தகவமைப்புப் பயன்கள் ஆகியவை விடையில் இடம்பெற வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Goodwin et al. — Evolutionary transitions in cichlid parental care",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1689529/"
+        },
+        {
+          "label": "Evolutionary diversity of parental care in ray-finned fishes (2024)",
+          "url": "https://doi.org/10.1093/evolut/qpae100"
+        },
+        {
+          "label": "Neuroendocrine basis for parental care in teleost fish",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13429055/"
+        }
+      ]
     }
   ]
 }
