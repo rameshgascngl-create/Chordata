@@ -3028,6 +3028,39 @@
                 "en": "Anurans typically use elongate hind limbs and a fused urostyle for jumping, and webbing for swimming in many aquatic species; some tree frogs have expanded adhesive toe pads. Caudates retain an elongated trunk and tail, with lateral body undulation and limbs that may be small or lost in some lineages. Gymnophionans have reinforced skulls, annulated skin and a sensory tentacle between eye and nostril, facilitating life in soil or aquatic substrates. Compare vertebral construction, skin moisture, vision, sensory strategy and parental investment. Diversity within each group is substantial; for example, not every anuran jumps, not every salamander is aquatic, and some caecilians give birth to developed young.",
                 "ta": "அனுராவில் வலுவான நீண்ட பின்னங்கால்கள், இணைந்த யூரோஸ்டைல் எலும்பு, சில இனங்களில் விரலிடைச் சவ்வு ஆகியவை தாவுதல் மற்றும் நீந்துதலுக்கு உதவுகின்றன; மரத்தவளைகளில் ஒட்டும் விரல் தட்டுகள் காணப்படும். காடேட்டாவில் நீண்ட உடலும் நீடிக்கும் வாலும் பக்கவாட்டு அலை இயக்கத்திற்குப் பயன்படுகின்றன. ஜிம்னோஃபியோனாவில் உறுதியான மண்டையோடு, வளையத் தோல், கண்-நாசிக்கிடை உணர்வுக் கூடாரம் ஆகியவை மண்ணுக்குள் வாழ உதவுகின்றன. மூன்று குழுக்களிலும் உடலமைப்பு, தோல், இயக்கம், இனப்பெருக்கப் பாதுகாப்பு ஆகியவற்றை ஒப்பிட வேண்டும். ஒவ்வொரு வரிசைக்குள்ளும் ஏராளமான விதிவிலக்குகள் உள்ளன."
               }
+            },
+            {
+              "key": "anura-special-adaptations",
+              "heading": {
+                "en": "Order Anura: locomotion, feeding and reproduction",
+                "ta": "அனுரா — இயக்கம், உணவூட்டம், இனப்பெருக்கத் தகவமைப்புகள்"
+              },
+              "body": {
+                "en": "Anuran adults generally have a shortened trunk, absent adult tail, elongate ilia, a urostyle and powerful hind limbs; the pelvic girdle transmits propulsive forces during hopping. Aquatic frogs often have webbed toes, whereas arboreal species may have adhesive toe pads and other climbing specialisations. Many frogs catch prey with a protrusible tongue and rely on vision, but feeding modes are diverse. Males of many species vocalise through a larynx and resonating vocal sac to attract mates. Eggs may be deposited in water, foam, vegetation or sheltered sites; some species develop directly without a free-swimming tadpole. Link each adaptation to habitat, energy expenditure and predation risk rather than treating the typical pond frog as universal.",
+                "ta": "அனுரா இருவாழ்விகளில் முதிர்ந்த நிலையில் வால் இல்லை; குறுகிய உடற்பகுதி, யூரோஸ்டைல், நீண்ட இடுப்பெலும்பு, வலுவான பின்னங்கால்கள் தாவுதலுக்கு உதவுகின்றன. நீர்வாழ் தவளைகளில் விரலிடைச் சவ்வுகளும் மரவாழ் தவளைகளில் ஒட்டும் விரல் தட்டுகளும் காணப்படலாம். பல தவளைகள் நீட்டக்கூடிய நாக்கால் இரை பிடிக்கின்றன; உணவு முறைகளில் வேறுபாடுகள் உண்டு. பல இனங்களின் ஆண்கள் குரல்வளை மற்றும் ஒலிப்பை வழி இணையை ஈர்க்க ஒலி எழுப்புகின்றன. முட்டைகள் நீர், நுரைக்கூடு, இலை அல்லது பாதுகாப்பான இடங்களில் இடப்படலாம்; சிலவற்றில் நேரடி வளர்ச்சி நிகழ்கிறது. ஒவ்வொரு தகவமைப்பையும் வாழிடத்தின் சூழல் தேவையுடன் இணைத்து விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "urodela-special-adaptations",
+              "heading": {
+                "en": "Order Urodela/Caudata: tail, respiration and regeneration",
+                "ta": "யூரோடீலா — வால், சுவாசம், மீளுருவாக்கம்"
+              },
+              "body": {
+                "en": "Salamanders and newts retain a tail throughout adult life. Limb and axial movements may be combined during walking, while an extended tail aids swimming. Some species have external gills in adult aquatic stages, others breathe with lungs, and lungless salamanders exchange gases mainly through moist skin and buccal membranes. Many species exhibit notable regeneration of damaged tails and limbs through coordinated wound healing, cell proliferation and tissue patterning, though the ability varies by lineage, age and injury. Reproduction often involves spermatophore transfer and internal fertilisation, but the exact mechanism is species-dependent. Compare larval gills, adult respiratory structures and paedomorphosis without confusing neoteny with regeneration.",
+                "ta": "சாலமாண்டர்களும் நியூட்களும் முதிர்ந்த நிலையிலும் வாலைக் கொண்டுள்ளன. நிலத்தில் நடக்கும்போது கால்களும் உடல் அச்சும் ஒருங்கிணைந்து இயங்குகின்றன; நீரில் வால் இயக்கம் முக்கியமானது. சில நீர்வாழ் இனங்களில் முதிர்ந்த நிலையிலும் வெளிச் செவுள்கள் நீடிக்கின்றன; சிலவற்றில் நுரையீரல் உள்ளது; நுரையீரலற்ற சாலமாண்டர்களில் ஈரத் தோல், வாய் சவ்வு வழி வாயுப் பரிமாற்றம் நடைபெறுகிறது. பல சாலமாண்டர்கள் சேதமடைந்த வால், கால்களை மீளுருவாக்கும் திறன் கொண்டவை; இது இனத்தின்படி மாறும். சிலவற்றில் விந்துக் கட்டுப் பரிமாற்றம் மூலம் உட்கருவுறுதல் நிகழ்கிறது. நியோடெனி மற்றும் மீளுருவாக்கம் என்ற இரு நிகழ்வுகளையும் வேறுபடுத்த வேண்டும்."
+              }
+            },
+            {
+              "key": "apoda-special-adaptations",
+              "heading": {
+                "en": "Order Apoda/Gymnophiona: anatomy of caecilians",
+                "ta": "அபோடா — சீசிலியன்களின் உடலமைப்புத் தகவமைப்புகள்"
+              },
+              "body": {
+                "en": "Caecilians are limbless amphibians with long cylindrical bodies, annular skin grooves and an ossified skull well suited to burrowing. Their eyes are often reduced and covered by skin or bone, while a specialised protrusible sensory tentacle occurs between eye and nostril, combining chemosensory and tactile information. Unlike snakes, caecilians are amphibians and have characteristic skin glands, distinct skull organisation and reproductive biology. Fertilisation is internal with a male intromittent organ called the phallodeum. Some species lay eggs and guard them; others are live-bearing, and young may obtain specialised maternal nutrition. Explain why limb loss is convergent in snakes and caecilians rather than evidence of membership in the same class.",
+                "ta": "சீசிலியன்கள் கால்களற்ற நீண்ட உருளை உடல், வளையத் தோல் மடிப்புகள், மண்துளைக்க ஏற்ற உறுதியான மண்டையோடு கொண்ட இருவாழ்விகள். கண்கள் சிறியதாகவும் சில இனங்களில் தோல் அல்லது எலும்பால் மூடப்பட்டதாகவும் இருக்கும். கண்ணுக்கும் நாசிக்கும் இடையே நீட்டக்கூடிய சிறப்பான உணர்வுக் கூடாரம் உள்ளது; இரசாயன மற்றும் தொடு உணர்வுக்கு உதவுகிறது. தோற்றத்தில் பாம்பைப் போன்றிருந்தாலும் இவை ஊர்வன அல்ல. ஆணில் ஃபாலோடியம் எனப்படும் உட்கருவுறுதலுக்குரிய உறுப்பு காணப்படுகிறது. சில இனங்கள் முட்டையிட்டு பாதுகாக்கின்றன; சிலவை குட்டி ஈனுகின்றன. பாம்புகளிலும் சீசிலியன்களிலும் கால்கள் இழக்கப்பட்டது தனித்த பரிணாமத் தகவமைப்பு என்பதை விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -3482,6 +3515,39 @@
               "body": {
                 "en": "Traditional living reptile orders include Testudines (turtles and tortoises), Squamata (lizards, snakes and amphisbaenians), Rhynchocephalia (tuatara) and Crocodylia (crocodilians). Lepidosauria unites squamates with Sphenodon; Archosauria includes crocodilians and birds, and the extinct dinosaurs and pterosaurs are important related archosaur lineages. Snakes are a specialised squamate radiation, not a separate basal reptile division. Explain lepidosaur scales and skin shedding, crocodilian secondary palate and four-chambered heart, and chelonian shells formed from dermal and axial skeletal elements. If birds are excluded for the university's traditional 'Reptilia' heading, point out the phylogenetic exception rather than suggesting birds evolved outside reptiles.",
                 "ta": "வாழும் ஊர்வன வரிசைகளில் டெஸ்டுடைன்ஸ் (ஆமை), ஸ்குவாமேட்டா (பல்லி, பாம்பு, அம்ஃபிஸ்பீனியன்), ரைன்கோசெபாலியா (ஸ்பீனோடான்), க்ரோகோடைலியா (முதலை) முக்கியமானவை. ஸ்குவாமேட்டாவும் ஸ்பீனோடானும் லெபிடோசாரியா கிளையைச் சேர்ந்தவை. முதலைகளும் பறவைகளும் ஆர்கோசாரியா கிளையில் அடங்குகின்றன; அழிந்த டைனோசர்களும் டெரோசார்களும் தொடர்புடைய கிளைகள். பாம்புகள் ஸ்குவாமேட்டாவுக்குள் தோன்றிய சிறப்புக் குழுவாகும். தோலுரிதல், முதலைகளின் நான்கு அறை இதயம், ஆமை ஓடு உருவாகும் எலும்புக் கூறுகள் ஆகியவற்றைச் சரியான எடுத்துக்காட்டுடன் விளக்க வேண்டும். பறவைகளைத் தவிர்க்கும் பழைய ஊர்வன வகைப்பாடு முழுமையான பரிணாமக் குழுவாகாது."
+              }
+            },
+            {
+              "key": "chelonia-turtle-anatomy",
+              "heading": {
+                "en": "Chelonia/Testudines: shell, respiration and adaptations",
+                "ta": "செலோனியா — ஆமை ஓடு, சுவாசம், தகவமைப்புகள்"
+              },
+              "body": {
+                "en": "Turtles and tortoises possess a dorsal carapace and ventral plastron, joined to form a protective shell integrated with modified ribs and vertebral elements; the shell is not merely removable external armour. Their jaw edges are keratinised and toothless. Because ribs are constrained within the shell, respiration involves specialised trunk and limb-associated musculature rather than the typical freely expanding rib cage of lizards. Freshwater, marine and terrestrial species vary in limb morphology: flippers in sea turtles, webbed feet in many freshwater turtles and columnar limbs in land tortoises. Modern phylogenetic evidence places turtles among the diapsid reptile radiation despite their modified temporal skull roof. Explain reproduction and nesting in species-appropriate terms.",
+                "ta": "ஆமைகளில் முதுகுப்புறக் காரப்பேஸ், வயிற்றுப்புறப் பிளாஸ்ட்ரான் இணைந்து பாதுகாப்பு ஓட்டை உருவாக்குகின்றன; விலா எலும்பு, முதுகெலும்புக் கூறுகளுடன் ஓடு ஒருங்கிணைந்தது. ஓட்டை உடலிலிருந்து தனியே அகற்றக்கூடிய கவசம் எனக் கருதக் கூடாது. தாடை விளிம்புகள் கெரட்டின் அமைப்புடையவை; பற்கள் இல்லை. விலா எலும்புகளின் இயக்கம் கட்டுப்படுவதால் சிறப்பான உடற்பகுதி மற்றும் உறுப்புத் தசைகள் சுவாசத்திற்கு உதவுகின்றன. கடல் ஆமைகளில் துடுப்பு போன்ற கால்கள்; நன்னீர் ஆமைகளில் பலவற்றுக்கு விரலிடைச் சவ்வுகள்; நில ஆமைகளில் உறுதியான கால்கள் காணப்படும். மண்டையோட்டின் துளை அமைப்பு மாற்றமடைந்திருந்தாலும் இவற்றின் பரிணாம உறவு டயாப்சிடா கிளையுடனே உள்ளது."
+              }
+            },
+            {
+              "key": "sphenodon-rhynchocephalia",
+              "heading": {
+                "en": "Rhynchocephalia and Sphenodon: living tuatara",
+                "ta": "ரைன்கோசெபாலியா மற்றும் ஸ்பீனோடான்"
+              },
+              "body": {
+                "en": "Sphenodon, commonly called the tuatara, represents the surviving rhynchocephalian lineage native to New Zealand. Although superficially lizard-like, it is not a squamate lizard. Its skull retains a distinctive diapsid arrangement with relatively complete temporal bars, and its acrodont-type dentition includes tooth-like projections fused with jaw bone. Some developmental and physiological characteristics, including slow growth and temperature-sensitive life history, differ from many lizards. A parietal or 'third eye' organ is most conspicuous in young animals and should not be exaggerated into an ordinary image-forming adult eye. Compare tuatara with squamates using cranial mechanics, tooth attachment and evolutionary history rather than external appearance alone.",
+                "ta": "ஸ்பீனோடான் எனப்படும் டுவாடாரா நியூசிலாந்தில் வாழும் ரைன்கோசெபாலியா கிளையின் இன்றைய பிரதிநிதியாகும். தோற்றத்தில் பல்லியை ஒத்திருந்தாலும் ஸ்குவாமேட்டா பல்லி அல்ல. மண்டையோட்டில் தனித்துவமான டயாப்சிடா அமைப்பும் முழுமையான பக்கவாட்டு எலும்புப் பட்டைகளும் காணப்படும். தாடை எலும்போடு இணைந்த பல் போன்ற அமைப்புகள் உணவைக் கடிக்க உதவுகின்றன. மெதுவான வளர்ச்சி, வெப்பநிலை சார்ந்த வாழ்க்கை நிகழ்வுகள் போன்றவை பல பல்லிகளிலிருந்து மாறுபடும். இளநிலையில் தெளிவாகத் தெரியும் பாரியேட்டல் உணர்வு உறுப்பு சாதாரணப் பார்வைக் கண் போல செயல்படுவதில்லை. மண்டையோடு, பல் பற்றுமுறை, பரிணாம உறவு ஆகியவற்றால் ஸ்பீனோடானையும் பல்லியையும் ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "crocodylia-archosaur-special",
+              "heading": {
+                "en": "Crocodylia: heart, skull, palate and ecological specialisation",
+                "ta": "க்ரோகோடைலியா — இதயம், மண்டையோடு, அண்ணம், சூழலியல்"
+              },
+              "body": {
+                "en": "Crocodilians include crocodiles, alligators, caimans and gharials. Their skulls have strong jaws, conical thecodont teeth and a secondary bony palate that permits breathing with the mouth partly immersed or holding prey underwater. They possess a fully separated four-chambered heart, unlike the incompletely divided ventricle typical of lizards; special connections of systemic vessels support cardiovascular shunting under some conditions. The eyes, nostrils and ears are positioned dorsally for aquatic vigilance, and a powerful tail supplies propulsion. Crocodilians and birds are surviving archosaurs. Compare the gharial's slender fish-catching snout with broader crocodilian heads without assuming identical feeding specialisations across all species.",
+                "ta": "முதலைகள், அலிகேட்டர்கள், கெய்மன்கள், காரியல்கள் க்ரோகோடைலியா குழுவில் அடங்குகின்றன. அவற்றின் மண்டையோட்டில் வலுவான தாடை, பல் குழிகளில் பதிந்த கூம்பு வடிவப் பற்கள், இரண்டாம் எலும்பு அண்ணம் உள்ளன. இவ்வமைப்பு நீரில் இரையைப் பிடித்தபோதும் சுவாசப் பாதையைப் பாதுகாக்க உதவுகிறது. பல்லிகளைப் போலன்றி முதலையில் நான்கு அறைகள் கொண்ட முழுமையாகப் பிரிந்த இதயம் உள்ளது; இரத்தநாளத் தொடர்புகள் சில சூழ்நிலைகளில் சிறப்பான ஓட்டமாற்றத்தை அனுமதிக்கின்றன. கண்கள், நாசித்துவாரங்கள், செவித்திறப்புகள் மேல்புறத்தில் அமைந்திருப்பதும் வலுவான வாலும் நீர்வாழ்விற்குப் பயனாகும். முதலையும் பறவையும் உயிர்வாழும் ஆர்கோசாரியா கிளைகள். காரியலின் நீண்ட மெல்லிய மூக்கை மற்ற முதலைகளின் தாடையுடன் ஒப்பிட வேண்டும்."
               }
             }
           ],
@@ -4455,6 +4521,17 @@
               "body": {
                 "en": "Birds evolved within maniraptoran theropod dinosaurs. Fossils document feathers, furculae, air-filled skeletal elements, brooding postures and modifications of the wrist and forelimb across related dinosaurs and early birds. Feathers arose before fully developed powered flight and likely served multiple functions, including insulation and display. Archaeopteryx is an important transitional early avialan relative, but the fossil record represents branching relationships rather than a chain from a single dinosaur species to pigeons. Compare hypotheses for the origin of flight without presenting either cursorial or arboreal scenarios as definitively settled in every detail.",
                 "ta": "பறவைகள் மனிராப்டோரன் தெரோபாட் டைனோசர் மரபுக்குள் தோன்றின. தொடர்புடைய புதைபடிவங்களில் இறகுகள், ஃபர்குலா, காற்று நிறைந்த எலும்புக் கூறுகள், முட்டைப் பாதுகாப்பு நிலை, மணிக்கட்டு மற்றும் முன்கால் மாற்றங்கள் காணப்படுகின்றன. முழுமையான இயக்கப் பறத்தலுக்கு முன்பே இறகுகள் தோன்றி வெப்பப் பாதுகாப்பு, காட்சி தொடர்பு போன்ற பணிகளுக்குப் பயன்பட்டிருக்கலாம். ஆர்கியோப்டெரிக்ஸ் தொடக்கப் பறவைகளின் பரிணாம உறவை விளக்கும் முக்கியப் புதைபடிவமாகும்; இன்றைய புறாவின் நேரடி மூதாதை என்று உறுதியாகக் கூற முடியாது. பறத்தல் தோற்றத்தை விளக்கும் நில ஓட்டக் கோட்பாடு, மரவாழ் கோட்பாடு ஆகியவற்றை ஆதாரங்களுடன் ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "ratitae-ostrich-emu-tinamou",
+              "heading": {
+                "en": "Ratitae and palaeognaths: flightlessness is not a single origin",
+                "ta": "ராட்டைட் மற்றும் பாலியோக்நாதே — பறக்காமையின் பல்வேறு தோற்றங்கள்"
+              },
+              "body": {
+                "en": "Traditional Ratitae includes ostriches, emus, rheas, cassowaries and kiwis, typically with reduced flight muscles and specialised hindlimbs for running or walking. These birds show diverse body size, plumage, habitat and parental care; ostriches have strong running legs whereas kiwis use sensory probing and nocturnal habits. Tinamous are flying palaeognaths, and molecular evidence indicates that flightlessness arose more than once within the palaeognath lineage. Thus the old 'ratite' assemblage should be taught as an ecological-morphological category, not as proof of a single flightless ancestor of every member. Explain reduced or absent sternal keel alongside wing and leg alterations, avoiding claims that all ratites are identical flightless forms.",
+                "ta": "பழைய ராட்டைட் குழுவில் தீக்கோழி, ஈமு, ரியா, கசோவரி, கிவி போன்ற பறவைகள் அடங்குகின்றன. பல இனங்களில் பறத்தல் தசைகள் குறைந்து, நடப்பதற்கும் ஓடுவதற்கும் கால்கள் தகவமைந்துள்ளன. தீக்கோழி வேகமாக ஓடும் பெரிய பறவை; கிவி இரவில் உணவு தேடும் சிறிய பறவை. பாலியோக்நாதே கிளையில் பறக்கக்கூடிய டினமூக்களும் உள்ளன. மரபணு ஆதாரங்கள் பறக்க முடியாத நிலை பல கிளைகளில் தனித்தனியாகத் தோன்றியிருக்கலாம் எனக் காட்டுகின்றன. எனவே ராட்டைட் என்ற பெயரை ஒரே பறக்காத மூதாதையிலிருந்து உருவான முழுமையான இயற்கைக் குழுவாகக் கற்பிக்கக் கூடாது. மார்பெலும்பு கீல், இறக்கை, பின்னங்கால் மாற்றங்களை உதாரணங்களுடன் விளக்க வேண்டும்."
               }
             }
           ],
@@ -5567,6 +5644,17 @@
               "body": {
                 "en": "Marsupials usually give birth after a comparatively brief gestation to very immature young, which continue development while attached to a teat, often but not always inside a pouch. Many possess a specialised yolk-sac placenta; a short gestation does not mean that placentation is completely absent. Kangaroos, koalas, wombats, opossums and marsupial carnivores illustrate diverse Australian and American lineages. Maternal milk composition changes during lactation as young mature. Distinguish Metatheria from Eutheria by developmental patterns and detailed reproductive anatomy, not by a universal pouch rule. Adaptive resemblance between marsupial and placental mammals can result from convergent evolution in similar niches.",
                 "ta": "மார்சூப்பியல்கள் ஒப்பீட்டளவில் குறுகிய கருவுற்ற காலத்திற்குப் பின் வளர்ச்சி குறைவான குட்டிகளை ஈன்று, அவற்றை முலைக்காம்பில் பற்றியவாறு தொடர்ந்து வளர்க்கின்றன. பல இனங்களில் வயிற்றுப்புறப் பை இருப்பினும் அது அனைத்திலும் காணப்படுவதில்லை. சிலவற்றில் மஞ்சள்கருப் பை சார்ந்த நஞ்சுக்கொடி உள்ளது; நஞ்சுக்கொடி முற்றிலும் இல்லை என்று கூறக் கூடாது. கங்காரு, கோலா, வொம்பாட், ஓப்போசம் போன்றவை பல்வேறு வாழிடங்களுக்கு தகவமைந்துள்ளன. குட்டியின் வளர்நிலைக்கு ஏற்ப தாய்ப்பாலின் ஊட்டக்கூறு மாறலாம். மெட்டாதீரியா மற்றும் யூதீரியாவை இனப்பெருக்க உறுப்பமைப்பு, கருவளர்ச்சி, பாலூட்டும் முறை ஆகியவற்றால் ஒப்பிட வேண்டும். ஒத்த வாழிடத்தால் தனித்த கிளைகளில் ஒத்த தகவமைப்பு உருவாகலாம்."
+              }
+            },
+            {
+              "key": "marsupial-orders-comparison",
+              "heading": {
+                "en": "Classification of Metatheria: Australian and American branches",
+                "ta": "மெட்டாதீரியா வகைப்பாடு — ஆஸ்திரேலிய, அமெரிக்கக் கிளைகள்"
+              },
+              "body": {
+                "en": "Living marsupials are distributed mainly across Australasia and the Americas. Important orders include Diprotodontia (kangaroos, wallabies, koalas and wombats), Dasyuromorphia (quolls and Tasmanian devils), Peramelemorphia (bandicoots and bilbies), Didelphimorphia (American opossums) and Paucituberculata (shrew opossums). Their tooth and limb specialisations reflect herbivory, insectivory and carnivory. Not all marsupials have a conspicuous pouch, and reproductive variation includes differing lactation times and placental arrangements. Convergent similarity between extinct marsupial predators and placental carnivores does not establish a close relationship. A classification answer should give order, one diagnostic feature and a correctly named representative.",
+                "ta": "வாழும் மார்சூப்பியல்கள் பெரும்பாலும் ஆஸ்திரேலேசியா மற்றும் அமெரிக்காவில் பரவியுள்ளன. டைபுரோட்டோடாண்டியா வரிசையில் கங்காரு, வாலபி, கோலா, வொம்பாட்; டேசியூரோமார்ஃபியா வரிசையில் குவால், தாஸ்மேனியன் டெவில்; பெராமெலெமார்ஃபியா வரிசையில் பாண்டிகூட், பில்பி; டிடெல்பிமார்ஃபியா வரிசையில் அமெரிக்க ஓப்போசம் ஆகியவை அடங்குகின்றன. பற்கள், கால்கள், உணவு முறைகளில் பல்வேறு தகவமைப்புகள் உள்ளன. எல்லா மார்சூப்பியல்களிலும் தெளிவான பை இருப்பதில்லை. குட்டி வளர்ப்பு, பாலூட்டும் காலம், நஞ்சுக்கொடி நிலை இனத்தின்படி வேறுபடும். ஒவ்வொரு வரிசைக்கும் ஒரு அடையாளப் பண்பும் சரியான பிரதிநிதி இனமும் கொடுத்து வகைப்படுத்த வேண்டும்."
               }
             }
           ],
