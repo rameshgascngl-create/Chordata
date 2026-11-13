@@ -11,6 +11,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performScrollToIndex
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.graphics.asAndroidBitmap
@@ -455,9 +456,101 @@ class ReaderNavigationTest {
         })
         org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
             .textbookPages(frog).size >= 6)
-        org.junit.Assert.assertEquals(30, pack.topics.sumOf {
+        org.junit.Assert.assertTrue(pack.topics.sumOf {
             it.textbookChapters.sumOf { chapter -> chapter.sections.size }
+        } >= 78)
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
+    @Test fun detailedCalotesTextbookExplainsCardiacDivisionsAndPreservesOriginalPlates() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val lizard = requireNotNull(pack.findTopic("u4-calotes"))
+        org.junit.Assert.assertEquals(5, lizard.sections.size)
+        org.junit.Assert.assertEquals(5, lizard.diagramIds.size)
+        val chapter = lizard.textbookChapters.single()
+        org.junit.Assert.assertEquals("calotes-versicolor-undergraduate-type-study", chapter.id)
+        org.junit.Assert.assertEquals(16, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
+                it.body.en.length >= 150 && it.body.ta.length >= 150
         })
+        val circulation = chapter.sections.single { it.key == "cardiac-chambers-and-flow" }
+        org.junit.Assert.assertTrue(circulation.body.en.contains("cavum arteriosum"))
+        org.junit.Assert.assertTrue(circulation.body.en.contains("cavum pulmonale"))
+        org.junit.Assert.assertTrue(circulation.body.ta.contains("இதயக்கீழறை"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "arteries-veins-and-portals"
+        }.body.en.contains("right and left systemic aortic arches"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "teeth-tongue-prey-capture"
+        }.body.en.contains("pleurodont"))
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .textbookPages(lizard).size >= 6)
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
+    @Test fun detailedPigeonTextbookCoversFlightRespirationAndParentalCare() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val pigeon = requireNotNull(pack.findTopic("u5-columba"))
+        org.junit.Assert.assertEquals(4, pigeon.sections.size)
+        org.junit.Assert.assertEquals(4, pigeon.diagramIds.size)
+        val chapter = pigeon.textbookChapters.single()
+        org.junit.Assert.assertEquals("columba-livia-undergraduate-type-study", chapter.id)
+        org.junit.Assert.assertEquals(16, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
+                it.body.en.length >= 150 && it.body.ta.length >= 150
+        })
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "flight-muscles-and-pulley"
+        }.body.en.contains("supracoracoideus"))
+        val lungs = chapter.sections.single { it.key == "parabronchi-air-sacs-and-gas-exchange" }
+        org.junit.Assert.assertTrue(lungs.body.en.contains("parabronchi"))
+        org.junit.Assert.assertTrue(lungs.body.en.contains("gas-exchange organs"))
+        org.junit.Assert.assertTrue(lungs.body.ta.contains("காற்றுப்பைகள்"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "digestive-glands-and-crop-milk"
+        }.body.en.contains("both male and female"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "four-chambered-heart-and-vessels"
+        }.body.en.contains("right systemic aortic arch"))
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .textbookPages(pigeon).size >= 6)
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
+    @Test fun detailedRabbitTextbookContainsCorrectDentitionAndCaecotrophy() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val pack = ContentRepository.load(context)
+        val rabbit = requireNotNull(pack.findTopic("u5-rabbit"))
+        org.junit.Assert.assertEquals(5, rabbit.sections.size)
+        org.junit.Assert.assertEquals(5, rabbit.diagramIds.size)
+        val chapter = rabbit.textbookChapters.single()
+        org.junit.Assert.assertEquals("oryctolagus-cuniculus-undergraduate-type-study", chapter.id)
+        org.junit.Assert.assertEquals(16, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
+                it.body.en.length >= 150 && it.body.ta.length >= 150
+        })
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "dental-formula-and-occlusion"
+        }.body.en.contains("28 teeth"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "caecotrophy-and-nutrient-recovery"
+        }.body.en.contains("caecotrophy"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "lungs-diaphragm-and-alveoli"
+        }.body.ta.contains("உதரவிதானம்"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "heart-and-double-circulation"
+        }.body.en.contains("left systemic aortic arch"))
+        org.junit.Assert.assertTrue(`in`.gasc.zoology.chordata.domain.LearningLogic
+            .textbookPages(rabbit).size >= 6)
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
     }
@@ -920,6 +1013,11 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("lesson-search").performTextInput(search)
         rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(4)
+        // Figure artwork/captions may exceed one emulator viewport. Bring the
+        // actual tagged image into view rather than asserting its initial
+        // position inside a lazy list with device-dependent image heights.
+        rule.onNodeWithTag("figure-image-" + figureId).assertExists()
+        rule.onNodeWithTag("figure-image-" + figureId).performScrollTo()
         rule.onNodeWithTag("figure-image-" + figureId).assertIsDisplayed()
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
         rule.onNodeWithText("Next ›").performClick()
