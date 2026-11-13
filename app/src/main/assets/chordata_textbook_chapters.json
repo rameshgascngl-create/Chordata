@@ -2872,6 +2872,170 @@
           "url": "https://openstax.org/books/biology-2e/pages/29-3-amphibians"
         }
       ]
+    },
+    {
+      "id": "reptilia-classification-undergraduate",
+      "topicId": "u4-reptilia-classification",
+      "title": {
+        "en": "Reptilia — amniote adaptations and phylogenetic classification",
+        "ta": "ஊர்வன — அம்னியோட் தகவமைப்புகளும் பரிணாம வகைப்பாடும்"
+      },
+      "sections": [
+        {
+          "key": "scope-and-clades",
+          "heading": {
+            "en": "Classical Reptilia versus modern sauropsid relationships",
+            "ta": "பாரம்பரிய ஊர்வன வகுப்பும் நவீன சௌரோப்சிட் உறவுகளும்"
+          },
+          "body": {
+            "en": "Classical Reptilia comprises turtles, lizards, snakes, tuatara and crocodilians, while conventional zoology courses present birds separately as Aves. Phylogenetic analysis, however, places birds within the dinosaurian branch of Archosauria. Reptilia defined without birds is therefore paraphyletic: it excludes descendants of the same ancestral group. Sauropsida represents the reptile–bird side of Amniota; Synapsida includes the mammalian lineage. In undergraduate teaching retain both classification conventions, but label each one explicitly and never depict birds as descendants of modern lizards. Modern reptiles vary greatly in limb structure, body armour, thermoregulation and ecology. Even the adjective 'cold-blooded' requires care: many non-avian reptiles are ectothermic but control body temperature through behaviour, and some extinct lineages had different metabolic characteristics. A good cladogram shows the distinct lepidosaur and archosaur radiations.",
+            "ta": "பாரம்பரிய Reptilia வகுப்பில் ஆமைகள், பல்லிகள், பாம்புகள், டுவாட்டாரா, முதலைகள் சேர்க்கப்படுகின்றன; பறவைகள் தனியாகக் கற்பிக்கப்படுகின்றன. நவீன மரபுவழி ஆய்வின்படி பறவைகள் ஆர்கோசாரியா குழுவிலுள்ள டைனோசர் கிளையில் தோன்றியவை. பறவைகளை விலக்கி அமைக்கப்படும் Reptilia முழுமையான ஒற்றைமரபுக் குழுவாகாது. ஊர்வன–பறவை வரிசை சௌரோப்சிடா (Sauropsida); பாலூட்டி வரிசை சினாப்சிடா (Synapsida) ஆகும். தேர்வில் பாரம்பரிய வகைப்பாட்டையும் அதன் பரிணாம வரம்பையும் குறிப்பாக வேறுபடுத்த வேண்டும். பறவைகள் இன்றைய பல்லிகளிலிருந்து நேரடியாகத் தோன்றியவை அல்ல. உடல் வெப்பத்தை நடத்தை வழியாக ஒழுங்குபடுத்தும் பல முறைகள் ஊர்வனவற்றில் காணப்படுகின்றன."
+          }
+        },
+        {
+          "key": "amniotic-egg",
+          "heading": {
+            "en": "Amniotic membranes and emancipation from aquatic eggs",
+            "ta": "அம்னியோட்டிக் கருச் சவ்வுகளும் நிலவாழ் இனப்பெருக்கமும்"
+          },
+          "body": {
+            "en": "The amniotic egg contains extraembryonic membranes essential to embryonic organisation. The amnion encloses the embryo within a protected fluid compartment; the chorion is involved in gas exchange; the allantois contributes to waste handling and gas exchange in many shelled eggs; and the yolk sac supports transfer of stored nutrients. Albumen, shell composition and permeability differ across lineages. These structures allowed many amniotes to reproduce independently of laying exposed non-amniotic eggs in water, but embryos still require appropriate humidity, temperature and oxygen. Not every reptile has a hard-shelled egg: leathery shells are widespread and live bearing evolved repeatedly among squamates. Placental mammals possess homologous embryonic membranes in a substantially modified reproductive setting. In anatomical illustrations never interchange the allantois and amnion or call the yolk sac the developing embryo.",
+            "ta": "அம்னியோட்டிக் முட்டையில் அம்னியான் (amnion), கோரியான் (chorion), அல்லான்டாயிஸ் (allantois), மஞ்சட்கருப் பை (yolk sac) ஆகிய கூடுதல் கருச் சவ்வுகள் உள்ளன. அம்னியான் திரவத்துக்குள் கருவைப் பாதுகாக்கிறது. கோரியான் வாயுப் பரிமாற்றத்தில் பங்கெடுக்கிறது; பல ஓடுடைய முட்டைகளில் அல்லான்டாயிஸ் கழிவு சேமிப்பும் வாயுப் பரிமாற்றமும் செய்கிறது. மஞ்சட்கருப் பை ஊட்டப்பொருட்களை வழங்குகிறது. நிலத்தில் முட்டையிட்டாலும் தேவையான ஈரப்பதமும் வெப்பநிலையும் அவசியம். எல்லா ஊர்வனவற்றிலும் கடின ஓடு இல்லை; சில பாம்பு, பல்லி இனங்கள் உயிர்க்குஞ்சுகளை ஈனுகின்றன. பாலூட்டிகளிலும் மாற்றமடைந்த நிலையில் ஒத்த கருச் சவ்வுகள் உள்ளன. படம் வரையும் போது நான்கு சவ்வுகளையும் தனித்தனியாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "integument-physiology",
+          "heading": {
+            "en": "Skin, pulmonary respiration and circulation",
+            "ta": "தோல், நுரையீரல் சுவாசம் மற்றும் இரத்தச் சுழற்சி"
+          },
+          "body": {
+            "en": "The reptilian integument generally has a relatively impermeable keratinised epidermis, reducing evaporative water loss compared with moist amphibian skin. Scales, enlarged scutes and bony osteoderms are not anatomically identical, and snake shedding differs from gradual renewal in many other reptiles. Lungs provide the principal respiratory surface, and ventilation usually depends on thoracic or trunk musculature, with special arrangements in turtles and crocodilians. Crocodilians possess a four-chambered heart with specialised systemic vascular connections. Many squamates and turtles have a ventricle divided functionally into regions, permitting controlled patterns of blood flow; the phrase 'one completely undivided ventricle in all reptiles' is false. Water balance, nitrogenous waste and salt excretion vary with habitat, especially in marine and desert lineages. Behaviours such as basking or shade seeking alter body temperature and therefore digestion, activity and reproduction.",
+            "ta": "ஊர்வனவற்றின் மேற்தோல் பெரும்பாலும் கெரட்டின் நிறைந்து நீர் இழப்பைக் குறைக்கிறது. தோல் செதில்கள், பெரிய கவசத் தகடுகள், தோலடியில் உள்ள எலும்புத் தகடுகள் ஒரே வகையானவை அல்ல. நுரையீரலே முக்கியச் சுவாச உறுப்பு; மார்புப் பகுதி அல்லது உடற்சுவர்த் தசைகள் காற்றோட்டத்தை ஏற்படுத்துகின்றன. முதலைகளில் நான்கு அறைகளுடைய இதயம் உண்டு. பல பல்லிகள், பாம்புகள், ஆமைகளில் இதயவறை உள்பிரிவுகளும் தனித்த இரத்த ஓட்டப் பாதைகளும் காணப்படுகின்றன. எல்லா ஊர்வனவற்றிலும் பிரிவில்லாத இதயவறை உள்ளது என்பது தவறு. நீர்ச் சமநிலையும் கழிவு வெளியேற்றமும் வாழிடத்திற்கேற்ப மாறுகின்றன. வெயில் காய்தல், நிழலுக்குச் செல்லுதல் போன்ற நடத்தை உடல்வெப்பத்தை மாற்றி உடலியல் பணிகளைப் பாதிக்கிறது."
+          }
+        },
+        {
+          "key": "testudines",
+          "heading": {
+            "en": "Testudines: turtles, tortoises and integrated shell skeleton",
+            "ta": "டெஸ்டுடைன்ஸ் — ஆமைகள், நில ஆமைகள் மற்றும் ஓடு உடற்கூறு"
+          },
+          "body": {
+            "en": "Turtles and tortoises belong to Testudines. Their shell comprises the dorsal carapace and ventral plastron, joined along their sides. In many species the skeletal shell incorporates modified ribs, vertebrae and dermal bone, often covered by keratinous scutes. It is not a removable outer box enclosing an otherwise unmodified lizard skeleton. Living turtles lack conventional teeth and have keratinous beaks. Marine turtles exhibit forelimbs modified into swimming flippers, whereas terrestrial tortoises possess comparatively sturdy supporting limbs; freshwater turtles show diverse intermediate forms. Even marine turtles breathe atmospheric air and must surface. Turtle skulls are highly modified, and their absence of obvious temporal openings does not exclude them from the diapsid evolutionary radiation. Compare carapace, plastron, beak and limb support in a labelled specimen plate.",
+            "ta": "ஆமைகளும் நில ஆமைகளும் டெஸ்டுடைன்ஸ் (Testudines) வரிசையைச் சேர்ந்தவை. மேற்புற ஓடு காரபேஸ் (carapace), கீழ்ப்புற ஓடு பிளாஸ்ட்ரான் (plastron) எனப்படும். பல இனங்களில் விலா எலும்பு, முதுகெலும்பு, தோலெலும்பு கூறுகள் ஓட்டுடன் இணைந்துள்ளன. ஓட்டை உடலிலிருந்து அகற்றக்கூடிய தனிப் பெட்டியாகக் கருதக்கூடாது. இன்று வாழும் ஆமைகளில் வழக்கமான பற்களுக்குப் பதிலாகக் கெரட்டின் அலகு உள்ளது. கடல் ஆமைகளின் முன்கால்கள் நீந்தும் துடுப்புகளாக மாறியுள்ளன; நில ஆமைகளின் கால்கள் உடல் எடையைத் தாங்குகின்றன. கடல் ஆமைகளும் காற்றுச் சுவாசத்திற்காக மேலே வருகின்றன. தலையோட்டில் பழைய டையாப்சிட் சாளரங்கள் தெளிவாக இல்லாவிட்டாலும் மரபுவழிச் சான்றுகள் அவற்றை டையாப்சிட் கிளையில் வைக்கின்றன."
+          }
+        },
+        {
+          "key": "lepidosauria",
+          "heading": {
+            "en": "Lepidosauria: Squamata and Rhynchocephalia",
+            "ta": "லெபிடோசாரியா — ஸ்குவாமேட்டா மற்றும் ரைன்கோசெஃபலியா"
+          },
+          "body": {
+            "en": "Lepidosauria consists of Squamata (lizards, snakes and amphisbaenians) and Rhynchocephalia, represented today by the tuatara Sphenodon. Many lizards have limbs and movable eyelids, but numerous limbless lizards demonstrate why loss of legs alone cannot identify a snake. Snakes usually possess an elongate trunk, highly mobile jaw elements, no movable eyelids and no external ear openings. Squamate cranial kinesis is variable, and venom systems are restricted to particular lineages; not all snakes inject venom. Tuatara are endemic to New Zealand and are not ordinary lizards despite superficial similarity. Their dentition and cranial architecture differ from many squamates. Comparing squamates and tuatara teaches that shared external appearance may conceal deep evolutionary separation. An anatomical plate should identify the skull and teeth, eyelids or spectacle, ear region and limb condition.",
+            "ta": "லெபிடோசாரியா (Lepidosauria) குழுவில் பல்லிகள், பாம்புகள், ஆம்பிஸ்பீனியன்கள் அடங்கிய ஸ்குவாமேட்டா மற்றும் டுவாட்டாராவை உள்ளடக்கும் ரைன்கோசெஃபலியா உள்ளன. பல பல்லிகளில் கால்கள், அசையும் கண் இமைகள் உள்ளன; ஆனால் காலற்ற பல்லிகளும் இருப்பதால் காலின்மையை மட்டும் வைத்து பாம்பு என அடையாளம் காணக்கூடாது. பாம்புகளில் நீண்ட உடல், மாற்றமடைந்த தாடை அமைப்பு, வெளிச்செவித்துளை இன்மை போன்ற பண்புகள் பொதுவாகக் காணப்படும். எல்லாப் பாம்புகளும் நஞ்சை உட்செலுத்துவதில்லை. நியூசிலாந்தின் டுவாட்டாரா தோற்றத்தில் பல்லியை ஒத்திருந்தாலும் தனித்த பழமையான பரிணாமக் கிளையின் உயிருள்ள பிரதிநிதி. தலையோடு, பற்கள், கண் இமை, செவிப்பகுதி ஆகியவற்றின் உதவியுடன் ஒப்பீடு செய்ய வேண்டும்."
+          }
+        },
+        {
+          "key": "archosauria",
+          "heading": {
+            "en": "Crocodylia, archosaurs and dinosaurian birds",
+            "ta": "க்ரோகோடிலியா, ஆர்கோசார்கள் மற்றும் டைனோசர் கிளைப் பறவைகள்"
+          },
+          "body": {
+            "en": "Living crocodiles, alligators, caimans and gharials form Crocodylia, a major living archosaur branch alongside birds. Their elongated skull, secondary palate, powerful tail and four-chambered heart support specialised semiaquatic predation and ventilation. Most crocodilians show extensive parental care, including nest guarding and transport of hatchlings, so the claim that all reptiles abandon eggs is incorrect. The archosaur lineage also includes extinct non-avian dinosaurs and pterosaurs, although pterosaurs were not dinosaurs. Birds belong inside Dinosauria through theropod ancestry. Extinct giant marine reptiles such as plesiosaurs and ichthyosaurs are not crocodilians, nor did they all descend from the same dinosaur group. A university cladogram should distinguish direct ancestry, sister groups and convergent aquatic or flight adaptations rather than presenting extinct forms in an arbitrary ascending sequence.",
+            "ta": "இன்று வாழும் முதலைகள், அலிகேட்டர்கள், கைமன்கள், காரியல்கள் க்ரோகோடிலியா (Crocodylia) வரிசையில் அடங்குகின்றன. பறவைகளுடன் அவை ஆர்கோசார் மரபுக்குழுவின் வாழும் பிரதிநிதிகள். நீண்ட தலையோடு, இரண்டாம் அண்ணம், வலுவான வால், நான்கு அறை இதயம் ஆகியவை முக்கியம். பல முதலைகள் கூடுகாத்தலும் குஞ்சுகளை இடமாற்றுவதும் செய்கின்றன; எல்லா ஊர்வனவற்றும் முட்டைகளை கைவிடுகின்றன என்பது தவறு. ஆர்கோசார் கிளையில் பறக்க முடியாத அழிந்த டைனோசர்களும் ப்டெரோசார்களும் இருந்தன; ப்டெரோசார்கள் டைனோசர்கள் அல்ல. பறவைகள் தெரோபாட் டைனோசர் கிளையில் தோன்றியவை. கடல்வாழ் அழிந்த ஊர்வன அனைத்தையும் முதலைகள் அல்லது டைனோசர்கள் என வகைப்படுத்தக்கூடாது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Reptiles",
+          "url": "https://openstax.org/books/biology-2e/pages/29-4-reptiles"
+        }
+      ]
+    },
+    {
+      "id": "reptile-origin-extinction-undergraduate",
+      "topicId": "u4-origin-extinct",
+      "title": {
+        "en": "Origin and extinction of reptiles — Carboniferous amniotes, Mesozoic radiations and phylogeny",
+        "ta": "ஊர்வனவற்றின் தோற்றமும் அழிந்த குழுக்களும் — அம்னியோட்டுகள், மெசோசோயிக் பன்மையாதல் மற்றும் மரபுவழி"
+      },
+      "sections": [
+        {
+          "key": "amniote-branching",
+          "heading": {
+            "en": "Early amniotes and the synapsid–sauropsid split",
+            "ta": "தொடக்க அம்னியோட்டுகளும் சினாப்சிட்–சௌரோப்சிட் பிரிவும்"
+          },
+          "body": {
+            "en": "Early amniotes arose among Carboniferous tetrapod lineages, with reproductive membranes, skin and skeletal features favouring life away from permanently aquatic egg deposition. Their evolutionary history is branching rather than a progression from 'primitive amphibian' to 'advanced reptile'. An early division separated the synapsid lineage, which ultimately gave rise to mammals, from the sauropsid lineage, which includes reptiles and birds. Historical textbooks sometimes call Permian synapsids 'mammal-like reptiles'; that phrase is misleading when interpreted as placement within the reptile–bird clade. Hylonomus and other early fossils help reconstruct amniote diversity but no single specimen can be automatically designated the direct ancestor of every reptile. Character matrices incorporating vertebrae, skull roof, limb girdles and fossil chronology provide stronger evidence than silhouettes. The amniotic egg itself is mostly inferred from comparative anatomy and phylogeny, because the membranes seldom fossilise.",
+            "ta": "கார்போனிஃபெரஸ் கால நான்குகாலிகளில் அம்னியோட் குழு தோன்றியது. கருச் சவ்வுகள், தோல், எலும்பமைப்பு போன்ற பண்புகள் நிலத்தில் இனப்பெருக்கத்திற்கான வாய்ப்பை மேம்படுத்தின. இது ‘கீழ்நிலை இருவாழ்வி உயர்நிலை ஊர்வனவாக மாறியது’ என்ற நேரான ஏணி அல்ல. தொடக்க அம்னியோட்டுகளிலிருந்து சினாப்சிட் (Synapsida), சௌரோப்சிட் (Sauropsida) கிளைகள் பிரிந்தன; முதலாவது பாலூட்டிகளின் வரிசை, இரண்டாவது ஊர்வன–பறவை வரிசை. பழைய நூல்களில் சினாப்சிட்களை ‘பாலூட்டி போன்ற ஊர்வன’ எனக் குறிப்பது மரபுவழித் தவறான புரிதலைத் தரலாம். ஹைலோனோமஸ் (Hylonomus) போன்ற புதைபடிவங்கள் தொடக்கப் பன்மையை விளக்கினாலும் ஒவ்வொரு வாழும் ஊர்வனவற்றின் நேரடி மூதாதை என நிரூபிக்கப்படவில்லை."
+          }
+        },
+        {
+          "key": "diapsid-radiation",
+          "heading": {
+            "en": "Diapsid skulls and major reptile radiations",
+            "ta": "டையாப்சிட் தலையோடும் ஊர்வனப் பரிணாமக் கிளைகளும்"
+          },
+          "body": {
+            "en": "The classic diapsid skull possesses two temporal openings on each side behind the orbit, with intervening bony bars. Skull construction has been extensively modified in later lineages, so living turtles or birds need not display the textbook openings in their ancestral configuration. Diapsid diversification produced lepidosaur lineages and archosaur-associated lineages, with many extinct marine and terrestrial branches. Temporal fenestrae relate to skull architecture and muscle accommodation, but fenestra count alone is not a sufficient modern phylogenetic classification. Molecular and fossil evidence together place turtles within Diapsida despite their superficially anapsid-like skulls. When constructing a diagram, mark orbit, upper and lower temporal fenestrae and supporting bones, distinguishing original configuration from secondary loss or rearrangement. Fossils with modified skulls should not be forced into simple drawings without identifying the uncertainties.",
+            "ta": "பாரம்பரிய டையாப்சிட் (Diapsida) தலையோட்டில் கண்ணுக்குப் பின்னால் ஒவ்வொரு பக்கமும் இரண்டு காலச்சாளரங்கள் காணப்படும். பிறகு தோன்றிய பல கிளைகளில் தலையோடு மாற்றமடைந்ததால் ஆமை, பறவை போன்ற உயிரிகளில் பழைய வடிவம் அப்படியே இருக்க வேண்டியதில்லை. டையாப்சிட் கிளையில் லெபிடோசார், ஆர்கோசார் மற்றும் பல அழிந்த கடல்வாழ், நிலவாழ் குழுக்கள் உள்ளன. காலச்சாளர எண்ணிக்கை மட்டுமே இன்றைய மரபுவழி வகைப்பாட்டிற்கு போதாது. புதைபடிவமும் மரபியல் சான்றும் ஆமைகளை டையாப்சிட் உறவுக்குள் காட்டுகின்றன. வரைபடத்தில் கண்குழி, மேல்–கீழ் காலச்சாளரம், அவற்றைச் சூழும் எலும்புகள் ஆகியவற்றை வேறுபடுத்தி குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "mesozoic-dinosaurs",
+          "heading": {
+            "en": "Dinosaurs, pterosaurs and birds in the Mesozoic",
+            "ta": "மெசோசோயிக் டைனோசர்கள், ப்டெரோசார்கள் மற்றும் பறவைகள்"
+          },
+          "body": {
+            "en": "Dinosaurs diversified into numerous forms during the Mesozoic, including herbivorous ornithischians and saurischian lineages containing sauropods and theropods. Birds emerged from feathered theropod dinosaurs and are therefore surviving dinosaurs in the phylogenetic sense. Pterosaurs were separate flying archosaurs whose wing membrane was supported primarily by an elongated fourth finger; they were neither birds nor dinosaurs. Feather-like integumentary structures, air-filled skeletal spaces and developmental innovations are distributed across different dinosaur branches and cannot be assigned as universal traits. Extinction at the end of the Cretaceous eliminated non-avian dinosaurs and pterosaurs but not all archosaurs. A useful teaching plate differentiates dinosaurian hindlimb, pterosaur wing and bird feathered wing on anatomically verified skeletal outlines. The term 'flying dinosaur' should not be used for a pterosaur.",
+            "ta": "மெசோசோயிக் காலத்தில் டைனோசர்கள் பலவகையாகப் பன்மையடைந்தன. ஆர்னிதிஸ்கியா, சௌரிஸ்கியா போன்ற முக்கியப் பிரிவுகளில் தாவரவுண்ணிகளும் இரைவிலங்குகளும் இருந்தன. பறவைகள் இறகுகள் கொண்ட தெரோபாட் டைனோசர் கிளையிலிருந்து தோன்றியதால் மரபுவழிப் பொருளில் இன்றும் வாழும் டைனோசர்கள் ஆகும். ப்டெரோசார்கள் (Pterosauria) தனித்த பறக்கும் ஆர்கோசார்கள்; அவற்றின் இறக்கைத் தோல் நீண்ட நான்காவது விரலால் ஆதரிக்கப்படுகிறது. ப்டெரோசார்களை ‘பறக்கும் டைனோசர்கள்’ என அழைப்பது தவறு. க்ரெட்டேசியஸ் முடிவில் பறவை அல்லாத டைனோசர்களும் ப்டெரோசார்களும் அழிந்தன; பறவைகள் நீடித்தன. படத்தில் பறவை இறக்கை, ப்டெரோசார் இறக்கை எலும்புகள் ஆகியவற்றைத் தனித்தனியாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "marine-reptiles",
+          "heading": {
+            "en": "Ichthyosaurs, plesiosaurs and marine adaptation",
+            "ta": "இக்தியோசார்கள், ப்ளீசியோசார்கள் மற்றும் கடல்வாழ் தகவமைப்பு"
+          },
+          "body": {
+            "en": "Mesozoic oceans contained multiple reptile radiations with markedly different anatomies. Ichthyosaurs had streamlined fish- or dolphin-like outlines, modified limbs forming flippers and large eyes in many taxa; their resemblance to dolphins reflects convergence rather than close mammalian ancestry. Plesiosaurs possessed four large paddles, with different lineages exhibiting long necks or large heads. Mosasaurs were large marine squamates related to the lizard–snake radiation, not members of Dinosauria. Air breathing remained necessary despite full aquatic adaptation, and several marine reptile groups evolved live birth. The ecological roles of these animals differed, making a single generic 'sea dinosaur' drawing scientifically misleading. Compare vertebral column, limb skeleton, neck proportion, tail shape and fossil evidence for feeding, without asserting that all marine reptiles are members of one natural group.",
+            "ta": "மெசோசோயிக் கடல்களில் பல தனித்த ஊர்வனக் கிளைகள் வாழ்ந்தன. இக்தியோசார்கள் (Ichthyosauria) மீன் அல்லது டால்பினை ஒத்த சீரான உடல்வடிவமும் நீந்தும் துடுப்புகளாக மாறிய கால்களும் கொண்டிருந்தன; டால்பினுடன் உள்ள ஒற்றுமை ஒத்த பரிணாமத்தால் ஏற்பட்டது. ப்ளீசியோசார்களில் (Plesiosauria) நான்கு பெரிய நீந்தும் துடுப்புகள் காணப்பட்டன; சிலவற்றில் நீண்ட கழுத்தும் மற்றவற்றில் பெரிய தலையும் இருந்தன. மோசாசார்கள் (Mosasauridae) ஸ்குவாமேட்டா உறவுக்குள் வந்த கடல்வாழ் ஊர்வன; டைனோசர்கள் அல்ல. முழுக்க நீர்வாழ்ந்தாலும் காற்றைச் சுவாசிக்க வேண்டியிருந்தது; சில கிளைகளில் உயிர்க்குஞ்சு ஈனுதல் ஏற்பட்டது. எல்லாவற்றையும் ஒரே ‘கடல் டைனோசர்’ படமாகக் காட்டுவது தவறு."
+          }
+        },
+        {
+          "key": "mass-extinctions",
+          "heading": {
+            "en": "Permian–Triassic and Cretaceous–Paleogene crises",
+            "ta": "பெர்மியன்–ட்ரையாசிக் மற்றும் க்ரெட்டேசியஸ்–பேலியோஜீன் பேரழிவுகள்"
+          },
+          "body": {
+            "en": "Mass-extinction events reshaped amniote ecosystems repeatedly. The end-Permian extinction around 252 million years ago affected many marine and terrestrial lineages and preceded major Triassic restructuring. The end-Cretaceous event approximately 66 million years ago is associated with large environmental disruptions, including the Chicxulub impact, and eliminated non-avian dinosaurs and several other groups. It did not exterminate every reptile: turtles, crocodilians, squamates and birds survived through the boundary. Explaining survival requires ecological and phylogenetic evidence rather than a simple statement that 'small reptiles were stronger'. Fossil sampling can bias the perceived timing of last appearances, and radiometric ages are accompanied by uncertainties. Students should distinguish the extinction of individual lineages from the persistence of descendant branches and identify which organisms actually crossed a geological boundary.",
+            "ta": "பேரழிவு நிகழ்வுகள் அம்னியோட் உயிரிகளின் பன்மையைப் பலமுறை மாற்றின. சுமார் 252 மில்லியன் ஆண்டுகளுக்கு முன் பெர்மியன் முடிவில் கடல், நில உயிரிகளின் பல குழுக்கள் அழிந்தன. சுமார் 66 மில்லியன் ஆண்டுகளுக்கு முன் க்ரெட்டேசியஸ் முடிவில் சிக்சுலூப் விண்கல் மோதல் உட்படப் பெரிய சூழல் மாற்றங்கள் ஏற்பட்டன. பறவை அல்லாத டைனோசர்கள் பல குழுக்களுடன் அழிந்தன; ஆனால் ஆமைகள், முதலைகள், பாம்பு–பல்லிகள், பறவைகள் ஆகிய கிளைகள் தொடர்ந்து வாழ்ந்தன. ‘ஊர்வன அனைத்தும் அழிந்தன’ என்பதும் ‘சிறியவை மட்டுமே உயிர் பிழைத்தன’ என்பதும் சரியல்ல. புதைபடிவங்களின் கடைசி தோற்றமும் நேரத்தை நிர்ணயிக்கும் முறைகளின் நிச்சயமின்மையும் கவனிக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "phylogeny-practical",
+          "heading": {
+            "en": "Fossil evidence, anatomical plates and classification exercises",
+            "ta": "புதைபடிவச் சான்றுகளும் உடற்கூறுப் படங்களும் வகைப்பாட்டுப் பயிற்சியும்"
+          },
+          "body": {
+            "en": "An undergraduate fossil study should begin by identifying geological period, locality, specimen completeness and diagnostic structures. Comparisons among Hylonomus, Permian synapsids, dinosaurs, pterosaurs, marine reptiles and living relatives must use a branching tree rather than one uninterrupted ancestor chain. Student matrices can score temporal skull fenestrae, ankle and limb architecture, integument, reproductive evidence and locomotor characters, marking missing fossil information explicitly as unknown. The distinctions between homologous structures and convergent adaptations are particularly important when comparing aquatic reptiles with modern cetaceans or bird wings with pterosaur membranes. A museum label or peer-reviewed reconstruction is preferable to a plausible-looking invented anatomical illustration. A final essay should discuss Carboniferous amniote origins, diapsid diversification, Mesozoic radiation, extinction events and survival of living lineages, with uncertainty stated where evidence remains incomplete.",
+            "ta": "இளங்கலைப் புதைபடிவ ஆய்வில் காலம், கண்டுபிடிக்கப்பட்ட இடம், மாதிரியின் முழுமை, அடையாளக் கூறுகள் ஆகியவற்றை முதலில் பதிவு செய்ய வேண்டும். ஹைலோனோமஸ், பெர்மியன் சினாப்சிட்கள், டைனோசர்கள், ப்டெரோசார்கள், கடல்வாழ் ஊர்வன ஆகியவற்றை நேரான மூதாதை ஏணி வடிவில் வரையக்கூடாது; கிளையுடைய மரபுவழிப் படம் தேவை. காலச்சாளரம், கால்–கணுக்கால் அமைப்பு, தோல், இனப்பெருக்கம், இயக்கம் போன்ற பண்புகளை அட்டவணைப்படுத்தி தெரியாதவற்றை ‘தகவல் இல்லை’ எனக் குறிக்க வேண்டும். டால்பின்–இக்தியோசார் உடல்வடிவ ஒற்றுமையும் பறவை–ப்டெரோசார் இறக்கை வேறுபாடும் ஒத்த பரிணாமத்தை விளக்குகின்றன. ஆதாரம் உள்ள புதைபடிவப் படங்களைப் பயன்படுத்தி பேரழிவுக்குப் பின்னும் நீடித்த கிளைகளைத் தெளிவாகக் குறிப்பிட வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Evolution of reptiles",
+          "url": "https://openstax.org/books/biology-2e/pages/29-4-reptiles"
+        }
+      ]
     }
   ]
 }
