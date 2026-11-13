@@ -3872,6 +3872,238 @@
           "url": "https://www.batcon.org/about-bats/"
         }
       ]
+    },
+    {
+      "id": "aquatic-mammals-undergraduate",
+      "topicId": "u5-aquatic-mammals",
+      "title": {
+        "en": "Aquatic mammals — convergent evolution, comparative anatomy, diving physiology and conservation",
+        "ta": "நீர்வாழ் பாலூட்டிகள் — ஒத்த பரிணாமம், ஒப்பீட்டு உடற்கூறு, ஆழ்நீர்ச் சுவாச உடலியல் மற்றும் பாதுகாப்பு"
+      },
+      "sections": [
+        {
+          "key": "evolutionary-scope",
+          "heading": {
+            "en": "Aquatic mammals are not a single taxonomic order",
+            "ta": "நீர்வாழ் பாலூட்டிகள் ஒரே வகைப்பாட்டு வரிசையல்ல"
+          },
+          "body": {
+            "en": "Aquatic and marine mammals are ecological groupings, not one natural mammalian order. Cetacea contains whales, dolphins and porpoises; Sirenia includes dugongs and manatees; pinnipeds comprise seals, sea lions and walruses within Carnivora. Sea otters are mustelid carnivorans and polar bears are ursids, with different degrees of dependence on water. These lineages entered aquatic habitats independently from terrestrial mammalian ancestors, yet many evolved streamlined shapes, specialised limbs, altered thermoregulation and prolonged diving capacities. Such similarities are examples of convergent evolution and should not be used as proof of especially close ancestry. All are mammals: they breathe air through lungs, produce milk, are endothermic and possess hair during at least some developmental phase. A comparative classification chart should place each group on its correct mammalian branch, specify whether it is fully aquatic or amphibious, and distinguish shared ancestral mammalian characters from independently evolved aquatic adaptations.",
+            "ta": "நீர்வாழ் மற்றும் கடல்வாழ் பாலூட்டிகள் என்பது சூழலியல் அடிப்படையிலான தொகுப்பு; ஒரே வகைப்பாட்டு வரிசை அல்ல. திமிங்கிலங்கள், டால்பின்கள், போர்ப்பாய்ஸ்கள் செட்டேசியா (Cetacea) குழுவையும்; கடற்பசுவான டுகாங் மற்றும் மானட்டிகள் சிரீனியா (Sirenia) குழுவையும் சார்ந்தவை. சீல்கள், கடற்சிங்கங்கள், வால்ரஸ் ஆகிய பின்நிபெட்கள் (pinnipeds) கார்னிவோரா வரிசைக்குள் உள்ளன. கடல் நீர்நாயும் துருவக் கரடியும் வேறு கார்னிவோரா கிளைகளைச் சேர்ந்தவை. இக்குழுக்கள் நிலவாழ் மூதாதைகளிலிருந்து தனித்தனியாக நீர்வாழ்வுக்குத் தகவமைந்தன. சீரான உடல்வடிவு, மாற்றமடைந்த கால்கள், வெப்பப் பாதுகாப்பு போன்ற ஒற்றுமைகள் ஒத்த பரிணாமத்தை எடுத்துக்காட்டுகின்றன. இவை அனைத்தும் நுரையீரலால் காற்றுச் சுவாசிக்கும், பால் சுரக்கும், உடல்வெப்பத்தை ஒழுங்குபடுத்தும் பாலூட்டிகளே."
+          }
+        },
+        {
+          "key": "cetacean-evolution",
+          "heading": {
+            "en": "Cetacean origin, cetartiodactyl relationships and the fossil record",
+            "ta": "செட்டேசியன்களின் தோற்றம், இரட்டை குளம்பின உறவு மற்றும் புதைபடிவச் சான்றுகள்"
+          },
+          "body": {
+            "en": "Whales and dolphins belong within the evolutionary radiation of even-toed ungulates; living hippopotamuses are their nearest surviving relatives, not their direct ancestors. The term Cetartiodactyla is often used for the combined clade. Fossil cetaceans such as Pakicetus, Ambulocetus and later archaeocetes illustrate a mosaic transition involving ear-region specialisations, limbs, body support and increasingly aquatic movement. These fossils are representatives of branching lineages rather than a guaranteed straight ancestor-to-descendant sequence. During cetacean evolution the forelimbs became flippers, hindlimbs were dramatically reduced, and the vertebral column and tail contributed increasingly to locomotion. Modern cetacean tail flukes are broadly horizontal and propel the animal by dorsoventral oscillations; this differs from the predominantly lateral tail movements of many fishes. A teaching plate must distinguish preserved skeletal evidence from reconstructed soft tissue and show the skull, flipper skeleton, residual pelvic structures and tail orientation accurately.",
+            "ta": "திமிங்கிலங்களும் டால்பின்களும் இரட்டைக் குளம்பினங்களுடன் தொடர்புடைய பரிணாமக் கிளையைச் சேர்ந்தவை. இன்று வாழும் நீர்யானைகள் அவற்றின் நெருங்கிய உயிர்வாழ் உறவினர்கள்; நேரடி மூதாதைகள் அல்ல. செட்டார்டியோடாக்டைலா (Cetartiodactyla) என்ற பெயர் இணைந்த குழுவிற்கு வழங்கப்படுகிறது. பாக்கிசீட்டஸ் (Pakicetus), ஆம்புலோசீட்டஸ் (Ambulocetus) போன்ற புதைபடிவங்கள் காதெலும்பு, கால்கள், உடல் ஆதாரம், நீர்வாழ் இயக்கம் ஆகிய மாற்றங்களை விளக்குகின்றன. அவற்றை கட்டாயமான நேரடி மூதாதை வரிசையாகக் காட்டக்கூடாது. செட்டேசியன்களில் முன்கால்கள் துடுப்புகளாகவும் பின்னங்கால்கள் மிகக் குறைந்த அமைப்புகளாகவும் மாறின. அகலமான கிடைமட்ட வால்மடல்கள் மேல்கீழ் அசைந்து உந்துவிசை அளிக்கின்றன; பல மீன்களின் பக்கவாட்டு வாலசைவிலிருந்து இது வேறுபடுகிறது."
+          }
+        },
+        {
+          "key": "odontocete-mysticete",
+          "heading": {
+            "en": "Toothed whales and baleen whales: feeding and sensory specialisations",
+            "ta": "பற்களுள்ள திமிங்கிலங்களும் பாலீன் திமிங்கிலங்களும்"
+          },
+          "body": {
+            "en": "Living cetaceans are commonly divided into Odontoceti and Mysticeti. Odontocetes, including dolphins, porpoises, sperm whales and several beaked whales, have functional teeth whose number, shape and arrangement vary by lineage; many use biosonar echolocation. Mysticetes, such as blue, humpback and right whales, possess baleen plates made of keratin, which filter prey from water, rather than functional adult teeth. Baleen is not a row of bony teeth, and odontocete echolocation should not be attributed without qualification to every mysticete. Feeding methods include lunge feeding, skim feeding and bottom-associated foraging, while toothed species capture fish, squid or other prey. External paired nostrils are repositioned into a blowhole region, but the visible number of blowhole openings differs between the major groups. A diagram should label baleen or teeth according to the actual taxon and accurately distinguish the upper airway from the food passage.",
+            "ta": "இன்றைய செட்டேசியன்கள் பொதுவாக ஓடோன்டோசீட்டி (Odontoceti), மிஸ்டிசீட்டி (Mysticeti) எனப் பிரிக்கப்படுகின்றன. டால்பின், போர்ப்பாய்ஸ், ஸ்பெர்ம் திமிங்கிலம் போன்ற ஓடோன்டோசீட்டிகளில் செயல்படும் பற்கள் உண்டு; பல இனங்கள் எதிரொலி மூலம் வழிகாண்கின்றன. நீலத் திமிங்கிலம், ஹம்ப்பேக் போன்ற மிஸ்டிசீட்டிகளில் முதிர்ந்த நிலையில் செயல்படும் பற்களுக்குப் பதிலாக கெரட்டின் பொருளால் ஆன பாலீன் (baleen) தகடுகள் இரையை வடிகட்டுகின்றன. பாலீன் என்பது எலும்புப் பற்கள் அல்ல. எல்லாப் பாலீன் திமிங்கிலங்களும் பற்களுள்ள டால்பின்களைப் போல எதிரொலியுணர்வைப் பயன்படுத்துகின்றன என்று கூறக்கூடாது. உணவு பெறும் முறைகளும் மூச்சுத் துளை அமைப்பும் குழுக்களுக்கு இடையே மாறுகின்றன. சரியான படத்தில் உண்மையான இனம், பற்கள் அல்லது பாலீன், மூச்சுத் துளை ஆகியவற்றை அடையாளப்படுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "sirenia-dugong",
+          "heading": {
+            "en": "Sirenia: dugongs, manatees and herbivory",
+            "ta": "சிரீனியா: டுகாங், மானட்டி மற்றும் தாவர உணவுமுறை"
+          },
+          "body": {
+            "en": "Sirenians are entirely aquatic herbivorous mammals whose evolutionary relatives belong to the afrotherian radiation that also includes elephants. The dugong Dugong dugon is marine and strongly associated with shallow seagrass habitats, whereas manatees can inhabit freshwater, estuaries or coastal waters according to species. Dugongs possess a fluked tail, while manatees generally show a rounded paddle-shaped tail; both differ from cetaceans in cranial, dental and feeding anatomy. Their forelimbs function as flippers, and the reduced hindlimb skeleton does not make them fishes. Thick lips and specialised oral tissues help crop and manipulate aquatic vegetation. The seagrass habitat provides food and also supports other coastal organisms, making dugong protection an ecosystem-level conservation priority. A comparative figure should identify the dugong's downturned muzzle and tail shape, and separately portray a manatee without combining features from two species into one animal.",
+            "ta": "சிரீனியா (Sirenia) முழுமையாக நீரில் வாழும் தாவர உணவுப் பாலூட்டிகளைக் கொண்டது. இவை யானைகள் இடம்பெறும் ஆஃப்ரோதீரியா பரிணாமக் குழுவுடன் தொடர்புடையவை. டுகாங் டுகான் (Dugong dugon) கடல் புல்வெளிகள் நிறைந்த ஆழமற்ற கடல்பகுதிகளில் வாழ்கிறது. மானட்டிகள் இனத்திற்கேற்ப நன்னீர், கழிமுகம், கடலோர நீர் ஆகியவற்றிலும் வாழலாம். டுகாங்கின் வால் இரு மடல்கள் கொண்டதாகவும் மானட்டியின் வால் பொதுவாக வட்டமான துடுப்பு வடிவமாகவும் உள்ளது. அவற்றின் உதடுகள், வாய்ப்பகுதி நீர்த் தாவரங்களைப் பறிக்க ஏற்றவை. முன்கால்கள் துடுப்புகளாக மாறியுள்ளன. டுகாங்–மானட்டி ஒப்பீட்டுப் படத்தில் வால் வடிவம், முகத்தின் நிலை, உணவுண்ணும் அமைப்பு ஆகியவற்றைத் தனித்தனியாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "pinnipeds-other-carnivorans",
+          "heading": {
+            "en": "Pinnipeds, sea otters and polar bears: different degrees of aquatic dependence",
+            "ta": "பின்நிபெட்கள், கடல் நீர்நாய், துருவக் கரடி — நீர்சார் வாழ்வின் வேறுபாடுகள்"
+          },
+          "body": {
+            "en": "Pinnipeds are carnivoran mammals with flipper-like limbs and prominent aquatic adaptations, but most use land or ice for at least some reproductive or resting activities. True seals (Phocidae), eared seals including sea lions (Otariidae), and walruses (Odobenidae) differ in ear morphology, limb rotation, locomotion and social ecology. Sea otters belong to Mustelidae and rely heavily on dense fur rather than a thick blubber layer for insulation, with grooming essential to its effectiveness. Polar bears belong to Ursidae and use sea ice and marine prey as part of their habitat, but are not anatomically equivalent to dolphins or seals. Their diverse lifestyles illustrate why an ecological label such as 'marine mammal' must not replace formal systematic classification. A scientifically useful plate compares a true seal, sea lion, walrus, otter and bear as distinct animals and marks forelimb, hindlimb, ear and insulation features where observable.",
+            "ta": "பின்நிபெட்கள் (pinnipeds) துடுப்பு போன்ற கால்களைக் கொண்ட கார்னிவோரா பாலூட்டிகளாகும்; பல இனங்கள் ஓய்வு அல்லது இனப்பெருக்கத்திற்காக நிலம் அல்லது பனியைப் பயன்படுத்துகின்றன. உண்மையான சீல்கள் (Phocidae), வெளிக்காது கொண்ட கடற்சிங்கங்கள் (Otariidae), வால்ரஸ் (Odobenidae) ஆகியவற்றின் காதமைப்பு, காலியக்கம், இயக்கமுறை வேறுபடுகின்றன. கடல் நீர்நாய் மஸ்டெலிடே (Mustelidae) குடும்பத்தைச் சேர்ந்தது; அடர்த்தியான உரோமம் வெப்பப் பாதுகாப்பில் முக்கியம். துருவக் கரடி உர்சிடே (Ursidae) குடும்பத்தைச் சேர்ந்தது; கடற்பனி மற்றும் கடல்வாழ் இரையைச் சார்ந்துள்ளது. இவற்றை ஒரே வகைப்பாட்டு வரிசையாக மாற்றக்கூடாது. ஒப்பீட்டில் முன், பின்கால்கள், காதமைப்பு, வெப்பப் பாதுகாப்பு ஆகியவற்றைக் கவனிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "diving-respiration",
+          "heading": {
+            "en": "Diving physiology: oxygen stores, blood flow and pressure",
+            "ta": "ஆழ்நீர் மூழ்குதல்: ஆக்சிஜன் சேமிப்பு, இரத்த ஓட்டம், அழுத்தம்"
+          },
+          "body": {
+            "en": "Aquatic mammals retain air-breathing lungs and therefore must return to the atmosphere for oxygen even when able to remain submerged for prolonged periods. Diving capacity is supported by combinations of oxygen stored in blood haemoglobin and muscle myoglobin, adjustments to heart rate, selective blood flow and behavioural control of activity. Bradycardia and peripheral vasoconstriction may conserve oxygen for essential tissues, but the response varies with species, dive duration, exercise and anticipation. Deep-diving species also have special adaptations involving thoracic compliance and gas exchange under pressure; the effects of nitrogen and decompression cannot be explained by saying that lungs simply cease functioning in every dive. The maximum recorded dive of one species must not be assigned to an entire order. In a physiology diagram, distinguish oxygen stores, the route of circulation, airways and tissue use; do not illustrate whales taking oxygen from seawater through gills.",
+            "ta": "நீர்வாழ் பாலூட்டிகள் நுரையீரலால் வளிமண்டலக் காற்றையே சுவாசிக்கின்றன; நீண்ட நேரம் மூழ்கினாலும் மீண்டும் மேற்பரப்பை அடைய வேண்டும். இரத்த ஹீமோகுளோபின், தசை மையோகுளோபின் ஆகியவற்றில் சேமிக்கப்படும் ஆக்சிஜன், இதயத்துடிப்பு மாற்றம், குறிப்பிட்ட திசுக்களுக்கு இரத்த ஓட்ட முன்னுரிமை ஆகியவை மூழ்குதலுக்கு உதவுகின்றன. சில நிலையில் இதயத்துடிப்பு குறைதலும் புற இரத்தநாளங்கள் சுருங்குதலும் நிகழலாம். இவ்விளைவுகள் இனம், நீர்மூழ்கும் காலம், செயல்பாடு ஆகியவற்றிற்கு ஏற்ப மாறுபடும். ஆழ்நீரில் மார்புக்கூடு மற்றும் வாயுப் பரிமாற்றத்திலும் சிறப்பான தகவமைப்புகள் உள்ளன. ஒரு இனத்தின் அதிகபட்ச மூழ்கும் திறனை எல்லா திமிங்கிலங்களுக்கும் பொதுவாக்கக்கூடாது. ஆக்சிஜன் சேமிப்பு, இரத்த ஓட்டம், நுரையீரல் ஆகியவற்றைத் தெளிவாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "thermoregulation-reproduction",
+          "heading": {
+            "en": "Thermoregulation, locomotion, reproduction and parental care",
+            "ta": "வெப்ப ஒழுங்குமுறை, நீந்துதல், இனப்பெருக்கம் மற்றும் குட்டிப் பராமரிப்பு"
+          },
+          "body": {
+            "en": "Water transfers heat rapidly compared with still air, creating strong thermal demands for endothermic mammals. Blubber provides insulation and energy reserves in many cetaceans, sirenians and pinnipeds, whereas dense waterproofed fur is especially important in sea otters and contributes in other species. Countercurrent heat exchange and peripheral blood-flow adjustment can reduce heat loss, but particular structures should be assigned to documented taxa rather than all marine mammals. Cetaceans generally give birth and nurse their young in water; pinnipeds often give birth on shore or ice, and their maternal-care patterns differ. Mammalian milk, maternal behaviour, infant learning and sociality contribute to juvenile survival. Streamlining, flippers and tail propulsion influence movement, but swimming kinematics are different among cetaceans, sirenians, seals and otters. An illustration should separate reproductive habitat, locomotor anatomy and thermoregulatory tissues instead of using one symbolic generic animal.",
+            "ta": "நீரில் வெப்பம் விரைவாகக் கடத்தப்படுவதால் நீர்வாழ் பாலூட்டிகளுக்கு வெப்ப ஒழுங்குமுறை முக்கியமானது. பல செட்டேசியன், சிரீனியன், பின்நிபெட் இனங்களில் தோலுக்கடியில் தடிமனான கொழுப்புப் படலம் (blubber) வெப்பப் பாதுகாப்பு மற்றும் ஆற்றல் சேமிப்பில் உதவுகிறது. கடல் நீர்நாயில் நீரைத் தடுக்கும் அடர்ந்த உரோமம் மிகவும் முக்கியம். எதிர்திசை வெப்பப் பரிமாற்றமும் புற இரத்த ஓட்டக் கட்டுப்பாடும் சில இனங்களில் வெப்ப இழப்பைக் குறைக்கின்றன. செட்டேசியன்கள் பொதுவாக நீரிலேயே குட்டி ஈன்று பால் ஊட்டுகின்றன; பின்நிபெட்கள் பல இனங்களில் கரையிலோ பனியிலோ குட்டி ஈனுகின்றன. துடுப்புகள், வாலியக்கம், குட்டிப் பராமரிப்பு ஆகியவற்றை ஒப்பிடும் போது இனங்களின் வேறுபாட்டைத் தெளிவுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "indian-conservation",
+          "heading": {
+            "en": "Indian marine mammals, dugong habitats and evidence-based conservation",
+            "ta": "இந்திய நீர்வாழ் பாலூட்டிகள், டுகாங் வாழிடங்கள் மற்றும் பாதுகாப்பு"
+          },
+          "body": {
+            "en": "Indian waters support cetaceans and dugongs in different coastal and offshore habitats. Dugongs depend on seagrass systems including Palk Bay and the Gulf of Mannar in Tamil Nadu, the Gulf of Kachchh and the Andaman and Nicobar region. In 2022, the Palk Bay Dugong Conservation Reserve was established to protect important habitats; the protected-area boundary alone does not guarantee long-term recovery without effective management. Key pressures include fishing-gear entanglement, degradation of seagrass meadows, vessel traffic, underwater sound and other habitat disturbance, with relative importance varying by species. Students should avoid recycling old population estimates as present-day counts without identifying survey year, coverage and method. A field-study framework can map seagrass distribution, fishing activity and reported sightings using existing datasets rather than disturbing protected animals. Conservation should protect habitats and migration or feeding routes while considering coastal community livelihoods. A museum or digital fieldbook plate must cite specimen identity, location and licensing for every image.",
+            "ta": "இந்தியக் கடல்களில் பல செட்டேசியன்களும் டுகாங்குகளும் வாழ்கின்றன. டுகாங் பாதுகாப்புக்கு தமிழ்நாட்டின் பாக்கு வளைகுடா (Palk Bay), மன்னார் வளைகுடா கடற்புல் மேய்ச்சல் வாழிடங்கள் மிகவும் முக்கியம்; கச்ச் வளைகுடா, அந்தமான்–நிக்கோபார் பகுதிகளிலும் வாழிடங்கள் உள்ளன. 2022ஆம் ஆண்டு பாக்கு வளைகுடாவில் டுகாங் பாதுகாப்புக் காப்பகம் உருவாக்கப்பட்டது. வலைகளில் சிக்குதல், கடற்புல் அழிவு, படகுப் போக்குவரத்து, நீருக்கடிச் சத்தம் ஆகியவை அபாயங்களாகும். பழைய கணக்கெடுப்பு எண்ணிக்கைகளை இன்றைய உயிரித்தொகை என மேற்கோள் காட்டக்கூடாது. ஆய்வின் ஆண்டு, இடம், முறை ஆகியவை குறிப்பிடப்பட வேண்டும். கடற்புல் பரப்பு, மீன்பிடி செயற்பாடு, உயிரி காணப்பட்ட இடம் ஆகியவற்றைப் பழைய தரவுகளால் வரைபடமிடலாம். பாதுகாக்கப்பட்ட உயிரிகளைத் தொந்தரவு செய்யாமல் வாழிடமும் மக்களின் வாழ்வாதாரமும் இணைந்து பாதுகாக்கப்பட வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NOAA — Marine mammals: evolutionary groups and adaptations",
+          "url": "https://www.noaa.gov/education/resource-collections/marine-life/marine-mammals"
+        },
+        {
+          "label": "Wildlife Institute of India — Dugong distribution, habitats and risks in India",
+          "url": "https://digitalrepository.wii.gov.in/items/a4438606-3f00-4213-8608-b90a5751bd61"
+        },
+        {
+          "label": "Dugong and Seagrass Hub — India",
+          "url": "https://www.dugongseagrass.org/where-we-work/india/"
+        },
+        {
+          "label": "Marine Mammal Protected Areas Task Force — Gulf of Mannar and Palk Bay",
+          "url": "https://www.marinemammalhabitat.org/factsheets/gulf-mannar-palk-bay/"
+        }
+      ]
+    },
+    {
+      "id": "mammalian-dentition-undergraduate",
+      "topicId": "u5-dentition",
+      "title": {
+        "en": "Dentition in mammals — dental anatomy, types, formulae, occlusion and evolutionary adaptation",
+        "ta": "பாலூட்டிகளின் பற்கள் — உடற்கூறு, வகைகள், பற்சூத்திரங்கள், கடிவாய்த் தொடர்பு மற்றும் பரிணாமத் தகவமைப்பு"
+      },
+      "sections": [
+        {
+          "key": "dental-tissue-and-attachments",
+          "heading": {
+            "en": "Gross structure of a tooth: crown, root and supporting tissues",
+            "ta": "பல்லின் பொதுக்கட்டமைப்பு: முடிப்பகுதி, வேர், ஆதரவுத் திசுக்கள்"
+          },
+          "body": {
+            "en": "A typical mammalian tooth has a crown exposed in the mouth and one or more roots anchored in an alveolus of the jaw, although exceptional dentitions require modified terminology. Enamel is a highly mineralised, acellular covering of the crown; dentine constitutes much of the underlying tooth, while cementum covers the root region and contributes to attachment. The pulp cavity contains connective tissue, vessels and nerves. The periodontal ligament anchors the tooth to alveolar bone and transmits chewing forces. The distinction between crown and root is anatomical, not merely a line at gum level: the visible clinical crown may differ from the anatomical crown, particularly in continuously growing teeth. Enamel-producing ameloblasts are derived from oral ectoderm, whereas odontoblasts and several tooth-supporting tissues arise through cranial neural-crest-derived ectomesenchyme. A correct cross-section should label enamel, dentine, pulp, cementum, periodontal ligament, gingiva and alveolar bone, and avoid placing enamel across every root without species-specific evidence.",
+            "ta": "பொதுவான பாலூட்டிப் பல்லில் வாயில் தெரியும் முடிப்பகுதி (crown), தாடை எலும்பின் பற்புழையில் பதியும் வேர் (root) ஆகியவை உள்ளன; சில சிறப்பு வகைகளில் அமைப்பு மாறுகிறது. முடிப்பகுதியை அதிக கனிமம் கொண்ட எனாமல் (enamel) மூடுகிறது. அதன் கீழ் டென்டைன் (dentine) காணப்படுகிறது. வேர்ப் பகுதியில் சிமெண்டம் (cementum), பல் ஆதரிக்கும் காலவளைய நார் அமைப்பு (periodontal ligament) ஆகியவை உள்ளன. பற்கூழ் (pulp) பகுதியில் இரத்தநாளங்களும் நரம்புகளும் உள்ளன. ஈறுக்கு மேலே தெரியும் மருத்துவக் முடிப்பகுதியும் உண்மையான உடற்கூறு முடிப்பகுதியும் எல்லா இனங்களிலும் ஒன்றல்ல. எனாமல் உருவாக்கும் செல்களுக்கும் டென்டைன் உருவாக்கும் செல்களுக்கும் வேறுபட்ட வளர்ச்சியியல் தோற்றங்கள் உள்ளன. குறுக்குவெட்டுப் படத்தில் எனாமல், டென்டைன், பற்கூழ், சிமெண்டம், ஈறு, தாடை எலும்பு ஆகியவற்றைச் சரியாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "heterodont-homodont",
+          "heading": {
+            "en": "Heterodont, homodont and thecodont conditions",
+            "ta": "பலவகைப் பற்கள், ஒரேவடிவப் பற்கள் மற்றும் பற்புழைப் பதிப்பு"
+          },
+          "body": {
+            "en": "Heterodont dentition means that different tooth classes have specialised crown shapes and functions, as in typical terrestrial placental mammals. Homodont describes more nearly uniform teeth, exemplified by the many conical teeth of several toothed cetaceans; it does not mean every tooth is identical in every species. Thecodont teeth are housed in sockets of the jaw, a condition common in mammals but not unique to them. These terms describe different anatomical dimensions and should not be used as alternatives in a single either-or classification. Tooth arrangement is also influenced by the attachment mechanism, size, spacing, orientation and pattern of occlusion with the opposing jaw. Functional explanations should account for both tooth geometry and chewing movements. A dolphin's conical teeth commonly grasp prey, whereas a herbivore's ridged cheek teeth grind plant material. External silhouette alone cannot demonstrate how tooth roots anchor in bone.",
+            "ta": "பலவகைப் பற்கள் (heterodont) என்பதில் வெவ்வேறு பற்களின் வடிவமும் பணியும் வேறுபடும். ஒரேவடிவப் பற்கள் (homodont) என்பதில் பல பற்கள் ஒத்த கூம்பு வடிவத்தில் காணப்படலாம்; சில பற்களுள்ள திமிங்கிலங்கள் எடுத்துக்காட்டுகள். பற்புழையில் தாடை எலும்பினுள் பதிந்த பற்கள் தீக்கோடான்ட் (thecodont) எனப்படும். இம்மூன்று சொற்களும் வெவ்வேறு பண்புகளைக் குறிக்கின்றன; ஒன்றுக்கொன்று மாற்றுப் பெயர்கள் அல்ல. டால்பின்களின் கூம்புப் பற்கள் இரையைப் பற்ற உதவலாம்; தாவர உணவுப் பாலூட்டிகளின் கடைவாய்ப் பற்கள் தாவரப் பொருளை அரைக்க உதவுகின்றன. பல் வடிவத்துடன் தாடை அசைவு, மேல்கீழ்ப் பற்களின் பொருத்தம், வேர் ஆதாரம் ஆகியவற்றையும் ஆய்வு செய்ய வேண்டும்."
+          }
+        },
+        {
+          "key": "four-tooth-classes",
+          "heading": {
+            "en": "Incisors, canines, premolars and molars",
+            "ta": "வெட்டுப் பற்கள், கோரைப் பற்கள், முன்கடைவாய்ப் பற்கள் மற்றும் கடைவாய்ப் பற்கள்"
+          },
+          "body": {
+            "en": "In a typical heterodont mammal the incisors (I) are positioned anteriorly and help cut or grasp food; canines (C) may pierce, hold or display, depending on species. Premolars (P) and molars (M) are postcanine teeth involved in shearing, crushing or grinding, with different cusp arrangements. Anterior and posterior location alone does not fully determine function: large tusks can be modified incisors or canines, and some carnivorans possess specialised shearing teeth. Tooth classes are identified by comparative morphology, positional homology, development and replacement pattern rather than assigning a human function to every animal. In humans, the usual permanent dentition comprises two incisors, one canine, two premolars and three molars per side in each jaw. Premolars are absent in some mammalian groups, and tooth numbers can be substantially reduced. Diagrams should mark left and right quadrants separately and show the position of the dental midline.",
+            "ta": "பலவகைப் பற்கள் கொண்ட பாலூட்டிகளில் முன்பகுதியில் வெட்டுப் பற்கள் (incisors; I), அடுத்ததாகக் கோரைப் பற்கள் (canines; C), பின்னர் முன்கடைவாய்ப் பற்கள் (premolars; P), கடைவாய்ப் பற்கள் (molars; M) அமைந்திருக்கலாம். வெட்டுதல், பற்றுதல், கிழித்தல், அரைத்தல் போன்ற பணிகள் இனத்திற்கேற்ப மாறுகின்றன. எல்லா விலங்குகளிலும் மனிதரின் பற்களின் பணியை அப்படியே ஒப்புவிக்கக்கூடாது. சில தந்தங்கள் மாற்றமடைந்த வெட்டுப் பற்களாகவும் சில மாற்றமடைந்த கோரைப் பற்களாகவும் இருக்கலாம். மனிதரின் ஒவ்வொரு தாடைப் பாதியிலும் பொதுவாக இரண்டு வெட்டுப் பற்கள், ஒரு கோரைப் பல், இரண்டு முன்கடைவாய்ப் பற்கள், மூன்று கடைவாய்ப் பற்கள் உள்ளன. படத்தில் மேல்தாடை, கீழ்தாடை, இடது–வலது பாதி, பற்களின் வரிசை ஆகியவற்றைத் தெளிவாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "dental-formula-maths",
+          "heading": {
+            "en": "Dental formulae: notation and verified human and rabbit counts",
+            "ta": "பற்சூத்திரங்கள்: குறியீடுகளும் மனிதன், முயல் பற்களின் எண்ணிக்கையும்"
+          },
+          "body": {
+            "en": "A mammalian dental formula records the number of each type of tooth in one half of the upper jaw over the corresponding half of the lower jaw. It conventionally lists incisors (I), canines (C), premolars (P) and molars (M); the sum is multiplied by two to obtain the bilateral total for a normally symmetrical adult. For humans, I 2/2, C 1/1, P 2/2, M 3/3 gives 2 × (2 + 2 + 1 + 1 + 2 + 2 + 3 + 3) = 32 permanent teeth. For the European rabbit Oryctolagus cuniculus, I 2/1, C 0/0, P 3/2, M 3/3 gives 2 × (2 + 1 + 0 + 0 + 3 + 2 + 3 + 3) = 28. Rabbits have four upper and two lower incisors in total, including two small upper peg teeth situated behind the principal upper incisors. Dental formulae must specify species and whether the dentition is deciduous or permanent; a unilateral formula is not already the total number of teeth.",
+            "ta": "பற்சூத்திரம் (dental formula) என்பது மேல்தாடையின் ஒரு பாதியிலும் கீழ்தாடையின் அதே பக்கப் பாதியிலும் உள்ள ஒவ்வொரு வகைப் பற்களின் எண்ணிக்கையைக் குறிக்கும். I — வெட்டுப் பற்கள், C — கோரைப் பற்கள், P — முன்கடைவாய்ப் பற்கள், M — கடைவாய்ப் பற்கள். மனிதனின் நிரந்தரப் பற்சூத்திரம் I 2/2, C 1/1, P 2/2, M 3/3; மொத்தம் 2 × 16 = 32 பற்கள். ஐரோப்பிய முயல் (Oryctolagus cuniculus) பற்சூத்திரம் I 2/1, C 0/0, P 3/2, M 3/3; மொத்தம் 2 × 14 = 28 பற்கள். முயலின் மேல்தாடையில் மொத்தம் நான்கு வெட்டுப் பற்களும் கீழ்தாடையில் இரண்டு வெட்டுப் பற்களும் உள்ளன; முக்கிய மேல்பற்களின் பின்னால் சிறிய 'பெக்' பற்கள் இருக்கின்றன. பற்சூத்திரம் ஒரு பக்கத்திற்கானது என்பதால் இரண்டால் பெருக்க வேண்டும். இனமும் முதிர்ந்த அல்லது பால்பற்கள் நிலையும்கூட குறிப்பிடப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "replacement-and-growth",
+          "heading": {
+            "en": "Diphyodonty, tooth replacement and continuously growing dentitions",
+            "ta": "இருமுறைப் பற்கள், பல் மாற்றம் மற்றும் தொடர்ந்து வளரும் பற்கள்"
+          },
+          "body": {
+            "en": "Many mammals are diphyodont: deciduous teeth are followed by a permanent dentition, although the details of replacement vary and not every tooth type has a milk-tooth predecessor. The mammalian pattern is not an unrestricted, lifetime replacement of all tooth rows. In rabbits, all incisors and cheek teeth are elodont, or continuously growing, and have long-crowned hypsodont anatomy; their grinding surfaces and teeth are worn by normal chewing. A tooth with a long crown is not automatically continuously growing in every herbivore, so hypsodonty and elodonty must be distinguished. The rabbit's long tooth-free diastema separates the incisors from the cheek teeth, and it lacks canines. Continuous growth requires balanced occlusion and adequate abrasive forage; abnormal growth can result from disease or misalignment and warrants veterinary care. In practical figures, distinguish visible clinical crown, reserve crown and the growing apex instead of calling a rabbit tooth a human-style rooted tooth.",
+            "ta": "பல பாலூட்டிகளில் முதலில் பால்பற்களும் பின்னர் நிரந்தரப் பற்களும் தோன்றுகின்றன; இதனை டைஃபியோடான்ட் (diphyodont) நிலை என்கிறோம். எல்லா பல் வகைகளும் அதே மாற்று முறையைக் கொண்டிருப்பதில்லை. முயலின் வெட்டுப் பற்களும் கடைவாய்ப் பற்களும் நீண்ட முடிப்பகுதியுடன் தொடர்ந்து வளரும் எலோடான்ட் (elodont) பற்களாகும். நீண்ட முடிப்பகுதி (hypsodont) இருப்பதுதான் எல்லா இனங்களிலும் தொடர்ந்து வளர்வதைக் குறிக்காது. முயலில் கோரைப் பற்கள் இல்லாததால் முன்பற்களுக்கும் பின்பற்களுக்கும் இடையே டையாஸ்டீமா (diastema) எனும் பற்களற்ற இடைவெளி உள்ளது. சரியான கடிவாய்த் தொடர்பும் நார்ச்சத்து உணவும் இயல்பான தேய்மானத்திற்கு உதவும்; பல் சீர்கேட்டிற்கு கால்நடை மருத்துவப் பராமரிப்பு தேவை. படத்தில் தெரியும் முடிப்பகுதி, ஈறுக்குக் கீழேயுள்ள சேமிப்பு முடிப்பகுதி, வளர்ச்சி நுனி ஆகியவற்றைக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "cusps-and-food",
+          "heading": {
+            "en": "Cusp patterns, carnassial shearing and diet-associated dentition",
+            "ta": "பல் முனைகள், கார்னாசியல் கிழித்தல் மற்றும் உணவுசார் பற்கள்"
+          },
+          "body": {
+            "en": "Mammalian cheek teeth reveal dietary specialisation through cusp height, ridges, enamel folds and occlusal relationships. Rounded-cusped bunodont molars occur in humans and pigs, while crescentic selenodont grinding surfaces characterise many ruminants. High-crowned and ridged cheek teeth in grazing mammals help process abrasive vegetation; a tooth's crown height and its pattern of growth must be assessed separately. In many carnivorans, the upper fourth premolar and lower first molar form a carnassial pair specialised for shearing flesh, although the degree of specialisation differs between taxa. Elephants possess large, plate-like grinding molars that move sequentially through the jaw, and their tusks are modified upper incisors. A dietary inference should include wear facets and jaw motion, not a single isolated crown silhouette. A comparative plate should identify the species and show a matched upper and lower tooth in occlusion.",
+            "ta": "பாலூட்டிகளின் பின்பற்களில் முனைகள், எனாமல் மடிப்புகள், உயரமான முடிப்பகுதி, மேல்கீழ்ப் பற்களின் பொருத்தம் ஆகியவை உணவுமுறையுடன் தொடர்புடையவை. மனிதன், பன்றி போன்றவற்றில் உருண்ட முனைகள் கொண்ட புனோடான்ட் (bunodont) கடைவாய்ப் பற்கள் காணப்படுகின்றன. பல அசைபோடும் பாலூட்டிகளில் பிறை வடிவ அரைக்கும் மேற்பரப்பு கொண்ட செலினோடான்ட் (selenodont) பற்கள் உண்டு. பல கார்னிவோரா விலங்குகளில் மேல்தாடையின் நான்காவது முன்கடைவாய்ப் பல்லும் கீழ்தாடையின் முதல் கடைவாய்ப் பல்லும் கார்னாசியல் (carnassial) கிழிப்புப் பல் இணையாகச் செயல்படுகின்றன. யானையின் பெரிய மடிப்புள்ள கடைவாய்ப் பற்கள் வரிசையாக மாற்றப்படுகின்றன; தந்தங்கள் மாற்றமடைந்த மேல்தாடை வெட்டுப் பற்கள். உணவுமுறை விளக்கத்தில் பல்லின் தேய்மானமும் தாடை இயக்கமும் கவனிக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "dental-diversity",
+          "heading": {
+            "en": "Dental exceptions: cetaceans, monotremes, elephants and manatees",
+            "ta": "பற்களின் விதிவிலக்குகள்: செட்டேசியன், மோனோட்ரீம், யானை, மானட்டி"
+          },
+          "body": {
+            "en": "Toothed cetaceans often possess repeated, relatively similar conical teeth adapted mainly to prey capture, but tooth counts and specialisations vary widely. Adult baleen whales have no functional teeth, instead feeding through keratinous baleen plates; a mammalian origin does not require all adult mammals to retain teeth. Echidnas are toothless, and adult platypuses use keratinised grinding pads rather than a typical permanent tooth set. Elephant molars undergo an unusual sequence of replacement along the jaw rather than simple vertical succession, and manatees continuously replace worn cheek teeth from the rear in a distinctive horizontal progression. Narwhal tusks and walrus tusks are modified teeth with different identities and functions; they should never be presented as the same tooth class without identification. These examples show that mammalian dentition is evolutionarily labile, so a single ‘complete’ heterodont formula cannot diagnose the whole class. Educational images need precise species identity and must not invent absent teeth in baleen whales.",
+            "ta": "பற்களுள்ள செட்டேசியன்களில் பல இனங்களுக்கு ஒத்த கூம்புப் பற்கள் இருந்தாலும் அவற்றின் எண்ணிக்கையும் அமைப்பும் வேறுபடுகின்றன. வளர்ந்த பாலீன் திமிங்கிலங்களில் செயல்படும் பற்கள் இல்லை; கெரட்டின் பாலீன் தகடுகள் உணவை வடிகட்டுகின்றன. எகிட்னாக்களில் பற்கள் இல்லை; வளர்ந்த பிளாட்டிபஸில் வழக்கமான நிரந்தரப் பற்களுக்கு மாற்றாக கடினமான அரைப்புப் பட்டைகள் உள்ளன. யானையின் பெரிய கடைவாய்ப் பற்கள் தாடையில் தனித்த முறையில் தொடர்ச்சியாக மாற்றமடைகின்றன. மானட்டிகளில் பின்புறத்திலிருந்து புதிய அரைக்கும் பற்கள் முன்னோக்கி நகரும் மாற்று முறை உண்டு. நார்வால், வால்ரஸ் தந்தங்கள் வேறுபட்ட பற்களின் மாற்றங்கள்; அவற்றை ஒரே பல் வகையாகக் கருதக்கூடாது. எல்லாப் பாலூட்டிகளிலும் ஒரே முழுப் பற்சூத்திரம் இருக்க வேண்டும் என்ற கூற்று தவறு."
+          }
+        },
+        {
+          "key": "lab-and-assessment",
+          "heading": {
+            "en": "Dental identification practical, formulas and academic error checks",
+            "ta": "பல் அடையாளச் செய்முறை, பற்சூத்திரம் மற்றும் பிழைச் சரிபார்ப்பு"
+          },
+          "body": {
+            "en": "A university dentition practical should begin with a specimen-verified upper and lower jaw or an accurately sourced anatomical photograph. Mark the midline and one upper and lower quadrant, count incisors, canines, premolars and molars, and then write the unilateral formula before multiplying by two. Examine crown shapes, occlusal wear, diastema, tooth sockets and replacement stage, taking care not to mistake missing teeth, unerupted teeth or damaged specimens for normal species characters. For human and rabbit comparison, confirm 32 versus 28 adult teeth and the rabbit's second small upper incisors; an incomplete peg-tooth illustration will give an erroneous formula. A practical report can include a small labelled cross-section of enamel, dentine, cementum and pulp, a complete dental arcade and a table linking cusp form to diet. Credit the source of images and state whether drawings are idealised, clinical or specimen-specific. No live-animal tooth manipulation is required to teach these principles.",
+            "ta": "பற்கள் செய்முறையில் இன அடையாளம் உறுதிசெய்யப்பட்ட மேல்தாடை, கீழ்தாடை மாதிரி அல்லது நம்பகமான உடற்கூறுப் படத்தைப் பயன்படுத்த வேண்டும். நடுக்கோடும் ஒரு பக்க மேல்தாடை–கீழ்தாடைப் பகுதிகளும் குறிக்கப்பட வேண்டும். வெட்டுப் பற்கள், கோரைப் பற்கள், முன்கடைவாய்ப் பற்கள், கடைவாய்ப் பற்கள் ஆகியவற்றை எண்ணி ஒரு பக்கப் பற்சூத்திரம் எழுதி பின்னர் இரண்டால் பெருக்க வேண்டும். பல் முனைகள், தேய்மானம், டையாஸ்டீமா, பற்புழை, மாற்று நிலை ஆகியவை கவனிக்கப்பட வேண்டும். சேதமடைந்த அல்லது இன்னும் வெளிவராத பற்களை இனத்தின் இயல்பான பண்பாகக் கருதக்கூடாது. மனிதனில் 32, முயலில் 28 நிரந்தரப் பற்களும் முயலின் சிறிய மேல்பெக் பற்களும் இருப்பதைச் சரிபார்க்க வேண்டும். படங்களுக்கு ஆதாரக் குறிப்பு வழங்க வேண்டும். இப்பாடத்திற்காக உயிர்விலங்குகளின் வாயைத் திறந்து பற்களைத் தொட வேண்டியதில்லை."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "MSPCA–Angell Veterinary Medicine — Rabbit dental anatomy and disease",
+          "url": "https://www.mspca.org/clinical/dental-anatomy-and-disease-of-the-domestic-rabbit-oryctolagus-cuniculus/"
+        },
+        {
+          "label": "World Small Animal Veterinary Association — Rabbit and rodent dentistry",
+          "url": "https://www.vin.com/apputil/content/defaultadv1.aspx?id=3860700&pid=11242"
+        },
+        {
+          "label": "OpenStax Biology 2e — Mammals",
+          "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals"
+        },
+        {
+          "label": "Veterinary Clinics of North America — Anatomy and physiology of rabbit mouth",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1094919416300081"
+        }
+      ]
     }
   ]
 }
