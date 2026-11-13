@@ -4070,8 +4070,8 @@
             "ta": "பற்களின் விதிவிலக்குகள்: செட்டேசியன், மோனோட்ரீம், யானை, மானட்டி"
           },
           "body": {
-            "en": "Toothed cetaceans often possess repeated, relatively similar conical teeth adapted mainly to prey capture, but tooth counts and specialisations vary widely. Adult baleen whales have no functional teeth, instead feeding through keratinous baleen plates; a mammalian origin does not require all adult mammals to retain teeth. Echidnas are toothless, and adult platypuses use keratinised grinding pads rather than a typical permanent tooth set. Elephant molars undergo an unusual sequence of replacement along the jaw rather than simple vertical succession, and manatees continuously replace worn cheek teeth from the rear in a distinctive horizontal progression. Narwhal tusks and walrus tusks are modified teeth with different identities and functions; they should never be presented as the same tooth class without identification. These examples show that mammalian dentition is evolutionarily labile, so a single ‘complete’ heterodont formula cannot diagnose the whole class. Educational images need precise species identity and must not invent absent teeth in baleen whales.",
-            "ta": "பற்களுள்ள செட்டேசியன்களில் பல இனங்களுக்கு ஒத்த கூம்புப் பற்கள் இருந்தாலும் அவற்றின் எண்ணிக்கையும் அமைப்பும் வேறுபடுகின்றன. வளர்ந்த பாலீன் திமிங்கிலங்களில் செயல்படும் பற்கள் இல்லை; கெரட்டின் பாலீன் தகடுகள் உணவை வடிகட்டுகின்றன. எகிட்னாக்களில் பற்கள் இல்லை; வளர்ந்த பிளாட்டிபஸில் வழக்கமான நிரந்தரப் பற்களுக்கு மாற்றாக கடினமான அரைப்புப் பட்டைகள் உள்ளன. யானையின் பெரிய கடைவாய்ப் பற்கள் தாடையில் தனித்த முறையில் தொடர்ச்சியாக மாற்றமடைகின்றன. மானட்டிகளில் பின்புறத்திலிருந்து புதிய அரைக்கும் பற்கள் முன்னோக்கி நகரும் மாற்று முறை உண்டு. நார்வால், வால்ரஸ் தந்தங்கள் வேறுபட்ட பற்களின் மாற்றங்கள்; அவற்றை ஒரே பல் வகையாகக் கருதக்கூடாது. எல்லாப் பாலூட்டிகளிலும் ஒரே முழுப் பற்சூத்திரம் இருக்க வேண்டும் என்ற கூற்று தவறு."
+            "en": "Toothed cetaceans often possess repeated, relatively similar conical teeth adapted mainly to prey capture, but tooth counts and specialisations vary widely. Adult baleen whales have no functional teeth, instead feeding through keratinous baleen plates; a mammalian origin does not require all adult mammals to retain teeth. Echidnas are toothless, and adult platypuses use keratinised grinding pads rather than a typical permanent tooth set. Elephant molars undergo an unusual sequence of replacement along the jaw rather than simple vertical succession, and manatees continuously replace worn cheek teeth from the rear in a distinctive horizontal progression. The narwhal's long spiral tusk is usually its left upper canine, whereas a walrus normally bears two enlarged upper canines; both are canines, although their form, eruption and functions differ. These examples show that mammalian dentition is evolutionarily labile, so a single ‘complete’ heterodont formula cannot diagnose the whole class. Educational images need precise species identity and must not invent absent teeth in baleen whales.",
+            "ta": "பற்களுள்ள செட்டேசியன்களில் பல இனங்களுக்கு ஒத்த கூம்புப் பற்கள் இருந்தாலும் அவற்றின் எண்ணிக்கையும் அமைப்பும் வேறுபடுகின்றன. வளர்ந்த பாலீன் திமிங்கிலங்களில் செயல்படும் பற்கள் இல்லை; கெரட்டின் பாலீன் தகடுகள் உணவை வடிகட்டுகின்றன. எகிட்னாக்களில் பற்கள் இல்லை; வளர்ந்த பிளாட்டிபஸில் வழக்கமான நிரந்தரப் பற்களுக்கு மாற்றாக கடினமான அரைப்புப் பட்டைகள் உள்ளன. யானையின் பெரிய கடைவாய்ப் பற்கள் தாடையில் தனித்த முறையில் தொடர்ச்சியாக மாற்றமடைகின்றன. மானட்டிகளில் பின்புறத்திலிருந்து புதிய அரைக்கும் பற்கள் முன்னோக்கி நகரும் மாற்று முறை உண்டு. நார்வாலின் நீண்ட சுருள் தந்தம் பொதுவாக இடது மேல்தாடைக் கோரைப் பல்லின் மாற்றமாகும்; வால்ரஸில் இரண்டு மேல்தாடைக் கோரைப் பற்களும் பெரிய தந்தங்களாக உள்ளன. இரண்டுமே கோரைப் பற்கள்; அவற்றின் வடிவம், வெளிப்படும் முறை, பணி ஆகியவை வேறுபடுகின்றன. எல்லாப் பாலூட்டிகளிலும் ஒரே முழுப் பற்சூத்திரம் இருக்க வேண்டும் என்ற கூற்று தவறு."
           }
         },
         {
@@ -4102,6 +4102,14 @@
         {
           "label": "Veterinary Clinics of North America — Anatomy and physiology of rabbit mouth",
           "url": "https://www.sciencedirect.com/science/article/pii/S1094919416300081"
+        },
+        {
+          "label": "Smithsonian Institution — Anatomy of the narwhal canine tusk",
+          "url": "https://www.si.edu/stories/understanding-narwhals-smile"
+        },
+        {
+          "label": "Smithsonian Ocean — Walrus upper canine tusks",
+          "url": "https://ocean.si.edu/ocean-life/marine-mammals/seals-sea-lions-and-walruses"
         }
       ]
     }
