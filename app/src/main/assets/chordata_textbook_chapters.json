@@ -1000,6 +1000,387 @@
           "url": "https://www.mspca.org/clinical/dental-anatomy-and-disease-of-the-domestic-rabbit-oryctolagus-cuniculus/"
         }
       ]
+    },
+    {
+      "id": "origin-of-chordata-undergraduate",
+      "topicId": "u1-origin",
+      "title": {
+        "en": "Origin of Chordata — evolutionary evidence and competing hypotheses",
+        "ta": "முதுகுநாணிகளின் தோற்றம் — பரிணாமச் சான்றுகளும் கருதுகோள்களும்"
+      },
+      "sections": [
+        {
+          "key": "deuterostome-context",
+          "heading": {
+            "en": "Deuterostome ancestry and the chordate problem",
+            "ta": "இரண்டாம் வாய்வழி வளர்ச்சிக் குழுவும் முதுகுநாணிகளின் தோற்றமும்"
+          },
+          "body": {
+            "en": "Chordata belongs among the deuterostomes, together with Ambulacraria, the clade comprising Echinodermata and Hemichordata. Deuterostome relationships are inferred from numerous developmental, morphological and molecular characters, not from one feature such as the embryonic blastopore. The central evolutionary question is how a common ancestor gave rise to a notochord-bearing, dorsally neurulated lineage while its ambulacrarian relatives retained different adult body plans. Modern chordates comprise cephalochordates, tunicates and vertebrates; these are all living branches rather than successive stages in a single ancestry chain. It is therefore inaccurate to call a living amphioxus the actual ancestor of a human or a tunicate the primitive form from which all other living chordates directly developed. A cladogram represents hypotheses of shared descent: each bifurcation denotes an inferred common ancestor, and branch tips represent separately evolving lineages. The time of divergence must be assessed with fossils and molecular estimates rather than read as a ladder of increasing perfection.",
+            "ta": "முதுகுநாணிகள் (Chordata) இரண்டாம் வாய்வழி வளர்ச்சியுடைய டியூட்டரோஸ்டோமியா (Deuterostomia) குழுவில் இடம்பெறுகின்றன. இதன் உறவுக் குழுக்களான எக்கைனோடெர்மேட்டா மற்றும் ஹெமிகார்டேட்டா இணைந்து அம்புலாக்ராரியா (Ambulacraria) தொகுதியை உருவாக்குகின்றன. கரு வளர்ச்சி, உடற்கூறு, மூலக்கூறு ஆய்வுச் சான்றுகள் ஆகியவற்றின் அடிப்படையில் இவ்வுறவுகள் விளக்கப்படுகின்றன. முதுகுநாணி, முதுகுப்புறக் குழாய்நரம்பு அமைப்பு ஆகியவை தோன்றிய பரிணாமப் பின்னணியை அறிதல் இப்பாடத்தின் நோக்கமாகும். தற்போது வாழும் ஆம்பியாக்சஸ் அல்லது அசிடியா மனிதனின் நேரடி மூதாதை அல்ல; அவை தனித்த பரிணாமக் கிளைகளாகும். கிளைவரைபடத்தின் சந்திப்புப் புள்ளி பொதுமூதாதையைக் குறிக்கும்; உயிரிகளை மேலிருந்து கீழாக வரிசைப்படுத்துவதில்லை."
+          }
+        },
+        {
+          "key": "five-chordate-synapomorphies",
+          "heading": {
+            "en": "Five chordate hallmarks and their embryonic timing",
+            "ta": "ஐந்து முதுகுநாணிப் பண்புகளும் அவை தோன்றும் வளர்ச்சிநிலைகளும்"
+          },
+          "body": {
+            "en": "Five widely taught chordate hallmarks are the notochord, dorsal hollow nerve cord, pharyngeal slits or pouches, post-anal tail and endostyle or its thyroid homologue. Their appearance need not be simultaneous or permanent. A tunicate tadpole displays the notochord and tail prominently and usually loses these during metamorphosis, whereas a vertebrate embryo develops a notochord that later contributes signalling and often leaves remnants associated with the axial skeleton. The endostyle collects food particles in filter-feeding forms; its endocrine homologue is the vertebrate thyroid. Pharyngeal arches have diversified into feeding, respiratory and craniofacial structures. The features are analysed as a combination of inherited characters, because isolated similarities can evolve independently or be modified extensively. In an evolutionary diagram, mark the body axis, position of the notochord below the neural tube, anterior pharynx and tail beyond the anus rather than showing a generic fish-shaped silhouette.",
+            "ta": "முதுகுநாணிகளின் முக்கிய ஐந்து பண்புகள் முதுகுநாண், முதுகுப்புறக் குழாய் வடிவ நரம்புநாண், தொண்டைப் பிளவுகள் அல்லது பைகள், குதத்திற்குப் பின்னுள்ள வால், எண்டோஸ்டைல் அல்லது அதனுடன் வளர்ச்சி உறவுடைய தைராய்டு சுரப்பி ஆகியவையாகும். இவை வாழ்நாள் முழுவதும் ஒரே நிலையில் நீடிப்பதில்லை. அசிடியா இளநிலையில் முதுகுநாணும் வாலும் தெளிவாக இருந்தாலும் உருவமாற்றத்திற்குப் பின் அவை மறைகின்றன. முதுகெலும்பிக் கருவில் முதுகுநாண் வளர்ச்சி சைகைகளை வழங்குகிறது. உணவுத் துகள்களைச் சேகரிக்கும் எண்டோஸ்டைல், முதுகெலும்பிகளின் தைராய்டுடன் பரிணாம உறவு கொண்டது. படத்தில் நரம்புநாண், முதுகுநாண், தொண்டை, குதம், வால் ஆகியவற்றின் இட உறவு சரியாகக் காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "historical-origin-hypotheses",
+          "heading": {
+            "en": "Historical hypotheses and why several were revised",
+            "ta": "வரலாற்றுத் தோற்றக் கருதுகோள்களும் அவற்றின் திருத்தமும்"
+          },
+          "body": {
+            "en": "Earlier zoological textbooks discussed annelid, echinoderm, hemichordate and tunicate hypotheses of chordate origin. Some proposals depended on superficial adult resemblance, supposed inversion of the nerve cord or an assumed equivalence between the hemichordate stomochord and the chordate notochord. Comparative embryology helped identify deuterostome affinities, but molecular phylogenetics substantially changed the placement of branches. Hemichordates are now treated as a separate phylum and not as 'half-chordates' nested inside Chordata; the stomochord is not accepted as a true notochord homologue. The historical proposals are still pedagogically useful when presented as testable hypotheses: state the predicted homologies, the observations and the evidence that refuted or revised them. Avoid a classroom chart with direct arrows from modern Balanoglossus to Amphioxus to fish to human, since it wrongly converts living collateral lineages into a series of ancestral steps.",
+            "ta": "பழைய விலங்கியல் நூல்களில் அன்னலிடா, எக்கைனோடெர்மேட்டா, ஹெமிகார்டேட்டா, டியூனிகேட்டா ஆகியவற்றிலிருந்து முதுகுநாணிகள் தோன்றியிருக்கலாம் என்ற கருதுகோள்கள் விவாதிக்கப்பட்டன. சில விளக்கங்கள் வெளிப்புற ஒற்றுமையையும் நரம்புநாணின் இடமாற்றக் கருத்தையும் அடிப்படையாகக் கொண்டிருந்தன. ஹெமிகார்டேட்டாவின் ஸ்டோமோகார்டை உண்மையான முதுகுநாணாகக் கருதிய பழைய கருத்து தற்போது ஏற்றுக்கொள்ளப்படுவதில்லை. கருவளர்ச்சி மற்றும் மூலக்கூறு உறவாய்வுகள் புதிய கிளைவரைபடத்தை உருவாக்க உதவியுள்ளன. இக்கருதுகோள்களை உறுதிப்படுத்தப்பட்ட வரலாறாக அல்லாது சோதிக்கக்கூடிய அறிவியல் விளக்கங்களாகக் கற்பிக்க வேண்டும். பலனோகிளாஸஸ் முதல் ஆம்பியாக்சஸ், மீன், மனிதன் வரை நேர்கோட்டு மூதாதை வரிசை வரைவது தவறு."
+          }
+        },
+        {
+          "key": "phylogenomics-olfactores",
+          "heading": {
+            "en": "Phylogenomics: tunicates, lancelets and Olfactores",
+            "ta": "மூலக்கூறு உறவாய்வு: டியூனிகேட்டா, ஆம்பியாக்சஸ் மற்றும் ஒல்ஃபாக்டோர்ஸ்"
+          },
+          "body": {
+            "en": "Although an adult lancelet resembles a schematic early chordate more closely than a sessile sea squirt does, multigene analyses generally recover Tunicata as the living sister group of Vertebrata; together they constitute Olfactores, with Cephalochordata branching earlier. This is a major example of why external resemblance alone cannot establish evolutionary closeness. Tunicates have undergone substantial anatomical and genomic modifications, including fast sequence evolution in some lineages. Shared developmental gene networks and orthologous genomic regions can test whether seemingly different adult organs derive from common ancestral patterning mechanisms. The inferred tree does not mean a living tunicate metamorphosed into a vertebrate; both inherit characters from a vanished common ancestor and have subsequently changed independently. Modern tree diagrams must put a node between tunicates and vertebrates, not place lancelets as the nearest living invertebrate relatives simply because they retain a notochord as adults.",
+            "ta": "வெளிப்புறத் தோற்றத்தில் ஆம்பியாக்சஸ் முதுகுநாணிகளின் அடிப்படை அமைப்பைப் போன்றிருந்தாலும், பல மரபணுக்களை ஒப்பிடும் உறவாய்வுகள் டியூனிகேட்டாவை முதுகெலும்பிகளின் நெருங்கிய வாழும் உறவுக் குழுவாகக் காட்டுகின்றன. இவ்விரண்டும் ஒல்ஃபாக்டோர்ஸ் (Olfactores) எனப்படும் கிளையை உருவாக்குகின்றன; செஃபலோகார்டேட்டா முந்தைய கிளையாகப் பிரிகிறது. எனவே தோற்ற ஒற்றுமை மட்டும் பரிணாம நெருக்கத்தை நிரூபிக்காது. மரபணு அமைப்பு, வளர்ச்சிக் கட்டுப்பாட்டு வலைப்பின்னல்கள், உறவுடைய மரபணுக்கள் ஆகியவை ஒப்பிடப்படுகின்றன. இன்றைய அசிடியா நேரடியாக முதுகெலும்பியாக மாறியது என்று கூறுவது தவறு; இரண்டுக்கும் மறைந்த பொதுமூதாதை இருந்தது என்பதே பொருத்தமான விளக்கம்."
+          }
+        },
+        {
+          "key": "fossil-calibration-and-cambrian",
+          "heading": {
+            "en": "Cambrian fossils, stem chordates and uncertainty",
+            "ta": "கேம்பிரியன் புதைபடிவங்கள், ஆரம்பக் கிளைகள் மற்றும் உறுதிப்பாடின்மை"
+          },
+          "body": {
+            "en": "Cambrian fossil assemblages include chordate-like animals that inform hypotheses about the early evolution of axial musculature, pharyngeal structures and head organisation. Fossil interpretations are frequently revised when preservation, microscopy or phylogenetic methods improve. Features such as V-shaped muscle blocks and a longitudinal axial support can be informative, but a compressed fossil impression may not securely establish a notochord or neural tube. Molecular clocks provide complementary divergence estimates, yet these depend on calibration fossils and models of sequence change. Textbook timelines should therefore mark dates as estimates with an appropriate range and distinguish the age of a fossil occurrence from the age of a lineage's origin. It is scientifically misleading to claim that the oldest currently known fossil is necessarily the first biological member of that lineage. Students should evaluate both a character matrix and a timeline rather than memorise a single contested ancestor name.",
+            "ta": "கேம்பிரியன் காலப் புதைபடிவங்களில் முதுகுநாணிகளை ஒத்த உடலமைப்புகள் காணப்படுகின்றன. அவற்றில் உடல்தசைப் பிரிவுகள், தொண்டைப் பகுதிகள், அச்சு ஆதரவு அமைப்புகள் போன்ற பண்புகளை ஆராய்ந்து ஆரம்பப் பரிணாமத்தை விளக்க முயல்கின்றனர். புதைபடிவத்தின் பாதுகாப்பு நிலை போதாமையால் சில உறுப்புகளை உறுதியாக அடையாளம் காண முடியாது. மூலக்கூறு கடிகாரக் கணிப்புகளும் புதைபடிவக் கால நிர்ணயமும் இணைந்து கிளைப்பிரிவு காலத்தை மதிப்பிடுகின்றன. புதைபடிவத்தின் வயது அந்தக் குழு முதன்முதலில் தோன்றிய துல்லியமான நாள் என்று பொருளல்ல. பாடநூலில் கால அளவுகளின் உறுதிப்பாடின்மையைத் தெளிவாகக் குறிப்பிட வேண்டும். ஒரு புதைபடிவத்தையே கேள்வியற்ற நேரடி மூதாதையாக அறிவிப்பது அறிவியல் முறைக்கு ஏற்றதல்ல."
+          }
+        },
+        {
+          "key": "developmental-evidence",
+          "heading": {
+            "en": "Comparative embryology, gene regulation and body-axis patterning",
+            "ta": "ஒப்பீட்டுக் கருவளர்ச்சி, மரபணுக் கட்டுப்பாடு மற்றும் உடல் அச்சு உருவாக்கம்"
+          },
+          "body": {
+            "en": "Embryological comparisons focus on gastrulation, formation of mesoderm and coelom, pharyngeal endoderm, neural patterning and the origin of axial supporting tissues. Expression of conserved developmental genes can reveal common patterning systems even when adult anatomies look very different. However, similarity in one developmental gene is not sufficient evidence that two entire organs are homologous; position, tissue origin, morphology and phylogenetic distribution must also be considered. The chordate neural tube lies dorsally, and the notochord below it participates in embryonic signalling. Hemichordates and echinoderms help reconstruct features that may predate the origin of a true notochord. A comparative practical should show parallel stage diagrams for a tunicate, lancelet and vertebrate, aligned by embryological landmarks rather than by arbitrary body size. Similarity of early embryos is evidence to evaluate, not a claim that all embryonic stages are identical.",
+            "ta": "ஒப்பீட்டுக் கருவளர்ச்சியில் உட்கருவட்ட உருவாக்கம், நடுத்தோல் தோற்றம், உடற்குழி வளர்ச்சி, தொண்டைத் திசுக்கள், நரம்புக் குழாய் மற்றும் அச்சு ஆதரவு அமைப்புகள் ஆய்வு செய்யப்படுகின்றன. வளர்ச்சியைக் கட்டுப்படுத்தும் மரபணுக்களில் காணப்படும் ஒற்றுமை பொதுவான பரிணாமப் பின்னணியை அறிய உதவும். ஆனால் ஒரு மரபணுவின் ஒற்றுமையை மட்டும் கொண்டு இரண்டு உறுப்புகளும் முழுமையாக ஒன்றுக்கொன்று ஒத்தவை என்று முடிவு செய்யக்கூடாது. அவற்றின் இடம், திசுத் தோற்றம், உடற்கூறு, கிளைப் பரவல் ஆகியவை சேர்த்து ஆராயப்பட வேண்டும். டியூனிகேட்டா, செஃபலோகார்டேட்டா, முதுகெலும்பிக் கருக்களை ஒரே வளர்ச்சி அடையாளங்களின் அடிப்படையில் ஒப்பிடுவது பயனளிக்கும்."
+          }
+        },
+        {
+          "key": "synthesis-and-phylogenetic-practical",
+          "heading": {
+            "en": "Evidence synthesis and an undergraduate phylogeny practical",
+            "ta": "சான்றுகளின் ஒருங்கிணைப்பும் இளங்கலை உறவாய்வுப் பயிற்சியும்"
+          },
+          "body": {
+            "en": "A defensible account of chordate origin combines anatomical characters, embryology, molecular sequence comparisons and fossils. Each evidence class has strengths and weaknesses: soft anatomy rarely fossilises; some genes evolve rapidly; and convergence can mislead purely morphological trees. Students can create a matrix with rows for tunicate larva, adult ascidian, lancelet, lamprey, shark and amniote, and columns for notochord, neural tube, endostyle/thyroid, gill slits, jaws, vertebral elements and paired appendages. The character matrix should explicitly distinguish absent, present, developmentally transient and unknown rather than treating missing information as genuine absence. Next draw a branching hypothesis, note which characters support which node, and compare it with the molecular Olfactores relationship. This method trains students to reason from evidence instead of copying a staircase diagram of 'higher and lower chordates'. No phylogenetic tree is free from revision when new data arrive.",
+            "ta": "முதுகுநாணிகளின் தோற்றத்தை விளக்க உடற்கூறு, கருவளர்ச்சி, மரபணுத் தரவுகள், புதைபடிவங்கள் ஆகிய நான்கு சான்றுத் தொகுதிகளையும் இணைக்க வேண்டும். ஒவ்வொன்றுக்கும் தனித்த வரம்புகள் உள்ளன. மாணவர்கள் அசிடியா இளநிலை, முதிர்நிலை, ஆம்பியாக்சஸ், லாம்ப்ரே, சுறா, அம்னியோட்டு உயிரிகள் ஆகியவற்றின் பண்புகளை அட்டவணைப்படுத்தலாம். முதுகுநாண், நரம்புக் குழாய், தொண்டைப் பிளவு, தாடை, முதுகெலும்பு, இணை உறுப்புகள் ஆகியவற்றின் இருப்பை வளர்ச்சிநிலைக்கேற்ப பதிவு செய்ய வேண்டும். அறியப்படாத பண்பை இல்லை என்று குறிக்கக் கூடாது. இத்தகவல்களிலிருந்து கிளைவரைபடம் வரைந்து மரபணு உறவாய்வு முடிவுகளுடன் ஒப்பிடலாம். இது வெறும் பெயர்களை மனப்பாடம் செய்வதைக் காட்டிலும் அறிவியல் சிந்தனையை வளர்க்கும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Deuterostome Ancestors and Chordate Origins, Integrative and Comparative Biology (2024)",
+          "url": "https://academic.oup.com/icb/article/64/5/1175/7727798"
+        },
+        {
+          "label": "The Origin of Vertebrates, University of Chicago Press",
+          "url": "https://press.uchicago.edu/dam/ucp/books/pdf/course_intro/978-0-226-40305-2_course_intro.pdf"
+        }
+      ]
+    },
+    {
+      "id": "chordate-general-characters-undergraduate",
+      "topicId": "u1-general-characters",
+      "title": {
+        "en": "General characters of chordates and so-called protochordates",
+        "ta": "முதுகுநாணிகளின் பொதுப்பண்புகளும் புரோட்டோகார்டேட்டா என்ற வரலாற்றுச் சொல்லும்"
+      },
+      "sections": [
+        {
+          "key": "definition-and-scope",
+          "heading": {
+            "en": "Definition, diagnostic combinations and phylogenetic scope",
+            "ta": "வரையறை, அடையாளப் பண்புகள் மற்றும் உறவியல் எல்லைகள்"
+          },
+          "body": {
+            "en": "Chordata is defined by common ancestry and a characteristic suite of embryological and anatomical traits, not merely by possession of a backbone. The phylum includes tunicates, cephalochordates and vertebrates; the first two are often called non-vertebrate chordates. 'Protochordata' is a traditional convenience term rather than a modern monophyletic subphylum. Some older textbooks included Hemichordata among protochordates, but modern systematics treats hemichordates as a separate phylum related to echinoderms. A proper identification requires consideration of the notochord, dorsal hollow nerve cord, pharyngeal region, post-anal tail and endostyle/thyroid homology during at least one developmental period. None of these should be interpreted solely from a superficially similar adult structure without evidence. In undergraduate taxonomy, distinguish the named taxonomic rank from a clade, and explain why older rank systems sometimes contradict evolutionary branching. The classification is a hypothesis summarising shared descent, refined as characters and genomes are analysed.",
+            "ta": "முதுகுநாணிகள் முதுகெலும்பு உடைய உயிரிகளை மட்டும் குறிக்கவில்லை; டியூனிகேட்டா, செஃபலோகார்டேட்டா, முதுகெலும்பிகள் ஆகியவற்றையும் உள்ளடக்கிய தொகுதியாகும். புரோட்டோகார்டேட்டா (Protochordata) என்பது பழைய பாடநூல்களில் பயன்படுத்தப்பட்ட வசதிச் சொல்; இன்றைய ஒரே பரிணாமக் கிளையைக் குறிக்கும் அதிகாரப்பூர்வப் பிரிவு அல்ல. முன்னர் இத்தொகுதியில் சேர்க்கப்பட்ட ஹெமிகார்டேட்டா தற்போது தனித் தொகுதியாக வகைப்படுத்தப்படுகிறது. முதுகுநாண், முதுகுப்புறக் குழாய் நரம்புநாண், தொண்டைப் பிளவுகள், குதத்திற்குப் பின்வரும் வால், எண்டோஸ்டைல்/தைராய்டு தொடர்பு ஆகியவற்றை வளர்ச்சிநிலையோடு ஒப்பிட்டறிய வேண்டும். ஒரே வெளிப்புற ஒற்றுமையின் அடிப்படையில் உயிரியை முதுகுநாணி என அறிவிப்பது போதாது."
+          }
+        },
+        {
+          "key": "notochord",
+          "heading": {
+            "en": "Notochord: development, location and structural roles",
+            "ta": "முதுகுநாணின் வளர்ச்சி, இடம் மற்றும் பணிகள்"
+          },
+          "body": {
+            "en": "The notochord is a mesoderm-derived axial support located ventral to the dorsal nerve cord and dorsal to the alimentary canal. Its cells and extracellular sheath form a flexible longitudinal rod that resists compression and supports body movements. In lancelets it remains a conspicuous adult structure; in tunicate tadpole larvae it is limited largely to the tail and is lost during settlement. In vertebrates it contributes to early body organisation, especially signalling that influences neural and vertebral development; the mature axial skeleton usually supersedes most of its mechanical role. Some mammals retain notochordal derivatives or remnants in the intervertebral-disc region. The notochord is not itself a vertebral column: the two structures differ in tissue origin and organisation. The stomochord of Balanoglossus is an anterior digestive diverticulum and must not be labelled an equivalent true notochord. In histological diagrams, label notochord cells and sheath distinctly from the neural tube.",
+            "ta": "முதுகுநாண் நடுத்தோல் தோற்றமுடைய நீளமான நெகிழ்வான ஆதரவுக் கம்பியாகும். இது முதுகுப்புற நரம்புக் குழாய்க்குக் கீழும் உணவுப்பாதைக்குமேலும் அமைந்துள்ளது. ஆம்பியாக்சஸில் முதிர்நிலையிலும் தெளிவாக நீடிக்கும்; அசிடியாவின் தலைப்பிரட்டைப் போன்ற இளநிலையில் வாலில் இருந்து உருவமாற்றத்தின் போது மறைகிறது. முதுகெலும்பிக் கருவில் உடல் அச்சு அமைப்பையும் நரம்பு வளர்ச்சியையும் கட்டுப்படுத்தும் சைகைகளை வழங்குகிறது. முதுகுநாண், முதுகெலும்புத் தொடர் இரண்டும் ஒரே அமைப்பு அல்ல. பலனோகிளாஸஸின் ஸ்டோமோகார்டை உண்மையான முதுகுநாணாகக் குறிக்கக் கூடாது. வெட்டுப்படத்தில் முதுகுநாணின் செல்களையும் அதைச் சுற்றிய உறையையும் நரம்புக் குழாயிலிருந்து வேறுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "neural-tube",
+          "heading": {
+            "en": "Dorsal hollow nerve cord and central nervous system",
+            "ta": "முதுகுப்புறக் குழாய்நரம்பு அமைப்பும் மைய நரம்பு மண்டலமும்"
+          },
+          "body": {
+            "en": "The chordate dorsal nerve cord develops from specialised ectoderm and forms a hollow neural tube, positioned above the notochord. In vertebrates, its anterior region expands into the brain and its posterior portion becomes the spinal cord. Neural patterning reflects interactions between ectoderm, notochord and surrounding embryonic tissues. Tunicate larvae show a simpler dorsal nerve structure, while lancelets exhibit a dorsal neural tube with anterior sensory regions but no vertebrate cranium. A dorsal nerve tube should not be equated with the ventral solid longitudinal nerves of many protostome animals. Some hemichordates possess a localised collar cord, yet its exact correspondence with chordate neurulation remains a question of homology rather than proof of direct ancestry. A clear teaching figure shows transverse orientation: dorsal neural tube, supporting notochord below, and gut ventrally. The mere presence of nervous tissue dorsally does not, without other evidence, establish chordate identity.",
+            "ta": "முதுகுப்புறக் குழாய் நரம்புநாண் சிறப்புப் பெற்ற புறத்தோலிலிருந்து உருவாகிறது. இது முதுகுநாணுக்கு மேலாக அமைந்துள்ள குழாய் வடிவ நரம்பு அமைப்பாகும். முதுகெலும்பிகளில் அதன் முன்பகுதி மூளையாகவும் பின்ன்பகுதி தண்டுவடமாகவும் வேறுபடுகிறது. டியூனிகேட்டா இளநிலையில் எளிய நரம்புக் குழாயும் ஆம்பியாக்சஸில் முன்புற உணர்வுப் பகுதிகளுடன் கூடிய நரம்புக் குழாயும் காணப்படுகின்றன. பல புரோட்டோஸ்டோமிய உயிரிகளில் காணப்படும் வயிற்றுப்புறத் திட நரம்புநாணுடன் இதைக் குழப்பக் கூடாது. குறுக்கு வெட்டுப்படத்தில் மேலே நரம்புக் குழாய், அதன் கீழே முதுகுநாண், அதற்குக் கீழே உணவுப்பாதை எனக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "pharyngeal-endostyle",
+          "heading": {
+            "en": "Pharyngeal slits, endostyle and thyroid homology",
+            "ta": "தொண்டைப் பிளவுகள், எண்டோஸ்டைல் மற்றும் தைராய்டு உறவு"
+          },
+          "body": {
+            "en": "Pharyngeal slits are openings or developmental pouches associated with the anterior alimentary tract, and their function varies greatly across lineages. In tunicates and lancelets they participate predominantly in ciliary suspension feeding; in many fishes they are associated with gill structures for respiration. In tetrapod embryos pharyngeal arches and pouches contribute to complex craniofacial, ear, glandular and vascular structures rather than remaining open gill passages. The endostyle is a mucus-secreting ciliated groove involved in food collection in many non-vertebrate chordates and lamprey larvae. The thyroid gland of vertebrates is regarded as homologous to the endostyle, linked by developmental and biochemical evidence. It is misleading to state that adult humans develop functioning gill slits or that the ancestral endostyle remains a digestive organ in all vertebrates. Diagram captions should identify the structure's role in the particular stage and species represented.",
+            "ta": "தொண்டைப் பிளவுகள் முன்புற உணவுப்பாதை சார்ந்த அமைப்புகளாகும். அசிடியா, ஆம்பியாக்சஸில் நீரில் உள்ள உணவுத் துகள்களை வடிகட்ட உதவுகின்றன. பல மீன்களில் செவுள் சுவாசத்துடன் தொடர்புடையவை. நிலவாழ் முதுகெலும்பிக் கருவில் தொண்டை வளைவுகள் தலை, கழுத்து உறுப்புகள் வளர்ச்சிக்கு பங்களிக்கின்றன; மனிதனில் செயல்படும் செவுள் பிளவுகள் உள்ளன என்று கூறுவது தவறு. எண்டோஸ்டைல் சளிச்சுரப்பும் நுண்மயிர்ச் செயலும் கொண்ட உணவுத் துகள் சேகரிப்பு அமைப்பாகும். அதன் வளர்ச்சியியல் உறவு முதுகெலும்பிகளின் தைராய்டு சுரப்பியுடன் தொடர்புடையதாகக் கருதப்படுகிறது. ஒரே உறுப்பின் பணி வளர்ச்சிநிலைகளுக்கு ஏற்ப மாறக்கூடும் என்பதைப் படத்தில் விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "postanal-tail-and-segmentation",
+          "heading": {
+            "en": "Post-anal tail, body segmentation and musculature",
+            "ta": "குதத்திற்குப் பின்னுள்ள வால், உடற்பிரிவுகள் மற்றும் தசைகள்"
+          },
+          "body": {
+            "en": "A post-anal tail is an extension of the body axis beyond the anus, supported by axial tissues and musculature in the life stages where it is present. Lancelets and many fishes use it in locomotion, while the tunicate larva uses its muscular tail for dispersal before settlement. Mammalian embryos form a tail region, though its postnatal expression varies widely. Segmentally repeated myomeres are prominent in lancelets and fishes and organise lateral undulatory movement. Vertebrate axial segmentation has additional skeletal, neural and muscular consequences through somite development. The presence of a tail alone is not diagnostic: many non-chordates have posterior appendages that are not homologous chordate post-anal tails. In visual comparisons note the position of the anus and continuity of the axial notochord or spine. Avoid teaching segmentation as absent in all tunicates or perfectly identical across all adult chordate bodies; developmental origin is more informative than surface appearance.",
+            "ta": "குதத்திற்குப் பின்னுள்ள வால் என்பது குதத்திற்கு அப்பால் நீளும் உடல் அச்சுப் பகுதியாகும். ஆம்பியாக்சஸ், பல மீன்களில் இது நீந்துவதற்கு உதவுகிறது; அசிடியா இளநிலையில் இடப்பெயர்ச்சிக்குப் பயன்பட்டு பின்னர் மறைகிறது. பாலூட்டிகளின் கருவிலும் வால் பகுதி தோன்றலாம்; முதிர்நிலையில் அதன் வெளிப்பாடு வேறுபடும். ஆம்பியாக்சஸ், மீன்களில் மையோமியர்கள் எனப்படும் பிரிவுபட்ட தசைகள் பக்கவாட்டு உடல் இயக்கத்தை உருவாக்குகின்றன. வெளிப்புறத்தில் வால் இருப்பது மட்டும் முதுகுநாணி அடையாளம் அல்ல. குதத்தின் இடம், வாலின் அச்சு ஆதரவு, தசைப் பிரிவுகளின் தோற்றம் ஆகியவற்றைச் சேர்த்து ஆராய வேண்டும். பல்வேறு முதுகுநாணிகளில் உடற்பிரிவுகள் ஒரே வடிவில் வெளிப்படுவதில்லை."
+          }
+        },
+        {
+          "key": "invertebrate-chordate-contrasts",
+          "heading": {
+            "en": "Tunicates versus cephalochordates: adult and larval contrasts",
+            "ta": "டியூனிகேட்டா மற்றும் செஃபலோகார்டேட்டா: இளநிலை, முதிர்நிலை வேறுபாடுகள்"
+          },
+          "body": {
+            "en": "Tunicates include sessile and pelagic forms, often with a cellulose-related tunic, a large filtering pharynx and distinctive metamorphosis. Their swimming larvae may reveal the chordate axial arrangement more obviously than their adults do. Cephalochordates are slender marine burrowers that retain notochord, dorsal hollow nerve cord, segmented musculature and post-anal tail throughout adulthood. Both are non-vertebrate chordates, but their adult forms represent divergent ecological strategies rather than primitive and advanced steps on one scale. The tunicate lineage is inferred to be closer to vertebrates than lancelets are, despite the lancelet's stronger adult external resemblance to a generic vertebrate. Students should label incurrent siphon, excurrent siphon and atrial chamber in an ascidian; oral cirri, metapleural folds and atriopore in amphioxus. Do not interchange the ascidian excurrent siphon with the amphioxus atriopore simply because both release filtered seawater.",
+            "ta": "டியூனிகேட்டா குழுவில் நிலையாக ஒட்டிவாழும் அசிடியாவும் நீரில் மிதந்து வாழும் வகைகளும் உள்ளன. உடலைச் சுற்றிய டியூனிக், பெரிய வடிகட்டும் தொண்டை, உருவமாற்றம் போன்றவை முக்கியம். செஃபலோகார்டேட்டா குழுவைச் சேர்ந்த ஆம்பியாக்சஸ் மணலில் புதைந்து வாழ்ந்து முதிர்நிலையிலும் முதுகுநாண், குழாய் நரம்புநாண், வால் ஆகியவற்றைத் தக்கவைக்கிறது. இவை எளிய நிலையிலிருந்து மேலான நிலைக்கு செல்லும் நேர்கோட்டு படிகள் அல்ல; தனித்த தகவமைப்புகள் உடைய உறவுக் குழுக்கள். அசிடியாவில் நீர் உள்ளே செல்லும், வெளியேறும் சைபன்களையும் ஆம்பியாக்சஸில் வாய்ச் சிறுமுளைகள், மெட்டாப்ளூரல் மடிப்புகள், ஏட்ரியோபோர் ஆகியவற்றையும் வேறுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "vertebrate-contrast",
+          "heading": {
+            "en": "Craniates, vertebrae and the emergence of complex heads",
+            "ta": "தலையோடு உடைய குழுக்கள், முதுகெலும்புகள் மற்றும் தலை வளர்ச்சி"
+          },
+          "body": {
+            "en": "Vertebrates possess a cranium protecting the brain and specialised sensory organs, complex neural crest derivatives and a vertebrate-style head with major paired sense capsules. Many possess bony or cartilaginous vertebral elements surrounding the embryonic notochord and neural tissues. However, the classification of hagfish exposes a limitation of defining Vertebrata only by fully developed vertebrae: hagfish are craniates, and genomic evidence places them with lampreys in Cyclostomata, closely related to jawed vertebrates. The jawed vertebrate lineage later diversified into cartilaginous and bony branches, and the bony lineage includes tetrapods. The expression 'higher chordates' is historically common but biologically misleading; use cranial, vertebral and developmental characters instead. A comparative chart should separate cranium, jaws, mineralised skeleton and limbs into distinct characters so students do not assume they evolved as one package at one moment.",
+            "ta": "முதுகெலும்பிகளில் மூளையைப் பாதுகாக்கும் தலையோடும் சிறப்புற்ற உணர்வு உறுப்புகளும் காணப்படுகின்றன. நியூரல் க்ரெஸ்ட் செல்களிலிருந்து பல தனித்த தலை, நரம்பு அமைப்புகள் உருவாகின்றன. பெரும்பாலான குழுக்களில் முதுகெலும்புக் கூறுகள் வளர்கின்றன. ஆனால் ஹேக்ஃபிஷ் குழுவில் முழுமையான முதுகெலும்புகள் இல்லாததால் முதுகெலும்பை மட்டும் வரையறையாகக் கொண்டால் வகைப்பாட்டுச் சிக்கல் ஏற்படும். மூலக்கூறு ஆய்வுகள் ஹேக்ஃபிஷ், லாம்ப்ரே இரண்டையும் சைக்ளோஸ்டோமாட்டா உறவுக் குழுவில் வைக்கின்றன. தலையோடு, தாடை, கனிம எலும்பு, கால்கள் போன்ற பண்புகள் ஒரே நேரத்தில் தோன்றியவை அல்ல. உயர்ந்த, தாழ்ந்த முதுகுநாணிகள் என்ற வரிசைமுறைக்குப் பதிலாகத் தெளிவான உடற்கூறு பண்புகளைப் பயன்படுத்த வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e: Chordata key features",
+          "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        },
+        {
+          "label": "Deuterostome Ancestors and Chordate Origins (2024)",
+          "url": "https://academic.oup.com/icb/article/64/5/1175/7727798"
+        }
+      ]
+    },
+    {
+      "id": "hemichordata-balanoglossus-undergraduate",
+      "topicId": "u1-hemichordata",
+      "title": {
+        "en": "Hemichordata and Balanoglossus — organisation, development and affinities",
+        "ta": "ஹெமிகார்டேட்டா மற்றும் பலனோகிளாஸஸ் — உடலமைப்பு, வளர்ச்சி, உறவுகள்"
+      },
+      "sections": [
+        {
+          "key": "classification-and-three-regions",
+          "heading": {
+            "en": "Modern classification and three-part body organisation",
+            "ta": "நவீன வகைப்பாடும் மூன்று உடற்பகுதிகளும்"
+          },
+          "body": {
+            "en": "Balanoglossus is a marine acorn worm belonging to phylum Hemichordata and class Enteropneusta. Hemichordates are deuterostomes allied with echinoderms in Ambulacraria, not a subphylum of Chordata despite their historical name. The worm-like body has three externally recognisable parts: an anterior muscular proboscis, a short collar and an elongated trunk. The proboscis helps burrowing and manipulating sediment, while the trunk houses most digestive, branchial and reproductive structures. The epidermis is ciliated and glandular, maintaining a mucus-covered surface useful during movement and feeding. The animals inhabit marine sediments and can influence bioturbation and nutrient cycling. Students must identify proboscis, collar, trunk and branchial region from a specimen rather than draw the animal as an ordinary earthworm with a segmented clitellum. The tripartite organisation is a crucial identification character, but no adult acorn worm should be labelled an actual ancestor of living vertebrates.",
+            "ta": "பலனோகிளாஸஸ் (Balanoglossus) கடலில் மணற்பகுதியில் வாழும் ஏகோர்ன் புழு. இது ஹெமிகார்டேட்டா தொகுதியின் என்டெரோப்னூஸ்டா வகுப்பைச் சேர்ந்தது. ஹெமிகார்டேட்டா முதுகுநாணிகளின் துணைத்தொகுதி அல்ல; எக்கைனோடெர்மேட்டாவுடன் அம்புலாக்ராரியா உறவுக் குழுவில் இடம் பெறுகிறது. உடல் முன்புற புரோபாஸ்சிஸ் (proboscis), குறுகிய காலர் (collar), நீண்ட உடற்பகுதி (trunk) என்று மூன்றாகப் பிரிகிறது. முன்புறப் பகுதி மணலில் புதையவும் உணவுத் துகள்களை கையாளவும் உதவுகிறது. நுண்மயிர்களும் சளிச்சுரப்பும் கொண்ட மேற்தோல் இயக்கத்திற்குப் பயன்படுகிறது. பலனோகிளாஸஸை வளையப்புழுவைப் போன்று வெளிப்புற உடற்பிரிவுகளுடன் வரையக் கூடாது. மூன்று பகுதிகளின் வடிவமே அடையாளத்தின் முக்கிய அடிப்படை."
+          }
+        },
+        {
+          "key": "coelom-and-stomochord",
+          "heading": {
+            "en": "Coelomic compartments and the stomochord problem",
+            "ta": "உடற்குழிப் பிரிவுகளும் ஸ்டோமோகார்டின் இயல்பும்"
+          },
+          "body": {
+            "en": "The body contains compartmentalised coelomic cavities commonly described as protocoel within the proboscis, paired mesocoels in the collar and paired metacoels in the trunk. Their arrangement is important in comparative deuterostome development. A forward extension of the buccal region, the stomochord, projects into the proboscis and historically led to the claim that hemichordates possess a notochord. Comparative embryology and molecular evidence do not support treating the stomochord as homologous to the chordate mesodermal notochord. The stomochord is therefore not a short 'true notochord' and must not be coloured or labelled as such in a university diagram. The proboscis skeleton and associated circulatory complex have specific structural relations distinct from a vertebrate axial skeleton. In a transverse or sagittal section, mark the proboscis coelom, buccal diverticulum, collar and trunk cavities separately and avoid collapsing their origins into one simple hollow tube.",
+            "ta": "பலனோகிளாஸஸில் உடற்குழி மூன்று பகுதிகளோடு தொடர்புடையதாகப் பிரிகிறது. முன்புற புரோட்டோசீல், காலரிலுள்ள மெசோசீல்கள், உடற்பகுதியிலுள்ள மெட்டாசீல்கள் ஆகியவை ஒப்பீட்டுக் கருவளர்ச்சியில் முக்கியமானவை. வாய்ப்பகுதியிலிருந்து முன்புறம் நீளும் ஸ்டோமோகார்ட் (stomochord) காரணமாக பழைய நூல்கள் இதை முதுகுநாணுடன் ஒப்பிட்டன. ஆனால் வளர்ச்சித் தோற்றம் மற்றும் மூலக்கூறு சான்றுகள் இதை உண்மையான முதுகுநாணின் ஒத்த உறுப்பாக ஏற்கவில்லை. படத்தில் ஸ்டோமோகார்டை 'நோட்டோகார்டு' என்று பெயரிடக் கூடாது. புரோபாஸ்சிஸ், காலர், உடற்பகுதி உடற்குழிகளைத் தனித்தனியாகக் காட்டுவதன் மூலம் மூன்று பகுதி அமைப்பை மாணவர்கள் புரிந்துகொள்ளலாம்."
+          }
+        },
+        {
+          "key": "gill-slits-and-feeding",
+          "heading": {
+            "en": "Branchial apparatus, ciliary feeding and digestion",
+            "ta": "செவுள் பிளவுகள், நுண்மயிர் உணவுபிடித்தல் மற்றும் செரிமானம்"
+          },
+          "body": {
+            "en": "The anterior trunk includes a pharyngeal branchial region with paired gill openings supported by branchial bars; water passing through the pharynx can leave through these slits. This pharyngotremy is an important character shared with chordates and supports a deeper deuterostome ancestral relationship. The animal feeds on organic material from sediment and suspended particles, with mucus and ciliary action helping collect and transport food. Food enters the mouth between proboscis and collar, passes through the pharynx, oesophagus and intestine and exits through a terminal anus. Some forms exhibit hepatic sacculations in the digestive region. The exact balance of deposit and suspension feeding varies among enteropneust species and habitats. A teaching figure must keep external gill pores distinct from internal pharyngeal slits; the gill slits are not homologous to a fish's complete gill with vascular filaments in every detail. Label mouth, pharynx, slits, intestine and anus in correct sequence.",
+            "ta": "உடற்பகுதியின் முன்புறத்தில் தொண்டைச் செவுள் பிளவுகள் அமைந்துள்ளன. நீர் தொண்டை வழியாகச் சென்று பிளவுகளின் மூலம் வெளியேறக்கூடும். தொண்டைப் பிளவுகள் முதுகுநாணிகளுடனான ஆழமான பரிணாம உறவைக் காட்டும் முக்கிய பண்பாகும். மணலில் உள்ள கரிமத் துகள்களையும் நீரில் மிதக்கும் உணவுத் துகள்களையும் சளி மற்றும் நுண்மயிர் இயக்கம் உதவியுடன் சேகரிக்கிறது. வாய் புரோபாஸ்சிஸ், காலர் சந்திப்பில் அமைந்து தொண்டை, உணவுக்குழல், குடல் வழியாக இறுதிக் குதத்துடன் தொடர்கிறது. உட்கருவிலுள்ள செவுள் பிளவுகளையும் வெளியில் தெரியும் செவுள் துளைகளையும் வேறுபடுத்திக் காட்ட வேண்டும். மீனின் முழுமையான செவுள் அமைப்பை பலனோகிளாஸஸில் அப்படியே பொருத்தக் கூடாது."
+          }
+        },
+        {
+          "key": "circulation-excretion-nerves",
+          "heading": {
+            "en": "Blood system, excretion and epidermal nervous organisation",
+            "ta": "இரத்த ஓட்டம், கழிவுநீக்கம் மற்றும் மேற்தோல் நரம்பமைப்பு"
+          },
+          "body": {
+            "en": "Hemichordate circulation features longitudinal vessels and a proboscis-associated heart–glomerulus complex rather than the muscular four-chambered pump of a mammal. Fluid movement and the precise vessel pattern differ among taxa. An excretory region associated with the proboscis complex participates in removal of soluble wastes. Nervous tissue is extensively associated with the epidermis, with dorsal and ventral nerve tracts and a locally tubular collar cord in some enteropneusts. The collar cord's evolutionary homology with a chordate dorsal neural tube remains an active comparative question; the mere presence of a dorsal tract is not proof of a vertebrate spinal cord. Sensory cells help detect the environment during burrowing. In sectional anatomy label blood sinuses, dorsal or ventral vessels, proboscis complex and nerve tracts according to the specimen, and distinguish organ-system descriptions established for Balanoglossus from broad extrapolations across the entire phylum.",
+            "ta": "பலனோகிளாஸஸில் நீளமான இரத்தநாளங்களும் முன்புற புரோபாஸ்சிஸ் பகுதியுடன் தொடர்புடைய இதய–குளோமெருலஸ் அமைப்பும் காணப்படுகின்றன. இது பாலூட்டியின் நான்கு அறை இதயம் போன்ற அமைப்பு அல்ல. புரோபாஸ்சிஸ் சார்ந்த பகுதி கரைபொருள் கழிவுகளை நீக்க உதவுகிறது. நரம்புச் செல்கள் மேற்தோலோடு தொடர்புடையதாக பரவியுள்ளன; முதுகுப்புற, வயிற்றுப்புற நரம்புப் பாதைகள் மற்றும் சில வகைகளில் காலர் நரம்புக் குழாய் காணப்படும். காலர் நரம்புக் குழாய் முதுகுநாணிகளின் நரம்புக் குழாய்க்கு முழுமையாக ஒத்ததா என்பது ஒப்பீட்டு ஆய்விற்குரியது. வெளிப்புறத்தில் நரம்புத்திசு காணப்படுவதால் மட்டும் முதுகெலும்பித் தண்டுவடம் உள்ளது என்று அறிவிக்க முடியாது."
+          }
+        },
+        {
+          "key": "sexual-reproduction-tornaria",
+          "heading": {
+            "en": "Sexual reproduction, tornaria larva and metamorphosis",
+            "ta": "பாலினப் பெருக்கம், டோர்னேரியா இளநிலை மற்றும் உருவமாற்றம்"
+          },
+          "body": {
+            "en": "Many enteropneusts have separate sexes and release gametes into seawater, where fertilisation and development may occur externally. A number of species develop via a planktonic tornaria larva, whose ciliary bands and body organisation show instructive similarities with echinoderm larvae; other enteropneusts develop more directly. The larval stage feeds and disperses before settlement and reorganisation into the worm-like juvenile. It is inaccurate to present a tornaria larva as obligatory for every hemichordate species. The arrangement of apical sensory structures, ciliary bands, gut and coelomic rudiments helps compare ambulacrarian developmental patterns. In a life-cycle illustration show separate adults, gametes, early embryo, tornaria where applicable, settlement and juvenile. Do not confuse tornaria with a tunicate tadpole: the latter possesses a tail notochord and chordate larval body plan, whereas tornaria has an echinoderm-like ciliated planktonic organisation.",
+            "ta": "பல என்டெரோப்னூஸ்டா வகைகளில் ஆண், பெண் தனித்தனியாக இருந்து இனச்செல்கள் கடல்நீரில் வெளியிடப்படுகின்றன. சிலவற்றில் வெளிக்கருவுறுதலுக்குப் பின் டோர்னேரியா (tornaria) என்னும் மிதவை இளநிலை தோன்றும். அதன் நுண்மயிர் பட்டைகள், உணவுப்பாதை அமைப்பு ஆகியவை எக்கைனோடெர்ம்களின் இளநிலைகளுடன் ஒப்பிடப்படுகின்றன. பின்னர் இளநிலை அடித்தளத்தில் அமர்ந்து புழு வடிவ இளவுயிரியாக மாறுகிறது. எல்லா ஹெமிகார்டேட்டா இனங்களிலும் டோர்னேரியா கட்டாயமாகத் தோன்றும் என்று கூறுவது தவறு; நேரடி வளர்ச்சியும் காணப்படுகிறது. டோர்னேரியாவையும் அசிடியாவின் முதுகுநாணுள்ள தலைப்பிரட்டைப் போன்ற இளநிலையையும் குழப்பக் கூடாது. வாழ்க்கைச் சுழற்சிப் படத்தில் கருவுறுதல், இளநிலை, அமர்தல், உருவமாற்றம் ஆகியவற்றைச் சரியான வரிசையில் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "phylogenetic-affinities",
+          "heading": {
+            "en": "Affinities with echinoderms and chordates: evidence appraisal",
+            "ta": "எக்கைனோடெர்ம்கள், முதுகுநாணிகள் ஆகியவற்றுடனான உறவுச் சான்றுகள்"
+          },
+          "body": {
+            "en": "Hemichordates share deuterostome developmental features and pharyngeal openings with chordates, while larval organisation and genome-scale analyses place them with echinoderms inside Ambulacraria. The older textbook phrase 'connecting link between non-chordates and chordates' may suggest a misleading evolutionary staircase. A more accurate formulation is that living hemichordates illuminate traits inherited from a shared deuterostome ancestor and independently modified thereafter. The stomochord–notochord comparison illustrates why anatomical homology must be tested with embryonic origin, genetic networks and phylogenetic distribution. Students can compare Balanoglossus proboscis–collar–trunk organisation with an echinoderm larva and an amphioxus adult, scoring gill slits, coelomic compartments, axial rod and neural architecture separately. Classify the animal as Hemichordata, not Chordata, in the final observation record. This corrected phylogenetic placement should be explicit even when the prescribed syllabus retains a historic 'protochordate' chapter heading.",
+            "ta": "ஹெமிகார்டேட்டா, முதுகுநாணிகள் இரண்டிலும் தொண்டைப் பிளவுகள் போன்ற சில பொதுப்பண்புகள் உள்ளன. ஆனால் இளநிலை வளர்ச்சியும் மரபணு உறவாய்வும் ஹெமிகார்டேட்டாவை எக்கைனோடெர்மேட்டாவுடன் நெருங்கிய குழுவாகக் காட்டுகின்றன. 'முதுகுநாணிகளுக்கும் முதுகுநாணற்றவைகளுக்கும் இடையிலான நேரடி இணைப்பு' என்ற பழைய சொற்றொடர் தவறான பரிணாமப் படிக்கட்டு எண்ணத்தை ஏற்படுத்தலாம். பலனோகிளாஸஸ் பொதுமூதாதையின் சில பண்புகளை அறிய உதவும் வாழும் உறவுக் கிளையாகும். ஸ்டோமோகார்ட், முதுகுநாண் இரண்டின் வளர்ச்சித் தோற்றம், மரபணுச் சான்று, இடம் ஆகியவற்றை ஒப்பிட வேண்டும். செய்முறையில் பலனோகிளாஸஸை ஹெமிகார்டேட்டா தொகுதியிலேயே பதிவு செய்ய வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Deuterostome Ancestors and Chordate Origins (2024)",
+          "url": "https://academic.oup.com/icb/article/64/5/1175/7727798"
+        },
+        {
+          "label": "Wiley: Hemichordates — development and stomochord homology",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/9780470015902.a0004110.pub2"
+        },
+        {
+          "label": "IGNOU practical on Balanoglossus and hemichordates",
+          "url": "https://www.egyankosh.ac.in/bitstream/123456789/16631/1/Exercise-22.pdf"
+        }
+      ]
+    },
+    {
+      "id": "urochordata-ascidia-undergraduate",
+      "topicId": "u1-urochordata",
+      "title": {
+        "en": "Urochordata (Tunicata) — detailed Ascidia anatomy and life cycle",
+        "ta": "யூரோகார்டேட்டா (டியூனிகேட்டா) — அசிடியாவின் உடற்கூறும் வாழ்க்கைச் சுழற்சியும்"
+      },
+      "sections": [
+        {
+          "key": "taxonomic-position-and-ecology",
+          "heading": {
+            "en": "Ascidians, classification and benthic habitat",
+            "ta": "அசிடியாவின் வகைப்பாடும் கடலடித் தள வாழிடமும்"
+          },
+          "body": {
+            "en": "Ascidia is a representative genus of sea squirts in Tunicata (also called Urochordata), within the phylum Chordata. Species-level identification requires appropriate specimen characters and locality; many textbook drawings are genus-level composites. Ascidians live attached to rocks, pilings, shells and other marine substrates, often in coastal waters. Their sessile adult bodies are sac-like and specialise in filtering suspended microorganisms and organic particles from seawater. A tough outer covering, the tunic, protects the body and contains tunicin, a cellulose-related structural material unusual among animals. Because their adult appearance lacks a conspicuous backbone or tail, their chordate identity is revealed most clearly by embryology and the free-swimming larval phase. Not all tunicates are permanently attached: salps, appendicularians and other pelagic tunicates have distinct lifestyles. A type-study plate must label the body wall and two siphons accurately, rather than present every tunicate as a fixed sac.",
+            "ta": "அசிடியா (Ascidia) யூரோகார்டேட்டா அல்லது டியூனிகேட்டா துணைத்தொகுதியைச் சேர்ந்த கடல்வாழ் முதுகுநாணியாகும். பெரும்பாலான அசிடியா உயிரிகள் பாறைகள், சிப்பிகள், கடலடிப் பொருள்களுடன் ஒட்டிவாழ்கின்றன. முதிர்ந்த உடல் பை போன்ற வடிவில் இருந்து கடல்நீரில் உள்ள நுண்ணுயிரிகளையும் உணவுத் துகள்களையும் வடிகட்டுகிறது. உடலைச் சூழ்ந்த டியூனிக் (tunic) எனும் உறையில் டியூனிசின் என்னும் செலுலோஸ் தொடர்புடைய பொருள் உள்ளது. முதிர்நிலையில் வால், முதுகுநாண் வெளிப்படாததால் இளநிலையின் உடற்கூறை வைத்து முதுகுநாணித் தன்மையை அறிகிறோம். அனைத்துத் டியூனிகேட்டாக்களும் நிலையாக ஒட்டிவாழும் என்று கூற முடியாது; நீரில் மிதக்கும் வகைகளும் உள்ளன."
+          }
+        },
+        {
+          "key": "tunic-test-mantle-siphons",
+          "heading": {
+            "en": "Tunic, mantle, branchial siphon and atrial siphon",
+            "ta": "டியூனிக், மேன்டில், உள்வாங்கும் மற்றும் வெளியேற்றும் சைபன்கள்"
+          },
+          "body": {
+            "en": "The tunic forms the external protective test, while the mantle is the living body wall underlying it. Two conspicuous siphons usually open to the surrounding water. The oral or branchial siphon is the incurrent opening that admits water and suspended food particles; the atrial siphon is the excurrent opening that expels filtered water and material discharged into the atrial cavity. Muscular contraction can force water out, giving sea squirts their common name. Sensory elements at the siphonal margins help detect disturbances. Inside the tunic the mantle supports the branchial basket and visceral mass. Siphon positions can vary across species, and diagrams should not reverse their roles or show digestive food moving through the atrial siphon as if it were the mouth. A sectional drawing should distinguish external test, mantle, branchial chamber, peribranchial cavity and two siphonal lumina, with directional arrows for water flow.",
+            "ta": "டியூனிக் என்பது வெளிப்புறப் பாதுகாப்பு உறை; அதன் உள்ளே உயிருள்ள மேன்டில் (mantle) உடற்சுவர் உள்ளது. வாய்ச் சைபன் அல்லது பிராங்கியல் சைபன் வழியாக நீரும் உணவுத் துகள்களும் உள்ளே செல்கின்றன. ஏட்ரியல் சைபன் வழியாக வடிகட்டப்பட்ட நீரும் வெளியேற்றப் பொருள்களும் வெளியேறுகின்றன. தசைகள் சுருங்கும்போது நீர் திடீரென வெளியேறுவதால் 'சீ ஸ்குவிர்ட்' என்ற பொதுப்பெயர் ஏற்பட்டது. உடலுக்குள் பெரும் தொண்டைக் கூடை, உள்ளுறுப்பு தொகுப்பு ஆகியவை அமைந்துள்ளன. படத்தில் வெளி டியூனிக், மேன்டில், உள்வாங்கும் சைபன், வெளியேற்றும் சைபன், ஏட்ரியல் அறை ஆகியவற்றைத் தெளிவாகக் காட்ட வேண்டும். நீரின் ஓட்டத் திசைகளைக் கலக்கக் கூடாது."
+          }
+        },
+        {
+          "key": "branchial-basket-and-filter-feeding",
+          "heading": {
+            "en": "Branchial basket, stigmata, endostyle and food capture",
+            "ta": "தொண்டைக் கூடை, ஸ்டிக்மாட்டா, எண்டோஸ்டைல் மற்றும் உணவு வடிகட்டல்"
+          },
+          "body": {
+            "en": "Water entering through the oral siphon reaches a large pharyngeal branchial basket perforated by numerous small openings called stigmata. Ciliary beating moves water across the basket walls into the surrounding atrial or peribranchial cavity. The endostyle, a mucus-secreting groove along the ventral pharynx, produces a sheet that traps food particles. Ciliary currents then transport the mucus–food complex to the dorsal lamina and oesophagus, while relatively particle-depleted water leaves through the atrial siphon. The digestive tract continues through stomach and intestine; faeces pass into the atrial cavity before leaving the body. The stigmata are filtering openings, not vertebrate gills with identical vascular organisation. A diagram should show two distinct pathways: a water path from oral to atrial siphon and a food path toward the stomach. Explain endostyle–thyroid homology without pretending that adult ascidians possess a vertebrate thyroid gland.",
+            "ta": "வாய்ச் சைபன் வழியாக நுழையும் நீர் பல சிறு ஸ்டிக்மாட்டா துளைகளையுடைய தொண்டைக் கூடையை அடைகிறது. நுண்மயிர்களின் அசைவால் நீர் துளைகள் வழியாக ஏட்ரியல் அறைக்கு செல்கிறது. தொண்டையின் வயிற்றுப்புறத்தில் உள்ள எண்டோஸ்டைல் சளியைச் சுரந்து உணவுத் துகள்களைப் பிடிக்கிறது. நுண்மயிர் இயக்கம் சளியுடன் கூடிய உணவை உணவுக்குழலுக்கும் பின்னர் இரைப்பைக்கும் கொண்டு செல்கிறது. வடிகட்டப்பட்ட நீர் ஏட்ரியல் சைபன் வழியாக வெளியேறுகிறது. ஸ்டிக்மாட்டா துளைகளை மீனின் முழுமையான சுவாசச் செவுள்களாகக் கருதக் கூடாது. படத்தில் நீரின் பாதையும் உணவின் பாதையும் வேறுபட்ட அம்புகளால் காட்டப்பட வேண்டும். எண்டோஸ்டைல், முதுகெலும்பிகளின் தைராய்டுடன் பரிணாம உறவு கொண்டது என்பதை விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "digestion-circulation-excretion",
+          "heading": {
+            "en": "Digestive loop, reversible heartbeat and nitrogenous waste",
+            "ta": "செரிமானச் சுருள், திசைமாறும் இதயத்துடிப்பு மற்றும் கழிவுநீக்கம்"
+          },
+          "body": {
+            "en": "The oesophagus from the branchial basket connects to a stomach and intestinal loop, with the anus opening into the atrial chamber. The adult is a suspension feeder rather than a predator seizing fish-sized prey. Circulatory features include a tubular heart that can periodically reverse its pumping direction in many ascidians; blood-flow patterns differ from the permanently directional four-chambered circulation of mammals. Respiration occurs across the highly exposed internal surfaces supplied by filtered seawater and body tissues. Excretion of soluble nitrogenous wastes involves diffusion and specialised cells or accumulative structures, depending on the tunicate. A vertebrate-like pair of kidneys is not present. Teaching should distinguish demonstrated features of Ascidia from broad claims about every tunicate species. An anatomical plate should locate digestive loop, heart, gut anus and atrial cavity without placing the anus outside the excurrent chamber or inventing vertebrate nephron structures.",
+            "ta": "தொண்டைக் கூடையிலிருந்து உணவுக்குழல் இரைப்பைக்கும் குடல் சுருளுக்கும் செல்கிறது; குதம் ஏட்ரியல் அறையில் திறக்கிறது. இவ்வுயிரி நீரில் உள்ள நுண்துகள்களை வடிகட்டும் உணவுமுறையைக் கொண்டது. பல அசிடியா வகைகளில் குழாய் வடிவ இதயத்தின் துடிப்பு திசை குறிப்பிட்ட இடைவெளிகளில் மாறக்கூடும்; இது பாலூட்டியின் நான்கு அறை இதயத்தின் நிலையான திசை ஓட்டத்திலிருந்து வேறுபடுகிறது. உடற்திசுக்கள், வடிகட்டும் நீர் ஆகியவற்றின் தொடர்பில் வாயுப் பரிமாற்றம் நிகழ்கிறது. கழிவுநீக்கத்திற்கு முதுகெலும்பிகளுக்குரிய இணை சிறுநீரகங்கள் இல்லை; பரவல் மற்றும் சிறப்புச் செல்கள் பங்காற்றுகின்றன. படத்தில் இரைப்பை, குடல், குதம், இதயம், ஏட்ரியல் அறை ஆகியவற்றைத் துல்லியமாகப் பெயரிட வேண்டும்."
+          }
+        },
+        {
+          "key": "tadpole-larva",
+          "heading": {
+            "en": "Tadpole larva: notochord, neural tube and sensory organs",
+            "ta": "தலைப்பிரட்டைப் போன்ற இளநிலை: முதுகுநாண், நரம்புக் குழாய், உணர்வு உறுப்புகள்"
+          },
+          "body": {
+            "en": "A free-swimming ascidian tadpole larva has a trunk containing sensory and attachment structures and a muscular tail. Its tail contains a notochord with a dorsal neural tube and longitudinal muscle cells, making the chordate axial plan readily visible. The larval brain-vesicle region contains sensory structures associated with light and gravity detection, aiding orientation during dispersal and substrate selection. This larva is not an amphibian tadpole: it differs in organ systems, feeding and metamorphic trajectory. The duration and feeding status of tunicate larvae vary among taxa; some lecithotrophic larvae rely on yolk reserves rather than feeding actively. A labelled larval plate should indicate anterior adhesive papillae, cerebral vesicle, sensory structures, nerve cord, notochord and tail musculature. Putting the notochord in the larval head or omitting it from the tail would invalidate the diagram's main educational purpose.",
+            "ta": "அசிடியாவின் சுதந்திரமாக நீந்தும் இளநிலை தலைப்பிரட்டை போன்ற வடிவில் காணப்படுகிறது. உடற்பகுதியில் ஒட்டும் உறுப்புகளும் உணர்வு அமைப்புகளும் உள்ளன; வாலில் முதுகுநாண், அதன் மேலுள்ள குழாய் நரம்புநாண், நீளமான தசைச் செல்கள் உள்ளன. முன்புற மூளைப் பை பகுதியில் ஒளி மற்றும் ஈர்ப்பு உணர்வுகளுடன் தொடர்புடைய அமைப்புகள் இருக்கலாம். இது தவளையின் தலைப்பிரட்டை அல்ல; வாழ்வு முறையும் உருவமாற்றமும் வேறுபடும். இளநிலையின் உணவு முறையும் நீந்தும் காலமும் வகைக்கு ஏற்ப மாறுகின்றன. படத்தில் ஒட்டும் சிறுமுளைகள், மூளைப் பை, உணர்வு அமைப்புகள், வால் முதுகுநாண், நரம்புநாண், தசைகள் ஆகியவற்றைத் தெளிவாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "retrogressive-metamorphosis",
+          "heading": {
+            "en": "Settlement and so-called retrogressive metamorphosis",
+            "ta": "ஒட்டிவாழ்தலும் பின்னோக்கி உருவமாற்றம் என்ற வரலாற்றுச் சொல்லும்"
+          },
+          "body": {
+            "en": "After a suitable attachment site is located, the larva settles, attaches using anterior papillae and undergoes extensive metamorphosis. The tail is resorbed, the larval notochord and much of the larval neural organisation disappear or reorganise, and the feeding pharynx and siphons become dominant. Classical texts call this 'retrogressive metamorphosis' because several conspicuous chordate larval structures are lost. The expression is descriptive, not evidence that the adult evolves backwards or becomes inferior. The adult is highly specialised for sessile suspension feeding and possesses complex functional organisation suited to its habitat. Differences in metamorphosis among tunicates should be acknowledged; a single sequence from one ascidian species need not describe all tunicate development. Diagram panels must show swimming larva, attachment, tail resorption, growth of branchial basket and fully developed adult in correct order. Distinguish larval tail from adult incurrent and excurrent siphons.",
+            "ta": "இளநிலை ஏற்ற மேற்பரப்பைத் தேர்ந்தெடுத்து முன்புற ஒட்டும் சிறுமுளைகள் மூலம் ஒட்டிக்கொள்கிறது. பின்னர் வால் உறிஞ்சப்பட்டு முதுகுநாண், இளநிலை நரம்பமைப்பின் பெரும்பகுதி மறைந்து அல்லது மாற்றமடைந்து பெரிய தொண்டைக் கூடையும் சைபன்களும் வளர்கின்றன. பழைய நூல்களில் இதனை 'பின்னோக்கி உருவமாற்றம்' (retrogressive metamorphosis) என அழைத்தனர். இதனால் முதிர்ந்த அசிடியா பரிணாமத்தில் தாழ்ந்த உயிரியாக மாறுகிறது என்று பொருளல்ல; அது நிலையாக உணவு வடிகட்டும் வாழ்க்கைக்குச் சிறப்பாகத் தகவமைந்தது. வாழ்க்கைச் சுழற்சியில் நீந்தும் இளநிலை, ஒட்டும் நிலை, வால் மறைதல், தொண்டைக் கூடை வளர்ச்சி, முதிர்நிலை ஆகியவற்றைச் சரியான வரிசையில் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "reproduction-and-colonial-diversity",
+          "heading": {
+            "en": "Sexual reproduction, budding and tunicate diversity",
+            "ta": "பாலினப் பெருக்கம், அரும்புதல் மற்றும் டியூனிகேட்டா பன்மை"
+          },
+          "body": {
+            "en": "Many ascidians are simultaneous hermaphrodites, with both male and female reproductive tissues, and commonly release gametes for sexual reproduction. Gamete release, self-fertilisation avoidance and larval dispersal mechanisms vary among species. Some colonial ascidians additionally reproduce asexually by budding, producing connected zooids, but solitary Ascidia should not automatically be illustrated as a colonial budding organism. The tunicate subphylum includes very different pelagic lineages such as salps and appendicularians, illustrating major variation in body organisation and life history. Modern phylogenetic analyses place tunicates closer to vertebrates than lancelets are. Students should recognise asexual budding as a feature of certain groups rather than a necessary stage in every Ascidia life cycle. Draw a separate life-cycle loop for egg, larva and settled adult, and add budding only when the species or colonial group has been explicitly identified.",
+            "ta": "பல அசிடியா வகைகளில் ஒரே உயிரியில் ஆண், பெண் இனப்பெருக்கத் திசுக்கள் காணப்படுகின்றன. இனச்செல்கள் வெளியிடப்பட்டு பாலினப் பெருக்கம் நடைபெறலாம்; கருவுறும் முறை இனத்திற்கேற்ப மாறும். சில கூட்டுயிரி அசிடியா வகைகள் அரும்புதல் மூலம் பாலினமற்ற பெருக்கத்தையும் நிகழ்த்துகின்றன. ஆனால் தனிவாழ் அசிடியாவை கட்டாயமாக அரும்பும் கூட்டுயிரியாக வரைவது தவறு. டியூனிகேட்டா குழுவில் சால்ப்கள், அப்பெண்டிகுலேரியன்கள் போன்ற நீரில் மிதக்கும் வகைகளும் உள்ளன. மூலக்கூறு உறவாய்வில் இந்தத் துணைத்தொகுதி முதுகெலும்பிகளின் நெருங்கிய உறவுக் குழுவாகக் கருதப்படுகிறது. வாழ்க்கைச் சுழற்சிப் படத்தில் இனச்செல், கரு, இளநிலை, ஒட்டிய முதிர்நிலை ஆகியவற்றைத் தெளிவாகப் பிரிக்க வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e: Tunicates",
+          "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        },
+        {
+          "label": "Deuterostome Ancestors and Chordate Origins 2024",
+          "url": "https://academic.oup.com/icb/article/64/5/1175/7727798"
+        }
+      ]
     }
   ]
 }
