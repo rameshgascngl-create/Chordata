@@ -3290,6 +3290,256 @@
           "url": "https://openstax.org/books/biology-2e/pages/29-4-reptiles"
         }
       ]
+    },
+    {
+      "id": "aves-classification-undergraduate",
+      "topicId": "u5-aves-classification",
+      "title": {
+        "en": "Aves — avian characteristics, evolutionary history and modern classification",
+        "ta": "பறவைகள் — பொதுப்பண்புகள், பரிணாம வரலாறு மற்றும் நவீன வகைப்பாடு"
+      },
+      "sections": [
+        {
+          "key": "avian-ancestry",
+          "heading": {
+            "en": "Birds as living theropod dinosaurs",
+            "ta": "வாழும் தெரோபாட் டைனோசர்களாகப் பறவைகள்"
+          },
+          "body": {
+            "en": "Birds form a surviving branch of theropod dinosaurs within Archosauria, a relationship supported by skeletal characters, fossil feathers, nesting evidence and phylogenetic analyses. The Jurassic Archaeopteryx combines toothed jaws, a long bony tail and wing feathers, but is not necessarily the direct ancestor of all living birds. Modern birds belong to the crown group Neornithes, which survived the end-Cretaceous extinction. A classification that separates Aves from traditional Reptilia is convenient for teaching but excludes part of the reptile–bird lineage from its ancestral group. Feathers preceded modern powered flight and served multiple functions, including display, insulation and possibly other behaviours. In a comparative plate, show the theropod forelimb, furcula, hindlimb posture and feathered wing without implying that one individual fossil changed directly into a modern pigeon.",
+            "ta": "பறவைகள் ஆர்கோசாரியா (Archosauria) குழுவிலுள்ள தெரோபாட் டைனோசர் கிளையின் வாழும் வாரிசுகள். எலும்புக்கூடு, இறகுப் புதைபடிவம், முட்டை–கூடு சான்றுகள், மரபுவழி ஆய்வுகள் இதனை ஆதரிக்கின்றன. ஜுராசிக் கால ஆர்க்கியாப்டெரிக்ஸ் (Archaeopteryx) பற்கள், நீண்ட எலும்புவால், இறக்கை இறகுகள் ஆகியவற்றைக் கொண்டிருந்தது; அது எல்லா வாழும் பறவைகளின் நேரடி மூதாதை என்பது நிரூபிக்கப்படவில்லை. நவீன பறவைகள் நியோர்னிதீஸ் (Neornithes) குழுவைச் சார்ந்தவை. இறகுகள் பறப்பிற்காக மட்டுமே முதலில் தோன்றின என்று கூற முடியாது. படத்தில் தெரோபாட் முன்கை, ஃபர்குலா, பின்னங்கால், இறகுகள் ஆகியவற்றின் ஒற்றுமை விளக்கப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "integument-feather",
+          "heading": {
+            "en": "Feather microstructure, integument and body temperature",
+            "ta": "இறகின் நுண்கட்டமைப்பும் தோலும் உடல்வெப்பமும்"
+          },
+          "body": {
+            "en": "Bird feathers are epidermal keratin structures with a central rachis, barbs and often interlocking barbules that create a continuous vane. Contour feathers shape the body surface; remiges form the major wing flight feathers; rectrices are tail feathers; down feathers have loose structures effective for insulation. Not every feather has the same symmetry, and flight-feather asymmetry varies with position and function. Birds are endothermic, maintaining high metabolic heat production and regulating body temperature through insulation, behaviour, evaporative cooling and vascular adjustments. Preening helps maintain plumage, but the uropygial gland is reduced or absent in some species, so it must not be presented as universal. An accurate feather plate should distinguish calamus, rachis, vane, barbs and barbules; a flight feather must not be represented as merely a smooth elongated leaf.",
+            "ta": "பறவைகளின் இறகுகள் கெரட்டின் கொண்ட மேற்தோல் அமைப்புகள். நடுத்தண்டு ராக்கிஸ் (rachis), அதிலிருந்து கிளையும் பார்ப்கள் (barbs), நுண்கிளையான பார்ப்யூல்கள் (barbules) இணைந்து இறகுத் தகட்டை அமைக்கின்றன. உடலை மூடும் இறகுகள், இறக்கையின் பறப்பிறகுகள், வாலிறகுகள், வெப்பத்தைப் பாதுகாக்கும் மென்மையான கீழிறகுகள் ஆகியவை வேறுபடுகின்றன. எல்லா இறகுகளும் ஒரே வடிவம் கொண்டிருக்காது. பறவைகள் உடலுக்குள் வெப்பம் உற்பத்தி செய்து அதை இறகு, நடத்தை, ஆவியாதல் போன்ற முறைகளால் ஒழுங்குபடுத்துகின்றன. வாலடிச் சுரப்பி எல்லாப் பறவைகளிலும் ஒரே அளவில் இருப்பதில்லை. இறகுப் படத்தில் குவில் அடிப்பகுதி, நடுத்தண்டு, கிளைகள், நுண்கிளைகள் தனித்தனியாகக் காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "skeleton-and-circulation",
+          "heading": {
+            "en": "Axial skeleton, flight musculature and cardiovascular physiology",
+            "ta": "எலும்புக்கூடு, பறப்புத் தசைகள் மற்றும் இரத்தச் சுழற்சி"
+          },
+          "body": {
+            "en": "Avian skeletons commonly show fusion of selected vertebrae and pelvic elements, a synsacrum, pygostyle in many modern birds, and a furcula formed by the clavicular elements. The sternum is strongly keeled in many flying species, providing attachment for flight muscles, whereas some flightless groups have different architecture. Pneumatic spaces occur in many bones but their extent varies; not every bird bone is hollow, and skeletal mass reduction is not the sole explanation for flight performance. The four-chambered heart and high-performance circulation support energetic activity. Birds typically retain the right systemic aortic arch and nucleated erythrocytes. An anatomical comparison should identify pectoralis and supracoracoideus actions rather than assigning the upward stroke directly to an imaginary dorsal muscle. Flightless birds also retain avian evolutionary features.",
+            "ta": "பறவைகளின் எலும்புக்கூட்டில் சில முதுகெலும்புகளும் இடுப்புக் கூறுகளும் இணைந்து சின்சேக்ரம் (synsacrum) உருவாகின்றன; பல நவீன பறவைகளில் பிகோஸ்டைல் (pygostyle) காணப்படும். கழுத்துக்கீழ் இணைந்த கழுத்தெலும்புகள் ஃபர்குலா (furcula) ஆகும். பல பறக்கும் இனங்களில் மார்பெலும்பின் கீல் பகுதி பறப்புத் தசைகளுக்கு ஆதாரமாக உள்ளது. எல்லாப் பறவை எலும்புகளும் வெற்றிடமுடையவை அல்ல; எலும்பின் வாயு நிரப்பப்பட்ட பகுதி இனத்திற்கேற்ப மாறும். நான்கு அறை இதயமும் திறமையான இரத்தச் சுழற்சியும் உயர் ஆற்றல் செயல்பாட்டிற்கு உதவுகின்றன. பறப்புத் தசைகளில் பெக்டோராலிஸ், சுப்ராகோரகாய்டியஸ் ஆகியவற்றின் செயல்பாட்டைத் துல்லியமாகக் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "palaeognathae",
+          "heading": {
+            "en": "Palaeognathae: ostriches, emus, kiwis and tinamous",
+            "ta": "பாலியோக்நாதே — நெருப்புக்கோழி, ஈமு, கிவி மற்றும் டினாமு"
+          },
+          "body": {
+            "en": "Palaeognathae is a major living bird lineage characterised by particular palatal and phylogenetic features. It includes ostriches, rheas, emus, cassowaries, kiwis and tinamous, although their relationships and historical biogeography are more complex than older textbook groupings suggested. Most ratites are flightless, but tinamous can fly, demonstrating that Palaeognathae is not synonymous with 'flightless bird'. Forelimb reduction, hindlimb power and body size vary. Flightlessness arose or was retained through complex evolutionary pathways, and similarities among giant running birds do not establish that all descended from a single giant flightless ancestor. A comparative plate should distinguish ostrich, emu and kiwi using body proportions, toe number and head morphology, while treating tinamous as a critical counterexample. Modern classification should prioritise branching ancestry over a simple running-versus-flying division.",
+            "ta": "பாலியோக்நாதே (Palaeognathae) வாழும் பறவைகளின் முக்கிய மரபுக்குழு. நெருப்புக்கோழி, ரியா, ஈமு, கசோவரி, கிவி, டினாமு ஆகியவை இதில் அடங்குகின்றன. பல பெரிய ராட்டைட் பறவைகள் பறக்காதவை; ஆனால் டினாமு பறக்கக்கூடியது. ஆகவே இந்தக் குழுவை முழுவதுமாக ‘பறக்காத பறவைகள்’ என்று வரையறுக்கக்கூடாது. முன்னங்கால்களின் மாற்றம், ஓடும் பின்னங்கால், உடல் அளவு ஆகியவை இனத்துக்கு இனம் மாறுகின்றன. பெரிய ஓடும் பறவைகள் அனைத்தும் ஒரே பெரிய பறக்காத மூதாதையிலிருந்து நேரடியாக வந்தன என்ற பழைய எளிய கருத்து போதாது. உடல்விகிதம், கால்விரல் எண்ணிக்கை, தலை அமைப்பு ஆகியவற்றைப் பயன்படுத்தி ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "neognathae",
+          "heading": {
+            "en": "Neognathae: Galloanserae and Neoaves",
+            "ta": "நியோக்நாதே — காலோஅன்சேரே மற்றும் நியோஏவேஸ்"
+          },
+          "body": {
+            "en": "Neognathae includes most living birds and branches into Galloanserae, containing fowl and waterfowl lineages, and Neoaves, an exceptionally diverse radiation. Galloanserae includes chickens, pheasants, ducks and geese, but similarities in swimming or ground feeding alone do not define the clade. Neoaves includes raptors, owls, parrots, pigeons, shorebirds, passerines and numerous other groups. Traditional classification by beak and foot type sometimes grouped unrelated birds because of ecological convergence; molecular phylogenies have revised many relationships. The term 'perching birds' generally refers to Passeriformes, not every species photographed on a branch. A university classification exercise should use representative families, specify diagnostic characters and show an evolutionary tree rather than treating each feeding adaptation as a separate class. Pigeons, for example, are in Columbiformes, not simply 'granivorous birds'.",
+            "ta": "நியோக்நாதே (Neognathae) குழுவில் பெரும்பாலான நவீன பறவைகள் உள்ளன. இது காலோஅன்சேரே (Galloanserae) மற்றும் நியோஏவேஸ் (Neoaves) எனப் பெரிய கிளைகளாகப் பிரிகிறது. கோழி உறவினர்கள், வாத்துகள் போன்றவை முதலாவது குழுவிலும்; புறா, கிளி, ஆந்தை, இரைபிடிப் பறவை, கரையோரப் பறவை, பாடுபறவை போன்ற பல குழுக்கள் இரண்டாவதிலும் உள்ளன. அலகு அல்லது காலின் வடிவம் மட்டும் உறவை நிர்ணயிக்காது; ஒரே உணவுக்கேற்ற தகவமைப்புகள் வேறு மரபுக்குழுக்களில் உருவாகலாம். Passeriformes என்பது குறிப்பிட்ட வரிசை; மரக்கிளையில் அமரும் ஒவ்வொரு பறவையும் அதில் சேராது. புறா Columbiformes வரிசையைச் சேர்ந்தது."
+          }
+        },
+        {
+          "key": "diversity-and-practical",
+          "heading": {
+            "en": "Avian reproductive biology, classification matrix and conservation",
+            "ta": "பறவைகளின் இனப்பெருக்கம், வகைப்பாட்டு அட்டவணை மற்றும் பாதுகாப்பு"
+          },
+          "body": {
+            "en": "Birds generally exhibit internal fertilisation and lay shelled amniotic eggs, but clutch size, incubation, parental investment and development at hatching vary considerably. Altricial young hatch relatively undeveloped and require substantial provisioning, whereas precocial young are often mobile early; these are comparative developmental categories with intermediate states. Beak and foot shapes illuminate feeding and locomotion but must be interpreted alongside anatomy, genetics and behaviour. A practical identification matrix can record scientific name, order, wing morphology, foot arrangement, bill type, feeding ecology and evidence of parental care. Habitat loss, collision with infrastructure, invasive species, hunting and climate change affect different bird groups. Safe teaching should rely on observation, sound recording and ethically obtained photos instead of collecting eggs or disturbing nests. Distinguish a field observation from an inference about evolutionary relationship.",
+            "ta": "பறவைகளில் பொதுவாக உட்கருத்தரித்தலும் ஓடுடைய அம்னியோட்டிக் முட்டையிடுதலும் காணப்படும். முட்டைகளின் எண்ணிக்கை, அடைகாத்தல், பெற்றோர் பராமரிப்பு, குஞ்சுகளின் வளர்ச்சி ஆகியவை இனத்திற்கேற்ப மாறுகின்றன. ஆல்ட்ரிஷியல் (altricial) குஞ்சுகள் அதிக பராமரிப்பு தேவைப்படுகின்றன; பிரிகோஷியல் (precocial) குஞ்சுகள் முன்கூட்டியே இயங்கும் திறன் பெற்றிருக்கலாம். அலகு, கால்கள், இறக்கை ஆகியவை உணவு மற்றும் இயக்கத் தகவமைப்பை விளக்கினாலும் மரபுவழியை முடிவு செய்ய தனியே போதாது. செய்முறையில் அறிவியல் பெயர், வரிசை, அலகு, கால்விரல் அமைப்பு, வாழிடம், பராமரிப்பு ஆகியவற்றைப் பதிவு செய்ய வேண்டும். களப்பயிற்சிக்காகக் கூடு அல்லது முட்டைகளைத் தொந்தரவு செய்யக் கூடாது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Birds",
+          "url": "https://openstax.org/books/biology-2e/pages/29-5-birds"
+        }
+      ]
+    },
+    {
+      "id": "avian-flight-adaptations-undergraduate",
+      "topicId": "u5-flight-adaptations",
+      "title": {
+        "en": "Flight adaptations of birds — aerodynamics, osteology, muscles and respiratory efficiency",
+        "ta": "பறவைகளின் பறப்புத் தகவமைப்புகள் — காற்றியக்கவியல், எலும்பமைப்பு, தசைகள் மற்றும் சுவாசத் திறன்"
+      },
+      "sections": [
+        {
+          "key": "aerodynamic-forces",
+          "heading": {
+            "en": "Lift, drag, thrust and the aerodynamics of flapping",
+            "ta": "தூக்குவிசை, எதிர்விசை, உந்துவிசை மற்றும் இறக்கையசைவுக் காற்றியக்கவியல்"
+          },
+          "body": {
+            "en": "Bird flight involves interactions among lift, weight, thrust and aerodynamic drag. Air moving around a wing creates pressure differences and downward momentum in the surrounding air; lift is not explained by the false claim that parcels travelling over and under the wing must reunite at the trailing edge simultaneously. Camber, angle of attack, speed, wing area and feather geometry influence aerodynamic forces. During flapping, wings change orientation and shape through the stroke, generating useful forces with unsteady aerodynamics rather than operating as rigid aircraft wings. Gliding requires an adequate airspeed and loss of potential energy unless supported by rising air; soaring can exploit thermals or other atmospheric motion. Wing-loading and aspect-ratio comparisons help explain differences between swifts, eagles and albatrosses. A useful diagram should show lift, weight, thrust and drag vectors with an explicit flight direction and distinguish the downstroke from upstroke.",
+            "ta": "பறப்பில் தூக்குவிசை (lift), உடல் எடை, உந்துவிசை (thrust), காற்று எதிர்விசை (drag) ஆகியவை தொடர்புடையவை. இறக்கையைச் சுற்றிய காற்றின் அழுத்த வேறுபாடும் கீழ்நோக்கி மாற்றப்படும் காற்றின் இயக்க அளவும் தூக்குவிசைக்கு உதவுகின்றன. மேல்பக்கமும் கீழ்பக்கமும் செல்லும் காற்று ஒரே நேரத்தில் பின்னே சேரவேண்டும் என்ற விளக்கம் தவறானது. இறக்கையின் வளைவு, தாக்குக் கோணம், வேகம், பரப்பளவு, இறகுகளின் நிலை ஆகியவை முக்கியம். இறக்கையசைவில் இறக்கையின் வடிவமும் திசையும் மாறுகின்றன. உயர்ந்த காற்றோட்டத்தைப் பயன்படுத்தி வட்டமிட்டு உயர்வது சோரிங் (soaring) ஆகும். படத்தில் விசைகள், பறக்கும் திசை, கீழ்–மேல் இறக்கையசைவு ஆகியவற்றைத் துல்லியமாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "wing-feathers",
+          "heading": {
+            "en": "Remiges, alula, wing slots and tail control",
+            "ta": "பறப்பிறகுகள், அலுலா, இறக்கை இடைவெளிகள் மற்றும் வாலின் கட்டுப்பாடு"
+          },
+          "body": {
+            "en": "Flight feathers include primaries attached principally to the manus region and secondaries associated with the ulna. Their stiffness, vane asymmetry and coordinated overlap create adjustable aerodynamic surfaces. The alula is a small feathered structure associated with the first manual digit and can assist flow control at some high-angle or low-speed conditions. Separated outer primaries may influence induced drag and manoeuvring, but their performance must not be reduced to an unsupported universal rule. Rectrices on the tail contribute to stability, turning and braking; tail morphology reflects a species' habitual flight regime. Wing morphology varies among soaring, hovering, fast flapping and flightless birds. A scientific plate should show the humerus, radius, ulna, manus, primaries, secondaries, alula and tail feathers in anatomically correct relation, rather than drawing each flight feather from a single point on the shoulder.",
+            "ta": "முதன்மைப் பறப்பிறகுகள் (primaries) இறக்கை நுனிப் பகுதியின் கை எலும்புகளுடன் தொடர்புடையவை; இரண்டாம் நிலைப் பறப்பிறகுகள் (secondaries) அல்னா எலும்புடன் தொடர்புடையவை. இறகுகளின் நெகிழ்வு, ஒட்டிய அமைப்பு, சமமற்ற தகட்டு வடிவம் ஆகியவை காற்றியக்கப் பரப்பை உருவாக்குகின்றன. முதல் கை விரலுடன் தொடர்புடைய சிறிய அலுலா (alula) சில நிலையில் காற்றோட்டக் கட்டுப்பாட்டிற்கு உதவுகிறது. வெளிப்புறப் பறப்பிறகுகளுக்கிடையே இடைவெளிகள் சில இனங்களில் பறப்புத் திறனை மாற்றலாம். வாலிறகுகள் சமநிலை, திசைமாற்றம், வேகக் குறைப்பு ஆகியவற்றுக்கு உதவுகின்றன. படத்தில் ஹியூமரஸ், ரேடியஸ், அல்னா, கை எலும்புகள், முதன்மை–இரண்டாம் நிலை இறகுகள், அலுலா ஆகியவற்றை சரியாக இணைக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "skeleton",
+          "heading": {
+            "en": "Furcula, coracoid, sternum and skeletal reinforcement",
+            "ta": "ஃபர்குலா, கோராகாய்டு, மார்பெலும்பு மற்றும் எலும்புக் கட்டமைப்பு"
+          },
+          "body": {
+            "en": "The pectoral apparatus of many flying birds includes a furcula, strong coracoids, scapulae and a keeled sternum, transmitting wing forces to the trunk. The humerus articulates at the shoulder and the modified radius, ulna and hand elements support the wing. Selected axial bones are fused, providing rigidity where needed while the cervical region retains extensive mobility. Pneumatisation involves internal air spaces in some bones and may relate to the air-sac system, but not every bone is pneumatic and the skeleton is engineered for stiffness and strength as well as mass. The pygostyle supports tail-feather structures in many modern birds, whereas early avialans had longer bony tails. Flightless birds may show modified sternum, wings or girdles, but they remain members of Aves. In practical anatomy identify each bone on a verified skeleton before attributing a function.",
+            "ta": "பறக்கும் பல பறவைகளின் தோள் வளையத்தில் ஃபர்குலா, வலுவான கோராகாய்டு, ஸ்காபுலா, கீல் கொண்ட மார்பெலும்பு உள்ளன. அவை இறக்கையின் விசையை உடலுக்கு கடத்துகின்றன. ஹியூமரஸ் தோள் மூட்டுடன் இணைகிறது; ரேடியஸ், அல்னா மற்றும் மாற்றமடைந்த கை எலும்புகள் இறக்கையைத் தாங்குகின்றன. சில அச்சு எலும்புகள் இணைந்து வலிமை அளிக்கின்றன; கழுத்துப் பகுதி நெகிழ்வாக இருக்கிறது. சில எலும்புகளில் காற்று நிரப்பப்பட்ட அறைகள் உள்ளன; எல்லா எலும்புகளும் வெற்றிடமானவை அல்ல. பிகோஸ்டைல் பல நவீன பறவைகளில் வாலிறகுகளுக்கு ஆதாரமாகும். பறக்க முடியாத பறவைகளிலும் இவ்வுறுப்புகள் மாற்றமடைந்த நிலையில் காணப்படலாம்."
+          }
+        },
+        {
+          "key": "muscles",
+          "heading": {
+            "en": "Pectoralis and supracoracoideus: the two key flight muscles",
+            "ta": "பெக்டோராலிஸ் மற்றும் சுப்ராகோரகாய்டியஸ் — முக்கியப் பறப்புத் தசைகள்"
+          },
+          "body": {
+            "en": "The pectoralis is a major power-producing muscle for the downstroke in many flying birds, acting through its tendon on the humerus. The supracoracoideus, situated ventrally in the body but acting through a tendon routed through the triosseal canal, contributes strongly to wing elevation and rotation in many species. This tendon pulley arrangement is frequently misdrawn when the muscle is incorrectly placed as a simple dorsal elevator. The relative size, activity and roles of these muscles vary with flight style; hovering, take-off and long-distance cruising demand different patterns. Additional muscles adjust feather position, wing folding and joint control. A correct labelled anatomical plate shows sternum, coracoid, furcula, triosseal canal, humerus and the paths of both tendons, with movement arrows that reflect actual joint mechanics.",
+            "ta": "பல பறக்கும் பறவைகளில் பெக்டோராலிஸ் (pectoralis) தசை இறக்கையின் கீழ்நோக்கிய அசைவுக்கு முதன்மை விசை அளிக்கிறது. சுப்ராகோரகாய்டியஸ் (supracoracoideus) தசை உடலின் கீழ்பகுதியில் இருந்தாலும் அதன் நாண் டிரையோசியல் கால்வாய் வழியாகச் சென்று இறக்கையை உயர்த்த உதவுகிறது. இந்த நாண் சுழல் அமைப்பை விளக்காமல் தசையை இறக்கையின் மேற்புறத்தில் மட்டும் வரைவது தவறு. பறக்கும் முறை, துவக்கப் பறப்பு, நீண்ட தூரப் பறப்பு ஆகியவற்றில் தசைகளின் செயல்பாடு மாறலாம். படத்தில் மார்பெலும்பு, கோராகாய்டு, ஃபர்குலா, கால்வாய், ஹியூமரஸ், இரண்டு தசைகளின் நாண்கள் ஆகியவை தெளிவாக இருக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "respiratory-system",
+          "heading": {
+            "en": "Rigid lungs, parabronchi and the air-sac ventilation cycle",
+            "ta": "உறுதியான நுரையீரல், பாராபிராங்க்கை மற்றும் காற்றுப்பைச் சுழற்சி"
+          },
+          "body": {
+            "en": "Bird lungs are relatively rigid and contain parabronchi in which gas exchange occurs through specialised air capillaries, while a system of compliant air sacs drives ventilation. In many birds net airflow through the gas-exchanging parabronchi is predominantly unidirectional, permitting efficient exchange during both inhalation and exhalation. A simplified parcel of incoming air may take two successive respiratory cycles to pass through posterior sacs, lungs, anterior sacs and the exterior, but real airflow is complex and new and residual air move simultaneously. Air sacs are chiefly ventilatory bellows and are not the principal gas-exchange tissue. The number and arrangement of sacs can vary; some connect with pneumatic bones. A correct textbook diagram distinguishes the rigid lung from the sacs, labels posterior and anterior compartments and uses arrows consistent with anatomical pathways, not a mammalian tidal-lung sketch.",
+            "ta": "பறவைகளின் நுரையீரல் ஒப்பீட்டளவில் உறுதியானது; பாராபிராங்க்கை (parabronchi) மற்றும் காற்று நுண்குழாய்களில் வாயுப் பரிமாற்றம் நடைபெறுகிறது. நெகிழ்வான காற்றுப்பைகள் காற்றோட்டத்திற்கு உதவுகின்றன; அவற்றிலேயே முக்கிய வாயுப் பரிமாற்றம் நடைபெறுகிறது என்று கூறக்கூடாது. பல பறவைகளின் நுரையீரல் பரப்பில் காற்று மொத்தத்தில் ஒரே திசையில் செல்கிறது. பின்புறக் காற்றுப்பைகள், நுரையீரல், முன்புறக் காற்றுப்பைகள் வழியான இயக்கத்தை இரண்டு சுவாசச் சுழற்சிகளின் உதவியால் விளக்கலாம்; உண்மையில் பல காற்றுப் பகுதிகள் ஒரே நேரத்தில் நகர்கின்றன. நுரையீரலையும் காற்றுப்பைகளையும் தனித்தனியாகக் காட்டி சரியான காற்றோட்ட அம்புகளை வரைய வேண்டும்."
+          }
+        },
+        {
+          "key": "energy-and-limits",
+          "heading": {
+            "en": "Metabolic support, flightlessness and comparative flight performance",
+            "ta": "ஆற்றல் ஆதாரம், பறப்பின்மை மற்றும் ஒப்பீட்டு பறப்புத் திறன்"
+          },
+          "body": {
+            "en": "Powered flight is energetically demanding and depends on efficient oxygen delivery, fuel metabolism, neuromuscular coordination and thermal control. Birds have a four-chambered heart and high-performance respiratory and circulatory systems, but the energy budget changes with body size and flight mode. Migration, soaring and hovering use different combinations of aerodynamic power, atmospheric support and stored fuel. Flightlessness can arise in lineages where ecological conditions favour terrestrial or aquatic locomotion, and penguin wings are specialised for underwater propulsion rather than aerial flight. No single character, such as hollow bones or a large keel, by itself produces flight. A student comparison of pigeon, swift, albatross, hummingbird and penguin should consider wing aspect ratio, muscle arrangement, feather pattern, skeletal structure and ecological function together. The final explanation should connect anatomy to mechanics rather than memorise an unranked list of adaptations.",
+            "ta": "இயங்கும் பறப்பிற்கு அதிக ஆற்றல், திறமையான ஆக்சிஜன் வழங்கல், தசை ஒருங்கிணைப்பு, வெப்ப ஒழுங்குபடுத்தல் ஆகியவை தேவை. நான்கு அறை இதயமும் நுரையீரல்–காற்றுப்பை அமைப்பும் இதற்கு உதவுகின்றன. இடப்பெயர்ச்சி, சோரிங், ஒரே இடத்தில் பறத்தல் ஆகியவற்றின் ஆற்றல் தேவை வேறுபடும். சில பரிணாமக் கிளைகளில் நிலத்திலோ நீரிலோ இயங்குதல் பயனளிப்பதால் பறப்பின்மை தோன்றியுள்ளது; பெங்குவின் இறக்கைகள் நீருக்குள் உந்துவிசை தருகின்றன. வெற்றிட எலும்பு அல்லது பெரிய மார்புக் கீல் மட்டும் பறப்பை ஏற்படுத்தாது. புறா, ஸ்விஃப்ட், அல்பட்ராஸ், ஹம்மிங் பறவை, பெங்குவின் ஆகியவற்றின் இறக்கை, தசை, எலும்பு, வாழிடம் ஆகியவற்றை ஒன்றிணைத்து ஒப்பிட வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e — Birds and flight",
+          "url": "https://openstax.org/books/biology-2e/pages/29-5-birds"
+        }
+      ]
+    },
+    {
+      "id": "avian-migration-undergraduate",
+      "topicId": "u5-bird-migration",
+      "title": {
+        "en": "Migration in birds — flyways, navigation, physiology and conservation",
+        "ta": "பறவைகளின் இடப்பெயர்ச்சி — பறப்புப் பாதைகள், வழிகாணல், உடலியல் மற்றும் பாதுகாப்பு"
+      },
+      "sections": [
+        {
+          "key": "seasonal-migration",
+          "heading": {
+            "en": "Definition, seasonal patterns and ecological drivers",
+            "ta": "இடப்பெயர்ச்சி வரையறை, பருவ முறைகள் மற்றும் சூழலியல் காரணிகள்"
+          },
+          "body": {
+            "en": "Avian migration is a recurring, directional movement between areas used during different phases of the annual cycle, frequently linking breeding and non-breeding habitats. Seasonal availability of food, temperature, daylight and reproductive timing are important influences, but the same species may show resident, partially migratory and long-distance populations. Migration is distinct from dispersal by young birds and from irregular nomadic movement in search of resources. Some birds undertake latitudinal journeys, others move altitudinally, and still others show complex loop routes that differ between outward and return travel. A route should be described using breeding range, passage regions, wintering area and stopover habitat rather than an unqualified claim that birds migrate 'to warmer countries'. A good examination answer distinguishes proximate triggers from the evolutionary advantages of migration.",
+            "ta": "பறவைகளின் இடப்பெயர்ச்சி என்பது வருடாந்திர வாழ்க்கைச் சுழற்சியின் வெவ்வேறு கட்டங்களில் பயன்படுத்தும் வாழிடங்களுக்கு இடையே மீண்டும் நிகழும் திசை சார்ந்த பயணமாகும். இனப்பெருக்கப் பகுதி, இனப்பெருக்கமற்ற கால வாழிடம், இடைநிறுத்தம் செய்யும் இடங்கள் ஆகியவை இதில் அடங்கும். உணவு, வெப்பநிலை, ஒளிநேரம், இனப்பெருக்க நிலை போன்றவை இயக்கத்தைப் பாதிக்கின்றன. ஒரே இனத்திலும் சில மக்கள் தொகுதிகள் நிலையாகவும் சிலவை இடப்பெயர்ச்சியுடனும் இருக்கலாம். இளம் பறவை புதிய இடத்திற்குப் பரவுவதை வழக்கமான பருவ இடப்பெயர்ச்சியுடன் குழப்பக்கூடாது. தூரத்தினை மட்டும் கூறாமல் பயணத்தின் நோக்கத்தையும் வாழிடங்களையும் குறிப்பது அவசியம்."
+          }
+        },
+        {
+          "key": "flyways-india",
+          "heading": {
+            "en": "Flyways and the Central Asian Flyway relevant to India",
+            "ta": "பறப்புப் பாதைகளும் இந்தியாவைச் சார்ந்த மத்திய ஆசியப் பறப்புப்பாதையும்"
+          },
+          "body": {
+            "en": "Flyways are broad, overlapping routes linking breeding, stopover and non-breeding regions; they are not narrow fixed corridors followed identically by every individual. India lies within the Central Asian Flyway network used by numerous waterbirds and other migrants, while coastal and oceanic pathways also connect to wider regions. Wetlands, estuaries, mudflats, agricultural landscapes and inland water bodies can function as essential resting and feeding sites. Many shorebirds require a sequence of suitable habitats along their journey, so degradation of one major stopover may impair survival far from the breeding area. Regional observations should name the actual bird species and record dates and locations rather than attributing an entire migration route to a generic crane or duck. A good map displays breeding zones, non-breeding areas, intermediate wetlands, uncertainty ranges and conservation threats.",
+            "ta": "பறப்புப்பாதைகள் (flyways) பல இனங்களின் இனப்பெருக்கம், வழித்தங்கல், இனப்பெருக்கமற்ற வாழிடங்களை இணைக்கும் பரந்த வழித்தடங்களாகும். ஒவ்வொரு பறவையும் ஒரே குறுகிய பாதையில் மட்டுமே பறக்காது. இந்தியா மத்திய ஆசியப் பறப்புப்பாதை (Central Asian Flyway) தொடர்புடைய பகுதிகளில் ஒன்றாகும். ஈரநிலங்கள், கழிமுகங்கள், சேற்றுத்திட்டுகள், வயல்கள், உள்நாட்டு நீர்நிலைகள் இடைநிறுத்தப் பகுதிகளாக உதவுகின்றன. ஒரு முக்கிய ஈரநிலம் அழிந்தாலும் தொலைதூர இடப்பெயரும் பறவைகளுக்கு பாதிப்பு ஏற்படலாம். வரைபடத்தில் இனப்பெருக்கப் பகுதி, வழித்தங்கும் இடங்கள், பருவ வாழிடம், ஆபத்துகள் ஆகியவற்றைச் சான்றுகளுடன் குறிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "navigation",
+          "heading": {
+            "en": "Sun compass, stars, geomagnetic cues and learned landmarks",
+            "ta": "சூரியன், விண்மீன்கள், காந்தப்புலம் மற்றும் நில அடையாள வழிகாணல்"
+          },
+          "body": {
+            "en": "Migrating birds can integrate multiple orientation cues, including the solar position with time compensation, celestial patterns, geomagnetic information, wind, odour and learned visual landmarks. Which cues dominate depends on species, age, weather and the part of the route. Juveniles of some species exhibit inherited migratory directions, while experienced adults can refine routes through learning and homing. Compass orientation (maintaining a heading) differs from true navigation (determining a destination or position), and experiments must distinguish these abilities. Research on magnetoreception involves hypotheses about sensory processes and should not be presented as a single settled organ shared identically by all birds. A classroom activity can compare published tracking maps with daylight and wind conditions without interfering with wild birds. No one compass cue alone explains the complete migration of every species.",
+            "ta": "இடப்பெயரும் பறவைகள் சூரியன், விண்மீன் அமைப்பு, பூமிக் காந்தப்புலம், காற்றுத் திசை, மணம், பழக்கமான நில அடையாளங்கள் போன்ற பல சைகைகளைப் பயன்படுத்தலாம். எந்தச் சைகை முக்கியம் என்பது இனம், வயது, வானிலை, பாதையின் பகுதி ஆகியவற்றுக்கு ஏற்ப மாறும். சில இளம் பறவைகளில் பயணத் திசைக்கான மரபுவழிப் பண்பு இருக்கலாம்; அனுபவமுள்ள பறவைகள் பாதையை மேம்படுத்துகின்றன. ஒரு திசையில் தொடர்ந்து பறப்பதும் துல்லியமான இலக்கைக் கண்டடைவதும் வேறுபட்ட திறன்கள். காந்த உணர்வின் முழு அமைப்பு எல்லா பறவைகளிலும் ஒரே மாதிரியாக நிரூபிக்கப்பட்டுவிட்டது என்று கூறக்கூடாது."
+          }
+        },
+        {
+          "key": "physiology-fuel",
+          "heading": {
+            "en": "Fuel accumulation, endurance and flight scheduling",
+            "ta": "எரிபொருள் சேமிப்பு, நீடித்த பறப்பு மற்றும் பயண நேர ஒழுங்கு"
+          },
+          "body": {
+            "en": "Before long journeys many birds increase food intake and accumulate fat, which provides a dense energy reserve, while changes in organ dimensions and metabolic pathways can support endurance. Migration may proceed through many short flights or fewer long nonstop segments depending on ecological constraints and weather. Small passerines often migrate nocturnally, whereas some raptors exploit daytime rising air; these are broad tendencies with exceptions. Timing is influenced by photoperiod, internal seasonal programmes, reproductive state and environmental conditions. Fat reserves, dehydration risk, storms and availability of refuelling habitat all constrain survival. It is incorrect to state that birds can cross any ocean without resting or that every migrant loses an identical percentage of body mass. A laboratory exercise can compare wing-loading, body condition and species-specific tracking data with ethical observation standards.",
+            "ta": "நீண்ட பயணத்துக்கு முன் பல பறவைகள் உணவுண்ணுதலை அதிகரித்து கொழுப்பை ஆற்றல் சேமிப்பாகக் குவிக்கின்றன. வளர்சிதை மாற்றமும் சில உறுப்புகளின் அளவும் பயணத்திற்கேற்ப மாறலாம். சில இனங்கள் பல சிறு பறப்புகள் மேற்கொள்கின்றன; பிறவை நீண்ட இடைவிடாத பறப்புகளை மேற்கொள்கின்றன. சில சிறு பாடுபறவைகள் இரவில், சில இரைபிடிப் பறவைகள் பகலில் மேலேறும் காற்றைப் பயன்படுத்திப் பயணம் செய்கின்றன; விதிவிலக்குகளும் உள்ளன. ஒளிநேரம், பருவ உடலியல், வானிலை, உணவு கிடைப்பது ஆகியவை நேரத்தை நிர்ணயிக்கின்றன. எல்லாப் பறவைகளும் ஒரே அளவு கொழுப்பை இழக்கின்றன அல்லது ஓய்வின்றி எல்லாக் கடல்களையும் கடக்கின்றன என்பது தவறு."
+          }
+        },
+        {
+          "key": "tracking-methods",
+          "heading": {
+            "en": "Banding, geolocators, satellite telemetry and radar",
+            "ta": "வளையமிடுதல், புவியிடக் கருவிகள், செயற்கைக்கோள் கண்காணிப்பு மற்றும் ரேடார்"
+          },
+          "body": {
+            "en": "Ornithologists study migration using individually marked birds, ringing and resighting, GPS or satellite tags, light-level geolocators, automated radio-telemetry networks, weather radar and citizen-science records. Each method has distinct strengths and sampling biases. A ringing recovery provides two or more known locations but not necessarily the complete route; a lightweight geolocator may estimate position less precisely than GPS, whereas transmitter mass and attachment require welfare assessment. Radar reveals movements of many birds but often does not identify species without supplementary evidence. Citizen-science observations are valuable but can be affected by observer effort and accessible locations. Students should evaluate sample size, migration season, accuracy and whether a route represents one individual or a population. Data should be graphed with dated locations and uncertainty, not turned into an unqualified decorative arrow.",
+            "ta": "பறவைகளின் இடப்பெயர்ச்சியை கால்வளையமிடுதல், மீள்காணல், GPS அல்லது செயற்கைக்கோள் குறிகள், ஒளிநேரப் புவியிடக் கருவிகள், வானொலி கண்காணிப்பு, ரேடார், பொதுமக்கள் பதிவுகள் ஆகியவற்றால் ஆராயலாம். ஒவ்வொரு முறைக்கும் துல்லியமும் வரம்பும் உள்ளன. இரண்டு இடங்களில் மீண்டும் கண்ட பறவையின் பதிவு முழுப் பாதையைக் காட்ட வேண்டியதில்லை. GPS இடத்தைத் துல்லியமாகக் காட்டலாம்; குறியின் எடை பறவையின் நலனைப் பாதிக்கக்கூடாது. ரேடார் பல பறவைகளின் இயக்கத்தைப் பதிவு செய்தாலும் ஒவ்வொன்றின் இனத்தைத் தனியாக அறிதல் கடினம். தரவைப் பகுப்பாய்வு செய்ய தேதி, மாதிரி எண்ணிக்கை, இடத் துல்லியம், பதிவாளர் முயற்சி ஆகியவற்றைக் கணக்கில் கொள்ள வேண்டும்."
+          }
+        },
+        {
+          "key": "conservation",
+          "heading": {
+            "en": "Stopover habitat protection and citizen science",
+            "ta": "இடைநிறுத்த வாழிடப் பாதுகாப்பும் மக்கள் அறிவியல் பதிவும்"
+          },
+          "body": {
+            "en": "Migration links ecosystems across political boundaries, so protection of breeding grounds alone cannot safeguard a migratory population. Wetland drainage, shoreline development, light pollution, collision hazards, illegal hunting and climate-induced changes in seasonal resources may affect different stages of a journey. Conservation must identify bottleneck sites and restore a network of suitable stopovers, not just one famous sanctuary. In Tamil Nadu, a student project can monitor waterbirds at an accessible wetland using repeated counts, species identifications and observation effort, without approaching nests or disturbing feeding flocks. Comparing the same site across seasons allows cautious inference about changing occupancy, but a single absence does not establish extinction or the end of migration. The conclusion should connect international flyway cooperation, local wetland management and the reliability of evidence.",
+            "ta": "இடப்பெயர்ச்சி நாடுகளின் எல்லைகளைக் கடந்து நடைபெறுவதால் இனப்பெருக்க இடத்தை மட்டும் பாதுகாப்பது போதாது. ஈரநில அழிவு, கடற்கரை வளர்ச்சி, இரவு ஒளி மாசுபாடு, கட்டிட மோதல், வேட்டை, பருவ மாற்றம் ஆகியவை பயணத்தின் வெவ்வேறு கட்டங்களைப் பாதிக்கின்றன. முக்கிய வழித்தங்கும் ஈரநிலங்களின் வலையமைப்பைப் பாதுகாக்க வேண்டும். தமிழகத்தில் ஒரு ஈரநிலத்தைத் தேர்ந்தெடுத்து பருவந்தோறும் இனப்பட்டியல், பறவை எண்ணிக்கை, கண்காணிப்பு நேரம் ஆகியவற்றைப் பதிவு செய்யலாம். கூடு, உணவு தேடும் கூட்டங்கள் ஆகியவற்றைத் தொந்தரவு செய்யக் கூடாது. ஒருநாள் பறவை காணப்படாததால் அந்த இனத்தின் இடப்பெயர்ச்சி நின்றுவிட்டது என்று முடிவு செய்ய முடியாது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Cornell Lab of Ornithology — Migration",
+          "url": "https://www.allaboutbirds.org/news/topic/migration/"
+        },
+        {
+          "label": "Convention on Migratory Species — Central Asian Flyway",
+          "url": "https://www.cms.int/en/legalinstrument/central-asian-flyway"
+        }
+      ]
     }
   ]
 }
