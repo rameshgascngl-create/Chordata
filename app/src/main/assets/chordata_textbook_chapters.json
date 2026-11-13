@@ -1381,6 +1381,402 @@
           "url": "https://academic.oup.com/icb/article/64/5/1175/7727798"
         }
       ]
+    },
+    {
+      "id": "cephalochordata-branchiostoma-undergraduate",
+      "topicId": "u1-cephalochordata",
+      "title": {
+        "en": "Cephalochordata — detailed Branchiostoma (Amphioxus) type study",
+        "ta": "செஃபலோகார்டேட்டா — பிராங்கியோஸ்டோமா (ஆம்பியாக்சஸ்) விரிவான வகை ஆய்வு"
+      },
+      "sections": [
+        {
+          "key": "position-and-sandy-habitat",
+          "heading": {
+            "en": "Systematic position and sand-burrowing life",
+            "ta": "வகைப்பாட்டு நிலையும் மணலில் புதைந்து வாழும் இயல்பும்"
+          },
+          "body": {
+            "en": "Branchiostoma, commonly called amphioxus or lancelet, belongs to subphylum Cephalochordata, the earliest branching extant chordate lineage in many modern phylogenomic analyses. It is a slender, laterally compressed, translucent marine animal that inhabits clean sandy substrates in shallow coastal waters. Individuals bury much of the body in sand and expose the anterior end to filter suspended particles, although they can swim by lateral body undulations when disturbed. The pointed ends and lance-like form give the group its common name. Species-specific names should not be assigned to museum specimens merely because textbook drawings conventionally use Branchiostoma lanceolatum; identification requires verified collection data. Adults retain a notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail. These are illuminating ancestral chordate characters, but modern amphioxus is not the literal ancestor of any living fish or mammal. Its ecological role and genetic distinctiveness must be considered alongside traditional morphological comparisons.",
+            "ta": "பிராங்கியோஸ்டோமா (Branchiostoma) என்னும் ஆம்பியாக்சஸ் செஃபலோகார்டேட்டா துணைத்தொகுதியைச் சேர்ந்த கடல்வாழ் முதுகுநாணியாகும். உடல் நீளமாகவும் பக்கவாட்டில் தட்டையாகவும் ஒளி ஊடுருவக் கூடியதாகவும் உள்ளது. பெரும்பாலும் மணலில் புதைந்து முன்பகுதியை வெளியில் நீட்டி உணவுத் துகள்களை வடிகட்டுகிறது. அச்சுறுத்தல் ஏற்பட்டால் உடலைப் பக்கவாட்டில் அசைத்து நீந்தும். இரு முனைகளும் குறுகியதால் லான்ஸ்லெட் என்ற பொதுப்பெயர் வழங்கப்படுகிறது. முதிர்நிலையிலும் முதுகுநாண், முதுகுப்புறக் குழாய் நரம்புநாண், தொண்டைப் பிளவுகள், குதத்திற்குப் பின்வரும் வால் ஆகியவை காணப்படுகின்றன. இப்பண்புகள் பரிணாம ஒப்பீட்டிற்கு உதவினாலும் இன்றைய ஆம்பியாக்சஸ் மீன்களின் நேரடி மூதாதை அல்ல."
+          }
+        },
+        {
+          "key": "external-structure-and-openings",
+          "heading": {
+            "en": "External features: oral cirri, fin folds, atriopore and anus",
+            "ta": "வாய்ச் சிறுமுளைகள், துடுப்பு மடிப்புகள், ஏட்ரியோபோர் மற்றும் குதம்"
+          },
+          "body": {
+            "en": "The anterior oral hood bears numerous cirri that intercept coarse particles and provide sensory information. The body has a continuous median fin-fold complex with dorsal, caudal and posterior ventral regions, but lacks paired vertebrate pectoral and pelvic fins. Myomeres produce characteristic serial chevron-like outlines under the translucent body wall. Along the ventrolateral trunk lie metapleural folds that border the atrial region. An atriopore opens ventrally and discharges filtered water from the atrial cavity, whereas the anus lies separately near the posterior end, anterior to the post-anal tail. These are not interchangeable openings: confusing them obscures the separation of respiratory/filtering water flow and digestive waste discharge. The oral opening, cirri, atriopore and anus should be labelled in their actual relative positions. A representative lancelet plate must show the asymmetric arrangement of some body structures without forcing bilateral external symmetry in every detail.",
+            "ta": "ஆம்பியாக்சஸின் முன்பகுதியில் வாய்ச் சிறுமுளைகள் (oral cirri) உள்ளன; இவை பெரிய துகள்களைத் தடுத்து உணர்வுப் பணியிலும் உதவுகின்றன. உடலின் முதுகு, வால், பின்புற வயிற்றுப்புறங்களில் இணைந்த நடுத்துடுப்பு மடிப்புகள் காணப்படுகின்றன; மீனின் இணையான மார்பு, வயிற்றுத் துடுப்புகள் இல்லை. ஒளி ஊடுருவும் உடலில் V வடிவ மையோமியர் தசைப் பிரிவுகள் தெரிகின்றன. வயிற்றுப்புற மடிப்புகளுக்கிடையில் ஏட்ரியோபோர் என்னும் நீர் வெளியேறும் திறப்பு அமைந்துள்ளது. குதம் வாலுக்கு முன்புறம் தனியே உள்ளது. ஏட்ரியோபோரையும் குதத்தையும் ஒரே திறப்பாகக் கருதக் கூடாது. அவற்றின் இடத்தையும் நீர், செரிமானக் கழிவு பாதைகளின் வேறுபாட்டையும் படத்தில் விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "notochord-myomeres-and-neural-tube",
+          "heading": {
+            "en": "Notochord, myomeres and dorsal neural organisation",
+            "ta": "முதுகுநாண், மையோமியர்கள் மற்றும் முதுகுப்புற நரம்பமைப்பு"
+          },
+          "body": {
+            "en": "The notochord in Branchiostoma extends unusually far anteriorly beneath the dorsal nerve cord, reaching towards the head region and contributing to the name Cephalochordata. It remains throughout life and acts with segmented axial musculature to support swimming and burrowing. Serial myomeres are offset between right and left sides and separated by connective-tissue myosepta, enabling propagating bends along the body. The dorsal neural tube has an anterior expansion and sensory regions but not a fully developed vertebrate brain enclosed in a bony cranium. Nerve branches provide motor and sensory pathways. The notochord does not contain individual bony vertebrae, and it is wrong to label the longitudinal axial rod as a spinal column. In a transverse section, place neural tube dorsally, notochord immediately ventral, coelomic and pharyngeal spaces more ventrally, and myomeres laterally. Explain that the resemblance to a vertebrate embryo is informative without making the adult animal a frozen developmental stage.",
+            "ta": "ஆம்பியாக்சஸில் முதுகுநாண் தலைப்பகுதி நோக்கி மிகவும் முன்புறம் வரை நீண்டு முதிர்நிலையிலும் நீடிக்கிறது. இது நீந்துதல், மணலில் புதைதல் ஆகிய இயக்கங்களுக்கு ஆதரவளிக்கிறது. உடலின் இருபுறங்களிலும் மையோமியர் தசைப் பிரிவுகள் மாறி அமைந்து இணைப்புத்திசுப் பிரிவுகளால் பிரிக்கப்படுகின்றன. இவற்றின் ஒருங்கிணைந்த சுருக்கம் உடலில் அலைபோன்ற இயக்கத்தை உருவாக்குகிறது. முதுகுநாணுக்கு மேலே குழாய் நரம்புநாண் காணப்படுகிறது; முதுகெலும்பியின் முழுமையான எலும்புத் தலையோடு கொண்ட மூளை இல்லை. முதுகுநாணைக் முதுகெலும்புத் தொடர் என்று பெயரிடக் கூடாது. குறுக்குவெட்டுப் படத்தில் மேலே நரம்புக் குழாய், கீழே முதுகுநாண், இருபுறமும் மையோமியர்கள் என்ற தொடர்பைத் தெளிவாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "filter-feeding-and-pharynx",
+          "heading": {
+            "en": "Oral hood, wheel organ, pharyngeal bars and endostyle",
+            "ta": "வாய்மூடி, நுண்மயிர் சக்கர உறுப்பு, தொண்டைப் பட்டைகள் மற்றும் எண்டோஸ்டைல்"
+          },
+          "body": {
+            "en": "Amphioxus is a ciliary suspension feeder. Water enters the oral region, and beating cilia convey it into an enlarged pharynx with numerous slits separated by gill bars. Oral cirri exclude large particles; mucus secreted by the ventral endostyle captures smaller food, and ciliary transport directs the food-bearing mucus along the pharynx toward the gut. Water passes through the pharyngeal slits into a surrounding atrial cavity and exits through the atriopore. The endostyle is relevant to the evolutionary origin of vertebrate thyroid tissue. Structures described as a wheel organ and associated ciliary regions contribute to the incoming current in traditional anatomical accounts. The pharyngeal slits primarily support feeding and are not an identical version of the vascular gills of a shark. A teaching plate should track water movement with arrows distinct from mucus and food movement. This distinction is more important than memorising an unlabelled number of slits.",
+            "ta": "ஆம்பியாக்சஸ் நுண்மயிர்களின் இயக்கம் மூலம் நீரில் உள்ள உணவுத் துகள்களை வடிகட்டுகிறது. வாய்ப் பகுதியிலிருந்து நீர் பல தொண்டைப் பிளவுகளைக் கொண்ட பெரிய தொண்டைக்குள் செல்கிறது. வாய்ச் சிறுமுளைகள் பெரிய துகள்களைத் தடுக்கின்றன. வயிற்றுப்புற எண்டோஸ்டைல் சுரக்கும் சளி சிறிய துகள்களைப் பிடிக்க உதவுகிறது. உணவுத் துகள்கள் நுண்மயிர்களின் அசைவால் குடலுக்கு நகர்த்தப்படுகின்றன. நீர் தொண்டைப் பிளவுகளிலிருந்து ஏட்ரியல் அறைக்குச் சென்று ஏட்ரியோபோர் வழியாக வெளியேறுகிறது. இந்தப் பிளவுகள் சுறாவின் முழுமையான இரத்தநாளச் செவுள்களுக்கு அப்படியே சமமானவை அல்ல. படத்தில் நீரின் ஓட்டத்தையும் சளியுடன் கூடிய உணவின் பாதையையும் வேறுபடுத்திக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "digestive-caecum-and-excretion",
+          "heading": {
+            "en": "Hepatic caecum, intestine and solenocyte nephridia",
+            "ta": "கல்லீரல் போன்ற சீகம், குடல் மற்றும் சோலனோசைட் கழிவுநீக்க அமைப்பு"
+          },
+          "body": {
+            "en": "Food leaving the pharynx passes into an intestinal tract that includes an anterior diverticulum often called the hepatic caecum. This structure contributes to digestive physiology but is not a fully developed vertebrate liver with identical lobes and biliary anatomy. Nutrients are absorbed through the gut epithelium, and residual material exits through the anus, not through the atriopore. Excretion is supported by specialised nephridial structures with solenocytes associated with coelomic and vascular spaces, an arrangement unlike the glomerular kidneys of vertebrates. Details differ among cephalochordate developmental stages and taxa. There is no vertebrate-style pair of metanephric kidneys or urinary bladder. Diagrams must identify the hepatic diverticulum as a caecum, the intestinal loop, nephridial elements and the separate anal opening. A useful comparison contrasts the endostyle and digestive caecum with corresponding systems in a tunicate and a lamprey larva.",
+            "ta": "தொண்டையிலிருந்து உணவு குடலுக்குச் செல்கிறது. குடலின் முன்பகுதியில் கல்லீரல் போன்ற சீகம் (hepatic caecum) என்னும் பக்கவிரிவு உள்ளது; இது முதுகெலும்பிகளின் முழுமையான கல்லீரலுக்கு அமைப்பில் அப்படியே சமமானது அல்ல. குடலில் ஊட்டச்சத்துகள் உறிஞ்சப்பட்டு மீதப்பொருள்கள் குதம் வழியாக வெளியேறுகின்றன. சோலனோசைட்டுகள் (solenocytes) உடைய சிறப்புக் கழிவுநீக்க அமைப்புகள் காணப்படுகின்றன. முதுகெலும்பிகளின் நிலையான சிறுநீரகம், சிறுநீர்ப்பை போன்ற உறுப்புகள் இதில் இல்லை. பாடப்படத்தில் கல்லீரல் போன்ற சீகம், குடல், கழிவுநீக்க அமைப்பு, குதம் ஆகியவற்றைத் தெளிவாகக் குறிக்க வேண்டும். உணவுக் கழிவு ஏட்ரியோபோர் வழியாக வெளியேறுவதாகக் காட்டுவது தவறு."
+          }
+        },
+        {
+          "key": "circulation-and-gas-exchange",
+          "heading": {
+            "en": "Closed circulation without a chambered heart and gas exchange",
+            "ta": "அறையுள்ள இதயம் இல்லாத இரத்த ஓட்டமும் வாயுப் பரிமாற்றமும்"
+          },
+          "body": {
+            "en": "Branchiostoma has a relatively simple vascular organisation in which contractions of vessels help circulate fluid; there is no discrete chambered muscular heart comparable to a fish or mammal heart. The circulation supports transport of dissolved nutrients and gases, while oxygen exchange can occur across the body surface and pharyngeal tissues. The pattern of vascular channels has comparative significance for understanding early chordate circulation, but many details differ from named aortic arches and gill lamellae of jawed vertebrates. Lancelet blood does not carry oxygen in mammalian red cells containing haemoglobin as a standard defining feature. In a simplified teaching plate show main dorsal and ventral vascular pathways with pharyngeal branches and the absence of a compact heart chamber. Do not copy a shark's ventral aorta, two-chambered heart and gill circulation into amphioxus merely because both filter or move water through the pharynx.",
+            "ta": "ஆம்பியாக்சஸில் தனித்த அறைகளுள்ள தசை இதயம் இல்லை. இரத்தநாளங்களின் சுருக்கம் திரவ ஓட்டத்தை ஏற்படுத்த உதவுகிறது. உடற்பரப்பும் தொண்டைத் திசுக்களும் வாயுப் பரிமாற்றத்தில் பங்கேற்கின்றன. இதன் இரத்த ஓட்ட அமைப்பு ஆரம்ப முதுகுநாணி அமைப்புகளை ஒப்பிட உதவினாலும் சுறா அல்லது பாலூட்டியின் இதய அமைப்போடு ஒன்றல்ல. பாலூட்டிகளின் ஹீமோகுளோபின் கொண்ட சிவப்பணுக்கள் இதன் நிலையான அடையாளம் அல்ல. வரைபடத்தில் முதுகுப்புற, வயிற்றுப்புற முக்கிய நாளங்கள் மற்றும் தொண்டைப் பிரிவுகளை விளக்கலாம். ஆம்பியாக்சஸில் சுறாவின் இரண்டு அறை இதயம் இருப்பதாக வரைவது தவறு."
+          }
+        },
+        {
+          "key": "gonads-fertilisation-and-development",
+          "heading": {
+            "en": "Segmental gonads, external fertilisation and embryonic development",
+            "ta": "பிரிவுபட்ட இனப்பெருக்கச் சுரப்பிகள், வெளிக்கருவுறுதல் மற்றும் கருவளர்ச்சி"
+          },
+          "body": {
+            "en": "Cephalochordates typically have separate sexes and a series of gonadal pouches along the ventrolateral trunk. Gametes are released into seawater, where external fertilisation and embryonic development may occur; there is no vertebrate-style copulatory organ or internal amniotic egg. Development proceeds through cleavage and a free-living larval period before metamorphic reorganisation into the juvenile lancelet. The larva exhibits asymmetries in early organisation that are corrected or modified during later growth. Students should interpret gonads, atrial cavity and exterior openings carefully, without inventing an independent paired gonoduct system identical to that of a fish. Sexual development and reproductive timing vary by species and local environmental conditions. A lifecycle should show gametes, fertilisation, early embryo, larva, settlement and adult while retaining the distinction between a cephalochordate larva and the tadpole larva of an ascidian or frog.",
+            "ta": "செஃபலோகார்டேட்டா குழுவில் ஆண், பெண் பாலினங்கள் பொதுவாகத் தனித்தனியாக உள்ளன. உடலின் பக்கவாட்டில் வரிசையாக இனப்பெருக்கச் சுரப்பிப் பைகள் காணப்படுகின்றன. இனச்செல்கள் கடல்நீரில் வெளியிடப்பட்டு வெளிக்கருவுறுதல் நிகழ்கிறது. கருவிலிருந்து சுதந்திரமான இளநிலை தோன்றி பின்னர் வளர்ச்சிமாற்றம் அடைகிறது. மீன்களுக்குரிய தனித்த இனப்பெருக்கக் குழாய்களை ஆம்பியாக்சஸில் அப்படியே வரைவது தவறு. இனப்பெருக்கப் பருவமும் வளர்ச்சி நேரமும் வாழிடத்தைப் பொறுத்து மாறலாம். வாழ்க்கைச் சுழற்சியில் இனச்செல், கருவுறுதல், கரு, இளநிலை, இளவுயிரி, முதிர்நிலை ஆகியவற்றைச் சரியான வரிசையில் காட்ட வேண்டும். அசிடியா, தவளை இளநிலைகளுடன் இவற்றைக் குழப்பக் கூடாது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "IGNOU: Branchiostoma type specimen and practical morphology",
+          "url": "https://egyankosh.ac.in/bitstream/123456789/57970/1/Exercise%209.pdf"
+        },
+        {
+          "label": "OpenStax Biology 2e: Chordates and lancelets",
+          "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        },
+        {
+          "label": "University of Chicago Press: Origins of vertebrates and lancelet relationships",
+          "url": "https://press.uchicago.edu/dam/ucp/books/pdf/course_intro/978-0-226-40305-2_course_intro.pdf"
+        }
+      ]
+    },
+    {
+      "id": "vertebrata-diagnostic-features-undergraduate",
+      "topicId": "u1-vertebrata-characters",
+      "title": {
+        "en": "Vertebrata — cranium, neural crest, skeleton and organ-system innovations",
+        "ta": "முதுகெலும்பிகள் — தலையோடு, நியூரல் க்ரெஸ்ட், எலும்புக்கூடு மற்றும் உறுப்புப் புதுமைகள்"
+      },
+      "sections": [
+        {
+          "key": "cranium-head-and-neural-crest",
+          "heading": {
+            "en": "Cranium, sensory capsules and the neural-crest contribution",
+            "ta": "தலையோடு, உணர்வு உறைகள் மற்றும் நியூரல் க்ரெஸ்ட் பங்கு"
+          },
+          "body": {
+            "en": "Vertebrates are a diverse chordate lineage characterised by a differentiated head, cranium, complex sense organs and embryonic neural-crest derivatives. The cranium encloses and protects the brain, while specialised olfactory, visual and auditory structures support active orientation and feeding. Neural-crest cells migrate during embryogenesis and contribute to parts of the peripheral nervous system, craniofacial skeleton, pigment cells and other derivatives. The embryonic pharyngeal apparatus contributes to jaws and supports in jawed vertebrates, as well as several head and neck structures in tetrapods. Not every vertebrate has all adult structures seen in a mammal; jawlessness in lampreys and differing vertebral elements in hagfish demonstrate important diversity. A comparative description must separate the concept of Craniata from a strict definition based only on mineralised vertebrae. Label neural crest, cranial cavity, sensory capsules and pharyngeal arches on appropriate developmental views rather than overlay them onto a single mature head illustration.",
+            "ta": "முதுகெலும்பிகளின் முக்கியப் பண்புகளில் வேறுபட்ட தலை, மூளையைப் பாதுகாக்கும் தலையோடு, சிறப்புற்ற கண், மணநுகர்வு, செவிப்புலன் உறுப்புகள் அடங்கும். கருவில் தோன்றும் நியூரல் க்ரெஸ்ட் (neural crest) செல்கள் இடம்பெயர்ந்து புறநரம்பு மண்டலம், தலை–முக எலும்புகள், நிறமிச் செல்கள் உள்ளிட்ட பல அமைப்புகளுக்கு பங்களிக்கின்றன. தொண்டை வளைவுகள் தாடை, தலை, கழுத்து உறுப்புகளின் வளர்ச்சியிலும் பங்காற்றுகின்றன. எல்லா முதுகெலும்பிகளிலும் பாலூட்டியின் உறுப்பமைப்பு ஒரே மாதிரி இல்லை; லாம்ப்ரே, ஹேக்ஃபிஷ் போன்ற குழுக்கள் வேறுபட்ட பண்புகளைக் கொண்டுள்ளன. தலையோடு உள்ள குழு என்பதையும் கனிம எலும்பு முதுகெலும்புகள் உள்ள நிலை என்பதையும் வேறுபடுத்திக் கற்பிக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "vertebral-column-notochord",
+          "heading": {
+            "en": "Notochord, vertebral elements and axial protection",
+            "ta": "முதுகுநாண், முதுகெலும்புக் கூறுகள் மற்றும் அச்சுப் பாதுகாப்பு"
+          },
+          "body": {
+            "en": "The vertebrate axial skeleton generally develops as cartilaginous or bony vertebral elements around the notochord and neural tube. In many species vertebrae protect the spinal cord and provide attachment points for axial muscles, while specialised discs or joints permit controlled movement. The notochord forms earlier than vertebrae and has important signalling functions in the embryo; it is not a pre-existing chain of miniature bones. Mineralisation, vertebral centring and the retention of notochordal components differ among fishes and tetrapods. Lampreys possess rudimentary cartilaginous vertebral elements, whereas hagfishes show reduced or atypical axial elements. These variations matter when interpreting both the name Vertebrata and the fossil record. The jawed vertebrate lineages include cartilaginous fishes and bony vertebrates, with tetrapods nested inside the latter evolutionary branch. Students should avoid interpreting a cartilage-dominated shark skeleton as biologically inferior simply because mammalian vertebrae are ossified.",
+            "ta": "முதுகெலும்பிகளில் கருவின் முதுகுநாணையும் நரம்புக் குழாயையும் சுற்றி குருத்தெலும்பு அல்லது எலும்புக் கூறுகள் வளர்கின்றன. முதுகெலும்புகள் தண்டுவடத்தைக் காக்கவும் தசைகள் பற்றிக் கொள்ளவும் இயக்கத்தை ஆதரிக்கவும் உதவுகின்றன. முதுகுநாண் முதலில் உருவாகி வளர்ச்சி சைகைகளை வழங்குகிறது; அது சிறிய எலும்புகளின் சங்கிலி அல்ல. லாம்ப்ரேவில் எளிய குருத்தெலும்புக் கூறுகளும் ஹேக்ஃபிஷில் மாறுபட்ட அச்சு ஆதரவு அமைப்புகளும் காணப்படுகின்றன. சுறாவில் குருத்தெலும்புச் சட்டகம் இருப்பதை பரிணாமத் தாழ்வு என்று கூறக் கூடாது. எலும்பு முதுகெலும்பிகளின் கிளையிலேயே நிலவாழ் நான்குகாலிகள் தோன்றியுள்ளன என்பதை கிளைவரைபடத்தில் தெளிவுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "jaw-evolution-and-teeth",
+          "heading": {
+            "en": "Gnathostome jaws, paired appendages and feeding diversification",
+            "ta": "தாடையுள்ள முதுகெலும்பிகள், இணை உறுப்புகள் மற்றும் உணவு தகவமைப்புகள்"
+          },
+          "body": {
+            "en": "Jawed vertebrates, Gnathostomata, possess upper and lower jaw apparatus derived evolutionarily from modifications in the anterior pharyngeal skeletal region. Jaws enabled new forms of prey capture, processing and food handling, but they are not identical among sharks, teleosts and mammals. Paired pectoral and pelvic appendages became important for manoeuvring and propulsion in many fishes, while their skeletal homologues were extensively modified in tetrapod limbs and bird wings. Teeth arose, diversified and were lost multiple times across vertebrate evolutionary history; tooth replacement patterns vary. The dentition of a shark is not equivalent to the mammalian differentiated heterodont arrangement. Anatomical characters should be analysed separately: the origin of jaws does not imply the simultaneous appearance of true lungs, a mineralised skeleton or a four-chambered heart. A comparative plate should show jawless lamprey oral disc, shark jaws, teleost oral apparatus and mammalian mandible with clearly indicated homologies and differences.",
+            "ta": "தாடையுள்ள முதுகெலும்பிகள் ஞாதோஸ்டோமாட்டா (Gnathostomata) எனப்படுகின்றன. முன்புறத் தொண்டை எலும்புக் கூறுகளின் பரிணாம மாற்றத்துடன் தாடைகள் தொடர்புடையவை. தாடைகள் இரையைப் பிடிக்கவும் உணவைக் கையாளவும் உதவுகின்றன; ஆனால் சுறா, எலும்பு மீன், பாலூட்டி ஆகியவற்றின் தாடை அமைப்புகள் ஒரே மாதிரி அல்ல. இணையான மார்புத் துடுப்பு, வயிற்றுத் துடுப்புகள் பல மீன்களின் நீந்தும் இயக்கத்திற்கு உதவுகின்றன. நிலவாழ் நான்குகாலிகளின் கால்களும் பறவையின் இறக்கைகளும் தொடர்புடைய இணைப்புறுப்பு மாற்றங்களாகும். தாடை தோன்றிய அதே நேரத்தில் நுரையீரல், முழுமையான எலும்புக்கூடு, நான்கு அறை இதயம் எல்லாம் தோன்றின என்று கூறுவது தவறு."
+          }
+        },
+        {
+          "key": "respiration-and-circulation-diversity",
+          "heading": {
+            "en": "Respiratory and circulatory diversity among vertebrates",
+            "ta": "முதுகெலும்பிகளில் சுவாச, இரத்த ஓட்டப் பன்மை"
+          },
+          "body": {
+            "en": "Vertebrate respiratory surfaces range from gill lamellae in many fishes to lungs with diverse internal architectures in tetrapods; some amphibians also use the skin for significant gas exchange. Cardiac structure varies accordingly: fish often have a serially arranged atrium and ventricle serving a single main circuit, amphibians have partial double circulation, most non-crocodilian reptiles have a subdivided ventricle, and birds and mammals possess fully separate ventricles. Circulatory patterns are not a simple sequence of inferior and superior hearts. Oxygen availability, activity, temperature, developmental stage and ecological conditions all influence respiratory design. Haemoglobin-containing red blood cells transport oxygen in most vertebrates, but cellular morphology and red-cell nuclei differ among major lineages. A textbook drawing must identify the actual organism and pathways: do not place mammalian alveoli in fish gills or avian air sacs in the lungs of a frog.",
+            "ta": "முதுகெலும்பிகளில் பல மீன்களின் செவுள் லமெல்லாக்கள், நிலவாழ் குழுக்களின் நுரையீரல்கள், சில இருவாழ்விகளின் தோல்வழி வாயுப் பரிமாற்றம் எனப் பல்வேறு சுவாச அமைப்புகள் காணப்படுகின்றன. பல மீன்களில் ஒற்றை முதன்மை இரத்த ஓட்டமும் இருவாழ்விகளில் பகுதியளவு இரட்டை ஓட்டமும் உள்ளன. பெரும்பாலான முதலை அல்லாத ஊர்வனவற்றில் உள்பிரிவுள்ள கீழறையும் பறவை, பாலூட்டிகளில் முழுமையாகப் பிரிந்த இரண்டு கீழறைகளும் காணப்படுகின்றன. இவ்வேறுபாடுகளை உயர்வு–தாழ்வு வரிசையாகக் கருதக் கூடாது. சுவாசப் பரப்பும் இதய அமைப்பும் வாழிடம், செயல்பாடு, வெப்பநிலை போன்றவற்றுடன் தொடர்புடையவை. படத்தில் ஒவ்வொரு உயிரியின் உண்மையான சுவாச உறுப்பு மற்றும் இரத்தநாளப் பாதைகள் சரியாகக் காட்டப்பட வேண்டும்."
+          }
+        },
+        {
+          "key": "excretion-water-balance",
+          "heading": {
+            "en": "Kidney evolution, nitrogenous wastes and osmoregulation",
+            "ta": "சிறுநீரக வளர்ச்சி, நைட்ரஜன் கழிவுகள் மற்றும் நீர்ச் சமநிலை"
+          },
+          "body": {
+            "en": "Vertebrate excretory organs include kidneys composed of nephrons or related filtration and tubular systems, with developmental differences among pronephric, mesonephric and metanephric arrangements. Aquatic animals may release much nitrogen as ammonia, while terrestrial vertebrates often excrete more urea or uric acid, reflecting water balance, development and evolutionary history. These are broad trends rather than absolute rules for every species or stage. Marine fishes can manage salts through gill and kidney mechanisms, whereas freshwater fishes frequently gain water osmotically and excrete dilute urine. Amphibians and amniotes show further specialisations in skin permeability, urinary storage and renal function. A comparative chapter should trace nitrogen from protein metabolism to its excreted form and link water conservation with habitat. Do not claim that one single nitrogenous-waste type uniquely defines an entire vertebrate class without documented exceptions.",
+            "ta": "முதுகெலும்பிகளில் நெஃப்ரான்கள் கொண்ட சிறுநீரகங்கள் வடிகட்டுதல், மீளுறிஞ்சுதல், உப்புச் சமநிலை ஆகிய பணிகளை மேற்கொள்கின்றன. கருவளர்ச்சியில் ப்ரோநெஃப்ராஸ், மெசோநெஃப்ராஸ், மெட்டாநெஃப்ராஸ் போன்ற நிலைகள் அல்லது உறுப்பமைப்புகள் விளக்கப்படுகின்றன. பல நீர்வாழ் உயிரிகள் அம்மோனியாவையும் பல நிலவாழ் உயிரிகள் யூரியா அல்லது யூரிக் அமிலத்தையும் அதிகம் வெளியேற்றுகின்றன; இவை முழுமையான விதிகளல்ல. நன்னீர் மீன்களில் உடலுக்குள் நீர் புகும் பிரச்சினையும் கடல் மீன்களில் உப்புச் சமநிலையும் முக்கியம். கழிவு வகையை மட்டும் வைத்து உயிரியின் முழு வகுப்பையும் தவறின்றி அடையாளம் காண முடியாது. நீர்ச் சேமிப்பை வாழிடத்துடனும் சிறுநீரகத் தகவமைப்புடனும் இணைத்து விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "reproduction-and-development",
+          "heading": {
+            "en": "Fertilisation, embryogenesis and reproductive strategies",
+            "ta": "கருவுறுதல், கருவளர்ச்சி மற்றும் இனப்பெருக்க முறைகள்"
+          },
+          "body": {
+            "en": "Vertebrates show external and internal fertilisation, aquatic egg development, terrestrial amniotic eggs, placental pregnancy and numerous parental-care strategies. Fishes may be oviparous, ovoviviparous in descriptive older usage, or viviparous with diverse nutrient-supply mechanisms; the precise embryological terminology should be preferred to broad labels. Amphibian larvae frequently undergo metamorphosis but some species develop directly. Amniotes have extraembryonic membranes that permit extensive embryonic development away from open water, yet some reptiles have independently evolved live birth. Birds generally lay shelled eggs, monotremes lay eggs, marsupials produce comparatively early-born young and placental mammals develop embryos within a complex uterine environment. The origin of a structure should not be inferred from a single modern representative. In comparative practicals distinguish fertilisation site, embryonic membranes, nutrient source, birth or hatching and parental care as separate characters instead of marking every species simply as 'egg-laying' or 'live-bearing'.",
+            "ta": "முதுகெலும்பிகளில் வெளிக்கருவுறுதல், உட்கருவுறுதல், நீர்சார்ந்த முட்டை வளர்ச்சி, அம்னியன் கொண்ட முட்டை, நஞ்சுக்கொடி கருவளர்ச்சி ஆகிய பல்வேறு முறைகள் காணப்படுகின்றன. பல இருவாழ்விகளில் இளநிலை உருவமாற்றம் அடைகிறது; சிலவற்றில் நேரடி வளர்ச்சியும் நிகழ்கிறது. அம்னியோட்டுகளின் கருச்சவ்வுகள் நிலவாழ்க்கையில் கருவைப் பாதுகாக்க உதவுகின்றன. பறவைகள் பொதுவாக ஓடுடைய முட்டையிடுகின்றன; முட்டையிடும் பாலூட்டிகள், மார்சுபியல்கள், நஞ்சுக்கொடி பாலூட்டிகள் வெவ்வேறு இனப்பெருக்க முறைகளைக் கொண்டுள்ளன. கருவுறும் இடம், கருச்சவ்வுகள், ஊட்டச்சத்து மூலம், முட்டையிலிருந்து வெளிவருதல் அல்லது குட்டிப் பிறப்பு, பெற்றோர் பராமரிப்பு ஆகியவற்றைத் தனித்தனியாக ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "integrative-field-and-lab",
+          "heading": {
+            "en": "Responsible comparative vertebrate field and laboratory methods",
+            "ta": "முதுகெலும்பிகளின் ஒப்பீட்டு கள, ஆய்வக முறைகள்"
+          },
+          "body": {
+            "en": "An undergraduate vertebrate practical should begin with a correctly identified specimen or accurately attributed museum image, not an anonymous diagram. Record locality or source, major body regions, head structures, integument, appendages, respiratory system, excretory opening and available reproductive information. Compare species-specific observations with independently sourced anatomical accounts and clearly flag structures inferred rather than directly visible. Diagnostic traits may require skull or tooth details that cannot be obtained from a photograph alone. Ethical practice prioritises non-invasive observation, legally obtained preserved material and digital reconstructions that retain traceable provenance. Laboratory safety procedures apply to preserved tissues and sharps. Evaluate evolutionary characters on a branching tree instead of presenting one modern class as an ancestor of another. An effective notebook page includes a labelled anatomical plate, a small evidence table, one functional explanation and one limitation of inference.",
+            "ta": "இளங்கலை முதுகெலும்பி ஆய்வில் முதலில் உயிரியின் நம்பத்தகுந்த இன அடையாளத்தையும் மாதிரி கிடைத்த மூலத்தையும் பதிவு செய்ய வேண்டும். உடற்பகுதிகள், தோல், இணைப்புறுப்புகள், சுவாச அமைப்பு, கழிவுநீக்கத் திறப்பு, இனப்பெருக்கத் தகவல்கள் ஆகியவற்றை மதிப்பிடலாம். நேரடியாகக் காணப்பட்ட பண்புகளையும் நூலின் அடிப்படையில் ஊகிக்கப்பட்ட பண்புகளையும் வேறுபடுத்த வேண்டும். புகைப்படத்தால் மட்டும் எல்லா மண்டை ஓடு அல்லது பற் பண்புகளையும் உறுதிப்படுத்த முடியாது. உயிரிகளுக்கு தீங்கு விளைவிக்காத கண்காணிப்பு, சட்டப்படி பெறப்பட்ட பதப்படுத்தப்பட்ட மாதிரிகள், ஆதாரமுள்ள மின்னணுப் படங்கள் ஆகியவற்றுக்கு முன்னுரிமை வழங்க வேண்டும். ஒவ்வொரு பயிற்சியிலும் பெயரிடப்பட்ட படம், சான்று அட்டவணை, செயல்பாட்டு விளக்கம், அறிவியல் வரம்பு ஆகியவை இடம்பெற வேண்டும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e: Vertebrates",
+          "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        },
+        {
+          "label": "Nature 2024 hagfish genome and vertebrate evolution",
+          "url": "https://www.nature.com/articles/s41586-024-07070-3"
+        }
+      ]
+    },
+    {
+      "id": "vertebrata-phylogenetic-classification-undergraduate",
+      "topicId": "u1-vertebrata-classification",
+      "title": {
+        "en": "Classification of Vertebrata — classical classes and modern phylogenetic branches",
+        "ta": "முதுகெலும்பிகள் வகைப்பாடு — பாரம்பரிய வகுப்புகளும் நவீன பரிணாமக் கிளைகளும்"
+      },
+      "sections": [
+        {
+          "key": "classical-ranking-versus-clades",
+          "heading": {
+            "en": "Why classical class tables and cladograms differ",
+            "ta": "பாரம்பரிய வகுப்பு அட்டவணையும் கிளைவரைபடமும் வேறுபடுவதன் காரணம்"
+          },
+          "body": {
+            "en": "A conventional teaching classification recognises jawless vertebrates, cartilaginous fishes, bony fishes, amphibians, reptiles, birds and mammals, often describing each as a 'class'. These familiar categories are useful for specimen recognition but should not be mistaken for equally aged, mutually exclusive branches of a fully resolved evolutionary tree. 'Pisces' groups several aquatic lineages and excludes their tetrapod descendants, while traditional 'Reptilia' excludes birds despite birds being nested within the reptilian archosaur lineage. Modern cladistics aims to name monophyletic groups containing an ancestor and all its descendants, whereas historical Linnaean ranks do not guarantee this property. Taxonomic authorities may differ in their rank choices, so branch relationships are often more stable teaching targets than exact rank names. A two-column table can preserve university syllabus vocabulary while showing a neighbouring cladogram with the corrected relationships. Do not silently rewrite legacy question titles that students must recognise in examinations; annotate their systematic limitations.",
+            "ta": "பாரம்பரிய வகைப்பாட்டில் தாடையற்ற முதுகெலும்பிகள், குருத்தெலும்பு மீன்கள், எலும்பு மீன்கள், இருவாழ்விகள், ஊர்வன, பறவைகள், பாலூட்டிகள் எனப் பிரித்து கற்பிக்கப்படுகிறது. செய்முறை அடையாளத்திற்கு இவை பயனுள்ளன; ஆனால் எல்லாப் பிரிவுகளும் ஒரே வயதுடைய தனித்த பரிணாமக் கிளைகள் அல்ல. 'Pisces' என்ற பாரம்பரியப் பெயர் நான்குகாலிகளின் மீன் மூதாதைக் கிளைகளை விடுத்துக் குழுவமைக்கிறது. பறவைகள் ஊர்வன பரிணாமக் கிளைக்குள்ளேயே தோன்றியவை என்பதால் பறவைகளைத் தவிர்த்த பாரம்பரிய Reptilia முழுமையான கிளை அல்ல. பழைய பாடத்திட்டச் சொற்களை அப்படியே அழிக்காமல் அவற்றுடன் நவீன கிளைவரைபடத்தையும் தருவது சிறந்த கற்பித்தல் முறையாகும்."
+          }
+        },
+        {
+          "key": "cyclostomes",
+          "heading": {
+            "en": "Jawless vertebrates: lampreys, hagfishes and Cyclostomata",
+            "ta": "தாடையற்ற முதுகெலும்பிகள்: லாம்ப்ரே, ஹேக்ஃபிஷ் மற்றும் சைக்ளோஸ்டோமாட்டா"
+          },
+          "body": {
+            "en": "Living jawless vertebrate relatives include lampreys and hagfishes, generally recovered together as Cyclostomata in recent genome-scale phylogenies. Lampreys possess an oral disc in parasitic feeding stages, exposed gill openings and a larval ammocoete phase in many life cycles. Hagfishes are marine animals with distinctive slime glands, sensory adaptations and atypical or highly reduced vertebral structures. They share loss of jaws and paired fins but are not merely 'primitive fishes' preceding every jawed fish as living evolutionary steps. The historical grouping Agnatha may be retained as an informal teaching category, but a phylogenetic account should state the evidence for cyclostome monophyly. Comparative tables should distinguish oral disc, jaws, paired fins, cranium, vertebral elements and larval form as separate characters. The fossil record contains extinct armoured jawless vertebrates whose relations to living cyclostomes and jawed forms are more complex than a single straight sequence.",
+            "ta": "இன்றைய தாடையற்ற முதுகெலும்பி உறவுக் குழுக்களில் லாம்ப்ரே, ஹேக்ஃபிஷ் அடங்குகின்றன. சமீபத்திய மரபணு ஆய்வுகள் இவ்விரண்டையும் சைக்ளோஸ்டோமாட்டா (Cyclostomata) கிளையாக உறுதிப்படுத்துகின்றன. லாம்ப்ரேவில் உறிஞ்சும் வாய்வட்டும் பல இனங்களில் அம்மோசீட் இளநிலையும் காணப்படுகின்றன. ஹேக்ஃபிஷில் சளிச்சுரப்பிகள், மாறுபட்ட அச்சு எலும்புக்கூறு அமைப்புகள் உள்ளன. Agnatha என்பது பழைய பாடத்திட்டத்தில் பயன்படும் தாடையற்ற குழுவின் பெயர் என்பதை விளக்க வேண்டும். இவ்விரு குழுக்களும் எல்லா நவீன மீன்களுக்கும் நேரடி மூதாதைகளாக வரிசையாக வாழ்கின்றன என்று கூறுவது தவறு. தாடை, இணைத்துடுப்புகள், தலையோடு, முதுகெலும்புக் கூறுகள் போன்ற பண்புகளைத் தனித்தனியாக ஒப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "chondrichthyes",
+          "heading": {
+            "en": "Chondrichthyes: elasmobranchs and holocephalans",
+            "ta": "குருத்தெலும்பு மீன்கள்: எலாஸ்மோபிராங்க்கி மற்றும் ஹோலோசெஃபாலை"
+          },
+          "body": {
+            "en": "Chondrichthyes includes sharks, rays, skates and chimaeras. Its two major living subdivisions are Elasmobranchii, with sharks and batoids, and Holocephali, including chimaeras. A predominantly cartilaginous skeleton, paired fins, specialised denticles or teeth and internal fertilisation are characteristic, with anatomical variations among lineages. Elasmobranchs typically have several exposed gill slits, while chimaeras cover the gill opening differently. Buoyancy often relies on a lipid-rich liver and dynamic lift rather than the gas bladder common in many ray-finned fishes. The group is a sister lineage to Osteichthyes within jawed vertebrates, not the ancestor of all modern bony fishes. 'Cartilage' does not mean that mineralisation is entirely absent, and shark jaws are complex structures with mineralised regions. Textbooks should differentiate Scoliodon from skates and chimaeras rather than project one shark's diagnostic characters onto all chondrichthyans.",
+            "ta": "கொண்ட்ரிக்தீஸ் (Chondrichthyes) குழுவில் சுறாக்கள், திருக்கை மீன்கள், ஸ்கேட்டுகள், கைமீராக்கள் அடங்குகின்றன. எலாஸ்மோபிராங்க்கி, ஹோலோசெஃபாலை எனப் பெரிய வாழும் கிளைகள் பிரிக்கப்படுகின்றன. குருத்தெலும்பு அகச்சட்டகம், இணையான துடுப்புகள், உட்கருவுறுதல் உள்ளிட்ட பண்புகள் பொதுவாகக் காணப்படுகின்றன. சுறாக்களில் வெளியில் தெரியும் செவுள் பிளவுகளும் பல ரே–ஸ்கேட் வகைகளில் மாற்றமடைந்த உடல்வடிவங்களும் உள்ளன. கைமீராக்களில் செவுள் மூடும் அமைப்பு வேறுபடும். அதிகக் கொழுப்புள்ள கல்லீரல் மிதவைத்தன்மைக்கு உதவலாம். சுறாவின் குருத்தெலும்பில் கனிமப்படிவு முற்றிலும் இல்லை என்று கூறக்கூடாது. எல்லா குருத்தெலும்பு மீன்களையும் ஸ்கோலியோடானின் உடற்கூறைப் போன்றே வரைவது தவறு."
+          }
+        },
+        {
+          "key": "osteichthyes-sarcopterygii",
+          "heading": {
+            "en": "Bony vertebrates: Actinopterygii, Sarcopterygii and tetrapods",
+            "ta": "எலும்பு முதுகெலும்பிகள்: ஆக்டினோப்டெரிஜி, சார்கோப்டெரிஜி மற்றும் நான்குகாலிகள்"
+          },
+          "body": {
+            "en": "Osteichthyes is often taught as the bony-fish class but, in a monophyletic evolutionary sense, it includes the tetrapod descendants of lobe-finned ancestors. Actinopterygii comprises ray-finned fishes, in which fin rays support most paired fins; Sarcopterygii includes coelacanths, lungfishes and tetrapods. The fleshy internal supporting skeleton of lobe fins is relevant to the evolution of limbs, although a living coelacanth or lungfish is not a direct ancestor of modern amphibians. Bone, endochondral developmental patterns, lungs or derivative swim bladders and diverse jaw mechanics evolved in complex patterns within these groups. Many teleosts possess opercula, bony fin rays and gas bladders, but these are not universal for all bony vertebrates. A branching diagram must place tetrapods within the sarcopterygian line, while a parallel traditional table may keep 'Osteichthyes' as an examination heading with a note on its historical restricted use.",
+            "ta": "ஆஸ்டீக்தீஸ் (Osteichthyes) பாரம்பரியமாக எலும்பு மீன்களைக் குறித்தாலும் பரிணாமக் கிளை நோக்கில் அதன் சார்கோப்டெரிஜி வழித்தோன்றல்களான நான்குகாலிகளையும் உள்ளடக்குகிறது. ஆக்டினோப்டெரிஜி (Actinopterygii) துடுப்புக் கதிர்களுள்ள மீன்கள்; சார்கோப்டெரிஜி (Sarcopterygii) மாமிசத் துடுப்புகளுள்ள மீன்களும் அவற்றின் நான்குகால் உறவுகளும் அடங்கிய கிளையாகும். கோய்லகாந்த், நுரையீரல் மீன்கள் இன்றைய இருவாழ்விகளின் நேரடி மூதாதைகள் அல்ல. பல டெலியோஸ்ட் மீன்களில் செவுள் மூடி, மிதவைப்பை இருந்தாலும் எல்லா எலும்பு முதுகெலும்பிகளிலும் அவை காணப்படுவதில்லை. கிளைவரைபடத்தில் நான்குகாலிகள் சார்கோப்டெரிஜி கிளைக்குள் அமைவது தெளிவாக இருக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "amphibia-and-amniota",
+          "heading": {
+            "en": "Tetrapods: Amphibia and the origin of Amniota",
+            "ta": "நான்குகாலிகள்: இருவாழ்விகளும் அம்னியோட்டுகளின் தோற்றமும்"
+          },
+          "body": {
+            "en": "Tetrapoda originated within sarcopterygian vertebrates and diversified into living amphibian and amniote lineages. Modern Amphibia includes frogs and toads (Anura), salamanders and newts (Caudata/Urodela) and caecilians (Gymnophiona/Apoda). Its members are diverse: not all have an aquatic free-swimming larva, and some are wholly terrestrial or direct-developing. Amniota comprises the living mammalian lineage and the reptilian lineage, including birds. The amniotic egg or corresponding extraembryonic membranes support development with reduced dependence on standing water, though some amniotes subsequently evolved viviparity. Distinguish the origin of weight-bearing limbs, vertebral specialisations and reproductive membranes as different evolutionary transitions. Calling all amphibians 'transitional' and all reptiles 'modern' misconstrues both groups as endpoints on a ladder. A useful tree shows amphibian and amniote branches arising from shared tetrapod ancestry, not adult frogs directly giving birth to reptiles.",
+            "ta": "நான்குகாலிகள் சார்கோப்டெரிஜி வழித்தோன்றல்களாகத் தோன்றி இருவாழ்வி, அம்னியோட்டு கிளைகளாகப் பரவின. இன்றைய இருவாழ்விகளில் வாலற்ற தவளைகள் (Anura), வாலுள்ள சாலமாண்டர்கள் (Caudata/Urodela), காலற்ற சீசிலியன்கள் (Gymnophiona/Apoda) அடங்குகின்றன. எல்லா இருவாழ்விகளிலும் நீர்வாழ் இளநிலை கட்டாயமாக இல்லை. அம்னியோட்டா குழுவில் பாலூட்டிகளும் பறவைகளை உள்ளடக்கிய ஊர்வனக் கிளையும் அடங்குகின்றன. அம்னியன் உள்ளிட்ட கருச்சவ்வுகள் நீரிலிருந்து ஓரளவு சுதந்திரமான கருவளர்ச்சிக்கு உதவின. கால்கள் தோன்றுதல், உடல் ஆதரவு மாற்றம், கருச்சவ்வுகள் தோற்றம் ஆகியவை வெவ்வேறு பரிணாம நிகழ்வுகள் என்பதை விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "reptilia-birds-and-mammals",
+          "heading": {
+            "en": "Reptiles including birds, and the mammalian lineage",
+            "ta": "பறவைகளை உள்ளடக்கிய ஊர்வனக் கிளையும் பாலூட்டி கிளையும்"
+          },
+          "body": {
+            "en": "The modern reptilian clade includes turtles, lizards, snakes, tuataras, crocodilians and birds, although traditional textbooks often treat Aves as a separate class for convenience. Birds are living theropod dinosaurs nested within Archosauria; crocodilians are their closest living non-avian relatives. Mammals are synapsids and are not derived from living lizards or birds. Hair, mammary glands, characteristic middle-ear ossicles and differentiated teeth help identify mammalian specialisations, with monotreme, marsupial and placental reproductive diversity. Endothermy evolved in mammalian and avian lineages with different histories and associated anatomical changes. Taxonomic diagrams should avoid putting dinosaurs wholly outside living birds, and should not depict mammals as arising from a modern reptile. A table of traditional classes remains useful if each term is clearly marked as a ranked teaching convenience rather than evidence for an evolutionary hierarchy.",
+            "ta": "நவீன பரிணாம உறவியல் பார்வையில் ஆமைகள், பல்லிகள், பாம்புகள், டுவாடாரா, முதலைகள், பறவைகள் ஆகியவை ஊர்வனக் கிளையில் அடங்குகின்றன. பாடத்திட்டங்களில் பறவைகளை Aves என்ற தனி வகுப்பாகக் கற்பிப்பது வசதிக்கான மரபாகும். பறவைகள் வாழும் தெரோபோடு டைனோசர்கள்; முதலைகள் அவற்றின் நெருங்கிய வாழும் பறவை அல்லாத உறவுகள். பாலூட்டிகள் சினாப்சிட் (Synapsida) கிளையைச் சேர்ந்தவை; இன்றைய பல்லிகளிலிருந்து நேரடியாகத் தோன்றியவை அல்ல. முடிகள், பால்சுரப்பிகள், நடுக்காது எலும்புகள், வேறுபட்ட பற்கள் போன்றவை பாலூட்டிகளின் அடையாளங்களாகும். முட்டையிடும், மார்சுபியல், நஞ்சுக்கொடி பாலூட்டிகளின் இனப்பெருக்க வேறுபாடுகளையும் சேர்த்துக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "identification-matrix-and-exam",
+          "heading": {
+            "en": "Class-level identification key and modern systematic caveats",
+            "ta": "வகுப்பு அளவிலான அடையாளக் குறிப்பு மற்றும் நவீன வகைப்பாட்டு எச்சரிக்கைகள்"
+          },
+          "body": {
+            "en": "A practical identification matrix should record jaws, paired appendages, skeleton composition, respiratory surface, skin covering, embryonic membranes and characteristic reproductive features. These characters are useful only when scored at the correct taxonomic level: a larval amphibian has a tail and often gills, a mature bird has feathers and an internally divided four-chambered heart, and a chimaera differs from an ordinary shark in gill covering. A classification key should permit exceptions and clearly distinguish an observation from a laboratory diagram inferred from a relative. In examinations students may need to present the prescribed conventional class names, but they should be able to add two modern corrections: Cyclostomata contains lampreys and hagfishes, and birds occur inside the reptilian evolutionary branch. Maintain separate headings for traditional rank, major lineage, representative specimen, diagnostic features and important qualifications. This makes the syllabus compatible with current phylogeny without erasing familiar biological terminology.",
+            "ta": "செய்முறையில் தாடை, இணைப்புறுப்புகள், அகச்சட்டகத்தின் தன்மை, சுவாசப்பரப்பு, தோல் உறை, கருச்சவ்வுகள், இனப்பெருக்க முறைகள் ஆகியவற்றை அடையாள அட்டவணையில் பதிவு செய்யலாம். இளநிலை, முதிர்நிலை பண்புகள் மாறுபடுவதால் ஒரே பொது விதி எல்லா நிலையில் பொருந்தாது. பழைய பாடத்திட்டத்துக்குரிய வகுப்புப் பெயர்களை விடைக்காகக் கற்றுக்கொள்ளலாம்; அதே சமயம் நவீன திருத்தங்களையும் அறிந்திருக்க வேண்டும். சைக்ளோஸ்டோமாட்டாவில் லாம்ப்ரே, ஹேக்ஃபிஷ் இரண்டும் அடங்குகின்றன; பறவைகள் ஊர்வனப் பரிணாமக் கிளைக்குள் அமைந்துள்ளன. வகுப்புப் பெயர், உறவுக் கிளை, எடுத்துக்காட்டு உயிரி, அடையாளப் பண்பு, விதிவிலக்கு ஆகியவற்றைத் தனித்தனியாகக் காட்டும் அட்டவணை கல்வியியல் ரீதியாகச் சிறந்ததாகும்."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpenStax Biology 2e: Chordates and vertebrates",
+          "url": "https://openstax.org/books/biology-2e/pages/29-1-chordates"
+        },
+        {
+          "label": "Nature 2024: Hagfish genome and cyclostome phylogeny",
+          "url": "https://www.nature.com/articles/s41586-024-07070-3"
+        },
+        {
+          "label": "Deuterostome Ancestors and Chordate Origins (2024)",
+          "url": "https://academic.oup.com/icb/article/64/5/1175/7727798"
+        }
+      ]
+    },
+    {
+      "id": "agnatha-petromyzon-ammocoetes-undergraduate",
+      "topicId": "u1-agnatha",
+      "title": {
+        "en": "Jawless vertebrates — Petromyzon, ammocoete and cyclostome biology",
+        "ta": "தாடையற்ற முதுகெலும்பிகள் — பெட்ரோமைசான், அம்மோசீட் மற்றும் சைக்ளோஸ்டோமாட்டா"
+      },
+      "sections": [
+        {
+          "key": "taxonomic-position-and-jawless-characters",
+          "heading": {
+            "en": "Cyclostomata, Petromyzon and diagnostic jawless features",
+            "ta": "சைக்ளோஸ்டோமாட்டா, பெட்ரோமைசான் மற்றும் தாடையின்மை"
+          },
+          "body": {
+            "en": "Petromyzon is a lamprey genus in the living jawless vertebrate lineage Cyclostomata, together with hagfishes. Older classification schemes often used 'Agnatha' for all jawless vertebrates, but recent genome-scale phylogenies more clearly support a monophyletic lamprey–hagfish group. Lampreys possess an elongated eel-like body, a cartilaginous endoskeleton, exposed gill openings and a lack of true jaws and paired fins. The parasitic feeding stage of the sea lamprey Petromyzon marinus has an adhesive oral disc bearing keratinous teeth; these are not true jaw teeth. Lampreys are not simply sharks without jaws, and their life histories differ strikingly from those of hagfishes. Species names must be checked because different lamprey species have parasitic or non-feeding adult phases. When drawing the animal, distinguish dorsal fin, oral disc, external gill pores, median nostril and post-anal region. Do not depict a vertebrate mandible on the oral disc.",
+            "ta": "பெட்ரோமைசான் (Petromyzon) என்பது சைக்ளோஸ்டோமாட்டா குழுவைச் சேர்ந்த லாம்ப்ரே பேரினமாகும். இதனுடன் ஹேக்ஃபிஷ் உறவுக் குழுவாக உள்ளது. பழைய வகைப்பாட்டில் இவை Agnatha என்ற தாடையற்ற பிரிவாகக் குறிப்பிடப்பட்டன. லாம்ப்ரேவின் உடல் நீண்டதாகவும் குருத்தெலும்பு அகச்சட்டகம் உடையதாகவும் உள்ளது. உண்மையான தாடைகளும் இணைத்துடுப்புகளும் இல்லை. கடல் லாம்ப்ரேவின் ஒட்டும் வாய்வட்டில் கெரட்டின் பற்கள் காணப்படுகின்றன; இவை தாடையில் பொருந்திய உண்மைப் பற்களல்ல. லாம்ப்ரேவை தாடையில்லாத சுறாவாக மட்டும் விளக்கக் கூடாது. படத்தில் வாய்வட்டு, நாசித்துளை, செவுள் துளைகள், முதுகுத்துடுப்பு, வால் ஆகியவற்றைக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "external-adult-characters",
+          "heading": {
+            "en": "Adult body plan, oral disc and branchial openings",
+            "ta": "முதிர்ந்த உடல்வடிவம், வாய்வட்டு மற்றும் செவுள் திறப்புகள்"
+          },
+          "body": {
+            "en": "Adult Petromyzon has a cylindrical muscular body with scaleless skin and mucus-producing surface structures. The anterior oral region bears a circular suctorial disc in parasitic feeding forms, with keratinous denticles and a rasping tongue. A single median external nostril occurs dorsally near the head, while the eyes are well developed after metamorphosis. Seven pairs of external gill pores are characteristic of many lampreys, each connecting to branchial pouches used in respiration. Median dorsal and caudal fin regions assist swimming; paired pelvic and pectoral fins are absent. The animal attaches to suitable substrates or hosts by the oral disc, depending on life-history phase. An anatomical plate should not show pharyngeal slits as five shark-like openings, nor position a pair of true nostrils on the snout. Identity should rest on multiple characters, and preserved animals may show distorted oral disc shape due to fixation.",
+            "ta": "பெட்ரோமைசானின் முதிர்ந்த உடல் உருளை வடிவமாகவும் சளி மூடிய செதிலற்ற தோலுடனும் காணப்படுகிறது. பல ஒட்டுண்ணி நிலைகளில் வட்டமான உறிஞ்சும் வாய்வட்டு, கெரட்டின் பற்கள், உரசும் நாக்கு உள்ளன. தலையின் முதுகுப்புறத்தில் ஒற்றை நாசித்துளை உள்ளது. உருவமாற்றத்திற்குப் பின் கண்கள் நன்கு வளர்கின்றன. பல லாம்ப்ரே இனங்களில் ஏழு ஜோடி வெளிச் செவுள் துளைகள் காணப்படுகின்றன. இணையான மார்பு, வயிற்றுத் துடுப்புகள் இல்லாமல் நடுத்துடுப்புகள் நீந்த உதவுகின்றன. சுறாவின் ஐந்து செவுள் பிளவுகளுடன் இதை மாற்றிப் பயன்படுத்தக் கூடாது. படத்தில் ஒற்றை நாசித்துளை, வாய்வட்டு, ஏழு செவுள் துளைகளின் இடத்தைத் தெளிவுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "ammocoete-burrowing-larva",
+          "heading": {
+            "en": "Ammocoete larva: burrowing form and suspension feeding",
+            "ta": "அம்மோசீட் இளநிலை: மணலில் புதைதலும் உணவு வடிகட்டலும்"
+          },
+          "body": {
+            "en": "Lamprey larvae known as ammocoetes inhabit soft freshwater sediments, where they burrow and filter suspended organic particles and microorganisms. Their eyes are poorly developed and covered, and they lack the adult's toothed suctorial oral disc. An oral hood and ciliary–mucus feeding structures help trap particles; the pharyngeal endostyle contributes mucus and has evolutionary homology with the vertebrate thyroid. Larval life can extend for several years, and duration depends on species and environmental conditions. Ammocoetes are therefore biologically different from newly hatched parasitic adults. Their resemblance to filter-feeding lancelets is an informative functional comparison but does not imply a direct larva-to-adult ancestry relationship between the two living lineages. Diagrams should identify oral hood, pharyngeal region, gill openings, myomeres, gut and caudal region, without adding the adult's full keratinous tooth array. Explain that the larval stage is a free-living feeding stage, not merely a dormant waiting period.",
+            "ta": "லாம்ப்ரேவின் அம்மோசீட் (ammocoete) இளநிலை நன்னீரின் மென்மையான மணற்படிவங்களில் புதைந்து வாழ்கிறது. நீரில் உள்ள நுண்ணுயிரிகள், கரிமத் துகள்களை வடிகட்டி உண்கிறது. கண்கள் தெளிவாக வளராத நிலையில் உள்ளன; முதிர்ந்த உயிரியின் பற்களுள்ள உறிஞ்சும் வாய்வட்டு இல்லை. வாய்மூடியும் சளி, நுண்மயிர் உணவுபிடிக்கும் அமைப்புகளும் காணப்படுகின்றன. தொண்டையிலுள்ள எண்டோஸ்டைல் முதுகெலும்பிகளின் தைராய்டுடன் வளர்ச்சி உறவு கொண்டது. இளநிலை பல ஆண்டுகள் நீடிக்கலாம்; கால அளவு இனத்திற்கேற்ப மாறும். அம்மோசீட்டைப் பெரிய வாய்வட்டுடைய சிறிய லாம்ப்ரேவாக வரைவது தவறு. உணவுபிடிக்கும் தொண்டை, எளிய கண்கள், செவுள் திறப்புகள், குடல் ஆகியவற்றை சரியாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "metamorphosis-thyroid-and-feeding",
+          "heading": {
+            "en": "Metamorphosis, thyroid development and feeding transition",
+            "ta": "உருவமாற்றம், தைராய்டு வளர்ச்சி மற்றும் உணவு மாற்றம்"
+          },
+          "body": {
+            "en": "During lamprey metamorphosis the larval oral hood reorganises into an adult-type mouth and, in parasitic forms, a toothed suctorial disc. The eyes become visible, sensory and digestive systems change, and the endostyle is reorganised into thyroid tissue. This endostyle–thyroid transformation supplies a particularly instructive developmental illustration of organ homology within chordates. Metamorphic remodelling also involves changes in osmoregulatory and physiological capacity that prepare migratory forms for different water salinities and feeding conditions. Not every species becomes a blood-feeding adult: non-parasitic species may cease feeding after metamorphosis and reproduce using accumulated larval reserves. The precise hormonal regulation of lamprey metamorphosis differs in important respects from the classic amphibian model, so it should not be described as identical to frog thyroxine-driven metamorphosis. A sequence plate should distinguish blind suspension-feeding larva, metamorphosing juvenile, parasitic or non-feeding post-metamorphic adult and spawning stage.",
+            "ta": "லாம்ப்ரே உருவமாற்றத்தின் போது இளநிலையின் வாய்மூடி முதிர்ந்த வாயமைப்பாக மாறுகிறது. ஒட்டுண்ணி வகைகளில் பற்களுள்ள உறிஞ்சும் வாய்வட்டு உருவாகிறது. கண்கள் வெளிப்படையாக வளர்கின்றன; எண்டோஸ்டைல் தைராய்டு திசுவாக மாற்றமடைகிறது. முதுகுநாணிகளின் உறுப்புத் தோற்ற உறவை விளக்க இது முக்கியமான எடுத்துக்காட்டு. உப்புச் சமநிலை மற்றும் உணவுமுறை சார்ந்த உடற்செயல்களிலும் மாற்றங்கள் ஏற்படுகின்றன. எல்லா லாம்ப்ரே இனங்களும் முதிர்ந்த பின் இரத்தம் உறிஞ்சும் ஒட்டுண்ணிகளாக மாறுவதில்லை; சில முதிர்ந்த நிலைகளில் உணவு உட்கொள்ளாது இனப்பெருக்கம் செய்கின்றன. உருவமாற்றப் படத்தில் அம்மோசீட், மாற்றநிலை, முதிர்ந்த லாம்ப்ரே, இனப்பெருக்க நிலை ஆகியவற்றை வேறுபடுத்த வேண்டும்."
+          }
+        },
+        {
+          "key": "respiration-circulation-osmoregulation",
+          "heading": {
+            "en": "Gill pouch ventilation, circulation and ionic regulation",
+            "ta": "செவுள் பைச் சுவாசம், இரத்த ஓட்டம் மற்றும் உப்புச் சமநிலை"
+          },
+          "body": {
+            "en": "Adult lampreys ventilate a series of gill pouches associated with branchial openings, enabling gas exchange even when the oral disc is attached to a host and the mouth is not freely taking in respiratory water. The vascular system has a serial heart arrangement adapted to a single major branchial circulation, not the divided four-chambered heart of a bird. The notochord and cartilaginous axial supports provide body flexibility. Species that migrate between freshwater and the sea must adjust gill and renal transport processes to changing osmotic gradients, while permanently freshwater species face different challenges. Larvae and adults may differ substantially in osmoregulatory competence. A useful teaching diagram separates oral feeding or attachment from water movement through gill openings, and labels the heart, branchial vessels and main pathways without importing a shark's jawed branchial skeleton. Functional explanations must be tied to stage and species.",
+            "ta": "லாம்ப்ரேவில் செவுள் பைகள் வழியாக வாயுப் பரிமாற்றம் நடைபெறுகிறது. வாய்வட்டு இரையுடன் ஒட்டியிருக்கும்போதும் செவுள் திறப்புகள் வழியாக நீர் இயக்கம் சுவாசத்திற்கு உதவக்கூடும். இரத்த ஓட்டத்தில் செவுள்களுடன் தொடர்புடைய ஒற்றை முதன்மைச் சுற்று உள்ளது; பறவை அல்லது பாலூட்டியின் நான்கு அறை இதயம் இல்லை. கடல், நன்னீர் இடையே இடம்பெயரும் இனங்களில் செவுள், சிறுநீரகச் செயல்கள் உப்புச் சமநிலையைப் பராமரிக்க மாற்றமடைகின்றன. இளநிலை, முதிர்நிலை உடற்செயல்களில் வேறுபாடு காணப்படும். படத்தில் வாய்வட்டு வழி உணவுபிடித்தலையும் செவுள் திறப்புகள் வழி நீர் இயக்கத்தையும் தனித்தனியாகக் காட்ட வேண்டும்."
+          }
+        },
+        {
+          "key": "reproduction-migration-and-life-cycle",
+          "heading": {
+            "en": "Spawning migration, nests, eggs and semelparity",
+            "ta": "இனப்பெருக்க இடப்பெயர்ச்சி, கூடுகள், முட்டைகள் மற்றும் ஒருமுறை இனப்பெருக்கம்"
+          },
+          "body": {
+            "en": "Many lamprey species migrate to suitable freshwater spawning reaches, where adults construct or modify gravel nests using the mouth and body movements. Spawning is typically followed by death in numerous lamprey species, and fertilised eggs develop in the stream environment. Larvae emerge and settle in slower sedimentary habitats, entering the prolonged ammocoete phase. Depending on species, the post-metamorphic juvenile may migrate to the sea or a lake, feed parasitically for a period and later return upstream to reproduce. Other species remain in freshwater and may have non-feeding adults. Calling every lamprey an anadromous sea parasite is therefore wrong. Human-made barriers, habitat degradation and pollution may affect movements and reproduction; some lampreys are conservation priorities, whereas invasive sea lampreys require control in particular systems. An accurate lifecycle diagram must display these species-specific alternatives and not attribute one species' timing to every lamprey.",
+            "ta": "பல லாம்ப்ரே இனங்கள் நன்னீரில் ஏற்ற இடங்களுக்கு இடம்பெயர்ந்து சிறுகற்கள் நிறைந்த பகுதிகளில் இனப்பெருக்கக் கூடுகளை உருவாக்குகின்றன. முட்டைகள் கருவுற்று வளர்ந்து அம்மோசீட் இளநிலைகள் தோன்றுகின்றன. இளநிலை மென்மையான படிவங்களில் புதைந்து நீண்ட காலம் உணவு வடிகட்டுகிறது. உருவமாற்றத்திற்குப் பின் சில இனங்கள் கடல் அல்லது ஏரிகளுக்குச் சென்று உணவு பெற்று மீண்டும் நன்னீரில் இனப்பெருக்கத்திற்குத் திரும்புகின்றன. மற்ற சில இனங்கள் நன்னீரிலேயே வாழ்ந்து முதிர்ந்த நிலையில் உணவுண்ணாமல் இனப்பெருக்கம் செய்யலாம். எல்லா லாம்ப்ரே இனங்களும் கடலிலிருந்து வரும் இரத்த ஒட்டுண்ணிகள் என்று கூறுவது தவறு. வாழ்க்கைச் சுழற்சியில் இனப்பெருக்கம், முட்டை, அம்மோசீட், உருவமாற்றம், இடப்பெயர்ச்சி ஆகியவற்றை இனத்திற்கேற்ப விளக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "cyclostome-phylogeny-and-practical",
+          "heading": {
+            "en": "Hagfish comparison, cyclostome phylogeny and practical identification",
+            "ta": "ஹேக்ஃபிஷ் ஒப்பீடு, சைக்ளோஸ்டோம் உறவியல் மற்றும் செய்முறை அடையாளம்"
+          },
+          "body": {
+            "en": "Hagfishes and lampreys share jawlessness and other cyclostome characters but differ in external morphology, sensory organs, reproductive biology and feeding. Hagfishes are exclusively marine scavengers or predators with copious slime production, while lampreys exhibit distinctive freshwater larvae and variable post-metamorphic feeding strategies. Genome-scale data strongly support their monophyly despite earlier anatomical arguments that grouped lampreys with jawed vertebrates to the exclusion of hagfishes. For a student identification table compare oral disc versus barbels, eye condition, gill openings, paired fins, slime glands and larval stage. Treat several traits as varying by species rather than absolute. Label the ammocoete and adult Petromyzon as stages of one lamprey life cycle, not separate taxonomic classes. The lesson illustrates how life-cycle observation, anatomy and molecular evidence jointly clarify classification without erasing useful historical terms such as Agnatha.",
+            "ta": "ஹேக்ஃபிஷ், லாம்ப்ரே இரண்டும் தாடையற்ற உறவுக் குழுக்கள் என்றாலும் உடற்புற அமைப்பு, உணர்வு உறுப்புகள், உணவுமுறை, இனப்பெருக்கம் ஆகியவற்றில் வேறுபடுகின்றன. ஹேக்ஃபிஷ் கடல்வாழ் உயிரி; அதிகச் சளி உற்பத்தி அதன் சிறப்புப்பண்பாகும். லாம்ப்ரேவில் நன்னீரில் வாழும் அம்மோசீட் இளநிலை முக்கியமானது. மரபணு ஆய்வுகள் இவ்விரண்டின் சைக்ளோஸ்டோமாட்டா உறவை வலுப்படுத்துகின்றன. செய்முறையில் வாய்வட்டு, மீசை போன்ற உணர்வு உறுப்புகள், கண்கள், செவுள் திறப்புகள், சளிச்சுரப்பிகள், இளநிலை ஆகியவற்றை ஒப்பிடலாம். அம்மோசீட்டையும் முதிர்ந்த பெட்ரோமைசானையும் வெவ்வேறு வகுப்புகளாகக் குறிக்கக் கூடாது. பழைய Agnatha சொல்லை வரலாற்றுச் சூழலோடு விளக்குவது பொருத்தமானது."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "NOAA-linked scientific review of lamprey life history and ammocoete metamorphosis",
+          "url": "https://repository.library.noaa.gov/view/noaa/62760/noaa_62760_DS1.pdf"
+        },
+        {
+          "label": "Nature 2024: Hagfish genome and monophyly of cyclostomes",
+          "url": "https://www.nature.com/articles/s41586-024-07070-3"
+        }
+      ]
     }
   ]
 }
