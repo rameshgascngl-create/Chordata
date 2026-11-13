@@ -372,8 +372,15 @@ internal fun selectedPlateNeedsReplacement(
     entries: Map<Pair<String, String>, JSONObject>,
     diagramId: String,
     language: ReadingLanguage
-): Boolean = selectProvisionalPlate(entries, diagramId, language)
-    ?.optString("visualReview") == "USER_REJECTED_REPLACEMENT_REQUIRED"
+): Boolean = selectProvisionalPlate(entries, diagramId, language)?.let { entry ->
+    // Material anatomical defects cannot pass under provisional owner approval.
+    // The check applies to the selected language variant, preserving a valid
+    // English/shared fallback when only the Tamil candidate has a defect.
+    entry.optString("visualReview") in setOf(
+        "USER_REJECTED_REPLACEMENT_REQUIRED",
+        "SCIENTIFIC_HOLD_REPLACEMENT_REQUIRED"
+    ) || entry.optString("scientificRiskHold").isNotBlank()
+} ?: false
 
 private data class DiagramSlot(
     val id: String, val topicId: String, val page: Int,
@@ -430,7 +437,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
     val pageSlots = if (page > 0) topicSlots.filter { it.page == page } else emptyList()
     val relevant = if (page > 0) plates.filter { it.topicId == topicId && it.page == page }
                    else emptyList()
-    val userRejectedSlots = pageSlots.filter { slot ->
+    val withheldSlots = pageSlots.filter { slot ->
         selectedPlateNeedsReplacement(pencilPlates, slot.id, lang)
     }
     val matchingDraftIds = pageSlots.mapNotNull { it.provisionalFigureId }.toSet()
@@ -441,7 +448,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
             ?: return@mapNotNull null
         // Rejected drawings must not appear as valid anatomical teaching plates.
         // Keep the registered slot and caption visible in the pending section instead.
-        if (entry.optString("visualReview") == "USER_REJECTED_REPLACEMENT_REQUIRED")
+        if (selectedPlateNeedsReplacement(pencilPlates, slot.id, lang))
             return@mapNotNull null
         // Use the registered canonical asset path. Discarding the parent folder
         // previously concealed 25 incorrect `figures/` manifest entries.
@@ -483,7 +490,7 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
     val visiblePlates = pencilBySlot.map { it.second } +
         relevant.filter { it.id in matchingDraftIds && it.id !in replacedIds }
     Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
-        if (userRejectedSlots.isNotEmpty()) {
+        if (withheldSlots.isNotEmpty()) {
             Text(
                 if (lang == ReadingLanguage.TA)
                     "இந்தப் பாடப்பகுதிக்கு நம்பகமான உயிரியல் விளக்கப்படம் தற்போது இல்லை."
