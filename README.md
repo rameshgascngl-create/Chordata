@@ -1,17 +1,17 @@
 # CHORDATA — Native Android QA foundation
 
-**Status (12 November 2026):** GitHub Actions workflow [#43248574501](https://github.com/rameshgascngl-create/Chordata/actions/runs/43248574501) passed native QA, emulator tests, and unsigned release-bundle/lint preflight for the committed *pre-AI10* source. Ten owner-selected AI plates are present in a separately validated local QA APK and source overlay, **not yet in this GitHub branch**. This is not a production release.
+**Status (13 November 2026):** Previous exact-AI10 source compilation, Android instrumentation and QA APK publication passed workflow [#43349295301](https://github.com/rameshgascngl-create/Chordata/actions/runs/43349295301), commit `4c7e61ca`. The newer bilingual syllabus-depth branch is a separate, UNVERIFIED build candidate until its own CI and emulator gates pass.
 
-This is a **genuinely native Kotlin/Jetpack Compose application**. It does not use HTML, JavaScript, a WebView, network requests or an online API. The five-unit `chordata_content.json` from the 5 November 2026 validated source project is bundled *byte-for-byte* in `app/src/main/assets/`.
+This is a **genuinely native Kotlin/Jetpack Compose application**. It does not use HTML, JavaScript, a WebView, network requests or an online API. The locally bundled five-unit `chordata_content.json` has been revised against the owner's photographed Chordata syllabus and index. The content SHA-256 is sealed by `scripts/audit_content.py`; section IDs and established figure anchors are preserved.
 
 ## Academic scope
 
-- Unit I Chordata: 8 topics
-- Unit II Pisces: 8 topics
-- Unit III Amphibia: 6 topics
-- Unit IV Reptilia: 6 topics
-- Unit V Aves and Mammalia: 11 topics
-- **Total: 39 topics, 127 bilingual sections, 117 explanatory MCQs, 64 figure IDs**.
+- Unit I Chordata and prochordates: 5 topics, 24 bilingual sections
+- Unit II Vertebrata, Agnatha and Pisces: 11 topics, 53 bilingual sections
+- Unit III Amphibia: 6 topics, 32 bilingual sections
+- Unit IV Reptilia: 6 topics, 34 bilingual sections
+- Unit V Aves and Mammalia: 11 topics, 57 bilingual sections
+- **Total: 39 topics, 200 bilingual sections, 117 explanatory MCQs, 64 figure IDs.** Index coverage trace: `docs/SYLLABUS_20261113_COVERAGE_AND_EDITORIAL_AUDIT.md`.
 
 **All 64 registered lesson slots now contain PROVISIONAL offline artwork** (68 language-variant manifest entries referencing 67 distinct pencil-plate PNGs; seven legacy/reference PNGs remain bundled separately). The drawings are not academically certified, and the UI marks them as drafts. Presence/placement is not scientific approval.
 
@@ -40,7 +40,7 @@ Based on the published Android/Kotlin documentation as of 5 November 2026:
 - JDK 17 minimum
 - Hosted CI explicitly installs `platforms;android-37.0`; an idempotent compatibility guard checks `android.jar` and supplies the `android-37` alias only when missing. This addresses known runner path-resolution problems, not an Android compilation result.
 
-**Verified CI (12 November 2026):** Native Kotlin compilation, Android emulator instrumentation, unsigned release-bundle creation, release lint and native 16 KiB checks passed in [workflow #43248574501](https://github.com/rameshgascngl-create/Chordata/actions/runs/43248574501). These results cover the committed pre-AI10 source only. The local ten-image QA package requires a fresh source-build CI/emulator run after its binary assets and manifest are committed.
+**Prior verified AI10 CI (13 November 2026):** Android compilation, emulator instrumentation, asset SHA verification, 16 KiB native alignment and QA APK publication all passed [#43349295301](https://github.com/rameshgascngl-create/Chordata/actions/runs/43349295301) for commit `4c7e61ca`. That success **does not** certify the later 200-section syllabus revision.
 
 ## Test locally with available tooling
 
@@ -61,7 +61,7 @@ The original content pack's Node suite is also in the uploaded HTML source proje
 5. A separate instrumentation job runs on an API 35 emulator, repeats APK asset verification and extracts screenshots. Review compiler logs, instrumented tests and screenshots before considering an APK installable or scientifically approved.
 6. If building in Android Studio, use **Gradle 9.3.1** and **JDK 17** with Android SDK 37, then `gradle :app:assembleDebug`. The project uses Gradle 9.3.1 in GitHub Actions; the Gradle wrapper is not committed. Use the pinned CI toolchain for reproducible builds or generate and validate a wrapper in a full Android development environment.
 
-A pre-AI10 QA APK is available from the successful workflow; a separate AI10 local QA APK has been repackaged and validated but is **not equivalent to a reproducible source-built release**. The complete ten-image source overlay must be committed alongside its manifest and regenerated reviewer/coverage registers before rerunning native CI and the release workflow. No signed production AAB or Play publication has been completed.
+The latest verified QA APK predates the 200-section content expansion. Rebuild and retest the syllabus-depth branch before claiming a new installable QA deliverable. A Play Store production AAB and signing clearance remain outside the scope of this content edit.
 
 **Sign-off integrity:** The 64-row review register now rejects invented/anonymous `ACCEPTED` statuses, missing review notes and the same person accepting both scientific and Tamil columns. Replacing a PNG revokes previous acceptance for that plate. Reviewer acceptance does **not** waive emulator, TalkBack, low-RAM and physical-device checks.
 
