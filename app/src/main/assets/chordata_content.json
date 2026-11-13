@@ -1483,6 +1483,17 @@
                 "en": "The alimentary canal comprises mouth, buccopharynx, oesophagus, stomach and a relatively short intestine with an internal spiral valve that increases absorptive surface. The large lipid-rich liver assists metabolism and buoyancy; the pancreas and spleen are associated with the visceral cavity. The shark brain can be divided into olfactory bulbs and telencephalon, diencephalon, midbrain, cerebellum and medulla, with prominent olfactory structures and vestibular coordination. Mechanoreceptive lateral-line canals detect local water motion, and electroreceptive ampullae of Lorenzini detect weak electric fields. Eyes and inner-ear systems provide other inputs. Locate these structures on the genuine Scoliodon specimen; an illustrative dogfish brain from another species must be explicitly identified as comparative anatomy.",
                 "ta": "செரிமானப் பாதையில் வாய், வாய்த்தொண்டை, உணவுக்குழல், இரைப்பை, உள்ளே சுருள் வால்வு கொண்ட குடல் ஆகியவை உள்ளன. சுருள் வால்வு குறைந்த நீளமுள்ள குடலின் உறிஞ்சும் பரப்பை அதிகரிக்கிறது. கொழுப்பு நிறைந்த பெரிய கல்லீரல் வளர்சிதை மாற்றத்திற்கும் மிதப்பிற்கும் உதவுகிறது; கணையம், மண்ணீரல் உடற்குழியுடன் தொடர்புடையவை. மூளையில் மணநரம்புப் புடைப்புகள், முன்மூளை, இடைமூளை, நடுமூளை, சிறுமூளை, முகுளம் ஆகிய பகுதிகளை வேறுபடுத்த வேண்டும். பக்கவரிசை உணர்வு நாளங்கள் நீரின் அசைவை அறிகின்றன; லோரென்சினியின் ஆம்புல்லாக்கள் மெல்லிய மின்புலங்களை உணர்கின்றன. கண், உள்செவி ஆகியவை கூடுதல் உணர்வுத் தகவலை அளிக்கின்றன. வேறு சுறா இனத்தின் மூளை வரைபடத்தை இவ்வினத்தின் உறுதிப்படுத்தப்பட்ட உறுப்பமைப்பாகக் குறிப்பிடக்கூடாது."
               }
+            },
+            {
+              "key": "scoliodon-embryology",
+              "heading": {
+                "en": "Scoliodon: internal fertilisation and embryonic development",
+                "ta": "ஸ்கோலியோடான் — உட்கருவுறுதலும் கருவளர்ச்சியும்"
+              },
+              "body": {
+                "en": "In male sharks the paired pelvic claspers transfer sperm during copulation; testes, ducts and associated reproductive structures should be distinguished in a dissection. Female reproductive anatomy includes ovaries, oviducts and regions that accommodate fertilisation and embryonic development. The spadenose shark is reported to be viviparous with a placental connection developing from the yolk sac, unlike oviparous skate-like elasmobranchs; embryonic strategies are diverse across chondrichthyans. Describe maternal supply, developing young and birth in species-specific terms, and avoid illustrating external egg laying as the normal mode for Scoliodon laticaudus. Reproductive details should be cross-checked against species-based ichthyological accounts, not transferred from a generic dogfish.",
+                "ta": "ஆண் சுறாவின் இடுப்புத் துடுப்பிலுள்ள ஜோடி கிளாஸ்பர்கள் இணைவின் போது விந்தணுக்களைப் பெண் உடலுக்குள் கடத்த உதவுகின்றன. விந்தகங்கள், கடத்தும் நாளங்கள், துணை இனப்பெருக்க உறுப்புகளைத் தனித்தனியாக அறிய வேண்டும். பெண்ணில் சூலகம், முட்டைக் குழாய்கள், கருவளர்ச்சிக்குரிய பகுதிகள் உள்ளன. ஸ்பேட்நோஸ் சுறா பொதுவாக குட்டி ஈனும் வகையாகவும் மஞ்சள்கருப் பை சார்ந்த நஞ்சுக்கொடி இணைப்புடையதாகவும் விவரிக்கப்படுகிறது; பிற குருத்தெலும்பு மீன்களில் முட்டையிடும் முறையும் காணப்படுகிறது. ஸ்கோலியோடானின் இயல்பான இனப்பெருக்கம் வெளியில் முட்டையிடுதல் எனக் கற்பிக்கக் கூடாது. இனம் சார்ந்த ஆய்வுகளின் அடிப்படையில் கருவளர்ச்சியை விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -5161,6 +5172,17 @@
               "body": {
                 "en": "After major ecological changes including the end-Cretaceous extinction, multiple mammalian lineages diversified into herbivory, carnivory, burrowing, arboreal movement, flight and aquatic feeding. Adaptive radiation is divergence of related lineages into niches with different selective pressures; convergence is independent evolution of similar solutions, such as streamlined bodies in dolphins and extinct ichthyosaurs, or gliding membranes in distantly related mammals. Marsupial and placental mammals show repeated functional parallels, but they are not interchangeable descendants. Explain changes in limb form, dentition, sensory systems, body size and reproduction using at least two named lineages and a branching relationship diagram rather than a single linear series.",
                 "ta": "கிரெட்டேசியஸ் கால முடிவில் நிகழ்ந்த பெரிய உயிரின அழிவுக்குப் பின் பல பாலூட்டிக் கிளைகள் தாவர உண்ணுதல், மாமிச உண்ணுதல், மண்துளைத்தல், மரவாழ்வு, பறத்தல், நீர்வாழ்வு போன்ற சூழலியல் இடங்களை நிரப்பிப் பல்வகைமையடைந்தன. உறவுடைய கிளைகள் வேறு வேறு தேர்வுச் சூழல்களுக்கு தகவமைவதே தகவமைப்புப் பரவல். தொடர்பில்லாத கிளைகளில் ஒத்த உடலமைப்பு தனித்தனியாக உருவாவது ஒருங்கிணை பரிணாமமாகும்; டால்பின்கள் மற்றும் அழிந்த இக்தியோசார்கள் நீந்துவதற்கான ஒத்த உடல்வடிவம் இதற்கு எடுத்துக்காட்டு. மார்சூப்பியல், நஞ்சுக்கொடி பாலூட்டிகளிலும் ஒத்த செயல்பாட்டுத் தகவமைப்புகள் உள்ளன. உறுப்புகள், பற்கள், உணர்வுகள் ஆகியவற்றை கிளைப்படியான மரபுமரத்துடன் விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "eutherian-mammal-orders",
+              "heading": {
+                "en": "Eutherian orders: diagnostic anatomy and examples",
+                "ta": "யூதீரியா வரிசைகள் — அடையாள உறுப்பமைப்பு, எடுத்துக்காட்டுகள்"
+              },
+              "body": {
+                "en": "Placental mammals include diverse evolutionary orders. Primates commonly possess grasping hands and comparatively developed vision; rodents have one pair of continuously growing incisors in each jaw; lagomorphs have two pairs of upper incisors, including the smaller peg teeth. Carnivora bears specialised carnassial teeth in many species, while Chiroptera has elongated hand digits supporting membranous wings. Perissodactyla includes horses and rhinoceroses with predominantly odd-toed weight-bearing arrangements; Cetartiodactyla contains even-toed artiodactyl relatives and cetaceans, reflecting the close ancestry of hippos and whales. Proboscidea includes elephants with a trunk and specialised tusks. These examples are teaching anchors: character states vary within orders and cannot replace a phylogenetic diagnosis.",
+                "ta": "நஞ்சுக்கொடி பாலூட்டிகளில் பல வரிசைகள் உள்ளன. பிரைமேட்டுகளில் பிடிக்கும் கை மற்றும் வளர்ந்த பார்வை; ரோடென்ஷியாவில் ஒவ்வொரு தாடையிலும் தொடர்ந்து வளரும் ஒரு ஜோடி முன்வெட்டுப் பற்கள்; லாகோமார்ஃபாவில் மேல்தாடையில் இரண்டு ஜோடி முன்வெட்டுப் பற்கள் காணப்படும். பல கார்னிவோரா இனங்களில் வெட்டிப் பிளக்கும் கார்னாசியல் பற்கள்; கைரோப்டெராவில் நீண்ட கை விரல்களால் தாங்கப்படும் இறக்கைகள் உள்ளன. பெரிசோடாக்டைலாவில் குதிரை, காண்டாமிருகம் போன்ற ஒற்றைப்படை விரல் குளம்பிகள்; செட்டார்டியோடாக்டைலாவில் இரட்டைப்படைக் குளம்பிகள் மற்றும் திமிங்கலங்கள் அடங்கும். நீர்யானைக்கும் திமிங்கலத்திற்கும் நெருங்கிய பரிணாம உறவு உள்ளது. புரோபோசிடியாவில் தும்பிக்கையுள்ள யானைகள் அடங்கும். ஒவ்வொரு வரிசைக்கும் பல பண்புகளைச் சேர்த்து அடையாளம் காண வேண்டும்."
               }
             }
           ],
