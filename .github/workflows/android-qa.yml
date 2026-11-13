@@ -322,10 +322,12 @@ jobs:
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 14
+      - name: Name the tested pointwise APK
+        run: cp app/build/outputs/apk/compactQa/app-compactQa.apk "app/build/outputs/apk/compactQa/Chordata_Pointwise_Answers_QA_${GITHUB_SHA:0:8}.apk"
       - name: Publish byte-for-byte content-preserving compact QA APK
         uses: actions/upload-artifact@v4
         with:
-          name: Chordata_Compact_QA_APK
-          path: app/build/outputs/apk/compactQa/app-compactQa.apk
+          name: Chordata_Pointwise_Answers_QA_APK
+          path: app/build/outputs/apk/compactQa/Chordata_Pointwise_Answers_QA_*.apk
           if-no-files-found: error
           retention-days: 14

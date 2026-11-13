@@ -4,6 +4,7 @@ import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.isDisplayed
@@ -623,6 +624,21 @@ class ReaderNavigationTest {
             org.junit.Assert.assertEquals(text.trim().replace(Regex("\\s+"), " "),
                 logic.answerPoints(text).joinToString(" ").replace(Regex("\\s+"), " "))
         }
+    }
+
+    @Test fun chapterShowsFullNumberedLessonAndDirectStudyAnswers() {
+        selectEnglish()
+        rule.onNodeWithText("Explore all lessons").performClick()
+        rule.onAllNodesWithText("Read chapter ›").onFirst().performClick()
+        rule.onAllNodesWithTag("answer-point-1").onFirst().assertIsDisplayed()
+        captureQaScreen("pointwise-lesson-en")
+        rule.onNodeWithTag("chapter-study-answers").performScrollTo().performClick()
+        rule.onNodeWithText("Return to quiz").assertIsDisplayed()
+        rule.onNodeWithTag("study-answer-1").assertIsDisplayed()
+        rule.onNodeWithText("Submit answers").assertDoesNotExist()
+        captureQaScreen("study-answers-en")
+        rule.onNodeWithTag("study-answers-toggle").performClick()
+        rule.onNodeWithTag("study-answer-1").assertDoesNotExist()
     }
 
     @Test fun creditedReferenceAssetsAreBundledAndMappedCorrectly() {

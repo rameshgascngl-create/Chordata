@@ -505,10 +505,16 @@ private fun ListingPage(pack: ContentPack, tab: String, query: String, onQuery: 
 @Composable
 private fun NumberedPoints(points: List<String>, lang: ReadingLanguage, scale: Float,
     modifier: Modifier = Modifier, base: Float = 16f) {
-    Column(modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(7.dp)) {
+    Column(modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         points.forEachIndexed { index, point ->
-            Row(verticalAlignment = Alignment.Top,
-                horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(
+                Modifier.fillMaxWidth()
+                    .background(paper, RoundedCornerShape(9.dp))
+                    .padding(horizontal = 10.dp, vertical = 8.dp)
+                    .testTag("answer-point-${index + 1}"),
+                verticalAlignment = Alignment.Top,
+                horizontalArrangement = Arrangement.spacedBy(9.dp)
+            ) {
                 Text("${index + 1}.", color = teal, fontWeight = FontWeight.Bold,
                     fontSize = (base * scale).sp)
                 ReadingText(point, lang, scale,
@@ -571,6 +577,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
     val listState = key(topic.id, page) { rememberLazyListState() }
     var continuous by rememberSaveable(topic.id) { mutableStateOf(false) }
     var outlineExpanded by rememberSaveable(topic.id) { mutableStateOf(false) }
+    var studyAnswers by rememberSaveable(topic.id) { mutableStateOf(false) }
     LaunchedEffect(topic.id, page, continuous) { listState.scrollToItem(0) }
     LazyColumn(state = listState,
         modifier = Modifier.fillMaxSize().background(paper).testTag("lesson-reader-list"),
@@ -578,6 +585,9 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
         verticalArrangement = Arrangement.spacedBy(8.dp)) {
         item(key = "breadcrumbs") {
             Text(if (continuous) loc(lang, "CONTINUOUS CHAPTER READING", "தொடர்ச்சியான பாட வாசிப்பு")
+                 else if (page < finalPage)
+                     loc(lang, "POINTWISE LESSON · ${page + 1} / ${finalPage + 1}",
+                         "குறிப்புகளாகப் பாடம் · ${page + 1} / ${finalPage + 1}")
                  else loc(lang, "PAGE ${page + 1} OF ${finalPage + 1}", "பக்கம் ${page + 1} / ${finalPage + 1}"),
                 color = teal, fontSize = 12.sp, fontWeight = FontWeight.Bold)
             if (!continuous) {
@@ -657,6 +667,12 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                             maxLines = 2, textAlign = TextAlign.Center)
                                     }
                                 }
+                                TextButton(
+                                    onClick = { studyAnswers = true; onPage(finalPage) },
+                                    modifier = Modifier.fillMaxWidth().testTag("chapter-study-answers")
+                                ) {
+                                    Text(loc(lang, "Study answers", "விடைகளைப் படிக்க"))
+                                }
                                 if (outlineExpanded) {
                                     topic.sections.forEachIndexed { index, section ->
                                         Text("${index + 1}. " +
@@ -728,7 +744,8 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
             }
             else -> {
                 item(key = "quiz") {
-                    QuizPage(topic, lang, scale, store, onComplete)
+                    QuizPage(topic, lang, scale, store, onComplete, studyAnswers,
+                        onStudyAnswers = { studyAnswers = it })
                 }
             }
         }
@@ -799,7 +816,8 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
 
 @Composable
 private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
-    store: ProgressStore, onComplete: () -> Unit) {
+    store: ProgressStore, onComplete: () -> Unit, studyAnswers: Boolean,
+    onStudyAnswers: (Boolean) -> Unit) {
     // All answers are in-memory until submission, then the score and completion are persisted.
     val answerSaver = listSaver<SnapshotStateList<Int>, Int>(
         save = { it.toList() }, restore = { it.toMutableStateList() }
@@ -809,13 +827,18 @@ private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
     }
     var submitted by rememberSaveable(topic.id) { mutableStateOf(false) }
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        OutlinedButton(onClick = { onStudyAnswers(!studyAnswers) },
+            modifier = Modifier.fillMaxWidth().testTag("study-answers-toggle")) {
+            Text(if (studyAnswers) loc(lang, "Return to quiz", "வினாப்பயிற்சிக்குத் திரும்புக")
+                else loc(lang, "Study answers", "விடைகளைப் படிக்க"))
+        }
         topic.quiz.forEachIndexed { index, question ->
             Card(colors = CardDefaults.cardColors(containerColor = Color.White)) {
                 Column(Modifier.fillMaxWidth().padding(14.dp), verticalArrangement = Arrangement.spacedBy(11.dp)) {
                     Text(loc(lang, "QUESTION ${index + 1} / ${topic.quiz.size}", "வினா ${index + 1} / ${topic.quiz.size}"), fontSize = 12.sp,
                         color = teal, fontWeight = FontWeight.Bold)
                     BilingualText(question.question, lang, scale, base = 16f, bold = true)
-                    question.options.forEachIndexed { optionIndex, option ->
+                    if (!studyAnswers) question.options.forEachIndexed { optionIndex, option ->
                         Row(Modifier.fillMaxWidth()
                             .clickable(enabled = !submitted) { answers[index] = optionIndex }
                             .padding(vertical = 5.dp),
@@ -827,9 +850,13 @@ private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
                                 .padding(top = 10.dp), base = 14f)
                         }
                     }
-                    if (submitted) {
+                    if (studyAnswers || submitted) {
                         HorizontalDivider()
-                        Text(if (answers[index] == question.correctIndex) loc(lang, "✓ Correct", "✓ சரி") else
+                        if (studyAnswers) {
+                            Text(loc(lang, "Answer and explanation", "விடையும் விளக்கமும்"),
+                                color = teal, fontWeight = FontWeight.Bold,
+                                modifier = Modifier.testTag("study-answer-${index + 1}"))
+                        } else Text(if (answers[index] == question.correctIndex) loc(lang, "✓ Correct", "✓ சரி") else
                             loc(lang, "Correct option: ${question.correctIndex + 1}", "சரியான விடை: ${question.correctIndex + 1}"),
                             color = if (answers[index] == question.correctIndex) teal else accent,
                             fontWeight = FontWeight.Bold)
@@ -839,6 +866,7 @@ private fun QuizPage(topic: LessonTopic, lang: ReadingLanguage, scale: Float,
                 }
             }
         }
+        if (studyAnswers) return@Column
         if (!submitted) {
             Button(onClick = {
                 submitted = true
