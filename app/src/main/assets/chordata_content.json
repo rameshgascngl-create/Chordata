@@ -4368,6 +4368,39 @@
                 "en": "Birds are surviving theropod dinosaurs, and fossil evidence includes feathered non-avian dinosaurs. Living bird lineages occupy terrestrial, aquatic and aerial habitats and act as seed dispersers, predators, scavengers and pollinators. Anatomical and ecological diversity can be compared without depicting present birds as descendants of living reptiles.",
                 "ta": "பறவைகள் தெரோபாட் டைனோசர்களின் வாழ்ந்து தொடரும் பரிணாமக் கிளையாகும். பறவையல்லாத இறகுடைய டைனோசர் புதைபடிவங்கள் இத்தொடர்பிற்கு ஆதாரமளிக்கின்றன. இன்றைய பறவைகள் நிலம், நீர் மற்றும் வான்சார்ந்த பல வாழிடங்களில் வாழ்கின்றன. விதை பரப்புதல், வேட்டையாடுதல், இறந்த உயிரிகளை அகற்றுதல், மகரந்தச் சேர்க்கை போன்ற சூழலியல் பங்குகளையும் செய்கின்றன."
               }
+            },
+            {
+              "key": "archaeornithes-neornithes",
+              "heading": {
+                "en": "Archaeornithes, Neornithes and the modern bird tree",
+                "ta": "ஆர்கியோர்னிதீஸ், நியோர்னிதீஸ் மற்றும் நவீனப் பறவை மரபுமரம்"
+              },
+              "body": {
+                "en": "Older university texts use 'Archaeornithes' for ancient toothed, long-tailed birds including Archaeopteryx, and 'Neornithes' for modern-type birds. Archaeopteryx combines feathers and flight-related features with teeth, clawed digits and a long bony tail, supporting a theropod dinosaur connection but not making it the direct ancestor of every modern bird. Living birds comprise Palaeognathae (including ratites and tinamous) and Neognathae, which radiated into waterbirds, landbirds, songbirds and many other groups. Ratite traditionally refers to mostly flightless ostriches, emus, rheas and relatives; tinamous retain flight within the palaeognath radiation. Modern relationships depend on fossils, anatomy and genomic evidence rather than a simple flightless-to-flying progression.",
+                "ta": "பழைய நூல்களில் ஆர்கியோர்னிதீஸ் என்ற பெயர் ஆர்கியோப்டெரிக்ஸ் போன்ற பற்கள், நீண்ட எலும்பு வால் கொண்ட பழங்காலப் பறவைகளுக்குப் பயன்படுத்தப்பட்டது; நியோர்னிதீஸ் இன்றைய பறவைக் கிளையை உள்ளடக்கும். ஆர்கியோப்டெரிக்ஸில் இறகுகள், பற்கள், நகமுள்ள விரல்கள், நீண்ட வால் காணப்பட்டன; அது எல்லாப் பறவைகளின் நேரடி மூதாதை என்று உறுதிசெய்ய முடியாது. இன்றைய பறவைகளில் பாலியோக்நாதே மற்றும் நீயோக்நாதே என்ற முக்கியக் கிளைகள் உள்ளன. ராட்டைட் என்று அழைக்கப்படும் பல பறக்காத பறவைகளும் பறக்கக்கூடிய டினமூக்களும் பாலியோக்நாதே உறவுக்குள் அடங்குகின்றன. புதைபடிவம், உறுப்பமைப்பு, மரபணு ஆதாரம் ஆகியவற்றைக் கொண்டு கிளைப்படியான பரிணாம உறவை விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "avian-classification-characters",
+              "heading": {
+                "en": "Representative orders of Aves and identification characters",
+                "ta": "ஏவிஸ் வரிசைகளும் அடையாளப் பண்புகளும்"
+              },
+              "body": {
+                "en": "Give representative living orders and features: Galliformes (ground-feeding fowl with strong legs), Anseriformes (ducks and geese, often with webbed feet), Columbiformes (pigeons and doves), Psittaciformes (parrots with curved bills and grasping feet), Strigiformes (owls), Accipitriformes/Falconiformes (different raptorial lineages) and Passeriformes (perching birds, including songbirds). Modern DNA studies have changed the placement of many orders, so ecological similarity is not proof of close ancestry. Compare beak, foot, sternum, wing form, feeding mode and habitat through a diagnostic table. Do not confuse 'ratites' with a single taxonomic order or assume that all large birds have lost flight.",
+                "ta": "பறவைகளின் முக்கிய வரிசைகளில் கேலிஃபார்மீஸ் (கோழியினங்கள்), அன்செரிஃபார்மீஸ் (வாத்துகள்), கொலம்பிஃபார்மீஸ் (புறாக்கள்), சிட்டாசிஃபார்மீஸ் (கிளிகள்), ஸ்டிரிஜிஃபார்மீஸ் (ஆந்தைகள்), இரைவிழுங்கும் பறவைகளின் தொடர்புடைய வரிசைகள், பாசெரிஃபார்மீஸ் (அமர்வுப் பறவைகள்) ஆகியவற்றைக் குறிப்பிட வேண்டும். அலகு, கால் விரல்கள், மார்பெலும்பு, இறக்கை வடிவு, உணவுமுறை ஆகியவற்றின் அடிப்படையில் ஒப்பிடலாம். ஒரே உணவு முறையுள்ள பறவைகள் அவசியம் நெருங்கிய மரபுவழி உறவுடையவை அல்ல. மரபணு ஆய்வுகளினால் பல வரிசைகளின் உறவுகள் திருத்தப்பட்டுள்ளன. ராட்டைட் என்பது ஒரே வரிசையின் பெயர் அல்ல."
+              }
+            },
+            {
+              "key": "origin-of-birds-theropods",
+              "heading": {
+                "en": "Origin of birds from theropod dinosaurs",
+                "ta": "தெரோபாட் டைனோசர்களிலிருந்து பறவைகளின் தோற்றம்"
+              },
+              "body": {
+                "en": "Birds evolved within maniraptoran theropod dinosaurs. Fossils document feathers, furculae, air-filled skeletal elements, brooding postures and modifications of the wrist and forelimb across related dinosaurs and early birds. Feathers arose before fully developed powered flight and likely served multiple functions, including insulation and display. Archaeopteryx is an important transitional early avialan relative, but the fossil record represents branching relationships rather than a chain from a single dinosaur species to pigeons. Compare hypotheses for the origin of flight without presenting either cursorial or arboreal scenarios as definitively settled in every detail.",
+                "ta": "பறவைகள் மனிராப்டோரன் தெரோபாட் டைனோசர் மரபுக்குள் தோன்றின. தொடர்புடைய புதைபடிவங்களில் இறகுகள், ஃபர்குலா, காற்று நிறைந்த எலும்புக் கூறுகள், முட்டைப் பாதுகாப்பு நிலை, மணிக்கட்டு மற்றும் முன்கால் மாற்றங்கள் காணப்படுகின்றன. முழுமையான இயக்கப் பறத்தலுக்கு முன்பே இறகுகள் தோன்றி வெப்பப் பாதுகாப்பு, காட்சி தொடர்பு போன்ற பணிகளுக்குப் பயன்பட்டிருக்கலாம். ஆர்கியோப்டெரிக்ஸ் தொடக்கப் பறவைகளின் பரிணாம உறவை விளக்கும் முக்கியப் புதைபடிவமாகும்; இன்றைய புறாவின் நேரடி மூதாதை என்று உறுதியாகக் கூற முடியாது. பறத்தல் தோற்றத்தை விளக்கும் நில ஓட்டக் கோட்பாடு, மரவாழ் கோட்பாடு ஆகியவற்றை ஆதாரங்களுடன் ஒப்பிட வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -4513,6 +4546,39 @@
                 "en": "Pigeons possess large, visually capable eyes and well-developed inner-ear equilibrium organs. The outer ear opening is covered by feathers, and the middle ear transmits sound through a columella. Their orientation can integrate visual landmarks, sun-related cues and magnetic information; no single mechanism should be taught as the sole navigation system.",
                 "ta": "புறாக்களில் நன்கு வளர்ந்த கண்களும் சமநிலையை உணரும் உள்காது அமைப்புகளும் காணப்படுகின்றன. வெளிக்காது திறப்பைச் சுற்றி இறகுகள் உள்ளன. நடுக்காதில் கோலுமெல்லா என்னும் செவியெலும்பு ஒலியை கடத்துகிறது. புறாக்கள் வழி அறிய நில அடையாளங்கள், சூரியன் சார்ந்த குறிப்புகள் மற்றும் பூமியின் காந்தப்புலத் தகவல்களை இணைத்துப் பயன்படுத்தக்கூடும். ஒரு முறையே திசையறிதலின் முழுமையான காரணம் என்று கூறக் கூடாது."
               }
+            },
+            {
+              "key": "pigeon-digestive-respiratory",
+              "heading": {
+                "en": "Columba livia: feeding, crop milk and respiratory system",
+                "ta": "கொலம்பா லிவியா — உணவூட்டம், பயிர்ப்பை பால், சுவாச அமைப்பு"
+              },
+              "body": {
+                "en": "The rock pigeon has a toothless beak, oesophagus with a crop for temporary storage, a glandular proventriculus and muscular gizzard for grinding food. Both parents produce nutrient-rich crop milk from proliferated crop epithelium to feed nestlings; it is not milk from mammalian mammary glands. The avian respiratory system includes comparatively rigid lungs with parabronchi and associated air sacs, supporting directional airflow through the lung during both inhalation and exhalation. Air sacs act as ventilatory bellows rather than the primary gas-exchange surface. Explain the route of air, the two-breath cycle and the role of pectoral and intercostal movement; do not depict a mammalian alveolar lung in pigeon.",
+                "ta": "கொலம்பா லிவியாவில் பற்களற்ற அலகு, உணவைத் தற்காலிகமாகச் சேமிக்கும் பயிர்ப்பை, சுரப்பி வயிறு, அரைக்கும் தசை வயிறு ஆகியவை உள்ளன. ஆணும் பெண்ணும் குஞ்சுகளுக்கு ஊட்டம் நிறைந்த பயிர்ப்பை பாலை வழங்குகின்றன; இது பாலூட்டிகளின் பால்சுரப்பியிலிருந்து உண்டாகும் பால் அல்ல. புறாவின் நுரையீரல் ஒப்பீட்டளவில் உறுதியான பாராபிராங்க்கை அமைப்பைக் கொண்டது; காற்றுப்பைகள் காற்றை நகர்த்தும் ஊதுகுழல் போன்று செயல்படுகின்றன. உள்ளிழுக்கும் போதும் வெளியேற்றும் போதும் நுரையீரல் வழியான காற்றோட்டம் திசைமுறையுடன் நடைபெறுகிறது. முதன்மையான வாயுப் பரிமாற்றம் நுரையீரலில்தான் நிகழ்கிறது; காற்றுப்பைகளில் அல்ல. பாலூட்டியின் அல்வியோலை அமைப்பை புறாவிற்குக் காட்டக் கூடாது."
+              }
+            },
+            {
+              "key": "pigeon-circulation-excretion",
+              "heading": {
+                "en": "Pigeon heart, excretion and reproductive anatomy",
+                "ta": "புறாவின் இதயம், கழிவுநீக்கம், இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Birds possess a fully divided four-chambered heart with separate pulmonary and systemic circulations; the right systemic aortic arch persists in birds, contrasting with the left in mammals. The kidneys are divided into lobes within the synsacral region and nitrogenous waste is excreted mainly as uric acid through the cloaca; most birds lack a urinary bladder. In the female pigeon the left ovary and oviduct are predominantly functional, while males have paired testes and ducts opening into the cloaca. Describe the infundibulum, magnum, isthmus, shell gland/uterus and vagina along the oviduct, linking each segment to egg formation. A verified reproductive plate should distinguish male and female structures rather than combine them into an impossible specimen.",
+                "ta": "பறவைகளில் நான்கு அறைகள் கொண்ட முழுமையாகப் பிரிந்த இதயமும் தனித்த நுரையீரல், உடல் இரத்தச் சுழற்சியும் காணப்படும். பறவைகளில் வலது சிஸ்டமிக் ஆர்டிக் வளைவு நிலைத்திருப்பது பாலூட்டிகளிலுள்ள இடது வளைவிலிருந்து வேறுபடும். புறாவின் சிறுநீரகங்கள் சின்சேக்ரம் அருகில் பல பாகங்களாக அமைந்து யூரிக் அமிலக் கழிவை பொதுக் கழிவுத்துவாரம் வழியாக வெளியேற்றுகின்றன; பெரும்பாலான பறவைகளில் சிறுநீர்ப்பை இல்லை. பெண் புறாவில் இடது சூலகமும் முட்டைக் குழாயும் முக்கியமாகச் செயல்படுகின்றன. ஆணில் ஜோடி விந்தகங்கள் உள்ளன. முட்டைக் குழாயின் இன்பண்டிபுலம், மக்னம், இஸ்த்மஸ், ஓடுச்சுரப்பி, யோனி பகுதிகளை முட்டை உருவாக்கத்துடன் இணைத்து விளக்க வேண்டும்."
+              }
+            },
+            {
+              "key": "pigeon-skeleton-feathers",
+              "heading": {
+                "en": "Pigeon skeleton, pectoral muscles and feather microstructure",
+                "ta": "புறா எலும்புக்கூடு, மார்புத் தசைகள், இறகின் நுண்கட்டமைப்பு"
+              },
+              "body": {
+                "en": "The axial skeleton shows extensive fusion: synsacrum, pygostyle and a rigid trunk, while the sternum carries a keel for attachment of major flight muscles. Pectoralis supplies much of the downstroke force; supracoracoideus elevates the wing through a tendon passing the triosseal canal. The furcula, coracoids and scapula stabilise the shoulder. Contour feathers comprise calamus, rachis, barbs and interlocking barbules, giving a lightweight airfoil; primary and secondary remiges contribute to flight, while rectrices assist control. Distinguish pneumatic bones from fused bones: the two traits serve different functions and are not universal in every avian element. Include labelled pectoral girdle and wing-bone comparisons.",
+                "ta": "புறாவின் அச்சு எலும்புக்கூட்டில் சின்சேக்ரம், பைகோஸ்டைல் போன்ற இணைந்த எலும்புப் பகுதிகள் உள்ளன; மார்பெலும்பின் கீல் பகுதியில் வலுவான பறத்தல் தசைகள் பற்றுகின்றன. பெக்டோராலிஸ் தசை இறக்கையை கீழிறக்க உதவுகிறது; சுப்ராகோரகாய்டியஸ் தசையின் தண்டு ட்ரையோசியல் கால்வாய் வழியாகச் சென்று இறக்கையை உயர்த்த உதவுகிறது. ஃபர்குலா, கோரகாய்டு, ஸ்காபுலா ஆகியவை தோள்பட்டையை உறுதிப்படுத்துகின்றன. இறகில் கலாமஸ், ராக்கிஸ், பார்புகள், ஒன்றோடு ஒன்று பொருந்தும் பார்பியூல்கள் காணப்படும். முதன்மை, இரண்டாம் பறத்தல் இறகுகளும் வால் இறகுகளும் இயக்கக் கட்டுப்பாட்டிற்கு உதவுகின்றன. காற்று நிறைந்த எலும்பையும் ஒன்றிணைந்த எலும்பையும் ஒரே பண்பாகக் கருதக் கூடாது."
+              }
             }
           ],
           "quiz": [
@@ -4650,6 +4716,17 @@
                 "en": "Bird lungs use parabronchial gas exchange with air sacs acting as bellows, permitting largely one-way airflow through exchange tissues across inhalation and exhalation phases. High cardiac output and aerobic metabolism support sustained flight. Flightlessness may evolve when selection favours swimming or running rather than aerial locomotion.",
                 "ta": "பறவைகளின் நுரையீரலில் பாராப்ராங்கியல் அமைப்புகள் வாயுப் பரிமாற்றத்தில் பங்கேற்கின்றன. காற்றுப்பைகள் துருத்திகளைப் போல் செயல்பட்டு வாயுப் பரிமாற்றப் பகுதிகள் வழியாக பெரும்பாலும் ஒரே திசை காற்றோட்டத்தைப் பராமரிக்க உதவுகின்றன. திறன்மிக்க இரத்த ஓட்டமும் ஆக்சிஜன் சார்ந்த ஆற்றல் உற்பத்தியும் தொடர்ச்சியான பறப்பை ஆதரிக்கின்றன. சில பறவைகளில் நீந்துதல் அல்லது ஓடுதல் முக்கியமாக மாறும்போது பறக்கும் திறன் இழக்கப்படலாம்."
               }
+            },
+            {
+              "key": "flight-energetics-aerodynamics",
+              "heading": {
+                "en": "Aerodynamics and energy costs of avian flight",
+                "ta": "பறத்தலின் காற்றியக்கவியலும் ஆற்றல் செலவும்"
+              },
+              "body": {
+                "en": "Lift depends on airflow around a wing and its interaction with downward-deflected air, while thrust and drag vary with wing movement, speed and body form. During flapping flight, the main flight muscles generate forces through coordinated downstroke and recovery upstroke; birds also use soaring, gliding and hovering in species-specific ways. High aerobic capacity is supported by a large heart, efficient pulmonary gas exchange, mitochondrial-rich muscles and energy-rich fuels. Flight entails substantial energetic costs and can shape wing aspect ratio, feather moult and migration strategies. Avoid implying that air pressure above the wing alone explains lift or that every bird can sustain hovering.",
+                "ta": "இறக்கையைச் சுற்றிய காற்றோட்டமும் காற்று கீழ்நோக்கித் திருப்பப்படுவதும் தூக்கு விசையை உருவாக்க உதவுகின்றன; முன்னேற்ற விசையும் எதிர்ப்பும் இறக்கை அசைவு, வேகம், உடல் வடிவத்தைப் பொறுத்து மாறும். அடிவீச்சு, மேலெழுச்சி ஆகிய இயக்கங்களில் மார்புத் தசைகள் ஒருங்கிணைந்து செயல்படுகின்றன. சில பறவைகள் சிறகடித்தும், சிலவை காற்றோட்டத்தில் மிதந்தும், சில குறிப்பிட்ட இனங்கள் நிலைத்துப் பறந்தும் இயங்குகின்றன. அதிக ஆக்சிஜன் தேவை நான்கு அறை இதயம், திறம்பட்ட நுரையீரல், மைட்டோகாண்ட்ரியா நிறைந்த தசைகள் மூலம் நிறைவேறுகிறது. இறக்கை வடிவு, இறகுமாற்றம், இடம்பெயர்வு ஆகியவற்றுடன் ஆற்றல் செலவை இணைத்து விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -4786,6 +4863,17 @@
                 "en": "Migration demands fuel storage, suitable weather and reliable stopover sites for feeding and rest. Loss of wetlands, artificial lighting, collisions and climate change may threaten migratory populations. Conservation therefore depends on connected habitats across political boundaries, not only the protection of a single breeding site.",
                 "ta": "வலசைக்குப் போதுமான ஆற்றல் சேமிப்பு, ஏற்ற காலநிலை மற்றும் இடைநிறுத்தி உணவு உண்ணும் வாழிடங்கள் தேவையாகின்றன. ஈரநில அழிவு, செயற்கை ஒளி, கட்டமைப்புகளுடன் மோதல் மற்றும் காலநிலை மாற்றம் ஆகியவை வலசைப் பறவைகளைப் பாதிக்கலாம். எனவே இனப்பெருக்க இடத்தை மட்டும் பாதுகாப்பது போதாது. நாடுகளின் எல்லைகளைத் தாண்டி இணைந்த வாழிடங்களையும் பாதுகாப்பது மிகவும் முக்கியமாகும்."
               }
+            },
+            {
+              "key": "bird-migration-evidence",
+              "heading": {
+                "en": "Bird migration routes, mechanisms and Indian examples",
+                "ta": "பறவை இடம்பெயர்வு வழிகள், இயங்குமுறை, இந்திய எடுத்துக்காட்டுகள்"
+              },
+              "body": {
+                "en": "Seasonal migration is often coordinated by photoperiod, inherited orientation programmes, weather and food availability. Birds can use celestial cues, the Earth's magnetic field, landmarks and learned routes; juveniles and adults may navigate differently. Energy storage as fat and use of staging wetlands are central to long-distance flights. In India, migratory waterbirds use coastal estuaries and inland wetlands; species-specific examples must be checked against reliable regional observation records rather than assumed from a generic illustration. Ringing, satellite telemetry, geolocators and citizen-science counts help reveal flyways, stopovers and population change. Habitat loss, power lines, pollution and climate shifts can disrupt travel.",
+                "ta": "பகல் நேர நீளம், உட்பிறப்பான திசையுணர்வு, வானிலை, உணவுத் தேவை ஆகியவை பருவகால இடம்பெயர்வைத் தூண்டுகின்றன. பறவைகள் சூரியன், நட்சத்திரங்கள், புவிக்காந்தப் புலம், நில அடையாளங்கள் ஆகியவற்றின் உதவியுடன் வழிகாணலாம். நீண்ட தூரப் பறப்பிற்கு கொழுப்பு சேமிப்பும் இடைநிறுத்த ஈரநிலங்களும் அவசியம். இந்தியாவின் கடலோரக் கழிமுகங்கள், உள்நாட்டு ஈரநிலங்கள் பல பறவைகளின் தங்குமிடங்களாகும்; குறிப்பிட்ட இன உதாரணங்களை நம்பத்தகுந்த பதிவுகளுடன் உறுதிசெய்ய வேண்டும். வளையமிடல், செயற்கைக்கோள் கண்காணிப்பு, மக்கள்சார் பறவை கணக்கெடுப்பு ஆகியவை இடம்பெயர்வு வழிகளை அறிய உதவுகின்றன. ஈரநில அழிவு, மின்கம்பி, மாசு, காலநிலை மாற்றம் ஆகிய அபாயங்களை விளக்க வேண்டும்."
+              }
             }
           ],
           "quiz": [
@@ -4919,6 +5007,28 @@
               "body": {
                 "en": "Mammals have diversified into terrestrial, subterranean, arboreal, aerial and aquatic lifestyles. Most are endothermic and provide milk to young, but hair may be greatly reduced in cetaceans and egg laying persists in monotremes. These exceptions reinforce the need to use a combination of traits for classification.",
                 "ta": "பாலூட்டிகள் நிலம், நிலத்தடி, மரங்கள், வான்வெளி மற்றும் நீர்வாழிடங்கள் உள்ளிட்ட பல சூழல்களில் வாழ்கின்றன. பெரும்பாலானவை உட்வெப்பநிலையைக் கட்டுப்படுத்துகின்றன; குட்டிகளுக்குப் பால் வழங்குகின்றன. திமிங்கிலங்கள் போன்ற நீர்வாழ் பாலூட்டிகளில் முடி மிகவும் குறைந்திருக்கலாம். மோனோட்ரீம்களில் முட்டையிடுதல் தொடர்கிறது. எனவே ஒரே வெளிப்புறப் பண்பை மட்டும் கொண்டு பாலூட்டிகளை வகைப்படுத்தக் கூடாது."
+              }
+            },
+            {
+              "key": "mammalian-orders-and-radiation",
+              "heading": {
+                "en": "Mammalian subclasses, important orders and evolutionary radiation",
+                "ta": "பாலூட்டிகளின் உட்பிரிவுகள், வரிசைகள், பரிணாமப் பல்வகைமை"
+              },
+              "body": {
+                "en": "Traditional teaching divides mammals into Prototheria (monotremes), Metatheria (marsupials) and Eutheria (placentals); modern phylogenies recognise monotremes as the surviving branch of Monotremata and marsupials plus placentals as Theria. Representative placental orders include Primates, Rodentia, Lagomorpha, Chiroptera, Carnivora, Cetartiodactyla, Perissodactyla and Proboscidea. Explain dentition, limb modification, placentation, habitat and examples rather than memorising names alone. Adaptive radiation is diversification from common ancestry into contrasting ecological niches, not a ladder of superiority. Australia's marsupial radiations and the multiple independent returns to aquatic life illustrate distinct evolutionary patterns. Do not treat every egg-laying or pouch-bearing character as universal among all mammals.",
+                "ta": "மரபுவழி வகைப்பாட்டில் புரோட்டோதீரியா (முட்டையிடும் பாலூட்டிகள்), மெட்டாதீரியா (மார்சூப்பியல்கள்), யூதீரியா (நஞ்சுக்கொடி பாலூட்டிகள்) என்ற பிரிவுகள் பயன்படுகின்றன. நவீன மரபுவழி முறையில் மோனோட்ரீம்கள் தனித்த கிளையாகவும் மார்சூப்பியல்கள், நஞ்சுக்கொடி பாலூட்டிகள் தீரியா கிளையாகவும் கருதப்படுகின்றன. பிரைமேட்டுகள், ரோடென்ஷியா, லாகோமார்ஃபா, கைரோப்டெரா, கார்னிவோரா, செட்டார்டியோடாக்டைலா, பெரிசோடாக்டைலா, புரோபோசிடியா போன்ற முக்கிய வரிசைகளுக்கு உறுப்பமைப்பு, பற்கள், இயக்கம், வாழிடம் ஆகிய அடையாளப் பண்புகளை வழங்க வேண்டும். ஒரே மூதாதை மரபிலிருந்து பல சூழலியல் இடங்களை நிரப்பும் கிளைகள் உருவாவதே தகவமைப்புப் பரவல்; உயர்வு-தாழ்வு வரிசை அல்ல."
+              }
+            },
+            {
+              "key": "mammal-adaptive-radiation",
+              "heading": {
+                "en": "Adaptive radiation and convergent evolution in mammals",
+                "ta": "பாலூட்டிகளில் தகவமைப்புப் பரவலும் ஒருங்கிணை பரிணாமமும்"
+              },
+              "body": {
+                "en": "After major ecological changes including the end-Cretaceous extinction, multiple mammalian lineages diversified into herbivory, carnivory, burrowing, arboreal movement, flight and aquatic feeding. Adaptive radiation is divergence of related lineages into niches with different selective pressures; convergence is independent evolution of similar solutions, such as streamlined bodies in dolphins and extinct ichthyosaurs, or gliding membranes in distantly related mammals. Marsupial and placental mammals show repeated functional parallels, but they are not interchangeable descendants. Explain changes in limb form, dentition, sensory systems, body size and reproduction using at least two named lineages and a branching relationship diagram rather than a single linear series.",
+                "ta": "கிரெட்டேசியஸ் கால முடிவில் நிகழ்ந்த பெரிய உயிரின அழிவுக்குப் பின் பல பாலூட்டிக் கிளைகள் தாவர உண்ணுதல், மாமிச உண்ணுதல், மண்துளைத்தல், மரவாழ்வு, பறத்தல், நீர்வாழ்வு போன்ற சூழலியல் இடங்களை நிரப்பிப் பல்வகைமையடைந்தன. உறவுடைய கிளைகள் வேறு வேறு தேர்வுச் சூழல்களுக்கு தகவமைவதே தகவமைப்புப் பரவல். தொடர்பில்லாத கிளைகளில் ஒத்த உடலமைப்பு தனித்தனியாக உருவாவது ஒருங்கிணை பரிணாமமாகும்; டால்பின்கள் மற்றும் அழிந்த இக்தியோசார்கள் நீந்துவதற்கான ஒத்த உடல்வடிவம் இதற்கு எடுத்துக்காட்டு. மார்சூப்பியல், நஞ்சுக்கொடி பாலூட்டிகளிலும் ஒத்த செயல்பாட்டுத் தகவமைப்புகள் உள்ளன. உறுப்புகள், பற்கள், உணர்வுகள் ஆகியவற்றை கிளைப்படியான மரபுமரத்துடன் விளக்க வேண்டும்."
               }
             }
           ],
@@ -5076,6 +5186,39 @@
                 "en": "Rabbits have laterally placed eyes providing a broad field of view, large mobile pinnae for sound detection and vibrissae that provide tactile information. Olfaction is important for communication and environmental assessment. The inner ear supplies both hearing and balance, and the three middle-ear ossicles distinguish mammalian auditory anatomy.",
                 "ta": "முயலின் கண்கள் தலையின் பக்கவாட்டில் அமைந்திருப்பதால் பரந்த பார்வைப் புலம் கிடைக்கிறது. பெரிய அசையும் வெளிக்காதுகள் ஒலியைக் கண்டறிய உதவுகின்றன. மீசை முடிகள் தொடு உணர்வை வழங்குகின்றன. மணநுகர்வு தகவல் தொடர்புக்கும் சுற்றுப்புறத்தை அறிதலுக்கும் முக்கியமானது. உள்காது கேட்பதற்கும் உடல் சமநிலைக்கும் உதவுகிறது. நடுக்காதின் மூன்று சிறு எலும்புகள் பாலூட்டிகளின் முக்கிய உடற்கூறு பண்பாகும்."
               }
+            },
+            {
+              "key": "rabbit-digestion-cecotrophy",
+              "heading": {
+                "en": "Rabbit digestive tract, fermentation and caecotrophy",
+                "ta": "முயலின் செரிமானம், நுண்ணுயிர் நொதிப்பு, சீகோட்ரோபி"
+              },
+              "body": {
+                "en": "The domestic rabbit, Oryctolagus cuniculus, is a lagomorph rather than a rodent. Incisors continue to grow, and a second small pair of upper incisors lies behind the main pair; there are no canine teeth and a diastema separates incisors from cheek teeth. The stomach is simple, but the caecum is large and houses microbes that ferment fibre into short-chain fatty acids. Rabbits produce specialised soft caecotrophs that are re-ingested directly from the anus, recovering microbial protein and vitamins; this is physiologically distinct from ordinary consumption of dry faecal pellets. Explain the role of the colon, caecum and diet in herbivore adaptation, avoiding human-like digestive illustrations.",
+                "ta": "வீட்டு முயல் ஓரிக்டோலாகஸ் குனிகுலஸ், ரோடென்ஷியா அல்ல; லாகோமார்ஃபா வரிசையைச் சேர்ந்தது. முன்வெட்டுப் பற்கள் தொடர்ந்து வளர்கின்றன; மேல்தாடையின் பெரிய முன்வெட்டுப் பற்களுக்குப் பின்னால் ஒரு சிறிய இரண்டாம் ஜோடி உள்ளது. கோரைப் பற்கள் இல்லை; முன்பற்களுக்கும் கன்னப் பற்களுக்கும் இடைவெளி காணப்படும். இரைப்பை எளிய அமைப்புடையது; பெரிய சீகம் பகுதியில் நுண்ணுயிரிகள் நார்ச்சத்தை நொதிக்கின்றன. சிறப்பான மென்மையான சீகோட்ரோப்களை முயல் மலவாயிலிருந்து நேரடியாக மீண்டும் உட்கொண்டு நுண்ணுயிர் புரதம், வைட்டமின்கள் பெறுகிறது. இது சாதாரண உலர் மலக் கட்டிகளை உண்பதற்குச் சமமானது அல்ல. குடல், சீகம், உணவுமுறை ஆகியவற்றைத் தாவர உண்ணும் தகவமைப்புடன் தொடர்புபடுத்த வேண்டும்."
+              }
+            },
+            {
+              "key": "rabbit-cardiovascular-reproduction",
+              "heading": {
+                "en": "Rabbit circulation, excretion and reproductive systems",
+                "ta": "முயலின் சுழற்சி, கழிவுநீக்கம், இனப்பெருக்கம்"
+              },
+              "body": {
+                "en": "Rabbit has a four-chambered mammalian heart in which the left systemic aortic arch persists; oxygenated and deoxygenated circulations are separated. Kidneys filter blood through nephrons; cortical and medullary structures help regulate ions, water and nitrogenous excretion, predominantly as urea. The bladder and urethra form the urine pathway. Male reproductive organs include testes, epididymides, vasa deferentia and accessory glands; the female possesses ovaries, oviducts and a duplex uterus with two cervical canals, which is a significant distinction from a human diagram. Fertilisation is internal and pregnancy is supported by a placenta; rabbits are induced ovulators. Compare these systems with pigeon and Calotes without mixing their sex-specific anatomy.",
+                "ta": "முயலுக்கு நான்கு அறை இதயமும் தனித்த நுரையீரல், உடல் இரத்தச் சுழற்சியும் உள்ளது; பாலூட்டிகளில் இடது சிஸ்டமிக் ஆர்டிக் வளைவு நிலைத்திருக்கும். சிறுநீரக நெஃப்ரான்கள் இரத்தத்தை வடிகட்டி நீர், உப்புச் சமநிலையை ஒழுங்குபடுத்துகின்றன; முக்கிய நைட்ரஜன் கழிவு யூரியா. ஆணில் விந்தகம், எபிடிடைமிஸ், விந்துக் குழாய், துணைச் சுரப்பிகள் உள்ளன. பெண்ணில் சூலகம், முட்டைக் குழாய், இரண்டு தனித்த கருப்பைவாய்களைக் கொண்ட இரட்டைக் கருப்பை அமைப்பு காணப்படுகிறது; மனிதப் பெண்ணின் கருப்பை வரைபடத்தை முயலுக்குப் பயன்படுத்தக்கூடாது. உட்கருவுறுதலும் நஞ்சுக்கொடி ஊட்டமும் உள்ளன; முயலில் இணைவு தூண்டிய முட்டைவிடுதல் நிகழ்கிறது. புறா, கலோட்ஸ் உறுப்பமைப்புகளுடன் சரியாக ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "rabbit-brain-senses",
+              "heading": {
+                "en": "Rabbit brain and sensory adaptations",
+                "ta": "முயலின் மூளையும் உணர்வுத் தகவமைப்புகளும்"
+              },
+              "body": {
+                "en": "The rabbit brain includes cerebrum, cerebellum and brainstem, receiving input from olfactory, visual, auditory and somatosensory pathways. The cerebellum integrates balance and movement, while the cerebral cortex participates in sensory processing and behaviour. Laterally placed eyes provide broad-field surveillance, though detailed binocular overlap is restricted relative to frontal-eyed predators. Large mobile pinnae improve sound collection and directional hearing; vibrissae are mechanosensory hairs supplied by richly innervated follicles. Strong hindlimbs and a flexible spine enable rapid escape running. A brain drawing must identify authentic lobes and cranial relationships rather than use a generic human brain silhouette with a rabbit label.",
+                "ta": "முயலின் மூளையில் பெருமூளை, சிறுமூளை, மூளைத்தண்டு காணப்படும்; மணம், பார்வை, கேள்வி, தொடுதல் தொடர்பான நரம்புவழிகள் தகவலைக் கடத்துகின்றன. சிறுமூளை சமநிலை மற்றும் இயக்க ஒருங்கிணைப்பில் செயல்படுகிறது. பக்கவாட்டில் உள்ள கண்கள் சுற்றியுள்ள பரந்த பகுதியைக் கண்காணிக்க உதவுகின்றன; முன்புற இருகண் ஒத்துப்பார்வைப் பரப்பு ஒப்பீட்டளவில் குறைவு. பெரிய அசையும் செவிமடல்கள் ஒலித் திசையை உணர உதவுகின்றன. மீசை உணர்வு முடிகள் தொடு மாற்றங்களை நரம்பு வழி அறியச் செய்கின்றன. வலுவான பின்னங்கால்கள், நெகிழும் முதுகெலும்பு வேகமான தப்பிச் செல்லும் இயக்கத்திற்கு உதவுகின்றன. மனித மூளை நிழற்படத்தை முயல் மூளையாக மாற்றிப் பெயரிடக்கூடாது."
+              }
             }
           ],
           "quiz": [
@@ -5214,6 +5357,17 @@
                 "en": "The platypus is semi-aquatic with a sensitive bill used in detecting prey, including electroreception. Echidnas are specialised for searching for ants, termites and other invertebrate prey with elongated snouts and powerful claws. Their contrasting habitats demonstrate diversification within this relatively small mammalian lineage.",
                 "ta": "பிளாட்டிபஸ் நீரிலும் நிலத்திலும் வாழ்ந்து உணவு தேட உணர்திறன் மிகுந்த அலகைப் பயன்படுத்துகிறது. இதில் மின்உணர்வும் காணப்படுகிறது. எகிட்னாக்கள் நீண்ட மூக்குப்பகுதியும் வலிமையான நகங்களும் கொண்டு எறும்புகள், கறையான்கள் மற்றும் பிற சிறிய முதுகெலும்பிலிகளைத் தேடி உண்கின்றன. இவற்றின் வாழிடங்களும் உணவுத்தேடல் முறைகளும் மோனோட்ரீம் குழுவிற்குள்ளே காணப்படும் தகவமைப்புப் பல்வகைமையை எடுத்துக்காட்டுகின்றன."
               }
+            },
+            {
+              "key": "monotreme-anatomy-evolution",
+              "heading": {
+                "en": "Monotreme reproduction, development and evolutionary position",
+                "ta": "மோனோட்ரீம்கள் — இனப்பெருக்கம், வளர்ச்சி, பரிணாம நிலை"
+              },
+              "body": {
+                "en": "Platypus and echidnas are the living egg-laying mammals. Their eggs are leathery-shelled; after hatching, young receive milk secreted from mammary tissue onto skin or specialised fur surfaces, because nipples are absent. Echidnas temporarily incubate an egg and rear a young 'puggle' in a pouch-like ventral depression; a platypus nests in a burrow and does not have an equivalent permanent echidna pouch. Platypuses use electroreception to detect prey underwater, while echidnas use a specialised snout and strong digging limbs to feed on invertebrates. Despite laying eggs and possessing a cloaca, monotremes have hair, lactation and the other key mammalian lineage traits.",
+                "ta": "பிளாட்டிபஸ் மற்றும் எகிட்னாக்கள் இன்றும் வாழும் முட்டையிடும் பாலூட்டிகள். அவற்றின் முட்டைகளுக்கு தோல் போன்ற உறை உள்ளது. குஞ்சுகள் பொரித்த பின் பால்சுரப்பித் திசுக்களிலிருந்து தோல் அல்லது முடி மேற்பரப்பில் வெளியேறும் பாலை உறிஞ்சுகின்றன; முலைக்காம்புகள் இல்லை. எகிட்னாவில் தற்காலிக வயிற்றுப்புறப் பை போன்ற அமைப்பில் முட்டையும் இளங்குஞ்சும் பாதுகாக்கப்படலாம்; பிளாட்டிபஸ் நிலத்தடி கூடுகளில் இனப்பெருக்கம் செய்கிறது. பிளாட்டிபஸ் நீரில் இரை தேட மின்னுணர்வைப் பயன்படுத்துகிறது; எகிட்னா சிறப்பான மூக்காலும் வலுவான தோண்டுகால்களாலும் முதுகெலும்பற்ற இரையைத் தேடுகிறது. முட்டையிட்டாலும் உரோமமும் பால் சுரத்தலும் இவற்றின் பாலூட்டிப் பண்புகளாகும்."
+              }
             }
           ],
           "quiz": [
@@ -5347,6 +5501,17 @@
               "body": {
                 "en": "Both marsupials and placentals nourish their young through mammary glands, but the relative duration of intrauterine and postnatal development often differs. Reproductive mode must be interpreted in an evolutionary and ecological context rather than ranked as less or more advanced. A comparison table should identify gestation, neonatal development and parental investment separately.",
                 "ta": "மார்சுபியல் மற்றும் பிளாசென்டல் பாலூட்டிகள் இரண்டிலும் குட்டிகளுக்குப் பால் வழங்கும் சுரப்பிகள் உள்ளன. ஆனால் கருப்பைக்குள் வளர்ச்சியடையும் காலமும் பிறந்தபின் நடைபெறும் வளர்ச்சியும் ஒப்பீட்டளவில் வேறுபடுகின்றன. ஒரு இனப்பெருக்க முறையை மற்றொன்றைவிடத் தாழ்ந்தது அல்லது உயர்ந்தது என்று வரிசைப்படுத்தக் கூடாது. கருவுற்ற காலம், பிறந்த குட்டியின் வளர்ச்சி நிலை, பெற்றோர் முதலீடு ஆகியவற்றைத் தனித்தனியாக ஒப்பிட வேண்டும்."
+              }
+            },
+            {
+              "key": "marsupial-development-ecology",
+              "heading": {
+                "en": "Marsupial placentation, lactation and ecological examples",
+                "ta": "மார்சூப்பியல்களின் நஞ்சுக்கொடி, பால் ஊட்டம், சூழலியல் எடுத்துக்காட்டுகள்"
+              },
+              "body": {
+                "en": "Marsupials usually give birth after a comparatively brief gestation to very immature young, which continue development while attached to a teat, often but not always inside a pouch. Many possess a specialised yolk-sac placenta; a short gestation does not mean that placentation is completely absent. Kangaroos, koalas, wombats, opossums and marsupial carnivores illustrate diverse Australian and American lineages. Maternal milk composition changes during lactation as young mature. Distinguish Metatheria from Eutheria by developmental patterns and detailed reproductive anatomy, not by a universal pouch rule. Adaptive resemblance between marsupial and placental mammals can result from convergent evolution in similar niches.",
+                "ta": "மார்சூப்பியல்கள் ஒப்பீட்டளவில் குறுகிய கருவுற்ற காலத்திற்குப் பின் வளர்ச்சி குறைவான குட்டிகளை ஈன்று, அவற்றை முலைக்காம்பில் பற்றியவாறு தொடர்ந்து வளர்க்கின்றன. பல இனங்களில் வயிற்றுப்புறப் பை இருப்பினும் அது அனைத்திலும் காணப்படுவதில்லை. சிலவற்றில் மஞ்சள்கருப் பை சார்ந்த நஞ்சுக்கொடி உள்ளது; நஞ்சுக்கொடி முற்றிலும் இல்லை என்று கூறக் கூடாது. கங்காரு, கோலா, வொம்பாட், ஓப்போசம் போன்றவை பல்வேறு வாழிடங்களுக்கு தகவமைந்துள்ளன. குட்டியின் வளர்நிலைக்கு ஏற்ப தாய்ப்பாலின் ஊட்டக்கூறு மாறலாம். மெட்டாதீரியா மற்றும் யூதீரியாவை இனப்பெருக்க உறுப்பமைப்பு, கருவளர்ச்சி, பாலூட்டும் முறை ஆகியவற்றால் ஒப்பிட வேண்டும். ஒத்த வாழிடத்தால் தனித்த கிளைகளில் ஒத்த தகவமைப்பு உருவாகலாம்."
               }
             }
           ],
@@ -5482,6 +5647,17 @@
                 "en": "Flying squirrels and colugos can glide using expanded skin membranes between limbs, but they cannot sustain flapping powered flight as bats do. Their aerial movement is a form of gliding controlled by posture and membrane tension. Convergent solutions to aerial locomotion should not be confused with close evolutionary relationship.",
                 "ta": "பறக்கும் அணில்கள் மற்றும் கொலுகோ உயிரிகள் கால்களுக்கு இடையில் விரிந்த தோல் சவ்வுகளைப் பயன்படுத்தி காற்றில் சறுக்கிப் பாய்கின்றன. ஆனால் வௌவால்களைப் போல இறக்கைகளை அடித்து நீடித்த உந்துவிசைப் பறப்பை மேற்கொள்ள முடியாது. உடல் நிலையும் சவ்வின் இழுவையும் இவற்றின் சறுக்கலைக் கட்டுப்படுத்துகின்றன. ஒரே பணிக்கான ஒத்த தகவமைப்பு இருப்பதால் இவை நெருங்கிய பரிணாம உறவுடையவை என்று முடிவு செய்யக் கூடாது."
               }
+            },
+            {
+              "key": "chiropteran-wings-ecolocation",
+              "heading": {
+                "en": "Bat wing structure, echolocation and ecological services",
+                "ta": "வௌவால் இறக்கை, எதிரொலி உணர்வு, சூழலியல் சேவைகள்"
+              },
+              "body": {
+                "en": "Order Chiroptera is the only mammalian lineage capable of sustained powered flight. Its flexible wing membrane is supported largely by elongated hand digits, with a free thumb often bearing a claw; a tail membrane may assist control in some species. Many insect-eating bats emit ultrasonic calls and interpret returning echoes to detect obstacles and prey, but echolocation methods vary and not all bats use the same mechanism. Fruit bats may rely strongly on vision and smell. Bats provide insect control, pollination and seed dispersal, while their roosts and feeding habitats face disturbance. Flying squirrels and colugos glide using a patagium but cannot sustain powered flapping flight; distinguish wing-bone architecture clearly.",
+                "ta": "கைரோப்டெரா வரிசையிலுள்ள வௌவால்களே தொடர்ச்சியான தசை இயக்கப் பறத்தல் செய்யும் பாலூட்டிகள். நீண்ட கை விரல் எலும்புகளால் தாங்கப்படும் நெகிழ்வான தோல் இறக்கை உள்ளது; சுதந்திரமான கட்டைவிரலில் நகம் காணலாம். பல பூச்சி உண்ணும் வௌவால்கள் மீயொலியை எழுப்பி திரும்பும் எதிரொலியால் இரை மற்றும் தடைகளை அறிகின்றன; எதிரொலி உணர்வு அனைத்து இனங்களிலும் ஒரே முறையில் இருப்பதில்லை. பல பழ உண்ணும் இனங்கள் பார்வை, மணவுணர்வைப் பெரிதும் பயன்படுத்துகின்றன. பூச்சிக் கட்டுப்பாடு, மகரந்தச் சேர்க்கை, விதைப் பரவல் ஆகிய சூழலியல் சேவைகள் முக்கியமானவை. பறக்கும் அணில், கொலுகோ ஆகியவை தோல் சவ்வில் சறுக்கிப் பறக்கின்றன; வௌவால் போன்ற இயக்கப் பறத்தல் செய்யாது."
+              }
             }
           ],
           "quiz": [
@@ -5616,6 +5792,17 @@
                 "en": "Entanglement in fishing gear, underwater noise, vessel strikes, pollution and habitat alteration threaten aquatic mammals. Effective conservation needs species-specific information about migration, breeding and feeding grounds. Dugongs associated with Indian seagrass habitats illustrate the importance of protecting coastal ecosystems as well as the animals themselves.",
                 "ta": "மீன்பிடி வலைகளில் சிக்குதல், நீருக்கடிப் பெருஞ்சத்தம், கப்பல்களுடன் மோதுதல், மாசுபாடு மற்றும் வாழிட மாற்றம் ஆகியவை நீர்வாழ் பாலூட்டிகளைப் பாதிக்கின்றன. பாதுகாப்பிற்கு ஒவ்வொரு இனத்தின் வலசை, இனப்பெருக்கம் மற்றும் உணவுத்தேடல் இடங்கள் பற்றிய தகவல்கள் தேவை. இந்தியக் கடலோர கடற்புல் வாழிடங்களில் காணப்படும் டுகாங் உயிரிகள் கடலோரச் சூழலையும் உயிரினங்களையும் சேர்த்துப் பாதுகாக்க வேண்டியதைக் காட்டுகின்றன."
               }
+            },
+            {
+              "key": "aquatic-mammal-comparative-diving",
+              "heading": {
+                "en": "Cetaceans, sirenians, pinnipeds and diving physiology",
+                "ta": "செடேசியன்கள், சைரீனியன்கள், பினிப்பெட்கள் — நீர்மூழ்கும் உடலியல்"
+              },
+              "body": {
+                "en": "Fully aquatic cetaceans (whales, dolphins and porpoises) propel themselves mainly with horizontal tail flukes and surface to breathe through blowholes; sirenians (manatees and dugongs) are slow-moving aquatic herbivores with forelimb flippers. Pinnipeds, including seals, sea lions and walruses, remain amphibious in their life cycles, often resting or breeding on land or ice. These groups represent separate mammalian branches that independently acquired streamlined bodies and insulation mechanisms. During diving, oxygen stores in blood and muscle, altered circulation and reduced oxygen demand can extend submergence; all still breathe atmospheric air with lungs. Do not label fish gills or a vertical fish caudal fin in a whale figure.",
+                "ta": "முழுமையான நீர்வாழ் செடேசியன்களான திமிங்கலங்கள், டால்பின்கள் கிடைமட்ட வால் துடுப்புகளால் முன்னேறி மேற்பரப்பில் சுவாசத் துவாரம் வழியாகக் காற்றைப் பெறுகின்றன. சைரீனியன்களான கடற்பசு, டுகாங் தாவர உணவுடைய நீர்வாழ் பாலூட்டிகள். சீல்கள், கடல்சிங்கங்கள், வால்ரஸ்கள் அடங்கிய பினிப்பெட்கள் நீரில் உணவு தேடியாலும் நிலம் அல்லது பனிப்பரப்பில் ஓய்வு, இனப்பெருக்கம் மேற்கொள்ளலாம். இந்தக் குழுக்கள் தனித்த பரிணாமக் கிளைகளிலிருந்து நீர்வாழ்க்கைக்குத் தகவமைந்துள்ளன. இரத்தம், தசைகளில் ஆக்சிஜன் சேமிப்பு, இரத்தச் சுழற்சி மாற்றம் ஆகியவை நீர்மூழ்க உதவுகின்றன; அனைத்தும் நுரையீரலால் காற்றைச் சுவாசிக்கின்றன. திமிங்கலத்தில் மீன் செவுளையோ செங்குத்து மீன் வாலையோ காட்டக் கூடாது."
+              }
             }
           ],
           "quiz": [
@@ -5749,6 +5936,17 @@
               "body": {
                 "en": "A dental formula records the numbers of incisors (I), canines (C), premolars (P) and molars (M) in one half of the upper and lower jaws. The adult human formula I 2/2, C 1/1, P 2/2, M 3/3 gives 32 teeth when doubled. The adult rabbit formula I 2/1, C 0/0, P 3/2, M 3/3 gives 28 teeth; the second upper incisors are small peg teeth.",
                 "ta": "பல் வாய்ப்பாடு மேல் மற்றும் கீழ்த்தாடைகளின் ஒவ்வொரு பாதியிலும் உள்ள முன்பற்கள், கோரைப்பற்கள், முன்கடைவாய்ப்பற்கள் மற்றும் கடைவாய்ப்பற்களின் எண்ணிக்கையைச் சுட்டுகிறது. முதிர்ந்த மனிதனில் I 2/2, C 1/1, P 2/2, M 3/3 என்ற வாய்ப்பாட்டால் மொத்தம் முப்பத்திரண்டு பற்கள் கிடைக்கின்றன. முதிர்ந்த முயலில் I 2/1, C 0/0, P 3/2, M 3/3 என்ற வாய்ப்பாட்டால் இருபத்தெட்டு பற்கள் கிடைக்கின்றன. மேல்தாடையில் கூடுதல் சிறிய முன்பற்கள் உள்ளன."
+              }
+            },
+            {
+              "key": "dental-formula-comparison",
+              "heading": {
+                "en": "Dental formulae of rabbit, human and contrasting mammals",
+                "ta": "முயல், மனிதன் மற்றும் பிற பாலூட்டிகளின் பற்சூத்திரங்கள்"
+              },
+              "body": {
+                "en": "A dental formula gives the number of incisors, canines, premolars and molars on one side of the upper and lower jaws, multiplied by two for the complete permanent dentition. Adult human permanent dentition is I 2/2, C 1/1, P 2/2, M 3/3 = 32. Adult rabbit dentition is I 2/1, C 0/0, P 3/2, M 3/3 = 28, with a second small upper incisor pair and a diastema. Carnivores typically possess pronounced canines and carnassial shearing teeth, whereas grazing herbivores have broad grinding cheek teeth. Distinguish homodont versus heterodont, thecodont attachment and diphyodont replacement, noting that rodents and lagomorphs differ and some mammalian lineages depart from the usual patterns.",
+                "ta": "பற்சூத்திரம் மேல், கீழ்த் தாடைகளின் ஒரு பக்கத்தில் உள்ள முன்வெட்டுப் பற்கள், கோரைப் பற்கள், முன்கடைவாய்ப் பற்கள், கடைவாய்ப் பற்கள் ஆகியவற்றின் எண்ணிக்கையைக் காட்டுகிறது; இரு பக்கங்களுக்கும் இரண்டால் பெருக்க வேண்டும். மனித நிரந்தரப் பற்சூத்திரம் I 2/2, C 1/1, P 2/2, M 3/3 = 32. முயலின் பற்சூத்திரம் I 2/1, C 0/0, P 3/2, M 3/3 = 28. மேல்தாடையில் சிறிய இரண்டாம் ஜோடி முன்வெட்டுப் பற்களும் பற்களற்ற இடைவெளியும் உள்ளன. மாமிச உண்ணிகளில் வலுவான கோரைப் பற்களும் வெட்டிப் பிளக்கும் கார்னாசியல் பற்களும்; தாவர உண்ணிகளில் அரைக்கும் கன்னப் பற்களும் காணப்படும். ஹோமோடாண்டு, ஹெடெரோடாண்டு, தீகோடாண்டு, டைபியோடாண்டு ஆகிய சொற்களை எடுத்துக்காட்டுடன் விளக்க வேண்டும்."
               }
             }
           ],
