@@ -826,12 +826,20 @@ class ReaderNavigationTest {
         org.junit.Assert.assertEquals(
             listOf(listOf(0), listOf(1, 2)),
             `in`.gasc.zoology.chordata.domain.LearningLogic.sectionPages(origin))
-        org.junit.Assert.assertEquals(2,
-            `in`.gasc.zoology.chordata.domain.LearningLogic.lastPage(origin))
+        val logic = `in`.gasc.zoology.chordata.domain.LearningLogic
+        org.junit.Assert.assertEquals(2, logic.sectionPages(origin).size)
+        org.junit.Assert.assertTrue(
+            "Full textbook expansion must follow the compact original sections",
+            logic.textbookPages(origin).isNotEmpty())
+        org.junit.Assert.assertEquals(
+            logic.sectionPages(origin).size + logic.textbookPages(origin).size,
+            logic.lastPage(origin))
         val illustratedLast = requireNotNull(pack.findTopic("u1-urochordata"))
         org.junit.Assert.assertTrue(3 in illustratedLast.figurePages)
-        org.junit.Assert.assertEquals(3,
-            `in`.gasc.zoology.chordata.domain.LearningLogic.lastPage(illustratedLast))
+        org.junit.Assert.assertEquals(3, logic.sectionPages(illustratedLast).size)
+        org.junit.Assert.assertEquals(
+            logic.sectionPages(illustratedLast).size + logic.textbookPages(illustratedLast).size,
+            logic.lastPage(illustratedLast))
 
         selectEnglish()
         rule.onNodeWithText("Explore all lessons").performClick()
@@ -846,7 +854,15 @@ class ReaderNavigationTest {
             .assertTextEquals("Ancestry versus resemblance")
         rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(6)
         rule.onNodeWithTag("reader-next").performClick()
-        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("Practice")
+        // The compact original chapter is followed by the detailed textbook,
+        // not directly by the quiz. Assert that the next page is the first
+        // expansion section; keep the normal final quiz boundary in LearningLogic.
+        val firstExpansion = requireNotNull(origin.textbookChapters.firstOrNull())
+            .sections.first().heading.en
+        rule.onNodeWithTag("lesson-page-heading").assertTextEquals(firstExpansion)
+        org.junit.Assert.assertFalse(
+            logic.isQuizPage(origin, logic.sectionPages(origin).size))
+        org.junit.Assert.assertTrue(logic.isQuizPage(origin, logic.lastPage(origin)))
     }
 
     @Test fun opensFirstChapterAndAdvancesToLesson() {
