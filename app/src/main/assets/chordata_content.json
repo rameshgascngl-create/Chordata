@@ -5,8 +5,8 @@
     {
       "id": "u1",
       "title": {
-        "en": "Unit I — Chordata",
-        "ta": "அலகு I — முதுகுநாணிகள்"
+        "en": "Unit I — General characters and classification of Chordata",
+        "ta": "அலகு I — முதுகுநாணிகளின் பொதுப் பண்புகளும் வகைப்பாடும்"
       },
       "topics": [
         {
@@ -744,7 +744,16 @@
           "diagramIds": [
             "u1-cephalochordata-branchiostoma-labelled"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": {
+        "en": "Unit II — Vertebrata, Agnatha and Pisces",
+        "ta": "அலகு II — முதுகெலும்பிகள், தாடையற்றவை, மீன்கள்"
+      },
+      "topics": [
         {
           "id": "u1-vertebrata-characters",
           "title": {
@@ -1179,16 +1188,7 @@
           "diagramIds": [
             "u1-agnatha-petromyzon-adult-larva"
           ]
-        }
-      ]
-    },
-    {
-      "id": "u2",
-      "title": {
-        "en": "Unit II — Pisces",
-        "ta": "அலகு II — மீன்கள்"
-      },
-      "topics": [
+        },
         {
           "id": "u2-pisces-classification",
           "title": {
