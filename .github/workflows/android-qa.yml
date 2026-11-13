@@ -291,13 +291,17 @@ jobs:
           full = Path("app/build/outputs/apk/debug/app-debug.apk")
           compact = Path("app/build/outputs/apk/compactQa/app-compactQa.apk")
           with zipfile.ZipFile(full) as original, zipfile.ZipFile(compact) as reduced:
-              assets = [n for n in original.namelist() if n.startswith("assets/") and not n.endswith("/")]
-              reduced_assets = [n for n in reduced.namelist() if n.startswith("assets/") and not n.endswith("/")]
-              assert set(assets) == set(reduced_assets), "Compressed QA build removed/added lesson or image assets"
-              for name in assets:
+              assets = {n for n in original.namelist() if n.startswith("assets/") and not n.endswith("/")}
+              reduced_assets = {n for n in reduced.namelist() if n.startswith("assets/") and not n.endswith("/")}
+              missing = assets - reduced_assets
+              added = reduced_assets - assets
+              print(f"Source assets: {len(assets)}, compact assets: {len(reduced_assets)}; missing={sorted(missing)}; added={sorted(added)}")
+              assert not missing, f"Compact QA build lost source assets: {sorted(missing)}"
+              assert all(n.startswith("assets/dexopt/") for n in added), f"Unexpected non-source assets in compact build: {sorted(added)}"
+              for name in sorted(assets):
                   assert hashlib.sha256(original.read(name)).digest() == hashlib.sha256(reduced.read(name)).digest(), f"Asset bytes changed: {name}"
           assert compact.stat().st_size < full.stat().st_size, "R8 build does not reduce installed APK size"
-          print(f"PASS: {len(assets)} byte-identical assets; compact APK {compact.stat().st_size:,} versus {full.stat().st_size:,} bytes")
+          print(f"PASS: {len(assets)} byte-identical source assets; compact APK {compact.stat().st_size:,} versus {full.stat().st_size:,} bytes")
           PY
       - name: Report QA signing certificate without exposing a key
         shell: bash
