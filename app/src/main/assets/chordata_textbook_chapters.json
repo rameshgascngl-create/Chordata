@@ -8,14 +8,14 @@
       "topicId": "u2-scoliodon",
       "title": {
         "en": "Scoliodon — detailed undergraduate type study",
-        "ta": "ஸ்கோலியோடான் — இளங்கலைப் பாடநூல் விரிவான வகை ஆய்வு"
+        "ta": "ஸ்கோலியோடான் — சுறா மீனின் உடலமைப்பும் உடற்செயலியலும்"
       },
       "sections": [
         {
           "key": "systematic-position",
           "heading": {
             "en": "Systematic position and nomenclature",
-            "ta": "வகைப்பாட்டு நிலையும் அறிவியல் பெயரும்"
+            "ta": "ஸ்கோலியோடானின் வகைப்பாடும் பெயரும்"
           },
           "body": {
             "en": "The textbook term Scoliodon denotes a small carcharhinid shark used in comparative vertebrate anatomy. The spadenose shark is currently recognised as Scoliodon laticaudus, placed in Chondrichthyes, Elasmobranchii, Carcharhiniformes and Carcharhinidae. Older teaching sources sometimes use S. sorrakowah or related spellings; these should not be copied as if they were uncontroversial modern accepted names. Confirm an actual specimen using its collection label and diagnostic characters, because the genus contains related species. The species is a jawed vertebrate with a cartilaginous endoskeleton, paired fins, exposed gill slits and internal fertilisation. In a type study, distinguish characters of this particular shark from generalisations about all fishes.",
@@ -26,7 +26,7 @@
           "key": "habitat-and-body-plan",
           "heading": {
             "en": "Habitat, body regions and external identification",
-            "ta": "வாழிடம், உடற்பகுதிகள் மற்றும் புறத்தோற்றம்"
+            "ta": "வாழிடமும் புறத்தோற்றமும்"
           },
           "body": {
             "en": "The spadenose shark inhabits coastal and estuarine waters of the Indo-West Pacific and is often encountered in near-shore fisheries. The body can be divided descriptively into head, trunk and tail, although the divisions are not externally separated by a neck. The head is dorsoventrally depressed and bears a conspicuously broad, flattened, spade-shaped snout. The ventral, crescent-shaped mouth lies behind the snout tip. Small lateral eyes, paired nostrils and five gill openings on each side are useful landmarks. The fusiform body, pale underside and darker dorsal surface aid hydrodynamic movement and countershading. Never identify an unknown specimen by overall colour alone: snout proportions, fin origins and teeth must be considered together.",
@@ -37,7 +37,7 @@
           "key": "fins-and-locomotion",
           "heading": {
             "en": "Paired and median fins; swimming mechanics",
-            "ta": "இணை மற்றும் நடுத்துடுப்புகள்; நீந்தும் இயக்கம்"
+            "ta": "துடுப்புகளும் நீந்தும் முறையும்"
           },
           "body": {
             "en": "Two pectoral fins provide stability and help generate lift in water; the pelvic fins contribute to balance and manoeuvring. Median fins include dorsal fins, an anal fin and the caudal fin. The caudal fin is heterocercal: the upper lobe is longer and the vertebral axis extends into it. This arrangement helps produce forward thrust during lateral movements of the body and tail. Segmental axial muscles, arranged in myomeres separated by connective-tissue myosepta, transmit bending waves backwards. Fin positions are important for species identification and are not interchangeable with those of every dogfish depicted in older anatomy books. In males, the medial parts of the pelvic fins support paired copulatory claspers.",
@@ -48,7 +48,7 @@
           "key": "integument-skeleton",
           "heading": {
             "en": "Skin, placoid denticles and cartilaginous skeleton",
-            "ta": "தோல், பிளாக்காய்டு செதில்கள் மற்றும் குருத்தெலும்புச் சட்டகம்"
+            "ta": "தோலும் குருத்தெலும்பாலான அகச்சட்டகமும்"
           },
           "body": {
             "en": "The skin has an epidermis above a fibrous dermis. Its characteristic placoid denticles consist of a basal plate and a projecting crown that contains dentine surrounding a pulp cavity, with an enamel-like superficial covering. Denticles reduce abrasion and can influence flow near the body surface; they are developmentally related to vertebrate teeth. The endoskeleton is principally cartilaginous, although areas may be mineralised. The skull protects the brain and supports the jaws and sense capsules. Vertebral elements support the axis around a persisting notochordal component; fins are braced by cartilaginous basal elements and radials. An endoskeleton made primarily of cartilage is not evidence of evolutionary inferiority, and sharks should not be described as ancestors of modern bony fishes.",
@@ -59,7 +59,7 @@
           "key": "teeth-and-feeding",
           "heading": {
             "en": "Jaws, teeth, buccal cavity and food capture",
-            "ta": "தாடைகள், பற்கள், வாய்க்குழி மற்றும் இரைபிடித்தல்"
+            "ta": "தாடை, பற்கள், உணவுண்ணும் முறை"
           },
           "body": {
             "en": "The wide ventral mouth opens into a buccal cavity and pharynx. Upper and lower jaws carry several replacement rows of teeth; replacement is continuous rather than limited to two tooth generations. The teeth grasp and cut relatively small prey, including fishes and invertebrates. They are not identical to the crushing teeth of rays or the specialised serrated teeth of larger predatory sharks. The pharynx communicates with the gill region, so the routes for food and ventilatory water share an anterior passage but diverge in function. A muscular tongue comparable to that of mammals is absent. During dissection-based learning, students should trace the path of swallowed food without confusing the gill slits with the oesophageal entrance.",
@@ -70,7 +70,7 @@
           "key": "digestive-tract",
           "heading": {
             "en": "Oesophagus, stomach, intestine and spiral valve",
-            "ta": "உணவுக்குழாய், இரைப்பை, குடல் மற்றும் சுருள் மடிப்பு"
+            "ta": "உணவுப் பாதையும் சுருள் மடிப்பும்"
           },
           "body": {
             "en": "The digestive canal passes from the pharynx through a short oesophagus into a distensible stomach. Food is mechanically and chemically processed before entering the intestine. A characteristic spiral valve increases the absorptive surface and slows passage of intestinal contents despite the relatively short gut. The terminal region leads through the rectum towards the cloaca. Students should follow the sequence from mouth to cloaca on a labelled anatomical preparation and distinguish the spiral intestinal fold from a coiled intestine: the valve is an internal fold, not a separate long external intestinal loop. The shape of particular gastric folds and ducts should be checked against a verified Scoliodon anatomical plate instead of inferred from a generic shark silhouette.",
@@ -92,7 +92,7 @@
           "key": "branchial-respiration",
           "heading": {
             "en": "Gill arches, branchial lamellae and ventilation",
-            "ta": "செவுள் வளைவுகள், செவுள் தகடுகள் மற்றும் சுவாசம்"
+            "ta": "செவுள்களின் அமைப்பும் சுவாசமும்"
           },
           "body": {
             "en": "Five external gill openings occur on each side of the head in this shark. Water passes from the mouth and pharyngeal region across the respiratory lamellae, where oxygen enters the blood and carbon dioxide leaves it. The delicate lamellae offer extensive exchange surfaces supported by gill arches and associated filaments. Blood and water flow in opposing directions over much of the exchange surface, maintaining a diffusion gradient. Ventilation depends on buccopharyngeal movements and swimming behaviour, and the precise balance varies among sharks. A figure should distinguish external gill slits from the internal gill chambers and lamellae. Spiracles are reduced or absent in many requiem sharks, so an enlarged spiracle seen in a ray should not be added automatically to the Scoliodon drawing.",
@@ -103,7 +103,7 @@
           "key": "heart-circulation",
           "heading": {
             "en": "Heart chambers and single-circuit circulation",
-            "ta": "இதய அறைகளும் ஒற்றைச் சுற்று இரத்த ஓட்டமும்"
+            "ta": "இதயமும் ஒற்றை இரத்தச் சுற்றோட்டமும்"
           },
           "body": {
             "en": "The venous heart lies in a ventral pericardial compartment behind the gill region. Its functional sequence is sinus venosus, atrium, muscular ventricle and outflow conus arteriosus. Oxygen-poor blood enters from the systemic veins, is propelled towards the ventral aorta, and then reaches the gill capillaries through afferent branchial vessels. Oxygenated blood collects in efferent branchial vessels and is distributed to the body through the dorsal aortic system before returning through veins. Thus the heart pumps blood to the gills first; there is no separate pulmonary circulation or mammalian-style four-chambered heart. In diagrams, identify the direction of flow, blood oxygenation state and valve-bearing outflow tract instead of merely memorising the names of chambers.",
@@ -114,7 +114,7 @@
           "key": "excretion-osmoregulation",
           "heading": {
             "en": "Kidneys, nitrogenous waste and marine osmoregulation",
-            "ta": "சிறுநீரகங்கள், நைட்ரஜன் கழிவுகள் மற்றும் உப்புநீர்ச் சமநிலை"
+            "ta": "கழிவுநீக்கமும் நீர்–உப்புச் சமநிலையும்"
           },
           "body": {
             "en": "Paired elongated kidneys occupy the dorsal region of the body cavity. The adult functional kidney is commonly described as opisthonephric in comparative anatomy. Nephrons filter blood and participate in selective reabsorption and excretion. Marine elasmobranchs maintain relatively high concentrations of urea together with protective solutes such as trimethylamine N-oxide; this reduces osmotic water loss without simply matching seawater salt composition. Excess sodium chloride is regulated in part through the rectal gland and also through renal and branchial processes. Sharks therefore should not be described as excreting most nitrogen solely as ammonia in the same manner as many teleost fishes. In male specimens, urinary and reproductive ducts are closely associated; avoid treating every duct visible in one sex as present in the same arrangement in the other.",
@@ -125,7 +125,7 @@
           "key": "brain-nervous-system",
           "heading": {
             "en": "Brain, spinal cord and cranial nerves",
-            "ta": "மூளை, முதுகுத் தண்டு மற்றும் தலைநரம்புகள்"
+            "ta": "மூளையும் நரம்பு மண்டலமும்"
           },
           "body": {
             "en": "The brain is organised into forebrain, midbrain and hindbrain regions connected to the spinal cord. Olfactory bulbs and their tracts are prominent in relation to chemical sensing. The optic tectum of the midbrain processes major visual input, whereas the cerebellum is associated with coordination of swimming and balance. Medullary centres regulate essential visceral functions. The spinal cord lies dorsally within the vertebral canal and gives rise to segmentally arranged spinal nerves. Cranial nerves connect the brain to the eyes, olfactory structures, branchial region, lateral-line system and other head organs. In a teaching diagram, place the brain regions in correct anterior–posterior order and avoid applying a mammalian cerebral-cortex layout to a shark.",
@@ -136,7 +136,7 @@
           "key": "sense-organs",
           "heading": {
             "en": "Olfaction, vision, lateral line and electroreception",
-            "ta": "மணநுகர்ச்சி, பார்வை, பக்கக்கோடு மற்றும் மின்உணர்வு"
+            "ta": "உணர் உறுப்புகளும் அவற்றின் பணிகளும்"
           },
           "body": {
             "en": "Waterborne chemicals are detected by olfactory epithelia supplied through the paired nostrils; the nostrils do not function as mammalian air-breathing openings. The eyes provide visual information and the inner ears contribute to equilibrium and hearing. Neuromasts within the lateral-line canals detect low-frequency water displacement and local movements. Electroreceptive ampullae of Lorenzini are specialised sensory units concentrated around the head; they detect weak electric fields produced by prey and the environment. These complementary senses support prey location, orientation and swimming. An anatomical plate should not label every head pore as an identical sense organ: lateral-line pores, olfactory openings and electroreceptor pores have different connections and functions.",
@@ -147,7 +147,7 @@
           "key": "male-reproduction",
           "heading": {
             "en": "Male reproductive organs and internal fertilisation",
-            "ta": "ஆண் இனப்பெருக்க உறுப்புகளும் உட்கருவுறுதலும்"
+            "ta": "ஆண் இனப்பெருக்க மண்டலம்"
           },
           "body": {
             "en": "The testes produce sperm, which is conveyed through associated genital ducts towards the posterior reproductive passages. In many elasmobranchs, portions of the anterior kidney and the duct system are modified in connection with sperm transport. Each male pelvic fin bears a clasper used to introduce sperm during copulation; claspers are not additional paired limbs. Fertilisation is internal. Proper anatomical comparison must distinguish the ducts for sperm from urinary drainage and note where the urogenital openings lead towards the cloaca. Specimens of different species or sexes should not be combined into a single apparently definitive diagram, since the degree of duct fusion and accessory reproductive structures may vary.",
@@ -158,7 +158,7 @@
           "key": "female-reproduction",
           "heading": {
             "en": "Female organs, placental viviparity and embryonic development",
-            "ta": "பெண் இனப்பெருக்க உறுப்புகள், நஞ்சுக்கொடி வழி குட்டி ஈனுதல் மற்றும் கருவளர்ச்சி"
+            "ta": "பெண் இனப்பெருக்கமும் கரு வளர்ச்சியும்"
           },
           "body": {
             "en": "The female reproductive system includes ovaries and oviducts with specialised regions for fertilisation and embryo development. Scoliodon laticaudus is notable for placentotrophic viviparity: developing young receive substantial nourishment from the mother through a placental connection, rather than relying only on a large yolk reserve. Embryos grow within the maternal reproductive tract and living young are born after development. Litter size and gestation vary with population and conditions; avoid presenting one number as an invariant species character. This is distinct from external egg laying, and it must also be distinguished from the many other reproductive strategies found among cartilaginous fishes. Students should identify the ovary, oviduct, uterine region and embryonic connection without inventing an embryo or placental structure absent from the plate.",
@@ -201,14 +201,14 @@
       "topicId": "u3-rana",
       "title": {
         "en": "Rana hexadactyla (Phrynoderma hexadactylum) — complete type-study foundations",
-        "ta": "ரானா ஹெக்ஸாடாக்டைலா (Phrynoderma hexadactylum) — விரிவான இளங்கலை வகை ஆய்வு"
+        "ta": "இந்தியப் பச்சைத் தவளை — உடலமைப்பும் உடற்செயலியலும்"
       },
       "sections": [
         {
           "key": "nomenclature-taxonomy",
           "heading": {
             "en": "Scientific name, classification and taxonomic history",
-            "ta": "அறிவியல் பெயர், வகைப்பாடு, பெயரியல் வரலாறு"
+            "ta": "இந்தியப் பச்சைத் தவளையின் அறிவியல் பெயரும் வகைப்பாடும்"
           },
           "body": {
             "en": "The classical practical-textbook name Rana hexadactyla Lesson, 1834 refers to the Indian green frog, a chiefly aquatic anuran. Modern taxonomic authorities including Amphibian Species of the World and ITIS use Phrynoderma hexadactylum (Lesson, 1834); Euphlyctis hexadactylus is a widely encountered later combination. It belongs to Chordata, Vertebrata, Amphibia, Anura and Dicroglossidae in that treatment. The names Rana, Euphlyctis and Phrynoderma should be cross-referenced, not presented as three unrelated specimens. Taxonomic circumscriptions and geographic identifications have changed with molecular and morphological research. The following account treats the species-specific external traits where documented, but several internal organ-system descriptions are standard comparative-anuran anatomy that require checking against a positively identified specimen. This distinction prevents a generic laboratory-frog diagram from being mislabelled as a validated species-specific dissection.",
@@ -219,7 +219,7 @@
           "key": "habitat-identification",
           "heading": {
             "en": "Habitat, habits and species identification",
-            "ta": "வாழிடம், வாழ்க்கை முறை மற்றும் இன அடையாளம்"
+            "ta": "வாழிடமும் அடையாளப் பண்புகளும்"
           },
           "body": {
             "en": "Indian green frogs inhabit freshwater wetlands and vegetated ponds, often remaining close to water and entering it rapidly when disturbed. The species is associated with aquatic vegetation, but its geographic limits and records beyond its well-supported Indian and Bangladeshi range require careful verification. Compared with many terrestrial frogs, it has extensive toe webbing and a form well suited to swimming. Colour may be green or otherwise variable, so photographs should show the head profile, dorsum, tympanum, forefeet and hindfeet rather than relying only on a bright green colour. Species identification also requires distinction from other pond frogs historically assigned to Euphlyctis. Because conservation assessments and local legal protection can change, educators should verify current collection rules and prioritise non-lethal observation or existing accredited museum specimens.",
@@ -230,7 +230,7 @@
           "key": "external-morphology",
           "heading": {
             "en": "External morphology and skin",
-            "ta": "புறத்தோற்றமும் தோல் அமைப்பும்"
+            "ta": "புறத்தோற்றமும் தோலும்"
           },
           "body": {
             "en": "An adult anuran body is conventionally divided into head and trunk, with no distinct neck or persistent external tail. The broad mouth, paired external nares, protruding eyes and tympanic membranes are visible on the head. A translucent nictitating membrane can protect the eye during swimming. The thin skin has epidermal and dermal layers, abundant mucus-producing glands and a rich vascular network; its moisture is essential for efficient cutaneous gas exchange. Pigment cells contribute to camouflage and thermoregulation but colour varies with illumination, condition and species. The adult lacks the keratinised body scales typical of many reptiles. In a labelled external plate, indicate the snout, eye, tympanum, forelimb, hindlimb, digits, webbing and cloacal opening. Do not infer anatomical structures from decorative markings in a stylised illustration.",
@@ -241,7 +241,7 @@
           "key": "appendages-locomotion",
           "heading": {
             "en": "Forelimbs, hindlimbs and aquatic locomotion",
-            "ta": "முன்கால்கள், பின்னங்கால்கள் மற்றும் நீர்வாழ் இயக்கம்"
+            "ta": "கால்களும் நீந்தும் முறையும்"
           },
           "body": {
             "en": "The forelimbs support the anterior body during landing and locomotion; each typically bears four functional digits. The longer, more muscular hindlimbs usually end in five toes and supply the propulsive strokes of swimming and jumping. In this highly aquatic frog, extensive toe webbing increases the surface pushed against water. Hindlimb movement depends on strong pelvic attachments, elongated segments and coordinated flexor-extensor muscles. The hip, knee, ankle and toe joints operate in sequence, while the forelimbs help to steer and absorb landing forces. Sexual dimorphism in some frogs includes nuptial pads and vocal structures, but their form should be recorded from the named species rather than presumed from another common frog. For an undergraduate practical, compare the ratio of hindlimb length to body length, the extent of webbing and the pattern of digits with two other known anuran species.",
@@ -252,7 +252,7 @@
           "key": "endoskeleton",
           "heading": {
             "en": "Axial skeleton, girdles and limb bones",
-            "ta": "அச்சுச் சட்டகம், வளையங்கள் மற்றும் காலெலும்புகள்"
+            "ta": "அகச்சட்டக அமைப்பு"
           },
           "body": {
             "en": "Adult frog skeletons have a skull, short vertebral column and modified appendicular skeleton. The skull is broad, with openings for eyes, nasal structures and the brain, and supports the lower jaw and auditory elements. The vertebral column typically contains a distinct atlas followed by trunk vertebrae and a sacral vertebra; posterior caudal elements are fused into the urostyle, which stabilises the jumping body. A pectoral girdle supports the forelimbs, while a pelvic girdle transfers powerful hindlimb forces to the axial skeleton. Distal limb bones and some forearm or lower-leg elements are fused or elongated relative to many other tetrapods. A diagram must label bone identity correctly rather than transferring the detailed skeleton of a particular commercial specimen to a differently named frog without qualification. Compare the urostyle with the persistent tail of salamanders.",
@@ -263,7 +263,7 @@
           "key": "buccal-teeth-feeding",
           "heading": {
             "en": "Buccal cavity, teeth, tongue and feeding ecology",
-            "ta": "வாய்க்குழி, பற்கள், நாக்கு மற்றும் உணவியல்"
+            "ta": "வாயின் அமைப்பும் உணவுண்ணும் முறையும்"
           },
           "body": {
             "en": "The buccal cavity communicates with external nostrils through the internal nares and with the respiratory route through the glottis; the gullet is the route into the digestive tract. In a typical frog, the upper jaw and palate bear small teeth used in prey retention rather than chewing, while the protrusible tongue assists in capturing food. However, the Indian green frog is an important exception to the simplistic statement that every adult frog feeds only on insects: published observations report consumption of aquatic plants as well as invertebrate and vertebrate prey. Reports of adult folivory make diet a significant species-level topic. Plant-feeding observations must not be extrapolated to every individual or every anuran species. A labelled oral-cavity figure should distinguish tongue attachment, openings of the internal nares, Eustachian-tube openings and the glottis.",
@@ -274,7 +274,7 @@
           "key": "digestive-system",
           "heading": {
             "en": "Alimentary canal and digestive glands",
-            "ta": "செரிமானக் குழாயும் செரிமானச் சுரப்பிகளும்"
+            "ta": "செரிமான மண்டலம்"
           },
           "body": {
             "en": "From the mouth, material passes through the buccopharyngeal cavity and oesophagus to the stomach, then through the small intestine, large intestine or rectal region and into the cloaca. The stomach provides storage and the initial major stages of protein digestion. Intestinal folds increase the surface available for enzymatic digestion and absorption. The liver produces bile and the gall bladder stores it; the pancreas contributes digestive enzymes and bicarbonate to the intestinal lumen. The spleen is associated with circulation and immunity rather than being a digestive gland. Feeding ecology affects digestive proportions; because this species can include vegetation in its diet, an exact intestinal length should not be assumed from an insectivorous frog diagram. Students should trace organ continuity on a dissection or anatomical illustration and separately identify the ducts of the associated glands.",
@@ -285,7 +285,7 @@
           "key": "respiration",
           "heading": {
             "en": "Cutaneous, buccopharyngeal and pulmonary respiration",
-            "ta": "தோல்வழி, வாய்த்தொண்டை மற்றும் நுரையீரல் சுவாசம்"
+            "ta": "தோல், வாய்த்தொண்டை, நுரையீரல் வழிச் சுவாசம்"
           },
           "body": {
             "en": "Adult anurans can exchange gases through their moist vascular skin, buccopharyngeal lining and lungs. Relative contributions depend on temperature, activity, oxygen availability and whether the animal is immersed or on land. The simple paired lungs have internal partitions that provide exchange surfaces but are not mammalian alveolated lungs. Buccal pumping ventilates lungs by movements of the floor of the mouth and coordinated opening and closure of nostrils and glottis. During submergence, cutaneous exchange becomes especially important. Tadpoles use gills during larval development, with respiratory organs changing during metamorphosis. Do not claim that a submerged adult relies exclusively on lungs or that lung ventilation in frogs uses a muscular diaphragm. A useful classroom comparison contrasts positive-pressure buccal pumping in frogs with negative-pressure ventilation in mammals.",
@@ -296,7 +296,7 @@
           "key": "heart-blood-flow",
           "heading": {
             "en": "Three-chambered heart and double circulation",
-            "ta": "மூன்று அறை இதயமும் இரட்டை இரத்த ஓட்டமும்"
+            "ta": "இதயமும் இரத்தச் சுற்றோட்டமும்"
           },
           "body": {
             "en": "The frog heart has two atria and a single muscular ventricle, together with a sinus venosus receiving systemic venous blood and an arterial outflow tract. Oxygen-rich pulmonary venous blood enters the left atrium; venous return from the body enters the right atrium through the sinus venosus. The ventricle supplies both systemic and pulmocutaneous pathways, so oxygenated and deoxygenated streams are not separated by a complete ventricular septum. Trabeculae, flow dynamics and timing limit but do not eliminate mixing. The traditional term incomplete double circulation refers to pulmonary or pulmocutaneous and systemic routes being coupled through a three-chambered heart. For a diagram, show chamber openings and major vessels accurately. The arrangement should not be simplistically equated with either the single circuit of most fishes or the fully separated circuits of birds and mammals.",
@@ -307,7 +307,7 @@
           "key": "arterial-venous-portal",
           "heading": {
             "en": "Arterial arches, venous return and portal systems",
-            "ta": "தமனி வளைவுகள், சிரை மீள்வழி, போர்ட்டல் மண்டலங்கள்"
+            "ta": "தமனிகள், சிரைகள், சிறப்பு இரத்த ஓட்டங்கள்"
           },
           "body": {
             "en": "In the comparative adult frog, major arterial routes include carotid, systemic and pulmocutaneous arches associated with distribution to the head, body, lungs and skin. Branching patterns and names of individual vessels must be interpreted on the specific preparation rather than copied from a diagram of another amphibian. The systemic arterial pathways connect with the dorsal aorta, which supplies visceral organs, kidneys and posterior regions. Venous blood returns through major systemic veins to the sinus venosus, while the pulmonary veins lead to the left atrium. Portal systems create serial capillary pathways: the hepatic portal system carries blood from the gut to the liver, and the renal portal circulation involves venous drainage through renal vascular beds. When tracing a vessel, state whether it carries oxygenated blood and where it begins and ends; the word artery alone does not guarantee oxygen-rich blood.",
@@ -318,7 +318,7 @@
           "key": "excretory-osmoregulation",
           "heading": {
             "en": "Kidneys, ureters, urinary bladder and osmoregulation",
-            "ta": "சிறுநீரகங்கள், சிறுநீர்க்குழாய்கள், சிறுநீர்ப்பை மற்றும் நீர்சமநிலை"
+            "ta": "கழிவுநீக்கமும் நீர்ச் சமநிலையும்"
           },
           "body": {
             "en": "Two elongated kidneys occupy the dorsal posterior body cavity. The adult amphibian kidney is described in traditional anatomy as mesonephric or opisthonephric, depending on how the developmental and posterior nephric units are distinguished. Nephrons filter blood and selectively reabsorb solutes and water. Ureters carry urine towards the cloaca, and the thin-walled urinary bladder serves as a reservoir and participates in water regulation. Freshwater amphibians face continual osmotic influx of water across permeable surfaces while losing salts to the environment; the kidneys can produce relatively dilute urine and the skin contributes to ion uptake. Adult terrestrial periods alter these demands. In males, urinary ducts may also carry reproductive products, whereas the female genital ducts are usually separate. Students should not confuse the urinary bladder with the cloaca or assume the anatomical duct arrangement is identical in both sexes.",
@@ -329,7 +329,7 @@
           "key": "brain-cranial-nerves",
           "heading": {
             "en": "Brain divisions, spinal cord and cranial nerves",
-            "ta": "மூளைப் பகுதிகள், முதுகுத் தண்டு மற்றும் தலைநரம்புகள்"
+            "ta": "மூளையும் நரம்புகளும்"
           },
           "body": {
             "en": "The amphibian central nervous system includes brain and spinal cord, surrounded by protective membranes. The paired olfactory lobes and cerebral hemispheres lie anteriorly, followed by the diencephalon and prominent optic lobes of the midbrain. The relatively small cerebellum contributes to coordination; the medulla oblongata continues into the spinal cord and controls major autonomic functions. Peripheral nerves connect sensory organs and muscles to these central structures. Traditional frog practicals identify ten pairs of cranial nerves, but the exact labelling conventions may differ between anatomical treatments. Draw the dorsal and ventral aspects of the brain with the correct order and proportions, especially the olfactory bulbs, optic lobes and cerebellum. Explain reflex action using a sensory receptor, afferent nerve, central processing, efferent nerve and effector instead of attributing every movement to conscious cortical control.",
@@ -340,7 +340,7 @@
           "key": "sense-organs",
           "heading": {
             "en": "Eye, tympanum, inner ear and sensory responses",
-            "ta": "கண், செவிப்பறை, உட்செவி மற்றும் உணர்வுச் செயல்கள்"
+            "ta": "உணர் உறுப்புகள்"
           },
           "body": {
             "en": "The eye has a cornea, lens, retina and associated muscles. A nictitating membrane protects the corneal surface while the animal moves through water. Visual information reaches the brain by the optic nerve, and binocular overlap contributes to prey detection and spatial behaviour. An external tympanic membrane conveys sound-induced vibrations to the middle-ear conducting apparatus and inner ear; amphibians lack the mammalian pinna. The vestibular portion of the inner ear helps detect head movements and position. Olfactory receptors respond to airborne or dissolved chemicals, and tactile receptors in the skin respond to contact. Hearing pathways and ear morphology can vary substantially among anurans; a generic frog ear should be labelled as comparative anatomy unless verified for this species. Compare aquatic and terrestrial sensory challenges when explaining these organs.",
@@ -351,7 +351,7 @@
           "key": "reproduction-life-cycle",
           "heading": {
             "en": "Male and female reproduction, eggs and metamorphosis",
-            "ta": "ஆண்-பெண் இனப்பெருக்கம், முட்டைகள் மற்றும் உருமாற்றம்"
+            "ta": "இனப்பெருக்கமும் உருமாற்றமும்"
           },
           "body": {
             "en": "Anuran males typically have paired testes connected with the nephric or urinogenital duct system, whereas females have paired ovaries and coiled oviducts leading towards the cloaca. Fertilisation is usually external in aquatic breeding, with the male holding the female in amplexus while eggs and sperm are released, but breeding modes differ among frog lineages. In a species-specific account, clutch size, breeding calls, eggs and developmental timing should be taken from direct observations or reliable studies rather than borrowed from Rana tigrina or another laboratory frog. Embryos hatch as aquatic tadpoles with a tail and larval feeding structures. Metamorphosis involves thyroid-hormone-regulated differentiation of limbs, remodelling of the gut and respiratory apparatus, and resorption of the tail. A development plate should distinguish larval and adult organs and show that transformation is gradual rather than an instantaneous change.",
@@ -394,14 +394,14 @@
       "topicId": "u4-calotes",
       "title": {
         "en": "Calotes versicolor — detailed undergraduate anatomical type study",
-        "ta": "கலோடஸ் வெர்சிகலர் — இளங்கலை விரிவான உடற்கூறு வகை ஆய்வு"
+        "ta": "ஓணான் (Calotes versicolor) — உடலமைப்பும் உடற்செயலியலும்"
       },
       "sections": [
         {
           "key": "systematics-and-type-identification",
           "heading": {
             "en": "Systematic position and species identification",
-            "ta": "வகைப்பாட்டு நிலையும் இன அடையாளமும்"
+            "ta": "ஓணானின் அறிவியல் பெயரும் வகைப்பாடும்"
           },
           "body": {
             "en": "Calotes versicolor (Daudin, 1802), the Oriental or changeable garden lizard, belongs to Chordata, Vertebrata, Reptilia, Squamata, Iguania and Agamidae. The original combination was Agama versicolor. It is a diurnal, mainly insectivorous agamid often selected for Indian comparative-anatomy practicals. This is not the same species as Calotes calotes, the green forest lizard. Colour, especially the conspicuous red or orange colour sometimes displayed by breeding males, is insufficient to confirm species. Examine head proportions, nuchal and dorsal crest, body scalation, ear opening, limbs and locality together. Modern treatments recognise taxonomic complications within the broad historical C. versicolor concept; a laboratory specimen without collection data must not be asserted to represent every published population. The chapter separates well-established squamate anatomy from features that demand identification of a particular specimen.",
@@ -412,7 +412,7 @@
           "key": "distribution-habitat-and-behaviour",
           "heading": {
             "en": "Distribution, habitat, activity and behaviour",
-            "ta": "பரவல், வாழிடம் மற்றும் நடத்தை"
+            "ta": "வாழிடமும் பழக்கவழக்கங்களும்"
           },
           "body": {
             "en": "The garden lizard commonly occupies shrubs, tree trunks, hedges, gardens and disturbed semi-open habitats. Its long toes and claws permit gripping narrow branches, while basking exposes it to solar heat needed for physiological activity. It is ectothermic: metabolic performance depends strongly on environmental and body temperature, but the animal also regulates its temperature behaviourally by selecting sun, shade and appropriate perches. From a raised position it detects moving arthropods visually and makes short dashes to capture prey. Head movements, territorial displays and changes of posture are important behavioural signals. The species may be encountered near human habitation without being a household gecko. Habitat use and reproductive timing differ by region and season; they should be described from observations rather than assigned one universal month or temperature. Students may document perch selection, basking and feeding without handling the animal.",
@@ -423,7 +423,7 @@
           "key": "external-body-regions",
           "heading": {
             "en": "Head, trunk, tail and external diagnostic characters",
-            "ta": "தலை, உடற்பகுதி, வால் மற்றும் புற அடையாளங்கள்"
+            "ta": "புறத்தோற்றமும் உடற்பகுதிகளும்"
           },
           "body": {
             "en": "The elongated body is divided into a distinct head, neck, trunk and long tapering tail. The head carries paired external nostrils, lateral eyes with movable eyelids, a visible tympanic membrane behind each eye and a mouth bordered by jaws. There is no mammalian external pinna. Nuchal and dorsal crests vary in prominence with size, sex and condition. Four well-developed limbs arise from the trunk; each normally ends in five slender clawed digits. The cloacal opening is near the base of the tail, which contributes to balance during climbing. The tail is not a universal detachable escape organ: capacity for autotomy differs among lizard lineages, and it must not be assumed from a generic lizard diagram. In a labelled practical figure, the correct relative positions of nostril, orbit, tympanum, gular region, crest, limb insertion and cloaca matter more than decorative colour.",
@@ -434,7 +434,7 @@
           "key": "skin-scales-and-colour",
           "heading": {
             "en": "Skin, epidermal scales and physiological colour change",
-            "ta": "தோல், மேற்தோல் செதில்கள் மற்றும் நிறமாற்றம்"
+            "ta": "தோல், செதில்கள், நிறமாற்றம்"
           },
           "body": {
             "en": "A keratinised epidermis overlies a connective-tissue dermis. Epidermal scales overlap in particular regions and reduce abrasion and evaporative water loss; their arrangement and size can help taxonomic identification. The outer epidermal layers are periodically replaced during ecdysis. Skin glands are less conspicuous than in amphibians, and the skin is not a major respiratory exchange surface. Changes in body colour arise through interactions involving pigment cells, their pigment distribution, structural light effects and neuroendocrine or environmental signals. They do not result from a lizard sucking blood, despite that misleading popular name. Heat, light, social context and reproductive condition may contribute to appearance. Students must distinguish colour change from camouflage alone and not imply that every chromatophore mechanism has been established for this particular species. Microscopic diagrams should separate keratinised epidermis, dermis and underlying muscle.",
@@ -445,7 +445,7 @@
           "key": "axial-skeleton-and-skull",
           "heading": {
             "en": "Skull, vertebral column, ribs and girdles",
-            "ta": "தலையோடு, முதுகெலும்புத் தொடர், விலாக்கள் மற்றும் பட்டைகள்"
+            "ta": "மண்டையோடும் அகச்சட்டகமும்"
           },
           "body": {
             "en": "The bony endoskeleton includes an axial and an appendicular component. The skull encloses the brain and sensory capsules and supports jaws that articulate through the quadrate bone. Squamates are derived from diapsid amniote ancestors, but the temporal region has undergone extensive modification; a simple fossil diapsid skull is not an exact Calotes skull. The vertebral column is regionalised, and the cervical region permits head movement. Trunk vertebrae carry ribs, providing support and participating in pulmonary ventilation. The pectoral girdle transmits loads from the forelimbs to the trunk, whereas the pelvic girdle supports the hind limbs. In practical diagrams identify skull, vertebrae, ribs, scapular/coracoid region, pelvis and major limb bones separately. Compare with a frog skeleton to explain differences associated with predominantly terrestrial life rather than labelling the reptilian skeleton as merely 'more advanced'.",
@@ -456,7 +456,7 @@
           "key": "appendages-muscles-and-locomotion",
           "heading": {
             "en": "Limbs, axial muscles and climbing mechanics",
-            "ta": "கால்கள், அச்சுத் தசைகள் மற்றும் ஏறும் இயக்கம்"
+            "ta": "கால்களும் இயக்க முறையும்"
           },
           "body": {
             "en": "The forelimb contains humerus, radius, ulna, wrist elements and digits; the hind limb contains femur, tibia, fibula, ankle elements and digits. Muscle groups act across shoulder, elbow, hip and knee joints to produce coordinated movements. Curved claws and digital flexors help the animal grip rough bark and branches, whereas the tail changes body balance during turning and jumping. Trunk muscles provide lateral bending without behaving as independent segmental blocks like the visible myomeres of many fishes. Climbing combines friction, joint placement and controlled shifts of the centre of mass. Examine limb proportions and functional attachment points rather than assuming that every lizard is specialised for the same microhabitat. When teaching comparative locomotion, distinguish sprawling gait in a garden lizard from the hopping pattern of a frog and the powered wing stroke of a pigeon.",
@@ -467,7 +467,7 @@
           "key": "teeth-tongue-prey-capture",
           "heading": {
             "en": "Buccal cavity, dentition, tongue and prey capture",
-            "ta": "வாய்க்குழி, பல்வகை அமைப்பு, நாக்கு மற்றும் இரை பிடித்தல்"
+            "ta": "பற்கள், நாக்கு, இரையைப் பிடித்தல்"
           },
           "body": {
             "en": "The jaws bear teeth used to seize and hold prey rather than to grind food as mammalian molars do. Agamid dentition is distinctive: anterior teeth may have pleurodont attachment and replacement, while a posterior series is more acrodont and has limited replacement. Do not simplify all teeth of Calotes as uniformly acrodont. The muscular tongue assists manipulation and swallowing; this garden lizard should not be illustrated with the projectile tongue mechanism of a chameleon. Salivary secretions moisten the prey, and the pharynx leads to the oesophagus. A tongue-and-teeth illustration should identify oral roof, lower jaw, teeth and opening of the pharynx without inventing mammalian palatal structures. Prey composition depends on availability and life stage, but insects and other small arthropods are important food items. Observe feeding only without forcing an animal to swallow inappropriate laboratory bait.",
@@ -478,7 +478,7 @@
           "key": "alimentary-canal-and-digestive-glands",
           "heading": {
             "en": "Alimentary canal, liver, pancreas and digestion",
-            "ta": "உணவுப்பாதை, கல்லீரல், கணையம் மற்றும் செரிமானம்"
+            "ta": "செரிமான மண்டலம்"
           },
           "body": {
             "en": "The alimentary canal continues from mouth, pharynx and oesophagus to a distensible stomach, small intestine, large intestine and cloaca. The stomach performs mechanical mixing and begins important chemical digestion; the small intestine is the major site of enzymatic digestion and nutrient absorption. The liver produces bile, which assists fat emulsification, and the gall bladder stores bile. Pancreatic secretions contribute digestive enzymes and bicarbonate to the intestine. The intestinal lining increases absorptive surface by folding; avoid illustrating mammalian intestinal villi as an unexamined species-specific feature. The large intestine contributes to water recovery, an important function on land. In specimen diagrams label stomach, liver lobes, gall bladder, pancreas, intestinal loops and cloaca consistently, and do not label the digestive tract of a snake as the typical tract of Calotes.",
@@ -489,7 +489,7 @@
           "key": "pulmonary-respiration-and-ventilation",
           "heading": {
             "en": "Lungs, trachea and rib-cage ventilation",
-            "ta": "நுரையீரல்கள், மூச்சுக்குழல் மற்றும் விலா இயக்கச் சுவாசம்"
+            "ta": "நுரையீரல் சுவாசம்"
           },
           "body": {
             "en": "Air enters through the nares, passes via the nasal and pharyngeal regions and glottis into the larynx and trachea, then reaches the paired lungs through bronchi. Internal lung compartments and exchange surfaces permit oxygen uptake and carbon-dioxide release. Most ventilation is driven by the expansion and compression of the thoracic region through rib-associated muscles; it is not the frog's buccal-pumping method, nor does Calotes possess the mammalian muscular diaphragm. The keratinised skin provides little respiratory gas exchange. Respiratory rate changes with activity, temperature and stress, so a motionless resting lizard does not necessarily have the same rate as one running or basking. A labelled diagram should clearly separate the trachea and bronchi from the oesophagus and identify paired lungs in their correct body-cavity positions. Avoid imposing avian air sacs on the reptilian lung.",
@@ -500,7 +500,7 @@
           "key": "cardiac-chambers-and-flow",
           "heading": {
             "en": "Cardiac chambers and separation of blood streams",
-            "ta": "இதய அறைகளும் இரத்த ஓட்டப் பிரிவுகளும்"
+            "ta": "இதய அமைப்பும் இரத்த ஓட்டமும்"
           },
           "body": {
             "en": "The heart of Calotes versicolor has two atria and one ventricle with three communicating regions: the cavum arteriosum, cavum venosum and cavum pulmonale. In the usual pulmonary route, blood returning from the body passes through the sinus venosus and right atrium, then through the cavum venosum to the cavum pulmonale. The pulmonary trunk divides into right and left pulmonary arteries. The common pulmonary vein carries blood from the lungs to the left atrium. In the usual systemic route, blood from the left atrium passes into the cavum arteriosum and reaches the cavum venosum through the interventricular canal. The right and left systemic arches arise separately and unite posteriorly to form the dorsal aorta. Some blood can be diverted between the pulmonary and systemic routes within the heart.",
@@ -511,7 +511,7 @@
           "key": "arteries-veins-and-portals",
           "heading": {
             "en": "Systemic arches, pulmonary vessels, veins and portal systems",
-            "ta": "பெருந்தமனி வளைவுகள், நுரையீரல் நாளங்கள், சிரைகள் மற்றும் போர்ட்டல் இரத்த ஓட்டம்"
+            "ta": "தமனிகள், சிரைகள், சிறப்பு இரத்த ஓட்டங்கள்"
           },
           "body": {
             "en": "In Calotes the right and left systemic arches unite near the level of the ventricular apex to form the dorsal aorta, which supplies the trunk and its organs through branches. The right systemico-carotid arch gives rise to the vertebral and subclavian arteries. The pulmonary arteries carry blood to the lungs. Pulmonary venous return enters the left atrium through a common pulmonary vein, while systemic venous return enters the right atrium through the sinus venosus. In the hepatic portal system, venous blood from the intestine passes through the liver before returning to the heart. In the renal portal system, some venous blood from the posterior body reaches the kidneys.",
@@ -522,7 +522,7 @@
           "key": "kidneys-uricotelism-and-cloaca",
           "heading": {
             "en": "Kidneys, uric acid excretion and water conservation",
-            "ta": "சிறுநீரகங்கள், யூரிக் அமிலக் கழிவுநீக்கம் மற்றும் நீர்ச் சேமிப்பு"
+            "ta": "கழிவுநீக்கமும் நீர் சேமிப்பும்"
           },
           "body": {
             "en": "Paired definitive kidneys filter the blood, regulate ions and participate in nitrogenous-waste excretion. As in many terrestrial reptiles, much nitrogen is eliminated as uric acid or urate salts; this allows excretion in a relatively water-sparing form. Ureters carry excretory material towards the cloaca, a common terminal chamber serving digestive, urinary and reproductive tracts. Do not assume that all lizard families share the same urinary-bladder anatomy: a species-specific specimen or authoritative description is required before labelling one. The colon and cloacal regions can contribute to conserving water, and salt balance also depends on habitat and diet. Distinguish the urinary function of the kidneys from the reproductive function of nearby gonads, even where their ducts are shown together in an 'urinogenital' plate. Uricotelism is an adaptive pattern, not proof that the animal never loses water.",
@@ -533,7 +533,7 @@
           "key": "brain-spinal-cord-and-nerves",
           "heading": {
             "en": "Brain, spinal cord and nervous coordination",
-            "ta": "மூளை, முதுகுநாண் மற்றும் நரம்பு ஒருங்கிணைப்பு"
+            "ta": "மூளையும் நரம்பு மண்டலமும்"
           },
           "body": {
             "en": "The central nervous system comprises the brain and spinal cord; the peripheral system includes cranial and spinal nerves. The brain is conventionally divided into forebrain, midbrain and hindbrain. The forebrain includes cerebral hemispheres and olfactory regions, the midbrain participates in sensory processing, and the hindbrain includes cerebellar and medullary regions controlling coordination and vital autonomic functions. Relative size and exposed surface features differ from a frog, but all standard vertebrate brain divisions need to be recognised in both. The spinal cord conducts ascending sensory and descending motor information and contributes to segmental reflex circuits. Sensory information from eyes, inner ear, skin and chemoreceptors influences prey capture and body posture. A scientifically useful brain plate should show dorsal and lateral views with consistent orientation, not a generic unlabeled coloured brain silhouette. Avoid assigning complex human cognitive functions to one visible lizard brain lobe.",
@@ -544,7 +544,7 @@
           "key": "visual-auditory-and-chemical-senses",
           "heading": {
             "en": "Eyes, tympanum, inner ear and chemical senses",
-            "ta": "கண்கள், செவிப்பறை, உள்காது மற்றும் வேதியுணர்வு"
+            "ta": "பார்வை, செவிப்புலன், மணப்புலன்"
           },
           "body": {
             "en": "The laterally placed eyes detect movement and help locate prey, while the eyelids protect their surfaces. Retinal photoreceptors contribute to visual acuity and colour discrimination under suitable illumination. The visible tympanic membrane receives airborne sound; vibrations pass through the middle-ear columella to the inner-ear sensory structures. Vestibular organs provide information about angular and linear head movements and help stabilise posture while climbing. Olfactory epithelium detects odours, and chemosensory pathways contribute to environmental assessment. A vomeronasal system cannot be described as equally developed in all lizards; its relative role differs across squamate lineages. For a practical plate, draw the tympanum behind the eye and separate external, middle and inner ear rather than inventing a mammalian pinna and three middle-ear ossicles. Explain each sense by stimulus, receptor and neural response.",
@@ -555,7 +555,7 @@
           "key": "male-female-reproduction-and-development",
           "heading": {
             "en": "Gonads, mating, oviparity and embryonic development",
-            "ta": "இனப்பெருக்க உறுப்புகள், இணைவு, முட்டையிடுதல் மற்றும் கருவளர்ச்சி"
+            "ta": "இனப்பெருக்கமும் கரு வளர்ச்சியும்"
           },
           "body": {
             "en": "Calotes has separate sexes and reproduces by internal fertilisation. Males have paired testes and associated ducts; as squamates they have paired hemipenes used in copulation. Females have paired ovaries and oviducts, in which eggs acquire coverings before laying. The species is oviparous, with embryos developing inside eggs laid in suitable terrestrial sites. Amniotic membranes protect and nourish the embryo, a major distinction from the aquatic egg-and-larval pattern familiar in many frogs. Reproductive displays and seasonal activity can vary according to locality. Sex-determination mechanisms across reptiles are diverse, and claims that every Calotes hatchling's sex depends solely on incubation temperature require specific evidence. An anatomical plate should identify testes or ovaries, their ducts and cloaca without treating male and female diagrams as simultaneous organs in one individual. Avoid collecting wild nests for classroom experiments.",
@@ -598,14 +598,14 @@
       "topicId": "u5-columba",
       "title": {
         "en": "Columba livia — detailed undergraduate pigeon type study",
-        "ta": "கொலும்பா லிவியா — இளங்கலை விரிவான புறா வகை ஆய்வு"
+        "ta": "பாறைப் புறா (Columba livia) — உடலமைப்பும் உடற்செயலியலும்"
       },
       "sections": [
         {
           "key": "classification-and-identity",
           "heading": {
             "en": "Taxonomic position and identification of the rock pigeon",
-            "ta": "பாறைப் புறாவின் வகைப்பாடும் இன அடையாளமும்"
+            "ta": "பாறைப் புறாவின் அறிவியல் பெயரும் வகைப்பாடும்"
           },
           "body": {
             "en": "Columba livia J. F. Gmelin, 1789 is the rock pigeon or rock dove, a member of Chordata, Vertebrata, Aves, Columbiformes and Columbidae. Domestic pigeons and many feral urban populations descend from this species; conspicuous variation in plumage, body size and shape therefore does not necessarily indicate separate species. In practical taxonomy, distinguish the species name Columba livia from a domestic breed name, and avoid confusing it with unrelated doves merely because all belong to Columbidae. Wild-type birds usually show a compact body, small head, short beak, well-developed wings and characteristic wing markings, whereas domestic forms are highly variable. The pigeon is an endothermic, feathered, egg-laying amniote. Its anatomy illustrates the integration of powered flight, four-chambered circulation, parabronchial lungs and coordinated sensory orientation. Species-specific dissection claims should be based on identified pigeon material, not diagrams copied from a chicken or another bird.",
@@ -616,7 +616,7 @@
           "key": "habitat-behaviour-and-body-plan",
           "heading": {
             "en": "Habitat, feeding behaviour and external body regions",
-            "ta": "வாழிடம், உணவுநடத்தை மற்றும் புற உடற்பகுதிகள்"
+            "ta": "வாழிடமும் புறத்தோற்றமும்"
           },
           "body": {
             "en": "Rock pigeons inhabit rocky cliffs and, in human-dominated landscapes, buildings that provide ledges resembling their natural nesting sites. They commonly forage on the ground for grains, seeds and other food material, walk with coordinated head movements and return to roosting places by flight. The streamlined body comprises head, flexible neck, trunk and short tail. Forelimbs are modified as wings, while hind limbs bear digits and claws adapted for walking and perching. The upper and lower jaws form a toothless beak with a soft cere near the beak base; external nares open in this region. The eyes are large and placed laterally, giving a broad visual field. External ear openings are concealed beneath feathers, not surrounded by mammalian pinnae. Students should distinguish tail feathers from the pygostyle that supports them and recognise that plumage patterns alone cannot replace systematic identification.",
@@ -627,7 +627,7 @@
           "key": "feather-types-and-microstructure",
           "heading": {
             "en": "Feather types, rachis, barbs and functional plumage",
-            "ta": "இறகுகளின் வகைகள், தண்டு, கிளைகள் மற்றும் செயல்பாடுகள்"
+            "ta": "இறகுகளின் அமைப்பும் வகைகளும்"
           },
           "body": {
             "en": "A typical contour feather has a basal calamus embedded in the skin, a central rachis, lateral barbs and interlocking barbules that form a coherent vane. The leading and trailing vanes may be asymmetric in flight feathers, aiding aerodynamic control. Primaries attach to the hand region and contribute substantially to propulsion; secondaries attach along the ulna and contribute to the wing's lifting surface. Tail rectrices assist steering and braking. Down and other insulating plumage trap air close to the body, supporting endothermy, while coverts smooth the wing surface. Feathers are epidermal structures containing keratin and grow from follicles; they are not transformed mammalian hairs. Damage, moult and feather alignment affect flight performance. Teaching plates should distinguish remiges, rectrices, contour feathers, down, shaft and vane, and a microscope image should show the relation of barbs to barbules rather than an unexplained decorative feather.",
@@ -638,7 +638,7 @@
           "key": "axial-and-appendicular-skeleton",
           "heading": {
             "en": "Skull, vertebrae, synsacrum, sternum and wing skeleton",
-            "ta": "தலையோடு, முதுகெலும்புகள், சின்சேக்ரம் மற்றும் இறக்கை எலும்புக்கூடு"
+            "ta": "அகச்சட்டக அமைப்பு"
           },
           "body": {
             "en": "The lightly built yet strong skeleton has a toothless skull, mobile cervical vertebrae and several fused posterior vertebrae forming the synsacrum. The short terminal tail includes a pygostyle, providing support for tail feathers. The sternum has a deep keel for the attachment of flight muscles. The pectoral girdle comprises scapula, coracoid and clavicular elements, with the fused clavicles forming the furcula. The wing contains a humerus, radius, ulna and reduced fused hand elements; the hind limb contains femur, tibiotarsus, fibular remnant and tarsometatarsus with toes. Some bones are pneumatic, but not every bird bone is hollow, and fusion rather than lightness alone contributes to mechanical integrity. Compare the pigeon skull with a lizard skull while noting the highly specialised beak and jaw articulation. Label synsacrum, pygostyle, keel and major wing elements on a single orientation-consistent skeletal plate.",
@@ -649,7 +649,7 @@
           "key": "flight-muscles-and-pulley",
           "heading": {
             "en": "Pectoralis, supracoracoideus and wing-stroke mechanics",
-            "ta": "பெக்டோராலிஸ், சூப்பிராகோரக்காய்டியஸ் மற்றும் இறக்கை இயக்கம்"
+            "ta": "பறப்பதற்கு உதவும் தசைகள்"
           },
           "body": {
             "en": "The large pectoralis muscle produces most of the powerful downstroke. The supracoracoideus lies deeper and elevates and rotates the wing through a long tendon redirected near the shoulder by the triosseal pulley region. This arrangement allows important upstroke musculature to remain ventral, near the centre of mass. The coracoid, scapula, furcula and sternum stabilise the shoulder complex against cyclic forces. In Columba the exact bony contribution to the triosseal canal must not be inferred solely from a simplified three-bone diagram: the canal architecture varies among birds. Flight also depends on muscles that control the wrist, feathers and tail. Students should trace muscle origin, tendon course, insertion and resulting wing movement as a causal chain. Draw the muscle bellies and their tendon in different visual patterns; a cartoon arrow without tendon anatomy is inadequate for a university practical.",
@@ -660,7 +660,7 @@
           "key": "digestive-tract-crop-and-gizzard",
           "heading": {
             "en": "Beak, oesophagus, crop, proventriculus and gizzard",
-            "ta": "அலகு, உணவுக்குழல், கிராப், சுரப்பி இரைப்பை மற்றும் கிஸார்டு"
+            "ta": "உணவுப் பாதையும் அரைவை இரைப்பையும்"
           },
           "body": {
             "en": "Food taken by the toothless beak enters the mouth and oesophagus. An expanded oesophageal crop serves temporary food storage and softening; it is not a second stomach. The glandular stomach or proventriculus secretes digestive fluids, followed by the muscular gizzard that mechanically processes swallowed food. The small intestine receives pancreatic secretions and bile and performs nutrient absorption. The terminal intestine opens into the cloaca, which also receives urinary and reproductive products. Pigeons feed mainly on seeds and grains but have flexible diets in human settlements. Students should distinguish the crop from the proventriculus, and the proventriculus from the gizzard, in both text and images. Unlike many mammals, the pigeon lacks grinding teeth; digestive processing is relocated to the stomach region. A schematic of another bird with a different digestive anatomy must be identified as comparative, not as a confirmed pigeon specimen.",
@@ -671,7 +671,7 @@
           "key": "digestive-glands-and-crop-milk",
           "heading": {
             "en": "Liver, pancreas, nutrient processing and crop milk",
-            "ta": "கல்லீரல், கணையம், ஊட்டச்சத்து மற்றும் கிராப் பால்"
+            "ta": "செரிமானச் சுரப்பிகளும் தொண்டைப்பைச் சுரப்பும்"
           },
           "body": {
             "en": "The liver participates in metabolism and bile production, while the pancreas supplies digestive enzymes and hormones. Bile flows to the intestine and aids fat digestion. Columbids have a specialised parental feeding mechanism: both male and female adults can produce a nutrient-rich secretion popularly called crop milk, composed largely of sloughed crop epithelial cells. It is not mammalian milk from a mammary gland and should not be drawn as a breast secretion. Parents regurgitate this material to newly hatched squabs, which later receive progressively different food as they develop. The physiological process is influenced by hormonal regulation, including prolactin. Pigeon digestive diagrams often omit this life-history connection; a complete undergraduate chapter should link crop histology, adult anatomy and chick nutrition. Use 'crop milk' as a functional common term with an explicit explanation of its cellular origin.",
@@ -682,7 +682,7 @@
           "key": "airway-syrinx-and-voice",
           "heading": {
             "en": "External nares, trachea, bronchi and syrinx",
-            "ta": "நாசித்துளைகள், மூச்சுக்குழல், கிளைகள் மற்றும் சிரின்க்ஸ்"
+            "ta": "சுவாசப்பாதையும் ஒலி எழுப்பும் உறுப்பும்"
           },
           "body": {
             "en": "Air enters through the external nares and passes through nasal passages and the glottis into the trachea. The trachea is supported by cartilaginous rings and divides into primary bronchi. Near the tracheobronchial junction lies the syrinx, the major sound-producing organ of birds, which differs from the mammalian laryngeal vocal cords. Pigeons generate their characteristic vocalisations through controlled airflow and vibration of specialised syringeal tissues. The airway is separate from the oesophagus even though they lie close in the neck. The avian larynx chiefly protects and regulates the entrance to the airway; equating it with the principal sound-producing organ is misleading. A useful teaching diagram should display the nasal opening, glottis, trachea, syrinx and bronchi in sequence, with the oesophagus shown as a distinct tube. Pigeons lack a mammalian diaphragm and do not ventilate by a frog's buccal pump.",
@@ -693,7 +693,7 @@
           "key": "parabronchi-air-sacs-and-gas-exchange",
           "heading": {
             "en": "Parabronchial lung, air sacs and directional airflow",
-            "ta": "பாரபிராங்க்கியல் நுரையீரல், காற்றுப்பைகள் மற்றும் காற்றோட்டம்"
+            "ta": "நுரையீரலும் காற்றுப்பைகளும்"
           },
           "body": {
             "en": "Bird lungs are relatively rigid and contain parabronchi with a dense arrangement of air and blood capillaries; they are the principal gas-exchange organs. Thin-walled air sacs act chiefly as ventilating bellows and reservoirs rather than as the main surface for oxygen uptake. Coordinated movements of the sternum, ribs and body wall change air-sac volume. Across the familiar two-breath teaching model, inhaled air can pass to posterior sacs, then through gas-exchanging lung passages towards anterior sacs, before leaving the body. The paleopulmonic parabronchi are ventilated predominantly in one direction even though fresh air enters and leaves through the same trachea. Do not depict the pigeon lung as a collection of mammalian alveoli or state that air sacs themselves perform most gas exchange. Airflow paths should be drawn with successive phases and arrows, distinguishing the pulmonary exchange tissue from the accessory sacs. This system supports sustained aerobic activity during flight.",
@@ -704,7 +704,7 @@
           "key": "four-chambered-heart-and-vessels",
           "heading": {
             "en": "Four-chambered heart, systemic aorta and double circulation",
-            "ta": "நான்கு அறை இதயம், உடல் பெருந்தமனி மற்றும் இரட்டை இரத்த ஓட்டம்"
+            "ta": "இதயமும் இரத்தச் சுற்றோட்டமும்"
           },
           "body": {
             "en": "The pigeon heart has two atria and two fully divided ventricles. Systemic venous blood returns to the right atrium and flows to the right ventricle, which pumps it through pulmonary arteries towards the lungs. Oxygenated blood returns through pulmonary veins to the left atrium, passes into the left ventricle and is ejected into the systemic aorta. In living birds the right systemic aortic arch persists as the principal arch, in contrast with the left arch characteristic of mammals. Separation of pulmonary and systemic streams supports high rates of oxygen delivery during endothermy and flight. Coronary vessels supply the myocardium itself, while systemic branches distribute blood to the head, wings and body. In diagrams, students must not swap atrial and ventricular labels or conflate pulmonary veins with systemic veins. Compare the complete ventricular partition with Calotes' internally subdivided ventricle and the frog's less fully separated circulation, without representing this as an evolutionary ladder.",
@@ -715,7 +715,7 @@
           "key": "kidneys-uricotelism-and-cloaca",
           "heading": {
             "en": "Kidneys, ureters, uricotelism and cloacal organisation",
-            "ta": "சிறுநீரகங்கள், சிறுநீர்க் குழாய்கள், யூரிக் அமிலம் மற்றும் பொதுக்கழிவு அறை"
+            "ta": "கழிவுநீக்க மண்டலம்"
           },
           "body": {
             "en": "Paired metanephric kidneys lie within the pelvic region, and ureters conduct urinary products into the cloaca. Rock pigeons normally have no urinary bladder; much nitrogenous waste is passed in the form of uric acid or urates, reducing water requirements relative to excreting equivalent nitrogen as dilute ammonia. The white component of a typical pigeon dropping contains urates, while darker material derives largely from the intestine. The cloaca receives digestive, urinary and reproductive ducts, but these systems retain distinct functions. Birds have no mammalian-style external urethral discharge of stored urine from a urinary bladder. Kidney function includes filtration, ion regulation and osmotic balance; uricotelism does not imply that the animal does not need drinking water. Teaching comparisons should contrast pigeon excretion with the bladder-and-urea system of a rabbit, while avoiding exaggerated claims that all birds have exactly identical renal adaptations.",
@@ -726,7 +726,7 @@
           "key": "brain-spinal-cord-and-cerebellum",
           "heading": {
             "en": "Brain, cerebellum, cranial nerves and motor control",
-            "ta": "மூளை, சிறுமூளை, மூளைநரம்புகள் மற்றும் இயக்கக் கட்டுப்பாடு"
+            "ta": "மூளையும் நரம்பு மண்டலமும்"
           },
           "body": {
             "en": "The pigeon nervous system consists of brain, spinal cord and peripheral nerves. Cerebral hemispheres participate in sensory integration and learning, while major visual-processing pathways extend through forebrain and midbrain regions. The cerebellum is prominently developed and coordinates head stability, posture and rapid flight movements. The medulla regulates essential autonomic functions such as breathing and cardiovascular activity. Neural circuits integrate input from eyes, vestibular organs and proprioceptors, enabling coordinated walking, perching and wing strokes. Bird intelligence cannot be assessed simply by comparing the smoothness of a brain surface with that of a mammal: avian pallial organisation differs in structure but supports complex cognition. In a laboratory sketch identify cerebrum, optic regions, cerebellum, medulla and spinal cord with correct relative positions. Avoid treating an unlabeled generic vertebrate brain as a verified pigeon brain plate.",
@@ -737,7 +737,7 @@
           "key": "vision-hearing-and-orientation",
           "heading": {
             "en": "Vision, inner ear, columella and homing orientation",
-            "ta": "பார்வை, உள்காது, கோலுமெல்லா மற்றும் திசையறிதல்"
+            "ta": "உணர் உறுப்புகளும் திசையறியும் திறனும்"
           },
           "body": {
             "en": "Pigeons rely heavily on vision for foraging, navigation and social communication. Their eyes have specialised retinal organisation and visual fields suited to detecting movement; the nictitating membrane helps protect the eye. A feather-covered external auditory opening leads to a middle ear with a columella that transfers sound to the inner ear. Vestibular organs register changes of head movement and balance. Homing pigeons can combine landmarks, solar information, olfactory cues and geomagnetic information, but the importance of individual cues changes with conditions and experimental design. Do not teach magnetoreception as one fully settled anatomical organ with a simple fixed mechanism. Students should separate well-established sensory structures from the active research question of exactly how navigational cues are integrated. An accurate plate should show eye, auditory aperture, middle ear and inner-ear components without a mammalian external pinna.",
@@ -748,7 +748,7 @@
           "key": "reproductive-organs-and-egg-formation",
           "heading": {
             "en": "Testes, ovary, oviduct and shelled-egg formation",
-            "ta": "விரைகள், சினைப்பை, முட்டைக்குழாய் மற்றும் முட்டை உருவாக்கம்"
+            "ta": "இனப்பெருக்க மண்டலமும் முட்டை உருவாக்கமும்"
           },
           "body": {
             "en": "Pigeons have separate sexes, internal fertilisation and oviparity. Males have paired internal testes and reproductive ducts; females typically have a functional left ovary and left oviduct, with reduction of the corresponding right structures. In the female tract, an ovulated ovum acquires albumen, shell membranes and a mineralised shell before laying. The eggs are incubated externally by parental body heat rather than completing development in a uterus. The familiar pigeon clutch commonly contains two eggs, although clutch size should not be turned into a universal rule for every bird. In anatomical teaching distinguish the ovary, infundibulum, glandular oviduct regions and cloaca. The avian oviduct is specialised for egg construction; it is not equivalent in structure to the mammalian uterus. Explain internal fertilisation and shell formation while recognising both parents can participate in incubation and care.",
@@ -759,7 +759,7 @@
           "key": "embryo-development-and-parental-care",
           "heading": {
             "en": "Amniotic embryology, incubation and squab care",
-            "ta": "அம்னியோட்டுக் கருவளர்ச்சி, அடைகாத்தல் மற்றும் குஞ்சுப் பராமரிப்பு"
+            "ta": "கரு வளர்ச்சியும் குஞ்சுப் பராமரிப்பும்"
           },
           "body": {
             "en": "The fertilised pigeon egg contains a large yolk reserve and extraembryonic membranes, including amnion, chorion, allantois and yolk sac. Cleavage occurs in a disc of cytoplasm at the egg surface rather than throughout the massive yolk, and subsequent embryogenesis establishes major body axes and organ systems. Amniotic fluid cushions the embryo; the chorioallantoic system is important in gas exchange and waste management within the egg, while the yolk sac supplies stored nutrients. Incubation by adult birds maintains an appropriate thermal environment. Newly hatched pigeon squabs are relatively helpless and rely on parental brooding and crop-milk feeding. Students should distinguish the embryonic yolk sac from the adult crop and avoid labeling membranes from a generic amphibian egg as avian structures. Non-invasive observation of eggshells and authorised prepared specimens is preferable to disturbing active nests.",
@@ -802,14 +802,14 @@
       "topicId": "u5-rabbit",
       "title": {
         "en": "Rabbit (Oryctolagus cuniculus) — comprehensive undergraduate type study",
-        "ta": "முயல் (Oryctolagus cuniculus) — இளங்கலை விரிவான வகை ஆய்வு"
+        "ta": "முயல் (Oryctolagus cuniculus) — உடலமைப்பும் உடற்செயலியலும்"
       },
       "sections": [
         {
           "key": "classification-and-lagomorph-identity",
           "heading": {
             "en": "Systematic position and distinctive lagomorph features",
-            "ta": "வகைப்பாட்டு நிலையும் லாகோமார்பா குழுவின் தனிப்பண்புகளும்"
+            "ta": "முயலின் வகைப்பாடும் தனித்த பண்புகளும்"
           },
           "body": {
             "en": "The laboratory rabbit is usually the domestic form of Oryctolagus cuniculus (Linnaeus, 1758), a placental mammal belonging to Chordata, Vertebrata, Mammalia, Lagomorpha and Leporidae. This classification matters because rabbits are not rodents, although both groups have prominent gnawing incisors. Lagomorphs possess an additional small pair of upper incisors behind the large anterior incisors; these are called peg teeth. The European rabbit also differs from a hare in ecology, development and some proportions, so photographs of a hare should not be captioned 'domestic rabbit'. Body coat, tooth wear and ear dimensions may vary among domesticated breeds. When making species-specific statements, use Oryctolagus cuniculus rather than the vague common name 'rabbit' that covers many leporid species. A complete undergraduate account should distinguish broadly mammalian traits such as hair, mammary glands and endothermy from the specialised placental development of this rabbit. Mammals include egg-laying monotremes and marsupials as well as placentals; tooth differentiation also varies across lineages.",
@@ -820,7 +820,7 @@
           "key": "habitat-behaviour-and-external-morphology",
           "heading": {
             "en": "External morphology, feeding habitat and burrowing behaviour",
-            "ta": "புற உடலமைப்பு, உணவுவாழிடம் மற்றும் வளையமைக்கும் நடத்தை"
+            "ta": "வாழிடம், பழக்கவழக்கங்கள், புறத்தோற்றம்"
           },
           "body": {
             "en": "Rabbits have a compact fur-covered trunk, short tail, powerful hind limbs and comparatively shorter forelimbs. The head bears large movable external ear pinnae, laterally positioned eyes, a cleft upper lip and tactile vibrissae around the muzzle. The nostrils open anteriorly, while the mouth contains continuously growing incisors and cheek teeth. The hind feet are elongated for rapid hopping; claws assist digging, traction and grooming. Wild European rabbits often live in social burrow systems, whereas domestic breeds can display different behaviour under human care. Rabbits are herbivorous grazers and browsers, dependent on fibrous plants and extensive hindgut fermentation. Their sensory vigilance and rapid acceleration are adaptations associated with predation risk. A practical sketch should identify pinna, vibrissae, cleft lip, trunk, forelimb, hind limb, tail and digits without replacing the animal with a cartoon generic rodent.",
@@ -831,7 +831,7 @@
           "key": "integument-fur-glands-and-heat",
           "heading": {
             "en": "Skin, hair follicles, glands and thermoregulation",
-            "ta": "தோல், முடிக்குழிகள், சுரப்பிகள் மற்றும் வெப்ப ஒழுங்குபாடு"
+            "ta": "தோலும் உடல்வெப்பத்தைச் சீராக்கும் முறையும்"
           },
           "body": {
             "en": "The skin contains a stratified epidermis overlying a vascular connective-tissue dermis. Keratinised hairs arise from follicles and form an insulating coat; specialised vibrissae are densely innervated mechanoreceptors rather than merely long decorative hairs. Sebaceous glands lubricate the coat, while other cutaneous glands have specialised secretory functions. Mammary glands are modified skin glands that produce milk for the young. Rabbits regulate body temperature through behaviour, changes in peripheral blood flow, posture and heat exchange at the large, well-vascularised ears. Sweat secretion is not their principal cooling mechanism, and they can be vulnerable to excessive environmental heat. The fur coat differs fundamentally from the epidermal scales of Calotes and the feathers of the pigeon, although all are integumentary adaptations within vertebrates. A skin cross-section should identify epidermis, dermis, hair follicle, associated gland and sensory structures.",
@@ -842,7 +842,7 @@
           "key": "axial-skeleton-skull-and-jaw",
           "heading": {
             "en": "Skull, vertebral column, ribs and mammalian jaw articulation",
-            "ta": "தலையோடு, முதுகெலும்புத் தொடர், விலாக்கள் மற்றும் பாலூட்டித் தாடை மூட்டு"
+            "ta": "மண்டையோடும் அகச்சட்டகமும்"
           },
           "body": {
             "en": "The axial skeleton comprises skull, vertebral column, ribs and sternum. The skull has a large braincase, nasal structures, tooth-bearing jaws and a single dentary bone on each side of the lower jaw. The mammalian jaw joint is between the dentary and squamosal bones, unlike the quadrate-articular connection of many non-mammalian jawed vertebrates. Cervical, thoracic, lumbar, sacral and caudal vertebral regions can be distinguished, each relating to a different mechanical role. The thoracic ribs protect viscera and move in ventilation, while the lumbar region transmits forces associated with powerful hindlimb movement. The appendicular skeleton comprises pectoral and pelvic girdles plus limb bones. Do not copy the synsacrum or keeled sternum of a pigeon into a rabbit skeleton: vertebral fusion and pectoral muscle attachments differ markedly. Draw the atlas, axis, jaw joint, vertebral regions and girdles in anatomically consistent views.",
@@ -853,7 +853,7 @@
           "key": "limbs-muscles-and-hopping",
           "heading": {
             "en": "Forelimbs, hind limbs, musculature and hopping mechanics",
-            "ta": "முன்னங்கால்கள், பின்னங்கால்கள், தசைகள் மற்றும் தாவும் இயக்கம்"
+            "ta": "கால்களும் தாவும் இயக்கமும்"
           },
           "body": {
             "en": "The forelimbs possess humerus, radius, ulna and hand bones and are used in support, steering, digging and grooming. The hind limbs contain femur, tibia, fibula and elongated foot elements and supply much of the force for hopping. Large hip and thigh muscles extend the hind limb; coordinated flexion prepares the next stride and absorbs landing impacts. The vertebral column also flexes and extends during locomotion, adding to stride length. Rabbits are digitigrade or functionally toe-supported during much movement, though their stance and load distribution vary by speed and surface. Claws provide traction rather than the grasping function of a garden lizard's curved climbing claws. A skeleton should show the ankle and tarsal region without using avian tibiotarsus or tarsometatarsus labels. Comparative locomotion should explain mechanical adaptation, not merely list which animal moves faster.",
@@ -864,7 +864,7 @@
           "key": "dental-formula-and-occlusion",
           "heading": {
             "en": "Dental formula, peg teeth, diastema and continuous tooth growth",
-            "ta": "பற்சூத்திரம், பெக் பற்கள், இடைவெளி மற்றும் தொடர்ச்சியான வளர்ச்சி"
+            "ta": "பற்களின் அமைப்பும் பற்சூத்திரமும்"
           },
           "body": {
             "en": "The usual adult domestic-rabbit dental formula is I 2/1, C 0/0, P 3/2, M 3/3, multiplied by two for the right and left sides, giving 28 teeth. The second small upper-incisor pair lies immediately behind the prominent first pair and is diagnostic of lagomorphs. Canines are absent, leaving a toothless diastema between incisors and cheek teeth. Premolars and molars have ridged grinding surfaces suited to fibrous plant material; the incisors cut vegetation. Rabbit teeth are long-crowned and continue erupting, so normal occlusion and chewing wear are essential. Incorrect alignment can produce overgrowth and serious feeding problems. Unlike the acrodont posterior teeth of many agamid lizards, these mammalian cheek teeth have different implantation and functions. Label incisors, peg teeth, diastema, premolars and molars in jaw views; merely writing 'herbivorous dentition' does not replace the formula and anatomical explanation.",
@@ -875,7 +875,7 @@
           "key": "alimentary-canal-and-hindgut",
           "heading": {
             "en": "Stomach, small intestine, caecum and hindgut fermentation",
-            "ta": "இரைப்பை, சிறுகுடல், பெருங்குடல் தொடக்கப்பை மற்றும் பின்குடல் நொதித்தல்"
+            "ta": "செரிமான மண்டலமும் பெருங்குடல் நொதித்தலும்"
           },
           "body": {
             "en": "The rabbit alimentary canal is specialised for herbivory. Food passes from mouth, pharynx and oesophagus into a simple glandular stomach, then through the small intestine where many soluble nutrients are absorbed. The large caecum houses a microbial population that ferments plant fibre and produces short-chain fatty acids important to the host's energy balance. The colon participates in separating digesta according to particle and fluid properties and in reabsorbing water. The caecum is not a second stomach and should not be confused with the human vermiform appendix; the rabbit also has an appendix associated with lymphoid tissue. Liver and pancreas support digestion through bile production, enzymes and metabolic functions. Students should trace a plant-food bolus through stomach, small intestine, caecum, colon and rectum, and recognise why a digestive diagram lacking the enlarged caecum is scientifically unsuitable for rabbit anatomy.",
@@ -886,7 +886,7 @@
           "key": "caecotrophy-and-nutrient-recovery",
           "heading": {
             "en": "Caecotrophy, soft faeces and microbial nutrient recovery",
-            "ta": "சீகோட்ரோபி, மென்மையான கழிவு மற்றும் ஊட்டச்சத்து மீட்பு"
+            "ta": "மென்மையான கழிவை மீண்டும் உண்பதன் பயன்"
           },
           "body": {
             "en": "Rabbits produce two functionally different faecal outputs. Ordinary dry pellets contain substantial indigestible fibre, whereas soft mucus-coated caecotrophs are generated through coordinated hindgut sorting and microbial fermentation. The animal usually consumes caecotrophs directly as they emerge, allowing microbial protein, B vitamins and other nutrients to pass through the digestive system again for absorption. This physiological process is called caecotrophy and is not the same as accidental indiscriminate ingestion of waste. The fusus coli and changes in motility help coordinate particle separation and pellet production. The process explains how hindgut fermenters recover nutrients that are produced beyond the main small-intestinal absorption region. A textbook must place caecotrophy beside caecal anatomy and should not reduce rabbit digestion to a generic stomach–intestine diagram. Normal fibre intake and gut motility are vital for digestive health.",
@@ -897,7 +897,7 @@
           "key": "lungs-diaphragm-and-alveoli",
           "heading": {
             "en": "Nasal passages, trachea, lungs, alveoli and diaphragm",
-            "ta": "நாசிப்பாதை, மூச்சுக்குழல், நுரையீரல், ஆல்வியோலை மற்றும் உதரவிதானம்"
+            "ta": "நுரையீரலும் சுவாசமும்"
           },
           "body": {
             "en": "Air passes through the nasal passages, pharyngeal region, larynx and trachea to the bronchi and branching bronchioles. The terminal alveoli provide a large thin-walled surface for gas exchange with pulmonary capillaries. Unlike the rigid parabronchial lung of a pigeon, the rabbit lung expands and recoils during tidal ventilation. Contraction of the muscular diaphragm increases thoracic volume, assisted by intercostal muscles; elastic recoil and muscle relaxation contribute to expiration. The nasal passages condition inspired air, while cilia and mucus help protect conducting airways. Oxygen enters the blood and carbon dioxide leaves it across the respiratory membrane according to partial-pressure gradients. The mammalian diaphragm must be shown separating thoracic and abdominal cavities, not omitted from a 'rabbit respiratory system' plate. Respiratory rate depends on temperature, stress and activity; observations should minimise handling and environmental heat.",
@@ -908,7 +908,7 @@
           "key": "heart-and-double-circulation",
           "heading": {
             "en": "Four-chambered heart, left aortic arch and circulation",
-            "ta": "நான்கு அறை இதயம், இடது பெருந்தமனி வளைவு மற்றும் இரத்த ஓட்டம்"
+            "ta": "இதயமும் இரட்டை இரத்தச் சுற்றோட்டமும்"
           },
           "body": {
             "en": "The rabbit heart contains separate right and left atria and ventricles. Deoxygenated systemic blood reaches the right atrium through venae cavae, enters the right ventricle and travels through pulmonary arteries to the lungs. Oxygenated blood returns by pulmonary veins to the left atrium, then passes into the left ventricle and systemic aorta. In mammals the left systemic aortic arch persists, whereas the principal systemic arch in birds is the right one. A complete interventricular septum and valvular arrangement prevent normal bulk mixing of pulmonary and systemic blood in the healthy adult. The coronary circulation supplies myocardium, and the cardiac conduction system coordinates rhythmic contractions. Cardiovascular output varies during exercise and heat stress. A diagram should trace both oxygenated and deoxygenated streams clearly, identify all four chambers and not confuse the vena cava with the pulmonary vein. Comparison with Calotes shows the distinction between functional ventricular subdivisions and an anatomically complete septum.",
@@ -919,7 +919,7 @@
           "key": "kidneys-nephrons-and-urine",
           "heading": {
             "en": "Kidneys, nephrons, urinary bladder and urea excretion",
-            "ta": "சிறுநீரகங்கள், நெஃப்ரான்கள், சிறுநீர்ப்பை மற்றும் யூரியா கழிவுநீக்கம்"
+            "ta": "சிறுநீரகங்களும் கழிவுநீக்கமும்"
           },
           "body": {
             "en": "Paired metanephric kidneys lie dorsally within the abdominal cavity. Each contains numerous nephrons, whose glomeruli filter plasma and whose tubules selectively reabsorb water, useful solutes and ions while secreting some wastes. Ureters conduct urine to a distensible urinary bladder, from which the urethra conveys it out of the body. Urea is the principal nitrogenous waste, contrasting with the uric-acid-rich excretion of most pigeons and terrestrial lizards. The kidneys maintain osmotic and electrolyte balance and help regulate blood pressure through endocrine functions. Rabbit urine can naturally contain variable amounts of calcium salts because calcium handling differs in important respects from that in many other mammals; sediment alone does not establish disease. A renal diagram should distinguish cortex, medulla, renal pelvis, ureter, urinary bladder and urethra, and the reproductive ducts should not be confused with urine pathways.",
@@ -930,7 +930,7 @@
           "key": "brain-cerebral-cortex-and-reflexes",
           "heading": {
             "en": "Cerebral hemispheres, cerebellum, medulla and spinal reflexes",
-            "ta": "பெருமூளை அரைக்கோளங்கள், சிறுமூளை, முகுளம் மற்றும் பிரதிவினைகள்"
+            "ta": "மூளையும் நரம்பு மண்டலமும்"
           },
           "body": {
             "en": "The mammalian brain includes cerebral hemispheres with a cortex, diencephalic structures, midbrain, cerebellum and medulla, continuous with the spinal cord. The cerebral cortex participates in learning, sensory integration and planned behaviour; it is not responsible for every autonomous bodily function. The cerebellum coordinates posture and rapid movements, especially during hopping and landing, while the brainstem regulates respiration, cardiovascular control and other essential automatic processes. Spinal circuits mediate reflexes through sensory and motor pathways, and peripheral nerves link the central system with skin, muscles and organs. Olfactory regions contribute to chemical communication and environmental assessment. A brain diagram should identify major divisions and orientations rather than copy a human brain with identical surface folds. Compared with the pigeon, cortical organisation differs substantially, but both groups can show complex learning; anatomical differences must not be reduced to simplistic rankings of intelligence.",
@@ -941,7 +941,7 @@
           "key": "eye-ear-vibrissae-and-olfaction",
           "heading": {
             "en": "Eyes, middle-ear ossicles, pinnae, whiskers and olfaction",
-            "ta": "கண்கள், நடுக்காது எலும்புகள், காதுமடல்கள், மீசைமுடிகள் மற்றும் மணநுகர்வு"
+            "ta": "உணர் உறுப்புகள்"
           },
           "body": {
             "en": "Laterally placed eyes give rabbits a wide field of vision and aid early detection of predators; the nictitating membrane helps protect the ocular surface. Large mobile pinnae collect and partly localise sounds. The external ear leads to a middle ear containing the malleus, incus and stapes, which transmit vibration to the fluid-filled inner ear; the vestibular system provides balance. Vibrissae around the muzzle register contact and assist navigation close to obstacles, especially where frontal vision is limited. Olfactory signals contribute to social behaviour and recognition. These structures are connected through specialised cranial nerves and central sensory pathways. Unlike pigeons, rabbits have conspicuous external pinnae and three middle-ear ossicles rather than a single columella. A scientifically useful diagram should separate the outer, middle and inner ear and indicate sensory hairs as receptor-bearing structures, not decorative fur.",
@@ -952,7 +952,7 @@
           "key": "male-female-genital-systems",
           "heading": {
             "en": "Male and female reproductive organs and induced ovulation",
-            "ta": "ஆண், பெண் இனப்பெருக்க உறுப்புகளும் தூண்டப்பட்ட அண்டவிடுப்பும்"
+            "ta": "ஆண், பெண் இனப்பெருக்க மண்டலங்கள்"
           },
           "body": {
             "en": "The male rabbit possesses testes, epididymides, sperm ducts and accessory reproductive glands, with a penis for internal insemination. Female organs include paired ovaries, oviducts and two uterine horns within a duplex uterine arrangement, with cervices leading towards the vagina. Rabbits are induced ovulators: mating-related neural and hormonal signals normally stimulate the ovulatory response rather than a fixed spontaneous cycle identical to that of humans. Fertilisation occurs in the oviduct, followed by development of embryos and their implantation in the uterine lining. The female reproductive tract must be distinguished from the urinary bladder and urethra on teaching diagrams. Placental development and live birth contrast with oviparity in Calotes and Columba. Reproductive descriptions should recognise variation in domestic breeding and avoid proposing unnecessary invasive demonstrations with living animals.",
@@ -963,7 +963,7 @@
           "key": "placenta-gestation-lactation",
           "heading": {
             "en": "Placental development, gestation, lactation and neonatal care",
-            "ta": "நஞ்சுக்கொடி வளர்ச்சி, கருவுற்ற காலம், பாலூட்டுதல் மற்றும் குட்டிப் பராமரிப்பு"
+            "ta": "கரு வளர்ச்சியும் குட்டிக்குப் பாலூட்டுதலும்"
           },
           "body": {
             "en": "Rabbit embryos develop within the uterus, where a chorioallantoic placenta mediates nutrient, gas and waste exchange between maternal and embryonic circulations. The maternal and foetal bloodstreams normally remain distinct across exchange barriers. Embryonic tissues differentiate into organ systems during gestation; the foetus grows using nutrients supplied through the placenta rather than a large shelled egg's yolk reserve. The doe gives birth to live kits that are initially poorly developed and dependent on parental warmth and milk. Mammary glands secrete nutrient-rich milk, and nursing provides a physiological contrast to crop-milk feeding in pigeons. A teaching diagram should distinguish ovary, uterus, placenta, umbilical connection and mammary glands, without implying that the placenta is an organ found in all mammalian groups. Students should compare monotremes, marsupials and placental mammals rather than equate Mammalia with one reproductive pathway.",
@@ -1006,14 +1006,14 @@
       "topicId": "u1-origin",
       "title": {
         "en": "Origin of Chordata — evolutionary evidence and competing hypotheses",
-        "ta": "முதுகுநாணிகளின் தோற்றம் — பரிணாமச் சான்றுகளும் கருதுகோள்களும்"
+        "ta": "முதுகுநாணிகள் எவ்வாறு தோன்றின? — பரிணாமச் சான்றுகள்"
       },
       "sections": [
         {
           "key": "deuterostome-context",
           "heading": {
             "en": "Deuterostome ancestry and the chordate problem",
-            "ta": "இரண்டாம் வாய்வழி வளர்ச்சிக் குழுவும் முதுகுநாணிகளின் தோற்றமும்"
+            "ta": "இரண்டாம் வாயின உயிரிகளுக்கும் முதுகுநாணிகளுக்கும் உள்ள உறவு"
           },
           "body": {
             "en": "Chordata belongs among the deuterostomes, together with Ambulacraria, the clade comprising Echinodermata and Hemichordata. Deuterostome relationships are inferred from numerous developmental, morphological and molecular characters, not from one feature such as the embryonic blastopore. The central evolutionary question is how a common ancestor gave rise to a notochord-bearing, dorsally neurulated lineage while its ambulacrarian relatives retained different adult body plans. Modern chordates comprise cephalochordates, tunicates and vertebrates; these are all living branches rather than successive stages in a single ancestry chain. It is therefore inaccurate to call a living amphioxus the actual ancestor of a human or a tunicate the primitive form from which all other living chordates directly developed. A cladogram represents hypotheses of shared descent: each bifurcation denotes an inferred common ancestor, and branch tips represent separately evolving lineages. The time of divergence must be assessed with fossils and molecular estimates rather than read as a ladder of increasing perfection.",
@@ -1024,7 +1024,7 @@
           "key": "five-chordate-synapomorphies",
           "heading": {
             "en": "Five chordate hallmarks and their embryonic timing",
-            "ta": "ஐந்து முதுகுநாணிப் பண்புகளும் அவை தோன்றும் வளர்ச்சிநிலைகளும்"
+            "ta": "முதுகுநாணிகளை அடையாளம் காட்டும் ஐந்து பண்புகள்"
           },
           "body": {
             "en": "Five widely taught chordate hallmarks are the notochord, dorsal hollow nerve cord, pharyngeal slits or pouches, post-anal tail and endostyle or its thyroid homologue. Their appearance need not be simultaneous or permanent. A tunicate tadpole displays the notochord and tail prominently and usually loses these during metamorphosis, whereas a vertebrate embryo develops a notochord that later contributes signalling and often leaves remnants associated with the axial skeleton. The endostyle collects food particles in filter-feeding forms; its endocrine homologue is the vertebrate thyroid. Pharyngeal arches have diversified into feeding, respiratory and craniofacial structures. The features are analysed as a combination of inherited characters, because isolated similarities can evolve independently or be modified extensively. In an evolutionary diagram, mark the body axis, position of the notochord below the neural tube, anterior pharynx and tail beyond the anus rather than showing a generic fish-shaped silhouette.",
@@ -1035,7 +1035,7 @@
           "key": "historical-origin-hypotheses",
           "heading": {
             "en": "Historical hypotheses and why several were revised",
-            "ta": "வரலாற்றுத் தோற்றக் கருதுகோள்களும் அவற்றின் திருத்தமும்"
+            "ta": "முதுகுநாணிகளின் தோற்றம் குறித்த பழைய கருத்துகள்"
           },
           "body": {
             "en": "Earlier zoological textbooks discussed annelid, echinoderm, hemichordate and tunicate hypotheses of chordate origin. Some proposals depended on superficial adult resemblance, supposed inversion of the nerve cord or an assumed equivalence between the hemichordate stomochord and the chordate notochord. Comparative embryology helped identify deuterostome affinities, but molecular phylogenetics substantially changed the placement of branches. Hemichordates are now treated as a separate phylum and not as 'half-chordates' nested inside Chordata; the stomochord is not accepted as a true notochord homologue. The historical proposals are still pedagogically useful when presented as testable hypotheses: state the predicted homologies, the observations and the evidence that refuted or revised them. Avoid a classroom chart with direct arrows from modern Balanoglossus to Amphioxus to fish to human, since it wrongly converts living collateral lineages into a series of ancestral steps.",
@@ -1046,7 +1046,7 @@
           "key": "phylogenomics-olfactores",
           "heading": {
             "en": "Phylogenomics: tunicates, lancelets and Olfactores",
-            "ta": "மூலக்கூறு உறவாய்வு: டியூனிகேட்டா, ஆம்பியாக்சஸ் மற்றும் ஒல்ஃபாக்டோர்ஸ்"
+            "ta": "மரபணு ஆய்வுகள் கூறும் உறவுகள்"
           },
           "body": {
             "en": "Although an adult lancelet resembles a schematic early chordate more closely than a sessile sea squirt does, multigene analyses generally recover Tunicata as the living sister group of Vertebrata; together they constitute Olfactores, with Cephalochordata branching earlier. This is a major example of why external resemblance alone cannot establish evolutionary closeness. Tunicates have undergone substantial anatomical and genomic modifications, including fast sequence evolution in some lineages. Shared developmental gene networks and orthologous genomic regions can test whether seemingly different adult organs derive from common ancestral patterning mechanisms. The inferred tree does not mean a living tunicate metamorphosed into a vertebrate; both inherit characters from a vanished common ancestor and have subsequently changed independently. Modern tree diagrams must put a node between tunicates and vertebrates, not place lancelets as the nearest living invertebrate relatives simply because they retain a notochord as adults.",
@@ -1057,7 +1057,7 @@
           "key": "fossil-calibration-and-cambrian",
           "heading": {
             "en": "Cambrian fossils, stem chordates and uncertainty",
-            "ta": "கேம்பிரியன் புதைபடிவங்கள், ஆரம்பக் கிளைகள் மற்றும் உறுதிப்பாடின்மை"
+            "ta": "கேம்பிரியன் காலப் புதைபடிவங்கள் கூறும் சான்றுகள்"
           },
           "body": {
             "en": "Cambrian fossil assemblages include chordate-like animals that inform hypotheses about the early evolution of axial musculature, pharyngeal structures and head organisation. Fossil interpretations are frequently revised when preservation, microscopy or phylogenetic methods improve. Features such as V-shaped muscle blocks and a longitudinal axial support can be informative, but a compressed fossil impression may not securely establish a notochord or neural tube. Molecular clocks provide complementary divergence estimates, yet these depend on calibration fossils and models of sequence change. Textbook timelines should therefore mark dates as estimates with an appropriate range and distinguish the age of a fossil occurrence from the age of a lineage's origin. It is scientifically misleading to claim that the oldest currently known fossil is necessarily the first biological member of that lineage. Students should evaluate both a character matrix and a timeline rather than memorise a single contested ancestor name.",
@@ -1068,7 +1068,7 @@
           "key": "developmental-evidence",
           "heading": {
             "en": "Comparative embryology, gene regulation and body-axis patterning",
-            "ta": "ஒப்பீட்டுக் கருவளர்ச்சி, மரபணுக் கட்டுப்பாடு மற்றும் உடல் அச்சு உருவாக்கம்"
+            "ta": "கருவளர்ச்சியில் காணப்படும் ஒற்றுமைகள்"
           },
           "body": {
             "en": "Embryological comparisons focus on gastrulation, formation of mesoderm and coelom, pharyngeal endoderm, neural patterning and the origin of axial supporting tissues. Expression of conserved developmental genes can reveal common patterning systems even when adult anatomies look very different. However, similarity in one developmental gene is not sufficient evidence that two entire organs are homologous; position, tissue origin, morphology and phylogenetic distribution must also be considered. The chordate neural tube lies dorsally, and the notochord below it participates in embryonic signalling. Hemichordates and echinoderms help reconstruct features that may predate the origin of a true notochord. A comparative practical should show parallel stage diagrams for a tunicate, lancelet and vertebrate, aligned by embryological landmarks rather than by arbitrary body size. Similarity of early embryos is evidence to evaluate, not a claim that all embryonic stages are identical.",
@@ -1079,7 +1079,7 @@
           "key": "synthesis-and-phylogenetic-practical",
           "heading": {
             "en": "Evidence synthesis and an undergraduate phylogeny practical",
-            "ta": "சான்றுகளின் ஒருங்கிணைப்பும் இளங்கலை உறவாய்வுப் பயிற்சியும்"
+            "ta": "பரிணாமச் சான்றுகளை ஒப்பிட்டு அறிதல்"
           },
           "body": {
             "en": "A defensible account of chordate origin combines anatomical characters, embryology, molecular sequence comparisons and fossils. Each evidence class has strengths and weaknesses: soft anatomy rarely fossilises; some genes evolve rapidly; and convergence can mislead purely morphological trees. Students can create a matrix with rows for tunicate larva, adult ascidian, lancelet, lamprey, shark and amniote, and columns for notochord, neural tube, endostyle/thyroid, gill slits, jaws, vertebral elements and paired appendages. The character matrix should explicitly distinguish absent, present, developmentally transient and unknown rather than treating missing information as genuine absence. Next draw a branching hypothesis, note which characters support which node, and compare it with the molecular Olfactores relationship. This method trains students to reason from evidence instead of copying a staircase diagram of 'higher and lower chordates'. No phylogenetic tree is free from revision when new data arrive.",
@@ -1103,7 +1103,7 @@
       "topicId": "u1-general-characters",
       "title": {
         "en": "General characters of chordates and so-called protochordates",
-        "ta": "முதுகுநாணிகளின் பொதுப்பண்புகளும் புரோட்டோகார்டேட்டா என்ற வரலாற்றுச் சொல்லும்"
+        "ta": "முதுகுநாணிகளின் பொதுப் பண்புகள்"
       },
       "sections": [
         {
@@ -1200,7 +1200,7 @@
       "topicId": "u1-hemichordata",
       "title": {
         "en": "Hemichordata and Balanoglossus — organisation, development and affinities",
-        "ta": "ஹெமிகார்டேட்டா மற்றும் பலனோகிளாஸஸ் — உடலமைப்பு, வளர்ச்சி, உறவுகள்"
+        "ta": "ஹெமிகார்டேட்டா — பலனோகிளாஸஸின் அமைப்பும் பரிணாம உறவும்"
       },
       "sections": [
         {
@@ -1290,7 +1290,7 @@
       "topicId": "u1-urochordata",
       "title": {
         "en": "Urochordata (Tunicata) — detailed Ascidia anatomy and life cycle",
-        "ta": "யூரோகார்டேட்டா (டியூனிகேட்டா) — அசிடியாவின் உடற்கூறும் வாழ்க்கைச் சுழற்சியும்"
+        "ta": "வால்முதுகுநாணிகள் — அசிடியாவின் அமைப்பும் வாழ்க்கைச் சுழற்சியும்"
       },
       "sections": [
         {
@@ -1387,7 +1387,7 @@
       "topicId": "u1-cephalochordata",
       "title": {
         "en": "Cephalochordata — detailed Branchiostoma (Amphioxus) type study",
-        "ta": "செஃபலோகார்டேட்டா — பிராங்கியோஸ்டோமா (ஆம்பியாக்சஸ்) விரிவான வகை ஆய்வு"
+        "ta": "தலைமுதுகுநாணிகள் — ஆம்பியாக்சஸின் உடலமைப்பு"
       },
       "sections": [
         {
@@ -1488,7 +1488,7 @@
       "topicId": "u1-vertebrata-characters",
       "title": {
         "en": "Vertebrata — cranium, neural crest, skeleton and organ-system innovations",
-        "ta": "முதுகெலும்பிகள் — தலையோடு, நியூரல் க்ரெஸ்ட், எலும்புக்கூடு மற்றும் உறுப்புப் புதுமைகள்"
+        "ta": "முதுகெலும்பிகளின் அடிப்படைப் பண்புகளும் உறுப்பமைப்பும்"
       },
       "sections": [
         {
@@ -1585,7 +1585,7 @@
       "topicId": "u1-vertebrata-classification",
       "title": {
         "en": "Classification of Vertebrata — classical classes and modern phylogenetic branches",
-        "ta": "முதுகெலும்பிகள் வகைப்பாடு — பாரம்பரிய வகுப்புகளும் நவீன பரிணாமக் கிளைகளும்"
+        "ta": "முதுகெலும்பிகளின் வகைப்பாடும் பரிணாம உறவுகளும்"
       },
       "sections": [
         {
@@ -1686,7 +1686,7 @@
       "topicId": "u1-agnatha",
       "title": {
         "en": "Jawless vertebrates — Petromyzon, ammocoete and cyclostome biology",
-        "ta": "தாடையற்ற முதுகெலும்பிகள் — பெட்ரோமைசான், அம்மோசீட் மற்றும் சைக்ளோஸ்டோமாட்டா"
+        "ta": "தாடையற்ற முதுகெலும்பிகள் — லாம்ப்ரேயும் அதன் இளநிலையும்"
       },
       "sections": [
         {
@@ -1783,7 +1783,7 @@
       "topicId": "u2-pisces-classification",
       "title": {
         "en": "Fishes — comparative anatomy and modern classification",
-        "ta": "மீன்கள் — ஒப்பீட்டு உடற்கூறும் நவீன வகைப்பாடும்"
+        "ta": "மீன்களின் பொதுப் பண்புகளும் வகைப்பாடும்"
       },
       "sections": [
         {
@@ -1858,7 +1858,7 @@
       "topicId": "u2-dipnoi",
       "title": {
         "en": "Dipnoi — lungfish biology and affinities with tetrapods",
-        "ta": "டிப்னாய் — நுரையீரல் மீன்களும் நான்குகாலி உறவுகளும்"
+        "ta": "நுரையீரல் மீன்கள் — அமைப்பும் பரிணாம முக்கியத்துவமும்"
       },
       "sections": [
         {
@@ -1933,7 +1933,7 @@
       "topicId": "u2-scales-fins",
       "title": {
         "en": "Fish scales and fins — microstructure and function",
-        "ta": "மீன் செதில்களும் துடுப்புகளும் — நுண்கட்டமைப்பும் பணிகளும்"
+        "ta": "மீன்களின் செதில்களும் துடுப்புகளும்"
       },
       "sections": [
         {
@@ -2008,7 +2008,7 @@
       "topicId": "u2-accessory-respiration",
       "title": {
         "en": "Accessory respiratory organs in fishes — comparative anatomy, gas exchange and adaptation",
-        "ta": "மீன்களின் துணைச் சுவாச உறுப்புகள் — ஒப்பீட்டு உடற்கூறு, வாயுப் பரிமாற்றம் மற்றும் தகவமைப்பு"
+        "ta": "மீன்களில் துணைச் சுவாச உறுப்புகள்"
       },
       "sections": [
         {
@@ -2098,7 +2098,7 @@
       "topicId": "u2-parental-care",
       "title": {
         "en": "Parental care in fishes — nesting, guarding, mouthbrooding and brood pouches",
-        "ta": "மீன்களில் பெற்றோர் பராமரிப்பு — கூடு அமைத்தல், பாதுகாத்தல், வாயில் அடைகாத்தல் மற்றும் கரு அடைகாப்புப் பைகள்"
+        "ta": "மீன்களில் பெற்றோர் பராமரிப்பு"
       },
       "sections": [
         {
@@ -2188,7 +2188,7 @@
       "topicId": "u2-migration",
       "title": {
         "en": "Migration in fishes — patterns, orientation, physiology and conservation",
-        "ta": "மீன்களின் இடப்பெயர்ச்சி — வகைகள், வழிகாணல், உடலியல் மற்றும் பாதுகாப்பு"
+        "ta": "மீன்களின் இடப்பெயர்ச்சி"
       },
       "sections": [
         {
@@ -2274,7 +2274,7 @@
       "topicId": "u2-economic-importance",
       "title": {
         "en": "Economic importance of fishes — food, livelihoods, aquaculture and sustainable fisheries",
-        "ta": "மீன்களின் பொருளாதார முக்கியத்துவம் — உணவு, வாழ்வாதாரம், மீன்வளர்ப்பு மற்றும் நிலையான மீன்வளம்"
+        "ta": "மீன்களின் பொருளாதார முக்கியத்துவம்"
       },
       "sections": [
         {
@@ -2360,7 +2360,7 @@
       "topicId": "u3-amphibia-classification",
       "title": {
         "en": "Amphibia — diagnostic features, living orders and comparative classification",
-        "ta": "இருவாழ்விகள் — வரையறுக்கும் பண்புகள், வாழும் வரிசைகள் மற்றும் ஒப்பீட்டு வகைப்பாடு"
+        "ta": "இருவாழ்விகளின் பொதுப் பண்புகளும் வகைப்பாடும்"
       },
       "sections": [
         {
@@ -2468,7 +2468,7 @@
       "topicId": "u3-origin",
       "title": {
         "en": "Origin of amphibians — Devonian stem tetrapods and the water-to-land transition",
-        "ta": "இருவாழ்விகளின் தோற்றம் — டெவோனிய நான்குகாலி முன்னோடிகளும் நீரிலிருந்து நிலத்திற்கான மாற்றமும்"
+        "ta": "இருவாழ்விகளின் தோற்றமும் நீரிலிருந்து நிலத்திற்கான பரிணாம மாற்றங்களும்"
       },
       "sections": [
         {
@@ -2565,7 +2565,7 @@
       "topicId": "u3-adaptive-features",
       "title": {
         "en": "Adaptive features of Anura, Caudata and Gymnophiona — functional comparative anatomy",
-        "ta": "அனூரா, கௌடேட்டா, ஜிம்னோஃபியோனா தகவமைப்புகள் — செயல்சார் ஒப்பீட்டு உடற்கூறு"
+        "ta": "இருவாழ்விகளின் தகவமைப்புகள் — தவளைகள், சலமாண்டர்கள், சீசிலியன்கள்"
       },
       "sections": [
         {
@@ -2673,7 +2673,7 @@
       "topicId": "u3-neoteny",
       "title": {
         "en": "Neoteny and paedomorphosis in Urodela — axolotl development, endocrinology and evolution",
-        "ta": "யூரோடீலாவில் நியோடனி மற்றும் பேடோமார்போசிஸ் — ஆக்ஸலாட்டல் வளர்ச்சி, ஹார்மோன்கள், பரிணாமம்"
+        "ta": "சலமாண்டர்களில் இளமைப் பண்புகள் நீடித்தல் — ஆக்ஸலாட்டல்"
       },
       "sections": [
         {
@@ -2770,7 +2770,7 @@
       "topicId": "u3-parental-care",
       "title": {
         "en": "Parental care in amphibians — reproductive diversity, egg protection and offspring provisioning",
-        "ta": "இருவாழ்விகளில் பெற்றோர் பராமரிப்பு — இனப்பெருக்கப் பன்மை, முட்டைப் பாதுகாப்பு மற்றும் இளம்நிலை ஊட்டம்"
+        "ta": "இருவாழ்விகளில் பெற்றோர் பராமரிப்பு"
       },
       "sections": [
         {
@@ -2878,7 +2878,7 @@
       "topicId": "u4-reptilia-classification",
       "title": {
         "en": "Reptilia — amniote adaptations and phylogenetic classification",
-        "ta": "ஊர்வன — அம்னியோட் தகவமைப்புகளும் பரிணாம வகைப்பாடும்"
+        "ta": "ஊர்வனவற்றின் பொதுப் பண்புகளும் வகைப்பாடும்"
       },
       "sections": [
         {
@@ -2960,7 +2960,7 @@
       "topicId": "u4-origin-extinct",
       "title": {
         "en": "Origin and extinction of reptiles — Carboniferous amniotes, Mesozoic radiations and phylogeny",
-        "ta": "ஊர்வனவற்றின் தோற்றமும் அழிந்த குழுக்களும் — அம்னியோட்டுகள், மெசோசோயிக் பன்மையாதல் மற்றும் மரபுவழி"
+        "ta": "ஊர்வனவற்றின் பரிணாம வரலாறும் அழிந்த இனக்குழுக்களும்"
       },
       "sections": [
         {
@@ -3042,7 +3042,7 @@
       "topicId": "u4-snakes-india",
       "title": {
         "en": "Snakes of India — identification, medically significant species and field safety",
-        "ta": "இந்தியப் பாம்புகள் — அடையாளம், மருத்துவ முக்கியத்துவமுள்ள இனங்கள் மற்றும் களப் பாதுகாப்பு"
+        "ta": "இந்தியப் பாம்புகள் — அடையாளப் பண்புகளும் பாதுகாப்பும்"
       },
       "sections": [
         {
@@ -3128,7 +3128,7 @@
       "topicId": "u4-poison-apparatus",
       "title": {
         "en": "Snake venom apparatus, bite mechanism and evidence-based first aid",
-        "ta": "பாம்பின் நஞ்சுக் கருவி, கடிக்கும் இயக்கவியல் மற்றும் சான்று சார்ந்த முதலுதவி"
+        "ta": "பாம்பின் நஞ்சுச் சுரப்பி, நஞ்சுப் பற்கள், கடிக்கும்போது நிகழும் செயல்கள்"
       },
       "sections": [
         {
@@ -3214,7 +3214,7 @@
       "topicId": "u4-skull",
       "title": {
         "en": "Reptilian skull and temporal fenestrae — classical categories, evolution and functional anatomy",
-        "ta": "ஊர்வன தலையோடும் காலச்சாளரங்களும் — பாரம்பரிய வகைகள், பரிணாமம் மற்றும் செயல்சார் உடற்கூறு"
+        "ta": "ஊர்வனவற்றின் மண்டையோடு — அமைப்பும் பரிணாம மாற்றங்களும்"
       },
       "sections": [
         {
@@ -3296,7 +3296,7 @@
       "topicId": "u5-aves-classification",
       "title": {
         "en": "Aves — avian characteristics, evolutionary history and modern classification",
-        "ta": "பறவைகள் — பொதுப்பண்புகள், பரிணாம வரலாறு மற்றும் நவீன வகைப்பாடு"
+        "ta": "பறவைகளின் பொதுப் பண்புகளும் வகைப்பாடும்"
       },
       "sections": [
         {
@@ -3378,7 +3378,7 @@
       "topicId": "u5-flight-adaptations",
       "title": {
         "en": "Flight adaptations of birds — aerodynamics, osteology, muscles and respiratory efficiency",
-        "ta": "பறவைகளின் பறப்புத் தகவமைப்புகள் — காற்றியக்கவியல், எலும்பமைப்பு, தசைகள் மற்றும் சுவாசத் திறன்"
+        "ta": "பறப்பதற்கேற்ற பறவைகளின் உடலமைப்புச் சிறப்புகள்"
       },
       "sections": [
         {
@@ -3460,7 +3460,7 @@
       "topicId": "u5-bird-migration",
       "title": {
         "en": "Migration in birds — flyways, navigation, physiology and conservation",
-        "ta": "பறவைகளின் இடப்பெயர்ச்சி — பறப்புப் பாதைகள், வழிகாணல், உடலியல் மற்றும் பாதுகாப்பு"
+        "ta": "பறவைகளின் பருவகால இடப்பெயர்ச்சி"
       },
       "sections": [
         {
@@ -3546,7 +3546,7 @@
       "topicId": "u5-mammalia-classification",
       "title": {
         "en": "Mammalia — diagnostic anatomy, synapsid origins and modern classification",
-        "ta": "பாலூட்டிகள் — வரையறுக்கும் உடற்கூறு, சினாப்சிட் தோற்றம் மற்றும் நவீன வகைப்பாடு"
+        "ta": "பாலூட்டிகளின் பொதுப் பண்புகளும் வகைப்பாடும்"
       },
       "sections": [
         {
@@ -3628,7 +3628,7 @@
       "topicId": "u5-egg-laying-mammals",
       "title": {
         "en": "Egg-laying mammals — monotreme anatomy, reproduction and evolutionary significance",
-        "ta": "முட்டையிடும் பாலூட்டிகள் — மோனோட்ரீம் உடற்கூறு, இனப்பெருக்கம் மற்றும் பரிணாம முக்கியத்துவம்"
+        "ta": "முட்டையிடும் பாலூட்டிகள் — பிளாட்டிபஸும் எகிட்னாவும்"
       },
       "sections": [
         {
@@ -3710,7 +3710,7 @@
       "topicId": "u5-marsupials",
       "title": {
         "en": "Marsupials — metatherian reproduction, developmental biology and adaptive radiation",
-        "ta": "மார்சூப்பியல்கள் — மெட்டாதீரியன் இனப்பெருக்கம், வளர்ச்சியியல் மற்றும் தகவமைப்புப் பன்மை"
+        "ta": "பையுடைய பாலூட்டிகள் — இனப்பெருக்கமும் குட்டி வளர்ப்பும்"
       },
       "sections": [
         {
@@ -3792,7 +3792,7 @@
       "topicId": "u5-flying-mammals",
       "title": {
         "en": "Flying mammals — bat flight mechanics, echolocation and comparisons with gliding mammals",
-        "ta": "பறக்கும் பாலூட்டிகள் — வௌவால்களின் பறப்பியக்கவியல், எதிரொலியுணர்வு மற்றும் சறுக்கும் பாலூட்டிகள் ஒப்பீடு"
+        "ta": "பறக்கும் பாலூட்டிகள் — வௌவால்களின் சிறப்புப் பண்புகள்"
       },
       "sections": [
         {
@@ -3878,7 +3878,7 @@
       "topicId": "u5-aquatic-mammals",
       "title": {
         "en": "Aquatic mammals — convergent evolution, comparative anatomy, diving physiology and conservation",
-        "ta": "நீர்வாழ் பாலூட்டிகள் — ஒத்த பரிணாமம், ஒப்பீட்டு உடற்கூறு, ஆழ்நீர்ச் சுவாச உடலியல் மற்றும் பாதுகாப்பு"
+        "ta": "நீர்வாழ் பாலூட்டிகள் — அமைப்பும் தகவமைப்புகளும்"
       },
       "sections": [
         {
@@ -3994,7 +3994,7 @@
       "topicId": "u5-dentition",
       "title": {
         "en": "Dentition in mammals — dental anatomy, types, formulae, occlusion and evolutionary adaptation",
-        "ta": "பாலூட்டிகளின் பற்கள் — உடற்கூறு, வகைகள், பற்சூத்திரங்கள், கடிவாய்த் தொடர்பு மற்றும் பரிணாமத் தகவமைப்பு"
+        "ta": "பாலூட்டிகளின் பற்கள் — வகைகள், அமைப்பு, பற்சூத்திரம்"
       },
       "sections": [
         {
