@@ -20,7 +20,7 @@
               "key": "deuterostome-ancestry",
               "heading": {
                 "en": "Deuterostome ancestry",
-                "ta": "இரண்டாம் வாயின உயிரிகளின் பரிணாம உறவு"
+                "ta": "முதுகுநாணிகளுக்கும் பிற இரண்டாம் வாயின உயிரிகளுக்கும் உள்ள உறவு"
               },
               "body": {
                 "en": "Chordates, echinoderms and hemichordates share a common ancestor within Deuterostomia. Evidence comes from embryos, gene sequences and body structure. Living lancelets, tunicates and acorn worms are relatives used for comparison. They are separate living lineages.",
@@ -31,7 +31,7 @@
               "key": "evolutionary-evidence",
               "heading": {
                 "en": "Evidence and hypotheses",
-                "ta": "பரிணாமத் தோற்றத்துக்கான ஆதாரங்கள்"
+                "ta": "பரிணாமச் சான்றுகள்"
               },
               "body": {
                 "en": "Molecular phylogenies generally place tunicates closer to vertebrates than lancelets are, while lancelets retain several ancestral chordate features. Fossils from the Cambrian document early chordate-like animals, but their exact placement is sometimes debated. Evolutionary explanations therefore combine fossils, comparative anatomy and developmental genetics rather than a single linear ladder.",
@@ -42,7 +42,7 @@
               "key": "teaching-distinction",
               "heading": {
                 "en": "Ancestry versus resemblance",
-                "ta": "ஒற்றுமையும் மூதாதை உறவும்"
+                "ta": "ஒத்த உறுப்புகளும் பரிணாம உறவுகளும்"
               },
               "body": {
                 "en": "Shared structures may reflect common ancestry, functional convergence or retention of an ancestral condition. In examinations, distinguish homology from analogy and avoid claiming that present-day fishes produced present-day amphibians directly. Modern groups have evolved along branching lineages over geological time.",
@@ -147,14 +147,14 @@
           "id": "u1-general-characters",
           "title": {
             "en": "General characters of chordates and prochordates",
-            "ta": "முதுகுநாணிகள் மற்றும் முன்னோடி முதுகுநாணிகளின் பொதுப் பண்புகள்"
+            "ta": "முதுகுநாணிகளின் பொதுப் பண்புகள்"
           },
           "sections": [
             {
               "key": "diagnostic-features",
               "heading": {
                 "en": "Diagnostic characters",
-                "ta": "அடையாளம் காண உதவும் பண்புகள்"
+                "ta": "முதுகுநாணிகளின் ஐந்து அடையாளப் பண்புகள்"
               },
               "body": {
                 "en": "Chordates show five classic features during development: a notochord, a dorsal hollow nerve cord, pharyngeal slits, an endostyle or its thyroid homologue, and a tail that extends beyond the anus. Some of these features disappear or change as the animal grows. Use the appropriate life stage when identifying them.",
@@ -165,7 +165,7 @@
               "key": "functional-roles",
               "heading": {
                 "en": "Functional significance",
-                "ta": "அடையாளப் பண்புகளின் செயல்பாடுகள்"
+                "ta": "ஒவ்வொரு பண்பின் பணியும் முக்கியத்துவமும்"
               },
               "body": {
                 "en": "The notochord provides axial support, while the dorsal neural tube develops into much of the central nervous system. Pharyngeal openings may be associated with feeding or respiration. The endostyle participates in mucus-based feeding in some non-vertebrate chordates, and its evolutionary relationship to the vertebrate thyroid is established.",
@@ -176,7 +176,7 @@
               "key": "prochordates",
               "heading": {
                 "en": "Historical term prochordates",
-                "ta": "முன்னோடி முதுகுநாணிகள் என்ற பழைய பெயர்"
+                "ta": "‘முன்னோடி முதுகுநாணிகள்’ என்ற பழைய பெயர்"
               },
               "body": {
                 "en": "Prochordata is a traditional teaching term, not a formally accepted single modern taxon. Tunicata and Cephalochordata belong to Chordata, whereas Hemichordata is treated as a separate phylum. When comparing these groups, give their current systematic positions explicitly rather than placing all under one subphylum.",
@@ -281,14 +281,14 @@
           "id": "u1-hemichordata",
           "title": {
             "en": "Affinities and systematic position of Hemichordata (Balanoglossus)",
-            "ta": "அரைநாணிகளின் உறவுநிலையும் வகைப்பாட்டு நிலையும் (Balanoglossus)"
+            "ta": "ஹெமிகார்டேட்டா — பலனோகிளாஸஸ்"
           },
           "sections": [
             {
               "key": "body-plan",
               "heading": {
                 "en": "Body plan of Balanoglossus",
-                "ta": "பாலனோக்ளாசஸின் உடலமைப்பு"
+                "ta": "பலனோகிளாஸஸின் உடல் அமைப்பு"
               },
               "body": {
                 "en": "Balanoglossus is an acorn worm that burrows in marine sediment. Its soft body has three parts: a proboscis, a collar and a trunk. Cilia and muscles help it feed and burrow. It has paired gill openings in the pharynx and a stomochord in the proboscis region.",
@@ -299,7 +299,7 @@
               "key": "affinities",
               "heading": {
                 "en": "Affinities with deuterostomes",
-                "ta": "இரண்டாம் வாயின உயிரிகளுடனான உறவுகள்"
+                "ta": "முள்தோலிகளுடனான பரிணாம உறவு"
               },
               "body": {
                 "en": "The pharyngeal slits of hemichordates resemble an important chordate feature, but their stomochord is not a true notochord. Their larval and molecular characters show especially strong ties with echinoderms within Ambulacraria. Therefore resemblance to chordates does not justify inclusion in Chordata.",
@@ -310,7 +310,7 @@
               "key": "classification",
               "heading": {
                 "en": "Present systematic position",
-                "ta": "தற்போதைய வகைப்பாட்டு நிலை"
+                "ta": "வகைப்பாட்டில் ஹெமிகார்டேட்டாவின் இடம்"
               },
               "body": {
                 "en": "Hemichordata is recognised as a separate deuterostome phylum. Its commonly taught classes include Enteropneusta, containing Balanoglossus, and Pterobranchia. Its historical placement among chordate relatives should be taught as the history of classification, not as a current classification.",
@@ -415,14 +415,14 @@
           "id": "u1-urochordata",
           "title": {
             "en": "Urochordata (Ascidia)",
-            "ta": "வால்முதுகுநாணிகள் (Ascidia)"
+            "ta": "வால்முதுகுநாணிகள் — அசிடியா"
           },
           "sections": [
             {
               "key": "tadpole-larva",
               "heading": {
                 "en": "Ascidian tadpole larva",
-                "ta": "அசிடியாவின் தலைப்பிரட்டை போன்ற இளநிலை"
+                "ta": "அசிடியாவின் நீந்தும் இளநிலை"
               },
               "body": {
                 "en": "In a typical free-swimming ascidian larva, the notochord is found only in the tail. The dorsal neural tube includes a tail nerve cord and an anterior sensory vesicle. Adhesive papillae help the larva attach to a suitable surface. Several larval features become reduced as the animal changes into an adult.",
@@ -433,7 +433,7 @@
               "key": "adult-feeding",
               "heading": {
                 "en": "Adult organisation and feeding",
-                "ta": "வளர்ந்த அசிடியாவின் உடலமைப்பும் உணவெடுத்தலும்"
+                "ta": "முதிர்ந்த அசிடியாவின் உடலமைப்பும் உணவுமுறையும்"
               },
               "body": {
                 "en": "Adult Ascidia is a sessile marine filter feeder enclosed by a tunic. Water enters the oral or incurrent siphon and passes through the perforated pharyngeal basket. Ciliary currents and endostyle mucus trap particles, while filtered water leaves through the atrial or excurrent siphon.",
@@ -444,7 +444,7 @@
               "key": "retrogressive-metamorphosis",
               "heading": {
                 "en": "Retrogressive metamorphosis",
-                "ta": "பின்னடைவுத் தோற்றமாற்றம்"
+                "ta": "அசிடியாவின் உருமாற்றம்"
               },
               "body": {
                 "en": "During metamorphosis the ascidian larva loses most of its tail, notochord and extensive larval nerve structures, while the adult feeding apparatus becomes prominent. This is traditionally called retrogressive metamorphosis; it describes anatomical reduction rather than reversal of evolution.",
@@ -549,7 +549,7 @@
           "id": "u1-cephalochordata",
           "title": {
             "en": "Cephalochordata (Amphioxus)",
-            "ta": "தலைமுதுகுநாணிகள் (Amphioxus)"
+            "ta": "தலைமுதுகுநாணிகள் — ஆம்பியாக்சஸ்"
           },
           "sections": [
             {
@@ -683,7 +683,7 @@
           "id": "u1-vertebrata-characters",
           "title": {
             "en": "Characteristics of subphylum Vertebrata",
-            "ta": "முதுகெலும்பிகள் துணைத்தொகுதியின் பண்புகள்"
+            "ta": "முதுகெலும்பிகளின் அடிப்படைப் பண்புகள்"
           },
           "sections": [
             {
@@ -817,7 +817,7 @@
           "id": "u1-vertebrata-classification",
           "title": {
             "en": "Classification of Vertebrata upto Class level",
-            "ta": "முதுகெலும்பிகளை வகுப்பு நிலை வரை வகைப்படுத்துதல்"
+            "ta": "முதுகெலும்பிகளின் வகைப்பாடு"
           },
           "sections": [
             {
@@ -951,7 +951,7 @@
           "id": "u1-agnatha",
           "title": {
             "en": "Agnatha: Petromyzon, Ammocoetus larva",
-            "ta": "தாடையற்ற முதுகெலும்பிகள்: Petromyzon, Ammocoetes இளநிலை"
+            "ta": "தாடையற்ற முதுகெலும்பிகள் — லாம்ப்ரே"
           },
           "sections": [
             {
@@ -1123,7 +1123,7 @@
               "key": "classification-caution",
               "heading": {
                 "en": "Limits of the Pisces label",
-                "ta": "பைசிஸ் வகைப்பாட்டின் வரம்பு"
+                "ta": "மீன்களை வகைப்படுத்துவதில் கவனிக்க வேண்டியவை"
               },
               "body": {
                 "en": "Pisces is retained here because it appears in the prescribed syllabus. It is not a monophyletic group under contemporary vertebrate phylogeny because tetrapods evolved within the lobe-finned vertebrate lineage. A useful comparison must therefore label the historical classroom classification separately from current relationships.",
@@ -1228,7 +1228,7 @@
           "id": "u2-scoliodon",
           "title": {
             "en": "Type study: Scoliodon sorrakowah",
-            "ta": "வகைமாதிரி ஆய்வு: Scoliodon sorrakowah"
+            "ta": "ஸ்கோலியோடான் — சுறா மீனின் உடலமைப்பு"
           },
           "sections": [
             {
@@ -1388,7 +1388,7 @@
           "id": "u2-dipnoi",
           "title": {
             "en": "Affinities of Dipnoi",
-            "ta": "நுரையீரல் மீன்களின் பரிணாம உறவுகள் (Dipnoi)"
+            "ta": "நுரையீரல் மீன்கள்"
           },
           "sections": [
             {
@@ -1798,7 +1798,7 @@
               "key": "strategy-overview",
               "heading": {
                 "en": "Range of care strategies",
-                "ta": "பெற்றோர் பராமரிப்பு முறைகளின் பல்வகைமை"
+                "ta": "மீன்கள் தங்கள் குஞ்சுகளை எவ்வாறு பாதுகாக்கின்றன?"
               },
               "body": {
                 "en": "Fish parents may prepare nests, guard eggs, carry young in the mouth or use a brood pouch. These behaviours can help offspring survive. They can also cost the parent energy or feeding time. Different types of care suit different habitats and ways of life.",
@@ -2471,7 +2471,7 @@
           "id": "u3-rana",
           "title": {
             "en": "Type study: Rana hexadactyla",
-            "ta": "வகைமாதிரி ஆய்வு: ரானா ஹெக்சாடாக்டைலா (Rana hexadactyla)"
+            "ta": "இந்தியப் பச்சைத் தவளை — உடலமைப்பு"
           },
           "sections": [
             {
@@ -2630,7 +2630,7 @@
           "id": "u3-adaptive-features",
           "title": {
             "en": "Adaptive features of Anura, Urodela and Apoda",
-            "ta": "அனூரா, யூரோடீலா, அப்போடா ஆகியவற்றின் தகவமைப்புகள்"
+            "ta": "இருவாழ்விகளின் தகவமைப்புகள்"
           },
           "sections": [
             {
@@ -2764,14 +2764,14 @@
           "id": "u3-neoteny",
           "title": {
             "en": "Neoteny in Urodela",
-            "ta": "யூரோடீலா வரிசையில் இளம்பருவப் பண்புகள் நீடித்தல்"
+            "ta": "சலமாண்டர்களில் இளமைப் பண்புகள் நீடித்தல்"
           },
           "sections": [
             {
               "key": "definitions",
               "heading": {
                 "en": "Neoteny and paedomorphosis",
-                "ta": "நியோடனி மற்றும் இளம்பருவப் பண்பு நிலைப்பு"
+                "ta": "இளமைப் பண்புகள் நீடித்தல் என்றால் என்ன?"
               },
               "body": {
                 "en": "Paedomorphosis means that a sexually mature animal keeps features usually seen in the young. Neoteny is one way this happens: body development slows relative to reproductive development. Some adult salamanders retain an aquatic body form, a tail fin and external gills.",
@@ -2793,7 +2793,7 @@
               "key": "endocrine-control",
               "heading": {
                 "en": "Thyroid hormones and metamorphosis",
-                "ta": "தைராய்டு ஊக்கிகளும் உருமாற்றமும்"
+                "ta": "உருமாற்றத்தில் தைராய்டு ஹார்மோனின் பங்கு"
               },
               "body": {
                 "en": "Thyroid hormones have an important role in amphibian metamorphosis. Experimental hormonal treatments can induce metamorphic changes in some paedomorphic salamanders, but species differ in responsiveness and ecological context. The outcome depends on endocrine physiology and genetic and environmental factors, rather than one universal switch.",
@@ -3175,7 +3175,7 @@
           "id": "u4-calotes",
           "title": {
             "en": "Type study: Calotes versicolor",
-            "ta": "வகைமாதிரி ஆய்வு: கலோடஸ் வெர்சிகலர் (Calotes versicolor)"
+            "ta": "ஓணான் (Calotes versicolor) — உடலமைப்பு"
           },
           "sections": [
             {
@@ -3335,7 +3335,7 @@
           "id": "u4-origin-extinct",
           "title": {
             "en": "Origin of reptiles, Extinct reptiles",
-            "ta": "ஊர்வனவற்றின் தோற்றமும் அழிந்த ஊர்வனவற்றும்"
+            "ta": "ஊர்வனவற்றின் தோற்றமும் அழிந்த இனக்குழுக்களும்"
           },
           "sections": [
             {
@@ -3470,14 +3470,14 @@
           "id": "u4-snakes-india",
           "title": {
             "en": "Snakes of India: identification of poisonous and non-poisonous snakes",
-            "ta": "இந்தியப் பாம்புகள்: நச்சுப் பாம்புகளும் நச்சற்ற பாம்புகளும் அடையாளம் காணுதல்"
+            "ta": "இந்தியப் பாம்புகள் — அடையாளப் பண்புகளும் பாதுகாப்பும்"
           },
           "sections": [
             {
               "key": "venomous-not-poisonous",
               "heading": {
                 "en": "Venomous versus poisonous terminology",
-                "ta": "நஞ்சைச் செலுத்தும் தன்மையும் நச்சுத்தன்மையும்"
+                "ta": "நஞ்சைச் செலுத்தும் பாம்புகளின் தன்மை"
               },
               "body": {
                 "en": "The syllabus uses the terms poisonous and non-poisonous. For bites, the more precise terms are venomous and non-venomous. A venomous snake delivers venom through specialised structures such as fangs. A triangular head, vertical pupil or any other single feature cannot reliably identify all venomous snakes in India.",
@@ -3499,7 +3499,7 @@
               "key": "nonvenomous-and-safety",
               "heading": {
                 "en": "Non-venomous examples and safe observation",
-                "ta": "நஞ்சைச் செலுத்தாத பாம்புகளும் பாதுகாப்பான பார்வையும்"
+                "ta": "பாம்புகளைப் பாதுகாப்பாகக் கவனித்தல்"
               },
               "body": {
                 "en": "The Indian rat snake (Ptyas mucosa) and Indian rock python (Python molurus) are examples of non-venomous species. Students should use authenticated field guides and expert-verified photographs rather than touching, catching or approaching unknown snakes. A suspected snakebite requires medical assessment regardless of whether a bystander thinks the snake was harmless.",
@@ -3604,7 +3604,7 @@
           "id": "u4-poison-apparatus",
           "title": {
             "en": "Poison apparatus and biting mechanism of poisonous snakes and first aid",
-            "ta": "நஞ்சுப் பாம்புகளின் நஞ்சுச் சுரப்பி அமைப்பு, கடிக்கும் முறை மற்றும் முதலுதவி"
+            "ta": "பாம்பின் நஞ்சுச் சுரப்பியும் கடிபட்டோருக்கான முதலுதவியும்"
           },
           "sections": [
             {
@@ -3633,7 +3633,7 @@
               "key": "evidence-based-first-aid",
               "heading": {
                 "en": "Evidence-based first aid and hospital referral",
-                "ta": "ஆதார அடிப்படையிலான முதலுதவியும் மருத்துவமனை அனுப்புதலும்"
+                "ta": "பாம்பு கடித்தால் செய்ய வேண்டிய முதலுதவி"
               },
               "body": {
                 "en": "Arrange immediate emergency transport to a facility equipped for snakebite management. Keep the person calm and still; support and immobilise the bitten limb, and remove tight jewellery before swelling. Do not cut, suck, apply ice, use herbal remedies, attempt to catch the snake or use a tight arterial tourniquet. Pressure-immobilisation techniques are not a universal recommendation for Indian bites.",
@@ -3750,7 +3750,7 @@
           "id": "u4-skull",
           "title": {
             "en": "Skull in reptiles as basis of classification",
-            "ta": "ஊர்வன வகைப்பாட்டின் அடிப்படையாகத் தலையோடு"
+            "ta": "ஊர்வனவற்றின் மண்டையோட்டு அமைப்பு"
           },
           "sections": [
             {
@@ -4027,7 +4027,7 @@
           "id": "u5-columba",
           "title": {
             "en": "Type study: Columba livia",
-            "ta": "வகைமாதிரி ஆய்வு: கொலும்பா லிவியா (Columba livia)"
+            "ta": "பாறைப் புறா — உடலமைப்பு"
           },
           "sections": [
             {
@@ -4175,7 +4175,7 @@
           "id": "u5-flight-adaptations",
           "title": {
             "en": "Flight adaptations",
-            "ta": "பறத்தலுக்கான தகவமைப்புகள்"
+            "ta": "பறப்பதற்கேற்ற பறவைகளின் தகவமைப்புகள்"
           },
           "sections": [
             {
@@ -4311,7 +4311,7 @@
           "id": "u5-bird-migration",
           "title": {
             "en": "Migration (Aves)",
-            "ta": "பறவைகளின் வலசை"
+            "ta": "பறவைகளின் வலசை (பருவகால இடப்பெயர்ச்சி)"
           },
           "sections": [
             {
@@ -4445,7 +4445,7 @@
           "id": "u5-mammalia-classification",
           "title": {
             "en": "Mammalia: general characters and classification",
-            "ta": "பாலூட்டிகள்: பொதுப் பண்புகளும் வகைப்பாடும்"
+            "ta": "பாலூட்டிகளின் பொதுப் பண்புகளும் வகைப்பாடும்"
           },
           "sections": [
             {
@@ -4463,7 +4463,7 @@
               "key": "living-mammal-lineages",
               "heading": {
                 "en": "Monotremes, marsupials and placentals",
-                "ta": "மோனோட்ரீம்கள், மார்சுபியல்கள் மற்றும் பிளாசென்டல்கள்"
+                "ta": "முட்டையிடும், பையுடைய, நஞ்சுக்கொடி பாலூட்டிகள்"
               },
               "body": {
                 "en": "Living mammals include monotremes, which lay eggs; marsupials, whose young are often born at a very early developmental stage; and placental mammals, in which prolonged development is usually supported by a placenta. The three groups are evolutionary lineages and do not form a ladder from primitive to superior animals.",
@@ -4579,7 +4579,7 @@
           "id": "u5-rabbit",
           "title": {
             "en": "Type study: Rabbit",
-            "ta": "வகைமாதிரி ஆய்வு: முயல்"
+            "ta": "முயல் — உடலமைப்பு"
           },
           "sections": [
             {
@@ -4873,7 +4873,7 @@
           "id": "u5-marsupials",
           "title": {
             "en": "Marsupials",
-            "ta": "மார்சுபியல் பாலூட்டிகள்"
+            "ta": "பையுடைய பாலூட்டிகள்"
           },
           "sections": [
             {
@@ -5007,7 +5007,7 @@
           "id": "u5-flying-mammals",
           "title": {
             "en": "Flying mammals",
-            "ta": "பறக்கும் பாலூட்டிகள்"
+            "ta": "பறக்கும் பாலூட்டிகள் — வௌவால்கள்"
           },
           "sections": [
             {
@@ -5275,7 +5275,7 @@
           "id": "u5-dentition",
           "title": {
             "en": "Dentition in mammals",
-            "ta": "பாலூட்டிகளின் பல் அமைப்பு"
+            "ta": "பாலூட்டிகளின் பற்களும் பற்சூத்திரமும்"
           },
           "sections": [
             {
@@ -5304,7 +5304,7 @@
               "key": "dental-formula",
               "heading": {
                 "en": "Dental formulae and examples",
-                "ta": "பல் வாய்ப்பாடுகளும் எடுத்துக்காட்டுகளும்"
+                "ta": "பற்சூத்திரமும் எடுத்துக்காட்டுகளும்"
               },
               "body": {
                 "en": "A dental formula records the numbers of incisors (I), canines (C), premolars (P) and molars (M) in one half of the upper and lower jaws. The adult human formula I 2/2, C 1/1, P 2/2, M 3/3 gives 32 teeth when doubled. The adult rabbit formula I 2/1, C 0/0, P 3/2, M 3/3 gives 28 teeth; the second upper incisors are small peg teeth. The numerator and denominator give the upper and lower counts on one side, respectively. Add all counts and multiply by two for the bilateral total.",
