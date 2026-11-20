@@ -593,12 +593,16 @@ class ReaderNavigationTest {
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
         val enriched = pack.topics.flatMap { it.sections }.filter { it.keyPoints.isNotEmpty() }
         org.junit.Assert.assertEquals(39, enriched.size)
-        org.junit.Assert.assertEquals(117, enriched.sumOf { it.keyPoints.size })
+        org.junit.Assert.assertEquals(121, enriched.sumOf { it.keyPoints.size })
         org.junit.Assert.assertTrue(enriched.all { section ->
-            section.keyPoints.size == 3 && section.keyPoints.all { point ->
+            section.keyPoints.size in 3..8 && section.keyPoints.all { point ->
                 point.en.length >= 50 && point.ta.length >= 45
             }
         })
+        val skull = requireNotNull(pack.findTopic("u4-skull")).sections.first { it.key == "temporal-fenestrae" }
+        val birds = requireNotNull(pack.findTopic("u5-aves-classification")).sections.first { it.key == "bird-characteristics" }
+        org.junit.Assert.assertEquals(5, skull.keyPoints.size)
+        org.junit.Assert.assertEquals(5, birds.keyPoints.size)
         val origin = requireNotNull(pack.findTopic("u1-origin")).sections.first()
         org.junit.Assert.assertTrue(origin.keyPoints[0].en.contains("deuterostome"))
         org.junit.Assert.assertTrue(origin.keyPoints[0].ta.contains("முதுகுநாணிகள்"))
