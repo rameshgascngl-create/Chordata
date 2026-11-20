@@ -2637,33 +2637,33 @@
               "key": "anura",
               "heading": {
                 "en": "Anura: jumping and swimming",
-                "ta": "அனூரா: தாவுதலும் நீந்துதலும்"
+                "ta": "அனூரா: தாவுதல், நீந்துதல் மற்றும் ஏறுதல்"
               },
               "body": {
-                "en": "Adult frogs and toads usually have a short trunk and no tail. Many have strong hind legs. Webbing helps some frogs swim, and the shape of the pelvis helps many jump. Burrowing, tree-dwelling and mainly terrestrial species show different features, such as digging limbs or adhesive toe pads.",
-                "ta": "தவளைகளிலும் தேரைகளிலும் உடலின் நடுப்பகுதி குறுகியதாகவும் முதிர்ந்த நிலையில் வால் அற்றதாகவும் காணப்படும். பல தவளைகளின் வலிமையான பின்னங்கால்கள் தாவுவதற்கும் வலைச்சவ்வு கொண்ட விரல்கள் நீந்துவதற்கும் உதவுகின்றன. எல்லா அனூரா இனங்களும் சம அளவு நீர்வாழ் தன்மையுடையவை அல்ல. மரவாழ், நிலவாழ் மற்றும் நிலத்தடியில் வாழும் இனங்களின் காலமைப்பும் விரல் தகவமைப்புகளும் வேறுபடுகின்றன."
+                "en": "Adult frogs and toads lack a tail. Many have long, strong hindlimbs and a pelvic girdle suited to jumping. Webbing between the digits helps some aquatic species swim. Adhesive toe pads help many tree frogs grip vegetation. Burrowing species can have limb proportions suited to digging.",
+                "ta": "வளர்ந்த தவளைகளுக்கும் தேரைகளுக்கும் வால் இல்லை. பல இனங்களில் நீண்ட, வலுவான பின்னங்கால்களும் இடுப்பு வளையத்தின் அமைப்பும் தாவுதலுக்கு உதவுகின்றன. சில நீர்வாழ் தவளைகளில் கால் விரல்களுக்கு இடையிலுள்ள சவ்வு நீரைத் தள்ளி நீந்த உதவுகிறது. மரவாழ் தவளைகள் சிலவற்றில் விரல் நுனித் திண்டுகள் இலை, கிளை போன்ற பரப்புகளைப் பற்ற உதவுகின்றன. மண்ணைத் தோண்டும் இனங்களில் கால்களின் வடிவம் அவற்றின் இயக்க முறைக்கு ஏற்ப மாறுபடுகிறது."
               }
             },
             {
               "key": "urodela",
               "heading": {
                 "en": "Urodela: tail and axial locomotion",
-                "ta": "யூரோடீலா: வாலும் உடலியக்கமும்"
+                "ta": "காடேட்டா (யூரோடீலா): வாலும் உடலியக்கமும்"
               },
               "body": {
-                "en": "Salamanders and newts retain an adult tail and usually have an elongated body with four limbs, though limb reduction occurs in some groups. A tail assists swimming in aquatic species; moist skin and variable lung development suit diverse habitats. Some species retain larval gills into adulthood, illustrating developmental flexibility.",
-                "ta": "சாலமாண்டர்களும் நியூட்டுகளும் முதிர்ந்த நிலையிலும் வாலைக் கொண்டுள்ளன. இவற்றின் உடல் பொதுவாக நீளமானதாகவும் நான்கு கால்கள் கொண்டதாகவும் இருக்கும். சில குழுக்களில் கால்கள் சிறிதாகக் குறையக்கூடும். நீர்வாழ் இனங்களில் வால் நீந்துவதற்கு உதவுகிறது. ஈரமான தோலும் மாறுபட்ட நுரையீரல் வளர்ச்சியும் பல்வேறு வாழிடங்களுக்கு உதவுகின்றன. சில இனங்களில் இளநிலையின் செவுள்கள் முதிர்நிலையிலும் தொடர்ந்து காணப்படுகின்றன."
+                "en": "Adult salamanders and newts retain a tail. Most have four limbs, although limb reduction or loss occurs in some lineages. Side-to-side waves along the trunk and tail help propel many aquatic species. Lungless plethodontid salamanders exchange gases across the skin and the lining of the mouth and throat. Some salamanders, such as the axolotl, retain larval external gills into reproductive adulthood.",
+                "ta": "வளர்ந்த சலமாண்டர்களுக்கும் நியூட்டுகளுக்கும் வால் உண்டு. பெரும்பாலானவற்றில் நீண்ட உடலும் நான்கு கால்களும் உள்ளன. சில குழுக்களில் கால்கள் குறைந்த வளர்ச்சியுடன் காணப்படுகின்றன அல்லது ஒரு சோடிக் கால்கள் இல்லை. நீர்வாழ் இனங்கள் பலவற்றில் உடலும் வாலும் பக்கவாட்டில் அலைபோல் வளைந்து உந்துவிசையை உருவாக்குகின்றன. நுரையீரலற்ற பிளெத்தோடான்டிட் (Plethodontidae) சலமாண்டர்களில் தோலும் வாய்–தொண்டை உட்படலமும் வாயுப் பரிமாற்றத்தில் பங்கேற்கின்றன. ஆக்சோலோட்ல் போன்ற சில சலமாண்டர்கள் இனப்பெருக்க முதிர்ச்சி அடைந்த பின்னரும் இளநிலையின் வெளிச்செவுள்களைத் தக்கவைத்திருக்கும்."
               }
             },
             {
               "key": "apoda",
               "heading": {
                 "en": "Apoda: fossorial life",
-                "ta": "அப்போடா: மண்ணுக்கடியில் வாழும் தகவமைப்பு"
+                "ta": "ஜிம்னோஃபியோனா (அப்போடா): மண்ணுக்குள் நகர்தல்"
               },
               "body": {
-                "en": "Caecilians generally lack limbs, have an elongated annulated body and have a compact, strongly built skull for burrowing. Eyes are reduced in many underground species, while sensory tentacles aid chemical sensing. Some caecilians are aquatic rather than fossorial, demonstrating that the order is ecologically diverse.",
-                "ta": "காலற்ற இருவாழ்விகள் பொதுவாக நீண்ட வளையத் தோற்றமுடைய உடலைக் கொண்டுள்ளன. நிலத்தடியில் தோண்டிச் செல்வதற்குப் பொருத்தமான உறுதியான தலையோடு காணப்படுகிறது. பல மண்ணடிவாழ் இனங்களில் கண்கள் குறைந்து காணப்படும். உணர்வு நீட்சிகள் வேதியுணர்வில் உதவுகின்றன. எனினும் சில இனங்கள் நீரில் வாழ்வதால் அப்போடா குழுவின் எல்லா உயிரிகளையும் மண்ணடிவாழ் உயிரிகள் என்று கூறக் கூடாது."
+                "en": "Caecilians are limbless amphibians with elongate bodies and visible ring-like grooves called annuli. Many burrowing species have a strong, compact skull and reduced eyes. A sensory tentacle between each eye and nostril helps detect chemical cues. Some species are aquatic, so burrowing adaptations should be associated with the relevant species.",
+                "ta": "சீசிலியன்களுக்கு கால்கள் இல்லை. நீண்ட உடலின் மேற்பரப்பில் வளையப் பள்ளங்கள் காணப்படுகின்றன. மண்ணுக்குள் துளைத்துச் செல்லும் பல இனங்களில் முன்பகுதி இறுக்கமாக அமைந்த வலுவான தலையோடு உள்ளது. கண்கள் சிறியதாகவோ தோலால் மூடப்பட்டோ இருக்கலாம். கண் மற்றும் நாசித்துளைக்கு இடையிலுள்ள சிறிய உணர்நீட்சி வேதித் தூண்டல்களை உணர உதவுகிறது. சில சீசிலியன்கள் நீரில் வாழ்கின்றன. எனவே இக்குழுவின் தகவமைப்புகளை அந்தந்த இனத்தின் வாழிடத்துடன் இணைத்துப் படிக்க வேண்டும்."
               }
             }
           ],
@@ -2671,7 +2671,7 @@
             {
               "question": {
                 "en": "Which feature is characteristic of adult Anura?",
-                "ta": "முதிர்ந்த அனூரா இனங்களின் பொதுப் பண்பு எது?"
+                "ta": "வளர்ந்த அனூரா இனங்களுக்குரிய பொதுப் பண்பு எது?"
               },
               "options": [
                 {
@@ -2684,7 +2684,7 @@
                 },
                 {
                   "en": "Absence of an adult tail",
-                  "ta": "முதிர்நிலையில் வால் இன்மை"
+                  "ta": "வளர்ந்த நிலையில் வால் இல்லாமை"
                 },
                 {
                   "en": "Permanent shells",
@@ -2694,18 +2694,18 @@
               "correctIndex": 2,
               "explanation": {
                 "en": "Adult anurans lack a tail even when their tadpoles have one.",
-                "ta": "அனூரா இளநிலைகளுக்கு வால் இருந்தாலும் முதிர்நிலையில் அது காணப்படாது."
+                "ta": "தலைப்பிரட்டையில் வால் காணப்படும் இனங்களிலும் உருமாற்றத்திற்குப் பின் வளர்ந்த தவளைக்கு வால் இல்லை."
               }
             },
             {
               "question": {
                 "en": "Which feature assists caecilians in burrowing?",
-                "ta": "காலற்ற இருவாழ்விகள் நிலத்தடியில் தோண்டிச் செல்ல எது உதவுகிறது?"
+                "ta": "மண்ணுக்குள் துளைத்துச் செல்லும் சீசிலியன்களுக்கு எந்த அமைப்பு உதவுகிறது?"
               },
               "options": [
                 {
                   "en": "Compact reinforced skull",
-                  "ta": "உறுதியான தலையோடு"
+                  "ta": "இறுக்கமாக அமைந்த வலுவான தலையோடு"
                 },
                 {
                   "en": "Swim bladder",
@@ -2723,13 +2723,13 @@
               "correctIndex": 0,
               "explanation": {
                 "en": "A compact, strong skull facilitates movement through substrate.",
-                "ta": "உறுதியான தலையோடு மண்ணில் நகர்வதற்கு உதவுகிறது."
+                "ta": "மண்ணுக்குள் செல்லும் பல சீசிலியன்களின் தலையோடு மண்ணை அழுத்தி வழி ஏற்படுத்த உதவுகிறது."
               }
             },
             {
               "question": {
                 "en": "In many aquatic salamanders, which structure assists swimming?",
-                "ta": "பல நீர்வாழ் சாலமாண்டர்களில் நீந்த உதவும் அமைப்பு எது?"
+                "ta": "நீரில் வாழும் பல சலமாண்டர்கள் நீந்துவதற்கு எந்த உறுப்பு உதவுகிறது?"
               },
               "options": [
                 {
@@ -2751,8 +2751,8 @@
               ],
               "correctIndex": 2,
               "explanation": {
-                "en": "A retained tail supports propulsion in many urodeles.",
-                "ta": "பல யூரோடீலா உயிரிகளின் வால் நீரில் உந்திச் செல்ல உதவுகிறது."
+                "en": "Many aquatic salamanders generate thrust by moving the trunk and tail from side to side.",
+                "ta": "நீர்வாழ் சலமாண்டர்கள் பலவற்றில் உடலும் வாலும் பக்கவாட்டில் அலைபோல வளைந்து நீந்துவதற்கான உந்துவிசையை உருவாக்குகின்றன."
               }
             }
           ],
