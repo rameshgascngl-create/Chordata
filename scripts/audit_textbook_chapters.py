@@ -119,5 +119,18 @@ for topic_id, section_key in new_mammal_sections.items():
 assert len(by_topic["u5-rabbit"]["sections"]) == 17
 assert len(by_topic["u5-aquatic-mammals"]["sections"]) == 9
 assert len(keys) >= 319, f"Expected >=319 full bilingual textbook sections, found {len(keys)}"
+# Anatomical safeguards for the two evidence-based Unit V corrections. These
+# tests protect both student languages, not just exact English phrasing.
+pigeon_egg = {s["key"]: s for s in by_topic["u5-columba"]["sections"]}["reproductive-organs-and-egg-formation"]
+for term in ("infundibulum", "magnum", "isthmus", "shell gland", "vagina", "ureters", "no urinary bladder"):
+    assert term in pigeon_egg["body"]["en"], ("Pigeon urinogenital teaching anatomy missing", term)
+for term in ("இன்பண்டிபுலம்", "மேக்னம்", "இஸ்த்மஸ்", "ஓட்டுச் சுரப்பி", "யோனி", "சிறுநீர்க்குழாய்", "சிறுநீர்ப்பை இல்லை"):
+    assert term in pigeon_egg["body"]["ta"], ("Pigeon Tamil anatomical equivalent missing", term)
+avian_air = {s["key"]: s for s in by_topic["u5-flight-adaptations"]["sections"]}["respiratory-system"]
+for term in ("palaeopulmonic", "neopulmonic", "bidirectional"):
+    assert term in avian_air["body"]["en"], ("Avian lung physiological distinction missing", term)
+for term in ("பேலியோபுல்மோனிக்", "நியோபுல்மோனிக்", "இரு திசை"):
+    assert term in avian_air["body"]["ta"], ("Avian lung Tamil physiological distinction missing", term)
+print("PASS: bilingual pigeon urinogenital anatomy and avian palaeo-/neopulmonic airflow")
 print(f"PASS: {len(chapter_ids)}/{len(topics)} syllabus topics, {len(keys)} extended bilingual sections, "
       "source references, explicit draft review status")
