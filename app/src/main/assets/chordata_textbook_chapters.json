@@ -635,6 +635,17 @@
           }
         },
         {
+          "key": "skin-feather-tracts-preening-moult",
+          "heading": {
+            "en": "Skin, feather tracts, the uropygial gland and moult",
+            "ta": "தோல், இறகுப் பகுதிகள், வாலடிச் சுரப்பி மற்றும் இறகுதிர்தல்"
+          },
+          "body": {
+            "en": "Avian skin has a relatively thin epidermis over a vascular connective-tissue dermis. In the pigeon, contour-feather follicles are arranged in feather-bearing tracts called pterylae, separated by apteria that may contain down or smaller feathers rather than being uniformly bare. This arrangement allows the plumage to cover the body efficiently while preserving movement at the wing and neck. The uropygial or preen gland lies dorsally near the base of the tail and produces a lipid-rich secretion; the bird spreads it during preening as it cleans and re-aligns feather barbs. Preening also restores the interlocking barbules that maintain a continuous aerodynamic vane. Feathers are dead keratin structures after growth, but developing feathers have a vascular pulp and must not be pulled or damaged in a live animal. During moult, worn feathers are replaced from living follicles, and replacement of flight feathers may influence performance. For student records distinguish epidermis, dermis, follicle, contour-feather shaft, pteryla, apterium and uropygial-gland position; do not mistake the gland for a mammary organ.",
+            "ta": "புறாவின் தோலில் மெல்லிய மேற்தோலும் இரத்தக் குழாய்கள் உள்ள இணைப்புத் திசுக்களால் ஆன அடித்தோலும் காணப்படுகின்றன. பெரிய உடலிறகுகள் உருவாகும் உறைகள் குறிப்பிட்ட இறகுப் பகுதிகளில் அமைந்துள்ளன; இவை ப்டெரிலே (pterylae) எனப்படும். அவற்றுக்கிடையிலுள்ள ஆப்டீரியா (apteria) பகுதிகளில் பெரிய இறகுகள் குறைவாக இருக்கும்; சில இடங்களில் மென்மையான சிறிய இறகுகள் இருக்கலாம். இந்த ஒழுங்கமைப்பு கழுத்தும் இறக்கையும் இயங்குவதற்கும் உடல் முழுவதும் இறகுப் போர்வை உருவாவதற்கும் உதவுகிறது. வாலின் அடிப்புற மேற்பரப்பருகில் வாலடிச் சுரப்பி (uropygial gland) அமைந்துள்ளது. இதன் கொழுப்புச் சத்து கொண்ட சுரப்பை அலகால் இறகுகளில் பரப்பிப் பறவை இறகுகளைச் சீரமைக்கிறது. இச்செயலால் இறகின் நுண்கிளைகள் மீண்டும் ஒழுங்காகப் பிணைந்து காற்றியக்கப் பரப்பு பேணப்படுகிறது. முழுமையாக வளர்ந்த இறகு கெரட்டினால் ஆன உயிரற்ற அமைப்பாக இருந்தாலும் வளர்கின்ற இறகினுள் இரத்த ஓட்டமுள்ள திசுக்கள் இருப்பதால் அதனைப் பிடுங்கக் கூடாது. இறகுதிர்தல் (moult) காலத்தில் பழைய இறகுகள் உதிர்ந்து புதியவை வளர்கின்றன; பறப்பிறகுகளின் மாற்றம் தற்காலிகமாகப் பறப்புத் திறனைப் பாதிக்கலாம். மாணவர் படத்தில் மேற்தோல், அடித்தோல், இறகு உறை, இறகுத் தண்டு, ப்டெரிலே, ஆப்டீரியா, வாலடிச் சுரப்பி ஆகியவற்றை வேறுபடுத்திக் காட்ட வேண்டும்."
+          }
+        },
+        {
           "key": "axial-and-appendicular-skeleton",
           "heading": {
             "en": "Skull, vertebrae, synsacrum, sternum and wing skeleton",
@@ -701,6 +712,17 @@
           }
         },
         {
+          "key": "thoracic-pump-and-ventilation",
+          "heading": {
+            "en": "Rib-and-sternum mechanics of pulmonary ventilation",
+            "ta": "விலா எலும்பு–மார்பெலும்பு இயக்கத்தால் நுரையீரலுக்குக் காற்றோட்டம்"
+          },
+          "body": {
+            "en": "The lungs of the pigeon remain relatively fixed against the dorsal thoracic wall while air-sac volume changes with movements of the ribs, sternum and body wall. The thoracic cage includes vertebral and sternal rib portions; associated uncinate processes provide leverage and contribute to ventilatory mechanics. Elevation and outward movement of the sternum and ribs expand body-cavity volume during inspiration, whereas coordinated recoil and muscular action contribute to expiration. This is not ventilation by a muscular mammalian diaphragm, and pigeons do not use the buccal pumping mechanism characteristic of many amphibians. During flight, respiratory movements must be coordinated with strenuous pectoral-muscle activity, but wingbeats should not be described as the sole pump that makes breathing possible. The respiratory air sacs distribute airflow, while the comparatively rigid parabronchial lung supplies the extensive surface for gas exchange. In a functional side-view diagram, label sternum, ribs, trachea, lungs, anterior and posterior air-sac groups, and indicate thoracic volume change separately from airflow through the gas-exchange lung.",
+            "ta": "புறாவின் நுரையீரல்கள் மார்புக்கூட்டின் முதுகுப்புறத்தில் ஒப்பீட்டளவில் நிலையாக அமைந்துள்ளன. விலா எலும்புகள், மார்பெலும்பு, உடற்சுவர் ஆகியவற்றின் இயக்கத்தால் காற்றுப் பைகளின் கொள்ளளவு மாறுகிறது. மார்புக்கூட்டில் முதுகெலும்புடன் இணையும் விலா எலும்புப் பகுதியும் மார்பெலும்புடன் இணையும் பகுதியும் உள்ளன. விலா எலும்புகளில் காணப்படும் அன்சினேட் நீட்சிகள் (uncinate processes) இயக்கத்துக்கு இயந்திர ஆதரவு அளிக்கின்றன. மூச்சை உள்ளிழுக்கும்போது விலா எலும்புகளும் மார்பெலும்பும் நகர்ந்து உடற்குழியின் கொள்ளளவை அதிகரிக்கின்றன; மூச்சை வெளியேற்றும்போது தசை இயக்கமும் மீள்நிலையாக்கமும் உதவுகின்றன. பாலூட்டிகளில் இருப்பதைப் போன்ற தசை உதரவிதானம் புறாவில் இல்லை. பல இருவாழ்விகளில் காணப்படும் வாய்–தொண்டைப் பகுதி காற்றுத் தள்ளும் முறையிலும் புறா சுவாசிப்பதில்லை. பறக்கும்போது தசை இயக்கங்களும் சுவாசமும் ஒருங்கிணைந்தாலும் இறக்கையசைவு மட்டுமே சுவாசத்தை இயக்குகிறது என்று கூறக்கூடாது. காற்றுப் பைகள் காற்றோட்டத்திற்கு உதவுகின்றன; வாயுப் பரிமாற்றம் உறுதியான பராப்ராங்கியல் நுரையீரலில் நடைபெறுகிறது. படத்தில் மார்பெலும்பு, விலா எலும்புகள், காற்றுக்குழல், நுரையீரல், முன் மற்றும் பின்புறக் காற்றுப் பைகள் ஆகியவற்றைக் குறிக்க வேண்டும்."
+          }
+        },
+        {
           "key": "four-chambered-heart-and-vessels",
           "heading": {
             "en": "Four-chambered heart, systemic aorta and double circulation",
@@ -720,6 +742,17 @@
           "body": {
             "en": "Paired metanephric kidneys lie within the pelvic region, and ureters conduct urinary products into the cloaca. Rock pigeons normally have no urinary bladder; much nitrogenous waste is passed in the form of uric acid or urates, reducing water requirements relative to excreting equivalent nitrogen as dilute ammonia. The white component of a typical pigeon dropping contains urates, while darker material derives largely from the intestine. The cloaca receives digestive, urinary and reproductive ducts, but these systems retain distinct functions. Birds have no mammalian-style external urethral discharge of stored urine from a urinary bladder. Kidney function includes filtration, ion regulation and osmotic balance; uricotelism does not imply that the animal does not need drinking water. Teaching comparisons should contrast pigeon excretion with the bladder-and-urea system of a rabbit, while avoiding exaggerated claims that all birds have exactly identical renal adaptations.",
             "ta": "புறாவில் இணையான நிலையான சிறுநீரகங்கள் இடுப்புப் பகுதியில் உள்ளன. சிறுநீர்க் குழாய்கள் கழிவுப்பொருள்களைப் பொதுக்கழிவு அறைக்குக் கொண்டு செல்கின்றன. புறாவில் பொதுவாகச் சிறுநீர்ப்பை இல்லை; நைட்ரஜன் கழிவுகள் பெரும்பாலும் யூரிக் அமிலம், யூரேட் உப்புகள் வடிவில் வெளியேறுகின்றன. இதனால் ஒப்பீட்டளவில் நீர் சேமிக்கப்படுகிறது. புறா கழிவின் வெள்ளைப் பகுதியிலே யூரேட் பொருள்களும் கருநிறப் பகுதியில் பெரும்பாலும் குடல் கழிவுகளும் உள்ளன. பொதுக்கழிவு அறையுடன் செரிமான, கழிவுநீக்க, இனப்பெருக்க வழிகள் தொடர்புடையவை; அவற்றின் பணிகள் தனித்தனியானவை. சிறுநீரகங்கள் வடிகட்டுதல், உப்புச் சமநிலை, நீர்ச் சமநிலை ஆகியவற்றை ஒழுங்குபடுத்துகின்றன. யூரிக் அமிலக் கழிவுநீக்கம் நிகழ்வதால் பறவைக்கு நீர் தேவைப்படாது என்று கூறுவது தவறு. முயலின் யூரியா வெளியேற்றம், சிறுநீர்ப்பை அமைப்புடன் இதனை ஒப்பிடலாம்."
+          }
+        },
+        {
+          "key": "renal-microanatomy-water-balance",
+          "heading": {
+            "en": "Renal microanatomy, urate excretion and water conservation",
+            "ta": "சிறுநீரக நுண்கட்டமைப்பு, யூரேட் கழிவுநீக்கம் மற்றும் நீர் சேமிப்பு"
+          },
+          "body": {
+            "en": "The pigeon kidneys are paired, elongated organs moulded against the pelvic skeleton and divided grossly into cranial, middle and caudal lobes. Renal tissue contains nephrons, including forms without a loop of Henle and forms with loops of varying length; these differences help explain why the avian kidney should not simply be illustrated as an enlarged mammalian nephron. Filtration begins at renal corpuscles, while renal tubules modify solute and water content before urinary products reach the ureters. Nitrogenous wastes are excreted largely as uric acid and urates; a semi-solid white urate component can be seen mixed with darker intestinal material in ordinary droppings. This does not mean that pigeons produce no watery fluid or that they have no physiological requirement for drinking water. The cloaca and lower intestine may participate in conserving water and salts, alongside renal regulation. An undergraduate labelled specimen should distinguish kidney lobes, ureter, cloaca and large vessels, while a microscopic diagram should label glomerulus and tubules without inventing a urinary bladder.",
+            "ta": "புறாவின் இணைச் சிறுநீரகங்கள் இடுப்பெலும்புகளின் உள்புறத்தில் நீளமாக அமைந்துள்ளன. ஒவ்வொரு சிறுநீரகத்திலும் முன், நடு, பின் என மூன்று முக்கியப் பகுதிகளை அடையாளம் காணலாம். சிறுநீரகத் திசுக்களில் நெஃப்ரான்கள் (nephrons) உள்ளன. சில நெஃப்ரான்களில் ஹென்லே வளைவு (loop of Henle) இல்லை; மற்ற சிலவற்றில் வெவ்வேறு நீளமுள்ள வளைவுகள் காணப்படும். எனவே பாலூட்டிகளின் நெஃப்ரான் படத்தை மாற்றமின்றிப் புறாவின் சிறுநீரக மாதிரியாகப் பயன்படுத்தக் கூடாது. வடிகட்டுதல் சிறுநீரகக் குளோமெருலஸில் தொடங்குகிறது; பின்னர் குழாய்களில் நீரும் கரைந்த பொருள்களும் ஒழுங்குபடுத்தப்படுகின்றன. நைட்ரஜன் கழிவுகள் பெரும்பாலும் யூரிக் அமிலம் மற்றும் யூரேட் உப்புகளாக வெளியேறுகின்றன. கழிவில் காணப்படும் வெள்ளைப் பகுதி பெரும்பாலும் யூரேட் கழிவும் கருநிறப் பகுதி குடல் கழிவும் ஆகும். இதனால் புறாவுக்கு குடிநீர் தேவையில்லை என்றோ திரவக் கழிவு உருவாவதில்லை என்றோ பொருள் கொள்ளக்கூடாது. பொதுக்கழிவு அறையும் குடலின் இறுதிப் பகுதியும் நீர் மற்றும் உப்புகளைச் சேமிக்க உதவலாம். உடற்கூறுப் படத்தில் சிறுநீரகப் பகுதிகள், சிறுநீர்க்குழாய், பொதுக்கழிவு அறை ஆகியவற்றைத் தெளிவாகக் குறிக்க வேண்டும்; இல்லாத சிறுநீர்ப்பையை வரையக் கூடாது."
           }
         },
         {
@@ -776,6 +809,17 @@
             "en": "Powered flight requires coordinated generation of lift and thrust, changes in wing area and angle, feather control, muscular power and neural feedback. A downstroke can produce a major part of the force, while the upstroke repositions the wing and may also contribute aerodynamically depending on speed and manoeuvre. The tail assists pitch, steering and braking. Rock pigeons disperse seeds in some contexts and provide prey for raptors, but dense feral populations can also create local management and hygiene challenges. Comparative study should relate the pigeon's four-chambered heart and air-sac-supported parabronchial ventilation to the reptilian pattern in Calotes and the mammalian respiratory pattern in rabbit. Describe shared ancestry and divergent adaptations rather than a linear hierarchy of supposedly superior animals. A classroom practical can include feather microscopy, preserved skeletal material, wing-muscle mapping and observation of take-off and landing, with no live dissection or disturbance of nests.",
             "ta": "செயல்திறன் வாய்ந்த பறப்புக்கு மேலெழுச்சி விசை, முன்னோக்கித் தள்ளும் விசை, இறக்கையின் கோண மாற்றம், இறகுக் கட்டுப்பாடு, தசை ஆற்றல், நரம்பு ஒருங்கிணைப்பு ஆகியவை தேவை. கீழிறக்கும் இறக்கை இயக்கம் பெரும் விசையை உருவாக்குகிறது; மேலெழும் இயக்கம் அடுத்த அசைவிற்கான நிலையைத் தயாரிக்கிறது. வாலிறகுகள் திசைமாற்றம், சமநிலை, வேகக் குறைப்பு ஆகியவற்றுக்கு உதவுகின்றன. புறாக்கள் சில வாழிடங்களில் விதை பரவலுக்கும் உணவுவலைக்கும் பங்களிக்கின்றன; மிகுதியான நகர்ப்புறக் கூட்டங்கள் சில நிர்வாகச் சிக்கல்களையும் ஏற்படுத்தலாம். புறாவின் நான்கு அறை இதயத்தையும் காற்றுப்பை ஆதரவு கொண்ட நுரையீரலையும் கலோடஸின் இரத்த ஓட்டம், சுவாசம் ஆகியவற்றுடன் ஒப்பிட வேண்டும். முயலின் பாலூட்டி உடற்கூறுடனும் வேறுபாடுகளை விளக்கலாம். இறகு நுண்ணாய்வு, எலும்பு மாதிரி, தசை வரைபடம், பறத்தல் நடத்தைப் பதிவு ஆகியவை உயிரிக்குத் தீங்கு இன்றி செய்யக்கூடிய பயிற்சிகளாகும்."
           }
+        },
+        {
+          "key": "comparative-anatomy-laboratory-workflow",
+          "heading": {
+            "en": "Comparative anatomy practical: observation, recording and safe specimen study",
+            "ta": "ஒப்பீட்டு உடற்கூறு செய்முறை: பார்வை, பதிவு மற்றும் பாதுகாப்பான ஆய்வு"
+          },
+          "body": {
+            "en": "An undergraduate pigeon type study should connect visible structures with physiological function rather than rely on an isolated list of names. Begin with an ethically obtained photograph, an authorised preserved teaching specimen or a verified museum skeleton: record the scientific name, body regions, beak and cere, external nostrils, wing and tail-feather groups, legs and scaly toes. Examine separate labelled skeletal views to identify furcula, coracoid, scapula, sternal keel, synsacrum, pygostyle, humerus, radius and ulna. Trace a diagrammatic food pathway from beak through oesophagus, crop, proventriculus, gizzard and intestine to the cloaca, and compare it with the trachea–bronchus–lung–air-sac route. In functional charts distinguish the four cardiac chambers and pulmonary versus systemic vessels; trace ureters to the cloaca and identify the functional left female reproductive tract. Record which observations come from a real specimen and which are interpretations from labelled source figures. Do not disturb nests, collect eggs or obtain live birds for invasive demonstrations. Each diagram needs an anatomical orientation, accurate labels and a provenance citation.",
+            "ta": "இளங்கலைப் புறா உடற்கூறு செய்முறையில் உறுப்புப் பெயர்களை மட்டும் மனப்பாடம் செய்வதைவிட அவற்றின் அமைப்பையும் பணியையும் தொடர்புபடுத்த வேண்டும். உரிமையுடன் பயன்படுத்தப்படும் புகைப்படம், அனுமதிக்கப்பட்ட பாதுகாக்கப்பட்ட மாதிரி அல்லது சரிபார்க்கப்பட்ட அருங்காட்சியக எலும்புக்கூட்டைப் பயன்படுத்தி அறிவியல் பெயர், தலை, கழுத்து, உடற்பகுதி, அலகு, செரி, வெளிநாசித்துளைகள், இறக்கை, வால், செதிலுள்ள கால்விரல்கள் ஆகியவற்றைப் பதிவு செய்ய வேண்டும். தனித்தனிப் படங்களில் ஃபர்குலா, கோராகாய்டு, ஸ்காபுலா, மார்பெலும்பு முகடு, சின்சேக்ரம், பைகோஸ்டைல், ஹியூமரஸ், ரேடியஸ், அல்னா ஆகியவற்றைச் சுட்டிக்காட்ட வேண்டும். உணவுப் பாதையில் அலகு, உணவுக்குழல், கிராப், சுரப்பி இரைப்பை, தசை இரைப்பை, குடல், பொதுக்கழிவு அறை ஆகியவற்றை வரிசைப்படுத்த வேண்டும். சுவாசப்பாதையில் காற்றுக்குழல், கிளைமூச்சுக்குழல்கள், நுரையீரல், காற்றுப் பைகள் ஆகியவற்றின் வேறுபாட்டைக் காட்ட வேண்டும். இதயத்தின் நான்கு அறைகளையும் நுரையீரல் மற்றும் உடல் இரத்த ஓட்டங்களையும் தனியாகக் குறிக்க வேண்டும். சிறுநீர்க்குழாய்கள் பொதுக்கழிவு அறையில் திறப்பதையும் பெண் புறாவின் செயல்படும் இடது இனப்பெருக்க மண்டலத்தையும் அறிய வேண்டும். நேரடி மாதிரியில் கண்டவற்றையும் நூல் படத்திலிருந்து விளக்கமாக எடுத்தவற்றையும் தனித்தனியாகப் பதிவு செய்ய வேண்டும். கூடுகளைத் தொந்தரவு செய்தல், முட்டைகளைச் சேகரித்தல் அல்லது உயிருள்ள பறவைகளில் ஆக்கிரமிப்பான செய்முறை நடத்துதல் தவிர்க்கப்பட வேண்டும். ஒவ்வொரு படத்திலும் உடற்கூறு நோக்கு, சரியான பெயரிடல், படமூலக் குறிப்பு ஆகியவை அவசியம்."
+          }
         }
       ],
       "sources": [
@@ -794,6 +838,18 @@
         {
           "label": "Digital restoration of pectoral girdles — triosseal canal variation including pigeon",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9023055/"
+        },
+        {
+          "label": "Micro- and macroanatomical features of the uropygial gland in pigeon (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32603233/"
+        },
+        {
+          "label": "British Trust for Ornithology — Moult in birds and feather tracts",
+          "url": "https://www.bto.org/sites/default/files/moult-in-birds-web.pdf"
+        },
+        {
+          "label": "Anatomical and histological features of the pigeon oesophagus and crop (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39313796/"
         }
       ]
     },
