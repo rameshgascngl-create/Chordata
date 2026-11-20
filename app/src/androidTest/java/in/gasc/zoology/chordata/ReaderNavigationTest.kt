@@ -587,9 +587,12 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("learning-points").assertExists().performScrollTo()
         rule.onNode(
             hasTestTag("answer-point-5") and hasAnyAncestor(hasTestTag("learning-points"))
-        ).assertExists()
-        rule.onNodeWithTag("reader-next").performScrollTo().assertIsDisplayed()
+        ).performScrollTo().assertIsDisplayed()
         captureQaScreen("aves-five-learning-points-ta-200")
+        // LazyColumn only composes the footer when that list item is reached.
+        // Do not ask Compose to scroll to an off-composition 'reader-next'.
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(5)
+        rule.onNodeWithTag("reader-next").assertIsDisplayed()
     }
 
     @Test fun detailedRabbitTextbookContainsCorrectDentitionAndCaecotrophy() {
