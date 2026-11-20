@@ -243,3 +243,13 @@ assert _pigeon_key["independentBiologyReview"] == _pigeon_key["independentTamilR
 assert _pigeon_key["sha256"] == "f0678127364b73f72dff3a857aa61a0fae56715003c1805d86606ad679630404"
 assert _lung_key["sha256"] == "c3d43b9dbdf71d41b173d2543f4c51495b699ed2d96c3d2667370672c8bbacb5"
 print("PASS: pigeon oviduct and air-sac direction explanatory keys, unchanged source image hashes")
+
+# Tamil reader uses the 'ta' plate when it has provisional green-tick
+# permission, so the detailed airflow key MUST accompany that selected asset.
+_lung_tamil = next(x for x in fs if x["diagramId"] == "u5-flight-adaptations-avian-lung" and x["lang"] == "ta")
+assert _lung_tamil["keyTa"] == _lung_key["keyTa"]
+assert _lung_tamil["learnerKeyTa"] == _lung_tamil["keyTa"]
+assert _lung_tamil["aiQaIntegrationDecision"] == "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE"
+assert _lung_tamil["reviewStatus"].startswith("PROVISIONAL_")
+assert _lung_tamil["sha256"] == "e29ead970da9fd42aa067bb810ec414fd0e63a78f84ab6e0ea19b4f4673bee40"
+print("PASS: Tamil-selected avian lung variant retains correct bilingual airflow key")

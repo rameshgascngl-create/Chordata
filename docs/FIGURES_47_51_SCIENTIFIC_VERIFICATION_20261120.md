@@ -19,3 +19,7 @@
 
 ## Controlled change and release caution
 Only explanatory keys and static QA assertions have been changed. **No PNG, SVG, file hash, copyright assertion, registered section, approved figure, learning-point count or independent reviewer decision was altered.** This is a pedagogical terminology and figure-interpretation correction, not final image acceptance. Both figures remain on the independent Zoology/Tamil sign-off list.
+
+## Reader-language variant check — 20 November 2026
+
+The native Compose `FigureGallery` selects an owner-approved `lang="ta"` provisional figure in Tamil reading mode when one is available. Figure 51 has an independently registered Tamil AI PNG; consequently updating only the English variant's `keyTa` **does not propagate the teaching explanation into Tamil mode**. The Tamil variant now carries the identical corrected `keyTa` and `learnerKeyTa`, without changing the original Tamil PNG, its SHA-256, any anatomical markings or its provisional status. `scripts/audit_pencil_coverage.py` explicitly asserts this relationship and preserves both registered source hashes. This is the minimal editorial correction rather than image replacement or architecture change.
