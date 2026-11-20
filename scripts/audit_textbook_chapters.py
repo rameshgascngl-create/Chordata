@@ -36,5 +36,34 @@ duplicates = sorted({topic_id for topic_id in covered if covered.count(topic_id)
 assert not missing, f"Unexpanded syllabus topic(s): {missing}"
 assert not duplicates, f"Duplicate textbook topic coverage: {duplicates}"
 assert len(covered) == len(topics), f"Expected {len(topics)} chapters, found {len(covered)}"
+# Unit V textbook extensions must remain complete in both languages and
+# appear exactly once in the book reader without dropping established sections.
+by_topic = {chapter["topicId"]: chapter for chapter in book["chapters"]}
+unit5_required = {
+    "u5-columba": {
+        "skin-feather-tracts-preening-moult",
+        "thoracic-pump-and-ventilation",
+        "renal-microanatomy-water-balance",
+        "comparative-anatomy-laboratory-workflow",
+    },
+    "u5-flight-adaptations": {
+        "wing-loading-aspect-ratio",
+        "wingbeat-phases-and-control",
+        "flight-modes-and-ecological-specialisation",
+        "flight-fuel-and-muscle-energetics",
+        "thermal-water-balance-in-flight",
+        "comparative-flight-investigation",
+    },
+}
+for topic, required in unit5_required.items():
+    sections = by_topic[topic]["sections"]
+    keys_found = [section["key"] for section in sections]
+    assert required.issubset(keys_found), (topic, "missing required scientific topics", required - set(keys_found))
+    assert len(keys_found) == len(set(keys_found)), (topic, "duplicate page keys")
+    assert all(len(section["body"][lang]) >= 450 for section in sections
+               if section["key"] in required for lang in ("en", "ta")), (topic, "incomplete long-form bilingual section")
+assert len(by_topic["u5-columba"]["sections"]) >= 20
+assert len(by_topic["u5-flight-adaptations"]["sections"]) >= 12
+assert len(keys) >= 310, f"Expected >=310 full bilingual textbook sections, found {len(keys)}"
 print(f"PASS: {len(chapter_ids)}/{len(topics)} syllabus topics, {len(keys)} extended bilingual sections, "
       "source references, explicit draft review status")
