@@ -80,10 +80,16 @@ for block in extras['sections']:
     name = (block['topicId'], block['sectionKey'])
     assert name in known_sections and name not in seen_enrichment, ('Bad supplemental anchor', name)
     seen_enrichment.add(name)
-    assert len(block['points']) == 3, ('Exactly three points required', name)
+    assert 3 <= len(block['points']) <= 8, ('Three to eight points required', name)
     assert all(len(p['en'].strip()) >= 50 and len(p['ta'].strip()) >= 45
                for p in block['points']), ('Incomplete bilingual point', name)
 assert len({topicId for topicId, _ in seen_enrichment}) == 39
+assert sum(len(b['points']) for b in extras['sections']) == 121, 'Expected 121 bilingual learning points'
+for topic_id, section_key in (('u4-skull', 'temporal-fenestrae'),
+                              ('u5-aves-classification', 'bird-characteristics')):
+    assert len(next(b for b in extras['sections'] if
+                    (b['topicId'], b['sectionKey']) == (topic_id, section_key))['points']) == 5, (
+        'New reptile/bird learning point coverage regressed', topic_id)
 assert 'fun bilingualPointwiseEnrichmentPreservesOriginalChapterStructure()' in test_text
 assert 'PointwiseExplanation(section.keyPoints, lang, scale)' in (
     ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
