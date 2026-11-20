@@ -640,6 +640,26 @@ class ReaderNavigationTest {
             pack.topics.sumOf { it.diagramIds.size })
     }
 
+    @Test fun mammalianClassificationFossilEarAndPlacentalCladesArePagedBilingually() {
+        val pack = ContentRepository.load(InstrumentationRegistry.getInstrumentation().targetContext)
+        val topic = requireNotNull(pack.findTopic("u5-mammalia-classification"))
+        val chapter = topic.textbookChapters.single()
+        org.junit.Assert.assertEquals(8, chapter.sections.size)
+        val required = setOf("jaw-joint-to-middle-ear-fossils",
+            "placental-root-phylogenomics-and-fossil-dating")
+        org.junit.Assert.assertTrue(chapter.sections.map { it.key }.containsAll(required))
+        org.junit.Assert.assertTrue(chapter.sections.filter { it.key in required }.all {
+            it.body.en.length >= 750 && it.body.ta.length >= 750
+        })
+        val logic = `in`.gasc.zoology.chordata.domain.LearningLogic
+        val pages = logic.textbookPages(topic)
+        org.junit.Assert.assertTrue(pages.isNotEmpty() && pages.all { it.isNotEmpty() })
+        org.junit.Assert.assertEquals(chapter.sections.map { it.key },
+            pages.flatten().map { it.key })
+        org.junit.Assert.assertTrue(logic.isQuizPage(topic, logic.lastPage(topic)))
+        org.junit.Assert.assertEquals(3, topic.quiz.size)
+    }
+
     @Test fun detailedRabbitTextbookContainsCorrectDentitionAndCaecotrophy() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val pack = ContentRepository.load(context)

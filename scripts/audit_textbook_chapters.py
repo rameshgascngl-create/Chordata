@@ -83,6 +83,15 @@ assert len(by_topic["u5-aves-classification"]["sections"]) >= 9
 assert len(by_topic["u5-bird-migration"]["sections"]) >= 7
 assert len(by_topic["u5-columba"]["sections"]) >= 20
 assert len(by_topic["u5-flight-adaptations"]["sections"]) >= 12
-assert len(keys) >= 313, f"Expected >=313 full bilingual textbook sections, found {len(keys)}"
+mammal_keys = {
+    "jaw-joint-to-middle-ear-fossils",
+    "placental-root-phylogenomics-and-fossil-dating",
+}
+mammal_sections = {s["key"]: s for s in by_topic["u5-mammalia-classification"]["sections"]}
+assert mammal_keys <= set(mammal_sections), "Missing mammalian evolutionary anatomy"
+assert len(by_topic["u5-mammalia-classification"]["sections"]) >= 8
+assert all(len(mammal_sections[k]["body"][lang]) >= 750
+           for k in mammal_keys for lang in ("en", "ta")), "Mammal bilingual depth"
+assert len(keys) >= 315, f"Expected >=315 full bilingual textbook sections, found {len(keys)}"
 print(f"PASS: {len(chapter_ids)}/{len(topics)} syllabus topics, {len(keys)} extended bilingual sections, "
       "source references, explicit draft review status")
