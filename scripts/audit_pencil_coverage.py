@@ -227,3 +227,19 @@ assert aerofoil['visualReview'] == 'SCIENTIFIC_LABEL_CORRECTED_LEGIBLE_QA_INDEPE
 assert not aerofoil.get('ownerQaDisplayDecision')
 assert not aerofoil.get('ownerQaAcceptedSha256')
 assert aerofoil['reviewStatus'].startswith('PROVISIONAL_')
+
+# Avian figure teaching keys: academic terminology must not conflate
+# a pigeon's oviduct shell-gland region with a mammalian uterus, or the
+# air-sac inflation arrows with actual airflow vectors. Bitmap hashes and
+# independent decision fields remain unaffected by these metadata changes.
+_pigeon_key = next(x for x in fs if x["diagramId"] == "u5-columba-urinogenital" and x["lang"] == "en")
+_lung_key = next(x for x in fs if x["diagramId"] == "u5-flight-adaptations-avian-lung" and x["lang"] == "en")
+assert "shell-gland segment" in _pigeon_key["keyEn"] and "NOT a mammalian uterus" in _pigeon_key["keyEn"]
+assert "பொதுக்கழிவு அறை" in _pigeon_key["keyTa"] and "பொதுக்கழிவறை" not in _pigeon_key["keyTa"]
+assert "பாலூட்டிகளின் கருப்பை" in _pigeon_key["keyTa"]
+assert "not the direction of gas movement" in _lung_key["keyEn"]
+assert "காற்றோட்டத்தின் திசையைக் குறிக்கவில்லை" in _lung_key["keyTa"]
+assert _pigeon_key["independentBiologyReview"] == _pigeon_key["independentTamilReview"] == "PENDING"
+assert _pigeon_key["sha256"] == "f0678127364b73f72dff3a857aa61a0fae56715003c1805d86606ad679630404"
+assert _lung_key["sha256"] == "c3d43b9dbdf71d41b173d2543f4c51495b699ed2d96c3d2667370672c8bbacb5"
+print("PASS: pigeon oviduct and air-sac direction explanatory keys, unchanged source image hashes")
