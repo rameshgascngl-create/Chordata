@@ -733,7 +733,10 @@ class ReaderNavigationTest {
         org.junit.Assert.assertEquals(5, rabbit.diagramIds.size)
         val chapter = rabbit.textbookChapters.single()
         org.junit.Assert.assertEquals("oryctolagus-cuniculus-undergraduate-type-study", chapter.id)
-        org.junit.Assert.assertEquals(16, chapter.sections.size)
+        org.junit.Assert.assertEquals(17, chapter.sections.size)
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "duplex-uterus-induced-ovulation-and-placenta"
+        }.body.en.contains("two distinct uterine horns"))
         org.junit.Assert.assertTrue(chapter.sections.all {
             it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
                 it.body.en.length >= 150 && it.body.ta.length >= 150
