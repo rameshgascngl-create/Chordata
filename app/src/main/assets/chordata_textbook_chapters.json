@@ -4527,6 +4527,17 @@
             "en": "A university dentition practical should begin with a specimen-verified upper and lower jaw or an accurately sourced anatomical photograph. Mark the midline and one upper and lower quadrant, count incisors, canines, premolars and molars, and then write the unilateral formula before multiplying by two. Examine crown shapes, occlusal wear, diastema, tooth sockets and replacement stage, taking care not to mistake missing teeth, unerupted teeth or damaged specimens for normal species characters. For human and rabbit comparison, confirm 32 versus 28 adult teeth and the rabbit's second small upper incisors; an incomplete peg-tooth illustration will give an erroneous formula. A practical report can include a small labelled cross-section of enamel, dentine, cementum and pulp, a complete dental arcade and a table linking cusp form to diet. Credit the source of images and state whether drawings are idealised, clinical or specimen-specific. No live-animal tooth manipulation is required to teach these principles.",
             "ta": "பாலூட்டிகளின் பற்களை ஆய்வு செய்யும்போது முதலில் இன அடையாளம் உறுதியான மேல்தாடை, கீழ்தாடை மாதிரி அல்லது நம்பகமான உடற்கூறுப் படத்தைத் தேர்ந்தெடுக்க வேண்டும். தாடையின் நடுக்கோட்டைக் குறித்துவிட்டு ஒரு பக்கத்திலுள்ள வெட்டுப் பற்கள், கோரைப் பற்கள், முன்கடைவாய்ப் பற்கள், கடைவாய்ப் பற்கள் ஆகியவற்றைத் தனித்தனியாக எண்ண வேண்டும். பின்னர் மேல்தாடை, கீழ்தாடை எண்ணிக்கைகளைப் பற்சூத்திரமாக எழுதி இரண்டால் பெருக்கி மொத்தப் பற்களின் எண்ணிக்கையைக் கணக்கிடலாம். பற்களின் முடிப்பகுதி, தேய்மானம், பற்புழை, டையாஸ்டீமா, பல் மாற்ற நிலை ஆகியவற்றையும் கவனிக்க வேண்டும். உதிர்ந்த பற்களையோ இன்னும் வெளிவராத பற்களையோ அந்த இனத்தின் இயல்பான இல்லாமையாகக் கருதக்கூடாது. மனிதனின் வழக்கமான நிரந்தரப் பற்கள் 32; முயலின் பற்கள் 28. முயலின் சிறிய மேல்தாடைப் பெக் பற்களையும் படத்தில் சரியாகக் காட்ட வேண்டும். செய்முறைப் பதிவில் எனாமல், டென்டைன், பற்கூழ், சிமெண்டம் கொண்ட குறுக்குவெட்டு, பற்சூத்திரம், உணவுக்கேற்ற பற்களின் வடிவம் ஆகியவற்றைத் தனித்தனியாகச் சேர்க்கலாம். பட ஆதாரத்தையும் குறிப்பிட வேண்டும்; உயிருள்ள விலங்கின் வாயைத் திறந்து பற்களைக் கையாளத் தேவையில்லை."
           }
+        },
+        {
+          "key": "comparative-dental-formulae-and-age",
+          "heading": {
+            "en": "Comparative dental formulae: humans, dogs and cattle",
+            "ta": "ஒப்பீட்டுப் பற்சூத்திரங்கள்: மனிதன், நாய், மாடு"
+          },
+          "body": {
+            "en": "Human primary dentition has the formula I 2/2, C 1/1, P 0/0, M 2/2, giving 20 teeth. The primary molars are eventually replaced by permanent premolars. The permanent molars erupt farther back in the jaw without replacing primary teeth.\n\nIn the adult domestic dog, I 3/3, C 1/1, P 4/4, M 2/3 gives 42 teeth. Count the upper and lower molars separately: there are two above and three below on each side. The upper fourth premolar and lower first molar form the carnassial pair that shears food.\n\nIn adult cattle, I 0/3, C 0/1, P 3/3, M 3/3 gives 32 teeth. At the front of the upper jaw a firm dental pad opposes the lower front teeth. On each side the lower canine resembles an incisor. Some references therefore count it as a fourth lower incisor and write I 0/4, C 0/0. Both conventions describe the same four lower front teeth per side. Compare cattle with adult humans: both have 32 teeth, but their dental formulae and feeding surfaces differ.",
+            "ta": "மனிதனின் பால்பற்களுக்கான பற்சூத்திரம் I 2/2, C 1/1, P 0/0, M 2/2 ஆகும். மொத்தம் 20 பால்பற்கள் உள்ளன. பால் கடைவாய்ப் பற்கள் விழுந்த பின், அவற்றின் இடங்களில் நிரந்தர முன்கடைவாய்ப் பற்கள் முளைக்கின்றன. நிரந்தரக் கடைவாய்ப் பற்கள் தாடையின் பின்பகுதியில் புதிதாக முளைக்கின்றன.\n\nமுதிர்ந்த வீட்டு நாயின் பற்சூத்திரம் I 3/3, C 1/1, P 4/4, M 2/3 ஆகும். மொத்தம் 42 பற்கள் உள்ளன. ஒவ்வொரு பக்கத்திலும் மேல்தாடையில் இரண்டு கடைவாய்ப் பற்களும் கீழ்தாடையில் மூன்று கடைவாய்ப் பற்களும் உள்ளன. மேல்தாடையின் நான்காவது முன்கடைவாய்ப் பல்லும் கீழ்தாடையின் முதலாவது கடைவாய்ப் பல்லும் இணைந்து உணவைக் கத்தரிபோல் வெட்டும் பல் இணையாக (carnassial pair) செயல்படுகின்றன.\n\nமுதிர்ந்த மாட்டின் பற்சூத்திரம் I 0/3, C 0/1, P 3/3, M 3/3 ஆகும். மொத்தம் 32 பற்கள் உள்ளன. கீழ்த்தாடையின் முன்பற்களுக்கு எதிரே மேல்தாடையின் முன்பகுதியில் உறுதியான பல் மெத்தை (dental pad) உள்ளது. கீழ்த்தாடையின் ஒவ்வொரு பக்கத்திலும் கோரைப் பல் வெட்டுப் பல்லைப் போல் அமைந்துள்ளது. எனவே சில நூல்கள் அதனை நான்காவது வெட்டுப் பல்லாகக் கணக்கிட்டு I 0/4, C 0/0 என்று எழுதுகின்றன. இரு முறைகளிலும் கீழ்த்தாடையின் ஒரு பக்கத்தில் நான்கு முன்பற்களே கணக்கிடப்படுகின்றன. முதிர்ந்த மனிதனுக்கும் மாட்டிற்கும் தலா 32 பற்கள் இருந்தாலும், அவற்றின் பற்சூத்திரங்களும் உணவைச் செயலாக்கும் பற்பரப்புகளும் வேறுபடுகின்றன."
+          }
         }
       ],
       "sources": [
@@ -4553,6 +4564,18 @@
         {
           "label": "Smithsonian Ocean — Walrus upper canine tusks",
           "url": "https://ocean.si.edu/ocean-life/marine-mammals/seals-sea-lions-and-walruses"
+        },
+        {
+          "label": "StatPearls — Human primary and permanent dentition",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK570590/"
+        },
+        {
+          "label": "MSD Veterinary Manual — Dental formulae of domestic mammals",
+          "url": "https://www.msdvetmanual.com/digestive-system/dental-development-and-anatomy/dentition-and-dental-nomenclature-of-animals"
+        },
+        {
+          "label": "Colorado State University — Ruminant dentition and the dental pad",
+          "url": "https://vivo.colostate.edu/hbooks/pathphys/digestion/pregastric/cowpage.html"
         }
       ]
     }
