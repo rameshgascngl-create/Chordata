@@ -2344,33 +2344,33 @@
               "key": "devonian-transition",
               "heading": {
                 "en": "The Devonian transition",
-                "ta": "டெவோனியக் கால மாற்றம்"
+                "ta": "டெவோனியக் காலத்தில் துடுப்புகளிலிருந்து கால்கள் தோன்றுதல்"
               },
               "body": {
-                "en": "The earliest tetrapods evolved within the lobe-finned fish lineage during the Devonian. Fossils such as Tiktaalik and Acanthostega show different combinations of aquatic and limb-bearing features. These fossils help explain how the tetrapod body plan developed. Their exact positions on the family tree require separate evidence.",
-                "ta": "நான்கு காலுடைய முதுகெலும்பிகளின் தொடக்கக் கிளை டெவோனியக் காலத்தில் சதைப்பற்றுத் துடுப்புடைய மீன்களின் பரிணாமக் கிளைகளிலிருந்து தோன்றியது. டிக்டாலிக் மற்றும் அகாந்தோஸ்டீகா போன்ற புதைபடிவங்களில் நீர்வாழ் பண்புகளும் கால்களின் தொடக்க அமைப்புகளும் இணைந்து காணப்படுகின்றன. இவை மீன்களிலிருந்து நிலவாழ் முதுகெலும்பிகளுக்கான மாற்றத்தை விளக்குகின்றன. இன்று வாழும் தவளைகளின் நேரடி மூதாதைகள் என இவற்றை உறுதியாகக் கூறக் கூடாது."
+                "en": "Early tetrapod forms evolved within the lobe-finned vertebrate lineage during the Devonian. Tiktaalik had wrist-like skeletal structures inside its pectoral fins and retained fin rays. Acanthostega had limbs with digits and retained aquatic adaptations. The fossils document different combinations of traits near the origin of the tetrapod body plan.",
+                "ta": "டெவோனியக் காலத்தில் மடல்துடுப்பு மீன்களின் (Sarcopterygii) ஒரு பரிணாமக் கிளையில் நான்குகால் முதுகெலும்பிகளின் தொடக்க வடிவங்கள் தோன்றின. டிக்டாலிக்கின் (Tiktaalik) மார்புத் துடுப்பில் மணிக்கட்டு போன்ற உள்எலும்பு அமைப்பும் துடுப்புக் கதிர்களும் இருந்தன. அகாந்தோஸ்டீகாவுக்கு (Acanthostega) விரல்களுடன் கூடிய கால்கள் இருந்தன. அது நீர்வாழ்வுக்கான பல பண்புகளையும் கொண்டிருந்தது. இப்புதைபடிவங்கள் மாற்றத்தின் வெவ்வேறு பண்புகளைக் காட்டுகின்றன."
               }
             },
             {
               "key": "key-adaptations",
               "heading": {
                 "en": "Key functional changes",
-                "ta": "முக்கிய உடலியல் தகவமைப்புகள்"
+                "ta": "இயக்கத்திலும் சுவாசத்திலும் ஏற்பட்ட மாற்றங்கள்"
               },
               "body": {
-                "en": "Stronger pectoral and pelvic supports, weight-bearing limbs and changes in vertebrae enabled locomotion in shallow water and eventually on land. Air breathing existed in some fish ancestors before full terrestrial life. The transition was branching and gradual, with early tetrapods retaining several aquatic characters.",
-                "ta": "உடல் எடையைத் தாங்கக்கூடிய கால்கள், உறுதியான தோள்பட்டை மற்றும் இடுப்புப் பட்டைகள், முதுகெலும்புத் தொடரில் ஏற்பட்ட மாற்றங்கள் ஆகியவை ஆழமற்ற நீரிலும் பின்னர் நிலத்திலும் இயங்க உதவின. சில மீன் மூதாதைக் குழுக்களில் நிலவாழ்விற்கு முன்பே காற்றுச் சுவாசம் இருந்தது. இந்த பரிணாம மாற்றம் ஒரே நேர்கோட்டில் நடக்கவில்லை. தொடக்ககால நான்கு காலுடைய உயிரிகள் பல நீர்வாழ் பண்புகளையும் தொடர்ந்து கொண்டிருந்தன."
+                "en": "Changes in limbs, shoulder and pelvic girdles, and the vertebral column altered how the body was supported and moved. Many of these changes arose while the animals were still aquatic. Air breathing also existed in some fish lineages before fully terrestrial life. Early tetrapod forms retained aquatic traits alongside features later used on land.",
+                "ta": "கால்கள், தோள் மற்றும் இடுப்பு வளையங்கள், முதுகெலும்புத் தொடர் ஆகியவற்றில் ஏற்பட்ட மாற்றங்கள் உடலைத் தாங்கவும் நகர்த்தவும் உதவின. இம்மாற்றங்களில் பல, அந்த உயிரினங்கள் இன்னும் நீரில் வாழ்ந்தபோதே நிகழ்ந்தன. முழுமையான நிலவாழ்க்கைக்கு முன்பே சில மீன் மரபுக் கிளைகளில் காற்றுச் சுவாசம் இருந்தது. தொடக்க நான்குகால் முதுகெலும்பிகளின் உடலில் நீர்வாழ் பண்புகளும் பிற்கால நிலவாழ்வுக்கு உதவிய பண்புகளும் வெவ்வேறு சேர்க்கைகளில் காணப்பட்டன."
               }
             },
             {
               "key": "modern-amphibians",
               "heading": {
                 "en": "Origins of living amphibians",
-                "ta": "இன்றைய இருவாழ்விகளின் பரிணாம வரலாறு"
+                "ta": "இன்று வாழும் இருவாழ்விகளின் பொதுமூதாதை"
               },
               "body": {
-                "en": "Modern amphibians form a distinctive living radiation often grouped as Lissamphibia. Their precise relationship to extinct Palaeozoic tetrapod groups has been debated, and fossil and molecular evidence are evaluated together. Students should distinguish the origin of Tetrapoda from the later diversification of living amphibian orders.",
-                "ta": "இன்றைய இருவாழ்விகள் லிசாம்பிபியா என்ற பரிணாமக் குழுவில் பொதுவாக இணைக்கப்படுகின்றன. அழிந்துபோன பண்டைய நான்கு காலுடைய உயிரிகளுடன் இவற்றுக்குள்ள துல்லியமான உறவு குறித்து சில ஆய்வுக் கருத்து வேறுபாடுகள் உள்ளன. புதைபடிவ ஆதாரங்களையும் மூலக்கூறு ஆதாரங்களையும் இணைத்து மதிப்பிட வேண்டும். நான்கு காலுடைய உயிரிகளின் முதற்கால தோற்றத்தையும் இன்றைய இருவாழ்வி வரிசைகளின் பிந்தைய பிரிவுகளையும் மாணவர்கள் வேறுபடுத்திக் கொள்ள வேண்டும்."
+                "en": "Living amphibians, including frogs, salamanders and caecilians, form the clade Lissamphibia. The origin of the earliest tetrapod forms predates the common ancestry and diversification of this living clade. Fossils and molecular evidence help assess the extinct relatives of Lissamphibia and the timing of its diversification.",
+                "ta": "தவளைகள், சலமாண்டர்கள், சீசிலியன்கள் ஆகிய இன்று வாழும் இருவாழ்விகள் லிசாம்பிபியா (Lissamphibia) என்னும் ஒரே பரிணாமக் கிளையைச் சேர்ந்தவை. புதைபடிவங்களும் மூலக்கூறுச் சான்றுகளும் இக்குழுவின் தோற்றத்தை ஆராய உதவுகின்றன. தொடக்க நான்குகால் முதுகெலும்பிகளின் தோற்றம் இதைவிடப் பழமையான நிகழ்வு. அழிந்துபோன எந்த மரபுக் கிளையுடன் லிசாம்பிபியா மிக நெருக்கமாகத் தொடர்புடையது என்பதையும் கிளைகள் பிரிந்த காலத்தையும் ஆய்வாளர்கள் தொடர்ந்து ஆராய்கின்றனர்."
               }
             }
           ],
@@ -2378,7 +2378,7 @@
             {
               "question": {
                 "en": "Early tetrapods evolved within which fish lineage?",
-                "ta": "தொடக்ககால நான்கு காலுடைய உயிரிகள் எந்த மீன் பரிணாமக் கிளையில் தோன்றின?"
+                "ta": "தொடக்க நான்குகால் முதுகெலும்பிகள் எந்தப் பரிணாமக் கிளையில் தோன்றின?"
               },
               "options": [
                 {
@@ -2395,13 +2395,13 @@
                 },
                 {
                   "en": "Lobe-finned fishes",
-                  "ta": "சதைப்பற்றுத் துடுப்பு மீன்கள்"
+                  "ta": "மடல்துடுப்பு மீன்கள்"
                 }
               ],
               "correctIndex": 3,
               "explanation": {
                 "en": "Sarcopterygian fishes include the lineage from which tetrapods evolved.",
-                "ta": "சதைப்பற்றுத் துடுப்புடைய மீன்களின் பரிணாமக் கிளையிலிருந்தே நான்கு காலுடைய உயிரிகள் தோன்றின."
+                "ta": "நான்குகால் முதுகெலும்பிகள் மடல்துடுப்பு மீன்களின் (Sarcopterygii) ஒரு பரிணாமக் கிளையில் தோன்றின."
               }
             },
             {
@@ -2415,8 +2415,8 @@
                   "ta": "இது இன்றைய தவளை"
                 },
                 {
-                  "en": "It shows early tetrapod features",
-                  "ta": "தொடக்க நான்குகால் பண்புகளைக் காட்டுகிறது"
+                  "en": "It shows early limbs with digits alongside aquatic features",
+                  "ta": "நீர்வாழ் பண்புகளுடன் விரல்களைக் கொண்ட தொடக்கக் கால்களைக் காட்டுகிறது"
                 },
                 {
                   "en": "It was a bird",
@@ -2430,18 +2430,18 @@
               "correctIndex": 1,
               "explanation": {
                 "en": "Its skeleton documents early limb-bearing tetrapods with aquatic adaptations.",
-                "ta": "நீர்வாழ் தகவமைப்புகளுடன் கால்களைக் கொண்ட தொடக்க உயிரிகளை இதன் எலும்புக்கூடு காட்டுகிறது."
+                "ta": "அகாந்தோஸ்டீகாவின் எலும்புக்கூட்டில் விரல்கள் கொண்ட கால்களும் நீர்வாழ்க்கைக்கு ஏற்ற பண்புகளும் காணப்படுகின்றன."
               }
             },
             {
               "question": {
-                "en": "Which distinction is scientifically necessary?",
-                "ta": "அறிவியல் ரீதியாக எவ்வேறுபாடு அவசியம்?"
+                "en": "Which two events should be distinguished when studying amphibian evolution?",
+                "ta": "இருவாழ்விகளின் பரிணாமத்தைப் படிக்கும்போது எவ்விரு நிகழ்வுகளை வேறுபடுத்த வேண்டும்?"
               },
               "options": [
                 {
                   "en": "Tetrapod origin differs from modern amphibian radiation",
-                  "ta": "நான்குகால் தோற்றமும் இன்றைய இருவாழ்வி பிரிவுகளும் வேறு"
+                  "ta": "தொடக்க நான்குகால் முதுகெலும்பிகளின் தோற்றமும் இன்று வாழும் இருவாழ்விக் கிளைகள் பிரிந்ததும்"
                 },
                 {
                   "en": "Modern frogs evolved from modern fish",
@@ -2459,7 +2459,7 @@
               "correctIndex": 0,
               "explanation": {
                 "en": "The early tetrapod origin predates diversification of living amphibian groups.",
-                "ta": "நான்கு காலுடைய உயிரிகளின் தோற்றம் இன்றைய இருவாழ்விக் குழுக்களின் பிரிவை விடப் பழமையானது."
+                "ta": "இன்று வாழும் இருவாழ்விக் கிளைகள் பிரிவதற்கு முன்பே தொடக்க நான்குகால் முதுகெலும்பிகள் தோன்றியிருந்தன."
               }
             }
           ],

@@ -7,7 +7,7 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PACK = ROOT / 'app/src/main/assets/chordata_content.json'
-EXPECTED_SHA = 'e66ee8200d1754967b52d59f049d16d0387b41901eafddca7832f2574fe9a3ae'
+EXPECTED_SHA = '7ecf0e493cf35344534e71a99c8ce97eea0ba0e21c7340d9728799297b22ba77'
 raw = PACK.read_bytes()
 assert hashlib.sha256(raw).hexdigest() == EXPECTED_SHA, 'Input course pack changed without review'
 data = json.loads(raw)
