@@ -45,14 +45,14 @@ jobs:
           assert original.count('assert len(owner_approved) == 65,') == 1
           assert original.count('assert len(canonical_approved) == 62 and') == 1
           revised += '''
-# Corrected Aves aerofoil receives no inherited image-hash approval.
-aerofoil = next(x for x in fs
-    if x['diagramId'] == 'u5-flight-adaptations-wing-aerodynamics' and x['lang'] == 'en')
-assert aerofoil['visualReview'] == 'SOURCE_LABEL_ERROR_CORRECTED_PENDING_INDEPENDENT_QA'
-assert not aerofoil.get('ownerQaDisplayDecision')
-assert not aerofoil.get('ownerQaAcceptedSha256')
-assert aerofoil['reviewStatus'].startswith('PROVISIONAL_')
-'''
+          # Corrected Aves aerofoil receives no inherited image-hash approval.
+          aerofoil = next(x for x in fs
+              if x['diagramId'] == 'u5-flight-adaptations-wing-aerodynamics' and x['lang'] == 'en')
+          assert aerofoil['visualReview'] == 'SOURCE_LABEL_ERROR_CORRECTED_PENDING_INDEPENDENT_QA'
+          assert not aerofoil.get('ownerQaDisplayDecision')
+          assert not aerofoil.get('ownerQaAcceptedSha256')
+          assert aerofoil['reviewStatus'].startswith('PROVISIONAL_')
+          '''
           path.write_text(revised, encoding='utf-8')
           # Keep the dated inspection report as an audit trail.
           report = Path('docs/UNIT_V_AVES_FIGURE_VISUAL_AUDIT_20261120.md')
@@ -61,20 +61,20 @@ assert aerofoil['reviewStatus'].startswith('PROVISIONAL_')
           with report.open('a', encoding='utf-8') as out:
               out.write('''
 
-## 20 November 2026 — figure 49 technical correction
+          ## 20 November 2026 — figure 49 technical correction
 
-The active source SVG and rendered PNG were changed together to label
-`Lift (perpendicular to airflow)`, with the subtitle explicitly indicating
-that drag is omitted. The previous inaccurate phrase
-`Lift (net aerodynamic force)` has been removed from the new artwork.
-The resulting SVG and PNG SHA-256 checksums are recorded in the figure
-manifest and in the newly regenerated 64-figure register.
+          The active source SVG and rendered PNG were changed together to label
+          `Lift (perpendicular to airflow)`, with the subtitle explicitly indicating
+          that drag is omitted. The previous inaccurate phrase
+          `Lift (net aerodynamic force)` has been removed from the new artwork.
+          The resulting SVG and PNG SHA-256 checksums are recorded in the figure
+          manifest and in the newly regenerated 64-figure register.
 
-The old owner's SHA-bound provisional display decision was **not carried
-to the revised PNG**. The figure remains provisional and still requires
-independent Zoology/Tamil sign-off, owner authorisation for changed artwork,
-rights clarification, and device-level legibility checking.
-''')
+          The old owner's SHA-bound provisional display decision was **not carried
+          to the revised PNG**. The figure remains provisional and still requires
+          independent Zoology/Tamil sign-off, owner authorisation for changed artwork,
+          rights clarification, and device-level legibility checking.
+          ''')
           PY
           python scripts/write_figure_review_register.py
       - name: Validate affected figure, registered hashes and editorial provenance
