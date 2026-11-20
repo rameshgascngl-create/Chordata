@@ -1,4 +1,4 @@
-# CHORDATA ATLAS — Google Play listing copy (publisher review draft)
+# CHORDATA ATLAS — English and Tamil Google Play listing (publisher review draft, 20 Nov 2026)
 
 ## Identity
 - App name: **Chordata Atlas**
@@ -12,19 +12,19 @@
 **App title (≤30 characters):** Chordata Atlas
 
 **Short description (≤80 characters):**
-Offline Zoology lessons in English and Tamil, with figures and quizzes.
+Offline Chordata textbook in Tamil and English, with figures and practice.
 
 **Full description:**
 
 Explore the diversity, structure and evolution of chordate animals in an offline, bilingual Zoology fieldbook.
 
-Chordata Atlas is organised into five undergraduate learning units covering chordate characteristics, fishes, amphibians, reptiles, birds and mammals. Study 39 organised topics through concise English and Tamil explanations, labelled teaching figures, chapter-by-chapter reading and 117 practice questions.
+Chordata Atlas is organised into five undergraduate learning units covering chordate characteristics, fishes, amphibians, reptiles, birds and mammals. Study 39 undergraduate topics through 298 expanded bilingual textbook sections, labelled teaching figures, chapter-by-chapter reading and 117 practice questions.
 
 Features:
 - Native Android reading experience with page-by-page or continuous chapter reading
-- English and Tamil course explanations and adjustable text size
+- English and Tamil textbook chapters, pointwise lesson passages and adjustable text size
 - Offline scientific illustrations with tap-to-zoom controls
-- Four-option practice questions with explanatory feedback
+- Four-option practice questions, direct study answers and explanatory feedback
 - Bookmarks, lesson completion and learning progress stored on your device
 - Local JSON export, restore and erase controls for learning progress
 - No account or network connection required
@@ -36,20 +36,30 @@ Created for academic learning by the Department of Zoology, Government Arts & Sc
 ## தமிழ் — உள்ளூர்மயமாக்கப்பட்ட பட்டியல் வரைவு
 **செயலியின் பெயர்:** Chordata Atlas
 
-**சுருக்கமான விளக்கம்:**
-இணையமின்றி ஆங்கிலம், தமிழில் முதுகுநாணிகள் பாடங்கள், படங்கள், வினாக்கள்.
+**சுருக்கமான விளக்கம் (80 எழுத்துகளுக்குள்):**
+தமிழிலும் ஆங்கிலத்திலும் முதுகுநாணிகள் பாடங்கள், படங்கள், வினாக்கள்.
 
 **விரிவான விளக்கம்:**
 
-முதுகுநாணிகள் விலங்குகளின் பன்முகத்தன்மை, உடலமைப்பு, பரிணாமம் ஆகியவற்றைக் கற்றறிய உதவும் இருமொழி விலங்கியல் கற்றல் செயலி.
+முதுகுநாணிகளைப் பற்றிய விலங்கியல் பாடங்களைப் புரிந்து கொண்டு படிக்க உதவும் இருமொழிக் கற்றல் செயலி **Chordata Atlas**.
 
-முதுகுநாணிகளின் பொதுப் பண்புகள், மீன்கள், இருவாழ்விகள், ஊர்வன, பறவைகள், பாலூட்டிகள் ஆகியவற்றை உள்ளடக்கிய ஐந்து அலகுகள், 39 பாடத் தலைப்புகள், 117 பயிற்சி வினாக்கள் இதில் உள்ளன.
+மீன்கள், இருவாழ்விகள், ஊர்வன, பறவைகள், பாலூட்டிகள் ஆகியவற்றின் உடலமைப்பு, வாழ்க்கை முறைகள், வகைப்பாடு, பரிணாம உறவுகள் போன்றவற்றைத் தெளிவான பாடங்களாகப் படிக்கலாம். மொத்தம் ஐந்து அலகுகளில் 39 பாடத் தலைப்புகளும், விரிவாக அமைக்கப்பட்ட 298 பாடப் பகுதிகளும் உள்ளன.
 
-பாடங்களைப் பக்கங்களாகவோ தொடர்ச்சியாகவோ வாசிக்கலாம். அறிவியல் விளக்கப்படங்களைப் பெரிதாக்கிப் பார்க்கலாம். எழுத்தளவை மாற்றிக் கொள்ளலாம். படித்த பாடங்கள், சேமித்த பாடங்கள், வினா மதிப்பெண்கள் போன்றவை சாதனத்திலேயே சேமிக்கப்படும்.
+**கற்றலுக்கு உதவும் வசதிகள்**
 
-இணைய இணைப்போ பயனர் கணக்கோ தேவையில்லை. கற்றல் முன்னேற்றத்தை JSON கோப்பாகச் சேமிக்கவும் மீட்டெடுக்கவும் அழிக்கவும் வசதி உள்ளது.
+- பாடங்களை நூல் வடிவில் பக்கம் பக்கமாகவோ தொடர்ச்சியாகவோ வாசிக்கலாம்.
+- தமிழிலும் ஆங்கிலத்திலும் படிக்கலாம்; எழுத்தளவைத் தேவைக்கேற்ப மாற்றிக் கொள்ளலாம்.
+- முக்கியக் கருத்துகள் எளிதில் நினைவில் நிற்கும் வகையில் குறிப்புகளாகத் தரப்பட்டுள்ளன.
+- 64 பாட விளக்கப்படங்களுக்கான இடங்கள் உள்ளன; படங்களைப் பெரிதாக்கிப் பார்க்கலாம்.
+- 117 பயிற்சி வினாக்கள், சரியான விடைகள், விளக்கங்கள் ஆகியவற்றைப் பயன்படுத்தித் தானாகப் பயிற்சி செய்யலாம்.
+- படித்த பாடங்கள், சேமித்த பக்கங்கள், வினா மதிப்பெண்கள் ஆகியவை உங்கள் சாதனத்திலேயே சேமிக்கப்படும்.
+- கற்றல் முன்னேற்றத்தை விருப்பப்படி JSON கோப்பாக ஏற்றுமதி செய்யவும், மீண்டும் இறக்குமதி செய்யவும், அழிக்கவும் முடியும்.
 
-தயாரிப்பு: விலங்கியல் துறை, அரசு கலை மற்றும் அறிவியல் கல்லூரி, நாகர்கோவில்.
+**இணைய இணைப்போ, பயனர் கணக்கோ தேவையில்லை.** பாடங்களும் படங்களும் செயலிக்குள்ளேயே உள்ளன. கற்றல் முன்னேற்றத்தை வெளியே சேமிக்கும் JSON கோப்பு மறையாக்கம் செய்யப்படாதது என்பதால், அதைப் பாதுகாப்பாக வைத்திருக்க வேண்டும்.
+
+இச்செயலி இளங்கலை விலங்கியல் கற்பித்தலுக்கும் சுயக் கற்றலுக்கும் உருவாக்கப்பட்டது. விளக்கப்படங்கள் பாடக் கருத்தைப் புரிந்து கொள்ள உதவும்; உயிரின மாதிரிகள் மற்றும் துல்லியமான உடற்கூறு ஆதாரங்களை ஆய்வு செய்வதற்கு மாற்றாகாது.
+
+விலங்கியல் துறை, அரசு கலை மற்றும் அறிவியல் கல்லூரி, நாகர்கோவில்.
 
 ## Play Console declaration worksheet — review, never submit automatically
 
