@@ -104,6 +104,10 @@ assert 'python3 scripts/write_figure_review_register.py --check' in workflow
 assert 'python3 scripts/test_review_signoff_guards.py' in workflow
 assert 'app/src/main/assets/pencil_plates/' in workflow
 assert workflow.count('bash scripts/verify_sdk37_platform.sh') == 3, 'SDK37 compatibility gate missing from compile, emulator or gated publication'
+assert workflow.count('cache-read-only:') == 3, 'QA branch dependency caching missing from Android jobs'
+assert workflow.count('bash scripts/gradle_ci_retry.sh :app:compileDebugKotlin') == 2, 'Bounded dependency retries missing from compile jobs'
+assert 'bash scripts/gradle_ci_retry.sh :app:bundleRelease :app:lintRelease' in workflow, 'Release preflight dependency retry missing'
+assert 'python3 scripts/test_gradle_ci_retry.py' in workflow and 'scripts/test_gradle_ci_retry.py' in qa_script, 'Dependency retry self-test not wired into QA'
 assert 'python3 scripts/test_sdk37_platform.py' in workflow
 assert 'python3 "$ROOT/scripts/test_sdk37_platform.py"' in qa_script
 assert 'context.assets.open(path)' in test_text, 'Instrumented tests must decode exact manifest path'
