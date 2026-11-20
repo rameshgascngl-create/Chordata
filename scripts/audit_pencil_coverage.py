@@ -223,7 +223,7 @@ print('HOLD: no scientific approval and no device/emulator acceptance evidenced'
 # Corrected Aves aerofoil receives no inherited image-hash approval.
 aerofoil = next(x for x in fs
     if x['diagramId'] == 'u5-flight-adaptations-wing-aerodynamics' and x['lang'] == 'en')
-assert aerofoil['visualReview'] == 'SOURCE_LABEL_ERROR_CORRECTED_PENDING_INDEPENDENT_QA'
+assert aerofoil['visualReview'] == 'SCIENTIFIC_LABEL_CORRECTED_LEGIBLE_QA_INDEPENDENT_REVIEW_PENDING'
 assert not aerofoil.get('ownerQaDisplayDecision')
 assert not aerofoil.get('ownerQaAcceptedSha256')
 assert aerofoil['reviewStatus'].startswith('PROVISIONAL_')
