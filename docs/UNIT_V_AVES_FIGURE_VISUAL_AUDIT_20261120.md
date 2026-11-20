@@ -30,3 +30,18 @@ All nine original Aves PNG files were opened and viewed. Their independently cal
 - Existing images, registered lesson references, file names and 64-slot manifest have been preserved deliberately. Figure 49 is a verified scientific correction requirement, not a reason to discard all other illustrations.
 - The expanded classification chapter cites Stiller et al. (2024), *Nature* 629:851–860, DOI `10.1038/s41586-024-07323-1`. The existing two-way tree remains valid as a **simplification only**, not the complete 2024 topology.
 - Next dedicated correction work should update figure 49 and all linked binary hashes atomically and then rerun image, source-integrity, Android instrumentation and release preflight checks. Do not approve the corrected plate without visually examining the replacement.
+
+
+## 20 November 2026 — figure 49 technical correction
+
+The active source SVG and rendered PNG were changed together to label
+`Lift (perpendicular to airflow)`, with the subtitle explicitly indicating
+that drag is omitted. The previous inaccurate phrase
+`Lift (net aerodynamic force)` has been removed from the new artwork.
+The resulting SVG and PNG SHA-256 checksums are recorded in the figure
+manifest and in the newly regenerated 64-figure register.
+
+The old owner's SHA-bound provisional display decision was **not carried
+to the revised PNG**. The figure remains provisional and still requires
+independent Zoology/Tamil sign-off, owner authorisation for changed artwork,
+rights clarification, and device-level legibility checking.

@@ -39,19 +39,19 @@ for x in fs:
 # amphibian parental-care plates have no inherited approval.
 owner_approved = [x for x in fs if
     x.get('ownerQaDisplayDecision') == 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13']
-assert len(owner_approved) == 65, ('unexpected owner-accepted variants', len(owner_approved))
+assert len(owner_approved) == 64, ('unexpected owner-accepted variants', len(owner_approved))
 assert all(x.get('ownerQaAcceptedSha256') == x['sha256'] and
     not x.get('scientificRiskHold') for x in owner_approved), (
     'owner permission must not approve altered or medically/anatomically held PNG')
 canonical_approved = [x for x in owner_approved if x['lang'] in ('en', 'shared')]
-assert len(canonical_approved) == 62 and len({x['diagramId'] for x in canonical_approved}) == 62
+assert len(canonical_approved) == 61 and len({x['diagramId'] for x in canonical_approved}) == 61
 assert not {'u4-calotes-arterial-system', 'u3-parental-care-parental-care-comparison'} & {x['diagramId'] for x in canonical_approved}
 for x in fs:
     if x.get('scientificRiskHold'):
         assert x.get('ownerQaDisplayDecision') != 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13'
 assert next(x for x in fs if x['diagramId'] == 'u5-rabbit-endoskeleton'
             and x['lang'] == 'ta')['scientificRiskHold'] == 'MATERIAL_ANATOMY_ERROR'
-print('PASS: 62 retained canonical owner approvals remain bound to their exact PNG hashes')
+print('PASS: 61 retained canonical owner approvals; corrected aerofoil needs renewed owner approval')
 
 byid=collections.defaultdict(set)
 for id,lang in keys:byid[id].add(lang)
@@ -219,3 +219,11 @@ print(f'PASS: {len(byid)}/64 distinct lesson slots populated with registered pro
 print(f'PASS: {len(fs)} manifest variants; all source files, 1200px sizes, SHA-256, and page/section links validated')
 print('PASS: English diagram labels are used in both English and Tamil reading modes')
 print('HOLD: no scientific approval and no device/emulator acceptance evidenced')
+
+# Corrected Aves aerofoil receives no inherited image-hash approval.
+aerofoil = next(x for x in fs
+    if x['diagramId'] == 'u5-flight-adaptations-wing-aerodynamics' and x['lang'] == 'en')
+assert aerofoil['visualReview'] == 'SOURCE_LABEL_ERROR_CORRECTED_PENDING_INDEPENDENT_QA'
+assert not aerofoil.get('ownerQaDisplayDecision')
+assert not aerofoil.get('ownerQaAcceptedSha256')
+assert aerofoil['reviewStatus'].startswith('PROVISIONAL_')
