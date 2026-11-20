@@ -148,6 +148,23 @@ renal_tamil = {s["key"]: s for s in by_topic["u5-rabbit"]["sections"]}["kidneys-
 for word in ("சிறுநீர்க்குழல் (ureter)", "சிறுநீர்த்தாரை (urethra)", "சிறுநீரக இடுப்புக்குழி (renal pelvis)", "நெஃப்ரானின் சிறுநீரக நுண்குழாய்"):
     assert word in renal_tamil, ("Ureter/urethra or renal tubule translation regression", word)
 
+# Neuroendocrine and renal hormone source-parity guards: no duplicate chapters.
+rabbit_qa = {s["key"]: s for s in by_topic["u5-rabbit"]["sections"]}
+renal = rabbit_qa["kidneys-nephrons-and-urine"]["body"]
+brain = rabbit_qa["brain-cerebral-cortex-and-reflexes"]["body"]
+repro = rabbit_qa["duplex-uterus-induced-ovulation-and-placenta"]["body"]
+for en_terms, ta_terms, pair in (
+    (("calcium carbonate", "vasopressin", "aldosterone", "collecting ducts"),
+     ("கால்சியம் கார்பனேட்", "வாசோபிரெசின்", "ஆல்டோஸ்டிரோன்", "சேகரிப்புக் குழாய்களில்"), renal),
+    (("hypothalamus", "pituitary", "GnRH", "LH"),
+     ("ஹைப்போதாலமஸ்", "பிட்யூட்டரி", "GnRH", "LH"), brain),
+    (("GnRH", "LH", "10–12 hours", "not a universal fixed time"),
+     ("GnRH", "LH", "10–12 மணி", "மாறாத நேரம்"), repro),
+):
+    assert all(s in pair["en"] for s in en_terms), ("Rabbit English endocrine mechanism gap", en_terms)
+    assert all(s in pair["ta"] for s in ta_terms), ("Rabbit Tamil endocrine mechanism gap", ta_terms)
+print("PASS: rabbit neuroendocrine ovulation, renal water and calcium physiology EN/TA")
+
 assert len(by_topic["u5-rabbit"]["sections"]) == 17
 assert len(by_topic["u5-aquatic-mammals"]["sections"]) == 9
 assert len(keys) >= 319, f"Expected >=319 full bilingual textbook sections, found {len(keys)}"
