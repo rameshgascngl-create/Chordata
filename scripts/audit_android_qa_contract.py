@@ -130,9 +130,11 @@ assert 'scripts/audit_store_preflight.py' in workflow
 assert ':app:bundleRelease :app:lintRelease' in workflow
 assert '<html lang="en">' in (ROOT / 'docs/privacy-policy.html').read_text(encoding='utf-8')
 # Full lesson and quiz explanations are presented as numbered points in both reading modes.
-assert app_ui.count('PointwiseAnswer(section.body, lang, scale)') == 3
+assert app_ui.count('PointwiseAnswer(section.body, lang, scale, justify = true)') == 3
 assert 'PointwiseAnswer(question.explanation, lang, scale, base = 14f)' in app_ui
-assert 'textAlign = TextAlign.Start' in app_ui, 'Keep explanatory lists start-aligned'
+assert 'scale * LocalDensity.current.fontScale' in app_ui
+assert 'justify && readingScale < 1.5f) TextAlign.Justify else TextAlign.Start' in app_ui, (
+    'Justify reader answers at standard sizes without stretching enlarged or quiz text')
 assert 'reader-next' in app_ui and 'reader-previous' in app_ui, 'Full-width reader navigation tags absent'
 assert 'fun tamilPagerRemainsWideAt200Percent()' in test_text, 'Tamil 200% pager regression test missing'
 assert 'if (currentTopic == null) {' in app_ui and 'app-bottom-navigation' in app_ui, (

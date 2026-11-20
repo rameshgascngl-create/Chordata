@@ -25,6 +25,7 @@ import androidx.activity.compose.BackHandler
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalDensity
 import java.io.ByteArrayOutputStream
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -274,14 +275,15 @@ fun ChordataApp(pack: ContentPack, progress: ProgressStore) {
 
 @Composable
 private fun ReadingText(value: String, lang: ReadingLanguage, scale: Float,
-    modifier: Modifier = Modifier, base: Float = 16f, bold: Boolean = false) {
+    modifier: Modifier = Modifier, base: Float = 16f, bold: Boolean = false,
+    textAlign: TextAlign = TextAlign.Start) {
     Text(
         value,
         modifier = modifier,
         fontSize = (base * scale).sp,
         lineHeight = (base * scale * if (lang == ReadingLanguage.TA) 1.52f else 1.46f).sp,
         fontWeight = if (bold) FontWeight.SemiBold else FontWeight.Normal,
-        textAlign = TextAlign.Start
+        textAlign = textAlign
     )
 }
 
@@ -504,7 +506,10 @@ private fun ListingPage(pack: ContentPack, tab: String, query: String, onQuery: 
 
 @Composable
 private fun NumberedPoints(points: List<String>, lang: ReadingLanguage, scale: Float,
-    modifier: Modifier = Modifier, base: Float = 16f) {
+    modifier: Modifier = Modifier, base: Float = 16f, justify: Boolean = false) {
+    // Short lines at enlarged reading sizes develop excessive word spacing when justified.
+    val readingScale = scale * LocalDensity.current.fontScale
+    val alignment = if (justify && readingScale < 1.5f) TextAlign.Justify else TextAlign.Start
     Column(modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         points.forEachIndexed { index, point ->
             Row(
@@ -518,7 +523,7 @@ private fun NumberedPoints(points: List<String>, lang: ReadingLanguage, scale: F
                 Text("${index + 1}.", color = teal, fontWeight = FontWeight.Bold,
                     fontSize = (base * scale).sp)
                 ReadingText(point, lang, scale,
-                    modifier = Modifier.weight(1f), base = base)
+                    modifier = Modifier.weight(1f), base = base, textAlign = alignment)
             }
         }
     }
@@ -526,10 +531,10 @@ private fun NumberedPoints(points: List<String>, lang: ReadingLanguage, scale: F
 
 @Composable
 private fun PointwiseAnswer(value: Bilingual, lang: ReadingLanguage, scale: Float,
-    base: Float = 16f) {
+    base: Float = 16f, justify: Boolean = false) {
     val text = if (lang == ReadingLanguage.TA) value.ta else value.en
     val points = remember(text) { LearningLogic.answerPoints(text) }
-    NumberedPoints(points, lang, scale, Modifier.testTag("answer-points"), base)
+    NumberedPoints(points, lang, scale, Modifier.testTag("answer-points"), base, justify = justify)
 }
 
 @Composable
@@ -556,7 +561,7 @@ private fun TextbookExpansionCard(section: LessonSection, lang: ReadingLanguage,
         Column(Modifier.fillMaxWidth().padding(14.dp),
             verticalArrangement = Arrangement.spacedBy(9.dp)) {
             BilingualText(section.heading, lang, scale, base = 18f, bold = true)
-            PointwiseAnswer(section.body, lang, scale)
+            PointwiseAnswer(section.body, lang, scale, justify = true)
         }
     }
 }
@@ -615,7 +620,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                 fontSize = 11.sp, color = teal, fontWeight = FontWeight.Bold)
                             BilingualText(section.heading, lang, scale,
                                 base = 18f, bold = true)
-                            PointwiseAnswer(section.body, lang, scale)
+                            PointwiseAnswer(section.body, lang, scale, justify = true)
                             PointwiseExplanation(section.keyPoints, lang, scale)
                         }
                     }
@@ -716,7 +721,7 @@ private fun TopicReader(topic: LessonTopic, pack: ContentPack, lang: ReadingLang
                                             "first-section-heading"
                                         else "packed-section-heading-${sectionIndex}"))
                                 }
-                                PointwiseAnswer(section.body, lang, scale)
+                                PointwiseAnswer(section.body, lang, scale, justify = true)
                                 PointwiseExplanation(section.keyPoints, lang, scale)
                             }
                         }
