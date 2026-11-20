@@ -128,6 +128,21 @@ for key, must_contain in {
     assert len(monotreme_bilingual[key]["body"]["en"]) >= 800
     assert len(tamil) >= 700
 
+# Scientific concept parity: marsupial placentation and species-specific bat sonar.
+# Guard biological claims rather than translation character-length ratios.
+marsupial_birth = {s["key"]: s for s in by_topic["u5-marsupials"]["sections"]}["short-gestation"]
+bat_sonar = {s["key"]: s for s in by_topic["u5-flying-mammals"]["sections"]}["echolocation"]
+bat_flight = {s["key"]: s for s in by_topic["u5-flying-mammals"]["sections"]}["flight-physiology"]
+for text, words in (
+    (marsupial_birth["body"]["en"], ("choriovitelline", "bandicoots", "chorioallantoic")),
+    (marsupial_birth["body"]["ta"], ("கோரியோவிட்டெல்லைன்", "பாண்டிகூட்களில்", "கோரியோஅல்லான்டாயிக்")),
+    (bat_sonar["body"]["en"], ("larynx", "Rousettus aegyptiacus", "tongue-click")),
+    (bat_sonar["body"]["ta"], ("குரல்வளையில்", "Rousettus aegyptiacus", "நாக்கால்")),
+    (bat_flight["body"]["ta"], ("daily torpor", "hibernation", "கருவுற்ற")),
+):
+    assert all(word in text for word in words), ("Mammalia bilingual mechanism missing", words)
+print("PASS: marsupial placenta and bat sonar/torpor scientifically equivalent in EN/TA")
+
 assert len(by_topic["u5-rabbit"]["sections"]) == 17
 assert len(by_topic["u5-aquatic-mammals"]["sections"]) == 9
 assert len(keys) >= 319, f"Expected >=319 full bilingual textbook sections, found {len(keys)}"
