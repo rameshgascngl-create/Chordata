@@ -1,0 +1,124 @@
+name: Repair figure 49 lift label and revoke stale image approval
+on:
+  push:
+    branches:
+      - qa/chordata-textbook-unit2-continuation-20261113
+    paths:
+      - .github/workflows/repair-figure49-lift.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+jobs:
+  repair-figure49:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    if: github.ref == 'refs/heads/qa/chordata-textbook-unit2-continuation-20261113'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image renderer for deterministic source-edit
+        run: |
+          python -m pip install 'Pillow==11.3.0' 'CairoSVG==2.8.2'
+      - name: Correct original source SVG and render revised registered PNG
+        run: |
+          set -euo pipefail
+          python scripts/correct_figure49_lift.py
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('scripts/audit_pencil_coverage.py')
+          original = path.read_text(encoding='utf-8')
+          revised = original.replace(
+              "assert len(owner_approved) == 65,",
+              "assert len(owner_approved) == 64,")
+          revised = revised.replace(
+              "assert len(canonical_approved) == 62 and len({x['diagramId'] for x in canonical_approved}) == 62",
+              "assert len(canonical_approved) == 61 and len({x['diagramId'] for x in canonical_approved}) == 61")
+          revised = revised.replace(
+              "PASS: 62 retained canonical owner approvals remain bound to their exact PNG hashes",
+              "PASS: 61 retained canonical owner approvals; corrected aerofoil needs renewed owner approval")
+          assert revised != original
+          assert original.count('assert len(owner_approved) == 65,') == 1
+          assert original.count('assert len(canonical_approved) == 62 and') == 1
+          revised += '''
+# Corrected Aves aerofoil receives no inherited image-hash approval.
+aerofoil = next(x for x in fs
+    if x['diagramId'] == 'u5-flight-adaptations-wing-aerodynamics' and x['lang'] == 'en')
+assert aerofoil['visualReview'] == 'SOURCE_LABEL_ERROR_CORRECTED_PENDING_INDEPENDENT_QA'
+assert not aerofoil.get('ownerQaDisplayDecision')
+assert not aerofoil.get('ownerQaAcceptedSha256')
+assert aerofoil['reviewStatus'].startswith('PROVISIONAL_')
+'''
+          path.write_text(revised, encoding='utf-8')
+          # Keep the dated inspection report as an audit trail.
+          report = Path('docs/UNIT_V_AVES_FIGURE_VISUAL_AUDIT_20261120.md')
+          old = report.read_text(encoding='utf-8')
+          assert 'CORRECTION REQUIRED' in old
+          with report.open('a', encoding='utf-8') as out:
+              out.write('''
+
+## 20 November 2026 — figure 49 technical correction
+
+The active source SVG and rendered PNG were changed together to label
+`Lift (perpendicular to airflow)`, with the subtitle explicitly indicating
+that drag is omitted. The previous inaccurate phrase
+`Lift (net aerodynamic force)` has been removed from the new artwork.
+The resulting SVG and PNG SHA-256 checksums are recorded in the figure
+manifest and in the newly regenerated 64-figure register.
+
+The old owner's SHA-bound provisional display decision was **not carried
+to the revised PNG**. The figure remains provisional and still requires
+independent Zoology/Tamil sign-off, owner authorisation for changed artwork,
+rights clarification, and device-level legibility checking.
+''')
+          PY
+          python scripts/write_figure_review_register.py
+      - name: Validate affected figure, registered hashes and editorial provenance
+        run: |
+          set -euo pipefail
+          python scripts/audit_pencil_coverage.py
+          python scripts/audit_figure_placement.py
+          python scripts/write_figure_review_register.py --check
+          python scripts/test_review_signoff_guards.py
+          python scripts/audit_textbook_chapters.py
+          python scripts/audit_android_qa_contract.py
+          python scripts/check_textbook_plates.py
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          source=Path('docs/original_plate_svg/avian_aerofoil_en.svg')
+          png=Path('app/src/main/assets/pencil_plates/avian_aerofoil_en.png')
+          data=json.loads(Path('app/src/main/assets/pencil_plates/manifest.json').read_text())
+          v=next(x for x in data['figures'] if x['diagramId']=='u5-flight-adaptations-wing-aerodynamics' and x['lang']=='en')
+          assert 'Lift (perpendicular to airflow)' in source.read_text()
+          assert 'Lift (net aerodynamic force)' not in source.read_text()
+          assert hashlib.sha256(png.read_bytes()).hexdigest()==v['sha256']
+          assert hashlib.sha256(source.read_bytes()).hexdigest()==v['svgSha256']
+          assert not v.get('ownerQaAcceptedSha256'), 'Invalid inherited approval'
+          print('PASS: figure 49 scientific text, source/PNG hashes and review-state invalidation')
+          PY
+      - name: Commit corrected figure, changed hashes and review records
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/original_plate_svg/avian_aerofoil_en.svg \
+            app/src/main/assets/pencil_plates/avian_aerofoil_en.png \
+            app/src/main/assets/pencil_plates/manifest.json \
+            scripts/audit_pencil_coverage.py \
+            docs/FIGURE_REVIEW_REGISTER_64.csv \
+            docs/UNIT_V_AVES_FIGURE_VISUAL_AUDIT_20261120.md
+          test -n "$(git diff --cached --name-only)"
+          git commit -m 'figure(Aves): correct lift vector label and invalidate original PNG approval'
+          git push origin "HEAD:refs/heads/qa/chordata-textbook-unit2-continuation-20261113"
+          echo "Committed corrected figure at $(git rev-parse HEAD)"
+      - name: Trigger exact-new-commit full Android QA
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run android-qa.yml --ref qa/chordata-textbook-unit2-continuation-20261113
