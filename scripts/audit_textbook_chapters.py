@@ -120,7 +120,7 @@ for topic_id, section_key in new_mammal_sections.items():
 monotreme_bilingual = {s["key"]: s for s in by_topic["u5-egg-laying-mammals"]["sections"]}
 for key, must_contain in {
     "monotremata-overview": ("cloaca", "இனப்பெருக்கப் பாதை"),
-    "platypus-anatomy": ("இளம் பிளாட்டிபஸ்", "அரைப்புத் தகடுகள்", "மின்உணர்வு"),
+    "platypus-anatomy": ("இளம் பிளாட்டிபஸில்", "அரைப்புத் தகடுகள்", "மின்உணர்வு"),
     "lactation-and-care": ("புலனுணர்வு", "பிறப்புக்குப் பின்னர்", "நஞ்சுக்கொடி"),
 }.items():
     tamil = monotreme_bilingual[key]["body"]["ta"]
