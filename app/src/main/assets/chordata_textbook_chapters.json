@@ -3441,6 +3441,17 @@
           }
         },
         {
+          "key": "respiration-vocalisation",
+          "heading": {
+            "en": "Parabronchial respiration, air sacs and the syrinx",
+            "ta": "பராப்ராங்கியல் சுவாசம், காற்றுப் பைகள் மற்றும் சிரிங்க்ஸ்"
+          },
+          "body": {
+            "en": "The avian respiratory system comprises relatively rigid gas-exchanging lungs connected to thin-walled air sacs that assist ventilation. The air sacs are not the main sites of oxygen uptake: oxygen and carbon dioxide are exchanged in the parabronchial lung through air capillaries closely associated with blood capillaries. In the palaeopulmonic region of most bird lungs, airflow through the parabronchi is predominantly one-way during both inspiration and expiration. A parcel of inspired air ordinarily passes through the lung–air-sac system over more than one breathing cycle; a simple mammalian alveolar model is unsuitable. Many birds produce vocal sounds using a syrinx near the lower end of the trachea, often around its junction with the two primary bronchi. Vibrating tissues and associated muscles shape the sounds, although vocal abilities and syrinx structure vary greatly among species. In student diagrams label lung, primary bronchi, parabronchi, air sacs and syrinx distinctly: the air sac is a ventilatory structure, not an independent gas-exchange lung.",
+            "ta": "பறவைகளின் சுவாச மண்டலத்தில் வாயுப் பரிமாற்றம் நடைபெறும் நுரையீரலும், காற்றோட்டத்திற்கு உதவும் மெல்லிய சுவர் கொண்ட காற்றுப் பைகளும் (air sacs) இணைந்து செயல்படுகின்றன. நுரையீரல் பெரும்பாலும் விரிவடையாத அமைப்பைக் கொண்டது. ஆக்சிஜனும் கார்பன் டைஆக்சைடும் பரிமாறப்படும் முக்கிய இடம் காற்றுப் பைகள் அல்ல; நுரையீரலிலுள்ள பராப்ராங்கைகள் (parabronchi), அவற்றின் காற்று நுண்குழாய்கள் மற்றும் அருகிலுள்ள இரத்த நுண்குழாய்கள் ஆகும். பெரும்பாலான பறவைகளின் பாலியோபுல்மோனிக் பகுதியில், மூச்சை உள்ளிழுக்கும் போதும் வெளியேற்றும் போதும் பராப்ராங்கைகள் வழியாகக் காற்று பெரும்பாலும் ஒரே திசையில் செல்கிறது. உள்ளிழுக்கப்படும் காற்றின் ஒரு பகுதி நுரையீரல்–காற்றுப் பை அமைப்பைக் கடக்க ஒன்றுக்கு மேற்பட்ட சுவாசச் சுழற்சிகள் தேவைப்படும். எனவே பாலூட்டிகளின் நுரையீரல் காற்றுச் சிற்றறை (alveolus) மாதிரியைப் பறவைகளுக்கு அப்படியே பொருத்தக் கூடாது. பல பறவைகளில் ஒலி உண்டாக்கும் சிரிங்க்ஸ் (syrinx) காற்றுக்குழலின் கீழ்ப்பகுதியில், அது இரண்டு முதன்மை மூச்சுக்குழல்களாகப் பிரியும் இடத்துக்கு அருகில் உள்ளது. அதிலுள்ள அதிரும் திசுக்களும் தசைகளும் ஒலியை உருவாக்க உதவுகின்றன; ஒலி உற்பத்தித் திறன் இனத்திற்கேற்ப மாறுபடும். மாணவர் படத்தில் நுரையீரல், முதன்மை மூச்சுக்குழல்கள், பராப்ராங்கைகள், காற்றுப் பைகள் மற்றும் சிரிங்க்ஸ் ஆகியவற்றைத் தனித்தனியாகக் குறிக்க வேண்டும். காற்றுப் பையை நேரடியாக வாயுப் பரிமாற்றம் செய்யும் உறுப்பாகக் காட்டக் கூடாது."
+          }
+        },
+        {
           "key": "skeleton-and-circulation",
           "heading": {
             "en": "Axial skeleton, flight musculature and cardiovascular physiology",
@@ -3489,6 +3500,14 @@
         {
           "label": "OpenStax Biology 2e — Birds",
           "url": "https://openstax.org/books/biology-2e/pages/29-5-birds"
+        },
+        {
+          "label": "Structure and function of the avian respiratory system (2025)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11864839/"
+        },
+        {
+          "label": "Peripheral mechanisms for vocal production in birds (2010)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2896990/"
         }
       ]
     },
