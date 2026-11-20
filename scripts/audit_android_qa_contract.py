@@ -52,8 +52,8 @@ assert 'FigureGallery(topic.id, sectionIndex + 1, lang' in (ROOT / 'app/src/main
 assert '"u5-columba-urinogenital"' in gallery_text and '"u5-flight-adaptations-avian-lung"' in gallery_text
 figure_key_block = gallery_text.split('val essentialKey = plate.id in setOf(', 1)[1].split(')', 1)[0]
 assert all('"' + id + '"' in figure_key_block for id in (
-    'u5-columba-urinogenital', 'u5-flight-adaptations-avian-lung')),
-    'Critical pigeon and avian respiration teaching keys must remain expanded by default'
+    'u5-columba-urinogenital', 'u5-flight-adaptations-avian-lung')), (
+    'Critical pigeon and avian respiration teaching keys must remain expanded by default')
 
 
 # Reproducibility: a ZIP extractor may not restore Unix executable bits.
