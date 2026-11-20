@@ -595,6 +595,51 @@ class ReaderNavigationTest {
         rule.onNodeWithTag("reader-next").assertIsDisplayed()
     }
 
+    @Test fun modernBirdPhylogenyAndMigrationExtensionsRemainBilingualAndPaged() {
+        val pack = ContentRepository.load(
+            InstrumentationRegistry.getInstrumentation().targetContext)
+        val requirements = mapOf(
+            "u5-aves-classification" to setOf(
+                "historical-vs-genomic-bird-classification",
+                "genomic-neoaves-evidence-and-uncertainty"),
+            "u5-bird-migration" to setOf(
+                "migratory-annual-cycle-and-survey-inference"))
+        val logic = `in`.gasc.zoology.chordata.domain.LearningLogic
+        for ((topicId, newKeys) in requirements) {
+            val topic = requireNotNull(pack.findTopic(topicId))
+            val textbook = topic.textbookChapters.single()
+            val sections = textbook.sections
+            org.junit.Assert.assertTrue(sections.map { it.key }.containsAll(newKeys))
+            org.junit.Assert.assertEquals(
+                if (topicId == "u5-aves-classification") 9 else 7, sections.size)
+            org.junit.Assert.assertTrue(sections.filter { it.key in newKeys }.all {
+                it.body.en.length >= 500 && it.body.ta.length >= 500 &&
+                    it.heading.en.isNotBlank() && it.heading.ta.isNotBlank()
+            })
+            val pages = logic.textbookPages(topic)
+            org.junit.Assert.assertTrue(pages.isNotEmpty())
+            org.junit.Assert.assertTrue(pages.all { it.isNotEmpty() })
+            org.junit.Assert.assertEquals(sections.map { it.key },
+                pages.flatten().map { it.key })
+            org.junit.Assert.assertEquals(
+                logic.sectionPages(topic).size + pages.size, logic.lastPage(topic))
+            org.junit.Assert.assertTrue(logic.isQuizPage(topic, logic.lastPage(topic)))
+            org.junit.Assert.assertEquals(3, topic.quiz.size)
+        }
+        org.junit.Assert.assertEquals(20,
+            requireNotNull(pack.findTopic("u5-columba"))
+                .textbookChapters.single().sections.size)
+        org.junit.Assert.assertEquals(12,
+            requireNotNull(pack.findTopic("u5-flight-adaptations"))
+                .textbookChapters.single().sections.size)
+        org.junit.Assert.assertEquals(121,
+            pack.topics.flatMap { it.sections }.sumOf { it.keyPoints.size })
+        org.junit.Assert.assertEquals(117,
+            pack.topics.sumOf { it.quiz.size })
+        org.junit.Assert.assertEquals(64,
+            pack.topics.sumOf { it.diagramIds.size })
+    }
+
     @Test fun detailedRabbitTextbookContainsCorrectDentitionAndCaecotrophy() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val pack = ContentRepository.load(context)
