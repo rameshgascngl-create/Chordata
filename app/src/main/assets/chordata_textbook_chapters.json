@@ -3550,6 +3550,28 @@
             "en": "Birds generally exhibit internal fertilisation and lay shelled amniotic eggs, but clutch size, incubation, parental investment and development at hatching vary considerably. Altricial young hatch relatively undeveloped and require substantial provisioning, whereas precocial young are often mobile early; these are comparative developmental categories with intermediate states. Beak and foot shapes illuminate feeding and locomotion but must be interpreted alongside anatomy, genetics and behaviour. A practical identification matrix can record scientific name, order, wing morphology, foot arrangement, bill type, feeding ecology and evidence of parental care. Habitat loss, collision with infrastructure, invasive species, hunting and climate change affect different bird groups. Safe teaching should rely on observation, sound recording and ethically obtained photos instead of collecting eggs or disturbing nests. Distinguish a field observation from an inference about evolutionary relationship.",
             "ta": "பறவைகளில் பொதுவாக உட்கருத்தரித்தலும் ஓடுடைய அம்னியோட்டிக் முட்டையிடுதலும் காணப்படும். முட்டைகளின் எண்ணிக்கை, அடைகாத்தல், பெற்றோர் பராமரிப்பு, குஞ்சுகளின் வளர்ச்சி ஆகியவை இனத்திற்கேற்ப மாறுகின்றன. ஆல்ட்ரிஷியல் (altricial) குஞ்சுகள் அதிக பராமரிப்பு தேவைப்படுகின்றன; பிரிகோஷியல் (precocial) குஞ்சுகள் முன்கூட்டியே இயங்கும் திறன் பெற்றிருக்கலாம். அலகு, கால்கள், இறக்கை ஆகியவை உணவு மற்றும் இயக்கத் தகவமைப்பை விளக்கினாலும் மரபுவழியை முடிவு செய்ய தனியே போதாது. செய்முறையில் அறிவியல் பெயர், வரிசை, அலகு, கால்விரல் அமைப்பு, வாழிடம், பராமரிப்பு ஆகியவற்றைப் பதிவு செய்ய வேண்டும். களப்பயிற்சிக்காகக் கூடு அல்லது முட்டைகளைத் தொந்தரவு செய்யக் கூடாது."
           }
+        },
+        {
+          "key": "historical-vs-genomic-bird-classification",
+          "heading": {
+            "en": "Traditional and phylogenomic classification: similarities and differences",
+            "ta": "மரபுவழி மற்றும் மரபணுத் தொகுதி வகைப்பாடு: ஒற்றுமைகளும் வேறுபாடுகளும்"
+          },
+          "body": {
+            "en": "Traditional classifications placed great weight on the beak, feet, ability to fly and the presence of a sternal keel. The historically useful Ratitae–Carinatae distinction is not a complete modern phylogeny: some birds have independently lost flight, and tinamous are flying palaeognaths. Classification based on descent instead asks which organisms share an exclusive common ancestor. Among living birds (Neornithes), Palaeognathae includes ostriches, rheas, emus, kiwis and tinamous, while Neognathae includes Galloanserae (Galliformes and Anseriformes) and Neoaves (most other living birds). Genome-scale analyses have substantially revised relationships within Neoaves. For example, falcons are placed within Australaves near parrots and passerines, rather than being grouped solely with accipitriform eagles and hawks because all hunt. Ecological convergence must not be mistaken for common ancestry. A textbook identification chart may use old morphological categories, but a modern evolutionary tree must show branching relationships and cite its source. Living orders should appear as terminal relatives, not as direct ancestors of other living orders.",
+            "ta": "பழைய பறவை வகைப்பாட்டில் அலகு, கால்கள், பறக்கும் திறன், மார்பெலும்பு முகடு ஆகிய பண்புகள் பெரிதும் பயன்படுத்தப்பட்டன. ராட்டைட்டே–காரினாட்டே (Ratitae–Carinatae) என்ற பழைய பிரிவு கற்பித்தலுக்குப் பயன்பட்டாலும் அது முழுமையான நவீன பரிணாம மரம் அல்ல. சில பறவைக் கிளைகளில் பறக்கும் திறன் தனித்தனியாக இழக்கப்பட்டுள்ளது; டினாமு பறவைகள் பறக்கக்கூடிய பாலியோக்நாதே (Palaeognathae) உறுப்பினர்களாகும். பரிணாம மரபுவழி வகைப்பாடு (phylogenetic classification) பொதுவான மூதாதையை அடிப்படையாகக் கொண்டது. இப்போது வாழும் பறவைகள் நியோர்னிதீஸ் (Neornithes) குழுவில் அடங்குகின்றன. அவற்றில் பாலியோக்நாதே குழுவில் நெருப்புக்கோழி, ரியா, ஈமு, கிவி, டினாமு ஆகியவை உள்ளன. நியோக்நாதே (Neognathae) குழுவில் கோழி–வாத்து உறவினர்களைக் கொண்ட காலோஅன்சேரே (Galloanserae), பிற பெரும்பாலான பறவைகளைக் கொண்ட நியோஏவேஸ் (Neoaves) ஆகியவை அடங்குகின்றன. மரபணுத் தொகுதி ஆய்வுகளால் நியோஏவேஸ் கிளைகளின் உறவுகள் திருத்தப்பட்டுள்ளன. ஃபால்கன்கள் ஆஸ்ட்ரலேவேஸ் (Australaves) கிளையில் கிளிகள், பாடுபறவைகளுடன் தொடர்புடையவை; இரையைப் பிடிப்பதால் மட்டுமே பருந்துகளுக்கும் கழுகுகளுக்கும் நெருங்கிய உறவினர்கள் என்று கூற முடியாது. ஒரே மாதிரியான சூழலியல் தகவமைப்பையும் பொதுவான மூதாதையிலிருந்து வரும் உறவையும் வேறுபடுத்த வேண்டும். பழைய அடையாள வகைப்பாட்டையும் நவீன பரிணாம மரத்தையும் தனித்தனியாகக் காட்டி ஆய்வு மூலத்தைக் குறிப்பிட வேண்டும்."
+          }
+        },
+        {
+          "key": "genomic-neoaves-evidence-and-uncertainty",
+          "heading": {
+            "en": "Neoaves in 2024 genomic evidence and unresolved deep branches",
+            "ta": "2024 மரபணுத் தொகுதி ஆய்வில் நியோஏவேஸ் மற்றும் உறுதியாகாத கிளைகள்"
+          },
+          "body": {
+            "en": "The 2024 Bird 10K family-level analysis by Stiller and colleagues compared genomes from 363 bird species representing 218 families. It recovered four major neoavian lineages: Mirandornithes (flamingos and grebes), Columbaves (pigeons, sandgrouse, mesites, cuckoos, turacos and bustards), Telluraves (many landbirds) and a diverse proposed clade termed Elementaves. These four groupings describe the phylogeny inferred by that study; they are not a universally final taxonomy. Many Neoaves diversified rapidly near the Cretaceous–Palaeogene boundary. Deep gene-tree discordance, incomplete lineage sorting, possible ancient hybridisation and analytical choices help explain why some branches remain disputed. The pigeon belongs to Columbiformes and was placed among Columbaves in this analysis. A scientific textbook should explain what a cladogram means, indicate that nodes represent inferred common ancestry and distinguish strongly supported nodes from uncertain arrangements. Comparison with an alternative published phylogeny is a valuable undergraduate exercise; differences should be attributed to evidence and methods, not presented as a mistake by one group of birds.",
+            "ta": "ஸ்டில்லர் மற்றும் குழுவினர் 2024 ஆம் ஆண்டு வெளியிட்ட Bird 10K ஆய்வில் 218 குடும்பங்களைச் சேர்ந்த 363 பறவை இனங்களின் மரபணுத் தொகுதிகளை ஒப்பிட்டனர். அதில் நியோஏவேஸ் (Neoaves) குழுவில் மிராண்டார்னிதீஸ் (Mirandornithes: ஃபிளமிங்கோவும் கிரீப்பும்), கொலம்பேவேஸ் (Columbaves: புறா, சாண்ட்கிரவுஸ், குயில், டுராக்கோ உள்ளிட்ட குழுக்கள்), டெல்லூரேவேஸ் (Telluraves: நிலவாழ் பறவைகளின் பல பெரிய கிளைகள்), எலிமென்டேவேஸ் (Elementaves: பல்வேறு வாழிடப் பறவைகள் அடங்கிய முன்மொழியப்பட்ட கிளை) என்ற நான்கு பெரிய குழுக்கள் அடையாளம் காணப்பட்டன. இந்த அமைப்பு குறிப்பிட்ட ஆய்வில் கிடைத்த பரிணாம மரத்தின் முடிவாகும்; எல்லா ஆய்வுகளும் ஏற்ற இறுதியான ஒரே வகைப்பாடாகக் கருதக்கூடாது. கிரிடேசியஸ்–பேலியோஜீன் கால எல்லையருகில் நியோஏவேஸ் கிளைகள் விரைவாகப் பிரிந்தன. தனித்த மரபணுக்களின் வரலாற்று வேறுபாடுகள், முழுமையற்ற மரபுவழிப் பிரித்தல், பழங்கால இனக்கலப்பு, பகுப்பாய்வு முறைகளின் வேறுபாடு ஆகியவை சில கிளைகளின் உறுதியின்மையை விளக்கலாம். புறா கொலம்பிஃபார்மீஸ் (Columbiformes) வரிசையைச் சேர்ந்தது; இந்த ஆய்வில் கொலம்பேவேஸ் கிளையில் வைக்கப்பட்டுள்ளது. கிளைமரத்தில் பிரியும் புள்ளிகள் பொதுவான மூதாதையைக் குறிக்கும் என்பதை மாணவர்கள் புரிந்துகொள்ள வேண்டும். நன்கு ஆதரிக்கப்பட்ட உறவுகளையும் இன்னும் உறுதியாகாத உறவுகளையும் வேறுபடுத்திக் காட்ட வேண்டும். வேறுபட்ட ஆய்வுகளின் பரிணாம மரங்களை ஒப்பிடும்போது அவற்றின் ஆதாரங்களையும் முறைகளையும் குறிப்பிட வேண்டும்."
+          }
         }
       ],
       "sources": [
@@ -3564,6 +3586,10 @@
         {
           "label": "Peripheral mechanisms for vocal production in birds (2010)",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2896990/"
+        },
+        {
+          "label": "Stiller et al., Nature 2024, Complexity of avian evolution revealed by family-level genomes",
+          "url": "https://doi.org/10.1038/s41586-024-07323-1"
         }
       ]
     },
@@ -3812,6 +3838,17 @@
             "en": "Migration links ecosystems across political boundaries, so protection of breeding grounds alone cannot safeguard a migratory population. Wetland drainage, shoreline development, light pollution, collision hazards, illegal hunting and climate-induced changes in seasonal resources may affect different stages of a journey. Conservation must identify bottleneck sites and restore a network of suitable stopovers, not just one famous sanctuary. In Tamil Nadu, a student project can monitor waterbirds at an accessible wetland using repeated counts, species identifications and observation effort, without approaching nests or disturbing feeding flocks. Comparing the same site across seasons allows cautious inference about changing occupancy, but a single absence does not establish extinction or the end of migration. The conclusion should connect international flyway cooperation, local wetland management and the reliability of evidence.",
             "ta": "வலசைப் பறவைகளின் பாதுகாப்பு ஒரு நாட்டின் எல்லைக்குள் மட்டும் முடிவதில்லை. ஒரு பறவை இனப்பெருக்கம் செய்யும் இடம் ஒரு நாட்டிலும், ஓய்வெடுக்கும் ஈரநிலம் வேறொரு நாட்டிலும், குளிர்காலத் தங்குமிடம் இன்னொரு நாட்டிலும் இருக்கலாம். ஆகவே அதன் வாழ்க்கைச் சுழற்சியில் பயன்படும் எல்லா முக்கிய வாழிடங்களும் பாதுகாக்கப்பட வேண்டும். ஈரநிலங்களை நிரப்புதல், கழிமுகங்களை மாற்றுதல், அதிகமான இரவு விளக்குகள், உயரமான கட்டடங்களுடன் மோதுதல், வேட்டை, பருவநிலை மாற்றம் ஆகியவை வலசைப் பறவைகளுக்கு அபாயங்களாக உள்ளன. தமிழகத்தின் ஓர் ஈரநிலத்தைத் தேர்ந்தெடுத்து ஒவ்வொரு பருவத்திலும் அங்கு வரும் பறவை இனங்கள், எண்ணிக்கை, அவற்றைக் கண்ட நேரம் ஆகியவற்றைப் பதிவு செய்யலாம். ஒரே நாளில் குறிப்பிட்ட பறவையைப் பார்க்கவில்லை என்பதால் அது அந்த வாழிடத்தை முற்றிலும் விட்டுச் சென்றுவிட்டது என்று முடிவு செய்யக்கூடாது. நீண்டகாலப் பதிவுகளை ஒப்பிட வேண்டும். கூடு, முட்டை, இளம்பறவை, உணவு தேடும் கூட்டங்கள் ஆகியவற்றைத் தொந்தரவு செய்யாமல் கண்காணிக்க வேண்டும்."
           }
+        },
+        {
+          "key": "migratory-annual-cycle-and-survey-inference",
+          "heading": {
+            "en": "Annual-cycle preparation, partial migration and scientific monitoring",
+            "ta": "ஆண்டுச் சுழற்சி ஆயத்தம், பகுதி வலசை மற்றும் அறிவியல் கண்காணிப்பு"
+          },
+          "body": {
+            "en": "Migration is coordinated with breeding, moult and periods of non-breeding residence. Seasonal photoperiod, food availability and internal physiological programmes influence the timing of departure. Partially migratory populations contain both migrants and year-round residents; age and sex may also alter the pattern. Altitudinal migration involves repeated seasonal movement between elevations and differs from daily foraging or permanent dispersal. Some migrants exhibit increased nocturnal activity before departure, called Zugunruhe or migratory restlessness; this does not reveal their exact route. Fuel accumulation and the timing of feather replacement affect endurance and aerodynamics. Phenology concerns seasonal events such as first arrival, peak passage and departure. In Tamil Nadu, an undergraduate wetland survey should record date, species, counts, observation duration, observer effort, water level and disturbance. Avoid counting a moving flock twice and distinguish detection probability from true abundance. One low count cannot establish a population decline. The Central Asian Flyway is a broad network of habitats rather than a fixed, universal line; a map must show its source, survey year and uncertainty rather than an invented species-specific trajectory.",
+            "ta": "வலசை என்பது பறவைகளின் ஆண்டுச் சுழற்சியில் இனப்பெருக்கம், இறகுதிர்தல், இனப்பெருக்கமற்ற கால வாழ்வு ஆகியவற்றுடன் தொடர்புடையது. பருவகாலப் பகல்நேர நீளம், உணவு இருப்பு, உடலின் ஒழுங்குமுறை ஆகியவை பயணம் தொடங்கும் காலத்தைப் பாதிக்கின்றன. பகுதி வலசை (partial migration) காணப்படும் இனங்களில் சில பறவைகள் இடம்பெயர்ந்து மற்றவை ஆண்டு முழுவதும் ஒரே பகுதியில் தங்கலாம். வயது, பாலினம் ஆகியவற்றிற்கேற்ப இந்த முறை மாறலாம். மலைப்பகுதிகளில் உயர்ந்த வாழிடத்திற்கும் தாழ்ந்த வாழிடத்திற்கும் பருவந்தோறும் நிகழும் இயக்கம் உயரநிலை வலசை (altitudinal migration) ஆகும். இது அன்றாட உணவுதேடலிலிருந்தும் நிரந்தரமாகச் சிதறிப் பரவுவதிலிருந்தும் வேறுபட்டது. வலசைக்கு முன்னர் சில பறவைகளில் இரவுநேர அசைவு அதிகரிக்கலாம்; இதனை Zugunruhe என்னும் வலசை முன் அமைதியின்மை என்கிறோம். இது முழுப் பயணப் பாதையைக் காட்டாது. கொழுப்புச் சேமிப்பும் புதிய இறகுகள் வளர்வதும் பயணத் திறனைப் பாதிக்கின்றன. பருவ நிகழ்வுகளின் காலவமைப்பு ஃபீனாலஜி (phenology) ஆகும். தமிழகக் கல்லூரி ஈரநில ஆய்வில் தேதி, இனப்பெயர், எண்ணிக்கை, கண்காணித்த நேரம், பார்வையாளர் முயற்சி, நீர்மட்டம், இடையூறு ஆகியவற்றைப் பதிவு செய்ய வேண்டும். இடம் மாறும் ஒரே பறவைக் கூட்டத்தை இருமுறை எண்ணக்கூடாது. ஒரே நாளில் எண்ணிக்கை குறைவாக இருப்பதால் மக்கள்தொகை குறைந்துவிட்டது என்று முடிவு செய்யக்கூடாது. மத்திய ஆசிய வலசைப் பாதை (Central Asian Flyway) பரந்த வாழிட வலையமைப்பு ஆகும்; எல்லா இனங்களும் ஒரே கோட்டில் பறப்பதில்லை. வரைபடத்தில் தரவு மூலம், ஆய்வு ஆண்டு, உறுதியற்ற தகவல்கள் ஆகியவற்றைக் குறிப்பிட வேண்டும்."
+          }
         }
       ],
       "sources": [
@@ -3822,6 +3859,10 @@
         {
           "label": "Convention on Migratory Species — Central Asian Flyway",
           "url": "https://www.cms.int/en/legalinstrument/central-asian-flyway"
+        },
+        {
+          "label": "Convention on Migratory Species — Central Asian Flyway",
+          "url": "https://www.cms.int/legalinstrument/central-asian-flyway"
         }
       ]
     },
