@@ -1016,6 +1016,17 @@
           }
         },
         {
+          "key": "duplex-uterus-induced-ovulation-and-placenta",
+          "heading": {
+            "en": "Rabbit duplex uterus, induced ovulation and haemochorial placentation",
+            "ta": "முயலின் இரட்டைக் கருப்பை, தூண்டப்பட்ட அண்டவிடுப்பு மற்றும் நஞ்சுக்கொடி அமைப்பு"
+          },
+          "body": {
+            "en": "The domestic rabbit (Oryctolagus cuniculus) has a duplex uterus: two distinct uterine horns, each opening through its own cervix into a common vagina. It should not be diagrammed as a single uterine body with one cervical canal. The ovaries release oocytes after mating-associated neural and endocrine stimulation, which produces a luteinising-hormone surge; rabbits are therefore classified as induced or reflex ovulators. This does not mean the female is equally receptive to mating at every moment. Ovulation may also be induced in non-fertile situations, leading to pseudopregnancy, a temporary physiological state that must not be mistaken for embryo implantation. After fertilisation in the oviduct, embryos develop and implant within the uterine horns. Rabbit chorioallantoic placentation is discoid and haemochorial, with a labyrinthine exchange region; trophoblast layers separate maternal blood spaces from foetal vessels, so the phrase 'maternal and foetal blood mix directly' is anatomically inaccurate. Placental classification concerns the tissue barriers at the interface and must not be confused with monotreme egg laying or the diverse placentas of marsupials. A labelled reproductive diagram should separately show the two ovaries, paired oviducts, two uterine horns, two cervices, common vagina and the urinary bladder, and should be compared with the normal functional left ovary and oviduct of the pigeon. Student study should use published micrographs and veterinary anatomical figures rather than invasive live-animal demonstrations.",
+            "ta": "வீட்டு முயல் (Oryctolagus cuniculus) இரட்டைக் கருப்பை (duplex uterus) அமைப்பைக் கொண்டுள்ளது. இதில் தனித்தனியான இரண்டு கருப்பைக் கொம்புகள் உள்ளன; ஒவ்வொன்றும் தனியான கருப்பைவாய் (cervix) வழியாகப் பொதுவான யோனியில் திறக்கிறது. இரண்டு கொம்புகளும் ஒரே கருப்பை உடலாக இணைந்து ஒரு கருப்பைவாய் மட்டும் கொண்டுள்ளதுபோல் வரையக்கூடாது. முயலில் இணைவு தொடர்பான நரம்பு மற்றும் ஹார்மோன் தூண்டுதல் காரணமாக லூட்டினைசிங் ஹார்மோன் அதிகரித்து அண்டவிடுப்பு நிகழ்கிறது. இதனைத் தூண்டப்பட்ட அண்டவிடுப்பு (induced ovulation) என்கிறோம். இதனால் பெண் முயல் எப்போதும் ஒரே அளவில் இணைவுக்கு ஆயத்தமாக இருக்கும் என்று பொருள் கொள்ளக்கூடாது. கருத்தரித்தல் நடைபெறாத சில சூழல்களிலும் அண்டவிடுப்பு தூண்டப்பட்டு பொய்க் கர்ப்பம் (pseudopregnancy) என்னும் தற்காலிக உடலியல் நிலை உருவாகலாம். இதனைக் கரு கருப்பையில் பதிந்த உண்மையான கர்ப்பமாகக் கருதக்கூடாது. கருவுறுதல் முட்டைக்குழாயில் நிகழ்கிறது; பின்னர் கருக்கள் கருப்பைக் கொம்புகளில் பதிந்து வளர்கின்றன. முயலில் தட்டுவடிவக் கோரியோஅல்லான்டாயிக் நஞ்சுக்கொடி (chorioallantoic placenta) காணப்படுகிறது. அதன் பரிமாற்றப் பகுதி ஹீமோகோரியல் (haemochorial) வகையைச் சார்ந்தது; தாயின் இரத்தம் இருக்கும் இடங்களுக்கும் கருவின் இரத்தக்குழாய்களுக்கும் இடையே டிரோஃபோபிளாஸ்ட் திசு அடுக்குகள் உள்ளன. எனவே தாய் மற்றும் கருவின் இரத்தம் நேரடியாக ஒன்றாகக் கலக்கிறது என்று கூறுவது தவறு. இது முட்டையிடும் மோனோட்ரீம்களின் முறையிலிருந்தும் பையுடைய பாலூட்டிகளின் பல்வகை நஞ்சுக்கொடி அமைப்புகளிலிருந்தும் வேறுபடுகிறது. செய்முறைப் படத்தில் இரண்டு சினைப்பைகள், இரண்டு முட்டைக்குழாய்கள், இரண்டு கருப்பைக் கொம்புகள், தனித்த இரண்டு கருப்பைவாய்கள், பொதுவான யோனி, சிறுநீர்ப்பை ஆகியவற்றைத் தெளிவாகக் குறிக்க வேண்டும். புறாவில் பொதுவாகச் செயல்படும் இடது சினைப்பை மற்றும் முட்டைக்குழாயுடன் ஒப்பிட வேண்டும். உயிருள்ள விலங்குகளை உடல்துளைத்துச் சோதிக்காமல் வெளியிடப்பட்ட நுண்படங்களையும் கால்நடை உடற்கூறுப் படங்களையும் பயன்படுத்த வேண்டும்."
+          }
+        },
+        {
           "key": "placenta-gestation-lactation",
           "heading": {
             "en": "Placental development, gestation, lactation and neonatal care",
@@ -1054,6 +1065,14 @@
         {
           "label": "Veterinary clinical rabbit dentition and 28-tooth formula",
           "url": "https://www.mspca.org/clinical/dental-anatomy-and-disease-of-the-domestic-rabbit-oryctolagus-cuniculus/"
+        },
+        {
+          "label": "INHAND rabbit reproductive anatomy and duplex uterus (2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8544166/"
+        },
+        {
+          "label": "MSD Veterinary Manual — rabbit management and induced ovulation",
+          "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/rabbits/management-of-rabbits"
         }
       ]
     },
@@ -4345,6 +4364,17 @@
           }
         },
         {
+          "key": "alveolar-compression-nitrogen-and-dive-risk",
+          "heading": {
+            "en": "Alveolar compression, nitrogen exchange and diving risk in cetaceans",
+            "ta": "திமிங்கிலங்களில் நுரையீரல் சிற்றறைச் சுருக்கமும் நைட்ரஜன் பரிமாற்றமும் ஆழ்நீர் அபாயங்களும்"
+          },
+          "body": {
+            "en": "As a cetacean descends, hydrostatic pressure compresses gas in the respiratory system according to physical gas laws. The relatively compliant thorax and alveolar regions can compress, while reinforced conducting airways help accommodate high pressures. At sufficient depth, alveolar collapse may limit further pulmonary gas exchange and reduce nitrogen uptake, although actual collapse depth varies with species, dive-start lung volume and breathing pattern. It is incorrect to teach that every whale's lungs collapse completely at one fixed depth or that decompression stress is impossible in all marine mammals. Oxygen used during a dive is drawn from several stores, including haemoglobin in the blood, myoglobin in skeletal muscle and, variably, gas in the lungs. Diving responses such as reduced heart rate and redistribution of blood flow interact with swimming effort and voluntary anticipation; they are not an invariant automatic shutdown of peripheral circulation. Nitrogen dynamics depend on depth, duration, dive sequence and perfusion, and unusual conditions can be associated with gas-bubble injury. Cetaceans, pinnipeds and otters differ considerably in lung mechanics and oxygen storage, so comparative diagrams should label the species or mammalian group rather than illustrate a universal diving mammal. In a labelled teaching figure distinguish the trachea and reinforced airways, compressible alveoli, lung gas, blood oxygen and muscle oxygen, and separate observed physiology from hypothetical protective mechanisms.",
+            "ta": "திமிங்கிலங்கள் ஆழ்நீருக்குள் செல்லும்போது அதிகரிக்கும் நீரழுத்தம் சுவாச மண்டலத்திலுள்ள காற்றின் கொள்ளளவைக் குறைக்கிறது. ஒப்பீட்டளவில் நெகிழ்வான மார்புக்கூடும் நுரையீரலின் காற்றுச் சிற்றறைகளும் (alveoli) சுருங்கக்கூடும்; வலுப்பெற்ற காற்றுக் கடத்தும் மூச்சுக்குழல்கள் அதிக அழுத்தத்தைத் தாங்க உதவுகின்றன. குறிப்பிட்ட ஆழத்தில் காற்றுச் சிற்றறைகள் மூடப்படும்போது நுரையீரல் வாயுப் பரிமாற்றம் குறைந்து நைட்ரஜன் உட்கொள்ளுதலும் கட்டுப்படலாம். ஆனால் இந்த ஆழம் இனம், நீர்மூழ்குவதற்கு முன் நுரையீரலில் உள்ள காற்றின் அளவு, சுவாச முறை ஆகியவற்றைப் பொறுத்து மாறுகிறது. எல்லா திமிங்கிலங்களின் நுரையீரலும் ஒரே ஆழத்தில் முழுமையாகச் சுருங்குகிறது என்றோ நீர்மூழ்கும் பாலூட்டிகளில் அழுத்தக் குறைவு அபாயமே இல்லை என்றோ கூறக்கூடாது. இரத்தத்திலுள்ள ஹீமோகுளோபின், தசைகளிலுள்ள மையோகுளோபின், சில சூழல்களில் நுரையீரலிலுள்ள காற்று ஆகியவை ஆக்சிஜன் சேமிப்பிற்கு உதவுகின்றன. நீர்மூழ்கும் போது இதயத் துடிப்பு குறைதல், இரத்த ஓட்டம் மறுவினியோகம் செய்யப்படுதல் போன்ற மாற்றங்கள் காணப்படலாம். இவை நீந்தும் முயற்சி, நீர்மூழ்கும் நேரம், முன்கூட்டிய உடலியல் ஆயத்தம் ஆகியவற்றுடன் தொடர்புடையவை; உடலின் பிற பகுதிகளுக்கு இரத்த ஓட்டம் முழுவதும் நிறுத்தப்படுவதாகக் கருதக்கூடாது. நைட்ரஜன் பரிமாற்றம் நீராழம், நீர்மூழ்கிய காலம், தொடர்ச்சியான பயணங்கள், இரத்த ஓட்டம் ஆகியவற்றைப் பொறுத்தது. சில அசாதாரண சூழல்களில் வாயுக் குமிழ்கள் தொடர்பான பாதிப்புகள் ஏற்படலாம். திமிங்கிலங்கள், சீல்கள், கடல்நீர்நாய்கள் ஆகியவற்றின் சுவாசத் தகவமைப்புகள் ஒரே மாதிரியானவை அல்ல. செய்முறைப் படத்தில் காற்றுக்குழல், வலுப்பெற்ற மூச்சுக்குழல்கள், சுருங்கக்கூடிய காற்றுச் சிற்றறைகள், நுரையீரல் காற்று, இரத்த ஆக்சிஜன், தசை ஆக்சிஜன் ஆகியவற்றைத் தனித்தனியாகக் குறிக்க வேண்டும். நேரடியாகக் காணப்பட்ட நிகழ்வுகளையும் அறிவியல் விளக்க மாதிரிகளையும் வேறுபடுத்த வேண்டும்."
+          }
+        },
+        {
           "key": "thermoregulation-reproduction",
           "heading": {
             "en": "Thermoregulation, locomotion, reproduction and parental care",
@@ -4383,6 +4413,10 @@
         {
           "label": "Marine Mammal Protected Areas Task Force — Gulf of Mannar and Palk Bay",
           "url": "https://www.marinemammalhabitat.org/factsheets/gulf-mannar-palk-bay/"
+        },
+        {
+          "label": "Cardiorespiratory adaptations in small cetaceans and marine mammals (2023)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10988691/"
         }
       ]
     },
