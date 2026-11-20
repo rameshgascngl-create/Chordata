@@ -64,6 +64,25 @@ for topic, required in unit5_required.items():
                if section["key"] in required for lang in ("en", "ta")), (topic, "incomplete long-form bilingual section")
 assert len(by_topic["u5-columba"]["sections"]) >= 20
 assert len(by_topic["u5-flight-adaptations"]["sections"]) >= 12
-assert len(keys) >= 310, f"Expected >=310 full bilingual textbook sections, found {len(keys)}"
+avian_expectations = {
+    "u5-aves-classification": {
+        "historical-vs-genomic-bird-classification",
+        "genomic-neoaves-evidence-and-uncertainty",
+    },
+    "u5-bird-migration": {"migratory-annual-cycle-and-survey-inference"},
+}
+for topic_id, required_keys in avian_expectations.items():
+    chapter = by_topic[topic_id]
+    section_by_key = {section["key"]: section for section in chapter["sections"]}
+    assert required_keys <= set(section_by_key), f"Missing new Aves sections for {topic_id}"
+    for key in required_keys:
+        section = section_by_key[key]
+        assert len(section["body"]["en"]) >= 500 and len(section["body"]["ta"]) >= 500, (topic_id, key, "shortened")
+        assert section["heading"]["en"] and section["heading"]["ta"], (topic_id, key, "heading missing")
+assert len(by_topic["u5-aves-classification"]["sections"]) >= 9
+assert len(by_topic["u5-bird-migration"]["sections"]) >= 7
+assert len(by_topic["u5-columba"]["sections"]) >= 20
+assert len(by_topic["u5-flight-adaptations"]["sections"]) >= 12
+assert len(keys) >= 313, f"Expected >=313 full bilingual textbook sections, found {len(keys)}"
 print(f"PASS: {len(chapter_ids)}/{len(topics)} syllabus topics, {len(keys)} extended bilingual sections, "
       "source references, explicit draft review status")
