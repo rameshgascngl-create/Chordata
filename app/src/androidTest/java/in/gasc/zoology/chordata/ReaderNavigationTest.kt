@@ -827,7 +827,13 @@ class ReaderNavigationTest {
         org.junit.Assert.assertTrue(
             "Tamil next-page button collapsed: " + bounds, bounds.width > bounds.height * 1.7f)
         rule.onNodeWithTag("reader-next").performClick()
-        rule.onNodeWithTag("lesson-page-heading").assertTextEquals("பரிணாமத் தோற்றத்துக்கான ஆதாரங்கள்")
+        // Read the editorial heading from the same bundled content as the UI.
+        // This tests page navigation without freezing an obsolete Tamil phrase.
+        val topic = requireNotNull(ContentRepository.load(
+            InstrumentationRegistry.getInstrumentation().targetContext
+        ).findTopic("u1-origin"))
+        rule.onNodeWithTag("lesson-page-heading")
+            .assertTextEquals(topic.sections[1].heading.ta)
     }
 
     @Test fun tamilCompactHeaderFitsAndBackWorks() {
