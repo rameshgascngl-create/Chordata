@@ -34,6 +34,18 @@ No image, licence, authorship, figure SHA-256, approval field or chapter order w
 
 References: https://pmc.ncbi.nlm.nih.gov/articles/PMC11864839/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11864834/
 
+## Monotreme Tamil conceptual-equivalence audit — continuation
+
+A side-by-side review identified three scientific mechanisms present in English but abbreviated in Tamil. The original Tamil prose was preserved and supplemented in situ:
+
+- **Monotremata:** the cloaca is a shared terminal chamber of the alimentary, urinary and reproductive systems, not merely a generic "opening"; its internal duct relationships differ by taxon and sex.
+- **Platypus:** juvenile teeth develop and are later lost, while adults crush food using keratinised pads; the bill's electro- and mechanoreception has special value when underwater use of vision, hearing and smell is limited.
+- **Milk feeding:** offspring acquire sensory and locomotor independence gradually, and lactation after hatching must not be equated with prenatal maternal–foetal nutrient exchange through a placenta.
+
+No English text, previously validated Tamil passage, chapter/section ordering, learning points, figure bytes or MCQs was removed. Dedicated audit assertions now protect these meanings in Tamil.
+
+References: https://pmc.ncbi.nlm.nih.gov/articles/PMC11684381/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC2736120/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12001884/ .
+
 ## Validation gate
 
 The existing `scripts/audit_textbook_chapters.py` now checks the paired English–Tamil anatomical terms, on every mandated QA workflow execution. Existing 39-topic coverage, bilingual sections, figure source/hash checks, Kotlin compilation and Android instrumentation must pass on **this new commit** before a QA APK can be considered current. Independent scientific and Tamil sign-off remain external release blockers.

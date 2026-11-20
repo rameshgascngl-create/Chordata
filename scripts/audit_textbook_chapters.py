@@ -116,6 +116,18 @@ for topic_id, section_key in new_mammal_sections.items():
                for lang in ("en", "ta")), ("Insufficient bilingual anatomy", topic_id)
     assert all(sections[section_key]["heading"][lang].strip()
                for lang in ("en", "ta")), ("Missing translated heading", topic_id)
+# Require conceptual equivalence in specialised monotreme Tamil anatomy.
+monotreme_bilingual = {s["key"]: s for s in by_topic["u5-egg-laying-mammals"]["sections"]}
+for key, must_contain in {
+    "monotremata-overview": ("cloaca", "இனப்பெருக்கப் பாதை"),
+    "platypus-anatomy": ("இளம் பிளாட்டிபஸ்", "அரைப்புத் தகடுகள்", "மின்உணர்வு"),
+    "lactation-and-care": ("புலனுணர்வு", "பிறப்புக்குப் பின்னர்", "நஞ்சுக்கொடி"),
+}.items():
+    tamil = monotreme_bilingual[key]["body"]["ta"]
+    assert all(term in tamil for term in must_contain), ("Monotreme Tamil conceptual gap", key)
+    assert len(monotreme_bilingual[key]["body"]["en"]) >= 800
+    assert len(tamil) >= 700
+
 assert len(by_topic["u5-rabbit"]["sections"]) == 17
 assert len(by_topic["u5-aquatic-mammals"]["sections"]) == 9
 assert len(keys) >= 319, f"Expected >=319 full bilingual textbook sections, found {len(keys)}"
