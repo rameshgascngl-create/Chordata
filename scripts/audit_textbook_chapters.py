@@ -143,6 +143,11 @@ for text, words in (
     assert all(word in text for word in words), ("Mammalia bilingual mechanism missing", words)
 print("PASS: marsupial placenta and bat sonar/torpor scientifically equivalent in EN/TA")
 
+# Validate distinct ureter / urethra terminology and bounded historical figure keys.
+renal_tamil = {s["key"]: s for s in by_topic["u5-rabbit"]["sections"]}["kidneys-nephrons-and-urine"]["body"]["ta"]
+for word in ("சிறுநீர்க்குழல் (ureter)", "சிறுநீர்த்தாரை (urethra)", "சிறுநீரக இடுப்புக்குழி (renal pelvis)", "நெஃப்ரானின் சிறுநீரக நுண்குழாய்"):
+    assert word in renal_tamil, ("Ureter/urethra or renal tubule translation regression", word)
+
 assert len(by_topic["u5-rabbit"]["sections"]) == 17
 assert len(by_topic["u5-aquatic-mammals"]["sections"]) == 9
 assert len(keys) >= 319, f"Expected >=319 full bilingual textbook sections, found {len(keys)}"
