@@ -26,6 +26,14 @@
 
 The figure-card code previously collapsed the detailed label keys for Figures **47** and **51** by default. Both are provisional anatomy/physiology images where caveats must be visible without a separate tap. The native reader now displays those full keys at its standard expanded text size in both languages; the image PNGs, zoom functionality, original identifiers, figure placement and independent sign-off status are unchanged. The Android QA-contract script explicitly guards this behaviour. Device-level legibility at 100% and 200% font scale remains subject to the new-commit instrumentation results.
 
+## Figure 47/51 student-visible source keys — follow-up
+
+The Figure 51 key previously implied that all avian lung airflow was unidirectional. The English key now limits predominantly one-way flow to the **palaeopulmonic** parabronchi and explicitly notes bidirectional **neopulmonic** flow where present. Both Tamil variants distinguish these pathways; the selected Tamil AI diagram is described as a *schematic localisation only*, not an exact nine-sac or bronchial airflow map. Figure 47's Tamil key now consistently spells **மேக்னம்** (magnum).
+
+No image, licence, authorship, figure SHA-256, approval field or chapter order was changed. The new QA assertions preserve these scientific cautions and provisional statuses.
+
+References: https://pmc.ncbi.nlm.nih.gov/articles/PMC11864839/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11864834/
+
 ## Validation gate
 
 The existing `scripts/audit_textbook_chapters.py` now checks the paired English–Tamil anatomical terms, on every mandated QA workflow execution. Existing 39-topic coverage, bilingual sections, figure source/hash checks, Kotlin compilation and Android instrumentation must pass on **this new commit** before a QA APK can be considered current. Independent scientific and Tamil sign-off remain external release blockers.

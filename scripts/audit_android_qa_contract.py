@@ -56,6 +56,19 @@ assert all('"' + id + '"' in figure_key_block for id in (
     'Critical pigeon and avian respiration teaching keys must remain expanded by default')
 
 
+# Figure 47/51 educational keys remain provisional metadata, not external sign-off.
+avian_keys = [f for f in entries if f['diagramId'] == 'u5-flight-adaptations-avian-lung']
+assert len(avian_keys) == 2 and {f['lang'] for f in avian_keys} == {'en', 'ta'}
+assert all('பேலியோபுல்மோனிக்' in f.get('keyTa', '') and
+           'நியோபுல்மோனிக்' in f.get('keyTa', '') for f in avian_keys)
+assert all(f['reviewStatus'].startswith('PROVISIONAL_') for f in avian_keys)
+assert 'neopulmonic' in next(f for f in avian_keys if f['lang'] == 'en')['keyEn']
+assert 'திட்டப்படம்' in next(f for f in avian_keys if f['lang'] == 'ta')['learnerKeyTa']
+pigeon_key = next(f for f in entries if f['diagramId'] == 'u5-columba-urinogenital')
+assert 'இடது சினைப்பை' in pigeon_key['learnerKeyTa']
+assert 'மேக்னம் (magnum)' in pigeon_key['learnerKeyTa']
+assert pigeon_key['reviewStatus'].startswith('PROVISIONAL_')
+
 # Reproducibility: a ZIP extractor may not restore Unix executable bits.
 # The entrypoint must invoke the Kotlin smoke-test shell script explicitly.
 assert 'bash "$ROOT/scripts/run_core_tests.sh"' in qa_script
