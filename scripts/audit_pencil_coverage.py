@@ -39,19 +39,29 @@ for x in fs:
 # amphibian parental-care plates have no inherited approval.
 owner_approved = [x for x in fs if
     x.get('ownerQaDisplayDecision') == 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13']
-assert len(owner_approved) == 64, ('unexpected owner-accepted variants', len(owner_approved))
+assert len(owner_approved) == 63, ('unexpected owner-accepted variants', len(owner_approved))
 assert all(x.get('ownerQaAcceptedSha256') == x['sha256'] and
     not x.get('scientificRiskHold') for x in owner_approved), (
     'owner permission must not approve altered or medically/anatomically held PNG')
 canonical_approved = [x for x in owner_approved if x['lang'] in ('en', 'shared')]
-assert len(canonical_approved) == 61 and len({x['diagramId'] for x in canonical_approved}) == 61
-assert not {'u4-calotes-arterial-system', 'u3-parental-care-parental-care-comparison'} & {x['diagramId'] for x in canonical_approved}
+assert len(canonical_approved) == 60 and len({x['diagramId'] for x in canonical_approved}) == 60
+assert not {'u4-calotes-arterial-system', 'u3-parental-care-parental-care-comparison', 'u5-dentition-human-rabbit-dental-formula'} & {x['diagramId'] for x in canonical_approved}
 for x in fs:
     if x.get('scientificRiskHold'):
         assert x.get('ownerQaDisplayDecision') != 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13'
 assert next(x for x in fs if x['diagramId'] == 'u5-rabbit-endoskeleton'
             and x['lang'] == 'ta')['scientificRiskHold'] == 'MATERIAL_ANATOMY_ERROR'
-print('PASS: 61 retained canonical owner approvals; corrected aerofoil needs renewed owner approval')
+print('PASS: 60 retained canonical owner approvals; corrected aerofoil/dental plates require renewed owner review')
+
+# Figure 63 was redrawn after the old provisional owner approval: do not
+# transfer that consent or scientific review to the new SHA.
+fig63 = next(x for x in fs if x['diagramId'] == 'u5-dentition-human-rabbit-dental-formula')
+assert fig63['sha256'] != fig63.get('retiredQaAcceptedSha256')
+assert fig63.get('retiredQaAcceptedSha256') == '9f513dc0c910dfe81febd3bb5e02ebfece5f5e5afcb9109ebfbc20cc8748508f'
+assert not fig63.get('ownerQaAcceptedSha256') and not fig63.get('ownerQaDisplayDecision')
+assert 'PEG' in fig63.get('visualReview', '').upper()
+assert 'posterior' in fig63.get('modifications', '')
+print('PASS: corrected Figure 63 hash and owner-review reset; old bitmap archived')
 
 byid=collections.defaultdict(set)
 for id,lang in keys:byid[id].add(lang)
