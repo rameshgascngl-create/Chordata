@@ -53,6 +53,18 @@ assert next(x for x in fs if x['diagramId'] == 'u5-rabbit-endoskeleton'
             and x['lang'] == 'ta')['scientificRiskHold'] == 'MATERIAL_ANATOMY_ERROR'
 print('PASS: 60 retained canonical owner approvals; corrected aerofoil/dental plates require renewed owner review')
 
+# Exact-commit raster integrity for corrected Figure 63 and its retired source.
+fig63_bytes = (p/'human_rabbit_dental_formula.png').read_bytes()
+assert len(fig63_bytes) == 102144
+assert struct.unpack('>II',fig63_bytes[16:24]) == (2200, 1060)
+assert hashlib.sha256(fig63_bytes).hexdigest() == '29d0ac32251a09aedd446233d675dd8fd6a75122223ccdd206ca3132b9df1afc'
+retired63 = ROOT/'docs/figures/retired_fig63_20261120.png'
+assert retired63.is_file()
+assert hashlib.sha256(retired63.read_bytes()).hexdigest() == '9f513dc0c910dfe81febd3bb5e02ebfece5f5e5afcb9109ebfbc20cc8748508f'
+figure63_source = (ROOT/'scripts/build_fig63_plate.py').read_text(encoding='utf-8')
+for required in ('I2: small peg tooth BEHIND I1', 'COUNT GRID: not actual tooth positions', '(8 upper + 6 lower) × 2 = 28', '(8 upper + 8 lower) × 2 = 32'):
+    assert required in figure63_source, ('Figure 63 spatial/formula text lost',required)
+
 # Figure 63 was redrawn after the old provisional owner approval: do not
 # transfer that consent or scientific review to the new SHA.
 fig63 = next(x for x in fs if x['diagramId'] == 'u5-dentition-human-rabbit-dental-formula')
