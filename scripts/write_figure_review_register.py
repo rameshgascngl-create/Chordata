@@ -131,12 +131,40 @@ def main():
     writer.writerows(rows)
     rendered = buffer.getvalue().encode('utf-8-sig')
     if args.release_check:
-        not_signed = [r['diagram_id'] for r in rows if
-                      r['scientific_decision'].strip().upper() != 'ACCEPTED' or
-                      r['tamil_decision'].strip().upper() != 'ACCEPTED']
-        if not_signed:
-            raise SystemExit(f'RELEASE HOLD: {len(not_signed)}/64 figures lack dual independent ACCEPTED decisions; first: {", ".join(not_signed[:5])}')
-        print('PASS: all 64 figures signed by distinct scientific and Tamil reviewers')
+        # Reviewer decisions without identities and evidence are not sign-offs.
+        # Two independent qualified people must be named for every exact asset.
+        incomplete = []
+        for r in rows:
+            scientific = r['scientific_reviewer'].strip()
+            tamil = r['tamil_reviewer'].strip()
+            valid = (r['scientific_decision'].strip().upper() == 'ACCEPTED'
+                     and r['tamil_decision'].strip().upper() == 'ACCEPTED'
+                     and scientific and tamil
+                     and scientific.casefold() != tamil.casefold()
+                     and r['scientific_notes'].strip()
+                     and r['tamil_notes'].strip())
+            if not valid:
+                incomplete.append(r['diagram_id'])
+        if incomplete:
+            raise SystemExit(
+                'RELEASE HOLD: ' + str(len(incomplete)) +
+                '/64 figures lack two DISTINCT named reviewers, ACCEPTED decisions '
+                'and separate evidence notes; first: ' + ', '.join(incomplete[:5]))
+        # Review acceptance and permission to redistribute are different gates.
+        # A held image variant is not shipped/displayed; all other figure
+        # variants must have an explicit licence/rights declaration.
+        manifest = json.loads((ASSETS / 'pencil_plates/manifest.json')
+                              .read_text(encoding='utf-8'))['figures']
+        unlicensed = [x['diagramId'] + ':' + x['lang'] for x in manifest
+                      if not x.get('scientificRiskHold') and
+                      not x.get('license', '').strip()]
+        if unlicensed:
+            raise SystemExit(
+                'RELEASE HOLD: missing declared image reuse rights for ' +
+                str(len(unlicensed)) + ' active variants: ' +
+                ', '.join(unlicensed[:8]))
+        print('PASS: 64 figures have distinct named scientific and Tamil reviewers, '
+              'recorded evidence and active-asset licence declarations')
         return
     if args.check:
         if not OUTPUT.exists() or OUTPUT.read_bytes() != rendered:
