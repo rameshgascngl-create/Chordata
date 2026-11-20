@@ -660,6 +660,35 @@ class ReaderNavigationTest {
         org.junit.Assert.assertEquals(3, topic.quiz.size)
     }
 
+    @Test fun marsupialDiapauseAndBatBiosonarTextbookPagesRemainComplete() {
+        val pack = ContentRepository.load(InstrumentationRegistry.getInstrumentation().targetContext)
+        val required = mapOf(
+            "u5-marsupials" to "diapause-and-asynchronous-lactation",
+            "u5-flying-mammals" to "cf-fm-biosonar-and-range-finding"
+        )
+        val logic = `in`.gasc.zoology.chordata.domain.LearningLogic
+        for ((id, key) in required) {
+            val topic = requireNotNull(pack.findTopic(id))
+            val parts = topic.textbookChapters.single().sections
+            org.junit.Assert.assertEquals(7, parts.size)
+            val newSection = parts.single { it.key == key }
+            org.junit.Assert.assertTrue(newSection.body.en.length >= 700)
+            org.junit.Assert.assertTrue(newSection.body.ta.length >= 700)
+            val pages = logic.textbookPages(topic)
+            org.junit.Assert.assertTrue(pages.all { it.isNotEmpty() })
+            org.junit.Assert.assertEquals(parts.map { it.key },
+                pages.flatten().map { it.key })
+            org.junit.Assert.assertTrue(logic.isQuizPage(topic, logic.lastPage(topic)))
+        }
+        org.junit.Assert.assertEquals(8,
+            requireNotNull(pack.findTopic("u5-mammalia-classification"))
+                .textbookChapters.single().sections.size)
+        org.junit.Assert.assertEquals(121,
+            pack.topics.flatMap { it.sections }.sumOf { it.keyPoints.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+    }
+
     @Test fun detailedRabbitTextbookContainsCorrectDentitionAndCaecotrophy() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val pack = ContentRepository.load(context)

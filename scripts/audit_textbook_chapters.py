@@ -92,6 +92,18 @@ assert mammal_keys <= set(mammal_sections), "Missing mammalian evolutionary anat
 assert len(by_topic["u5-mammalia-classification"]["sections"]) >= 8
 assert all(len(mammal_sections[k]["body"][lang]) >= 750
            for k in mammal_keys for lang in ("en", "ta")), "Mammal bilingual depth"
-assert len(keys) >= 315, f"Expected >=315 full bilingual textbook sections, found {len(keys)}"
+mammalian_additions = {
+    "u5-marsupials": {"diapause-and-asynchronous-lactation"},
+    "u5-flying-mammals": {"cf-fm-biosonar-and-range-finding"},
+}
+for topic_id, names in mammalian_additions.items():
+    sections = {s["key"]: s for s in by_topic[topic_id]["sections"]}
+    assert names <= set(sections), ("Missing Mammalia lesson", topic_id)
+    assert all(len(sections[k]["body"][lang]) >= 700
+               for k in names for lang in ("en", "ta")), ("Abbreviated Mammalia lesson", topic_id)
+assert len(by_topic["u5-mammalia-classification"]["sections"]) == 8
+assert len(by_topic["u5-marsupials"]["sections"]) == 7
+assert len(by_topic["u5-flying-mammals"]["sections"]) == 7
+assert len(keys) >= 317, f"Expected >=317 full bilingual textbook sections, found {len(keys)}"
 print(f"PASS: {len(chapter_ids)}/{len(topics)} syllabus topics, {len(keys)} extended bilingual sections, "
       "source references, explicit draft review status")

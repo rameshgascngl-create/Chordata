@@ -4106,6 +4106,17 @@
           }
         },
         {
+          "key": "diapause-and-asynchronous-lactation",
+          "heading": {
+            "en": "Embryonic diapause and simultaneous milk of different compositions in marsupials",
+            "ta": "கருவளர்ச்சி இடைநிறுத்தமும் ஒரே நேரத்தில் வேறுபட்ட அமைப்புள்ள பால்சுரப்பும்"
+          },
+          "body": {
+            "en": "In a number of kangaroos and wallabies, a fertilised embryo can temporarily stop developing at an early blastocyst stage, a phenomenon called embryonic diapause. The embryo remains viable, and development resumes when the mother's endocrine and seasonal conditions permit it. The tammar wallaby, Notamacropus eugenii (also recorded historically as Macropus eugenii), is a well-studied example: suckling and changes in photoperiod contribute to the timing of embryo reactivation. Not all marsupials undergo diapause, and this process is not the same as a simply prolonged normal pregnancy. The extended period of lactation after the birth of a very immature young also shows a remarkable physiological specialisation. Milk changes in protein, lipid, carbohydrate and bioactive immune constituents as the pouch young grows. Some macropods can nurse a small pouch young and an older young at foot at the same time, providing different milk compositions from separate mammary glands; this is asynchronous concurrent lactation. It is species- and developmental-stage-dependent, not a feature of every marsupial. An undergraduate study chart should distinguish conception, diapause, resumed development, birth, teat attachment, changes in milk and weaning; it must not confuse the pouch with the uterus, or suggest that the living marsupial is an incomplete placental mammal.",
+            "ta": "கங்காரு மற்றும் வாலபி இனங்களில் சிலவற்றில் கருத்தரித்த பின்பு கரு பிளாஸ்டோசிஸ்ட் (blastocyst) நிலையில் தற்காலிகமாக வளர்ச்சியை நிறுத்திக் கொள்ளலாம். இதனை கருவளர்ச்சி இடைநிறுத்தம் (embryonic diapause) என்கிறோம். கரு உயிருடன் இருந்து, தாயின் ஹார்மோன் நிலையும் பருவநிலையும் ஏற்றதாகும்போது மீண்டும் வளர்ச்சியைத் தொடர்கிறது. டாமர் வாலபி Notamacropus eugenii (பழைய அறிவியல் பெயர் Macropus eugenii) இந்நிகழ்விற்கு நன்கு ஆய்வு செய்யப்பட்ட எடுத்துக்காட்டாகும். குட்டி பால் உறிஞ்சுதல், பகல்நேர நீளத்தில் ஏற்படும் மாற்றம் ஆகியவை கரு மீண்டும் வளரத் தொடங்கும் நேரத்துடன் தொடர்புடையவை. எல்லா மார்சூப்பியல்களிலும் கருவளர்ச்சி இடைநிறுத்தம் இல்லை; இதனை நீண்ட சாதாரண கருப்பைக் காலமாகக் கருதக்கூடாது. மிகவும் வளர்ச்சி குறைந்த நிலையில் பிறக்கும் குட்டிக்கு நீண்டகாலப் பாலூட்டுதல் தேவைப்படுகிறது. குட்டி வளரும்போது பாலில் உள்ள புரதம், கொழுப்பு, மாவுச்சத்துப் பொருள்கள், நோயெதிர்ப்புச் செயற்பாடுள்ள கூறுகள் ஆகியவற்றின் அளவுகள் மாறுகின்றன. சில கங்காரு உறவினர்களில் பைக்குள் உள்ள சிறிய குட்டியும் பைக்கு வெளியே நடமாடும் பெரிய குட்டியும் ஒரே நேரத்தில் பால் பெறலாம். அப்போது வெவ்வேறு பால்சுரப்பிகளிலிருந்து வேறுபட்ட அமைப்புள்ள பால் வெளியிடப்படலாம். இதனை ஒரே நேரத்தில் வேறுபட்ட பாலூட்டுதல் (asynchronous concurrent lactation) என்கிறோம். இந்நிலை எல்லா மார்சூப்பியல்களுக்கும் பொதுவானது அல்ல. மாணவர் படத்தில் கருத்தரித்தல், இடைநிறுத்தம், மீண்டும் கருவளர்தல், பிறப்பு, முலைக்காம்பு பற்றுதல், பாலின் அமைப்பில் ஏற்படும் மாற்றம், பால் மறத்தல் ஆகியவற்றை வரிசையாகக் காட்ட வேண்டும். பையை கருப்பையாகக் காட்டவோ மார்சூப்பியல்களை முழுமையடையாத நஞ்சுக்கொடி பாலூட்டிகளாகக் கூறவோ கூடாது."
+          }
+        },
+        {
           "key": "adaptive-radiation",
           "heading": {
             "en": "Kangaroo, koala, wombat and carnivorous marsupials",
@@ -4143,6 +4154,14 @@
         {
           "label": "OpenStax Biology 2e — Marsupials and mammals",
           "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals"
+        },
+        {
+          "label": "Marsupial milk nutrient and immune physiology, review (2020)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7319036/"
+        },
+        {
+          "label": "Tammar wallaby genome and development, Genome Biology (2011)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3277949/"
         }
       ]
     },
@@ -4188,6 +4207,17 @@
           }
         },
         {
+          "key": "cf-fm-biosonar-and-range-finding",
+          "heading": {
+            "en": "Frequency-modulated and constant-frequency bat sonar and echo-distance measurement",
+            "ta": "வௌவால்களின் அதிர்வெண் மாறும் மற்றும் நிலையான எதிரொலி ஒலிகளும் தொலைவு கணிப்பும்"
+          },
+          "body": {
+            "en": "A bat using biosonar emits an acoustic pulse and estimates an object's range from the interval before the echo returns. Because the sound travels to the target and back, distance is approximately sound speed multiplied by echo delay divided by two. For example, at an assumed sound speed of 340 metres per second, a six-millisecond return delay corresponds to a target about one metre away. This is an illustration, not a claim about fixed sound speed in all environments. Frequency-modulated (FM) calls sweep rapidly across a range of frequencies and provide useful information about near targets and fine echo delays. Constant-frequency (CF) calls maintain a relatively stable tone for longer intervals, and the Doppler shift in returning sound can reveal movement. Some species use combined CF-FM calls, including several horseshoe-bat lineages. Call frequency, duration, intensity and repetition depend on the species, habitat and activity. Many aerial insect-hunters increase pulse rate and shorten calls as they approach prey, often producing a rapid terminal buzz. Bats also use vision, smell and memory, and not all bat lineages echolocate with the same apparatus. In practical spectrograms label frequency, time, emitted pulse, returning echo, round-trip delay and FM versus CF structure. Do not depict an unmeasured decorative sound wave as a scientific recording or imply that every bat is blind.",
+            "ta": "வௌவால் வெளியிடும் ஒலி ஒரு பொருளை அடைந்து எதிரொலியாகத் திரும்பும்போது ஏற்படும் நேர இடைவெளியிலிருந்து அந்தப் பொருளின் தொலைவை அறியலாம். ஒலி பொருளை அடைந்து மீண்டும் திரும்புவதால், தொலைவு என்பது ஒலியின் வேகம் × எதிரொலி நேரம் ÷ 2 என்ற கணக்கின் மூலம் ஏறத்தாழக் கிடைக்கிறது. எடுத்துக்காட்டாக ஒலியின் வேகம் வினாடிக்கு 340 மீட்டர் எனக் கொண்டால், எதிரொலி ஆறு மில்லிவினாடிகளில் திரும்பும் பொருள் ஏறத்தாழ ஒரு மீட்டர் தொலைவில் இருக்கும். இது விளக்கத்திற்கான மதிப்பு; எல்லா சூழலிலும் ஒலியின் வேகம் மாறாமல் இருக்கும் என்பதல்ல. அதிர்வெண் மாறும் ஒலிகள் (frequency-modulated calls, FM) குறுகிய நேரத்தில் பல அதிர்வெண்களைக் கடக்கின்றன. இவை அருகிலுள்ள பொருள்களின் எதிரொலி நேர வேறுபாடுகளை அறிய உதவலாம். நிலையான அதிர்வெண் ஒலிகள் (constant-frequency calls, CF) ஒப்பீட்டளவில் நீண்ட நேரம் ஒரே அதிர்வெண்ணில் காணப்படுகின்றன. இயக்கத்தால் திரும்பும் ஒலியில் ஏற்படும் டாப்ளர் மாற்றம் (Doppler shift) பொருளின் இயக்கத்தைக் கண்டறிய உதவலாம். குதிரைலாட வௌவால்கள் போன்ற சில இனங்களில் CF, FM கூறுகள் இணைந்த ஒலிகளும் பயன்படுகின்றன. வௌவாலின் இனம், வாழிடம், உணவுதேடும் நிலை ஆகியவற்றிற்கு ஏற்ப ஒலியின் அதிர்வெண், நீளம், தீவிரம், வெளியிடும் வேகம் மாறுகின்றன. இரையை நெருங்கும்போது சில பூச்சியுண்ணி வௌவால்கள் குறுகிய ஒலிகளை வேகமாக வெளியிட்டு இறுதியில் விரைவான தொடரொலியை உருவாக்கலாம். இவை பார்வை, மணம், நினைவாற்றல் ஆகியவற்றையும் பயன்படுத்துகின்றன; எல்லா வௌவால்களும் ஒரே எதிரொலி முறையைப் பயன்படுத்துவதில்லை. செய்முறைக்கான ஒலிவரைபடத்தில் அதிர்வெண், நேரம், வெளியிடப்பட்ட ஒலி, திரும்பும் எதிரொலி, இருவழி நேர இடைவெளி, FM–CF வேறுபாடு ஆகியவற்றைக் குறிப்பிட வேண்டும். ஆய்வில் அளவிடாத கற்பனையான அலைவடிவத்தை உண்மையான பதிவாகக் காட்டக்கூடாது."
+          }
+        },
+        {
           "key": "diet-ecology",
           "heading": {
             "en": "Insectivory, frugivory, pollination and ecosystem roles",
@@ -4229,6 +4259,14 @@
         {
           "label": "Bat Conservation International — Bat biology",
           "url": "https://www.batcon.org/about-bats/"
+        },
+        {
+          "label": "Frequency modulation and constant frequency in echolocating bats, Journal of Comparative Physiology A (2018)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6208693/"
+        },
+        {
+          "label": "Bat flight and echolocation acoustic strategies, review (2020)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7285367/"
         }
       ]
     },
