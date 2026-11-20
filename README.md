@@ -1,8 +1,12 @@
-# CHORDATA — Native Android QA foundation
+# CHORDATA — Native Kotlin/Jetpack Compose Zoology textbook
 
-**Status (12 November 2026):** GitHub Actions workflow [#43248574501](https://github.com/rameshgascngl-create/Chordata/actions/runs/43248574501) passed native QA, emulator tests, and unsigned release-bundle/lint preflight for the committed *pre-AI10* source. Ten owner-selected AI plates are present in a separately validated local QA APK and source overlay, **not yet in this GitHub branch**. This is not a production release.
+**Status (20 November 2026):** The repository contains five undergraduate units, 39 textbook topics, 298 expanded English–Tamil sections, 127 core lesson sections, 117 bilingual MCQs and 64 illustrated lesson slots (68 language variants). The earlier QA build at commit `d09d45e5` passed native, emulator and unsigned release-bundle checks; **later Tamil editorial commits require new exact-commit CI acceptance**. The application is **not yet a signed Play Store release**.
 
-This is a **genuinely native Kotlin/Jetpack Compose application**. It does not use HTML, JavaScript, a WebView, network requests or an online API. The five-unit `chordata_content.json` from the 5 November 2026 validated source project is bundled *byte-for-byte* in `app/src/main/assets/`.
+This is a **fully native Android application** written in Kotlin and Jetpack Compose. It does not use HTML, JavaScript, a WebView or an in-app network API. It retains a book-like page-by-page reader, continuous chapter mode, pointwise lesson presentation, study answers, bookmarks and private local progress. English content and published-source attributions are retained while Tamil explanations are being rewritten in natural textbook prose.
+
+**Image status:** 64/64 syllabus slots are populated. The project owner authorised 63 canonical figures for provisional QA use; a corrected, source-checked **Calotes cardiovascular schematic** replaced the previously faulty AI figure on 13 November 2026. The Tamil AI rabbit-skeleton variant remains withheld, with the sourced English fallback. Independent scientific/Tamil figure approvals and source-licence review remain separate release checks. Do not identify provisional owner permission as independent scientific sign-off.
+
+**Privacy and release status:** The reviewed source requests no Android permissions; network and Android backup are disabled. The release workflow is manual and gated by exact-commit CI success, a public privacy-policy URL, an authorised developer contact, image reviews, Play Console declarations and an upload-key-signed Android App Bundle. QA APKs are not valid Play-upload artifacts.
 
 ## Academic scope
 
@@ -11,7 +15,7 @@ This is a **genuinely native Kotlin/Jetpack Compose application**. It does not u
 - Unit III Amphibia: 6 topics
 - Unit IV Reptilia: 6 topics
 - Unit V Aves and Mammalia: 11 topics
-- **Total: 39 topics, 127 bilingual sections, 117 explanatory MCQs, 64 figure IDs**.
+- **Total: 39 topics, 127 core bilingual sections, 298 expanded textbook sections, 117 explanatory MCQs and 64 figure IDs**.
 
 **All 64 registered lesson slots now contain PROVISIONAL offline artwork** (68 language-variant manifest entries referencing 67 distinct pencil-plate PNGs; seven legacy/reference PNGs remain bundled separately). The drawings are not academically certified, and the UI marks them as drafts. Presence/placement is not scientific approval.
 
