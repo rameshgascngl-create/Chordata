@@ -13,6 +13,7 @@ python3 "$ROOT/scripts/audit_built_apk_assets.py" --self-test
 python3 "$ROOT/scripts/test_apk_source_fixture.py"
 python3 "$ROOT/scripts/write_figure_review_register.py" --check
 python3 "$ROOT/scripts/test_review_signoff_guards.py"
+python3 "$ROOT/scripts/test_gradle_ci_retry.py"
 python3 "$ROOT/scripts/test_sdk37_platform.py"
 python3 "$ROOT/scripts/test_git_sync_whitespace.py"
 python3 "$ROOT/scripts/check_textbook_plates.py"
