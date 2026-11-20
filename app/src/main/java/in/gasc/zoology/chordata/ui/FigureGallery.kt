@@ -589,7 +589,10 @@ internal fun FigureGallery(topicId: String, page: Int, lang: ReadingLanguage, re
                     "u1-vertebrata-classification-vertebrate-phylogeny",
                     "u2-scoliodon-external-labelled",
                     "u1-agnatha-petromyzon-adult-larva",
-                    "u5-columba-sense-organs"
+                    "u5-columba-sense-organs",
+                    // Anatomical keys are essential to interpret these provisional plates.
+                    "u5-columba-urinogenital",
+                    "u5-flight-adaptations-avian-lung"
                 )
                 var captionExpanded by remember(plate.id) { mutableStateOf(essentialKey) }
                 val fullCaption = if (lang == ReadingLanguage.TA) plate.captionTa else plate.captionEn

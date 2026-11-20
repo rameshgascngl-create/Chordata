@@ -22,6 +22,10 @@
 - **#57–64, Mammalia figures:** Existing source/licence/hash entries remain unchanged. No additional independent acceptance is implied.
 - This batch inspected textual teaching keys and register metadata; it **does not claim new pixel-by-pixel artwork inspection or device-level visual acceptance**. No artwork or licence metadata was modified, so source-image hashes remain unchanged.
 
+## Native reader figure-key legibility
+
+The figure-card code previously collapsed the detailed label keys for Figures **47** and **51** by default. Both are provisional anatomy/physiology images where caveats must be visible without a separate tap. The native reader now displays those full keys at its standard expanded text size in both languages; the image PNGs, zoom functionality, original identifiers, figure placement and independent sign-off status are unchanged. The Android QA-contract script explicitly guards this behaviour. Device-level legibility at 100% and 200% font scale remains subject to the new-commit instrumentation results.
+
 ## Validation gate
 
 The existing `scripts/audit_textbook_chapters.py` now checks the paired English–Tamil anatomical terms, on every mandated QA workflow execution. Existing 39-topic coverage, bilingual sections, figure source/hash checks, Kotlin compilation and Android instrumentation must pass on **this new commit** before a QA APK can be considered current. Independent scientific and Tamil sign-off remain external release blockers.

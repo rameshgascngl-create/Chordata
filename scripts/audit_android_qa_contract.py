@@ -47,6 +47,14 @@ assert 'filename = entry.getString("path").substringAfterLast' not in gallery_te
 assert all(e['path'].startswith('pencil_plates/') and len(e['path'].split('/')) == 2 for e in entries), 'Manifest still contains staging aliases'
 assert 'pencilPlates[slot.id to language]' not in gallery_text
 assert 'FigureGallery(topic.id, sectionIndex + 1, lang' in (ROOT / 'app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt').read_text(encoding='utf-8')
+# Figure 47/51 involve anatomical caveats that must be visible without an extra tap.
+# Keep their explanatory key expanded at 100% and 200% font scaling.
+assert '"u5-columba-urinogenital"' in gallery_text and '"u5-flight-adaptations-avian-lung"' in gallery_text
+figure_key_block = gallery_text.split('val essentialKey = plate.id in setOf(', 1)[1].split(')', 1)[0]
+assert all('"' + id + '"' in figure_key_block for id in (
+    'u5-columba-urinogenital', 'u5-flight-adaptations-avian-lung')),
+    'Critical pigeon and avian respiration teaching keys must remain expanded by default'
+
 
 # Reproducibility: a ZIP extractor may not restore Unix executable bits.
 # The entrypoint must invoke the Kotlin smoke-test shell script explicitly.
