@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reject a Play bundle that silently reverts any of the ten owner-selected AI PNGs.
+"""Pin the nine retained AI10 PNGs and their source-checked amphibian replacement.
 
 These exact SHA-256 values identify the owner-requested images integrated in
 CHORDATA_AI10_Source_Integration_Patch_20261112.zip. This is a binary identity
@@ -17,7 +17,6 @@ REQUIRED = {
     'u2-pisces-classification-fish-groups': ('pencil_plates/fish_major_groups_en.png', '54617d2619e40baac973441d064c123a6b63ceb9d39ff7a743dd70ecb42bfef5'),
     'u2-accessory-respiration-accessory-organs-comparison': ('pencil_plates/fish_accessory_breathing_en.png', '30c841301b6042eebaf128db033fcaf2542c99cd1b4129609721320a641fa274'),
     'u2-parental-care-parental-care-comparison': ('pencil_plates/fish_parental_care_en.png', '8bbd87a865d337f64e537ea25f8010aea6688abd2424730afb31ef75a686137b'),
-    'u3-parental-care-parental-care-comparison': ('pencil_plates/amphibian_parental_care_en.png', 'dac94c5386b213c8dc104c8d85cd62c72cbbb994c92bf9ae531e23465dfc67d9'),
     'u4-calotes-digestive-system': ('pencil_plates/calotes_digestive_en.png', '5da6f592cd726621ff5df240ebb506d9dc7142d95c03e6bfc99d89eede55834b'),
     'u4-calotes-respiratory-system': ('pencil_plates/calotes_respiratory_en.png', '5f63ba851ba074880db5ddecf044c24490173327903b9435e793f63f874eeae4'),
     'u4-origin-extinct-extinct-groups': ('pencil_plates/extinct_reptile_lineages_en.png', 'c36f69163bd291ee663f54c1575e6de3dd52caa80d6990cdb5bd81b02a367f18'),
@@ -36,5 +35,12 @@ for figure_id, (path, expected_sha) in REQUIRED.items():
     raw = (ASSETS / path).read_bytes()
     assert hashlib.sha256(raw).hexdigest() == expected_sha, f"AI10 file mismatch: {figure_id}"
     assert entry.get("size") == len(raw), f"AI10 file length mismatch: {figure_id}"
-print("PASS: all 10 owner-selected AI PNGs present in registered lesson slots, exact bytes and attribution")
+replacement = next(x for x in figures if x['diagramId'] == 'u3-parental-care-parental-care-comparison' and x['lang'] == 'en')
+assert replacement['retiredPlateSha256'] == 'dac94c5386b213c8dc104c8d85cd62c72cbbb994c92bf9ae531e23465dfc67d9'
+assert replacement['sourceKind'] == 'ORIGINAL_EDUCATIONAL_LAYOUT_WITH_ADAPTED_PROJECT_ART'
+assert replacement['sha256'] == '5e65932b980f9dc21d83d2d00e379432fdbf212cd200226a0889daae1037aa6f'
+assert hashlib.sha256((ASSETS / replacement['path']).read_bytes()).hexdigest() == replacement['sha256']
+assert replacement['independentBiologyReview'] == replacement['independentTamilReview'] == 'PENDING'
+assert not replacement.get('ownerQaAcceptedSha256'), 'The retired artwork approval must not carry over'
+print("PASS: nine AI10 originals and the corrected amphibian PNG verified by hash")
 print("NOTE: release also requires independent biology/Tamil review; this script does not waive it")

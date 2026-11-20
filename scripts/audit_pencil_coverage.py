@@ -35,23 +35,23 @@ for x in fs:
         assert all(x.get(k) for k in ('topicId','page','sectionKey','learningObjective','referenceUrls')), ('missing academic traceability',id)
         assert x['topicId']==s['topicId'] and x['page']==s['page'] and x['sectionKey']==s['sectionKey'], ('wrong lesson section',id)
 # Explicit owner acceptance applies to exact image hashes, not to the
-# separate independent scientific/Tamil sign-off. The corrected Calotes PNG
-# is checked below, outside the original 63 hash-bound approvals.
+# separate independent scientific/Tamil sign-off. Corrected Calotes and
+# amphibian parental-care plates have no inherited approval.
 owner_approved = [x for x in fs if
     x.get('ownerQaDisplayDecision') == 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13']
-assert len(owner_approved) == 66, ('unexpected owner-accepted variants', len(owner_approved))
+assert len(owner_approved) == 65, ('unexpected owner-accepted variants', len(owner_approved))
 assert all(x.get('ownerQaAcceptedSha256') == x['sha256'] and
     not x.get('scientificRiskHold') for x in owner_approved), (
     'owner permission must not approve altered or medically/anatomically held PNG')
 canonical_approved = [x for x in owner_approved if x['lang'] in ('en', 'shared')]
-assert len(canonical_approved) == 63 and len({x['diagramId'] for x in canonical_approved}) == 63
-assert 'u4-calotes-arterial-system' not in {x['diagramId'] for x in canonical_approved}
+assert len(canonical_approved) == 62 and len({x['diagramId'] for x in canonical_approved}) == 62
+assert not {'u4-calotes-arterial-system', 'u3-parental-care-parental-care-comparison'} & {x['diagramId'] for x in canonical_approved}
 for x in fs:
     if x.get('scientificRiskHold'):
         assert x.get('ownerQaDisplayDecision') != 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13'
 assert next(x for x in fs if x['diagramId'] == 'u5-rabbit-endoskeleton'
             and x['lang'] == 'ta')['scientificRiskHold'] == 'MATERIAL_ANATOMY_ERROR'
-print('PASS: original 63 canonical owner approvals remain bound to their exact PNG hashes')
+print('PASS: 62 retained canonical owner approvals remain bound to their exact PNG hashes')
 
 byid=collections.defaultdict(set)
 for id,lang in keys:byid[id].add(lang)
