@@ -396,16 +396,16 @@
       "sectionKey": "frog-examples",
       "points": [
         {
-          "en": "Some poison dart frogs transport tadpoles to small water bodies; parental care differs among species and sexes.",
-          "ta": "சில விஷ அம்புத் தவளைகள் தலைப்பிரட்டைகளைச் சிறிய நீர்நிலைகளுக்கு எடுத்துச் செல்கின்றன. பராமரிக்கும் பாலினமும் முறையும் இனத்தின்படி மாறுகின்றன."
+          "en": "Male Dendrobates tinctorius transport tadpoles to water. In Ranitomeya imitator males usually transport the tadpoles and females feed them unfertilised eggs.",
+          "ta": "டென்ட்ரோபேட்டிஸ் டின்க்டோரியஸ் இனத்தில் ஆண் தலைப்பிரட்டைகளை நீர்த்தேக்கங்களுக்குச் சுமந்து செல்கிறது. ரானிடோமேயா இமிடேட்டர் இனத்தில் பொதுவாக ஆண் கடத்துகிறது. பெண் கருவுறாத முட்டைகளை உணவாக வழங்குகிறது."
         },
         {
-          "en": "Foam-nest builders protect eggs within a moist frothy matrix, reducing exposure to drying during early development.",
-          "ta": "நுரைக் கூடு அமைக்கும் தவளைகள் ஈரமான நுரைத் திரளில் முட்டைகளைப் பாதுகாக்கின்றன. இதனால் தொடக்க வளர்ச்சியில் முட்டைகள் உலர்ந்து போகும் அபாயம் குறைகிறது."
+          "en": "Foam may limit drying during early development. Tadpoles from some nests built over water enter the water after hatching.",
+          "ta": "ஈரமான நுரை முட்டைகள் உலர்வதைக் குறைக்கலாம். நீருக்கு மேல் அமைந்த சில கூடுகளில் தலைப்பிரட்டைகள் முட்டை பொரிந்ததும் கீழுள்ள நீரில் விழுகின்றன."
         },
         {
-          "en": "Direct-developing amphibians bypass a free-swimming tadpole stage; this strategy changes the habitat required for offspring development.",
-          "ta": "நேரடி வளர்ச்சியுள்ள இருவாழ்விகளில் தனியாக நீந்தும் தலைப்பிரட்டை நிலை இல்லை. இதனால் சந்ததிகளின் வளர்ச்சிக்கு வேண்டிய வாழிடத் தேவைகள் மாறுகின்றன."
+          "en": "Species with direct development have no free-living larval stage. Development takes place within the egg until juveniles hatch.",
+          "ta": "நேரடி வளர்ச்சியுடைய இனங்களில், முட்டைக்குள் வளர்ச்சி நடைபெற்று இளம் விலங்கு வெளிவருகிறது. தனியாக வாழும் இளவுயிரி நிலை இல்லை."
         }
       ]
     },

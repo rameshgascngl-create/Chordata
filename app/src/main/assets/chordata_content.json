@@ -2905,33 +2905,33 @@
               "key": "diverse-strategies",
               "heading": {
                 "en": "Why parental care varies",
-                "ta": "பெற்றோர் பராமரிப்பில் வேறுபாடுகள்"
+                "ta": "பெற்றோர் பராமரிப்பின் பல்வேறு முறைகள்"
               },
               "body": {
                 "en": "Some amphibians lay eggs in water and give little care afterwards. Others guard the eggs, carry young or brood them in specialised structures. Care can reduce predation or drying, but takes time and energy. The number of eggs alone does not tell you how much care the parents give.",
-                "ta": "இருவாழ்விகளின் இனப்பெருக்கத்தில் பெற்றோர் பராமரிப்பு மிகுந்த வேறுபாடுகளைக் காட்டுகிறது. சில இனங்கள் நீரில் முட்டையிட்டு அடுத்தகட்ட கவனிப்பை வழங்குவதில்லை. பிற இனங்கள் முட்டைகளைப் பாதுகாத்தல், இடமாற்றுதல் அல்லது உடலில் சுமந்து வளர்த்தல் போன்ற செயல்களை மேற்கொள்கின்றன. இத்தகைய பராமரிப்பு இளநிலைகளின் வேட்டையாடப்படுதல் மற்றும் உலர்தல் அபாயத்தை குறைக்கலாம். ஆனால் பெற்றோருக்குக் கூடுதல் ஆற்றல் செலவு ஏற்படுகிறது."
+                "ta": "சில இருவாழ்விகள் நீரில் முட்டையிட்ட பிறகு அவற்றைப் பராமரிப்பதில்லை. வேறு சில முட்டைகளைக் காக்கின்றன, இளவுயிரிகளைச் சுமக்கின்றன அல்லது உடலின் சிறப்புப் பகுதிகளில் கருக்களை வளர்க்கின்றன. பராமரிப்பால் முட்டைகள் உலர்வதையோ இரைகொல்லிகளால் அழிவதையோ குறைக்க முடியும். இதற்குப் பெற்றோரின் நேரமும் ஆற்றலும் செலவாகின்றன. முட்டைகளின் எண்ணிக்கையை மட்டும் கொண்டு பராமரிப்பு அளவை முடிவு செய்ய முடியாது."
               }
             },
             {
               "key": "frog-examples",
               "heading": {
                 "en": "Frog examples",
-                "ta": "தவளைகளில் எடுத்துக்காட்டுகள்"
+                "ta": "தேரை மற்றும் தவளைகளில் முட்டைக் காப்பும் இளவுயிரிகளைக் கடத்தலும்"
               },
               "body": {
-                "en": "The male midwife toad Alytes carries strings of eggs around his hind legs, while some tree frogs produce foam nests that protect embryos. Poison dart frogs of certain species carry hatched tadpoles to small water bodies. These examples represent different lineages and should not be described as universal amphibian behaviour.",
-                "ta": "அலைடீஸ் என்னும் மிட்வைஃப் தேரையின் ஆண் முட்டைத்தொடர்களை பின்னங்கால்களைச் சுற்றிச் சுமக்கிறது. சில மரத்தவளைகள் கருக்களைப் பாதுகாக்க நுரைக்கூடுகளை உருவாக்குகின்றன. சில நஞ்சுத் தவளை இனங்கள் பொரிந்த தலைப்பிரட்டைகளைச் சிறிய நீர்நிலைகளுக்கு எடுத்துச் செல்கின்றன. இந்த எடுத்துக்காட்டுகள் வெவ்வேறு பரிணாமக் குழுக்களைச் சேர்ந்தவை. எல்லா தவளைகளும் ஒரே மாதிரியான பராமரிப்பைச் செய்கின்றன என்று கூற முடியாது."
+                "en": "Male midwife toads (Alytes) carry fertilised egg strings around their hind limbs. Some tree frogs deposit eggs in moist foam nests. In the dyeing poison frog (Dendrobates tinctorius), males carry newly hatched tadpoles on their backs to small water bodies. The caregiver and behaviour vary by species.",
+                "ta": "அலைடீஸ் (Alytes) தேரையின் ஆண் கருவுற்ற முட்டைச் சரங்களைப் பின்னங்கால்களைச் சுற்றிச் சுமக்கிறது. சில மரத்தவளைகள் முட்டைகளை ஈரமான நுரைக்கூட்டில் வைக்கின்றன. டென்ட்ரோபேட்டிஸ் டின்க்டோரியஸ் (Dendrobates tinctorius) இனத்தின் ஆண், முட்டையிலிருந்து வெளிவந்த தலைப்பிரட்டைகளை முதுகில் சுமந்து சிறிய நீர்த்தேக்கங்களில் விடுகிறது. பராமரிக்கும் பெற்றோரும் பராமரிப்பு முறையும் இனத்துக்கு இனம் மாறுகின்றன."
               }
             },
             {
               "key": "brooding-tradeoffs",
               "heading": {
                 "en": "Brooding and developmental trade-offs",
-                "ta": "உடலில் சுமந்து வளர்த்தலும் அதன் விளைவுகளும்"
+                "ta": "உடலில் கருவளர்ப்பும் குஞ்சுகளுக்கு உணவளித்தலும்"
               },
               "body": {
-                "en": "In Pipa, embryos develop in pockets associated with the female dorsal skin. Some caecilians guard eggs and have specialised feeding interactions with young. These observations reveal how parental investment relates to offspring number, developmental setting and survival. Scientific illustrations should label the parent and developmental stage accurately.",
-                "ta": "பிபா என்னும் தவளை இனத்தில் பெண் உயிரியின் முதுகுத் தோலுடன் தொடர்புடைய சிறு அறைகளில் கருக்கள் வளர்கின்றன. சில காலற்ற இருவாழ்விகளில் முட்டைகளைப் பாதுகாப்பதும் குட்டிகளுக்கு சிறப்பான உணவு வழங்குதலும் காணப்படுகின்றன. இவை பெற்றோர் முதலீடு, சந்ததி எண்ணிக்கை, வளர்ச்சி சூழல் மற்றும் உயிர்வாழ்தல் ஆகியவற்றுக்குள்ள தொடர்பை விளக்குகின்றன. பாடப்படங்களில் பெற்றோர் உடலும் வளர்ச்சி நிலையும் சரியாகக் குறிக்கப்பட வேண்டும்."
+                "en": "In Pipa pipa, embryos develop in chambers in the female’s dorsal skin and emerge as froglets. The male Darwin’s frog (Rhinoderma darwinii) broods developing tadpoles in his vocal sac. In some egg-laying caecilians, the young feed on a nutrient-rich layer of the mother’s skin. Compare the life stage, caregiver and mechanism of protection or nourishment in each example.",
+                "ta": "பிபா பிபா (Pipa pipa) இனத்தில் பெண்ணின் முதுகுத் தோலிலுள்ள அறைகளில் கருக்கள் வளர்கின்றன. இளம் தவளைகள் அவற்றிலிருந்து நேரடியாக வெளிவருகின்றன. டார்வின் தவளையின் (Rhinoderma darwinii) ஆண், வளரும் தலைப்பிரட்டைகளைத் தனது குரற்பையில் காக்கிறது. சில முட்டையிடும் சீசிலியன்களின் குஞ்சுகள் தாயின் ஊட்டச்சத்து நிறைந்த மேல்தோலை உண்ணுகின்றன. குஞ்சுகள் எந்த வளர்ச்சி நிலையில் உள்ளன, எந்தப் பெற்றோர் பராமரிக்கிறது, எவ்வாறு பாதுகாப்போ உணவோ கிடைக்கிறது என்பவற்றை ஒப்பிடுக."
               }
             }
           ],
@@ -2939,7 +2939,7 @@
             {
               "question": {
                 "en": "In the midwife toad Alytes, who carries egg strings?",
-                "ta": "அலைடீஸ் தேரையில் முட்டைத்தொடர்களைச் சுமப்பது எது?"
+                "ta": "அலைடீஸ் தேரையில் முட்டைச் சரங்களைச் சுமப்பது ஆணா, பெண்ணா?"
               },
               "options": [
                 {
@@ -2962,13 +2962,13 @@
               "correctIndex": 1,
               "explanation": {
                 "en": "Male Alytes carry egg strings attached around their hind legs.",
-                "ta": "ஆண் அலைடீஸ் பின்னங்கால்களைச் சுற்றி முட்டைத்தொடர்களைச் சுமக்கிறது."
+                "ta": "ஆண் அலைடீஸ் தேரை கருவுற்ற முட்டைச் சரங்களைப் பின்னங்கால்களைச் சுற்றிச் சுமக்கிறது."
               }
             },
             {
               "question": {
                 "en": "What is a foam nest primarily associated with?",
-                "ta": "நுரைக்கூடு முதன்மையாக எந்த செயலுடன் தொடர்புடையது?"
+                "ta": "தவளையின் நுரைக்கூடு எந்தப் பணியைச் செய்கிறது?"
               },
               "options": [
                 {
@@ -2991,13 +2991,13 @@
               "correctIndex": 3,
               "explanation": {
                 "en": "Foam nests can protect developing eggs against environmental hazards.",
-                "ta": "நுரைக்கூடு வளர்கின்ற முட்டைகளைச் சுற்றுச்சூழல் ஆபத்துகளிலிருந்து பாதுகாக்க உதவும்."
+                "ta": "நுரைக்கூட்டில் உள்ள ஈரப்பதம் வளரும் கருக்களைக் கொண்ட முட்டைகள் உலர்வதைக் குறைக்க உதவுகிறது."
               }
             },
             {
               "question": {
                 "en": "Which frog genus is known for dorsal skin brooding?",
-                "ta": "முதுகுத் தோலில் கருக்களை வளர்ப்பதற்குப் பெயர்பெற்ற தவளை பேரினம் எது?"
+                "ta": "எந்தத் தவளைப் பேரினத்தில் பெண்ணின் முதுகுத் தோலிலுள்ள அறைகளில் கருக்கள் வளர்கின்றன?"
               },
               "options": [
                 {
@@ -3020,7 +3020,7 @@
               "correctIndex": 2,
               "explanation": {
                 "en": "Pipa is notable for embryos developing in the dorsal skin of females.",
-                "ta": "பிபா பெண் தவளையின் முதுகுத் தோலில் கருக்கள் வளர்வது குறிப்பிடத்தக்கது."
+                "ta": "பிபா பிபா இனத்தில் பெண்ணின் முதுகுத் தோலிலுள்ள அறைகளில் கருக்கள் வளர்ந்து இளம் தவளைகளாக வெளிவருகின்றன."
               }
             }
           ],
