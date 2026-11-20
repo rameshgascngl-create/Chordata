@@ -3362,6 +3362,17 @@
           }
         },
         {
+          "key": "euryapsid",
+          "heading": {
+            "en": "Euryapsid-type skull: a historical upper-opening pattern",
+            "ta": "யூரியாப்சிட் வகைத் தலையோடு — மேல்புறத் திறப்பு கொண்ட பழைய வகைப்பாடு"
+          },
+          "body": {
+            "en": "In older skull-based classifications, the euryapsid type has a single upper temporal opening on each side of the skull, behind the orbit. It differs from the synapsid condition, which has a lower temporal opening. A euryapsid-like arrangement has been described in some extinct marine reptiles, including plesiosaurs and ichthyosaurs. These animals do not thereby form a single natural evolutionary lineage called Euryapsida. The pattern is generally interpreted in relation to modifications of ancestral diapsid skull architecture, but the history of each lineage must be investigated using its fossils and other characters. When comparing labelled skull diagrams, identify the orbit separately from the upper temporal fenestra; a historical skull morphotype must not be presented as a modern reptilian class or order.",
+            "ta": "பழைய தலையோட்டு அடிப்படையிலான வகைப்பாட்டில், யூரியாப்சிட் (euryapsid) வகையில் கண்குழிக்குப் பின்னால் ஒவ்வொரு பக்கத்திலும் மேல்புறக் காலச்சாளரம் (upper temporal fenestra) ஒன்று மட்டும் காணப்படும். சினாப்சிட் வகையில் காணப்படும் கீழ்ப்புறக் காலச்சாளரத்திலிருந்து இது வேறுபடுகிறது. இந்த அமைப்பு பிளீசியோசார்கள் (plesiosaurs), இக்தியோசார்கள் (ichthyosaurs) உள்ளிட்ட அழிந்த சில கடல்வாழ் ஊர்வனவற்றில் விவரிக்கப்பட்டுள்ளது. இதனால் அந்த உயிரினங்கள் அனைத்தும் ‘யூரியாப்சிடா’ என்ற ஒரே இயற்கைப் பரிணாமக் கிளையைச் சேர்ந்தவை என்று முடிவு செய்ய முடியாது. பொதுவாக இந்த வடிவம் மூதாதை டையாப்சிட் தலையோட்டு அமைப்பில் ஏற்பட்ட மாற்றங்களுடன் தொடர்புபடுத்தப்படுகிறது. இருப்பினும் ஒவ்வொரு உயிரினக் கிளையின் வரலாற்றையும் புதைபடிவங்கள் மற்றும் பிற உடற்கூறு ஆதாரங்களைக் கொண்டு ஆய்வு செய்ய வேண்டும். படத்தில் கண்குழியையும் மேல்புறக் காலச்சாளரத்தையும் தனித்தனியாகக் குறிக்க வேண்டும். வரலாற்றில் பயன்படுத்தப்பட்ட இந்த உடற்கூறு வடிவப் பெயரை நவீன ஊர்வன வகுப்பாகவோ வரிசையாகவோ எழுதக் கூடாது."
+          }
+        },
+        {
           "key": "secondary-modification",
           "heading": {
             "en": "Secondary closure, skull kinesis and taxonomic exceptions",
@@ -3388,6 +3399,14 @@
         {
           "label": "OpenStax Biology 2e — Amniote skulls and reptile evolution",
           "url": "https://openstax.org/books/biology-2e/pages/29-4-reptiles"
+        },
+        {
+          "label": "Werneburg and colleagues — review of temporal skull morphology and historical classification (Biological Reviews, 2021)",
+          "url": "https://doi.org/10.1111/brv.12751"
+        },
+        {
+          "label": "Schoch and Sues — Evolutionary origin of the turtle skull (Nature, 2015)",
+          "url": "https://www.nature.com/articles/nature14900"
         }
       ]
     },
