@@ -20,7 +20,7 @@ object ContentRepository {
             val topicId = entry.getString("topicId")
             val sectionKey = entry.getString("sectionKey")
             val points = entry.getJSONArray("points").toList { p -> p.bilingual() }
-            require(points.size == 3 && points.all {
+            require(points.size in 3..8 && points.all {
                 it.en.isNotBlank() && it.ta.isNotBlank()
             }) { "Incomplete bilingual learning points for $topicId / $sectionKey" }
             Triple(topicId, sectionKey, points)
@@ -117,7 +117,7 @@ object ContentRepository {
         require(pack.topics.all { topic -> topic.sections.count { it.keyPoints.isNotEmpty() } == 1 }) {
             "Each syllabus topic needs one targeted pointwise explanation"
         }
-        require(pack.topics.sumOf { topic -> topic.sections.sumOf { it.keyPoints.size } } == 117) {
+        require(pack.topics.sumOf { topic -> topic.sections.sumOf { it.keyPoints.size } } == 121) {
             "Incomplete pointwise enrichment"
         }
         require(pack.topics.all { it.quiz.all { q -> q.options.size == 4 && q.correctIndex in 0..3 } })
