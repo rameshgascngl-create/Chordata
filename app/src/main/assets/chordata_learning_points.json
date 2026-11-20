@@ -505,15 +505,23 @@
       "points": [
         {
           "en": "Temporal fenestrae are openings in the skull behind the orbit; their arrangement has historically been used for comparative classification.",
-          "ta": "டெம்போரல் பெனஸ்ட்ரே என்பது கண்குழிக்குப் பின்புறத் தலையோட்டிலுள்ள திறப்புகளாகும். அவற்றின் அமைப்பு வரலாற்று ஒப்பீட்டு வகைப்பாட்டில் பயன்படுத்தப்பட்டது."
+          "ta": "காலச்சாளரங்கள் (temporal fenestrae) என்பது கண்குழிக்குப் பின்னால் தலையோட்டில் காணப்படும் திறப்புகளாகும். அவற்றின் எண்ணிக்கையும் அமைவிடமும் பழைய ஒப்பீட்டு வகைப்பாட்டில் பயன்படுத்தப்பட்டன."
         },
         {
           "en": "Synapsid and diapsid skull patterns reflect different temporal-opening arrangements, but living forms can show substantial modification.",
-          "ta": "சைனாப்சிட் மற்றும் டையாப்சிட் தலையோட்டு வகைகள் வெவ்வேறு பக்கத் திறப்பமைப்புகளைக் குறிக்கின்றன. ஆனால் இன்று வாழும் சில குழுக்களில் பெரும் மாற்றங்கள் ஏற்பட்டுள்ளன."
+          "ta": "சினாப்சிட் தலையோட்டில் ஒவ்வொரு பக்கமும் கீழ்ப்புறக் காலச்சாளரம் ஒன்று காணப்படும்; மூதாதை டையாப்சிட் தலையோட்டில் மேல்புற, கீழ்ப்புறக் காலச்சாளரங்கள் இரண்டு காணப்படும். பின்னர் தோன்றிய குழுக்களில் இவ்வமைப்புகள் மாற்றமடைந்திருக்கலாம்."
         },
         {
           "en": "Modern placement of turtles within Diapsida depends on broader anatomical and molecular evidence, not on the absence of visible openings alone.",
-          "ta": "ஆமைகளை டையாப்சிடா குழுவில் வைக்கும் நவீன நிலைப்பாடு விரிவான உடற்கூறியல் மற்றும் மூலக்கூறு ஆதாரங்களைப் பயன்படுத்துகிறது; வெளிப்படையான திறப்புகள் இல்லாமை மட்டும் அடிப்படை அல்ல."
+          "ta": "இன்றைய ஆமைகள் வெளிப்புறமாக அனாப்சிட் போன்ற தலையோட்டைக் கொண்டிருந்தாலும், பரந்த உடற்கூறு மற்றும் மூலக்கூறு ஆதாரங்களின்படி டையாப்சிட் பரிணாமக் கிளைக்குள் அடங்குகின்றன."
+        },
+        {
+          "en": "The historical euryapsid pattern has a single upper temporal opening per side. It occurs in some extinct marine reptiles but does not define a single modern evolutionary group.",
+          "ta": "யூரியாப்சிட் என்ற பழைய உடற்கூறு வடிவத்தில் ஒவ்வொரு பக்கமும் மேல்புறக் காலச்சாளரம் ஒன்று காணப்படும். இது அழிந்த சில கடல்வாழ் ஊர்வனவற்றில் இருந்தாலும், அவற்றையெல்லாம் ஒரே நவீன பரிணாமக் குழுவாகக் கருத முடியாது."
+        },
+        {
+          "en": "The orbit is not a temporal fenestra. Skull-opening categories describe morphology; evolutionary relationships require evidence from additional anatomical, fossil and molecular characters.",
+          "ta": "கண்ணுக்குரிய கண்குழியை (orbit) காலச்சாளரமாக எண்ணக்கூடாது. தலையோட்டுத் திறப்புகளை அடிப்படையாகக் கொண்ட பெயர்கள் உடற்கூறு வடிவத்தை விவரிக்கின்றன. பரிணாம உறவுகளை உறுதிப்படுத்தப் பிற உடற்கூறு, புதைபடிவ மற்றும் மூலக்கூறு ஆதாரங்கள் தேவை."
         }
       ]
     },
