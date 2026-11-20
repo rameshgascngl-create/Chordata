@@ -104,6 +104,20 @@ for topic_id, names in mammalian_additions.items():
 assert len(by_topic["u5-mammalia-classification"]["sections"]) == 8
 assert len(by_topic["u5-marsupials"]["sections"]) == 7
 assert len(by_topic["u5-flying-mammals"]["sections"]) == 7
-assert len(keys) >= 317, f"Expected >=317 full bilingual textbook sections, found {len(keys)}"
+new_mammal_sections = {
+    "u5-rabbit": "duplex-uterus-induced-ovulation-and-placenta",
+    "u5-aquatic-mammals": "alveolar-compression-nitrogen-and-dive-risk",
+}
+for topic_id, section_key in new_mammal_sections.items():
+    sections = {section["key"]: section
+                for section in by_topic[topic_id]["sections"]}
+    assert section_key in sections, ("Missing new mammal physiology", topic_id)
+    assert all(len(sections[section_key]["body"][lang]) >= 800
+               for lang in ("en", "ta")), ("Insufficient bilingual anatomy", topic_id)
+    assert all(sections[section_key]["heading"][lang].strip()
+               for lang in ("en", "ta")), ("Missing translated heading", topic_id)
+assert len(by_topic["u5-rabbit"]["sections"]) == 17
+assert len(by_topic["u5-aquatic-mammals"]["sections"]) == 9
+assert len(keys) >= 319, f"Expected >=319 full bilingual textbook sections, found {len(keys)}"
 print(f"PASS: {len(chapter_ids)}/{len(topics)} syllabus topics, {len(keys)} extended bilingual sections, "
       "source references, explicit draft review status")
