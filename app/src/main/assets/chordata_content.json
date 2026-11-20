@@ -2069,19 +2069,19 @@
                 "ta": "உணவும் வாழ்வாதாரமும்"
               },
               "body": {
-                "en": "Wild fisheries and aquaculture supply animal protein and essential fatty acids. They also provide jobs in coastal and inland communities. Related work includes processing, transport, refrigerated storage and retail. The nutritional value of fish varies with species, preparation and exposure to contaminants.",
-                "ta": "கடல் மற்றும் உள்நாட்டு மீன்பிடித்தலும் மீன்வளர்ப்பும் மக்களுக்கு விலங்குப் புரதம் மற்றும் அத்தியாவசிய கொழுப்பு அமிலங்களை வழங்குகின்றன. இத்தொழில்கள் கடலோர மற்றும் உள்நாட்டு மக்களின் வாழ்வாதாரத்துக்கும் முக்கியமானவை. மீன் பதப்படுத்துதல், குளிர்சாதனப் போக்குவரத்து, விற்பனை போன்ற தொழில்களையும் இவை ஆதரிக்கின்றன. மீனின் ஊட்டச்சத்து மதிப்பு இனம் மற்றும் சமைக்கும் முறையைப் பொறுத்து மாறுகிறது."
+                "en": "Capture fisheries and fish farming supply dietary protein, fatty acids and micronutrients. Nutrient content varies with species, edible portion and preparation. Contaminants are a separate food-safety concern. Fishing, farming, processing, refrigerated storage, transport and retail support jobs in coastal and inland communities.",
+                "ta": "கடலிலும் உள்நாட்டு நீர்நிலைகளிலும் பிடிக்கப்படும் மீன்களும் வளர்க்கப்படும் மீன்களும் மனித உணவில் புரதம், கொழுப்பு அமிலங்கள், நுண்ணூட்டச்சத்துகள் ஆகியவற்றை வழங்குகின்றன. மீனின் இனம், உண்ணப்படும் பகுதி, சமைக்கும் முறை ஆகியவற்றைப் பொறுத்து ஊட்டச்சத்து அளவு மாறுகிறது. மாசுப்பொருட்களின் இருப்பு உணவுப் பாதுகாப்பைத் தனியாகப் பாதிக்கலாம். மீன்பிடித்தல், மீன்வளர்ப்பு, பதப்படுத்துதல், குளிர்சாதனச் சேமிப்பு, போக்குவரத்து, சில்லறை விற்பனை ஆகியவை கடலோர மற்றும் உள்நாட்டுப் பகுதிகளில் வேலைவாய்ப்பை அளிக்கின்றன."
               }
             },
             {
               "key": "products-ecosystem",
               "heading": {
                 "en": "Products and ecosystem services",
-                "ta": "பொருட்களும் சூழலியல் சேவைகளும்"
+                "ta": "மீன் சார்ந்த பொருட்களும் சூழலியல் பங்கும்"
               },
               "body": {
-                "en": "Fish contribute to fish oil, feed ingredients, ornamental trade and some biomedical research. Wild fish populations play roles in food webs, nutrient cycling and maintaining aquatic ecosystem balance. Economic assessments must include ecological costs rather than counting harvested tonnage alone.",
-                "ta": "மீன்களிலிருந்து மீனெண்ணெய், தீவனப் பொருட்கள் மற்றும் பல தொழில்துறை சார்ந்த தயாரிப்புகள் பெறப்படுகின்றன. அழகு மீன் வணிகத்திலும் சில உயிரியல் ஆய்வுகளிலும் மீன்கள் பயன்படுகின்றன. இயற்கை நீர்நிலைகளில் அவை உணவுவலை, ஊட்டச்சத்துச் சுழற்சி மற்றும் சூழலமைப்புச் சமநிலையிலும் பங்குபெறுகின்றன. பொருளாதார மதிப்பீடு பிடிக்கப்பட்ட மீன்களின் அளவை மட்டும் சார்ந்திருக்கக்கூடாது."
+                "en": "Fish provide oil, fishmeal and other feed ingredients and are used in the ornamental trade and biomedical research. Wild fish take part in aquatic food webs as prey and predators and contribute to nutrient cycling. An economic assessment should consider revenue, jobs and ecological costs alongside harvested tonnage.",
+                "ta": "மீன்களிலிருந்து மீன் எண்ணெய், மீன் மாவு, தீவனப் பொருட்கள் போன்றவை தயாரிக்கப்படுகின்றன. அலங்கார மீன் வணிகத்திலும் உயிரியல், மருத்துவ ஆய்வுகளிலும் மீன்கள் பயன்படுகின்றன. இயற்கை நீர்நிலைகளில் மீன்கள் இரையாகவும் இரைகொல்லிகளாகவும் உணவுவலையில் பங்கேற்கின்றன. அவை ஊட்டச்சத்துச் சுழற்சியிலும் பங்காற்றுகின்றன. மீன்வளத் தொழிலை மதிப்பிடும்போது பிடிப்பு அளவுடன் வருவாய், வேலைவாய்ப்பு, வாழிடங்களுக்கும் பிற உயிரினங்களுக்கும் ஏற்படும் விளைவுகள் ஆகியவற்றைக் கருத்தில் கொள்ள வேண்டும்."
               }
             },
             {
@@ -2091,8 +2091,8 @@
                 "ta": "நிலைத்த மீன்வள மேலாண்மை"
               },
               "body": {
-                "en": "Overfishing, destructive gear, bycatch, habitat loss, invasive species and pollution can reduce fish stocks or damage associated biodiversity. Stock assessment, selective gear, habitat protection, traceability and responsible aquaculture improve resilience. A sustainable harvest cannot be inferred simply from high short-term catches.",
-                "ta": "அளவுக்கு மீறிய மீன்பிடித்தல், அழிவை ஏற்படுத்தும் வலைகள், இலக்கல்லாத உயிரினங்கள் தற்செயலாகப் பிடிபடுதல், வாழிட இழப்பு, அயல் இனங்கள் மற்றும் மாசுபாடு மீன்வளத்தைக் குறைக்கலாம். மீன்வளக் கணக்கீடு, தேர்ந்தெடுக்கப்பட்ட பிடிப்பு உபகரணங்கள், வாழிடப் பாதுகாப்பு மற்றும் பொறுப்பான மீன்வளர்ப்பு அவசியமானவை. குறுகிய காலத்தில் அதிக மீன்கள் கிடைப்பதால் மட்டுமே மீன்பிடித்தல் நிலைத்ததாக உள்ளது என்று முடிவு செய்யக்கூடாது."
+                "en": "Overfishing, habitat-damaging gear, bycatch, habitat loss, invasive alien species and pollution can harm fish stocks or other aquatic organisms. Stock assessment, selective gear, habitat protection, traceability and responsible aquaculture support sustainable management. A rise in total catch can also reflect increased fishing effort. Stock status and trends over time are needed to assess sustainability.",
+                "ta": "அளவுக்கு மீறிய மீன்பிடித்தல், வாழிடத்தைச் சேதப்படுத்தும் கருவிகள், இலக்கல்லாப் பிடிப்பு (bycatch), வாழிட இழப்பு, ஆக்கிரமிப்பு அயல் இனங்கள், மாசுபாடு ஆகியவை மீன் வளத்தையும் பிற நீர்வாழ் உயிரினங்களையும் பாதிக்கலாம். மீன் தொகுதியின் நிலையை மதிப்பிடுதல், இலக்கல்லாப் பிடிப்பைக் குறைக்கும் கருவிகளைப் பயன்படுத்துதல், வாழிடங்களைப் பாதுகாத்தல், மீனின் மூலத்தையும் விற்பனை வரை அது சென்ற பாதையையும் பதிவுசெய்தல், பொறுப்பான மீன்வளர்ப்பு ஆகியவை நிலைத்த மேலாண்மைக்கு உதவுகின்றன. அதிக மீன்பிடி முயற்சியாலும் மொத்தப் பிடிப்பு உயரலாம். நிலைத்தன்மையை மதிப்பிட மீன் தொகுதியின் நிலையும் காலப்போக்கில் ஏற்படும் மாற்றமும் தேவை."
               }
             }
           ],
@@ -2100,7 +2100,7 @@
             {
               "question": {
                 "en": "Which activity raises fish commercially under controlled conditions?",
-                "ta": "கட்டுப்படுத்தப்பட்ட சூழலில் மீன்களை வணிகரீதியாக வளர்ப்பது எது?"
+                "ta": "நிர்வகிக்கப்படும் சூழலில் மீன்களை வணிக நோக்கில் வளர்க்கும் தொழில் எது?"
               },
               "options": [
                 {
@@ -2123,13 +2123,13 @@
               "correctIndex": 2,
               "explanation": {
                 "en": "Fish farming is the cultivation of fish and is one form of aquaculture.",
-                "ta": "மீன்வளர்ப்பு என்பது நீர்வாழ் உயிரின வளர்ப்பின் ஒரு வகை."
+                "ta": "மீன்வளர்ப்பு (pisciculture) என்பது நீர்வாழ் உயிரின வளர்ப்பின் (aquaculture) ஒரு பிரிவு. இதில் மீன்கள் வளர்க்கப்படுகின்றன."
               }
             },
             {
               "question": {
                 "en": "What does bycatch mean?",
-                "ta": "தற்செயல் பிடிப்பு (bycatch) என்பது என்ன?"
+                "ta": "மீன்பிடித்தலில் இலக்கல்லாப் பிடிப்பு (bycatch) என்பது என்ன?"
               },
               "options": [
                 {
@@ -2146,19 +2146,19 @@
                 },
                 {
                   "en": "Unintended organisms caught during fishing",
-                  "ta": "மீன்பிடித்தலில் இலக்கல்லாத உயிரினங்கள் தற்செயலாகப் பிடிபடுதல்"
+                  "ta": "இலக்காகக் கொள்ளப்படாத உயிரினங்கள் மீன்பிடிக்கும் போது பிடிபடுதல்"
                 }
               ],
               "correctIndex": 3,
               "explanation": {
-                "en": "Bycatch is the unintended capture of non-target animals.",
-                "ta": "குறிவைக்கப்படாத உயிரிகள் மீன்பிடித் தொழிலின் போது பிடிபடுவது இணைப்பிடிப்பு ஆகும்."
+                "en": "In this chapter, bycatch means non-target animals caught during fishing. They may be retained or returned to the water.",
+                "ta": "இலக்காகக் கொள்ளப்படாத உயிரினங்கள் மீன்பிடிக்கும் போது பிடிபடுவது இலக்கல்லாப் பிடிப்பு. பிடிபட்ட உயிரினங்களைத் தக்கவைக்கலாம் அல்லது மீண்டும் நீரில் விடலாம்."
               }
             },
             {
               "question": {
                 "en": "Which approach best supports sustainable fisheries?",
-                "ta": "நிலைத்த மீன்வளத்திற்கு சிறந்த நடைமுறை எது?"
+                "ta": "நிலைத்த மீன்வள மேலாண்மைக்கு எந்த நடைமுறை உதவும்?"
               },
               "options": [
                 {
@@ -2175,13 +2175,13 @@
                 },
                 {
                   "en": "Stock assessment and selective gear",
-                  "ta": "மீன்வளக் கணக்கீடும் தேர்வான வலைகளும்"
+                  "ta": "மீன் தொகுதி மதிப்பீடும் இலக்கல்லாப் பிடிப்பைக் குறைக்கும் கருவிகளும்"
                 }
               ],
               "correctIndex": 3,
               "explanation": {
                 "en": "Monitoring stocks and reducing unintended capture help protect fisheries over time.",
-                "ta": "மீன்வளத்தை கண்காணிப்பதும் தேவையற்ற பிடிப்பைக் குறைப்பதும் நீடித்த பயன்பாட்டிற்கு உதவுகின்றன."
+                "ta": "மீன் தொகுதியில் காலப்போக்கில் ஏற்படும் மாற்றங்களைக் கண்காணிப்பதும் இலக்கல்லாப் பிடிப்பைக் குறைப்பதும் மீன்வளத்தை நீண்டகாலம் பயன்படுத்த உதவுகின்றன."
               }
             }
           ],
