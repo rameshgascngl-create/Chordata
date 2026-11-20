@@ -689,6 +689,42 @@ class ReaderNavigationTest {
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
     }
 
+    @Test fun rabbitDuplexUterusAndCetaceanDivePressureRemainBilingualAndPaged() {
+        val pack = ContentRepository.load(
+            InstrumentationRegistry.getInstrumentation().targetContext)
+        val requirements = mapOf(
+            "u5-rabbit" to Pair(
+                "duplex-uterus-induced-ovulation-and-placenta", 17),
+            "u5-aquatic-mammals" to Pair(
+                "alveolar-compression-nitrogen-and-dive-risk", 9))
+        val logic = `in`.gasc.zoology.chordata.domain.LearningLogic
+        for ((topicId, required) in requirements) {
+            val topic = requireNotNull(pack.findTopic(topicId))
+            val sections = topic.textbookChapters.single().sections
+            org.junit.Assert.assertEquals(required.second, sections.size)
+            val selected = sections.single { it.key == required.first }
+            org.junit.Assert.assertTrue(
+                selected.body.en.length >= 800 && selected.body.ta.length >= 800)
+            val pages = logic.textbookPages(topic)
+            org.junit.Assert.assertTrue(pages.isNotEmpty())
+            org.junit.Assert.assertEquals(sections.map { it.key },
+                pages.flatten().map { it.key })
+            org.junit.Assert.assertTrue(logic.isQuizPage(topic, logic.lastPage(topic)))
+            org.junit.Assert.assertEquals(
+                logic.sectionPages(topic).size + pages.size, logic.lastPage(topic))
+        }
+        org.junit.Assert.assertEquals(20,
+            requireNotNull(pack.findTopic("u5-columba"))
+                .textbookChapters.single().sections.size)
+        org.junit.Assert.assertEquals(12,
+            requireNotNull(pack.findTopic("u5-flight-adaptations"))
+                .textbookChapters.single().sections.size)
+        org.junit.Assert.assertEquals(121,
+            pack.topics.flatMap { it.sections }.sumOf { it.keyPoints.size })
+        org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+        org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
+    }
+
     @Test fun detailedRabbitTextbookContainsCorrectDentitionAndCaecotrophy() {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val pack = ContentRepository.load(context)
