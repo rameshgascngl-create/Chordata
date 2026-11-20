@@ -9,6 +9,8 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.isDisplayed
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performScrollToIndex
@@ -506,7 +508,7 @@ class ReaderNavigationTest {
         org.junit.Assert.assertEquals(4, pigeon.diagramIds.size)
         val chapter = pigeon.textbookChapters.single()
         org.junit.Assert.assertEquals("columba-livia-undergraduate-type-study", chapter.id)
-        org.junit.Assert.assertEquals(16, chapter.sections.size)
+        org.junit.Assert.assertEquals(20, chapter.sections.size)
         org.junit.Assert.assertTrue(chapter.sections.all {
             it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
                 it.body.en.length >= 150 && it.body.ta.length >= 150
@@ -519,6 +521,18 @@ class ReaderNavigationTest {
         org.junit.Assert.assertTrue(lungs.body.en.contains("gas-exchange organs"))
         org.junit.Assert.assertTrue(lungs.body.ta.contains("காற்றுப்பைகள்"))
         org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "skin-feather-tracts-preening-moult"
+        }.body.ta.contains("வாலடிச் சுரப்பி"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "thoracic-pump-and-ventilation"
+        }.body.en.contains("uncinate processes"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "renal-microanatomy-water-balance"
+        }.body.ta.contains("ஹென்லே வளைவு"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
+            it.key == "comparative-anatomy-laboratory-workflow"
+        }.body.en.contains("museum skeleton"))
+        org.junit.Assert.assertTrue(chapter.sections.single {
             it.key == "digestive-glands-and-crop-milk"
         }.body.en.contains("both male and female"))
         org.junit.Assert.assertTrue(chapter.sections.single {
@@ -528,6 +542,54 @@ class ReaderNavigationTest {
             .textbookPages(pigeon).size >= 6)
         org.junit.Assert.assertEquals(64, pack.topics.sumOf { it.diagramIds.size })
         org.junit.Assert.assertEquals(117, pack.topics.sumOf { it.quiz.size })
+    }
+
+    @Test fun expandedFlightTextbookPreservesAllBilingualSectionsAndBookPages() {
+        val pack = ContentRepository.load(InstrumentationRegistry.getInstrumentation().targetContext)
+        val flight = requireNotNull(pack.findTopic("u5-flight-adaptations"))
+        val chapter = flight.textbookChapters.single()
+        org.junit.Assert.assertEquals(12, chapter.sections.size)
+        org.junit.Assert.assertEquals(3, flight.sections.size)
+        org.junit.Assert.assertEquals(3, flight.diagramIds.size)
+        val required = listOf(
+            "wing-loading-aspect-ratio",
+            "wingbeat-phases-and-control",
+            "flight-modes-and-ecological-specialisation",
+            "flight-fuel-and-muscle-energetics",
+            "thermal-water-balance-in-flight",
+            "comparative-flight-investigation"
+        )
+        org.junit.Assert.assertTrue(chapter.sections.map { it.key }.containsAll(required))
+        org.junit.Assert.assertTrue(chapter.sections.all {
+            it.heading.en.isNotBlank() && it.heading.ta.isNotBlank() &&
+                it.body.en.length >= 150 && it.body.ta.length >= 150
+        })
+        val logic = `in`.gasc.zoology.chordata.domain.LearningLogic
+        for (topic in listOf(flight, requireNotNull(pack.findTopic("u5-columba")))) {
+            val expected = topic.textbookChapters.single().sections.map { it.key }
+            val pages = logic.textbookPages(topic)
+            org.junit.Assert.assertTrue(pages.isNotEmpty() && pages.all { it.isNotEmpty() })
+            org.junit.Assert.assertEquals(expected, pages.flatten().map { it.key })
+            org.junit.Assert.assertEquals(logic.sectionPages(topic).size + pages.size,
+                logic.lastPage(topic))
+            org.junit.Assert.assertTrue(logic.isQuizPage(topic, logic.lastPage(topic)))
+        }
+    }
+
+    @Test fun fiveTamilStudyPointsRemainAccessibleAtTwoHundredPercent() {
+        rule.onNodeWithText("தமிழ்").performClick()
+        rule.onNodeWithText("200%").performClick()
+        rule.onNodeWithText("அனைத்துப் பாடங்களையும் காண்க").performClick()
+        rule.onNodeWithTag("lesson-search")
+            .performTextInput("பறவைகள்: பொதுப் பண்புகளும் வகைப்பாடும்")
+        rule.onAllNodesWithText("பாடத்தைப் படிக்க ›").onFirst().performClick()
+        rule.onNodeWithTag("lesson-reader-list").performScrollToIndex(3)
+        rule.onNodeWithTag("learning-points").assertExists().performScrollTo()
+        rule.onNode(
+            hasTestTag("answer-point-5") and hasAnyAncestor(hasTestTag("learning-points"))
+        ).assertExists()
+        rule.onNodeWithTag("reader-next").performScrollTo().assertIsDisplayed()
+        captureQaScreen("aves-five-learning-points-ta-200")
     }
 
     @Test fun detailedRabbitTextbookContainsCorrectDentitionAndCaecotrophy() {
