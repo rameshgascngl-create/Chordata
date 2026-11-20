@@ -3587,6 +3587,17 @@
           }
         },
         {
+          "key": "wing-loading-aspect-ratio",
+          "heading": {
+            "en": "Wing loading, aspect ratio and the shape of the flight envelope",
+            "ta": "இறக்கைச் சுமை, நீள்–அகல் விகிதம் மற்றும் பறப்புத் திறன்"
+          },
+          "body": {
+            "en": "Wing loading measures weight supported per unit total wing area. In mechanics its units are N per square metre; a mass-per-area value in kg per square metre is sometimes quoted but should be labelled explicitly rather than mixed with weight loading. The aspect ratio of a pair of wings is wing span squared divided by the reference wing area (b²/S); long, narrow wings generally have a higher aspect ratio than short, broad ones. These properties influence flight speed, induced drag, manoeuvrability and take-off demands but do not by themselves determine flight performance. A broad slotted wing can favour low-speed control and exploitation of rising air, whereas a long narrow wing can reduce induced drag in efficient cruising and gliding. Tail area, feather slots, shoulder mobility, muscle power and local wind conditions modify the outcome. Students may measure span and projected wing area on an approved scaled photograph, calculate both ratios, state units and explain that the result describes the wing as measured, not a complete aerodynamic prediction.",
+            "ta": "இறக்கைச் சுமை (wing loading) என்பது மொத்த இறக்கைப் பரப்பளவின் ஓரலகு மீது தாங்கப்படும் உடல் எடையாகும். இயக்கவியலில் இதன் அலகு N/m² ஆகும். சில நூல்களில் ஓரலகுப் பரப்பளவுக்கான நிறை kg/m² எனக் கொடுக்கப்படும்; நிறையையும் எடையையும் ஒன்றாகக் கருதாமல் அலகைக் குறிப்பிட வேண்டும். இறக்கையின் நீள்–அகல் விகிதம் (aspect ratio) என்பது இறக்கை விரிப்பின் இருமடங்கு பெருக்கலை (b²) இறக்கைப் பரப்பளவால் (S) வகுத்துக் கணக்கிடப்படுகிறது. நீளமான குறுகிய இறக்கையின் இந்த விகிதம் பொதுவாக உயர்ந்ததாக இருக்கும். இறக்கைச் சுமை, நீள்–அகல் விகிதம் ஆகியவை வேகம், தூக்குவிசை உருவாக்கச் செலவாகும் ஆற்றல், திருப்பும் திறன், பறப்பைத் தொடங்கும் திறன் ஆகியவற்றுடன் தொடர்புடையவை. இருப்பினும் இவ்விரண்டு அளவுகள் மட்டுமே பறப்புத் திறனை முழுமையாக நிர்ணயிப்பதில்லை. அகலமான இறக்கையும் வெளிப்புற இறகுகளுக்கிடையே இடைவெளிகளும் குறைந்த வேகத்தில் கட்டுப்பாட்டிற்கு உதவலாம். நீண்ட குறுகிய இறக்கை நீடித்த வழுக்குப் பறப்பில் எதிர்விசையைக் குறைக்க உதவலாம். வால், தசை வலிமை, தோள் மூட்டின் இயக்கம், காற்றின் நிலை ஆகியவற்றையும் கருத்தில் கொள்ள வேண்டும். அளவுகோல் உள்ள சரிபார்க்கப்பட்ட படத்தில் இறக்கை விரிப்பையும் பரப்பளவையும் அளந்து, அலகுகளுடன் கணக்கிட்டு, இவை ஒரு முழுமையான காற்றியக்க முன்னறிவிப்பு அல்ல என்பதை விளக்க வேண்டும்."
+          }
+        },
+        {
           "key": "wing-feathers",
           "heading": {
             "en": "Remiges, alula, wing slots and tail control",
@@ -3595,6 +3606,17 @@
           "body": {
             "en": "Flight feathers include primaries attached principally to the manus region and secondaries associated with the ulna. Their stiffness, vane asymmetry and coordinated overlap create adjustable aerodynamic surfaces. The alula is a small feathered structure associated with the first manual digit and can assist flow control at some high-angle or low-speed conditions. Separated outer primaries may influence induced drag and manoeuvring, but their performance must not be reduced to an unsupported universal rule. Rectrices on the tail contribute to stability, turning and braking; tail morphology reflects a species' habitual flight regime. Wing morphology varies among soaring, hovering, fast flapping and flightless birds. A scientific plate should show the humerus, radius, ulna, manus, primaries, secondaries, alula and tail feathers in anatomically correct relation, rather than drawing each flight feather from a single point on the shoulder.",
             "ta": "முதன்மைப் பறப்பிறகுகள் (primaries) இறக்கை நுனிப் பகுதியின் கை எலும்புகளுடன் தொடர்புடையவை; இரண்டாம் நிலைப் பறப்பிறகுகள் (secondaries) அல்னா எலும்புடன் தொடர்புடையவை. இறகுகளின் நெகிழ்வு, ஒட்டிய அமைப்பு, சமமற்ற தகட்டு வடிவம் ஆகியவை காற்றியக்கப் பரப்பை உருவாக்குகின்றன. முதல் கை விரலுடன் தொடர்புடைய சிறிய அலுலா (alula) சில நிலையில் காற்றோட்டக் கட்டுப்பாட்டிற்கு உதவுகிறது. வெளிப்புறப் பறப்பிறகுகளுக்கிடையே இடைவெளிகள் சில இனங்களில் பறப்புத் திறனை மாற்றலாம். வாலிறகுகள் சமநிலை, திசைமாற்றம், வேகக் குறைப்பு ஆகியவற்றுக்கு உதவுகின்றன. படத்தில் ஹியூமரஸ், ரேடியஸ், அல்னா, கை எலும்புகள், முதன்மை–இரண்டாம் நிலை இறகுகள், அலுலா ஆகியவற்றை சரியாக இணைக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "wingbeat-phases-and-control",
+          "heading": {
+            "en": "Wingbeat phases, shoulder mechanics and aerodynamic control",
+            "ta": "இறக்கையசைவின் நிலைகள், தோள் மூட்டு இயக்கம் மற்றும் காற்றியக்கக் கட்டுப்பாடு"
+          },
+          "body": {
+            "en": "The downstroke is commonly the principal force-producing phase of flapping in forward flight. Contraction of the pectoralis pulls the humerus downward and forward in a coordinated three-dimensional motion. The supracoracoideus, although ventral to the wing, passes its tendon through the triosseal canal and helps elevate and rotate the humerus during upstroke; its mechanical role varies with species and speed. Wing flexion at the elbow and wrist alters projected area, while rotation and twist of the outer wing change the local angle of attack. Primaries can separate and individual feathers may rotate to influence flow, especially near take-off, landing or turning. Aerodynamic forces also act on the wing during the upstroke; it is incorrect to teach that the upstroke is invariably passive or creates no useful force. Birds control roll, pitch and yaw by coordinated asymmetry of wing motion, tail position and body posture. A sequential teaching plate should show four successive wing positions and identify actual muscle attachments, not merely label 'up' and 'down' arrows on an anatomically impossible wing.",
+            "ta": "முன்னோக்கிப் பறக்கும் பல பறவைகளில் இறக்கையின் கீழ்நோக்கிய அசைவு (downstroke) முக்கிய காற்றியக்க விசையை உருவாக்குகிறது. பெக்டோராலிஸ் தசை சுருங்கும்போது ஹியூமரஸ் எலும்பை ஒருங்கிணைந்த முப்பரிமாண இயக்கத்தில் கீழ்நோக்கி நகர்த்துகிறது. சுப்ராகோரகாய்டியஸ் தசை இறக்கையின் கீழ்ப்புறத்தில் இருந்தாலும் அதன் நாண் டிரையோசியல் கால்வாய் வழியாகச் சென்று மேல்நோக்கிய அசைவின் போது ஹியூமரஸை உயர்த்தவும் சுழற்றவும் உதவுகிறது. இந்தத் தசையின் பங்கு இனம் மற்றும் வேகத்திற்கேற்ப மாறலாம். முழங்கை, மணிக்கட்டு மூட்டுகள் மடங்குவதால் இறக்கையின் வெளிப்படும் பரப்பளவு மாறுகிறது. இறக்கை நுனிப் பகுதி திரும்புவதும் முறுக்கப்படுவதும் உள்ளூர்த் தாக்குக் கோணத்தை மாற்றுகிறது. சில நேரங்களில் முதன்மைப் பறப்பிறகுகள் பிரிந்தும் தனித்தனியாகச் சுழன்றும் காற்றோட்டத்தைக் கட்டுப்படுத்துகின்றன. மேல் அசைவில் எப்போதும் விசை உருவாகாது அல்லது அது முழுவதும் செயலற்ற அசைவு என்ற கருத்து தவறு. இரு இறக்கைகளின் இயக்கம், வாலின் நிலை, உடற்புற அமைவு ஆகியவை வேறுபட்ட அளவில் மாறுவதால் பறவை சாய்வு, மேல்கீழ் திசை மற்றும் திருப்பத்தை ஒழுங்குபடுத்துகிறது. செய்முறைப் படத்தில் இறக்கையசைவின் தொடர்ச்சியான நான்கு நிலைகளையும் உண்மையான தசை இணைப்புகளையும் காட்ட வேண்டும்."
           }
         },
         {
@@ -3620,6 +3642,17 @@
           }
         },
         {
+          "key": "flight-modes-and-ecological-specialisation",
+          "heading": {
+            "en": "Flapping, gliding, soaring, hovering and intermittent flight",
+            "ta": "இறக்கையசைத்துப் பறத்தல், வழுக்குப் பறத்தல், காற்றேற்றப் பறத்தல், நிலைப்பறத்தல் மற்றும் இடைவிட்டுப் பறத்தல்"
+          },
+          "body": {
+            "en": "Continuous flapping depends on repeated muscle-powered wing strokes to maintain height and forward motion. In gliding, extended wings generate lift as the bird trades altitude for travel unless rising air compensates. Thermal soaring uses rising warm air, slope soaring uses upward-deflected wind near terrain, and dynamic soaring extracts energy from changes in wind speed across an atmospheric gradient; these are distinct mechanisms. Hovering means remaining approximately stationary relative to the ground, which may be achieved by specialised flapping such as hummingbird flight or briefly by facing a headwind. Flap-gliding alternates active strokes with extended-wing glides, whereas flap-bounding includes intervals with the wings folded or partly tucked. These intermittent modes may reduce cost under some conditions, but not for every species, speed or wing design. A penguin propels itself underwater with modified wings and should not be listed as an aerial hovering bird. Compare pigeon, kestrel, hummingbird, albatross and penguin with locomotor context, wing anatomy and energy source explicitly stated.",
+            "ta": "தொடர்ந்து இறக்கையசைத்துப் பறத்தலில் தசை வலிமையால் மீண்டும் மீண்டும் இறக்கைகள் இயக்கப்பட்டு உயரமும் முன்னோக்கி இயக்கமும் பேணப்படுகின்றன. வழுக்குப் பறத்தலில் (gliding) இறக்கைகள் விரிந்த நிலையிலிருந்து பறவை உயரத்தை ஓரளவு இழந்து முன்னோக்கிச் செல்கிறது; மேலெழும் காற்று இருந்தால் உயர இழப்பு ஈடுகட்டப்படலாம். வெப்பக் காற்றுத் தூண்களைப் பயன்படுத்துவது வெப்பக் காற்றேற்றப் பறத்தல் (thermal soaring); மலைச்சரிவில் மேலெழும் காற்றைப் பயன்படுத்துவது சரிவுக் காற்றேற்றப் பறத்தல் (slope soaring). காற்றின் வேகம் உயரத்திற்கு ஏற்ப மாறும் பகுதியைப் பயன்படுத்துவது டைனமிக் சோரிங் (dynamic soaring) ஆகும். நிலைப்பறத்தலில் (hovering) பறவை தரையை ஒப்பிடும்போது ஏறத்தாழ ஒரே இடத்தில் உள்ளது; ஹம்மிங் பறவைகள் சிறப்பு இறக்கையசைவால் இதைச் செய்கின்றன. எதிர்க்காற்றை எதிர்கொள்வதாலும் சில பறவைகள் தற்காலிகமாக ஒரே இடத்தில் தோன்றலாம். இறக்கையசைவு–வழுக்குப் பறத்தலில் (flap-gliding) அசைவுகளுக்கிடையே இறக்கைகள் விரிந்திருக்கும்; இடைவிட்டுக் குவித்துப் பறத்தலில் (flap-bounding) இறக்கைகள் மடக்கப்படும். இந்த முறைகள் எல்லா இனங்களுக்கும் எல்லா வேகங்களிலும் ஆற்றலைச் சேமிக்கின்றன என்று கூற முடியாது. பெங்குவின் இறக்கைகள் நீருக்கடிப் பயணத்திற்கு மாற்றமடைந்துள்ளன; அது வானில் நிலைப்பறக்கும் பறவை அல்ல. புறா, கெஸ்ட்ரல், ஹம்மிங் பறவை, அல்பட்ராஸ், பெங்குவின் ஆகியவற்றின் பறக்கும் அல்லது நீந்தும் முறைகளை ஒப்பிட்டு விளக்க வேண்டும்."
+          }
+        },
+        {
           "key": "respiratory-system",
           "heading": {
             "en": "Rigid lungs, parabronchi and the air-sac ventilation cycle",
@@ -3628,6 +3661,17 @@
           "body": {
             "en": "Bird lungs are relatively rigid and contain parabronchi in which gas exchange occurs through specialised air capillaries, while a system of compliant air sacs drives ventilation. In many birds net airflow through the gas-exchanging parabronchi is mainly unidirectional, permitting efficient exchange during both inhalation and exhalation. A simplified parcel of incoming air may take two successive respiratory cycles to pass through posterior sacs, lungs, anterior sacs and the exterior, but real airflow is complex and new and residual air move simultaneously. Air sacs are chiefly ventilatory bellows and are not the principal gas-exchange tissue. The number and arrangement of sacs can vary; some connect with pneumatic bones. A correct textbook diagram distinguishes the rigid lung from the sacs, labels posterior and anterior compartments and uses arrows consistent with anatomical pathways, not a mammalian tidal-lung sketch.",
             "ta": "பறவைகளின் நுரையீரல் ஒப்பீட்டளவில் உறுதியானது; பாராபிராங்க்கை (parabronchi) மற்றும் காற்று நுண்குழாய்களில் வாயுப் பரிமாற்றம் நடைபெறுகிறது. நெகிழ்வான காற்றுப்பைகள் காற்றோட்டத்திற்கு உதவுகின்றன; அவற்றிலேயே முக்கிய வாயுப் பரிமாற்றம் நடைபெறுகிறது என்று கூறக்கூடாது. பல பறவைகளின் நுரையீரல் பரப்பில் காற்று மொத்தத்தில் ஒரே திசையில் செல்கிறது. பின்புறக் காற்றுப்பைகள், நுரையீரல், முன்புறக் காற்றுப்பைகள் வழியான இயக்கத்தை இரண்டு சுவாசச் சுழற்சிகளின் உதவியால் விளக்கலாம்; உண்மையில் பல காற்றுப் பகுதிகள் ஒரே நேரத்தில் நகர்கின்றன. நுரையீரலையும் காற்றுப்பைகளையும் தனித்தனியாகக் காட்டி சரியான காற்றோட்ட அம்புகளை வரைய வேண்டும்."
+          }
+        },
+        {
+          "key": "flight-fuel-and-muscle-energetics",
+          "heading": {
+            "en": "Fuel mobilisation, aerobic capacity and the energetic cost of flight",
+            "ta": "பறப்பிற்கான எரிபொருள், ஆக்சிஜன் சார்ந்த ஆற்றல் உற்பத்தி மற்றும் ஆற்றல் செலவு"
+          },
+          "body": {
+            "en": "Flight muscles obtain ATP from aerobic oxidation of carbohydrates and lipids, with the relative contribution changing according to flight duration, intensity and species. Short powerful efforts such as launch and rapid manoeuvres impose different demands from prolonged steady cruising. Fat is a concentrated fuel used extensively by many long-distance migrants, but this does not imply that all birds burn only fat or that fuel use remains constant throughout flight. Oxygen transport depends jointly on parabronchial gas exchange, pulmonary and systemic circulation, haemoglobin, capillary supply and mitochondria in the working muscles. The four-chambered avian heart separates systemic and pulmonary blood flow, and the persistent right systemic aortic arch is a useful comparative anatomical character. Mechanical power required for flight includes costs associated with induced aerodynamic forces, wing profile resistance and body drag; these vary with speed and wing shape. The relation between flight speed, energy expenditure per unit time and energy per unit distance is therefore not interchangeable. Textbook comparisons should identify the measured quantity before claiming a flight mode is more 'efficient'.",
+            "ta": "பறப்புத் தசைகளுக்குத் தேவையான ATP ஆற்றல் மாவுச்சத்துப் பொருள்களும் கொழுப்புகளும் ஆக்சிஜன் உதவியுடன் சிதைக்கப்படுவதால் கிடைக்கிறது. பறக்கும் நேரம், வேகம், தீவிரம், பறவையின் இனம் ஆகியவற்றிற்கேற்ப எரிபொருள்களின் பங்களிப்பு மாறுகிறது. பறப்பைத் தொடங்கும் குறுகிய வலிமையான முயற்சிக்கும் நீண்ட தூரம் ஒரே சீராகப் பறப்பதற்கும் ஆற்றல் தேவை வேறுபடும். பல வலசைப் பறவைகள் நீண்ட பயணத்திற்குக் கொழுப்பை அதிக ஆற்றல் தரும் சேமிப்புப் பொருளாகப் பயன்படுத்துகின்றன. எனினும் எல்லாப் பறவைகளும் எப்போதும் கொழுப்பை மட்டுமே பயன்படுத்துகின்றன என்பது தவறு. பராப்ராங்கியல் நுரையீரலின் வாயுப் பரிமாற்றம், நுரையீரல் மற்றும் உடல் இரத்தச் சுழற்சி, ஹீமோகுளோபின், தசைகளின் நுண்ணிரத்தக் குழாய்கள், மைட்டோகாண்டிரியா ஆகியவை ஆக்சிஜன் வழங்கலுடன் தொடர்புடையவை. நான்கு அறைகள் கொண்ட இதயம் நுரையீரல் இரத்த ஓட்டத்தையும் உடல் இரத்த ஓட்டத்தையும் பிரிக்கிறது. பறவைகளில் வலது உடல் பெருந்தமனி வளைவு தொடர்வது ஒப்பீட்டு உடற்கூறில் முக்கியமானது. காற்றுக்கு விசை அளித்து தூக்குவிசை உருவாக்குதல், இறக்கையின் மேற்பரப்புக் காற்று எதிர்ப்பு, உடலின் காற்று எதிர்ப்பு ஆகியவற்றைக் கடக்க ஆற்றல் செலவாகிறது. ஓரலகு நேரத்துக்கான ஆற்றல் செலவும் ஓரலகுத் தூரத்துக்கான செலவும் வேறுபட்ட அளவுகளாகும். எந்த அளவைப் பற்றிப் பேசுகிறோம் என்பதை விளக்கிய பிறகே ஒரு பறக்கும் முறை அதிக திறமையானது என்று கூற வேண்டும்."
           }
         },
         {
@@ -3640,12 +3684,58 @@
             "en": "Powered flight is energetically demanding and depends on efficient oxygen delivery, fuel metabolism, neuromuscular coordination and thermal control. Birds have a four-chambered heart and high-performance respiratory and circulatory systems, but the energy budget changes with body size and flight mode. Migration, soaring and hovering use different combinations of aerodynamic power, atmospheric support and stored fuel. Flightlessness can arise in lineages where ecological conditions favour terrestrial or aquatic locomotion, and penguin wings are specialised for underwater propulsion rather than aerial flight. No single character, such as hollow bones or a large keel, by itself produces flight. A student comparison of pigeon, swift, albatross, hummingbird and penguin should consider wing aspect ratio, muscle arrangement, feather pattern, skeletal structure and ecological function together. The final explanation should connect anatomy to mechanics rather than memorise an unranked list of adaptations.",
             "ta": "இயங்கும் பறப்பிற்கு அதிக ஆற்றல், திறமையான ஆக்சிஜன் வழங்கல், தசை ஒருங்கிணைப்பு, வெப்ப ஒழுங்குபடுத்தல் ஆகியவை தேவை. நான்கு அறை இதயமும் நுரையீரல்–காற்றுப்பை அமைப்பும் இதற்கு உதவுகின்றன. இடப்பெயர்ச்சி, சோரிங், ஒரே இடத்தில் பறத்தல் ஆகியவற்றின் ஆற்றல் தேவை வேறுபடும். சில பரிணாமக் கிளைகளில் நிலத்திலோ நீரிலோ இயங்குதல் பயனளிப்பதால் பறப்பின்மை தோன்றியுள்ளது; பெங்குவின் இறக்கைகள் நீருக்குள் உந்துவிசை தருகின்றன. வெற்றிட எலும்பு அல்லது பெரிய மார்புக் கீல் மட்டும் பறப்பை ஏற்படுத்தாது. புறா, ஸ்விஃப்ட், அல்பட்ராஸ், ஹம்மிங் பறவை, பெங்குவின் ஆகியவற்றின் இறக்கை, தசை, எலும்பு, வாழிடம் ஆகியவற்றை ஒன்றிணைத்து ஒப்பிட வேண்டும்."
           }
+        },
+        {
+          "key": "thermal-water-balance-in-flight",
+          "heading": {
+            "en": "Flight thermoregulation, evaporative cooling and water balance",
+            "ta": "பறக்கும்போது உடல்வெப்ப ஒழுங்குபாடு, ஆவியாதல் குளிர்ச்சி மற்றும் நீர்ச் சமநிலை"
+          },
+          "body": {
+            "en": "Contraction of the large flight muscles releases heat as well as mechanical work; high sustained metabolic rates therefore require heat dissipation as well as fuel and oxygen. Feathers reduce heat loss by trapping insulating air, while changes in feather position, exposed skin, blood flow and behaviour adjust heat exchange. Depending on species and conditions, birds may use respiratory evaporation, panting, gular movements and cutaneous evaporation to dissipate excess heat. Evaporative cooling consumes water, so flight and hot-weather thermoregulation must be considered alongside hydration and ambient humidity. Water loss also depends on airflow, temperature, activity and feather coverage; statements that all birds cool in an identical way are not scientifically justified. Studies of rock pigeons show that heat acclimation can alter the relative contributions of skin and respiratory evaporation, so this type study should not treat panting as an obligatory universal response. Students should link endothermy, the feather coat, vascular supply, metabolic heat, environmental temperature and water economy in one functional explanation.",
+            "ta": "பெரிய பறப்புத் தசைகள் சுருங்கும்போது இயக்கத்திற்கான வேலை மட்டுமின்றி வெப்பமும் உருவாகிறது. ஆகவே நீண்ட நேரம் அதிக ஆற்றலுடன் பறக்கும்போது எரிபொருளும் ஆக்சிஜனும் போதுவதுடன் உருவாகும் வெப்பத்தையும் வெளியேற்ற வேண்டும். இறகுகளுக்கிடையே சிக்கியுள்ள காற்று வெப்ப இழப்பைக் குறைக்கிறது. இறகுகளின் நிலை, வெளிப்படும் தோல், இரத்த ஓட்டம், நடத்தை ஆகியவற்றின் மூலம் வெப்பப் பரிமாற்றம் ஒழுங்குபடுத்தப்படுகிறது. இனத்திற்கும் சூழ்நிலைக்கும் ஏற்ப சுவாசப்பாதை வழியான ஆவியாதல், விரைவான சுவாசம், தொண்டைப் பகுதி இயக்கம், தோல் வழியான ஆவியாதல் ஆகியவை வெப்பத்தைக் குறைக்க உதவலாம். ஆவியாதல் மூலம் குளிர்ச்சி அடைய நீர் செலவாகும்; எனவே வெப்பக் கட்டுப்பாட்டையும் நீர்ச் சமநிலையையும் சேர்த்துப் படிக்க வேண்டும். வெப்பநிலை, ஈரப்பதம், காற்றோட்டம், செயல்பாடு, இறகுப் போர்வை ஆகியவை நீர் இழப்பை மாற்றுகின்றன. எல்லாப் பறவைகளும் ஒரே முறையில் உடலைக் குளிர்விக்கின்றன என்பது தவறு. வெப்பச் சூழலுக்குப் பழகிய பாறைப் புறாக்களில் தோல் மற்றும் சுவாசப்பாதை வழி நீர் ஆவியாதலின் பங்கு மாறுவது ஆய்வுகளில் காட்டப்பட்டுள்ளது. உட்வெப்ப நிலை பராமரிப்பு, இறகுகள், இரத்த ஓட்டம், தசை வெப்பம், சுற்றுப்புற வெப்பம், நீர்ச் சேமிப்பு ஆகியவற்றை ஒரே உடற்செயலியல் விளக்கமாக இணைக்க வேண்டும்."
+          }
+        },
+        {
+          "key": "comparative-flight-investigation",
+          "heading": {
+            "en": "Undergraduate practical: comparative wing anatomy and flight mechanics",
+            "ta": "இளங்கலைச் செய்முறை: ஒப்பீட்டு இறக்கை உடற்கூறும் பறப்பியக்கமும்"
+          },
+          "body": {
+            "en": "Use ethically obtained, correctly identified images or museum specimens to compare the wings of a pigeon, soaring raptor, albatross, swift and hummingbird. Begin by recording the scientific or common name, source, anatomical view and whether the wing is folded or extended. On a labelled diagram locate the humerus, radius, ulna, manus, primaries, secondaries, alula and tail rectrices; on a separate pectoral-girdle view mark the coracoid, scapula, furcula, sternum and triosseal canal. Calculate aspect ratio only where the image has reliable scale and projected area; do not invent measurement values from artistic diagrams. Sketch downstroke and upstroke force vectors and distinguish their qualitative interpretation from measured aerodynamic force. Use a cross-sectional feather image to identify rachis, barbs and barbules and explain how vane asymmetry supports function. Compare the air-sac ventilation cycle with the gas-exchanging parabronchi using separate arrows. Conclude by explaining how morphology, ecology, metabolism and thermal control jointly constrain flight. Every observed character and every inferred aerodynamic claim should be labelled as such.",
+            "ta": "புறா, இரைபிடிப் பறவை, அல்பட்ராஸ், ஸ்விஃப்ட், ஹம்மிங் பறவை ஆகியவற்றின் இறக்கைகளை உரிமையுடன் பெறப்பட்ட, சரியாக அடையாளம் காணப்பட்ட புகைப்படங்கள் அல்லது அருங்காட்சியக மாதிரிகளால் ஒப்பிடலாம். முதலில் பறவையின் பெயர், படத்தின் மூலம், நோக்கும் திசை, இறக்கை மடங்கியதா விரிந்ததா என்பதைக் குறிப்பிட வேண்டும். படத்தில் ஹியூமரஸ், ரேடியஸ், அல்னா, கை எலும்புகள், முதன்மை மற்றும் இரண்டாம் நிலைப் பறப்பிறகுகள், அலுலா, வாலிறகுகள் ஆகியவற்றைக் குறிக்க வேண்டும். தனிப் படத்தில் கோராகாய்டு, ஸ்காபுலா, ஃபர்குலா, மார்பெலும்பு, டிரையோசியல் கால்வாய் ஆகியவற்றைச் சுட்டிக்காட்ட வேண்டும். அளவுகோலும் சரியான பரப்பளவு விவரமும் உள்ள படத்தில் மட்டுமே நீள்–அகல் விகிதத்தைக் கணக்கிட வேண்டும்; கலைப் படத்திலிருந்து கற்பனையான அளவுகளை எழுதக்கூடாது. இறக்கையின் கீழ்நோக்கிய, மேல்நோக்கிய அசைவுகளில் உருவாகும் விசைகளை அம்புகளால் காட்டி அவை நேரடி அளவீடா விளக்க மாதிரியா என்பதை வேறுபடுத்த வேண்டும். இறகின் குறுக்கு அல்லது பெரிதாக்கப்பட்ட படத்தில் தண்டு, கிளைகள், நுண்கிளைகள் ஆகியவற்றைக் குறிக்க வேண்டும். காற்றுப் பைகளின் காற்றோட்டத்தையும் பராப்ராங்கைகளில் நிகழும் வாயுப் பரிமாற்றத்தையும் தனித்தனியாக விளக்க வேண்டும். இறுதியாக உடலமைப்பு, வாழிடம், வளர்சிதை மாற்றம், உடல்வெப்ப ஒழுங்குபாடு ஆகியவை பறப்புத் திறனை ஒருங்கிணைந்து எவ்வாறு நிர்ணயிக்கின்றன என்பதை எழுத வேண்டும்."
+          }
         }
       ],
       "sources": [
         {
           "label": "OpenStax Biology 2e — Birds and flight",
           "url": "https://openstax.org/books/biology-2e/pages/29-5-birds"
+        },
+        {
+          "label": "Biomechanics of avian flight — Current Biology (2022)",
+          "url": "https://doi.org/10.1016/j.cub.2022.06.079"
+        },
+        {
+          "label": "Muscle function in avian flight — Philosophical Transactions B (2011)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3130450/"
+        },
+        {
+          "label": "Structure and function of the avian respiratory system (2025)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11864839/"
+        },
+        {
+          "label": "Hovering and intermittent flight in birds — Bioinspiration and Biomimetics (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21098953/"
+        },
+        {
+          "label": "Flight-mode diversity and avian wing range of motion (2019)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6810231/"
+        },
+        {
+          "label": "Heat-acclimated pigeon: evaporative cooling physiology",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/3571094/"
         }
       ]
     },
