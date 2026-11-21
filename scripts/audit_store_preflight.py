@@ -88,7 +88,7 @@ assert 'The app does not request Internet access.' in inapp
 release_workflow = (ROOT / ".github/workflows/play-upload-candidate.yml").read_text(encoding="utf-8")
 for token in ("workflow_dispatch:", "play-upload-review", "scripts/write_figure_review_register.py --release-check",
               "Verify public privacy webpage", "Confirm matching successful QA workflow",
-              "jarsigner", "apksigner", "zipalign", ":app:assembleRelease",
+              "jarsigner", "apksigner", "zipalign", "-P 16", "audit_native_16kb.py", ":app:assembleRelease",
               "CHORDATA_Manual_Signed_Store_APK_Candidate",
               "scripts/audit_built_apk_assets.py", 
               "CHORDATA_PLAY_UPLOAD_KEYSTORE_B64", "upload-artifact@v4"):

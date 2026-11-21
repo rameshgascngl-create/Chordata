@@ -130,6 +130,7 @@ jobs:
           unzip -t app/build/outputs/apk/release/app-release-unsigned.apk | tail -n 1
           python3 scripts/audit_native_16kb.py app/build/outputs/bundle/release/app-release.aab
           python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/release/app-release-unsigned.apk
+          python3 scripts/audit_native_16kb.py app/build/outputs/apk/release/app-release-unsigned.apk
 
       - name: Sign AAB and store APK with publisher upload-key secret, verify both
         shell: bash
@@ -162,14 +163,15 @@ jobs:
           signed_apk=app/build/outputs/apk/release/chordata-store-upload-candidate.apk
           build_tools="$ANDROID_HOME/build-tools/36.0.0"
           test -s "$unsigned_apk"
-          "$build_tools/zipalign" -p -f 4 "$unsigned_apk" "$aligned_apk"
+          "$build_tools/zipalign" -P 16 -f 4 "$unsigned_apk" "$aligned_apk"
           "$build_tools/apksigner" sign --ks "$key" \
             --ks-key-alias "$PLAY_KEY_ALIAS" \
             --ks-pass env:PLAY_STORE_PASSWORD \
             --key-pass env:PLAY_KEY_PASSWORD \
             --out "$signed_apk" "$aligned_apk"
           "$build_tools/apksigner" verify --verbose --print-certs "$signed_apk"
-          "$build_tools/zipalign" -c 4 "$signed_apk"
+          "$build_tools/zipalign" -c -P 16 4 "$signed_apk"
+          python3 scripts/audit_native_16kb.py "$signed_apk"
           python3 scripts/audit_built_apk_assets.py "$signed_apk"
           test -s "$signed_apk"
           sha256sum "$signed_apk" | tee -a "$GITHUB_STEP_SUMMARY"

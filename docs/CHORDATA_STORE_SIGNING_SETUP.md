@@ -78,7 +78,7 @@ Before starting, record:
 3. Completion of all **64 independently reviewed Biology/Tamil figure entries** and any outstanding source-licence checks in `docs/FIGURE_REVIEW_REGISTER_64.csv`.
 4. Successful native QA and Android instrumentation on the **exact** source revision.
 
-The release workflow enforces these gates, verifies the current sources/figure hashes, compiles both **unsigned release AAB and unsigned release APK**, then signs and verifies **both with the publisher's key**. It checks the installed APK's source asset digests and prints the public signing-certificate fingerprint and output SHA-256 hashes.
+The release workflow enforces these gates, verifies the current sources/figure hashes, compiles both **unsigned release AAB and unsigned release APK**, then signs and verifies **both with the publisher's key**. It checks the installed APK's source asset digests, **16 KiB native-library alignment**, and prints the public signing-certificate fingerprint and output SHA-256 hashes.
 
 Resulting GitHub Action artifacts (manually downloadable, **not automatically sent to a marketplace**):
 
