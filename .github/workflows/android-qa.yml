@@ -32,6 +32,7 @@ jobs:
           python3 scripts/test_apk_source_fixture.py
           python3 scripts/write_figure_review_register.py --check
           python3 scripts/test_review_signoff_guards.py
+          python3 scripts/test_play_release_inputs.py
           python3 scripts/test_owner_release_policy.py
           python3 scripts/verify_owner_release.py
           python3 scripts/test_gradle_ci_retry.py

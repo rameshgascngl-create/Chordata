@@ -7,7 +7,7 @@ on:
         required: true
         type: number
       version_name:
-        description: "Version name, e.g. 1.0.0 (no QA suffix)"
+        description: "Release version (e.g. 1.0.0); a final full stop is removed"
         required: true
         type: string
       privacy_policy_url:
@@ -46,8 +46,7 @@ jobs:
           set -euo pipefail
           [[ "$GITHUB_REF_NAME" == qa/* ]] || { echo '::error::Only a reviewed QA branch may produce a release candidate.'; exit 1; }
           [[ "$CONTACT_CONFIRMED" == true ]] || { echo '::error::Privacy contact and Play declarations must be confirmed.'; exit 1; }
-          [[ "$RELEASE_CODE" =~ ^[0-9]+$ ]] && (( RELEASE_CODE > 0 )) || { echo '::error::Invalid versionCode.'; exit 1; }
-          [[ "$RELEASE_NAME" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo '::error::Use a numeric semver release, not a QA version.'; exit 1; }
+          python3 scripts/validate_play_release_inputs.py
 
       - name: Confirm matching successful QA workflow
         uses: actions/github-script@v7
@@ -118,9 +117,7 @@ jobs:
           bash scripts/verify_sdk37_platform.sh
 
       - name: Build and lint unsigned release bundle and APK
-        env:
-          CHORDATA_RELEASE_VERSION_CODE: ${{ inputs.version_code }}
-          CHORDATA_RELEASE_VERSION_NAME: ${{ inputs.version_name }}
+        # Validated/canonical metadata comes from $GITHUB_ENV, not raw user input.
         run: |
           set -euo pipefail
           gradle --no-daemon :app:bundleRelease :app:assembleRelease :app:lintRelease
