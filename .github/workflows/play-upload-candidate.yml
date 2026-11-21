@@ -117,18 +117,21 @@ jobs:
           "$SDKMANAGER" --install 'platforms;android-37.0' 'build-tools;36.0.0'
           bash scripts/verify_sdk37_platform.sh
 
-      - name: Build and lint unsigned release bundle
+      - name: Build and lint unsigned release bundle and APK
         env:
           CHORDATA_RELEASE_VERSION_CODE: ${{ inputs.version_code }}
           CHORDATA_RELEASE_VERSION_NAME: ${{ inputs.version_name }}
         run: |
           set -euo pipefail
-          gradle --no-daemon :app:bundleRelease :app:lintRelease
+          gradle --no-daemon :app:bundleRelease :app:assembleRelease :app:lintRelease
           test -s app/build/outputs/bundle/release/app-release.aab
+          test -s app/build/outputs/apk/release/app-release-unsigned.apk
           unzip -t app/build/outputs/bundle/release/app-release.aab | tail -n 1
+          unzip -t app/build/outputs/apk/release/app-release-unsigned.apk | tail -n 1
           python3 scripts/audit_native_16kb.py app/build/outputs/bundle/release/app-release.aab
+          python3 scripts/audit_built_apk_assets.py app/build/outputs/apk/release/app-release-unsigned.apk
 
-      - name: Sign AAB with upload-key secret, verify and record SHA256
+      - name: Sign AAB and store APK with publisher upload-key secret, verify both
         shell: bash
         env:
           PLAY_KEYSTORE_B64: ${{ secrets.CHORDATA_PLAY_UPLOAD_KEYSTORE_B64 }}
@@ -151,10 +154,38 @@ jobs:
           test -s "$signed"
           sha256sum "$signed" | tee -a "$GITHUB_STEP_SUMMARY"
 
+          # APK signing is separate from JAR signing: zipalign before apksigner.
+          # Use the SAME publisher-controlled key as this AAB upload candidate.
+          # For an already published APK app, the key MUST match the prior release.
+          unsigned_apk=app/build/outputs/apk/release/app-release-unsigned.apk
+          aligned_apk="$RUNNER_TEMP/chordata-release-aligned.apk"
+          signed_apk=app/build/outputs/apk/release/chordata-store-upload-candidate.apk
+          build_tools="$ANDROID_HOME/build-tools/36.0.0"
+          test -s "$unsigned_apk"
+          "$build_tools/zipalign" -p -f 4 "$unsigned_apk" "$aligned_apk"
+          "$build_tools/apksigner" sign --ks "$key" \
+            --ks-key-alias "$PLAY_KEY_ALIAS" \
+            --ks-pass env:PLAY_STORE_PASSWORD \
+            --key-pass env:PLAY_KEY_PASSWORD \
+            --out "$signed_apk" "$aligned_apk"
+          "$build_tools/apksigner" verify --verbose --print-certs "$signed_apk"
+          "$build_tools/zipalign" -c 4 "$signed_apk"
+          python3 scripts/audit_built_apk_assets.py "$signed_apk"
+          test -s "$signed_apk"
+          sha256sum "$signed_apk" | tee -a "$GITHUB_STEP_SUMMARY"
+
       - name: Publish manually reviewed upload-candidate AAB (not Play upload)
         uses: actions/upload-artifact@v4
         with:
           name: CHORDATA_Manual_Signed_Play_Upload_Candidate
           path: app/build/outputs/bundle/release/chordata-play-upload-candidate.aab
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Publish manually reviewed signed store APK (not automatic store upload)
+        uses: actions/upload-artifact@v4
+        with:
+          name: CHORDATA_Manual_Signed_Store_APK_Candidate
+          path: app/build/outputs/apk/release/chordata-store-upload-candidate.apk
           if-no-files-found: error
           retention-days: 7
