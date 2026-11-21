@@ -999,17 +999,18 @@ class ReaderNavigationTest {
         }
         org.junit.Assert.assertEquals("pencil_plates/branchiostoma_en.png",
             selected(lanceletId, en))
-        // Owner blanket approval MUST NOT override this material anatomical hold.
-        val rabbitHeld = requireNotNull(byIdAndLanguage["u5-rabbit-endoskeleton" to "ta"])
-        org.junit.Assert.assertEquals("HOLD_MATERIAL_ANATOMY_ERROR",
-            rabbitHeld.optString("aiQaIntegrationDecision"))
-        org.junit.Assert.assertEquals("MATERIAL_ANATOMY_ERROR",
-            rabbitHeld.optString("scientificRiskHold"))
-        org.junit.Assert.assertEquals("OWNER_APPROVAL_EXCLUDED_MATERIAL_ANATOMY_ERROR_2026-11-11",
-            rabbitHeld.optString("ownerQaAcceptance"))
-        // Rabbit AI anatomy remains held until there is a separate reviewed
-        // exact-hash replacement. Never show the rejected Tamil image.
-        org.junit.Assert.assertEquals("pencil_plates/rabbit_skeleton_en.png",
+        // The discarded AI rabbit skeleton must never be shown. Tamil now uses
+        // a byte-identical copy of the credited historical English reference.
+        val rabbitCorrected = requireNotNull(byIdAndLanguage["u5-rabbit-endoskeleton" to "ta"])
+        val rabbitEnglish = requireNotNull(byIdAndLanguage["u5-rabbit-endoskeleton" to "en"])
+        org.junit.Assert.assertEquals("GREEN_TICK_ALLOW_PROVISIONAL_QA_USE",
+            rabbitCorrected.optString("aiQaIntegrationDecision"))
+        org.junit.Assert.assertTrue(rabbitCorrected.optString("scientificRiskHold").isBlank())
+        org.junit.Assert.assertEquals(rabbitEnglish.getString("sha256"),
+            rabbitCorrected.getString("sha256"))
+        org.junit.Assert.assertNotEquals("e004bee33be5e6f5f47fdeb4e306bd1b0834d8a6cfc3c6ee5eee070e237a2cad",
+            rabbitCorrected.getString("sha256"))
+        org.junit.Assert.assertEquals("pencil_plates/rabbit_skeleton_ta.png",
             selected("u5-rabbit-endoskeleton", ta))
         // Other already-approved AI PNGs remain accessible through shared/en.
         org.junit.Assert.assertEquals("pencil_plates/amphibian_orders.png",

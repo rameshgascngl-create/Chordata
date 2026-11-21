@@ -49,8 +49,15 @@ assert not {'u4-calotes-arterial-system', 'u3-parental-care-parental-care-compar
 for x in fs:
     if x.get('scientificRiskHold'):
         assert x.get('ownerQaDisplayDecision') != 'OWNER_APPROVED_PROVISIONAL_QA_USE_2026-11-13'
-assert next(x for x in fs if x['diagramId'] == 'u5-rabbit-endoskeleton'
-            and x['lang'] == 'ta')['scientificRiskHold'] == 'MATERIAL_ANATOMY_ERROR'
+rabbit_ta = next(x for x in fs if x['diagramId'] == 'u5-rabbit-endoskeleton' and x['lang'] == 'ta')
+rabbit_en = next(x for x in fs if x['diagramId'] == 'u5-rabbit-endoskeleton' and x['lang'] == 'en')
+assert rabbit_ta['sha256'] == rabbit_en['sha256'] and rabbit_ta['size'] == rabbit_en['size']
+assert rabbit_ta.get('sourceUrl') == rabbit_en.get('sourceUrl')
+assert rabbit_ta.get('license') == rabbit_en.get('license')
+assert rabbit_ta.get('aiQaIntegrationDecision') == 'GREEN_TICK_ALLOW_PROVISIONAL_QA_USE'
+assert not rabbit_ta.get('scientificRiskHold'), 'Historical-source replacement must not carry retired AI hold'
+assert rabbit_ta.get('retiredRejectedAiSha256') == 'e004bee33be5e6f5f47fdeb4e306bd1b0834d8a6cfc3c6ee5eee070e237a2cad'
+assert (p/'rabbit_skeleton_ta.png').read_bytes() == (p/'rabbit_skeleton_en.png').read_bytes()
 print('PASS: 60 retained canonical owner approvals; corrected aerofoil/dental plates require renewed owner review')
 
 # Exact-commit raster integrity for corrected Figure 63 and its retired source.
@@ -81,10 +88,9 @@ assert len(byid)<=64
 # The project owner's permission for minor AI defects is not anatomical approval.
 # A flagged material error must never be promoted by a blanket green tick.
 held=[f for f in fs if f.get('scientificRiskHold')=='MATERIAL_ANATOMY_ERROR']
-assert len(held)==1 and held[0]['diagramId']=='u5-rabbit-endoskeleton' and held[0]['lang']=='ta'
-assert held[0].get('aiQaIntegrationDecision')=='HOLD_MATERIAL_ANATOMY_ERROR'
-assert held[0].get('ownerQaAcceptance')=='OWNER_APPROVAL_EXCLUDED_MATERIAL_ANATOMY_ERROR_2026-11-11'
+assert not held, ('Anatomically held assets must not be active after historical-source replacement', held)
 assert not any(f.get('scientificRiskHold') and f.get('aiQaIntegrationDecision')=='GREEN_TICK_ALLOW_PROVISIONAL_QA_USE' for f in fs)
+assert (p/'rabbit_skeleton_ta.png').read_bytes() == (p/'rabbit_skeleton_en.png').read_bytes(), 'Historical rabbit replacement differs across languages'
 
 # Pedagogical utility is a separate gate from PNG integrity. These user-
 # rejected shapes remain in source control for provenance but cannot be used
