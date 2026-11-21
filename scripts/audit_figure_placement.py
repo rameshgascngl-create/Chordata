@@ -707,6 +707,29 @@ def main():
                     and figure.get("reviewStatus") == "PROVISIONAL_QA_ANATOMICAL_AND_TAMIL_REVIEW_PENDING",
                     "corrected Branchiostoma Tamil PNG attribution, hash or provisional QA decision changed"
                 )
+            elif (figure["diagramId"] == "u5-rabbit-endoskeleton"
+                    and figure["lang"] == "ta"):
+                # Replaces the held AI anatomy with byte-identical credited
+                # 1890 rabbit skeleton; no human scientific sign-off inferred.
+                rabbit_en = next(
+                    item for item in manifest["figures"]
+                    if item["diagramId"] == "u5-rabbit-endoskeleton"
+                    and item["lang"] == "en"
+                )
+                require(
+                    all(figure.get(key) == rabbit_en.get(key) for key in (
+                        "sha256", "size", "author", "license",
+                        "sourceUrl", "sourceAssetSha256"
+                    ))
+                    and figure.get("retiredRejectedAiSha256")
+                        == "e004bee33be5e6f5f47fdeb4e306bd1b0834d8a6cfc3c6ee5eee070e237a2cad"
+                    and not figure.get("scientificRiskHold")
+                    and figure.get("aiQaIntegrationDecision")
+                        == "GREEN_TICK_ALLOW_PROVISIONAL_QA_USE"
+                    and (pencil_dir / "rabbit_skeleton_ta.png").read_bytes()
+                        == (pencil_dir / "rabbit_skeleton_en.png").read_bytes(),
+                    "corrected Tamil rabbit source/rights/hash must match historical English plate"
+                )
             elif (figure["diagramId"] in ("u5-columba-endoskeleton", "u5-rabbit-endoskeleton")
                     and figure["lang"] == "en" and figure.get("sourceUrl")):
                 require(figure["author"] != "AI-generated original (ChatGPT ImageGen)",
