@@ -66,6 +66,22 @@ Set-Clipboard -Value ''
 
 Enter the remaining **password secrets directly in GitHub's secret fields**; do not paste them into public logs.
 
+## Publish the existing privacy policy without changing the app
+
+**CHORDATA already includes an English/Tamil offline native Privacy policy screen:**
+Home → **Privacy policy & local data**. The UI is implemented by `PrivacyPolicyScreen.kt`, with English and Tamil accessibility instrumentation tests. Do not replace it with a WebView or an online-only link.
+
+For store submissions, also publish the matching existing `docs/privacy-policy.html` as a public, non-editable HTML webpage. The repository's `docs/index.html` provides the GitHub Pages entrypoint. The publisher must activate hosting once:
+
+1. Visit https://github.com/rameshgascngl-create/Chordata/settings/pages
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Choose branch `qa/chordata-textbook-unit2-continuation-20261113`, folder `/docs`, then **Save**.
+4. Wait for GitHub Pages deployment to finish and open the published privacy page in an anonymous/private browser window. **Do not enter an unverified URL in any store.**
+5. Expected URL *after activation and public HTTP validation*: `https://rameshgascngl-create.github.io/Chordata/privacy-policy.html`.
+6. Use that exact URL as `privacy_policy_url` in the signed candidate workflow, and in the store's privacy policy field. The in-app policy remains available offline.
+
+The public privacy policy currently directs enquiries to the **store listing's developer contact**. Before store submission, the publisher must supply and verify a working public privacy contact, confirm that the published app's data-safety declaration matches the source code, and independently review privacy wording. Never invent a support email.
+
 ## Generate the candidates after formal reviews
 
 The protected manual workflow is:

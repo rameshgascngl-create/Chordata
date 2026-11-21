@@ -56,6 +56,15 @@ for term in ("privacy policy", "chordata atlas", "offline", "quiz scores",
         assert "not transmitted" in policy, "Missing policy disclosure: not transmitted"
     else:
         assert term in policy, f"Missing policy disclosure: {term}"
+pages_index = (ROOT / "docs/index.html").read_text(encoding="utf-8").lower()
+assert 'privacy-policy.html' in pages_index and 'chordata atlas' in pages_index, (
+    "GitHub Pages publishing entry must lead to the existing policy")
+assert '<html' in pages_index, "GitHub Pages entry needs valid HTML"
+assert 'privacy policy' in inapp.lower() and 'தனியுரிமைக் கொள்கை' in inapp, (
+    "Offline native privacy disclosure must remain bilingual")
+assert 'privacy-policy-entry' in (
+    ROOT / "app/src/main/java/in/gasc/zoology/chordata/ui/ChordataApp.kt"
+).read_text(encoding="utf-8"), "Privacy screen must stay reachable from Home"
 assert 'privacy-policy-page' in inapp
 assert 'fun PrivacyPolicyPage(language: ReadingLanguage, textScale: Float,' in inapp
 assert 'privacy-erase-entry' in inapp and 'privacy-erase-confirm' in inapp
