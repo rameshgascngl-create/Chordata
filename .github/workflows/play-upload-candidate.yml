@@ -63,7 +63,7 @@ jobs:
               run.conclusion === 'success');
             if (!passing) core.setFailed('No successful native Android QA + emulator workflow for this exact commit.');
 
-      - name: Gate scientific and Tamil image signoffs
+      - name: Gate exact-asset owner review, scientific image integrity and licence declarations
         run: |
           set -euo pipefail
           python3 scripts/audit_content.py
@@ -76,7 +76,7 @@ jobs:
           python3 scripts/audit_ai10_release_assets.py
           python3 scripts/check_textbook_plates.py
           python3 scripts/write_figure_review_register.py --check
-          python3 scripts/write_figure_review_register.py --release-check
+          python3 scripts/verify_owner_release.py
 
       - name: Verify public privacy webpage
         shell: bash

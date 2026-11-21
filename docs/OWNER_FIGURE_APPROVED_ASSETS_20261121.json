@@ -1,0 +1,1073 @@
+{
+  "policy": "CHORDATA_OWNER_APPROVAL_V1",
+  "approval_document": "docs/OWNER_ILLUSTRATION_AUTHORISATION_2026-11-21.md",
+  "scope": "Project owner expressly accepted the 64 current figure slots and 68 precise EN/TA/shared image variants for CHORDATA release review, instead of separate science and Tamil reviewer sign-offs.",
+  "slots": [
+    {
+      "diagramId": "u1-origin-deuterostome-relationships",
+      "topicId": "u1-origin",
+      "page": 1,
+      "sectionKey": "deuterostome-ancestry"
+    },
+    {
+      "diagramId": "u1-general-characters-five-chordate-characters",
+      "topicId": "u1-general-characters",
+      "page": 1,
+      "sectionKey": "diagnostic-features"
+    },
+    {
+      "diagramId": "u1-hemichordata-balanoglossus-external",
+      "topicId": "u1-hemichordata",
+      "page": 1,
+      "sectionKey": "body-plan"
+    },
+    {
+      "diagramId": "u1-urochordata-ascidia-larva-adult",
+      "topicId": "u1-urochordata",
+      "page": 3,
+      "sectionKey": "retrogressive-metamorphosis"
+    },
+    {
+      "diagramId": "u1-cephalochordata-branchiostoma-labelled",
+      "topicId": "u1-cephalochordata",
+      "page": 1,
+      "sectionKey": "external-anatomy"
+    },
+    {
+      "diagramId": "u1-vertebrata-characters-vertebrate-anatomy",
+      "topicId": "u1-vertebrata-characters",
+      "page": 2,
+      "sectionKey": "organ-systems"
+    },
+    {
+      "diagramId": "u1-vertebrata-classification-vertebrate-phylogeny",
+      "topicId": "u1-vertebrata-classification",
+      "page": 2,
+      "sectionKey": "modern-system"
+    },
+    {
+      "diagramId": "u1-agnatha-petromyzon-adult-larva",
+      "topicId": "u1-agnatha",
+      "page": 2,
+      "sectionKey": "ammocoetes"
+    },
+    {
+      "diagramId": "u2-pisces-classification-fish-groups",
+      "topicId": "u2-pisces-classification",
+      "page": 2,
+      "sectionKey": "major-groups"
+    },
+    {
+      "diagramId": "u2-scoliodon-external-labelled",
+      "topicId": "u2-scoliodon",
+      "page": 1,
+      "sectionKey": "external-features"
+    },
+    {
+      "diagramId": "u2-scoliodon-digestive-labelled",
+      "topicId": "u2-scoliodon",
+      "page": 2,
+      "sectionKey": "digestive-system"
+    },
+    {
+      "diagramId": "u2-scoliodon-gills-labelled",
+      "topicId": "u2-scoliodon",
+      "page": 3,
+      "sectionKey": "respiratory-system"
+    },
+    {
+      "diagramId": "u2-scoliodon-brain-labelled",
+      "topicId": "u2-scoliodon",
+      "page": 4,
+      "sectionKey": "brain"
+    },
+    {
+      "diagramId": "u2-scoliodon-sense-organs-labelled",
+      "topicId": "u2-scoliodon",
+      "page": 5,
+      "sectionKey": "sense-organs"
+    },
+    {
+      "diagramId": "u2-dipnoi-lungfish-comparison",
+      "topicId": "u2-dipnoi",
+      "page": 3,
+      "sectionKey": "affinities"
+    },
+    {
+      "diagramId": "u2-scales-fins-scale-types-labelled",
+      "topicId": "u2-scales-fins",
+      "page": 1,
+      "sectionKey": "scale-types"
+    },
+    {
+      "diagramId": "u2-scales-fins-fins-labelled",
+      "topicId": "u2-scales-fins",
+      "page": 2,
+      "sectionKey": "paired-fins"
+    },
+    {
+      "diagramId": "u2-accessory-respiration-accessory-organs-comparison",
+      "topicId": "u2-accessory-respiration",
+      "page": 2,
+      "sectionKey": "named-examples"
+    },
+    {
+      "diagramId": "u2-parental-care-parental-care-comparison",
+      "topicId": "u2-parental-care",
+      "page": 2,
+      "sectionKey": "examples"
+    },
+    {
+      "diagramId": "u2-migration-migration-cycle",
+      "topicId": "u2-migration",
+      "page": 1,
+      "sectionKey": "migration-types"
+    },
+    {
+      "diagramId": "u2-economic-importance-fishery-value-chain",
+      "topicId": "u2-economic-importance",
+      "page": 1,
+      "sectionKey": "nutrition-livelihood"
+    },
+    {
+      "diagramId": "u3-amphibia-classification-living-orders",
+      "topicId": "u3-amphibia-classification",
+      "page": 2,
+      "sectionKey": "living-orders"
+    },
+    {
+      "diagramId": "u3-amphibia-classification-life-cycle",
+      "topicId": "u3-amphibia-classification",
+      "page": 3,
+      "sectionKey": "reproduction-ecology"
+    },
+    {
+      "diagramId": "u3-origin-devonian-transition",
+      "topicId": "u3-origin",
+      "page": 1,
+      "sectionKey": "devonian-transition"
+    },
+    {
+      "diagramId": "u3-rana-external",
+      "topicId": "u3-rana",
+      "page": 1,
+      "sectionKey": "external-features"
+    },
+    {
+      "diagramId": "u3-rana-respiration",
+      "topicId": "u3-rana",
+      "page": 3,
+      "sectionKey": "respiratory-system"
+    },
+    {
+      "diagramId": "u3-rana-arterial-system",
+      "topicId": "u3-rana",
+      "page": 4,
+      "sectionKey": "arterial-system"
+    },
+    {
+      "diagramId": "u3-rana-brain",
+      "topicId": "u3-rana",
+      "page": 5,
+      "sectionKey": "brain"
+    },
+    {
+      "diagramId": "u3-adaptive-features-comparative-body-plans",
+      "topicId": "u3-adaptive-features",
+      "page": 3,
+      "sectionKey": "apoda"
+    },
+    {
+      "diagramId": "u3-neoteny-axolotl-development",
+      "topicId": "u3-neoteny",
+      "page": 2,
+      "sectionKey": "axolotl"
+    },
+    {
+      "diagramId": "u3-parental-care-parental-care-comparison",
+      "topicId": "u3-parental-care",
+      "page": 2,
+      "sectionKey": "frog-examples"
+    },
+    {
+      "diagramId": "u4-reptilia-classification-living-reptile-orders",
+      "topicId": "u4-reptilia-classification",
+      "page": 2,
+      "sectionKey": "living-orders"
+    },
+    {
+      "diagramId": "u4-calotes-external",
+      "topicId": "u4-calotes",
+      "page": 1,
+      "sectionKey": "external-features"
+    },
+    {
+      "diagramId": "u4-calotes-digestive-system",
+      "topicId": "u4-calotes",
+      "page": 2,
+      "sectionKey": "digestive-system"
+    },
+    {
+      "diagramId": "u4-calotes-respiratory-system",
+      "topicId": "u4-calotes",
+      "page": 3,
+      "sectionKey": "respiratory-system"
+    },
+    {
+      "diagramId": "u4-calotes-arterial-system",
+      "topicId": "u4-calotes",
+      "page": 4,
+      "sectionKey": "arterial-system"
+    },
+    {
+      "diagramId": "u4-calotes-brain",
+      "topicId": "u4-calotes",
+      "page": 5,
+      "sectionKey": "brain"
+    },
+    {
+      "diagramId": "u4-origin-extinct-amniote-phylogeny",
+      "topicId": "u4-origin-extinct",
+      "page": 1,
+      "sectionKey": "origin-of-amniotes"
+    },
+    {
+      "diagramId": "u4-origin-extinct-extinct-groups",
+      "topicId": "u4-origin-extinct",
+      "page": 2,
+      "sectionKey": "extinct-lineages"
+    },
+    {
+      "diagramId": "u4-snakes-india-big-four-identification",
+      "topicId": "u4-snakes-india",
+      "page": 2,
+      "sectionKey": "big-four"
+    },
+    {
+      "diagramId": "u4-poison-apparatus-venom-apparatus",
+      "topicId": "u4-poison-apparatus",
+      "page": 1,
+      "sectionKey": "venom-apparatus"
+    },
+    {
+      "diagramId": "u4-poison-apparatus-first-aid-flowchart",
+      "topicId": "u4-poison-apparatus",
+      "page": 3,
+      "sectionKey": "evidence-based-first-aid"
+    },
+    {
+      "diagramId": "u4-skull-temporal-skull-types",
+      "topicId": "u4-skull",
+      "page": 1,
+      "sectionKey": "temporal-fenestrae"
+    },
+    {
+      "diagramId": "u5-aves-classification-bird-lineages",
+      "topicId": "u5-aves-classification",
+      "page": 2,
+      "sectionKey": "modern-classification"
+    },
+    {
+      "diagramId": "u5-columba-external",
+      "topicId": "u5-columba",
+      "page": 1,
+      "sectionKey": "external-features"
+    },
+    {
+      "diagramId": "u5-columba-endoskeleton",
+      "topicId": "u5-columba",
+      "page": 2,
+      "sectionKey": "endoskeleton"
+    },
+    {
+      "diagramId": "u5-columba-urinogenital",
+      "topicId": "u5-columba",
+      "page": 3,
+      "sectionKey": "urinogenital-system"
+    },
+    {
+      "diagramId": "u5-columba-sense-organs",
+      "topicId": "u5-columba",
+      "page": 4,
+      "sectionKey": "sense-organs"
+    },
+    {
+      "diagramId": "u5-flight-adaptations-wing-aerodynamics",
+      "topicId": "u5-flight-adaptations",
+      "page": 1,
+      "sectionKey": "wing-aerodynamics"
+    },
+    {
+      "diagramId": "u5-flight-adaptations-flight-muscles",
+      "topicId": "u5-flight-adaptations",
+      "page": 2,
+      "sectionKey": "muscles-skeleton"
+    },
+    {
+      "diagramId": "u5-flight-adaptations-avian-lung",
+      "topicId": "u5-flight-adaptations",
+      "page": 3,
+      "sectionKey": "respiration-metabolism"
+    },
+    {
+      "diagramId": "u5-bird-migration-flyway-stopovers",
+      "topicId": "u5-bird-migration",
+      "page": 1,
+      "sectionKey": "migration-patterns"
+    },
+    {
+      "diagramId": "u5-mammalia-classification-mammal-lineages",
+      "topicId": "u5-mammalia-classification",
+      "page": 2,
+      "sectionKey": "living-mammal-lineages"
+    },
+    {
+      "diagramId": "u5-rabbit-external",
+      "topicId": "u5-rabbit",
+      "page": 1,
+      "sectionKey": "external-features"
+    },
+    {
+      "diagramId": "u5-rabbit-endoskeleton",
+      "topicId": "u5-rabbit",
+      "page": 2,
+      "sectionKey": "endoskeleton"
+    },
+    {
+      "diagramId": "u5-rabbit-excretory-system",
+      "topicId": "u5-rabbit",
+      "page": 3,
+      "sectionKey": "excretory-system"
+    },
+    {
+      "diagramId": "u5-rabbit-brain",
+      "topicId": "u5-rabbit",
+      "page": 4,
+      "sectionKey": "brain"
+    },
+    {
+      "diagramId": "u5-rabbit-sense-organs",
+      "topicId": "u5-rabbit",
+      "page": 5,
+      "sectionKey": "sense-organs"
+    },
+    {
+      "diagramId": "u5-egg-laying-mammals-monotreme-reproduction",
+      "topicId": "u5-egg-laying-mammals",
+      "page": 2,
+      "sectionKey": "milk-and-young"
+    },
+    {
+      "diagramId": "u5-marsupials-marsupial-life-history",
+      "topicId": "u5-marsupials",
+      "page": 1,
+      "sectionKey": "reproductive-pattern"
+    },
+    {
+      "diagramId": "u5-flying-mammals-bat-wing-glider-comparison",
+      "topicId": "u5-flying-mammals",
+      "page": 1,
+      "sectionKey": "bats-true-flight"
+    },
+    {
+      "diagramId": "u5-aquatic-mammals-aquatic-mammal-groups",
+      "topicId": "u5-aquatic-mammals",
+      "page": 1,
+      "sectionKey": "marine-lineages"
+    },
+    {
+      "diagramId": "u5-dentition-human-rabbit-dental-formula",
+      "topicId": "u5-dentition",
+      "page": 3,
+      "sectionKey": "dental-formula"
+    },
+    {
+      "diagramId": "u5-dentition-tooth-types",
+      "topicId": "u5-dentition",
+      "page": 1,
+      "sectionKey": "tooth-types"
+    }
+  ],
+  "figures": [
+    {
+      "diagramId": "u1-agnatha-petromyzon-adult-larva",
+      "lang": "shared",
+      "path": "pencil_plates/lamprey_adult_ammocoete.png",
+      "sha256": "d833b1aec9541f1c8649f460ebf3829da3a478e0d7b942794b591a190e5fb48f",
+      "author": "LadyofHats (adult); H. G. Seeley, 1886 (larva); CHORDATA QA (layout)",
+      "license": "Public domain: LadyofHats dedication; Seeley 1886 / UW Image Bank",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamprey_anatomy.png",
+      "modifications": "CC0 standalone adult diagram used; buccal funnel term corrected; both placed in a labelled comparison without proportional distortion."
+    },
+    {
+      "diagramId": "u1-cephalochordata-branchiostoma-labelled",
+      "lang": "en",
+      "path": "pencil_plates/branchiostoma_en.png",
+      "sha256": "68acc2123fa7f57c1eb82feba7bbc1d81f40faf9fc14c12f813be618845726e0",
+      "author": "Hans Hillewaert — original 32-label Branchiostoma lanceolatum drawing",
+      "license": "CC BY-SA 4.0 (drawing and PNG adaptation)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Branchiostoma_anatomy.jpg",
+      "modifications": "Full original annotated drawing converted from JPEG to lossless PNG with geometry and numerical labels unchanged; original is distributed under the same CC BY-SA 4.0 licence."
+    },
+    {
+      "diagramId": "u1-cephalochordata-branchiostoma-labelled",
+      "lang": "ta",
+      "path": "pencil_plates/branchiostoma_ta.png",
+      "sha256": "2fbd48be62b83309c87214492ea20dfea1995a3e624fca66c17ed995c95d9b1e",
+      "author": "OpenAI ChatGPT ImageGen — original anatomical reconstruction, digitally labelled (2026-11-08)",
+      "license": "Original AI-generated illustration; no third-party illustration copied",
+      "sourceUrl": "",
+      "modifications": "AI regeneration of serial gonads and essential chordate structures; English labels."
+    },
+    {
+      "diagramId": "u1-general-characters-five-chordate-characters",
+      "lang": "shared",
+      "path": "pencil_plates/chordate_features.png",
+      "sha256": "8f0daae6d718061336c6d216c9a5b5ba5eaa0d30e62376c68dc7d286b2bbcaee",
+      "author": "Microvipera (generalised chordate morphology); CHORDATA QA (layout)",
+      "license": "CC0 1.0 — original artwork dedicated to public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:General_chordate_morphology.svg",
+      "modifications": "CC0 2025 vector morphology rendered at 2660px width into offline PNG with proportions and original anatomical mark-up intact; additional standalone five-feature key placed below."
+    },
+    {
+      "diagramId": "u1-hemichordata-balanoglossus-external",
+      "lang": "shared",
+      "path": "pencil_plates/balanoglossus_external.png",
+      "sha256": "fd237c4155fd2a1eb261ddb0d3c8d7de9b2cb00c5b2dd92d27054dda818f2741",
+      "author": "Unknown illustrator, New International Encyclopaedia (1905); CHORDATA QA (layout)",
+      "license": "Public domain — New International Encyclopaedia, 1905",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIE_1905_Ascidians_and_balanoglossus.png",
+      "modifications": "Isolated original figure 9, rotated without changing proportions, enlarged and separately keyed in English."
+    },
+    {
+      "diagramId": "u1-origin-deuterostome-relationships",
+      "lang": "shared",
+      "path": "pencil_plates/deuterostome_relationships.png",
+      "sha256": "ee710fdc11c2851ca3768a50143ce19cce78d9d352a32b381ed66b7c7155d410",
+      "author": "Chordata QA project — original numbered schematic",
+      "license": "CHORDATA project-original schematic; project-owner-authorised app distribution (no third-party reuse licence asserted)",
+      "sourceUrl": "",
+      "modifications": ""
+    },
+    {
+      "diagramId": "u1-urochordata-ascidia-larva-adult",
+      "lang": "shared",
+      "path": "pencil_plates/ascidia_metamorphosis.png",
+      "sha256": "af4f986941cd3b9f65452bde00ef6974e2ce425c01e2d7a988f44986f01dfa00",
+      "author": "Unknown illustrator, The New International Encyclopaedia (1905), Vol. 2; historical plate",
+      "license": "Public domain historical encyclopaedia illustration (published 1905); exact original scan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIE_1905_Ascidians_and_balanoglossus.png",
+      "modifications": "NONE — existing 1905 plate retained as original PNG bytes; no re-drawing, rasterization, vectorization, crops, overlays, generative AI or upscaling"
+    },
+    {
+      "diagramId": "u1-vertebrata-characters-vertebrate-anatomy",
+      "lang": "en",
+      "path": "pencil_plates/vertebrate_organs_en.png",
+      "sha256": "f828c226f6d99ab9558f783a61af6e39a35e5205eda569edeace062d2478633b",
+      "author": "Chiswick Chap (vertebrate body plan); Uwe Gille (teleost organs); CHORDATA QA (layout)",
+      "license": "CC BY-SA 4.0 — composite derivative, both original artists credited",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vertebrate_body_plan.svg",
+      "modifications": "Rendered two independently attributed source SVGs into one high-resolution PNG teaching comparison; original source anatomy unmodified, separate English 1–11 teleost organ key added. Source SVGs are NOT packaged in the app. Composite offered under CC BY-SA 4.0."
+    },
+    {
+      "diagramId": "u1-vertebrata-classification-vertebrate-phylogeny",
+      "lang": "shared",
+      "path": "pencil_plates/vertebrate_phylogeny.png",
+      "sha256": "376a255f8c67d250080b0b3eb86409b62f045e13a70fbdee0fbf0fe20a85d256",
+      "author": "Chordata QA project — original numbered schematic",
+      "license": "CHORDATA project-original schematic; project-owner-authorised app distribution (no third-party reuse licence asserted)",
+      "sourceUrl": "",
+      "modifications": ""
+    },
+    {
+      "diagramId": "u2-accessory-respiration-accessory-organs-comparison",
+      "lang": "en",
+      "path": "pencil_plates/fish_accessory_breathing_en.png",
+      "sha256": "30c841301b6042eebaf128db033fcaf2542c99cd1b4129609721320a641fa274",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u2-dipnoi-lungfish-comparison",
+      "lang": "en",
+      "path": "pencil_plates/dipnoi_lungfin_comparison_en.png",
+      "sha256": "1437c11f73c9ee05c0dec553eb9dd670181f6601d17b78796a6fdc6eaba14c31",
+      "author": "David Starr Jordan (1907), J. Green (1902), unidentified 1909 artist; CHORDATA QA original-image layout",
+      "license": "Public domain historical zoological prints; FMIB/Commons provenance",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FMIB_51710_Neoceratodus_forsteri_(Gunther)_Australia_Family_Ceratodontidae.jpeg",
+      "modifications": "Original historical plates pasted unscaled, with independent English heading and captions, into a 1710x1930 RGB PNG. No crop, vector art, AI, traced anatomy or resizing."
+    },
+    {
+      "diagramId": "u2-economic-importance-fishery-value-chain",
+      "lang": "en",
+      "path": "pencil_plates/fishery_value_chain_en.png",
+      "sha256": "b8e92f0384e194bdea2ea0652937262a5cb1e11fe9bf06a4c0f702d673bc8fda",
+      "author": "CHORDATA QA — original vector anatomical schematic",
+      "license": "Original project illustration; no source images copied",
+      "sourceUrl": "",
+      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels."
+    },
+    {
+      "diagramId": "u2-migration-migration-cycle",
+      "lang": "shared",
+      "path": "pencil_plates/fish_migration_cycles.png",
+      "sha256": "f9133cf0914059e12e37af0ff3170592b7ae1a42a08875ce4a2dac4782ae7261",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u2-parental-care-parental-care-comparison",
+      "lang": "en",
+      "path": "pencil_plates/fish_parental_care_en.png",
+      "sha256": "8bbd87a865d337f64e537ea25f8010aea6688abd2424730afb31ef75a686137b",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u2-pisces-classification-fish-groups",
+      "lang": "en",
+      "path": "pencil_plates/fish_major_groups_en.png",
+      "sha256": "54617d2619e40baac973441d064c123a6b63ceb9d39ff7a743dd70ecb42bfef5",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u2-scales-fins-fins-labelled",
+      "lang": "shared",
+      "path": "pencil_plates/fish_fin_positions.png",
+      "sha256": "aeba9a4f555fd14b98a9bc6852969c5b654951e9d0243271e62cdbc266f5a7d8",
+      "author": "Unknown original illustrator (1898), Oregon Fish and Game Protector; University of Washington Freshwater and Marine Image Bank; CHORDATA QA layout",
+      "license": "Public domain — 1898 Oregon Fish and Game report, UW Freshwater and Marine Image Bank",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FMIB_47883_Figure_of_a_Fish,_Showing_the_Location_of_Parts_Usually_Referred_to_in_Desciption_-_1_Dorsal_fin;_2_Adipose_fin;_3_Caudal_fin;_4.jpeg",
+      "modifications": "Cropped original numbered fish from 1898 print, converted to greyscale/high contrast and enlarged proportionally. New English fin legend outside original engraving; original 1–19 anatomical leaders not modified."
+    },
+    {
+      "diagramId": "u2-scales-fins-scale-types-labelled",
+      "lang": "shared",
+      "path": "pencil_plates/fish_scale_types.png",
+      "sha256": "e38720273c567a6704947c9371fcef287771f299d9574b8326e86eee089e5ed5",
+      "author": "Jon Houseman",
+      "license": "CC BY-SA 3.0 Unported (attributed teaching composite)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishscales.png",
+      "modifications": "The published images were proportionally laid out on a labelled teaching page; original anatomical source pixels were not synthetically invented."
+    },
+    {
+      "diagramId": "u2-scoliodon-brain-labelled",
+      "lang": "en",
+      "path": "pencil_plates/shark_brain_dorsal_en.png",
+      "sha256": "8d61c1196f020158f865ee0434c66ac70323e3842d874d47dcf23a812f5da9ef",
+      "author": "Gustav Theodor Fritsch (1838-1927), historical dogfish brain plate (1878); CHORDATA QA contextual panel only",
+      "license": "Public domain historical anatomical original (1878); independent QA typography panel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fritsch_dogfish_shark_brain.png",
+      "modifications": "Original 500x941 image retained at native pixel dimensions on 1420x1010 canvas; English source-context typography in separate panel only; no resizing, anatomical tracing, image generation or leader lines"
+    },
+    {
+      "diagramId": "u2-scoliodon-digestive-labelled",
+      "lang": "en",
+      "path": "pencil_plates/scoliodon_digestive_en.png",
+      "sha256": "195e816c3f80b1f6dfd494286549b83c7345911e006b5ec1540c4277869f3254",
+      "author": "CHORDATA original Scoliodon anatomy and Jon Houseman",
+      "license": "CC BY-SA 3.0 Unported (attributed teaching composite)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squa152p.png",
+      "modifications": "The published images were proportionally laid out on a labelled teaching page; original anatomical source pixels were not synthetically invented."
+    },
+    {
+      "diagramId": "u2-scoliodon-external-labelled",
+      "lang": "en",
+      "path": "pencil_plates/scoliodon_external_anatomy_en.png",
+      "sha256": "f422a6fedf39b78c3c262eef521242b65e5a7c6c68b5e25869e557c33bfe48f7",
+      "author": "Eduard Rüppell (1837) — historical plate; Field Museum Library/BHL scan; CHORDATA QA crop/layout",
+      "license": "Public domain — Rüppell 1837; faithful historical scan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neue_Wirbelthiere_zu_der_Fauna_von_Abyssinien_geh%C3%B6rig_(Taf._18_Fig.1-4)_BHL37140507.jpg",
+      "modifications": "Original full-page historic colour scan cropped to Plate XVIII Figure 4 (milk shark) only; proportional resizing, separate external English identification key; no organ anatomy invented."
+    },
+    {
+      "diagramId": "u2-scoliodon-gills-labelled",
+      "lang": "shared",
+      "path": "pencil_plates/shark_gill_flow.png",
+      "sha256": "675f497ab223df417274b8641bfc09b5a40729a4c74e419208bb08794353a90c",
+      "author": "CHORDATA QA project — original vector shark septal-gill teaching schematic",
+      "license": "Original project illustration — scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Original programmatic educational drawing, not copied from any reference figure"
+    },
+    {
+      "diagramId": "u2-scoliodon-sense-organs-labelled",
+      "lang": "en",
+      "path": "pencil_plates/shark_sensory_systems_en.png",
+      "sha256": "f4772942d441d02589425580a46a312900bd5b6f141cd36f09a8657f0e6e6d91",
+      "author": "Marit Winther-Janson, Barbara E. Wueringer and Jamie E. Seymour (2012), PLOS ONE 7(11):e49857, original Fig. 2",
+      "license": "CC BY; 2012 PLOS ONE original research Figure 2, credited to Winther-Janson, Wueringer and Seymour",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3511481/figure/pone-0049857-g002/",
+      "modifications": "Published full Fig. 2 reproduced pixel-identically in 1:1 scale on 3714x4181 RGB PNG, with separate English comparison notes to the RIGHT. Source artwork never cropped, rescaled, recoloured, recreated or AI-generated."
+    },
+    {
+      "diagramId": "u3-adaptive-features-comparative-body-plans",
+      "lang": "shared",
+      "path": "pencil_plates/amphibian_orders.png",
+      "sha256": "c870937f5036cbfc69f7a6ed38d427a1a3d6aa1d2756a80805a25e17ee442e33",
+      "author": "AI-generated original (ChatGPT ImageGen)",
+      "license": "Original AI-generated artwork; no third-party image reproduced",
+      "sourceUrl": "",
+      "modifications": "Generated for this lesson; lettered panels; selectable bilingual key supplied separately."
+    },
+    {
+      "diagramId": "u3-amphibia-classification-life-cycle",
+      "lang": "shared",
+      "path": "pencil_plates/frog_metamorphosis.png",
+      "sha256": "ef964ec0e3b79971779ce0ed14d64dc01c6166689b2a53765dc087f6a0420f4b",
+      "author": "The How and Why Library (1909), text by Eleanor Stackhouse Atkinson; original figure illustrator not independently identified",
+      "license": "Public domain — figure originally published in 1909; Wikimedia Commons public-domain record",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_How_and_Why_Library_-_How_a_frog_grows.png",
+      "modifications": "No modifications; the original published PNG is stored byte-identically. English/Tamil explanations appear separately in lesson keys."
+    },
+    {
+      "diagramId": "u3-amphibia-classification-living-orders",
+      "lang": "shared",
+      "path": "pencil_plates/amphibian_orders.png",
+      "sha256": "c870937f5036cbfc69f7a6ed38d427a1a3d6aa1d2756a80805a25e17ee442e33",
+      "author": "AI-generated original (ChatGPT ImageGen)",
+      "license": "Original AI-generated artwork; no third-party image reproduced",
+      "sourceUrl": "",
+      "modifications": "Generated for this lesson; lettered panels; selectable bilingual key supplied separately."
+    },
+    {
+      "diagramId": "u3-neoteny-axolotl-development",
+      "lang": "en",
+      "path": "pencil_plates/axolotl_neoteny_en.png",
+      "sha256": "fcf3c3e327d535e877d5d721eda650185bd20fcee2e383c386c9b75bb73bfa76",
+      "author": "Unidentified historical illustrator, The New International Encyclopaedia (1905), vol. 2, after p. 330; published by Dodd, Mead & Co.",
+      "license": "Public domain — original US encyclopaedia illustration published 1905",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIE_1905_Axolotl.png",
+      "modifications": "None. Byte-identical 1487x1046 source PNG installed; original printed numerals 1 and 2 retained, with explanatory English and Tamil keys outside image. No crop, synthetic fill, recolour, vector or AI drawing."
+    },
+    {
+      "diagramId": "u3-origin-devonian-transition",
+      "lang": "en",
+      "path": "pencil_plates/devonian_tetrapod_transition_en.png",
+      "sha256": "5ccf005dc7c9729fb40ed4cb9ab7eaedf7f2180904e79417b1fd2858d9e55310",
+      "author": "Maija Karala",
+      "license": "CC BY-SA 3.0 Unported (attributed teaching composite)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishapod_evolution.jpg",
+      "modifications": "The published images were proportionally laid out on a labelled teaching page; original anatomical source pixels were not synthetically invented."
+    },
+    {
+      "diagramId": "u3-parental-care-parental-care-comparison",
+      "lang": "en",
+      "path": "pencil_plates/amphibian_parental_care_en.png",
+      "sha256": "5e65932b980f9dc21d83d2d00e379432fdbf212cd200226a0889daae1037aa6f",
+      "author": "CHORDATA editorial project — original layout and schematics with two adapted OpenAI ImageGen illustrations",
+      "license": "Original CHORDATA educational illustration with project AI-assisted artwork excerpts; independent review pending",
+      "sourceUrl": "",
+      "modifications": "New English-labelled four-panel layout; A and C use cropped project art, B and D are original schematics. Removed erroneous female transport and trophic-egg labels from the Dendrobates panel."
+    },
+    {
+      "diagramId": "u3-rana-arterial-system",
+      "lang": "en",
+      "path": "pencil_plates/frog_arterial_system_en.png",
+      "sha256": "899fdfb9b260a20998ec8203e422685e9b42755ce9c94aba74b6106cd4cbb7ed",
+      "author": "Alexander Ecker, The Anatomy of the Frog (1889), English trans. George Haslam; CHORDATA QA (layout)",
+      "license": "Public domain — illustrated zoological text published 1889",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/77560/pg77560-images.html",
+      "modifications": "Isolated historically published Fig. 143, proportionally resized with Lanczos and placed alongside an English key; historical branching ink unchanged."
+    },
+    {
+      "diagramId": "u3-rana-brain",
+      "lang": "en",
+      "path": "pencil_plates/frog_brain_dorsal_en.png",
+      "sha256": "444c7eefc643da3fe411eca4965b48fdbd76667ec9be41e2e742ce2bcb7e0b68",
+      "author": "The biology of the frog, S. J. Holmes (1927), fig. 101 (after Newman and Parker & Parker); CHORDATA QA (layout)",
+      "license": "Public domain (1927 U.S. publication; Holmes died 1964)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_biology_of_the_frog_(1927)_(20356465586).jpg",
+      "modifications": "Only the original dorsal brain view (Fig. 101A) was cropped; historical ink preserved; separate English abbreviation key and heading composed outside the drawing."
+    },
+    {
+      "diagramId": "u3-rana-external",
+      "lang": "en",
+      "path": "pencil_plates/rana_external_en.png",
+      "sha256": "14aff74ada05aa6282f383a1de954f2c509939449d84c79b9014f61d62ce2940",
+      "author": "Edgar Thurston (1888, editor and publisher of the Madras catalogue); original Plate III lithograph, individual lithographer not securely identified",
+      "license": "Public domain historical Madras lithograph (1888), faithful scanned original; BHL marks book NOT_IN_COPYRIGHT",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catalogue_of_the_Batrachia_Salientia_and_Apoda_(frogs,_toads,_and_c%C2%BFcilians)_of_southern_India_(1888)_(20389957728).jpg",
+      "modifications": "Only pixel-preserving JPEG-to-PNG file-format conversion; no artwork newly drawn, AI generated, cropped, labelled, recoloured, traced or upscaled"
+    },
+    {
+      "diagramId": "u3-rana-respiration",
+      "lang": "en",
+      "path": "pencil_plates/rana_respiration_en.png",
+      "sha256": "99c7af022ef4ba7b00402f2eeb74e73f35de2771b5cc5babe2a344492c566804",
+      "author": "Jon Houseman (frog buccal-pump sequence); CHORDATA QA (cutaneous section and layout)",
+      "license": "CC BY-SA 3.0 Unported — adapted composite; source credited",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amph001B.png",
+      "modifications": "Original Jon Houseman frog breathing A–D PNG was enlarged preserving proportions and displayed beside new CHORDATA QA skin-capillary gas-exchange section and separate teaching key. No A–D phase functions invented. Composite distributed under CC BY-SA 3.0."
+    },
+    {
+      "diagramId": "u4-calotes-arterial-system",
+      "lang": "en",
+      "path": "pencil_plates/calotes_heart_arteries_en.png",
+      "sha256": "937660abab533455b91cf1e0935c12d635f6df20fef63750d62e65efafbc1b7e",
+      "author": "CHORDATA project — original functional circulation schematic",
+      "license": "Original CHORDATA teaching artwork",
+      "sourceUrl": "",
+      "modifications": "Original English-labelled PNG redrawn from published descriptions. The functional schematic simplifies chamber positions and arterial courses and omits small branches."
+    },
+    {
+      "diagramId": "u4-calotes-brain",
+      "lang": "en",
+      "path": "pencil_plates/calotes_brain_dorsal_en.png",
+      "sha256": "a9d3136b213c96e62bc5cb45742474b325d9dbb8185502ed7e24bb1a4f3c3030",
+      "author": "OpenAI ChatGPT image generation — AI-assisted original QA illustration",
+      "license": "AI-generated provisional artwork; no third-party illustration reproduced; academic review required",
+      "sourceUrl": "",
+      "modifications": "New original AI-assisted 1536×1024 RGB PNG; original pixels preserved, no cropping, trace, upscale or post-generation redraw; replaced prior vector-schematic PNG"
+    },
+    {
+      "diagramId": "u4-calotes-digestive-system",
+      "lang": "en",
+      "path": "pencil_plates/calotes_digestive_en.png",
+      "sha256": "5da6f592cd726621ff5df240ebb506d9dc7142d95c03e6bfc99d89eede55834b",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u4-calotes-external",
+      "lang": "en",
+      "path": "pencil_plates/calotes_external_en.png",
+      "sha256": "8439ff408895aaa1eb8f59e2192af79c30a45f81d6186af2f8b2b2664eacaf66",
+      "author": "Azim Khan Ronnie (original photograph); CHORDATA QA (lossless PNG adaptation)",
+      "license": "CC BY-SA 4.0 — adapted photographic PNG; attribution and share-alike apply",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oriental_Lizard.jpg",
+      "modifications": "EXIF orientation corrected; entire photograph proportionally resized and losslessly encoded as PNG. No biological features invented or digitally redrawn."
+    },
+    {
+      "diagramId": "u4-calotes-respiratory-system",
+      "lang": "en",
+      "path": "pencil_plates/calotes_respiratory_en.png",
+      "sha256": "5f63ba851ba074880db5ddecf044c24490173327903b9435e793f63f874eeae4",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u4-origin-extinct-amniote-phylogeny",
+      "lang": "shared",
+      "path": "pencil_plates/amniote_phylogeny.png",
+      "sha256": "30e155bfc27e6e847c22576ec120905b41cf8986eae0ddf993dbeb4ebf131813",
+      "author": "Chordata QA project — original numbered schematic",
+      "license": "CHORDATA project-original schematic; project-owner-authorised app distribution (no third-party reuse licence asserted)",
+      "sourceUrl": "",
+      "modifications": ""
+    },
+    {
+      "diagramId": "u4-origin-extinct-extinct-groups",
+      "lang": "en",
+      "path": "pencil_plates/extinct_reptile_lineages_en.png",
+      "sha256": "c36f69163bd291ee663f54c1575e6de3dd52caa80d6990cdb5bd81b02a367f18",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u4-poison-apparatus-first-aid-flowchart",
+      "lang": "en",
+      "path": "pencil_plates/snakebite_first_aid_en.png",
+      "sha256": "1ace57d4694bace1b0da1e5f41b2693a99bb50429f7699f18e4a3377debf52a7",
+      "author": "CHORDATA QA — original vector anatomical schematic",
+      "license": "Original project illustration; no source images copied",
+      "sourceUrl": "",
+      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels."
+    },
+    {
+      "diagramId": "u4-poison-apparatus-venom-apparatus",
+      "lang": "en",
+      "path": "pencil_plates/snake_venom_delivery_en.png",
+      "sha256": "e148ff90ecfe32060f019a60aa09e5ab512317dd1d0a6d9e1da8b2b4bf3c81af",
+      "author": "Edward Nicholson, Indian Snakes (1874), Plate III; original plate illustrator unidentified; Biodiversity Heritage Library scan",
+      "license": "Public domain original 1874 anatomical plate; BHL mechanical source scan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_snakes_(Plate_III)_BHL4390486.jpg",
+      "modifications": "Original 2428x3906 Biodiversity Heritage Library JPEG decoded to RGB and encoded as PNG; same source pixel dimensions, no cropping, tracing, AI-generated anatomy, stylisation, labels or upscaling."
+    },
+    {
+      "diagramId": "u4-reptilia-classification-living-reptile-orders",
+      "lang": "en",
+      "path": "pencil_plates/living_reptile_groups_en.png",
+      "sha256": "8f47ff3fb6091fa531ade3b33affce65c7ff28d76eacbd7685da8098fb547a8d",
+      "author": "Petter Bøckman (2012) four-reptile montage; component photos by Mila Zinkova, TimVickers, Ester Inbar and Donald Macauley",
+      "license": "CC BY-SA 3.0 Unported — original photo montage by Petter Bøckman; component rights/credits retained",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Extant_reptilia.jpg",
+      "modifications": "Original four-photo montage scaled proportionally from 3000x2355 to 1800x1413 using Lanczos interpolation, encoded as offline RGB PNG; no new anatomical content, overlays, cropping or AI-generative alterations."
+    },
+    {
+      "diagramId": "u4-skull-temporal-skull-types",
+      "lang": "shared",
+      "path": "pencil_plates/temporal_fenestrae.png",
+      "sha256": "e8f29b8b0f579da071d2b401caa50b35ab08fee51ae30b7c03fc17d4f186e9c8",
+      "author": "Hans Gadow, Amphibia and Reptiles, The Cambridge Natural History, vol. VIII (1901), Fig. 54; individual original draughtsperson not established",
+      "license": "Public domain — original published 1901 natural-history skull engravings",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibia_and_reptiles_(1901)_(17979294289).jpg",
+      "modifications": "Authenticated original published Fig 54 scan, 1628x2136 JPEG decoded to RGB PNG at identical pixel dimensions, without crop, enlargement, artificial labels, traced or AI anatomy."
+    },
+    {
+      "diagramId": "u4-snakes-india-big-four-identification",
+      "lang": "en",
+      "path": "pencil_plates/india_big_four_snakes_en.png",
+      "sha256": "60e62f263f46f4a475ad2ed91fc729d3c0c7f2e7eafc3a448e2c9b5cab048705",
+      "author": "Dinesh Valke; Manoj Karingamadathil; Nativeplants garden; Jnprasad2001; CHORDATA QA (educational presentation)",
+      "license": "CC BY-SA 4.0 — derivative layout credited to all source creators",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naja_naja_113856920.jpg",
+      "modifications": "Four original Commons specimen photographs resized and arranged into a new annotated comparison plate, with distinct creator attributions. No anatomy fabricated."
+    },
+    {
+      "diagramId": "u5-aquatic-mammals-aquatic-mammal-groups",
+      "lang": "en",
+      "path": "pencil_plates/aquatic_mammal_lineages_en.png",
+      "sha256": "491c242f293c2ed2f2f77a73a73b551b673215e8787237d1b819771e451f31ab",
+      "author": "caroline legg; Jerome Paillet (IFREMER); Arnstein Rønning; U.S. Fish and Wildlife Service; CHORDATA QA (educational comparison captions)",
+      "license": "Composite educational figure: CC BY-SA 4.0 derivative with separately attributed CC BY 2.0, CC BY 4.0, CC BY-SA 4.0 and public-domain original photographs",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bottlenose_Dolphin_(48512426316).jpg",
+      "modifications": "Each original licensed photograph fitted proportionally and without cropping to a clearly credited four-card teaching comparison, with explanatory taxonomy. No specimens or anatomy invented, removed or redrawn."
+    },
+    {
+      "diagramId": "u5-aves-classification-bird-lineages",
+      "lang": "en",
+      "path": "pencil_plates/living_bird_phylogeny_en.png",
+      "sha256": "ce2378fa9c28026090f2b895a930a46a6e9d62135ac0b11ab61da080666cfb25",
+      "author": "CHORDATA QA — original vector anatomical schematic",
+      "license": "Original project illustration; no source images copied",
+      "sourceUrl": "",
+      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels."
+    },
+    {
+      "diagramId": "u5-bird-migration-flyway-stopovers",
+      "lang": "en",
+      "path": "pencil_plates/bird_migration_stopovers_en.png",
+      "sha256": "bc124ea5859a9284988730a49c264489df4c065d3a5d07127057777a9cb79268",
+      "author": "CHORDATA QA — original vector anatomical schematic",
+      "license": "Original project illustration; no source images copied",
+      "sourceUrl": "",
+      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels."
+    },
+    {
+      "diagramId": "u5-columba-endoskeleton",
+      "lang": "en",
+      "path": "pencil_plates/columba_skeleton_en.png",
+      "sha256": "15213b2c1423a5d1342f133e22f97cd41de94ddf030bf5c2e8ccbd891ed15130",
+      "author": "Adolf Bernhard Meyer",
+      "license": "Public domain — historical 19th-century illustration",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbildungen_von_Vogel-Skeletten_(Tafel_XC)_(6981817141).jpg",
+      "modifications": "Unmodified historical line-engraving PNG copied from existing credited reference. No redrawing or false contemporary specimen labels."
+    },
+    {
+      "diagramId": "u5-columba-endoskeleton",
+      "lang": "ta",
+      "path": "pencil_plates/columba_skeleton_ta.png",
+      "sha256": "358c4d80563995f9b48e744df6d5cd0d924b40ece64bba2d31eb0e59530a8760",
+      "author": "AI-generated original (ChatGPT ImageGen)",
+      "license": "AI-generated for CHORDATA; project-owner-authorised app distribution (no exclusive copyright or third-party reuse licence asserted)",
+      "sourceUrl": "",
+      "modifications": ""
+    },
+    {
+      "diagramId": "u5-columba-external",
+      "lang": "en",
+      "path": "pencil_plates/pigeon_external_anatomy_en.png",
+      "sha256": "38d10a35534d7b1a7f1d0d80c400248e069ad07a0fc3bb6c8f0367f18afb5b01",
+      "author": "John Gerrard Keulemans (1842–1912); original Columba livia zoological plate (1873)",
+      "license": "Public domain historical original (1873; artist died 1912), faithful original scan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columba_livia_1873.jpg",
+      "modifications": "Faithful pixel-preserving JPEG-to-PNG file-format conversion ONLY; no artwork newly drawn, AI-generated, upscaled, traced, cropped, sharpened or annotated."
+    },
+    {
+      "diagramId": "u5-columba-sense-organs",
+      "lang": "en",
+      "path": "pencil_plates/pigeon_eye_ear_en.png",
+      "sha256": "3873ea66a86d85407e9a120f78b267c4b31f61b6ae59e8a30f5c6408dcdf1a29",
+      "author": "Original engraver not identified; The New International Encyclopaedia, vol. 3 (1905), bird anatomy article by Ernest Ingersoll",
+      "license": "Public domain; two published bird-anatomy engravings from the New International Encyclopaedia (1905)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIE_1905_Bird_-_eye_structure.jpg",
+      "modifications": "Both public-domain 1905 anatomical JPEG scans placed at native pixel scale on 1600x1260 RGB PNG; bird inner ear isolated by documented x=490..1050, y=265..710 source crop of figure 12; captions only OUTSIDE art. No SVG drawing, anatomy redrawing, AI, or visual interpolation."
+    },
+    {
+      "diagramId": "u5-columba-urinogenital",
+      "lang": "en",
+      "path": "pencil_plates/pigeon_urinogenital_en.png",
+      "sha256": "f0678127364b73f72dff3a857aa61a0fae56715003c1805d86606ad679630404",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u5-dentition-human-rabbit-dental-formula",
+      "lang": "shared",
+      "path": "pencil_plates/human_rabbit_dental_formula.png",
+      "sha256": "29d0ac32251a09aedd446233d675dd8fd6a75122223ccdd206ca3132b9df1afc",
+      "author": "Chordata QA project — original numbered schematic",
+      "license": "CHORDATA project-original schematic; project-owner-authorised app distribution (no third-party reuse licence asserted)",
+      "sourceUrl": "",
+      "modifications": "Count symbols preserved. Added separately labelled schematic upper rabbit I1/I2 lateral inset, correct peg-tooth posterior relation, diastema and bilateral adult tooth-count formulae; original owner-approved hash archived."
+    },
+    {
+      "diagramId": "u5-dentition-tooth-types",
+      "lang": "shared",
+      "path": "pencil_plates/human_tooth_types.png",
+      "sha256": "f4769037610ed1ea2c9c19342d18d9805828976e8fcff8abf3fff61434e7c56c",
+      "author": "A. Tardieu (historical engraving, as attributed by Wellcome Collection); Wellcome Collection (digitised image)",
+      "license": "CC BY 4.0 — image from Wellcome Collection, historical A. Tardieu engraving",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_incisors,_canines,_small_and_large_molars_of_an_adult_hu_Wellcome_V0011998.jpg",
+      "modifications": "Original 3540x2316 Wellcome engraving decoded from JPEG and encoded as lossless RGB PNG; no cropping, resizing, overlays, tracing, AI or anatomical redrawing."
+    },
+    {
+      "diagramId": "u5-egg-laying-mammals-monotreme-reproduction",
+      "lang": "shared",
+      "path": "pencil_plates/platypus_reproduction.png",
+      "sha256": "018d3e2e8c0c4dc4c7edf34cb60fbf92e8446386e9fe765ce09d9d9346a53e6b",
+      "author": "Eric Chan (platypus photograph); Ian R McCann, Museums Victoria (echidna puggle photograph); F. E. Beddard (1902 anatomical plate); CHORDATA QA (comparison captions)",
+      "license": "Composite educational adaptation under CC BY-SA 4.0; source platypus CC BY 2.0, echidna puggle CC BY-SA 4.0, historical anatomy public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platypus_(4848256613).jpg",
+      "modifications": "Two authentic specimen photographs and one complete 1902 published anatomical panel resized proportionally on new background with English titles and accurate explanatory text; no fictitious eggs, hatchlings, milk teats or anatomical structures drawn."
+    },
+    {
+      "diagramId": "u5-flight-adaptations-avian-lung",
+      "lang": "en",
+      "path": "pencil_plates/avian_respiration_en.png",
+      "sha256": "c3d43b9dbdf71d41b173d2543f4c51495b699ed2d96c3d2667370672c8bbacb5",
+      "author": "L. Shyamal (2007; updated 2012), after R. McNeill Alexander; CHORDATA QA (raster rendering)",
+      "license": "Public domain — dedicated by L. Shyamal",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BirdRespiration.svg",
+      "modifications": "Original publicly released vector rendered as a 2400-pixel-wide lossless PNG on white background; anatomy and labels unchanged; source SVG is not embedded in the Android APK."
+    },
+    {
+      "diagramId": "u5-flight-adaptations-avian-lung",
+      "lang": "ta",
+      "path": "pencil_plates/avian_respiration_ta.png",
+      "sha256": "e29ead970da9fd42aa067bb810ec414fd0e63a78f84ab6e0ea19b4f4673bee40",
+      "author": "AI-generated original (ChatGPT ImageGen)",
+      "license": "AI-generated for CHORDATA; project-owner-authorised app distribution (no exclusive copyright or third-party reuse licence asserted)",
+      "sourceUrl": "",
+      "modifications": ""
+    },
+    {
+      "diagramId": "u5-flight-adaptations-flight-muscles",
+      "lang": "en",
+      "path": "pencil_plates/avian_flight_muscles_en.png",
+      "sha256": "3b424eb0227d3b770035b062c22aa5e4923b7f3195a096f39de17154a0c58d50",
+      "author": "L. Shyamal; CHORDATA QA (educational presentation)",
+      "license": "CC BY-SA 2.5 — derivative layout credited to all source creators",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wing_Muscles,_color.svg",
+      "modifications": "Unmodified Wikimedia Commons source anatomy rasterised from original SVG at 2500 px width with white background for label legibility."
+    },
+    {
+      "diagramId": "u5-flight-adaptations-wing-aerodynamics",
+      "lang": "en",
+      "path": "pencil_plates/avian_aerofoil_en.png",
+      "sha256": "3e100e287351226a1f724b9daec79a816a46d7c1c988edbf0240244222a029cf",
+      "author": "CHORDATA QA — original vector anatomical schematic",
+      "license": "Original project illustration; no source images copied",
+      "sourceUrl": "",
+      "modifications": "Original airflow diagram preserved; lift label corrected to component perpendicular to flow; added matching-background panel so streamline cannot obscure label; SVG/PNG re-rendered 2026-11-20."
+    },
+    {
+      "diagramId": "u5-flying-mammals-bat-wing-glider-comparison",
+      "lang": "en",
+      "path": "pencil_plates/bat_glider_comparison_en.png",
+      "sha256": "a28bc2f6ea0854067f9e8ab13adc9ccd0a38e34d7cecb9c38a29a6be64d11593",
+      "author": "OpenAI ImageGen — owner-selected original CHORDATA educational plate (12 November 2026)",
+      "license": "Original AI-assisted educational illustration supplied for CHORDATA QA; scientific review pending",
+      "sourceUrl": "",
+      "modifications": "Unmodified owner-selected PNG; no crop, tracing, upscaling or label editing in this recovery."
+    },
+    {
+      "diagramId": "u5-mammalia-classification-mammal-lineages",
+      "lang": "en",
+      "path": "pencil_plates/living_mammal_lineages_en.png",
+      "sha256": "86f40d17432f9376f5f1fa3e1e1060f60957448e3d649c71fc98ebfb076cc575",
+      "author": "CHORDATA QA — original vector anatomical schematic",
+      "license": "Original project illustration; no source images copied",
+      "sourceUrl": "",
+      "modifications": "Original drawing in retained editable SVG; rendered PNG with English labels."
+    },
+    {
+      "diagramId": "u5-marsupials-marsupial-life-history",
+      "lang": "en",
+      "path": "pencil_plates/marsupial_life_cycle_en.png",
+      "sha256": "36a23af112b64db609f732bbcdb789e231717f2c798694336fb67578259b6a0a",
+      "author": "Johnscotaus; CHORDATA QA (educational presentation)",
+      "license": "CC BY-SA 4.0 — derivative layout credited to all source creators",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baby_kangaroo_in_pouch.jpg",
+      "modifications": "Photograph proportionally scaled on a new educational plate, with text captions and biological caveat."
+    },
+    {
+      "diagramId": "u5-rabbit-brain",
+      "lang": "en",
+      "path": "pencil_plates/rabbit_brain_en.png",
+      "sha256": "d22d4ac27faddb7d40f67123d346f907970c8517539cfcb71313988f0d883a35",
+      "author": "Robert Wiedersheim (1848–1923) and William Newton Parker (1857–1923), Comparative Anatomy of Vertebrates (1907), fig. 170; Internet Archive Book Images scan",
+      "license": "Original illustration published 1907, public domain; scan via Internet Archive Book Images (Flickr)",
+      "sourceUrl": "https://www.flickr.com/photos/internetarchivebookimages/20481807000/",
+      "modifications": "Original high-resolution historic cropped scan pasted at native pixel dimensions onto a larger PNG canvas; a separate English contextual panel was added. No crop, AI, rescale or drawn anatomical feature."
+    },
+    {
+      "diagramId": "u5-rabbit-endoskeleton",
+      "lang": "en",
+      "path": "pencil_plates/rabbit_skeleton_en.png",
+      "sha256": "25a9d4a68486c54068caea46163d6007c1b0ca0b225f4915cf9a8ed5220939f9",
+      "author": "Auguste Chauveau and Saturnin Arloing (1890); Commons digitisation credited to Meyer C.",
+      "license": "Public domain — historical 1890 illustration",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SqueletteLapinChauveau1990.JPG",
+      "modifications": "Unmodified historical line-engraving PNG copied from existing credited reference. No redrawing or false contemporary specimen labels."
+    },
+    {
+      "diagramId": "u5-rabbit-endoskeleton",
+      "lang": "ta",
+      "path": "pencil_plates/rabbit_skeleton_ta.png",
+      "sha256": "25a9d4a68486c54068caea46163d6007c1b0ca0b225f4915cf9a8ed5220939f9",
+      "author": "Auguste Chauveau and Saturnin Arloing (1890); Commons digitisation credited to Meyer C.",
+      "license": "Public domain — historical 1890 illustration",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SqueletteLapinChauveau1990.JPG",
+      "modifications": "Byte-for-byte historical public-domain rabbit-skeleton source copied into Tamil plate path; no AI redrawing or altered anatomy; bilingual captions remain in Compose."
+    },
+    {
+      "diagramId": "u5-rabbit-excretory-system",
+      "lang": "shared",
+      "path": "pencil_plates/rabbit_urinary_tract.png",
+      "sha256": "7abf4f2b443086b9e323e0f32080da9be71e0eb1449416279ab5bde475430d6b",
+      "author": "J. Arthur Thomson, Outlines of Zoology (1916), Figs 393/394; original illustrator unidentified; CHORDATA QA layout",
+      "license": "Public domain — J. Arthur Thomson (died 1933), published 1916",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Image_from_page_743_of_%22Outlines_of_zoology%22_(1916)_(14597351000).jpg",
+      "modifications": "1916 Figs 393 and 394 separated at centre and proportionally scaled with contrast adjustment; English urinary-system key placed outside the historical ink. Both genders retained. Reproductive structures explicitly labelled as context."
+    },
+    {
+      "diagramId": "u5-rabbit-external",
+      "lang": "en",
+      "path": "pencil_plates/rabbit_external_anatomy_en.png",
+      "sha256": "9a5c6e1a7870bbebb42725604ce05d96820a5fc3ae35efdbe0970639609a0f7c",
+      "author": "Jacques Christophe Werner (1798-1856), Histoire naturelle des mammiferes (1824); Commons extract",
+      "license": "Public domain — Werner artwork published 1824; digitised Commons extract",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lepus_cuniculus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-(white_background).jpg",
+      "modifications": "Commons edition is white-background extract with altered orientation; this intake only converts source JPEG pixels to PNG, no further crop, resize, redraw, labels, vector or AI"
+    },
+    {
+      "diagramId": "u5-rabbit-sense-organs",
+      "lang": "en",
+      "path": "pencil_plates/rabbit_senses_en.png",
+      "sha256": "868ca1fa8803f902e8cbea393de70141365d7ed932d0136749651114bb95ced9",
+      "author": "Trougnouf (Benoit Brummer) (original photograph); CHORDATA QA (original educational labels)",
+      "license": "CC BY 4.0 — captioned educational derivative with original attribution",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Side_view_of_the_head_of_a_pet_rabbit_in_Brussels_(DSCF0830).jpg",
+      "modifications": "Proportional resizing of the complete unmodified photograph with numbered anatomical callouts and explanatory text on a new original canvas; no organ structures redrawn."
+    }
+  ]
+}

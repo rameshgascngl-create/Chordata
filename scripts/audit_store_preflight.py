@@ -95,7 +95,7 @@ assert 'fontSize = (16f * scale).sp' in inapp, "Privacy text does not respect 20
 assert 'The app does not request Internet access.' in inapp
 
 release_workflow = (ROOT / ".github/workflows/play-upload-candidate.yml").read_text(encoding="utf-8")
-for token in ("workflow_dispatch:", "play-upload-review", "scripts/write_figure_review_register.py --release-check",
+for token in ("workflow_dispatch:", "play-upload-review", "scripts/verify_owner_release.py",
               "Verify public privacy webpage", "Confirm matching successful QA workflow",
               "jarsigner", "apksigner", "zipalign", "-P 16", "audit_native_16kb.py", ":app:assembleRelease",
               "CHORDATA_Manual_Signed_Store_APK_Candidate",
@@ -108,9 +108,9 @@ for required in ('${{ inputs.version_code }}', '${{ inputs.version_name }}',
                  '${{ secrets.CHORDATA_PLAY_UPLOAD_KEYSTORE_B64 }}'):
     assert required in release_workflow, f"Malformed GitHub workflow interpolation: {required}"
 assert not re.search(r'\$\{\s*(?:inputs|github|secrets)\.', release_workflow), "Malformed GitHub expression"
-print("PASS: manual signed Play AAB and store APK workflow is gated by academic, privacy, tested SHA and secure signing checks")
+print("PASS: manual signed Play AAB and store APK workflow is gated by exact-asset owner approval, privacy, tested SHA and secure signing checks")
 print("PASS: no app-declared permissions, network/backup disabled, private offline progress")
 print("PASS: API 36+ target, release shrinker enabled, QA version, no release-signing keys")
 print("PASS: policy and in-app offline data disclosure anchored to current source")
-print("HOLD: public hosted policy URL, publisher privacy contact, human review, Play declarations")
+print("HOLD: public hosted policy URL, publisher privacy contact and Play declarations")
 print("HOLD: upload-key signing, release-bundle distribution and physical-device acceptance")
